@@ -25,8 +25,36 @@
         64
       ],
       "notes": "Default constructor delegates through a boolean-selected texture-height branch; the selected AoA renderers use the default."
+    },
+    {
+      "obfuscated": "bpn",
+      "mapped": "net.minecraft.client.model.ModelCow",
+      "class_sha256": "e80595b8c75773ef308b6b9787bb078127ca846c237e2d7f346afdd59039e4e3",
+      "normal_render_parts": 6,
+      "notes": "Zero-limb-swing neutral pose; selected normal render fields, not all allocated cuboids."
+    },
+    {
+      "obfuscated": "bqm",
+      "mapped": "net.minecraft.client.model.ModelQuadruped",
+      "class_sha256": "90de81fcafd7e05e4f3c708105eb026194dbc6c0e3fb454a989d5e246475ed02",
+      "normal_render_parts": 6,
+      "notes": "Zero-limb-swing neutral pose; selected normal render fields, not all allocated cuboids."
+    },
+    {
+      "obfuscated": "bpo",
+      "mapped": "net.minecraft.client.model.ModelCreeper",
+      "class_sha256": "0bd1ce5fb4de3cddd9ef052e83721d7512b5834bf1b9219914f6979f16e3ac96",
+      "normal_render_parts": 6,
+      "notes": "Zero-limb-swing neutral pose; selected normal render fields, not all allocated cuboids."
+    },
+    {
+      "obfuscated": "bra",
+      "mapped": "net.minecraft.client.model.ModelSpider",
+      "class_sha256": "5d90411c1c4002cb744264622447c3dab34a59498b4e159ea1085c604201324b",
+      "normal_render_parts": 11,
+      "notes": "Zero-limb-swing neutral pose; selected normal render fields, not all allocated cuboids."
     }
   ],
-  "method": "Restricted symbolic decoding of constructor constants and an explicit allowlist of ModelRenderer geometry operations. Unsupported instructions fail rather than guess. No JVM or game code execution.",
-  "limits": "Constructor rest pose only; animation, runtime rendering and shader parity remain separate."
+  "method": "Restricted symbolic decoding of constructors and explicit numeric neutral-pose operations. Only whitelisted ModelRenderer geometry operations and sine/cosine/absolute-value arithmetic are modeled. Unsupported instructions fail. No JVM or game code execution.",
+  "limits": "Biped/Zombie/Chest constructor-rest poses; Cow/Creeper/Spider zero-swing neutral poses. Python trigonometry approximates vanilla lookup-table results. Animation, baby scaling, effects and runtime shader parity remain separate."
 }

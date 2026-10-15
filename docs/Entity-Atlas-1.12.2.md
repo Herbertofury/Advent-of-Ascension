@@ -1,8 +1,8 @@
 # Entity atlas · 1.12.2
 
-**533 mapped model/texture presentations across 509 source entity IDs.** The original 467 presentations are joined by 31 inherited-model portraits and 35 miscellaneous/variant presentations. Counts include texture variants and non-living entity resources. These are additional generation-specific references, not a count of distinct mobs added to Enderloom.
+**537 mapped model/texture presentations across 513 source entity IDs.** The original 467 presentations are joined by 31 inherited-model portraits 35 miscellaneous/variant presentations, and four special/inherited creature portraits. Counts include texture variants and non-living entity resources. These are additional generation-specific references, not a count of distinct mobs added to Enderloom.
 
-The literal importer converted 411 of 415 inspected model classes after adding explicit ModelBox support. Renderer registrations establish source IDs and shared/variant texture mappings. Missing inherited models and unresolved renderers remain open.
+The literal importer converted 411 of 415 inspected model classes after adding explicit ModelBox support. Renderer registrations establish source IDs and shared/variant texture mappings. Dynamic item/effect renderer presentations remain open.
 
 - [Gallery 1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Gallery-1.12.2-1)
 - [Gallery 2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Gallery-1.12.2-2)
@@ -28,17 +28,17 @@ The literal importer converted 411 of 415 inspected model classes after adding e
 
 [Thirty-five additional miscellaneous and variant presentations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Misc-Entity-Gallery-1.12.2) resolve misc/eggless registrations, Automaton colors and the default Runicorn model.
 
-## Remaining renderer mappings
+## Special model supplement
 
-7 entries still require another mapping or model adapter. No placeholder is counted as a completed preview.
+[Four additional verified portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Model-Gallery-1.12.2) cover Creep Cow, Friendly Creeper, Sea Spider and Lotto Totem.
 
-- `aoa3:boss_item`: No single explicit model, literal texture or registry ID
-- `aoa3:creep_cow`: Model inherited, procedural or not converted
-- `aoa3:fake_tnt`: No single explicit model, literal texture or registry ID
-- `aoa3:friendly_creeper`: No single explicit model, literal texture or registry ID
-- `aoa3:lotto_totem`: No single explicit model, literal texture or registry ID
-- `aoa3:occult_block`: No single explicit model, literal texture or registry ID
-- `aoa3:sea_spider`: Model inherited, procedural or not converted
+## Remaining dynamic presentations
+
+Three renderer entries need dedicated item/effect presentation. Their source behavior is identified in the special-model page; no placeholder is counted as a completed preview.
+
+- `aoa3:boss_item`: arbitrary carried ItemStack, rendered as a dropped item
+- `aoa3:fake_tnt`: vanilla primed TNT renderer with fuse/flash behavior
+- `aoa3:occult_block`: untextured, harvest-level-colored bounding box
 
 ## Empty base models
 
