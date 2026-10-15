@@ -33,4 +33,6 @@ This edition covers GeckoLib/Bedrock geometry. Java-coded legacy model support a
 
 ## Every historical version
 
-The first visual pass uses 1.21.1 / 3.7.16.1. The downloaded 1.20.1, 1.16.5 and 1.12.2 releases are the next source sets for generation-specific galleries. An older source model is never silently relabelled as a modern implementation.
+[Explore the historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries): **7,600 additional version-specific previews** from the official 1.20.1, 1.16.5 and 1.12.2 releases, across 161 named image sheets. These are preview records across versions, not 7,600 unique items. Each gallery preserves its own release identity and coverage gaps.
+
+Legacy creature previews and illustrated crafting walkthroughs are being added separately. An older source model is never silently relabelled as a modern implementation.
