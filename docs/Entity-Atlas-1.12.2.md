@@ -34,7 +34,7 @@ The literal importer converted 411 of 415 inspected model classes after adding e
 
 ## Remaining dynamic presentations
 
-Three renderer entries need dedicated item/effect presentation. Their source behavior is identified in the special-model page; no placeholder is counted as a completed preview.
+Three renderer entries have [illustrated item/effect reference studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dynamic-Entity-References-1.12.2). Their source behavior is identified; full runtime effects remain unverified. These are separate from the static portrait count.
 
 - `aoa3:boss_item`: arbitrary carried ItemStack, rendered as a dropped item
 - `aoa3:fake_tnt`: vanilla primed TNT renderer with fuse/flash behavior
