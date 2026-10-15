@@ -1,9 +1,20 @@
 <p align="center"><img src="docs/atlas-banner.svg" alt="Advent of Ascension — Enderloom restoration and knowledge atlas" width="100%"></p>
 
-<p align="center"><strong>Legacy breadth. Modern systems. A complete, proven adventure.</strong></p>
+<p align="center"><strong>Legacy breadth. Modern systems. Document the adventure. Prove the restoration.</strong></p>
 <p align="center"><a href="https://github.com/Herbertofury/Advent-of-Ascension/wiki">Explore the wiki</a> · <a href="docs/Version-Matrix.md">Choose your source versions</a> · <a href="docs/Progress.md">Progress & evidence</a> · <a href="docs/README.md">Full documentation</a></p>
 
 > **Project status:** documentation and source-evidence atlas. A completed merged AoA release is not yet certified here. Current Desktop Enderloom artifacts await direct reconciliation.
+
+## Explore it visually
+
+- [Interactive 3D Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/)
+- [Illustrated Recipe Observatory: 6,781 version-specific definitions](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html)
+- [Named modern and historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas)
+- [Legacy model atlas: 301 Java-model portraits and 151 geometry-resource previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas)
+- [First portal: illustrated crafting and construction walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough)
+- [17 plants and their 134 growth-stage models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages)
+
+Counts are version-specific documentation records and can overlap. Source-derived images are not runtime certification. [Coverage and remaining gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage).
 
 ## The vision
 
