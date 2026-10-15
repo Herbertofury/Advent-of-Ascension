@@ -44,3 +44,9 @@ The original mod name and IDs are preserved as the project goal. This is an inde
 
 ---
 Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits.md). Source presence is not target runtime proof.
+
+## Optional premium weapon overhaul
+
+Every accepted weapon should have a reversible premium 3D presentation option, with polished animations and appropriate reload/recharge mechanics. Preserve original AoA behavior and require measured compatibility/performance evidence.
+
+[Design contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Unchecked implementation backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog)
