@@ -40,3 +40,8 @@ Legacy creature previews and illustrated crafting walkthroughs are being added s
 ## 1.12.2 source-mapped entity portraits
 
 [Browse the 1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2): 467 mapped model/texture presentations across 447 source entity IDs, including variants and non-living resources. Thirteen galleries include source-model and renderer links; remaining inherited/procedural mappings are listed explicitly. These are reference renders, not proof of a playable conversion.
+
+## Additional source-mapped variants
+
+- [1.16.5 fish and Dryad Sprite variants](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shared-Model-Variants-1.16.5)
+- [1.21.1 active fish mappings and unused resource studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Additional-Model-Mappings-1.21.1)

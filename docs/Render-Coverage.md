@@ -122,3 +122,9 @@ All 13 current contact sheets were visually reviewed. Geometry/texture-identical
 ## Artifact-derived spawn egg colors
 
 The two vanilla-template Skeletron egg previews now use color arguments read from the official 1.21.1 JAR builder calls. All 82 extracted builder palettes matched the pinned source declarations. Custom-painted egg textures remain unchanged. [Validation record](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/spawn-egg-color-validation.json). No mod code was executed.
+
+## Additional source mapping coverage
+
+The [modern mapping supplement](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Additional-Model-Mappings-1.21.1) adds 19 presentations: 11 actively source-mapped fish variants and eight explicitly labeled unused/historical resource studies. Together with the 118 initial previews, this illustrates 137 model/texture presentations across 128 distinct modern geometry resources. The original filename-only unresolved table above is retained as the initial-pass record; these supplements supersede its mapping gaps for Gemtrap, Skipper, Stripefish, Coratee, Boneback, Bugeye, Goalby, Night Reaper, Nightfly and Sea Troll. Trickster still lacks its texture in the inspected JAR. Unused studies are not counted as active gameplay.
+
+The [1.16.5 variant supplement](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shared-Model-Variants-1.16.5) adds 17 source-mapped fish and Dryad Sprite appearances beyond the initial 42 geometry/texture pairs. These are variants, not 17 newly implemented mobs.
