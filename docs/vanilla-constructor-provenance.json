@@ -14,6 +14,17 @@
       "mapped": "net.minecraft.client.model.ModelChest",
       "class_sha256": "452a46cc85cead001e33c3f53fdecea24cb4100d635355f5a589f454255998ef",
       "constructor_parts": 3
+    },
+    {
+      "obfuscated": "brl",
+      "mapped": "net.minecraft.client.model.ModelZombie",
+      "class_sha256": "af7ebb7d2baa077c012b49b73b136dcd0f52cda0a6c8537b65abe3befed926b9",
+      "constructor_parts": 7,
+      "default_texture_dimensions": [
+        64,
+        64
+      ],
+      "notes": "Default constructor delegates through a boolean-selected texture-height branch; the selected AoA renderers use the default."
     }
   ],
   "method": "Restricted symbolic decoding of constructor constants and an explicit allowlist of ModelRenderer geometry operations. Unsupported instructions fail rather than guess. No JVM or game code execution.",

@@ -1,6 +1,6 @@
 # Entity atlas · 1.12.2
 
-**495 mapped model/texture presentations across 475 source entity IDs.** The original 467 presentations are joined by a 28-portrait inherited-biped supplement. Counts include texture variants and non-living entity resources. These are additional generation-specific references, not a count of distinct mobs added to Enderloom.
+**533 mapped model/texture presentations across 509 source entity IDs.** The original 467 presentations are joined by 31 inherited-model portraits and 35 miscellaneous/variant presentations. Counts include texture variants and non-living entity resources. These are additional generation-specific references, not a count of distinct mobs added to Enderloom.
 
 The literal importer converted 411 of 415 inspected model classes after adding explicit ModelBox support. Renderer registrations establish source IDs and shared/variant texture mappings. Missing inherited models and unresolved renderers remain open.
 
@@ -22,53 +22,23 @@ The literal importer converted 411 of 415 inspected model classes after adding e
 
 ## Inherited-model supplement
 
-[Twenty-eight additional inherited biped portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inherited-Model-Gallery-1.12.2) use constructor geometry read from the official Minecraft client, with AoA renderer mappings and textures.
+[Thirty-one additional inherited biped/zombie portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inherited-Model-Gallery-1.12.2) use constructor geometry read from the official Minecraft client, with AoA renderer mappings and textures.
+
+## Miscellaneous and renderer variants
+
+[Thirty-five additional miscellaneous and variant presentations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Misc-Entity-Gallery-1.12.2) resolve misc/eggless registrations, Automaton colors and the default Runicorn model.
 
 ## Remaining renderer mappings
 
-41 entries still require another mapping or model adapter. No placeholder is counted as a completed preview.
+7 entries still require another mapping or model adapter. No placeholder is counted as a completed preview.
 
-- `EntityAgilityTablet`: No single explicit model, literal texture or registry ID
-- `EntityAnimaStone`: No single explicit model, literal texture or registry ID
-- `aoa3:automaton`: No single explicit model, literal texture or registry ID
-- `EntityAwarenessTablet`: No single explicit model, literal texture or registry ID
-- `EntityBaneBig`: No single explicit model, literal texture or registry ID
-- `EntityBaneClone`: No single explicit model, literal texture or registry ID
-- `EntityBaronBomb`: No single explicit model, literal texture or registry ID
-- `EntityBloodlust`: No single explicit model, literal texture or registry ID
-- `EntityBossItem`: No single explicit model, literal texture or registry ID
-- `EntityBreedingTablet`: No single explicit model, literal texture or registry ID
-- `EntityCleansingTablet`: No single explicit model, literal texture or registry ID
-- `aoa3:clown`: Model inherited, procedural or not converted
+- `aoa3:boss_item`: No single explicit model, literal texture or registry ID
 - `aoa3:creep_cow`: Model inherited, procedural or not converted
-- `EntityDistortionTablet`: No single explicit model, literal texture or registry ID
-- `EntityElusiveClone`: No single explicit model, literal texture or registry ID
-- `EntityEnergyTablet`: No single explicit model, literal texture or registry ID
-- `aoa3:fake_pigman`: No single explicit model, literal texture or registry ID
-- `EntityFakeTnt`: No single explicit model, literal texture or registry ID
-- `EntityFakeZorp`: No single explicit model, literal texture or registry ID
+- `aoa3:fake_tnt`: No single explicit model, literal texture or registry ID
 - `aoa3:friendly_creeper`: No single explicit model, literal texture or registry ID
-- `EntityGravityTablet`: No single explicit model, literal texture or registry ID
-- `EntityGyrocopter`: No single explicit model, literal texture or registry ID
-- `EntityHeartStone`: No single explicit model, literal texture or registry ID
-- `EntityLottoTotem`: No single explicit model, literal texture or registry ID
-- `aoa3:meganeuropsis`: No single explicit model, literal texture or registry ID
-- `EntityOccultBlock`: No single explicit model, literal texture or registry ID
-- `EntityOxygenTablet`: No single explicit model, literal texture or registry ID
-- `aoa3:phantom`: Model inherited, procedural or not converted
-- `EntityPressureTablet`: No single explicit model, literal texture or registry ID
-- `EntityProficiencyTablet`: No single explicit model, literal texture or registry ID
-- `EntityResistanceTablet`: No single explicit model, literal texture or registry ID
-- `aoa3:runicorn`: No single explicit model, literal texture or registry ID
-- `EntitySanctityTablet`: No single explicit model, literal texture or registry ID
-- `EntitySatiationTablet`: No single explicit model, literal texture or registry ID
+- `aoa3:lotto_totem`: No single explicit model, literal texture or registry ID
+- `aoa3:occult_block`: No single explicit model, literal texture or registry ID
 - `aoa3:sea_spider`: Model inherited, procedural or not converted
-- `EntitySightTablet`: No single explicit model, literal texture or registry ID
-- `EntityStrengthTablet`: No single explicit model, literal texture or registry ID
-- `EntityTreeSpirit`: No single explicit model, literal texture or registry ID
-- `EntityTricksterClone`: No single explicit model, literal texture or registry ID
-- `EntityUntiringTablet`: No single explicit model, literal texture or registry ID
-- `EntityVitalityTablet`: No single explicit model, literal texture or registry ID
 
 ## Empty base models
 

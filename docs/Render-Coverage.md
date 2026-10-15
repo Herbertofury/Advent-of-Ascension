@@ -132,3 +132,7 @@ The [1.16.5 variant supplement](https://github.com/Herbertofury/Advent-of-Ascens
 ## Thin-surface rendering correction
 
 Zero-thickness fins, wings and similar model parts now render as one two-sided surface with separate front/back UV coordinates. This removes coincident-face black artifacts without editing original assets. 127 unique model/texture pairs were rerendered and reviewed across six contact sheets, updating 175 public image files. A synthetic red/blue-sided fixture verified that opposite sides retain their own texture region. [Validation details](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/planar-render-validation.json). This is a documentation-renderer correction, not an in-game mod change.
+
+## Extended 1.12.2 coverage
+
+The inherited-model and miscellaneous-registration passes raise the 1.12.2 atlas to **533 presentations across 509 source entity IDs**. Seven renderer mappings remain pending; nine additional registrations use an empty base model rather than missing cuboid geometry. Variant/effect resources are included, so these figures are not a living-mob count. The [entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2) separates all three categories.
