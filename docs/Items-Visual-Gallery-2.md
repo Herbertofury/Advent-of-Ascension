@@ -16,7 +16,7 @@ Models retain their actual geometry. Flat/generated items are shown as their pix
 |---|---|---|
 | Elite King Bambambam Spawn Egg | `aoa3:elite_king_bambambam_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Elite Nethengeic Wither Spawn Egg | `aoa3:elite_nethengeic_wither_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
-| Elite Skeletron Spawn Egg | `aoa3:elite_skeletron_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model; runtime spawn-egg tint unresolved |
+| Elite Skeletron Spawn Egg | `aoa3:elite_skeletron_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model; spawn-egg layer tints from official JAR initializer constants |
 | Elite Smash Spawn Egg | `aoa3:elite_smash_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Elite Tyrosaur Spawn Egg | `aoa3:elite_tyrosaur_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Ember Staff | `aoa3:ember_staff` | generated item: pixel-extruded artwork, not a bespoke volumetric model |

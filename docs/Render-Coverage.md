@@ -118,3 +118,7 @@ Exact constructor accounting and static-image review do not establish animation,
 467 model/texture presentations across 447 source entity IDs are documented in the [1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2). This includes variants and non-living resources, not 467 distinct mobs. The importer converted 411 of 415 inspected model classes; 78 renderer entries still need inherited, procedural or nonliteral mapping work. Two invulnerability-aura-only textures were excluded from body portraits.
 
 All 13 current contact sheets were visually reviewed. Geometry/texture-identical portraits reuse existing 1.16.5 image URLs; 205 new unique pairs add 410 full-size/thumbnail files. Lossless WebP exports preserve exact RGBA bytes for full-size images. These remain static source references; animations, render layers, world scaling and target gameplay are not certified.
+
+## Artifact-derived spawn egg colors
+
+The two vanilla-template Skeletron egg previews now use color arguments read from the official 1.21.1 JAR builder calls. All 82 extracted builder palettes matched the pinned source declarations. Custom-painted egg textures remain unchanged. [Validation record](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/spawn-egg-color-validation.json). No mod code was executed.
