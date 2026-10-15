@@ -4,6 +4,17 @@
 
 **A complete, evidence-led Advent of Ascension through Enderloom.** Preserve the accepted historical content, bring across the best modern systems, and prove the result in the game. This is the project’s documentation hub; it does not advertise an already completed playable merged release.
 
+## Explore it visually
+
+- [Interactive 3D Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/)
+- [Illustrated Recipe Observatory: 6,781 version-specific definitions](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html)
+- [Named modern and historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas)
+- [Legacy model atlas: 301 Java-model portraits and 151 geometry-resource previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas)
+- [First portal: illustrated crafting and construction walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough)
+- [17 plants and their 134 growth-stage models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages)
+
+Counts are version-specific documentation records and can overlap. Source-derived images are not runtime certification. [Coverage and remaining gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage).
+
 | Explore the mod | Follow the restoration |
 |---|---|
 | [Version matrix & which releases to use](Version-Matrix.md) | [Verified progress & what remains](Progress.md) |

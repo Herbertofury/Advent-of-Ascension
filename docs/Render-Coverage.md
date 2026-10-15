@@ -98,3 +98,13 @@ The historical galleries add **7,600 version-specific inventory preview records*
 These are records across releases, not unique content counts. Missing custom renderers, intentional invisible blocks, non-inventory block states and unresolved model mappings remain tracked. The 1.12.2 candidate set is not an assertion that every runtime registry entry was recovered.
 
 [Historical gallery index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries). All 32 historical wiki pages were compared against their generated Markdown after publication.
+
+## Legacy models and growth-stage supplements
+
+- **301 Java-model portraits** from pinned 1.16.5 source constructors paired with official 3.6.11 textures, with full-size PNGs and lightweight thumbnails. All 602 image files were verified against their Git blob hashes after upload.
+- **151 official geometry/texture pairs**: 42 from the 1.16.5 artifact and 109 from 1.20.1, displayed across seven named sheets. All were visually reviewed; 126 reused a previously rendered byte-identical geometry/texture pair.
+- **134 growth-stage images across 17 plants**, taken from the age variants in the 1.21.1 artifact. These are separate block-state views, not additional item counts.
+
+[Legacy model atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas) · [Growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages).
+
+Exact constructor accounting and static-image review do not establish animation, custom renderer scaling, gameplay registration or target runtime compatibility. Outstanding variant mappings, procedural/inherited models and older 1.7.10 binary acquisition remain open.
