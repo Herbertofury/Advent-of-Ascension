@@ -20,12 +20,18 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 Presentation changes must not silently alter damage, ammo economy, skill requirements, projectile effects, enchantments, progression or existing item identity. A magazine-based gameplay conversion is a separate, opt-in rule set. Cosmetic reload animation alone must never imply ammunition was consumed or replenished.
 
+## Reloading is optional
+
+**Owner requirement:** premium 3D models and animations must work with reloads disabled. Reloading is an independent per-weapon option, not a prerequisite for the visual upgrade. Default to each original weapon's actual resource system: mana, energy, ammunition or another native cost. Do not add magazines, manual reload input, reload delays or artificial downtime to weapons that do not normally have them.
+
+When enabled, optional reload/recharge mechanics must be clearly described and server-approved. A mana weapon may have a purely cosmetic casting or energy-flow animation without a reload action. Players can use the full premium remodel, firing, aiming and inspection quality while retaining original firing behavior. Disabling optional reloads must preserve valid resource state and cannot grant free ammo or mana.
+
 ## An arsenal, not one repeated animation
 
 - **Magazine weapons:** tactical and empty reloads, believable magazine handling, correct remaining-round state.
 - **Per-round weapons:** shell or round insertion with interrupt-safe timing.
 - **Bolt, pump and heavy weapons:** distinctive mechanisms, recovery and handling weight.
-- **Energy and magical weapons:** recharge, vent, crystal replacement or a lore-appropriate rearming action.
+- **Energy and magical weapons:** preserve native mana/energy behavior; optional recharge, vent, crystal replacement or rearming only when appropriate and explicitly enabled.
 - **Bows and crossbows:** draw, tension, nocking/loading and release that preserve native mechanics.
 - **Melee and unusual weapons:** appropriate ready, attack, inspect and recovery animations; do not invent a magazine where none belongs.
 

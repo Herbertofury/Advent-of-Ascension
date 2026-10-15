@@ -15,6 +15,9 @@
 
 - [ ] Study Ars Armorer, ArsArms and IronsArms; pin matching releases/source and evaluate optional magic-through-firearms adapters without changing native AoA costs or effects. See the [reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library#magic-through-firearms-references).
 
+- [ ] Make reloading independently optional per weapon, disabled by default when absent from native AoA behavior; retain full premium visuals with native mana/energy/ammo use and no added reload delay.
+- [ ] Test switching reload options without duplicated resources, lost charges or server/client disagreement.
+
 ## Vertical slice before scaling
 - [ ] Choose representative magazine, per-round, magical/energy, bow and unusual weapons.
 - [ ] Build original, AoA-faithful premium models and textures.
