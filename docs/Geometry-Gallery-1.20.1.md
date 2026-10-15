@@ -157,3 +157,7 @@ Animations, runtime scaling, particles and custom shader effects are not represe
 - `assets/aoa3/geo/entity/mob/overworld/trickster.geo.json`: No unique exact texture mapping
 - `assets/aoa3/geo/entity/mob/precasia/veloraptor.geo.json`: No unique exact texture mapping
 - `assets/aoa3/geo/entity/npc/ambient/dryad_sprite.geo.json`: No unique exact texture mapping
+
+## Additional explicit mappings
+
+[Eleven fish variants and two Coratee resource studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Additional-Model-Mappings-1.20.1) supplement the filename-only pass. Coratee texture selection has a separately documented static mismatch requiring game tests.
