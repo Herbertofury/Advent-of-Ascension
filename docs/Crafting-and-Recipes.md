@@ -67,3 +67,7 @@ Some serializers compute their inputs or outputs at runtime, such as staff charg
 The browser loads one version's compact data shard at a time and initially renders 60 matching cards, adding more on request. Item icons reuse the atlas sheets instead of issuing a separate image request per recipe. No background rescan of your mods or game files is needed.
 
 The source artifacts and checksums are documented in [Sources and credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits) and the repository's artifact evidence. Models/textures are by **Tslat and contributors**. The explorer, diagrams and explanatory text are independently produced documentation.
+
+## Legacy metadata-aware ingredient previews
+
+The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixteen dyes, six saplings, three wool colors, charcoal, coarse dirt and dandelion. Each uses its matching official item model and texture rather than showing the default variant for every metadata value. Wildcard metadata is labeled **Any variant**, and unsupported variants keep a readable fallback. The full 6,781-card construction suite and targeted dye/name/wildcard checks passed after this update. These are UI/data tests, not a replacement for in-game crafting validation.
