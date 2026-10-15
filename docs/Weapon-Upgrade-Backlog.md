@@ -13,6 +13,8 @@
 - [ ] Preserve original presentation when optional integrations are absent.
 - [ ] Define an opt-in gameplay reload mode separately from cosmetic presentation.
 
+- [ ] Study Ars Armorer, ArsArms and IronsArms; pin matching releases/source and evaluate optional magic-through-firearms adapters without changing native AoA costs or effects. See the [reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library#magic-through-firearms-references).
+
 ## Vertical slice before scaling
 - [ ] Choose representative magazine, per-round, magical/energy, bow and unusual weapons.
 - [ ] Build original, AoA-faithful premium models and textures.

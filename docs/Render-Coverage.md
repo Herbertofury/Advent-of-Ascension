@@ -108,3 +108,7 @@ These are records across releases, not unique content counts. Missing custom ren
 [Legacy model atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas) · [Growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages).
 
 Exact constructor accounting and static-image review do not establish animation, custom renderer scaling, gameplay registration or target runtime compatibility. Outstanding variant mappings, procedural/inherited models and older 1.7.10 binary acquisition remain open.
+
+## Supplemental 1.12.2 source edge cases
+
+[Seven supplemental inventory previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) cover the remaining candidates from the 2,466-record localization/model join. Six expose source models with undefined texture aliases; Shyre Cloud needs a translucent reference path. Diagnostic handling and its limits are explicit. These supplement the original 2,459 regular previews and do not certify a complete runtime registry or target renderer.

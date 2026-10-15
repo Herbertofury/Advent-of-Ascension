@@ -31,6 +31,18 @@ The official TaCZ page lists Forge 1.20.1 1.1.8-hotfix2 at this research snapsho
 
 These are qualitative study selections, not a measured ranking or a claim that every animation has been watched. Inspect gameplay capture and source/tooling before selecting a technique.
 
+## Magic-through-firearms references
+
+These three owner-selected references complement one another: a visual gunpack and two spell-integration addons. They are references to evaluate, not mandatory AoA dependencies or proof of existing AoA compatibility.
+
+- **[Ars Armorer — Koei](https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei):** retain as the magical art-direction reference. Study how a fantasy identity carries into weapon forms, materials and handling.
+- **[ArsArms](https://www.curseforge.com/minecraft/mc-mods/arsarms)** · [official source](https://github.com/mumu17-git/ArsArms): integrates Ars Nouveau spells with TaCZ guns. The CurseForge description uses Reactive enchantment and stored mana. It lists Forge 1.20.1, version 3.0.4 and MIT licensing at this snapshot. Study event integration, mana accounting and how spell firing coexists with ordinary weapon modes.
+- **[IronsArms](https://www.curseforge.com/minecraft/mc-mods/ironsarms)** · [official source](https://github.com/mumu17-git/IronsArms): integrates Iron's Spells 'n Spellbooks with TaCZ, including Arcane Anvil spell imbuing and stored mana. The listing identifies Forge 1.20.1, version 3.0.6 and MIT licensing. Study spell selection, persistent weapon state and server-authoritative resource consumption.
+
+**Version warning:** ArsArms' current CurseForge description and repository README describe different workflows (gun/Self glyph versus ammo box/Touch glyph). Pin a release and inspect its matching code before documenting player instructions. Do not combine those workflows into an invented recipe.
+
+**AoA application, proposed:** preserve AoA's own resource costs, projectile identities, status effects, skills and cooldowns behind an optional weapon-effect adapter. Test that one shot cannot double-cast, charge resources twice, bypass progression or lose state during reload cancellation. Compare addon hooks before adding another mixin or per-tick inventory scan. New external spell systems should be explicit optional integrations, not a silent rewrite of original AoA weapons.
+
 ## Authoring and integration toolkit
 
 - [TaCZ gunpack documentation](https://tacwiki.mcma.club/) and [first gun guide](https://tacwiki.mcma.club/gunpack/first_gun/): separate gameplay data from display assets and presentation configuration.
