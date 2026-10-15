@@ -6,13 +6,13 @@
 
 Four official JAR downloads were checked against their advertised SHA-512 hashes: 1.12.2 / 3.3.6, 1.16.5 / 3.6.11, 1.20.1 / 3.7.1 and 1.21.1 / 3.7.16.1. Complete source archives for five pinned branches were downloaded for read-only inspection. No JAR code was executed.
 
-## Current image generation coverage
+## Initial modern image generation pass
 
 - **118** entity-resource models produced textured rest-pose previews from the 1.21.1 JAR.
 - **2328 / 2371** localized item/block entries produced nonblank previews.
-- **54** entries still require custom mapping or a renderer adapter.
+- **54** entries needed custom mapping or a renderer adapter in the initial pass. Supplements below resolve several of these; this is not the current outstanding total.
 - A 24-frame Smash turntable shows the model from all sides. It is a camera orbit, not a mob animation.
-- Only the modern 1.21.1 release has this first complete render pass. Earlier releases have been acquired, but their Java-coded model adapters and galleries remain unfinished.
+- Subsequent passes cover historical inventories, Java-coded legacy entities, inherited geometry, crops and dynamic reference studies. See the dated categories below and the Progress page for current evidence.
 
 ## Accuracy boundaries
 
@@ -20,7 +20,7 @@ This is an independent showcase renderer, not Minecraft framebuffer capture. Lig
 
 Source resource directories can contain unused, duplicate or unfinished-looking models. For example, modern Skeletron and Tyrosaur resources must not be mistaken for verified legacy appearances or complete boss implementations. Use the version matrix and implementation evidence.
 
-## Still unresolved
+## Initial-pass exceptions (superseded where supplements exist)
 
 | Entry | Reason |
 |---|---|
@@ -136,3 +136,7 @@ Zero-thickness fins, wings and similar model parts now render as one two-sided s
 ## Extended 1.12.2 coverage
 
 The inherited-model, miscellaneous-registration and special-model passes raise the 1.12.2 atlas to **537 presentations across 513 source entity IDs**. Three identified dynamic item/effect renderers have separate illustrated reference studies, with runtime effects still unverified; nine additional registrations use an empty base model rather than missing cuboid geometry. Variant/effect resources are included, so these figures are not a living-mob count. The [entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2) separates all three categories.
+
+## Dynamic fluid containers
+
+[Fluid and bucket references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-and-Bucket-References) supply 21 source-defined first-frame studies for the Forge dynamic bucket cases: 18 on 1.16.5 and three on 1.20.1. Core and integration-conditional registrations are distinguished. This closes their missing-documentation-picture gap while retaining runtime rendering and animation verification as open work.
