@@ -84,3 +84,17 @@ Source resource directories can contain unused, duplicate or unfinished-looking 
 The public gallery contains rendered showcases and original viewer code, not a downloadable collection of original AoA textures, models or JARs. Open an official local JAR in the interactive viewer to inspect the source geometry without uploading it.
 
 Advent of Ascension models/textures by **Tslat and contributors**. These are independently rendered documentation showcases from **AoA 3.7.16.1 / Minecraft 1.21.1**, not Enderloom runtime screenshots. [Official mod](https://modrinth.com/mod/adventofascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki).
+
+## Historical inventory pass
+
+The historical galleries add **7,600 version-specific inventory preview records** across 161 named sheets:
+
+| Minecraft / AoA | Rendered records | Candidate records | Mapping scope |
+|---|---:|---:|---|
+| 1.20.1 / 3.7.1 | 2,503 | 2,544 | Artifact localization and item models |
+| 1.16.5 / 3.6.11 | 2,638 | 2,696 | Artifact localization and item models |
+| 1.12.2 / 3.3.6 | 2,459 | 2,466 | Unique normalized localization/model joins; registry identity not independently certified |
+
+These are records across releases, not unique content counts. Missing custom renderers, intentional invisible blocks, non-inventory block states and unresolved model mappings remain tracked. The 1.12.2 candidate set is not an assertion that every runtime registry entry was recovered.
+
+[Historical gallery index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries). All 32 historical wiki pages were compared against their generated Markdown after publication.
