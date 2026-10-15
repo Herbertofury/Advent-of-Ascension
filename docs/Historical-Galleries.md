@@ -61,3 +61,7 @@ These galleries preserve source-generation differences instead of silently apply
 Legacy Java-model creature galleries are being rendered from pinned source constructors and matching-version JAR textures. 1.7.10 binary acquisition and its dedicated renderer remain separate tasks. Custom/unmatched models are recorded as gaps, not replaced with invented images.
 
 Advent of Ascension is created by **Tslat and contributors**. [Official source](https://github.com/Tslat/Advent-Of-Ascension) · [Official downloads](https://modrinth.com/mod/adventofascension).
+
+## 1.12.2 source-mapped entity portraits
+
+[Browse the 1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2): 467 mapped model/texture presentations across 447 source entity IDs, including variants and non-living resources. Thirteen galleries include source-model and renderer links; remaining inherited/procedural mappings are listed explicitly. These are reference renders, not proof of a playable conversion.

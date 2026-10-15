@@ -112,3 +112,9 @@ Exact constructor accounting and static-image review do not establish animation,
 ## Supplemental 1.12.2 source edge cases
 
 [Seven supplemental inventory previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) cover the remaining candidates from the 2,466-record localization/model join. Six expose source models with undefined texture aliases; Shyre Cloud needs a translucent reference path. Diagnostic handling and its limits are explicit. These supplement the original 2,459 regular previews and do not certify a complete runtime registry or target renderer.
+
+## 1.12.2 entity renderer mapping pass
+
+467 model/texture presentations across 447 source entity IDs are documented in the [1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2). This includes variants and non-living resources, not 467 distinct mobs. The importer converted 411 of 415 inspected model classes; 78 renderer entries still need inherited, procedural or nonliteral mapping work. Two invulnerability-aura-only textures were excluded from body portraits.
+
+All 13 current contact sheets were visually reviewed. Geometry/texture-identical portraits reuse existing 1.16.5 image URLs; 205 new unique pairs add 410 full-size/thumbnail files. Lossless WebP exports preserve exact RGBA bytes for full-size images. These remain static source references; animations, render layers, world scaling and target gameplay are not certified.

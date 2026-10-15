@@ -36,3 +36,7 @@ This edition covers GeckoLib/Bedrock geometry. Java-coded legacy model support a
 [Explore the historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries): **7,600 additional version-specific previews** from the official 1.20.1, 1.16.5 and 1.12.2 releases, across 161 named image sheets. These are preview records across versions, not 7,600 unique items. Each gallery preserves its own release identity and coverage gaps.
 
 Legacy creature previews and illustrated crafting walkthroughs are being added separately. An older source model is never silently relabelled as a modern implementation.
+
+## 1.12.2 source-mapped entity portraits
+
+[Browse the 1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2): 467 mapped model/texture presentations across 447 source entity IDs, including variants and non-living resources. Thirteen galleries include source-model and renderer links; remaining inherited/procedural mappings are listed explicitly. These are reference renders, not proof of a playable conversion.

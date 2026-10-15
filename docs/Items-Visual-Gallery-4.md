@@ -104,7 +104,7 @@ Models retain their actual geometry. Flat/generated items are shown as their pix
 | Skeletal Pickaxe | `aoa3:skeletal_pickaxe` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Skeletal Shovel | `aoa3:skeletal_shovel` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Skeletal Sword | `aoa3:skeletal_sword` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
-| Skeletron Spawn Egg | `aoa3:skeletron_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
+| Skeletron Spawn Egg | `aoa3:skeletron_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model; runtime spawn-egg tint unresolved |
 | Skill Master Spawn Egg | `aoa3:skill_master_spawn_egg` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Skullbone Fragment | `aoa3:skullbone_fragment` | generated item: pixel-extruded artwork, not a bespoke volumetric model |
 | Skullette | `aoa3:skullette` | generated item: pixel-extruded artwork, not a bespoke volumetric model |

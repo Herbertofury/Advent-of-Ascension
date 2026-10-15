@@ -29,3 +29,7 @@ These pair model geometry and textures from the same official release JAR. They 
 The images show the actual source/artifact geometry in a static reference pose. They do not prove runtime animation, exact render scaling, shader behavior, gameplay registration or a completed Enderloom port. Variant textures and intentional invisible models must not be mistaken for removed content.
 
 The modern [interactive Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/) can inspect compatible geometry resources from a local official JAR. Java-coded models are represented by the static galleries until a dedicated interactive adapter is finished.
+
+## 1.12.2 source-mapped entity portraits
+
+[Browse the 1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2): 467 mapped model/texture presentations across 447 source entity IDs, including variants and non-living resources. Thirteen galleries include source-model and renderer links; remaining inherited/procedural mappings are listed explicitly. These are reference renders, not proof of a playable conversion.
