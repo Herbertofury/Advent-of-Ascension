@@ -53,3 +53,7 @@ These nine registrations use [ModelNothing](https://github.com/Tslat/Advent-Of-A
 - `aoa3:radiant_pixon`
 - `aoa3:shadow`
 - `aoa3:shining_pixon`
+
+## Complete classification of the inspected renderer census
+
+[Particle and invisible-body references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Particle-and-Invisible-Entities-1.12.2) explain all eight Pixon particle presentations and Shadow’s empty body renderer. The [machine-checked classification](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/entity-reference-coverage-1.12.2.json) covers all 525 classes identified by this census: 513 static-model classes, three dynamic item/effect classes and nine empty-base classes. No identified class remains unclassified; full runtime registry and animation parity are separate work.

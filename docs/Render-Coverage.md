@@ -140,3 +140,7 @@ The inherited-model, miscellaneous-registration and special-model passes raise t
 ## Dynamic fluid containers
 
 [Fluid and bucket references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-and-Bucket-References) supply 21 source-defined first-frame studies for the Forge dynamic bucket cases: 18 on 1.16.5 and three on 1.20.1. Core and integration-conditional registrations are distinguished. This closes their missing-documentation-picture gap while retaining runtime rendering and animation verification as open work.
+
+## Historical entity census classification
+
+All 525 entity classes identified by the 1.12.2 renderer census are classified with source evidence: 513 have static model/texture portraits, three have dynamic item/effect studies, and nine have [particle or invisible-body documentation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Particle-and-Invisible-Entities-1.12.2). The classification audit reports zero unmatched entries within that census. It does not certify complete runtime registries, animations or a playable conversion.
