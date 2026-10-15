@@ -27,7 +27,9 @@ Advent of Ascension models/textures by **Tslat and contributors**. These are ind
 
 ## Interactive 3D
 
-A standalone local-JAR Model Observatory is being tested. It is separate from GitHub wiki Markdown, which displays the static/animated preview images. Interactive geometry inspection must not be confused with in-game rendering or a completed converted mod.
+[Open the live Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/). Choose an official local AoA JAR, search a creature, rotate/zoom its actual geometry and switch texture variants. Files stay in your browser. The CPU fallback was visually tested with the official 1.21.1 JAR; WebGL acceleration is available where supported, but was not qualified on this GPU-less cloud browser.
+
+This edition covers GeckoLib/Bedrock geometry. Java-coded legacy model support and interactive item/block adapters remain in development. The wiki itself shows the static and animated previews. Geometry inspection is not in-game testing or proof of a completed Enderloom conversion.
 
 ## Every historical version
 
