@@ -33,3 +33,11 @@ The modern [interactive Model Observatory](https://herbertofury.github.io/Advent
 ## 1.12.2 source-mapped entity portraits
 
 [Browse the 1.12.2 entity atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2): 467 mapped model/texture presentations across 447 source entity IDs, including variants and non-living resources. Thirteen galleries include source-model and renderer links; remaining inherited/procedural mappings are listed explicitly. These are reference renders, not proof of a playable conversion.
+
+## Procedural constructor supplement: Shiny Squid
+
+![Shiny Squid constructor rest pose](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-shiny-squid-constructor.png)
+
+**Shiny Squid · `aoa3:shiny_squid` · 1.16.5 reference.** A dedicated adapter expands the model's eight-iteration tentacle loop: one body plus eight tentacles, with the source positions and Y rotations. The 64×32 texture comes from the official 3.6.11 JAR. This adds one procedural-constructor showcase beyond the original 301 literal-model portraits.
+
+[Model constructor](https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/client/model/entity/animal/ShinySquidModel.java) · [Renderer texture selection](https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/client/render/entity/animal/ShinySquidRenderer.java). Tentacles are shown at constructor rest, without swimming animation. Standard documentation lighting does not reproduce the original fullbright shader or runtime body rotations. Original model and texture by Tslat and contributors.

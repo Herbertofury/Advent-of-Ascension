@@ -1,0 +1,52 @@
+{
+  "renderer_revision": "two-sided-planar-20261015",
+  "problem": "Coincident faces on zero-thickness cuboids could render black in the offline documentation renderer.",
+  "correction": "One two-sided plane per zero-thickness cuboid, independent front/back UVs, no degenerate side faces. Original mod assets unchanged.",
+  "unique_geometry_texture_pairs_rerendered": 127,
+  "linked_source_image_references": 232,
+  "changed_public_image_files": 175,
+  "visual_review": {
+    "approved_count": 127,
+    "contact_sheets_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fixture": "Opposite sides independently preserve red/blue UV regions; 179672 opaque pixels each, no opposite-color contamination",
+    "acceptance": "All127 candidate portraits visually inspected; zero-thickness fins and wings have textures instead of coincident-surface black artifacts. Static documentation only, no pixel-exact Minecraft/runtime claim."
+  },
+  "synthetic_test": {
+    "fixture": "zero-thickness plane with distinct red and blue side UV regions",
+    "opposite_sides_preserved": true,
+    "views": [
+      {
+        "view": 0,
+        "opaque_pixels": 0,
+        "red_pixels": 0,
+        "blue_pixels": 0
+      },
+      {
+        "view": 1,
+        "opaque_pixels": 179672,
+        "red_pixels": 0,
+        "blue_pixels": 179672
+      },
+      {
+        "view": 2,
+        "opaque_pixels": 0,
+        "red_pixels": 0,
+        "blue_pixels": 0
+      },
+      {
+        "view": 3,
+        "opaque_pixels": 179672,
+        "red_pixels": 179672,
+        "blue_pixels": 0
+      }
+    ]
+  },
+  "scope": "Independent static reference renderer. No claim of exact Minecraft lighting, animations or gameplay compatibility."
+}
