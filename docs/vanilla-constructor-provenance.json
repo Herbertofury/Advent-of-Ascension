@@ -1,0 +1,21 @@
+{
+  "minecraft_version": "1.12.2",
+  "mapping_source": "https://github.com/MinecraftForge/MCPConfig/blob/master/versions/release/1.12.2/joined.tsrg",
+  "mapping_sha256": "7dada8ab1ae837b507fa9edb292bcd8660748d1bd650b10d3bd2e4f5b435f856",
+  "classes": [
+    {
+      "obfuscated": "bpx",
+      "mapped": "net.minecraft.client.model.ModelBiped",
+      "class_sha256": "5af90408e15e58f40af54b0aa35cf99a009410fd21fb0fffc6dda561737c88d3",
+      "constructor_parts": 7
+    },
+    {
+      "obfuscated": "bpl",
+      "mapped": "net.minecraft.client.model.ModelChest",
+      "class_sha256": "452a46cc85cead001e33c3f53fdecea24cb4100d635355f5a589f454255998ef",
+      "constructor_parts": 3
+    }
+  ],
+  "method": "Restricted symbolic decoding of constructor constants and an explicit allowlist of ModelRenderer geometry operations. Unsupported instructions fail rather than guess. No JVM or game code execution.",
+  "limits": "Constructor rest pose only; animation, runtime rendering and shader parity remain separate."
+}
