@@ -66,3 +66,7 @@ Animations, runtime scaling, particles and custom shader effects are not represe
 - `assets/aoa3/geo/entity/animal/fish/skipper.geo.json`: No unique exact texture mapping
 - `assets/aoa3/geo/entity/animal/fish/stripefish.geo.json`: No unique exact texture mapping
 - `assets/aoa3/geo/entity/npc/ambient/dryad_sprite.geo.json`: No unique exact texture mapping
+
+## Shared geometry and additional texture variants
+
+[Seventeen fish and Dryad Sprite variants](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shared-Model-Variants-1.16.5) use explicit source mappings rather than guessed matching filenames. The supplemental sheet includes six Gemtraps, three Stripefish, two Skippers and six Dryad Sprite material appearances.
