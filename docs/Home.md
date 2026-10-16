@@ -104,4 +104,10 @@ Documentation snapshot: **2026-10-16**. Static reference work is not a new runti
 
 - [Interactive rendered model turntables](Model-Turntables)
 
+
+## Living implementation checklist
+
+- [Runtime acceptance checklist](Runtime-Acceptance-Checklist)
+- [Latest upstream and canonical merge decisions](Upstream-Reconciliation)
+
 - [Trading, prices and restocking · 1.21.1](Trading-and-Traders-1.21.1)
