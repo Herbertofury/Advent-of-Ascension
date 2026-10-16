@@ -1,0 +1,296 @@
+{
+  "version": "1.16.5",
+  "release": "3.6.11",
+  "scope": "Released recipe/guide/loot resources, narrow class call/literal checks, and pinned source interpretation. No game execution or owner-specific Enderloom certification.",
+  "source_pin": "e97502da8bdd6081b6acc4635f03296d3e2e69a0",
+  "portal_guide_sha256": "535a3a85f4ee102afda0adf6285204154059fef738fdd6a72da1255d7b1fc2f1",
+  "portal_multiblock": {
+    "mapping": {
+      "a": "aoa3:ancient_rock",
+      "A": "aoa3:carved_rune_of_space",
+      "B": "aoa3:carved_rune_of_direction",
+      "C": "aoa3:carved_rune_of_reality",
+      "D": "aoa3:carved_rune_of_travel",
+      "0": "aoa3:carved_rune_of_power"
+    },
+    "pattern": [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "C",
+        " ",
+        " ",
+        " ",
+        "D"
+      ],
+      [
+        "a",
+        " ",
+        " ",
+        " ",
+        "a"
+      ],
+      [
+        "a",
+        " ",
+        " ",
+        " ",
+        "a"
+      ],
+      [
+        "A",
+        " ",
+        " ",
+        " ",
+        "B"
+      ],
+      [
+        "a",
+        "a",
+        "0",
+        "a",
+        "a"
+      ]
+    ]
+  },
+  "outer_width": 5,
+  "outer_height": 6,
+  "interior_width": 3,
+  "interior_height": 4,
+  "ancient_rock_count": 13,
+  "non_power_rune_chest_tables": [
+    "minecraft:chests/abandoned_mineshaft",
+    "minecraft:chests/buried_treasure",
+    "minecraft:chests/igloo_chest",
+    "minecraft:chests/jungle_temple",
+    "minecraft:chests/desert_pyramid",
+    "minecraft:chests/pillager_outpost",
+    "minecraft:chests/ruined_portal",
+    "minecraft:chests/shipwreck_treasure",
+    "minecraft:chests/simple_dungeon",
+    "minecraft:chests/spawn_bonus_chest",
+    "minecraft:chests/stronghold_corridor",
+    "minecraft:chests/stronghold_crossing",
+    "minecraft:chests/stronghold_library",
+    "minecraft:chests/underwater_ruin_big",
+    "minecraft:chests/village/village_temple"
+  ],
+  "conditional_extra_roll": {
+    "total_weight": 550,
+    "per_rune_weight": 100,
+    "each_rune_fraction": "2/11",
+    "any_rune_fraction": "8/11",
+    "limit": "One eligible carved-rune extra table roll after the registered modifier and context compatibility checks. Not a universal chance per chest."
+  },
+  "resources": {
+    "data/aoa3/recipes/shapeless_craft_unpowered_rune.json": {
+      "sha256": "77a8548bc5ede7adb6e0de8c39e6f9c21d369e70ea67feae5097f5d9bc702b2e",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "aoa3:runium_chunk"
+          }
+        ],
+        "result": {
+          "item": "aoa3:unpowered_rune",
+          "count": 16
+        }
+      }
+    },
+    "data/aoa3/recipes/shaped_craft_carved_rune_of_power.json": {
+      "sha256": "7feb586ac9a391385719bd6a5d79c5f07dad98324b7818dd61f6f84c40eaa014",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "BCB",
+          "BAB",
+          "BBB"
+        ],
+        "key": {
+          "A": {
+            "item": "aoa3:ancient_rock"
+          },
+          "B": {
+            "item": "aoa3:unpowered_rune"
+          },
+          "C": {
+            "item": "minecraft:ender_eye"
+          }
+        },
+        "result": {
+          "item": "aoa3:carved_rune_of_power"
+        }
+      }
+    },
+    "data/aoa3/loot_modifiers/overworld_chest_loot.json": {
+      "sha256": "161b83c7fa215555e42c5868eadbee7612910b5c9b19102128108065fcccab8a",
+      "data": {
+        "conditions": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/buried_treasure"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/igloo_chest"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/jungle_temple"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/desert_pyramid"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/pillager_outpost"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/ruined_portal"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/shipwreck_treasure"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/simple_dungeon"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/spawn_bonus_chest"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/stronghold_corridor"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/stronghold_crossing"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/stronghold_library"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/underwater_ruin_big"
+              },
+              {
+                "condition": "forge:loot_table_id",
+                "loot_table_id": "minecraft:chests/village/village_temple"
+              }
+            ]
+          }
+        ],
+        "tables": [
+          "aoa3:misc/carved_rune_blocks",
+          "aoa3:misc/generic_chest_loot"
+        ],
+        "type": "aoa3:roll_extra_tables"
+      }
+    },
+    "data/forge/loot_modifiers/global_loot_modifiers.json": {
+      "sha256": "175cbf0064b37c3b701a4044aa9e537aca8e38856e61115d26f7cabf5a4ba1ed",
+      "data": {
+        "replace": false,
+        "entries": [
+          "aoa3:haven",
+          "aoa3:player_event_listeners",
+          "aoa3:elder_guardian_biogenic_armour",
+          "aoa3:loot_modifying_items",
+          "aoa3:overworld_chest_loot",
+          "aoa3:additional_generic_chest_loot",
+          "aoa3:fertilised_farmland",
+          "aoa3:gardener",
+          "aoa3:guardian_biogenic_armour",
+          "aoa3:dispenser_loot",
+          "aoa3:dolphin_coralstorm_sword",
+          "aoa3:phantom_phantom_staff"
+        ]
+      }
+    },
+    "data/aoa3/loot_tables/misc/carved_rune_blocks.json": {
+      "sha256": "dcf40cf3e072f9bf3284ee01444ff1f63b672322089bf0aa309f86b05e868292",
+      "data": {
+        "type": "minecraft:chest",
+        "pools": [
+          {
+            "name": "carved_rune_blocks",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 150
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "name": "aoa3:carved_rune_of_direction"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "name": "aoa3:carved_rune_of_reality"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "name": "aoa3:carved_rune_of_space"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "name": "aoa3:carved_rune_of_travel"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "classes": [
+    {
+      "class": "net/tslat/aoa3/common/container/CorruptedTravellerContainer.class",
+      "sha256": "a08c76b2cee81c09a3cd4853cbaabdc43bd124fc6a9ac557497c670366fcf335",
+      "method": "handleFoodInput",
+      "descriptor": "()V",
+      "code_hex": "2ab4002f9a004f2ab4005903b9005e0200c00048b4006203b9006802004c2bb6006e9a00292bb60072b60078c6001f2ab40038bb006a59b2007db60028c0007fb70082b800882b04b6008c2a04b5002fa700082a03b5002fb1"
+    },
+    {
+      "class": "net/tslat/aoa3/content/item/misc/WornBook.class",
+      "sha256": "0618ddce62ad1173a8a5b1d682db7d7902377444374d5e9a91d7ed751a8448c0",
+      "method": "func_77659_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResult;",
+      "code_hex": "2c2db600483a042bb4004e9a004e2cbb003959b20054b6005ac0005cb7005f0304b800659a00402cbb003959b20054b6005ac0005cb7005fb800692c126bb80071b20077b6007b2cc0007db800831285b8008bb60091a7000eb20095ba00a70000b800ab1904b800b1b0"
+    },
+    {
+      "class": "net/tslat/aoa3/content/loottable/modifier/RollExtraTablesLootModifier.class",
+      "sha256": "af28da9b1f2b3d30db5ec3263d5d7c1bf4719724b834ac838696eb3a1d956dad",
+      "method": "doApply",
+      "descriptor": "(Ljava/util/List;Lnet/minecraft/loot/LootContext;)Ljava/util/List;",
+      "code_hex": "2ab400164e2dbe360403360515051504a2009c2d1505323a062c1906b600253a070436081907b6002bb60031b9003701003a091909b90041010099004e1909b900450100c000473a0a2c190ab6004b9a0036033608b20051bb005359b700561258b6005c1906b60060b6005c1262b6005c190ab60066b60060b6005cb60067b8006da70006a7ffae150899001c1907b20071a5001419072c2b59b6007757ba008b0000b6008f840501a7ff632bb0"
+    }
+  ],
+  "source_files": {
+    "content/block/functional/misc/CarvedRuneOfPower.java": "265eef8c5980818a6016a3eac354e583892daa25ed81d94050a778f3587cb1a4",
+    "content/world/teleporter/AoAPortalFrame.java": "de75f9312d4dd352136f478540c27aa7bb8c6724944f6c5f4e9c1bc1cc498c20",
+    "common/container/CorruptedTravellerContainer.java": "8e6cb9abc02b3fa11aad83e5ef0353296721c5a536db256c855914e20c221c88",
+    "content/item/misc/WornBook.java": "86eb4e7197fadc2eaf96adb62ef92cbf0ae5149287eaf37edeff38df0755bb56"
+  }
+}
