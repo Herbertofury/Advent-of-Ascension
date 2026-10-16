@@ -40,7 +40,9 @@ This table describes the bundled modern guide. It does not impose the planned op
 
 Once basic survival is reliable, explore deep underground. The bundled getting-started guide places ruined teleporter frames near the bottom of the world and associates the Corrupted Traveller with them. It does not give a guaranteed coordinate or fixed search distance, so this walkthrough does not invent one.
 
-Interact with the Traveller and follow the in-game progression cues. Scavenge Ancient Rock from the structure for your own frame. Record a safe route back before carrying valuable supplies farther underground.
+Interact with the living Traveller without sneaking to open the exchange screen. Put a food item into its input slot. The inspected menu consumes **one food item** and gives a **Worn Book** to the player. The item must actually have food properties; a food-looking crafting ingredient is not automatically accepted. If shift-click only rearranges your inventory, place the food into the input slot directly.
+
+Read the Worn Book for the portal clues. Scavenge Ancient Rock from the structure for your own frame. Record a safe route back before carrying valuable supplies farther underground. This exchange is checked against the menu source and the released class method's Worn Book/give-item/shrink-one operations; it is not a new live-game test.
 
 **Checkpoint:** you have located the structure, investigated the Traveller, and started collecting Ancient Rock. Do not substitute an invented Ancient Rock crafting recipe.
 
