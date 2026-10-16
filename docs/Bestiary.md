@@ -458,7 +458,7 @@ Use [Content Specification](Content-Specification.md) for the required record an
 
 | Edition | Inspected roster | Records with extracted spawn evidence | Loot association coverage |
 |---|---:|---:|---|
-| 1.12.2 / 3.3.6 | 485 source-mapped getter records | 263 pinned-source spawn records | 432 exact artifact method bindings |
+| 1.12.2 / 3.3.6 | 525 source-mapped entities (485 with selected getters) | 270 pinned-source spawn records | 438 exact artifact method bindings |
 | 1.16.5 / 3.6.11 | 419 pinned-source living registrations | 135 artifact spawn records | 381 matching entity-named table resources |
 | 1.20.1 / 3.7.1 | 285 pinned-source living registrations | 34 artifact spawn records | 275 matching entity-named table resources |
 | 1.21.1 / 3.7.16.1 | 83 pinned-source living registrations | 38 artifact spawn records | 76 matching entity-named table resources |
