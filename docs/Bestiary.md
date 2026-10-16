@@ -489,6 +489,12 @@ The browser now shows 787 artifact-derived stat-builder records across the three
 
 All 83 entries in the inspected 1.21 living-entity source roster now have version-matched static source portraits, including fish shared-model variants and Shiny Squid. Charger, Veloraptor, Dryad Sprite and Opteryx cards expose additional verified appearances. [Illustrated roster and limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Bestiary-Portraits).
 
-## Legacy portrait expansion and release gaps
+## Legacy portraits and release gaps
 
-The 1.16.5 roster now has 332 source-mapped portraits out of 419 inspected entries, including 80 additional exact renderer/model/texture joins. Remaining cases include custom renderers and intentionally invisible or particle entities; they are not silently substituted with another release. The [released 1.20.1 renderer audit](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1) separately explains verified upstream placeholders and five field/target mismatches.
+The complete 419-entry inspected 1.16.5 roster has 409 body portraits, eight source particle grids, one intentionally invisible entry and one dynamic-player-skin entry. Phase and disabled-state galleries are included where mapped. [Coverage, examples and evidence](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Bestiary-Coverage-1.16.5).
+
+The [released 1.20.1 renderer audit](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1) separately explains verified placeholders and five field/target mismatches. Source references do not certify fully tested runtime behaviour, and appearances are not silently substituted from another release.
+
+## Lean, release-specific loading
+
+Opening a modern creature link now fetches only that release’s roster. It no longer preloads the legacy roster and every modern release. The 1.21.1 JSON startup budget drops from 3,818,290 to 338,481 uncompressed bytes (91.1% less); this is a payload comparison, not a claim of 91.1% faster wall-clock loading. Each release is cached once, failures can retry, and loot and appearance galleries remain on demand. [Measured payload budgets](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/bestiary-load-budget.json).
