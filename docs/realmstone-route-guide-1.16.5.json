@@ -1,0 +1,428 @@
+{
+  "version": "1.16.5",
+  "release": "3.6.11",
+  "routes": [
+    {
+      "id": "deeplands",
+      "name": "Deeplands",
+      "where": "Early route from the Overworld",
+      "action": "Break an ore-tagged block at Y \u2264 5 while carrying a Blank Realmstone.",
+      "checks": [
+        "Survival player; Creative is explicitly excluded.",
+        "The block must belong to Forge\u2019s ore block tag.",
+        "One Blank Realmstone is consumed when the condition succeeds."
+      ],
+      "sources": [
+        {
+          "name": "PlayerEvents.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/event/PlayerEvents.java"
+        }
+      ],
+      "warning": "The code checks the ore tag and height, not a special ore species or a guaranteed mining location.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-deeplands.webp"
+    },
+    {
+      "id": "precasia",
+      "name": "Precasia",
+      "where": "Early crafting route",
+      "action": "Craft a Blank Realmstone with one each of the six vanilla 1.16.5 saplings: oak, birch, spruce, jungle, acacia and dark oak.",
+      "checks": [
+        "Seven ingredients in a crafting table.",
+        "Shapeless: their arrangement does not matter.",
+        "Six copies of one sapling do not substitute for the six named species."
+      ],
+      "sources": [],
+      "warning": "This is the 3.6.11 recipe. Do not replace it with the modern archaeology route.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-precasia.webp"
+    },
+    {
+      "id": "barathos",
+      "name": "Barathos",
+      "where": "Early combat route",
+      "action": "Deliver the killing melee blow to a Husk with the Blank Realmstone in your main hand.",
+      "checks": [
+        "The target must be a Husk, not an ordinary Zombie.",
+        "The stone\u2019s hurtEnemy callback checks that the target\u2019s health has reached zero.",
+        "The main-hand stack becomes the Barathos Realmstone."
+      ],
+      "sources": [
+        {
+          "name": "BlankRealmstone.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/misc/BlankRealmstone.java"
+        }
+      ],
+      "warning": "Weaken the Husk with another weapon, then switch for the finishing hit. Carrying the stone while killing with a sword is not the same trigger.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-barathos.webp"
+    },
+    {
+      "id": "lelyetia",
+      "name": "Lelyetia",
+      "where": "Early fall challenge",
+      "action": "Complete a fall whose event distance is greater than 25 blocks, carrying a Blank Realmstone.",
+      "checks": [
+        "The fall event must retain a positive damage multiplier.",
+        "One Blank Realmstone is consumed.",
+        "The code tests fall distance, not the height of a tower."
+      ],
+      "sources": [
+        {
+          "name": "PlayerEvents.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/event/PlayerEvents.java"
+        }
+      ],
+      "warning": "Prepare protection and recovery. An effect that sets the event\u2019s damage multiplier to zero can prevent this trigger; the condition does not guarantee survival.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-lelyetia.webp"
+    },
+    {
+      "id": "creeponia",
+      "name": "Creeponia",
+      "where": "Early explosion challenge",
+      "action": "Take a Creeper explosion hit with primed TNT nearby and a Blank Realmstone in inventory.",
+      "checks": [
+        "Player health must be positive at the inspected hurt callback.",
+        "A TNT entity must intersect the Creeper\u2019s or player\u2019s bounding box expanded by 3 blocks.",
+        "The damage source must be an explosion directly from a Creeper."
+      ],
+      "sources": [
+        {
+          "name": "PlayerEvents.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/event/PlayerEvents.java"
+        }
+      ],
+      "warning": "Placed TNT blocks are not TNT entities. The inspected code does not check the TNT fuse value. Treat this as a dangerous in-game challenge, not a guarantee that the hit will be survivable.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-creeponia.webp"
+    },
+    {
+      "id": "nether",
+      "name": "Nether",
+      "where": "Lava challenge",
+      "action": "Toss the Blank Realmstone while your player is in lava.",
+      "checks": [
+        "The toss event checks the player\u2019s isInLava state.",
+        "The tossed blank item entity is removed and the Nether Realmstone is given to the player."
+      ],
+      "sources": [
+        {
+          "name": "PlayerEvents.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/event/PlayerEvents.java"
+        }
+      ],
+      "warning": "Throwing the stone into lava while standing safely on land does not satisfy this code. Arrange fire protection and an exit before attempting it.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-nether.webp"
+    },
+    {
+      "id": "abyss",
+      "name": "Abyss",
+      "where": "Nether",
+      "action": "Summon a Wither in the Nether while carrying a Blank Realmstone.",
+      "checks": [
+        "The world-join check identifies a Wither with 220 invulnerable spawn ticks.",
+        "Eligible players are sought in the Wither\u2019s bounding box expanded by 50 blocks.",
+        "Each qualifying player\u2019s blank stone is consumed."
+      ],
+      "sources": [
+        {
+          "name": "EntityEvents.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/event/EntityEvents.java"
+        }
+      ],
+      "warning": "This is a summon trigger, not a requirement to defeat the Wither. The Wither still creates a real encounter and terrain risk in your game.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-abyss.webp"
+    },
+    {
+      "id": "crystevia",
+      "name": "Crystevia",
+      "where": "Usually reached through Deeplands",
+      "action": "Interact with a living Case Construct while holding the Deep Crystal block item.",
+      "checks": [
+        "Carry a Blank Realmstone as well.",
+        "The blank is consumed and the reward is given.",
+        "Outside Creative, one held Deep Crystal is also consumed."
+      ],
+      "sources": [
+        {
+          "name": "CaseConstructEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/deeplands/CaseConstructEntity.java"
+        }
+      ],
+      "warning": "Do not kill the Case Construct first. A similarly named crystal ingredient is not necessarily the required block item.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-crystevia.webp"
+    },
+    {
+      "id": "iromine",
+      "name": "Iromine",
+      "where": "Mineralization Station; GUI suggests Barathos route",
+      "action": "Use a Blank Realmstone on a Mineralization Station.",
+      "checks": [
+        "The interaction replaces the held blank with the Iromine Realmstone.",
+        "The inspected station branch itself has no dimension check."
+      ],
+      "sources": [
+        {
+          "name": "MineralizationStation.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/block/functional/utility/MineralizationStation.java"
+        }
+      ],
+      "warning": "The GUI parent indicates a progression route, not a hard-coded requirement that this particular interaction happen in Barathos.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-iromine.webp"
+    },
+    {
+      "id": "candyland",
+      "name": "Candyland",
+      "where": "Precasia",
+      "action": "Finish eating a Heart Fruit in Precasia while carrying a Blank Realmstone.",
+      "checks": [
+        "The source applies 7 points of self-harm first.",
+        "You must still have positive health afterward.",
+        "One blank stone is consumed for the reward."
+      ],
+      "sources": [
+        {
+          "name": "HeartFruit.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/food/HeartFruit.java"
+        }
+      ],
+      "warning": "Heal before eating. The exact resulting damage can depend on the game\u2019s damage handling; the source\u2019s 7-point request is not a live measurement.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-candyland.webp"
+    },
+    {
+      "id": "gardencia",
+      "name": "Gardencia",
+      "where": "Precasia",
+      "action": "Drop a Blank Realmstone into a fully grown carrot crop in Precasia, then defeat the Primitive Carrotop it creates.",
+      "checks": [
+        "The dropped item\u2019s block position must contain a max-age vanilla carrot crop.",
+        "The blank item entity and carrot block are removed when the creature is created.",
+        "The creature\u2019s server-side death in Precasia drops the Gardencia Realmstone."
+      ],
+      "sources": [
+        {
+          "name": "BlankRealmstone.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/misc/BlankRealmstone.java"
+        },
+        {
+          "name": "PrimitiveCarrotopEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/precasia/PrimitiveCarrotopEntity.java"
+        }
+      ],
+      "warning": "An immature crop does not qualify. This is a spawned encounter and a ground drop, not an instant inventory exchange.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-gardencia.webp"
+    },
+    {
+      "id": "haven",
+      "name": "Haven",
+      "where": "Lelyetia",
+      "action": "Kill a Flye with melee in Lelyetia while your player is at Y \u2265 120.",
+      "checks": [
+        "The killer must be a player.",
+        "The height test uses the player\u2019s Y, not the Flye\u2019s Y.",
+        "Carry a Blank Realmstone; one is consumed."
+      ],
+      "sources": [
+        {
+          "name": "FlyeEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/lelyetia/FlyeEntity.java"
+        }
+      ],
+      "warning": "Ranged kills do not satisfy the inspected melee condition. Prepare a safe fighting platform and fall recovery.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-haven.webp"
+    },
+    {
+      "id": "celeve",
+      "name": "Celeve",
+      "where": "Lelyetian Warrior encounter",
+      "action": "Kill a Lelyetian Warrior using player-attributed firework damage while carrying a Blank Realmstone.",
+      "checks": [
+        "The damage-source message ID must be fireworks.",
+        "The source entity must resolve directly to a PlayerEntity in this callback.",
+        "One blank is consumed."
+      ],
+      "sources": [
+        {
+          "name": "LelyetianWarriorEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/lelyetia/LelyetianWarriorEntity.java"
+        }
+      ],
+      "warning": "A firework visual effect or a separate finishing blow is not sufficient. This guide has not live-tested every launcher or modded damage source.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-celeve.webp"
+    },
+    {
+      "id": "mysterium",
+      "name": "Mysterium",
+      "where": "Creepird encounter",
+      "action": "Kill a Creepird while your player has Poison and carries a Blank Realmstone.",
+      "checks": [
+        "The death callback runs server-side.",
+        "The player is resolved from the killer or applicable owner.",
+        "Poison must be active when the death condition is checked."
+      ],
+      "sources": [
+        {
+          "name": "CreepirdEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/creeponia/CreepirdEntity.java"
+        }
+      ],
+      "warning": "Bring a recovery plan for Poison. The kill alone, followed by poisoning yourself later, does not meet the condition.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-mysterium.webp"
+    },
+    {
+      "id": "vox_ponds",
+      "name": "Vox Ponds",
+      "where": "Creeponia",
+      "action": "Interact with an AoA trader or banker in Creeponia using the Blank Realmstone while environmentally protected.",
+      "checks": [
+        "The held item must still be the blank stone.",
+        "The protection helper checks an AdventArmour helmet\u2019s airtight contract.",
+        "A complete Hazmat set satisfies Hazmat\u2019s contract; the source also defines other airtight helmets."
+      ],
+      "sources": [
+        {
+          "name": "BlankRealmstone.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/misc/BlankRealmstone.java"
+        },
+        {
+          "name": "DamageUtil.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/util/DamageUtil.java"
+        },
+        {
+          "name": "HazmatArmour.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/armour/HazmatArmour.java"
+        },
+        {
+          "name": "FaceMask.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/armour/FaceMask.java"
+        }
+      ],
+      "warning": "Do not assume a Hazmat helmet alone counts as the full Hazmat set. The GUI names Hazmat, while the actual helper is broader.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-vox_ponds.webp"
+    },
+    {
+      "id": "lborean",
+      "name": "Lborean",
+      "where": "Gardencian creature + Candied Water",
+      "action": "Expose an eligible Gardencian creature to Candied Water, then kill it as a player while carrying a Blank Realmstone.",
+      "checks": [
+        "Broccohead and nine other inspected plant-creature classes store a candiedWater flag on contact.",
+        "The flag persists in entity save data.",
+        "The death callback requires a player killer and consumes one blank stone."
+      ],
+      "sources": [
+        {
+          "name": "BroccoheadEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/gardencia/BroccoheadEntity.java"
+        }
+      ],
+      "warning": "Ordinary water is not Candied Water. In the inspected Broccohead path, contact also adds 50 maximum health and multiplies current health by 1.5, making this a stronger target.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-lborean.webp"
+    },
+    {
+      "id": "dustopia",
+      "name": "Dustopia",
+      "where": "Abyss",
+      "action": "Activate the Shadow Altar with its Book of Shadows while Night Vision is active and you carry a Blank Realmstone.",
+      "checks": [
+        "The altar\u2019s activation condition requires the Abyss.",
+        "The reward is issued during successful activation, alongside scheduling Shadowlord\u2019s spawn.",
+        "One blank is consumed."
+      ],
+      "sources": [
+        {
+          "name": "ShadowAltar.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/block/functional/altar/ShadowAltar.java"
+        }
+      ],
+      "warning": "Do not wait until after activation to apply Night Vision. Prepare for Shadowlord even though the realmstone reward does not require defeating the boss.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-dustopia.webp"
+    },
+    {
+      "id": "greckon",
+      "name": "Greckon",
+      "where": "Elusive encounter",
+      "action": "Interact with Elusive while holding Nightmare Flakes and carrying a Blank Realmstone.",
+      "checks": [
+        "The interaction is server-side.",
+        "One blank and one held Nightmare Flakes item are consumed.",
+        "The reward is given directly rather than requiring an Elusive kill."
+      ],
+      "sources": [
+        {
+          "name": "ElusiveEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/boss/ElusiveEntity.java"
+        }
+      ],
+      "warning": "Approach with the correct held item. A loot drop after defeating Elusive is a different mechanism.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-greckon.webp"
+    },
+    {
+      "id": "lunalus",
+      "name": "Lunalus",
+      "where": "Haven",
+      "action": "Select a Gravitator and move airborne over the void in Haven while carrying a Blank Realmstone in the main inventory.",
+      "checks": [
+        "The item\u2019s selected inventory tick must run; Creative is excluded.",
+        "The check runs every five game ticks while airborne.",
+        "The source checks for empty blocks below before consuming a blank."
+      ],
+      "sources": [
+        {
+          "name": "Gravitator.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/item/misc/Gravitator.java"
+        }
+      ],
+      "warning": "The inspected loop cumulatively subtracts its index from a mutable Y position, so it is not a straightforward every-block column scan. Use a genuine open-void location and a reliable return plan; exact trigger geometry still needs live testing.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-lunalus.webp"
+    },
+    {
+      "id": "runandor",
+      "name": "Runandor",
+      "where": "Mysterium",
+      "action": "Place a Vox Light in Mysterium, drop a Blank Realmstone and one Runic Energy above it, then use an Active Rune Stone on the light.",
+      "checks": [
+        "The two dropped item entities must intersect the one-block cube immediately above the light.",
+        "The blank entity is converted to the Runandor Realmstone.",
+        "The Active Rune Stone is consumed and the Runic Energy item entity is removed."
+      ],
+      "sources": [
+        {
+          "name": "VoxLight.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/block/functional/light/VoxLight.java"
+        }
+      ],
+      "warning": "Drop one Runic Energy, not a valuable stack: the source removes its entire item entity. Keep unrelated dropped items away; the loop can revisit a successful match because it does not break immediately afterward.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-runandor.webp"
+    },
+    {
+      "id": "shyrelands",
+      "name": "Shyrelands",
+      "where": "Late crafting route",
+      "action": "Craft Darkly Powder, Bloodstone, Glowstone, Haunted Flower, Magic Mending Solution and a Blank Realmstone together.",
+      "checks": [
+        "Six exact ingredients, shapeless.",
+        "Use the complete recipe from AoA 3.6.11.",
+        "GUI parents point toward Greckon and Dustopia as progression hints."
+      ],
+      "sources": [],
+      "warning": "The ingredient\u2019s item ID matters. The recipe explorer shows the exact versioned resources and images.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-shyrelands.webp"
+    },
+    {
+      "id": "nowhere",
+      "name": "Nowhere",
+      "where": "Construct of Strength encounter, associated with Crystevia",
+      "action": "Carry a Blank Realmstone and survive an attack from a Construct of Strength that has Strength active.",
+      "checks": [
+        "The inspected onAttack callback requires a player target with positive health.",
+        "The construct itself must have the Strength effect.",
+        "One blank is consumed and the Nowhere Realmstone is given."
+      ],
+      "sources": [
+        {
+          "name": "ConstructOfStrengthEntity.java",
+          "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/e97502da8bdd6081b6acc4635f03296d3e2e69a0/source/content/entity/mob/crystevia/ConstructOfStrengthEntity.java"
+        }
+      ],
+      "warning": "The released GUI still describes a crafting recipe involving a Shulker Box, Golden Apple, End Crystal and Beacon. No such bundled 3.6.11 recipe was found. The released Construct of Strength class contains the blank-to-Nowhere reward path; do not spend those crafting ingredients based on the stale hint.",
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.16.5-realmstone-nowhere.webp"
+    }
+  ]
+}

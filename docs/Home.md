@@ -79,3 +79,6 @@ Advent of Ascension is created by **Tslat and contributors**. This is an indepen
 [Repository](https://github.com/Herbertofury/Advent-of-Ascension) · [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits)
 
 Documentation snapshot: **2026-10-16**. Static reference work is not a new runtime certification of the merged mod.
+
+### Historical progression
+[1.16.5 Realmstone progression: all 22 destination routes, exact triggers and illustrated recipes](Realmstone-Progression-Walkthrough-1.16.5).
