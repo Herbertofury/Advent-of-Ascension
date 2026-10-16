@@ -83,3 +83,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Repair equipment
 
 [Illustrated Mending Table walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mending-Table-and-Repair-Materials-1.21.1): station recipe, Repair Dust versus Compound, timed Solution conversion and the released stale-preview precaution.
+
+## Modern rune inputs and station limits
+
+[Illustrated 1.21.1 rune-production guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Current-Limits-1.21.1): two stonecutting recipes, fourteen rune references, whole-stack post behavior and Randomizer equipment-condition pitfalls. Station survival acquisition remains unverified; do not substitute the historical Runation route.
