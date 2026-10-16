@@ -110,3 +110,19 @@ Published the illustrated 1.16.5 Rune Post/Randomizer handbook with 14 mappings,
 ## Interactive rendered turntables
 
 Added turntables for all 83 inspected modern source-roster entries with 24 fixed-framing camera views each (1,992 frames), keyboard/drag/scrub controls, opt-in rotation and a bounded four-image cache. These are selected static appearances; Shiny Squid uses a clearly labeled Java neutral-body adapter. This is a rendered rest-pose presentation, not a live geometry viewer, runtime animation test or encounter-completion proof. [Turntable guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Model-Turntables).
+
+
+## Trading Desk and NPC location reference · 2026-10-16
+
+The illustrated Trading Desk covers **252 version-scoped offer definitions**: 207 in the inspected 1.16.5 custom-trader catalog and 45 in the inspected 1.21.1 catalog. The historical picker includes 21 named Lottoman variants sharing one verified pool, so aliases do not inflate offer counts. Two hundred forty-three version-specific item illustrations support the tables/cards. All 23 historical trader-pool portraits loaded in the live guide.
+
+The historical location pass joins 29 released/source special-spawner chains, all 258 released structure templates, 158 template pools, biome starts and dimension structure settings. It establishes **candidate acquisition evidence for 43 of 44 trader identities**: eight custom-spawner traders, 33 embedded-template identities and two crate-hook identities. Skill Master remains explicitly unresolved. Jigsaw reachability is an over-approximation and is not a live spawn/generation certification.
+
+The 419-entry historical bestiary now includes direct offer links for all 44 traders and candidate biome/dimension evidence where established. Regression checks cover all 252 offer cards, selected-release caching, stale-request/failure handling, locked/special-stack labels and shared-pool selection. The 1.16.5 roster remains release-lazy; its current uncompressed data size is 1,032,133 bytes, not a claimed network or FPS benchmark.
+
+- [Search the Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html)
+- [Historical trading guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.16.5)
+- [Modern trading guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1)
+- [Find historical traders](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.16.5)
+
+No new runtime acceptance is asserted by this documentation pass. The earlier owner-local runtime section retains its independent scope.
