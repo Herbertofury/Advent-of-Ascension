@@ -1,0 +1,229 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Custom recipe declarations and selected released method checks; independent quantity/overflow model. No live piston, inventory, save or private Enderloom test.",
+  "resources": [
+    {
+      "path": "data/aoa3/recipe/infused_press_compression.json",
+      "sha256": "4e21d52d1c6708113e565c66bb10b7242b5dca788028dacd7fe972733d1c6394",
+      "data": {
+        "type": "aoa3:infused_press_compression"
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infused_press_decompression.json",
+      "sha256": "b7bd43281d40536a7928843083bc38a22c5bdd7906258ba6f3a7b57d4de78eb2",
+      "data": {
+        "type": "aoa3:infused_press_decompression"
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/recipe/InfusedPressCompressionRecipe.class",
+      "sha256": "e516bac4341b61c922add1d5f3a4a41b66dcd952e20ecc2aab997d2805fc2b9d",
+      "methods": [
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "014e0336040336052b1009b6002eb600349a000503ac03360615061009a200a82b1506b6002e3a071907b60034990006a7008f1907b2003ab600409900521907b20044b6004a9a000503ac1907b20044b6004ec000513a081908b6005336091908b60057b6005b15090460b8005e09949c000503ac15059a000a15093605a7000c150515099f000503aca7001a1907b600649900101907b600671907b6005ba2000503ac2dc7000c19074e840401a700112d1907b8006a9a000503ac840401840601a7ff5715041009a0000704a7000403ac"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "033e1d2bb6006ea200652b1db6002e3a041904b600349a00501904b2003ab600409900241904b600713a051905b200441904b20044b6004ec00051b60074b6007857a70021b2003ab6007c3a051905b20044bb0051591904b6007104b70081b60078571905b0840301a7ff99b20084b0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc0002f2cb60088b0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc0002f2cb6008cac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/recipe/InfusedPressDecompressionRecipe.class",
+      "sha256": "886ea1b63c51549568f2e1d097241c0142591aef72f59558abd1d3e2ecbf0a1c",
+      "methods": [
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2bb6002e100aa2000503ac2b1009b600344e2db20038b6003e99000d2db20044b6004a9a000503ac03360415041009a200172b1504b60034b6004e9a000503ac840401a7ffe82db20044b60052c000553a041904b60057b6004e9a00101904b6005b04a1000704a7000403ac"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2bb6002e100aa10060033e1d1009a200182b1db60034b6004e9a0007b2005eb0840301a7ffe82b1009b600344e2db20044b60052c000553a041904b6005b04a000101904b60057b600623a05a700172db600623a051905b200441904b60065b60069571905b0b2005eb0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc0002f2cb60072b0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc0002f2cb60076ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/blockentity/InfusedPressBlockEntity.class",
+      "sha256": "63ae5f858f06290d548792fe578778877b7bee7dd3d924d7f1b63bf979009b05",
+      "methods": [
+        {
+          "name": "compress",
+          "descriptor": "()Z",
+          "code_hex": "bb0040592ab60020b60024b700424c2ab60045b60049b2004fb60055b60007c0005b2b2ab4005db600612a2bba00670000b6006b03b80071b60077c00072b6007bac"
+        },
+        {
+          "name": "decompress",
+          "descriptor": "()Z",
+          "code_hex": "bb0040592ab60020b60024b700424c2ab60045b60049b2007fb60055b60007c0005b2b2ab4005db600612a2bba00820000b6006b03b80071b60077c00072b6007bac"
+        },
+        {
+          "name": "lambda$decompress$1",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/world/item/crafting/RecipeHolder;)Ljava/lang/Boolean;",
+          "code_hex": "2cb600a7c000ad2b2ab4005db600afb600b34e2db600b79a00352ab600201009b200bcb6003d03360415041009a200162ab6002015042db600c0b6003d840401a7ffe92ab600c404b80071b003b80071b0"
+        },
+        {
+          "name": "lambda$compress$0",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/world/item/crafting/RecipeHolder;)Ljava/lang/Boolean;",
+          "code_hex": "2cb600a7c000c72b2ab4005db600afb600c94e2db600b79a00322ab6002010092db6003d03360415041009a200152ab600201504b200bcb6003d840401a7ffea2ab600c404b80071b003b80071b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/functional/utility/InfusedPress.class",
+      "sha256": "e6b8c96e94532907ac39ed0777055e9adff265648eadc4f10754451d3b417f1a",
+      "methods": [
+        {
+          "name": "neighborChanged",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V",
+          "code_hex": "2cc100249901ef2cc000243a072db600261905b6002c9901dd1904c100309901d52c2db600163a091909c100079901c61909c000073a082c1905b60026b600323a091909b6000cc10036360a150a9a000f1909b6000cc100389a0004b11909b2003ab60040b20044a50004b1150a9901571908b6004a99017d2cb4004e3a0bbb005259b700543a0c2c012db6005686125a628d2db6005b0460872db6005e86125a628db20061b200670c190bb9006d0100125a6a127362b6007403360d150d1032a200f9190cbb007859b2007a1908b600801009b60084b7008a2d04b6008db60090140094b80096125ab6009c190bb900a001001400a46b190bb9006d010012a66a8d190bb900a001001400a46bb600a7b600ab57190cb200af2d04b6008db60090140094b8009612b3b6009c190b100a1014b900b40300b600b8190b107d1100afb900b4030003031100ffb600bcb600ab57190cb200c02d04b6008db60090140094b8009612b3b6009c190b06100fb900b40300b600b8190bb900a001001400a46b190bb9006d010012a66a8d190bb900a001001400a46bb600a7190b107d1100afb900b4030003031100ffb600bcb600ab57840d01a7ff06190c19072db600c3a700311908b600c79900292c012db6005686125a628d2db6005b0460872db6005e86125a628db200cab200670c0cb60074b1"
+        },
+        {
+          "name": "getAnalogOutputSignal",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I",
+          "code_hex": "2c2db600163a051905c100079900631905c000073a041904b600803a0519051009b60084b600cd9a0006100fac03360603360715071009a2003519051507b600843a081908b200d2b600d89a00181908b600db9900131908b600de1908b600e1a10006840601840701a7ffca1506ac03ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/misc/CompressedItem.class",
+      "sha256": "21762c3ae73b4514231777b3da18630aed9df5e040a30e27cff2b0879b69f07c",
+      "methods": [
+        {
+          "name": "getCompressedCount",
+          "descriptor": "(II)J",
+          "code_hex": "1a8514003b1b87b8003db8004369ad"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/datacomponent/CompressedItemData.class",
+      "sha256": "ae0601504568c7dc792b2c58ff70c2b3e09629c48463653bdf5776c5f61a6ddd",
+      "methods": [
+        {
+          "name": "compress",
+          "descriptor": "()Lnet/tslat/aoa3/content/item/datacomponent/CompressedItemData;",
+          "code_hex": "bb0008592ab400072ab4000d0460b70011b0"
+        },
+        {
+          "name": "decompress",
+          "descriptor": "()Lnet/tslat/aoa3/content/item/datacomponent/CompressedItemData;",
+          "code_hex": "bb0008592ab400072ab4000d0464b70011b0"
+        },
+        {
+          "name": "lambda$static$0",
+          "descriptor": "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;",
+          "code_hex": "2ab20014121ab9001c0200ba00220000b60026041012b8002c1230b9001c0200ba00310000b60026b600322aba00380000b6003bb0"
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "content/recipe/InfusedPressCompressionRecipe.java": "8da7006a43472b5678b369e1e4258807c601bc2dbf5702d595a30ef994b1fdfd",
+    "content/recipe/InfusedPressDecompressionRecipe.java": "4505865056b9201fcd5c7c22dd4253d961af6444244de6f07379a17a0b2eaf0a",
+    "content/block/blockentity/InfusedPressBlockEntity.java": "10380d7402dc6fa2648a8ca2d9090a85afb04d0fc01283a3205976c8e80340be",
+    "content/block/functional/utility/InfusedPress.java": "6cff49bfe7860e08afd53706464d5780129cc241718fba0ab9ff565230227839",
+    "content/item/datacomponent/CompressedItemData.java": "e62052a8cd8eaa6d889bd42580b95262e53deff28b4cecbce1bf2d679811982d",
+    "content/item/misc/CompressedItem.java": "ff2b907dfd91584728394a5060153ee6522836e40c06c27f389e2197ab68f44d",
+    "common/menu/InfusedPressMenu.java": "e8ce6039268d62b3958cc4d86c19a7199f07cfbf2975ed4cdde10e36ec690a80"
+  },
+  "quantity_cases": [
+    {
+      "max_stack": 64,
+      "tier": 1,
+      "modeled_signed_count": 576,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 64,
+      "tier": 2,
+      "modeled_signed_count": 5184,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 16,
+      "tier": 1,
+      "modeled_signed_count": 144,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 16,
+      "tier": 2,
+      "modeled_signed_count": 1296,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 64,
+      "tier": 17,
+      "modeled_signed_count": 1067339628778660480,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 64,
+      "tier": 18,
+      "modeled_signed_count": -8840687414701606912,
+      "negative_guard_rejects": true,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 16,
+      "tier": 18,
+      "modeled_signed_count": 2401514164751986176,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": true
+    },
+    {
+      "max_stack": 16,
+      "tier": 19,
+      "modeled_signed_count": 3166883409058320384,
+      "negative_guard_rejects": false,
+      "within_serialized_tier_range": false
+    }
+  ],
+  "station_output_recipes": [],
+  "findings": [
+    "Only rejecting negative signed counts does not enforce the component codec tier range 1..18; modeled max-stack16 tier19 has a positive wrapped value and lies outside that range",
+    "Comparator counts individually full/compressed slots, not successful equality/component recipe matching"
+  ],
+  "acceptance": [
+    "Validate next tier against codec range before assembly and use checked integer quantity arithmetic",
+    "Test 9 full equal stacks, partial stack, mismatched components, mixed tiers, occupied output and empty decompression grid",
+    "Test downward piston base two blocks above press, extension/retraction event ordering and output removal before retraction",
+    "Round-trip compressed components through save/load and client sync, including supported modded max-stack sizes",
+    "Verify station acquisition for the selected pack; no output recipe was found in this released recipe directory"
+  ]
+}
