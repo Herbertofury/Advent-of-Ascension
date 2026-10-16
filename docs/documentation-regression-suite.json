@@ -4,85 +4,85 @@
     {
       "test": "test_bestiary_links.cjs",
       "exit_code": 0,
-      "seconds": 0.194,
+      "seconds": 0.197,
       "output": "PASS: exact creature permalinks across releases, Shadow does not match Shadowlord, invalid release safe fallback, exactly one release-specific startup fetch\n"
     },
     {
       "test": "test_drop_finder.cjs",
       "exit_code": 0,
-      "seconds": 0.09,
+      "seconds": 0.089,
       "output": "PASS drop search, exact creature links, lazy association lists, per-release request caching, version-preserving recipe links\n"
     },
     {
       "test": "test_filters.cjs",
       "exit_code": 0,
-      "seconds": 0.477,
+      "seconds": 0.321,
       "output": "PASS: legacy dimension filter, all3modernrosters, Barathos filtering, return to525legacyentities, lazy loot retained\n"
     },
     {
       "test": "test_historical_comparisons.cjs",
       "exit_code": 0,
-      "seconds": 0.119,
+      "seconds": 0.141,
       "output": "PASS 178 separate historical comparisons; no current portrait substitution; no image before expand; no duplicate builds or extra release fetch\n"
     },
     {
       "test": "test_inventory_explorer.cjs",
       "exit_code": 0,
-      "seconds": 0.259,
+      "seconds": 0.258,
       "output": "PASS all10077cards, one selected-release startup fetch, 40-card lazy pages, exact IDs, search/kind/status filters, cache, retry, no stale response overwrite, invalid version rejected\n"
     },
     {
       "test": "test_loot.cjs",
       "exit_code": 0,
-      "seconds": 0.4,
+      "seconds": 0.226,
       "output": "PASS: lazy fetch, shared cache across525entities, all517tables render, exact conditions/functions, failure retry, no startup loot scan\n"
     },
     {
       "test": "test_loot_guide_media_121.py",
       "exit_code": 0,
-      "seconds": 0.06,
+      "seconds": 0.065,
       "output": "PASS all four guide image URLs resolve to inspected source-derived assets with verified hashes\n"
     },
     {
       "test": "test_loot_reference_121.py",
       "exit_code": 0,
-      "seconds": 0.192,
+      "seconds": 0.23,
       "output": "PASS 1,315 normalized table item-multisets and hashes, 25 modifiers, 1,472 icons, nested refs, world gates and vanilla Wither override\n"
     },
     {
       "test": "test_loot_reference_ui.cjs",
       "exit_code": 0,
-      "seconds": 0.35,
+      "seconds": 0.334,
       "output": "PASS 1,340 fact panels, index-only startup, no initial images, lazy category/icon caches, exact deep links, modifier/override search, retries and unsupported-version refusal\n"
     },
     {
       "test": "test_loot_variants.cjs",
       "exit_code": 0,
-      "seconds": 0.112,
+      "seconds": 0.12,
       "output": "PASS: nested multi-entry armour rendered; random fish variants stay a labeled pool, four exact model references, stable lazy expansion, exact data1 Salmon, unknown metadata remains unknown\n"
     },
     {
       "test": "test_modern_loot.cjs",
       "exit_code": 0,
-      "seconds": 0.29,
+      "seconds": 0.349,
       "output": "PASS: 787 modern source roster panels, 792 entity/nested tables, one loot fetch per release, no panel load failures\n"
     },
     {
       "test": "test_modern_trader_locations_121.py",
       "exit_code": 0,
-      "seconds": 0.034,
+      "seconds": 0.038,
       "output": "PASS2 roaming definitions,6 hovel variants,entity flags,10000 arithmetic cases,83 retained turntables and2 NPC guide links\n"
     },
     {
       "test": "test_multistate_coverage.py",
       "exit_code": 0,
-      "seconds": 0.446,
+      "seconds": 0.5,
       "output": "PASS 141 explicit states, 42 transparent and 99 visible; all source selections/hashes; all 149 initial inventory exceptions accounted for\n"
     },
     {
       "test": "test_portrait_coverage_120.py",
       "exit_code": 0,
-      "seconds": 0.348,
+      "seconds": 0.367,
       "output": "PASS all 285 classified, 107 references, 178 explicit gaps; exact released resource hashes; complete selected variant galleries; nine atlas comparisons; no missing referenced images\n"
     },
     {
@@ -94,7 +94,7 @@
     {
       "test": "test_recipe_cache.cjs",
       "exit_code": 0,
-      "seconds": 0.26,
+      "seconds": 0.29,
       "output": "PASS: release/search deep link, three Lapis recipes, one fetch per cached release, failed fetch evicted and retried, unsupported version rejected\n"
     },
     {
@@ -106,109 +106,109 @@
     {
       "test": "test_recipe_explorer.cjs",
       "exit_code": 0,
-      "seconds": 0.421,
+      "seconds": 0.332,
       "output": "1.21.1 1532 cards rendered without exception\n1.20.1 1781 cards rendered without exception\n1.16.5 2296 cards rendered without exception\n1.12.2 1172 cards rendered without exception\n6781 passed\n"
     },
     {
       "test": "test_roster_cache.cjs",
       "exit_code": 0,
-      "seconds": 0.229,
+      "seconds": 0.27,
       "output": "PASS one selected-release startup request, no legacy preload, per-release caching, failed fetch eviction/retry, no stale error cards, invalid release rejected\n"
     },
     {
       "test": "test_stat_readers.py",
       "exit_code": 0,
-      "seconds": 0.184,
+      "seconds": 0.3,
       "output": "PASS 787 artifact builder records, joins, known values, no duplicate blocks, unsupported paths rejected\n"
     },
     {
       "test": "test_trade_catalog_116.py",
       "exit_code": 0,
-      "seconds": 0.039,
+      "seconds": 0.076,
       "output": "PASS207 definitions,44 vendor choices,194 icon hashes,21 shared pools,22 distinct Herald predicates and explicit locked trade\n"
     },
     {
       "test": "test_trade_catalog_121.py",
       "exit_code": 0,
-      "seconds": 0.044,
+      "seconds": 0.049,
       "output": "PASS: 45 offers, six groups, 22 dimension predicates, 49 icon hashes, 91 illustrated cells\n"
     },
     {
       "test": "test_trade_explorer.cjs",
       "exit_code": 0,
-      "seconds": 0.248,
+      "seconds": 0.271,
       "output": "PASS252 offer cards, release-only cached loading, 24-card paging, alias pools, filters, special labels, failed fetch retry and stale-request guard\n"
     },
     {
       "test": "test_trader_locations_116.py",
       "exit_code": 0,
-      "seconds": 0.047,
+      "seconds": 0.045,
       "output": "PASS43/44 acquisition candidates;29 special-spawner chains;258 templates;35 structure/crate identities;419-entry roster preserved\n"
     },
     {
       "test": "test_turntable_ui.cjs",
       "exit_code": 0,
-      "seconds": 0.164,
+      "seconds": 0.162,
       "output": "PASS stale-selection guard, bounded four-image LRU, deep links, one index/selected image load, lazy model cache, frame wrap/reset, no autoplay, visibility pause, failed-image eviction and retry\n"
     },
     {
       "test": "test_tutorial_hub.cjs",
       "exit_code": 0,
-      "seconds": 0.082,
+      "seconds": 0.087,
       "output": "PASS 35 guide cards; six-card pagination; release and goal filters; exact search links; unsupported-release refusal; lazy images and readable image-failure fallback.\n"
     },
     {
       "test": "test_farming_guide_121.py",
       "exit_code": 0,
-      "seconds": 0.036,
+      "seconds": 0.031,
       "output": "PASS17crop records/13ordinary;16loot tables;4guideimages;specialplacement,replant,soiltransition,Yfloorandruntimecaveats\n"
     },
     {
       "test": "test_infusion_guide_121.py",
       "exit_code": 0,
-      "seconds": 0.032,
+      "seconds": 0.031,
       "output": "PASS62infusiondefinitions;exactBoltRiflebaseand7ingrediententries;stationpattern;2images;consumption/preservationcaveats\n"
     },
     {
       "test": "test_imbuing_guide_121.py",
       "exit_code": 0,
-      "seconds": 0.035,
+      "seconds": 0.031,
       "output": "PASS135recipes;6exactexampletiers;12focusdurabilities;stationpattern;2images;immediatecommit/stack-use/book/skillcaveats\n"
     },
     {
       "test": "test_repo_link_normalizer.py",
       "exit_code": 0,
-      "seconds": 0.027,
+      "seconds": 0.028,
       "output": "PASS canonical wiki targets; release/anchor preservation; code fences, inline code, images, real files and external links unchanged; idempotent\n"
     },
     {
       "test": "test_pixon_guide_121.py",
       "exit_code": 0,
-      "seconds": 0.03,
+      "seconds": 0.029,
       "output": "PASS six spawn definitions; eight weighted stone tables and XP pairs; T0 Radiant exclusion; two illustrations; scope and finite-harvest warnings\n"
     },
     {
       "test": "test_fishing_cage_121.py",
       "exit_code": 0,
-      "seconds": 0.037,
+      "seconds": 0.028,
       "output": "PASS two recipes;18illustrated catches;four skill gates;15durability and partial-load wear;owner/randomness/runtime limits\n"
     },
     {
       "test": "test_reward_boxes_121.py",
       "exit_code": 0,
-      "seconds": 0.027,
+      "seconds": 0.04,
       "output": "PASS53entries/five reward tables;56uniqueillustrateditems;sixselectioncases;6panels;consumption,roll/count and level-threshold caveats\n"
     },
     {
       "test": "test_hauling_rods_121.py",
       "exit_code": 0,
-      "seconds": 0.033,
+      "seconds": 0.031,
       "output": "PASS6pools66entries;4durabilities/equipmentgates;GoldenRod1/157basepool;4trapdispatchmodels;2images;cagelevel31crosscheck\n"
     },
     {
       "test": "test_mending_table_121.py",
       "exit_code": 0,
-      "seconds": 0.026,
+      "seconds": 0.027,
       "output": "PASS4recipes;8repair cases;Mending97exactfoci;stale-preview/timing/repairability caveats;2source illustrations\n"
     },
     {
@@ -220,38 +220,44 @@
     {
       "test": "test_recipe_guide_links.cjs",
       "exit_code": 0,
-      "seconds": 0.481,
+      "seconds": 0.471,
       "output": "PASS6781cards;345recipehow-toroutes;alltargets published;under8KBinlineindex;type/outputdedup;no modern instructions on historical imbuing\n"
     },
     {
       "test": "test_fluid_surface_studies.py",
       "exit_code": 0,
-      "seconds": 0.137,
+      "seconds": 0.154,
       "output": "PASS24fluidrecords/27images;releaseexactlinks;15conditionalintegrations;nonempty256pxstudies;alphabounds;125otherledgerrecordsunchanged;explicitgeometrylimits\n"
     },
     {
       "test": "test_inventory_permalinks.cjs",
       "exit_code": 0,
-      "seconds": 0.246,
+      "seconds": 0.212,
       "output": "PASS inventory filter URL round-trips, exact-ID precedence, reset, compatible outcomes, unsupported release refusal/recovery, bounded inputs, restricted history fallback, no extra fetches, no stale-response URL overwrite\n"
     },
     {
       "test": "test_rune_production_121.py",
       "exit_code": 0,
-      "seconds": 0.03,
+      "seconds": 0.036,
       "output": "PASS 2 recipes;14 posts;22 conditional entries;7 batch/6 equipment cases;20 illustrated models;acquisition and runtime limits;2 image hashes\n"
     },
     {
       "test": "test_ashfern_cooking_121.py",
       "exit_code": 0,
-      "seconds": 0.034,
+      "seconds": 0.047,
       "output": "PASS25explicit routes/6outputs;20fish;32model images;Hydrone excluded;Parapiranha exception;dynamic output/recipe scope and source limits\n"
     },
     {
       "test": "test_tea_sink_121.py",
       "exit_code": 0,
-      "seconds": 0.029,
+      "seconds": 0.051,
       "output": "PASS sink/cup recipes;8selection cases;14model references;melon-output/Creative caveats;2image hashes;probability and inventory guidance\n"
+    },
+    {
+      "test": "test_recipe_permalinks.cjs",
+      "exit_code": 0,
+      "seconds": 0.454,
+      "output": "PASS recipe search/type/release URL round-trip;reset;compatible type preservation;unsupported release zero-fetch refusal/recovery;invalid type cleared;bounded query;restricted history fallback;cached requests;stale response cannot change URL\n"
     }
   ]
 }
