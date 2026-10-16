@@ -2,7 +2,7 @@
 
 **Finding:** the inspected official 1.20.1 / AoA 3.7.1 and 1.21.1 / AoA 3.7.16.1 implementations can select horizontal coordinates beyond the caller’s named `maxRadius = 64`. This is an arithmetic finding with released-bytecode checks, not a live-game failure report or a completed patch.
 
-![Checked roaming-trader coordinate calculation](https://herbertofury.github.io/Advent-of-Ascension/previews/roaming-trader-coordinate-bands.webp)
+![Checked roaming-trader coordinate calculation](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/roaming-trader-coordinate-bands.webp)
 
 ## What the code actually calculates
 

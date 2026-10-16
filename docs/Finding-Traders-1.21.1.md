@@ -45,7 +45,7 @@ The scan also found retained templates containing older regional Lottoman IDs. T
 
 The trader code calls a helper with values named minimum 20 and maximum 64, but the checked calculation adds the **44-block width again** to each signed offset. Nonzero coordinates can therefore be roughly 44–88 blocks away on each axis, including positions beyond the named maximum. A sample axis draw of +22 becomes +66.
 
-![Roaming trader coordinate arithmetic](https://herbertofury.github.io/Advent-of-Ascension/previews/roaming-trader-coordinate-bands.webp)
+![Roaming trader coordinate arithmetic](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/roaming-trader-coordinate-bands.webp)
 
 This is a static source/released-bytecode finding, not a measured spawn map. Do not use the parameter names alone to promise a 20–64-block circular search ring. [Full cross-version audit, current-candidate caveat and repair checklist](Roaming-Trader-Spawn-Geometry).
 
