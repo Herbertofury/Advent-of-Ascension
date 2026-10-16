@@ -1,0 +1,553 @@
+{
+  "version": "1.20.1",
+  "mapping": {
+    "version": "1.20.1",
+    "metadata_url": "https://piston-meta.mojang.com/v1/packages/a5cf661d31d9dfcd3d1645be80f43954f63f63b0/1.20.1.json",
+    "mappings_url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt",
+    "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
+    "size": 8001795
+  },
+  "classes": {
+    "fmi": "0060e02e975a5c73fcdb4d9b465ff3b99104423cd764a96fadf86430b5fb20f3",
+    "fme": "3028f3e40dc53843f86a2a1502da89a015bc47fe81bc4458d18039c11c68ef1b",
+    "fme$a": "01284dd1001406c4de758911f367de61059e9b87d0eec6d27b852c03d1eb946e"
+  },
+  "geometry_checks": [
+    {
+      "variant": "standing",
+      "matches_official_121_geometry": true,
+      "parts": 3
+    },
+    {
+      "variant": "wall",
+      "matches_official_121_geometry": true,
+      "parts": 2
+    },
+    {
+      "variant": "hanging_wall",
+      "matches_official_121_geometry": true,
+      "parts": 8
+    },
+    {
+      "variant": "hanging_ceiling",
+      "matches_official_121_geometry": true,
+      "parts": 7
+    },
+    {
+      "variant": "hanging_attached",
+      "matches_official_121_geometry": true,
+      "parts": 3
+    }
+  ],
+  "scope": "Official 1.20.1 layer factories and visibility bytecode verified. Five resulting geometries exactly equal the independently extracted official 1.21.1 forms. Released AoA textures compared byte-for-byte before reusing rendered views. No in-game text, scale/placement or interaction certification.",
+  "hanging_visibility_normalized_match": true,
+  "hanging_visibility_normalized_instructions": [
+    [
+      0,
+      43,
+      ""
+    ],
+    [
+      1,
+      182,
+      [
+        "net/minecraft/world/level/block/state/BlockState",
+        "b",
+        "()Lnet/minecraft/world/level/block/Block;"
+      ]
+    ],
+    [
+      4,
+      193,
+      "net/minecraft/world/level/block/CeilingHangingSignBlock"
+    ],
+    [
+      7,
+      154,
+      "0007"
+    ],
+    [
+      10,
+      4,
+      ""
+    ],
+    [
+      11,
+      167,
+      "0004"
+    ],
+    [
+      14,
+      3,
+      ""
+    ],
+    [
+      15,
+      61,
+      ""
+    ],
+    [
+      16,
+      42,
+      ""
+    ],
+    [
+      17,
+      180,
+      [
+        "net/minecraft/client/renderer/blockentity/HangingSignRenderer$HangingSignModel",
+        "b",
+        "Lnet/minecraft/client/model/geom/ModelPart;"
+      ]
+    ],
+    [
+      20,
+      28,
+      ""
+    ],
+    [
+      21,
+      181,
+      [
+        "net/minecraft/client/model/geom/ModelPart",
+        "k",
+        "Z"
+      ]
+    ],
+    [
+      24,
+      42,
+      ""
+    ],
+    [
+      25,
+      180,
+      [
+        "net/minecraft/client/renderer/blockentity/HangingSignRenderer$HangingSignModel",
+        "c",
+        "Lnet/minecraft/client/model/geom/ModelPart;"
+      ]
+    ],
+    [
+      28,
+      3,
+      ""
+    ],
+    [
+      29,
+      181,
+      [
+        "net/minecraft/client/model/geom/ModelPart",
+        "k",
+        "Z"
+      ]
+    ],
+    [
+      32,
+      42,
+      ""
+    ],
+    [
+      33,
+      180,
+      [
+        "net/minecraft/client/renderer/blockentity/HangingSignRenderer$HangingSignModel",
+        "d",
+        "Lnet/minecraft/client/model/geom/ModelPart;"
+      ]
+    ],
+    [
+      36,
+      4,
+      ""
+    ],
+    [
+      37,
+      181,
+      [
+        "net/minecraft/client/model/geom/ModelPart",
+        "k",
+        "Z"
+      ]
+    ],
+    [
+      40,
+      28,
+      ""
+    ],
+    [
+      41,
+      154,
+      "0029"
+    ],
+    [
+      44,
+      43,
+      ""
+    ],
+    [
+      45,
+      178,
+      [
+        "net/minecraft/world/level/block/state/properties/BlockStateProperties",
+        "a",
+        "Lnet/minecraft/world/level/block/state/properties/BooleanProperty;"
+      ]
+    ],
+    [
+      48,
+      182,
+      [
+        "net/minecraft/world/level/block/state/BlockState",
+        "c",
+        "(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;"
+      ]
+    ],
+    [
+      51,
+      192,
+      "java/lang/Boolean"
+    ],
+    [
+      54,
+      182,
+      [
+        "java/lang/Boolean",
+        "booleanValue",
+        "()Z"
+      ]
+    ],
+    [
+      57,
+      62,
+      ""
+    ],
+    [
+      58,
+      42,
+      ""
+    ],
+    [
+      59,
+      180,
+      [
+        "net/minecraft/client/renderer/blockentity/HangingSignRenderer$HangingSignModel",
+        "d",
+        "Lnet/minecraft/client/model/geom/ModelPart;"
+      ]
+    ],
+    [
+      62,
+      29,
+      ""
+    ],
+    [
+      63,
+      154,
+      "0007"
+    ],
+    [
+      66,
+      4,
+      ""
+    ],
+    [
+      67,
+      167,
+      "0004"
+    ],
+    [
+      70,
+      3,
+      ""
+    ],
+    [
+      71,
+      181,
+      [
+        "net/minecraft/client/model/geom/ModelPart",
+        "k",
+        "Z"
+      ]
+    ],
+    [
+      74,
+      42,
+      ""
+    ],
+    [
+      75,
+      180,
+      [
+        "net/minecraft/client/renderer/blockentity/HangingSignRenderer$HangingSignModel",
+        "c",
+        "Lnet/minecraft/client/model/geom/ModelPart;"
+      ]
+    ],
+    [
+      78,
+      29,
+      ""
+    ],
+    [
+      79,
+      181,
+      [
+        "net/minecraft/client/model/geom/ModelPart",
+        "k",
+        "Z"
+      ]
+    ],
+    [
+      82,
+      177,
+      ""
+    ]
+  ],
+  "standing_stick_visibility": [
+    {
+      "instanceof_offset": 49,
+      "class": "net/minecraft/world/level/block/StandingSignBlock",
+      "visible_write_offset": 52
+    }
+  ],
+  "images": [
+    {
+      "wood": "baobab",
+      "variant": "standing",
+      "texture": "assets/aoa3/textures/entity/signs/baobab.png",
+      "texture_sha256": "1cdd8cfa3bf68989eeb97d0bcc068b86e2a02db0fc96ef5f28a50f42e1d79680",
+      "image": "1.20.1-sign-baobab-standing.webp",
+      "reused_from": "1.21.1-sign-baobab-standing.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "baobab",
+      "variant": "wall",
+      "texture": "assets/aoa3/textures/entity/signs/baobab.png",
+      "texture_sha256": "1cdd8cfa3bf68989eeb97d0bcc068b86e2a02db0fc96ef5f28a50f42e1d79680",
+      "image": "1.20.1-sign-baobab-wall.webp",
+      "reused_from": "1.21.1-sign-baobab-wall.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "baobab",
+      "variant": "hanging_wall",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/baobab.png",
+      "texture_sha256": "fc274a6b30770e79b34f40f53c0d56f30659b5f565aa2f474d16603a96834233",
+      "image": "1.20.1-sign-baobab-hanging_wall.webp",
+      "reused_from": "1.21.1-sign-baobab-hanging_wall.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "baobab",
+      "variant": "hanging_ceiling",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/baobab.png",
+      "texture_sha256": "fc274a6b30770e79b34f40f53c0d56f30659b5f565aa2f474d16603a96834233",
+      "image": "1.20.1-sign-baobab-hanging_ceiling.webp",
+      "reused_from": "1.21.1-sign-baobab-hanging_ceiling.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "baobab",
+      "variant": "hanging_attached",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/baobab.png",
+      "texture_sha256": "fc274a6b30770e79b34f40f53c0d56f30659b5f565aa2f474d16603a96834233",
+      "image": "1.20.1-sign-baobab-hanging_attached.webp",
+      "reused_from": "1.21.1-sign-baobab-hanging_attached.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "lucalus",
+      "variant": "standing",
+      "texture": "assets/aoa3/textures/entity/signs/lucalus.png",
+      "texture_sha256": "ce54187dacc81781c21dfa0da41da98af607f7772f5801d2b41731a74f7a02e3",
+      "image": "1.20.1-sign-lucalus-standing.webp",
+      "reused_from": "1.21.1-sign-lucalus-standing.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "lucalus",
+      "variant": "wall",
+      "texture": "assets/aoa3/textures/entity/signs/lucalus.png",
+      "texture_sha256": "ce54187dacc81781c21dfa0da41da98af607f7772f5801d2b41731a74f7a02e3",
+      "image": "1.20.1-sign-lucalus-wall.webp",
+      "reused_from": "1.21.1-sign-lucalus-wall.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "lucalus",
+      "variant": "hanging_wall",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/lucalus.png",
+      "texture_sha256": "f30d5aaf5f448530177b8f53be995671cca8a3d97102b81fa6326e0208d6d01d",
+      "image": "1.20.1-sign-lucalus-hanging_wall.webp",
+      "reused_from": "1.21.1-sign-lucalus-hanging_wall.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "lucalus",
+      "variant": "hanging_ceiling",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/lucalus.png",
+      "texture_sha256": "f30d5aaf5f448530177b8f53be995671cca8a3d97102b81fa6326e0208d6d01d",
+      "image": "1.20.1-sign-lucalus-hanging_ceiling.webp",
+      "reused_from": "1.21.1-sign-lucalus-hanging_ceiling.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "lucalus",
+      "variant": "hanging_attached",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/lucalus.png",
+      "texture_sha256": "f30d5aaf5f448530177b8f53be995671cca8a3d97102b81fa6326e0208d6d01d",
+      "image": "1.20.1-sign-lucalus-hanging_attached.webp",
+      "reused_from": "1.21.1-sign-lucalus-hanging_attached.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "stranglewood",
+      "variant": "standing",
+      "texture": "assets/aoa3/textures/entity/signs/stranglewood.png",
+      "texture_sha256": "09ec140a166a49b898463490ce5d420de80cc16fd882eaf5ed7237bb194163f9",
+      "image": "1.20.1-sign-stranglewood-standing.webp",
+      "reused_from": "1.21.1-sign-stranglewood-standing.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "stranglewood",
+      "variant": "wall",
+      "texture": "assets/aoa3/textures/entity/signs/stranglewood.png",
+      "texture_sha256": "09ec140a166a49b898463490ce5d420de80cc16fd882eaf5ed7237bb194163f9",
+      "image": "1.20.1-sign-stranglewood-wall.webp",
+      "reused_from": "1.21.1-sign-stranglewood-wall.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "stranglewood",
+      "variant": "hanging_wall",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/stranglewood.png",
+      "texture_sha256": "5c56d919325e1b0d86acab510e1c955422c6d5b6c359d3e15a6ecfd7e09194d3",
+      "image": "1.20.1-sign-stranglewood-hanging_wall.webp",
+      "reused_from": "1.21.1-sign-stranglewood-hanging_wall.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "stranglewood",
+      "variant": "hanging_ceiling",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/stranglewood.png",
+      "texture_sha256": "5c56d919325e1b0d86acab510e1c955422c6d5b6c359d3e15a6ecfd7e09194d3",
+      "image": "1.20.1-sign-stranglewood-hanging_ceiling.webp",
+      "reused_from": "1.21.1-sign-stranglewood-hanging_ceiling.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    },
+    {
+      "wood": "stranglewood",
+      "variant": "hanging_attached",
+      "texture": "assets/aoa3/textures/entity/signs/hanging/stranglewood.png",
+      "texture_sha256": "5c56d919325e1b0d86acab510e1c955422c6d5b6c359d3e15a6ecfd7e09194d3",
+      "image": "1.20.1-sign-stranglewood-hanging_attached.webp",
+      "reused_from": "1.21.1-sign-stranglewood-hanging_attached.webp",
+      "reason": "Exact official geometry and AoA texture bytes; visibility conditions verified separately."
+    }
+  ],
+  "released_sign_group": {
+    "class": "net/tslat/aoa3/common/registration/block/group/SignBlockGroup.class",
+    "sha256": "88dc3bdc1eeb89883338e9912b819d9d215b37073e785d8ce6488e1915379767",
+    "constructor_and_item_policy_references": [
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$1",
+        "(Lnet/tslat/aoa3/common/registration/block/BlockRegistrar;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "freestanding",
+        "Lnet/minecraftforge/registries/RegistryObject;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$3",
+        "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/tslat/aoa3/common/registration/block/BlockRegistrar;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "wall",
+        "Lnet/minecraftforge/registries/RegistryObject;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$6",
+        "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/tslat/aoa3/common/registration/block/BlockRegistrar;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "hanging",
+        "Lnet/minecraftforge/registries/RegistryObject;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$8",
+        "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/tslat/aoa3/common/registration/block/BlockRegistrar;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "wallHanging",
+        "Lnet/minecraftforge/registries/RegistryObject;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/BlockRegistrar",
+        "noItem",
+        "()Lnet/tslat/aoa3/common/registration/block/BlockRegistrar;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$7",
+        "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;"
+      ],
+      [
+        "net/minecraft/world/level/block/WallHangingSignBlock",
+        "<init>",
+        "(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/WoodType;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$4",
+        "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$5",
+        "(Lnet/minecraft/world/level/block/CeilingHangingSignBlock;Lnet/minecraft/world/item/Item$Properties;)Lnet/minecraft/world/item/Item;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "wallHanging",
+        "()Lnet/minecraft/world/level/block/WallHangingSignBlock;"
+      ],
+      [
+        "net/minecraft/world/level/block/CeilingHangingSignBlock",
+        "<init>",
+        "(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/WoodType;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$2",
+        "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;"
+      ],
+      [
+        "net/minecraft/world/level/block/WallSignBlock",
+        "<init>",
+        "(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;Lnet/minecraft/world/level/block/state/properties/WoodType;)V"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "lambda$new$0",
+        "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item$Properties;)Lnet/minecraft/world/item/Item;"
+      ],
+      [
+        "net/tslat/aoa3/common/registration/block/group/SignBlockGroup",
+        "wall",
+        "()Lnet/minecraft/world/level/block/WallSignBlock;"
+      ]
+    ],
+    "scope": "Released group references vanilla sign block classes and noItem policy. Full runtime registration and placement are not executed."
+  }
+}
