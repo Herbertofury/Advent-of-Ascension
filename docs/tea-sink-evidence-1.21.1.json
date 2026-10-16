@@ -1,0 +1,370 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Two recipes, crop loot, selected released class branches and eight independent selection cases. No live-game reproduction or private Enderloom fix.",
+  "resources": [
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_tea_sink.json",
+      "sha256": "6965a935a8e7fde7e6ecf8ca262f6b83568cdfdffb398d85a63dac7fcc0b43b7",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "tag": "minecraft:planks"
+          },
+          "B": {
+            "item": "minecraft:iron_ingot"
+          },
+          "C": {
+            "item": "minecraft:cauldron"
+          }
+        },
+        "pattern": [
+          "AB ",
+          "AC ",
+          "AAA"
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:tea_sink"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_cup.json",
+      "sha256": "8e32e0e8998631921bac881362860b70bb4716fc7dd8464b691164c59dce1761",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "aoa3:ivory"
+          }
+        },
+        "pattern": [
+          "A A",
+          " A "
+        ],
+        "result": {
+          "count": 3,
+          "id": "aoa3:cup"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/blocks/tea_crop.json",
+      "sha256": "1b13e5ca13988ae1882ebd543d956721bae1984f885ee7512c6e450b406b44d0",
+      "data": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:tea_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:tea_shreddings"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:tea_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:tea_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:tea_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/block/functional/utility/TeaSink.class",
+      "sha256": "a1e61f66c2f7266d2b2965feb971e9e13297830d166dc74cf662a38c0554a60f",
+      "methods": [
+        {
+          "name": "useItemOn",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;",
+          "code_hex": "2cb2000db60039c00012b6004e9900322bb20052b600589a0007b2005eb01905b20064b8006719052b2d19042cba006d0000b60070b2005eb60076c0005fb02bb6007ab2007ea600831905c100849900731905c000843a081908b60086b4008a9a00112b04b600901908b20094b80097572d19042ab60007b2009b2cb2009bb60039c00022b60017c00018b2000d04b80011b60017c00018b6009c572d011904b600a2871904b600a7871904b600aa87b200adb600b3c000b9b200bb0c0cb600c12db400c5b800c8b0b200ccb0"
+        },
+        {
+          "name": "getStateForPlacement",
+          "descriptor": "(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;",
+          "code_hex": "2ab60007b2000d03b80011b60017c00018b2009b2bb600cf04b800d5b60017c00018b0"
+        },
+        {
+          "name": "lambda$useItemOn$0",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lit/unimi/dsi/fastutil/ints/IntObjectPair;)Lnet/minecraft/world/ItemInteractionResult;",
+          "code_hex": "2ac100849900c92ac000843a06b200e33a071906b200e61906b60086b4008a99000703a700040404b800e999000bb200ed3a07a700241906b200f01906b60086b4008a99000703a700040404b800e9990008b200f03a071906b60086b4008a9a00161905b900f30100c0005904b600902b04b6009019061907b80097572c012db600a2872db600a7872db600aa87b200f8b600b3c000b9b200bb0c0cb600c11007b800fb9900292c2db20101b60107c0010ab6010cb2009b1904b2009bb60039c00022b60017c00018b6009c572cb400c5b800c8b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/util/InventoryUtil.class",
+      "sha256": "0af28fb1134e74208ef241e7f1f9655d9e341bddb2777035d0025cf6cc2d6acd",
+      "methods": [
+        {
+          "name": "findItem",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/ItemLike;)Ljava/util/Optional;",
+          "code_hex": "2bb9000701004d2a2cba003f0000b8003cb0"
+        },
+        {
+          "name": "findItem",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/tags/TagKey;)Ljava/util/Optional;",
+          "code_hex": "2a2bba00400000b8003cb0"
+        },
+        {
+          "name": "findItem",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Ljava/util/function/Predicate;)Ljava/util/Optional;",
+          "code_hex": "2ab6001a4d2cb600419a001c2b2cb9002002009900122ab60046b4004a2cb80050b80056b02ab600254e2db600419a00172b2db90020020099000d10282db80050b80056b00336042ab60046b40059b9005d01003a051905b90063010099005f1905b900680100c0006c3a061906b6006e3a071907b90063010099003f1907b900680100c000423a0819082ca5002719082da500211908b600419a00192b1908b90020020099000e15041908b80050b80056b0840401a7ffbda7ff9db8006fb0"
+        },
+        {
+          "name": "findItemForConsumption",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/ItemLike;IZ)Z",
+          "code_hex": "2bb9000701003a042a1904ba007300001c1db80074ac"
+        },
+        {
+          "name": "findItemForConsumption",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/tags/TagKey;IZ)Z",
+          "code_hex": "2a2bba007800001c1db80074ac"
+        },
+        {
+          "name": "findItemForConsumption",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Ljava/util/function/Predicate;IZ)Z",
+          "code_hex": "1c9d000504acbb0079591c10406cb7007b3a04bb007e591cb700803a052a2b19041905ba00810000b8003c1d2a1c1904ba00840000b6008803b8008cb60092c0008db60096ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/food/Tea.class",
+      "sha256": "1a3e66a35cf5073b54bdbda7bdb938b5becde38614cd629138cbfd6f0a8ea154",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2abb000159b70003b20007b6000dc00013b6001504b60019b2001db60023b70027b1"
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2b2c2db700303a042dc100349900152dc00034b60036b4003a9900081904a700082a2bb60040b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/food/FungalTea.class",
+      "sha256": "1f7d4c631cfe8ecc48519f6633e2d4a085cdad6b98e4ddcee4800b7a01396d70",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2abb000159b70003b20007b6000dc00013b6001504b60019b2001db60023b70027b1"
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2b2c2db700303a042dc100349900152dc00034b60036b4003a9900081904a700082a2bb60040b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/food/NaturalTea.class",
+      "sha256": "5205e83a9a50677c18b7217dc9128ebfba48d5438a7da690ed3205dfdd0761f0",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2abb000159b70003b20007b6000dc00013b6001504b60019b2001db60023b70027b1"
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2b2c2db700303a042dc100349900152dc00034b60036b4003a9900081904a700082a2bb60040b0"
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "content/block/functional/utility/TeaSink.java": "fe82503279732f1ead17d27856d84d232450dda39162f6faa7230bb22f8d548b",
+    "util/InventoryUtil.java": "b4c4443d8a501f568dbe5a2995f39f667d1b496318bff08fe7982a1469b588b5",
+    "content/item/food/Tea.java": "e8a476350dd970f202f3d75ff3d41547efe1d9e80391eb72cb9fb0ac3a21d658",
+    "content/item/food/FungalTea.java": "b1dfdd98298837c3cc1ce11a4630460737bc128cbcfd685239ce8ac4828a1ccc",
+    "content/item/food/NaturalTea.java": "37119967657c419f19224f170ca70cdd5dbf715f1154ed473e07377f02de97f4",
+    "common/registration/item/AoAFood.java": "dcf933661eb67f183623461cc2bdeccbb50381e95c3d31326f0c25a34dfd019a"
+  },
+  "selection_cases": [
+    {
+      "input": [
+        false,
+        false,
+        false
+      ],
+      "result": {
+        "action": "brew",
+        "output": "tea",
+        "consume_cup": true,
+        "consume_shreddings": true,
+        "consume_additive": null
+      }
+    },
+    {
+      "input": [
+        false,
+        true,
+        false
+      ],
+      "result": {
+        "action": "brew",
+        "output": "fungal_tea",
+        "consume_cup": true,
+        "consume_shreddings": true,
+        "consume_additive": "mystic_shrooms"
+      }
+    },
+    {
+      "input": [
+        false,
+        false,
+        true
+      ],
+      "result": {
+        "action": "brew",
+        "output": "nature_melon_slice",
+        "consume_cup": true,
+        "consume_shreddings": true,
+        "consume_additive": "nature_melon_slice"
+      }
+    },
+    {
+      "input": [
+        false,
+        true,
+        true
+      ],
+      "result": {
+        "action": "brew",
+        "output": "fungal_tea",
+        "consume_cup": true,
+        "consume_shreddings": true,
+        "consume_additive": "mystic_shrooms"
+      }
+    },
+    {
+      "input": [
+        true,
+        false,
+        false
+      ],
+      "result": {
+        "action": "brew",
+        "output": "fungal_tea",
+        "consume_cup": false,
+        "consume_shreddings": false,
+        "consume_additive": null
+      }
+    },
+    {
+      "input": [
+        true,
+        false,
+        true
+      ],
+      "result": {
+        "action": "brew",
+        "output": "fungal_tea",
+        "consume_cup": false,
+        "consume_shreddings": false,
+        "consume_additive": null
+      }
+    },
+    {
+      "input": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "result": {
+        "action": "fail"
+      }
+    },
+    {
+      "input": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "result": {
+        "action": "fail"
+      }
+    }
+  ],
+  "findings": [
+    "Nature Melon branch stores NATURE_MELON_SLICE as the returned item; no NATURAL_TEA field reference exists in TeaSink class",
+    "Creative passes zero consumption amount; helper returns true before inventory search, so shroom branch wins even without shrooms, once cup/shreddings requirements pass"
+  ],
+  "acceptance": [
+    "If intended, return NATURAL_TEA from melon branch and test consumed/returned item conservation",
+    "Separate additive presence from zero-cost Creative consumption; define and test Creative selection",
+    "Test no additive, both additives, inventory/offhand positions, missing cup/shreddings, full inventory, filled/empty transition, refill bucket and cup return after drinking",
+    "Verify probability helper and actual sink depletion behavior without assuming exactly seven uses"
+  ]
+}
