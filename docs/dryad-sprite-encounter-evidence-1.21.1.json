@@ -1,0 +1,5122 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Five released class selections, loot/skill resources and independent interaction branches. No runtime spawn or reward guarantee.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity.class",
+      "sha256": "61cb3d4d760526050168f94d6fb652d911e0418e15770de45b9ee7eddc22edbd",
+      "methods": [
+        {
+          "name": "shouldBeSaved",
+          "descriptor": "()Z",
+          "code_hex": "2ab700359900182ab20023b60039c00027b6003d02a0000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/base/AoAAmbientNPC",
+                "shouldBeSaved",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 192,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 2,
+              "constant": -1
+            },
+            {
+              "offset": 21,
+              "opcode": 160,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 25,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 29,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "mobInteract",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;",
+          "code_hex": "2ab6009a9900f62a2bb6009d9900ee2ab20023b60039c00027b6003d02a000dd2b2cb600a14e2ab2002cb60039c00030b600a79900162bc1009199000f2bc000913a042a1904b600a82db20073b600ac9900aa2ab600af2db600b399003b2ab600b7b600bb9a00912ab20023102cb80026b600582b2a042ab600b7b600c02bb600c4b600ca2ab400ceb600d22a0e0e0eb600d8a700632ab600b7b400dc9a00592ab600df2ab600b7012ab600e22ab600e62ab600e9b200ecb60017c000f1b200f30c0cb600f903360415041014a20029b200fd2ab80103140109b8010b140109b8010b140109b8010bb601112ab60115840401a7ffd6b20119b02a2b2cb7011fb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                246
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 43
+            },
+            {
+              "offset": 9,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "isOwner",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 153,
+              "operands": [
+                0,
+                238
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 192,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 2,
+              "constant": -1
+            },
+            {
+              "offset": 29,
+              "opcode": 160,
+              "operands": [
+                0,
+                221
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 43
+            },
+            {
+              "offset": 33,
+              "opcode": 44
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 78
+            },
+            {
+              "offset": 38,
+              "opcode": 42
+            },
+            {
+              "offset": 39,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "OWNER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 192,
+              "operands": [
+                0,
+                48
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "java/util/Optional",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 153,
+              "operands": [
+                0,
+                22
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 43
+            },
+            {
+              "offset": 55,
+              "opcode": 193,
+              "operands": [
+                0,
+                145
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 153,
+              "operands": [
+                0,
+                15
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 43
+            },
+            {
+              "offset": 62,
+              "opcode": 192,
+              "operands": [
+                0,
+                145
+              ]
+            },
+            {
+              "offset": 65,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 42
+            },
+            {
+              "offset": 68,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setOwner",
+                "(Lnet/minecraft/server/level/ServerPlayer;)V"
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 45
+            },
+            {
+              "offset": 74,
+              "opcode": 178,
+              "member": [
+                "net/neoforged/neoforge/common/ItemAbilities",
+                "HOE_TILL",
+                "Lnet/neoforged/neoforge/common/ItemAbility;"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "canPerformAction",
+                "(Lnet/neoforged/neoforge/common/ItemAbility;)Z"
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 153,
+              "operands": [
+                0,
+                170
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 42
+            },
+            {
+              "offset": 84,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getVariant",
+                "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;"
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 45
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "isCorrectOffering",
+                "(Lnet/minecraft/world/item/ItemStack;)Z"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 153,
+              "operands": [
+                0,
+                59
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 42
+            },
+            {
+              "offset": 95,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 154,
+              "operands": [
+                0,
+                145
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 42
+            },
+            {
+              "offset": 105,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 108,
+              "opcode": 16,
+              "constant": 44
+            },
+            {
+              "offset": 110,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 43
+            },
+            {
+              "offset": 117,
+              "opcode": 42
+            },
+            {
+              "offset": 118,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 119,
+              "opcode": 42
+            },
+            {
+              "offset": 120,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "damageSources",
+                "()Lnet/minecraft/world/damagesource/DamageSources;"
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 43
+            },
+            {
+              "offset": 127,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSources",
+                "playerAttack",
+                "(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "awardKillScore",
+                "(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 42
+            },
+            {
+              "offset": 134,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "navigation",
+                "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;"
+              ]
+            },
+            {
+              "offset": 137,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/ai/navigation/PathNavigation",
+                "stop",
+                "()V"
+              ]
+            },
+            {
+              "offset": 140,
+              "opcode": 42
+            },
+            {
+              "offset": 141,
+              "opcode": 14
+            },
+            {
+              "offset": 142,
+              "opcode": 14
+            },
+            {
+              "offset": 143,
+              "opcode": 14
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setDeltaMovement",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 167,
+              "operands": [
+                0,
+                99
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 42
+            },
+            {
+              "offset": 151,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 154,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 157,
+              "opcode": 154,
+              "operands": [
+                0,
+                89
+              ]
+            },
+            {
+              "offset": 160,
+              "opcode": 42
+            },
+            {
+              "offset": 161,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 42
+            },
+            {
+              "offset": 165,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 1
+            },
+            {
+              "offset": 169,
+              "opcode": 42
+            },
+            {
+              "offset": 170,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getX",
+                "()D"
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 42
+            },
+            {
+              "offset": 174,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getY",
+                "()D"
+              ]
+            },
+            {
+              "offset": 177,
+              "opcode": 42
+            },
+            {
+              "offset": 178,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getZ",
+                "()D"
+              ]
+            },
+            {
+              "offset": 181,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_DRYAD_SPRITE_UNHAPPY",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 184,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 187,
+              "opcode": 192,
+              "operands": [
+                0,
+                241
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "PLAYERS",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 12
+            },
+            {
+              "offset": 194,
+              "opcode": 12
+            },
+            {
+              "offset": 195,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "playSound",
+                "(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+              ]
+            },
+            {
+              "offset": 198,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 199,
+              "opcode": 54,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 201,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 203,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 205,
+              "opcode": 162,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 208,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "ANGRY_VILLAGER",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 211,
+              "opcode": 42
+            },
+            {
+              "offset": 212,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 215,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 218,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 224,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 227,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 230,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 233,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "velocity",
+                "(DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 236,
+              "opcode": 42
+            },
+            {
+              "offset": 237,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 240,
+              "opcode": 132,
+              "operands": [
+                4,
+                1
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 167,
+              "operands": [
+                255,
+                214
+              ]
+            },
+            {
+              "offset": 246,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionResult",
+                "SUCCESS",
+                "Lnet/minecraft/world/InteractionResult;"
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 176
+            },
+            {
+              "offset": 250,
+              "opcode": 42
+            },
+            {
+              "offset": 251,
+              "opcode": 43
+            },
+            {
+              "offset": 252,
+              "opcode": 44
+            },
+            {
+              "offset": 253,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/base/AoAAmbientNPC",
+                "mobInteract",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;"
+              ]
+            },
+            {
+              "offset": 256,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "checkDespawn",
+          "descriptor": "()V",
+          "code_hex": "2ab701232ab601269a00212ab401291064a400182ab20023b60039c00027b6003d02a000072ab600dfb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/base/AoAAmbientNPC",
+                "checkDespawn",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "isRemoved",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 154,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 17,
+              "opcode": 164,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 192,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 2,
+              "constant": -1
+            },
+            {
+              "offset": 34,
+              "opcode": 160,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 42
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "customServerAiStep",
+          "descriptor": "()V",
+          "code_hex": "2ab20023b60039c00027b6003d9e001f2ab200232ab20023b60039c00027b6003d0464b80026b60058a700c22ab20023b60039c00027b6003d9a00b2bb012d59b7012f4c033d1c1014a200362bb201312ab801032ab60134140109b601382ab60134140109b601382ab60134140109b60138b60111b6013b57840201a7ffca2b2ab6013f2ab600b7012ab600e22ab600e62ab600e9b20140b60017c000f1b201430c0cb600f92ab600b7b60146b2014ab6015099001e2ab600b7c001542ab601562ab4015a100a1014b9015e0300b801642ab2002cb60039c000302aba016a0000b6016e2ab20172b60178b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 158,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 42
+            },
+            {
+              "offset": 17,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 192,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 34,
+              "opcode": 100
+            },
+            {
+              "offset": 35,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 167,
+              "operands": [
+                0,
+                194
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 42
+            },
+            {
+              "offset": 45,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "SUCCESS_TIMER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 192,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 154,
+              "operands": [
+                0,
+                178
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 187,
+              "operands": [
+                1,
+                45
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 89
+            },
+            {
+              "offset": 64,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 76
+            },
+            {
+              "offset": 68,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 69,
+              "opcode": 61
+            },
+            {
+              "offset": 70,
+              "opcode": 28
+            },
+            {
+              "offset": 71,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 73,
+              "opcode": 162,
+              "operands": [
+                0,
+                54
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 43
+            },
+            {
+              "offset": 77,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "HAPPY_VILLAGER",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 42
+            },
+            {
+              "offset": 81,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 42
+            },
+            {
+              "offset": 85,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 91,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 42
+            },
+            {
+              "offset": 95,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 101,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 42
+            },
+            {
+              "offset": 105,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 108,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 111,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "velocity",
+                "(DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 87
+            },
+            {
+              "offset": 121,
+              "opcode": 132,
+              "operands": [
+                2,
+                1
+              ]
+            },
+            {
+              "offset": 124,
+              "opcode": 167,
+              "operands": [
+                255,
+                202
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 43
+            },
+            {
+              "offset": 128,
+              "opcode": 42
+            },
+            {
+              "offset": 129,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 132,
+              "opcode": 42
+            },
+            {
+              "offset": 133,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 1
+            },
+            {
+              "offset": 137,
+              "opcode": 42
+            },
+            {
+              "offset": 138,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getX",
+                "()D"
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 42
+            },
+            {
+              "offset": 142,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getY",
+                "()D"
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 42
+            },
+            {
+              "offset": 146,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getZ",
+                "()D"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_DRYAD_SPRITE_HAPPY",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 192,
+              "operands": [
+                0,
+                241
+              ]
+            },
+            {
+              "offset": 158,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "NEUTRAL",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 161,
+              "opcode": 12
+            },
+            {
+              "offset": 162,
+              "opcode": 12
+            },
+            {
+              "offset": 163,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "playSound",
+                "(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+              ]
+            },
+            {
+              "offset": 166,
+              "opcode": 42
+            },
+            {
+              "offset": 167,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 170,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getGameRules",
+                "()Lnet/minecraft/world/level/GameRules;"
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/GameRules",
+                "RULE_DOMOBLOOT",
+                "Lnet/minecraft/world/level/GameRules$Key;"
+              ]
+            },
+            {
+              "offset": 176,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/GameRules",
+                "getBoolean",
+                "(Lnet/minecraft/world/level/GameRules$Key;)Z"
+              ]
+            },
+            {
+              "offset": 179,
+              "opcode": 153,
+              "operands": [
+                0,
+                30
+              ]
+            },
+            {
+              "offset": 182,
+              "opcode": 42
+            },
+            {
+              "offset": 183,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 192,
+              "operands": [
+                1,
+                84
+              ]
+            },
+            {
+              "offset": 189,
+              "opcode": 42
+            },
+            {
+              "offset": 190,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 42
+            },
+            {
+              "offset": 194,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "random",
+                "Lnet/minecraft/util/RandomSource;"
+              ]
+            },
+            {
+              "offset": 197,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 199,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 201,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextInt",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 206,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/entity/ExperienceOrb",
+                "award",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;I)V"
+              ]
+            },
+            {
+              "offset": 209,
+              "opcode": 42
+            },
+            {
+              "offset": 210,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "OWNER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 213,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 192,
+              "operands": [
+                0,
+                48
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 42
+            },
+            {
+              "offset": 220,
+              "opcode": 186,
+              "operands": [
+                1,
+                106,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 225,
+              "opcode": 182,
+              "member": [
+                "java/util/Optional",
+                "ifPresent",
+                "(Ljava/util/function/Consumer;)V"
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 42
+            },
+            {
+              "offset": 229,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/Entity$RemovalReason",
+                "KILLED",
+                "Lnet/minecraft/world/entity/Entity$RemovalReason;"
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "remove",
+                "(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+              ]
+            },
+            {
+              "offset": 235,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "isOwner",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;)Z",
+          "code_hex": "2ab2002cb60039c000302bba017c0000b6018004b80184b60189c00185b6018dac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "OWNER",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                48
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 186,
+              "operands": [
+                1,
+                124,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "java/util/Optional",
+                "map",
+                "(Ljava/util/function/Function;)Ljava/util/Optional;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 20,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "java/util/Optional",
+                "orElse",
+                "(Ljava/lang/Object;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 192,
+              "operands": [
+                1,
+                133
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "java/lang/Boolean",
+                "booleanValue",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$customServerAiStep$1",
+          "descriptor": "(Ljava/util/UUID;)V",
+          "code_hex": "2a0bb602162ab600b72bb6021a4d2cc600552a2cb6021e2ab602222cb600c44e2ab402239b000d2c2a2ab402232db600ca2a04b502262ab60229b6022d2c2ab600b7c001542ab6023299001b2ab20236b6023c2a2ab600b7c001542db602402a2cb60244b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 11
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setHealth",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 42
+            },
+            {
+              "offset": 6,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 43
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getPlayerByUUID",
+                "(Ljava/util/UUID;)Lnet/minecraft/world/entity/player/Player;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 77
+            },
+            {
+              "offset": 14,
+              "opcode": 44
+            },
+            {
+              "offset": 15,
+              "opcode": 198,
+              "operands": [
+                0,
+                85
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 42
+            },
+            {
+              "offset": 19,
+              "opcode": 44
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setLastHurtByPlayer",
+                "(Lnet/minecraft/world/entity/player/Player;)V"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 42
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "damageSources",
+                "()Lnet/minecraft/world/damagesource/DamageSources;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 44
+            },
+            {
+              "offset": 28,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSources",
+                "playerAttack",
+                "(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 78
+            },
+            {
+              "offset": 32,
+              "opcode": 42
+            },
+            {
+              "offset": 33,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "deathScore",
+                "I"
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 155,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 44
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 42
+            },
+            {
+              "offset": 42,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "deathScore",
+                "I"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 45
+            },
+            {
+              "offset": 46,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "awardKillScore",
+                "(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 42
+            },
+            {
+              "offset": 50,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 51,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "dead",
+                "Z"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 42
+            },
+            {
+              "offset": 55,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "getCombatTracker",
+                "()Lnet/minecraft/world/damagesource/CombatTracker;"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/CombatTracker",
+                "recheckStatus",
+                "()V"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 44
+            },
+            {
+              "offset": 62,
+              "opcode": 42
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 192,
+              "operands": [
+                1,
+                84
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 42
+            },
+            {
+              "offset": 70,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "killedEntity",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)Z"
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 153,
+              "operands": [
+                0,
+                27
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 42
+            },
+            {
+              "offset": 77,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/gameevent/GameEvent",
+                "ENTITY_DIE",
+                "Lnet/minecraft/core/Holder$Reference;"
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "gameEvent",
+                "(Lnet/minecraft/core/Holder;)V"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 42
+            },
+            {
+              "offset": 84,
+              "opcode": 42
+            },
+            {
+              "offset": 85,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 192,
+              "operands": [
+                1,
+                84
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 45
+            },
+            {
+              "offset": 92,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "dropAllDeathLoot",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)V"
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 42
+            },
+            {
+              "offset": 96,
+              "opcode": 44
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "createWitherRose",
+                "(Lnet/minecraft/world/entity/LivingEntity;)V"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant.class",
+      "sha256": "26d304df564ae48378281c4a241621f768d1d18a9d2a588d3fcbc8efa5915bbe",
+      "methods": [
+        {
+          "name": "isCorrectOffering",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2ab400112bb6001cac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "offering",
+                "Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 43
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "test",
+                "(Lnet/minecraft/world/item/ItemStack;)Z"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "getVariantForSpawn",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity;Ljava/util/function/Supplier;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "b2002eb60032c000083a06b2003cb900400100c000433a071907be360803360915091508a2002c19071509323a0a190ab600452a2b2c2d19041905b90048070099000a190a3a06a70009840901a7ffd31906b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "WOOD",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 192,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "SORTED_VARIANTS",
+                "Ljava/util/function/Supplier;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Supplier",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 192,
+              "operands": [
+                0,
+                67
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 190
+            },
+            {
+              "offset": 27,
+              "opcode": 54,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 30,
+              "opcode": 54,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 21,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 162,
+              "operands": [
+                0,
+                44
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 50
+            },
+            {
+              "offset": 44,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "spawnPredicate",
+                "()Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 42
+            },
+            {
+              "offset": 52,
+              "opcode": 43
+            },
+            {
+              "offset": 53,
+              "opcode": 44
+            },
+            {
+              "offset": 54,
+              "opcode": 45
+            },
+            {
+              "offset": 55,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "canSpawnVariant",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/Entity;Ljava/util/function/Supplier;Lnet/minecraft/world/entity/SpawnGroupData;)Z"
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 167,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 132,
+              "operands": [
+                9,
+                1
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 167,
+              "operands": [
+                255,
+                211
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$13",
+          "descriptor": "()[Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "b20022b6004eba00520000b900550200ba005b0000b8005fb900650100b900690200ba006d0000b900700200c00043b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries",
+                "DRYAD_SPRITE_VARIANTS",
+                "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+                "getAllRegisteredObjects",
+                "()Ljava/util/stream/Stream;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 186,
+              "operands": [
+                0,
+                82,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 185,
+              "member": [
+                "java/util/stream/Stream",
+                "filter",
+                "(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 186,
+              "operands": [
+                0,
+                91,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 184,
+              "member": [
+                "java/util/Comparator",
+                "comparing",
+                "(Ljava/util/function/Function;)Ljava/util/Comparator;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 185,
+              "member": [
+                "java/util/Comparator",
+                "reversed",
+                "()Ljava/util/Comparator;"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 185,
+              "member": [
+                "java/util/stream/Stream",
+                "sorted",
+                "(Ljava/util/Comparator;)Ljava/util/stream/Stream;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 186,
+              "operands": [
+                0,
+                109,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 185,
+              "member": [
+                "java/util/stream/Stream",
+                "toArray",
+                "(Ljava/util/function/IntFunction;)[Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 192,
+              "operands": [
+                0,
+                67
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$12",
+          "descriptor": "(I)[Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "1abd0008b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 26
+            },
+            {
+              "offset": 1,
+              "opcode": 189,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$11",
+          "descriptor": "(Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;)Z",
+          "code_hex": "2ab2002eb60032a5000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "WOOD",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 165,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 11,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 15,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$10",
+          "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "bb00085912740404bd00765903b2007853b8007eba00820000b80083b70019b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "netherite"
+            },
+            {
+              "offset": 6,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                118
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 13,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "NETHERITE_HOE",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 83
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "of",
+                "([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 186,
+              "operands": [
+                0,
+                130,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "randomChance",
+                "(Ljava/util/function/Function;)Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "<init>",
+                "(Ljava/lang/String;ZLnet/minecraft/world/item/crafting/Ingredient;Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;)V"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$9",
+          "descriptor": "(Lnet/minecraft/util/RandomSource;)Ljava/lang/Boolean;",
+          "code_hex": "2ab9008701000cb20022b6008d866e969c000704a7000403b80091b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextFloat",
+                "()F"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 12
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries",
+                "DRYAD_SPRITE_VARIANTS",
+                "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+                "size",
+                "()I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 134
+            },
+            {
+              "offset": 14,
+              "opcode": 110
+            },
+            {
+              "offset": 15,
+              "opcode": 150
+            },
+            {
+              "offset": 16,
+              "opcode": 156,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 20,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$8",
+          "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "bb00085912970404bd00765903b2009953b8007eba009c0000b80083b70019b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "diamond"
+            },
+            {
+              "offset": 6,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                118
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 13,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "DIAMOND_HOE",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 83
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "of",
+                "([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 186,
+              "operands": [
+                0,
+                156,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "randomChance",
+                "(Ljava/util/function/Function;)Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "<init>",
+                "(Ljava/lang/String;ZLnet/minecraft/world/item/crafting/Ingredient;Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;)V"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$7",
+          "descriptor": "(Lnet/minecraft/util/RandomSource;)Ljava/lang/Boolean;",
+          "code_hex": "2ab9008701000cb20022b6008d866e969c000704a7000403b80091b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextFloat",
+                "()F"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 12
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries",
+                "DRYAD_SPRITE_VARIANTS",
+                "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+                "size",
+                "()I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 134
+            },
+            {
+              "offset": 14,
+              "opcode": 110
+            },
+            {
+              "offset": 15,
+              "opcode": 150
+            },
+            {
+              "offset": 16,
+              "opcode": 156,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 20,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$6",
+          "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "bb000859129d0404bd00765903b2009f53b8007eba00a20000b80083b70019b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "gold"
+            },
+            {
+              "offset": 6,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                118
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 13,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "GOLDEN_HOE",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 83
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "of",
+                "([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 186,
+              "operands": [
+                0,
+                162,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "randomChance",
+                "(Ljava/util/function/Function;)Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "<init>",
+                "(Ljava/lang/String;ZLnet/minecraft/world/item/crafting/Ingredient;Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;)V"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$5",
+          "descriptor": "(Lnet/minecraft/util/RandomSource;)Ljava/lang/Boolean;",
+          "code_hex": "2ab9008701000cb20022b6008d866e969c000704a7000403b80091b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextFloat",
+                "()F"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 12
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries",
+                "DRYAD_SPRITE_VARIANTS",
+                "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+                "size",
+                "()I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 134
+            },
+            {
+              "offset": 14,
+              "opcode": 110
+            },
+            {
+              "offset": 15,
+              "opcode": 150
+            },
+            {
+              "offset": 16,
+              "opcode": 156,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 20,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$4",
+          "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "bb00085912a30404bd00765903b200a553b8007eba00a80000b80083b70019b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "iron"
+            },
+            {
+              "offset": 6,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                118
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 13,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "IRON_HOE",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 83
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "of",
+                "([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 186,
+              "operands": [
+                0,
+                168,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "randomChance",
+                "(Ljava/util/function/Function;)Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "<init>",
+                "(Ljava/lang/String;ZLnet/minecraft/world/item/crafting/Ingredient;Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;)V"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$3",
+          "descriptor": "(Lnet/minecraft/util/RandomSource;)Ljava/lang/Boolean;",
+          "code_hex": "2ab9008701000cb20022b6008d866e969c000704a7000403b80091b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextFloat",
+                "()F"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 12
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries",
+                "DRYAD_SPRITE_VARIANTS",
+                "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+                "size",
+                "()I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 134
+            },
+            {
+              "offset": 14,
+              "opcode": 110
+            },
+            {
+              "offset": 15,
+              "opcode": 150
+            },
+            {
+              "offset": 16,
+              "opcode": 156,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 20,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$2",
+          "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "bb00085912a90404bd00765903b200ab53b8007eba00ae0000b80083b70019b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "stone"
+            },
+            {
+              "offset": 6,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                118
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 13,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "STONE_HOE",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 83
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "of",
+                "([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 186,
+              "operands": [
+                0,
+                174,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "randomChance",
+                "(Ljava/util/function/Function;)Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "<init>",
+                "(Ljava/lang/String;ZLnet/minecraft/world/item/crafting/Ingredient;Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;)V"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$1",
+          "descriptor": "(Lnet/minecraft/util/RandomSource;)Ljava/lang/Boolean;",
+          "code_hex": "2ab9008701000cb20022b6008d866e969c000704a7000403b80091b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextFloat",
+                "()F"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 12
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries",
+                "DRYAD_SPRITE_VARIANTS",
+                "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+                "size",
+                "()I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 134
+            },
+            {
+              "offset": 14,
+              "opcode": 110
+            },
+            {
+              "offset": 15,
+              "opcode": 150
+            },
+            {
+              "offset": 16,
+              "opcode": 156,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 20,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$static$0",
+          "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant;",
+          "code_hex": "bb00085912af0404bd00765903b200b153b8007eb200b4b70019b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "wood"
+            },
+            {
+              "offset": 6,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                118
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 13,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "WOODEN_HOE",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 83
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/crafting/Ingredient",
+                "of",
+                "([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate",
+                "ALWAYS",
+                "Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/variant/DryadSpriteVariant",
+                "<init>",
+                "(Ljava/lang/String;ZLnet/minecraft/world/item/crafting/Ingredient;Lnet/tslat/aoa3/common/registration/entity/variant/VariantSpawnPredicate;)V"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/player/ability/farming/DryadSpriteSpawn.class",
+      "sha256": "d5692421dd72e07f1911d9fdb1adb3a4270d33616845e629c5cc636c29544cf0",
+      "methods": [
+        {
+          "name": "handleBlockBreak",
+          "descriptor": "(Lnet/neoforged/neoforge/event/level/BlockEvent$BreakEvent;)V",
+          "code_hex": "2bb600364e2dc1003a9900e42dc0003a4d2ab6003c9900d82bb60040b600443a041904c1004a9900211904c0004a4e2d2bb60040b6004c9900102ab60050b60054b4005a990004b12bb600603a042c1904b60064b60069b6006d9900932cb20070b60007c00075bb0077591904b6007986127d628d1904b6007e87140081631904b6008386127d628db70086b20089b8008fc000953a051905c6005419052ab60050c00097b60099bb009d59b7009f3a0603360715071014a2002c1906b200a21905b800a81400aeb800b01400aeb800b01400aeb800b0b600b6b600ba57840701a7ffd319062bb600beb600bfb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$BreakEvent",
+                "getLevel",
+                "()Lnet/minecraft/world/level/LevelAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 78
+            },
+            {
+              "offset": 5,
+              "opcode": 45
+            },
+            {
+              "offset": 6,
+              "opcode": 193,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                228
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 45
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 77
+            },
+            {
+              "offset": 17,
+              "opcode": 42
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ability/farming/DryadSpriteSpawn",
+                "testAsChance",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 153,
+              "operands": [
+                0,
+                216
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 43
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$BreakEvent",
+                "getState",
+                "()Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/state/BlockState",
+                "getBlock",
+                "()Lnet/minecraft/world/level/block/Block;"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 193,
+              "operands": [
+                0,
+                74
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 153,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 192,
+              "operands": [
+                0,
+                74
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 78
+            },
+            {
+              "offset": 47,
+              "opcode": 45
+            },
+            {
+              "offset": 48,
+              "opcode": 43
+            },
+            {
+              "offset": 49,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$BreakEvent",
+                "getState",
+                "()Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/CropBlock",
+                "isMaxAge",
+                "(Lnet/minecraft/world/level/block/state/BlockState;)Z"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 153,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 42
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ability/farming/DryadSpriteSpawn",
+                "getPlayer",
+                "()Lnet/minecraft/world/entity/player/Player;"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getAbilities",
+                "()Lnet/minecraft/world/entity/player/Abilities;"
+              ]
+            },
+            {
+              "offset": 65,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/entity/player/Abilities",
+                "instabuild",
+                "Z"
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 153,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 177
+            },
+            {
+              "offset": 72,
+              "opcode": 43
+            },
+            {
+              "offset": 73,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$BreakEvent",
+                "getPos",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 44
+            },
+            {
+              "offset": 79,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "above",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerLevel",
+                "getBlockState",
+                "(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/state/BlockState",
+                "isAir",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 153,
+              "operands": [
+                0,
+                147
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 44
+            },
+            {
+              "offset": 94,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoANpcs",
+                "DRYAD_SPRITE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 192,
+              "operands": [
+                0,
+                117
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 187,
+              "operands": [
+                0,
+                119
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 89
+            },
+            {
+              "offset": 107,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getX",
+                "()I"
+              ]
+            },
+            {
+              "offset": 112,
+              "opcode": 134
+            },
+            {
+              "offset": 113,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 115,
+              "opcode": 98
+            },
+            {
+              "offset": 116,
+              "opcode": 141
+            },
+            {
+              "offset": 117,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 119,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getY",
+                "()I"
+              ]
+            },
+            {
+              "offset": 122,
+              "opcode": 135
+            },
+            {
+              "offset": 123,
+              "opcode": 20,
+              "constant": 0.1
+            },
+            {
+              "offset": 126,
+              "opcode": 99
+            },
+            {
+              "offset": 127,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 129,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getZ",
+                "()I"
+              ]
+            },
+            {
+              "offset": 132,
+              "opcode": 134
+            },
+            {
+              "offset": 133,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 135,
+              "opcode": 98
+            },
+            {
+              "offset": 136,
+              "opcode": 141
+            },
+            {
+              "offset": 137,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "<init>",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 140,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/MobSpawnType",
+                "TRIGGERED",
+                "Lnet/minecraft/world/entity/MobSpawnType;"
+              ]
+            },
+            {
+              "offset": 143,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntitySpawningUtil",
+                "spawnEntity",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/MobSpawnType;)Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 192,
+              "operands": [
+                0,
+                149
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 151,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 198,
+              "operands": [
+                0,
+                84
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 158,
+              "opcode": 42
+            },
+            {
+              "offset": 159,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ability/farming/DryadSpriteSpawn",
+                "getPlayer",
+                "()Lnet/minecraft/world/entity/player/Player;"
+              ]
+            },
+            {
+              "offset": 162,
+              "opcode": 192,
+              "operands": [
+                0,
+                151
+              ]
+            },
+            {
+              "offset": 165,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/npc/ambient/DryadSpriteEntity",
+                "setOwner",
+                "(Lnet/minecraft/server/level/ServerPlayer;)V"
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 187,
+              "operands": [
+                0,
+                157
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 89
+            },
+            {
+              "offset": 172,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 177,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 178,
+              "opcode": 54,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 21,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 182,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 184,
+              "opcode": 162,
+              "operands": [
+                0,
+                44
+              ]
+            },
+            {
+              "offset": 187,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 189,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "HAPPY_VILLAGER",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 192,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 194,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 197,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 200,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 203,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 206,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 209,
+              "opcode": 20,
+              "constant": 0.02
+            },
+            {
+              "offset": 212,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 215,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "velocity",
+                "(DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 218,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 87
+            },
+            {
+              "offset": 222,
+              "opcode": 132,
+              "operands": [
+                7,
+                1
+              ]
+            },
+            {
+              "offset": 225,
+              "opcode": 167,
+              "operands": [
+                255,
+                211
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 43
+            },
+            {
+              "offset": 231,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$BreakEvent",
+                "getPlayer",
+                "()Lnet/minecraft/world/entity/player/Player;"
+              ]
+            },
+            {
+              "offset": 234,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 237,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/player/ability/generic/ScalableModAbility.class",
+      "sha256": "46cc936a025f913e6cc5a4443fc473fa5627862b1f4378547d5cd2339ef7288f",
+      "methods": [
+        {
+          "name": "testAsChance",
+          "descriptor": "()Z",
+          "code_hex": "2ab6009b8db800a5ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ability/generic/ScalableModAbility",
+                "getScaledValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 141
+            },
+            {
+              "offset": 5,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "percentChance",
+                "(D)Z"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "getScaledValue",
+          "descriptor": "()F",
+          "code_hex": "2ab4001b0b959a00082ab40015ae2ab400152ab4008003b600848612ab6a0c66b800ac862ab4001b6a62ae",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/ability/generic/ScalableModAbility",
+                "perLevelMod",
+                "F"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 11
+            },
+            {
+              "offset": 5,
+              "opcode": 149
+            },
+            {
+              "offset": 6,
+              "opcode": 154,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/ability/generic/ScalableModAbility",
+                "baseValue",
+                "F"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 174
+            },
+            {
+              "offset": 14,
+              "opcode": 42
+            },
+            {
+              "offset": 15,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/ability/generic/ScalableModAbility",
+                "baseValue",
+                "F"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 42
+            },
+            {
+              "offset": 19,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/ability/generic/ScalableModAbility",
+                "skill",
+                "Lnet/tslat/aoa3/player/skill/AoASkill$Instance;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/skill/AoASkill$Instance",
+                "getLevel",
+                "(Z)I"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 134
+            },
+            {
+              "offset": 27,
+              "opcode": 18,
+              "constant": 1.0099999904632568
+            },
+            {
+              "offset": 29,
+              "opcode": 106
+            },
+            {
+              "offset": 30,
+              "opcode": 12
+            },
+            {
+              "offset": 31,
+              "opcode": 102
+            },
+            {
+              "offset": 32,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "round",
+                "(F)I"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 134
+            },
+            {
+              "offset": 36,
+              "opcode": 42
+            },
+            {
+              "offset": 37,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/ability/generic/ScalableModAbility",
+                "perLevelMod",
+                "F"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 106
+            },
+            {
+              "offset": 41,
+              "opcode": 98
+            },
+            {
+              "offset": 42,
+              "opcode": 174
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/loottable/function/GrantSkillXp.class",
+      "sha256": "c98739c565807cef3f3cf6d846d7d68664ca4770f092d078e89b01f19310b707",
+      "methods": [
+        {
+          "name": "run",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2cb2001fb60025c0002b4e2dc7000e2cb2002db60025c0002b4e2dc100309a000e2cb20032b60025c0002b4e2dc1003599001d2dc000353a0419042ab400072ab4000d2cb90037020003b8003d2bb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/storage/loot/parameters/LootContextParams",
+                "DIRECT_ATTACKING_ENTITY",
+                "Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/storage/loot/LootContext",
+                "getParamOrNull",
+                "(Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 78
+            },
+            {
+              "offset": 11,
+              "opcode": 45
+            },
+            {
+              "offset": 12,
+              "opcode": 199,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 44
+            },
+            {
+              "offset": 16,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/storage/loot/parameters/LootContextParams",
+                "ATTACKING_ENTITY",
+                "Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/storage/loot/LootContext",
+                "getParamOrNull",
+                "(Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 192,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 78
+            },
+            {
+              "offset": 26,
+              "opcode": 45
+            },
+            {
+              "offset": 27,
+              "opcode": 193,
+              "operands": [
+                0,
+                48
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 154,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 44
+            },
+            {
+              "offset": 34,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/storage/loot/parameters/LootContextParams",
+                "THIS_ENTITY",
+                "Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/storage/loot/LootContext",
+                "getParamOrNull",
+                "(Lnet/minecraft/world/level/storage/loot/parameters/LootContextParam;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 192,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 78
+            },
+            {
+              "offset": 44,
+              "opcode": 45
+            },
+            {
+              "offset": 45,
+              "opcode": 193,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 153,
+              "operands": [
+                0,
+                29
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 45
+            },
+            {
+              "offset": 52,
+              "opcode": 192,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 42
+            },
+            {
+              "offset": 60,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/loottable/function/GrantSkillXp",
+                "skill",
+                "Lnet/tslat/aoa3/player/skill/AoASkill;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 42
+            },
+            {
+              "offset": 64,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/loottable/function/GrantSkillXp",
+                "xp",
+                "Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 44
+            },
+            {
+              "offset": 68,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/world/level/storage/loot/providers/number/NumberProvider",
+                "getFloat",
+                "(Lnet/minecraft/world/level/storage/loot/LootContext;)F"
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 74,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "giveXpToPlayer",
+                "(Lnet/minecraft/server/level/ServerPlayer;Lnet/tslat/aoa3/player/skill/AoASkill;FZ)V"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 43
+            },
+            {
+              "offset": 78,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "variant": "wood",
+      "offering": "minecraft:wooden_hoe"
+    },
+    {
+      "variant": "stone",
+      "offering": "minecraft:stone_hoe"
+    },
+    {
+      "variant": "iron",
+      "offering": "minecraft:iron_hoe"
+    },
+    {
+      "variant": "gold",
+      "offering": "minecraft:golden_hoe"
+    },
+    {
+      "variant": "diamond",
+      "offering": "minecraft:diamond_hoe"
+    },
+    {
+      "variant": "netherite",
+      "offering": "minecraft:netherite_hoe"
+    }
+  ],
+  "loot": {
+    "path": "data/aoa3/loot_table/entities/dryad_sprite.json",
+    "sha256": "a335f3948382fc056aafa515a742b85e04e8388e1861d8bad639b8b4b362217d",
+    "data": {
+      "type": "minecraft:entity",
+      "pools": [
+        {
+          "bonus_rolls": {
+            "type": "minecraft:uniform",
+            "max": 0.0,
+            "min": 0.0
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "aoa3:grant_skill_xp",
+                  "skill": "aoa3:dexterity",
+                  "xp": 500.0
+                },
+                {
+                  "function": "aoa3:grant_skill_xp",
+                  "skill": "aoa3:farming",
+                  "xp": 5000.0
+                }
+              ],
+              "name": "minecraft:stick"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": {
+            "type": "minecraft:uniform",
+            "max": 0.0,
+            "min": 0.0
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:empty",
+              "weight": 1000
+            },
+            {
+              "type": "minecraft:item",
+              "name": "aoa3:dryads_blessing"
+            }
+          ],
+          "rolls": 1.0
+        }
+      ]
+    }
+  },
+  "farming_ability": {
+    "path": "data/aoa3/player/skills/farming.json",
+    "sha256": "ef38ae288c079ec4549409496a2d6e969e9292ad99d0b981feab285e46ec60cc",
+    "definition": {
+      "base_value": 0.00075,
+      "id": "aoa3:dryad_sprite_spawn",
+      "level_req": 44,
+      "per_level_mod": 8e-05,
+      "unique_id": "-2033215558"
+    }
+  },
+  "interaction_cases": [
+    {
+      "owner_allowed": true,
+      "hoe_action": true,
+      "exact_offering": true,
+      "success_timer": -1,
+      "outcome": "start 44-tick success countdown"
+    },
+    {
+      "owner_allowed": true,
+      "hoe_action": true,
+      "exact_offering": false,
+      "success_timer": -1,
+      "outcome": "discard unhappy sprite"
+    },
+    {
+      "owner_allowed": true,
+      "hoe_action": false,
+      "exact_offering": false,
+      "success_timer": -1,
+      "outcome": "no success interaction"
+    },
+    {
+      "owner_allowed": false,
+      "hoe_action": true,
+      "exact_offering": true,
+      "success_timer": -1,
+      "outcome": "no success interaction"
+    },
+    {
+      "owner_allowed": true,
+      "hoe_action": true,
+      "exact_offering": true,
+      "success_timer": 44,
+      "outcome": "no success interaction"
+    }
+  ],
+  "limits": [
+    "No hoe shrink/durability call found in the selected interaction method; external hooks still matter",
+    "Non-wood variants are tested sequentially until first success; do not label six forms equally probable",
+    "Owner availability and player-kill acceptance gate the success death-loot path",
+    "Regular expiry checks age>100 only while success timer=-1; no universal real-time guarantee",
+    "Loot XP functions operate on generated stack, not once per stick in that stack"
+  ]
+}

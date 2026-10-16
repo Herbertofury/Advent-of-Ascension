@@ -124,3 +124,7 @@ Keep ordinary farming, special growth blocks and restoration acceptance separate
 [Crop, loot and method evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/farming-evidence-1.21.1.json) joins the 17 source registrations to 16 released crop loot resources and records selected class hashes/method bodies, the registered fertilised-soil modifier, exact Marang placement branch, vanilla age-7 method and multi-block floor guard. Source interpretation is pinned to [7919b5fe48599e6105c5740937ce36c36ef21d16](https://github.com/Tslat/Advent-Of-Ascension/tree/7919b5fe48599e6105c5740937ce36c36ef21d16).
 
 Only the stated narrow assertions were mechanically checked. Source interpretation and documentation models are not a live-game farming benchmark, full modpack compatibility proof or certification of the private Enderloom build. AoA models/textures are credited to Tslat and contributors; vanilla references to Mojang/Microsoft.
+
+## Dryad Sprite encounters
+
+The [illustrated Dryad Sprite walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dryad-Sprite-Farming-Encounter-1.21.1) covers the Farming-44 spawn ability, all six exact hoe matches, ownership, short unresolved-sprite lifetime and conditional reward pools. Prepare the correct tools before harvesting: a wrong hoe discards the sprite, and ordinary-looking crop harvest actions do not all necessarily use the required block-break event.
