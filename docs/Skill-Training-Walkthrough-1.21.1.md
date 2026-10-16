@@ -6,6 +6,8 @@
 
 [All unlock levels and stored parameters](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Skill-Unlocks) · [Recipes and ingredients](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Creature field guide](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1)
 
+For Skill Crystals, see the [reward-box and crystal-use guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reward-Boxes-and-Skill-Crystals-1.21.1). Crystals select the lowest eligible skill at level 15 or above; they do not train an arbitrary level-1 skill.
+
 ## Before you start grinding
 
 1. Use Survival when checking natural XP. The inspected natural-XP guard excludes Creative and Spectator.

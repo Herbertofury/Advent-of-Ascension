@@ -59,6 +59,8 @@ Empty retrieval returns the surviving cage outside Creative without catch-relate
 
 ## 5. Read the catch table correctly
 
+Caught a Rune Box or Shiny Box? The [reward-box guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reward-Boxes-and-Skill-Crystals-1.21.1) shows every reward in its shipped table and explains how opening works.
+
 ![All eighteen Fishing Cage catch items with their table skill gates](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/fishing-cage-catches-1.21.1.webp)
 
 The released table contains **18 entries**, one base roll, and no bonus rolls. The source passes **luck = 2 + owner luck**. Entry quality and level conditions affect eligibility/selection, so the following weights are not fixed percentages.
