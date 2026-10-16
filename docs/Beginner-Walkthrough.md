@@ -111,3 +111,5 @@ Original guidance checked against the official AoA 3.7.16.1 artifact's bundled `
 This chapter covers the start-to-first-expedition route. Dedicated per-release realmstone acquisition, realm routes, boss tactics, equipment comparisons and full skill-training walkthroughs remain ongoing work. They must be filled with checked instructions rather than placeholder claims of completeness.
 
 - [1.16.5 Rune Posts and Randomizer handbook](Rune-Production-and-Randomizer-1.16.5)
+
+- [Trading, prices and restocking · 1.21.1](Trading-and-Traders-1.21.1)

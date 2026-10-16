@@ -1,0 +1,1994 @@
+{
+  "scope": "Restricted symbolic interpretation of selected released trade-builder methods. Does not execute game code, resolve registries, apply discounts or prove runtime availability.",
+  "records": [
+    {
+      "class": "net/tslat/aoa3/content/entity/npc/trader/LottomanEntity.class",
+      "class_sha256": "3553ccbc6ad0fcb20b94e3625797f45c3cef99efe76486901d105bd72b61f5f4",
+      "method": "<clinit>",
+      "descriptor": "()V",
+      "analysis": {
+        "trades": [],
+        "fields": {
+          "TRADES": {
+            "new": "net/tslat/aoa3/content/entity/base/AoATrader$TradeListBuilder",
+            "constructor_args": [],
+            "levels": {
+              "1": [
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "field": [
+                      "net/tslat/aoa3/common/registration/item/AoAItems",
+                      "WEAPONS_CASE",
+                      "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                    ]
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "COPPER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        31
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        12
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "field": [
+                      "net/tslat/aoa3/common/registration/item/AoAItems",
+                      "RUNE_BOX",
+                      "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                    ]
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "COPPER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        14
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        8
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "field": [
+                      "net/tslat/aoa3/common/registration/item/AoAItems",
+                      "TREASURE_BOX",
+                      "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                    ]
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "COPPER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        41
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        20
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "field": [
+                      "net/tslat/aoa3/common/registration/item/AoAItems",
+                      "LOTTO_TOTEM",
+                      "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                    ]
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "SILVER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        3
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        25
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/content/entity/npc/trader/UndeadHeraldEntity.class",
+      "class_sha256": "ba6cdccf9d9f523aeefadc79217c1aa91c2d7fa9b671891239c5c69f520ef0ef",
+      "method": "<clinit>",
+      "descriptor": "()V",
+      "analysis": {
+        "trades": [],
+        "fields": {
+          "TRADES": {
+            "new": "net/tslat/aoa3/content/entity/base/AoATrader$TradeListBuilder",
+            "constructor_args": [],
+            "levels": {
+              "1": [
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "banner_base": {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/block/AoABlocks",
+                        "ENERGY_BANNER",
+                        "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                      ]
+                    }
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "SILVER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        4
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        20
+                      ]
+                    },
+                    {
+                      "name": "stock",
+                      "args": [
+                        729
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "banner_base": {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/block/AoABlocks",
+                        "SPIRIT_BANNER",
+                        "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                      ]
+                    }
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "SILVER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        4
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        20
+                      ]
+                    },
+                    {
+                      "name": "stock",
+                      "args": [
+                        729
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "trade_builder": true,
+                  "output": {
+                    "banner_base": {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/block/AoABlocks",
+                        "RAGE_BANNER",
+                        "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                      ]
+                    }
+                  },
+                  "output_count": 1,
+                  "output_count_origin": "default item instance",
+                  "calls": [
+                    {
+                      "name": "itemCost",
+                      "args": [
+                        {
+                          "field": [
+                            "net/tslat/aoa3/common/registration/item/AoAItems",
+                            "SILVER_COIN",
+                            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                          ]
+                        },
+                        4
+                      ]
+                    },
+                    {
+                      "name": "xp",
+                      "args": [
+                        20
+                      ]
+                    },
+                    {
+                      "name": "stock",
+                      "args": [
+                        729
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+      "class_sha256": "b8edf6213cfab0c5b7ded11800e41d2c20d45801c032364bcf610ab0a4f711e7",
+      "method": "doCartographerTrades",
+      "descriptor": "(Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;)V",
+      "analysis": {
+        "trades": [
+          {
+            "level": 1,
+            "trade": {
+              "new": "net/minecraft/world/entity/npc/VillagerTrades$TreasureMapForEmeralds",
+              "constructor_args": [
+                4,
+                {
+                  "field": [
+                    "net/tslat/aoa3/common/registration/AoATags$Structures",
+                    "ON_RUINED_TELEPORTER_FRAME_MAPS",
+                    "Lnet/minecraft/tags/TagKey;"
+                  ]
+                },
+                "filled_map.aoa3.ruined_teleporter_frame",
+                {
+                  "field": [
+                    "net/minecraft/world/level/saveddata/maps/MapDecorationTypes",
+                    "TARGET_POINT",
+                    "Lnet/minecraft/core/Holder;"
+                  ]
+                },
+                3,
+                7
+              ]
+            }
+          }
+        ],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+      "class_sha256": "b8edf6213cfab0c5b7ded11800e41d2c20d45801c032364bcf610ab0a4f711e7",
+      "method": "doButcherTrades",
+      "descriptor": "(Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;)V",
+      "analysis": {
+        "trades": [
+          {
+            "level": 4,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/minecraft/world/item/Items",
+                  "EMERALD",
+                  "Lnet/minecraft/world/item/Item;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "registry_value": {
+                        "field": [
+                          "net/tslat/aoa3/common/registration/item/AoAItems",
+                          "RAW_CHARGER_SHANK",
+                          "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                        ]
+                      }
+                    },
+                    5
+                  ]
+                },
+                {
+                  "name": "priceMultiplier",
+                  "args": [
+                    0.05000000074505806
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    16
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    25
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+      "class_sha256": "b8edf6213cfab0c5b7ded11800e41d2c20d45801c032364bcf610ab0a4f711e7",
+      "method": "doClericTraces",
+      "descriptor": "(Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;)V",
+      "analysis": {
+        "trades": [
+          {
+            "level": 1,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "ANCIENT_ROCK",
+                  "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+                ]
+              },
+              "output_count": 3,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    1
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    16
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 2,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAItems",
+                  "RUNIUM_CHUNK",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    5
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    9
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    8
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 3,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CARVED_RUNE_OF_TRAVEL",
+                  "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    20
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    20
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    4
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 3,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CARVED_RUNE_OF_SPACE",
+                  "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    20
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    20
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    4
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 3,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CARVED_RUNE_OF_REALITY",
+                  "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    20
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    20
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    4
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 3,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CARVED_RUNE_OF_DIRECTION",
+                  "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    20
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    20
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    4
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 5,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CARVED_RUNE_OF_POWER",
+                  "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "SILVER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    2
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    50
+                  ]
+                },
+                {
+                  "name": "stock",
+                  "args": [
+                    1
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+      "class_sha256": "b8edf6213cfab0c5b7ded11800e41d2c20d45801c032364bcf610ab0a4f711e7",
+      "method": "doAssassinTrades",
+      "descriptor": "(Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;)V",
+      "analysis": {
+        "trades": [
+          {
+            "level": 1,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAWeapons",
+                  "GOO_BALL",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 3,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    2
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 1,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAWeapons",
+                  "SLICE_STAR",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 2,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    2
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 2,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAWeapons",
+                  "CHAKRAM",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 2,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    3
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    3
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 2,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAWeapons",
+                  "VULKRAM",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 2,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    3
+                  ]
+                },
+                {
+                  "name": "xp",
+                  "args": [
+                    3
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 3,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAItems",
+                  "METAL_SLUG",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 2,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    2
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 3,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAItems",
+                  "LIMONITE_BULLET",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 5,
+              "output_count_origin": "literal amount",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    2
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "level": 4,
+            "trade": {
+              "trade_builder": true,
+              "output": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/item/AoAWeapons",
+                  "HELLFIRE",
+                  "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                ]
+              },
+              "output_count": 1,
+              "output_count_origin": "default item instance",
+              "calls": [
+                {
+                  "name": "itemCost",
+                  "args": [
+                    {
+                      "field": [
+                        "net/tslat/aoa3/common/registration/item/AoAItems",
+                        "COPPER_COIN",
+                        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                      ]
+                    },
+                    2
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade.class",
+      "class_sha256": "dd7f76ae1a33f5b2eeafd8135c34b3fd7ef40b3b677ede5950c64ee66980db04",
+      "method": "<init>",
+      "descriptor": "(Ljava/util/function/Supplier;)V",
+      "analysis": {
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "new": "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "fields": {
+              "cost1": null,
+              "cost2": null,
+              "xpValue": 2,
+              "priceMultiplier": 0.05000000074505806,
+              "maxUses": 16,
+              "isLocked": 0,
+              "item": {
+                "parameter": 1
+              }
+            }
+          },
+          "1": {
+            "parameter": 1
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "<init>",
+      "descriptor": "(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/ItemLike;)V",
+      "analysis": {
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+            "constructor_args": [
+              {
+                "dynamic_factory": "test",
+                "descriptor": "(Lnet/minecraft/resources/ResourceKey;)Ljava/util/function/Predicate;",
+                "captured_args": [
+                  {
+                    "parameter": 1
+                  }
+                ]
+              },
+              {
+                "trade_builder": true,
+                "output": {
+                  "parameter": 2
+                },
+                "output_count": 1,
+                "output_count_origin": "default item instance",
+                "calls": [
+                  {
+                    "name": "itemCost",
+                    "args": [
+                      {
+                        "field": [
+                          "net/tslat/aoa3/common/registration/item/AoAItems",
+                          "SILVER_COIN",
+                          "Lnet/neoforged/neoforge/registries/DeferredItem;"
+                        ]
+                      },
+                      4
+                    ]
+                  },
+                  {
+                    "name": "stock",
+                    "args": [
+                      729
+                    ]
+                  },
+                  {
+                    "name": "xp",
+                    "args": [
+                      20
+                    ]
+                  },
+                  {
+                    "name": "priceMultiplier",
+                    "args": [
+                      0.05000000074505806
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "parameter": 1
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$22",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "VOX_PONDS",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "VOX_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$21",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "SHYRELANDS",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "SHYRE_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$20",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "RUNANDOR",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "RUNIC_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$19",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "PRECASIA",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "ANCIENT_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$18",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "OVERWORLD",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "VOID_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$17",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "NETHER",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "NETHER_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$16",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "MYSTERIUM",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "FUNGAL_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$15",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "LUNALUS",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "LUNAR_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$14",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "LELYETIA",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "LELYETIAN_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$13",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "LBOREAN",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "BOREIC_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$12",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "IROMINE",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "MECHA_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$11",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "HAVEN",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "UTOPIAN_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$10",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "GRECKON",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "HAUNTED_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$9",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "GARDENCIA",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "ROSIDIAN_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$8",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "DUSTOPIA",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "DUSTOPIAN_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$7",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "DEEPLANDS",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "DEEP_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$6",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "CRYSTEVIA",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CRYSTAL_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$5",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "CREEPONIA",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CREEPY_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$4",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "CELEVE",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CLOWN_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$3",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "CANDYLAND",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "CANDY_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$2",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "BARATHOS",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "BARON_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    },
+    {
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621",
+      "method": "lambda$static$1",
+      "descriptor": "()Lnet/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade;",
+      "analysis": {
+        "result": {
+          "new": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade",
+          "constructor_args": [
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "ABYSS",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "field": [
+                "net/tslat/aoa3/common/registration/block/group/BannerBlockGroup",
+                "base",
+                "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+              ],
+              "receiver": {
+                "field": [
+                  "net/tslat/aoa3/common/registration/block/AoABlocks",
+                  "SHADOW_BANNER",
+                  "Lnet/tslat/aoa3/common/registration/block/group/BannerBlockGroup;"
+                ]
+              }
+            }
+          ]
+        },
+        "trades": [],
+        "fields": {},
+        "locals": {
+          "0": {
+            "trade_map_input": true
+          }
+        }
+      },
+      "status": "evaluated"
+    }
+  ]
+}

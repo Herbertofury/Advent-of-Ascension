@@ -1,0 +1,1116 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "45 base offer definitions: 7 fixed trader offers, 22 dimension-conditional Herald offers, 16 added villager-pool candidates. Defaults and literal builder values read from released classes; field-to-registry names checked against pinned source. Default item-instance outputs are shown as one; runtime overrides, reputation, demand and modpack changes are not evaluated.",
+  "counts": {
+    "Assassin": 7,
+    "Butcher": 1,
+    "Cartographer": 1,
+    "Cleric": 7,
+    "Lottoman": 4,
+    "Undead Herald": 25
+  },
+  "records": [
+    {
+      "vendor": "Lottoman",
+      "level": 1,
+      "output": {
+        "id": "aoa3:weapons_case",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 31
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 12,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/LottomanEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Lottoman",
+      "level": 1,
+      "output": {
+        "id": "aoa3:rune_box",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 14
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 8,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/LottomanEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Lottoman",
+      "level": 1,
+      "output": {
+        "id": "aoa3:treasure_box",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 41
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/LottomanEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Lottoman",
+      "level": 1,
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 3
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 25,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/LottomanEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:energy_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/UndeadHeraldEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:spirit_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/UndeadHeraldEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:rage_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/content/entity/npc/trader/UndeadHeraldEntity.class",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Cartographer",
+      "level": 1,
+      "output": {
+        "id": "minecraft:filled_map",
+        "count": 1,
+        "label": "Ruined Teleporter Frame explorer map",
+        "count_origin": "vanilla map offer"
+      },
+      "costs": [
+        {
+          "id": "minecraft:emerald",
+          "count": 4
+        },
+        {
+          "id": "minecraft:compass",
+          "count": 1
+        }
+      ],
+      "max_uses": 3,
+      "merchant_xp": 7,
+      "price_multiplier": null,
+      "dimension": null,
+      "note": "Candidate map listing; requires a successful target-structure search. Secondary Compass cost verified separately in the vanilla implementation.",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doCartographerTrades"
+      }
+    },
+    {
+      "vendor": "Butcher",
+      "level": 4,
+      "output": {
+        "id": "minecraft:emerald",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:raw_charger_shank",
+          "count": 5
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 25,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doButcherTrades"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 1,
+      "output": {
+        "id": "aoa3:ancient_rock",
+        "count": 3,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 1
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 1,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 2,
+      "output": {
+        "id": "aoa3:runium_chunk",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 5
+        }
+      ],
+      "max_uses": 8,
+      "merchant_xp": 9,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 3,
+      "output": {
+        "id": "aoa3:carved_rune_of_travel",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 20
+        }
+      ],
+      "max_uses": 4,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 3,
+      "output": {
+        "id": "aoa3:carved_rune_of_space",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 20
+        }
+      ],
+      "max_uses": 4,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 3,
+      "output": {
+        "id": "aoa3:carved_rune_of_reality",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 20
+        }
+      ],
+      "max_uses": 4,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 3,
+      "output": {
+        "id": "aoa3:carved_rune_of_direction",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 20
+        }
+      ],
+      "max_uses": 4,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Cleric",
+      "level": 5,
+      "output": {
+        "id": "aoa3:carved_rune_of_power",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 2
+        }
+      ],
+      "max_uses": 1,
+      "merchant_xp": 50,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doClericTraces"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 1,
+      "output": {
+        "id": "aoa3:goo_ball",
+        "count": 3,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 2
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 2,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 1,
+      "output": {
+        "id": "aoa3:slice_star",
+        "count": 2,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 2
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 2,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 2,
+      "output": {
+        "id": "aoa3:chakram",
+        "count": 2,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 3
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 3,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 2,
+      "output": {
+        "id": "aoa3:vulkram",
+        "count": 2,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 3
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 3,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 3,
+      "output": {
+        "id": "aoa3:metal_slug",
+        "count": 2,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 2
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 2,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 3,
+      "output": {
+        "id": "aoa3:limonite_bullet",
+        "count": 5,
+        "count_origin": "literal amount"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 2
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 2,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Assassin",
+      "level": 4,
+      "output": {
+        "id": "aoa3:hellfire",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "count": 2
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 2,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/AoAVillagerTrades.class",
+        "method": "doAssassinTrades"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:vox_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:vox_ponds",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$22"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:shyre_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:shyrelands",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$21"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:runic_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:runandor",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$20"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:ancient_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:precasia",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$19"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:void_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "minecraft:overworld",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$18"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:nether_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "minecraft:the_nether",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$17"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:fungal_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:mysterium",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$16"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:lunar_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:lunalus",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$15"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:lelyetian_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:lelyetia",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$14"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:boreic_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:lborean",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$13"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:mecha_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:iromine",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$12"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:utopian_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:haven",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$11"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:haunted_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:greckon",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$10"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:rosidian_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:gardencia",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$9"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:dustopian_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:dustopia",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$8"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:deep_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:deeplands",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$7"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:crystal_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:crystevia",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$6"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:creepy_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:creeponia",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$5"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:clown_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:celeve",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$4"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:candy_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:candyland",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$3"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:baron_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:barathos",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$2"
+      }
+    },
+    {
+      "vendor": "Undead Herald",
+      "level": 1,
+      "output": {
+        "id": "aoa3:shadow_banner",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "count": 4
+        }
+      ],
+      "max_uses": 729,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": "aoa3:abyss",
+      "evidence": {
+        "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+        "method": "lambda$static$1"
+      }
+    }
+  ],
+  "behavior_support": [
+    {
+      "source": "source/content/entity/base/AoATrader.java",
+      "source_sha256": "5151709262d29112d09d8682ed74551629d0a1c67621a8245aa97a13c61f2021",
+      "class": "net/tslat/aoa3/content/entity/base/AoATrader.class",
+      "class_sha256": "0004eab3e6f2b00edbc855f98ab7e9e3f7f4d37a62334a6ee536eac3f2c8dad4"
+    },
+    {
+      "source": "source/content/entity/ai/trader/TraderRestockGoal.java",
+      "source_sha256": "e1270a34b5e16c16ace2a23c84655e84dab48a7a97e518bb737b345554d493cc",
+      "class": "net/tslat/aoa3/content/entity/ai/trader/TraderRestockGoal.class",
+      "class_sha256": "5b9ef8f9a64a3cdd49845de18219e78473d14b7106411db9bf02a35ea4d576f7"
+    },
+    {
+      "source": "source/common/registration/entity/variant/UndeadHeraldTrade.java",
+      "source_sha256": "8c7924e44181b544d2972a4a916559cbe78da1289b71b58ea6655aadcdd7dac7",
+      "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
+      "class_sha256": "f1c08e984b243d0b305714443bc955eb8d8ca0a461cc58cebca607f924eef621"
+    },
+    {
+      "source": "source/common/registration/entity/AoAProfessions.java",
+      "source_sha256": "c6509f00f1d9cf060c79862db39c8347b23d684aa0eea72706b99cd8ee5171f4",
+      "class": "net/tslat/aoa3/common/registration/entity/AoAProfessions.class",
+      "class_sha256": "fa5e43fd9bcb82e79e73ae8bd1774f65f70a82134f2b07643e3fdc54db9381d4"
+    },
+    {
+      "source": "source/common/registration/AoAPoiTypes.java",
+      "source_sha256": "076fe6db66f6a71ffbe3c74f4bcc13652cde2abcf7de3b3ba46d99a6032543a8",
+      "class": "net/tslat/aoa3/common/registration/AoAPoiTypes.class",
+      "class_sha256": "8d0a735035a012e076829902ef5299aee6b807ff1d80ecae1bdd32c9584b7130"
+    },
+    {
+      "source": "source/content/entity/npc/trader/LottomanEntity.java",
+      "source_sha256": "f443417c6dde0662b1d670a9760ea0e7b0ca4be04ceca0b21315fff3be068387",
+      "class": "net/tslat/aoa3/content/entity/npc/trader/LottomanEntity.class",
+      "class_sha256": "3553ccbc6ad0fcb20b94e3625797f45c3cef99efe76486901d105bd72b61f5f4"
+    },
+    {
+      "source": "source/content/entity/npc/trader/UndeadHeraldEntity.java",
+      "source_sha256": "efe603c8935457d94982dcbeb2c0e3a9b19c165e2a32c94140a1fe9f3075c43e",
+      "class": "net/tslat/aoa3/content/entity/npc/trader/UndeadHeraldEntity.class",
+      "class_sha256": "ba6cdccf9d9f523aeefadc79217c1aa91c2d7fa9b671891239c5c69f520ef0ef"
+    },
+    {
+      "source": "source/content/entity/npc/trader/CorruptedTravellerEntity.java",
+      "source_sha256": "ddac9afd3366d064bfe1613717e7c8991bc3fb4dd954d2ab4fb68510ea62e176",
+      "class": "net/tslat/aoa3/content/entity/npc/trader/CorruptedTravellerEntity.class",
+      "class_sha256": "270b6db13de7e3951eb39a96684ceaf0298260e257745bc28ef2bb5b4aef9748"
+    }
+  ],
+  "cartographer_compass_proof": {
+    "vanilla_class": "net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds",
+    "obfuscated_class": "cmo$l",
+    "class_sha256": "58dc02e4d701c9432832a5a5a6d195207644677281964ca5def7a3a876fedef6",
+    "compass_field_alias": "qS",
+    "compass_cost_constructor": "ItemCost(ItemLike), delegates with iconst_1",
+    "item_cost_class_sha256": "7d193f6782dd4db1f2b934abe482adddcb205d3eb300d55aaa44452ccd6130de",
+    "map_get_offer_code_hex": "2bb60039c1003b9a000501b02bb60039c0003b4e2d2ab400212bb6003f106404b600423a041904c600682d1904b600481904b6004b050404b800503a052d1905b800531905190412552ab40025b8005a1905b200602ab40023b80065b6006a57bb006c59bb006e59b200742ab4001fb70077bb006e59b2007ab7007db8008319052ab400272ab400291284b70087b001b0"
+  }
+}
