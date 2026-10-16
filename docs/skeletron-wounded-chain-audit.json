@@ -1,0 +1,49 @@
+{
+  "release": "3.7.16.1",
+  "version": "1.21.1",
+  "field_reference_classes": [
+    {
+      "class": "net/tslat/aoa3/content/entity/boss/skeletron/SkeletronEntity.class",
+      "sha256": "5013f7d2f42f8e26e5bfdf14e841a4ff46279d63ef0e63f4acf83d468f03ec10",
+      "references": [
+        [
+          "net/tslat/aoa3/content/entity/boss/skeletron/SkeletronEntity",
+          "WOUNDED",
+          "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+        ]
+      ]
+    }
+  ],
+  "conversion_class": "net/tslat/aoa3/content/entity/boss/tyrosaur/WoundedTyrosaurEntity.class",
+  "conversion_class_sha256": "824de72e44c814d8596360592002b5af38fc9ccb1e6b7b6f54795c3d29d71560",
+  "conversion_methods": [
+    {
+      "name": "onDamageTaken",
+      "descriptor": "(Lnet/neoforged/neoforge/common/damagesource/DamageContainer;)V",
+      "code_hex": "2ab6007d4e2dc100819900762dc000814d2bb60083b20089b6008f9900642ab6007d2ab60095b80099b6009fb600a5b200abb60040a6004a2ab6007d2ab600b0b600b4b6009fb600a5b200abb60040a60030b200b72ab800bd12c3b600c41014b600c82ab600cb2ab600cf99001410132ab400d3642a2cba00d70000b800dbb1"
+    },
+    {
+      "name": "lambda$onDamageTaken$3",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;I)V",
+      "code_hex": "2bb2012eb60040c001332ab60135b201382aba013e0000b8014157b1"
+    },
+    {
+      "name": "lambda$onDamageTaken$2",
+      "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/skeletron/SkeletronEntity;)V",
+      "code_hex": "2b2ab60147b6014a2b2ab6014fb601522b2ab60155b60158b1"
+    }
+  ],
+  "finding": "No released class outside SkeletronEntity directly references its WOUNDED field. Pinned source initializes false and restores it from NBT; the inspected WoundedTyrosaur conversion callback transfers orientation without setting WOUNDED. Warped Horn custom death loot requires WOUNDED true.",
+  "limits": "This flags a progression-chain gap for testing. It does not exclude data-driven NBT, reflection, other mods or external runtime behavior; it is not proof of absolute unobtainability.",
+  "pinned_source": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "source_files": [
+    {
+      "path": "source/content/entity/boss/skeletron/SkeletronEntity.java",
+      "sha256": "16a5beab22f86913ea9c36ea95bf27f966c8d1dfe1dbec8dec924eb22625261c"
+    },
+    {
+      "path": "source/content/entity/boss/tyrosaur/WoundedTyrosaurEntity.java",
+      "sha256": "4ed8c037a44de61ce3ff085121e5e213567007d0b7b7f64c4a2edbe0fdc1b35a"
+    }
+  ]
+}

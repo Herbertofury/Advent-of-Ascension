@@ -89,3 +89,5 @@ Documentation snapshot: **2026-10-16**. Static reference work is not a new runti
 - [Search items and blocks](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html)
 - [Inventory preview resolutions](Inventory-Preview-Resolution-Ledger)
 - [Multi-state plants and portals](Multi-State-Block-References)
+
+- [Boss entry and token preparation](Boss-Entry-and-Token-Preparation-1.21.1)

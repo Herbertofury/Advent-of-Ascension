@@ -76,3 +76,7 @@ The 1.16.5 source also declares `aoa3:skeletron`, but uses a visibly different t
 - Keep source-observed behavior distinct from completed Enderloom output. Do not mark a boss done because its class, item or preview image exists.
 
 Advent of Ascension is created by **Tslat and contributors**. These are original source-based explanations and credited visual showcases.
+
+## Practical entry and token states
+
+[Boss entry and token preparation for 1.21.1](Boss-Entry-and-Token-Preparation-1.21.1) covers released damage components, strict Bone Horn repair ingredients, Nowhere altar sequencing, original gold trophies and return behavior. It also flags the inspected WOUNDED-state gap in the Warped Horn acquisition chain. Do not treat the conversion callback alone as proof that the required drop flag is set.

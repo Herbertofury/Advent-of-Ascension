@@ -1,0 +1,965 @@
+{
+  "release": "3.7.16.1",
+  "version": "1.21.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Released recipes/loot resource hashes and pinned source entry-flow analysis, with released method bytes retained. Not a live arena walkthrough or complete behavior equivalence proof.",
+  "source_checks": [
+    {
+      "source": "source/content/item/misc/summoning/BossSpawningItem.java",
+      "source_sha256": "ab852acf968403e7fa3b9ed27587a13e11e1642f3af6b954dc5f8fbf42d6cc94",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/BossSpawningItem.class",
+      "released_class_sha256": "4e519a1004256c0dc1eead37e4fcb58d21b8542e2a68910257dbdce9563a6625",
+      "methods": [
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2b04bd001f5903b2002153b8002799000c2c2db6002db80033b02b2c2db80039b0"
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2c04bd001f5903b2002153b800279a00202cc1003f9900192cc0003f3a042dc1007d99000c2dc0007d3a05a700052bb01904b6007fb20021b600833a061906c700052bb02db600893a0704190519062c1907ba008d0000b800912bb0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/summoning/BossTokenItem.java",
+      "source_sha256": "2631bad88da5066059b5f0163dd007c9536fdab67c51fbd0279745c43d6e4877",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/BossTokenItem.class",
+      "released_class_sha256": "4cc55b08b205efd0d06cba7a73391b491cfc99fe341792b6be7684722de891f4",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": ""
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": ""
+        },
+        {
+          "name": "applyMultiplayerHealthBoost",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;I)V",
+          "code_hex": "2bc600081c05a20004b1b20001b40007b6000d4a290e979e001a2bb200132a1c29b900190400b8001f2b2bb60025b6002bb1"
+        },
+        {
+          "name": "getPerPlayerHealthBuff",
+          "descriptor": "(ID)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;",
+          "code_hex": "bb002f591231b80033281400396f041b0464b8003b876bb20041b70047b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/block/functional/utility/BossAltar.java",
+      "source_sha256": "82056557e56aa05ce3c9cd862e5bb025c49de372f3ddb5bc8ecc1a0df1a41303",
+      "released_class": "net/tslat/aoa3/content/block/functional/utility/BossAltar.class",
+      "released_class_sha256": "9ee63c9ddcefff3a1561bdea8b65cfeee997e7b3beb7007fc7cf922eb0507b71",
+      "methods": []
+    },
+    {
+      "source": "source/content/world/nowhere/NowhereBossArena.java",
+      "source_sha256": "aee57ff3604b5b69fc394d5328f751f3dc10adb1dce9145d8fe265036ec04b9f",
+      "released_class": "net/tslat/aoa3/content/world/nowhere/NowhereBossArena.class",
+      "released_class_sha256": "f56009d144c0adcad69d75a2aa821a7eae029e45fc9f806075ceb46908073bba",
+      "methods": [
+        {
+          "name": "placePlayersAndBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Ljava/util/List;Ljava/util/function/Predicate;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EntityType;Lnet/tslat/aoa3/content/item/misc/summoning/BossTokenItem$SpawningFunction;)V",
+          "code_hex": "2cb900640100990004b12a2bb6009a3a071907c70004b110642a19052b2c2d19061904ba009e0000b800912cb9006a01003a081908b9006e01009900261908b900730100c0008b3a09190912a1b800a3b200a903bd00afb800b1b600b5a7ffd6b1"
+        },
+        {
+          "name": "lambda$placePlayersAndBoss$13",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Ljava/util/List;Ljava/util/function/Predicate;Lnet/tslat/aoa3/content/item/misc/summoning/BossTokenItem$SpawningFunction;Lnet/minecraft/world/item/ItemStack;I)V",
+          "code_hex": "0336082b2cb6010a3a091909c1010e99001e1909c0010e3a0b190bb60110c6000f190bb601102cb80114a70004013a0a1909c600081909b600972db9006a01003a0b190bb9006e010099009f190bb900730100c0008b3a0c190cc1011a99ffe5190cc0011a3a0d1904190db9011c020099004c2ab4001db80104c000533a0e043608190db40121190eb40125190eb40129190eb4012c0b0bb6012f190db20135b8013b57190d130141b800a3b2014303bd00afb800b1b60146a70018190d130147b800a3b2014903bd00afb800b1b60146190ac60012190a04bd008b5903190c53b6014c57a7ff5d15089900362a2cb600483a0b042a2c190bba01500000b800911028190aba01530000b8009111008c2a2c190b19051906ba01560000b80091b1"
+        },
+        {
+          "name": "lambda$placePlayersAndBoss$12",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/AABB;Lnet/tslat/aoa3/content/item/misc/summoning/BossTokenItem$SpawningFunction;Lnet/minecraft/world/item/ItemStack;I)V",
+          "code_hex": "2a2b2cb6005db901590100360615069e00122d2b2ab6015d19041506b901600500b1"
+        },
+        {
+          "name": "lambda$placePlayersAndBoss$11",
+          "descriptor": "(Lnet/tslat/tme/api/sound/SoundBuilder;I)V",
+          "code_hex": "2ac600072ab60166b1"
+        },
+        {
+          "name": "lambda$placePlayersAndBoss$10",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/AABB;I)V",
+          "code_hex": "2a2b2cb60061ba01690000b9016d0200b1"
+        },
+        {
+          "name": "lambda$placePlayersAndBoss$9",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;)V",
+          "code_hex": "2ac1008b9a000e2ac100799a00072ab60097b1"
+        }
+      ]
+    },
+    {
+      "source": "source/content/block/functional/misc/GoldTrophyBlock.java",
+      "source_sha256": "1e56704473731bd28595961d4a1021350a8e691b1f7e21471d653c2210ef7373",
+      "released_class": "net/tslat/aoa3/content/block/functional/misc/GoldTrophyBlock.class",
+      "released_class_sha256": "a34a4225ac79d1dca0466dd254968cd9544af194f246a53cb794b8886e2c85c2",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": "2a2db600073a051905c7000501b02b19052cb2000db800133a061906c100199900121906c000193a072a19071504b6001b1906b0"
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "2bb2001fb60025c0002b4d2cc6000a2cb6002d9a000501b0b20031b900350100c0003a2cb6003c2cb6003cb9003f0300c00043b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/summoning/TrollIdol.java",
+      "source_sha256": "46da6aa466931b6944357f13bacc4b4b4b60f2f875655273a5c3f692449edc43",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/TrollIdol.class",
+      "released_class_sha256": "df052bfd22b736a019b8e2f3d5ca744a25818beafb97d5536529371c05796eea",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/tslat/aoa3/content/entity/boss/smash/SmashEntity;",
+          "code_hex": "2bb2001eb60024c0002a2cb2002cb80032c000383a052a19051504b6003a1905b0"
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "2bb6004099000701a7000cb2001eb60024c0002ab0"
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db60046b6004099000c2c2db60046b8004cb02a2b2c2db70052b0"
+        },
+        {
+          "name": "hurtEnemy",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+          "code_hex": "2bb600409900192cb60056b2005cb6006299000c2cb600660b959e000504ac2b2bb6006a0464b6006e04ac"
+        },
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": "2a2b2c2d1504b60089b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/summoning/NethengeicCallstone.java",
+      "source_sha256": "483e997ef107a105f3e34134456c9d43abdc2cade2dd05579c3c3cd08636bcf0",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/NethengeicCallstone.class",
+      "released_class_sha256": "2a654b8bad50d5ca06ac9f014027b9bc8c1d0baad7de0bd2fc9c0290db80ea7c",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;",
+          "code_hex": "2bb2001eb60024c0002a2cb2002cb80032c000383a052a19051504b6003a1905b0"
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "2bb6004099000701a7000cb2001eb60024c0002ab0"
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db60046b6004099000c2c2db60046b8004cb02a2b2c2db70052b0"
+        },
+        {
+          "name": "hurtEnemy",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+          "code_hex": "2bb600409a000504ac2bb6005605a0000c2cc1005a9a001604ac2bb6005604a0000c2cc1005c9a000504ac2b2bb600560464b6005e04ac"
+        },
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": "2a2b2c2d1504b60079b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/summoning/ExplosiveIdol.java",
+      "source_sha256": "8b3e9213221e97566f0cad5f5473ac3dc87b7d5bbc59cbe4de52a5310ab2cbee",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/ExplosiveIdol.class",
+      "released_class_sha256": "e10ae82503a642e4781d6685deb3107b3b6a01f2bd0634b34da2b593e0e8cf28",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;",
+          "code_hex": "2bb2001ab60020c000262cb20028b8002ec000343a052a19051504b600361905b0"
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "b2001ab60020c00026b0"
+        },
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": "2a2b2c2d1504b60050b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/summoning/BoneHorn.java",
+      "source_sha256": "c3463989b157320738a70812c9884012e13ead8e06456a2589484bbf126ad967",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/BoneHorn.class",
+      "released_class_sha256": "05e65c8eba3e5c64771c7fc7122db3dc04dfb510d4eda83d0174fb1551696931",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity;",
+          "code_hex": "2bb2001eb60024c0002a2cb2002cb80032c000383a052a19051504b6003a1905b0"
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db60050b6005604a4000c2c2db60050b8005cb02c2db60062b200662cb8006bb600712c2db600502bb40074b8007ab0"
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2bb6007e9900912bb6005604a000872cb60090b20094a600652cc1009999005e2cc000993a042db6009b101e100a101e100a03100a042c100a2cba00a10000b800a53a0519052db6009ba500311904b200abb60024c0002a1905b2002cb800aec000b13a061906c6001419062db800b3b200b91906b8006bb600712dc100519900142dc000513a041904b600bc2a1014b600c02bb02a2b2c2db700c6b0"
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "2bb6007e99000701a7000cb2001eb60024c0002ab0"
+        },
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": "2a2b2c2d1504b600e5b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/summoning/WarpedHorn.java",
+      "source_sha256": "a5c4fe87a96d9fd632810f35690a38b028ccdbd7e3e7005e6882667a37caf223",
+      "released_class": "net/tslat/aoa3/content/item/misc/summoning/WarpedHorn.class",
+      "released_class_sha256": "21ff21857a9460898553a1289d08c199a02bfe1034d9f758dfc84edcb6176ee8",
+      "methods": [
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/tslat/aoa3/content/entity/boss/skeletron/SkeletronEntity;",
+          "code_hex": "2bb2001ab60020c000262cb20028b8002ec000343a052a19051504b600361905b0"
+        },
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "b2001ab60020c00026b0"
+        },
+        {
+          "name": "spawnBoss",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/entity/Entity;",
+          "code_hex": "2a2b2c2d1504b60050b0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/item/misc/ReturnCrystal.java",
+      "source_sha256": "c5e330623b108b28453ec43cad313bd6d3cbb33faabab0c6dfd00698d75367bc",
+      "released_class": "net/tslat/aoa3/content/item/misc/ReturnCrystal.class",
+      "released_class_sha256": "36fca7c44b98746363c6cf609198eb3d1ce1faf1e9b9e969c675087588ff88c3",
+      "methods": [
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2b04bd00125903b2001453b8001a99000a2b2c2db80020b02c2db60026b8002cb0"
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2dc1003299006f2dc000323a042c04bd00125903b2001453b8001a9a000f19041234b80036b8003c2bb01904b600429a00082b04b600461904b6004cb800509a00341904b6004cb8005699001e19041259b8005bb800619a0011041904ba00670000b8006ba7000e041904ba00710000b8006b2bb0"
+        }
+      ]
+    },
+    {
+      "source": "source/event/EntityEvents.java",
+      "source_sha256": "cf080b769f6fd8d042df6706a778e16a764e388e0bf0c0c9e3f68d4b591eb8b6",
+      "released_class": "net/tslat/aoa3/event/EntityEvents.class",
+      "released_class_sha256": "a98fee249a0cf48b96ac8a0fe48e348b463c00524040f41dff4a769b89a29cc7",
+      "methods": []
+    },
+    {
+      "source": "source/content/loottable/modifier/ExplosiveIdolBarteringModifier.java",
+      "source_sha256": "143834cfbd25a8ef22bbd8fca8bc4214ef196de198e688457af21185064f8e01",
+      "released_class": "net/tslat/aoa3/content/loottable/modifier/ExplosiveIdolBarteringModifier.class",
+      "released_class_sha256": "f2b80bf54b0f233f2b9981b6e755d6615a820455061cf253922b1edb483012a3",
+      "methods": [
+        {
+          "name": "doApply",
+          "descriptor": "(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;",
+          "code_hex": "2cb2000db60013c000194e2dc1001b9900442dc0001b3a042db6001d1221b9002302009900301904b600291904b6002d959b002219041221b600305704bd00345903b20036b6003cc00042b6004453b80048b02bb0"
+        }
+      ]
+    },
+    {
+      "source": "source/content/entity/boss/tyrosaur/WoundedTyrosaurEntity.java",
+      "source_sha256": "4ed8c037a44de61ce3ff085121e5e213567007d0b7b7f64c4a2edbe0fdc1b35a",
+      "released_class": "net/tslat/aoa3/content/entity/boss/tyrosaur/WoundedTyrosaurEntity.class",
+      "released_class_sha256": "824de72e44c814d8596360592002b5af38fc9ccb1e6b7b6f54795c3d29d71560",
+      "methods": [
+        {
+          "name": "die",
+          "descriptor": "(Lnet/minecraft/world/damagesource/DamageSource;)V",
+          "code_hex": "2a2bb7005f2ab600634e2dc100679900192dc000674d2cba00690000b8006dba00730000b60077b1"
+        }
+      ]
+    },
+    {
+      "source": "source/content/entity/boss/skeletron/SkeletronEntity.java",
+      "source_sha256": "16a5beab22f86913ea9c36ea95bf27f966c8d1dfe1dbec8dec924eb22625261c",
+      "released_class": "net/tslat/aoa3/content/entity/boss/skeletron/SkeletronEntity.class",
+      "released_class_sha256": "5013f7d2f42f8e26e5bfdf14e841a4ff46279d63ef0e63f4acf83d468f03ec10",
+      "methods": []
+    },
+    {
+      "source": "source/config/ServerConfig.java",
+      "source_sha256": "eb89ddcb4fe0b073f3e608f4602a7597bea3c13cf3620191fa5a82c2a4c98edf",
+      "released_class": "net/tslat/aoa3/config/ServerConfig.class",
+      "released_class_sha256": "b1037413bdfcb051145b2b5eaae898d59fc52d59bb6646a819823131607ce454",
+      "methods": []
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_troll_idol.json",
+      "sha256": "ec6ff85b72f21837957293c7cf5df96469847221bb0a45ef9dd38e4182f6938a",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "tag": "c:gems/emerald"
+          },
+          "B": {
+            "tag": "c:leathers"
+          },
+          "C": {
+            "item": "aoa3:torn_cloth"
+          },
+          "D": {
+            "tag": "c:gems/diamond"
+          },
+          "E": {
+            "tag": "c:bones"
+          }
+        },
+        "pattern": [
+          "ABA",
+          "CDC",
+          "EBE"
+        ],
+        "result": {
+          "components": {
+            "minecraft:damage": 19
+          },
+          "count": 1,
+          "id": "aoa3:troll_idol"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_nethengeic_callstone.json",
+      "sha256": "859643235b7e6c729d19cce1c0eb1ebed4671cf24b7b59fde1b22f788d6991c4",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "E": {
+            "tag": "c:nuggets/emberstone"
+          },
+          "N": {
+            "item": "minecraft:netherite_scrap"
+          }
+        },
+        "pattern": [
+          " N ",
+          "NEN",
+          " N "
+        ],
+        "result": {
+          "components": {
+            "minecraft:damage": 2
+          },
+          "count": 1,
+          "id": "aoa3:nethengeic_callstone"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shapeless_bone_horn.json",
+      "sha256": "773dc0a869585994e870fd42fcb6e7aee4b42896655a78c850ea6aba3578aa58",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "aoa3:ivory"
+          },
+          {
+            "item": "aoa3:footbone_fragment"
+          },
+          {
+            "item": "aoa3:legbone_fragment"
+          },
+          {
+            "item": "aoa3:chestbone_fragment"
+          },
+          {
+            "item": "aoa3:skullbone_fragment"
+          },
+          {
+            "type": "neoforge:components",
+            "components": {
+              "minecraft:attribute_modifiers": {
+                "modifiers": []
+              },
+              "minecraft:damage": 2,
+              "minecraft:enchantments": {
+                "levels": {}
+              },
+              "minecraft:lore": [],
+              "minecraft:max_damage": 3,
+              "minecraft:max_stack_size": 1,
+              "minecraft:rarity": "rare",
+              "minecraft:repair_cost": 0
+            },
+            "items": "aoa3:bone_horn",
+            "strict": true
+          }
+        ],
+        "result": {
+          "components": {
+            "minecraft:damage": 1
+          },
+          "count": 1,
+          "id": "aoa3:bone_horn"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/loot_modifiers/explosive_idol_bartering.json",
+      "sha256": "79fe4818d43e9f6fc4bfacb3181c45783f12ae48bbf91de9a332dbf39ce98ec3",
+      "data": {
+        "type": "aoa3:explosive_idol_bartering",
+        "conditions": [
+          {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "minecraft:gameplay/piglin_bartering"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/blocks/cocoon.json",
+      "sha256": "19347b5fad3144283367bf62459abfc1b17fa3b2831719a50a446c42aa4129de",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "aoa3:precasian_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:string",
+                "weight": 60
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 6.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:rotten_flesh",
+                "weight": 80
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:spider_eye",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:reinforced_cloth",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:small_skill_crystal",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:torn_cloth",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:chitin",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:skullbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:chestbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:legbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:footbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:amber_staff",
+                "quality": 2
+              }
+            ],
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 2.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "chance": 0.001,
+                "condition": "minecraft:random_chance"
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "aoa3:precasian_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:legbone_sword"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "chance": 0.01,
+                "condition": "minecraft:random_chance"
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "aoa3:precasian_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "damage": 0.32333332,
+                    "function": "minecraft:set_damage"
+                  }
+                ],
+                "name": "aoa3:bone_horn"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:cocoon"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "aoa3:precasian_desert"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 7.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:string",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 6.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:rotten_flesh",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:spider_eye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:torn_cloth",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:chitin",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "damage": 0.32333332,
+                    "function": "minecraft:set_damage"
+                  }
+                ],
+                "name": "aoa3:bone_horn"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}
