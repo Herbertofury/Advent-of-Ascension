@@ -2,7 +2,7 @@
 
 **For Minecraft 1.16.5 / AoA 3.6.11.** Recipes and rules below are checked against that release and its pinned source. A modpack can override them. This is a source-checked walkthrough, not a claim that a particular Enderloom build has passed a live playthrough.
 
-[Visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.16.5) · [Historical realmstone routes](Realmstone-Progression-Walkthrough-1.16.5) · [Historical rune production](Rune-Production-and-Randomizer-1.16.5)
+[Visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.16.5) · [Historical realmstone routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5) · [Historical rune production](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Randomizer-1.16.5)
 
 ## What you are building
 
@@ -58,7 +58,7 @@ The added rune table has one roll: each of the four runes has weight 100 and the
 
 ## 5. Choose a destination using historical rules
 
-A Blank Realmstone is a starting material, not an activated destination key. Follow the [1.16.5 realmstone walkthrough](Realmstone-Progression-Walkthrough-1.16.5), which separates the historical acquisition conditions for 22 routes.
+A Blank Realmstone is a starting material, not an activated destination key. Follow the [1.16.5 realmstone walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5), which separates the historical acquisition conditions for 22 routes.
 
 For example, the historical Precasia route uses the six-sapling crafting recipe shown there. Do not substitute the modern Precasia archaeology route. Choose a destination you are equipped to survive, not merely the first stone you can acquire.
 
@@ -96,7 +96,7 @@ The checked normal activation branch does not directly consume the destination R
 - [ ] Frame count and empty interior verified
 - [ ] Destination's hazards and progression prerequisites reviewed
 
-Continue with [realmstone progression](Realmstone-Progression-Walkthrough-1.16.5), [finding traders](Finding-Traders-1.16.5), or [finding useful mob drops](Finding-and-Using-Mob-Drops).
+Continue with [realmstone progression](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5), [finding traders](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.16.5), or [finding useful mob drops](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-and-Using-Mob-Drops).
 
 ## Evidence and limitations
 

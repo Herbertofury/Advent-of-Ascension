@@ -4,7 +4,7 @@
 
 ![Stasis Capsule base model and creature transport safety workflow](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/stasis-capsule-workflow-1.21.1.webp)
 
-[Beginner walkthrough](Beginner-Walkthrough) · [Versioned bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1) · [Source findings and restoration work](Source-Findings-and-Fixes)
+[Beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) · [Versioned bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1) · [Source findings and restoration work](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Findings-and-Fixes)
 
 ## Important stock-release warning
 

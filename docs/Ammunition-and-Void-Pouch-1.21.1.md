@@ -4,7 +4,7 @@
 
 ![48 Limonite Bullet recipe and empty/filled Ammo Void Pouch models](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/ammo-preparation-reference-1.21.1.webp)
 
-[Beginner walkthrough](Beginner-Walkthrough) · [Weapon reference library](Weapon-Reference-Library) · [Staff batteries](Staff-Batteries-and-Charging) · [Exact ammunition recipes](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=limonite_bullet)
+[Beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) · [Weapon reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Staff batteries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Batteries-and-Charging) · [Exact ammunition recipes](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=limonite_bullet)
 
 ## Safety first: rejected ammo can damage the pouch's stored state
 

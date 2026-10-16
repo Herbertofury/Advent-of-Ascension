@@ -4,7 +4,7 @@
 
 ![Ashfern on basalt, Magic Marang below haunted leaves, and Green Manure on farmland](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/farming-soil-reference-1.21.1.webp)
 
-[All growth-stage pictures](Crops-and-Growth-Stages) · [Multi-block plant states](Multi-State-Block-References) · [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.21.1)
+[All growth-stage pictures](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) · [Multi-block plant states](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Multi-State-Block-References) · [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.21.1)
 
 ## Build three small test beds first
 
@@ -46,7 +46,7 @@ The ordinary crop class inherits vanilla's **maximum age 7**. Its eight visual a
 
 For example, Bubble Berries have an age-7 produce branch and a separate mature seed pool. Breaking an immature plant follows the seed branch instead. Fortune, explosion decay and other modifiers are separate from maturity; do not assume a fixed number of drops from the appearance alone.
 
-Use the [growth gallery](Crops-and-Growth-Stages) to compare ages and the [loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html) to inspect the actual block table. Keep light and adequate growing space. This page does not promise a fixed number of real-time minutes, especially on servers with changed random ticks or growth hooks.
+Use the [growth gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) to compare ages and the [loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html) to inspect the actual block table. Keep light and adequate growing space. This page does not promise a fixed number of real-time minutes, especially on servers with changed random ticks or growth hooks.
 
 ## Ashfern: basalt and light
 
@@ -91,7 +91,7 @@ Fertilised Farmland also overrides trampling behavior, but still applies ordinar
 
 ## Thorny Plant: allow three blocks of height
 
-Thorny Plant uses a special multi-block class with **three parts**, **five stages per part**, and a global age range **0–14**. Its visuals need both the age and height properties; use the [multi-state gallery](Multi-State-Block-References), not a single age-only picture.
+Thorny Plant uses a special multi-block class with **three parts**, **five stages per part**, and a global age range **0–14**. Its visuals need both the age and height properties; use the [multi-state gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Multi-State-Block-References), not a single age-only picture.
 
 - Leave enough room for the upper parts.
 - Its checked bonemeal age increase is **one**, not a promise of instant maturity.

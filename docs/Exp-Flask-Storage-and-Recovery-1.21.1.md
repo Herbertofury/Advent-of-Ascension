@@ -4,7 +4,7 @@
 
 ![Empty and filled Exp Flask models with the XP pickup and withdrawal flow](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/exp-flask-workflow-1.21.1.webp)
 
-[Beginner walkthrough](Beginner-Walkthrough) · [AoA skill training](Skill-Training-Walkthrough-1.21.1) · [Ammunition storage safety](Ammunition-and-Void-Pouch-1.21.1)
+[Beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) · [AoA skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1) · [Ammunition storage safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ammunition-and-Void-Pouch-1.21.1)
 
 ## Before following this guide
 

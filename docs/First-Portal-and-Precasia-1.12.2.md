@@ -2,7 +2,7 @@
 
 **For Minecraft 1.12.2 / AoA 3.3.6.** This is a historical starter route checked against released recipes, selected class behavior and pinned source. Use it for this edition; do not substitute modern recipes, item IDs or archaeology instructions.
 
-[Visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.12.2) · [Historical galleries](Historical-Galleries) · [Version matrix](Version-Matrix)
+[Visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.12.2) · [Historical galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries) · [Version matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix)
 
 ## Your expedition shopping list
 

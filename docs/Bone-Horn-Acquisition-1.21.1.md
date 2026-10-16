@@ -4,7 +4,7 @@
 
 ![Cocoon, Bone Horn, Bone Fragments Ore, Ivory and the four bone fragments](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/bone-horn-acquisition-reference-1.21.1.webp)
 
-[Boss entry and preparation](Boss-Entry-and-Token-Preparation-1.21.1) · [Exact repair recipe](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=bone_horn) · [Precasia archaeology and entry](Precasia-Realmstone-Walkthrough)
+[Boss entry and preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1) · [Exact repair recipe](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=bone_horn) · [Precasia archaeology and entry](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough)
 
 ## 1. Find a Cocoon before collecting the repair ingredients
 
@@ -43,12 +43,12 @@ You need **Footbone Fragment, Legbone Fragment, Chestbone Fragment, Skullbone Fr
 1. Craft with the damage-2 horn and the five required materials. The recipe outputs **damage 1**. Its ingredient uses strict components, so extra component changes can prevent a match.
 2. Use the damage-1 horn in **Precasia** to request the nearby Wounded Tyrosaur encounter. Valid spawn space is required; sound or cooldown alone does not establish a successful spawn.
 3. A qualifying player kill repairs a matching damage-1 horn in the player's searched inventory to **damage 0**.
-4. Follow [the Nowhere and Boss Altar steps](Boss-Entry-and-Token-Preparation-1.21.1#2-enter-nowhere-and-gather-at-the-boss-altar) for the regular Tyrosaur encounter.
+4. Follow [the Nowhere and Boss Altar steps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1#2-enter-nowhere-and-gather-at-the-boss-altar) for the regular Tyrosaur encounter.
 
 Do not confuse this Tyrosaur preparation route with the separate fire/tar conversion into Skeletron. The **Warped Horn acquisition state remains an explicitly unresolved test target** in the boss guide.
 
 ## Evidence and checks
 
-[Released acquisition resources, pool arithmetic and vanilla durability code](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/bone-horn-acquisition-evidence-1.21.1.json) · [Illustration provenance](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/bone-horn-guide-art-evidence.json) · [Mining and generation guide](Mining-and-Ore-Generation-1.21.1).
+[Released acquisition resources, pool arithmetic and vanilla durability code](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/bone-horn-acquisition-evidence-1.21.1.json) · [Illustration provenance](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/bone-horn-guide-art-evidence.json) · [Mining and generation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mining-and-Ore-Generation-1.21.1).
 
 Artwork belongs to Tslat and the AoA contributors. The illustrations are source-model references, including the corrected ore overlay; they are not runtime screenshots or proof of each horn damage-state appearance.

@@ -4,7 +4,7 @@
 
 **Check the recipe before inserting valuable gear.** The valid target can be imbued as the chamber updates. The right-hand slot is not merely an uncommitted output preview waiting for you to take it.
 
-[Infusion Table preparation](Infusion-Table-Crafting-1.21.1) · [Skill training](Skill-Training-Walkthrough-1.21.1) · [Recipe Observatory](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1)
+[Infusion Table preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-1.21.1) · [Skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1) · [Recipe Observatory](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1)
 
 ## 1. Build the chamber
 
@@ -26,7 +26,7 @@ Total: **7 items matching `c:ingots/copper`, 1 Infusion Table and 1 item matchin
 
 Do not put an Ambient Energy Stone into an enchanting recipe requiring an Ambient Power Stone merely because their names sound alike. A higher-tier Power Stone is not an automatic substitute either: follow the recipe's exact `power_source`.
 
-**Energy Stone precaution:** the inspected training use action spends the **entire held stack** outside Creative. Split off the amount you intend to spend, and keep the stone needed for crafting separate. See the [training guide](Skill-Training-Walkthrough-1.21.1) before using a full stack.
+**Energy Stone precaution:** the inspected training use action spends the **entire held stack** outside Creative. Split off the amount you intend to spend, and keep the stone needed for crafting separate. See the [training guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1) before using a full stack.
 
 ## 2. Prepare the required stones and foci
 

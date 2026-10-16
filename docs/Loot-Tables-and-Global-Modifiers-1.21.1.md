@@ -39,7 +39,7 @@ Item names link to other indexed loot references for that item, and item entries
 
 The inspected resource uses an **alternatives** entry. One child is the ore block, gated by a tool predicate requiring Silk Touch level at least one. The other is Raw Limonite, with Fortune’s ore-drop operation and explosion decay. Do not read the two children as a guaranteed pair of outputs.
 
-[Inspect the exact Limonite Ore table](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&ref=aoa3%3Ablocks%2Flimonite_ore) · [Mining and tool requirements](Mining-and-Ore-Generation-1.21.1)
+[Inspect the exact Limonite Ore table](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&ref=aoa3%3Ablocks%2Flimonite_ore) · [Mining and tool requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mining-and-Ore-Generation-1.21.1)
 
 A loot resource does not itself prove that a given tool can harvest the block. Harvest requirements, game rules and other handlers remain separate checks.
 
@@ -74,7 +74,7 @@ The inspected handler also requires an entity context, a mapped dimension and a 
 
 The Overworld world-table resource includes Copper Coins and the carved runes of **Direction, Reality, Space and Travel**, alongside empty choices and other supplies. The Power rune is not among those four listed rune entries. Conditions and random selection still apply; a qualifying kill is not a guaranteed coin or rune.
 
-[Inspect the Overworld world table](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&ref=aoa3%3Aworlds%2Foverworld) · [Portal construction and Power rune recipe](First-Portal-Walkthrough) · [Trading alternatives](Trading-and-Traders-1.21.1)
+[Inspect the Overworld world table](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&ref=aoa3%3Aworlds%2Foverworld) · [Portal construction and Power rune recipe](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough) · [Trading alternatives](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1)
 
 There are 24 world-table files in the archive, but this modifier’s explicit map does **not** activate all 24. Other callers may exist; file presence alone is not an activation proof.
 
@@ -92,7 +92,7 @@ The checked **vanilla 1.21.1 WitherBoss custom-death-loot method separately call
 
 The Precasian Lotto Hovel resource has a main pool with ten base rolls and a separate one-roll book-related pool. Empty entries, item weights, count operations and bonus-roll providers are retained in the viewer. This does not promise ten unique items, a particular weapon, or the book-related reward.
 
-[Precasian Lotto Hovel loot](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&ref=aoa3%3Astructures%2Fprecasia%2Fprecasian_lotto_hovel%2Fmain) · [Find the hovel](Finding-Traders-1.21.1) · [Item reward resources](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&category=items)
+[Precasian Lotto Hovel loot](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&ref=aoa3%3Astructures%2Fprecasia%2Fprecasian_lotto_hovel%2Fmain) · [Find the hovel](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.21.1) · [Item reward resources](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1&category=items)
 
 Weights describe relative selection among eligible choices. Conditions can remove choices, quality can interact with luck, and multiple rolls or functions can change the result. A displayed weight of 30 is not automatically a 30% final drop rate. [NeoForge loot-table concepts for 1.21.1](https://docs.neoforged.net/docs/1.21.1/resources/server/loottables/).
 
