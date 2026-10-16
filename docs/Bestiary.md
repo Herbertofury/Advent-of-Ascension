@@ -484,3 +484,7 @@ The three modern entity/nested-table datasets now have base model references for
 ## Release-matched base attributes
 
 The browser now shows 787 artifact-derived stat-builder records across the three modern releases (419 / 285 / 83). These are explicit builder inputs, not inferred factory defaults or final in-game values after modifiers. Each record retains its method evidence. Exact creature links preserve the release and entity ID, making entries shareable without ambiguous name searches.
+
+## Complete inspected modern portrait roster
+
+All 83 entries in the inspected 1.21 living-entity source roster now have version-matched static source portraits, including fish shared-model variants and Shiny Squid. Charger, Veloraptor, Dryad Sprite and Opteryx cards expose additional verified appearances. [Illustrated roster and limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Bestiary-Portraits).
