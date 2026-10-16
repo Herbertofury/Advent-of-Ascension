@@ -6,6 +6,8 @@
 
 [Find which creatures list an item](https://herbertofury.github.io/Advent-of-Ascension/drop-finder.html) · [How to plan a hunt and use drops](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-and-Using-Mob-Drops)
 
+**Follow a checked route:** [Open the visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) and filter by release, goal or topic.
+
 ## What do you want to do?
 
 | Your goal | Start here |
