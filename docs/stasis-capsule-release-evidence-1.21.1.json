@@ -1,0 +1,107 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Released class inspection, pinned NeoForge entity-manager patch reference and independent Python state-transition cases. No game execution or current Enderloom repair claimed.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "capsule_class_sha256": "5c6ab33873b133cf1a757c46d99f4dabd9b5aa99849a1ce16eceee90d8195bcb",
+  "methods": [
+    {
+      "name": "tryCapture",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;",
+      "code_hex": "2db2000bb60020c00012b6002699000b2b2cb8002a9a0007b20030b02bb60036b4003c9a0164bb004259b700443a051905b200452cb6004b2cb600512cb60055b800580d6e8db6005eb800641100c8b6006a2cb6006e0e2cb6005112726a8d0eb6007308b80079b6007f12830b12840cb60085100ab60089b6008c571905b200902cb6004b2cb600512cb60055b800580d6e8db6005eb800641100c8b6006a100ab600890c0c0c0cb600852cb6006e0e2cb6005112726a8d0eb6007308b80079b6007fb6008c570336061506100aa200561905b2009304bd007459032cb6006e0e2cb6005112726a8d0eb6007353b80096100ab6006a14009ab8009c14009ab8009c14009ab8009cb600a212a6b600a710141023b800abb60089b6008c57840601a7ffa919052cb600af2bb60036012cb600b32cb600b72cb600bab200bdb200c3127212c912cab800cbb600ce2bb60036012cb600b32cb600b72cb600bab200d2b200c3127212c912cab800cbb600d62db2000b2cb800d9b600dd572b19042db600e12cb600e52bb60036b4003cb800e8b0"
+    },
+    {
+      "name": "useOn",
+      "descriptor": "(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;",
+      "code_hex": "2bb600ecb2000bb60020c000124d2cb60026990007b20030b02bb600f24e2bb600f63a042bb600f93a0519042cb600fc1905b401001905b401041905b40107b6010ab601109a00231904b601149a00172d130116b80118b2011e03bd0124b80126b8012ab20030b01904b4003c9a00f22c1904b601303a061906c7001b2d130134b80118b2011e03bd0124b80126b8012ab20030b019061905b6013619041906b6013c572bb600ecb2000bb20011b600dd57bb004259b700443a0703360815081032a200571907b201401906b601430e1906b6014412726a8d0eb60073140145b8014713014b13014c13014c0cb6008514009ab8009c14009ab8009c14009ab8009cb600a210141023b800abb60089b6008c57840801a7ffa819072db600af1904011905b401001905b401041905b40107b2014db200c313014b130150b600d61904011905b401001905b401041905b40107b20151b200c30c130150b600d61904b4003cb800e8b0"
+    },
+    {
+      "name": "canCapture",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "code_hex": "2bc101549a00192bc101569900142bc001564d2c2ab90158020099000503ac2bc1015c99000504ac2bc1015e9900232bc0015e4d2ab601602cb901640100b601679a000c2cb901640100c7000504ac03ac"
+    }
+  ],
+  "cached_entity_class_sha256": "bf97c4810f983ac64fc44d4c0f2d58cf90ad98b8d477fec12741cd2303d1fd56",
+  "cached_entity_methods": [
+    {
+      "name": "store",
+      "descriptor": "(Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/library/object/container/CachedEntity;",
+      "code_hex": "bb002359b700254c2a2bb6002657bb0008592ab6002a2b2ab6002eb80032b70036b0"
+    },
+    {
+      "name": "createEntity",
+      "descriptor": "(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;",
+      "code_hex": "2ab4000d2bb8001501b6001bc00021b0"
+    }
+  ],
+  "world_rejection_reference": {
+    "url": "https://raw.githubusercontent.com/neoforged/NeoForge/00c6a3fd23d80ce54ec834a7e25d09fba37927e9/patches/net/minecraft/world/level/entity/PersistentEntitySectionManager.java.patch",
+    "commit": "00c6a3fd23d80ce54ec834a7e25d09fba37927e9",
+    "source_sha256": "a2a5ef2bdbf3fec5b7db2f7cc4674338358011b3b738622a7f180faeeb2a56a0",
+    "behavior": "The entity manager returns false when the posted EntityJoinLevelEvent is canceled. UUID insertion can also return false."
+  },
+  "finding": "Capsule release discards addFreshEntity boolean and clears stored data even when insertion reports false.",
+  "ownership_scope": "Enemy/angry-neutral rejection precedes AgeableMob acceptance. The later OwnableEntity check is not reached for accepted AgeableMob instances. This is not a full multiplayer permission model.",
+  "independent_model_cases": [
+    {
+      "case": "blocked space",
+      "stock_model": {
+        "stored": "original entity data",
+        "world_added": false,
+        "success": false
+      },
+      "guarded_model": {
+        "stored": "original entity data",
+        "world_added": false,
+        "success": false
+      }
+    },
+    {
+      "case": "entity recreation failed",
+      "stock_model": {
+        "stored": "original entity data",
+        "world_added": false,
+        "success": false
+      },
+      "guarded_model": {
+        "stored": "original entity data",
+        "world_added": false,
+        "success": false
+      }
+    },
+    {
+      "case": "world insertion rejected",
+      "stock_model": {
+        "stored": "empty",
+        "world_added": false,
+        "success": true
+      },
+      "guarded_model": {
+        "stored": "original entity data",
+        "world_added": false,
+        "success": false
+      }
+    },
+    {
+      "case": "world insertion accepted",
+      "stock_model": {
+        "stored": "empty",
+        "world_added": true,
+        "success": true
+      },
+      "guarded_model": {
+        "stored": "empty",
+        "world_added": true,
+        "success": true
+      }
+    }
+  ],
+  "acquisition_resource_references": [],
+  "acceptance": [
+    "Keep cached entity unchanged unless world insertion succeeds",
+    "Check collision, failed recreation, canceled join, UUID conflicts and restart recovery",
+    "Validate saved entity data before discarding original capture target",
+    "Verify owner/protection policy and exact event cancellation semantics",
+    "Preserve names, equipment, age, owner and other entity data through the exact target loader"
+  ]
+}
