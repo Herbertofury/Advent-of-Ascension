@@ -1,0 +1,5643 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Normal Tyrosaur; five released class selections and independent arithmetic/branch models. No game test, actual final-damage measurement or hitbox render.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "source_hashes": {
+    "content/entity/boss/tyrosaur/TyrosaurEntity.java": "5a2efc2e1d442d23010130c0d1e0800223c7b5785a385e19deecdbfdb384e4e9",
+    "content/entity/boss/tyrosaur/SkullPlateMultipart.java": "891d485bf982f9f1a75dccdadc3be08f04e12f31f197fd40cedfd09ac85f04bf",
+    "content/entity/boss/tyrosaur/TyrosaurRoarBehaviour.java": "9d7e580eb2218719f4abbec87444f93bf7c9a2ff6c0432b098db659d5ed1a5f5",
+    "content/entity/boss/tyrosaur/TyrosaurEarthquakeBehaviour.java": "0fb6d2e46d72fa2e191ec9392c5c8506d9dc84beb227dd22230fa86f5073bf99",
+    "content/entity/misc/EarthquakeBlockEntity.java": "c2ea95da8b53db2134590eb3bf0644f1b671bc47beb7ea15cfb8a89325d79f69"
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity.class",
+      "sha256": "a1d239caf8ad0e48f074d6114e2fc00d1f77a830771863864d27e594b8f0cc6c",
+      "methods": [
+        {
+          "name": "definePartEntities",
+          "descriptor": "()Lnet/tslat/aoa3/library/builder/MultipartBuilder;",
+          "code_hex": "2a05bd0007590312092ab6000a121066b800111215b60016b6001a121e121eb80011121fb60020b6001a1223b60024121e121eb80011121fb60020b6001a1215b60024b60027b6002753590412092ab6000a121066b800111215b60016b6002b0c2ab6000a122e66b80011b6002fba00320000b60036b60027123a0cb80011b6002bb6002753b8003bb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 2,
+              "opcode": 189,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 89
+            },
+            {
+              "offset": 6,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 7,
+              "opcode": 18,
+              "constant": 0.875
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 18,
+              "constant": 0.625
+            },
+            {
+              "offset": 15,
+              "opcode": 102
+            },
+            {
+              "offset": 16,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "sized",
+                "(FF)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 21,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "up",
+                "(F)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "adjacentBehind",
+                "()Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 18,
+              "constant": 0.5625
+            },
+            {
+              "offset": 29,
+              "opcode": 18,
+              "constant": 0.5625
+            },
+            {
+              "offset": 31,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "sized",
+                "(FF)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 18,
+              "constant": 0.0625
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "down",
+                "(F)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "adjacentBehind",
+                "()Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 18,
+              "constant": 0.8500000238418579
+            },
+            {
+              "offset": 44,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "damageMod",
+                "(F)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 18,
+              "constant": 0.5625
+            },
+            {
+              "offset": 49,
+              "opcode": 18,
+              "constant": 0.5625
+            },
+            {
+              "offset": 51,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "sized",
+                "(FF)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 18,
+              "constant": 0.0625
+            },
+            {
+              "offset": 56,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "down",
+                "(F)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "adjacentBehind",
+                "()Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 64,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "damageMod",
+                "(F)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "then",
+                "(Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "then",
+                "(Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 83
+            },
+            {
+              "offset": 74,
+              "opcode": 89
+            },
+            {
+              "offset": 75,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 76,
+              "opcode": 18,
+              "constant": 0.875
+            },
+            {
+              "offset": 78,
+              "opcode": 42
+            },
+            {
+              "offset": 79,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 18,
+              "constant": 0.625
+            },
+            {
+              "offset": 84,
+              "opcode": 102
+            },
+            {
+              "offset": 85,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "sized",
+                "(FF)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 90,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "up",
+                "(F)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "adjacentForward",
+                "()Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 12
+            },
+            {
+              "offset": 97,
+              "opcode": 42
+            },
+            {
+              "offset": 98,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 18,
+              "constant": 0.75
+            },
+            {
+              "offset": 103,
+              "opcode": 102
+            },
+            {
+              "offset": 104,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "sized",
+                "(FF)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "adjacentAbove",
+                "()Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 186,
+              "operands": [
+                0,
+                50,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 115,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "constructor",
+                "(Lnet/tslat/aoa3/library/object/interfaces/TriFunction;)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "then",
+                "(Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 18,
+              "constant": 0.6875
+            },
+            {
+              "offset": 123,
+              "opcode": 12
+            },
+            {
+              "offset": 124,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "sized",
+                "(FF)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "adjacentForward",
+                "()Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder$Part",
+                "then",
+                "(Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;)Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 83
+            },
+            {
+              "offset": 134,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/MultipartBuilder",
+                "of",
+                "(Lnet/minecraft/world/entity/LivingEntity;[Lnet/tslat/aoa3/library/builder/MultipartBuilder$Part;)Lnet/tslat/aoa3/library/builder/MultipartBuilder;"
+              ]
+            },
+            {
+              "offset": 137,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "descriptor": "(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+          "code_hex": "2ab20045b60086c0004bb6008a0b959e00de2ab6014ab4014e9a00d42bb801549a00cd24462bb2015ab6016099001a2bb801669a00132bb20169b6016f9a0009251301726a462bb20173b601609a00a02bb801769900572bb601793a051905c1017d9900491905c0017d3a041904b6017f3a051905b20183b60189990028250c1905b2018fb60195b6019b13019f6a621904b201a0b601a6901301aa6a626a46a700082512156a46a700132bb201abb60160990009251301ae6a46b801af99000c2a258d1301b5b801b6b201bc2ab801c21032b601c82ab601cc2a2ab20045b60086c0004bb6008a2566b600962a2b24b701d0ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "ARMOUR",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                75
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "java/lang/Float",
+                "floatValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 11
+            },
+            {
+              "offset": 14,
+              "opcode": 149
+            },
+            {
+              "offset": 15,
+              "opcode": 158,
+              "operands": [
+                0,
+                222
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 42
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 154,
+              "operands": [
+                0,
+                212
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 43
+            },
+            {
+              "offset": 29,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "isEnvironmentalDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 154,
+              "operands": [
+                0,
+                205
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 36
+            },
+            {
+              "offset": 36,
+              "opcode": 70
+            },
+            {
+              "offset": 37,
+              "opcode": 43
+            },
+            {
+              "offset": 38,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/tags/DamageTypeTags",
+                "IS_PROJECTILE",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 153,
+              "operands": [
+                0,
+                26
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 43
+            },
+            {
+              "offset": 48,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "isMagicDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 154,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 43
+            },
+            {
+              "offset": 55,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoADamageTypes",
+                "HEAVY_GUN",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "is",
+                "(Lnet/minecraft/resources/ResourceKey;)Z"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 154,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 37
+            },
+            {
+              "offset": 65,
+              "opcode": 19,
+              "constant": 0.25
+            },
+            {
+              "offset": 68,
+              "opcode": 106
+            },
+            {
+              "offset": 69,
+              "opcode": 70
+            },
+            {
+              "offset": 70,
+              "opcode": 43
+            },
+            {
+              "offset": 71,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/tags/DamageTypeTags",
+                "BYPASSES_ARMOR",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 154,
+              "operands": [
+                0,
+                160
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 43
+            },
+            {
+              "offset": 81,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "isMeleeDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 153,
+              "operands": [
+                0,
+                87
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 43
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "getDirectEntity",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 193,
+              "operands": [
+                1,
+                125
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 153,
+              "operands": [
+                0,
+                73
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 192,
+              "operands": [
+                1,
+                125
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 108,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getMainHandItem",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 115,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 178,
+              "member": [
+                "net/neoforged/neoforge/common/ItemAbilities",
+                "PICKAXE_DIG",
+                "Lnet/neoforged/neoforge/common/ItemAbility;"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "canPerformAction",
+                "(Lnet/neoforged/neoforge/common/ItemAbility;)Z"
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 153,
+              "operands": [
+                0,
+                40
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 37
+            },
+            {
+              "offset": 127,
+              "opcode": 12
+            },
+            {
+              "offset": 128,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/block/Blocks",
+                "STONE",
+                "Lnet/minecraft/world/level/block/Block;"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/Block",
+                "defaultBlockState",
+                "()Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getDestroySpeed",
+                "(Lnet/minecraft/world/level/block/state/BlockState;)F"
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 19,
+              "constant": 0.07500000298023224
+            },
+            {
+              "offset": 142,
+              "opcode": 106
+            },
+            {
+              "offset": 143,
+              "opcode": 98
+            },
+            {
+              "offset": 144,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/Attributes",
+                "MINING_EFFICIENCY",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getAttributeValue",
+                "(Lnet/minecraft/core/Holder;)D"
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 144
+            },
+            {
+              "offset": 153,
+              "opcode": 19,
+              "constant": 0.03999999910593033
+            },
+            {
+              "offset": 156,
+              "opcode": 106
+            },
+            {
+              "offset": 157,
+              "opcode": 98
+            },
+            {
+              "offset": 158,
+              "opcode": 106
+            },
+            {
+              "offset": 159,
+              "opcode": 70
+            },
+            {
+              "offset": 160,
+              "opcode": 167,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 37
+            },
+            {
+              "offset": 164,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 166,
+              "opcode": 106
+            },
+            {
+              "offset": 167,
+              "opcode": 70
+            },
+            {
+              "offset": 168,
+              "opcode": 167,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 43
+            },
+            {
+              "offset": 172,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/tags/DamageTypeTags",
+                "IS_EXPLOSION",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 153,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 181,
+              "opcode": 37
+            },
+            {
+              "offset": 182,
+              "opcode": 19,
+              "constant": 1.25
+            },
+            {
+              "offset": 185,
+              "opcode": 106
+            },
+            {
+              "offset": 186,
+              "opcode": 70
+            },
+            {
+              "offset": 187,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/integration/IntegrationManager",
+                "isTESActive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 153,
+              "operands": [
+                0,
+                12
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 42
+            },
+            {
+              "offset": 194,
+              "opcode": 37
+            },
+            {
+              "offset": 195,
+              "opcode": 141
+            },
+            {
+              "offset": 196,
+              "opcode": 19,
+              "constant": -5592406
+            },
+            {
+              "offset": 199,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/integration/tes/TESIntegration",
+                "sendParticle",
+                "(Lnet/minecraft/world/entity/LivingEntity;DI)V"
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "CRIT",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 205,
+              "opcode": 42
+            },
+            {
+              "offset": 206,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 209,
+              "opcode": 16,
+              "constant": 50
+            },
+            {
+              "offset": 211,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 42
+            },
+            {
+              "offset": 215,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 218,
+              "opcode": 42
+            },
+            {
+              "offset": 219,
+              "opcode": 42
+            },
+            {
+              "offset": 220,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "ARMOUR",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 226,
+              "opcode": 192,
+              "operands": [
+                0,
+                75
+              ]
+            },
+            {
+              "offset": 229,
+              "opcode": 182,
+              "member": [
+                "java/lang/Float",
+                "floatValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 37
+            },
+            {
+              "offset": 233,
+              "opcode": 102
+            },
+            {
+              "offset": 234,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "updateArmour",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 237,
+              "opcode": 42
+            },
+            {
+              "offset": 238,
+              "opcode": 43
+            },
+            {
+              "offset": 239,
+              "opcode": 36
+            },
+            {
+              "offset": 240,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "hurt",
+                "(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "updateArmour",
+          "descriptor": "(F)V",
+          "code_hex": "230b1249b8008d442ab20045b60086c0004bb6008a12496e127e6ab801d43d2312496e127e6ab801d43e2ab2004523b8004ab601d82ab6009338042ab201dc1704b801dfb801e3572ab201e91704b801ecb801e3571c1d9f0045b201ef2ab801f2b601f8b201fb2ab801c21014b601fe1215121512150cb602011014b601c82ab602050e2ab6000a12156a8d0eb60209100ab8020fb602152ab601ccb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 35
+            },
+            {
+              "offset": 1,
+              "opcode": 11
+            },
+            {
+              "offset": 2,
+              "opcode": 18,
+              "constant": 600.0
+            },
+            {
+              "offset": 4,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/util/Mth",
+                "clamp",
+                "(FFF)F"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 68
+            },
+            {
+              "offset": 8,
+              "opcode": 42
+            },
+            {
+              "offset": 9,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "ARMOUR",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 192,
+              "operands": [
+                0,
+                75
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "java/lang/Float",
+                "floatValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 18,
+              "constant": 600.0
+            },
+            {
+              "offset": 23,
+              "opcode": 110
+            },
+            {
+              "offset": 24,
+              "opcode": 18,
+              "constant": 4.0
+            },
+            {
+              "offset": 26,
+              "opcode": 106
+            },
+            {
+              "offset": 27,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/util/Mth",
+                "ceil",
+                "(F)I"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 61
+            },
+            {
+              "offset": 31,
+              "opcode": 35
+            },
+            {
+              "offset": 32,
+              "opcode": 18,
+              "constant": 600.0
+            },
+            {
+              "offset": 34,
+              "opcode": 110
+            },
+            {
+              "offset": 35,
+              "opcode": 18,
+              "constant": 4.0
+            },
+            {
+              "offset": 37,
+              "opcode": 106
+            },
+            {
+              "offset": 38,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/util/Mth",
+                "ceil",
+                "(F)I"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 62
+            },
+            {
+              "offset": 42,
+              "opcode": 42
+            },
+            {
+              "offset": 43,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "ARMOUR",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 35
+            },
+            {
+              "offset": 47,
+              "opcode": 184,
+              "member": [
+                "java/lang/Float",
+                "valueOf",
+                "(F)Ljava/lang/Float;"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "setSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 42
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getArmourPercent",
+                "()F"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 56,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 42
+            },
+            {
+              "offset": 60,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/Attributes",
+                "ARMOR",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 65,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getArmourMod",
+                "(F)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;"
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/AttributeUtil",
+                "applyTransientModifier",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)Z"
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 87
+            },
+            {
+              "offset": 72,
+              "opcode": 42
+            },
+            {
+              "offset": 73,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/Attributes",
+                "ARMOR_TOUGHNESS",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getArmourToughnessMod",
+                "(F)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;"
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/AttributeUtil",
+                "applyTransientModifier",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)Z"
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 87
+            },
+            {
+              "offset": 85,
+              "opcode": 28
+            },
+            {
+              "offset": 86,
+              "opcode": 29
+            },
+            {
+              "offset": 87,
+              "opcode": 159,
+              "operands": [
+                0,
+                69
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "STONE_CRUMBLE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 42
+            },
+            {
+              "offset": 94,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "following",
+                "(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "DUST_PLUME",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 42
+            },
+            {
+              "offset": 104,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 109,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "lifespan",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 112,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 114,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 116,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 118,
+              "opcode": 12
+            },
+            {
+              "offset": 119,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "colourTint",
+                "(FFFF)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 122,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 124,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 42
+            },
+            {
+              "offset": 128,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 131,
+              "opcode": 14
+            },
+            {
+              "offset": 132,
+              "opcode": 42
+            },
+            {
+              "offset": 133,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 138,
+              "opcode": 106
+            },
+            {
+              "offset": 139,
+              "opcode": 141
+            },
+            {
+              "offset": 140,
+              "opcode": 14
+            },
+            {
+              "offset": 141,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 146,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/internal/particle/transition/AwayFromPositionParticleTransition",
+                "create",
+                "(Lnet/minecraft/world/phys/Vec3;I)Lnet/tslat/tme/internal/particle/transition/AwayFromPositionParticleTransition;"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "addTransition",
+                "(Lnet/tslat/tme/internal/particle/transition/ParticleTransitionWorker;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 42
+            },
+            {
+              "offset": 153,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "addAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "2a2bb702192b13021d2ab60093b6021fb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "addAdditionalSaveData",
+                "(Lnet/minecraft/nbt/CompoundTag;)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 43
+            },
+            {
+              "offset": 6,
+              "opcode": 19,
+              "constant": "ArmourPercent"
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "getArmourPercent",
+                "()F"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "putFloat",
+                "(Ljava/lang/String;F)V"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "readAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "2a2bb702252b13021d08b6022a9900112a2b13021db6022e12496ab60096b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "readAdditionalSaveData",
+                "(Lnet/minecraft/nbt/CompoundTag;)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 43
+            },
+            {
+              "offset": 6,
+              "opcode": 19,
+              "constant": "ArmourPercent"
+            },
+            {
+              "offset": 9,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "contains",
+                "(Ljava/lang/String;I)Z"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 153,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 42
+            },
+            {
+              "offset": 17,
+              "opcode": 43
+            },
+            {
+              "offset": 18,
+              "opcode": 19,
+              "constant": "ArmourPercent"
+            },
+            {
+              "offset": 21,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "getFloat",
+                "(Ljava/lang/String;)F"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 18,
+              "constant": 600.0
+            },
+            {
+              "offset": 26,
+              "opcode": 106
+            },
+            {
+              "offset": 27,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity",
+                "updateArmour",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "entityStats",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;",
+          "code_hex": "2ab80263140269b6026b14026fb60271140274b60276140279b6027b14027eb6028014027eb60283140286140274b602880fb6028c14028fb60291b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "createMonster",
+                "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 20,
+              "constant": 635.0
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "health",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 20,
+              "constant": 0.2874999940395355
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "moveSpeed",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 15.0
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "meleeStrength",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 20,
+              "constant": 0.9
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "knockbackResist",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 20,
+              "constant": 128.0
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "followRange",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 20,
+              "constant": 128.0
+            },
+            {
+              "offset": 37,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "aggroRange",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 43,
+              "opcode": 20,
+              "constant": 15.0
+            },
+            {
+              "offset": 46,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "armour",
+                "(DD)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 15
+            },
+            {
+              "offset": 50,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "knockback",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 20,
+              "constant": 1.25
+            },
+            {
+              "offset": 56,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "stepHeight",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "getArmourMod",
+          "descriptor": "(F)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;",
+          "code_hex": "bb02ba591302bcb802be1302c4226a8db202c5b702cbb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                2,
+                186
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 19,
+              "constant": "tyrosaur_armour"
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/advent/AdventOfAscension",
+                "id",
+                "(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 19,
+              "constant": 60.0
+            },
+            {
+              "offset": 13,
+              "opcode": 34
+            },
+            {
+              "offset": 14,
+              "opcode": 106
+            },
+            {
+              "offset": 15,
+              "opcode": 141
+            },
+            {
+              "offset": 16,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation",
+                "ADD_VALUE",
+                "Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/AttributeModifier",
+                "<init>",
+                "(Lnet/minecraft/resources/ResourceLocation;DLnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;)V"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "getArmourToughnessMod",
+          "descriptor": "(F)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;",
+          "code_hex": "bb02ba591302ceb802be1302c4226a8db202c5b702cbb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                2,
+                186
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 19,
+              "constant": "tyrosaur_armour_toughness"
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/advent/AdventOfAscension",
+                "id",
+                "(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 19,
+              "constant": 60.0
+            },
+            {
+              "offset": 13,
+              "opcode": 34
+            },
+            {
+              "offset": 14,
+              "opcode": 106
+            },
+            {
+              "offset": 15,
+              "opcode": 141
+            },
+            {
+              "offset": 16,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation",
+                "ADD_VALUE",
+                "Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/AttributeModifier",
+                "<init>",
+                "(Lnet/minecraft/resources/ResourceLocation;DLnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;)V"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/tyrosaur/SkullPlateMultipart.class",
+      "sha256": "e65c18fb3012ae3ecac4cadf7c528b51f16e9d6fd04ca8562d0a3ba50e6b3cfa",
+      "methods": [
+        {
+          "name": "hurt",
+          "descriptor": "(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+          "code_hex": "2bb8000a9a000503ac2a2b24b70010ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "isMeleeDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 172
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 36
+            },
+            {
+              "offset": 12,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/base/AoAEntityPart",
+                "hurt",
+                "(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "deflection",
+          "descriptor": "(Lnet/minecraft/world/entity/projectile/Projectile;)Lnet/minecraft/world/entity/projectile/ProjectileDeflection;",
+          "code_hex": "2aba00140000b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 186,
+              "operands": [
+                0,
+                20,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$deflection$0",
+          "descriptor": "(Lnet/minecraft/world/entity/projectile/Projectile;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)V",
+          "code_hex": "2bb600182ab6001eb80024b6002a0e1400300eb60032b600363a042b1904b600392b04b5003db1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/projectile/Projectile",
+                "getDeltaMovement",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/SkullPlateMultipart",
+                "getParent",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/MathUtil",
+                "getEyelineForward",
+                "(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "cross",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 14
+            },
+            {
+              "offset": 15,
+              "opcode": 20,
+              "constant": 0.4000000059604645
+            },
+            {
+              "offset": 18,
+              "opcode": 14
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 43
+            },
+            {
+              "offset": 28,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/projectile/Projectile",
+                "setDeltaMovement",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 43
+            },
+            {
+              "offset": 34,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 35,
+              "opcode": 181,
+              "member": [
+                "net/minecraft/world/entity/projectile/Projectile",
+                "hasImpulse",
+                "Z"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour.class",
+      "sha256": "2f4b7b0a85e6167c777ee7300513438f866e1a1166447e327684e85a4681a878",
+      "methods": [
+        {
+          "name": "tick",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;)V",
+          "code_hex": "2ab4004d101ea4002d2ab4004d2ab40007709a00212a081007b8002fb50007b200502bb6001b0732b800211227b60028b6002c2ab4004d1021a400202bb4005305709a00172a2bb600562bb40053100a709a00082a2bb6005ab1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "runningTime",
+                "I"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 16,
+              "constant": 30
+            },
+            {
+              "offset": 6,
+              "opcode": 164,
+              "operands": [
+                0,
+                45
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "runningTime",
+                "I"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 42
+            },
+            {
+              "offset": 14,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "roarSoundDelay",
+                "I"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 112
+            },
+            {
+              "offset": 18,
+              "opcode": 154,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 23,
+              "opcode": 16,
+              "constant": 7
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "numberBetween",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "roarSoundDelay",
+                "I"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_TYROSAUR_ROAR_LOOP",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 43
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "getParts",
+                "()[Lnet/tslat/aoa3/content/entity/base/AoAEntityPart;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 7,
+              "constant": 4
+            },
+            {
+              "offset": 39,
+              "opcode": 50
+            },
+            {
+              "offset": 40,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "following",
+                "(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 18,
+              "constant": 32.0
+            },
+            {
+              "offset": 45,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "radius",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 42
+            },
+            {
+              "offset": 52,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "runningTime",
+                "I"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 16,
+              "constant": 33
+            },
+            {
+              "offset": 57,
+              "opcode": 164,
+              "operands": [
+                0,
+                32
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 43
+            },
+            {
+              "offset": 61,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 65,
+              "opcode": 112
+            },
+            {
+              "offset": 66,
+              "opcode": 154,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 42
+            },
+            {
+              "offset": 70,
+              "opcode": 43
+            },
+            {
+              "offset": 71,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "doParticles",
+                "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;)V"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 43
+            },
+            {
+              "offset": 75,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 80,
+              "opcode": 112
+            },
+            {
+              "offset": 81,
+              "opcode": 154,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 42
+            },
+            {
+              "offset": 85,
+              "opcode": 43
+            },
+            {
+              "offset": 86,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "doDamage",
+                "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;)V"
+              ]
+            },
+            {
+              "offset": 89,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doDamage",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;)V",
+          "code_hex": "2b14005d125fb80061b9006701004d2cb9006d01009900e12cb900730100c0005f4e12770c2b2db60078902ab4000d6e66b8007c38042d0cb60082b600862db6008c2bb6008fb60090b60086b600940f639012986a38052db6009999000a1705129c66380517040c1705626a38042b2d17040d6a2bb6009db800a099007817051298959e004d2d2b04bd00a65903bb00a659b200a81100c8b700aeb600b153b800b5170512bb959e00292db200bcb600bf9a001f2d2b04bd00a65903bb00a659b200bc1100c8b700aeb600b153b800b52dc100c399001f2dc000c33a061906bb00c5591400c7170412c96a12cab700cbb800cea7ff1cb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 20,
+              "constant": 32.0
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "net/minecraft/world/entity/LivingEntity"
+            },
+            {
+              "offset": 6,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/EntityRetrievalUtil",
+                "getEntities",
+                "(Lnet/minecraft/world/entity/Entity;DLjava/lang/Class;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 77
+            },
+            {
+              "offset": 15,
+              "opcode": 44
+            },
+            {
+              "offset": 16,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 153,
+              "operands": [
+                0,
+                225
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 44
+            },
+            {
+              "offset": 25,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 192,
+              "operands": [
+                0,
+                95
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 78
+            },
+            {
+              "offset": 34,
+              "opcode": 18,
+              "constant": 0.20000000298023224
+            },
+            {
+              "offset": 36,
+              "opcode": 12
+            },
+            {
+              "offset": 37,
+              "opcode": 43
+            },
+            {
+              "offset": 38,
+              "opcode": 45
+            },
+            {
+              "offset": 39,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "distanceToSqr",
+                "(Lnet/minecraft/world/entity/Entity;)D"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 144
+            },
+            {
+              "offset": 43,
+              "opcode": 42
+            },
+            {
+              "offset": 44,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurRoarBehaviour",
+                "radiusSq",
+                "F"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 110
+            },
+            {
+              "offset": 48,
+              "opcode": 102
+            },
+            {
+              "offset": 49,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(FF)F"
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 56,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 45
+            },
+            {
+              "offset": 55,
+              "opcode": 12
+            },
+            {
+              "offset": 56,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getViewVector",
+                "(F)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 45
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 43
+            },
+            {
+              "offset": 67,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "vectorTo",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "dot",
+                "(Lnet/minecraft/world/phys/Vec3;)D"
+              ]
+            },
+            {
+              "offset": 79,
+              "opcode": 15
+            },
+            {
+              "offset": 80,
+              "opcode": 99
+            },
+            {
+              "offset": 81,
+              "opcode": 144
+            },
+            {
+              "offset": 82,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 84,
+              "opcode": 106
+            },
+            {
+              "offset": 85,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 45
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "isCrouching",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 18,
+              "constant": 0.25
+            },
+            {
+              "offset": 98,
+              "opcode": 102
+            },
+            {
+              "offset": 99,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 12
+            },
+            {
+              "offset": 104,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 98
+            },
+            {
+              "offset": 107,
+              "opcode": 106
+            },
+            {
+              "offset": 108,
+              "opcode": 56,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 43
+            },
+            {
+              "offset": 111,
+              "opcode": 45
+            },
+            {
+              "offset": 112,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 13
+            },
+            {
+              "offset": 115,
+              "opcode": 106
+            },
+            {
+              "offset": 116,
+              "opcode": 43
+            },
+            {
+              "offset": 117,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "doMiscEnergyAttack",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;FLnet/minecraft/world/phys/Vec3;)Z"
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 153,
+              "operands": [
+                0,
+                120
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 130,
+              "opcode": 149
+            },
+            {
+              "offset": 131,
+              "opcode": 158,
+              "operands": [
+                0,
+                77
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 45
+            },
+            {
+              "offset": 135,
+              "opcode": 43
+            },
+            {
+              "offset": 136,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 137,
+              "opcode": 189,
+              "operands": [
+                0,
+                166
+              ]
+            },
+            {
+              "offset": 140,
+              "opcode": 89
+            },
+            {
+              "offset": 141,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 142,
+              "opcode": 187,
+              "operands": [
+                0,
+                166
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 89
+            },
+            {
+              "offset": 146,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "DIG_SLOWDOWN",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 152,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "isAmbient",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 158,
+              "opcode": 83
+            },
+            {
+              "offset": 159,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 162,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 18,
+              "constant": 0.800000011920929
+            },
+            {
+              "offset": 166,
+              "opcode": 149
+            },
+            {
+              "offset": 167,
+              "opcode": 158,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 170,
+              "opcode": 45
+            },
+            {
+              "offset": 171,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "WEAKNESS",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 174,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "hasEffect",
+                "(Lnet/minecraft/core/Holder;)Z"
+              ]
+            },
+            {
+              "offset": 177,
+              "opcode": 154,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 45
+            },
+            {
+              "offset": 181,
+              "opcode": 43
+            },
+            {
+              "offset": 182,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 183,
+              "opcode": 189,
+              "operands": [
+                0,
+                166
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 89
+            },
+            {
+              "offset": 187,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 188,
+              "opcode": 187,
+              "operands": [
+                0,
+                166
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 89
+            },
+            {
+              "offset": 192,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "WEAKNESS",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 195,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 198,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 201,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "isAmbient",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 204,
+              "opcode": 83
+            },
+            {
+              "offset": 205,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 208,
+              "opcode": 45
+            },
+            {
+              "offset": 209,
+              "opcode": 193,
+              "operands": [
+                0,
+                195
+              ]
+            },
+            {
+              "offset": 212,
+              "opcode": 153,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 215,
+              "opcode": 45
+            },
+            {
+              "offset": 216,
+              "opcode": 192,
+              "operands": [
+                0,
+                195
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 187,
+              "operands": [
+                0,
+                197
+              ]
+            },
+            {
+              "offset": 226,
+              "opcode": 89
+            },
+            {
+              "offset": 227,
+              "opcode": 20,
+              "constant": 20.0
+            },
+            {
+              "offset": 230,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 18,
+              "constant": 1.5
+            },
+            {
+              "offset": 234,
+              "opcode": 106
+            },
+            {
+              "offset": 235,
+              "opcode": 18,
+              "constant": 0.9800000190734863
+            },
+            {
+              "offset": 237,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/networking/packets/ScreenShakePacket",
+                "<init>",
+                "(DFF)V"
+              ]
+            },
+            {
+              "offset": 240,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/networking/AoANetworking",
+                "sendToPlayer",
+                "(Lnet/minecraft/server/level/ServerPlayer;Lnet/tslat/aoa3/common/networking/packets/AoAPacket;)V"
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 167,
+              "operands": [
+                255,
+                28
+              ]
+            },
+            {
+              "offset": 246,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEarthquakeBehaviour.class",
+      "sha256": "8e7580118166e64d4b83265f292fc9e25d4c420ef76e1e9866da1ab2218ea812",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(F)V",
+          "code_hex": "2a1019b700012a23b50007b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 16,
+              "constant": 25
+            },
+            {
+              "offset": 3,
+              "opcode": 183,
+              "member": [
+                "net/tslat/smartbrainlib/api/core/behaviour/DelayedBehaviour",
+                "<init>",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 42
+            },
+            {
+              "offset": 7,
+              "opcode": 35
+            },
+            {
+              "offset": 8,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEarthquakeBehaviour",
+                "damage",
+                "F"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doBlocks",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;I)V",
+          "code_hex": "2b2d1504ba00610000b80065c0002b3a05bb006b59b7006d3a062cb4007006709a00782bb60024b9002a01003a071907b9003001009900631907b900360100c0003a3a0819082cb6003c140074979e0006a7ffdd2d1908b60047b60076b6007a3a09b2007d2b2d1909150487b60083b60087b8008abb0090591909b70092b600951299b6009a04bd009e5903190853b600a0b600a4a7ff991905b9002a01003a071907b9003001009900a21907b900360100c000a73a08bb00a959b200abb600b0c000b52b1908b600b71908b600bb2cb700bf3a0919092ab40007b600c21909bb004c590e1400c60eb700c8b600cb19091908b600bbb800ceb600d22b1909b600d5571906bb00d959b200db1908b600b7b700e11908b600bbb800e410141028b800eab600f012f4b600f51400f9b800fb12ff130100b801018d1400f9b800fbb60104b6010857a7ff5a19062cb6010cb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 45
+            },
+            {
+              "offset": 2,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 186,
+              "operands": [
+                0,
+                97,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/BlockRetrievalUtil",
+                "getBlocks",
+                "(Lnet/minecraft/world/level/Level;Ljava/util/function/Function;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 192,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 187,
+              "operands": [
+                0,
+                107
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 89
+            },
+            {
+              "offset": 21,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 44
+            },
+            {
+              "offset": 27,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 31,
+              "opcode": 112
+            },
+            {
+              "offset": 32,
+              "opcode": 154,
+              "operands": [
+                0,
+                120
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 43
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerLevel",
+                "players",
+                "()Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 153,
+              "operands": [
+                0,
+                99
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 192,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 44
+            },
+            {
+              "offset": 71,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "distanceToSqr",
+                "(Lnet/minecraft/world/entity/Entity;)D"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 20,
+              "constant": 1024.0
+            },
+            {
+              "offset": 77,
+              "opcode": 151
+            },
+            {
+              "offset": 78,
+              "opcode": 158,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 167,
+              "operands": [
+                255,
+                221
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 45
+            },
+            {
+              "offset": 85,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "vectorTo",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 58,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "FX_RUBBLE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 43
+            },
+            {
+              "offset": 102,
+              "opcode": 45
+            },
+            {
+              "offset": 103,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 135
+            },
+            {
+              "offset": 108,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "scale",
+                "(D)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "at",
+                "(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 187,
+              "operands": [
+                0,
+                144
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 89
+            },
+            {
+              "offset": 121,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/internal/sound/BuildableMovingSoundInstance",
+                "<init>",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "customInstance",
+                "(Lnet/tslat/tme/api/sound/BuildableSoundInstance;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 129,
+              "opcode": 18,
+              "constant": 0.75
+            },
+            {
+              "offset": 131,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "pitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 135,
+              "opcode": 189,
+              "operands": [
+                0,
+                158
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 89
+            },
+            {
+              "offset": 139,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 140,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 142,
+              "opcode": 83
+            },
+            {
+              "offset": 143,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "onlyFor",
+                "([Lnet/minecraft/world/entity/player/Player;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 167,
+              "operands": [
+                255,
+                153
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 154,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 159,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 161,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 153,
+              "operands": [
+                0,
+                162
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 192,
+              "operands": [
+                0,
+                167
+              ]
+            },
+            {
+              "offset": 181,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 183,
+              "opcode": 187,
+              "operands": [
+                0,
+                169
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 89
+            },
+            {
+              "offset": 187,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAMiscEntities",
+                "EARTHQUAKE_BLOCK",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 192,
+              "operands": [
+                0,
+                181
+              ]
+            },
+            {
+              "offset": 196,
+              "opcode": 43
+            },
+            {
+              "offset": 197,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/BlockSnapshot",
+                "state",
+                "()Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 204,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/BlockSnapshot",
+                "pos",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 207,
+              "opcode": 44
+            },
+            {
+              "offset": 208,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)V"
+              ]
+            },
+            {
+              "offset": 211,
+              "opcode": 58,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 213,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 215,
+              "opcode": 42
+            },
+            {
+              "offset": 216,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEarthquakeBehaviour",
+                "damage",
+                "F"
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "setDamage",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 222,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 224,
+              "opcode": 187,
+              "operands": [
+                0,
+                76
+              ]
+            },
+            {
+              "offset": 227,
+              "opcode": 89
+            },
+            {
+              "offset": 228,
+              "opcode": 14
+            },
+            {
+              "offset": 229,
+              "opcode": 20,
+              "constant": 0.3499999940395355
+            },
+            {
+              "offset": 232,
+              "opcode": 14
+            },
+            {
+              "offset": 233,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "<init>",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 236,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "setDeltaMovement",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 239,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 241,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/BlockSnapshot",
+                "pos",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 246,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "atCenterOf",
+                "(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "setPos",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 252,
+              "opcode": 43
+            },
+            {
+              "offset": 253,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 255,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerLevel",
+                "addFreshEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 258,
+              "opcode": 87
+            },
+            {
+              "offset": 259,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 261,
+              "opcode": 187,
+              "operands": [
+                0,
+                217
+              ]
+            },
+            {
+              "offset": 264,
+              "opcode": 89
+            },
+            {
+              "offset": 265,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "BLOCK",
+                "Lnet/minecraft/core/particles/ParticleType;"
+              ]
+            },
+            {
+              "offset": 268,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 270,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/BlockSnapshot",
+                "state",
+                "()Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 273,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/core/particles/BlockParticleOption",
+                "<init>",
+                "(Lnet/minecraft/core/particles/ParticleType;Lnet/minecraft/world/level/block/state/BlockState;)V"
+              ]
+            },
+            {
+              "offset": 276,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 278,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/BlockSnapshot",
+                "pos",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 281,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInBlock",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/core/BlockPos;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 284,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 286,
+              "opcode": 16,
+              "constant": 40
+            },
+            {
+              "offset": 288,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "numberBetween",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 291,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "lifespan",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 294,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 296,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "scaleMod",
+                "(F)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 299,
+              "opcode": 20,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 302,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 305,
+              "opcode": 18,
+              "constant": 0.20000000298023224
+            },
+            {
+              "offset": 307,
+              "opcode": 19,
+              "constant": 0.4000000059604645
+            },
+            {
+              "offset": 310,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "valueBetween",
+                "(FF)F"
+              ]
+            },
+            {
+              "offset": 313,
+              "opcode": 141
+            },
+            {
+              "offset": 314,
+              "opcode": 20,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 317,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 320,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "velocity",
+                "(DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 323,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 326,
+              "opcode": 87
+            },
+            {
+              "offset": 327,
+              "opcode": 167,
+              "operands": [
+                255,
+                90
+              ]
+            },
+            {
+              "offset": 330,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 332,
+              "opcode": 44
+            },
+            {
+              "offset": 333,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 336,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doDelayedAction",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;)V",
+          "code_hex": "2bb60110c000254d2bb601142bb8011514011bb60083b600874e2a2b2db6011d2d0e0f0eb601213a04062a2c2b1904ba01250000b801290310142a2c2b1904ba012f0000b80130b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 192,
+              "operands": [
+                0,
+                37
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 77
+            },
+            {
+              "offset": 8,
+              "opcode": 43
+            },
+            {
+              "offset": 9,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 43
+            },
+            {
+              "offset": 13,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/MathUtil",
+                "getBodyForward",
+                "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 1.350000023841858
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "scale",
+                "(D)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 78
+            },
+            {
+              "offset": 26,
+              "opcode": 42
+            },
+            {
+              "offset": 27,
+              "opcode": 43
+            },
+            {
+              "offset": 28,
+              "opcode": 45
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEarthquakeBehaviour",
+                "doFX",
+                "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 45
+            },
+            {
+              "offset": 33,
+              "opcode": 14
+            },
+            {
+              "offset": 34,
+              "opcode": 15
+            },
+            {
+              "offset": 35,
+              "opcode": 14
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 42,
+              "opcode": 42
+            },
+            {
+              "offset": 43,
+              "opcode": 44
+            },
+            {
+              "offset": 44,
+              "opcode": 43
+            },
+            {
+              "offset": 45,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 186,
+              "operands": [
+                1,
+                37,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/scheduling/AoAScheduler",
+                "schedule",
+                "(ILnet/tslat/tme/api/scheduling/TickScheduler$Task;)V"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 56,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 58,
+              "opcode": 42
+            },
+            {
+              "offset": 59,
+              "opcode": 44
+            },
+            {
+              "offset": 60,
+              "opcode": 43
+            },
+            {
+              "offset": 61,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 186,
+              "operands": [
+                1,
+                47,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/scheduling/AoAScheduler",
+                "scheduleEveryTick",
+                "(IILnet/tslat/tme/api/scheduling/TickScheduler$Task;)V"
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity.class",
+      "sha256": "3c0f6cfffb4f7b7b5972e0d9cf15b39ab9087ccc796b724ac351b340f141b683",
+      "methods": [
+        {
+          "name": "tick",
+          "descriptor": "()V",
+          "code_hex": "2ab7003e2ab600429a002e140046482ab600484e2db2004cb900520100a5000b272a2db600586b482a2ab6005c0e270eb60060b600662ab6005cb6006a0e979900882ab2006e2ab6005cb600742ab60078b4007c9a00732ab600782ab60081140085b60087128d2aba008f0000b80093b9009901004c2bb9009f010099004b2bb900a40100c0008d4d2cb200a72ab400222ab800ad2ab600b3b600b79900282c2ab600bb04bd00bf5903bb00bf59b200c1103cb700c606b600c9b600ccb600d053b800d3a7ffb22ab600d9b600dd2ab4001fb600e09900072ab600e4b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "tick",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "isNoGravity",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 154,
+              "operands": [
+                0,
+                46
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 20,
+              "constant": -0.08
+            },
+            {
+              "offset": 14,
+              "opcode": 72
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getEyeInFluidType",
+                "()Lnet/neoforged/neoforge/fluids/FluidType;"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 78
+            },
+            {
+              "offset": 20,
+              "opcode": 45
+            },
+            {
+              "offset": 21,
+              "opcode": 178,
+              "member": [
+                "net/neoforged/neoforge/common/NeoForgeMod",
+                "EMPTY_TYPE",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/core/Holder",
+                "value",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 165,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 39
+            },
+            {
+              "offset": 33,
+              "opcode": 42
+            },
+            {
+              "offset": 34,
+              "opcode": 45
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getFluidMotionScale",
+                "(Lnet/neoforged/neoforge/fluids/FluidType;)D"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 107
+            },
+            {
+              "offset": 39,
+              "opcode": 72
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 42
+            },
+            {
+              "offset": 42,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getDeltaMovement",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 14
+            },
+            {
+              "offset": 46,
+              "opcode": 39
+            },
+            {
+              "offset": 47,
+              "opcode": 14
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "setDeltaMovement",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 42
+            },
+            {
+              "offset": 55,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getDeltaMovement",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "lengthSqr",
+                "()D"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 14
+            },
+            {
+              "offset": 62,
+              "opcode": 151
+            },
+            {
+              "offset": 63,
+              "opcode": 153,
+              "operands": [
+                0,
+                136
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 42
+            },
+            {
+              "offset": 67,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/MoverType",
+                "SELF",
+                "Lnet/minecraft/world/entity/MoverType;"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 42
+            },
+            {
+              "offset": 71,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getDeltaMovement",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "move",
+                "(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 42
+            },
+            {
+              "offset": 78,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 154,
+              "operands": [
+                0,
+                115
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 42
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 42
+            },
+            {
+              "offset": 92,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getBoundingBox",
+                "()Lnet/minecraft/world/phys/AABB;"
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 20,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 98,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/AABB",
+                "deflate",
+                "(D)Lnet/minecraft/world/phys/AABB;"
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 18,
+              "constant": "net/minecraft/world/entity/LivingEntity"
+            },
+            {
+              "offset": 103,
+              "opcode": 42
+            },
+            {
+              "offset": 104,
+              "opcode": 186,
+              "operands": [
+                0,
+                143,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/EntityRetrievalUtil",
+                "getEntities",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/AABB;Ljava/lang/Class;Ljava/util/function/Predicate;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 112,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 76
+            },
+            {
+              "offset": 118,
+              "opcode": 43
+            },
+            {
+              "offset": 119,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 124,
+              "opcode": 153,
+              "operands": [
+                0,
+                75
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 43
+            },
+            {
+              "offset": 128,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 192,
+              "operands": [
+                0,
+                141
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 77
+            },
+            {
+              "offset": 137,
+              "opcode": 44
+            },
+            {
+              "offset": 138,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/damagesource/DamageTypes",
+                "MOB_ATTACK_NO_AGGRO",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 42
+            },
+            {
+              "offset": 142,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "owner",
+                "Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 42
+            },
+            {
+              "offset": 146,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "indirectEntityDamage",
+                "(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 42
+            },
+            {
+              "offset": 150,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getDamage",
+                "()F"
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "hurt",
+                "(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 153,
+              "operands": [
+                0,
+                40
+              ]
+            },
+            {
+              "offset": 159,
+              "opcode": 44
+            },
+            {
+              "offset": 160,
+              "opcode": 42
+            },
+            {
+              "offset": 161,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "getOwner",
+                "()Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 165,
+              "opcode": 189,
+              "operands": [
+                0,
+                191
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 89
+            },
+            {
+              "offset": 169,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 170,
+              "opcode": 187,
+              "operands": [
+                0,
+                191
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 89
+            },
+            {
+              "offset": 174,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "MOVEMENT_SLOWDOWN",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 177,
+              "opcode": 16,
+              "constant": 60
+            },
+            {
+              "offset": 179,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 182,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 183,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "isAmbient",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 189,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "hideParticles",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 192,
+              "opcode": 83
+            },
+            {
+              "offset": 193,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 196,
+              "opcode": 167,
+              "operands": [
+                255,
+                178
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 42
+            },
+            {
+              "offset": 200,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "blockPosition",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 203,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "above",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 206,
+              "opcode": 42
+            },
+            {
+              "offset": 207,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "blockOrigin",
+                "Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 210,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "equals",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 213,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 42
+            },
+            {
+              "offset": 217,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/misc/EarthquakeBlockEntity",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 220,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "readAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "addAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "armour_examples": [
+    {
+      "label": "ordinary projectile",
+      "input_damage": 10,
+      "flags": {
+        "projectile": true
+      },
+      "armour_depletion": 2.5
+    },
+    {
+      "label": "magic projectile",
+      "input_damage": 10,
+      "flags": {
+        "projectile": true,
+        "magic": true
+      },
+      "armour_depletion": 10
+    },
+    {
+      "label": "heavy gun",
+      "input_damage": 10,
+      "flags": {
+        "projectile": true,
+        "heavy": true
+      },
+      "armour_depletion": 10
+    },
+    {
+      "label": "ordinary melee",
+      "input_damage": 10,
+      "flags": {
+        "melee": true
+      },
+      "armour_depletion": 5.0
+    },
+    {
+      "label": "pickaxe speed6",
+      "input_damage": 10,
+      "flags": {
+        "melee": true,
+        "pickaxe": true,
+        "speed": 6
+      },
+      "armour_depletion": 14.5
+    },
+    {
+      "label": "pickaxe speed6 efficiency5",
+      "input_damage": 10,
+      "flags": {
+        "melee": true,
+        "pickaxe": true,
+        "speed": 6,
+        "efficiency": 5
+      },
+      "armour_depletion": 16.5
+    },
+    {
+      "label": "explosion",
+      "input_damage": 10,
+      "flags": {
+        "explosion": true
+      },
+      "armour_depletion": 12.5
+    },
+    {
+      "label": "armor bypass",
+      "input_damage": 10,
+      "flags": {
+        "bypass": true
+      },
+      "armour_depletion": 0
+    },
+    {
+      "label": "environmental",
+      "input_damage": 10,
+      "flags": {
+        "environment": true
+      },
+      "armour_depletion": 0
+    }
+  ],
+  "roar_examples": [
+    {
+      "distance": 0,
+      "facing_dot": 1,
+      "crouching": false,
+      "hearing_modifier": 1.0,
+      "damage_argument": 4.0,
+      "mining_fatigue_if_damage_succeeds": true,
+      "weakness_if_damage_succeeds_and_absent": true
+    },
+    {
+      "distance": 0,
+      "facing_dot": -1,
+      "crouching": false,
+      "hearing_modifier": 0.0,
+      "damage_argument": 2.0,
+      "mining_fatigue_if_damage_succeeds": false,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 0,
+      "facing_dot": 1,
+      "crouching": true,
+      "hearing_modifier": 0.75,
+      "damage_argument": 3.5,
+      "mining_fatigue_if_damage_succeeds": true,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 0,
+      "facing_dot": -1,
+      "crouching": true,
+      "hearing_modifier": -0.25,
+      "damage_argument": 1.5,
+      "mining_fatigue_if_damage_succeeds": false,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 17,
+      "facing_dot": 1,
+      "crouching": false,
+      "hearing_modifier": 1.0,
+      "damage_argument": 0.8,
+      "mining_fatigue_if_damage_succeeds": true,
+      "weakness_if_damage_succeeds_and_absent": true
+    },
+    {
+      "distance": 17,
+      "facing_dot": -1,
+      "crouching": false,
+      "hearing_modifier": 0.0,
+      "damage_argument": 0.4,
+      "mining_fatigue_if_damage_succeeds": false,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 17,
+      "facing_dot": 1,
+      "crouching": true,
+      "hearing_modifier": 0.75,
+      "damage_argument": 0.7000000000000001,
+      "mining_fatigue_if_damage_succeeds": true,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 17,
+      "facing_dot": -1,
+      "crouching": true,
+      "hearing_modifier": -0.25,
+      "damage_argument": 0.30000000000000004,
+      "mining_fatigue_if_damage_succeeds": false,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 25,
+      "facing_dot": 1,
+      "crouching": false,
+      "hearing_modifier": 1.0,
+      "damage_argument": 0.8,
+      "mining_fatigue_if_damage_succeeds": true,
+      "weakness_if_damage_succeeds_and_absent": true
+    },
+    {
+      "distance": 25,
+      "facing_dot": -1,
+      "crouching": false,
+      "hearing_modifier": 0.0,
+      "damage_argument": 0.4,
+      "mining_fatigue_if_damage_succeeds": false,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 25,
+      "facing_dot": 1,
+      "crouching": true,
+      "hearing_modifier": 0.75,
+      "damage_argument": 0.7000000000000001,
+      "mining_fatigue_if_damage_succeeds": true,
+      "weakness_if_damage_succeeds_and_absent": false
+    },
+    {
+      "distance": 25,
+      "facing_dot": -1,
+      "crouching": true,
+      "hearing_modifier": -0.25,
+      "damage_argument": 0.30000000000000004,
+      "mining_fatigue_if_damage_succeeds": false,
+      "weakness_if_damage_succeeds_and_absent": false
+    }
+  ],
+  "armour_stages": [
+    {
+      "pool": 600,
+      "percent": 1.0,
+      "added_armour": 60.0,
+      "added_toughness": 60.0,
+      "stage": 4
+    },
+    {
+      "pool": 450,
+      "percent": 0.75,
+      "added_armour": 45.0,
+      "added_toughness": 45.0,
+      "stage": 3
+    },
+    {
+      "pool": 300,
+      "percent": 0.5,
+      "added_armour": 30.0,
+      "added_toughness": 30.0,
+      "stage": 2
+    },
+    {
+      "pool": 150,
+      "percent": 0.25,
+      "added_armour": 15.0,
+      "added_toughness": 15.0,
+      "stage": 1
+    },
+    {
+      "pool": 0,
+      "percent": 0.0,
+      "added_armour": 0.0,
+      "added_toughness": 0.0,
+      "stage": 0
+    }
+  ],
+  "limits": [
+    "Input-damage examples are armour-pool depletion, not final health damage",
+    "Roar model does not establish exact entity-selection boundary of the external retrieval helper; 17 is not a proven immunity radius",
+    "Skull plate has separate melee-only damage gate and projectile deflection",
+    "Earthquake entities have empty additional-save readers/writers; persistence and cleanup require runtime acceptance",
+    "Wounded and elite variants are excluded"
+  ]
+}

@@ -54,6 +54,8 @@ Normal source states include three summon states and fireballs. The elite source
 
 ## Tyrosaur and wounded conversion
 
+[Normal Tyrosaur field guide: armour pool, skull plate, roar and earthquake](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tyrosaur-Combat-Field-Guide-1.21.1).
+
 ![Tyrosaur resource showcase](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-mob-tyrosaur.png)
 
 The normal/elite Tyrosaur logic includes melee behavior, roar and earthquake behavior. Its multipart geometry and hitboxes require separate acceptance; an attractive mesh is not a collision test.
