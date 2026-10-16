@@ -1,0 +1,270 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "source_pin": "29dd8a8a20642ee182b851e34ef58b65f68e68bf",
+  "scope": "Released recipes and narrow Traveller/book class checks; pinned source frame/loot interpretation. No game execution or owner build certification.",
+  "resources": {
+    "assets/aoa3/recipes/blocks/functional/misc/carved_rune_power.json": {
+      "sha256": "09ae147963a4294036047bd95d3f65d6d7c37e43f3a09076cc5d6d76398e0e38",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "BCB",
+          "BAB",
+          "BBB"
+        ],
+        "key": {
+          "A": [
+            {
+              "item": "aoa3:ancient_rock"
+            }
+          ],
+          "B": [
+            {
+              "item": "aoa3:unpowered_rune"
+            }
+          ],
+          "C": [
+            {
+              "item": "minecraft:ender_eye"
+            }
+          ]
+        },
+        "result": {
+          "item": "aoa3:carved_rune_power"
+        }
+      }
+    },
+    "assets/aoa3/recipes/items/misc/misc/unpowered_rune.json": {
+      "sha256": "dbfa7ba2a9a3456e688be9ffd0c5b76007a54afde5de2e46a44a2198ef86ddc9",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "aoa3:runium_chunk"
+          }
+        ],
+        "result": {
+          "item": "aoa3:unpowered_rune",
+          "count": 16
+        }
+      }
+    },
+    "assets/aoa3/recipes/items/misc/realmstone/precasia_realmstone.json": {
+      "sha256": "238131cf4ececf20c6c646191603ab840559d033c67bff56a7fb6cab6b643973",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:sapling",
+            "data": 0
+          },
+          {
+            "item": "minecraft:sapling",
+            "data": 1
+          },
+          {
+            "item": "minecraft:sapling",
+            "data": 2
+          },
+          {
+            "item": "minecraft:sapling",
+            "data": 3
+          },
+          {
+            "item": "minecraft:sapling",
+            "data": 4
+          },
+          {
+            "item": "minecraft:sapling",
+            "data": 5
+          },
+          {
+            "item": "aoa3:blank_realmstone"
+          }
+        ],
+        "result": {
+          "item": "aoa3:precasia_realmstone"
+        }
+      }
+    },
+    "assets/aoa3/loot_tables/misc/carved_rune_blocks.json": {
+      "sha256": "181d44351130de913bd48a2f7c1b9ffc5a48c3ff9b49062806c6d5a7e5cc8522",
+      "data": {
+        "pools": [
+          {
+            "name": "carved_rune_blocks",
+            "rolls": 2,
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:carved_rune_direction",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:carved_rune_reality",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:carved_rune_space",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:carved_rune_travel",
+                "weight": 1
+              },
+              {
+                "type": "empty",
+                "weight": 8,
+                "quality": -1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "class_checks": [
+    {
+      "class": "net/tslat/aoa3/common/containers/ContainerCorruptedTraveller.class",
+      "sha256": "a361130e55765b7ff3c9cb8d1edf5333e2695deb719acbc89dcce5c5886c347f",
+      "method": "handleFoodInput",
+      "code_hex": "2ab400189a004f2ab4004203b900480200c00030b4004c03b9005202004c2bb600589a00292bb6005cc1005e99001f2ab4001cb40034bb005459b20064b70067b6006d9900082b04b600712a04b50018a700082a03b50018b1"
+    },
+    {
+      "class": "net/tslat/aoa3/item/misc/WornBook.class",
+      "sha256": "bd2dc5189b5887cc5f3d3c1776e5512d47547c1ec0f481ca74a76168ec54a0db",
+      "method": "func_77659_a",
+      "code_hex": "2c2db6004a3a042bb400509900232cb80056b20059b4005d2b2cb400618e2cb400648e2cb400678eb6006ba700252cb2006fb8007502a0001a2cbb003059b2006fb70078b8007c2c127eb80084b60088b2008e1904b80094b0"
+    }
+  ],
+  "source_files": {
+    "library/misc/AoAPortalFrame.java": "9781295c835555ab4e458a1adc8be5cabb7641c92e56cd4dde66dfa1a7368685",
+    "block/functional/misc/CarvedRunicPortalBlock.java": "1f2a4e07134218a4f7febabbccdfbb76e868d72f01a72fd76b25b73c67941909",
+    "common/containers/ContainerCorruptedTraveller.java": "900188ebb1a48ee9d43c78f13fc24e4b468824f9f79abad734d0e0e1ef671823",
+    "item/misc/WornBook.java": "0462a6f55b52360eaba96a7ee61c25b344cffd5e1ff799fcacba6133a54f778d",
+    "common/registration/LootSystemRegister.java": "f5de4e1baceea8bcb111d46a2bf0b931ac60b5fead6faec8db803e6f629f7e76",
+    "structure/overworld/RuinedTeleporterFrame.java": "5c8bc80ba45540bfb7ab9b73065e3361bda4253e5115386cb36481c45557d8c7",
+    "dimension/overworld/OverworldGen.java": "cc77029fd8e66308985fc6b4492b8bfa002bb50a09ec7c6864df8fd6b1948552",
+    "event/WorldEvents.java": "fb5f0de96ec997cbe162fcf1f46c64a3db769d16a48f33e76401942ec26667a2",
+    "common/registration/EntitySpawnRegister.java": "0ab821a499ea445d2cc87a10b95904f4dfb6a492b97d4d3a276214c089d5a3d2",
+    "utils/ConfigurationUtil.java": "25c2f755ed0e1ba78ba5ba1f09c61ec134284c89fb4695f05025b9bdd5fd0779"
+  },
+  "source_chest_selectors": [
+    "minecraft:chests/abandoned_mineshaft",
+    "minecraft:chests/desert_pyramid",
+    "minecraft:chests/igloo_chest",
+    "minecraft:chests/jungle_temple",
+    "minecraft:chests/simple_dungeon",
+    "minecraft:chests/spawn_bonus_chest",
+    "minecraft:chests/stronghold_corridor",
+    "minecraft:chests/stronghold_crossing",
+    "minecraft:chests/stronghold_library",
+    "minecraft:chests/village_blacksmith",
+    "minecraft:chests/woodland_mansion"
+  ],
+  "north_south_frame_coordinates": [
+    [
+      -2,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      4,
+      0
+    ],
+    [
+      2,
+      5,
+      0
+    ],
+    [
+      1,
+      5,
+      0
+    ],
+    [
+      0,
+      5,
+      0
+    ],
+    [
+      -1,
+      5,
+      0
+    ],
+    [
+      -2,
+      5,
+      0
+    ],
+    [
+      -2,
+      4,
+      0
+    ],
+    [
+      -2,
+      3,
+      0
+    ],
+    [
+      -2,
+      2,
+      0
+    ],
+    [
+      -2,
+      1,
+      0
+    ]
+  ],
+  "notes": [
+    "Food consumption follows successful Worn Book insertion into player inventory in checked class path. Keep a free slot.",
+    "Six exact sapling metadata values, not six arbitrary copies.",
+    "1.12 Power block ID is carved_rune_power, without of."
+  ]
+}
