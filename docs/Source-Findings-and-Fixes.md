@@ -50,3 +50,10 @@ Released-bytecode checks confirm that the inspected official trader callers pass
 **Status: released-code finding; no current Enderloom runtime reproduction or applied fix claimed.** The release method calls `addFreshEntity`, discards its boolean result, then clears the stored entity component. A rejected world insertion can therefore lose access to the cached creature. Collision and null-recreation checks already exist, but do not cover this separate step. The checked NeoForge entity-manager path can reject a canceled join event or failed UUID insertion.
 
 [Creature transport tutorial and acceptance checklist](Stasis-Capsule-Creature-Transport-1.21.1) · [Exact released methods and four independent state-transition cases](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/stasis-capsule-release-evidence-1.21.1.json). Preserve the payload until insertion succeeds, verify serialization before capture discards the original, and test ownership/protection semantics. This evidence is scoped to AoA 3.7.16.1 / Minecraft 1.21.1, not every historical implementation.
+
+
+## Thorny Plant survival scan stops at Y=0 · 1.21.1
+
+**Status: released-code boundary finding; no live-game reproduction or current Enderloom repair claimed.** MultiBlockCrop.canSurvive stops its downward soil scan when `posY - i < 0`, even though modern worlds can extend below zero. A Thorny Plant whose supporting farmland is below Y=0 cannot reach that farmland through this scan. The checked class also fixes the growth height at three and stages per part at five.
+
+[Practical farming guide](Farming-Soils-and-Harvesting-1.21.1) · [Released class hash, exact method bytes and source evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/farming-evidence-1.21.1.json). Inspect the exact target implementation, replace the hardcoded zero boundary with the world's actual minimum build-height semantics if applicable, and test soil below, at and above Y=0 plus the real world floor. Preserve upper-part validation, bonemeal, neighbor updates and final-growth behavior. This is an unchecked repair target, not an applied game patch.
