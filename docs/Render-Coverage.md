@@ -156,3 +156,7 @@ The age-only blockstate pass now covers 388 historical states across 49 version-
 ## Modern NeoForge fluid containers
 
 The [bucket reference gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-and-Bucket-References) also covers three 1.21.1 containers using the pinned NeoForge loader/mask and exact tint constants read from AoA 3.7.16.1. This brings the gallery to 24 version-specific studies. These are first-frame documentation views, not runtime shader certification.
+
+## Translucent and intentionally empty resource cases
+
+[Source asset edge cases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) now include three later-release Shyre Cloud studies retaining the texture’s alpha 77/255. It also distinguishes invisible helper blocks, empty-model functional blocks, unverified custom item models and unqualified localization/resource candidates from missing active content.
