@@ -97,3 +97,5 @@ Documentation snapshot: **2026-10-16**. Static reference work is not a new runti
 - [Corrected coplanar ore previews](Coplanar-Ore-Preview-Repairs)
 
 - [Foliage overlays and default colors](Foliage-Overlays-and-Default-Tints)
+
+- [Historical appearance comparisons for renderer gaps](Historical-Appearance-Comparisons-1.20.1)
