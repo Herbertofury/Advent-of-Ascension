@@ -42,6 +42,8 @@ The inspected normal/elite classes distinguish fireball, flamethrower and fire-b
 
 ## King BamBamBam — summons and ranged phases
 
+[Normal encounter field guide: intercept gold, control minions and read exhaustion](https://github.com/Herbertofury/Advent-of-Ascension/wiki/King-BamBamBam-Combat-Field-Guide-1.21.1).
+
 ![King BamBamBam model showcase](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-mob-king_bambambam.png)
 
 Normal source states include three summon states and fireballs. The elite source adds a fourth summon state. The base attribute declarations differ substantially between normal and elite versions; copied registry entries alone will not preserve the encounter.

@@ -1,0 +1,5133 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Normal King BamBamBam only. Released selected-method disassembly, pinned source interpretation and independent branch models. No live encounter or timing certification.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "source_sha256": "6def0e6505c632546e61e7900f79d7f2914e9e8f401ae74f0d98ac93832d694b",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity.class",
+      "sha256": "866742206e35b9caa6a7c23f1205460f4417f5138a7eaedd4acd11b584c33492",
+      "methods": [
+        {
+          "name": "customServerAiStep",
+          "descriptor": "()V",
+          "code_hex": "2ab701632ab4016608709a00082a04b6016ab1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "customServerAiStep",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 9,
+              "opcode": 112
+            },
+            {
+              "offset": 10,
+              "opcode": 154,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 42
+            },
+            {
+              "offset": 14,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "addEnergy",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "onDamageTaken",
+          "descriptor": "(Lnet/neoforged/neoforge/common/damagesource/DamageContainer;)V",
+          "code_hex": "2ab2002eb60007c00033b6016d9a00102a2bb601718db801778eb6017db1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "EXHAUSTED",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                51
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "java/lang/Boolean",
+                "booleanValue",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 154,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 42
+            },
+            {
+              "offset": 17,
+              "opcode": 43
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/common/damagesource/DamageContainer",
+                "getNewDamage",
+                "()F"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 141
+            },
+            {
+              "offset": 22,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "floor",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 142
+            },
+            {
+              "offset": 26,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "consumeEnergy",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "addEnergy",
+          "descriptor": "(I)V",
+          "code_hex": "2ab200412ab20041b60007c00045b601961b601064b8019ab80044b60001b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "ENERGY_LEVEL",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "ENERGY_LEVEL",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 192,
+              "operands": [
+                0,
+                69
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 27
+            },
+            {
+              "offset": 18,
+              "opcode": 96
+            },
+            {
+              "offset": 19,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 21,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "min",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "setSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "consumeEnergy",
+          "descriptor": "(I)V",
+          "code_hex": "2ab200412ab20041b60007c00045b601961b6403b8019eb80044b60001b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "ENERGY_LEVEL",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "ENERGY_LEVEL",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 192,
+              "operands": [
+                0,
+                69
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 27
+            },
+            {
+              "offset": 18,
+              "opcode": 100
+            },
+            {
+              "offset": 19,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 20,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "setSynchedData",
+                "(Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "entityStats",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;",
+          "code_hex": "2ab801a11401a7b601a91401adb601af1401b2b601b40fb601b71401bab601bc1401bab601bf1401c21401c4b601c6b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "createMonster",
+                "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 20,
+              "constant": 740.0
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "health",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 20,
+              "constant": 0.2874999940395355
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "moveSpeed",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 12.0
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "projectileDamage",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 15
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "knockbackResist",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 20,
+              "constant": 128.0
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "followRange",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 20,
+              "constant": 128.0
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "aggroRange",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 41,
+              "opcode": 20,
+              "constant": 30.0
+            },
+            {
+              "offset": 44,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "armour",
+                "(DD)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "doRangedAttackEntity",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile;Lnet/minecraft/world/entity/Entity;)V",
+          "code_hex": "2a2b2c2ab20203b6020890b8020c99001c2c032cb60212b8019e861302176e8db802188e056086b6021bb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 42
+            },
+            {
+              "offset": 4,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAAttributes",
+                "RANGED_ATTACK_DAMAGE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getAttributeValue",
+                "(Lnet/minecraft/core/Holder;)D"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 144
+            },
+            {
+              "offset": 11,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "doProjectileAttack",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 153,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 44
+            },
+            {
+              "offset": 18,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 19,
+              "opcode": 44
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "getRemainingFireTicks",
+                "()I"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 134
+            },
+            {
+              "offset": 27,
+              "opcode": 19,
+              "constant": 20.0
+            },
+            {
+              "offset": 30,
+              "opcode": 110
+            },
+            {
+              "offset": 31,
+              "opcode": 141
+            },
+            {
+              "offset": 32,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "ceil",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 142
+            },
+            {
+              "offset": 36,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 37,
+              "opcode": 96
+            },
+            {
+              "offset": 38,
+              "opcode": 134
+            },
+            {
+              "offset": 39,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "igniteForSeconds",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$Fireballs.class",
+      "sha256": "3c6aadf1a28795ceec9657fc08e6e8b1dd73190fc92a9c12fade87eb41ecf882",
+      "methods": [
+        {
+          "name": "stop",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;)V",
+          "code_hex": "2b03b600312bb2001703b80035b800392bb2003d04b80035103cb80043b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "setAttackState",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 43
+            },
+            {
+              "offset": 6,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "STAFF_CHARGED",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 10,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "access$200",
+                "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 43
+            },
+            {
+              "offset": 17,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "ATTACK_COOLING_DOWN",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 21,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 16,
+              "constant": 60
+            },
+            {
+              "offset": 26,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "setForgettableMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;I)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "tick",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;)V",
+          "code_hex": "2ab400491014a20004b12bb6004d4d2bb600512bb60055125862b800594e033604150405a2007dbb005f592bb600612bb20065b7006b3a0519052cb4006e2db4006e631400726b2b140072b60074632bb6007814007c632cb4007e2db4007e631400726b2b140072b6008163b6008419052bb60088b9008c01001400916b1400932bb60088b9008c01001400916bb600952bb600611905b6009857840401a7ff832ab6009e10097099000d2ab6009e1014709a00132bb200a1b600a7c000ad0d12afb600b0b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$Fireballs",
+                "runningTime",
+                "I"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 6,
+              "opcode": 162,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 177
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getForward",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 77
+            },
+            {
+              "offset": 15,
+              "opcode": 43
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getXRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 43
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getYRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 18,
+              "constant": 90.0
+            },
+            {
+              "offset": 25,
+              "opcode": 98
+            },
+            {
+              "offset": 26,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "directionFromRotation",
+                "(FF)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 78
+            },
+            {
+              "offset": 30,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 31,
+              "opcode": 54,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 36,
+              "opcode": 162,
+              "operands": [
+                0,
+                125
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 187,
+              "operands": [
+                0,
+                95
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 89
+            },
+            {
+              "offset": 43,
+              "opcode": 43
+            },
+            {
+              "offset": 44,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 43
+            },
+            {
+              "offset": 48,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile$Type",
+                "PHYSICAL",
+                "Lnet/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile$Type;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/StickyFireballEntity",
+                "<init>",
+                "(Lnet/minecraft/world/level/Level;Lnet/tslat/aoa3/content/entity/base/AoARangedAttacker;Lnet/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile$Type;)V"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 44
+            },
+            {
+              "offset": 59,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "x",
+                "D"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 45
+            },
+            {
+              "offset": 63,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "x",
+                "D"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 99
+            },
+            {
+              "offset": 67,
+              "opcode": 20,
+              "constant": 0.25
+            },
+            {
+              "offset": 70,
+              "opcode": 107
+            },
+            {
+              "offset": 71,
+              "opcode": 43
+            },
+            {
+              "offset": 72,
+              "opcode": 20,
+              "constant": 0.25
+            },
+            {
+              "offset": 75,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getRandomX",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 99
+            },
+            {
+              "offset": 79,
+              "opcode": 43
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getY",
+                "()D"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 20,
+              "constant": 4.5
+            },
+            {
+              "offset": 86,
+              "opcode": 99
+            },
+            {
+              "offset": 87,
+              "opcode": 44
+            },
+            {
+              "offset": 88,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 45
+            },
+            {
+              "offset": 92,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 99
+            },
+            {
+              "offset": 96,
+              "opcode": 20,
+              "constant": 0.25
+            },
+            {
+              "offset": 99,
+              "opcode": 107
+            },
+            {
+              "offset": 100,
+              "opcode": 43
+            },
+            {
+              "offset": 101,
+              "opcode": 20,
+              "constant": 0.25
+            },
+            {
+              "offset": 104,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getRandomZ",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 99
+            },
+            {
+              "offset": 108,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/StickyFireballEntity",
+                "setPos",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 43
+            },
+            {
+              "offset": 114,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getRandom",
+                "()Lnet/minecraft/util/RandomSource;"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextGaussian",
+                "()D"
+              ]
+            },
+            {
+              "offset": 122,
+              "opcode": 20,
+              "constant": 0.15000000596046448
+            },
+            {
+              "offset": 125,
+              "opcode": 107
+            },
+            {
+              "offset": 126,
+              "opcode": 20,
+              "constant": 1.2000000476837158
+            },
+            {
+              "offset": 129,
+              "opcode": 43
+            },
+            {
+              "offset": 130,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getRandom",
+                "()Lnet/minecraft/util/RandomSource;"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/util/RandomSource",
+                "nextGaussian",
+                "()D"
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 20,
+              "constant": 0.15000000596046448
+            },
+            {
+              "offset": 141,
+              "opcode": 107
+            },
+            {
+              "offset": 142,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/StickyFireballEntity",
+                "setDeltaMovement",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 43
+            },
+            {
+              "offset": 146,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 151,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "addFreshEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 154,
+              "opcode": 87
+            },
+            {
+              "offset": 155,
+              "opcode": 132,
+              "operands": [
+                4,
+                1
+              ]
+            },
+            {
+              "offset": 158,
+              "opcode": 167,
+              "operands": [
+                255,
+                131
+              ]
+            },
+            {
+              "offset": 161,
+              "opcode": 42
+            },
+            {
+              "offset": 162,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$Fireballs",
+                "getRunningTime",
+                "()I"
+              ]
+            },
+            {
+              "offset": 165,
+              "opcode": 16,
+              "constant": 9
+            },
+            {
+              "offset": 167,
+              "opcode": 112
+            },
+            {
+              "offset": 168,
+              "opcode": 153,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 42
+            },
+            {
+              "offset": 172,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$Fireballs",
+                "getRunningTime",
+                "()I"
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 177,
+              "opcode": 112
+            },
+            {
+              "offset": 178,
+              "opcode": 154,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 181,
+              "opcode": 43
+            },
+            {
+              "offset": 182,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "FLAMETHROWER",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 185,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 188,
+              "opcode": 192,
+              "operands": [
+                0,
+                173
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 13
+            },
+            {
+              "offset": 192,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 194,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "playSound",
+                "(Lnet/minecraft/sounds/SoundEvent;FF)V"
+              ]
+            },
+            {
+              "offset": 197,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$0",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;)Ljava/lang/Integer;",
+          "code_hex": "1100c8b800c6b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 3,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$Rest.class",
+      "sha256": "e6e0e81257d29ddd4acfc007dbe1291d208707a241492cf47b8ce0e9ede6f061",
+      "methods": [
+        {
+          "name": "start",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;)V",
+          "code_hex": "2bb2002a04b8002db800332b0e0e0eb600372bb6003bb6003f2bb20044b8004ab200502bb80056b6005cb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "EXHAUSTED",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 5,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "access$500",
+                "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 43
+            },
+            {
+              "offset": 12,
+              "opcode": 14
+            },
+            {
+              "offset": 13,
+              "opcode": 14
+            },
+            {
+              "offset": 14,
+              "opcode": 14
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "setDeltaMovement",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 43
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "getNavigation",
+                "()Lnet/minecraft/world/entity/ai/navigation/PathNavigation;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/ai/navigation/PathNavigation",
+                "stop",
+                "()V"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 43
+            },
+            {
+              "offset": 26,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "PATH",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "clearMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)V"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_KING_BAMBAMBAM_EXHAUSTED",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 43
+            },
+            {
+              "offset": 36,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "following",
+                "(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "stop",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;)V",
+          "code_hex": "2bb2002a03b8002db8005f2b1064b60062b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "EXHAUSTED",
+                "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 5,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "access$600",
+                "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 43
+            },
+            {
+              "offset": 12,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "addEnergy",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$0",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity;)Ljava/lang/Integer;",
+          "code_hex": "1100c8b80074b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 3,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions.class",
+      "sha256": "c16b0bf7c5d14c14ad4fe4dc487913b7eed87ee9b7da4e7be7974a3e7f5f3e38",
+      "methods": [
+        {
+          "name": "createMagnetisedItemStack",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/Item;)V",
+          "code_hex": "2db600e03a042ab600511904b200e6b800ecbb00f2592ab600512bb400f42bb400f82bb400fb19042cb400f42cb400f82cb400fb2ab700fe3a051905b601012ab600511905b600c357b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/Item",
+                "getDefaultInstance",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 42
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/enchantment/Enchantments",
+                "VANISHING_CURSE",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EnchantmentUtil",
+                "addEnchantment",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/resources/ResourceKey;)V"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 187,
+              "operands": [
+                0,
+                242
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 89
+            },
+            {
+              "offset": 22,
+              "opcode": 42
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 43
+            },
+            {
+              "offset": 27,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "x",
+                "D"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 43
+            },
+            {
+              "offset": 31,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "y",
+                "D"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 43
+            },
+            {
+              "offset": 35,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 44
+            },
+            {
+              "offset": 41,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "x",
+                "D"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 44
+            },
+            {
+              "offset": 45,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "y",
+                "D"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 44
+            },
+            {
+              "offset": 49,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 42
+            },
+            {
+              "offset": 53,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "<init>",
+                "(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;DDDLnet/tslat/aoa3/content/entity/boss/AoABoss;)V"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "setNeverPickUp",
+                "()V"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 42
+            },
+            {
+              "offset": 64,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "addFreshEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 87
+            },
+            {
+              "offset": 73,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$doDelayedAction$2",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;)V",
+          "code_hex": "2ab4001cb401102b2c2bb20114ba01170000b8011ac0011eb901200400c0011e4e2dc600592bb801253a042bc001292ab4001cb4012bb6012f1904c6000c2db201321904b80135b201392db8013f1032b601451028b60149b6014c2bb60150b201542bb8015ab2003fb6004513015db6015e130162b60163b60049b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "variant",
+                "Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "spawnFunction",
+                "Lnet/tslat/aoa3/library/object/interfaces/TriFunction;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 44
+            },
+            {
+              "offset": 9,
+              "opcode": 43
+            },
+            {
+              "offset": 10,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "HURT_BY_ENTITY",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 186,
+              "operands": [
+                1,
+                23,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "memoryOrDefault",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/util/function/Supplier;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 192,
+              "operands": [
+                1,
+                30
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/library/object/interfaces/TriFunction",
+                "apply",
+                "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 192,
+              "operands": [
+                1,
+                30
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 78
+            },
+            {
+              "offset": 33,
+              "opcode": 45
+            },
+            {
+              "offset": 34,
+              "opcode": 198,
+              "operands": [
+                0,
+                89
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 43
+            },
+            {
+              "offset": 38,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getTargetOfEntity",
+                "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 43
+            },
+            {
+              "offset": 44,
+              "opcode": 192,
+              "operands": [
+                1,
+                41
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 42
+            },
+            {
+              "offset": 48,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "variant",
+                "Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "energyCost",
+                "I"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "consumeEnergy",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 198,
+              "operands": [
+                0,
+                12
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 45
+            },
+            {
+              "offset": 63,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "ATTACK_TARGET",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "setMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "SMALL_FLAME",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 45
+            },
+            {
+              "offset": 75,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 16,
+              "constant": 50
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 16,
+              "constant": 40
+            },
+            {
+              "offset": 85,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "lifespan",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "ignoreDistanceAndLimits",
+                "()Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 43
+            },
+            {
+              "offset": 92,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundEvents",
+                "BLAZE_SHOOT",
+                "Lnet/minecraft/sounds/SoundEvent;"
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 43
+            },
+            {
+              "offset": 99,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "following",
+                "(Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 102,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "HOSTILE",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "category",
+                "(Lnet/minecraft/sounds/SoundSource;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 108,
+              "opcode": 19,
+              "constant": 0.5
+            },
+            {
+              "offset": 111,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "pitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 19,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 117,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "varyPitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1.class",
+      "sha256": "464ff8933db89bf88fd2b419110fa7e318a296f491534ff93ab95726fab71367",
+      "methods": [
+        {
+          "name": "tick",
+          "descriptor": "()V",
+          "code_hex": "2ab7002a2ab4000dc600172ab4000db6002e99000d2ab40034112ee0a400072ab60038b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/monster/nether/LittleBamEntity",
+                "tick",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "kingBamBamBam",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 198,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "kingBamBamBam",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 153,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 17,
+              "constant": 12000
+            },
+            {
+              "offset": 28,
+              "opcode": 164,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 42
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "shouldBeSaved",
+          "descriptor": "()Z",
+          "code_hex": "03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "dropAllDeathLoot",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)V",
+          "code_hex": "033e1d06a200502ab400012ab6003b0e14003f0eb60041bb0042592ab40001b6004714004bb6004d14004b2ab40001b6004714004bb6004db700532ab40001b60047b20056b6005cc00060b80062840301a7ffb1b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 62
+            },
+            {
+              "offset": 2,
+              "opcode": 29
+            },
+            {
+              "offset": 3,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 4,
+              "opcode": 162,
+              "operands": [
+                0,
+                80
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 14
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 19,
+              "opcode": 14
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 187,
+              "operands": [
+                0,
+                66
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 89
+            },
+            {
+              "offset": 27,
+              "opcode": 42
+            },
+            {
+              "offset": 28,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 37,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 43,
+              "opcode": 42
+            },
+            {
+              "offset": 44,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 53,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "<init>",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 42
+            },
+            {
+              "offset": 60,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$1",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "LOOT_ITEMS",
+                "[Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "selection",
+                "([Ljava/lang/Object;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 192,
+              "operands": [
+                0,
+                96
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "createMagnetisedItemStack",
+                "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/Item;)V"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 132,
+              "operands": [
+                3,
+                1
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 167,
+              "operands": [
+                255,
+                177
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2.class",
+      "sha256": "32d59b735cb1f88a5551475f41596895b4cb499e92f8c91ecc4a66fb8a65007d",
+      "methods": [
+        {
+          "name": "tick",
+          "descriptor": "()V",
+          "code_hex": "2ab7002a2ab4000dc600172ab4000db6002e99000d2ab40034112ee0a400072ab60038b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/entity/monster/piglin/PiglinBrute",
+                "tick",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "kingBamBamBam",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 198,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "kingBamBamBam",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 153,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 17,
+              "constant": 12000
+            },
+            {
+              "offset": 28,
+              "opcode": 164,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 42
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "shouldBeSaved",
+          "descriptor": "()Z",
+          "code_hex": "03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "dropAllDeathLoot",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)V",
+          "code_hex": "033e1d06a200502ab400012ab6003b0e14003f0eb60041bb0042592ab40001b6004714004bb6004d1400532ab40001b6004714004bb6004db700552ab40001b60047b20058b6005ec00062b80064840301a7ffb1b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 62
+            },
+            {
+              "offset": 2,
+              "opcode": 29
+            },
+            {
+              "offset": 3,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 4,
+              "opcode": 162,
+              "operands": [
+                0,
+                80
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 14
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 19,
+              "opcode": 14
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 187,
+              "operands": [
+                0,
+                66
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 89
+            },
+            {
+              "offset": 27,
+              "opcode": 42
+            },
+            {
+              "offset": 28,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 37,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 20,
+              "constant": 0.25
+            },
+            {
+              "offset": 43,
+              "opcode": 42
+            },
+            {
+              "offset": 44,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 53,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "<init>",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 42
+            },
+            {
+              "offset": 60,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$2",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "LOOT_ITEMS",
+                "[Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "selection",
+                "([Ljava/lang/Object;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 192,
+              "operands": [
+                0,
+                98
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "createMagnetisedItemStack",
+                "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/Item;)V"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 132,
+              "operands": [
+                3,
+                1
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 167,
+              "operands": [
+                255,
+                177
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3.class",
+      "sha256": "f4ffea6e0f13ee178ae972180cc0826affc031c15f0b36cdc52d3a1fb68463f9",
+      "methods": [
+        {
+          "name": "tick",
+          "descriptor": "()V",
+          "code_hex": "2ab7002a2ab4000dc600172ab4000db6002e99000d2ab40034112ee0a400072ab60038b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/monster/nether/EmbrakeEntity",
+                "tick",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "kingBamBamBam",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 198,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "kingBamBamBam",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 153,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 17,
+              "constant": 12000
+            },
+            {
+              "offset": 28,
+              "opcode": 164,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 42
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "shouldBeSaved",
+          "descriptor": "()Z",
+          "code_hex": "03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "dropAllDeathLoot",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)V",
+          "code_hex": "033e1d06a200502ab400012ab6003b0e14003f0eb60041bb0042592ab40001b6004714004bb6004d1400532ab40001b6004714004bb6004db700552ab40001b60047b20058b6005ec00062b80064840301a7ffb1b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 62
+            },
+            {
+              "offset": 2,
+              "opcode": 29
+            },
+            {
+              "offset": 3,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 4,
+              "opcode": 162,
+              "operands": [
+                0,
+                80
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 14
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 19,
+              "opcode": 14
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 187,
+              "operands": [
+                0,
+                66
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 89
+            },
+            {
+              "offset": 27,
+              "opcode": 42
+            },
+            {
+              "offset": 28,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 20,
+              "constant": 0.30000001192092896
+            },
+            {
+              "offset": 37,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 20,
+              "constant": 0.25
+            },
+            {
+              "offset": 43,
+              "opcode": 42
+            },
+            {
+              "offset": 44,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 20,
+              "constant": 0.30000001192092896
+            },
+            {
+              "offset": 53,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "<init>",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 42
+            },
+            {
+              "offset": 60,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$3",
+                "val$entity",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "rand",
+                "()Lnet/tslat/tme/api/object/EasyRandom;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "LOOT_ITEMS",
+                "[Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/EasyRandom",
+                "selection",
+                "([Ljava/lang/Object;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 192,
+              "operands": [
+                0,
+                98
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions",
+                "createMagnetisedItemStack",
+                "(Lnet/tslat/aoa3/content/entity/boss/AoABoss;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/Item;)V"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 132,
+              "operands": [
+                3,
+                1
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 167,
+              "operands": [
+                255,
+                177
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4.class",
+      "sha256": "e870c6d8adaaa280cf639f80b8bf0dfa533994a0e92de50ac6af56b0ec9242a4",
+      "methods": [
+        {
+          "name": "tick",
+          "descriptor": "()V",
+          "code_hex": "2ab4000dc6000d2ab4000db600109a000a2ab60016a701652ab6001a2ab6001eb6002287989c000a2ab60016a7014e2ab40028103ca401452a04b5002c2a04b500302ab600330e1400370eb600394c2ab4000db6003f0e1400400eb600422bb600454d2cb600484e2cb6004b3904bb004e59b700503a062a04b600522a2d140056b60058b6005c1260380717078d1804989c00391906b2006104bd003a59032b2d17078d17078d17078db60067b6006a53b8006c0c0c0c1272b60073b60077571707127b623807a7ffc42ab4000d2ab6007c140080989c005c2ab4000d1282b600832ab4000dc00087101eb600892ab4000d128d128fb60091b200952ab4000db8009bb200a1b600a712abb600ac12b0b600b1b600b41906b200b72ab4000db800ba100ab600beb60077572ab60016a700422ab6001e2ab600c21400c61400c81400c6b600cab800d0b900d601009a0023b200952ab6001e2ab600dbb800deb200e2b600a712e5b600e6b600b42ab6001619062ab4000db600e92ab700edb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 198,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 154,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 42
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 167,
+              "operands": [
+                1,
+                101
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 42
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "getY",
+                "()D"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 42
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getMinBuildHeight",
+                "()I"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 135
+            },
+            {
+              "offset": 36,
+              "opcode": 152
+            },
+            {
+              "offset": 37,
+              "opcode": 156,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 167,
+              "operands": [
+                1,
+                78
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 42
+            },
+            {
+              "offset": 48,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 16,
+              "constant": 60
+            },
+            {
+              "offset": 53,
+              "opcode": 164,
+              "operands": [
+                1,
+                69
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 42
+            },
+            {
+              "offset": 57,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 58,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "hurtMarked",
+                "Z"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 42
+            },
+            {
+              "offset": 62,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 63,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "noPhysics",
+                "Z"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 42
+            },
+            {
+              "offset": 67,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 14
+            },
+            {
+              "offset": 71,
+              "opcode": 20,
+              "constant": 0.15000000596046448
+            },
+            {
+              "offset": 74,
+              "opcode": 14
+            },
+            {
+              "offset": 75,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 76
+            },
+            {
+              "offset": 79,
+              "opcode": 42
+            },
+            {
+              "offset": 80,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 14
+            },
+            {
+              "offset": 87,
+              "opcode": 20,
+              "constant": 0.20000000298023224
+            },
+            {
+              "offset": 90,
+              "opcode": 14
+            },
+            {
+              "offset": 91,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 43
+            },
+            {
+              "offset": 95,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 77
+            },
+            {
+              "offset": 99,
+              "opcode": 44
+            },
+            {
+              "offset": 100,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 78
+            },
+            {
+              "offset": 104,
+              "opcode": 44
+            },
+            {
+              "offset": 105,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "length",
+                "()D"
+              ]
+            },
+            {
+              "offset": 108,
+              "opcode": 57,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 187,
+              "operands": [
+                0,
+                78
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 89
+            },
+            {
+              "offset": 114,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 119,
+              "opcode": 42
+            },
+            {
+              "offset": 120,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 121,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "setNoGravity",
+                "(Z)V"
+              ]
+            },
+            {
+              "offset": 124,
+              "opcode": 42
+            },
+            {
+              "offset": 125,
+              "opcode": 45
+            },
+            {
+              "offset": 126,
+              "opcode": 20,
+              "constant": 0.07999999821186066
+            },
+            {
+              "offset": 129,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "scale",
+                "(D)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 132,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "setDeltaMovement",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 135,
+              "opcode": 18,
+              "constant": 0.25
+            },
+            {
+              "offset": 137,
+              "opcode": 56,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 23,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 141
+            },
+            {
+              "offset": 142,
+              "opcode": 24,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 152
+            },
+            {
+              "offset": 145,
+              "opcode": 156,
+              "operands": [
+                0,
+                57
+              ]
+            },
+            {
+              "offset": 148,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "ELECTRIC_SPARK",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 154,
+              "opcode": 189,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 157,
+              "opcode": 89
+            },
+            {
+              "offset": 158,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 159,
+              "opcode": 43
+            },
+            {
+              "offset": 160,
+              "opcode": 45
+            },
+            {
+              "offset": 161,
+              "opcode": 23,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 141
+            },
+            {
+              "offset": 164,
+              "opcode": 23,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 166,
+              "opcode": 141
+            },
+            {
+              "offset": 167,
+              "opcode": 23,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 169,
+              "opcode": 141
+            },
+            {
+              "offset": 170,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "multiply",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 176,
+              "opcode": 83
+            },
+            {
+              "offset": 177,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forPositions",
+                "(Lnet/minecraft/core/particles/ParticleOptions;[Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 12
+            },
+            {
+              "offset": 181,
+              "opcode": 12
+            },
+            {
+              "offset": 182,
+              "opcode": 12
+            },
+            {
+              "offset": 183,
+              "opcode": 18,
+              "constant": 0.15000000596046448
+            },
+            {
+              "offset": 185,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "colourTint",
+                "(FFFF)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 188,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 87
+            },
+            {
+              "offset": 192,
+              "opcode": 23,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 194,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 196,
+              "opcode": 98
+            },
+            {
+              "offset": 197,
+              "opcode": 56,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 167,
+              "operands": [
+                255,
+                196
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 42
+            },
+            {
+              "offset": 203,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 206,
+              "opcode": 42
+            },
+            {
+              "offset": 207,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "distanceToSqr",
+                "(Lnet/minecraft/world/entity/Entity;)D"
+              ]
+            },
+            {
+              "offset": 210,
+              "opcode": 20,
+              "constant": 3.0999999046325684
+            },
+            {
+              "offset": 213,
+              "opcode": 152
+            },
+            {
+              "offset": 214,
+              "opcode": 156,
+              "operands": [
+                0,
+                92
+              ]
+            },
+            {
+              "offset": 217,
+              "opcode": 42
+            },
+            {
+              "offset": 218,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 18,
+              "constant": 50.0
+            },
+            {
+              "offset": 223,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "heal",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 226,
+              "opcode": 42
+            },
+            {
+              "offset": 227,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 192,
+              "operands": [
+                0,
+                135
+              ]
+            },
+            {
+              "offset": 233,
+              "opcode": 16,
+              "constant": 30
+            },
+            {
+              "offset": 235,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity",
+                "addEnergy",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 238,
+              "opcode": 42
+            },
+            {
+              "offset": 239,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 242,
+              "opcode": 18,
+              "constant": "Gold Consumption"
+            },
+            {
+              "offset": 244,
+              "opcode": 18,
+              "constant": "consume"
+            },
+            {
+              "offset": 246,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "triggerAnim",
+                "(Ljava/lang/String;Ljava/lang/String;)V"
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundEvents",
+                "ARMOR_EQUIP_GOLD",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 252,
+              "opcode": 42
+            },
+            {
+              "offset": 253,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 256,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "following",
+                "(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 259,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "HOSTILE",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 262,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "category",
+                "(Lnet/minecraft/sounds/SoundSource;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 265,
+              "opcode": 18,
+              "constant": 0.30000001192092896
+            },
+            {
+              "offset": 267,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "pitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 270,
+              "opcode": 18,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 272,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "varyPitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 275,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 278,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 280,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "HEART",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 283,
+              "opcode": 42
+            },
+            {
+              "offset": 284,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 287,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 290,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 292,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 295,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 298,
+              "opcode": 87
+            },
+            {
+              "offset": 299,
+              "opcode": 42
+            },
+            {
+              "offset": 300,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 303,
+              "opcode": 167,
+              "operands": [
+                0,
+                66
+              ]
+            },
+            {
+              "offset": 306,
+              "opcode": 42
+            },
+            {
+              "offset": 307,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 310,
+              "opcode": 42
+            },
+            {
+              "offset": 311,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "getBoundingBox",
+                "()Lnet/minecraft/world/phys/AABB;"
+              ]
+            },
+            {
+              "offset": 314,
+              "opcode": 20,
+              "constant": 0.75
+            },
+            {
+              "offset": 317,
+              "opcode": 20,
+              "constant": 2.0
+            },
+            {
+              "offset": 320,
+              "opcode": 20,
+              "constant": 0.75
+            },
+            {
+              "offset": 323,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/AABB",
+                "inflate",
+                "(DDD)Lnet/minecraft/world/phys/AABB;"
+              ]
+            },
+            {
+              "offset": 326,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/EntityRetrievalUtil",
+                "getPlayers",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 329,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 334,
+              "opcode": 154,
+              "operands": [
+                0,
+                35
+              ]
+            },
+            {
+              "offset": 337,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundEvents",
+                "ARMOR_EQUIP_GOLD",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 340,
+              "opcode": 42
+            },
+            {
+              "offset": 341,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 344,
+              "opcode": 42
+            },
+            {
+              "offset": 345,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 348,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "at",
+                "(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 351,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "PLAYERS",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 354,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "category",
+                "(Lnet/minecraft/sounds/SoundSource;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 357,
+              "opcode": 18,
+              "constant": 6.0
+            },
+            {
+              "offset": 359,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "radius",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 362,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 365,
+              "opcode": 42
+            },
+            {
+              "offset": 366,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 369,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 371,
+              "opcode": 42
+            },
+            {
+              "offset": 372,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "magnetisedTo",
+                "Lnet/tslat/aoa3/content/entity/boss/AoABoss;"
+              ]
+            },
+            {
+              "offset": 375,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 378,
+              "opcode": 42
+            },
+            {
+              "offset": 379,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "tick",
+                "()V"
+              ]
+            },
+            {
+              "offset": 382,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "shouldBeSaved",
+          "descriptor": "()Z",
+          "code_hex": "03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "descriptor": "(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+          "code_hex": "2ab6001604ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "discard",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 5,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "hasPickUpDelay",
+          "descriptor": "()Z",
+          "code_hex": "2ab4002808a4000a2ab200f0b600f604ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 5,
+              "opcode": 164,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 42
+            },
+            {
+              "offset": 9,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "EMPTY",
+                "Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$4",
+                "setItem",
+                "(Lnet/minecraft/world/item/ItemStack;)V"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 16,
+              "opcode": 172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant.class",
+      "sha256": "6c84ca9e61aa003ce99b9605b7f32c3957f10921f9b6926384a0fd0f9f4d365f",
+      "methods": [
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "code_hex": "bb000159122c03b2002d1014ba00330000b70037b30003bb000159123a04b2003b101eba003e0000b70037b30007bb000159123f05b200401028ba00430000b70037b3000ab80044b3000db1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                1
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 18,
+              "constant": "LITTLE_BAM"
+            },
+            {
+              "offset": 6,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_KING_BAMBAMBAM_SUMMON_1",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 12,
+              "opcode": 186,
+              "operands": [
+                0,
+                51,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "<init>",
+                "(Ljava/lang/String;ILnet/minecraft/core/Holder;ILnet/tslat/aoa3/library/object/interfaces/TriFunction;)V"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "LITTLE_BAM",
+                "Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 187,
+              "operands": [
+                0,
+                1
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 89
+            },
+            {
+              "offset": 27,
+              "opcode": 18,
+              "constant": "PIGLIN_BRUTE"
+            },
+            {
+              "offset": 29,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 30,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_KING_BAMBAMBAM_SUMMON_2",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 16,
+              "constant": 30
+            },
+            {
+              "offset": 35,
+              "opcode": 186,
+              "operands": [
+                0,
+                62,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "<init>",
+                "(Ljava/lang/String;ILnet/minecraft/core/Holder;ILnet/tslat/aoa3/library/object/interfaces/TriFunction;)V"
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "PIGLIN_BRUTE",
+                "Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 187,
+              "operands": [
+                0,
+                1
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 89
+            },
+            {
+              "offset": 50,
+              "opcode": 18,
+              "constant": "EMBRAKE"
+            },
+            {
+              "offset": 52,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 53,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ENTITY_KING_BAMBAMBAM_SUMMON_3",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 16,
+              "constant": 40
+            },
+            {
+              "offset": 58,
+              "opcode": 186,
+              "operands": [
+                0,
+                67,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "<init>",
+                "(Ljava/lang/String;ILnet/minecraft/core/Holder;ILnet/tslat/aoa3/library/object/interfaces/TriFunction;)V"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "EMBRAKE",
+                "Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "$values",
+                "()[Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant",
+                "$VALUES",
+                "[Lnet/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity$SummonMinions$Variant;"
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "class": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity.class",
+    "class_sha256": "866742206e35b9caa6a7c23f1205460f4417f5138a7eaedd4acd11b584c33492",
+    "method": "entityStats",
+    "descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;",
+    "source": "source/content/entity/boss/king_bambambam/KingBamBamBamEntity.java",
+    "calls": [
+      {
+        "method": "createMonster",
+        "args": [
+          "entity_type"
+        ]
+      },
+      {
+        "method": "health",
+        "args": [
+          740.0
+        ]
+      },
+      {
+        "method": "moveSpeed",
+        "args": [
+          0.2874999940395355
+        ]
+      },
+      {
+        "method": "projectileDamage",
+        "args": [
+          12.0
+        ]
+      },
+      {
+        "method": "knockbackResist",
+        "args": [
+          1.0
+        ]
+      },
+      {
+        "method": "followRange",
+        "args": [
+          128.0
+        ]
+      },
+      {
+        "method": "aggroRange",
+        "args": [
+          128.0
+        ]
+      },
+      {
+        "method": "armour",
+        "args": [
+          10.0,
+          30.0
+        ]
+      }
+    ],
+    "status": "exact linear artifact builder calls"
+  },
+  "gold_interception_cases": [
+    {
+      "inputs": [
+        true,
+        10,
+        0,
+        60,
+        1,
+        true
+      ],
+      "result": "grace period"
+    },
+    {
+      "inputs": [
+        true,
+        10,
+        0,
+        61,
+        1,
+        true
+      ],
+      "result": "heal boss and add energy"
+    },
+    {
+      "inputs": [
+        true,
+        10,
+        0,
+        61,
+        4,
+        true
+      ],
+      "result": "player intercept discards item"
+    },
+    {
+      "inputs": [
+        true,
+        10,
+        0,
+        61,
+        4,
+        false
+      ],
+      "result": "travel toward boss"
+    },
+    {
+      "inputs": [
+        false,
+        10,
+        0,
+        61,
+        1,
+        false
+      ],
+      "result": "discard"
+    },
+    {
+      "inputs": [
+        true,
+        -1,
+        0,
+        61,
+        1,
+        false
+      ],
+      "result": "discard"
+    },
+    {
+      "inputs": [
+        true,
+        10,
+        0,
+        61,
+        3.1,
+        false
+      ],
+      "result": "travel toward boss"
+    }
+  ],
+  "summons": [
+    {
+      "id": "aoa3:little_bam",
+      "energy_cost": 20
+    },
+    {
+      "id": "minecraft:piglin_brute",
+      "energy_cost": 30
+    },
+    {
+      "id": "aoa3:embrake",
+      "energy_cost": 40
+    }
+  ],
+  "gold_summary": {
+    "items_per_minion": 3,
+    "homing_after_tick": 60,
+    "boss_distance_squared_lt": 3.1,
+    "heal_per_item": 50,
+    "energy_per_item": 30,
+    "player_intercept_box_inflation": [
+      0.75,
+      2,
+      0.75
+    ],
+    "boss_reach_checked_before_player": true,
+    "ordinary_inventory_pickup": false
+  },
+  "limits": [
+    "Exact wall-clock durations depend on scheduler/TPS and require runtime verification",
+    "Gold interception is a proximity discard, not a collectible reward",
+    "Minion special death-loot overrides must not be replaced by ordinary natural-spawn loot claims",
+    "Elite encounter is separate; no behavior parity assumed"
+  ]
+}
