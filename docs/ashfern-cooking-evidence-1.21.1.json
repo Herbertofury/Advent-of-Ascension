@@ -1,0 +1,734 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "25 explicit AoA smelting recipes whose input uses a direct source food registration; released class/member checks. This is a bounded vanilla-pack candidate list, not a complete modded recipe census or live crafting test.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "source_files": {
+    "content/recipe/AshfernCookingRecipe.java": "72b712dec9db76df6b5d3fe38e67e0c8271c0058babf3337542073ed544a780e",
+    "content/block/functional/plant/AshfernCropBlock.java": "779920fa99edfbc87c31a26025e94e2e3e48bdb19d48ad855246e31e66f410e2",
+    "common/registration/item/AoAItems.java": "92983531b7edda61501ceb2058409e026e062efa49e0a203909866dff62463b4",
+    "common/registration/item/AoAFood.java": "dcf933661eb67f183623461cc2bdeccbb50381e95c3d31326f0c25a34dfd019a"
+  },
+  "registration_class_sha256": "0dd8b3bfb612eff24b1b2b41cf204086ad3296f9d450a942cda1a18988698d68",
+  "custom_recipe": {
+    "path": "data/aoa3/recipe/ashfern_cooking.json",
+    "sha256": "75142dcc177599607043e7132775d732475014fdac49a7d404db3c1c946b82cf",
+    "data": {
+      "type": "aoa3:ashfern_cooking"
+    }
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/recipe/AshfernCookingRecipe.class",
+      "sha256": "ac51cd639380b9435d9d04e2f135f75651158eaa79bd20c760278d6b266de3ae",
+      "methods": [
+        {
+          "name": "canCraftInDimensions",
+          "descriptor": "(II)Z",
+          "code_hex": "1b1c6805a1000704a7000403ac"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2bb6002d059f000503ac033e0336042bb60033b9003701003a051905b9003d010099008a1905b900430100c000463a061906b60048990006a7ffe21906b2004bb60051c00054b6005699000e1d99000503ac043ea7ffc615049a000c190601b6005ac7000503ac2cb6005eb20064bb006a591906b7006c2cb6006f3a071907b600759900241907b6007ac0007bb6007dc000812cb60083b60087b600489a0009043604a7000503aca7ff721d99000c150499000704a7000403ac"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "b8008bb20091b600974e2dc70007b2009db0033604b2009d3a0503360615062bb600a1a200752b1506b600a43a071907b60048990006a7005c1907b2004bb60051c00054b600569900110436041905b600489a0040a700432db6005eb20064bb006a591907b7006c2db6006f3a081908b600759900171908b6007ac0007bb6007dc000812cb600873a051504990006a70009840601a7ff8815049a0007b2009db01905b600a83a051905b0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc0002e2cb600acb0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc0002e2cb600b0ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/functional/plant/AshfernCropBlock.class",
+      "sha256": "cdb69f42bab2b1302aa4c0ab59663eba5b9dc3e76558e60776b65d88147a9ca8",
+      "methods": [
+        {
+          "name": "mayPlaceOn",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z",
+          "code_hex": "2bb20007b6000dac"
+        },
+        {
+          "name": "canSurvive",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z",
+          "code_hex": "2cc100139900122c2db900150200b6001b9a001e03ac2c2d03b9001f03001008a2000f2c2db9002302009a000503ac2c2db60027b900150200b20007b6000dac"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_charger_shank.json",
+      "sha256": "6a7fa24e2a9476ffba8b8e91927dcfc48a210ba6c479aeac23d9e3bdb23b2b81",
+      "input": "aoa3:raw_charger_shank",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_charger_shank"
+      },
+      "food_field": "RAW_CHARGER_SHANK",
+      "registration_lambda": [
+        "lambda$static$139"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:raw_charger_shank"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_charger_shank"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_blue_gemtrap.json",
+      "sha256": "91f6fc7e467a05d5f419090f7652ac80c90c534b11ddce6de245be52d46ba250",
+      "input": "aoa3:blue_gemtrap",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "BLUE_GEMTRAP",
+      "registration_lambda": [
+        "lambda$static$111"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:blue_gemtrap"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_candlefish.json",
+      "sha256": "6edea50be1430602f0cb03f8e29a94183936992a267e47f44548c0ded8f32246",
+      "input": "aoa3:candlefish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "CANDLEFISH",
+      "registration_lambda": [
+        "lambda$static$112"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:candlefish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_charred_char.json",
+      "sha256": "4ca4292cccb5b458c2afe885f3de97b32fa35c4eeabb1f432966fb9292fbc76b",
+      "input": "aoa3:charred_char",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "CHARRED_CHAR",
+      "registration_lambda": [
+        "lambda$static$113"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:charred_char"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_crimson_skipper.json",
+      "sha256": "f0726868f83949757bdb274949863c145288ba446f36adb11f4f42ad60827b34",
+      "input": "aoa3:crimson_skipper",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "CRIMSON_SKIPPER",
+      "registration_lambda": [
+        "lambda$static$115"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:crimson_skipper"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_crimson_stripefish.json",
+      "sha256": "c15d5257282ae530c7fc3e541dbce6ab10420e1c7fa709e8197bc3772d5e2364",
+      "input": "aoa3:crimson_stripefish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "CRIMSON_STRIPEFISH",
+      "registration_lambda": [
+        "lambda$static$116"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:crimson_stripefish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_dark_hatchetfish.json",
+      "sha256": "f016e5e1a64b75eb1c024682f5ce463f496025deca4baf1581d224594c773037",
+      "input": "aoa3:dark_hatchetfish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "DARK_HATCHETFISH",
+      "registration_lambda": [
+        "lambda$static$117"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:dark_hatchetfish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_green_gemtrap.json",
+      "sha256": "617c99fb9a51fe35bd467698d34bac3bc239cf816253758922041bf8f4c57e5d",
+      "input": "aoa3:green_gemtrap",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "GREEN_GEMTRAP",
+      "registration_lambda": [
+        "lambda$static$118"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:green_gemtrap"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_ironback.json",
+      "sha256": "9c3510c390aec77d9e0b81779d6cb86ce8603b6797362156e36331cb0dfc49b3",
+      "input": "aoa3:ironback",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "IRONBACK",
+      "registration_lambda": [
+        "lambda$static$119"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:ironback"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_pearl_stripefish.json",
+      "sha256": "03a4b15b5ff0bf2990aeaf9d37b2ffae20ced346ae8e42c6aaddcf7cb35b5c4d",
+      "input": "aoa3:pearl_stripefish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "PEARL_STRIPEFISH",
+      "registration_lambda": [
+        "lambda$static$122"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:pearl_stripefish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_purple_gemtrap.json",
+      "sha256": "5b27aa2f7c55b287a7a4cf3599d2f71715edcee2684acd268a237d278eb04e77",
+      "input": "aoa3:purple_gemtrap",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "PURPLE_GEMTRAP",
+      "registration_lambda": [
+        "lambda$static$123"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:purple_gemtrap"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_razorfish.json",
+      "sha256": "d9a3723f1d012cb90b0dad229b5e7fe4289adc3fcdf9186dc579333f98a4290e",
+      "input": "aoa3:razorfish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "RAZORFISH",
+      "registration_lambda": [
+        "lambda$static$124"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:razorfish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_red_gemtrap.json",
+      "sha256": "1eefdb6848dcdeb4dc118d66f2d620a3f8cc42b48f2466994ab0494ed310f2a7",
+      "input": "aoa3:red_gemtrap",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "RED_GEMTRAP",
+      "registration_lambda": [
+        "lambda$static$125"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:red_gemtrap"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_reeftooth.json",
+      "sha256": "d67c5961daf4a86ac84df1b727997c8f7275a7d17295ce4983c9377e87376f25",
+      "input": "aoa3:reeftooth",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "REEFTOOTH",
+      "registration_lambda": [
+        "lambda$static$126"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:reeftooth"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_rocketfish.json",
+      "sha256": "3a82ceeef0b044d1aef5c9e16eb9e0be52be472e676ddd5cf4ac9fd1c1f4654f",
+      "input": "aoa3:rocketfish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "ROCKETFISH",
+      "registration_lambda": [
+        "lambda$static$127"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:rocketfish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_sailback.json",
+      "sha256": "5f21da4c505d86de5c1fe1fbb8d15acf3f934585773a56f6715d60ca3f357c55",
+      "input": "aoa3:sailback",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "SAILBACK",
+      "registration_lambda": [
+        "lambda$static$128"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:sailback"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_sapphire_strider.json",
+      "sha256": "039d86e8185459d7b1ec7773064dee54827d559f15288810a9a5d4c6b21d920a",
+      "input": "aoa3:sapphire_strider",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "SAPPHIRE_STRIDER",
+      "registration_lambda": [
+        "lambda$static$129"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:sapphire_strider"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_turquoise_stripefish.json",
+      "sha256": "56e099a12041bef4d18bfd0fa6364aba7a6ae2f22550cb0025173273132db599",
+      "input": "aoa3:turquoise_stripefish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "TURQUOISE_STRIPEFISH",
+      "registration_lambda": [
+        "lambda$static$133"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:turquoise_stripefish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_violet_skipper.json",
+      "sha256": "3b65f58dc907b69be80f4d55b92dba3ed1f5610a0d05e750fdf41b6f0e5e3f47",
+      "input": "aoa3:violet_skipper",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "VIOLET_SKIPPER",
+      "registration_lambda": [
+        "lambda$static$134"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:violet_skipper"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_white_gemtrap.json",
+      "sha256": "1d58f02b6f2c5d829053da8d11f0084e4b7b96bc7cc237cf0c7eb449fd4b3d0d",
+      "input": "aoa3:white_gemtrap",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "WHITE_GEMTRAP",
+      "registration_lambda": [
+        "lambda$static$131"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:white_gemtrap"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_fish_from_yellow_gemtrap.json",
+      "sha256": "f911a138cc4b020dddbdb75854aa8fe8ef9eec268956f588ae091cc6ae918891",
+      "input": "aoa3:yellow_gemtrap",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_fish"
+      },
+      "food_field": "YELLOW_GEMTRAP",
+      "registration_lambda": [
+        "lambda$static$132"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:yellow_gemtrap"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_fish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_giant_lizard_meat.json",
+      "sha256": "60c93013809e80db5bebfabb882ea2a71dca3cc16763a913a77271168a402221",
+      "input": "aoa3:raw_giant_lizard_meat",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_giant_lizard_meat"
+      },
+      "food_field": "RAW_GIANT_LIZARD_MEAT",
+      "registration_lambda": [
+        "lambda$static$143"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:raw_giant_lizard_meat"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_giant_lizard_meat"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_halycon_beef.json",
+      "sha256": "f9f995c55d996acf74950d4be80d4c452484f32a0e9eba89d1223d6314184dd0",
+      "input": "aoa3:raw_halycon_beef",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_halycon_beef"
+      },
+      "food_field": "RAW_HALYCON_BEEF",
+      "registration_lambda": [
+        "lambda$static$141"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:raw_halycon_beef"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_halycon_beef"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_cooked_rainbowfish.json",
+      "sha256": "9645577c02cecd657c3f1cd24e99025388b249e4dac5f30f40773fc1d6ec6837",
+      "input": "aoa3:raw_rainbowfish",
+      "output": {
+        "count": 1,
+        "id": "aoa3:cooked_rainbowfish"
+      },
+      "food_field": "RAW_RAINBOWFISH",
+      "registration_lambda": [
+        "lambda$static$135"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "food",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:raw_rainbowfish"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:cooked_rainbowfish"
+        }
+      }
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/smelting_hardened_parapiranha.json",
+      "sha256": "53f34ef604bc64da65ef03cda25ceff1d8054b160f3a37d1d5d3c902726d313f",
+      "input": "aoa3:parapiranha",
+      "output": {
+        "count": 1,
+        "id": "aoa3:hardened_parapiranha"
+      },
+      "food_field": "PARAPIRANHA",
+      "registration_lambda": [
+        "lambda$static$121"
+      ],
+      "recipe": {
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "cookingtime": 200,
+        "experience": 3.0,
+        "ingredient": {
+          "item": "aoa3:parapiranha"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:hardened_parapiranha"
+        }
+      }
+    }
+  ],
+  "negative_examples": [
+    "Hydrone is registered as miscItem despite a smelting recipe producing iron",
+    "Two ferns without a food input",
+    "Food without a matching nonempty smelting result",
+    "Extra occupied ingredient slot"
+  ],
+  "limits": [
+    "Recipe matching requires exactly two occupied ingredient entries, not exactly two total items",
+    "Output food properties are not required; Parapiranha produces Hardened Parapiranha",
+    "Assembly looks up the server Overworld; source-only client availability or custom dimension semantics not certified",
+    "Furnace/smoker XP and timer fields do not imply crafting grants that XP or waits that long",
+    "Tags, datapack overrides, custom food subclasses and other mods can change or extend valid pairs"
+  ]
+}
