@@ -30,7 +30,7 @@ Do not put an Ambient Energy Stone into an enchanting recipe requiring an Ambien
 
 ## 2. Prepare the required stones and foci
 
-Follow the [illustrated Pixon finding and harvesting guide](Finding-and-Harvesting-Pixons-1.21.1) for the bowl recipe, world pools, timing restrictions and stone rewards.
+Follow the [illustrated Pixon finding and harvesting guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-and-Harvesting-Pixons-1.21.1) for the bowl recipe, world pools, timing restrictions and stone rewards.
 
 Pixons are a source route for these materials. In the pinned implementation, a nearby player **actively using an Attuning Bowl** can receive the Pixon variant's loot. Simply owning a bowl is not the same as using it. The harvest is probabilistic, so do not expect a stone on every tick.
 
