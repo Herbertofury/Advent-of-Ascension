@@ -2,6 +2,8 @@
 
 **Minecraft 1.21.1 / AoA 3.7.16.1.** This handbook catalogs **45 base offer definitions**: seven fixed AoA trader offers, 22 dimension-conditional Herald offers and 16 additions to villager profession pools. It is not a promise that one trader offers all of them, that every retained dimension is playable, or that final displayed prices match the base input.
 
+[Open the searchable Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1) · [Historical 1.16.5 traders](Trading-and-Traders-1.16.5)
+
 ## Before you spend your coins
 
 - **Base prices can change.** Reputation, demand and other runtime/modpack changes are not evaluated here. Inspect the price in the actual trade screen.
