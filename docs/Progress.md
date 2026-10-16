@@ -36,6 +36,19 @@ The recipe explorer covers **6,781 definitions**: 1,172 on 1.12.2; 2,296 on 1.16
 
 
 
+<!-- practical-coverage-start -->
+### Practical walkthrough and navigation coverage
+
+The [visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) now contains **38 version-scoped illustrated walkthroughs**. Recent routes cover rune stations, Ashfern cooking, Tea Sink brewing, Infused Press operation, all 36 shipped weapon-upgrade definitions and original-trophy elite progression. Acquisition gaps, component behavior and static-analysis limits are stated beside the instructions.
+
+- **249** exact-release item/block cards and **387** recipe cards have contextual how-to links. Eight modern boss cards link directly to the trophy progression guide.
+- Item and recipe result links preserve selected releases and filters; unsupported releases are not silently substituted in those two browsers. Selected-release caching and lazy pictures remain in place.
+- **48 passing local documentation/source/UI checks** cover the current build, including a public-metadata snapshot helper that shares one retrieval across audits and respects API cooldowns. These are not Minecraft gameplay tests.
+- The guide indexes were compacted without dropping their measured coverage; subsequent additions retain full regression checks. [Recipe-index measurement](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/recipe-guide-compaction-proof.json) · [Current test receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/documentation-regression-suite.json).
+
+Remaining work includes authentic 1.7.10 visual coverage, the explicit 1.20.1 runtime-renderer gaps, unresolved acquisition routes and exact-build acceptance for the recorded source findings. Static previews and tutorial coverage do not mark those game implementation tasks complete. [Visual limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage) · [Source findings and repair targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Findings-and-Fixes).
+<!-- practical-coverage-end -->
+
 ## Verified by this documentation pass
 
 - [x] Existing destination repository identified and preserved.
