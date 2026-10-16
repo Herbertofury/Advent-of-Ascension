@@ -35,7 +35,7 @@ Item names link to other indexed loot references for that item, and item entries
 
 | Ore-block reference | Raw-material reference |
 |---|---|
-| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-limonite_ore.webp" width="112" height="112" alt="Limonite Ore"> | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/loot-guide-icon-1.21.1-aoa3-raw_limonite.webp" width="96" height="96" alt="Raw Limonite"> |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/loot-guide-icon-1.21.1-aoa3-limonite_ore.webp" width="112" height="112" alt="Limonite Ore"> | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/loot-guide-icon-1.21.1-aoa3-raw_limonite.webp" width="96" height="96" alt="Raw Limonite"> |
 
 The inspected resource uses an **alternatives** entry. One child is the ore block, gated by a tool predicate requiring Silk Touch level at least one. The other is Raw Limonite, with Fortune’s ore-drop operation and explosion decay. Do not read the two children as a guaranteed pair of outputs.
 
