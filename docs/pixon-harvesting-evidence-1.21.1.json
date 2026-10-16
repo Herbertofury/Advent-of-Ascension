@@ -1,0 +1,897 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Six released custom-spawner definitions, eight loot tables, bowl recipe, selected class checks and source interpretation. Tick conversions assume20TPS; no live spawn test, encounter guarantee or private Enderloom certification.",
+  "spawners": [
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/t0_pixons.json",
+      "sha256": "21a34e90cbb4d1d84e5affb46fbf769984f4230f06f0ed19abfb5d7c67f90243",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 6000,
+            "min_inclusive": 3000
+          },
+          "in_dimensions": [
+            "minecraft:overworld"
+          ],
+          "not_in_biomes": "#c:is_dead",
+          "spawn_attempts_per_player": {
+            "type": "minecraft:biased_to_bottom",
+            "max_inclusive": 3,
+            "min_inclusive": 1
+          },
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:pixons",
+        "variants": [
+          {
+            "data": "aoa3:ambient",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:glistening",
+            "weight": 25
+          },
+          {
+            "data": "aoa3:blooming",
+            "weight": 20
+          },
+          {
+            "data": "aoa3:shining",
+            "weight": 15
+          },
+          {
+            "data": "aoa3:gleaming",
+            "weight": 10
+          },
+          {
+            "data": "aoa3:glowing",
+            "weight": 5
+          },
+          {
+            "data": "aoa3:glaring",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/t1_pixons.json",
+      "sha256": "6ffe6d273751b399b5eb76f4055b6bfdb4162d7d3ecf2f5617b9f9addb2d6b37",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 6000,
+            "min_inclusive": 3000
+          },
+          "in_dimensions": [
+            "aoa3:barathos",
+            "aoa3:lelyetia",
+            "minecraft:the_nether",
+            "aoa3:creeponia"
+          ],
+          "not_in_biomes": "#c:is_dead",
+          "spawn_attempts_per_player": {
+            "type": "minecraft:biased_to_bottom",
+            "max_inclusive": 3,
+            "min_inclusive": 1
+          },
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:pixons",
+        "variants": [
+          {
+            "data": "aoa3:ambient",
+            "weight": 10
+          },
+          {
+            "data": "aoa3:glistening",
+            "weight": 40
+          },
+          {
+            "data": "aoa3:blooming",
+            "weight": 35
+          },
+          {
+            "data": "aoa3:shining",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:gleaming",
+            "weight": 25
+          },
+          {
+            "data": "aoa3:glowing",
+            "weight": 20
+          },
+          {
+            "data": "aoa3:glaring",
+            "weight": 15
+          },
+          {
+            "data": "aoa3:radiant",
+            "weight": 10
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/t1_pixons_precasia.json",
+      "sha256": "fa9b5c2830d4e063b348f2840a16e4b86c3ef3d87003bcb2852de49526145c18",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 4000,
+            "min_inclusive": 2000
+          },
+          "in_dimensions": [
+            "aoa3:precasia"
+          ],
+          "not_in_biomes": "#c:is_dead",
+          "spawn_attempts_per_player": {
+            "type": "minecraft:biased_to_bottom",
+            "max_inclusive": 3,
+            "min_inclusive": 1
+          },
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 27000,
+            "min_inclusive": 9000
+          }
+        },
+        "spawner": "aoa3:pixons",
+        "variants": [
+          {
+            "data": "aoa3:ambient",
+            "weight": 10
+          },
+          {
+            "data": "aoa3:glistening",
+            "weight": 40
+          },
+          {
+            "data": "aoa3:blooming",
+            "weight": 35
+          },
+          {
+            "data": "aoa3:shining",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:gleaming",
+            "weight": 25
+          },
+          {
+            "data": "aoa3:glowing",
+            "weight": 20
+          },
+          {
+            "data": "aoa3:glaring",
+            "weight": 15
+          },
+          {
+            "data": "aoa3:radiant",
+            "weight": 10
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/t2_pixons.json",
+      "sha256": "e822a227a6627272cc672002c4e46627a4c66399b4227985a3198ad693abb70d",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 6000,
+            "min_inclusive": 3000
+          },
+          "in_dimensions": [
+            "aoa3:abyss",
+            "aoa3:mysterium",
+            "aoa3:candyland",
+            "aoa3:iromine",
+            "aoa3:haven",
+            "aoa3:celeve",
+            "aoa3:crystevia",
+            "aoa3:gardencia"
+          ],
+          "not_in_biomes": "#c:is_dead",
+          "spawn_attempts_per_player": {
+            "type": "minecraft:biased_to_bottom",
+            "max_inclusive": 3,
+            "min_inclusive": 1
+          },
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:pixons",
+        "variants": [
+          {
+            "data": "aoa3:glistening",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:blooming",
+            "weight": 40
+          },
+          {
+            "data": "aoa3:shining",
+            "weight": 35
+          },
+          {
+            "data": "aoa3:gleaming",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:glowing",
+            "weight": 25
+          },
+          {
+            "data": "aoa3:glaring",
+            "weight": 20
+          },
+          {
+            "data": "aoa3:radiant",
+            "weight": 15
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/t3_pixons.json",
+      "sha256": "0df70eb8621bc08194e158d58bd2dd26e39308b8502148ebe12d6cbe459beda4",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 6000,
+            "min_inclusive": 3000
+          },
+          "in_dimensions": [
+            "aoa3:dustopia",
+            "aoa3:lborean",
+            "aoa3:runandor",
+            "aoa3:greckon"
+          ],
+          "not_in_biomes": "#c:is_dead",
+          "spawn_attempts_per_player": {
+            "type": "minecraft:biased_to_bottom",
+            "max_inclusive": 3,
+            "min_inclusive": 1
+          },
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:pixons",
+        "variants": [
+          {
+            "data": "aoa3:glistening",
+            "weight": 10
+          },
+          {
+            "data": "aoa3:blooming",
+            "weight": 20
+          },
+          {
+            "data": "aoa3:shining",
+            "weight": 35
+          },
+          {
+            "data": "aoa3:gleaming",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:glowing",
+            "weight": 25
+          },
+          {
+            "data": "aoa3:glaring",
+            "weight": 20
+          },
+          {
+            "data": "aoa3:radiant",
+            "weight": 15
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/t4_pixons.json",
+      "sha256": "21cdd109ef1596c90a6d7ce41ecb29631c8eb0059a52b0ca2f2394f6b5a2f090",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 6000,
+            "min_inclusive": 3000
+          },
+          "in_dimensions": [
+            "aoa3:shyrelands"
+          ],
+          "not_in_biomes": "#c:is_dead",
+          "spawn_attempts_per_player": {
+            "type": "minecraft:biased_to_bottom",
+            "max_inclusive": 3,
+            "min_inclusive": 1
+          },
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:pixons",
+        "variants": [
+          {
+            "data": "aoa3:blooming",
+            "weight": 10
+          },
+          {
+            "data": "aoa3:shining",
+            "weight": 40
+          },
+          {
+            "data": "aoa3:gleaming",
+            "weight": 35
+          },
+          {
+            "data": "aoa3:glowing",
+            "weight": 30
+          },
+          {
+            "data": "aoa3:glaring",
+            "weight": 25
+          },
+          {
+            "data": "aoa3:radiant",
+            "weight": 20
+          }
+        ]
+      }
+    }
+  ],
+  "loot_tables": [
+    {
+      "variant": "ambient",
+      "path": "data/aoa3/loot_table/entities/ambient_pixon.json",
+      "sha256": "31e8d1a67e87ff4766e62227571b8f39db488a0b0c8615eb7c6f273011564a6d",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 10.0
+                  }
+                ],
+                "name": "aoa3:ambient_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 20.0
+                  }
+                ],
+                "name": "aoa3:ambient_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "glistening",
+      "path": "data/aoa3/loot_table/entities/glistening_pixon.json",
+      "sha256": "00edbf91607ffb5b56bd9b813f6f113b8228a437fbd5b8255e5e1ec22cf61a00",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 20.0
+                  }
+                ],
+                "name": "aoa3:glistening_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 40.0
+                  }
+                ],
+                "name": "aoa3:glistening_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "blooming",
+      "path": "data/aoa3/loot_table/entities/blooming_pixon.json",
+      "sha256": "c6cd2a4f5db0f74d9600ac21839fccb2da790b1f36cf721acc2cd0c29f1b1e31",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 30.0
+                  }
+                ],
+                "name": "aoa3:blooming_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 60.0
+                  }
+                ],
+                "name": "aoa3:blooming_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "shining",
+      "path": "data/aoa3/loot_table/entities/shining_pixon.json",
+      "sha256": "753f22cd3f5243a51d1e2b02b0f962d9cdddac7073088e0e52f693fc9c4d6140",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 40.0
+                  }
+                ],
+                "name": "aoa3:shining_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 80.0
+                  }
+                ],
+                "name": "aoa3:shining_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "gleaming",
+      "path": "data/aoa3/loot_table/entities/gleaming_pixon.json",
+      "sha256": "44648bdcac07edd5e1a757c8ec1147430bf73ba58dce608a73f155fe9c617d59",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 45.0
+                  }
+                ],
+                "name": "aoa3:gleaming_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 90.0
+                  }
+                ],
+                "name": "aoa3:gleaming_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "glowing",
+      "path": "data/aoa3/loot_table/entities/glowing_pixon.json",
+      "sha256": "9edd7d6554b0a9722d3c49585790985300f9df8bb021679c7b59928d797451f4",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 55.0
+                  }
+                ],
+                "name": "aoa3:glowing_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 110.0
+                  }
+                ],
+                "name": "aoa3:glowing_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "glaring",
+      "path": "data/aoa3/loot_table/entities/glaring_pixon.json",
+      "sha256": "211ae6b7186a5fbaa8a4f9909c7e211ac49451f7e5a34f07af43c63a6b63e25e",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 65.0
+                  }
+                ],
+                "name": "aoa3:glaring_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 130.0
+                  }
+                ],
+                "name": "aoa3:glaring_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "variant": "radiant",
+      "path": "data/aoa3/loot_table/entities/radiant_pixon.json",
+      "sha256": "efa5a9d13b22f4ecdf2489b3a8651dc135a7bd88730e81a1c6e4d94a5f48d4af",
+      "definition": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 75.0
+                  }
+                ],
+                "name": "aoa3:radiant_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 150.0
+                  }
+                ],
+                "name": "aoa3:radiant_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "bowl_recipe": {
+    "path": "data/aoa3/recipe/crafting_shaped_attuning_bowl.json",
+    "sha256": "dd8a672459e1e734b8902f1b7d9d86cd394fb79cf507ede6ab2bb2116565301b",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:gems/amethyst"
+        },
+        "G": {
+          "tag": "c:ingots/gold"
+        }
+      },
+      "pattern": [
+        "A A",
+        "AGA",
+        "AAA"
+      ],
+      "result": {
+        "count": 1,
+        "id": "aoa3:attuning_bowl"
+      }
+    }
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/world/spawner/PixonSpawner.class",
+      "sha256": "0c8607692d9649efd219bcdf10cf94b6ef2114de16dbc2c4c377c48c1f99c777",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/tslat/aoa3/content/world/spawner/AoACustomSpawner$GenericSettings;Lnet/minecraft/util/random/SimpleWeightedRandomList;)V",
+          "code_hex": "2ab700012a140007b500092a2bb5000f2a2cb50013b1"
+        },
+        {
+          "name": "shouldAddToDimension",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;)Z",
+          "code_hex": "2bb6001799000f2ab4000fb6001d9a000503ac2bb600224d2cb60026b6002c1232b600349a000f2cb60026b8003a9a000503ac2ab4000fb60040b600449a00182ab4000fb60040b60049c0004db9004f01009900272ab4000fb60050b600449a00182ab4000fb60050b60049c0004db9004f010099000504ac2ab4000fb600402cba00530000b6005704b8005bb60061c0005cb600659900272ab4000fb600502cba00680000b6005704b8005bb60061c0005cb6006599000704a7000403ac"
+        },
+        {
+          "name": "tick",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;ZZ)I",
+          "code_hex": "2ab400092bb60077949d00141d9900102bb6007bb2007fb600859a000503ac2bb600893a042a2bb600772ab4000fb6008d1904b600918561b500092a2b1904b60097ac"
+        },
+        {
+          "name": "doSpawning",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;)I",
+          "code_hex": "033e2bba009b0000b6009fb900a301003a041904b900a9010099013f1904b900ae0100c000b13a052bb60089b900b301002ab4000fb600b9959b0006a7ffd62a2b2c1905b600bc10281100802ab4000fb600c02cb600911905b200c3b600c98e60ba00cd0000b600d0b900a301003a061906b900a901009900de1906b900ae0100c000d43a072ab4000fb600d6b600d99900532ab4000fb600d6b60049c000dc3a081908b600de2bb200e21907b900e80100c000ebb600edb800f1b600f699ffb21908b600fc2bb200ff1907b900e80100c000ebb600edb800f1b600f69a0006a7ff901907b901020100c001052b011907b900e80100c000ebb201070303b6010dc001113a081908c70006a7ff6519082b2b1908b60113b601142ab400132cb60118ba011d0000b6005701b60061c00120b601222b1908b601262a59b400092ab4000fb6012a2cb600918561b50009840301a7ff1ea7febd1dac"
+        },
+        {
+          "name": "canSpawnInside",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)Z",
+          "code_hex": "2b2a2cb6017199000503ac2bb601759a000e2a2cb60178b6017c9a000503ac2bb2017fb6018599000503ac04ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/misc/PixonEntity.class",
+      "sha256": "b45a75dc33335254460087706f4a3f31ba914ce4daa6e34470ccf1415e83174d",
+      "methods": [
+        {
+          "name": "finalizeSpawn",
+          "descriptor": "(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/tslat/aoa3/common/registration/entity/variant/PixonVariant;)V",
+          "code_hex": "2ab60064b200392dc600072da700172bb9007101002c2a2aba00770000b8007ab80080b600842ab60064b200290c2ab40088b9008c01002ab40088b9008c01006a12916ab80092b8002db60084b1"
+        },
+        {
+          "name": "canSurviveAt",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Z",
+          "code_hex": "2bb800984d2a2cb6009eb600a2b600a89900142a2cb600a22a2cb600ae9a000704a7000403ac"
+        },
+        {
+          "name": "tick",
+          "descriptor": "()V",
+          "code_hex": "2ab700b22ab600b64d2cc100ba9901b42cc000ba4c2ab400428612bc2ab400190c6612bd6a62959b00082ab600beb12ab600c18e872ab600c1979900182a2ab600c52ab600c18e872ab600c8b600cba700122b2ab600cfb800d39a00072ab600be2a0d2ab4001912d76a628dba00d80000b800dc4d2cb900e201004e2db900e8010099013c2db900ed0100c000f03a041904c000f23a051905b600f4b600f8b200feb60104a5000c2a1905b60107a7ffce12912ab40019b8010b38062ab40088b9008c0100170613010e6e969c00ef19052ab40013b6010fb60113bb0119592bb7011bb2011e2ab60124b201282ab600cfb60124b2012b2bb6012e1905b60132b60124b201381905b60124b2013b1905b60124b2013e1905b60124b20141b60147b8014bb801512ab400190c959e00212ab60064b200290c2a59b40019130157665ab50019b80092b8002db600842a59b400421101f460b50042bb015859b7015a3a0703360815081032a2004b1907b2015c2ab600cf0e1401620eb6016414016ab8016c2ab40088b9008c0100130172969c000d2ab40013b60173a7000a2ab40013b60177b6017ab6017eb6018257840801a7ffb419072ab60186a7fec1a7020b2ab40013c602040d2ab40019b8010b2ab40088b9008c01002ab40088b9008c01006a2ab400196a0d6eb8010b45b2018ab6000dc0018f2ab801912ab40088b9019501001401986b0c246e8d6b13019a2ab4001913019b6ab8010b8d2ab40088b9019501001401986b0c246e8d6bb6019c2ab40088b9008c0100130172969c000d2ab40013b60173a7000a2ab40013b60177b6017a1301a0b601a124b601a51064b601a82ab600b6b601abb201af2ab600cf1301b22ab40019b8010b8db8016c2ab40088b9008c0100130172969c000d2ab40013b60173a7000a2ab40013b601771301b380b6017a2ab40088b9019501001401b46b0c246e8d6b2ab40088b9008c01001301576a130172628d2ab40088b9019501001401b46b0c246e8d6bb6019c2ab600b6b601ab2ab600cf1401b62ab4008804100cb901b8030087b801bcb901c201004e2db900e801009900a42db900ed0100c001653a04b2018ab6000dc0018f04bd01655903190453b801c52ab600cf1904b601c9b601cd1401b4b601d02ab40088b9019501001401986b0c246e8d6b13019a2ab4001912d76ab8010b8d2ab40088b9019501001401986b0c246e8d6bb60164b601d42ab40088b9008c0100130172969c000d2ab40013b60173a7000a2ab40013b60177b6017a24b601a51064b601a82ab600b6b601aba7ff592ab400421019709a0013b201d72ab801dc1301e2b601e3b601e7b1"
+        },
+        {
+          "name": "isPickable",
+          "descriptor": "()Z",
+          "code_hex": "03ac"
+        },
+        {
+          "name": "canChangeDimensions",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "03ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/misc/AttuningBowl.class",
+      "sha256": "639bafe850ab269550a12fd4f25b74dddb33d21c9979ad531aeeba8b62e5bb72",
+      "methods": [
+        {
+          "name": "getUseDuration",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I",
+          "code_hex": "1210ac"
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db600172c2db6001db80021b0"
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "content/world/spawner/PixonSpawner.java": "1907ba539b7bd4613df9a2950a370194e4421399146b76afc048f7ace9464ea1",
+    "content/world/spawner/AoACustomSpawner.java": "e140a8795327c6bf60afb095179fd2c39db2280c553815a5b52aa8b8915cbd7b",
+    "content/entity/misc/PixonEntity.java": "b9f4aa6e562ad8b4910b6ad0e4c32e7d2c1f61879f5dd229839297b3cc768336",
+    "content/item/tool/misc/AttuningBowl.java": "cbcc47232dd3ed9a778799f803391730d8d285f91a320c0230fd14409c7be5ec",
+    "common/registration/entity/variant/PixonVariant.java": "bf8c4c5856b7a6ad31bbab62e10dfd45ee9d2c4c72bfc4e0cc26bda074a4aaa4",
+    "event/GlobalEvents.java": "9f6aa170d4c3811b57d6e0309dd53127fb133e6ca4e867b9592eb16822104233"
+  },
+  "variant_colours": {
+    "ambient": {
+      "primary": "0x5A5A5A",
+      "secondary": "0x313131"
+    },
+    "glistening": {
+      "primary": "0x06D02B",
+      "secondary": "0x007506"
+    },
+    "blooming": {
+      "primary": "0x7800DF",
+      "secondary": "0x21003E"
+    },
+    "shining": {
+      "primary": "0xD51073",
+      "secondary": "0x3A0E29"
+    },
+    "gleaming": {
+      "primary": "0x00C7D6",
+      "secondary": "0x006F78"
+    },
+    "glowing": {
+      "primary": "0xB26D22",
+      "secondary": "0x623C13"
+    },
+    "glaring": {
+      "primary": "0xD03206",
+      "secondary": "0x2D0400"
+    },
+    "radiant": {
+      "primary": "0xCBCBCB",
+      "secondary": "0x727272"
+    }
+  },
+  "geometry": {
+    "helper_sha256": "fd4ba3d3e7f1b06d5fffff6e904fe313357427b00f10c4e642c2698efb7b5812",
+    "caller_min_max": [
+      40,
+      128
+    ],
+    "width": 88,
+    "example_axis_draw": 44,
+    "example_axis_offset": 132,
+    "limit": "Same released helper as trader audit; arguments are not guaranteed radial bounds. Example is arithmetic, not a successful spawn."
+  }
+}
