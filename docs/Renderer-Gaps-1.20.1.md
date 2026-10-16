@@ -54,3 +54,7 @@ These are documented implementation goals, not completed fixes or live-game acce
 - [Pinned placeholder renderer class](https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/client/render/entity/JankyJankTempRendererToPreventCrashesWhileInDev.java)
 - [Version matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix)
 - [Bestiary](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary)
+
+## Additional released atlas mismatch
+
+[Nine NPCs use 64×32 textures with a 64×64 humanoid layer](NPC-Texture-Atlas-Mismatch-1.20.1). The comparison page preserves the released mapping and a separately labeled proposed correction. [Full inspected 1.20.1 appearance coverage](Bestiary-Coverage-1.20.1) now classifies every roster entry.

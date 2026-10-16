@@ -1,0 +1,740 @@
+[
+  {
+    "entity": "aoa3:creep_banker",
+    "texture": "assets/aoa3/textures/entity/npc/banker/creep_banker.png",
+    "registration_evidence": {
+      "field": "CREEP_BANKER",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "CREEP_BANKER",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "creep_banker"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/banker/creep_banker.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "CREEP_BANKER",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-creep_banker.webp",
+    "texture_sha256": "2400058955eebc5a43f10f9ecc40476de09ed4d05437635ef132b384add79b46"
+  },
+  {
+    "entity": "aoa3:crystal_trader",
+    "texture": "assets/aoa3/textures/entity/npc/trader/crystal_trader.png",
+    "registration_evidence": {
+      "field": "CRYSTAL_TRADER",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "CRYSTAL_TRADER",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "crystal_trader"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/crystal_trader.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "CRYSTAL_TRADER",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-crystal_trader.webp",
+    "texture_sha256": "924793653e6178d1188841d507e5dc613055e7acc418d411052190ee7f9365d5"
+  },
+  {
+    "entity": "aoa3:dungeon_keeper",
+    "texture": "assets/aoa3/textures/entity/npc/trader/dungeon_keeper.png",
+    "registration_evidence": {
+      "field": "DUNGEON_KEEPER",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "DUNGEON_KEEPER",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "dungeon_keeper"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/dungeon_keeper.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "DUNGEON_KEEPER",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-dungeon_keeper.webp",
+    "texture_sha256": "8d366654450ac33c023e1b08e34b37fa7c2591320210d34867d738c209d5d4f5"
+  },
+  {
+    "entity": "aoa3:explosives_expert",
+    "texture": "assets/aoa3/textures/entity/npc/trader/explosives_expert.png",
+    "registration_evidence": {
+      "field": "EXPLOSIVES_EXPERT",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "EXPLOSIVES_EXPERT",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "explosives_expert"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/explosives_expert.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "EXPLOSIVES_EXPERT",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-explosives_expert.webp",
+    "texture_sha256": "9c29f221ad10530fd676caedb1b42552caebb22c6fbcfef531ffa8a9429cda64"
+  },
+  {
+    "entity": "aoa3:metalloid",
+    "texture": "assets/aoa3/textures/entity/npc/trader/metalloid.png",
+    "registration_evidence": {
+      "field": "METALLOID",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "METALLOID",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "metalloid"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/metalloid.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "METALLOID",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-metalloid.webp",
+    "texture_sha256": "aa46be101b5c894695a278d26433a57a083e07bc2e6f01494036d890b7a90219"
+  },
+  {
+    "entity": "aoa3:naturalist",
+    "texture": "assets/aoa3/textures/entity/npc/trader/naturalist.png",
+    "registration_evidence": {
+      "field": "NATURALIST",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "NATURALIST",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "naturalist"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/naturalist.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "NATURALIST",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-naturalist.webp",
+    "texture_sha256": "746cf40fba9efe434a9b9a3b1e44add80eb4a87492ca8d536b611af4b959e7b5"
+  },
+  {
+    "entity": "aoa3:shyre_archer",
+    "texture": "assets/aoa3/textures/entity/npc/trader/shyre_archer.png",
+    "registration_evidence": {
+      "field": "SHYRE_ARCHER",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "SHYRE_ARCHER",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "shyre_archer"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/shyre_archer.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "SHYRE_ARCHER",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-shyre_archer.webp",
+    "texture_sha256": "5379912b527f785a12d552ef350dcf32b0f262f69a595638a1cd51924e976abd"
+  },
+  {
+    "entity": "aoa3:shyre_banker",
+    "texture": "assets/aoa3/textures/entity/npc/banker/shyre_banker.png",
+    "registration_evidence": {
+      "field": "SHYRE_BANKER",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "SHYRE_BANKER",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "shyre_banker"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/banker/shyre_banker.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "SHYRE_BANKER",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-shyre_banker.webp",
+    "texture_sha256": "3cf89eedb36e128ac01c4458b6851cf69eef1f58600becc64791f72786a7a45d"
+  },
+  {
+    "entity": "aoa3:token_collector",
+    "texture": "assets/aoa3/textures/entity/npc/trader/token_collector.png",
+    "registration_evidence": {
+      "field": "TOKEN_COLLECTOR",
+      "implementations": [
+        {
+          "constructor_or_method": [
+            "net/minecraft/client/model/HumanoidModel",
+            "<init>",
+            "(Lnet/minecraft/client/model/geom/ModelPart;)V"
+          ]
+        }
+      ],
+      "initializer_evidence": [
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/entity/AoANpcs",
+            "TOKEN_COLLECTOR",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "<init>",
+            "(Lnet/minecraftforge/registries/RegistryObject;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "constant": "token_collector"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "humanoidLayerDefinition",
+            "()Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defineLayer",
+            "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 24,
+          "constant": "textures/entity/npc/trader/token_collector.png"
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage",
+            "defaultMobRenderer",
+            "(Ljava/util/function/Function;Ljava/lang/String;)Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAEntityRendering",
+            "TOKEN_COLLECTOR",
+            "Lnet/tslat/aoa3/client/AoAEntityRendering$EntityRendererPackage;"
+          ]
+        }
+      ]
+    },
+    "image": "1.20.1-bestiary-proposed-token_collector.webp",
+    "texture_sha256": "ca00ca624595ecee66e911827a06a15e5ec440e832f82115d0623cf52ae607b0"
+  }
+]
