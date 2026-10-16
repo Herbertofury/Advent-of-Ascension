@@ -4,7 +4,7 @@
 
 ![Twelve released ore block models](https://herbertofury.github.io/Advent-of-Ascension/previews/mining-ore-overview-1.21.1.webp)
 
-The overview uses bundled static block-model renders. Several Precasian/Barathos models appear as plain host rock; this image does not establish runtime overlays or reveal mechanics.
+The overview uses released static block models, including their coplanar ore overlays. The documentation renderer composites matching binary-alpha layers in model order; runtime lighting and shader parity remain outside this reference.
 
 ## Start here
 

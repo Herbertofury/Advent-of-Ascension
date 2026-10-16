@@ -93,3 +93,5 @@ Documentation snapshot: **2026-10-16**. Static reference work is not a new runti
 - [Boss entry and token preparation](Boss-Entry-and-Token-Preparation-1.21.1)
 
 - [Mining and ore generation · 1.21.1](Mining-and-Ore-Generation-1.21.1)
+
+- [Corrected coplanar ore previews](Coplanar-Ore-Preview-Repairs)
