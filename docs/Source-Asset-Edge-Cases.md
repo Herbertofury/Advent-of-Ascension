@@ -60,3 +60,17 @@ The inspected 1.16.5, 1.20.1 and 1.21.1 textures use alpha 77/255 throughout. Th
 Six additional localization candidates (Discovery, Expedition, Lessons, Primitive, Raw Herring and The Portal) lack matching models in the inspected modern artifact, and this pass found no matching literal registration in its pinned registration sources. They remain **unqualified localization candidates**, not certified missing active items. Likewise, the Trickster geometry resource has no matching texture or class in the inspected 1.21.1 artifact; do not count it as a verified active creature merely because a geometry file remains.
 
 This distinction is important for Enderloom's content union: preserve evidence about legacy/unused resources without conflating them with active target behavior. Resolve runtime registration, custom loaders and conversion intent before treating an exception as an upstream defect.
+
+## Creature Essence: authentic layers, unresolved runtime presentation
+
+![Creature Essence base and overlay textures, shown separately](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/creature-essence-source-layers.webp)
+
+The inspected 1.16.5 (3.6.11), 1.20.1 (3.7.1) and 1.21.1 (3.7.16.1) releases contain the same two 16×16 sprites. Their model inherits `minecraft:item/generated` but declares `base` and `overlay`, without numbered generated-item layers. This sheet enlarges the real sprites separately over a checkerboard. It does not guess their combination, color tint or in-game item appearance. Inventory cards now expose this study while retaining the unresolved runtime-render status.
+
+Creature Essence is registered in the inspected source, so it should not be dismissed as an unused localization entry. Its behavior is version-sensitive:
+
+- In the inspected 1.16.5 and 1.20.1 released classes, `getStoredEntity` and `getStoredEntityName` exist. The pinned source reads the `essence_entity` and `essence_entity_name` tags.
+- In 1.21.1, the entity getter is commented out in the pinned source and absent from the released class. The stored-name method returns `?`; the old tag-reading body is commented out. Do not promise legacy stored-creature behavior on that basis.
+- A direct literal scan of all classes in each released artifact finds this item's class and registration class only. That does not rule out generic resource loading, reflection or another mod supplying behavior, and it does not establish survival acquisition.
+
+For an Enderloom restoration, resolve the target release's model-loader and tint path before building a composed preview or changing the game assets. Preserve any older item data until its migration has been explicitly tested. [Released model, sprite hashes and class-method evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/creature-essence-evidence.json) · [Pinned modern item source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/content/item/misc/CreatureEssence.java).
