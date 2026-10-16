@@ -64,11 +64,70 @@
   ],
   "counts": {
     "1.16.5": 18,
-    "1.20.1": 3
+    "1.20.1": 3,
+    "1.21.1": 3
   },
   "limits": [
     "Forge branch snapshots are reference implementation evidence, not a claim that a particular installed Forge version was tested.",
     "1.16.5 molten texture selects the Tinkers integration path; 15 bucket registrations depend on that integration.",
     "First texture frame only; luminosity, animation, perspective and transparency parity are not certified."
-  ]
+  ],
+  "artifact_121_tint_evidence": [
+    {
+      "fluid": "tar",
+      "class": "net/tslat/aoa3/client/clientextension/fluid/TarClientExtension.class",
+      "class_sha256": "dd4e887e901a9cd4736e75f98c612943638a248b73da434de460e78681791f59",
+      "method": "getTintColor()I",
+      "rgba_arguments": [
+        35,
+        35,
+        35,
+        255
+      ],
+      "literal_offset": 0,
+      "conversion_call": [
+        "net/tslat/aoa3/util/ColourUtil",
+        "ARGB",
+        "(IIII)I"
+      ]
+    },
+    {
+      "fluid": "toxic_waste",
+      "class": "net/tslat/aoa3/client/clientextension/fluid/ToxicWasteClientExtension.class",
+      "class_sha256": "9dc2987ed2aad7bf8cb3746b5ab6735580c644ed4be528be2c6b71143f98759c",
+      "method": "getTintColor()I",
+      "rgba_arguments": [
+        38,
+        42,
+        23,
+        255
+      ],
+      "literal_offset": 0,
+      "conversion_call": [
+        "net/tslat/aoa3/util/ColourUtil",
+        "ARGB",
+        "(IIII)I"
+      ]
+    },
+    {
+      "fluid": "candied_water",
+      "class": "net/tslat/aoa3/client/clientextension/fluid/CandiedWaterClientExtension.class",
+      "class_sha256": "f395222f56f557db7f53a284a7ca54ccec0038aaa1af5a209bea90511c93bb58",
+      "method": "getTintColor()I",
+      "rgba_arguments": [
+        255,
+        105,
+        180,
+        200
+      ],
+      "literal_offset": 0,
+      "conversion_call": [
+        "net/tslat/aoa3/util/ColourUtil",
+        "ARGB",
+        "(IIII)I"
+      ]
+    }
+  ],
+  "neoforge_121_source_pin": "00c6a3fd23d80ce54ec834a7e25d09fba37927e9",
+  "neoforge_mask_sha256": "fd11e62b86627858bbf1a1a7a2296d8f00311b1a49a3652f7e90f7a45347f272"
 }

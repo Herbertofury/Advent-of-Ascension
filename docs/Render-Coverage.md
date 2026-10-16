@@ -152,3 +152,7 @@ The age-only blockstate pass now covers 388 historical states across 49 version-
 ## Sign block-entity models
 
 [15 sign-form previews across 12 block identities](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Signs-and-Hanging-Signs-1.21.1) resolve the standing, wall, wall-hanging and attached/unattached ceiling-hanging forms of Baobab, Lucalus and Stranglewood. Literal vanilla layer factories, AoA wood textures and source visibility rules are used. Six wall-only IDs intentionally have no independent inventory item. Text and runtime interactions remain separate validation work.
+
+## Modern NeoForge fluid containers
+
+The [bucket reference gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-and-Bucket-References) also covers three 1.21.1 containers using the pinned NeoForge loader/mask and exact tint constants read from AoA 3.7.16.1. This brings the gallery to 24 version-specific studies. These are first-frame documentation views, not runtime shader certification.

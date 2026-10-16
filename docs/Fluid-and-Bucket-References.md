@@ -1,6 +1,6 @@
 # Fluid and bucket reference gallery
 
-**21 additional version-specific bucket studies** address dynamic Forge models that the ordinary JSON inventory renderer could not resolve. They supplement the regular historical atlas without silently increasing its validated static-model count.
+**24 additional version-specific bucket studies** address dynamic Forge models that the ordinary JSON inventory renderer could not resolve. They supplement the regular historical atlas without silently increasing its validated static-model count.
 
 ## Minecraft 1.16.5 · AoA 3.6.11
 
@@ -20,6 +20,14 @@ For molten metals, the active integration selects [Tinkers' molten still texture
 ![Three source-defined bucket appearances](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.20.1-fluid-bucket-reference.webp)
 
 The three model JSONs select `forge:fluid_container`, `forge:item/bucket` and their registered fluid. Candied Water, Toxic Waste and Tar use the non-dripping mask. The exact four numeric tint arguments were independently verified in the official AoA 3.7.1 class files: Candied Water `(255,105,180,200)`, Toxic Waste `(38,42,23,255)`, Tar `(35,35,35,255)`. The read-only decoder inspected constant sequences and the RGBA conversion call; it did not load or execute game code.
+
+## Minecraft 1.21.1 · AoA 3.7.16.1
+
+![Three modern NeoForge bucket appearances](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-fluid-bucket-reference.webp)
+
+The current pinned artifact uses `neoforge:fluid_container` and the NeoForge bucket parent. All three `getTintColor()` methods were inspected directly in that artifact: CandiedWaterClientExtension, ToxicWasteClientExtension and TarClientExtension. Their four integer arguments to the ARGB helper match the displayed source-defined colors. These studies use this release's own textures and vanilla client assets.
+
+[NeoForge 1.21.1 loader source](https://github.com/neoforged/NeoForge/blob/00c6a3fd23d80ce54ec834a7e25d09fba37927e9/src/main/java/net/neoforged/neoforge/client/model/DynamicFluidContainerModel.java) · [Bucket parent](https://github.com/neoforged/NeoForge/blob/00c6a3fd23d80ce54ec834a7e25d09fba37927e9/src/main/resources/assets/neoforge/models/item/bucket.json)
 
 ## Evidence and rendering limits
 
