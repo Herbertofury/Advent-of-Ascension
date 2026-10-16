@@ -50,6 +50,8 @@ A player-caused baby-spawn event is another XP source. The value passed to the t
 
 ## Hauling: complete a fishing catch
 
+For a passive-catch route, use the [illustrated Fishing Cage walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fishing-Cage-Walkthrough-1.21.1): Chum recipe, water placement, all 18 catch entries and the stock partial-load wear behavior.
+
 **Practical loop:** fish in an appropriate area and finish actual catches rather than repeatedly casting without a result.
 
 The inspected subscriber handles fishing-result events. Its contribution includes a Gaussian variation. AoA's specialized hauling event doubles the base contribution, and matching hauling-fish results can apply an additional modifier. The loop applies the fish modifier for each matching returned stack, so unusual modded multi-stack results need care when comparing XP.

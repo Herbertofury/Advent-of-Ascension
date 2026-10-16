@@ -1,0 +1,378 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Released resources, selected bytecode assertions and pinned source interpretation; four independent array-length cases. No live fishing benchmark, duplication claim or private Enderloom certification.",
+  "resources": [
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_fishing_cage.json",
+      "sha256": "c439a0261758d47e714aa528af45c897c1332749e31d665d57eb46aadc6cd1d6",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "item": "aoa3:chum"
+          },
+          "P": {
+            "tag": "minecraft:planks"
+          },
+          "S": {
+            "tag": "c:rods/wooden"
+          }
+        },
+        "pattern": [
+          " S ",
+          "SCS",
+          "PPP"
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:fishing_cage"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/tool_interaction_chum.json",
+      "sha256": "778b471e2a83df587ae951667a76dcb71b286c8c43c7b954b01664e32bcc290f",
+      "data": {
+        "type": "aoa3:tool_interaction",
+        "ingredients": [
+          {
+            "tag": "c:foods/raw_fish"
+          },
+          {
+            "tag": "minecraft:swords"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:chum"
+        },
+        "tool": {
+          "tag": "minecraft:swords"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/misc/fishing_cage_catches.json",
+      "sha256": "2445a5bacf78e0d6c0d950cb0a089204db7ef1fded8cd202cf299dd60a6dcfea",
+      "data": {
+        "type": "minecraft:fishing",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:cod",
+                "quality": -1,
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:salmon",
+                "quality": -1,
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:tropical_fish",
+                "quality": -1,
+                "weight": 80
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:pufferfish",
+                "weight": 60
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:nautilus_shell",
+                "quality": 1,
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "quality": 2,
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:rune_box",
+                "quality": 1,
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:shiny_box",
+                "quality": 1,
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "level": 10,
+                    "skill": "aoa3:hauling"
+                  }
+                ],
+                "name": "aoa3:sailback",
+                "weight": 75
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "level": 10,
+                    "skill": "aoa3:hauling"
+                  }
+                ],
+                "name": "aoa3:violet_skipper",
+                "weight": 75
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "level": 10,
+                    "skill": "aoa3:hauling"
+                  }
+                ],
+                "name": "aoa3:raw_rainbowfish",
+                "quality": 2,
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:armour_plating",
+                "quality": 1,
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:chitin",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:chum",
+                "weight": 55
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prismarine_slab",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:prismarine_crystals",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "level": 75,
+                    "skill": "aoa3:hauling"
+                  }
+                ],
+                "name": "aoa3:tidal_greatblade",
+                "quality": 3
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/entity/misc/FishingCageEntity.class",
+      "sha256": "2da7a9e5d95c033a4c01de6faae07780a3ad6779f00b6a83ba40255702821e63",
+      "methods": [
+        {
+          "name": "getLoot",
+          "descriptor": "()[Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "06bd004e59032ab2005eb60062c0004e5359042ab20066b60062c0004e5359052ab20069b60062c0004e53b0"
+        },
+        {
+          "name": "interact",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;",
+          "code_hex": "2bc1008d9900f82bc0008d4e2ab40049c600112db6008f2ab40049b600909900debb004e59b20073b60078c00096b700983a042ab4005336052ab6009b9900852db8009eb200a4b60007c000a9b600ab3a062ab600b13a0715051907be603605190604b600b5990022190604b600bb12bfb800c0071907beb800c4866a3808190617080303b600ca19073a081908be360903360a150a1509a2002a1908150a323a0b190bb200ceb600d399000b2db200d404b600da2d190bb800de57840a01a7ffd515051904b600e4a2001819041505b600e72db600eb9a000a2d1904b800de572db200eeb20073b60078c0007bb600f2b600f72ab600fab200feb02ab60104b60108990009b200fea70006b2010db0"
+        },
+        {
+          "name": "addAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "2ab40049c6000e2b13011a2ab40049b6011c2b1301222ab40053b60124bb012859b7012a4d2ab600b14e033604150406a200232d150432b6012c9a00132c2d1504322ab6012fb60133b6013757840401a7ffdd2cb6013a9a000c2b13013b2cb6013d57b1"
+        },
+        {
+          "name": "readAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "2b13011ab6014199000e2a2b13011ab60145b500492b13012206b6014a99000e2a2b130122b6014eb500532b13013bb6015299005f2b13013b100ab601544d2cb6015805a400192ab200692ab60104b6015b2c05b6015cb80160b601642cb6015804a400192ab200662ab60104b6015b2c04b6015cb80160b601642ab2005e2ab60104b6015b2c03b6015cb80160b60164b1"
+        },
+        {
+          "name": "doFishingCheckTick",
+          "descriptor": "()V",
+          "code_hex": "2ab60104b601089a000a2ab40049c70004b12ab20069b60062c0004eb6012c9a0004b12ab6016899000a2ab6016b9a0004b1111388b8016e9901542ab601042ab60174b601784c2bb6017c4e2dc1018299000b2dc001824da7000c100ab8016e9a0020b12c2ab601042ab601742bb60184b601880e979a000ab8018b9a0004b1042a14018eba01900000b80194b9019a0100b8019db8016e9a0004b12ab601042ab40049b601a04d2cc600e3bb01a4592ab60104c001a6b701a8b201ab2ab601b1b601b5b201b9bb004e59b20073b60078c00096b70098b601b5b201bc2ab601b5b201bf2cb601b50d2cb601c262b601c54e2ab60104b601c9b601cdb201d3b601d73a0419042db201ddb601e3b601e73a05033606150606a2007415061905b9019a0100a200682ab2005eb60062c0004eb6012c9900192ab2005e19051506b901ed0200c0004eb60164a7003c2ab20066b60062c0004eb6012c9900192ab2006619051506b901ed0200c0004eb60164a700162ab2006919051506b901ed0200c0004eb60164840601a7ff8cb1"
+        },
+        {
+          "name": "baseTick",
+          "descriptor": "()V",
+          "code_hex": "2ab60104b6026c130270b9027202002ab60278572ab60104b601089a00772ab601fb2ab60104b6027b10146487989c00072ab6027e2ab602819900072ab602842ab6028799004e2ab4006c1028a400452ab6016899003e2ab6016b9a0037bb004e59b20073b60078c00096b700984c2ab6009b99000d2a59b400530460b500532b2ab40053b600e72a2bb6028a572ab600fa2ab60104b6026cb9028e0100b1"
+        },
+        {
+          "name": "remove",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity$RemovalReason;)V",
+          "code_hex": "2ab60104b601089a002e2ab6009b9900272ab600b14d2cbe3e03360415041da200162c1504323a052a1905b6028a57840401a7ffea2a2bb70298b1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/misc/FishingCage.class",
+      "sha256": "b583752c227dfcf370c4e0187ded1e461bb03f3b367225d25de57ef5820891bd",
+      "methods": [
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db600073a042bb6000d9a00192bbb0013592b2c1904b70015b60018572c1904b8001c19042bb6000db80022b0"
+        },
+        {
+          "name": "isEnchantable",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "03ac"
+        },
+        {
+          "name": "isPrimaryItemFor",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Holder;)Z",
+          "code_hex": "03ac"
+        },
+        {
+          "name": "isBookEnchantable",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "03ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/recipe/ToolInteractionRecipe.class",
+      "sha256": "2d6e074d41535b648aacec39af2cafd17f90368d519f93802f144625f5168c5c",
+      "methods": [
+        {
+          "name": "canCraftInDimensions",
+          "descriptor": "(II)Z",
+          "code_hex": "1b1c682ab40019b600390460a1000704a7000403ac"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2ab40019b600392bb6003f9f000503ac033e2bb60044b9004801003a041904b9004e01009900231904b900540100c000573a052ab4001d1905b60059990008043ea70006a7ffd91d9900132bb6005f2a01b6006399000704a7000403ac"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2bb60069b2006ab8006d4d033e03360415042cb60039a200732b1504b600713a051d9a004d2ab4001d1905b600599900411905b600753a061906b6007999000f19061906b6007c0460b6007f1906b600799900101906b6007c1906b60083a2000c2c15041906b6008657043ea700171905b6008a99000f2c15041905b6008db6008657840401a7ff8a2cb0"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2a2bc00040b60094b0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc000402cb6009cac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/loottable/condition/PlayerHasLevel.class",
+      "sha256": "6ac3ef900fbc82ad9ea38cb7b667459d9db3239da91c9a1ae688a7e47e93ee6a",
+      "methods": [
+        {
+          "name": "test",
+          "descriptor": "(Lnet/minecraft/world/level/storage/loot/LootContext;)Z",
+          "code_hex": "2bb20023b60029c0002f4d2cc7000e2bb20031b60029c0002f4d2cc7000e2bb20034b60029c0002f4d2cc1003799001b2cc000374e2d2ab400072ab4000db8003999000704a7000403ac"
+        },
+        {
+          "name": "test",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "code_hex": "2a2bc0002ab6003fac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/registration/item/AoATools.class",
+      "sha256": "4a19038d3e931d867e68eacf627455ce6dfaa2bfa6b01770ec44b950b362aebe",
+      "methods": [
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "code_hex": "12efba00f10000b800f5b300fb12ffba01010000b800f5b30102130105ba01070000b800f5b3010813010aba010c0000b800f5b3010d130110ba01120000b800f5b30113130116ba01180000b800f5b3011913011cba011e0000b800f5b3011f130122ba01240000b800f5b30125130128ba012a0000b800f5b3012b13012dba012f0000b800f5b30130130133ba01350000b800f5b30136130139ba013b0000b800f5b3013c13013fba01410000b800f5b30142130145ba01470000b800f5b3014813014bba014d0000b800f5b3014e130151ba01530000b800f5b30154130157ba01590000b800f5b3015a13015dba015f0000b800f5b30160130163ba01650000b800f5b30166130169ba016b0000b800f5b3016c13016fba01710000b800f5b30172130175ba01770000b800f5b3017813017bba017d0000b800f5b3017e130181ba01830000b800f5b30184130187ba01890000b800f5b3018a13018dba018f0000b800f5b30190130193ba01950000b800f5b30196130199ba019b0000b800f5b3019c13019fba01a10000b800f5b301a21301a5ba01a70000b800f5b301a81301aaba01ac0000b800f5b301ad1301b0ba01b20000b800f5b301b31301b6ba01b80000b800f5b301b91301bcba01be0000b800f5b301bf1301c2ba01c40000b800f5b301c51301c8ba01ca0000b800f5b301cb1301ceba01d00000b800f5b301d11301d4ba01d60000b800f5b301d71301daba01dc0000b800f5b301dd1301e0ba01e20000b800f5b301e31301e6ba01e80000b800f5b301e91301ecba01ee0000b800f5b301efb1"
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "content/entity/misc/FishingCageEntity.java": "03a22a6edb883eb1adcf98c9d46e45bbdf0cfc001bee00a558bdeabb189575ef",
+    "content/item/tool/misc/FishingCage.java": "eb7722b827bb19267cc3987d7113922ff4416392781a350b4d59cceb0f50b0a6",
+    "content/recipe/ToolInteractionRecipe.java": "20fd8155acba26a1f26ef48e020a1ba8fa9fd2a0ea996df7f1d0bf312783f16e",
+    "content/loottable/condition/PlayerHasLevel.java": "002146a288f6bf71179e61feb07073db13ffdc871bcdc0bebc2b9fde9c0a357e",
+    "common/registration/item/AoATools.java": "d9e910570f60638a02e1fc59e25b9a956be5f0b15da47ea8154d71c591ed355f",
+    "util/InventoryUtil.java": "b4c4443d8a501f568dbe5a2995f39f667d1b496318bff08fe7982a1469b588b5"
+  },
+  "durability": [
+    {
+      "method": "lambda$static$37",
+      "code_hex": "bb001b59bb001d59b7001f100fb60020b70024b0",
+      "durability": 15
+    }
+  ],
+  "retrieval_cases": [
+    {
+      "occupied_slots": 0,
+      "array_slots": 3,
+      "retrieval_wear": 0,
+      "hauling_time_budget_multiplier": 0
+    },
+    {
+      "occupied_slots": 1,
+      "array_slots": 3,
+      "retrieval_wear": 3,
+      "hauling_time_budget_multiplier": 3
+    },
+    {
+      "occupied_slots": 2,
+      "array_slots": 3,
+      "retrieval_wear": 3,
+      "hauling_time_budget_multiplier": 3
+    },
+    {
+      "occupied_slots": 3,
+      "array_slots": 3,
+      "retrieval_wear": 3,
+      "hauling_time_budget_multiplier": 3
+    }
+  ],
+  "acceptance": [
+    "Test one/two/three occupied slots; current retrieval counts array length, not occupied slots",
+    "Verify inventory-full recovery, world unload/reload, owner offline/different dimension and protected entity-spawn cancellation",
+    "Verify catch transfer and removal with mutable ItemStack references before making duplication claims",
+    "Confirm bait recipe sword remainder and final-durability break in game"
+  ]
+}
