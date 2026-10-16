@@ -184,3 +184,9 @@ The [bucket reference gallery](https://github.com/Herbertofury/Advent-of-Ascensi
 ## Translucent and intentionally empty resource cases
 
 [Source asset edge cases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) now include three later-release Shyre Cloud studies retaining the texture’s alpha 77/255. It also distinguishes invisible helper blocks, empty-model functional blocks, unverified custom item models and unqualified localization/resource candidates from missing active content.
+
+## Searchable inventory and multi-state reconciliation
+
+The [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) indexes all **10,077 version-specific archive-resource candidates**: 9,928 regular source-model previews and 149 separately classified initial exceptions. This is not a runtime registry count. Each exception links to an existing supplement or preserves the exact remaining limitation. [Record-by-record ledger](Inventory-Preview-Resolution-Ledger).
+
+The [multi-state supplement](Multi-State-Block-References) accounts for 135 Thorny Plant age/height states and six activity-portal axis states across three releases. Of the plant states, 93 have visible texture regions and 42 have verified fully transparent UV regions. These supplement the 522 earlier age-only references; they do not establish natural state transitions or world renderer parity.

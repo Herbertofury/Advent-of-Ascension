@@ -85,3 +85,7 @@ Documentation snapshot: **2026-10-16**. Static reference work is not a new runti
 
 ### Train skills with a clear goal
 [Modern skill training: XP sources, blockers, Energy Stone stack use and cycling](Skill-Training-Walkthrough-1.21.1). All ten default skill files have been checked against the released 3.7.16.1 artifact.
+
+- [Search items and blocks](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html)
+- [Inventory preview resolutions](Inventory-Preview-Resolution-Ledger)
+- [Multi-state plants and portals](Multi-State-Block-References)

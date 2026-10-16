@@ -1,5 +1,8 @@
 # Historical Galleries
 
+**Search the full versioned resource catalog:** [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html). It includes the regular previews and all 149 initial exceptions, linked to current supplements or explicit remaining limits. [Preview resolution ledger](Inventory-Preview-Resolution-Ledger).
+
+
 [Visual atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas) · [Version matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix)
 
 ## Keep the eras distinct
@@ -58,7 +61,7 @@ These galleries preserve source-generation differences instead of silently apply
 
 ## Remaining work
 
-Legacy Java-model creature galleries are being rendered from pinned source constructors and matching-version JAR textures. 1.7.10 binary acquisition and its dedicated renderer remain separate tasks. Custom/unmatched models are recorded as gaps, not replaced with invented images.
+Legacy creature galleries and the inspected 1.16.5 roster are now documented; [current appearance accounting](Legacy-Bestiary-Coverage-1.16.5) separates body portraits, particles and player-skin/invisible cases. 1.7.10 binary acquisition and its dedicated renderer remain separate tasks. Custom/unmatched models are recorded as gaps, not replaced with invented images.
 
 Advent of Ascension is created by **Tslat and contributors**. [Official source](https://github.com/Tslat/Advent-Of-Ascension) · [Official downloads](https://modrinth.com/mod/adventofascension).
 

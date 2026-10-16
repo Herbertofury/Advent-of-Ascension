@@ -88,3 +88,9 @@ Next reconcile: current Git commit/dirty changes, active session ID/target, acce
 
 ---
 Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits). Source presence is not target runtime proof.
+
+## Searchable inventory and multi-state reconciliation
+
+The [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) indexes all **10,077 version-specific archive-resource candidates**: 9,928 regular source-model previews and 149 separately classified initial exceptions. This is not a runtime registry count. Each exception links to an existing supplement or preserves the exact remaining limitation. [Record-by-record ledger](Inventory-Preview-Resolution-Ledger).
+
+The [multi-state supplement](Multi-State-Block-References) accounts for 135 Thorny Plant age/height states and six activity-portal axis states across three releases. Of the plant states, 93 have visible texture regions and 42 have verified fully transparent UV regions. These supplement the 522 earlier age-only references; they do not establish natural state transitions or world renderer parity.

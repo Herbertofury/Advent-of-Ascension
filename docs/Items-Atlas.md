@@ -1,5 +1,8 @@
 # Items · localization evidence atlas
 
+**Search the full versioned resource catalog:** [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html). It includes the regular previews and all 149 initial exceptions, linked to current supplements or explicit remaining limits. [Preview resolution ledger](Inventory-Preview-Resolution-Ledger).
+
+
 [Documentation home](README.md) · [Version matrix](Version-Matrix.md)
 
 This is a discoverability index of source-localized names, **not** a list of obtainable/implemented content. Leftover localization is common. Active registration, recipes, loot, behavior and the target build must be verified independently. Historical aliases and same-name redesigns remain distinct migration questions.

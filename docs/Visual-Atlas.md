@@ -1,5 +1,8 @@
 # Visual Atlas
 
+**Search the full versioned resource catalog:** [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html). It includes the regular previews and all 149 initial exceptions, linked to current supplements or explicit remaining limits. [Preview resolution ledger](Inventory-Preview-Resolution-Ledger).
+
+
 **The mod, in view.** Actual models and textures, named and version-labelled.
 
 Advent of Ascension models/textures by **Tslat and contributors**. These are independently rendered documentation showcases from **AoA 3.7.16.1 / Minecraft 1.21.1**, not Enderloom runtime screenshots. [Official mod](https://modrinth.com/mod/adventofascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki).
