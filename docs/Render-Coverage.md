@@ -194,3 +194,7 @@ The [multi-state supplement](Multi-State-Block-References) accounts for 135 Thor
 ## Independently verified 1.20.1 sign models
 
 [15 matching-version sign references](Signs-and-Hanging-Signs-1.20.1) resolve six previously pending wall-sign reference records. Official layer factories were decoded independently, visibility conditions checked, and released AoA textures compared byte-for-byte before reuse. This does not certify text, interaction or world placement in a running game.
+
+## Modern rendered-turntable coverage
+
+All 83 inspected 1.21.1 / AoA 3.7.16.1 source-roster entries now have 24 rendered orbit views (1,992 frames). Every frame passes stored-hash, nonempty-alpha and in-bounds checks. Source model/texture hashes are checked; Shiny Squid explicitly identifies its source-derived Java neutral-body geometry. Front/back contact sheets and selected side views were visually reviewed. This covers one selected static appearance per entry, not every variant or runtime animation. [Viewer and limits](Model-Turntables).

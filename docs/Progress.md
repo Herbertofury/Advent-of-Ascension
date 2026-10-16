@@ -101,4 +101,4 @@ Published the illustrated 1.16.5 Rune Post/Randomizer handbook with 14 mappings,
 
 ## Interactive rendered turntables
 
-Added 11 modern source-model entries with 24 fixed-framing camera views each (264 frames), keyboard/drag/scrub controls, opt-in rotation and selected-image caching. This is a rendered rest-pose presentation, not a live geometry viewer, runtime animation test or encounter-completion proof. [Turntable guide](Model-Turntables).
+Added turntables for all 83 inspected modern source-roster entries with 24 fixed-framing camera views each (1,992 frames), keyboard/drag/scrub controls, opt-in rotation and a bounded four-image cache. These are selected static appearances; Shiny Squid uses a clearly labeled Java neutral-body adapter. This is a rendered rest-pose presentation, not a live geometry viewer, runtime animation test or encounter-completion proof. [Turntable guide](Model-Turntables).
