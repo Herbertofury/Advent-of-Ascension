@@ -89,6 +89,8 @@ Advent of Ascension is created by **Tslat and contributors**. These are original
 
 ## Finding arena routes in the bestiary
 
-In the [interactive bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1), choose **1.21.1**, then the **aoa3:nowhere · includes arena routes** dimension option. It includes ten separately labelled token/altar routes: five normal bosses and their five elite substitutions. Each card keeps natural-spawn dimensions and biomes separate and links to entry preparation and its source.
+In the [interactive bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1), choose **1.21.1**, then the **aoa3:nowhere · includes arena routes** dimension option, or [open the ten arena routes directly](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1&dimension=aoa3%3Anowhere&sort=health). It includes ten separately labelled token/altar routes: five normal bosses and their five elite substitutions. Each card keeps natural-spawn dimensions and biomes separate and links to entry preparation and its source.
 
 A listed arena route does not certify that every token is obtainable in ordinary survival. In particular, the existing Warped Horn acquisition caveat remains. Wounded Tyrosaur is not silently included as a normal arena boss, and this release's routes do not leak into older-version filters. [Route evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/boss-arena-location-evidence-1.21.1.json).
+
+The bestiary’s “Link to these creature results” preserves release, dimension, biome, source category, search and sorting. Compatible filters stay selected when comparing releases; unsupported release links ask you to choose rather than silently showing another version.
