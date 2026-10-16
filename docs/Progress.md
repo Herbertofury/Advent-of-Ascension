@@ -98,3 +98,7 @@ The [multi-state supplement](Multi-State-Block-References) accounts for 135 Thor
 ## Historical rune workflow regression targets
 
 Published the illustrated 1.16.5 Rune Post/Randomizer handbook with 14 mappings, released recipe/loot evidence and an exact bytecode-backed output-stack remainder finding. A standalone harness covers requested counts 1–128. Consume-before-loot and mixed-hand cases are documented as runtime regression targets. These are not applied game fixes or in-game test receipts. See [Rune production handbook](Rune-Production-and-Randomizer-1.16.5).
+
+## Interactive rendered turntables
+
+Added 11 modern source-model entries with 24 fixed-framing camera views each (264 frames), keyboard/drag/scrub controls, opt-in rotation and selected-image caching. This is a rendered rest-pose presentation, not a live geometry viewer, runtime animation test or encounter-completion proof. [Turntable guide](Model-Turntables).
