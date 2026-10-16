@@ -24,6 +24,11 @@
 
 ## Illustrated walkthroughs
 
+- [Infusion Table crafting · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-1.21.1): station recipe, separate base slot, repeated ingredients and result preservation.
+- [Staff batteries and charging](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Batteries-and-Charging): the dynamic charging workflow.
+- [Historical first portal · 1.16.5](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough-1.16.5): shapeless rune preparation and exact frame materials.
+- [First portal and Precasia · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-and-Precasia-1.12.2): historical IDs and six distinct sapling ingredients.
+
 [Your first portal](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough) follows material gathering, rune crafting, exact frame layout, activation and troubleshooting for 1.21.1 / 3.7.16.1.
 
 ![Power rune crafting reference](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/power-rune-recipe-1.21.1.webp)
