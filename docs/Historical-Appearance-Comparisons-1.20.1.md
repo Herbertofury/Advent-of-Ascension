@@ -29,7 +29,7 @@ Tests cover all 178 panels, the absence of images before expansion, explicit ver
 
 [Exact ID joins and historical source references](https://herbertofury.github.io/Advent-of-Ascension/historical-bestiary-comparisons-1.20.1.json).
 
-For an actual restoration, use the [released renderer-gap audit](Renderer-Gaps-1.20.1), identify the intended model/texture and registration target, adapt it to the target version, then validate it in-game. The historical reference is a starting point, not proof of a finished port.
+For an actual restoration, use the [released renderer-gap audit](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1), identify the intended model/texture and registration target, adapt it to the target version, then validate it in-game. The historical reference is a starting point, not proof of a finished port.
 
 ## Inventory loading improvement
 

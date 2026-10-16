@@ -4,7 +4,7 @@
 
 ![Boss tokens and preparation states](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/boss-entry-tokens-1.21.1.webp)
 
-[Boss attributes and mechanics](Modern-Boss-Dossiers) · [Smash tactics](Smash-Combat-Field-Guide) · [Versioned recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1)
+[Boss attributes and mechanics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Boss-Dossiers) · [Smash tactics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Smash-Combat-Field-Guide) · [Versioned recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1)
 
 ## The essential distinction: entry item versus arena summon
 
@@ -18,7 +18,7 @@ Do not reuse a historical altar recipe or assume that a modern item with the sam
 
 ### Troll Idol → Smash
 
-[Recipe and exact output components](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=troll_idol) · [Smash field guide](Smash-Combat-Field-Guide)
+[Recipe and exact output components](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=troll_idol) · [Smash field guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Smash-Combat-Field-Guide)
 
 The released crafting recipe produces a Troll Idol with **damage value 19**. This is not “19 damage dealt,” and it does not mean the item is ready to summon Smash.
 
@@ -53,7 +53,7 @@ A normal gold-ingot barter does not set this special marker. The 120-tick check 
 
 ### Bone Horn → Tyrosaur
 
-**Start here:** [Find the first horn, understand Cocoon odds, and collect its repair materials](Bone-Horn-Acquisition-1.21.1).
+**Start here:** [Find the first horn, understand Cocoon odds, and collect its repair materials](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bone-Horn-Acquisition-1.21.1).
 
 [Repair recipe and strict ingredient components](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=bone_horn) · [Wounded Tyrosaur reference](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1&entity=aoa3%3Awounded_tyrosaur)
 

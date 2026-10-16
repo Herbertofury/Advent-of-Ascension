@@ -50,4 +50,4 @@ The extractor requires every state to name one explicit model and rejects unexpe
 
 The activity-portal pictures use the first declared texture frame with documentation lighting. They do not reproduce animation, full translucent sorting or effects. State pictures do not turn block-only forms into independent inventory items.
 
-[Exact state/model evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/multistate-block-reference-evidence.json) · [Inventory preview resolution ledger](Inventory-Preview-Resolution-Ledger) · [Age-only growth references](Crops-and-Growth-Stages).
+[Exact state/model evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/multistate-block-reference-evidence.json) · [Inventory preview resolution ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger) · [Age-only growth references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages).

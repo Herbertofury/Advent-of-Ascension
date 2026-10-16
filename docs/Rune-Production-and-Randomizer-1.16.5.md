@@ -85,4 +85,4 @@ The released method shrinks the input before generating loot. The loot condition
 
 [Source hashes, released method bytes, loot/recipe JSON and 128 arithmetic cases](https://herbertofury.github.io/Advent-of-Ascension/rune-workflow-audit-1.16.5.json). Source registrations identify 14 posts. The artifact checks explicitly verify the Math.min operand sequence and shrink-before-loot call order. No game code was executed or modified.
 
-Related: [Historical realmstone progression](Realmstone-Progression-Walkthrough-1.16.5) · [Modern staff batteries](Staff-Batteries-and-Charging) · [Recipe Explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.16.5).
+Related: [Historical realmstone progression](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5) · [Modern staff batteries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Batteries-and-Charging) · [Recipe Explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.16.5).

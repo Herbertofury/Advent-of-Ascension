@@ -2,7 +2,7 @@
 
 **Minecraft 1.16.5 / AoA 3.6.11.** Candidate acquisition evidence is now mapped for **43 of the 44 inspected trader identities**: eight use the custom trader spawner, 33 are embedded in structure templates, and two are produced by crate-breaking hooks. Skill Master remains unresolved in this scan. These are distinct evidence routes, not 43 live-game spawn tests.
 
-[Search their offers](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.16.5) · [Historical shopping handbook](Trading-and-Traders-1.16.5) · [Filter the bestiary by dimension or biome](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5)
+[Search their offers](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.16.5) · [Historical shopping handbook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.16.5) · [Filter the bestiary by dimension or biome](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5)
 
 ## Start with the right route
 

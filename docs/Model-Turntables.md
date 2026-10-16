@@ -119,6 +119,6 @@ Controls remain disabled while their image is loading. Descriptive canvas labels
 
 [Model, texture and rendered-frame hashes](https://herbertofury.github.io/Advent-of-Ascension/boss-turntable-index.json). The generator performs no mod or game-code execution; it reads released assets and the explicitly labeled neutral-body adapter and renders them independently.
 
-[Bestiary](Bestiary) · [Modern boss dossiers](Modern-Boss-Dossiers) · [Boss entry and token preparation](Boss-Entry-and-Token-Preparation-1.21.1).
+[Bestiary](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary) · [Modern boss dossiers](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Boss-Dossiers) · [Boss entry and token preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1).
 
 Models and textures credited to **Tslat and contributors**. [Upstream source](https://github.com/Tslat/Advent-Of-Ascension).

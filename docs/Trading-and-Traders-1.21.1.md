@@ -2,9 +2,9 @@
 
 **Minecraft 1.21.1 / AoA 3.7.16.1.** This handbook catalogs **45 base offer definitions**: seven fixed AoA trader offers, 22 dimension-conditional Herald offers and 16 additions to villager profession pools. It is not a promise that one trader offers all of them, that every retained dimension is playable, or that final displayed prices match the base input.
 
-[Open the searchable Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1) · [Historical 1.16.5 traders](Trading-and-Traders-1.16.5)
+[Open the searchable Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1) · [Historical 1.16.5 traders](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.16.5)
 
-[Where modern traders spawn, including Precasian hovels](Finding-Traders-1.21.1)
+[Where modern traders spawn, including Precasian hovels](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.21.1)
 
 ## Before you spend your coins
 
@@ -136,7 +136,7 @@ The offer’s XP value contributes to merchant progression. For the custom AoA t
 
 ## The Corrupted Traveller uses a different screen
 
-The Corrupted Traveller is not a normal MerchantOffer trader in this build. It opens its own menu when alive and interacted with without sneaking, after its Name Tag handling. Its food/book exchange is documented in the [beginner walkthrough](Beginner-Walkthrough) and [released exchange evidence](https://herbertofury.github.io/Advent-of-Ascension/traveller-exchange-evidence.json). Do not look for it in the ordinary coin-offer tables above.
+The Corrupted Traveller is not a normal MerchantOffer trader in this build. It opens its own menu when alive and interacted with without sneaking, after its Name Tag handling. Its food/book exchange is documented in the [beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) and [released exchange evidence](https://herbertofury.github.io/Advent-of-Ascension/traveller-exchange-evidence.json). Do not look for it in the ordinary coin-offer tables above.
 
 ## Evidence and limits
 

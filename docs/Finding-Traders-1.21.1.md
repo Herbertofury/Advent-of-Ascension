@@ -2,7 +2,7 @@
 
 **Minecraft 1.21.1 / AoA 3.7.16.1.** The modern roaming-trader system differs from the historical 1.16.5 one. This page combines the shipped spawner resources, released-class arithmetic checks and the Precasian Lotto Hovel’s actual template entities. It does not promise a trader at a particular world coordinate or time.
 
-[Search modern offers](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1) · [Prices and restocking](Trading-and-Traders-1.21.1) · [Historical locations](Finding-Traders-1.16.5)
+[Search modern offers](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1) · [Prices and restocking](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1) · [Historical locations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.16.5)
 
 ## The two stock roaming definitions
 
@@ -37,7 +37,7 @@ The roaming dimension list is not the whole acquisition story. The released **Pr
 - All six template-pool entries have weight one. This describes pool selection, not six guaranteed hovels or six new NPC species.
 - The checked vanilla SinglePoolElement settings preserve entities and finalize them. Actual structure generation, bounding-box inclusion and mod overrides still need live testing.
 
-[Precasia travel and archaeology walkthrough](Precasia-Realmstone-Walkthrough) · [Template, pool, biome and entity-placement evidence](https://herbertofury.github.io/Advent-of-Ascension/trader-locations-1.21.1.json)
+[Precasia travel and archaeology walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough) · [Template, pool, biome and entity-placement evidence](https://herbertofury.github.io/Advent-of-Ascension/trader-locations-1.21.1.json)
 
 The scan also found retained templates containing older regional Lottoman IDs. Those are not automatically working modern NPC routes; no registry-alias or activation proof is inferred from their presence.
 
@@ -47,7 +47,7 @@ The trader code calls a helper with values named minimum 20 and maximum 64, but 
 
 ![Roaming trader coordinate arithmetic](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/roaming-trader-coordinate-bands.webp)
 
-This is a static source/released-bytecode finding, not a measured spawn map. Do not use the parameter names alone to promise a 20–64-block circular search ring. [Full cross-version audit, current-candidate caveat and repair checklist](Roaming-Trader-Spawn-Geometry).
+This is a static source/released-bytecode finding, not a measured spawn map. Do not use the parameter names alone to promise a 20–64-block circular search ring. [Full cross-version audit, current-candidate caveat and repair checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Roaming-Trader-Spawn-Geometry).
 
 ## When a trader will not restock
 

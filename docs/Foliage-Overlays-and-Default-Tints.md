@@ -29,5 +29,5 @@ The source registration and official default-color methods are inspected separat
 - [Model and palette evidence](https://herbertofury.github.io/Advent-of-Ascension/foliage-overlay-evidence.json)
 - [Six exact atlas patches](https://herbertofury.github.io/Advent-of-Ascension/foliage-preview-repair-manifest.json)
 - [Broader candidate audit](https://herbertofury.github.io/Advent-of-Ascension/coplanar-face-audit.json): includes aliases and templates; candidate totals are not unique broken items.
-- [Ore overlay repairs](Coplanar-Ore-Preview-Repairs)
+- [Ore overlay repairs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Coplanar-Ore-Preview-Repairs)
 - [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?q=stranglewood)

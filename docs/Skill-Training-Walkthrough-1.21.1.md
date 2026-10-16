@@ -4,7 +4,7 @@
 
 ![Ten skill choices and verified default ability counts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/skill-training-overview-1.21.1.webp)
 
-[All unlock levels and stored parameters](Modern-Skill-Unlocks) · [Recipes and ingredients](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Creature field guide](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1)
+[All unlock levels and stored parameters](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Skill-Unlocks) · [Recipes and ingredients](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Creature field guide](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1)
 
 ## Before you start grinding
 

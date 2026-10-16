@@ -2161,4 +2161,4 @@ Configured: `data/aoa3/worldgen/configured_feature/varsium_ore.json`
 - Measure representative seed samples before claiming optimal Y, expected yield, rarity or guaranteed veins.
 - Compare local Enderloom generation against this released baseline before marking a port complete.
 
-Related: [Inventory Explorer](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1) · [Recipe Explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Boss token preparation](Boss-Entry-and-Token-Preparation-1.21.1).
+Related: [Inventory Explorer](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1) · [Recipe Explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Boss token preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1).

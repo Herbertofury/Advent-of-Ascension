@@ -32,6 +32,6 @@ Only after these checks were the existing render images reused. This is exact as
 - Wall forms use the corresponding ordinary or hanging sign item; an absent independent inventory model does not imply missing in-world geometry.
 - The released SignBlockGroup references vanilla wall/ceiling sign classes and its no-item policy. The pinned source snapshot is supplementary context, not a substitute for the released class check.
 
-[Official factory, visibility, texture and registration evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/sign-reference-evidence-1.20.1.json) · [1.21.1 sign reference](Signs-and-Hanging-Signs-1.21.1) · [Inventory resolution ledger](Inventory-Preview-Resolution-Ledger).
+[Official factory, visibility, texture and registration evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/sign-reference-evidence-1.20.1.json) · [1.21.1 sign reference](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Signs-and-Hanging-Signs-1.21.1) · [Inventory resolution ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger).
 
 Geometry conventions by Mojang; AoA wood artwork by Tslat and contributors. Original files are not bundled as a mod; these are derived documentation references.

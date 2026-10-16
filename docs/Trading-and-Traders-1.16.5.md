@@ -2,9 +2,9 @@
 
 **Minecraft 1.16.5 / AoA 3.6.11.** This historical handbook covers **207 custom-trader offer definitions**: 185 fixed pool candidates and 22 dimension-specific Herald offers. The browser has **44 trader choices**, including 21 named Lottoman variants that share the same four-offer pool. Those aliases do not multiply the definition count.
 
-[Open the illustrated Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.16.5) · [Compare the modern 1.21.1 handbook](Trading-and-Traders-1.21.1)
+[Open the illustrated Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.16.5) · [Compare the modern 1.21.1 handbook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1)
 
-[Where to find these traders: biomes, structures and crate hooks](Finding-Traders-1.16.5)
+[Where to find these traders: biomes, structures and crate hooks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.16.5)
 
 ## A practical first shopping plan
 

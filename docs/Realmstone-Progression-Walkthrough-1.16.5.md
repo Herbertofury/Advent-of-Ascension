@@ -2,7 +2,7 @@
 
 **AoA 3.6.11 · historical full-dimension progression.** This guide combines released GUI/recipe resources with explicitly pinned source conditions. It has not been live-tested in your modpack. Do not apply these acquisition methods to 1.20.1 or 1.21.1 without checking their separate release evidence.
 
-[Search creatures in 1.16.5](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5) · [Versioned recipes](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.16.5) · [Version matrix](Version-Matrix)
+[Search creatures in 1.16.5](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5) · [Versioned recipes](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.16.5) · [Version matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix)
 
 ## Start with the Worn Book and a Blank Realmstone
 
