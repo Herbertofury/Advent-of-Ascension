@@ -1,0 +1,28 @@
+{
+  "scope": "Released class call/literal checks plus shipped modifier facts. Does not execute events, validate modpack overrides or certify a ported loader\u2019s persistent-data serialization.",
+  "event_class_sha256": "a98fee249a0cf48b96ac8a0fe48e348b463c00524040f41dff4a769b89a29cc7",
+  "spawn_event_code_hex": "2ab60131b801359900112ab6013bb6013e13014604b60148b1",
+  "split_lambda_code_hex": "2ab6013e13014604b60148b1",
+  "spawner_gate_call": [
+    "net/minecraft/world/entity/MobSpawnType",
+    "isSpawner",
+    "(Lnet/minecraft/world/entity/MobSpawnType;)Z"
+  ],
+  "persistent_flag": "aoa3_spawned_by_spawner",
+  "world_modifier_class_sha256": "c326718b716eb697369b86c9a0f7d99175261256a0e3bc18ac16a8bba63784a1",
+  "world_do_apply_code_hex": "2cb20011b600179a00052bb02ab400072cb20011b6001dc00021b60023b60027b9002d0200c000334e2dc700052bb02cb600352db800393a041904b2003fa5000e1904b60045b20049a500052bb019042c2b59b8004f57ba00540000b600582bb0",
+  "raw_roll_call": [
+    "net/minecraft/world/level/storage/loot/LootTable",
+    "getRandomItemsRaw",
+    "(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/function/Consumer;)V"
+  ],
+  "modifier_resource": "data/aoa3/loot_modifiers/world_tables.json",
+  "modifier_sha256": "c27dc37fc820eb1141d8311f0bdf4c84de166a6477ddebab533a09ef18329a56",
+  "world_mappings": {
+    "aoa3:barathos": "aoa3:worlds/barathos",
+    "aoa3:precasia": "aoa3:worlds/precasia",
+    "minecraft:overworld": "aoa3:worlds/overworld",
+    "minecraft:the_nether": "aoa3:worlds/nether"
+  },
+  "predicate_wrapper": "NeoForgeData"
+}
