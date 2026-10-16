@@ -4,6 +4,8 @@
 
 **Find a creature. Understand its drops. Craft your next upgrade. Plan your next expedition.** Start with your installed Minecraft and AoA release: recipes, worlds and creatures change between versions.
 
+[Find which creatures list an item](https://herbertofury.github.io/Advent-of-Ascension/drop-finder.html) · [How to plan a hunt and use drops](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-and-Using-Mob-Drops)
+
 ## What do you want to do?
 
 | Your goal | Start here |
