@@ -78,3 +78,8 @@ The source artifacts and checksums are documented in [Sources and credits](https
 ## Legacy metadata-aware ingredient previews
 
 The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixteen dyes, six saplings, three wool colors, charcoal, coarse dirt and dandelion. Each uses its matching official item model and texture rather than showing the default variant for every metadata value. Wildcard metadata is labeled **Any variant**, and unsupported variants keep a readable fallback. The full 6,781-card construction suite and targeted dye/name/wildcard checks passed after this update. These are UI/data tests, not a replacement for in-game crafting validation.
+
+
+## Repair equipment
+
+[Illustrated Mending Table walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mending-Table-and-Repair-Materials-1.21.1): station recipe, Repair Dust versus Compound, timed Solution conversion and the released stale-preview precaution.

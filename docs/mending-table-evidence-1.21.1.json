@@ -1,0 +1,317 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Four released recipes, selected method bytes, exact unsupported-material branch and independent repair arithmetic. No runtime reproduction or private Enderloom fix claimed.",
+  "resources": [
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_mending_table.json",
+      "sha256": "b7ca74df02e6d794d199acb9e7adb3528ae95d066afb1528159c1e04ec0c08ac",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "tag": "c:ingots/emberstone"
+          },
+          "B": {
+            "item": "minecraft:obsidian"
+          },
+          "C": {
+            "item": "aoa3:magic_repair_dust"
+          }
+        },
+        "pattern": [
+          "AAA",
+          "BCB",
+          "BBB"
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:mending_table"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shaped_metal_tub.json",
+      "sha256": "741644873cacf34617c26a8a90592a54d61b70f3e44dab2e9aef3c5ff3feba04",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "tag": "c:ingots/iron"
+          },
+          "B": {
+            "item": "minecraft:clay_ball"
+          },
+          "C": {
+            "tag": "c:ingots/emberstone"
+          }
+        },
+        "pattern": [
+          "A A",
+          "BCB"
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:metal_tub"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shapeless_magic_mending_solution.json",
+      "sha256": "36c36b824435a02b0c9fbd48a1b97fdf909332dea27013c466608c44c1c43c3c",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "aoa3:magic_repair_dust"
+          },
+          {
+            "item": "aoa3:magic_repair_dust"
+          },
+          {
+            "item": "aoa3:magic_repair_dust"
+          },
+          {
+            "item": "minecraft:lava_bucket"
+          },
+          {
+            "item": "aoa3:metal_tub"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:magic_mending_solution"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_mending.json",
+      "sha256": "4d0840df2ae5990e2d0ee05cbb8f2a9f9daa8dcb8c0bf4fc3cfc69ee3f7bea4c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:change",
+          "aoa3:durability",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:mending",
+        "enchantment_level": 1,
+        "imbuing_level": 97,
+        "power_source": {
+          "item": "aoa3:radiant_power_stone"
+        }
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/common/menu/MendingTableMenu.class",
+      "sha256": "2b50073ef79b3b381ef9e7518317f9c245c7aadf5f90967755cf469b7664fd54",
+      "methods": [
+        {
+          "name": "inputSlotCount",
+          "descriptor": "()I",
+          "code_hex": "05ac"
+        },
+        {
+          "name": "createInputSlot",
+          "descriptor": "(ILnet/minecraft/world/SimpleContainer;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "1b9a0008101ba70005104c3e1b9a0017bb0041592c1b1d1017ba00430000b70047a7000fbb004a592c1b1d1017b7004cb0"
+        },
+        {
+          "name": "createOutputSlot",
+          "descriptor": "(ILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "bb004f592abb005159b700532c1b1100861017b70056b0"
+        },
+        {
+          "name": "handleContainerUpdate",
+          "descriptor": "()V",
+          "code_hex": "2a03b600594c2bb6005d9a000a2bb600639a000b2ab20066b6006ab12a04b600594d2cb6005d99000b2ab20066b6006ab12bb6006e4e2cb60072b20076b6007ca500102cb60072b2007fb6007ca600712cb60072b2007fb6007ca6000a2db60082a700102db600822db60086086cb80089360415049d000d2ab20066b6006aa7003f03360515049e002c15052cb6008fa200232d2db60082150464b600922db600822db60086086cb800893604840501a7ffd52a1505b500152a2db6006ab1"
+        },
+        {
+          "name": "createInputSlot",
+          "descriptor": "(ILnet/minecraft/world/Container;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "2a1b2cc00025b600abb0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/MendingTableMenu$1.class",
+      "sha256": "74a6ed3d387ee75ad4d764d62d34561f7c7cc54af9b7a37550f7a2374c7145e1",
+      "methods": [
+        {
+          "name": "onItemRemoved",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2ab4000103b2000db600132ab40001042ab40001b40019b6001db1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu.class",
+      "sha256": "35e2dbb6d45c522c175fd9a8e4da408be1afdb8ce691c969b1ccea41ac39fa43",
+      "methods": [
+        {
+          "name": "setOutputItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2ab600382bb60049b1"
+        },
+        {
+          "name": "slotsChanged",
+          "descriptor": "(Lnet/minecraft/world/Container;)V",
+          "code_hex": "2ab400072aba00510000b900550200b1"
+        },
+        {
+          "name": "lambda$slotsChanged$0",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V",
+          "code_hex": "2ab600b62ab600b9b1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/misc/MagicMendingSolution.class",
+      "sha256": "44ff9f772feac092d8cae3e612f316b2aa17eae0afa243311f7e51d076d747f0",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2abb000159b7000304b60007b2000bb60011c00017b60019b2001d1223b80024b6002ab7002eb1"
+        },
+        {
+          "name": "inventoryTick",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V",
+          "code_hex": "2a2b0c04b60031572a2bb600370b969d00312cb4003b9a002a2b04b600412dc1004799001e2dc000473a06190605bd00495903b2000b535904b2004b53b8004eb1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/ChargeableItem.class",
+      "sha256": "dbe8119657f99a41c2ba661a3d9303ad5ea669a395704692d9bec76af9dc87af",
+      "methods": [
+        {
+          "name": "subtractCharge",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;FZ)F",
+          "code_hex": "2a2bb9000402003804170424969c00091d9a00050bae0b17042466b8003338052a2b1705b9003603001704170566ae"
+        }
+      ]
+    }
+  ],
+  "unsupported_material_branch": {
+    "offset": 77,
+    "target": 190,
+    "opcode": "if_acmpne",
+    "target_opcode": "return",
+    "finding": "After both supported-material identity checks fail, branch directly to method return without clearing prior output or cost."
+  },
+  "repair_cases": [
+    {
+      "input": [
+        100,
+        87,
+        "dust",
+        2
+      ],
+      "result": {
+        "damage": 47,
+        "used": 2
+      }
+    },
+    {
+      "input": [
+        100,
+        87,
+        "dust",
+        5
+      ],
+      "result": {
+        "damage": 0,
+        "used": 5
+      }
+    },
+    {
+      "input": [
+        100,
+        87,
+        "compound",
+        1
+      ],
+      "result": {
+        "damage": 0,
+        "used": 1
+      }
+    },
+    {
+      "input": [
+        4,
+        3,
+        "dust",
+        1
+      ],
+      "result": null
+    },
+    {
+      "input": [
+        5,
+        3,
+        "dust",
+        2
+      ],
+      "result": {
+        "damage": 1,
+        "used": 2
+      }
+    },
+    {
+      "input": [
+        100,
+        0,
+        "dust",
+        4
+      ],
+      "result": null
+    },
+    {
+      "input": [
+        100,
+        87,
+        "dust",
+        0
+      ],
+      "result": null
+    },
+    {
+      "input": [
+        100,
+        87,
+        "unsupported",
+        1
+      ],
+      "prior": {
+        "damage": 0,
+        "used": 5
+      },
+      "result": {
+        "damage": 0,
+        "used": 5
+      },
+      "scope": "Independent stale-preview transition, not game execution"
+    }
+  ],
+  "source_files": {
+    "common/menu/MendingTableMenu.java": "a695ef5ab479422b7a5dbf0d049333f8fd6f3d56735cc5473de44c8a4cf99594",
+    "common/menu/generic/ExtensibleContainerMenu.java": "e11c82533568bf2af877df44afd718573a271017ad3bf98732beb26ccac282e9",
+    "common/menu/slot/OutputSlot.java": "b2657c2e7e80932a33690d6f0e28ce0cbd1dd838e298063d5d714dfd92967b87",
+    "content/item/misc/MagicMendingSolution.java": "fb92eeab4480e55eb27f322a421d41ea7dbc601537a01be2dc72faaf011a41f0",
+    "content/item/ChargeableItem.java": "f66021da3ab29457c9e11408f0ed8bf5197764cace4fbdcb5a43f565e8d067d9"
+  },
+  "acceptance": [
+    "Clear output and totalRepairCost before validating inputs, or explicitly on every invalid branch",
+    "Revalidate target/material/cost atomically when taking output",
+    "Test dust rounding at maxDamage4/5, partial repair, compound full repair, unsupported material, changed target, quick move and close/reopen",
+    "Verify solution charge decrement and server-side return of Metal Tub plus Compound in exact target build"
+  ]
+}
