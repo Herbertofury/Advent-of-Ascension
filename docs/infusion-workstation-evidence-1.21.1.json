@@ -1,0 +1,2165 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "62 released infusion resource definitions, table recipe, selected bytecode assertions and pinned source interpretation. No runtime or survival-acquisition completeness claim.",
+  "station_recipe": {
+    "path": "data/aoa3/recipe/crafting_shaped_infusion_table.json",
+    "sha256": "ad537a4f83f10567aa91553cb626f90fe76f79074ed4d6b0e5fbe487a952664f",
+    "data": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:gems/amethyst"
+        },
+        "C": {
+          "item": "minecraft:crafting_table"
+        },
+        "E": {
+          "item": "minecraft:enchanting_table"
+        },
+        "R": {
+          "item": "aoa3:ancient_rock"
+        }
+      },
+      "pattern": [
+        "ARA",
+        " E ",
+        "ACA"
+      ],
+      "result": {
+        "count": 1,
+        "id": "aoa3:infusion_table"
+      }
+    }
+  },
+  "recipes": [
+    {
+      "path": "data/aoa3/recipe/infusion_amplifier.json",
+      "sha256": "d6f160069aa5884a145db0d1560c7ff3bbddaec715595b419ca087cc42b0faa7",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:shotgun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:enchanted_gunpowder"
+          },
+          {
+            "tag": "c:ingots/shyrestone"
+          },
+          {
+            "tag": "c:ingots/shyrestone"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gems/shyregem"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:amplifier"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_baronator.json",
+      "sha256": "9d877eb07e815d3c409f392893681b822499a5692f75be76aac2e4826abe2287",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:grenade"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:baronator"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_bayonette_rifle.json",
+      "sha256": "3a9d6097791ddeb6491a2fd40b2701f2caeab90c84628589c40ae1c7c759c5cd",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:sharp_claw"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gunpowders"
+          },
+          {
+            "tag": "minecraft:planks"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:bayonette_rifle"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_blast_chiller.json",
+      "sha256": "fc2557ede38ccaef58b7186ff27e5cf29873cafaf58ce1cfd20a47a768170d29",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:blaster_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:water_bucket"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:blast_chiller"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_blood_iron.json",
+      "sha256": "970b5bc41e3bf301574aad01bb0c793f6d2a60edb36786bbcad4eeb0628562bf",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/netherite"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:blood_iron"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_bolt_rifle.json",
+      "sha256": "ba9691e890293e36f78667b5c726db9197d67cd2c5f25acdcde4ad7385824312",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:sniper_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gems/diamond"
+          },
+          {
+            "tag": "c:gunpowders"
+          },
+          {
+            "tag": "minecraft:planks"
+          },
+          {
+            "tag": "minecraft:planks"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:bolt_rifle"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_bone_blaster.json",
+      "sha256": "93707d201d6e219fd99621e82ebbc1c4c7f18307865a4f37919c640640b49dfa",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:blaster_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:jungle_thorns"
+          },
+          {
+            "item": "aoa3:jungle_thorns"
+          },
+          {
+            "tag": "c:bones"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "aoa3:precasian_bone"
+          },
+          {
+            "tag": "aoa3:precasian_bone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:bone_blaster"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_brown_blaster.json",
+      "sha256": "e93d6eb6b7bf9b7e1667afa03f40a2d508c359d0ff0bb20f903b991d8284e3f7",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:shotgun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:spreadshot"
+          },
+          {
+            "tag": "c:leathers"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:brown_blaster"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_camo_rifle.json",
+      "sha256": "c4a8df041e0c3c5a15bbe83e2e5fc449406d8392c164ed0930fd6df2235581da",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:sniper_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:jungle_thorns"
+          },
+          {
+            "item": "aoa3:jungle_thorns"
+          },
+          {
+            "item": "minecraft:short_grass"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "minecraft:leaves"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:camo_rifle"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_deadlock.json",
+      "sha256": "23ceace7f6bc62082e759191d31151eae6166a0f7b18179442becf9a1d9cc336",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:sniper_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "minecraft:coals"
+          },
+          {
+            "tag": "c:dusts/redstone"
+          },
+          {
+            "tag": "c:dusts/redstone"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:deadlock"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_duster.json",
+      "sha256": "8a1b317fc97929f1ba3942bfd362c0cb2753af2056032a04959617e98b5f671f",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:sniper_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:leathers"
+          },
+          {
+            "tag": "c:leathers"
+          },
+          {
+            "tag": "c:gunpowders"
+          },
+          {
+            "tag": "minecraft:planks"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:duster"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_echo_gull.json",
+      "sha256": "60000dc639dfd30c5bac85843b6081c4e239f3af0301e753a91c1dcc05e5b248",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:glowstone_dust"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:leathers"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:echo_gull"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_boots.json",
+      "sha256": "3e1652b4e478202978d2c98134f4294bd0d1f6e1d07db838113d7383f51d9fbf",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_chestplate.json",
+      "sha256": "5dd970a343ea3794da1c6acc35ab68945d9e98ed4d9f801497ef89b1b49628c4",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_helmet.json",
+      "sha256": "17886d36d29f62db41fd559a62085ef082c6e372513ce890bcf61c0490188f79",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_leggings.json",
+      "sha256": "980194fd0c09fbbb324050da24925b702efdd2caee6c37b25efb49d8d3ccf98c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_froster.json",
+      "sha256": "60edb8c8f1dd47f945daead7a053347cb725025b479830129d8225431d43fba5",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:blaster_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:spearmint_candy"
+          },
+          {
+            "item": "aoa3:peppermint_candy"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:froster"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ginger_blaster.json",
+      "sha256": "bc391a0596b6a33e4cf13a5f470fe963ababe80175de035b8354227fbb349a43",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:shotgun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:spreadshot"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gingerbread"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ginger_blaster"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_boots.json",
+      "sha256": "c5a813b2d76bca0f407fae973052a1b1e7f47a968d07e840a64cc3115aa15a2c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_chestplate.json",
+      "sha256": "35984282a53564a1b57e92d8f5dfefe21289541a5ce15bee1270eb1c45346318",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:strings"
+          },
+          {
+            "tag": "c:strings"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_helmet.json",
+      "sha256": "f1d6499f2e418adf81e6940b65b970bbd6c97c63955e718a965ce1b996b84330",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:charcoal"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_leggings.json",
+      "sha256": "9f05ff9921ebe9f83af43ec4ee324273c1651caa6dbf8631a85a5707f6e01777",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:strings"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hive_howitzer.json",
+      "sha256": "a63a2ffadb978169d17859dffba7be37e8de5fa53b0bd8bd956edb088cc5c905",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:cannon_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:hive_chunk"
+          },
+          {
+            "item": "aoa3:hive_chunk"
+          },
+          {
+            "item": "aoa3:hive_chunk"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hive_howitzer"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hot_shot.json",
+      "sha256": "ea0988c9729b5198e9380fd8e1c30be2ee3e88e309d87bca60db4f0a35396e7d",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:flammable_dust"
+          },
+          {
+            "item": "aoa3:flammable_dust"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hot_shot"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_boots.json",
+      "sha256": "cbec49fad2c684b401783407bef8f78cfcd90c7a8cfeba7896d8d23b2992c9fe",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_chestplate.json",
+      "sha256": "47b9a669b41e7e86ca0ce86371194f5844c3d989928f5f61b05be29688068135",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_helmet.json",
+      "sha256": "7b93b3f03ffac03e06decb102d5c0a5a4ccc0289c20f0012d79eea36fe6d6940",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_leggings.json",
+      "sha256": "ce0de320c4689b359c6346614a07cf305e1dda80e6d1cc54e667e3ac596fd307",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_boots.json",
+      "sha256": "26a6a80bf80aa536cf427a66c0224cbb17935ab9e00934787ca410e6b51db18f",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_chestplate.json",
+      "sha256": "d892a4990c3f6a8053e958f81e29cde6c479dd359dd0e39ab7eab6b252099819",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_helmet.json",
+      "sha256": "f72445aae16d95bd53053784ffbb5e87f97416620021388fd699a321cc3730a6",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_leggings.json",
+      "sha256": "6aae7c7229d523d210eeab75112c841d99e3ad2671ebb376c95e38b4a528462a",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_iro_rifle.json",
+      "sha256": "1bc5f15e3a95544008cc99eb1dfbbb7a1c81ea0c0871ee5f5a650a3802ffc092",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:power_core"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/lyon"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:iro_rifle"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_boots.json",
+      "sha256": "9fc4cd36ded00d6213232a3eefce5b95501a6b6496bca03e48a8ead9dfd9c619",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_chestplate.json",
+      "sha256": "3f7950812c27d517b402ffaf6736426d9898055275690e183f8bd6f2abdd0197",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_helmet.json",
+      "sha256": "bec2fa8e31359a556528072334fddb0dedff0e42fa5a65bc3d2bd2cfe239ea89",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_leggings.json",
+      "sha256": "395de037709e9ba6177f9ce0b578b12b16bf6c90e830a387396e33e24fb421ba",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_mint_magnum.json",
+      "sha256": "836265900345bd4ef50e695bea27c6d01c22d6ae84910a804e571b65444791ee",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "tag": "c:mints"
+          },
+          {
+            "tag": "c:mints"
+          },
+          {
+            "tag": "c:mints"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:mint_magnum"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_moon_shiner.json",
+      "sha256": "91fe4621e0f00ced330d11e93795c1b4441bf08f6eaa87854821e26fbd2acd57",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:blaster_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ghostly_powder"
+          },
+          {
+            "item": "aoa3:ghostly_powder"
+          },
+          {
+            "item": "aoa3:ghostly_powder"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:moon_shiner"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_red_rocket.json",
+      "sha256": "5fc5d0036a9b7178556a378d259f5a7ccb7045a0cb746968508ef97b09626a80",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:shotgun_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:red_rocket"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_rpg.json",
+      "sha256": "2197969d540a72178a0928f31f39f5f383d7af1312bd9d14ad230b213c80bb46",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:cannon_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "item": "minecraft:tnt"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:rpg"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_shoe_flinger.json",
+      "sha256": "a9a97569d8d5d9fa2133a266db2c13097236e92be6bab51a42882bddfa82c550",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:old_boot"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:shoe_flinger"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_shyre_blaster.json",
+      "sha256": "ee46d06814189c3b7ba95dd2cd5cdc8b27082f1befa32e2a087a9e8b995f65cf",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:cannon_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/shyrestone"
+          },
+          {
+            "tag": "c:ingots/shyrestone"
+          },
+          {
+            "tag": "c:gems/shyregem"
+          },
+          {
+            "tag": "c:gems/shyregem"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:shyre_blaster"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_boots.json",
+      "sha256": "9fba47ffdd4137354a89c444192d31df0757178bd1dbef99835b2c7157be588a",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:footbone_fragment"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_chestplate.json",
+      "sha256": "da3535b75fc6032424e6ebf5ded1c09782a97f25f317a279c3ea516e6f786b91",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:chestbone_fragment"
+          },
+          {
+            "item": "aoa3:chestbone_fragment"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_helmet.json",
+      "sha256": "fce7b34e0253f6329ffa5988dd66237c32ac8d7adf38e1a3c19eb3e2000826fb",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:skullbone_fragment"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_leggings.json",
+      "sha256": "3841555575365da653109c86e81fd16674999c84227e9ee2c6ab8542e3625ab6",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:legbone_fragment"
+          },
+          {
+            "item": "aoa3:legbone_fragment"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_stampede.json",
+      "sha256": "0d3823e3ab12cf35137f8371f7a27c71de582be3a1acb78ff70ec7d4613a2216",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:limonite_bullet"
+          },
+          {
+            "tag": "c:leathers"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:stampede"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_swarmotron.json",
+      "sha256": "b8a7d72a7dd6037dd5599d9f8404c681cda9ef89037493c09b82dc20899a33a4",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:blaster_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:hive_chunk"
+          },
+          {
+            "item": "aoa3:hive_chunk"
+          },
+          {
+            "item": "aoa3:hive_chunk"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:ingots/baronyte"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:swarmotron"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_sweet_tooth.json",
+      "sha256": "43023edea1a4cdc286bfc095f995fcf5980abbedc66dc636728e98830291cb87",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:sniper_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:candy_corn"
+          },
+          {
+            "item": "aoa3:candy_corn"
+          },
+          {
+            "item": "aoa3:candy_cane"
+          },
+          {
+            "item": "aoa3:chocolate_block"
+          },
+          {
+            "item": "aoa3:gingerbread_cookie"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:sweet_tooth"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_tommy.json",
+      "sha256": "104f3649ec29f228189644687a51cb22e557449d93578d5d37d85c8a483ffc7c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:scrap_metal"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:leathers"
+          },
+          {
+            "tag": "c:gunpowders"
+          },
+          {
+            "tag": "minecraft:planks"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:tommy"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_boots.json",
+      "sha256": "4d47f35f52752feee8b57ff6b7977166bd5799243ea541ee6e59ec8de979a85c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_chestplate.json",
+      "sha256": "3607470b0ad1217a383552e35e2a6bdcd0fee5db3e28469662db86e9e7cd5c68",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_helmet.json",
+      "sha256": "07583dcf9a9f6862b8e727b05b90a56e051e55b5859320ee5fe8017c77a4c74e",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_leggings.json",
+      "sha256": "1c7f99e936948d99c0862a1de6e5b096ead9b911ab193cafec13d81e67a8f281",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_vulcane.json",
+      "sha256": "9771f6968947356c6a5cc5a877d9ca5ffb6fb9c0faceb6572af8d34e3a930620",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "tag": "c:rods/metal"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:magic_focus"
+          },
+          {
+            "item": "aoa3:damage_focus"
+          },
+          {
+            "item": "aoa3:change_focus"
+          },
+          {
+            "item": "aoa3:precision_focus"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:vulcane"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wart_gun.json",
+      "sha256": "d85a79b21d5adbacb72d0c3521b36ac5902c292a412298b4893ba7134c4b9a9c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:crops/nether_wart"
+          },
+          {
+            "tag": "c:crops/nether_wart"
+          },
+          {
+            "tag": "c:crops/nether_wart"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:gunpowders"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wart_gun"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_boots.json",
+      "sha256": "ffb2dad9d5cd88c611301160c123628aad4712725e96901ae9453e95f54a4237",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_boots"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_chestplate.json",
+      "sha256": "29a236a73d211de80eafa02a4aad5d19d0b9fc0e2bd7fcccc2de2289c727cc1b",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_chestplate"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_helmet.json",
+      "sha256": "3bd2c9f89064e2649862b2c2fe4c97d5ed52e359248bf6322541ae07052ef6ab",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_helmet"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_leggings.json",
+      "sha256": "686e3ad13adb4e146311f0dbcd323fac7b3e969470dde5ac663d2e43d32f8c33",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_leggings"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wrecker.json",
+      "sha256": "f5d08d0591113c5efe7d38e19848c8fb870e7946ba21c87766735c1c9979328d",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:gun_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:gingerbread_wing"
+          },
+          {
+            "item": "aoa3:gingerbread_cookie"
+          },
+          {
+            "item": "aoa3:power_core"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wrecker"
+        }
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/common/menu/InfusionTableMenu.class",
+      "sha256": "eb5a5da02a2d15a1ca19d3a26b4c9a6160bc76e9b83b5d9a453feeb6693e10b4",
+      "methods": [
+        {
+          "name": "inputSlotCount",
+          "descriptor": "()I",
+          "code_hex": "100aac"
+        },
+        {
+          "name": "createInputSlot",
+          "descriptor": "(ILnet/minecraft/world/inventory/TransientCraftingContainer;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "1b9a0011bb0043592c1b10111023b70045b0bb0043592c1b102d2a1b0464b600481012686010112a1b0464b6004c10126860b70045b0"
+        },
+        {
+          "name": "createOutputSlot",
+          "descriptor": "(ILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "bb004f592c2ab6001dc00021bb005159b70053b20056b6005cb60007c000622aba006400001b11008b1023b70067b0"
+        },
+        {
+          "name": "createInputSlot",
+          "descriptor": "(ILnet/minecraft/world/Container;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "2a1b2cc00021b60096b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/recipe/InfusionRecipe.class",
+      "sha256": "d29bc37f3363bca9c02aa7f1ffb47e161dccca005e13b2e7b197575810301512",
+      "methods": [
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2b03b600654e2db6006b9a000e2ab400112db600719a000503ac2ab600443a042ab400199900132a2b1904b9007601002db60079a7000b2a2b19042db6007dac"
+        },
+        {
+          "name": "checkSimpleIngredients",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;ILnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "bb008159b700833a042bb60084b9008801003a051905b9008c01009900341905b900910100c0006c3a061906b6006b9affe519062da60006a7ffdc1c8402ff9c000503ac1904190604b60094a7ffc81c9a001119042a01b6009899000704a7000403ac"
+        },
+        {
+          "name": "checkNonSimpleIngredients",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Ljava/util/List;Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2cb9007601003604bb009c591504b7009e3a052bb60084b9008801003a061906b9008c01009900371906b900910100c0006c3a071907b6006b9affe519072da60006a7ffdc15048404ff9c000503ac19051907b900a1020057a7ffc515049a001019052cb800a5c6000704a7000403ac"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2bb600abb200acb800af4d033e1d2cb60048a200232b1db600653a041904b600b399000e2c1d1904b800b6b600bc57840301a7ffdb2cb0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2cb600c0b0"
+        },
+        {
+          "name": "getResultItem",
+          "descriptor": "(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2ab40015b600c4b0"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2a2bc00066b600c7b0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc000662cb600cbb0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc000662cb600cfac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/slot/CraftableResultSlot.class",
+      "sha256": "451557e731ec2d44df1beb2dd18d7e956402b0359488e23ddb6e9a28144ed3d0",
+      "methods": [
+        {
+          "name": "onItemRemoved",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2bb8008b2a2ab400072ab40017b900910100c000972bb600994e01b8008b03360415042db6009da200a42ab4000d1504b9005d02003a052d1504b600a0c0006e3a061905b600a39a001d2ab4000d150404b900a70300572ab4000d1504b9005d02003a051906b600a3990006a700591905b600a39900132ab4000d15041906b900ab0300a7004119051906b800af99001d19061905b600b3b600b62ab4000d15041906b900ab0300a7001d2ab40039b600b91906b600bd9a000e2ab40039190603b600c257840401a7ff59b1"
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "common/menu/InfusionTableMenu.java": "2706ad93aa545e5fde2c46f1317bb12f253ddc4b8afe1fa3ea470f21b885d812",
+    "content/recipe/InfusionRecipe.java": "0af2e6a45c261f0e6ea0ecb8c7de9bc3fcad4b7f39bb86262ad5219619075ab5",
+    "common/menu/slot/CraftableResultSlot.java": "f0d5b9299caec6f6ad1ba12ec8cca57119eac9be4b9c934cdabd81113e246aeb",
+    "common/menu/generic/ExtensibleRecipeMenu.java": "5df5a4892eff765ae11831c7295163227ee602279a59a2909cfbf41b78e9679a"
+  },
+  "notes": [
+    "10 inputs: separate base slot0 and9ingredient slots.",
+    "Simple matcher accounts one item per occupied ingredient slot; repeated entries require separate slots.",
+    "Generic output is a copy of recipe-defined output, not the base stack.",
+    "Taking output removes one item from each occupied input, then handles crafting remainders."
+  ]
+}
