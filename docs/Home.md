@@ -14,6 +14,7 @@
 | **Where does this creature spawn, and what does it drop?** | [Interactive bestiary: releases, dimensions, biomes, stats and illustrated loot](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html) |
 | **How do I craft this? What is this drop used for?** | [Search the illustrated recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | **How do I build a portal or reach Precasia?** | [Portal construction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough) · [Precasia Realmstone archaeology](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough) |
+| **Why did this item not drop?** | [Block, chest and global loot reference · 1.21.1](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) · [Read the conditions](Loot-Tables-and-Global-Modifiers-1.21.1) |
 | **Who buys this? Where are traders?** | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) · [1.16.5 locations](Finding-Traders-1.16.5) · [1.21.1 locations](Finding-Traders-1.21.1) |
 | **Which version contains the content I remember?** | [Version matrix and reference releases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) |
 | **What is finished in the Enderloom project?** | [Verified progress and remaining work](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress) |

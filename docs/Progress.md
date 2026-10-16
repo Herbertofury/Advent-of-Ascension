@@ -126,3 +126,15 @@ The 419-entry historical bestiary now includes direct offer links for all 44 tra
 - [Find historical traders](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Traders-1.16.5)
 
 No new runtime acceptance is asserted by this documentation pass. The earlier owner-local runtime section retains its independent scope.
+
+
+## Broader loot reference · 2026-10-16
+
+The modern reference now indexes all **1,315 loot-table resources** found in the inspected AoA3 3.7.16.1 archive (1,314 AoA namespace plus the bundled Minecraft Wither override), and all **25 registered global modifier definitions**. The 1,340 normalized records preserve source hashes, nested references, conditions and operations, with base image coverage for 1,472 referenced item IDs. Seventeen current-version image gaps were filled, including a separately checked neutral Wither Skeleton Skull model.
+
+The inventory explorer links 1,173 exact-ID block/item table resources and contextual searches for other modern entries. Tests cover every fact panel, source item-reference multisets, all resource hashes, lazy category/icon caches, exact links, failure recovery and unchanged 10,077-record inventory navigation. The UI loads one index first and fetches category facts only when inspected.
+
+The player guide explains Silk Touch/Fortune branches, global Ivory conditions, four explicit world-table mappings and the spawner/split-child flag checks. Vanilla Wither custom-death-loot evidence is kept separate from table entries, avoiding the false conclusion that an unlisted Nether Star was removed. No runtime drop-rate, loader-port or balance certification is inferred.
+
+- [Loot resource browser](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1)
+- [Illustrated conditions and modifier guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Loot-Tables-and-Global-Modifiers-1.21.1)
