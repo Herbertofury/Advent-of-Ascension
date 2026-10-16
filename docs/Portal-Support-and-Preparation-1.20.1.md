@@ -4,7 +4,7 @@
 
 ![Nether, Nowhere and Precasia Realmstones have non-null portal references in the inspected release; nineteen others do not](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/portal-support-1.20.1.webp)
 
-[Visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.20.1) · [Version matrix](Version-Matrix) · [Current implementation acceptance](Runtime-Acceptance)
+[Visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.20.1) · [Version matrix](Version-Matrix) · [Current implementation acceptance](Runtime-Acceptance-Checklist)
 
 ## Start here: what message did you get?
 
