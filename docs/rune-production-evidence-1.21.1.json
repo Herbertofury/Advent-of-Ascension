@@ -1,0 +1,716 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Released recipes, loot definitions and selected method bytes plus independent arithmetic/state models. No game execution or private Enderloom fix certification.",
+  "resources": [
+    {
+      "path": "data/aoa3/recipe/stonecutting_unpowered_rune_from_runium_chunk.json",
+      "sha256": "e3b2092f5459cf0e8f27eb07be830b4a77b9e539f700f469e3075e505c15c892",
+      "data": {
+        "type": "minecraft:stonecutting",
+        "ingredient": {
+          "item": "aoa3:runium_chunk"
+        },
+        "result": {
+          "count": 16,
+          "id": "aoa3:unpowered_rune"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/stonecutting_charged_rune_from_charged_runium_chunk.json",
+      "sha256": "b0d890d9b98a551d2560d39d162ebce652eace592880f5e26c414168bf2e240d",
+      "data": {
+        "type": "minecraft:stonecutting",
+        "ingredient": {
+          "item": "aoa3:charged_runium_chunk"
+        },
+        "result": {
+          "count": 16,
+          "id": "aoa3:charged_rune"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/misc/rune_randomizer.json",
+      "sha256": "a17cc75d720b638951ce3159eacc9abdd58c5aa915de5d835afcaaf2a10c3cfe",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "aoa3:holding_item",
+                "predicate": {
+                  "items": "aoa3:charged_rune"
+                },
+                "target": "this"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:compass_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:distortion_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:energy_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:fire_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:kinetic_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:life_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:lunar_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:poison_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:power_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:storm_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:strike_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:water_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:wind_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:wither_rune",
+                "weight": 100
+              }
+            ],
+            "name": "powered_runes",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 1.0
+            },
+            "conditions": [
+              {
+                "condition": "aoa3:holding_item",
+                "predicate": {
+                  "items": "aoa3:unpowered_rune"
+                },
+                "target": "this"
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:energy_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:fire_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:poison_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:power_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:strike_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:water_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:wind_rune",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:wither_rune",
+                "weight": 100
+              }
+            ],
+            "name": "unpowered_runes",
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/block/generation/misc/RunePostBlock.class",
+      "sha256": "cdc1f81292c2d7df8fefddf8f9b8fce1b701ed03de9d93800f6925030a26038f",
+      "methods": [
+        {
+          "name": "useItemOn",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;",
+          "code_hex": "2bb60015c1001b99006f2d1904b6001db60023b6002999001b2db6002f9a001019051232b80034b8003ab60040b20046b02db6002f9a003904bb004c592dc0004e19042ab600502bb600532bb60015c0001bb60057681905b7005ab8005d1905b600639a000b2b2bb60053b600662db6002fb8006ab0b2006eb0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/functional/utility/RuneRandomizer.class",
+      "sha256": "9625e04c5d0f3c26ded6683208cd703ff0d69f68ed03c533319db23e54a1130c",
+      "methods": [
+        {
+          "name": "useItemOn",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;",
+          "code_hex": "2bb60007b2000db60013a500102bb60007b20019b60013a6006c1905c1001c99005c1905c0001c3a081908b6001e9a00082b04b6002219081226b800281908b6002e1904b800321905b80038b8003eb800421908b60048011904b6004c871904b60052871904b6005587b20058b6005ec00061b200630c0cb600692db4006fb80073b0b20079b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/scheduling/sync/RuneCreationTask.class",
+      "sha256": "b589db89994999daf1e9aa9b6537e4a5806b38297c992bce4436ce596d8a8453",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/Item;ILnet/minecraft/world/entity/player/Player;)V",
+          "code_hex": "2ab700012a2bb500072a2cb5000d2a2db500112a1504b500152a1905b500192a1014061504100a6c6068b5001db1"
+        },
+        {
+          "name": "run",
+          "descriptor": "(I)V",
+          "code_hex": "2a59b4001d0864b5001d2ab4001d9e006d2ab40007b200202ab4000db600268714002c63b8002e1400346b632ab4000db60036870f631400391400392ab4001d876b123b123c2ab4001586123d6e626a8d6f67632ab4000db6003e8714002c63b8002e1400346b63040e0e0e140041b6004357082ab80049a7007f033d1c2ab40015a20075bb004f592ab400072ab4000db60026861251628d2ab4000db60036861252628d2ab4000db6003e861251628dbb0053592ab4001110402ab40015b80055b7005bb7005e4e2d0e0e0eb600612d2ab40019b600652db600692d04b6006c2ab400072db60070571c2db60074b60078603da7ff89b1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/loottable/condition/WearingOrHoldingItem.class",
+      "sha256": "d9c386718c50dcbc6ade9955d6402ccef7cf4580c3243331c9acc40b6ec0931d",
+      "methods": [
+        {
+          "name": "test",
+          "descriptor": "(Lnet/minecraft/world/level/storage/loot/LootContext;)Z",
+          "code_hex": "2b2ab40007b6002ab600364e2dc1003c9900272dc0003c4d2ab400112a2cba003e0000b600422a2cba00480000b6004bc0004fb60051ac03ac"
+        },
+        {
+          "name": "test",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "code_hex": "2a2bc00037b60055ac"
+        },
+        {
+          "name": "lambda$test$3",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)Ljava/lang/Boolean;",
+          "code_hex": "b800594d2cbe3e03360415041da200242c1504323a052ab4000d2b1905b6005fb6006399000804b80068b0840401a7ffdc03b80068b0"
+        },
+        {
+          "name": "lambda$test$2",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)Ljava/lang/Boolean;",
+          "code_hex": "2ab4000d2b2cb6005fb60063b80068b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/misc/RuneSource.class",
+      "sha256": "11bbc17716c7618eb2669df2107a5992a34f30132484f6fb75eefa3b41e26100",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(I)V",
+          "code_hex": "2abb000159b70003b700072a1bb5000cb1"
+        },
+        {
+          "name": "getRuneGenFactor",
+          "descriptor": "()I",
+          "code_hex": "2ab4000cac"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "block": "compass_rune_post",
+      "rune": "compass_rune"
+    },
+    {
+      "block": "distortion_rune_post",
+      "rune": "distortion_rune"
+    },
+    {
+      "block": "energy_rune_post",
+      "rune": "energy_rune"
+    },
+    {
+      "block": "fire_rune_post",
+      "rune": "fire_rune"
+    },
+    {
+      "block": "kinetic_rune_post",
+      "rune": "kinetic_rune"
+    },
+    {
+      "block": "life_rune_post",
+      "rune": "life_rune"
+    },
+    {
+      "block": "lunar_rune_post",
+      "rune": "lunar_rune"
+    },
+    {
+      "block": "poison_rune_post",
+      "rune": "poison_rune"
+    },
+    {
+      "block": "power_rune_post",
+      "rune": "power_rune"
+    },
+    {
+      "block": "storm_rune_post",
+      "rune": "storm_rune"
+    },
+    {
+      "block": "strike_rune_post",
+      "rune": "strike_rune"
+    },
+    {
+      "block": "water_rune_post",
+      "rune": "water_rune"
+    },
+    {
+      "block": "wind_rune_post",
+      "rune": "wind_rune"
+    },
+    {
+      "block": "wither_rune_post",
+      "rune": "wither_rune"
+    }
+  ],
+  "source_files": {
+    "content/block/generation/misc/RunePostBlock.java": "d4219de308e2312710071385122246fbe61b6390ee728e16343af97bbbea8c71",
+    "content/block/functional/utility/RuneRandomizer.java": "4a68a54a0a152f31e3ece65f2463f265026de0490b897ef30614a4c3eed8a186",
+    "scheduling/sync/RuneCreationTask.java": "1ce359c01e72edc25c2f9a3bb882108c39b57d139fd7dd3b9ef1d41b22dab734",
+    "content/loottable/condition/WearingOrHoldingItem.java": "ae79b1a5de93ec4e7c4c84ee40bd04d5863d9ff90987844f0d07affba974a591",
+    "content/item/misc/RuneSource.java": "214e24a945d30a9f0caffb19ee5ea496715a6ffad4a14479f35f48d6f57b7730",
+    "common/registration/item/AoAItems.java": "92983531b7edda61501ceb2058409e026e062efa49e0a203909866dff62463b4",
+    "common/registration/block/AoABlocks.java": "96181e81fc1925b67018cd697fd233de91b06b70f6fb0a1816ca5dca14234faa"
+  },
+  "batch_cases": [
+    {
+      "input_count": 1,
+      "factor": 1,
+      "target": 1,
+      "spawned_stack_sizes": [
+        1
+      ],
+      "constructed_total": 1,
+      "timer_budget_ticks": 60
+    },
+    {
+      "input_count": 16,
+      "factor": 1,
+      "target": 16,
+      "spawned_stack_sizes": [
+        16
+      ],
+      "constructed_total": 16,
+      "timer_budget_ticks": 80
+    },
+    {
+      "input_count": 32,
+      "factor": 2,
+      "target": 64,
+      "spawned_stack_sizes": [
+        64
+      ],
+      "constructed_total": 64,
+      "timer_budget_ticks": 180
+    },
+    {
+      "input_count": 33,
+      "factor": 2,
+      "target": 66,
+      "spawned_stack_sizes": [
+        64,
+        64
+      ],
+      "constructed_total": 128,
+      "timer_budget_ticks": 180
+    },
+    {
+      "input_count": 40,
+      "factor": 2,
+      "target": 80,
+      "spawned_stack_sizes": [
+        64,
+        64
+      ],
+      "constructed_total": 128,
+      "timer_budget_ticks": 220
+    },
+    {
+      "input_count": 63,
+      "factor": 2,
+      "target": 126,
+      "spawned_stack_sizes": [
+        64,
+        64
+      ],
+      "constructed_total": 128,
+      "timer_budget_ticks": 300
+    },
+    {
+      "input_count": 64,
+      "factor": 2,
+      "target": 128,
+      "spawned_stack_sizes": [
+        64,
+        64
+      ],
+      "constructed_total": 128,
+      "timer_budget_ticks": 300
+    }
+  ],
+  "randomizer_equipment_cases": [
+    {
+      "used": "unpowered",
+      "input_count": 1,
+      "other_hand": null,
+      "eligible_pools": []
+    },
+    {
+      "used": "unpowered",
+      "input_count": 2,
+      "other_hand": null,
+      "eligible_pools": [
+        "unpowered"
+      ]
+    },
+    {
+      "used": "charged",
+      "input_count": 1,
+      "other_hand": null,
+      "eligible_pools": []
+    },
+    {
+      "used": "charged",
+      "input_count": 2,
+      "other_hand": null,
+      "eligible_pools": [
+        "charged"
+      ]
+    },
+    {
+      "used": "unpowered",
+      "input_count": 1,
+      "other_hand": "charged",
+      "eligible_pools": [
+        "charged"
+      ]
+    },
+    {
+      "used": "charged",
+      "input_count": 2,
+      "other_hand": "unpowered",
+      "eligible_pools": [
+        "charged",
+        "unpowered"
+      ]
+    }
+  ],
+  "acquisition_scope": "No direct recipe for a Rune Post or Rune Randomizer was found in the released recipe directory. Source registration and block loot do not prove natural survival availability. Structure NBT/world placement not certified.",
+  "acceptance": [
+    "Construct final post stack from min(64, count-spawned); verify total conservation at 64/66/80/126/128",
+    "Make randomizer output selection depend on the submitted input snapshot rather than post-consumption equipment; check both hands and final item",
+    "Test blocked post, full-stack consumption, Creative, unload/reload and player departure while scheduled task runs",
+    "Check current-build acquisition and intended relation to modern battery-powered staffs before promising a survival progression route"
+  ]
+}
