@@ -59,6 +59,8 @@ For the Power rune, gather Runium and use a valid crafting variant:
 
 [Inspect the release's Power rune recipes and alternatives](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=carved_rune_of_power). Follow one complete pattern; the existence of charged-rune alternatives does not prove arbitrary mixed ingredients work.
 
+For a checked destination-key route, follow [Precasia Realmstone: jungle archaeology](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough). It explains the relevant Suspicious Gravel, biome selectors and near-surface generation rules.
+
 ## 6. Build and check the frame
 
 ![Portal construction diagram](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/first-portal-1.21.1.webp)

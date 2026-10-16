@@ -450,3 +450,28 @@ Use [Content Specification](Content-Specification.md) for the required record an
 ## Searchable artifact-backed base attributes
 
 [Open the legacy Bestiary Observatory](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html) for 485 source-mapped entities with 2,221 resolved literal getter values, portraits, category filtering and method-level evidence. These are base getter values rather than final in-game stats. [How the values are verified](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Attribute-Field-Guide).
+
+
+## Release, dimension and biome browser
+
+[Open Bestiary Observatory](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html). Choose Minecraft / AoA release, filter dimension or biome/selector evidence, and sort by name, dimension or biome. Legacy base-health/melee sorting remains release-scoped.
+
+| Edition | Inspected roster | Records with extracted spawn evidence | Loot association coverage |
+|---|---:|---:|---|
+| 1.12.2 / 3.3.6 | 485 source-mapped getter records | 263 pinned-source spawn records | 432 exact artifact method bindings |
+| 1.16.5 / 3.6.11 | 419 pinned-source living registrations | 135 artifact spawn records | 381 matching entity-named table resources |
+| 1.20.1 / 3.7.1 | 285 pinned-source living registrations | 34 artifact spawn records | 275 matching entity-named table resources |
+| 1.21.1 / 3.7.16.1 | 83 pinned-source living registrations | 38 artifact spawn records | 76 matching entity-named table resources |
+
+These are inspected rosters, not a claim of complete runtime registries. Modern table matches are resource evidence, not certified method bindings; variant tables, custom drops and global modifiers can change the result. Biome tags remain explicit selectors, and missing spawn evidence is unknown rather than absent. Legacy dimension links follow WorldProvider / WorldType / BiomeProviderSingle relationships, not entity folder names.
+
+## Illustrated drops and practical use
+
+Expand a creature’s loot panel for item pictures, base quantities, Looting/conditional indicators, exact functions and nested tables. Recipe links preserve the selected release so you can investigate what a drop is used for. The legacy dataset currently has base icons for 576 of 602 distinct referenced items; missing or ambiguous metadata appearances are not invented. Modern pictures use their own release atlases.
+
+The interface fetches each release’s loot only when requested and caches it. Local tests exercised 787 modern creature panels and all 792 retained modern entity/nested tables, plus the legacy tables. Live browser checks covered version switching, Abyss/Barathos filtering, Creep Cow quantities and Arkback’s modern loot. No drop percentages are fabricated.
+
+### Still being filled in
+
+Complete modern runtime binding checks, variant drops, global loot additions, missing images, spawn-code paths beyond the extracted JSON/source subset, dedicated tactics, full stats and every per-creature player guide remain active work. A useful field guide must answer where to find it, how to handle it, what it drops and what those drops enable.
+
