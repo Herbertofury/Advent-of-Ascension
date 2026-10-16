@@ -82,6 +82,7 @@ The Warped Horn is a valid Skeletron boss token in the inspected source. Its nor
 - Skeletron's custom Warped Horn drop requires its synchronized `WOUNDED` flag to be true.
 - The inspected conversion callback transfers orientation but does not set that flag. Skeletron initializes it false and can restore it from NBT.
 - The released-class audit found no direct field reference outside SkeletronEntity, including references through its inheritance chain.
+- A recursive scan of all **334 shipped structure NBT files** found no embedded Skeletron or Wounded Tyrosaur entity and no compound key containing `wounded`. Every template parsed successfully. This narrows the shipped-template route only; it does not cover external datapacks, commands or runtime state. [Template scan evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/wounded-structure-nbt-audit-1.21.1.json).
 
 This is a concrete restoration/test target, not proof that no data pack, NBT path or other mod could ever supply the item. Do not send a player through an allegedly guaranteed tar-conversion reward loop until that state transition is verified or repaired.
 
