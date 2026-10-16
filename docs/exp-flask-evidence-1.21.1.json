@@ -1,0 +1,143 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Released resources and class call/literal checks, with pinned source interpretation. Float32 examples are independent arithmetic checks, not game execution.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "classes": [
+    {
+      "class": "net/tslat/aoa3/content/item/tool/artifice/ExpFlask.class",
+      "sha256": "6ef3d7a5dd3857cdbcec2d4ec0f209a4917cd3c67595857a447e670b756023a7",
+      "methods": [
+        {
+          "name": "getUseDuration",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I",
+          "code_hex": "1064ac"
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db600263a042bb4002c9a00172a1904b600329a00091904b80038b02c2db6003e1904b80042b0"
+        },
+        {
+          "name": "onUseTick",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V",
+          "code_hex": "2cc100459900982cc000453a052a2db60047380617060b959e0084041905b4004b86124f6e8b60861706b800508b360719051507b600562a2d15078604b6005a57b2005eb60063c000691905b8006b2cb40071860d6eb800760c62127c6a0c2cb40071860d6e127d62b800760c62127e6a127cb6007f101e1046b80083b60089127c128db8008eb600911905b600952a2db600329a00081905b60099b1"
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/event/PlayerEvents.class",
+      "sha256": "1652efb8b6d3d439dcd967b4a7453e83f78868250a29926b7cc8f78b9494a0d1",
+      "methods": [
+        {
+          "name": "onPlayerPickupXp",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/player/PlayerXpEvent$PickupXp;)V",
+          "code_hex": "2ab602ddb60059b4016d9a002a2ab602deb402e29e00202ab602ddba02e70000b802ebba02ef0000b602f32aba02f70000b602fab1"
+        },
+        {
+          "name": "lambda$onPlayerPickupXp$4",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/player/PlayerXpEvent$PickupXp;Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2bb600ebc003362b2ab602deb402e286b603382a04b6033c2ab602de03b502e22ab602deb6033db1"
+        },
+        {
+          "name": "lambda$onPlayerPickupXp$3",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2ab600ebc10336ac"
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/util/InventoryUtil.class",
+      "sha256": "0af28fb1134e74208ef241e7f1f9655d9e341bddb2777035d0025cf6cc2d6acd",
+      "methods": [
+        {
+          "name": "findItem",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/ItemLike;)Ljava/util/Optional;",
+          "code_hex": "2bb9000701004d2a2cba003f0000b8003cb0"
+        },
+        {
+          "name": "findItem",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/tags/TagKey;)Ljava/util/Optional;",
+          "code_hex": "2a2bba00400000b8003cb0"
+        },
+        {
+          "name": "findItem",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Ljava/util/function/Predicate;)Ljava/util/Optional;",
+          "code_hex": "2ab6001a4d2cb600419a001c2b2cb9002002009900122ab60046b4004a2cb80050b80056b02ab600254e2db600419a00172b2db90020020099000d10282db80050b80056b00336042ab60046b40059b9005d01003a051905b90063010099005f1905b900680100c0006c3a061906b6006e3a071907b90063010099003f1907b900680100c000423a0819082ca5002719082da500211908b600419a00192b1908b90020020099000e15041908b80050b80056b0840401a7ffbda7ff9db8006fb0"
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/content/item/ChargeableItem.class",
+      "sha256": "dbe8119657f99a41c2ba661a3d9303ad5ea669a395704692d9bec76af9dc87af",
+      "methods": [
+        {
+          "name": "minRequiredCharge",
+          "descriptor": "()F",
+          "code_hex": "0bae"
+        },
+        {
+          "name": "hasEnoughCharge",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2a2bb9000402002ab9000a0100959b000704a7000403ac"
+        },
+        {
+          "name": "getCharge",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)F",
+          "code_hex": "2bb2000e0bb80014b60018c00001b6001eae"
+        },
+        {
+          "name": "addCharge",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2bb2000e2a2bb90004020024622ab900210100b8002db80014b6002a57b1"
+        },
+        {
+          "name": "subtractCharge",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;FZ)F",
+          "code_hex": "2a2bb9000402003804170424969c00091d9a00050bae0b17042466b8003338052a2b1705b9003603001704170566ae"
+        }
+      ]
+    }
+  ],
+  "tooltip_hotbar_text": "Efficiently stores experience while in the hotbar",
+  "observed_search_scope": "Main hand, offhand, then all standard player inventory compartments; not limited to hotbar and not a recursive search inside other containers.",
+  "capture": "Server-side positive XP-orb pickup adds orb value to first matching flask, cancels event, zeroes orb value and discards orb.",
+  "withdrawal": "Per server use tick: integer min(1+int(experienceLevel/15f), charge), grant experience points and subtract charge. Use duration 100 ticks.",
+  "acquisition_resource_references": [],
+  "acquisition_limit": "No direct item-ID references in scanned data JSON is not proof of unavailability. Code grants, configuration, datapacks and future changes are outside this resource search. No acquisition recipe is invented.",
+  "float32_precision_examples": {
+    "stored": 16777216,
+    "one_point_add_result": 16777216.0,
+    "one_point_subtract_result": 16777215.0,
+    "two_to_25_one_point_subtract": 33554432.0
+  },
+  "models": {
+    "assets/aoa3/models/item/exp_flask.json": {
+      "parent": "minecraft:item/handheld",
+      "overrides": [
+        {
+          "model": "aoa3:item/exp_flask_filled",
+          "predicate": {
+            "minecraft:filled": 1.0
+          }
+        }
+      ],
+      "textures": {
+        "layer0": "aoa3:item/exp_flask"
+      }
+    },
+    "assets/aoa3/models/item/exp_flask_filled.json": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "aoa3:item/exp_flask_filled"
+      }
+    }
+  },
+  "target_tests": [
+    "Hotbar versus main inventory/offhand capture, first-match selection with multiple flasks",
+    "Pickup cancellation/other mod event hooks and XP conservation",
+    "Levels 0/14/15/29/30 and charge exhaustion during use",
+    "Save/reload and death recovery with actual item survival",
+    "Large stored values near float32 integer precision boundaries; safe migration before any numeric representation change"
+  ]
+}

@@ -36,7 +36,7 @@ This table describes the bundled modern guide. It does not impose the planned op
 
 **Checkpoint:** you know what makes your chosen weapon stop firing, and you have a fallback instead of discovering that during a boss fight.
 
-**Detailed preparation:** [Ammunition, the 48-bullet recipe, and Ammo Void Pouch safety](Ammunition-and-Void-Pouch-1.21.1).
+**Detailed preparation:** [Ammunition, the 48-bullet recipe, and Ammo Void Pouch safety](Ammunition-and-Void-Pouch-1.21.1). [Exp Flask storage and recovery](Exp-Flask-Storage-and-Recovery-1.21.1) explains where collected vanilla XP goes and how to reclaim it.
 
 ## 4. Find a ruined teleporter frame
 
