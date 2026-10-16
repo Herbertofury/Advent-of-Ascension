@@ -144,3 +144,7 @@ The inherited-model, miscellaneous-registration and special-model passes raise t
 ## Historical entity census classification
 
 All 525 entity classes identified by the 1.12.2 renderer census are classified with source evidence: 513 have static model/texture portraits, three have dynamic item/effect studies, and nine have [particle or invisible-body documentation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Particle-and-Invisible-Entities-1.12.2). The classification audit reports zero unmatched entries within that census. It does not certify complete runtime registries, animations or a playable conversion.
+
+## Historical growth-state completion
+
+The age-only blockstate pass now covers 388 historical states across 49 version-specific plant records: 134 on 1.20.1, 126 on 1.16.5 and 128 on 1.12.2. Combined with 134 modern states, the [growth guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) has 522 presentations across 66 version-specific plant records. Every defined state in this age-only subset resolved; this does not establish all multipart states or gameplay growth behavior.

@@ -25,7 +25,7 @@ Verified on 2026-10-15; counts are version-specific records, not unique cross-ve
 - [x] 1.16.5 literal Java model gallery: 301 portraits; historical geometry galleries add 151 version-specific presentations. These categories can overlap entity identities.
 - [x] Live model viewer: local official-JAR geometry/texture viewing with orbit, zoom, variants and PNG export; CPU fallback visually tested.
 - [x] Live recipe explorer: 6,781 extracted recipe definitions across four releases; local rendering tests pass for every card. Legacy metadata-specific dyes, saplings, wool and charcoal are correctly distinguished. Chest and Lapis Lazuli examples were verified in the deployed browser UI.
-- [x] First-portal illustrated walkthrough and 134 growth-stage references across 17 plants.
+- [x] First-portal illustrated walkthrough and 522 growth-stage references across 66 version-specific plant records in four releases.
 - [x] Optional premium weapon overhaul requirements and official authoring/compatibility references. Reloading remains optional independently of improved visuals.
 - [x] Static Coratee texture-helper mismatch documented with artifact bytecode evidence; runtime fix/test remains outstanding.
 - [ ] Obtain the blocked official 1.7.10 binary through an authorized available route or owner upload, then render that release's assets.

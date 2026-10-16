@@ -104,3 +104,11 @@
 
 ![Trilliads growth-stage models](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-growth-trilliad_crop.webp)
 
+
+## Historical age-state galleries
+
+- [1.20.1: 134 stages across 17 plant records](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Growth-Stages-1.20.1)
+- [1.16.5: 126 stages across 16 plant records](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Growth-Stages-1.16.5)
+- [1.12.2: 128 stages across 16 plant records](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Growth-Stages-1.12.2)
+
+Together with the modern gallery, these cover 522 age-state presentations across 66 version-specific plant records. These are not 66 unique plant species. Every state in the inspected age-only blockstates was resolved; other multipart/property-dependent plants require separate treatment.
