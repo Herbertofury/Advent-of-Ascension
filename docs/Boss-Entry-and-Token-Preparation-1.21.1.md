@@ -148,3 +148,7 @@ Stored-item restoration and arena cleanup are separate code paths. Their existen
 - [ ] Confirm loot, saved state, repeatability and performance without deleting phases or simplifying AI.
 
 This page adds usable preparation instructions and clearly marked gaps. It does not certify a completed owner-specific Enderloom build.
+
+## Detailed trophy progression
+
+[Illustrated original-trophy, Gold Trophy and elite encounter walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trophies-Gold-Crafting-and-Elite-Encounters-1.21.1), with eight shipped trophy loot pools, four illustrated routes and the separately labelled Skeletron acquisition gap. Keep original trophies away from spawn-egg decoration if you need them for progression.

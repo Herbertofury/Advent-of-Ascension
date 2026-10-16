@@ -103,3 +103,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Divine Station weapon upgrades
 
 [All 36 illustrated 1.21.1 upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1), covering 17 named kits plus Weapon Parts. Check positional inputs and the configured-output component policy before upgrading customized weapons. Active acquisition remains pack-specific.
+
+## Original trophies and gold crafting
+
+[Gold Trophy recipe and elite progression guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trophies-Gold-Crafting-and-Elite-Encounters-1.21.1): nine original normal trophies of one valid entity ID, first-record preservation and the distinction between collected originals and spawn-egg decorations.
