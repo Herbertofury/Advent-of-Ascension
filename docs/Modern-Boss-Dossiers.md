@@ -34,6 +34,8 @@ The inspected class defines axe-swing, axe-slam and charge attack states. The no
 
 ## Nethengeic Wither — airborne attack selection
 
+[Normal encounter field guide: aura damage choices, projectile phases and reload/targeting checks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Nethengeic-Wither-Combat-Field-Guide-1.21.1).
+
 ![Nethengeic Wither model showcase](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-mob-nethengeic_wither.png)
 
 The inspected normal/elite classes distinguish fireball, flamethrower and fire-bomb states, with aerial movement and target-selection behavior. A visual floating pose is not evidence that hover, strafing, projectile collision, fire damage or sound synchronization works.

@@ -1,0 +1,5556 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Normal encounter: selected released methods and source-derived branching, no live combat certification.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "source_sha256": "21cc12031d3c97be791eafcf89b00f490cf9c0153ec1bc7639005c4562f203be",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity.class",
+      "sha256": "1a1d6898b0f346f0d29460fbc14df871d5c24f601ff5b864d48515bb3e5467d1",
+      "methods": [
+        {
+          "name": "readAdditionalSaveData",
+          "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)V",
+          "code_hex": "2a2bb701a82ab601ac2ab601b06e1301b3969d00082a04b50007b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "readAdditionalSaveData",
+                "(Lnet/minecraft/nbt/CompoundTag;)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 42
+            },
+            {
+              "offset": 6,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getHealth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getMaxHealth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 110
+            },
+            {
+              "offset": 14,
+              "opcode": 19,
+              "constant": 0.5
+            },
+            {
+              "offset": 17,
+              "opcode": 150
+            },
+            {
+              "offset": 18,
+              "opcode": 157,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 23,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "doneFireBomb",
+                "Z"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doRangedAttackEntity",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile;Lnet/minecraft/world/entity/Entity;)V",
+          "code_hex": "2bc70070b202132a2ab60219b8021a2c0cb802205707b802249900262cb6022a11012ca2001c2c032cb6022ab8022f861302356e8db802368e046086b6023a07b8022499002b2cc101d79900242cc001d74e2d2a04bd023d5903bb023d59b2023f1064b7024404b6024753b8024aa700712ab20250b6013990462a05b60255990009251302586a462a2b2c25b802599900502c032cb6022ab8022f861302356e8db802368e066086b6023a2cc101d79900302cc001d73a0419042a04bd023d5903bb023d59b2025d1100c8b702442ab601b6b601deb601e4b6024753b8024ab1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 199,
+              "operands": [
+                0,
+                112
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoADamageTypes",
+                "MOB_FLAMETHROWER",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 42
+            },
+            {
+              "offset": 9,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "positionedEntityDamage",
+                "(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 44
+            },
+            {
+              "offset": 16,
+              "opcode": 12
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "safelyDealDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;Lnet/minecraft/world/entity/Entity;F)Z"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 87
+            },
+            {
+              "offset": 21,
+              "opcode": 7,
+              "constant": 4
+            },
+            {
+              "offset": 22,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "oneInNChance",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 153,
+              "operands": [
+                0,
+                38
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 44
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "getRemainingFireTicks",
+                "()I"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 17,
+              "constant": 300
+            },
+            {
+              "offset": 35,
+              "opcode": 162,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 44
+            },
+            {
+              "offset": 39,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 40,
+              "opcode": 44
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "getRemainingFireTicks",
+                "()I"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 134
+            },
+            {
+              "offset": 48,
+              "opcode": 19,
+              "constant": 20.0
+            },
+            {
+              "offset": 51,
+              "opcode": 110
+            },
+            {
+              "offset": 52,
+              "opcode": 141
+            },
+            {
+              "offset": 53,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "ceil",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 142
+            },
+            {
+              "offset": 57,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 58,
+              "opcode": 96
+            },
+            {
+              "offset": 59,
+              "opcode": 134
+            },
+            {
+              "offset": 60,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "igniteForSeconds",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 7,
+              "constant": 4
+            },
+            {
+              "offset": 64,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "oneInNChance",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 153,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 44
+            },
+            {
+              "offset": 71,
+              "opcode": 193,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 153,
+              "operands": [
+                0,
+                36
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 44
+            },
+            {
+              "offset": 78,
+              "opcode": 192,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 78
+            },
+            {
+              "offset": 82,
+              "opcode": 45
+            },
+            {
+              "offset": 83,
+              "opcode": 42
+            },
+            {
+              "offset": 84,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 85,
+              "opcode": 189,
+              "operands": [
+                2,
+                61
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 89
+            },
+            {
+              "offset": 89,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 90,
+              "opcode": 187,
+              "operands": [
+                2,
+                61
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 89
+            },
+            {
+              "offset": 94,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "WITHER",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 99,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 102,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 103,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 83
+            },
+            {
+              "offset": 107,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 167,
+              "operands": [
+                0,
+                113
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 42
+            },
+            {
+              "offset": 114,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAAttributes",
+                "RANGED_ATTACK_DAMAGE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getAttributeValue",
+                "(Lnet/minecraft/core/Holder;)D"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 144
+            },
+            {
+              "offset": 121,
+              "opcode": 70
+            },
+            {
+              "offset": 122,
+              "opcode": 42
+            },
+            {
+              "offset": 123,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 124,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "isAttackState",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 153,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 37
+            },
+            {
+              "offset": 131,
+              "opcode": 19,
+              "constant": 1.5
+            },
+            {
+              "offset": 134,
+              "opcode": 106
+            },
+            {
+              "offset": 135,
+              "opcode": 70
+            },
+            {
+              "offset": 136,
+              "opcode": 42
+            },
+            {
+              "offset": 137,
+              "opcode": 43
+            },
+            {
+              "offset": 138,
+              "opcode": 44
+            },
+            {
+              "offset": 139,
+              "opcode": 37
+            },
+            {
+              "offset": 140,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "doProjectileAttack",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+              ]
+            },
+            {
+              "offset": 143,
+              "opcode": 153,
+              "operands": [
+                0,
+                80
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 44
+            },
+            {
+              "offset": 147,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 148,
+              "opcode": 44
+            },
+            {
+              "offset": 149,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "getRemainingFireTicks",
+                "()I"
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 134
+            },
+            {
+              "offset": 156,
+              "opcode": 19,
+              "constant": 20.0
+            },
+            {
+              "offset": 159,
+              "opcode": 110
+            },
+            {
+              "offset": 160,
+              "opcode": 141
+            },
+            {
+              "offset": 161,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "ceil",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 142
+            },
+            {
+              "offset": 165,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 166,
+              "opcode": 96
+            },
+            {
+              "offset": 167,
+              "opcode": 134
+            },
+            {
+              "offset": 168,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "igniteForSeconds",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 44
+            },
+            {
+              "offset": 172,
+              "opcode": 193,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 153,
+              "operands": [
+                0,
+                48
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 44
+            },
+            {
+              "offset": 179,
+              "opcode": 192,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 182,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 184,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 42
+            },
+            {
+              "offset": 187,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 188,
+              "opcode": 189,
+              "operands": [
+                2,
+                61
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 89
+            },
+            {
+              "offset": 192,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 193,
+              "opcode": 187,
+              "operands": [
+                2,
+                61
+              ]
+            },
+            {
+              "offset": 196,
+              "opcode": 89
+            },
+            {
+              "offset": 197,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAMobEffects",
+                "NETHENGEIC_CURSE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 200,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 203,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 206,
+              "opcode": 42
+            },
+            {
+              "offset": 207,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 210,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getDifficulty",
+                "()Lnet/minecraft/world/Difficulty;"
+              ]
+            },
+            {
+              "offset": 213,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/Difficulty",
+                "getId",
+                "()I"
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 83
+            },
+            {
+              "offset": 220,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "descriptor": "(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+          "code_hex": "2ab602799900742bb8027d99005f2bb602813a041904c101d799004e1904c001d74eb202872ab8028a2d13028eb80220572d032db6028fb8022f861302356e8db802368e056086b602902d2a04bd023d5903bb023d59b2025d1100c8b7024406b6024753b8024aa700112bb8029199000a2a24b6029403ac2a2b24b70297ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "hasAura",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                116
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "isMeleeDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 153,
+              "operands": [
+                0,
+                95
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 43
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "getDirectEntity",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 193,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 153,
+              "operands": [
+                0,
+                78
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 192,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 78
+            },
+            {
+              "offset": 34,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoADamageTypes",
+                "MOB_FIRE_RECOIL",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 42
+            },
+            {
+              "offset": 38,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "entityDamage",
+                "(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 45
+            },
+            {
+              "offset": 42,
+              "opcode": 19,
+              "constant": 5.0
+            },
+            {
+              "offset": 45,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "safelyDealDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;Lnet/minecraft/world/entity/Entity;F)Z"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 87
+            },
+            {
+              "offset": 49,
+              "opcode": 45
+            },
+            {
+              "offset": 50,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 51,
+              "opcode": 45
+            },
+            {
+              "offset": 52,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getRemainingFireTicks",
+                "()I"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 134
+            },
+            {
+              "offset": 59,
+              "opcode": 19,
+              "constant": 20.0
+            },
+            {
+              "offset": 62,
+              "opcode": 110
+            },
+            {
+              "offset": 63,
+              "opcode": 141
+            },
+            {
+              "offset": 64,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "ceil",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 142
+            },
+            {
+              "offset": 68,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 69,
+              "opcode": 96
+            },
+            {
+              "offset": 70,
+              "opcode": 134
+            },
+            {
+              "offset": 71,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "igniteForSeconds",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 45
+            },
+            {
+              "offset": 75,
+              "opcode": 42
+            },
+            {
+              "offset": 76,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 77,
+              "opcode": 189,
+              "operands": [
+                2,
+                61
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 89
+            },
+            {
+              "offset": 81,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 82,
+              "opcode": 187,
+              "operands": [
+                2,
+                61
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 89
+            },
+            {
+              "offset": 86,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAMobEffects",
+                "NETHENGEIC_CURSE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 89,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 92,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 96,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 99,
+              "opcode": 83
+            },
+            {
+              "offset": 100,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 167,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 43
+            },
+            {
+              "offset": 107,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "isEnergyDamage",
+                "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 42
+            },
+            {
+              "offset": 114,
+              "opcode": 36
+            },
+            {
+              "offset": 115,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "heal",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 119,
+              "opcode": 172
+            },
+            {
+              "offset": 120,
+              "opcode": 42
+            },
+            {
+              "offset": 121,
+              "opcode": 43
+            },
+            {
+              "offset": 122,
+              "opcode": 36
+            },
+            {
+              "offset": 123,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/AoABoss",
+                "hurt",
+                "(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "entityStats",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;",
+          "code_hex": "2ab8031d140323b60325140329b6032b14032eb60330140333b603350fb6033814033bb6033d14033bb603400fb60343b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "createMonster",
+                "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 20,
+              "constant": 420.0
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "health",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 20,
+              "constant": 0.31
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "moveSpeed",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 20,
+              "constant": 0.6
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "flyingSpeed",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 20,
+              "constant": 6.0
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "projectileDamage",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 15
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "knockbackResist",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 20,
+              "constant": 128.0
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "followRange",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 20,
+              "constant": 128.0
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "aggroRange",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 15
+            },
+            {
+              "offset": 45,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder",
+                "knockback",
+                "(D)Lnet/tslat/aoa3/common/registration/entity/AoAEntityStats$AttributeBuilder;"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$getAdditionalTasks$25",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)V",
+          "code_hex": "2bb200deb60064c000b0b803c0c001d74d2cc6001c2a2bb601d62bb603c41403c71403c91403cbb803cd2cb6020fb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoABrainMemories",
+                "THIRD_ATTACK_TARGET",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                176
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 77
+            },
+            {
+              "offset": 17,
+              "opcode": 44
+            },
+            {
+              "offset": 18,
+              "opcode": 198,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 43
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 43
+            },
+            {
+              "offset": 27,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getYRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 20,
+              "constant": 1.25
+            },
+            {
+              "offset": 33,
+              "opcode": 20,
+              "constant": -0.5
+            },
+            {
+              "offset": 36,
+              "opcode": 20,
+              "constant": -0.25
+            },
+            {
+              "offset": 39,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "moveRelativeToFacing",
+                "(Lnet/minecraft/world/phys/Vec3;FDDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 44
+            },
+            {
+              "offset": 43,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "doFireball",
+                "(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/LivingEntity;)V"
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$getAdditionalTasks$20",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)V",
+          "code_hex": "2bb200deb60064c000b0b803c0c001d74d2cc6001a2a2bb601d62bb603c41403dc0e1403cbb803cd2cb6020fb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoABrainMemories",
+                "THIRD_ATTACK_TARGET",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                176
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                1,
+                215
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 77
+            },
+            {
+              "offset": 17,
+              "opcode": 44
+            },
+            {
+              "offset": 18,
+              "opcode": 198,
+              "operands": [
+                0,
+                26
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 43
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 43
+            },
+            {
+              "offset": 27,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getYRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 20,
+              "constant": -1.25
+            },
+            {
+              "offset": 33,
+              "opcode": 14
+            },
+            {
+              "offset": 34,
+              "opcode": 20,
+              "constant": -0.25
+            },
+            {
+              "offset": 37,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "moveRelativeToFacing",
+                "(Lnet/minecraft/world/phys/Vec3;FDDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 44
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "doFireball",
+                "(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/LivingEntity;)V"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack.class",
+      "sha256": "36b0d03ef24be3d4c025427720364f33e351b5c17f9566d89ba0ea372392a9c7",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2ab700032abb000959b7000bb5000c2aba00120000b60016572a2aba001a0000b6001d572aba00210000b60025572a2aba00290000b6002c572aba002f0000b60033572a2aba00370000b6003a57b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/smartbrainlib/api/core/behaviour/custom/attack/ConditionlessHeldAttack",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 187,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 89
+            },
+            {
+              "offset": 9,
+              "opcode": 183,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/ObjectArrayList",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 186,
+              "operands": [
+                0,
+                18,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "runFor",
+                "(Ljava/util/function/Function;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 87
+            },
+            {
+              "offset": 25,
+              "opcode": 42
+            },
+            {
+              "offset": 26,
+              "opcode": 42
+            },
+            {
+              "offset": 27,
+              "opcode": 186,
+              "operands": [
+                0,
+                26,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "onTick",
+                "(Ljava/util/function/Function;)Lnet/tslat/smartbrainlib/api/core/behaviour/HeldBehaviour;"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 87
+            },
+            {
+              "offset": 36,
+              "opcode": 42
+            },
+            {
+              "offset": 37,
+              "opcode": 186,
+              "operands": [
+                0,
+                33,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "startCondition",
+                "(Ljava/util/function/Predicate;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 87
+            },
+            {
+              "offset": 46,
+              "opcode": 42
+            },
+            {
+              "offset": 47,
+              "opcode": 42
+            },
+            {
+              "offset": 48,
+              "opcode": 186,
+              "operands": [
+                0,
+                41,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "stopIf",
+                "(Ljava/util/function/Predicate;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 87
+            },
+            {
+              "offset": 57,
+              "opcode": 42
+            },
+            {
+              "offset": 58,
+              "opcode": 186,
+              "operands": [
+                0,
+                47,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "whenStarting",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 87
+            },
+            {
+              "offset": 67,
+              "opcode": 42
+            },
+            {
+              "offset": 68,
+              "opcode": 42
+            },
+            {
+              "offset": 69,
+              "opcode": 186,
+              "operands": [
+                0,
+                55,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "whenStopping",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 87
+            },
+            {
+              "offset": 78,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$5",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)V",
+          "code_hex": "2b04b5003d2b03b600412b12451247b600492bb2004db900530100c0005904b8005b1019b800612ab4000cb9006701009a00842ab4000cb9006d01004d2cb90071010099005f2cb900760100c000794e2db6007b2bb6007fb60080b600863a042d1904b400891904b4008db8009090b600962d2db6007b190414009a14009a14009ab6009cb600a01400a3072bb600a5b600a9b600af6487b800b52db800bba7ff9e2bb200bf0c0cb600c52ab4000cb900c901002bb600cc9900072bb600cfb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 2,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "doneFireBomb",
+                "Z"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 43
+            },
+            {
+              "offset": 6,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setAttackState",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 18,
+              "constant": "Middle Head"
+            },
+            {
+              "offset": 13,
+              "opcode": 18,
+              "constant": "fire_aura"
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "triggerAnim",
+                "(Ljava/lang/String;Ljava/lang/String;)V"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 43
+            },
+            {
+              "offset": 19,
+              "opcode": 178,
+              "member": [
+                "net/tslat/smartbrainlib/registry/SBLMemoryTypes",
+                "SPECIAL_ATTACK_COOLDOWN",
+                "Ljava/util/function/Supplier;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Supplier",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 192,
+              "operands": [
+                0,
+                89
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 31,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 16,
+              "constant": 25
+            },
+            {
+              "offset": 36,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "setForgettableMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;I)V"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 42
+            },
+            {
+              "offset": 40,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 154,
+              "operands": [
+                0,
+                132
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 42
+            },
+            {
+              "offset": 52,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 77
+            },
+            {
+              "offset": 61,
+              "opcode": 44
+            },
+            {
+              "offset": 62,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 153,
+              "operands": [
+                0,
+                95
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 44
+            },
+            {
+              "offset": 71,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 192,
+              "operands": [
+                0,
+                121
+              ]
+            },
+            {
+              "offset": 79,
+              "opcode": 78
+            },
+            {
+              "offset": 80,
+              "opcode": 45
+            },
+            {
+              "offset": 81,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 43
+            },
+            {
+              "offset": 85,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 45
+            },
+            {
+              "offset": 97,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 99,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 102,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "y",
+                "D"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "atan2",
+                "(DD)D"
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 144
+            },
+            {
+              "offset": 111,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "setYRot",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 45
+            },
+            {
+              "offset": 115,
+              "opcode": 45
+            },
+            {
+              "offset": 116,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 119,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 124,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 127,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 130,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "multiply",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 20,
+              "constant": 1.2
+            },
+            {
+              "offset": 139,
+              "opcode": 7,
+              "constant": 4
+            },
+            {
+              "offset": 140,
+              "opcode": 43
+            },
+            {
+              "offset": 141,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getDifficulty",
+                "()Lnet/minecraft/world/Difficulty;"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/Difficulty",
+                "getId",
+                "()I"
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 100
+            },
+            {
+              "offset": 151,
+              "opcode": 135
+            },
+            {
+              "offset": 152,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "moveTowards",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;DD)V"
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 45
+            },
+            {
+              "offset": 156,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "faceTowardsMotion",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 159,
+              "opcode": 167,
+              "operands": [
+                255,
+                158
+              ]
+            },
+            {
+              "offset": 162,
+              "opcode": 43
+            },
+            {
+              "offset": 163,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundEvents",
+                "BLAZE_SHOOT",
+                "Lnet/minecraft/sounds/SoundEvent;"
+              ]
+            },
+            {
+              "offset": 166,
+              "opcode": 12
+            },
+            {
+              "offset": 167,
+              "opcode": 12
+            },
+            {
+              "offset": 168,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "playSound",
+                "(Lnet/minecraft/sounds/SoundEvent;FF)V"
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 42
+            },
+            {
+              "offset": 172,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "clear",
+                "()V"
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 43
+            },
+            {
+              "offset": 181,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "hasAura",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 184,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 187,
+              "opcode": 43
+            },
+            {
+              "offset": 188,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "toggleAura",
+                "()V"
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$4",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)V",
+          "code_hex": "2a12451247b600492ab600d2b600d62a0bb600db2a0bb600de2a0bb600e12ab200e4b600e82ab200ecb800f02a05b60041b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 18,
+              "constant": "Middle Head"
+            },
+            {
+              "offset": 3,
+              "opcode": 18,
+              "constant": "fire_aura"
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "triggerAnim",
+                "(Ljava/lang/String;Ljava/lang/String;)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 42
+            },
+            {
+              "offset": 9,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getNavigation",
+                "()Lnet/minecraft/world/entity/ai/navigation/PathNavigation;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/ai/navigation/PathNavigation",
+                "stop",
+                "()V"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 11
+            },
+            {
+              "offset": 17,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setXxa",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 11
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setYya",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 42
+            },
+            {
+              "offset": 26,
+              "opcode": 11
+            },
+            {
+              "offset": 27,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setZza",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "ZERO",
+                "Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setDeltaMovement",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 42
+            },
+            {
+              "offset": 38,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "PATH",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "clearMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)V"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 42
+            },
+            {
+              "offset": 45,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 46,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setAttackState",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$3",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Z",
+          "code_hex": "2a2bb200f4b800f7c000fb5ab500fdc7000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "ATTACK_TARGET",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 192,
+              "operands": [
+                0,
+                251
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 90
+            },
+            {
+              "offset": 12,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "target",
+                "Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 199,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 19,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 23,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$2",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Z",
+          "code_hex": "2ab4003d9a00182ab601012ab601050d6e959d000a2ab600cc99000503ac2ab200f4b800f7c000fb4c2bc6000e2bb6010899000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "doneFireBomb",
+                "Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getHealth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getMaxHealth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 13
+            },
+            {
+              "offset": 16,
+              "opcode": 110
+            },
+            {
+              "offset": 17,
+              "opcode": 149
+            },
+            {
+              "offset": 18,
+              "opcode": 157,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "hasAura",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 153,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 29,
+              "opcode": 172
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "ATTACK_TARGET",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 192,
+              "operands": [
+                0,
+                251
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 76
+            },
+            {
+              "offset": 41,
+              "opcode": 43
+            },
+            {
+              "offset": 42,
+              "opcode": 198,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 43
+            },
+            {
+              "offset": 46,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 53,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 57,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$1",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Ljava/lang/Boolean;",
+          "code_hex": "2ab4010b1014a1000e2bb600cc9a00072bb600cf2b2ab400fdb6010f2bb6007fb60080b600860e1401100eb6009c0e2bb4011287b801151401196b0eb6011bb600e82ab4010b1014709a012c2ab4000cb9006701009a008a2ab4000cb9006d01004d2cb9007101009900652cb900760100c000794e2db6007b2bb6007fb600800f0e0fb6009cb600863a042d1904b400891904b4008db8009090b600962d2db6007b190414009a14009a14009ab6009cb600a014011d072bb600a5b600a9b600af6487b800b52db800bba7ff982bb200bf0c0cb600c52ab4000cb900c9010013011f130120b801211301296a8d492814012a989d008214012c3904180414012e989d006bbb0079592bb600a52bb20130b701363a0628b80115390728b80139390919062bb6007f14012e18076b2bb6013c0d6e8d18046314012e18096bb6011bb6013f19060e1401420eb601442bb600a51906b60147572ab4000c1906b9014b02005718040f633904a7ff922814014e6349a7ff7c04b8005bb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "runningTime",
+                "I"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 6,
+              "opcode": 161,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 43
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "hasAura",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 154,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 43
+            },
+            {
+              "offset": 17,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "toggleAura",
+                "()V"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 43
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "target",
+                "Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 43
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 14
+            },
+            {
+              "offset": 39,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 42,
+              "opcode": 14
+            },
+            {
+              "offset": 43,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "multiply",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 14
+            },
+            {
+              "offset": 47,
+              "opcode": 43
+            },
+            {
+              "offset": 48,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "tickCount",
+                "I"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 135
+            },
+            {
+              "offset": 52,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "cos",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 20,
+              "constant": 0.05000000074505806
+            },
+            {
+              "offset": 58,
+              "opcode": 107
+            },
+            {
+              "offset": 59,
+              "opcode": 14
+            },
+            {
+              "offset": 60,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setDeltaMovement",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 42
+            },
+            {
+              "offset": 67,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "runningTime",
+                "I"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 16,
+              "constant": 20
+            },
+            {
+              "offset": 72,
+              "opcode": 112
+            },
+            {
+              "offset": 73,
+              "opcode": 154,
+              "operands": [
+                1,
+                44
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 42
+            },
+            {
+              "offset": 77,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 154,
+              "operands": [
+                0,
+                138
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 42
+            },
+            {
+              "offset": 89,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 92,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 77
+            },
+            {
+              "offset": 98,
+              "opcode": 44
+            },
+            {
+              "offset": 99,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 153,
+              "operands": [
+                0,
+                101
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 44
+            },
+            {
+              "offset": 108,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 192,
+              "operands": [
+                0,
+                121
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 78
+            },
+            {
+              "offset": 117,
+              "opcode": 45
+            },
+            {
+              "offset": 118,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 43
+            },
+            {
+              "offset": 122,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 125,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 15
+            },
+            {
+              "offset": 129,
+              "opcode": 14
+            },
+            {
+              "offset": 130,
+              "opcode": 15
+            },
+            {
+              "offset": 131,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "multiply",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 137,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 45
+            },
+            {
+              "offset": 140,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 142,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "y",
+                "D"
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "atan2",
+                "(DD)D"
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 144
+            },
+            {
+              "offset": 154,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "setYRot",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 157,
+              "opcode": 45
+            },
+            {
+              "offset": 158,
+              "opcode": 45
+            },
+            {
+              "offset": 159,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 162,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 167,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 170,
+              "opcode": 20,
+              "constant": 10.0
+            },
+            {
+              "offset": 173,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "multiply",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 176,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 179,
+              "opcode": 20,
+              "constant": 1.4
+            },
+            {
+              "offset": 182,
+              "opcode": 7,
+              "constant": 4
+            },
+            {
+              "offset": 183,
+              "opcode": 43
+            },
+            {
+              "offset": 184,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 187,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getDifficulty",
+                "()Lnet/minecraft/world/Difficulty;"
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/Difficulty",
+                "getId",
+                "()I"
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 100
+            },
+            {
+              "offset": 194,
+              "opcode": 135
+            },
+            {
+              "offset": 195,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "moveTowards",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;DD)V"
+              ]
+            },
+            {
+              "offset": 198,
+              "opcode": 45
+            },
+            {
+              "offset": 199,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "faceTowardsMotion",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 167,
+              "operands": [
+                255,
+                152
+              ]
+            },
+            {
+              "offset": 205,
+              "opcode": 43
+            },
+            {
+              "offset": 206,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundEvents",
+                "BLAZE_SHOOT",
+                "Lnet/minecraft/sounds/SoundEvent;"
+              ]
+            },
+            {
+              "offset": 209,
+              "opcode": 12
+            },
+            {
+              "offset": 210,
+              "opcode": 12
+            },
+            {
+              "offset": 211,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "playSound",
+                "(Lnet/minecraft/sounds/SoundEvent;FF)V"
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 42
+            },
+            {
+              "offset": 215,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 218,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "clear",
+                "()V"
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 19,
+              "constant": -45.0
+            },
+            {
+              "offset": 226,
+              "opcode": 19,
+              "constant": 45.0
+            },
+            {
+              "offset": 229,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "valueBetween",
+                "(FF)F"
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 19,
+              "constant": 0.01745329238474369
+            },
+            {
+              "offset": 235,
+              "opcode": 106
+            },
+            {
+              "offset": 236,
+              "opcode": 141
+            },
+            {
+              "offset": 237,
+              "opcode": 73
+            },
+            {
+              "offset": 238,
+              "opcode": 40
+            },
+            {
+              "offset": 239,
+              "opcode": 20,
+              "constant": 6.2831854820251465
+            },
+            {
+              "offset": 242,
+              "opcode": 152
+            },
+            {
+              "offset": 243,
+              "opcode": 157,
+              "operands": [
+                0,
+                130
+              ]
+            },
+            {
+              "offset": 246,
+              "opcode": 20,
+              "constant": -2.0
+            },
+            {
+              "offset": 249,
+              "opcode": 57,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 251,
+              "opcode": 24,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 253,
+              "opcode": 20,
+              "constant": 2.0
+            },
+            {
+              "offset": 256,
+              "opcode": 152
+            },
+            {
+              "offset": 257,
+              "opcode": 157,
+              "operands": [
+                0,
+                107
+              ]
+            },
+            {
+              "offset": 260,
+              "opcode": 187,
+              "operands": [
+                0,
+                121
+              ]
+            },
+            {
+              "offset": 263,
+              "opcode": 89
+            },
+            {
+              "offset": 264,
+              "opcode": 43
+            },
+            {
+              "offset": 265,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 268,
+              "opcode": 43
+            },
+            {
+              "offset": 269,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile$Type",
+                "PHYSICAL",
+                "Lnet/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile$Type;"
+              ]
+            },
+            {
+              "offset": 272,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "<init>",
+                "(Lnet/minecraft/world/level/Level;Lnet/tslat/aoa3/content/entity/base/AoARangedAttacker;Lnet/tslat/aoa3/content/entity/projectile/mob/BaseMobProjectile$Type;)V"
+              ]
+            },
+            {
+              "offset": 275,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 277,
+              "opcode": 40
+            },
+            {
+              "offset": 278,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "cos",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 281,
+              "opcode": 57,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 283,
+              "opcode": 40
+            },
+            {
+              "offset": 284,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "sin",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 287,
+              "opcode": 57,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 289,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 291,
+              "opcode": 43
+            },
+            {
+              "offset": 292,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 295,
+              "opcode": 20,
+              "constant": 2.0
+            },
+            {
+              "offset": 298,
+              "opcode": 24,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 300,
+              "opcode": 107
+            },
+            {
+              "offset": 301,
+              "opcode": 43
+            },
+            {
+              "offset": 302,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 305,
+              "opcode": 13
+            },
+            {
+              "offset": 306,
+              "opcode": 110
+            },
+            {
+              "offset": 307,
+              "opcode": 141
+            },
+            {
+              "offset": 308,
+              "opcode": 24,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 310,
+              "opcode": 99
+            },
+            {
+              "offset": 311,
+              "opcode": 20,
+              "constant": 2.0
+            },
+            {
+              "offset": 314,
+              "opcode": 24,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 316,
+              "opcode": 107
+            },
+            {
+              "offset": 317,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 320,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "setPos",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 323,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 325,
+              "opcode": 14
+            },
+            {
+              "offset": 326,
+              "opcode": 20,
+              "constant": -0.009999999776482582
+            },
+            {
+              "offset": 329,
+              "opcode": 14
+            },
+            {
+              "offset": 330,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/mob/FireballEntity",
+                "setDeltaMovement",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 333,
+              "opcode": 43
+            },
+            {
+              "offset": 334,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 337,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 339,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "addFreshEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 342,
+              "opcode": 87
+            },
+            {
+              "offset": 343,
+              "opcode": 42
+            },
+            {
+              "offset": 344,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FireBombAttack",
+                "fireballs",
+                "Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 347,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 349,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "add",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 354,
+              "opcode": 87
+            },
+            {
+              "offset": 355,
+              "opcode": 24,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 357,
+              "opcode": 15
+            },
+            {
+              "offset": 358,
+              "opcode": 99
+            },
+            {
+              "offset": 359,
+              "opcode": 57,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 361,
+              "opcode": 167,
+              "operands": [
+                255,
+                146
+              ]
+            },
+            {
+              "offset": 364,
+              "opcode": 40
+            },
+            {
+              "offset": 365,
+              "opcode": 20,
+              "constant": 0.7853981852531433
+            },
+            {
+              "offset": 368,
+              "opcode": 99
+            },
+            {
+              "offset": 369,
+              "opcode": 73
+            },
+            {
+              "offset": 370,
+              "opcode": 167,
+              "operands": [
+                255,
+                124
+              ]
+            },
+            {
+              "offset": 373,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 374,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 377,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$0",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Ljava/lang/Integer;",
+          "code_hex": "110118b80150b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 17,
+              "constant": 280
+            },
+            {
+              "offset": 3,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack.class",
+      "sha256": "9ffed080d629e79a58a353ddf448483ea18c0cad373e1e0de25f78d081af0b26",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2ab700032aba00090000b6000d572ab60013572a2aba00170000b6001a572aba001e0000b60022572aba00260000b60027572aba002a0000b6002e572aba00320000b6003357b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "net/tslat/smartbrainlib/api/core/behaviour/custom/attack/ConditionlessHeldAttack",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 186,
+              "operands": [
+                0,
+                9,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "runFor",
+                "(Ljava/util/function/Function;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 87
+            },
+            {
+              "offset": 14,
+              "opcode": 42
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "requiresTarget",
+                "()Lnet/tslat/smartbrainlib/api/core/behaviour/custom/attack/ConditionlessHeldAttack;"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 87
+            },
+            {
+              "offset": 19,
+              "opcode": 42
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 186,
+              "operands": [
+                0,
+                23,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "onTick",
+                "(Ljava/util/function/Function;)Lnet/tslat/smartbrainlib/api/core/behaviour/HeldBehaviour;"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 87
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 186,
+              "operands": [
+                0,
+                30,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "startCondition",
+                "(Ljava/util/function/Predicate;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 87
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 186,
+              "operands": [
+                0,
+                38,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "stopIf",
+                "(Ljava/util/function/Predicate;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 87
+            },
+            {
+              "offset": 50,
+              "opcode": 42
+            },
+            {
+              "offset": 51,
+              "opcode": 186,
+              "operands": [
+                0,
+                42,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "whenStarting",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 87
+            },
+            {
+              "offset": 60,
+              "opcode": 42
+            },
+            {
+              "offset": 61,
+              "opcode": 186,
+              "operands": [
+                0,
+                50,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "whenStopping",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/smartbrainlib/api/core/behaviour/ExtendedBehaviour;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 87
+            },
+            {
+              "offset": 70,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$5",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)V",
+          "code_hex": "2a03b600362ab6003a9900072ab6003e2ab20041b900470100c0004d04b8004f101eb80055b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setAttackState",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 42
+            },
+            {
+              "offset": 6,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "hasAura",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 42
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "toggleAura",
+                "()V"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 42
+            },
+            {
+              "offset": 17,
+              "opcode": 178,
+              "member": [
+                "net/tslat/smartbrainlib/registry/SBLMemoryTypes",
+                "SPECIAL_ATTACK_COOLDOWN",
+                "Ljava/util/function/Supplier;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Supplier",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 192,
+              "operands": [
+                0,
+                77
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 29,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 16,
+              "constant": 30
+            },
+            {
+              "offset": 34,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "setForgettableMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;I)V"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$4",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)V",
+          "code_hex": "2a04b60036b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "setAttackState",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$3",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Z",
+          "code_hex": "2ab2005bb8005fc000634c2bc6000a2bb600659a000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "ATTACK_TARGET",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                99
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 76
+            },
+            {
+              "offset": 11,
+              "opcode": 43
+            },
+            {
+              "offset": 12,
+              "opcode": 198,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 43
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 154,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 23,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 27,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$2",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Z",
+          "code_hex": "2ab6003a9a000503ac2ab2005bb8005fc000634c2bc6000e2bb6006599000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "hasAura",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 172
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/memory/MemoryModuleType",
+                "ATTACK_TARGET",
+                "Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/BrainUtils",
+                "getMemory",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 192,
+              "operands": [
+                0,
+                99
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 76
+            },
+            {
+              "offset": 20,
+              "opcode": 43
+            },
+            {
+              "offset": 21,
+              "opcode": 198,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 43
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 32,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 36,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$1",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Ljava/lang/Boolean;",
+          "code_hex": "2bb600682bb6006c0e0f0eb800704d2cb400764a2cb4007c39052cb4007f3907bb00825904bd00845903b200862918051807b8008c53b700903a0903360a150a08a200802ab40093b6009729140098b8009a631805140098b8009a631807140098b8009a63b600a0b600a41400a7b600a93a0b1909b200ad2bb800b32918051807b8008c0b0b0b0bb600b912bdb600be190bb600c2b600c6571909b800ca990009b200cda70006b200d02918051807b8008c190bb600c2b600c657840a01a7ff8019092bb600d3c000d72bb800d91400dfb600e12ab600e510097099000d2ab600e51013709a00122bb200e9b600eec000f10d0cb600f304b8004fb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 43
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "getYRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 14
+            },
+            {
+              "offset": 9,
+              "opcode": 15
+            },
+            {
+              "offset": 10,
+              "opcode": 14
+            },
+            {
+              "offset": 11,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PositionAndMotionUtil",
+                "moveRelativeToFacing",
+                "(Lnet/minecraft/world/phys/Vec3;FDDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 77
+            },
+            {
+              "offset": 15,
+              "opcode": 44
+            },
+            {
+              "offset": 16,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "x",
+                "D"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 74
+            },
+            {
+              "offset": 20,
+              "opcode": 44
+            },
+            {
+              "offset": 21,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "y",
+                "D"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 57,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 44
+            },
+            {
+              "offset": 27,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 57,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 187,
+              "operands": [
+                0,
+                130
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 89
+            },
+            {
+              "offset": 36,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 37,
+              "opcode": 189,
+              "operands": [
+                0,
+                132
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 89
+            },
+            {
+              "offset": 41,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 42,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "LARGE_SMOKE",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 41
+            },
+            {
+              "offset": 46,
+              "opcode": 24,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 24,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forPosition",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 83
+            },
+            {
+              "offset": 54,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "<init>",
+                "([Lnet/tslat/tme/api/particle/ParticleBuilder;)V"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 58,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 60,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 65,
+              "opcode": 162,
+              "operands": [
+                0,
+                128
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 42
+            },
+            {
+              "offset": 69,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "target",
+                "Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getEyePosition",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 41
+            },
+            {
+              "offset": 76,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 79,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 99
+            },
+            {
+              "offset": 83,
+              "opcode": 24,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 88,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 99
+            },
+            {
+              "offset": 92,
+              "opcode": 24,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 97,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "scaledGaussianValue",
+                "(D)D"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 99
+            },
+            {
+              "offset": 101,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "subtract",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "normalize",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 20,
+              "constant": 0.75
+            },
+            {
+              "offset": 110,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "scale",
+                "(D)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 115,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAParticleTypes",
+                "BURNING_FLAME",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 43
+            },
+            {
+              "offset": 121,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/particleoption/EntityTrackingParticleOptions",
+                "fromEntity",
+                "(Ljava/util/function/Supplier;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/common/particleoption/EntityTrackingParticleOptions;"
+              ]
+            },
+            {
+              "offset": 124,
+              "opcode": 41
+            },
+            {
+              "offset": 125,
+              "opcode": 24,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 24,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 129,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forPosition",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 132,
+              "opcode": 11
+            },
+            {
+              "offset": 133,
+              "opcode": 11
+            },
+            {
+              "offset": 134,
+              "opcode": 11
+            },
+            {
+              "offset": 135,
+              "opcode": 11
+            },
+            {
+              "offset": 136,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "colourTint",
+                "(FFFF)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 18,
+              "constant": 0.3499999940395355
+            },
+            {
+              "offset": 141,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "scaleMod",
+                "(F)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "velocity",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 87
+            },
+            {
+              "offset": 153,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "fiftyFifty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 158,
+              "opcode": 153,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 161,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "SMALL_FLAME",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 167,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 167,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "SQUID_INK",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 170,
+              "opcode": 41
+            },
+            {
+              "offset": 171,
+              "opcode": 24,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 24,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forPosition",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "velocity",
+                "(Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 183,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "particle",
+                "(Lnet/tslat/tme/api/particle/ParticleBuilder;)Lnet/tslat/tme/internal/networking/packet/TMEParticlePacket;"
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 87
+            },
+            {
+              "offset": 187,
+              "opcode": 132,
+              "operands": [
+                10,
+                1
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 167,
+              "operands": [
+                255,
+                128
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 195,
+              "opcode": 43
+            },
+            {
+              "offset": 196,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 192,
+              "operands": [
+                0,
+                215
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 43
+            },
+            {
+              "offset": 203,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "getEntityCenter",
+                "(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 206,
+              "opcode": 20,
+              "constant": 64.0
+            },
+            {
+              "offset": 209,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/internal/networking/packet/TMEParticlePacket",
+                "sendToAllPlayersNearby",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;D)V"
+              ]
+            },
+            {
+              "offset": 212,
+              "opcode": 42
+            },
+            {
+              "offset": 213,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "getRunningTime",
+                "()I"
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 16,
+              "constant": 9
+            },
+            {
+              "offset": 218,
+              "opcode": 112
+            },
+            {
+              "offset": 219,
+              "opcode": 153,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 222,
+              "opcode": 42
+            },
+            {
+              "offset": 223,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity$FlamethrowerAttack",
+                "getRunningTime",
+                "()I"
+              ]
+            },
+            {
+              "offset": 226,
+              "opcode": 16,
+              "constant": 19
+            },
+            {
+              "offset": 228,
+              "opcode": 112
+            },
+            {
+              "offset": 229,
+              "opcode": 154,
+              "operands": [
+                0,
+                18
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 43
+            },
+            {
+              "offset": 233,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "FLAMETHROWER",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 236,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 239,
+              "opcode": 192,
+              "operands": [
+                0,
+                241
+              ]
+            },
+            {
+              "offset": 242,
+              "opcode": 13
+            },
+            {
+              "offset": 243,
+              "opcode": 12
+            },
+            {
+              "offset": 244,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity",
+                "playSound",
+                "(Lnet/minecraft/sounds/SoundEvent;FF)V"
+              ]
+            },
+            {
+              "offset": 247,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 248,
+              "opcode": 184,
+              "member": [
+                "java/lang/Boolean",
+                "valueOf",
+                "(Z)Ljava/lang/Boolean;"
+              ]
+            },
+            {
+              "offset": 251,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "lambda$new$0",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/boss/nethengeic_wither/NethengeicWitherEntity;)Ljava/lang/Integer;",
+          "code_hex": "1100a01100f0b800f7b800fbb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 17,
+              "constant": 160
+            },
+            {
+              "offset": 3,
+              "opcode": 17,
+              "constant": 240
+            },
+            {
+              "offset": 6,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "numberBetween",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 184,
+              "member": [
+                "java/lang/Integer",
+                "valueOf",
+                "(I)Ljava/lang/Integer;"
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "energy_tag": {
+    "path": "data/aoa3/tags/damage_type/energy.json",
+    "sha256": "7bba6918b10d6d6b35cd1ac58814efee8e1deba743334b9f8ad6055fa45e7a6a",
+    "data": {
+      "values": [
+        {
+          "id": "aoa3:energy_projectile",
+          "required": false
+        },
+        {
+          "id": "aoa3:energy_effect",
+          "required": false
+        }
+      ]
+    }
+  },
+  "aura_damage_cases": [
+    {
+      "aura": false,
+      "melee_classified": false,
+      "energy_tagged": true,
+      "result": "normal superclass damage"
+    },
+    {
+      "aura": true,
+      "melee_classified": false,
+      "energy_tagged": true,
+      "result": "heal amount and reject damage"
+    },
+    {
+      "aura": true,
+      "melee_classified": true,
+      "energy_tagged": false,
+      "result": "melee retaliation then superclass damage"
+    },
+    {
+      "aura": true,
+      "melee_classified": true,
+      "energy_tagged": true,
+      "result": "melee retaliation then superclass damage"
+    },
+    {
+      "aura": true,
+      "melee_classified": false,
+      "energy_tagged": false,
+      "result": "normal superclass damage"
+    }
+  ],
+  "fire_bomb_eligibility_cases": [
+    {
+      "health": 211,
+      "max_health": 420,
+      "done": false,
+      "aura": false,
+      "living_target": true,
+      "eligible": false
+    },
+    {
+      "health": 210,
+      "max_health": 420,
+      "done": false,
+      "aura": false,
+      "living_target": true,
+      "eligible": true
+    },
+    {
+      "health": 209,
+      "max_health": 420,
+      "done": false,
+      "aura": true,
+      "living_target": true,
+      "eligible": false
+    },
+    {
+      "health": 209,
+      "max_health": 420,
+      "done": true,
+      "aura": false,
+      "living_target": true,
+      "eligible": false
+    },
+    {
+      "health": 209,
+      "max_health": 420,
+      "done": false,
+      "aura": false,
+      "living_target": false,
+      "eligible": false
+    }
+  ],
+  "side_head_target_finding": "Both selected left/right fireball activation lambdas read THIRD_ATTACK_TARGET. Left activation start condition in pinned source checks SECOND_ATTACK_TARGET; this mismatch needs multiplayer runtime acceptance.",
+  "reload_finding": "Released readAdditionalSaveData sets doneFireBomb true when restored health/max health <=0.5; it reconstructs state from health rather than proving the phase actually ran.",
+  "limits": [
+    "Energy is determined by the active damage-type tag, not weapon appearance or every magic source",
+    "Melee classification is checked before energy; overlapping classifications follow the melee branch",
+    "Half health alone does not guarantee immediate Fire Bomb: done flag, aura, live target and scheduler conditions also apply",
+    "Do not treat additional-head source mismatch as a reproduced multiplayer bug"
+  ]
+}
