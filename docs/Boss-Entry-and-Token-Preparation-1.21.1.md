@@ -53,6 +53,8 @@ A normal gold-ingot barter does not set this special marker. The 120-tick check 
 
 ### Bone Horn → Tyrosaur
 
+**Start here:** [Find the first horn, understand Cocoon odds, and collect its repair materials](Bone-Horn-Acquisition-1.21.1).
+
 [Repair recipe and strict ingredient components](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=bone_horn) · [Wounded Tyrosaur reference](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1&entity=aoa3%3Awounded_tyrosaur)
 
 The relevant released crafting recipe is a **repair stage**, not a fresh horn made from nothing. It requires:

@@ -1,0 +1,1052 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Static shipped-resource checks plus literal released constructor and official vanilla loot-function bytecode. Conditional table arithmetic, not measured drops or runtime certification.",
+  "cocoon_horn_pools": [
+    {
+      "pool_index": 2,
+      "conditions": [
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "aoa3:precasian_desert"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "rolls": 1.0,
+      "horn_entry": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "damage": 0.32333332,
+            "function": "minecraft:set_damage"
+          }
+        ],
+        "name": "aoa3:bone_horn"
+      }
+    },
+    {
+      "pool_index": 4,
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biomes": "aoa3:precasian_desert"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "rolls": 1.0,
+      "horn_entry": {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "damage": 0.32333332,
+            "function": "minecraft:set_damage"
+          }
+        ],
+        "name": "aoa3:bone_horn"
+      }
+    }
+  ],
+  "desert_conditional_selection": {
+    "weights": [
+      4,
+      4,
+      3,
+      3,
+      2,
+      1
+    ],
+    "horn_weight": 1,
+    "total_weight": 17,
+    "fraction": "1/17",
+    "percent": 5.882352941176471,
+    "limits": "One eligible stock desert pool roll, excluding datapack and other mod changes. Not a guarantee per exploration attempt."
+  },
+  "damage_conversion": {
+    "item_max_damage": 3,
+    "remaining_durability_fraction": 0.3233333230018616,
+    "result_damage": 2,
+    "formula": "floor((1-clamp(remaining_fraction,0,1))*maxDamage), float32 intermediates; add=false",
+    "bone_horn_class_sha256": "05e65c8eba3e5c64771c7fc7122db3dc04dfb510d4eda83d0174fb1551696931",
+    "vanilla_function_class_sha256": "864107e7dac543a9f43f6cb1ca08a5c31a7a298d752b1d96ba56db755f59140c",
+    "vanilla_function_method": "etx.a(Lcuq;Lerr;)Lcuq;",
+    "vanilla_function_code_hex": "2bb6004b9900442bb6004f3e2ab4002f9900100c2bb60051861d866e66a700040b38040c2ab4002d2cb9005402001704620b0cb800596638052b17051d866ab8005cb6005fa7000eb2006112632bb9006903002bb0"
+  },
+  "fragment_ids": [
+    "aoa3:chestbone_fragment",
+    "aoa3:footbone_fragment",
+    "aoa3:legbone_fragment",
+    "aoa3:skullbone_fragment"
+  ],
+  "resources": {
+    "data/aoa3/loot_table/blocks/cocoon.json": {
+      "sha256": "19347b5fad3144283367bf62459abfc1b17fa3b2831719a50a446c42aa4129de",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "aoa3:precasian_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:string",
+                "weight": 60
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 6.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:rotten_flesh",
+                "weight": 80
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:spider_eye",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:reinforced_cloth",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:small_skill_crystal",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:torn_cloth",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:chitin",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:skullbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:chestbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:legbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:footbone_fragment",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:amber_staff",
+                "quality": 2
+              }
+            ],
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 2.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "chance": 0.001,
+                "condition": "minecraft:random_chance"
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "aoa3:precasian_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:legbone_sword"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "chance": 0.01,
+                "condition": "minecraft:random_chance"
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "aoa3:precasian_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "damage": 0.32333332,
+                    "function": "minecraft:set_damage"
+                  }
+                ],
+                "name": "aoa3:bone_horn"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:cocoon"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "aoa3:precasian_desert"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 7.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:string",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 6.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:rotten_flesh",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:spider_eye",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:torn_cloth",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:chitin",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "damage": 0.32333332,
+                    "function": "minecraft:set_damage"
+                  }
+                ],
+                "name": "aoa3:bone_horn"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/blocks/bone_fragments_ore.json": {
+      "sha256": "71931fbf4dea8f92015ac25b52940a153416d307b4ed0c57b53fa12e9602e472",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:chestbone_fragment"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:legbone_fragment"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:skullbone_fragment"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:footbone_fragment"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:bone_fragments_ore"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/blocks/deepslate_bone_fragments_ore.json": {
+      "sha256": "b080cfa017d16a18e9d9d44fdbf843282d18bfd747e7bb6840944fc63ea6c6ab",
+      "data": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:chestbone_fragment"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:legbone_fragment"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:skullbone_fragment"
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops",
+                    "function": "minecraft:apply_bonus"
+                  }
+                ],
+                "name": "aoa3:footbone_fragment"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:deepslate_bone_fragments_ore"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/worldgen/biome/precasian_desert.json": {
+      "sha256": "ae1e1ac1bca6cb885238a3ac244daab04c650d3fc91eabfdd3a13fa42bd16363",
+      "data": {
+        "carvers": {
+          "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+          ]
+        },
+        "downfall": 0.0,
+        "effects": {
+          "fog_color": 13755135,
+          "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+          },
+          "music": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "replace_current_music": false,
+            "sound": "minecraft:music.overworld.desert"
+          },
+          "sky_color": 6202367,
+          "water_color": 5210338,
+          "water_fog_color": 329011
+        },
+        "features": [
+          [],
+          [
+            "aoa3:underground_precasian_lava_lake",
+            "aoa3:surface_precasian_lava_lake"
+          ],
+          [],
+          [],
+          [
+            "aoa3:skeletal_remains"
+          ],
+          [],
+          [
+            "aoa3:gravel_ore",
+            "aoa3:high_altitude_granite_ore",
+            "aoa3:low_altitude_granite_ore",
+            "aoa3:high_altitude_diorite_ore",
+            "aoa3:low_altitude_diorite_ore",
+            "aoa3:high_altitude_andesite_ore",
+            "aoa3:low_altitude_andesite_ore",
+            "aoa3:tuff_ore",
+            "aoa3:precasian_high_altitude_iron_ore",
+            "aoa3:precasian_iron_ore",
+            "aoa3:precasian_low_altitude_iron_ore",
+            "aoa3:precasian_small_iron_ore",
+            "aoa3:precasian_gold_ore",
+            "aoa3:precasian_low_altitude_gold_ore",
+            "aoa3:precasian_redstone_ore",
+            "aoa3:precasian_low_altitude_redstone_ore",
+            "aoa3:precasian_lapis_ore",
+            "aoa3:precasian_buried_lapis_ore",
+            "aoa3:precasian_copper_ore",
+            "aoa3:bone_fragments_ore",
+            "minecraft:underwater_magma",
+            "aoa3:better_sand_disk",
+            "aoa3:better_clay_disk",
+            "aoa3:better_gravel_disk"
+          ],
+          [],
+          [
+            "aoa3:precasian_spring",
+            "aoa3:precasian_lava_spring"
+          ],
+          [
+            "minecraft:patch_dead_bush_2",
+            "minecraft:patch_sugar_cane_desert",
+            "aoa3:tall_cactus_patch"
+          ],
+          [
+            "aoa3:desert_cocoons"
+          ]
+        ],
+        "has_precipitation": false,
+        "spawn_costs": {
+          "aoa3:attercopus": {
+            "charge": 0.6000000238418579,
+            "energy_budget": 0.20000000298023224
+          },
+          "aoa3:veloraptor": {
+            "charge": 0.6000000238418579,
+            "energy_budget": 0.20000000298023224
+          }
+        },
+        "spawners": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [
+            {
+              "type": "aoa3:deinotherium",
+              "maxCount": 3,
+              "minCount": 1,
+              "weight": 100
+            }
+          ],
+          "misc": [],
+          "monster": [
+            {
+              "type": "aoa3:veloraptor",
+              "maxCount": 3,
+              "minCount": 2,
+              "weight": 30
+            },
+            {
+              "type": "aoa3:attercopus",
+              "maxCount": 2,
+              "minCount": 1,
+              "weight": 100
+            }
+          ],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
+        },
+        "temperature": 2.0
+      }
+    },
+    "data/aoa3/worldgen/placed_feature/desert_cocoons.json": {
+      "sha256": "f7ce90a485e059155dd6b4e49afe6ab9fe5fbb1a70c78c3937678a241d1706af",
+      "data": {
+        "feature": "aoa3:desert_cocoon",
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max_inclusive": 3,
+              "min_inclusive": 1
+            }
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 1,
+            "target_condition": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:sand"
+            }
+          },
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "max_inclusive": -1,
+              "min_inclusive": -6
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      }
+    },
+    "data/aoa3/worldgen/configured_feature/desert_cocoon.json": {
+      "sha256": "9fe987dae776c4bb1de348dfba23e2d42a56e87607c8c9e9ac11484879e559e0",
+      "data": {
+        "type": "minecraft:replace_single_block",
+        "config": {
+          "targets": [
+            {
+              "state": {
+                "Name": "aoa3:cocoon",
+                "Properties": {
+                  "webbed": "false"
+                }
+              },
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:sand"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
