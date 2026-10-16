@@ -1,0 +1,584 @@
+{
+  "scope": "24 documentation material studies across three releases. Synthetic six-face unit boxes are expressly not Minecraft fluid geometry. Existing source-verified bucket tint metadata is reused; per-texture source hashes and alpha checks retained.",
+  "geometry": {
+    "from": [
+      0,
+      0,
+      0
+    ],
+    "to": [
+      16,
+      16,
+      16
+    ],
+    "faces": 6,
+    "still_texture_on_all_faces": true,
+    "camera_rotation": [
+      30,
+      225,
+      0
+    ],
+    "alpha_cutoff": 0,
+    "transparency": "nearest-surface alpha, not volume blending"
+  },
+  "records": [
+    {
+      "version": "1.16.5",
+      "id": "aoa3:candied_water",
+      "texture": "minecraft:block/water_still",
+      "texture_source": "assets/minecraft/textures/block/water_still.png",
+      "texture_sha256": "35cfb387e0aef6460e5aa8c900ae654ef94e065b96d97cc0630c2f61ec88ebd8",
+      "frame_metadata": {
+        "animation": {
+          "frametime": 2
+        }
+      },
+      "tint_rgba": [
+        255,
+        105,
+        180,
+        200
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "fe2088cdfe622c1af23b2347accd8f75441c7e762155159bd4a1f4b4002bc998",
+      "image": "1.16.5-fluid-surface-candied_water.webp",
+      "render_sha256": "823489968ad87ac603f88452dcee373e11d43e3c8df313f3cfe898c51e12e582",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:clear_water",
+      "texture": "minecraft:block/water_still",
+      "texture_source": "assets/minecraft/textures/block/water_still.png",
+      "texture_sha256": "35cfb387e0aef6460e5aa8c900ae654ef94e065b96d97cc0630c2f61ec88ebd8",
+      "frame_metadata": {
+        "animation": {
+          "frametime": 2
+        }
+      },
+      "tint_rgba": [
+        63,
+        118,
+        228,
+        255
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "c9be4ccecc1d87ad0b878cc4eeb004c81961668f91315eb49d46d10f30411219",
+      "image": "1.16.5-fluid-surface-clear_water.webp",
+      "render_sha256": "129da5e88424ac5466de599ad14948eaafd9a655924a684906e5a44daee9444d",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:toxic_waste",
+      "texture": "aoa3:block/toxic_waste_still",
+      "texture_source": "assets/aoa3/textures/block/toxic_waste_still.png",
+      "texture_sha256": "12562867bf13d4f4ef14d913e4c8392f9b1a0fef90e9f880eeea910a22a315c0",
+      "frame_metadata": {
+        "animation": {
+          "interpolate": true,
+          "frametime": 48
+        }
+      },
+      "tint_rgba": [
+        38,
+        42,
+        23,
+        255
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "61de360e03bbae6cbba35758452c69c214ba76f04a2d867c0a7c87cdf548337a",
+      "image": "1.16.5-fluid-surface-toxic_waste.webp",
+      "render_sha256": "33fc628881f9c0cbe7c664640800950b0cf7c3afaa86e2e51862cec976af6a0a",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_baronyte",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        182,
+        32,
+        32,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "b6c6a271d717ca6ddb3842853aa859b88935ebb5ebf9a6aade0eaafc03cb3fdc",
+      "image": "1.16.5-fluid-surface-molten_baronyte.webp",
+      "render_sha256": "e80529c907523bdeb0cee93190799a96469b4465983aabe3d24771f9fe10fbf5",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_blazium",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        166,
+        52,
+        0,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "eb404fabe0a569662ccd413064c8d9274bc0744cc520d84d90b5750a5189bfab",
+      "image": "1.16.5-fluid-surface-molten_blazium.webp",
+      "render_sha256": "a69a81286175167e2267ce885b9ff3048597b85b0a4bd42be904e877b532318f",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_elecanium",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        121,
+        247,
+        211,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "c978fcf378a180a73db2efc02912a5b3b83c218b56bed7c45ed44538e177c8e5",
+      "image": "1.16.5-fluid-surface-molten_elecanium.webp",
+      "render_sha256": "e2816c3a8da938c2ba89d43baa005fa1aec116d78acd8bd465e8033d3ddd9b2d",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_emberstone",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        146,
+        0,
+        0,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "2159318ef90fef12114de6a4e97e0aef6ac843cfcb770eaa7e76b53aed9e40a2",
+      "image": "1.16.5-fluid-surface-molten_emberstone.webp",
+      "render_sha256": "0af75ad18f4298e25fe09c024062080369e5d81a90df47cf2a8214ec196c65e4",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_ghastly",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        185,
+        212,
+        169,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "521ef5c33de507e8dc245c69de65a6edcadcb93a059ef45243674f5536b4b7e2",
+      "image": "1.16.5-fluid-surface-molten_ghastly.webp",
+      "render_sha256": "e03797915c25570242835cbedcfcd3bf4ee891808d2ea551aa02a0608abdc5b9",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_ghoulish",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        185,
+        212,
+        169,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "8ba597dffb7fffe671c58bf6b2534db77e3defeba33139590a482530cdc4448d",
+      "image": "1.16.5-fluid-surface-molten_ghoulish.webp",
+      "render_sha256": "e03797915c25570242835cbedcfcd3bf4ee891808d2ea551aa02a0608abdc5b9",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_limonite",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        219,
+        136,
+        42,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "173b181bfac98b61c65e6bbd8a7e01bda14315152d9e8e3ad834c1189e30b8cf",
+      "image": "1.16.5-fluid-surface-molten_limonite.webp",
+      "render_sha256": "a7fd8beadc76d96fb1b76517629f206710cfcd6190a47d425ea6dbe2da6d1376",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_lunar",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        249,
+        165,
+        207,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "0e2536194bf4d67221cef0a6938daf34d2affcb5f3b882ad39974559669b4b67",
+      "image": "1.16.5-fluid-surface-molten_lunar.webp",
+      "render_sha256": "94ec08554dc05c4bbcbf88c6ab281843f727a8bb7db550b2e48381c80382c3f6",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_lyon",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        158,
+        105,
+        4,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "10f9730e5eb41f12770fbb4ee5ce108e47190b71e4477346d68fac71a1b48fec",
+      "image": "1.16.5-fluid-surface-molten_lyon.webp",
+      "render_sha256": "4facd927b99ceb4aa8c30668c136b3457988f5ca6e9d52c8c20e53662cad7642",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_mystite",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        196,
+        236,
+        212,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "86e04dba6adaf745c6efd5a352ef269469c5ad5b4a5533e11d56b99956f3dcea",
+      "image": "1.16.5-fluid-surface-molten_mystite.webp",
+      "render_sha256": "f17abcc206a7d197dc2ab9cb4ec0d36c2a110a371ec14f95fa54bc7ca19cff7d",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_rosite",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        218,
+        58,
+        68,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "0623556ee5101cfa9175693af4dc0269fce0e0c7311cec15847116adce49c711",
+      "image": "1.16.5-fluid-surface-molten_rosite.webp",
+      "render_sha256": "5b7bcab0b6daf3608af51c8e4f6e5b1f825c5f7634a8c535cf1b6dac1f45bbdc",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_shyrestone",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        0,
+        155,
+        232,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "d6e0148383f42262e97e0e5f4dde023e080d5ffb43cacc09e0fe363b005b450e",
+      "image": "1.16.5-fluid-surface-molten_shyrestone.webp",
+      "render_sha256": "53e9b3b42acfb058bccfee0ca79e1fe26d19240a12caaebca016b855bd9d55ec",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_skeletal",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        189,
+        201,
+        160,
+        250
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "9fd8a278c0b5a29e4b244a4945923e410865f0d23e3731cb4ced9380d77a15e9",
+      "image": "1.16.5-fluid-surface-molten_skeletal.webp",
+      "render_sha256": "f36b421739467b6a1b466d3cb531226ad622464f1d9369aa2966634d1042a71a",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_varsium",
+      "texture": "tconstruct:block/fluid/molten/still",
+      "texture_source": "tconstruct-116-still.png",
+      "texture_sha256": "7d69d8d41d59b51f117f71dcef7571becfcefea5dc40b1c9383ea82b9fa0e404",
+      "frame_metadata": {
+        "selection": "first square frame from cached official TConstruct still texture"
+      },
+      "tint_rgba": [
+        192,
+        128,
+        45,
+        255
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "43e347127876bb795d59bbb25aeab5ef6869577e5d707c99c9ed597b2a50ccc7",
+      "image": "1.16.5-fluid-surface-molten_varsium.webp",
+      "render_sha256": "2712513baffc08a1e7e9da8e66b4378f7c2ff9c207cdacbf8bc9726286a28587",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.16.5",
+      "id": "aoa3:molten_charger",
+      "texture": "minecraft:block/water_still",
+      "texture_source": "assets/minecraft/textures/block/water_still.png",
+      "texture_sha256": "35cfb387e0aef6460e5aa8c900ae654ef94e065b96d97cc0630c2f61ec88ebd8",
+      "frame_metadata": {
+        "animation": {
+          "frametime": 2
+        }
+      },
+      "tint_rgba": [
+        255,
+        229,
+        0,
+        200
+      ],
+      "conditional_tinkers_integration": true,
+      "source_bucket_model_sha256": "2af73124bf100fe82f3026e9503c012c56b1a32db7bd09de014363bc76449517",
+      "image": "1.16.5-fluid-surface-molten_charger.webp",
+      "render_sha256": "addb911a61159a2e5fc2176073cd8006bfabd5d681763ec357a4c0f8a3047052",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.20.1",
+      "id": "aoa3:candied_water",
+      "texture": "minecraft:block/water_still",
+      "texture_source": "assets/minecraft/textures/block/water_still.png",
+      "texture_sha256": "35cfb387e0aef6460e5aa8c900ae654ef94e065b96d97cc0630c2f61ec88ebd8",
+      "frame_metadata": {
+        "animation": {
+          "frametime": 2
+        }
+      },
+      "tint_rgba": [
+        255,
+        105,
+        180,
+        200
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "85db340becceab9d92d0e15ad15de28d3e1458edbcdddfc6fa6944a330b9f643",
+      "image": "1.20.1-fluid-surface-candied_water.webp",
+      "render_sha256": "823489968ad87ac603f88452dcee373e11d43e3c8df313f3cfe898c51e12e582",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.20.1",
+      "id": "aoa3:toxic_waste",
+      "texture": "aoa3:block/toxic_waste_still",
+      "texture_source": "assets/aoa3/textures/block/toxic_waste_still.png",
+      "texture_sha256": "12562867bf13d4f4ef14d913e4c8392f9b1a0fef90e9f880eeea910a22a315c0",
+      "frame_metadata": {
+        "animation": {
+          "interpolate": true,
+          "frametime": 48
+        }
+      },
+      "tint_rgba": [
+        38,
+        42,
+        23,
+        255
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "3ced514b9cee0d827448dad6183ca0daf705c0852adcf4001777f3d6ef1177ed",
+      "image": "1.20.1-fluid-surface-toxic_waste.webp",
+      "render_sha256": "33fc628881f9c0cbe7c664640800950b0cf7c3afaa86e2e51862cec976af6a0a",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.20.1",
+      "id": "aoa3:tar",
+      "texture": "aoa3:block/tar_still",
+      "texture_source": "assets/aoa3/textures/block/tar_still.png",
+      "texture_sha256": "12562867bf13d4f4ef14d913e4c8392f9b1a0fef90e9f880eeea910a22a315c0",
+      "frame_metadata": {
+        "animation": {
+          "interpolate": true,
+          "frametime": 48
+        }
+      },
+      "tint_rgba": [
+        35,
+        35,
+        35,
+        255
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "1aa9a52874903bc2d0d896898d21a73a8e08222139ee24c28ee9aee1e710f85b",
+      "image": "1.20.1-fluid-surface-tar.webp",
+      "render_sha256": "4ff02a462f9ff5131c5e002a7c00d81195b43b2409a421322fbb0c21155c04be",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.21.1",
+      "id": "aoa3:candied_water",
+      "texture": "minecraft:block/water_still",
+      "texture_source": "assets/minecraft/textures/block/water_still.png",
+      "texture_sha256": "5843e8826507c484dfc15d5d255843d041804bcaa2036ed137320610d7fb9af7",
+      "frame_metadata": {
+        "animation": {
+          "frametime": 2
+        }
+      },
+      "tint_rgba": [
+        255,
+        105,
+        180,
+        200
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "1c34d790c7a50a083c6de9eadc7ca6c0f25b76314d373d682331967d20f605bd",
+      "image": "1.21.1-fluid-surface-candied_water.webp",
+      "render_sha256": "823489968ad87ac603f88452dcee373e11d43e3c8df313f3cfe898c51e12e582",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.21.1",
+      "id": "aoa3:toxic_waste",
+      "texture": "aoa3:block/toxic_waste_still",
+      "texture_source": "assets/aoa3/textures/block/toxic_waste_still.png",
+      "texture_sha256": "12562867bf13d4f4ef14d913e4c8392f9b1a0fef90e9f880eeea910a22a315c0",
+      "frame_metadata": {
+        "animation": {
+          "interpolate": true,
+          "frametime": 48
+        }
+      },
+      "tint_rgba": [
+        38,
+        42,
+        23,
+        255
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "48928acd62a23d985e09f30c63b3e21d093601551bba3ab1c7c27e4921402873",
+      "image": "1.21.1-fluid-surface-toxic_waste.webp",
+      "render_sha256": "33fc628881f9c0cbe7c664640800950b0cf7c3afaa86e2e51862cec976af6a0a",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    },
+    {
+      "version": "1.21.1",
+      "id": "aoa3:tar",
+      "texture": "aoa3:block/tar_still",
+      "texture_source": "assets/aoa3/textures/block/tar_still.png",
+      "texture_sha256": "12562867bf13d4f4ef14d913e4c8392f9b1a0fef90e9f880eeea910a22a315c0",
+      "frame_metadata": {
+        "animation": {
+          "interpolate": true,
+          "frametime": 48
+        }
+      },
+      "tint_rgba": [
+        35,
+        35,
+        35,
+        255
+      ],
+      "conditional_tinkers_integration": false,
+      "source_bucket_model_sha256": "0c067fc0cde8687afeaf9be17a8088d81dbf34118943a858d21a9532e3a994b7",
+      "image": "1.21.1-fluid-surface-tar.webp",
+      "render_sha256": "4ff02a462f9ff5131c5e002a7c00d81195b43b2409a421322fbb0c21155c04be",
+      "scope": "Synthetic unit-volume still-texture material study. Original sprite and default source tint; not an inventory model, actual fluid height, flow UVs, animation, fog or shader parity. Nearest surfaces preserve alpha; multi-layer transparency is not simulated."
+    }
+  ],
+  "outputs": {
+    "1.16.5-fluid-surface-candied_water.webp": "823489968ad87ac603f88452dcee373e11d43e3c8df313f3cfe898c51e12e582",
+    "1.16.5-fluid-surface-clear_water.webp": "129da5e88424ac5466de599ad14948eaafd9a655924a684906e5a44daee9444d",
+    "1.16.5-fluid-surface-toxic_waste.webp": "33fc628881f9c0cbe7c664640800950b0cf7c3afaa86e2e51862cec976af6a0a",
+    "1.16.5-fluid-surface-molten_baronyte.webp": "e80529c907523bdeb0cee93190799a96469b4465983aabe3d24771f9fe10fbf5",
+    "1.16.5-fluid-surface-molten_blazium.webp": "a69a81286175167e2267ce885b9ff3048597b85b0a4bd42be904e877b532318f",
+    "1.16.5-fluid-surface-molten_elecanium.webp": "e2816c3a8da938c2ba89d43baa005fa1aec116d78acd8bd465e8033d3ddd9b2d",
+    "1.16.5-fluid-surface-molten_emberstone.webp": "0af75ad18f4298e25fe09c024062080369e5d81a90df47cf2a8214ec196c65e4",
+    "1.16.5-fluid-surface-molten_ghastly.webp": "e03797915c25570242835cbedcfcd3bf4ee891808d2ea551aa02a0608abdc5b9",
+    "1.16.5-fluid-surface-molten_ghoulish.webp": "e03797915c25570242835cbedcfcd3bf4ee891808d2ea551aa02a0608abdc5b9",
+    "1.16.5-fluid-surface-molten_limonite.webp": "a7fd8beadc76d96fb1b76517629f206710cfcd6190a47d425ea6dbe2da6d1376",
+    "1.16.5-fluid-surface-molten_lunar.webp": "94ec08554dc05c4bbcbf88c6ab281843f727a8bb7db550b2e48381c80382c3f6",
+    "1.16.5-fluid-surface-molten_lyon.webp": "4facd927b99ceb4aa8c30668c136b3457988f5ca6e9d52c8c20e53662cad7642",
+    "1.16.5-fluid-surface-molten_mystite.webp": "f17abcc206a7d197dc2ab9cb4ec0d36c2a110a371ec14f95fa54bc7ca19cff7d",
+    "1.16.5-fluid-surface-molten_rosite.webp": "5b7bcab0b6daf3608af51c8e4f6e5b1f825c5f7634a8c535cf1b6dac1f45bbdc",
+    "1.16.5-fluid-surface-molten_shyrestone.webp": "53e9b3b42acfb058bccfee0ca79e1fe26d19240a12caaebca016b855bd9d55ec",
+    "1.16.5-fluid-surface-molten_skeletal.webp": "f36b421739467b6a1b466d3cb531226ad622464f1d9369aa2966634d1042a71a",
+    "1.16.5-fluid-surface-molten_varsium.webp": "2712513baffc08a1e7e9da8e66b4378f7c2ff9c207cdacbf8bc9726286a28587",
+    "1.16.5-fluid-surface-molten_charger.webp": "addb911a61159a2e5fc2176073cd8006bfabd5d681763ec357a4c0f8a3047052",
+    "1.16.5-fluid-surface-studies.webp": "ace34d747b38e3bbf423a3b5547662075f1a6623732a75c06bcd1600cb2da0fb",
+    "1.20.1-fluid-surface-candied_water.webp": "823489968ad87ac603f88452dcee373e11d43e3c8df313f3cfe898c51e12e582",
+    "1.20.1-fluid-surface-toxic_waste.webp": "33fc628881f9c0cbe7c664640800950b0cf7c3afaa86e2e51862cec976af6a0a",
+    "1.20.1-fluid-surface-tar.webp": "4ff02a462f9ff5131c5e002a7c00d81195b43b2409a421322fbb0c21155c04be",
+    "1.20.1-fluid-surface-studies.webp": "a74ffa064d77bd7939842df43876cff4b33054e2434f66a8e1f59b793bf03e7b",
+    "1.21.1-fluid-surface-candied_water.webp": "823489968ad87ac603f88452dcee373e11d43e3c8df313f3cfe898c51e12e582",
+    "1.21.1-fluid-surface-toxic_waste.webp": "33fc628881f9c0cbe7c664640800950b0cf7c3afaa86e2e51862cec976af6a0a",
+    "1.21.1-fluid-surface-tar.webp": "4ff02a462f9ff5131c5e002a7c00d81195b43b2409a421322fbb0c21155c04be",
+    "1.21.1-fluid-surface-studies.webp": "060f1300ef1c6a7814eeedeaaf862799de2e2c9bb6e7996e2f23849a30ab5a31"
+  }
+}
