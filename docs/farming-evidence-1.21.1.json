@@ -1,0 +1,1382 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "17 source crop registrations joined to released block loot resources; selected released method evidence, exact narrow assertions and source interpretation. No runtime, acquisition-completeness or growth-speed benchmark claim.",
+  "crops": [
+    {
+      "id": "aoa3:ashfern_crop",
+      "source_class": "AshfernCropBlock",
+      "source_planting_item_field": "ASHFERN_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/ashfern_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:ashfern_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "formula": "minecraft:binomial_with_bonus_count",
+                        "function": "minecraft:apply_bonus",
+                        "parameters": {
+                          "extra": 2,
+                          "probability": 0.5714286
+                        }
+                      }
+                    ],
+                    "name": "aoa3:ashfern"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:ashfern_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:ashfern_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:ashfern_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "bc065e3ce303342a7ce0a2643036d7b26841d86f3208425784c4b6a27ac28ddb"
+    },
+    {
+      "id": "aoa3:bubble_berry_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "BUBBLE_BERRY_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/bubble_berry_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:bubble_berry_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:bubble_berries"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:bubble_berry_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:bubble_berry_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:bubble_berry_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "3bd5656c0cb536edf13792c62a61733ea9eba63f8003292ee745e0a70ea2e667"
+    },
+    {
+      "id": "aoa3:chilli_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "CHILLI_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/chilli_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:chilli_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:chilli"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:chilli_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:chilli_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:chilli_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "2ab16ec5e97f347c4c428e858547c2d7f7ff3ca2205a77946f4fb0728cf75656"
+    },
+    {
+      "id": "aoa3:eye_bulb_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "EYE_BULB",
+      "loot_path": "data/aoa3/loot_table/blocks/eye_bulb_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:eye_bulb"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:eye_bulb_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:eye_bulb"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "148782c38632d089fdce3b56cae59b84eef7c1625b40bb46d1a3338783632cbd"
+    },
+    {
+      "id": "aoa3:floracles_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "FLORACLE_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/floracles_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:floracles_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:floracle_sticks"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:floracle_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:floracles_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:floracle_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "178f09e0e66eb224992cd07e7900692ad3a5ff786f28cc3b8f160a74113a3728"
+    },
+    {
+      "id": "aoa3:goldicaps_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "GOLDICAP_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/goldicaps_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:goldicaps_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:goldicap_petals"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:goldicap_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:goldicaps_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:goldicap_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "f700270cd4304b45104d769a12db6a1872466706c42369adfa5510c438785857"
+    },
+    {
+      "id": "aoa3:heart_fruit_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "HEART_FRUIT_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/heart_fruit_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "block": "aoa3:heart_fruit_crop",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:heart_fruit_seeds"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:heart_fruit_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 2,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:heart_fruit"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "b4b1415e7e3c77f2ab83022c0ac3429932527394b62994e131accddac45f257b"
+    },
+    {
+      "id": "aoa3:lunacrike_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "LUNACRIKE_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/lunacrike_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:lunacrike_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:lunacrike"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:lunacrike_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:lunacrike_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:lunacrike_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "adf2d03ed9bbc6573ee1599df958a02a526312f343282624deaeda19d3ffca52"
+    },
+    {
+      "id": "aoa3:luna_globe_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "LUNA_GLOBE_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/luna_globe_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:luna_globe_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:luna_globe"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:luna_globe_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:luna_globe_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:luna_globe_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "5f0f1769771c93e1f3723cb17ca090d995752b0168a29205ffc7fe44b9603c82"
+    },
+    {
+      "id": "aoa3:lunalon_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "LUNALON_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/lunalon_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:lunalon_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:lunalons"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:lunalon_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:lunalon_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:lunalon_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "2b27d9d3d9ccc1918010c3bc306af077c56f7dfa47b0886ecaad366df11f1a3f"
+    },
+    {
+      "id": "aoa3:magic_marang_crop",
+      "source_class": "MagicMarangCrop",
+      "source_planting_item_field": "MAGIC_MARANG",
+      "loot_path": "data/aoa3/loot_table/blocks/magic_marang_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:magic_marang_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:magic_marang"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "11471ae7969662a240ad7ffeea3b438e9b72e1195ae9b47d5663e6bc05ef8d80"
+    },
+    {
+      "id": "aoa3:mystic_shroom_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "MYSTIC_SHROOMS",
+      "loot_path": "data/aoa3/loot_table/blocks/mystic_shroom_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:mystic_shrooms"
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:mystic_shroom_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:mystic_shrooms"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "63aca5ceed0a816ba1977f67c4ea30c00e1a9b21567b17e78b4a20466240987c"
+    },
+    {
+      "id": "aoa3:rosidon_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "ROSIDON_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/rosidon_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:rosidon_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:rosidons"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:rosidon_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:rosidon_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:rosidon_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "9bd35145aa1c734c59394786dd1da7dc9078dbedd24d4de2f1923cdea9c174af"
+    },
+    {
+      "id": "aoa3:tea_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "TEA_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/tea_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:tea_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:tea_shreddings"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:tea_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:tea_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:tea_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "1b13e5ca13988ae1882ebd543d956721bae1984f885ee7512c6e450b406b44d0"
+    },
+    {
+      "id": "aoa3:trilliad_crop",
+      "source_class": "AoACropBlock",
+      "source_planting_item_field": "TRILLIAD_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/trilliad_crop.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "block": "aoa3:trilliad_crop",
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                          "age": "7"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:trilliad_leaves"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:trilliad_seeds"
+                  }
+                ]
+              }
+            ],
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:trilliad_crop",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 3,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:trilliad_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "abbc9b65eb52a897e8f64f21d1aae18fe6ad4705b1a2bf0df4c12e37a0e9777f"
+    },
+    {
+      "id": "aoa3:green_manure",
+      "source_class": "GreenManure",
+      "source_planting_item_field": "GREEN_MANURE_SEEDS",
+      "loot_path": "data/aoa3/loot_table/blocks/green_manure.json",
+      "loot": {
+        "type": "minecraft:block",
+        "functions": [
+          {
+            "function": "minecraft:explosion_decay"
+          }
+        ],
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "block": "aoa3:green_manure",
+                "condition": "minecraft:block_state_property",
+                "properties": {
+                  "age": "7"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                      "extra": 4,
+                      "probability": 0.5714286
+                    }
+                  }
+                ],
+                "name": "aoa3:green_manure_seeds"
+              }
+            ],
+            "rolls": 1.0
+          }
+        ]
+      },
+      "loot_sha256": "eb158189802150a9300deea6b9f3164e66683fec7eec5241f3be2d71e4876195"
+    },
+    {
+      "id": "aoa3:thorny_plant_crop",
+      "source_class": "ThornyPlantCrop",
+      "source_planting_item_field": "THORNY_PLANT_SEEDS",
+      "loot_path": null,
+      "loot": null,
+      "loot_sha256": null
+    }
+  ],
+  "class_evidence": [
+    {
+      "class": "net/tslat/aoa3/content/item/food/MagicMarang.class",
+      "sha256": "8e4d02084feda2cffe5b3275a746e36e27d118811f7ae14500583c801e018d62",
+      "selected_method_code": {
+        "canPlace": "2bb600242bb6002ab8002eb60034b6003a4e2db20040b60007a5000d2db20043b60007a600102a2b2cb7004699000704a7000403ac"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/plant/AshfernCropBlock.class",
+      "sha256": "cdb69f42bab2b1302aa4c0ab59663eba5b9dc3e76558e60776b65d88147a9ca8",
+      "selected_method_code": {
+        "mayPlaceOn": "2bb20007b6000dac",
+        "canSurvive": "2cc100139900122c2db900150200b6001b9a001e03ac2c2d03b9001f03001008a2000f2c2db9002302009a000503ac2c2db60027b900150200b20007b6000dac"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/plant/MagicMarangCrop.class",
+      "sha256": "0851718293d4cf4f9c2f8af13642eecc52f4cb1842ccdb6bea32d087e34591ac",
+      "selected_method_code": {
+        "playerDestroy": "2a2b2c2d190419051906b700072cb6000b9a002c1904b20011b60017c0001db6001f1007a000192b2d1904b2001103b80023b60027c0001806b6002d57b1"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/plant/HangingCropBlock.class",
+      "sha256": "d63298ea88b08fefa526c97643d89c39d4cf581f20341032d9dda0eee0531c47",
+      "selected_method_code": {
+        "randomTick": "2c2d04b600139a0004b12c2d03b600191009a100512a2bb6001d360515052ab60023a200412a2b2c2db6002738062c2d2b1904122b17066e8b0460b9002c02009a000704a7000403b800329900182c2d2a15050460b6003805b6003c572c2d2bb80040b1",
+        "canSurvive": "2db600893a042a2c1904b9008c02002c1904b6008fac"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/misc/GreenManure.class",
+      "sha256": "722db0d0e0b7584df5da1c6bd63c4c6aa14a341ac43e1edb7083c7212c73f82c",
+      "selected_method_code": {
+        "destroy": "2a2db6000d2ab60013a100532b2cb60017b9001d02003a041904b60023c1002999003c2b2cb60017b2002bb60031c00037b60039b2003d04b80043b60049c00024b2004d1904b2004db60051c00055b60049c0002406b90057040057b1"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/misc/FertilisedFarmland.class",
+      "sha256": "ab6fc4637f3c3955ceed58d01bce064749caa4cf160227964008fc2fb1758577",
+      "selected_method_code": {
+        "isFertile": "2bb20021b60025c00029b6002b9e000704a7000403ac",
+        "fallOn": "190417050c1904b60042b60048b6004e57b1"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/loottable/modifier/FertilisedFarmlandLootModifier.class",
+      "sha256": "94d996dd506d29eaa9ba7380faecf28aecfca2b0f6d2c2bdc0dbb33663503bd2",
+      "selected_method_code": {
+        "doApply": "2bb6000d9900052bb02cb20013b60019c0001f4e2cb20021b60019c000243a042dc6011c1904c601172db600263a061906c1002a9901091906c0002a3a0519052db6002c9900f92db60026b20030b60036a500ec1904b8003cb600423a062cb600461906b6004a3a071907b60026c100509900cc1907b6002619072cb600461906b200522db60058b2005ea500b21907b20064b60068c0006cb6006e99000705a700040436082db60026c0002a2cb600461904b8003c2db60071b600753a092bb6007b3a0a190ab9007f0100990037190ab900840100c000763a0b190bb600751909a60006a7ffe0190b1508b80087190a59b8008d57ba00930000b900970200a7ffc52cb600461906150805a00012b2009db60036c00059b600a0a70009b200a4b600a0b200aa1907b200aab60068c000b0b600b2c0001f06b600b6572bb0"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/plant/MultiBlockCrop.class",
+      "sha256": "cf1dbdbb14831410c8e3c13c8e20f001102f0bdfbf0eb8ce1eade350ca371f6e",
+      "selected_method_code": {
+        "getGrowthHeight": "06ac",
+        "stagesPerBlock": "08ac",
+        "canSurvive": "2a2b2c2db700789a000503ac04360415042ab600270460a200422db6007b1504649b00382c2d1504b6007eb9008202003a051905b6004ec1005699000504ac1905b6004e2aa6000c2a1905b600529a000503ac840401a7ffb903ac",
+        "getBonemealAgeIncrease": "04ac"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/plant/ThornyPlantCrop.class",
+      "sha256": "80615b0aa477fd337ab1ec88b9395a657c2ee0ec7f2091075d9ed8c7976ccec3",
+      "selected_method_code": {
+        "growDown": "2a2b2c2db700472c2d2ab60023b60027c0002db6002fb6004b4d2bb600519a00562d2ab60055b60027c0002db6002f2ab600580464a0003f2d2ab60023b60027c0002db6002f2ab6005b0464a000280406b8005e360403360515051504a200172bbb0064592b2cb70066b6006957840501a7ffe8b1"
+      }
+    },
+    {
+      "class": "net/tslat/aoa3/content/block/functional/misc/LivingGrowth.class",
+      "sha256": "8f2d56199caf6cc4843c47274d9bd65774a825a3b36f22746804730e21ecff9c",
+      "selected_method_code": {
+        "tick": "2a2b2c2d1904b7002d2bb2000db60025c00012b60029360515051006a2008b2cb60031b20037a600532c2db2003db60043b6004457bb004859b2004a2cb700503a061906bb005359b20055b6005bc00061b70063b6006619062db6006a872db6006f87140072632db6007487b600772c1906b6007b57a70031150508a00006a700282c2d2ab60007b2000d15050460b80011b60017c00018b60044572c2d2bb6007f1028b60083b1"
+      }
+    }
+  ],
+  "vanilla_crop_max_age": {
+    "class": "dht",
+    "method": "c()I",
+    "value": 7,
+    "class_sha256": "0b09b9ce007343c794f82a618fafc88603036cb125de0ccd505c9c858a2f9b1b"
+  },
+  "resources": {
+    "data/neoforge/loot_modifiers/global_loot_modifiers.json": {
+      "sha256": "0362a1530e7919b325e77d0d8e45d09a0825fd6cb89c1f8b59db145b57138a13",
+      "data": {
+        "entries": [
+          "aoa3:loot_modifying_items",
+          "aoa3:fertilised_farmland",
+          "aoa3:player_event_listeners",
+          "aoa3:haven",
+          "aoa3:explosive_idol_bartering",
+          "aoa3:guardian_biogenic_armour",
+          "aoa3:elder_guardian_biogenic_armour",
+          "aoa3:ender_dragon_loot",
+          "aoa3:overworld_chest_loot",
+          "aoa3:igloo_chest_loot",
+          "aoa3:snowy_village_loot",
+          "aoa3:ancient_city_ice_box_loot",
+          "aoa3:nether_chest_loot",
+          "aoa3:end_chest_loot",
+          "aoa3:dispenser_loot",
+          "aoa3:outlaw_music_disc",
+          "aoa3:gardener",
+          "aoa3:pyro_crossbow",
+          "aoa3:misc_ivory",
+          "aoa3:misc_armour_plating",
+          "aoa3:misc_void_scales",
+          "aoa3:misc_sharp_claws",
+          "aoa3:misc_torn_cloth",
+          "aoa3:misc_ghostly_powder",
+          "aoa3:world_tables"
+        ],
+        "replace": false
+      }
+    },
+    "data/aoa3/loot_modifiers/fertilised_farmland.json": {
+      "sha256": "e30b05779d7e662ae43a3a815f2bfc5b249c5ee8138582207557589fc36c8284",
+      "data": {
+        "type": "aoa3:fertilised_farmland",
+        "conditions": []
+      }
+    }
+  },
+  "source_files": {
+    "common/registration/block/AoABlocks.java": "96181e81fc1925b67018cd697fd233de91b06b70f6fb0a1816ca5dca14234faa",
+    "content/item/food/MagicMarang.java": "cbd6669152fda2053b18b5c39a3c95cc6ef26f4b4539f19f2ebc77ec6a23facb",
+    "content/block/functional/plant/AoACropBlock.java": "296f5b178c84e6f371dd362f731e732ccf65b195faffe36c048130a5cae24418",
+    "content/block/functional/plant/AshfernCropBlock.java": "779920fa99edfbc87c31a26025e94e2e3e48bdb19d48ad855246e31e66f410e2",
+    "content/block/functional/plant/HangingCropBlock.java": "3ddd2f46e3238e20aafd17b09b776bee46a964c9b9d556e6e2edad7b723a13c7",
+    "content/block/functional/plant/MagicMarangCrop.java": "0f84ab7d30e1256ef3969362e295c1c9aaed64e508bf394899ea4bed8287d8fa",
+    "content/block/functional/plant/MultiBlockCrop.java": "12793dfda4d801aa87246618dfa9d49660612c8d3604f19b692f4af9c7578b8a",
+    "content/block/functional/plant/ThornyPlantCrop.java": "a9a7009c148f48f607595b6add1ee66ecb495cd1ea0fc468456d86b656af6692",
+    "content/block/functional/misc/GreenManure.java": "1c6671e54851b3d585a63f5d1bb3e92cf67accc854e000f6487296c53a39b970",
+    "content/block/functional/misc/FertilisedFarmland.java": "19208051debcd30f1f03c17fd35a78ba9c556f2f85ef22526afb5dd7616671a8",
+    "content/block/functional/misc/LivingGrowth.java": "aae8d7dc0bc8d7f4b4aa9546d48ef128324272210eb136ff491b1cb73fbfdc29",
+    "content/loottable/modifier/FertilisedFarmlandLootModifier.java": "227a24411b1a2e521d79fb8eab0a33dd5fcb03999b8be43d49db52a81ed83343"
+  },
+  "multi_block_survival_floor": {
+    "observation": "Released canSurvive includes a loop guard requiring posY - i >= 0; soil below Y0 is not reached by that scan.",
+    "recommendation": "Keep Thorny Plant farmland at Y0 or above until a changed build is tested."
+  }
+}
