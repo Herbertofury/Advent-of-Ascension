@@ -1,0 +1,1284 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Released resources and selected bytecode checks, source interpretation and four independent dispatch models. No runtime fishing or private Enderloom repair claimed.",
+  "resources": [
+    {
+      "path": "data/aoa3/aoa3/hauling_spawn_pool/barathos_water.json",
+      "sha256": "71fb9a5621a9dd13287d0ea41c5ed44a5d311b8c81a7dc0b3adc2723b6f7324c",
+      "data": {
+        "biomes": [
+          "aoa3:barathos_flats",
+          "aoa3:barren_oasis",
+          "aoa3:the_spears"
+        ],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:skelecanth"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -20.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:dead_bush"
+              }
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -20.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:bone_meal"
+              }
+            },
+            "weight": 190
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:bone"
+              }
+            },
+            "weight": 180
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:sand"
+              }
+            },
+            "weight": 160
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:clay_ball"
+              }
+            },
+            "weight": 140
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:red_sand"
+              }
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 20.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:hive_chunk"
+              }
+            },
+            "weight": 100
+          },
+          {
+            "hauling_level_req": 50,
+            "luck_mod": 2.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:old_boot"
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "for_fluid": "minecraft:water"
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/hauling_spawn_pool/lava_default.json",
+      "sha256": "495919871737275e80a3f5328b34a4080f299ab1e8c36ee51c4f685e23ef160f",
+      "data": {
+        "biomes": [],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:crimson_skipper"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:crimson_stripefish"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:charred_char"
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:candlefish"
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:obsidian"
+              }
+            },
+            "weight": 100
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 2.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:crying_obsidian"
+              }
+            },
+            "weight": 25
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:diamond"
+              }
+            },
+            "weight": 50
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 7.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:emerald"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:coal"
+              }
+            },
+            "weight": 120
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:lava_bucket"
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "for_fluid": "minecraft:lava",
+        "is_default": true
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/hauling_spawn_pool/lava_traps_default.json",
+      "sha256": "f4c900c178bcf1742e4abb722d5643c37c56ab5414f83467f15adfc8467b663e",
+      "data": {
+        "biomes": [],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:fake_tnt"
+            },
+            "weight": 180
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "minecraft:magma_cube"
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 10.0,
+            "object_id": {
+              "entity": "minecraft:wither_skeleton"
+            },
+            "weight": 75
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "minecraft:blaze"
+            },
+            "weight": 100
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:fake_tnt"
+            },
+            "spawn_data": {
+              "DealsDamage": 1
+            },
+            "weight": 20
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "minecraft:zombified_piglin"
+            },
+            "weight": 130
+          }
+        ],
+        "for_fluid": "minecraft:lava",
+        "is_default": true,
+        "is_trap": true
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/hauling_spawn_pool/precasia_water.json",
+      "sha256": "c9ec3136fe3a9b77c44b2f48c90bc3aaa1808661470d9803b8a6b61bc98df06e",
+      "data": {
+        "biomes": [
+          "aoa3:precasian_plains",
+          "aoa3:precasian_savannah",
+          "aoa3:precasian_ocean",
+          "aoa3:precasian_shore",
+          "aoa3:precasian_volcano",
+          "aoa3:precasian_deadlands",
+          "aoa3:precasian_tar_pits",
+          "aoa3:precasian_jungle",
+          "aoa3:precasian_desert",
+          "aoa3:precasian_river",
+          "aoa3:precasian_forest",
+          "aoa3:precasian_tall_forest",
+          "aoa3:precasian_caves"
+        ],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "entity": "minecraft:cod"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "entity": "minecraft:salmon"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -5.0,
+            "object_id": {
+              "entity": "minecraft:tropical_fish"
+            },
+            "weight": 180
+          },
+          {
+            "hauling_level_req": 5,
+            "object_id": {
+              "entity": "minecraft:pufferfish"
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 10.0,
+            "object_id": {
+              "entity": "aoa3:rainbowfish"
+            },
+            "weight": 50
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 20.0,
+            "object_id": {
+              "entity": "aoa3:sailback"
+            },
+            "weight": 140
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 20.0,
+            "object_id": {
+              "entity": "aoa3:dark_hatchetfish"
+            },
+            "weight": 140
+          },
+          {
+            "hauling_level_req": 20,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:nautilus_shell"
+              }
+            },
+            "weight": 65
+          },
+          {
+            "hauling_level_req": 5,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:name_tag"
+              }
+            },
+            "weight": 100
+          },
+          {
+            "hauling_level_req": 14,
+            "luck_mod": -20.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:leather"
+              }
+            },
+            "weight": 120
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 8.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:sharp_claw"
+              }
+            },
+            "weight": 90
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 8.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:jungle_thorns"
+              }
+            },
+            "weight": 90
+          },
+          {
+            "hauling_level_req": 25,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:crystal_box"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 10,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:shiny_box"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 30,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:treasure_box"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 75,
+            "luck_mod": 3.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:tidal_greatblade"
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "for_fluid": "minecraft:water"
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/hauling_spawn_pool/water_default.json",
+      "sha256": "aa4e8b24288905d601f158df3dd63d355699c6d7f6ccd54fcb99d525ebff1dfe",
+      "data": {
+        "biomes": [],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -50.0,
+            "object_id": {
+              "entity": "minecraft:cod"
+            },
+            "weight": 1000
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -50.0,
+            "object_id": {
+              "entity": "minecraft:salmon"
+            },
+            "weight": 1000
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -50.0,
+            "object_id": {
+              "entity": "minecraft:tropical_fish"
+            },
+            "weight": 1000
+          },
+          {
+            "hauling_level_req": 5,
+            "luck_mod": -45.0,
+            "object_id": {
+              "entity": "minecraft:pufferfish"
+            },
+            "weight": 900
+          },
+          {
+            "hauling_level_req": 10,
+            "luck_mod": 5.0,
+            "object_id": {
+              "entity": "minecraft:squid"
+            },
+            "weight": 300
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 40.0,
+            "object_id": {
+              "entity": "aoa3:rainbowfish"
+            },
+            "weight": 350
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 30.0,
+            "object_id": {
+              "entity": "aoa3:sailback"
+            },
+            "weight": 800
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 30.0,
+            "object_id": {
+              "entity": "aoa3:violet_skipper"
+            },
+            "weight": 800
+          },
+          {
+            "hauling_level_req": 30,
+            "luck_mod": 10.0,
+            "object_id": {
+              "entity": "minecraft:dolphin"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 20,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:nautilus_shell"
+              }
+            },
+            "weight": 400
+          },
+          {
+            "hauling_level_req": 5,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:name_tag"
+              }
+            },
+            "weight": 600
+          },
+          {
+            "hauling_level_req": 14,
+            "luck_mod": -100.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:leather"
+              }
+            },
+            "weight": 900
+          },
+          {
+            "hauling_level_req": 25,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:crystal_box"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 15,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:gem_bag"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 30,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:treasure_box"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 20,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:weapons_case"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 50,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:old_boot"
+              }
+            },
+            "weight": 5
+          },
+          {
+            "hauling_level_req": 75,
+            "luck_mod": 3.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:tidal_greatblade"
+              }
+            },
+            "weight": 1
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:water_bucket"
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "for_fluid": "minecraft:water",
+        "is_default": true
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/hauling_spawn_pool/water_traps_default.json",
+      "sha256": "e5726a98a1aec56fb096e03d36956c867101aef5a664671739d4283beeb9e377",
+      "data": {
+        "biomes": [],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "minecraft:drowned"
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:ghost"
+            },
+            "weight": 80
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:fake_tnt"
+            },
+            "weight": 180
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "aoa3:fake_tnt"
+            },
+            "spawn_data": {
+              "DealsDamage": 1
+            },
+            "weight": 20
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "minecraft:pufferfish"
+            },
+            "weight": 120
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "entity": "minecraft:rabbit"
+            },
+            "spawn_data": {
+              "RabbitType": 99
+            },
+            "weight": 10
+          }
+        ],
+        "for_fluid": "minecraft:water",
+        "is_default": true,
+        "is_trap": true
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/shiny_squid.json",
+      "sha256": "1b492feb28dec13e6500f00954ec00ed251c836beeb1f35b3bc21e96e35e71a8",
+      "data": {
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:ink_sac"
+              }
+            ],
+            "name": "ink",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:gold_nugget",
+                "weight": 80
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:small_skill_crystal",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:large_skill_crystal",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:giant_skill_crystal"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:golden_rod"
+              }
+            ],
+            "name": "extra",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/hauling.json",
+      "sha256": "65b4fa275c38258383c09cb4287fb6f725b987e59384649c6526c6568847fe2d",
+      "data": {
+        "abilities": [
+          {
+            "base_value": 1.0,
+            "id": "aoa3:fishing_xp_boost",
+            "level_req": 8,
+            "per_level_mod": 0.0,
+            "unique_id": "-1580201954"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 15,
+            "restricted_id": "aoa3:hauling_rod",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1485830590"
+          },
+          {
+            "base_value": 0.05875,
+            "id": "aoa3:fishing_trap_spawn",
+            "level_req": 25,
+            "per_level_mod": -0.00035,
+            "unique_id": "-1825942066"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 31,
+            "restricted_id": "aoa3:fishing_cage",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1276175481"
+          },
+          {
+            "base_value": 0.0,
+            "id": "aoa3:hauling_rod_pull_strength",
+            "level_req": 45,
+            "per_level_mod": 0.0025,
+            "unique_id": "1276940119"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 54,
+            "restricted_id": "aoa3:thermally_insulated_rod",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "-818450273"
+          },
+          {
+            "id": "aoa3:hauling_glowing_fish",
+            "level_req": 60,
+            "unique_id": "218637460"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 69,
+            "restricted_id": "aoa3:light_rod",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "-1363353400"
+          },
+          {
+            "base_value": 3.0,
+            "id": "aoa3:hauling_rod_pull_damage",
+            "level_req": 77,
+            "per_level_mod": 0.0,
+            "unique_id": "-496987384"
+          },
+          {
+            "base_value": 0.075,
+            "id": "aoa3:hauling_resupply",
+            "level_req": 86,
+            "per_level_mod": 0.0,
+            "unique_id": "219506441"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_trawler",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1539846777"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shapeless_hauling_rod.json",
+      "sha256": "1af8f7f9de11443b1dee27026b7a55dd3cef722daff799ce4438e72f5ab78bdc",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:fishing_rod"
+          },
+          {
+            "item": "minecraft:charcoal"
+          },
+          {
+            "item": "aoa3:limonite_nugget"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hauling_rod"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipe/crafting_shapeless_thermally_insulated_rod.json",
+      "sha256": "beeb46094c93fc833e77accb74221d7c30b72d76dc9f0258cb02b0c73ecfe961",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "aoa3:hauling_rod"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:netherite_scrap"
+          },
+          {
+            "item": "minecraft:netherite_scrap"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:thermally_insulated_rod"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/tags/worldgen/biome/lava_fishing_beneficial.json",
+      "sha256": "a5800c9511bfdda96676f6628ba59d17f0fe432818374271876ec61e192d180a",
+      "data": {
+        "values": [
+          "#c:is_dead",
+          "#c:is_dry",
+          "#c:is_hot"
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/tags/worldgen/biome/lava_fishing_detrimental.json",
+      "sha256": "d94b05e459f93109b16cd397f38153f5db939648b93a35fae8b3c37cb8f83d49",
+      "data": {
+        "values": [
+          "#minecraft:is_ocean",
+          "#minecraft:is_river",
+          "#c:is_swamp"
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/tags/worldgen/biome/water_fishing_beneficial.json",
+      "sha256": "d94b05e459f93109b16cd397f38153f5db939648b93a35fae8b3c37cb8f83d49",
+      "data": {
+        "values": [
+          "#minecraft:is_ocean",
+          "#minecraft:is_river",
+          "#c:is_swamp"
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/tags/worldgen/biome/water_fishing_detrimental.json",
+      "sha256": "a5800c9511bfdda96676f6628ba59d17f0fe432818374271876ec61e192d180a",
+      "data": {
+        "values": [
+          "#c:is_dead",
+          "#c:is_dry",
+          "#c:is_hot"
+        ]
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/skill/hauling/HaulingSpawnPool.class",
+      "sha256": "304b67a668a8d8fa86faf6af368a15825fa9cab37bb381e4ac042b5105ae5722",
+      "methods": [
+        {
+          "name": "getPoolForLocation",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/neoforged/neoforge/fluids/FluidType;)Ljava/util/Optional;",
+          "code_hex": "2a2a2bb6001e2cb80024b0"
+        },
+        {
+          "name": "getPoolForBiome",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Holder;Lnet/neoforged/neoforge/fluids/FluidType;)Ljava/util/Optional;",
+          "code_hex": "b20028b9002c010099002e2ab60032b20036b9003c0200b60042c00048b9004a0100ba004e0000b900520200ba00580000b9005c0200b200282cb900600200c0002d4e2dc70007b80064b02d2bb9006802009900112d2bb900600200c0000eb8006cb02d01b900600200c0000eb80070b0"
+        },
+        {
+          "name": "getTrapsPoolForLocation",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/neoforged/neoforge/fluids/FluidType;)Ljava/util/Optional;",
+          "code_hex": "2a2a2bb6001e2cb80024b0"
+        },
+        {
+          "name": "getTrapsPoolForBiome",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Holder;Lnet/neoforged/neoforge/fluids/FluidType;)Ljava/util/Optional;",
+          "code_hex": "b20073b9002c010099002e2ab60032b20036b9003c0200b60042c00048b9004a0100ba00760000b900520200ba00770000b9005c0200b200732cb900600200c0002d4e2dc70007b80064b02d2bb9006802009900112d2bb900600200c0000eb8006cb02d01b900600200c0000eb80070b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/misc/HaulingRod.class",
+      "sha256": "71d10cf708f8239bcbb24114aba05c44fabfd7c6c49dcfb3c251b537b95527f4",
+      "methods": [
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db600083a042cb4000ec600cf2cb4000eb600122cb60018a600c12cb4000e3a071907c1001999009d1907c000193a061906b6001bb2001fa600522bb400259a002fb2002b2cb80031b60037b2003b2cb4000eb800412cb4000eb60047b2004b2cb4000eb800412cb4000eb600472a2c190619042db6004e2cb600549a00082c2db600581904b8005cb01906b6001bb20062a6001d2a2c19042d1906b60065572cb600549a007c2c2db60058a700742bb400259a006d1906b600692c01b5000ea700602bb400259a00592cb4000eb6006c2c01b5000ea7004a2cc1006d9900432cc0006d3a052a2c19042a19051904b6006f2a19051904b6007386b600773a061906c6001e2b1906b6007b572cb2007f2ab60085b6008b2a2c19061904b6008f19042bb60093b80095b0"
+        },
+        {
+          "name": "reelIn",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)V",
+          "code_hex": "2c2bb6009914009d989d01562bc1006d99014c2bc0006d3a052a19052d19042cb600653a0605100ab8009f36072cb600a52d19061507042cb800a93a081908b600af9a00d42a19052d2c1906b600b41906b900b801003a091909b900be01009900b71909b900c30100c000c73a0abb00c9591905b600cb2cb600cc2cb600d02cb600d3190ab700d63a0b1905b600d92cb600cc67390c1905b600da2cb600d067390e1905b600db2cb600d3673910bb00dc59180c180e180c180c6b180e180e6b63181018106b63b800deb800de631810b700e41400e7b600e93a12190b1912b600ed1905b600cb190bb6007b571905b600f19a000d19051912b600f4b600f8190ab200f9b600ff99000c1905b2010304b60107a7ff4519052d1908b6010a1904b8010e1905b600cbbb0114591905b600cb1905b600d9140116631905b600da140116631905b600db140116631908b60118b7011bb6007b572cb60069a700542cb600a53a051905c600492a2b2d2cb6011e38062b190513012217066a04b8012319051905b601290f1401160fb6012eb601322bb601339a001a2cb6001bb20062a6001019052b13012217066a04b80123b1"
+        },
+        {
+          "name": "getNewBobber",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;FF)Lnet/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity;",
+          "code_hex": "bb0019592b2bb600182c170425b701e6b0"
+        },
+        {
+          "name": "getHaulStrengthMod",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity;)F",
+          "code_hex": "0cae"
+        },
+        {
+          "name": "getLureMod",
+          "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)F",
+          "code_hex": "2bb601712c2bb801e9ae"
+        },
+        {
+          "name": "getLuckMod",
+          "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)I",
+          "code_hex": "2bb601712c2bb801efac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/misc/GoldenRod.class",
+      "sha256": "086592c957415f0ed15312f821d5a9451f0ae0a12e16b04e586c812e9a3473ec",
+      "methods": [
+        {
+          "name": "getLuckMod",
+          "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)I",
+          "code_hex": "2a2b2cb700070660ac"
+        },
+        {
+          "name": "getLootForHauledEntity",
+          "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity;Lnet/minecraft/world/entity/Entity;)Ljava/util/List;",
+          "code_hex": "2a2b2c2d1904b7000b3a051905b9000f01003a061906b90015010099002d1906b9001b0100c0001f3a0719071907b60021b80025190659b8002b57ba00310000b900350200a7ffcf1905b0"
+        },
+        {
+          "name": "getNewBobber",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;FF)Lnet/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity;",
+          "code_hex": "bb0039592b2bb6003b2c170425b70041b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/misc/LightRod.class",
+      "sha256": "e4dc043646084583ebf3f108194a1661604233025bf4a4d7e5b4c97c021795eb",
+      "methods": [
+        {
+          "name": "getHaulStrengthMod",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity;)F",
+          "code_hex": "2a2b2c2db700120d6aae"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/misc/HaulingFishingBobberEntity.class",
+      "sha256": "749384f5619cbaff8ee1b05c3ec9c3d77ebd3af24560cbcada367114bb6bb8fc",
+      "methods": [
+        {
+          "name": "minLureTime",
+          "descriptor": "()I",
+          "code_hex": "1028ac"
+        },
+        {
+          "name": "maxLureTime",
+          "descriptor": "()I",
+          "code_hex": "1102bcac"
+        },
+        {
+          "name": "calculateFishingLureBonus",
+          "descriptor": "()V",
+          "code_hex": "2a0cb500072ab600ac2ab600b0b600b44c2bb900ba0100c000c02ab600b0b600c2452412c6969c00112a59b4000712c76ab50007a700152412c8959e000e2a59b4000712c96ab500072bb900ba0100c000c02ab600b0b600cab200cea6000e2a59b4000712d46ab500072ab600ac2ab600b0b600d599000e2a59b4000712d46ab500072a59b400072a2bb600d96ab500072ab600ac2ab600dd1400e11400e31400e1b600e52aba00eb0000b800efb900f501003e1d1032a3001f2a59b4000712fb6ab500071d100fa2000e2a59b4000712fb6ab500072a59b400070c1d8612fc6a626ab500072a59b4000712fd2ab400436a12fe6e62b500072a59b400070c082ab600ac2ab600dd1400ffb60101b80104b900f50100b8010a861301106a666ab50007b1"
+        },
+        {
+          "name": "startFishing",
+          "descriptor": "()V",
+          "code_hex": "2ab601702ab6023b2ab6023e3c2ab602413d2ab4000712c7969c001e1b862ab400070d6e6e8b3c1c862ab400071302446e6e8b3da7000c1c862ab400076e8b3d1b04a20005043c1c04a20005043d2a1b1b1032601cb80245b80248b5000db1"
+        },
+        {
+          "name": "spawnFish",
+          "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;)V",
+          "code_hex": "b202512ab60135b602563d2ab600ac2ab600b01c990011b20259b900ba0100c0025fa7000eb20261b900ba0100c0025fb802644e2d2a2bba026a0000b6026e3a042d01b60274c0026519042a1cba02780000b6027b01b60274c001622b2ab8027e2aba02840000b60288b1"
+        },
+        {
+          "name": "checkStillValid",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;)Z",
+          "code_hex": "2ab602ca9a000503ac2bc6000a2bb602cb9a000503ac2ab40029c600102ab40029b6008fb202cca6000503ac2ab6014e452b2ab602d224246a8d979e000503ac2b2ab40029b6008fb802d3ac"
+        },
+        {
+          "name": "getMaxCastDistance",
+          "descriptor": "()F",
+          "code_hex": "13030bae"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/misc/GoldFishingBobberEntity.class",
+      "sha256": "e7d147d4eb1802e49b1a1f847472c06cfd16def28b83b693a499da1a7fcc2556",
+      "methods": [
+        {
+          "name": "getMaxCastDistance",
+          "descriptor": "()F",
+          "code_hex": "120dae"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/misc/ThermalFishingBobberEntity.class",
+      "sha256": "2cdd5b4c1d5da7f10bbbfa037eeb68902315a1198a92112f833d8d63fadff231",
+      "methods": [
+        {
+          "name": "getApplicableFluid",
+          "descriptor": "()Lnet/minecraft/tags/TagKey;",
+          "code_hex": "b2000db0"
+        },
+        {
+          "name": "calculateFishingLureBonus",
+          "descriptor": "()V",
+          "code_hex": "2a0cb500212ab600272ab6002bb6002f4c2bb900350100c0003a2ab6002bb6003c45240d959e00112a59b4002112406ab50021a70015241241969c000e2a59b4002112426ab500212bb900350100c0003a2ab6002bb60043b20047a600112a59b40021124d6ab50021a7000e2a59b40021124e6ab500212ab600272ab6002bb6004f99000e2a59b4002112536ab500212a59b400212a2bb600546ab500212ab600272ab6005814005c0f14005cb6005e2aba00640000b80068b9006e01003e1d1032a3001f2a59b4002112746ab500211d100fa2000e2a59b4002112746ab500212a59b400210c1d8612756a626ab500212a59b4002112762ab400776a62b500212ab600272ab6005814007ab6007cb8007fb9008501009a000e2a59b4002112896ab50021b1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/player/ability/hauling/FishingTrapSpawn.class",
+      "sha256": "483de9f6e51496062e1a0a2908cfdd1dbd1bccb0f659ae681e7a541764fb0378",
+      "methods": [
+        {
+          "name": "handleItemFished",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/player/ItemFishedEvent;)V",
+          "code_hex": "2bb600564e2dc1005a99009e2dc0005a4d2ab6005c9900922bb6005f4e2db600633a042db600693a052db4006d8638060336072bc100719900202bc000713a081908b600733806b200761908b6007cb6007fb6008536071706380815073609190419051509990011b2008bb900910100c00096a7000eb20098b900910100c00096b8009b2c1708ba00a10000b600a519041509ba00ab0000b600ae2c2d1904ba00b10000b600b4b1"
+        }
+      ]
+    }
+  ],
+  "durability": [
+    {
+      "type": "GoldenRod",
+      "value": 280,
+      "method": "lambda$static$36",
+      "code_hex": "bb002759bb001d59b7001f110118b60020b20029b6002fb70033b0"
+    },
+    {
+      "type": "LightRod",
+      "value": 160,
+      "method": "lambda$static$35",
+      "code_hex": "bb003459bb001d59b7001f1100a0b60020b70036b0"
+    },
+    {
+      "type": "ThermallyInsulatedRod",
+      "value": 400,
+      "method": "lambda$static$34",
+      "code_hex": "bb003759bb001d59b7001f110190b60020b70039b0"
+    },
+    {
+      "type": "HaulingRod",
+      "value": 400,
+      "method": "lambda$static$33",
+      "code_hex": "bb003a59bb001d59b7001f110190b60020b7003cb0"
+    }
+  ],
+  "source_files": {
+    "content/skill/hauling/HaulingSpawnPool.java": "4c101d14ea9253959f0d75a5b20b5262499f864e70b3c8346c780de883d59cac",
+    "content/skill/hauling/HaulingEntity.java": "733d07d3e0168737f66f1c26c8981195d5024df17913f52e6949d3ba389ec22a",
+    "content/item/tool/misc/HaulingRod.java": "1cfe6440a3bb9990c9aeb19c47fa6f675629228657efbd414bab70ce3dcbf2cf",
+    "content/item/tool/misc/GoldenRod.java": "a7b81119e370520bed300441600f495ea834d6405a8125d70512b39e93156c6b",
+    "content/item/tool/misc/LightRod.java": "6f7dd70b37e4f6ae9a2824371655da665b2c0c86bdec1f70ffb4a874d8077339",
+    "content/item/tool/misc/ThermallyInsulatedRod.java": "3578711222bca171a3680a6981eaa63ae20c4ab8d38aa7125a5c8cfda4cf78c3",
+    "content/entity/misc/HaulingFishingBobberEntity.java": "de10e333bd12d561d59d5507a06f2a4fe6fcead8eb028f4468a2d51929b8c7e7",
+    "content/entity/misc/ThermalFishingBobberEntity.java": "967599b96272d473e07598d527d444151ac76778e4f14674bb43aca763ec4ba7",
+    "content/entity/misc/GoldFishingBobberEntity.java": "c5fb83cd914a0403e450db8a1ece91eb3f0ff9a9e6e76343fc7d171a4d0f664c",
+    "player/ability/hauling/FishingTrapSpawn.java": "9b1335a4ad51237fe84c4deecef6ebba017123cb22927f6a8c8703c670233794",
+    "util/ItemUtil.java": "aa23bed30534f7da8711d3f701fd562539d16a9097eebb0d1611bb8f517f51e6"
+  },
+  "trap_dispatch_finding": "Trap location wrapper calls normal getPoolForBiome; FishingTrapSpawn calls that wrapper.",
+  "dispatch_cases": [
+    {
+      "fluid": "water",
+      "biome_case": "default",
+      "stock_wrapper_model": "water_default_normal",
+      "corrected_dispatch_model": "water_default_trap"
+    },
+    {
+      "fluid": "water",
+      "biome_case": "specific",
+      "stock_wrapper_model": "water_specific_normal",
+      "corrected_dispatch_model": "water_specific_trap"
+    },
+    {
+      "fluid": "lava",
+      "biome_case": "default",
+      "stock_wrapper_model": "lava_default_normal",
+      "corrected_dispatch_model": "lava_default_trap"
+    },
+    {
+      "fluid": "lava",
+      "biome_case": "specific",
+      "stock_wrapper_model": "lava_specific_normal",
+      "corrected_dispatch_model": "lava_specific_trap"
+    }
+  ],
+  "advanced_rod_resource_references": [
+    {
+      "path": "data/aoa3/advancement/completionist/luck_of_the_sea.json",
+      "ids": [
+        "golden_rod"
+      ]
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/shiny_squid.json",
+      "ids": [
+        "golden_rod"
+      ]
+    },
+    {
+      "path": "data/aoa3/player/skills/hauling.json",
+      "ids": [
+        "light_rod"
+      ]
+    },
+    {
+      "path": "data/c/tags/item/tools/fishing_rod.json",
+      "ids": [
+        "golden_rod",
+        "light_rod"
+      ]
+    },
+    {
+      "path": "data/minecraft/tags/item/enchantable/durability.json",
+      "ids": [
+        "golden_rod",
+        "light_rod"
+      ]
+    },
+    {
+      "path": "data/minecraft/tags/item/enchantable/fishing.json",
+      "ids": [
+        "golden_rod",
+        "light_rod"
+      ]
+    }
+  ]
+}

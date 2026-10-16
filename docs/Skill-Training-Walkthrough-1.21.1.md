@@ -52,6 +52,8 @@ A player-caused baby-spawn event is another XP source. The value passed to the t
 
 ## Hauling: complete a fishing catch
 
+For active fishing, follow the [hauling rod and pool guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hauling-Rods-and-Fishing-Pools-1.21.1): equipment gates, water/lava upgrades, reeling, spot modifiers and the released trap-routing finding.
+
 For a passive-catch route, use the [illustrated Fishing Cage walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fishing-Cage-Walkthrough-1.21.1): Chum recipe, water placement, all 18 catch entries and the stock partial-load wear behavior.
 
 **Practical loop:** fish in an appropriate area and finish actual catches rather than repeatedly casting without a result.

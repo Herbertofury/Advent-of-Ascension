@@ -6,6 +6,8 @@
 
 [Hauling skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1) · [Recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crafting-and-Recipes) · [Loot conditions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Loot-Tables-and-Global-Modifiers-1.21.1)
 
+**Check the skill requirement first:** the shipped Hauling skill data declares a **level-31 equip requirement** for the Fishing Cage. Crafting the item does not bypass that requirement; pack settings can change it. See the [rod and fishing-pool guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hauling-Rods-and-Fishing-Pools-1.21.1) for the exact default equipment gates.
+
 ## 1. Make the bait
 
 Place **one raw-fish-tag item and one sword-tag item** into a crafting grid. The shipped `aoa3:tool_interaction` recipe accepts `c:foods/raw_fish` and `minecraft:swords`, producing **1 Chum**.
