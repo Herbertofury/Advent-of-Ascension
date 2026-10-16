@@ -24,6 +24,16 @@ Movement values are attribute scalars, not travel speed in blocks per second. Pr
 - [Shadow](https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/entity/mobs/overworld/EntityShadow.java): literal base-health getter 0.5. It has no invented body portrait; its card links to the particle/invisible-body explanation.
 - All 485 cards passed construction tests. Search, health sorting, pagination and missing/nonliteral/conflicting-getter cases were tested locally. The deployed browser also passed Creep Cow search/value checks, Shadow’s no-body handling, boss-category health sorting and pagination from 36 to all 65 matching bosses.
 
+## Artifact-backed loot inspection
+
+Each creature card has an on-demand loot panel. The extracted AoA 3.3.6 artifact contains **517 bundled loot tables**; **432 of the 485 creature records** have a fixed, verified table binding. The remaining records explicitly distinguish dynamic getters, null getters and getters outside the inspected AoA classes. A null getter does not prove that a creature has no custom drops.
+
+Open a panel to inspect pool rolls, entry weights, nested tables, conditions and functions, alongside the exact resource path and SHA-256. Nested tables expand only when requested and recursive references are guarded. **Weights are not drop percentages.** No probabilities are invented from unevaluated conditions, looting, custom functions or runtime events.
+
+For example, Creep Cow’s artifact table includes leather and beef pools, count and looting functions, and a conditional furnace-smelting function when the entity is on fire. The viewer preserves these exact definitions instead of flattening them into misleading guaranteed drops.
+
+The approximately 507 KB loot dataset is fetched only when a panel is first opened, shared across all cards, and retryable after a failed request. Local tests render all 517 tables and exercise all 485 binding records, caching and failure recovery. [Download the evidence dataset](https://herbertofury.github.io/Advent-of-Ascension/loot-data-1.12.2.json).
+
 ## Performance and scope
 
 The viewer loads one approximately 240 KB data file and builds a search index once. It initially creates 36 cards, with more on request; images load lazily. The incremental pagination update appends new cards instead of rebuilding existing ones, preserving open evidence panels. Repeated filtering does not rescan game files or refetch the evidence dataset. The larger provenance JSON remains available separately for inspection.
