@@ -95,3 +95,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Tea Sink brewing
 
 [Tea Sink recipes and ingredient-priority guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tea-Sink-Brewing-and-Ingredient-Priority-1.21.1): craft the sink and Cups, harvest Tea Shreddings, manage automatic additive selection and avoid the released melon-return branch. Creative selection is checked separately.
+
+## Infused Press storage and piston control
+
+[Infused Press operating reference for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infused-Press-Compression-and-Piston-Control-1.21.1): nine-stack matching, downward piston layout, one-tier decompression, comparator limitations and high-tier serialization checks. Station acquisition and actual piston timing remain separately unverified.
