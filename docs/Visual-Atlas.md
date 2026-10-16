@@ -45,3 +45,7 @@ Legacy creature previews and illustrated crafting walkthroughs are being added s
 
 - [1.16.5 fish and Dryad Sprite variants](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shared-Model-Variants-1.16.5)
 - [1.21.1 active fish mappings and unused resource studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Additional-Model-Mappings-1.21.1)
+
+## Sign and hanging-sign forms
+
+[Explore 15 source-backed world-model forms](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Signs-and-Hanging-Signs-1.21.1), including wall supports and both hanging-chain states for all three AoA wood types.

@@ -148,3 +148,7 @@ All 525 entity classes identified by the 1.12.2 renderer census are classified w
 ## Historical growth-state completion
 
 The age-only blockstate pass now covers 388 historical states across 49 version-specific plant records: 134 on 1.20.1, 126 on 1.16.5 and 128 on 1.12.2. Combined with 134 modern states, the [growth guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) has 522 presentations across 66 version-specific plant records. Every defined state in this age-only subset resolved; this does not establish all multipart states or gameplay growth behavior.
+
+## Sign block-entity models
+
+[15 sign-form previews across 12 block identities](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Signs-and-Hanging-Signs-1.21.1) resolve the standing, wall, wall-hanging and attached/unattached ceiling-hanging forms of Baobab, Lucalus and Stranglewood. Literal vanilla layer factories, AoA wood textures and source visibility rules are used. Six wall-only IDs intentionally have no independent inventory item. Text and runtime interactions remain separate validation work.
