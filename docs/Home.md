@@ -1,69 +1,79 @@
-# The AoA knowledge atlas
+# Advent of Ascension · Player’s Atlas
 
-![Advent of Ascension documentation artwork](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/atlas-banner.svg)
+![Advent of Ascension knowledge atlas](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/atlas-banner.svg)
 
-**A complete, evidence-led Advent of Ascension through Enderloom.** Preserve the accepted historical content, bring across the best modern systems, and prove the result in the game. This is the project’s documentation hub; it does not advertise an already completed playable merged release.
+**Find a creature. Understand its drops. Craft your next upgrade. Plan your next expedition.** Start with your installed Minecraft and AoA release: recipes, worlds and creatures change between versions.
 
-| Explore the mod | Follow the restoration |
+## What do you want to do?
+
+| Your goal | Start here |
 |---|---|
-| [Version matrix & which releases to use](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) | [Verified progress & what remains](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress) |
-| [Worlds, realms & travel](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions) | [Restoration roadmap](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Roadmap) |
-| [Skills, progression & player systems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skills-and-Progression) | [Enderloom conversion architecture](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Enderloom-Integration) |
-| [Bestiary: 432 cross-version entity IDs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary) | [Content completeness specification](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Content-Specification) |
-| [Bosses, combat & equipment](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bosses-and-Combat) | [Testing, saves & performance](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Testing-and-Performance) |
-| [Item name atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas) · [Block name atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blocks-Atlas) | [Sources, media & attribution](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits) |
-| [System-by-system guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Systems) | [Machine-readable source census](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/content-census.json) |
+| **I’m new. What should I do first?** | [Illustrated beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) |
+| **Where does this creature spawn, and what does it drop?** | [Interactive bestiary: releases, dimensions, biomes, stats and illustrated loot](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html) |
+| **How do I craft this? What is this drop used for?** | [Search the illustrated recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
+| **How do I build a portal or reach Precasia?** | [Portal construction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough) · [Precasia Realmstone archaeology](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough) |
+| **Which version contains the content I remember?** | [Version matrix and reference releases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) |
+| **What is finished in the Enderloom project?** | [Verified progress and remaining work](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress) |
 
+## Your first adventure
 
-## Start playing
+1. **Get established:** shelter, food, a retreat route and basic equipment. [Start here](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough).
+2. **Find the Traveller:** explore for a ruined teleporter frame, open the Traveller’s exchange without sneaking, and offer one food item for a Worn Book in the checked modern release.
+3. **Build the frame:** collect the five distinct carved runes and 13 Ancient Rock. [Follow the illustrated layout and Power rune recipe](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough).
+4. **Find a destination key:** [the checked Precasia route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough) explains jungle Suspicious Gravel and archaeology rather than leaving you to guess where the realmstone comes from.
+5. **Prepare a focused expedition:** inspect the selected release’s creatures, supplies and rewards before committing to a long trip.
 
-[Illustrated beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough): shelter, weapon resources, the Corrupted Traveller, rune gathering, portal construction and your first expedition. Includes practical checkpoints and troubleshooting.
-
-[Versioned Bestiary Observatory](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html): choose a Minecraft/AoA release, filter or sort dimension and biome evidence, and inspect illustrated legacy loot and quantities. Coverage is still expanding; missing evidence is labeled.
-
-## The Ascension Armory
-
-[![Optional premium weapon overhaul](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-upgrade-banner.svg)](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul)
-
-**New design goal:** original or premium 3D presentation for every weapon, with polished handling, reloads and animations. [Explore the design](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Study the best references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Track implementation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog).
+These steps link to the **1.21.1 / AoA 3.7.16.1** walkthrough. Use version-specific evidence rather than applying a modern recipe to an older installation.
 
 ## Explore by sight
 
-| Models and worlds | Build and progress |
+| Creature models | Items, blocks and growth |
 |---|---|
-| [Named visual atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas) | [Illustrated crafting guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crafting-and-Recipes) |
-| [Historical galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries) | [Interactive recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
-| [Legacy model portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas) | [First portal walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough) |
-| [Live 3D model viewer](https://herbertofury.github.io/Advent-of-Ascension/) | [Crop growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) |
+| [Live 3D Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/) | [Named visual atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas) |
+| [1.12.2 entity portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2) | [Historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries) |
+| [1.16.5 source-model atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas) | [Crop growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) |
+| [Cross-version creature ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary) | [Item index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas) · [Block index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blocks-Atlas) |
 
-## Read this first
+## Choose your next goal
 
-“Latest,” “legacy-rich,” and “complete historical union” are three different things. The latest listed upstream release is **3.7.16.1 for Minecraft 1.21.1 / NeoForge**. The older **1.16.5-3.6.11** is the broad legacy-content reference. **3.7.1 for Minecraft 1.20.1** is the modern Forge-era reference. None alone proves every historical feature is present.
+- **Explore:** [worlds, realms and travel](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions).
+- **Fight:** [bosses, combat and equipment](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bosses-and-Combat) · [modern boss dossiers](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Boss-Dossiers).
+- **Craft:** [recipe types, ingredients and illustrated examples](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crafting-and-Recipes).
+- **Train:** [skills and progression](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skills-and-Progression) · [modern skill unlocks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Skill-Unlocks).
+- **Understand a mechanic:** [system-by-system guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Systems).
 
-The original mod name and IDs are preserved as the project goal. This is an independent owner-maintained project hub, not Tslat’s official development site. Official downloads and credits remain clearly linked.
+## Keep the release straight
 
-## Evidence legend
+| Inspected Minecraft release | AoA reference artifact | How it is used here |
+|---|---|---|
+| 1.12.2 | 3.3.6 | Historical creatures, models, loot and mechanics |
+| 1.16.5 | 3.6.11 | Broad legacy-era content reference |
+| 1.20.1 | 3.7.1 | Forge-era modern reference |
+| 1.21.1 | 3.7.16.1 | Modern tutorial and system reference |
 
-- **Documented:** an original explanation or requirement exists here.
-- **Source observed:** a pinned upstream file or active declaration was inspected.
-- **Historical checkpoint:** an older Enderloom report says a bounded check passed.
-- **Target verified:** an exact output artifact passed the required runtime gate. No new target is certified by this documentation pass.
-- **Pending evidence:** current local work may exist, but the relevant receipt was not available for this review.
+A resource file, translated name or historical registration is not proof that the content is obtainable in every release. The [version matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) keeps those distinctions visible. A complete historical union is the Enderloom project goal, not an already-certified release advertised by this wiki.
 
-![Proof ladder](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/proof-pipeline.svg)
+## The Ascension Armory
 
+[![Optional premium weapon presentation](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-upgrade-banner.svg)](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul)
 
----
-Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits). Source presence is not target runtime proof.
+The planned weapon upgrade aims for polished 3D models, animation and handling. **Reloading is optional**, independent of premium visuals; native resource costs remain a first-class design requirement.
 
-## See the mod
+[Design goals](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Reference mods and authoring tools](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Implementation checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog)
 
-[Explore the named visual atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas): actual textured entity models, item/block galleries and a rotating Smash preview, with source release and remaining coverage clearly recorded.
+## Building the complete AoA through Enderloom
 
-### Illustrated guides and legacy models
+| Follow development | Review the technical foundation |
+|---|---|
+| [Progress and verified results](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress) | [Enderloom conversion architecture](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Enderloom-Integration) |
+| [Restoration roadmap](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Roadmap) | [Content completeness specification](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Content-Specification) |
+| [Visual coverage and remaining gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage) | [Testing, saves and performance](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Testing-and-Performance) |
+| [Machine-readable source census](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/content-census.json) | [Sources, evidence and credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits) |
 
-- [Crafting and recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crafting-and-Recipes)
-- [First portal walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough)
-- [Crops and growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages)
-- [Legacy model atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas)
+The interactive references distinguish extracted base values from final in-game attributes, table weights from drop percentages, and source evidence from live-game testing. Missing data is labeled instead of silently invented. Dedicated tactics, variant behavior and further progression chapters are still being expanded.
 
+Advent of Ascension is created by **Tslat and contributors**. This is an independent owner-maintained Enderloom project atlas. Model/texture credits and source pins are retained throughout.
+
+[Repository](https://github.com/Herbertofury/Advent-of-Ascension) · [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits)
+
+Documentation snapshot: **2026-10-16**. Static reference work is not a new runtime certification of the merged mod.
