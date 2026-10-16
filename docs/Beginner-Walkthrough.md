@@ -109,3 +109,5 @@ Use the [bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-e
 Original guidance checked against the official AoA 3.7.16.1 artifact's bundled `getting_started`, `the_portal`, `advent_gui_base`, `skills_overview`, `cycles`, `energy`, `spirit`, `rage`, `guns`, `staves` and related guide entries, plus the recipes and loot evidence linked in the portal walkthrough. This is documentation research, not a new live-game test.
 
 This chapter covers the start-to-first-expedition route. Dedicated per-release realmstone acquisition, realm routes, boss tactics, equipment comparisons and full skill-training walkthroughs remain ongoing work. They must be filled with checked instructions rather than placeholder claims of completeness.
+
+- [1.16.5 Rune Posts and Randomizer handbook](Rune-Production-and-Randomizer-1.16.5)

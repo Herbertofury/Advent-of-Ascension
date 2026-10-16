@@ -1,0 +1,1890 @@
+{
+  "version": "1.16.5",
+  "release": "3.6.11",
+  "scope": "Static source/released-class audit and standalone arithmetic regression tests, not an in-game reproduction or applied game fix.",
+  "sources_and_classes": [
+    {
+      "source": "source/content/block/generation/misc/RunePostBlock.java",
+      "source_sha256": "7dc073f2b48c995bb19cec36af1169df30b781d880436b557bc816cf174aefaa",
+      "class": "net/tslat/aoa3/content/block/generation/misc/RunePostBlock.class",
+      "class_sha256": "b42bf668cc9e272bf100c7816432f92835ba331f82e842f183efc0386e8ff5b4",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Ljava/util/function/Supplier;)V",
+          "code_hex": "2abb000759b2001bb20021b7002412251226b6002ab6002eb700312a2bb50033b1"
+        },
+        {
+          "name": "getRune",
+          "descriptor": "()Lnet/minecraft/item/Item;",
+          "code_hex": "2ab40033b9003d0100c0003fb0"
+        },
+        {
+          "name": "func_225533_a_",
+          "descriptor": "(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;",
+          "code_hex": "19041905b600473a071907b6004cc1004e9900772c2db60054b6005ab60060b6006499001f2cb600679a00141904bb006959126bb7006eb20074b60078b2007eb02cb600679a003fbb0080592cc000822d2ab600841907b600881907b6004cc0004eb6008b681904b6008fb7009204b800981904b6009b9a000d19071907b60088b6009fb200a2b0b200a5b0"
+        }
+      ],
+      "members": {
+        "27": [
+          "net/minecraft/block/material/Material",
+          "field_151576_e",
+          "Lnet/minecraft/block/material/Material;"
+        ],
+        "33": [
+          "net/minecraft/block/material/MaterialColor",
+          "field_151646_E",
+          "Lnet/minecraft/block/material/MaterialColor;"
+        ],
+        "36": [
+          "net/tslat/aoa3/util/BlockUtil$CompactProperties",
+          "<init>",
+          "(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/material/MaterialColor;)V"
+        ],
+        "42": [
+          "net/tslat/aoa3/util/BlockUtil$CompactProperties",
+          "stats",
+          "(FF)Lnet/tslat/aoa3/util/BlockUtil$CompactProperties;"
+        ],
+        "46": [
+          "net/tslat/aoa3/util/BlockUtil$CompactProperties",
+          "get",
+          "()Lnet/minecraft/block/AbstractBlock$Properties;"
+        ],
+        "49": [
+          "net/minecraft/block/Block",
+          "<init>",
+          "(Lnet/minecraft/block/AbstractBlock$Properties;)V"
+        ],
+        "51": [
+          "net/tslat/aoa3/content/block/generation/misc/RunePostBlock",
+          "rune",
+          "Ljava/util/function/Supplier;"
+        ],
+        "61": [
+          "java/util/function/Supplier",
+          "get",
+          "()Ljava/lang/Object;"
+        ],
+        "71": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "func_184586_b",
+          "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+        ],
+        "76": [
+          "net/minecraft/item/ItemStack",
+          "func_77973_b",
+          "()Lnet/minecraft/item/Item;"
+        ],
+        "84": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177984_a",
+          "()Lnet/minecraft/util/math/BlockPos;"
+        ],
+        "90": [
+          "net/minecraft/world/World",
+          "func_180495_p",
+          "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;"
+        ],
+        "96": [
+          "net/minecraft/block/BlockState",
+          "func_185904_a",
+          "()Lnet/minecraft/block/material/Material;"
+        ],
+        "100": [
+          "net/minecraft/block/material/Material",
+          "func_76230_c",
+          "()Z"
+        ],
+        "103": [
+          "net/minecraft/world/World",
+          "func_201670_d",
+          "()Z"
+        ],
+        "110": [
+          "net/minecraft/util/text/TranslationTextComponent",
+          "<init>",
+          "(Ljava/lang/String;)V"
+        ],
+        "116": [
+          "net/minecraft/util/Util",
+          "field_240973_b_",
+          "Ljava/util/UUID;"
+        ],
+        "120": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "func_145747_a",
+          "(Lnet/minecraft/util/text/ITextComponent;Ljava/util/UUID;)V"
+        ],
+        "126": [
+          "net/minecraft/util/ActionResultType",
+          "FAIL",
+          "Lnet/minecraft/util/ActionResultType;"
+        ],
+        "132": [
+          "net/tslat/aoa3/content/block/generation/misc/RunePostBlock",
+          "getRune",
+          "()Lnet/minecraft/item/Item;"
+        ],
+        "136": [
+          "net/minecraft/item/ItemStack",
+          "func_190916_E",
+          "()I"
+        ],
+        "139": [
+          "net/tslat/aoa3/content/item/misc/RuneSource",
+          "getRuneGenFactor",
+          "()I"
+        ],
+        "143": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "func_110124_au",
+          "()Ljava/util/UUID;"
+        ],
+        "146": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "<init>",
+          "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/Item;ILjava/util/UUID;)V"
+        ],
+        "152": [
+          "net/tslat/aoa3/scheduling/AoAScheduler",
+          "scheduleSyncronisedTask",
+          "(Ljava/lang/Runnable;I)V"
+        ],
+        "155": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "func_184812_l_",
+          "()Z"
+        ],
+        "159": [
+          "net/minecraft/item/ItemStack",
+          "func_190918_g",
+          "(I)V"
+        ],
+        "162": [
+          "net/minecraft/util/ActionResultType",
+          "SUCCESS",
+          "Lnet/minecraft/util/ActionResultType;"
+        ],
+        "165": [
+          "net/minecraft/util/ActionResultType",
+          "PASS",
+          "Lnet/minecraft/util/ActionResultType;"
+        ]
+      }
+    },
+    {
+      "source": "source/scheduling/sync/RuneCreationTask.java",
+      "source_sha256": "41b9b79c5cc1f57c32f41b37a15d4af4e6b73aabf87a0c2aab9910643641bdc1",
+      "class": "net/tslat/aoa3/scheduling/sync/RuneCreationTask.class",
+      "class_sha256": "015139e5410aadb64f3f6cad46ba5f2cae9c5e91f50df6b0eae33541cb1ebf45",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/item/Item;ILjava/util/UUID;)V",
+          "code_hex": "2ab700172a2bb500192a2cb5001b2a2db5001d2a1504b5001f2a1905b500212a1014061504100a6c6068b50023b1"
+        },
+        {
+          "name": "run",
+          "descriptor": "()V",
+          "code_hex": "2a59b400230864b500232ab400239e006d2ab40019b2002c2ab4001bb600328714003363b8003a14003b6b632ab4001bb6003f870f631400401400402ab40023876b124212432ab4001f8612446e626a8d6f67632ab4001bb600478714003363b8003a14003b6b63040e0e0e140048b6004f572a08b80055a70083033c1b2ab4001fa20079bb0057592ab400192ab4001bb60032861258628d2ab4001bb6003f861259628d2ab4001bb60047861258628db7005c4d2c0e0e0eb600602c2ab40021b600642cb600672c04b6006b2cbb006d592ab4001d10402ab4001fb80073b70076b6007a2ab400192cb6007e571b2cb60082b60085603ca7ff85b1"
+        }
+      ],
+      "members": {
+        "23": [
+          "java/lang/Object",
+          "<init>",
+          "()V"
+        ],
+        "25": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "level",
+          "Lnet/minecraft/world/server/ServerWorld;"
+        ],
+        "27": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "pos",
+          "Lnet/minecraft/util/math/BlockPos;"
+        ],
+        "29": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "rune",
+          "Lnet/minecraft/item/Item;"
+        ],
+        "31": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "count",
+          "I"
+        ],
+        "33": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "owner",
+          "Ljava/util/UUID;"
+        ],
+        "35": [
+          "net/tslat/aoa3/scheduling/sync/RuneCreationTask",
+          "ticker",
+          "I"
+        ],
+        "44": [
+          "net/minecraft/particles/ParticleTypes",
+          "field_197624_q",
+          "Lnet/minecraft/particles/BasicParticleType;"
+        ],
+        "50": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177958_n",
+          "()I"
+        ],
+        "58": [
+          "net/tslat/aoa3/util/RandomUtil",
+          "randomGaussianValue",
+          "()D"
+        ],
+        "63": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177956_o",
+          "()I"
+        ],
+        "71": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177952_p",
+          "()I"
+        ],
+        "79": [
+          "net/minecraft/world/server/ServerWorld",
+          "func_195598_a",
+          "(Lnet/minecraft/particles/IParticleData;DDDIDDDD)I"
+        ],
+        "85": [
+          "net/tslat/aoa3/scheduling/AoAScheduler",
+          "scheduleSyncronisedTask",
+          "(Ljava/lang/Runnable;I)V"
+        ],
+        "92": [
+          "net/minecraft/entity/item/ItemEntity",
+          "<init>",
+          "(Lnet/minecraft/world/World;DDD)V"
+        ],
+        "96": [
+          "net/minecraft/entity/item/ItemEntity",
+          "func_213293_j",
+          "(DDD)V"
+        ],
+        "100": [
+          "net/minecraft/entity/item/ItemEntity",
+          "func_200217_b",
+          "(Ljava/util/UUID;)V"
+        ],
+        "103": [
+          "net/minecraft/entity/item/ItemEntity",
+          "func_174868_q",
+          "()V"
+        ],
+        "107": [
+          "net/minecraft/entity/item/ItemEntity",
+          "func_189654_d",
+          "(Z)V"
+        ],
+        "115": [
+          "java/lang/Math",
+          "min",
+          "(II)I"
+        ],
+        "118": [
+          "net/minecraft/item/ItemStack",
+          "<init>",
+          "(Lnet/minecraft/util/IItemProvider;I)V"
+        ],
+        "122": [
+          "net/minecraft/entity/item/ItemEntity",
+          "func_92058_a",
+          "(Lnet/minecraft/item/ItemStack;)V"
+        ],
+        "126": [
+          "net/minecraft/world/server/ServerWorld",
+          "func_217376_c",
+          "(Lnet/minecraft/entity/Entity;)Z"
+        ],
+        "130": [
+          "net/minecraft/entity/item/ItemEntity",
+          "func_92059_d",
+          "()Lnet/minecraft/item/ItemStack;"
+        ],
+        "133": [
+          "net/minecraft/item/ItemStack",
+          "func_190916_E",
+          "()I"
+        ]
+      }
+    },
+    {
+      "source": "source/content/item/misc/RuneSource.java",
+      "source_sha256": "4bfd89bc8c0907f1fbf6df77c1fea9149eb86a33fb5edfc1f6d2901fc8bd1001",
+      "class": "net/tslat/aoa3/content/item/misc/RuneSource.class",
+      "class_sha256": "a82af59b8ebdb2eee5903f7cada1a7b131cce116a2b32a93dc5be86e41afa430",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(I)V",
+          "code_hex": "2abb000759b7000fb20015b60019b7001c2a1bb5001eb1"
+        },
+        {
+          "name": "getRuneGenFactor",
+          "descriptor": "()I",
+          "code_hex": "2ab4001eac"
+        }
+      ],
+      "members": {
+        "15": [
+          "net/minecraft/item/Item$Properties",
+          "<init>",
+          "()V"
+        ],
+        "21": [
+          "net/tslat/aoa3/common/registration/AoAItemGroups",
+          "MISC_ITEMS",
+          "Lnet/minecraft/item/ItemGroup;"
+        ],
+        "25": [
+          "net/minecraft/item/Item$Properties",
+          "func_200916_a",
+          "(Lnet/minecraft/item/ItemGroup;)Lnet/minecraft/item/Item$Properties;"
+        ],
+        "28": [
+          "net/minecraft/item/Item",
+          "<init>",
+          "(Lnet/minecraft/item/Item$Properties;)V"
+        ],
+        "30": [
+          "net/tslat/aoa3/content/item/misc/RuneSource",
+          "runeGenFactor",
+          "I"
+        ]
+      }
+    },
+    {
+      "source": "source/content/block/functional/utility/RuneRandomizer.java",
+      "source_sha256": "efe6b45c51640563dd73fe43bac0a743f2a32ce73812c35226e7e9d958a201fe",
+      "class": "net/tslat/aoa3/content/block/functional/utility/RuneRandomizer.class",
+      "class_sha256": "d39d89464b12903b8a1084a463247c8fa00fb79df4fb3a96037ec2dbe806acaa",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2abb000759b20017b2001db7002012211222b60026b6002ab7002db1"
+        },
+        {
+          "name": "func_225533_a_",
+          "descriptor": "(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;",
+          "code_hex": "19041905b600373a071907b6003db20043b60048a500111907b6003db2004bb60048a600671904c1004d99005b1904b600519a0009190704b6005519042cc00057bb005959125b125db700602cc000572db800641904b8006ab8006eb800741904b40078012db6007e872db60081872db6008487b20089b60048c0008bb200910c0cb60097b2009db0b200a0b0"
+        }
+      ],
+      "members": {
+        "23": [
+          "net/minecraft/block/material/Material",
+          "field_151576_e",
+          "Lnet/minecraft/block/material/Material;"
+        ],
+        "29": [
+          "net/minecraft/block/material/MaterialColor",
+          "field_151679_y",
+          "Lnet/minecraft/block/material/MaterialColor;"
+        ],
+        "32": [
+          "net/tslat/aoa3/util/BlockUtil$CompactProperties",
+          "<init>",
+          "(Lnet/minecraft/block/material/Material;Lnet/minecraft/block/material/MaterialColor;)V"
+        ],
+        "38": [
+          "net/tslat/aoa3/util/BlockUtil$CompactProperties",
+          "stats",
+          "(FF)Lnet/tslat/aoa3/util/BlockUtil$CompactProperties;"
+        ],
+        "42": [
+          "net/tslat/aoa3/util/BlockUtil$CompactProperties",
+          "get",
+          "()Lnet/minecraft/block/AbstractBlock$Properties;"
+        ],
+        "45": [
+          "net/minecraft/block/Block",
+          "<init>",
+          "(Lnet/minecraft/block/AbstractBlock$Properties;)V"
+        ],
+        "55": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "func_184586_b",
+          "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+        ],
+        "61": [
+          "net/minecraft/item/ItemStack",
+          "func_77973_b",
+          "()Lnet/minecraft/item/Item;"
+        ],
+        "67": [
+          "net/tslat/aoa3/common/registration/AoAItems",
+          "UNPOWERED_RUNE",
+          "Lnet/minecraftforge/fml/RegistryObject;"
+        ],
+        "72": [
+          "net/minecraftforge/fml/RegistryObject",
+          "get",
+          "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+        ],
+        "75": [
+          "net/tslat/aoa3/common/registration/AoAItems",
+          "CHARGED_RUNE",
+          "Lnet/minecraftforge/fml/RegistryObject;"
+        ],
+        "81": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "func_184812_l_",
+          "()Z"
+        ],
+        "85": [
+          "net/minecraft/item/ItemStack",
+          "func_190918_g",
+          "(I)V"
+        ],
+        "96": [
+          "net/minecraft/util/ResourceLocation",
+          "<init>",
+          "(Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        "100": [
+          "net/tslat/aoa3/util/BlockUtil",
+          "posToVec",
+          "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/vector/Vector3d;"
+        ],
+        "106": [
+          "net/tslat/aoa3/util/LootUtil",
+          "getGiftContext",
+          "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/vector/Vector3d;Lnet/minecraft/entity/Entity;)Lnet/minecraft/loot/LootContext;"
+        ],
+        "110": [
+          "net/tslat/aoa3/util/LootUtil",
+          "generateLoot",
+          "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/loot/LootContext;)Ljava/util/List;"
+        ],
+        "116": [
+          "net/tslat/aoa3/util/ItemUtil",
+          "givePlayerMultipleItems",
+          "(Lnet/minecraft/entity/player/PlayerEntity;Ljava/util/Collection;)V"
+        ],
+        "120": [
+          "net/minecraft/entity/player/PlayerEntity",
+          "field_70170_p",
+          "Lnet/minecraft/world/World;"
+        ],
+        "126": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177958_n",
+          "()I"
+        ],
+        "129": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177956_o",
+          "()I"
+        ],
+        "132": [
+          "net/minecraft/util/math/BlockPos",
+          "func_177952_p",
+          "()I"
+        ],
+        "137": [
+          "net/tslat/aoa3/common/registration/AoASounds",
+          "BLOCK_RUNE_RANDOMIZER_USE",
+          "Lnet/minecraftforge/fml/RegistryObject;"
+        ],
+        "145": [
+          "net/minecraft/util/SoundCategory",
+          "BLOCKS",
+          "Lnet/minecraft/util/SoundCategory;"
+        ],
+        "151": [
+          "net/minecraft/world/World",
+          "func_184148_a",
+          "(Lnet/minecraft/entity/player/PlayerEntity;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+        ],
+        "157": [
+          "net/minecraft/util/ActionResultType",
+          "SUCCESS",
+          "Lnet/minecraft/util/ActionResultType;"
+        ],
+        "160": [
+          "net/minecraft/util/ActionResultType",
+          "PASS",
+          "Lnet/minecraft/util/ActionResultType;"
+        ]
+      }
+    },
+    {
+      "source": "source/content/loottable/condition/HoldingItem.java",
+      "source_sha256": "abb3441c6eb151f276a2899f83bbeaf6ff1163807a8eca3af4f8c31573ff72ed",
+      "class": "net/tslat/aoa3/content/loottable/condition/HoldingItem.class",
+      "class_sha256": "899357002e08f96514294b3e0c9aef2f91fcc568a347578693935c51fd2ab7b6",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/loot/LootContext$EntityTarget;Lnet/minecraft/advancements/criterion/ItemPredicate;Lnet/minecraft/util/Hand;)V",
+          "code_hex": "2ab700202a2bb500222a2cb500242a2db50026b1"
+        },
+        {
+          "name": "test",
+          "descriptor": "(Lnet/minecraft/loot/LootContext;)Z",
+          "code_hex": "2b2ab40022b6002eb60032c000344d2cc1003699004c2ab40026c600162ab400242cc000362ab40026b6003ab60040ac2cb60044b9004a01004e2db90050010099001f2db900540100c000563a042ab400241904b6004099000504aca7ffde03ac"
+        },
+        {
+          "name": "func_230419_b_",
+          "descriptor": "()Lnet/minecraft/loot/LootConditionType;",
+          "code_hex": "b20062b0"
+        },
+        {
+          "name": "getTarget",
+          "descriptor": "()Lnet/minecraft/loot/LootContext$EntityTarget;",
+          "code_hex": "2ab40022b0"
+        },
+        {
+          "name": "getPredicate",
+          "descriptor": "()Lnet/minecraft/advancements/criterion/ItemPredicate;",
+          "code_hex": "2ab40024b0"
+        },
+        {
+          "name": "getHand",
+          "descriptor": "()Lnet/minecraft/util/Hand;",
+          "code_hex": "2ab40026b0"
+        },
+        {
+          "name": "test",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "code_hex": "2a2bc0000eb6006bac"
+        },
+        {
+          "name": "access$000",
+          "descriptor": "(Lnet/tslat/aoa3/content/loottable/condition/HoldingItem;)Lnet/minecraft/loot/LootContext$EntityTarget;",
+          "code_hex": "2ab40022b0"
+        },
+        {
+          "name": "access$100",
+          "descriptor": "(Lnet/tslat/aoa3/content/loottable/condition/HoldingItem;)Lnet/minecraft/advancements/criterion/ItemPredicate;",
+          "code_hex": "2ab40024b0"
+        },
+        {
+          "name": "access$200",
+          "descriptor": "(Lnet/tslat/aoa3/content/loottable/condition/HoldingItem;)Lnet/minecraft/util/Hand;",
+          "code_hex": "2ab40026b0"
+        }
+      ],
+      "members": {
+        "32": [
+          "java/lang/Object",
+          "<init>",
+          "()V"
+        ],
+        "34": [
+          "net/tslat/aoa3/content/loottable/condition/HoldingItem",
+          "target",
+          "Lnet/minecraft/loot/LootContext$EntityTarget;"
+        ],
+        "36": [
+          "net/tslat/aoa3/content/loottable/condition/HoldingItem",
+          "predicate",
+          "Lnet/minecraft/advancements/criterion/ItemPredicate;"
+        ],
+        "38": [
+          "net/tslat/aoa3/content/loottable/condition/HoldingItem",
+          "hand",
+          "Lnet/minecraft/util/Hand;"
+        ],
+        "46": [
+          "net/minecraft/loot/LootContext$EntityTarget",
+          "func_216029_a",
+          "()Lnet/minecraft/loot/LootParameter;"
+        ],
+        "50": [
+          "net/minecraft/loot/LootContext",
+          "func_216031_c",
+          "(Lnet/minecraft/loot/LootParameter;)Ljava/lang/Object;"
+        ],
+        "58": [
+          "net/minecraft/entity/LivingEntity",
+          "func_184586_b",
+          "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+        ],
+        "64": [
+          "net/minecraft/advancements/criterion/ItemPredicate",
+          "func_192493_a",
+          "(Lnet/minecraft/item/ItemStack;)Z"
+        ],
+        "68": [
+          "net/minecraft/entity/Entity",
+          "func_184214_aD",
+          "()Ljava/lang/Iterable;"
+        ],
+        "74": [
+          "java/lang/Iterable",
+          "iterator",
+          "()Ljava/util/Iterator;"
+        ],
+        "80": [
+          "java/util/Iterator",
+          "hasNext",
+          "()Z"
+        ],
+        "84": [
+          "java/util/Iterator",
+          "next",
+          "()Ljava/lang/Object;"
+        ],
+        "98": [
+          "net/tslat/aoa3/common/registration/AoALootOperations$LootConditions",
+          "HOLDING_ITEM",
+          "Lnet/minecraft/loot/LootConditionType;"
+        ],
+        "107": [
+          "net/tslat/aoa3/content/loottable/condition/HoldingItem",
+          "test",
+          "(Lnet/minecraft/loot/LootContext;)Z"
+        ]
+      }
+    },
+    {
+      "source": "source/util/LootUtil.java",
+      "source_sha256": "51208a870b63391eb139606340ff22e6bc5eec94978a3c2ed5df34e9924c2fcc",
+      "class": "net/tslat/aoa3/util/LootUtil.class",
+      "class_sha256": "bfa056ad83878ec191d8ce729e38f01fe01594b0512439651d4215689192b04e",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2ab7000eb1"
+        },
+        {
+          "name": "getTable",
+          "descriptor": "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/loot/LootTable;",
+          "code_hex": "2ab60018b6001e2bb60024b0"
+        },
+        {
+          "name": "generateLoot",
+          "descriptor": "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/loot/LootContext;)Ljava/util/List;",
+          "code_hex": "2a2bb8002e4e2db20034a60007b8003ab02d2cb6003eb0"
+        },
+        {
+          "name": "getGiftContext",
+          "descriptor": "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/vector/Vector3d;Lnet/minecraft/entity/Entity;)Lnet/minecraft/loot/LootContext;",
+          "code_hex": "2a2b0b2cb80046b0"
+        },
+        {
+          "name": "getGiftContext",
+          "descriptor": "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/vector/Vector3d;FLnet/minecraft/entity/Entity;)Lnet/minecraft/loot/LootContext;",
+          "code_hex": "bb0007592ab7004d2ab60051b60055b2005b2db6005fb200622bb6005f24b60066b2006cb60070b0"
+        }
+      ],
+      "members": {
+        "14": [
+          "java/lang/Object",
+          "<init>",
+          "()V"
+        ],
+        "24": [
+          "net/minecraft/world/server/ServerWorld",
+          "func_73046_m",
+          "()Lnet/minecraft/server/MinecraftServer;"
+        ],
+        "30": [
+          "net/minecraft/server/MinecraftServer",
+          "func_200249_aQ",
+          "()Lnet/minecraft/loot/LootTableManager;"
+        ],
+        "36": [
+          "net/minecraft/loot/LootTableManager",
+          "func_186521_a",
+          "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/loot/LootTable;"
+        ],
+        "46": [
+          "net/tslat/aoa3/util/LootUtil",
+          "getTable",
+          "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/loot/LootTable;"
+        ],
+        "52": [
+          "net/minecraft/loot/LootTable",
+          "field_186464_a",
+          "Lnet/minecraft/loot/LootTable;"
+        ],
+        "58": [
+          "com/google/common/collect/Lists",
+          "newArrayList",
+          "()Ljava/util/ArrayList;"
+        ],
+        "62": [
+          "net/minecraft/loot/LootTable",
+          "func_216113_a",
+          "(Lnet/minecraft/loot/LootContext;)Ljava/util/List;"
+        ],
+        "70": [
+          "net/tslat/aoa3/util/LootUtil",
+          "getGiftContext",
+          "(Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/vector/Vector3d;FLnet/minecraft/entity/Entity;)Lnet/minecraft/loot/LootContext;"
+        ],
+        "77": [
+          "net/minecraft/loot/LootContext$Builder",
+          "<init>",
+          "(Lnet/minecraft/world/server/ServerWorld;)V"
+        ],
+        "81": [
+          "net/minecraft/world/server/ServerWorld",
+          "func_201674_k",
+          "()Ljava/util/Random;"
+        ],
+        "85": [
+          "net/minecraft/loot/LootContext$Builder",
+          "func_216023_a",
+          "(Ljava/util/Random;)Lnet/minecraft/loot/LootContext$Builder;"
+        ],
+        "91": [
+          "net/minecraft/loot/LootParameters",
+          "field_216281_a",
+          "Lnet/minecraft/loot/LootParameter;"
+        ],
+        "95": [
+          "net/minecraft/loot/LootContext$Builder",
+          "func_216015_a",
+          "(Lnet/minecraft/loot/LootParameter;Ljava/lang/Object;)Lnet/minecraft/loot/LootContext$Builder;"
+        ],
+        "98": [
+          "net/minecraft/loot/LootParameters",
+          "field_237457_g_",
+          "Lnet/minecraft/loot/LootParameter;"
+        ],
+        "102": [
+          "net/minecraft/loot/LootContext$Builder",
+          "func_186469_a",
+          "(F)Lnet/minecraft/loot/LootContext$Builder;"
+        ],
+        "108": [
+          "net/minecraft/loot/LootParameterSets",
+          "field_216264_e",
+          "Lnet/minecraft/loot/LootParameterSet;"
+        ],
+        "112": [
+          "net/minecraft/loot/LootContext$Builder",
+          "func_216022_a",
+          "(Lnet/minecraft/loot/LootParameterSet;)Lnet/minecraft/loot/LootContext;"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/aoa3/recipes/shapeless_craft_unpowered_rune.json",
+      "sha256": "77a8548bc5ede7adb6e0de8c39e6f9c21d369e70ea67feae5097f5d9bc702b2e",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "aoa3:runium_chunk"
+          }
+        ],
+        "result": {
+          "item": "aoa3:unpowered_rune",
+          "count": 16
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/shapeless_craft_charged_rune.json",
+      "sha256": "8aefb6cbc64d5dc03c144a091b0df4e36c60ca4a9537dbd6093fb03bf0990d1a",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "aoa3:charged_runium_chunk"
+          }
+        ],
+        "result": {
+          "item": "aoa3:charged_rune",
+          "count": 16
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/loot_tables/misc/rune_randomizer.json",
+      "sha256": "f6d10ce96e1a05894eb472b7980ef6d6605c2579e04b2141ae214256209a2ca9",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "name": "powered_runes",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:compass_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:distortion_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:energy_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:fire_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:kinetic_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:life_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:lunar_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:poison_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:power_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:storm_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:strike_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:water_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:wind_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:wither_rune"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "aoa3:holding_item",
+                "target": "this",
+                "predicate": {
+                  "item": "aoa3:charged_rune"
+                }
+              }
+            ]
+          },
+          {
+            "name": "unpowered_runes",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:energy_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:fire_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:poison_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:power_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:strike_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:water_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:wind_rune"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1.0,
+                      "max": 3.0,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ],
+                "name": "aoa3:wither_rune"
+              }
+            ],
+            "bonus_rolls": 1.0,
+            "conditions": [
+              {
+                "condition": "aoa3:holding_item",
+                "target": "this",
+                "predicate": {
+                  "item": "aoa3:unpowered_rune"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "block": "aoa3:compass_rune_post",
+      "rune": "aoa3:compass_rune"
+    },
+    {
+      "block": "aoa3:distortion_rune_post",
+      "rune": "aoa3:distortion_rune"
+    },
+    {
+      "block": "aoa3:energy_rune_post",
+      "rune": "aoa3:energy_rune"
+    },
+    {
+      "block": "aoa3:fire_rune_post",
+      "rune": "aoa3:fire_rune"
+    },
+    {
+      "block": "aoa3:kinetic_rune_post",
+      "rune": "aoa3:kinetic_rune"
+    },
+    {
+      "block": "aoa3:life_rune_post",
+      "rune": "aoa3:life_rune"
+    },
+    {
+      "block": "aoa3:lunar_rune_post",
+      "rune": "aoa3:lunar_rune"
+    },
+    {
+      "block": "aoa3:poison_rune_post",
+      "rune": "aoa3:poison_rune"
+    },
+    {
+      "block": "aoa3:power_rune_post",
+      "rune": "aoa3:power_rune"
+    },
+    {
+      "block": "aoa3:storm_rune_post",
+      "rune": "aoa3:storm_rune"
+    },
+    {
+      "block": "aoa3:strike_rune_post",
+      "rune": "aoa3:strike_rune"
+    },
+    {
+      "block": "aoa3:water_rune_post",
+      "rune": "aoa3:water_rune"
+    },
+    {
+      "block": "aoa3:wind_rune_post",
+      "rune": "aoa3:wind_rune"
+    },
+    {
+      "block": "aoa3:wither_rune_post",
+      "rune": "aoa3:wither_rune"
+    }
+  ],
+  "bytecode_checks": {
+    "stack_min_uses_total_count": true,
+    "randomizer_shrink_offset": 56,
+    "randomizer_generate_loot_offset": 89
+  },
+  "arithmetic_cases": [
+    {
+      "requested": 1,
+      "released_loop_total": 1,
+      "proposed_loop_total": 1
+    },
+    {
+      "requested": 2,
+      "released_loop_total": 2,
+      "proposed_loop_total": 2
+    },
+    {
+      "requested": 3,
+      "released_loop_total": 3,
+      "proposed_loop_total": 3
+    },
+    {
+      "requested": 4,
+      "released_loop_total": 4,
+      "proposed_loop_total": 4
+    },
+    {
+      "requested": 5,
+      "released_loop_total": 5,
+      "proposed_loop_total": 5
+    },
+    {
+      "requested": 6,
+      "released_loop_total": 6,
+      "proposed_loop_total": 6
+    },
+    {
+      "requested": 7,
+      "released_loop_total": 7,
+      "proposed_loop_total": 7
+    },
+    {
+      "requested": 8,
+      "released_loop_total": 8,
+      "proposed_loop_total": 8
+    },
+    {
+      "requested": 9,
+      "released_loop_total": 9,
+      "proposed_loop_total": 9
+    },
+    {
+      "requested": 10,
+      "released_loop_total": 10,
+      "proposed_loop_total": 10
+    },
+    {
+      "requested": 11,
+      "released_loop_total": 11,
+      "proposed_loop_total": 11
+    },
+    {
+      "requested": 12,
+      "released_loop_total": 12,
+      "proposed_loop_total": 12
+    },
+    {
+      "requested": 13,
+      "released_loop_total": 13,
+      "proposed_loop_total": 13
+    },
+    {
+      "requested": 14,
+      "released_loop_total": 14,
+      "proposed_loop_total": 14
+    },
+    {
+      "requested": 15,
+      "released_loop_total": 15,
+      "proposed_loop_total": 15
+    },
+    {
+      "requested": 16,
+      "released_loop_total": 16,
+      "proposed_loop_total": 16
+    },
+    {
+      "requested": 17,
+      "released_loop_total": 17,
+      "proposed_loop_total": 17
+    },
+    {
+      "requested": 18,
+      "released_loop_total": 18,
+      "proposed_loop_total": 18
+    },
+    {
+      "requested": 19,
+      "released_loop_total": 19,
+      "proposed_loop_total": 19
+    },
+    {
+      "requested": 20,
+      "released_loop_total": 20,
+      "proposed_loop_total": 20
+    },
+    {
+      "requested": 21,
+      "released_loop_total": 21,
+      "proposed_loop_total": 21
+    },
+    {
+      "requested": 22,
+      "released_loop_total": 22,
+      "proposed_loop_total": 22
+    },
+    {
+      "requested": 23,
+      "released_loop_total": 23,
+      "proposed_loop_total": 23
+    },
+    {
+      "requested": 24,
+      "released_loop_total": 24,
+      "proposed_loop_total": 24
+    },
+    {
+      "requested": 25,
+      "released_loop_total": 25,
+      "proposed_loop_total": 25
+    },
+    {
+      "requested": 26,
+      "released_loop_total": 26,
+      "proposed_loop_total": 26
+    },
+    {
+      "requested": 27,
+      "released_loop_total": 27,
+      "proposed_loop_total": 27
+    },
+    {
+      "requested": 28,
+      "released_loop_total": 28,
+      "proposed_loop_total": 28
+    },
+    {
+      "requested": 29,
+      "released_loop_total": 29,
+      "proposed_loop_total": 29
+    },
+    {
+      "requested": 30,
+      "released_loop_total": 30,
+      "proposed_loop_total": 30
+    },
+    {
+      "requested": 31,
+      "released_loop_total": 31,
+      "proposed_loop_total": 31
+    },
+    {
+      "requested": 32,
+      "released_loop_total": 32,
+      "proposed_loop_total": 32
+    },
+    {
+      "requested": 33,
+      "released_loop_total": 33,
+      "proposed_loop_total": 33
+    },
+    {
+      "requested": 34,
+      "released_loop_total": 34,
+      "proposed_loop_total": 34
+    },
+    {
+      "requested": 35,
+      "released_loop_total": 35,
+      "proposed_loop_total": 35
+    },
+    {
+      "requested": 36,
+      "released_loop_total": 36,
+      "proposed_loop_total": 36
+    },
+    {
+      "requested": 37,
+      "released_loop_total": 37,
+      "proposed_loop_total": 37
+    },
+    {
+      "requested": 38,
+      "released_loop_total": 38,
+      "proposed_loop_total": 38
+    },
+    {
+      "requested": 39,
+      "released_loop_total": 39,
+      "proposed_loop_total": 39
+    },
+    {
+      "requested": 40,
+      "released_loop_total": 40,
+      "proposed_loop_total": 40
+    },
+    {
+      "requested": 41,
+      "released_loop_total": 41,
+      "proposed_loop_total": 41
+    },
+    {
+      "requested": 42,
+      "released_loop_total": 42,
+      "proposed_loop_total": 42
+    },
+    {
+      "requested": 43,
+      "released_loop_total": 43,
+      "proposed_loop_total": 43
+    },
+    {
+      "requested": 44,
+      "released_loop_total": 44,
+      "proposed_loop_total": 44
+    },
+    {
+      "requested": 45,
+      "released_loop_total": 45,
+      "proposed_loop_total": 45
+    },
+    {
+      "requested": 46,
+      "released_loop_total": 46,
+      "proposed_loop_total": 46
+    },
+    {
+      "requested": 47,
+      "released_loop_total": 47,
+      "proposed_loop_total": 47
+    },
+    {
+      "requested": 48,
+      "released_loop_total": 48,
+      "proposed_loop_total": 48
+    },
+    {
+      "requested": 49,
+      "released_loop_total": 49,
+      "proposed_loop_total": 49
+    },
+    {
+      "requested": 50,
+      "released_loop_total": 50,
+      "proposed_loop_total": 50
+    },
+    {
+      "requested": 51,
+      "released_loop_total": 51,
+      "proposed_loop_total": 51
+    },
+    {
+      "requested": 52,
+      "released_loop_total": 52,
+      "proposed_loop_total": 52
+    },
+    {
+      "requested": 53,
+      "released_loop_total": 53,
+      "proposed_loop_total": 53
+    },
+    {
+      "requested": 54,
+      "released_loop_total": 54,
+      "proposed_loop_total": 54
+    },
+    {
+      "requested": 55,
+      "released_loop_total": 55,
+      "proposed_loop_total": 55
+    },
+    {
+      "requested": 56,
+      "released_loop_total": 56,
+      "proposed_loop_total": 56
+    },
+    {
+      "requested": 57,
+      "released_loop_total": 57,
+      "proposed_loop_total": 57
+    },
+    {
+      "requested": 58,
+      "released_loop_total": 58,
+      "proposed_loop_total": 58
+    },
+    {
+      "requested": 59,
+      "released_loop_total": 59,
+      "proposed_loop_total": 59
+    },
+    {
+      "requested": 60,
+      "released_loop_total": 60,
+      "proposed_loop_total": 60
+    },
+    {
+      "requested": 61,
+      "released_loop_total": 61,
+      "proposed_loop_total": 61
+    },
+    {
+      "requested": 62,
+      "released_loop_total": 62,
+      "proposed_loop_total": 62
+    },
+    {
+      "requested": 63,
+      "released_loop_total": 63,
+      "proposed_loop_total": 63
+    },
+    {
+      "requested": 64,
+      "released_loop_total": 64,
+      "proposed_loop_total": 64
+    },
+    {
+      "requested": 65,
+      "released_loop_total": 128,
+      "proposed_loop_total": 65
+    },
+    {
+      "requested": 66,
+      "released_loop_total": 128,
+      "proposed_loop_total": 66
+    },
+    {
+      "requested": 67,
+      "released_loop_total": 128,
+      "proposed_loop_total": 67
+    },
+    {
+      "requested": 68,
+      "released_loop_total": 128,
+      "proposed_loop_total": 68
+    },
+    {
+      "requested": 69,
+      "released_loop_total": 128,
+      "proposed_loop_total": 69
+    },
+    {
+      "requested": 70,
+      "released_loop_total": 128,
+      "proposed_loop_total": 70
+    },
+    {
+      "requested": 71,
+      "released_loop_total": 128,
+      "proposed_loop_total": 71
+    },
+    {
+      "requested": 72,
+      "released_loop_total": 128,
+      "proposed_loop_total": 72
+    },
+    {
+      "requested": 73,
+      "released_loop_total": 128,
+      "proposed_loop_total": 73
+    },
+    {
+      "requested": 74,
+      "released_loop_total": 128,
+      "proposed_loop_total": 74
+    },
+    {
+      "requested": 75,
+      "released_loop_total": 128,
+      "proposed_loop_total": 75
+    },
+    {
+      "requested": 76,
+      "released_loop_total": 128,
+      "proposed_loop_total": 76
+    },
+    {
+      "requested": 77,
+      "released_loop_total": 128,
+      "proposed_loop_total": 77
+    },
+    {
+      "requested": 78,
+      "released_loop_total": 128,
+      "proposed_loop_total": 78
+    },
+    {
+      "requested": 79,
+      "released_loop_total": 128,
+      "proposed_loop_total": 79
+    },
+    {
+      "requested": 80,
+      "released_loop_total": 128,
+      "proposed_loop_total": 80
+    },
+    {
+      "requested": 81,
+      "released_loop_total": 128,
+      "proposed_loop_total": 81
+    },
+    {
+      "requested": 82,
+      "released_loop_total": 128,
+      "proposed_loop_total": 82
+    },
+    {
+      "requested": 83,
+      "released_loop_total": 128,
+      "proposed_loop_total": 83
+    },
+    {
+      "requested": 84,
+      "released_loop_total": 128,
+      "proposed_loop_total": 84
+    },
+    {
+      "requested": 85,
+      "released_loop_total": 128,
+      "proposed_loop_total": 85
+    },
+    {
+      "requested": 86,
+      "released_loop_total": 128,
+      "proposed_loop_total": 86
+    },
+    {
+      "requested": 87,
+      "released_loop_total": 128,
+      "proposed_loop_total": 87
+    },
+    {
+      "requested": 88,
+      "released_loop_total": 128,
+      "proposed_loop_total": 88
+    },
+    {
+      "requested": 89,
+      "released_loop_total": 128,
+      "proposed_loop_total": 89
+    },
+    {
+      "requested": 90,
+      "released_loop_total": 128,
+      "proposed_loop_total": 90
+    },
+    {
+      "requested": 91,
+      "released_loop_total": 128,
+      "proposed_loop_total": 91
+    },
+    {
+      "requested": 92,
+      "released_loop_total": 128,
+      "proposed_loop_total": 92
+    },
+    {
+      "requested": 93,
+      "released_loop_total": 128,
+      "proposed_loop_total": 93
+    },
+    {
+      "requested": 94,
+      "released_loop_total": 128,
+      "proposed_loop_total": 94
+    },
+    {
+      "requested": 95,
+      "released_loop_total": 128,
+      "proposed_loop_total": 95
+    },
+    {
+      "requested": 96,
+      "released_loop_total": 128,
+      "proposed_loop_total": 96
+    },
+    {
+      "requested": 97,
+      "released_loop_total": 128,
+      "proposed_loop_total": 97
+    },
+    {
+      "requested": 98,
+      "released_loop_total": 128,
+      "proposed_loop_total": 98
+    },
+    {
+      "requested": 99,
+      "released_loop_total": 128,
+      "proposed_loop_total": 99
+    },
+    {
+      "requested": 100,
+      "released_loop_total": 128,
+      "proposed_loop_total": 100
+    },
+    {
+      "requested": 101,
+      "released_loop_total": 128,
+      "proposed_loop_total": 101
+    },
+    {
+      "requested": 102,
+      "released_loop_total": 128,
+      "proposed_loop_total": 102
+    },
+    {
+      "requested": 103,
+      "released_loop_total": 128,
+      "proposed_loop_total": 103
+    },
+    {
+      "requested": 104,
+      "released_loop_total": 128,
+      "proposed_loop_total": 104
+    },
+    {
+      "requested": 105,
+      "released_loop_total": 128,
+      "proposed_loop_total": 105
+    },
+    {
+      "requested": 106,
+      "released_loop_total": 128,
+      "proposed_loop_total": 106
+    },
+    {
+      "requested": 107,
+      "released_loop_total": 128,
+      "proposed_loop_total": 107
+    },
+    {
+      "requested": 108,
+      "released_loop_total": 128,
+      "proposed_loop_total": 108
+    },
+    {
+      "requested": 109,
+      "released_loop_total": 128,
+      "proposed_loop_total": 109
+    },
+    {
+      "requested": 110,
+      "released_loop_total": 128,
+      "proposed_loop_total": 110
+    },
+    {
+      "requested": 111,
+      "released_loop_total": 128,
+      "proposed_loop_total": 111
+    },
+    {
+      "requested": 112,
+      "released_loop_total": 128,
+      "proposed_loop_total": 112
+    },
+    {
+      "requested": 113,
+      "released_loop_total": 128,
+      "proposed_loop_total": 113
+    },
+    {
+      "requested": 114,
+      "released_loop_total": 128,
+      "proposed_loop_total": 114
+    },
+    {
+      "requested": 115,
+      "released_loop_total": 128,
+      "proposed_loop_total": 115
+    },
+    {
+      "requested": 116,
+      "released_loop_total": 128,
+      "proposed_loop_total": 116
+    },
+    {
+      "requested": 117,
+      "released_loop_total": 128,
+      "proposed_loop_total": 117
+    },
+    {
+      "requested": 118,
+      "released_loop_total": 128,
+      "proposed_loop_total": 118
+    },
+    {
+      "requested": 119,
+      "released_loop_total": 128,
+      "proposed_loop_total": 119
+    },
+    {
+      "requested": 120,
+      "released_loop_total": 128,
+      "proposed_loop_total": 120
+    },
+    {
+      "requested": 121,
+      "released_loop_total": 128,
+      "proposed_loop_total": 121
+    },
+    {
+      "requested": 122,
+      "released_loop_total": 128,
+      "proposed_loop_total": 122
+    },
+    {
+      "requested": 123,
+      "released_loop_total": 128,
+      "proposed_loop_total": 123
+    },
+    {
+      "requested": 124,
+      "released_loop_total": 128,
+      "proposed_loop_total": 124
+    },
+    {
+      "requested": 125,
+      "released_loop_total": 128,
+      "proposed_loop_total": 125
+    },
+    {
+      "requested": 126,
+      "released_loop_total": 128,
+      "proposed_loop_total": 126
+    },
+    {
+      "requested": 127,
+      "released_loop_total": 128,
+      "proposed_loop_total": 127
+    },
+    {
+      "requested": 128,
+      "released_loop_total": 128,
+      "proposed_loop_total": 128
+    }
+  ],
+  "risk_summary": [
+    "RuneCreationTask uses min(64,total count) for every emitted stack, so nonmultiples above64 overshoot in this loop.",
+    "RuneRandomizer consumes first, then holding-item loot predicates inspect live hand slots. Last-item and mixed-hand cases need in-game regression tests."
+  ]
+}
