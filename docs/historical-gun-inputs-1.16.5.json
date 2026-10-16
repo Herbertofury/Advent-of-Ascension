@@ -1,0 +1,5460 @@
+{
+  "version": "1.16.5",
+  "release": "3.6.11",
+  "scope": "Literal four-argument gun-constructor registration inputs, exact released artifact. Not modern GunStats components or measured final damage. Recoil argument is distinct from the inherited recoil getter.",
+  "registration_class": "net/tslat/aoa3/common/registration/AoAWeapons.class",
+  "registration_sha256": "35abea1bb56a8e43a67a378f08c4eabaae0ae7b80fa45ec6c978b141994d15a3",
+  "base_recoil_getter": {
+    "class_sha256": "ff390780cd16820d4b5bab4a1978d35b371758c1a27a386e7dfb08b3676657b8",
+    "code_hex": "128bae",
+    "value": 0.3499999940395355
+  },
+  "records": [
+    {
+      "id": "aoa3:abominator",
+      "name": "Abominator",
+      "damage_input": 2.625,
+      "durability_input": 4720,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.800000011920929,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Abominator",
+      "class_sha256": "3b3a2943bac4fa82bd5a2a0d6a9789455449b26d50439738650506fec8fa61af",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$18",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0801591406a311127006130426b70802b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              8,
+              1
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4720
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.800000011920929
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Abominator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:apoco_assault_rifle",
+      "name": "Apoco Assault Rifle",
+      "damage_input": 5.625,
+      "durability_input": 5920,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 0.6000000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/ApocoAssaultRifle",
+      "class_sha256": "4a7be56b10b7e3a88f3e1376511e00e590c6fe8258ef01a84a00874c01f62577",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$19",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07fd591407661117201006130723b707feb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              253
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 5.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5920
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.6000000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/ApocoAssaultRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:apoco_rifle",
+      "name": "Apoco Rifle",
+      "damage_input": 2.5,
+      "durability_input": 5960,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/ApocoRifle",
+      "class_sha256": "447ef44deadb8ce6e5ec9eb6cd513ae3142df2f5ae88f8ee8310069e237d9a19",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001a2a1504b5001cb1",
+      "registration_factory": {
+        "name": "lambda$static$20",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07f95914021c11174810060cb707fab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              249
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5960
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 12
+          },
+          {
+            "offset": 13,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/ApocoRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:aqua_magnum",
+      "name": "Aqua Magnum",
+      "damage_input": 2.0625,
+      "durability_input": 6080,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 0.949999988079071,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/AquaMagnum",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/AquaMagnum",
+      "class_sha256": "9b3633d1e7b814001bfe7fdefd2a7d03764cdd4d76f3ea4b70e593774324724f",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$21",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07f3591407f41117c00513072eb707f6b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              243
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.0625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6080
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.949999988079071
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/AquaMagnum",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:artifact",
+      "name": "Artifact",
+      "damage_input": 10.0,
+      "durability_input": 6000,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.6499999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Artifact",
+      "class_sha256": "ca2290619bda486ff6d833aad007852faf6c77f9127b2c70df20c23f20774e33",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$22",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07ef5914049d11177008130667b707f0b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              239
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 10.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6000
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.6499999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Artifact",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:baronator",
+      "name": "Baronator",
+      "damage_input": 3.0,
+      "durability_input": 2480,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.949999988079071,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Baronator",
+      "class_sha256": "dfc16168998a6d509726494d271e1336301844a596108799aa6e374b385eca49",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$23",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07eb5914025b1109b00813072eb707ecb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              235
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2480
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.949999988079071
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Baronator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:bayonette_rifle",
+      "name": "Bayonette Rifle",
+      "damage_input": 3.4375,
+      "durability_input": 2520,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BayonetteRifle",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/BayonetteRifle",
+      "class_sha256": "77f24dee277e1c4daff88057a29630d2d83dcec41888245dd66e491329203ade",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$24",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07e5591407e61109d80813041fb707e8b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              229
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.4375
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2520
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/BayonetteRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:big_top",
+      "name": "Big Top",
+      "damage_input": 3.125,
+      "durability_input": 3680,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/BigTop",
+      "class_sha256": "b13d385877ed22d0492331f0fceea9a4b5cf371951a78f3e196179fcc0c8610e",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$25",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07e15914072c110e6007130459b707e2b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              225
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.125
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3680
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/BigTop",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:blood_iron",
+      "name": "Blood Iron",
+      "damage_input": 6.125,
+      "durability_input": 3480,
+      "shot_interval_input_ticks": 8,
+      "recoil_argument": 0.550000011920929,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/BloodIron",
+      "class_sha256": "34f72d75ff001242a3dd45b8717287b37eb90c5aa007eda48ba8f074635417f6",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$26",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07da591407db110d9810081307ddb707deb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              218
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.125
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3480
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 8
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.550000011920929
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/BloodIron",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:chain_wrecker",
+      "name": "Chain Wrecker",
+      "damage_input": 1.5,
+      "durability_input": 3840,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.2000000476837158,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/ChainWrecker",
+      "class_sha256": "dddf001162ded3ecf50e6d41f771da84343aa581ba1bab4c74b147cf42a396e6",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$27",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07d6591401f2110f000513041ab707d7b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              214
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3840
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.2000000476837158
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/ChainWrecker",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:chilli_chugger",
+      "name": "Chilli Chugger",
+      "damage_input": 3.0,
+      "durability_input": 3560,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.5,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/ChilliChugger",
+      "class_sha256": "98f0cd9ae01a102b2fa695698b8f958ca0aa06ab81bd86d27979dc80c5165a7e",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20019271d15041705b7001c2a27b5001e2a1504b50020b1",
+      "registration_factory": {
+        "name": "lambda$static$28",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07d25914025b110de80713029fb707d3b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              210
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3560
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.5
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/ChilliChugger",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:clownershot",
+      "name": "Clownershot",
+      "damage_input": 2.0,
+      "durability_input": 5880,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 1.2999999523162842,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Clownershot",
+      "class_sha256": "ca2358f696756c08d674f177038d2000d4e5dbaaabe5ec2c80a01a771c2a0fec",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$29",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07ce591401e61116f80713042cb707cfb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              206
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5880
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.2999999523162842
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Clownershot",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:construct",
+      "name": "Construct",
+      "damage_input": 2.375,
+      "durability_input": 3640,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Construct",
+      "class_sha256": "64474e051ccf5592ed2719c533d4b89ce324c84518fbc51749805739d6e46254",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$30",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07ca59140679110e3806130459b707cbb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              202
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.375
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3640
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Construct",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:coral_clogger",
+      "name": "Coral Clogger",
+      "damage_input": 9.074999809265137,
+      "durability_input": 2000,
+      "shot_interval_input_ticks": 10,
+      "recoil_argument": 0.44999998807907104,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/CoralClogger",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/CoralClogger",
+      "class_sha256": "b324564e81155d124821db81b5d49a8f731db6a460649d45721e272c149bae44",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$31",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07c4591407c51107d0100a130662b707c7b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              196
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 9.074999809265137
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2000
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 10
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.44999998807907104
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/CoralClogger",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:core_rifle",
+      "name": "Core Rifle",
+      "damage_input": 1.875,
+      "durability_input": 2520,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/CoreRifle",
+      "class_sha256": "db47efb53a597aff61543f1655adc5a7bea916bb8ef23be26a9309e08e341e58",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$32",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07c0591407861109d8060cb707c1b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              192
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2520
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/CoreRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:crystal_carver",
+      "name": "Crystal Carver",
+      "damage_input": 3.0,
+      "durability_input": 3480,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/CrystalCarver",
+      "class_sha256": "fb9d07c65e3688f3a28e770bd9fc5cc0afa190b23b93d1c1df3208138cf85e2b",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$33",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07bc5914025b110d980713041fb707bdb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              188
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3480
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/CrystalCarver",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:cyclone",
+      "name": "Cyclone",
+      "damage_input": 2.375,
+      "durability_input": 4400,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Cyclone",
+      "class_sha256": "e590d7a067f4b67c07ffa82d5e5b2559079b7d24a240629f82fc3459bba41d59",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$34",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07b859140679111130060cb707b9b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              184
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.375
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4400
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Cyclone",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:darkener",
+      "name": "Darkener",
+      "damage_input": 2.875,
+      "durability_input": 6040,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Darkener",
+      "class_sha256": "103c4daf0a432b6263e36799ba564a8cb7b71139c83d28ecfb1739eda8dc7c39",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$35",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07b45914068f11179806130459b707b5b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              180
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6040
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Darkener",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:dart_gun",
+      "name": "Dart Gun",
+      "damage_input": 4.675000190734863,
+      "durability_input": 4520,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.20000000298023224,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/DartGun",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/DartGun",
+      "class_sha256": "4efd96f51d04d265ad9f2b991a0e0a237c4caf22a066b43daf7723726f85409e",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2001e271d15041705b700212a27b500232a1504b50025b1",
+      "registration_factory": {
+        "name": "lambda$static$36",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07ae591407af1111a8081304c4b707b1b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              174
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 4.675000190734863
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4520
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.20000000298023224
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/DartGun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:destruction_rifle",
+      "name": "Destruction Rifle",
+      "damage_input": 3.125,
+      "durability_input": 2440,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/DestructionRifle",
+      "class_sha256": "0d0aaaa1b8b63297d0d6439fa194210fb345eb33737cf5e12a5843c0bf90169a",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$37",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07aa5914072c110988080cb707abb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              170
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.125
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2440
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/DestructionRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:discharge_rifle",
+      "name": "Discharge Rifle",
+      "damage_input": 1.25,
+      "durability_input": 2280,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 3.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/DischargeRifle",
+      "class_sha256": "9ed4bcfa4b3cb9caa3b86ef7e88f91760c1f22b7652f1423d6962fcd3c210b27",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001a2a1504b5001cb1",
+      "registration_factory": {
+        "name": "lambda$static$38",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07a4591407a51108e81006130204b707a7b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              164
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.25
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2280
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 3.0
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/DischargeRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:draco",
+      "name": "Draco",
+      "damage_input": 3.75,
+      "durability_input": 5560,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.75,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Draco",
+      "class_sha256": "a90d2792d0a329173606aa586feda1a54f622ce6690635ce5b516057f93f0662",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$39",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07a0591406f41115b807130433b707a1b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              160
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5560
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.75
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Draco",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:dragilator",
+      "name": "Dragilator",
+      "damage_input": 1.625,
+      "durability_input": 4480,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Dragilator",
+      "class_sha256": "2d0519de8b420d47fa85999ee3953fced2c5060c75e83ca663fef6cf14ea0726",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$40",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb079c591406e31111800513048fb7079db0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              156
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4480
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Dragilator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:dustometer",
+      "name": "Dustometer",
+      "damage_input": 5.25,
+      "durability_input": 4720,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 0.6499999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Dustometer",
+      "class_sha256": "daa27a5f7c5daa71f8674ea1b03bbc73c82109e085b5b6fc72c7a15017f317b8",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$41",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0796591407971112701006130667b70799b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              150
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 5.25
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4720
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.6499999761581421
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Dustometer",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:echo_gull",
+      "name": "Echo Gull",
+      "damage_input": 4.375,
+      "durability_input": 2320,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/EchoGull",
+      "class_sha256": "6f51e37cd35d1a2c8a9b88e163046a29d21235e376d663a4576390d8138fd91e",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$42",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb079059140791110910100713041fb70793b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              144
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 4.375
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2320
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/EchoGull",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:electinator",
+      "name": "Electinator",
+      "damage_input": 1.625,
+      "durability_input": 4480,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Electinator",
+      "class_sha256": "d3d76553294386e276540e2e612e597fee8695adddb107128c2f0632af8e1626",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$43",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb078c591406e31111800513048fb7078db0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              140
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4480
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Electinator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:flame_wrecker",
+      "name": "Flame Wrecker",
+      "damage_input": 1.875,
+      "durability_input": 6120,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.149999976158142,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/FlameWrecker",
+      "class_sha256": "e1def340150aac8d87f5457188aab112f7e4df907421b51e29a8da4bd2059fc7",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$44",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0785591407861117e805130788b70789b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              133
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6120
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.149999976158142
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/FlameWrecker",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:flaming_fury",
+      "name": "Flaming Fury",
+      "damage_input": 5.125,
+      "durability_input": 3440,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.6000000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/FlamingFury",
+      "class_sha256": "b2f6453d7a53cd1ae42f6d8d8b08579d1cf085edee4c93af064989722548d094",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$45",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb077f59140780110d701007130723b70782b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              127
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 5.125
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3440
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.6000000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/FlamingFury",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:floro_rifle",
+      "name": "Floro Rifle",
+      "damage_input": 3.75,
+      "durability_input": 6000,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.75,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/FloroRifle",
+      "class_sha256": "167683afe5def0c296d3aba3a6bed945d77b6afe0fcf2e0880d88afaed159b49",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$46",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb077b591406f411177007130433b7077cb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              123
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6000
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.75
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/FloroRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:flowers_fury",
+      "name": "Flower's Fury",
+      "damage_input": 3.25,
+      "durability_input": 4400,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/FlowersFury",
+      "class_sha256": "ac9815964e77612c7e8fb9bd3ed09aafc44faf699702b8543a81149050675314",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$47",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07755914077611113007130459b70778b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              117
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.25
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4400
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/FlowersFury",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:frosticator",
+      "name": "Frosticator",
+      "damage_input": 1.625,
+      "durability_input": 4480,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Frosticator",
+      "class_sha256": "6f7c93840354e107bd0de83e9b7107447e8f0a9c2d5bea80f71a177638ee04da",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$48",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0771591406e31111800513048fb70772b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              113
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4480
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Frosticator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:gardener",
+      "name": "Gardener",
+      "damage_input": 1.75,
+      "durability_input": 2520,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Gardener",
+      "class_sha256": "2a8b40bc4e64ec9e5288e2de6b98d9061d441be2121e35ee6f5cd412658b5d6c",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2abb000759b70020b20026b6002a1db6002eb20034b600382715041705b7003b2a27b5003d2a1504b5003fb1",
+      "registration_factory": {
+        "name": "lambda$static$49",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb076b5914076c1109d8060cb7076eb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              107
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2520
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Gardener",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:gauge_rifle",
+      "name": "Gauge Rifle",
+      "damage_input": 5.625,
+      "durability_input": 2360,
+      "shot_interval_input_ticks": 9,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/GaugeRifle",
+      "class_sha256": "43b6dab9094f478e25282cec8aec64dc9e015153246efbe339c4413b92e121d4",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$50",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb076559140766110938100913041fb70768b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              101
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 5.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2360
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 9
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/GaugeRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:germinator",
+      "name": "Germinator",
+      "damage_input": 1.625,
+      "durability_input": 4480,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Germinator",
+      "class_sha256": "58e7653ae3465865909cadd8ae8a5583b55fdde88acb0e7c1a5792f2c48adc9e",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$51",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0761591406e31111800513048fb70762b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              97
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4480
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Germinator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:golden_fury",
+      "name": "Golden Fury",
+      "damage_input": 6.5,
+      "durability_input": 6080,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.44999998807907104,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/GoldenFury",
+      "class_sha256": "0261295eca83417d10857de28b1572983a4fe932800f2996ffde8f4c12c57bf6",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$52",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb075b5914075c1117c01007130662b7075eb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              91
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6080
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.44999998807907104
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/GoldenFury",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:happy_haunter",
+      "name": "Happy Haunter",
+      "damage_input": 2.875,
+      "durability_input": 6040,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/HappyHaunter",
+      "class_sha256": "36713b7aea10932a6c726bea3d9fe6687a566681a329ee22965bdec655908da5",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$53",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07575914068f1117980613041fb70758b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              87
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6040
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/HappyHaunter",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:haunter_rifle",
+      "name": "Haunter Rifle",
+      "damage_input": 2.75,
+      "durability_input": 5680,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/HaunterRifle",
+      "class_sha256": "ed525fe1da56dd52cb9afc88dff1f0b91db8905e8887a18492089ce177758c42",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$54",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07535914068511163006130459b70754b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              83
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5680
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/HaunterRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:heat_wave",
+      "name": "Heat Wave",
+      "damage_input": 6.050000190734863,
+      "durability_input": 5880,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 0.800000011920929,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/HeatWave",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/HeatWave",
+      "class_sha256": "c952deb597d617535770fac9942354e4576eac4f6bccb15f6a3e80e60b02fb94",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$55",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb074d5914074e1116f81006130426b70750b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              77
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.050000190734863
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5880
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.800000011920929
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/HeatWave",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:hiver",
+      "name": "Hiver",
+      "damage_input": 2.875,
+      "durability_input": 5960,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Hiver",
+      "class_sha256": "24d7a176895144f30cb4ef6839d13a30e63ae22d54e9eca8a5142050fe2a950d",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$56",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07495914068f111748060cb7074ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              73
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5960
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Hiver",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:hot_shot",
+      "name": "Hot Shot",
+      "damage_input": 3.987499952316284,
+      "durability_input": 2320,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/HotShot",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/HotShot",
+      "class_sha256": "c4599a442a90c124bd24e5724e4fba63711a39d27e23482cc67f10005b84cd26",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$57",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07435914074411091010060cb70746b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              67
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.987499952316284
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2320
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 12
+          },
+          {
+            "offset": 13,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/HotShot",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:hunters_rifle",
+      "name": "Hunter's Rifle",
+      "damage_input": 5.912499904632568,
+      "durability_input": 3600,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/HuntersRifle",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/HuntersRifle",
+      "class_sha256": "e2c93d4c3646c81bcd63cf454674facce61ab6a26a05a5c3c888b4fa28144926",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$58",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb073d5914073e110e101007130459b70740b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              61
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 5.912499904632568
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3600
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/HuntersRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:iominator",
+      "name": "Iominator",
+      "damage_input": 2.875,
+      "durability_input": 6000,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.949999988079071,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Iominator",
+      "class_sha256": "7097f8e39b5af38d54a1972485c40384ee26d69b133a9c5bc26e00744ef3e103",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$59",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb07395914068f1117700613072eb7073ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              57
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6000
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.949999988079071
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Iominator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:ion_revolver",
+      "name": "Ion Revolver",
+      "damage_input": 2.612499952316284,
+      "durability_input": 3720,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.649999976158142,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/IonRevolver",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/IonRevolver",
+      "class_sha256": "5b93877028831c22bc250b05259caa8b8bbccd13c10269ab12ad471b3408e74e",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$60",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb073259140733110e8806130735b70736b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              50
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.612499952316284
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3720
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.649999976158142
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/IonRevolver",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:iro_rifle",
+      "name": "Iro Rifle",
+      "damage_input": 3.125,
+      "durability_input": 3640,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.949999988079071,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/IroRifle",
+      "class_sha256": "a4f2296c0f67762ee73660fb0996154a0960de8d40af8cde99eae694f4e07b01",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$61",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb072b5914072c110e380713072eb7072fb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              43
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.125
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3640
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.949999988079071
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/IroRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:krilinator",
+      "name": "Krilinator",
+      "damage_input": 3.75,
+      "durability_input": 3600,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Krilinator",
+      "class_sha256": "8d36b2ba302634973ed660a8ec77be8477314670023ecab4b4479b67f39c23e4",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$62",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0727591406f4110e100813048fb70728b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              39
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3600
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Krilinator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:light_iron",
+      "name": "Light Iron",
+      "damage_input": 7.625,
+      "durability_input": 5880,
+      "shot_interval_input_ticks": 8,
+      "recoil_argument": 0.6000000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/LightIron",
+      "class_sha256": "c2cea50a4acd3f484b9badd6c4401d7971cff633399216a51fbbc88f01d775aa",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$63",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0720591407211116f81008130723b70724b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              32
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 7.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5880
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 8
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.6000000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/LightIron",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:lunar_assault_rifle",
+      "name": "Lunar Assault Rifle",
+      "damage_input": 2.875,
+      "durability_input": 5720,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/LunarAssaultRifle",
+      "class_sha256": "fa17311b945a28509bda2b37cfd43ed8f0e03ade476ab8ec51d1f33e4f365b55",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20018271d15041705b7001b2a272714001c6f67b5001f2a272714001c6f63b50021b1",
+      "registration_factory": {
+        "name": "lambda$static$64",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb071c5914068f1116580613041fb7071db0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              28
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5720
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/LunarAssaultRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:mechanical_assault_rifle",
+      "name": "Mechanical Assault Rifle",
+      "damage_input": 4.625,
+      "durability_input": 3760,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/MechanicalAssaultRifle",
+      "class_sha256": "e07c1c27625ce00f53ed44e8a4e97aa8dafcfbe8f8b7ace629dc601c48e6c900",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$65",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb071659140717110eb0100613041fb70719b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              22
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 4.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3760
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/MechanicalAssaultRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:megagun",
+      "name": "Megagun",
+      "damage_input": 1.0,
+      "durability_input": 6120,
+      "shot_interval_input_ticks": 1,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Megagun",
+      "class_sha256": "17d8949785f7f4536721d720707c0ac713bee89ba716fb13c2d2116b8e203dac",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$66",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0712590f1117e80413048fb70713b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              18
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 15
+          },
+          {
+            "offset": 5,
+            "opcode": 17,
+            "constant": 6120
+          },
+          {
+            "offset": 8,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 9,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Megagun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:miasma",
+      "name": "Miasma",
+      "damage_input": 2.25,
+      "durability_input": 3760,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Miasma",
+      "class_sha256": "dd7d604a4942cb2f5d93aa0ac3b1500df3206f8716bee8ae9544598d4637b8fd",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$67",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb070c5914070d110eb0060cb7070fb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              12
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.25
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3760
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Miasma",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:minigun",
+      "name": "Minigun",
+      "damage_input": 0.625,
+      "durability_input": 2680,
+      "shot_interval_input_ticks": 1,
+      "recoil_argument": 1.5,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Minigun",
+      "class_sha256": "a3127359c823bda933f6d38fbcb47d3e2da2d990610671c91ac435002b2ab185",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$68",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb070659140707110a7804130233b70709b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              7,
+              6
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 0.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2680
+          },
+          {
+            "offset": 10,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.5
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Minigun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:mint_magnum",
+      "name": "Mint Magnum",
+      "damage_input": 1.649999976158142,
+      "durability_input": 3600,
+      "shot_interval_input_ticks": 2,
+      "recoil_argument": 1.25,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/MintMagnum",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/MintMagnum",
+      "class_sha256": "d5681546906403dfc8363658aa02a2cfe4d942b0f4ace54f312d06c4bc08e340",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$69",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06ff59140700110e1005130702b70703b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              255
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.649999976158142
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3600
+          },
+          {
+            "offset": 10,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.25
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/MintMagnum",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:mk",
+      "name": "MK",
+      "damage_input": 3.625,
+      "durability_input": 4960,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.75,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/MK",
+      "class_sha256": "676a47e0dff84ce4745c88bb3dc5f9e683f9b82dacc3d0aa58b5514978246a95",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$70",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06f9591406fa11136007130433b706fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              249
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4960
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.75
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/MK",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:mk_fung",
+      "name": "MK-Fung",
+      "damage_input": 3.75,
+      "durability_input": 5960,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.75,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/MKFung",
+      "class_sha256": "61123d6e1835b2e9dafd6a06ddd87d5ab7211cd8d04c0685227f0afa52bb67e9",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$71",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06f3591406f411174807130433b706f6b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              243
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5960
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.75
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/MKFung",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:nethenette_rifle",
+      "name": "Nethenette Rifle",
+      "damage_input": 5.087500095367432,
+      "durability_input": 6000,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/NethenetteRifle",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/NethenetteRifle",
+      "class_sha256": "5fe5f84124f752256b9a818a4ed2e98ed8f91a97e4a6691700584b69baf82d62",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$72",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06ed591406ee1117700813041fb706f0b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              237
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 5.087500095367432
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6000
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/NethenetteRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:nethengeic_slugger",
+      "name": "Nethengeic Slugger",
+      "damage_input": 6.1875,
+      "durability_input": 3120,
+      "shot_interval_input_ticks": 8,
+      "recoil_argument": 0.75,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/NethengeicSlugger",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/NethengeicSlugger",
+      "class_sha256": "744df4571c6f99506bc10fa20aa26557bfbdd6452564e24bb3ac660cc3225532",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$73",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06e9591406bf110c301008130433b706eab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              233
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.1875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3120
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 8
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.75
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/NethengeicSlugger",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:overshot",
+      "name": "Overshot",
+      "damage_input": 1.625,
+      "durability_input": 3960,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 2.0999999046325684,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Overshot",
+      "class_sha256": "342a94c23a21d03651cf01336d5ec2b59478bc246ba8e29ac871387c2358ef0c",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$74",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06e2591406e3110f78071306e5b706e6b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              226
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3960
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 2.0999999046325684
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Overshot",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:precasian_slugger",
+      "name": "Precasian Slugger",
+      "damage_input": 8.112500190734863,
+      "durability_input": 5960,
+      "shot_interval_input_ticks": 8,
+      "recoil_argument": 0.5,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/PrecasianSlugger",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/PrecasianSlugger",
+      "class_sha256": "abc03ed58d1cf02e2ac945de772bf6695c7476b31a9a7827f591accbc3433c69",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$75",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06dc591406dd111748100813029fb706dfb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              220
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 8.112500190734863
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5960
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 8
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.5
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/PrecasianSlugger",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:predator",
+      "name": "Predator",
+      "damage_input": 6.375,
+      "durability_input": 5920,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.44999998807907104,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Predator",
+      "class_sha256": "de2c20e78fd177ad08e9f578c612a8c52fa76cac2603d8fc096dd3e5ff148818",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$76",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06d6591406d71117201007130662b706d9b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              214
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.375
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5920
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.44999998807907104
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Predator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:predigun",
+      "name": "Predigun",
+      "damage_input": 1.0,
+      "durability_input": 6120,
+      "shot_interval_input_ticks": 1,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Predigun",
+      "class_sha256": "81696eefa5f47b62749be31301ed00bd83804be52b4e365d84d39ba4ef8571b0",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$77",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06d2590f1117e8040cb706d3b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              210
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 15
+          },
+          {
+            "offset": 5,
+            "opcode": 17,
+            "constant": 6120
+          },
+          {
+            "offset": 8,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 9,
+            "opcode": 12
+          },
+          {
+            "offset": 10,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Predigun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 13,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:pulsator",
+      "name": "Pulsator",
+      "damage_input": 6.25,
+      "durability_input": 4760,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.5,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Pulsator",
+      "class_sha256": "8119bcb0f0371f98f645088719f5504f682699c6b94b8ec2d4123beb4b987578",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20017271d15041705b7001ab1",
+      "registration_factory": {
+        "name": "lambda$static$78",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06cc591406cd111298100713029fb706cfb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              204
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.25
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4760
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.5
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Pulsator",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:purity_rifle",
+      "name": "Purity Rifle",
+      "damage_input": 4.5,
+      "durability_input": 4800,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.75,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/PurityRifle",
+      "class_sha256": "7e1b4bd940cb11820a6f15f2edd1f1d1d4520fb593afd50528488bc1eaa0ebdc",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$79",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06c8591406581112c008130433b706c9b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              200
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 4.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4800
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.75
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/PurityRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:rocker_rifle",
+      "name": "Rocker Rifle",
+      "damage_input": 2.5,
+      "durability_input": 2520,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/RockerRifle",
+      "class_sha256": "a00fa048b3a1d70a8af1acc39e61b9ed44b0f53bfab943d3d3016d0cf82ccbf8",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$80",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06c45914021c1109d8070cb706c5b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              196
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2520
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/RockerRifle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:roulette",
+      "name": "Roulette",
+      "damage_input": 6.1875,
+      "durability_input": 5880,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/Roulette",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Roulette",
+      "class_sha256": "bb0239da135525f0549fb262d4adf2fced5ef789c545e29bc968502d7c0637df",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$81",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06be591406bf1116f8100613041fb706c1b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              190
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.1875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5880
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Roulette",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:shoe_flinger",
+      "name": "Shoe Flinger",
+      "damage_input": 6.0,
+      "durability_input": 1600,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/ShoeFlinger",
+      "class_sha256": "c227409392a4bf9ddb6e5e62063375c7f0b14af169d6f6984287050c34170df2",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20016271d15041705b700192a27b5001b2a1504b5001db1",
+      "registration_factory": {
+        "name": "lambda$static$82",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06ba591401d511064010060cb706bbb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              186
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 1600
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 12
+          },
+          {
+            "offset": 13,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/ShoeFlinger",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:skullette",
+      "name": "Skullette",
+      "damage_input": 6.462500095367432,
+      "durability_input": 6320,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/Skullette",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Skullette",
+      "class_sha256": "97fe717d990dee1f535b4b8473ea5aeea4fa3f9fbc4bb120caa150ed70c9c2f4",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$83",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06b4591406b51118b0100613041fb706b7b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              180
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 6.462500095367432
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6320
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Skullette",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:skullifact",
+      "name": "Skullifact",
+      "damage_input": 10.0,
+      "durability_input": 6280,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.44999998807907104,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Skullifact",
+      "class_sha256": "24e920b9506ea50b369223ec0b81aa6181f79e947d6cc344746838aec0fa4428",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$84",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06b05914049d11188808130662b706b1b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              176
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 10.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6280
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.44999998807907104
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Skullifact",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:spectacle",
+      "name": "Spectacle",
+      "damage_input": 2.75,
+      "durability_input": 3520,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Spectacle",
+      "class_sha256": "a46bf56530cc3ca30c8a476b1cad5c391eba4e81a2b6a85dec73192d625386fe",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$85",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06ac59140685110dc00713041fb706adb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              172
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3520
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Spectacle",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:spine_gun",
+      "name": "Spine Gun",
+      "damage_input": 2.875,
+      "durability_input": 6040,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/SpineGun",
+      "class_sha256": "7a1e526cb351938c67ab1a85114cdc42beaefc39caaa744837416f562f2337f0",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$86",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06a85914068f1117980613041fb706a9b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              168
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6040
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/SpineGun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:squad_gun",
+      "name": "Squad Gun",
+      "damage_input": 2.625,
+      "durability_input": 4840,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8500000238418579,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/SquadGun",
+      "class_sha256": "c7355c8c26255babb9cdebd29d803e8339f0ba90824479ff3721f1b885c26735",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$87",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb06a2591406a31112e80613041fb706a5b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              162
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.625
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 4840
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8500000238418579
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/SquadGun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:stampede",
+      "name": "Stampede",
+      "damage_input": 3.299999952316284,
+      "durability_input": 1200,
+      "shot_interval_input_ticks": 6,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/Stampede",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Stampede",
+      "class_sha256": "25fbde9488e27357e423bfbf0f347d4ca3f6e8872c1ad716aebce863046658d2",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$88",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb069c5914069d1104b010060cb7069fb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              156
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 3.299999952316284
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 1200
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 12,
+            "opcode": 12
+          },
+          {
+            "offset": 13,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Stampede",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:stormer",
+      "name": "Stormer",
+      "damage_input": 8.0,
+      "durability_input": 3600,
+      "shot_interval_input_ticks": 5,
+      "recoil_argument": 0.44999998807907104,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Stormer",
+      "class_sha256": "cbf8a0b929a69c9b28e47975fad4fd625ebf4ecc1d83407e68321eeddeb16adf",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$89",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0698591402c8110e1008130662b70699b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              152
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 8.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3600
+          },
+          {
+            "offset": 10,
+            "opcode": 8,
+            "constant": 5
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.44999998807907104
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Stormer",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:sublimus",
+      "name": "Sublimus",
+      "damage_input": 2.75,
+      "durability_input": 6120,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.8999999761581421,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Sublimus",
+      "class_sha256": "cd7a19a6cd74ea352866acd3e8b531320ffb3546676e479b7e67d603d3a85195",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$90",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb0694591406851117e806130459b70695b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              148
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 6120
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.8999999761581421
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Sublimus",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:tiger_tommy",
+      "name": "Tiger Tommy",
+      "damage_input": 2.875,
+      "durability_input": 5960,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 0.699999988079071,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/TigerTommy",
+      "class_sha256": "490015bfe57e5e703f10389f7bdae27ae265ea6fe5c93c746adbbea5adc7a60f",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$91",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb068e5914068f11174806130673b70691b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              142
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.875
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 5960
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.699999988079071
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/TigerTommy",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:tommy",
+      "name": "Tommy",
+      "damage_input": 1.5,
+      "durability_input": 1320,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.2999999523162842,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Tommy",
+      "class_sha256": "3bd34abd768fc9b74ecb6eeffd5131c9489b47504605b86852bab7e14df0b4c5",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab2000d271d15041705b70010b1",
+      "registration_factory": {
+        "name": "lambda$static$92",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb068a591401f21105280613042cb7068bb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              138
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 1.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 1320
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.2999999523162842
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Tommy",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:vile_vanquisher",
+      "name": "Vile Vanquisher",
+      "damage_input": 2.75,
+      "durability_input": 3320,
+      "shot_interval_input_ticks": 4,
+      "recoil_argument": 1.0,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/VileVanquisher",
+      "class_sha256": "ddd843d0af432298a556a6ace89f615c4d8c9991140a6133bd631361a7afb6cf",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$93",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb068459140685110cf8070cb70687b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              132
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.75
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3320
+          },
+          {
+            "offset": 10,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 11,
+            "opcode": 12
+          },
+          {
+            "offset": 12,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/VileVanquisher",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:wart_gun",
+      "name": "Wart Gun",
+      "damage_input": 4.537499904632568,
+      "durability_input": 2320,
+      "shot_interval_input_ticks": 7,
+      "recoil_argument": 0.20000000298023224,
+      "literal_fire_mode": "semi-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/WartGun",
+        "method": "isFullAutomatic",
+        "code_hex": "03ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/WartGun",
+      "class_sha256": "e7b938c865f3118d55d2cf18ba3f3cb050d9826de27d74545bd95bad7d172e2d",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20015271d15041705b70018b1",
+      "registration_factory": {
+        "name": "lambda$static$94",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb067e5914067f11091010071304c4b70681b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              126
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 4.537499904632568
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 2320
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 7
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.20000000298023224
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/WartGun",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:wrecker",
+      "name": "Wrecker",
+      "damage_input": 2.375,
+      "durability_input": 3680,
+      "shot_interval_input_ticks": 3,
+      "recoil_argument": 1.100000023841858,
+      "literal_fire_mode": "full-auto",
+      "fire_mode_evidence": {
+        "owner": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+        "method": "isFullAutomatic",
+        "code_hex": "04ac"
+      },
+      "constructor_class": "net/tslat/aoa3/content/item/weapon/gun/Wrecker",
+      "class_sha256": "2a975d3d347c044b3772237da85c97d55838d82b8e35f822420a35a98cb8042d",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2ab20012271d15041705b70015b1",
+      "registration_factory": {
+        "name": "lambda$static$95",
+        "descriptor": "()Lnet/minecraft/item/Item;",
+        "code_hex": "bb067859140679110e600613048fb7067bb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              120
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 20,
+            "constant": 2.375
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 3680
+          },
+          {
+            "offset": 10,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 1.100000023841858
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/gun/Wrecker",
+              "<init>",
+              "(DIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    }
+  ],
+  "excluded": []
+}
