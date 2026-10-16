@@ -1,0 +1,1058 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Eight released trophy loot pools, custom gold recipe and selected methods; eight independent ingredient models. No game execution or private Enderloom certification.",
+  "recipe": {
+    "path": "data/aoa3/recipe/gold_trophy_crafting.json",
+    "sha256": "1db4e3638d4bf42027d0b48e83a41da7750417391d36355b7b69e17a19010d27",
+    "data": {
+      "type": "aoa3:gold_trophy"
+    }
+  },
+  "loot_pools": [
+    {
+      "path": "data/aoa3/loot_table/entities/elite_king_bambambam.json",
+      "sha256": "e06c467df1f6df61c8979319c968f3e02b10fa6ea546e0826ec24e98a1fce7ec",
+      "entity_id": "aoa3:elite_king_bambambam",
+      "output": "aoa3:ornate_trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:elite_king_bambambam"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.ornate_trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.king_bambambam"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:ornate_trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/elite_nethengeic_wither.json",
+      "sha256": "a4bdc04f63b2a6e1adcf6b7626ac4640812e7e5c519f26adf10551ab84830e88",
+      "entity_id": "aoa3:elite_nethengeic_wither",
+      "output": "aoa3:ornate_trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:elite_nethengeic_wither"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.ornate_trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.nethengeic_wither"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:ornate_trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/elite_smash.json",
+      "sha256": "68a0f0eda0ea46701b076360adac9b132b91ddb59242488b4255574405e0bf7f",
+      "entity_id": "aoa3:elite_smash",
+      "output": "aoa3:ornate_trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:elite_smash"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.ornate_trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.smash"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:ornate_trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/elite_tyrosaur.json",
+      "sha256": "dbc2587012e1d219a3eaf29f62fa14cd4ccc17ec3eaf832cfb9b0546f564b78e",
+      "entity_id": "aoa3:elite_tyrosaur",
+      "output": "aoa3:ornate_trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:elite_tyrosaur"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.ornate_trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.tyrosaur"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:ornate_trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/king_bambambam.json",
+      "sha256": "697cdc07a0d2bf7f05cec2fba4debf3ac731df0f6d5bb742608a07f11d2bbd19",
+      "entity_id": "aoa3:king_bambambam",
+      "output": "aoa3:trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:king_bambambam"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.king_bambambam"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/nethengeic_wither.json",
+      "sha256": "bee17e05b9a5f64515ec6defeff9089c401fce41b38ee109413dab6cfe56570e",
+      "entity_id": "aoa3:nethengeic_wither",
+      "output": "aoa3:trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:nethengeic_wither"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.nethengeic_wither"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/smash.json",
+      "sha256": "11c7f5a7aa34411b2ce4a73088da580b3364fe1689c62aded3236f8189a46eab",
+      "entity_id": "aoa3:smash",
+      "output": "aoa3:trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:smash"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.smash"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/tyrosaur.json",
+      "sha256": "5666c0e10701ee3b2403b4f4d99d1449ef5fc752197bd60676568906f15c7d7b",
+      "entity_id": "aoa3:tyrosaur",
+      "output": "aoa3:trophy",
+      "pool": {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "components": {
+                  "aoa3:trophy_data": {
+                    "entity_data": {
+                      "id": "aoa3:tyrosaur"
+                    },
+                    "is_original": true
+                  }
+                },
+                "function": "minecraft:set_components"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.aoa3.trophy.desc",
+                  "with": [
+                    {
+                      "translate": "entity.aoa3.tyrosaur"
+                    }
+                  ]
+                },
+                "target": "item_name"
+              }
+            ],
+            "name": "aoa3:trophy"
+          }
+        ],
+        "name": "trophy",
+        "rolls": 1.0
+      }
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/recipe/GoldTrophyRecipe.class",
+      "sha256": "560dd2f6c183d8c7fa187f803fc06453717d4ef6a75f096a5567c3c94eb27ae8",
+      "methods": [
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2bb6004810099f000503ac014e2bb6004eb9005201003a041904b9005801009900761904b9005e0100c000613a051905b60063b20017b6001dc00067b60069a5000503ac1905b2006cb60072c000753a061906c6001e1906b600779900161906b6007a127eb60080593a07b6008699000503ac2dc700131906b6008bc7000503ac19074ea7ff942d1907b6008f9a000503aca7ff8604ac"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "033e1d2bb60093a200322b1db60096b60063b20017b6001dc00067b60069a600152b1db60096b20099b6001dc00015b8009bb0840301a7ffccb200a1b0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc000492cb600a8b0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc000492cb600acac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/functional/misc/TrophyBlock.class",
+      "sha256": "bc60675bc7d09250fe50af0924149f149403672035b0a3ed74cfc2c109717f5b",
+      "methods": [
+        {
+          "name": "useItemOn",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;",
+          "code_hex": "19051906b600283a082d190419051908b8002e9a0007b20034b01908b6003a3a0a190ac1004099004e190ac000403a092db6001e9a00382d1904b600423a0b190bc1000d990028190bc0000d3a0a190a19091908b6004604b6004a1905b6004eb400529a0009190804b600582db4005cb8005eb0b20062b0"
+        },
+        {
+          "name": "cloneTrophy",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2bb900a30100b600a84d2ab200aeb600b3c000994e2dc7002ebb00995903bb00b659bb00b859b700bab700bd12c0b200c2b800c6b600c9b600ccb600d0c000b8b700d44e2cb200ae2db600d7572cb200db2d2cb800e1b60080b800e4b600e8572cb0"
+        },
+        {
+          "name": "isOriginal",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2ab200aeb600b3c000994c2bc6000e2bb600eb99000704a7000403ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/blockentity/TrophyBlockEntity.class",
+      "sha256": "445ca5d57df65800a0cbb604a0fe239c415c159e14dbafc53f75cec97d5dd39d",
+      "methods": [
+        {
+          "name": "setEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Z)V",
+          "code_hex": "2abb0022591c9a000704a70004032bb70024b5001e2ab40027c700182a2ab4001e2ab6002bb8002fb60035b8003bb600412ab60045b1"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/block/functional/misc/GoldTrophyBlock.class",
+      "sha256": "a34a4225ac79d1dca0466dd254968cd9544af194f246a53cb794b8886e2c85c2",
+      "methods": [
+        {
+          "name": "getEntityType",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;",
+          "code_hex": "2bb2001fb60025c0002b4d2cc6000a2cb6002d9a000501b0b20031b900350100c0003a2cb6003c2cb6003cb9003f0300c00043b0"
+        },
+        {
+          "name": "lambda$static$0",
+          "descriptor": "(Lit/unimi/dsi/fastutil/objects/Reference2ReferenceArrayMap;)V",
+          "code_hex": "2ab20054b60059c00043b2005eb60059c00043b60061572ab20064b60059c00043b20067b60059c00043b60061572ab2006ab60059c00043b2006db60059c00043b60061572ab20070b60059c00043b20073b60059c00043b60061572ab20076b60059c00043b20079b60059c00043b6006157b1"
+        }
+      ]
+    }
+  ],
+  "elite_substitutions": [
+    {
+      "normal": "smash",
+      "elite": "elite_smash"
+    },
+    {
+      "normal": "king_bambambam",
+      "elite": "elite_king_bambambam"
+    },
+    {
+      "normal": "nethengeic_wither",
+      "elite": "elite_nethengeic_wither"
+    },
+    {
+      "normal": "skeletron",
+      "elite": "elite_skeletron"
+    },
+    {
+      "normal": "tyrosaur",
+      "elite": "elite_tyrosaur"
+    }
+  ],
+  "ingredient_cases": [
+    {
+      "label": "nine originals",
+      "matches": true,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": {
+        "original": true,
+        "id": "aoa3:smash",
+        "variant": "first"
+      }
+    },
+    {
+      "label": "eight slots",
+      "matches": false,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": null
+    },
+    {
+      "label": "one decorative",
+      "matches": false,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": false,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": null
+    },
+    {
+      "label": "mixed entity IDs",
+      "matches": false,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:tyrosaur",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": null
+    },
+    {
+      "label": "ornate substitute",
+      "matches": false,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:ornate_trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": null
+    },
+    {
+      "label": "missing entity ID",
+      "matches": false,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": null
+    },
+    {
+      "label": "unresolved first type",
+      "matches": false,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": false,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        }
+      ],
+      "output_data": null
+    },
+    {
+      "label": "same type different extra data",
+      "matches": true,
+      "input": [
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "first"
+        },
+        {
+          "item": "aoa3:trophy",
+          "original": true,
+          "id": "aoa3:smash",
+          "valid_type": true,
+          "variant": "different"
+        }
+      ],
+      "output_data": {
+        "original": true,
+        "id": "aoa3:smash",
+        "variant": "first"
+      }
+    }
+  ],
+  "source_files": {
+    "content/recipe/GoldTrophyRecipe.java": "910b8cd44202663c0267d19f5bbc2c012b230d563f57a90e374d9ac2b0e7e2dc",
+    "content/block/functional/misc/TrophyBlock.java": "dae02f41a39f627ad76ef16f58610a3cf651c81b945ad04c49800ad763d8bdf6",
+    "content/block/blockentity/TrophyBlockEntity.java": "3bb38990c1cecfbe5fd9dcce989eebef65b2ce4ce9b9b5d65b4b3aa1cc090b8d",
+    "content/block/functional/misc/GoldTrophyBlock.java": "1e56704473731bd28595961d4a1021350a8e691b1f7e21471d653c2210ef7373",
+    "content/item/misc/summoning/BossTokenItem.java": "2631bad88da5066059b5f0163dd007c9536fdab67c51fbd0279745c43d6e4877"
+  },
+  "limits": [
+    "Loot pools have no local condition but actual drops still depend on the active entity/table and game/modpack rules",
+    "Skeletron appears in the substitution map but not these eight trophy loot tables; acquisition is not established here",
+    "Gold assembly carries the first matching trophy data record, not a merge of all variant NBT",
+    "Using a spawn egg replaces displayed entity data and sets original=false",
+    "Blank pedestal previews do not depict the dynamic entity stored in a trophy"
+  ]
+}
