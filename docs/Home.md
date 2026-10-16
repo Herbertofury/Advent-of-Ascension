@@ -15,6 +15,12 @@
 | [System-by-system guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Systems) | [Machine-readable source census](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/content-census.json) |
 
 
+## Start playing
+
+[Illustrated beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough): shelter, weapon resources, the Corrupted Traveller, rune gathering, portal construction and your first expedition. Includes practical checkpoints and troubleshooting.
+
+[Versioned Bestiary Observatory](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html): choose a Minecraft/AoA release, filter or sort dimension and biome evidence, and inspect illustrated legacy loot and quantities. Coverage is still expanding; missing evidence is labeled.
+
 ## The Ascension Armory
 
 [![Optional premium weapon overhaul](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-upgrade-banner.svg)](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul)
@@ -60,3 +66,4 @@ Research snapshot: **2026-10-15**. Original documentation for the owner’s Ende
 - [First portal walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough)
 - [Crops and growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages)
 - [Legacy model atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas)
+
