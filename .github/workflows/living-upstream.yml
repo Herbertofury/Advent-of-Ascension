@@ -1,0 +1,37 @@
+name: Living AoA upstream and wiki checklist
+on:
+  workflow_dispatch:
+  push:
+    paths: ['development/**', 'AGENTS.md', '.github/workflows/living-upstream.yml']
+  pull_request:
+    paths: ['development/**', 'AGENTS.md', '.github/workflows/living-upstream.yml']
+  schedule:
+    - cron: '23 7 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: aoa-living-upstream-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            development
+            .github
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.x'
+      - name: Generated failure and preservation controls
+        run: python -m unittest discover -s development/tooling -p 'test_*.py' -v
+      - name: Check every official changelog, branch and GitHub release/tag
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python development/tooling/upstream_guard.py --lock development/upstream-lock.json
+      - name: Fetch the complete current owner wiki
+        run: git clone --depth 1 https://github.com/Herbertofury/Advent-of-Ascension.wiki.git "$RUNNER_TEMP/aoa-wiki"
+      - name: Detect changed, added or removed wiki tasks
+        run: python development/tooling/wiki_checklist.py --wiki "$RUNNER_TEMP/aoa-wiki" --check development/wiki-checklist.json

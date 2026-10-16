@@ -24,7 +24,7 @@ Reproduce from original inputs in a clean generated workspace using the normal S
 
 ## Priority backlog
 
-- [ ] Reconcile local session/artifacts with the published progress ledger.
+- [x] Reconcile local worktree/accepted artifacts with the published progress ledger and scoped owner-local native/production evidence.
 - [ ] Finish historical removed-content archaeology beyond the three censused source snapshots.
 - [ ] Turn each world and boss into a version-specific detailed dossier with authentic images.
 - [ ] Resolve same-name old/new mechanics and migration choices.

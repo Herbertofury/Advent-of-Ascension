@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "evidenceKind": "actual-native-client-resource-inspection",
+  "target": {
+    "java": 17,
+    "loader": "forge",
+    "loader_version": "47.4.23",
+    "minecraft": "1.20.1"
+  },
+  "artifactSha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
+  "completeClientReceipt": {
+    "role": "native_client",
+    "file": "whole-mod-modern-client-baseline-abb395ff-2b31-45b2-ae4d-a10b305800dc.json",
+    "sha256": "da41fbb567de877286d326c1ad72e429f7881d431b4d1ce36569232287f49d6a",
+    "bytes": 26761113
+  },
+  "clientCapture": {
+    "file": "enderloom-forge1201-client-baseline.json",
+    "bytes": 76106456,
+    "sha256": "4279f35db5117111b406fef8bdee9b39cefb171f510be25fce23b12240a30d2b"
+  },
+  "entity": "aoa3:coratee",
+  "modelClass": "net.tslat.aoa3.client.model.entity.animal.CorateeModel",
+  "compiledSourceSha256": "51fd1a778c29642de3b35481d68749aded651752e15d556165d3de60b84c6a5b",
+  "originalSourceSha256": "84c9ad1804c098a39350372d197cea9fc0ca94471ffc23fbeb29fb72f56ad22e",
+  "nativeGeometry": {
+    "location": "aoa3:geo/entity/animal/lborean/coratee.geo.json",
+    "sha256": "9374a27ff08b92892447fb60351cfd35f5d37a006ef9f2a7db63a28bceb7f558",
+    "bytes": 2927
+  },
+  "nativeDefaultTexture": {
+    "location": "aoa3:textures/entity/animal/lborean/coratee_default.png",
+    "sha256": "773e6ca64bf48533361f40b7fc1fdabd3052027f422a4096754c0f98372ee68e",
+    "bytes": 10514
+  },
+  "nativeAnimation": {
+    "location": "aoa3:animations/entity/animal/lborean/coratee.animation.json",
+    "sha256": "0b0f287701f7be68e6c9b831007ceebadc2d21a7a6303de984fbdce1c4a844c5",
+    "bytes": 6477
+  },
+  "implementedTextureGetterRoleFix": true,
+  "overgrownNativeInvocationVerified": false,
+  "adultBabyRasterParityVerified": false,
+  "reloadSaveLoadCycleVerified": false,
+  "separateFocusedScreenshotVerified": false,
+  "scope": "Existing full native client actually resolves the corrected model and default PNG. Remaining variant, lifecycle and dedicated visual acceptance are not inferred."
+}

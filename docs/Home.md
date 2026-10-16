@@ -81,25 +81,31 @@ Advent of Ascension is created by **Tslat and contributors**. This is an indepen
 Documentation snapshot: **2026-10-16**. Static reference work is not a new runtime certification of the merged mod.
 
 ### Historical progression
-[1.16.5 Realmstone progression: all 22 destination routes, exact triggers and illustrated recipes](Realmstone-Progression-Walkthrough-1.16.5).
+[1.16.5 Realmstone progression: all 22 destination routes, exact triggers and illustrated recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5).
 
 ### Train skills with a clear goal
-[Modern skill training: XP sources, blockers, Energy Stone stack use and cycling](Skill-Training-Walkthrough-1.21.1). All ten default skill files have been checked against the released 3.7.16.1 artifact.
+[Modern skill training: XP sources, blockers, Energy Stone stack use and cycling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1). All ten default skill files have been checked against the released 3.7.16.1 artifact.
 
 - [Search items and blocks](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html)
-- [Inventory preview resolutions](Inventory-Preview-Resolution-Ledger)
-- [Multi-state plants and portals](Multi-State-Block-References)
+- [Inventory preview resolutions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger)
+- [Multi-state plants and portals](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Multi-State-Block-References)
 
-- [Boss entry and token preparation](Boss-Entry-and-Token-Preparation-1.21.1)
+- [Boss entry and token preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1)
 
-- [Mining and ore generation · 1.21.1](Mining-and-Ore-Generation-1.21.1)
+- [Mining and ore generation · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mining-and-Ore-Generation-1.21.1)
 
-- [Corrected coplanar ore previews](Coplanar-Ore-Preview-Repairs)
+- [Corrected coplanar ore previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Coplanar-Ore-Preview-Repairs)
 
-- [Foliage overlays and default colors](Foliage-Overlays-and-Default-Tints)
+- [Foliage overlays and default colors](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Foliage-Overlays-and-Default-Tints)
 
-- [Historical appearance comparisons for renderer gaps](Historical-Appearance-Comparisons-1.20.1)
+- [Historical appearance comparisons for renderer gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Appearance-Comparisons-1.20.1)
 
-- [1.16.5 Rune Posts and Randomizer handbook](Rune-Production-and-Randomizer-1.16.5)
+- [1.16.5 Rune Posts and Randomizer handbook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Randomizer-1.16.5)
 
-- [Interactive rendered model turntables](Model-Turntables)
+- [Interactive rendered model turntables](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Model-Turntables)
+
+
+## Living implementation checklist
+
+- [Runtime acceptance checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist)
+- [Latest upstream and canonical merge decisions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation)

@@ -3,7 +3,7 @@
 <p align="center"><strong>Legacy breadth. Modern systems. Document the adventure. Prove the restoration.</strong></p>
 <p align="center"><a href="https://github.com/Herbertofury/Advent-of-Ascension/wiki">Explore the wiki</a> · <a href="docs/Version-Matrix.md">Choose your source versions</a> · <a href="docs/Progress.md">Progress & evidence</a> · <a href="docs/README.md">Full documentation</a></p>
 
-> **Project status:** documentation and source-evidence atlas. A completed merged AoA release is not yet certified here. Current Desktop Enderloom artifacts await direct reconciliation.
+> **Project status:** player atlas plus living Enderloom restoration tooling. The private Current Playtest has native client/server and signed-in production acceptance; the full historical/latest merge remains unfinished. [Current build evidence](development/README.md) · [Runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist) · [Upstream reconciliation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation).
 
 ## Explore it visually
 

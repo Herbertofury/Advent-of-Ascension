@@ -4,7 +4,9 @@ Concrete implementation findings discovered while building the atlas. Static evi
 
 ## Coratee texture path helper · 1.20.1
 
-**Status: static mismatch confirmed; in-game reproduction and fix pending.**
+**Status: corrected in the owner-local Forge 1.20.1 candidate; actual default native texture resolution passes. Focused variant/visual/lifecycle acceptance remains open.**
+
+The complete source recipe retains the original model/animation body and corrects the texture-getter role. The accepted native client actually resolves `aoa3:textures/entity/animal/lborean/coratee_default.png` from `CorateeModel`. [Exact candidate/resource evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/development/coratee-current-evidence.json). This supersedes the earlier static-only status; it does not claim the commented-out 1.21 class was enabled.
 
 The official AoA 3.7.1 JAR's typed `CorateeModel.getTextureResource` method invokes `buildFormattedModelPath` at bytecode offset 16. The pinned AoA source contains the same call. GeckoLib's 1.20.1 implementation formats that helper as a `geo/...geo.json` path, whereas its texture helper formats a `textures/...png` path. A texture lookup therefore appears to receive a geometry-style resource path.
 
@@ -16,8 +18,8 @@ The inspected AoA artifact declares GeckoLib 4.3 or later. The helper source abo
 
 ### Proposed correction and acceptance tests
 
-- [ ] Verify the helper behavior in the exact GeckoLib version selected for the target build.
-- [ ] Replace the model-path helper with the texture-path helper, or return the explicit correct texture resource path.
+- [x] Verify the selected native model resolves a PNG through the exact target GeckoLib texture helper in the accepted client.
+- [x] Correct the getter to the texture-path helper while retaining every original variant expression and model/animation body.
 - [ ] Confirm default and overgrown variants resolve existing PNG resources from the same artifact/version.
 - [ ] Test adult and baby appearance, animation, resource reload and save/load.
 - [ ] Check missing-texture/error logs and compare an actual in-game screenshot with the atlas reference.

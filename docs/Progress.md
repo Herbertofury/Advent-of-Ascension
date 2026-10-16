@@ -1,8 +1,14 @@
-[Home](Home) · [Versions](Version-Matrix) · [Worlds](Dimensions) · [Systems](Systems) · [Progress](Progress)
+[Home](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Home) · [Versions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) · [Worlds](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions) · [Systems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Systems) · [Progress](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress)
 
 # Progress · what is proven and what remains
 
-**Documentation updated: 2026-10-16. Owner-specific runtime certification remains unverified here. No fabricated completion percentage.**
+**Updated: 2026-10-16. A private owner-local playable candidate has scoped native/production acceptance; the complete historical/latest merge remains unfinished. No fabricated completion percentage.**
+
+## Current owner-local playable candidate · 2026-10-16
+
+The owner's Desktop Enderloom worktree has now been inspected directly and reconciled with exact local runtime receipts. **Advent of Ascension · Current Playtest** runs on Minecraft 1.20.1 / Forge 47.4.23 / Java 17. Native client/server and ordinary signed-in production rendering/movement plus server save/restart pass. Vanilla hearts remain default. [Current evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/development/current-playtest.json) · [Full runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist) · [Upstream reconciliation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation).
+
+The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8`, 146,794,782 bytes. The native-client JAR differs only in its manifest build timestamp; all program/resource members match. Full historical/latest parity, remaining Extraction/Anima/deity consumers, all progression, optional compatibility, multiplayer, save migration and performance acceptance remain open. The modified JAR and original AoA files are local, not a new public mod download. Earlier documentation-only observations below are retained as history and are superseded by this section where they describe missing local access.
 
 ## Current verified documentation status · 2026-10-16
 
@@ -17,12 +23,12 @@ Counts below describe inspected rosters and documentation, not a playable merged
 
 The 1.20.1 picture count includes nine released NPC atlas diagnostics and a Coratee intended-texture study. They are labeled clearly, not presented as repaired runtime rendering. Zero unclassified entries in an inspected roster does not establish a complete runtime registry.
 
-- [1.16.5 appearance census](Legacy-Bestiary-Coverage-1.16.5)
-- [1.20.1 appearance census and variants](Bestiary-Coverage-1.20.1)
-- [Nine released NPC texture-atlas mismatches and proposed repairs](NPC-Texture-Atlas-Mismatch-1.20.1)
-- [Modern portraits](Modern-Bestiary-Portraits)
-- [Historical realmstone progression: 22 routes](Realmstone-Progression-Walkthrough-1.16.5)
-- [Practical modern skill training](Skill-Training-Walkthrough-1.21.1)
+- [1.16.5 appearance census](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Bestiary-Coverage-1.16.5)
+- [1.20.1 appearance census and variants](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary-Coverage-1.20.1)
+- [Nine released NPC texture-atlas mismatches and proposed repairs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/NPC-Texture-Atlas-Mismatch-1.20.1)
+- [Modern portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Bestiary-Portraits)
+- [Historical realmstone progression: 22 routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5)
+- [Practical modern skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1)
 
 The searchable bestiary supports release, dimension and biome-selector filters, exact creature links, 787 modern artifact stat-builder records, and lazy illustrated loot. Reverse drop lookup links items back to creatures. Selected-release loading avoids fetching every roster at startup, with caching, retry and stale-result tests.
 
@@ -38,7 +44,7 @@ The recipe explorer covers **6,781 definitions**: 1,172 on 1.12.2; 2,296 on 1.16
 - [x] Cross-version source census created, with comments excluded from registration counts.
 - [x] Version, world, skill, combat, conversion and testing guides authored.
 - [x] Original documentation artwork and attributed upstream visual references organized.
-- [ ] Current Desktop Enderloom worktree, active AoA session and generated artifacts verified directly.
+- [x] Current Desktop Enderloom worktree and accepted generated artifacts reconciled directly with the 2026-10-16 owner-local runtime evidence above.
 - [ ] A completed owner-specific AoA build certified by this pass.
 
 ## Published visual and recipe deliverables
@@ -73,13 +79,15 @@ The published [AoA requirements](https://github.com/Herbertofury/Enderloom/blob/
 | Gate | Required result | Current evidence status |
 |---|---|---|
 | AOA-01 · lineage | Accepted authoritative source/content union; identity and migrations | Published requirement found; final accepted local union pending verification |
-| AOA-02 · semantic port | Complete target code, registries, networking, integrations, persistence | Current target artifact evidence pending |
+| AOA-02 · semantic port | Complete target code, registries, networking, integrations, persistence | Private 1.20.1 target artifact/native admission verified; complete semantic union open |
 | AOA-03 · content & assets | Every accepted feature and its real behavior/assets | Upstream census is a starting inventory; target parity pending |
-| AOA-04 · native proof | Packaged client/server, mechanics, travel, saves/migration | Current runtime receipts pending |
+| AOA-04 · native proof | Packaged client/server, mechanics, travel, saves/migration | Owner-local native client/server and short production play pass; full gameplay/travel/migration open |
 | AOA-05 · clean replay | Rebuild from originals using reusable Enderloom transformations | Toolkit checkpoint exists; complete AoA replay pending |
-| AOA-06 · delivery | Installable output and normal Studio workflow | Current release/install proof pending |
+| AOA-06 · delivery | Installable output and normal Studio workflow | Private owner profile installed and signed-in play passes; finished public release open |
 
 ## Local evidence boundary
+
+This retained paragraph describes the original documentation-only pass. The current owner-local candidate section above supersedes its lack of local access.
 
 The owner supplied `C:\Users\Owner\Desktop\Enderloom` as the local project. This no-new-agent documentation pass did not inspect that folder. These statuses mean **not verified here**, not “the work does not exist.” Do not overwrite or restart the local conversion to make it match this snapshot.
 
@@ -87,18 +95,18 @@ Next reconcile: current Git commit/dirty changes, active session ID/target, acce
 
 
 ---
-Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits). Source presence is not target runtime proof.
+Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits). Source presence is not target runtime proof.
 
 ## Searchable inventory and multi-state reconciliation
 
-The [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) indexes all **10,077 version-specific archive-resource candidates**: 9,928 regular source-model previews and 149 separately classified initial exceptions. This is not a runtime registry count. Each exception links to an existing supplement or preserves the exact remaining limitation. [Record-by-record ledger](Inventory-Preview-Resolution-Ledger).
+The [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) indexes all **10,077 version-specific archive-resource candidates**: 9,928 regular source-model previews and 149 separately classified initial exceptions. This is not a runtime registry count. Each exception links to an existing supplement or preserves the exact remaining limitation. [Record-by-record ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger).
 
-The [multi-state supplement](Multi-State-Block-References) accounts for 135 Thorny Plant age/height states and six activity-portal axis states across three releases. Of the plant states, 93 have visible texture regions and 42 have verified fully transparent UV regions. These supplement the 522 earlier age-only references; they do not establish natural state transitions or world renderer parity.
+The [multi-state supplement](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Multi-State-Block-References) accounts for 135 Thorny Plant age/height states and six activity-portal axis states across three releases. Of the plant states, 93 have visible texture regions and 42 have verified fully transparent UV regions. These supplement the 522 earlier age-only references; they do not establish natural state transitions or world renderer parity.
 
 ## Historical rune workflow regression targets
 
-Published the illustrated 1.16.5 Rune Post/Randomizer handbook with 14 mappings, released recipe/loot evidence and an exact bytecode-backed output-stack remainder finding. A standalone harness covers requested counts 1–128. Consume-before-loot and mixed-hand cases are documented as runtime regression targets. These are not applied game fixes or in-game test receipts. See [Rune production handbook](Rune-Production-and-Randomizer-1.16.5).
+Published the illustrated 1.16.5 Rune Post/Randomizer handbook with 14 mappings, released recipe/loot evidence and an exact bytecode-backed output-stack remainder finding. A standalone harness covers requested counts 1–128. Consume-before-loot and mixed-hand cases are documented as runtime regression targets. These are not applied game fixes or in-game test receipts. See [Rune production handbook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Randomizer-1.16.5).
 
 ## Interactive rendered turntables
 
-Added turntables for all 83 inspected modern source-roster entries with 24 fixed-framing camera views each (1,992 frames), keyboard/drag/scrub controls, opt-in rotation and a bounded four-image cache. These are selected static appearances; Shiny Squid uses a clearly labeled Java neutral-body adapter. This is a rendered rest-pose presentation, not a live geometry viewer, runtime animation test or encounter-completion proof. [Turntable guide](Model-Turntables).
+Added turntables for all 83 inspected modern source-roster entries with 24 fixed-framing camera views each (1,992 frames), keyboard/drag/scrub controls, opt-in rotation and a bounded four-image cache. These are selected static appearances; Shiny Squid uses a clearly labeled Java neutral-body adapter. This is a rendered rest-pose presentation, not a live geometry viewer, runtime animation test or encounter-completion proof. [Turntable guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Model-Turntables).
