@@ -305,4 +305,4 @@ Total default ability records documented: **201**.
 
 ## Practical training guide and released-data check
 
-[How to train each supported skill, common blockers, full-stack Energy Stone consumption and cycling cautions](Skill-Training-Walkthrough-1.21.1). [Released data comparison with hashes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/modern-skill-artifact-comparison.json).
+[How to train each supported skill, common blockers, full-stack Energy Stone consumption and cycling cautions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1). [Released data comparison with hashes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/modern-skill-artifact-comparison.json).

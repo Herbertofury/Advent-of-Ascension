@@ -79,4 +79,4 @@ Advent of Ascension is created by **Tslat and contributors**. These are original
 
 ## Practical entry and token states
 
-[Boss entry and token preparation for 1.21.1](Boss-Entry-and-Token-Preparation-1.21.1) covers released damage components, strict Bone Horn repair ingredients, Nowhere altar sequencing, original gold trophies and return behavior. It also flags the inspected WOUNDED-state gap in the Warped Horn acquisition chain. Do not treat the conversion callback alone as proof that the required drop flag is set.
+[Boss entry and token preparation for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1) covers released damage components, strict Bone Horn repair ingredients, Nowhere altar sequencing, original gold trophies and return behavior. It also flags the inspected WOUNDED-state gap in the Warped Horn acquisition chain. Do not treat the conversion callback alone as proof that the required drop flag is set.

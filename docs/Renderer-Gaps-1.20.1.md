@@ -57,4 +57,4 @@ These are documented implementation goals, not completed fixes or live-game acce
 
 ## Additional released atlas mismatch
 
-[Nine NPCs use 64×32 textures with a 64×64 humanoid layer](NPC-Texture-Atlas-Mismatch-1.20.1). The comparison page preserves the released mapping and a separately labeled proposed correction. [Full inspected 1.20.1 appearance coverage](Bestiary-Coverage-1.20.1) now classifies every roster entry.
+[Nine NPCs use 64×32 textures with a 64×64 humanoid layer](https://github.com/Herbertofury/Advent-of-Ascension/wiki/NPC-Texture-Atlas-Mismatch-1.20.1). The comparison page preserves the released mapping and a separately labeled proposed correction. [Full inspected 1.20.1 appearance coverage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary-Coverage-1.20.1) now classifies every roster entry.

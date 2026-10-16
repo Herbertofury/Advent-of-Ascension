@@ -15,12 +15,12 @@ Counts below describe inspected rosters and documentation, not a playable merged
 
 The 1.20.1 picture count includes nine released NPC atlas diagnostics and a Coratee intended-texture study. They are labeled clearly, not presented as repaired runtime rendering. Zero unclassified entries in an inspected roster does not establish a complete runtime registry.
 
-- [1.16.5 appearance census](Legacy-Bestiary-Coverage-1.16.5)
-- [1.20.1 appearance census and variants](Bestiary-Coverage-1.20.1)
-- [Nine released NPC texture-atlas mismatches and proposed repairs](NPC-Texture-Atlas-Mismatch-1.20.1)
-- [Modern portraits](Modern-Bestiary-Portraits)
-- [Historical realmstone progression: 22 routes](Realmstone-Progression-Walkthrough-1.16.5)
-- [Practical modern skill training](Skill-Training-Walkthrough-1.21.1)
+- [1.16.5 appearance census](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Bestiary-Coverage-1.16.5)
+- [1.20.1 appearance census and variants](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary-Coverage-1.20.1)
+- [Nine released NPC texture-atlas mismatches and proposed repairs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/NPC-Texture-Atlas-Mismatch-1.20.1)
+- [Modern portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Bestiary-Portraits)
+- [Historical realmstone progression: 22 routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5)
+- [Practical modern skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1)
 
 The searchable bestiary supports release, dimension and biome-selector filters, exact creature links, 787 modern artifact stat-builder records, and lazy illustrated loot. Reverse drop lookup links items back to creatures. Selected-release loading avoids fetching every roster at startup, with caching, retry and stale-result tests.
 
@@ -187,14 +187,14 @@ The [bucket reference gallery](https://github.com/Herbertofury/Advent-of-Ascensi
 
 ## Searchable inventory and multi-state reconciliation
 
-The [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) indexes all **10,077 version-specific archive-resource candidates**: 9,928 regular source-model previews and 149 separately classified initial exceptions. This is not a runtime registry count. Each exception links to an existing supplement or preserves the exact remaining limitation. [Record-by-record ledger](Inventory-Preview-Resolution-Ledger).
+The [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) indexes all **10,077 version-specific archive-resource candidates**: 9,928 regular source-model previews and 149 separately classified initial exceptions. This is not a runtime registry count. Each exception links to an existing supplement or preserves the exact remaining limitation. [Record-by-record ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger).
 
-The [multi-state supplement](Multi-State-Block-References) accounts for 135 Thorny Plant age/height states and six activity-portal axis states across three releases. Of the plant states, 93 have visible texture regions and 42 have verified fully transparent UV regions. These supplement the 522 earlier age-only references; they do not establish natural state transitions or world renderer parity.
+The [multi-state supplement](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Multi-State-Block-References) accounts for 135 Thorny Plant age/height states and six activity-portal axis states across three releases. Of the plant states, 93 have visible texture regions and 42 have verified fully transparent UV regions. These supplement the 522 earlier age-only references; they do not establish natural state transitions or world renderer parity.
 
 ## Independently verified 1.20.1 sign models
 
-[15 matching-version sign references](Signs-and-Hanging-Signs-1.20.1) resolve six previously pending wall-sign reference records. Official layer factories were decoded independently, visibility conditions checked, and released AoA textures compared byte-for-byte before reuse. This does not certify text, interaction or world placement in a running game.
+[15 matching-version sign references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Signs-and-Hanging-Signs-1.20.1) resolve six previously pending wall-sign reference records. Official layer factories were decoded independently, visibility conditions checked, and released AoA textures compared byte-for-byte before reuse. This does not certify text, interaction or world placement in a running game.
 
 ## Modern rendered-turntable coverage
 
-All 83 inspected 1.21.1 / AoA 3.7.16.1 source-roster entries now have 24 rendered orbit views (1,992 frames). Every frame passes stored-hash, nonempty-alpha and in-bounds checks. Source model/texture hashes are checked; Shiny Squid explicitly identifies its source-derived Java neutral-body geometry. Front/back contact sheets and selected side views were visually reviewed. This covers one selected static appearance per entry, not every variant or runtime animation. [Viewer and limits](Model-Turntables).
+All 83 inspected 1.21.1 / AoA 3.7.16.1 source-roster entries now have 24 rendered orbit views (1,992 frames). Every frame passes stored-hash, nonempty-alpha and in-bounds checks. Source model/texture hashes are checked; Shiny Squid explicitly identifies its source-derived Java neutral-body geometry. Front/back contact sheets and selected side views were visually reviewed. This covers one selected static appearance per entry, not every variant or runtime animation. [Viewer and limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Model-Turntables).

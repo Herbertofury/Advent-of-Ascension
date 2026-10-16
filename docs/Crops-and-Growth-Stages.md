@@ -2,7 +2,7 @@
 
 **Minecraft 1.21.1 / AoA 3.7.16.1.** Actual age-variant models selected from the official artifact’s blockstate files. Rendered reference stages, not a promise about growth speed or runtime effects. Each age is labelled exactly as defined; no maturity or harvest rule is inferred solely from the last model. Models and textures by Tslat and contributors.
 
-**Need planting and harvest instructions?** Read [Farming, soils and harvesting](Farming-Soils-and-Harvesting-1.21.1) for seed items, special supports, maturity, fertilised soil and automation caveats. Living Growth is a separate staged block, not an ordinary crop.
+**Need planting and harvest instructions?** Read [Farming, soils and harvesting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Farming-Soils-and-Harvesting-1.21.1) for seed items, special supports, maturity, fertilised soil and automation caveats. Living Growth is a separate staged block, not an ordinary crop.
 
 ## Ashfern
 

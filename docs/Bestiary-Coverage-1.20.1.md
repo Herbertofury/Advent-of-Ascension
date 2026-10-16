@@ -1,6 +1,6 @@
 # Minecraft 1.20.1: every inspected bestiary entry classified
 
-[Open the searchable 1.20.1 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.20.1) · [Renderer restoration gaps](Renderer-Gaps-1.20.1) · [Nine NPC atlas mismatches](NPC-Texture-Atlas-Mismatch-1.20.1)
+[Open the searchable 1.20.1 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.20.1) · [Renderer restoration gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1) · [Nine NPC atlas mismatches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/NPC-Texture-Atlas-Mismatch-1.20.1)
 
 The **285-entry inspected living-entity source roster** now has an explicit appearance outcome for every entry. This is not a count of all runtime entities, projectiles or all content in other releases.
 
@@ -143,7 +143,7 @@ Click a creature to inspect its attributes, spawn declarations, loot resources, 
 - [Coverage accounting](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/portrait-coverage-1.20.1.json)
 - [Released fish/custom renderer joins](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/released-portrait-links-1.20.1.json)
 - [Released variant methods and exact resource hashes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/variant-portrait-links-1.20.1.json)
-- [NPC atlas mismatch and proposed fix](NPC-Texture-Atlas-Mismatch-1.20.1)
-- [Renderer gaps and registry-target mismatches](Renderer-Gaps-1.20.1)
+- [NPC atlas mismatch and proposed fix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/NPC-Texture-Atlas-Mismatch-1.20.1)
+- [Renderer gaps and registry-target mismatches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1)
 
 This closes the appearance-classification gap in this inspected roster. It does not complete the Enderloom port or certify a playable merged release. The renderer restoration checklist remains open until implementation and live tests pass.

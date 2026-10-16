@@ -1,6 +1,6 @@
 # Visual Atlas
 
-**Search the full versioned resource catalog:** [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html). It includes the regular previews and all 149 initial exceptions, linked to current supplements or explicit remaining limits. [Preview resolution ledger](Inventory-Preview-Resolution-Ledger).
+**Search the full versioned resource catalog:** [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html). It includes the regular previews and all 149 initial exceptions, linked to current supplements or explicit remaining limits. [Preview resolution ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger).
 
 
 **The mod, in view.** Actual models and textures, named and version-labelled.

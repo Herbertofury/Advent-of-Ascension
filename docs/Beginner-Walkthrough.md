@@ -36,7 +36,7 @@ This table describes the bundled modern guide. It does not impose the planned op
 
 **Checkpoint:** you know what makes your chosen weapon stop firing, and you have a fallback instead of discovering that during a boss fight.
 
-**Detailed preparation:** [Ammunition, the 48-bullet recipe, and Ammo Void Pouch safety](Ammunition-and-Void-Pouch-1.21.1). [Exp Flask storage and recovery](Exp-Flask-Storage-and-Recovery-1.21.1) explains where collected vanilla XP goes and how to reclaim it.
+**Detailed preparation:** [Ammunition, the 48-bullet recipe, and Ammo Void Pouch safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ammunition-and-Void-Pouch-1.21.1). [Exp Flask storage and recovery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Exp-Flask-Storage-and-Recovery-1.21.1) explains where collected vanilla XP goes and how to reclaim it.
 
 ## 4. Find a ruined teleporter frame
 
@@ -110,8 +110,8 @@ Use the [bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-e
 
 Original guidance checked against the official AoA 3.7.16.1 artifact's bundled `getting_started`, `the_portal`, `advent_gui_base`, `skills_overview`, `cycles`, `energy`, `spirit`, `rage`, `guns`, `staves` and related guide entries, plus the recipes and loot evidence linked in the portal walkthrough. This is documentation research, not a new live-game test.
 
-This chapter covers the start-to-first-expedition route. Continue with the checked [modern skill-training guide](Skill-Training-Walkthrough-1.21.1), [boss-entry guide](Boss-Entry-and-Token-Preparation-1.21.1), [Bone Horn acquisition walkthrough](Bone-Horn-Acquisition-1.21.1), and [loot-table reference](Loot-Tables-and-Global-Modifiers-1.21.1). Additional realm routes, equipment comparisons and remaining encounter tactics are still being expanded; these links do not imply every historical route is present or runtime-tested.
+This chapter covers the start-to-first-expedition route. Continue with the checked [modern skill-training guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1), [boss-entry guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1), [Bone Horn acquisition walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bone-Horn-Acquisition-1.21.1), and [loot-table reference](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Loot-Tables-and-Global-Modifiers-1.21.1). Additional realm routes, equipment comparisons and remaining encounter tactics are still being expanded; these links do not imply every historical route is present or runtime-tested.
 
-- [1.16.5 Rune Posts and Randomizer handbook](Rune-Production-and-Randomizer-1.16.5)
+- [1.16.5 Rune Posts and Randomizer handbook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Randomizer-1.16.5)
 
-- [Trading, prices and restocking · 1.21.1](Trading-and-Traders-1.21.1)
+- [Trading, prices and restocking · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1)

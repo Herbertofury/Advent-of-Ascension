@@ -40,4 +40,4 @@ The left image keeps the released 64×64 atlas. The right changes only atlas hei
 - [Released NPC registrations, exact texture paths and hashes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/humanoid-portrait-links-1.20.1.json)
 - [Official mesh extraction trace and released layer supplier](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/vanilla-humanoid-1.20.1-evidence.json)
 - [Proposed atlas comparison records](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/humanoid-proposed-portrait-links-1.20.1.json)
-- [Other released renderer gaps](Renderer-Gaps-1.20.1)
+- [Other released renderer gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1)
