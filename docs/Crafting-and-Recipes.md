@@ -99,3 +99,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Infused Press storage and piston control
 
 [Infused Press operating reference for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infused-Press-Compression-and-Piston-Control-1.21.1): nine-stack matching, downward piston layout, one-tier decompression, comparator limitations and high-tier serialization checks. Station acquisition and actual piston timing remain separately unverified.
+
+## Divine Station weapon upgrades
+
+[All 36 illustrated 1.21.1 upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1), covering 17 named kits plus Weapon Parts. Check positional inputs and the configured-output component policy before upgrading customized weapons. Active acquisition remains pack-specific.
