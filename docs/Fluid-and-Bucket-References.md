@@ -42,3 +42,8 @@ The Forge commits are pinned reference implementations, not a claim that a parti
 Credits: AoA artwork/designs by Tslat and contributors; Minecraft bucket/water artwork by Mojang; mask/model conventions by Minecraft Forge contributors; molten texture by SlimeKnights/Tinkers' Construct contributors. Original upstream files are not bundled in the published documentation.
 
 [Historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries) · [Render coverage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage)
+
+
+## Fluid materials outside the bucket
+
+[Source-textured fluid surface studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-Surface-Material-Studies) provide 24 separate per-fluid references across 1.16.5, 1.20.1 and 1.21.1. Their synthetic unit-box geometry is explicitly separate from actual world-fluid height, flow and translucent rendering. The bucket references above remain unchanged.

@@ -198,3 +198,8 @@ The [multi-state supplement](https://github.com/Herbertofury/Advent-of-Ascension
 ## Modern rendered-turntable coverage
 
 All 83 inspected 1.21.1 / AoA 3.7.16.1 source-roster entries now have 24 rendered orbit views (1,992 frames). Every frame passes stored-hash, nonempty-alpha and in-bounds checks. Source model/texture hashes are checked; Shiny Squid explicitly identifies its source-derived Java neutral-body geometry. Front/back contact sheets and selected side views were visually reviewed. This covers one selected static appearance per entry, not every variant or runtime animation. [Viewer and limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Model-Turntables).
+
+
+## Fluid material references
+
+[Twenty-four release-specific surface-material studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-Surface-Material-Studies) now give fluid resource cards their own source-textured reference across 1.16.5, 1.20.1 and 1.21.1. These synthetic unit-box studies retain default tint and source alpha; they are supplemental documentation views, not runtime fluid geometry or newly validated inventory models. The regular atlas counts remain unchanged.
