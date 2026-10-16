@@ -488,3 +488,7 @@ The browser now shows 787 artifact-derived stat-builder records across the three
 ## Complete inspected modern portrait roster
 
 All 83 entries in the inspected 1.21 living-entity source roster now have version-matched static source portraits, including fish shared-model variants and Shiny Squid. Charger, Veloraptor, Dryad Sprite and Opteryx cards expose additional verified appearances. [Illustrated roster and limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Bestiary-Portraits).
+
+## Legacy portrait expansion and release gaps
+
+The 1.16.5 roster now has 332 source-mapped portraits out of 419 inspected entries, including 80 additional exact renderer/model/texture joins. Remaining cases include custom renderers and intentionally invisible or particle entities; they are not silently substituted with another release. The [released 1.20.1 renderer audit](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1) separately explains verified upstream placeholders and five field/target mismatches.

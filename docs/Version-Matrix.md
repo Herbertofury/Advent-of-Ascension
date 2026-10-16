@@ -1,8 +1,8 @@
-[Home](README.md) · [Versions](Version-Matrix.md) · [Worlds](Dimensions.md) · [Systems](Systems.md) · [Progress](Progress.md)
+[Home](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Home) · [Versions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) · [Worlds](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions) · [Systems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Systems) · [Progress](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress)
 
 # Version atlas · choosing the complete source set
 
-![Version lineage](version-lineage.svg)
+![Version lineage](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/version-lineage.svg)
 
 ## Recommended roles
 
@@ -16,7 +16,7 @@
 
 **For ordinary play with broad older realm content:** the 1.16.5 legacy release is the relevant reference. **For the latest overhauled content:** use the version-matched 1.21.1 release and dependencies. **For the owner’s complete AoA:** use a reconciled source/content union and a verified target build. Installing those incompatible JARs together will not merge their features.
 
-[Official versions/downloads](https://modrinth.com/mod/adventofascension/versions) · [Exact filenames, release metadata and published hashes](release-evidence.json).
+[Official versions/downloads](https://modrinth.com/mod/adventofascension/versions) · [Exact filenames, release metadata and published hashes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/release-evidence.json).
 
 ## Source signals measured in this review
 
@@ -44,4 +44,8 @@ For every same-ID old/new pair: compare appearance, AI, stats, drops, progressio
 
 
 ---
-Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits.md). Source presence is not target runtime proof.
+Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits). Source presence is not target runtime proof.
+
+## Released 1.20.1 renderer gap audit
+
+AoA 3.7.1 contains 186 temporary-renderer assignments referencing 181 distinct entity fields; 173 of those targets are in the inspected living-entity roster. Five named NPC renderer fields instead reference Primordial Banker in the released binary, while the pinned source has corrected targets. [Exact evidence and restoration checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1). Registration and asset presence must not be treated as proof of a complete playable port.
