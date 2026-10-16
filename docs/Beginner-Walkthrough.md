@@ -36,6 +36,8 @@ This table describes the bundled modern guide. It does not impose the planned op
 
 **Checkpoint:** you know what makes your chosen weapon stop firing, and you have a fallback instead of discovering that during a boss fight.
 
+**Detailed preparation:** [Ammunition, the 48-bullet recipe, and Ammo Void Pouch safety](Ammunition-and-Void-Pouch-1.21.1).
+
 ## 4. Find a ruined teleporter frame
 
 Once basic survival is reliable, explore deep underground. The bundled getting-started guide places ruined teleporter frames near the bottom of the world and associates the Corrupted Traveller with them. It does not give a guaranteed coordinate or fixed search distance, so this walkthrough does not invent one.
@@ -108,7 +110,7 @@ Use the [bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-e
 
 Original guidance checked against the official AoA 3.7.16.1 artifact's bundled `getting_started`, `the_portal`, `advent_gui_base`, `skills_overview`, `cycles`, `energy`, `spirit`, `rage`, `guns`, `staves` and related guide entries, plus the recipes and loot evidence linked in the portal walkthrough. This is documentation research, not a new live-game test.
 
-This chapter covers the start-to-first-expedition route. Dedicated per-release realmstone acquisition, realm routes, boss tactics, equipment comparisons and full skill-training walkthroughs remain ongoing work. They must be filled with checked instructions rather than placeholder claims of completeness.
+This chapter covers the start-to-first-expedition route. Continue with the checked [modern skill-training guide](Skill-Training-Walkthrough-1.21.1), [boss-entry guide](Boss-Entry-and-Token-Preparation-1.21.1), [Bone Horn acquisition walkthrough](Bone-Horn-Acquisition-1.21.1), and [loot-table reference](Loot-Tables-and-Global-Modifiers-1.21.1). Additional realm routes, equipment comparisons and remaining encounter tactics are still being expanded; these links do not imply every historical route is present or runtime-tested.
 
 - [1.16.5 Rune Posts and Randomizer handbook](Rune-Production-and-Randomizer-1.16.5)
 

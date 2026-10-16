@@ -1,0 +1,200 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Released AoA and official vanilla class inspection plus independent Python state-transition model. Not Minecraft/NeoForge execution and not a patch to the owner-local Enderloom candidate.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "finding": "Rejected add returns null; stock click handler treats it as a changed component and passes null to the setter. The normal component setter represents null as removal. Existing pouch ammunition is therefore at risk of becoming inaccessible/lost; absent component can also break subsequent methods that dereference it.",
+  "classes": [
+    {
+      "class": "net/tslat/aoa3/content/item/tool/artifice/AmmoVoidPouch.class",
+      "class_sha256": "0198a5c5980c116326dc025bc383ca7a18dc889dfbbc8b7778802bbc127ca549",
+      "method": "overrideOtherStackedOnMe",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;Lnet/minecraft/world/inventory/ClickAction;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/SlotAccess;)Z",
+      "code_hex": "1904b2005ca6000d2cb20062b600689a00112a2b2c2d190419051906b7006cac2bb2000bb6003dc000113a0719072cb600703a0819071908a5000f2bb2000b1908b6004f5704ac03ac"
+    },
+    {
+      "class": "net/tslat/aoa3/library/object/container/AmmoVoidPouchComponent.class",
+      "class_sha256": "62c4953d043e5a1d8cbde57fd8c6aa971a143087c1fbdda223d7326f0f420233",
+      "method": "add",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/library/object/container/AmmoVoidPouchComponent;",
+      "code_hex": "2bb6005ab6005e9a000501b02ab400072bb6006303b9003b03003d12691c642bb6006ab8006e3e1d9d000501b0bb000d592ab40007b7004e3a0419042bb600631c1d60b900530300572b1db60074bb0008591904b80010b70016b0"
+    },
+    {
+      "class": "cuq.class",
+      "class_sha256": "a34b9141828bd62fa74ad6a5d3b9b47a81df18b4a86866827c8f73d3ab97f901",
+      "method": "b",
+      "descriptor": "(Lkp;Ljava/lang/Object;)Ljava/lang/Object;",
+      "code_hex": "2ab400ba2b2cb60304b0"
+    },
+    {
+      "class": "kr.class",
+      "class_sha256": "65991cc0b29b321f5de94e9aac8c68e9e26773f13f805f245469a5133fa30a32",
+      "method": "b",
+      "descriptor": "(Lkp;Ljava/lang/Object;)Ljava/lang/Object;",
+      "code_hex": "2ab6008d2ab400302bb9006302004e2c2db800929900152ab400322bb900950200c000683a04a700162ab400322b2cb80099b9009d0300c000683a041904c6000a19042db60084b02db0"
+    }
+  ],
+  "neoforge_supplier_bridge": {
+    "commit": "00c6a3fd23d80ce54ec834a7e25d09fba37927e9",
+    "url": "https://raw.githubusercontent.com/neoforged/NeoForge/00c6a3fd23d80ce54ec834a7e25d09fba37927e9/src/main/java/net/neoforged/neoforge/common/MutableDataComponentHolder.java",
+    "checked_behavior": "The Supplier overload forwards componentType.get() and value unchanged to set."
+  },
+  "model_cases": [
+    {
+      "case": "ordinary stack",
+      "initial": {
+        "aoa3:limonite_bullet": 12,
+        "aoa3:cannonball": 9
+      },
+      "cursor_count": 48,
+      "has_component_patch": false,
+      "stock_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 60,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 0,
+        "handled": true
+      },
+      "guarded_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 60,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 0,
+        "handled": true
+      }
+    },
+    {
+      "case": "renamed ammo",
+      "initial": {
+        "aoa3:limonite_bullet": 12,
+        "aoa3:cannonball": 9
+      },
+      "cursor_count": 48,
+      "has_component_patch": true,
+      "stock_model": {
+        "pouch_component": null,
+        "cursor_count": 48,
+        "handled": true
+      },
+      "guarded_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 12,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 48,
+        "handled": false
+      }
+    },
+    {
+      "case": "patched ammo empty pouch",
+      "initial": {
+        "aoa3:cannonball": 9
+      },
+      "cursor_count": 1,
+      "has_component_patch": true,
+      "stock_model": {
+        "pouch_component": null,
+        "cursor_count": 1,
+        "handled": true
+      },
+      "guarded_model": {
+        "pouch_component": {
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 1,
+        "handled": false
+      }
+    },
+    {
+      "case": "full capacity",
+      "initial": {
+        "aoa3:limonite_bullet": 2147483647,
+        "aoa3:cannonball": 9
+      },
+      "cursor_count": 1,
+      "has_component_patch": false,
+      "stock_model": {
+        "pouch_component": null,
+        "cursor_count": 1,
+        "handled": true
+      },
+      "guarded_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 2147483647,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 1,
+        "handled": false
+      }
+    },
+    {
+      "case": "partial capacity",
+      "initial": {
+        "aoa3:limonite_bullet": 2147483645,
+        "aoa3:cannonball": 9
+      },
+      "cursor_count": 48,
+      "has_component_patch": false,
+      "stock_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 2147483647,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 46,
+        "handled": true
+      },
+      "guarded_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 2147483647,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 46,
+        "handled": true
+      }
+    },
+    {
+      "case": "empty cursor",
+      "initial": {
+        "aoa3:limonite_bullet": 12,
+        "aoa3:cannonball": 9
+      },
+      "cursor_count": 0,
+      "has_component_patch": false,
+      "stock_model": {
+        "pouch_component": null,
+        "cursor_count": 0,
+        "handled": true
+      },
+      "guarded_model": {
+        "pouch_component": {
+          "aoa3:limonite_bullet": 12,
+          "aoa3:cannonball": 9
+        },
+        "cursor_count": 0,
+        "handled": false
+      }
+    }
+  ],
+  "model_tests_passed": 6,
+  "tag_values": [
+    "#minecraft:arrows",
+    "aoa3:limonite_bullet",
+    "aoa3:cannonball",
+    "aoa3:metal_slug",
+    "aoa3:spreadshot",
+    "aoa3:spreadshot",
+    "aoa3:balloon",
+    "aoa3:discharge_capsule",
+    "aoa3:pop_shot"
+  ],
+  "empty_pouch_warning": "WARNING: Stored ammo is not retrievable",
+  "proposed_minimum_guard": "If newComponent is null, do not call stack.set; preserve both pouch and cursor. Also handle an already-missing component defensively without claiming recovery of old ammunition.",
+  "limits": [
+    "No current private Enderloom JAR was inspected.",
+    "NeoForge branch source bridge was checked; a fully patched loader runtime was not executed.",
+    "Regression model is not a GameTest. Cases start at the component-add boundary; the empty-cursor helper case is not claimed reachable through the normal ammo-tagged inventory click.",
+    "No automatic migration or restoration of already-lost component data is proven."
+  ]
+}
