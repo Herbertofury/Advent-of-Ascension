@@ -91,3 +91,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Cooking with Ashfern
 
 [Illustrated Ashfern cooking guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ashfern-Cooking-and-Food-Preparation-1.21.1): two occupied input slots, 25 checked AoA food routes, six outputs and the difference between an edible input and an edible result. Includes twenty named fish previews and recipe-matching troubleshooting.
+
+## Tea Sink brewing
+
+[Tea Sink recipes and ingredient-priority guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tea-Sink-Brewing-and-Ingredient-Priority-1.21.1): craft the sink and Cups, harvest Tea Shreddings, manage automatic additive selection and avoid the released melon-return branch. Creative selection is checked separately.
