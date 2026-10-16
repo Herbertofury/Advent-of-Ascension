@@ -31,3 +31,10 @@ This finding does not certify a visual failure in a running game. The atlas can 
 ## Documentation renderer quality gate
 
 The two-sided thin-surface correction is already applied to the published preview images and has a separate [validation record](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/planar-render-validation.json). It changes the offline documentation renderer, not AoA game code.
+
+
+## Roaming trader coordinate bounds · official 1.20.1 and 1.21.1 references
+
+Released-bytecode checks confirm that the inspected official trader callers pass 20/64, but their coordinate helper adds the 44-block width again to each signed offset. A +22 axis draw becomes +66; this exceeds the named maximum without proving a successful in-game spawn. The helper moved between classes across the inspected versions, so source layouts are not interchangeable.
+
+[Illustrated geometry audit and unchecked repair/acceptance steps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Roaming-Trader-Spawn-Geometry). The published current Enderloom inventory reports a different trader-class hash; that neither proves the issue remains nor that it is fixed. Inspect the exact current candidate before patching. No gameplay patch or FPS gain is claimed by this audit.

@@ -1,0 +1,172 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Static source/released-bytecode arithmetic audit and standalone coordinate tests. No game patch, live spawn test or measured performance improvement. Candidate axis-band correction is a design alternative, not an adopted gameplay requirement.",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "class_sha256": "fd4ba3d3e7f1b06d5fffff6e904fe313357427b00f10c4e642c2698efb7b5812",
+  "roaming_class_sha256": "632839a60ba940889e5176597229bc383294ef09ed7b7a6ac35b3ee8cc45ec5f",
+  "caller_arguments": {
+    "minRadius": 20,
+    "maxRadius": 64
+  },
+  "computed_width": 44,
+  "outer_method_hex": "bb003959b7003b3a082cb8003f3a09bb004559b700473a0a150515046403b8004886380b03360c150c1506a200271907b9004e0100c000542a1909170b2d2b190a2c1908ba00560000b6005a840c01a7ffd81908b0",
+  "coordinate_lambda_hex": "2b247624b6005e8d39092b247624b6005e8d390b2db6002187180963248d1809b800626b63b800668e360d2db6002c87180b63248d180bb800626b63b800668e360e1904b60069b6006d9900391905150d19061904b600731904b20076150d150eb6007cb80080150eb600865719041905b2008ab60090b60011b600949a0029a7ffed190519042a1908190419061905150d03150eb60086b9009905001905b6009db600a1572a1908190419061905b900a405003a0f190fb200a8a6002619041905b2008ab60090b60011b600949900131905b600ae1904b60073a40006a7ffe01905b200afb60090572a1908190419061905190fb900b20600990015190719081905b600b6b800bab900c0020057b1",
+  "caller_method_hex": "033e2bba00af0000b600b3b900b701003a041904b900bd01009901a81904b900c20100c000c53a052bb60089b900c701002ab4000fb600cd959b0006a7ffd62a2b2c1905b600d0101410402ab4000fb600d42cb600912a2cba00d70000b600dab900b701003a061906b900bd01009901501906b900c20100c000de3a071907b900e00100c000e33a081907b900e50100c000e83a092ab4000fb600eab600ed99005b1908b600f0b600f49a00102bb600f9b200fda60006a7ffb02ab4000fb600eab60049c001033a0a190ab601052bb201091909b6010fb80113b6011899ff8a190ab6011e2bb201211909b6010fb80113b601189a0006a7ff7019082b1909b8012499ff6519082bb2012a19092bb40130b8013499ff532b19081909b601388714013b631909b6013d871909b601408714013b63b60143b601479a0006a7ff2a19082b011909b2012a0303b6014b3a0a190ac70006a7ff12190ac1014f990040190ac0014f3a0b2ab4000fb600eab6004499000f190b2bb2012ab6015199feea190b2bb601549a0006a7fede190b2b2b1909b60158b2012a01b8015c572b190ab601622a59b400092ab4000fb601662cb600918561b50009840301a7feaca7fe541dac",
+  "tick_method_hex": "2ab400092bb60077949d00141d9900102bb6007bb2007fb600859a000503ac2bb600893a042a2bb600772ab4000fb6008d1904b600918561b500092a2b1904b60097ac",
+  "constructor_hex": "2ab700012a140007b500092a2bb5000f2a2cb50013b1",
+  "examples": [
+    {
+      "draw": -44,
+      "actual_coordinate": -88,
+      "candidate_axis_band_coordinate": -64
+    },
+    {
+      "draw": -43.5,
+      "actual_coordinate": -88,
+      "candidate_axis_band_coordinate": -64
+    },
+    {
+      "draw": -22,
+      "actual_coordinate": -66,
+      "candidate_axis_band_coordinate": -42
+    },
+    {
+      "draw": -0.1,
+      "actual_coordinate": -45,
+      "candidate_axis_band_coordinate": -21
+    },
+    {
+      "draw": 0,
+      "actual_coordinate": 0,
+      "candidate_axis_band_coordinate": 0
+    },
+    {
+      "draw": 0.1,
+      "actual_coordinate": 44,
+      "candidate_axis_band_coordinate": 20
+    },
+    {
+      "draw": 22,
+      "actual_coordinate": 66,
+      "candidate_axis_band_coordinate": 42
+    },
+    {
+      "draw": 43.5,
+      "actual_coordinate": 87,
+      "candidate_axis_band_coordinate": 63
+    },
+    {
+      "draw": 44,
+      "actual_coordinate": 88,
+      "candidate_axis_band_coordinate": 64
+    }
+  ],
+  "standalone_tests": {
+    "samples": 10000,
+    "actual_axis_min_max": [
+      -88,
+      87
+    ],
+    "sampled_coordinates_beyond_named_64_max": 5357,
+    "candidate_axis_band_within_20_64": true,
+    "zero_draw_returns_center": true,
+    "randomness_note": "Python seeded samples illustrate arithmetic; not TME RNG equivalence or in-game probabilities."
+  },
+  "spawner_resources": [
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/undead_herald.json",
+      "sha256": "ea31ca27034895d53d7a1d5a3a367a54efcfacecf70e033cf475f1fb90ba1c11",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 12000,
+            "min_inclusive": 8000
+          },
+          "not_in_dimensions": [
+            "aoa3:nowhere"
+          ],
+          "spawn_attempts_per_player": 1,
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:roaming_trader",
+        "spawns": [
+          {
+            "type": "aoa3:undead_herald",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/custom_spawner/vanilla_dim_lottomen.json",
+      "sha256": "487585bad8e453b461e5820ec6dee900938a782984df0289fb92fb14dd5d63df",
+      "definition": {
+        "base_settings": {
+          "chance_per_player": 1.0,
+          "extra_delay_per_spawn": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 12000,
+            "min_inclusive": 8000
+          },
+          "in_dimensions": [
+            "minecraft:the_nether",
+            "minecraft:the_end",
+            "minecraft:overworld"
+          ],
+          "spawn_attempts_per_player": 1,
+          "spawn_in_flat_world": false,
+          "spawn_interval": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 36000,
+            "min_inclusive": 12000
+          }
+        },
+        "spawner": "aoa3:roaming_trader",
+        "spawns": [
+          {
+            "type": "aoa3:lottoman",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 1
+          }
+        ]
+      }
+    }
+  ],
+  "support": [
+    {
+      "source": "source/content/world/spawner/AoACustomSpawner.java",
+      "sha256": "e140a8795327c6bf60afb095179fd2c39db2280c553815a5b52aa8b8915cbd7b"
+    },
+    {
+      "source": "source/content/world/spawner/RoamingTraderSpawner.java",
+      "sha256": "e9c60bda797ad2912f1475b63274a320c854b1a251e4ee82ace1e69e75d57dcc"
+    },
+    {
+      "source": "source/content/entity/npc/trader/LottomanEntity.java",
+      "sha256": "f443417c6dde0662b1d670a9760ea0e7b0ca4be04ceca0b21315fff3be068387"
+    },
+    {
+      "source": "source/content/entity/npc/trader/UndeadHeraldEntity.java",
+      "sha256": "efe603c8935457d94982dcbeb2c0e3a9b19c165e2a32c94140a1fe9f3075c43e"
+    },
+    {
+      "source": "source/common/registration/entity/AoAEntitySpawnPlacements.java",
+      "sha256": "54b02bcd654cb8cbe6ff0d71a2f2f129fc473f01ff7c4b051f8486ed6067c2e8"
+    },
+    {
+      "source": "source/content/entity/ai/trader/TraderRestockGoal.java",
+      "sha256": "e1270a34b5e16c16ace2a23c84655e84dab48a7a97e518bb737b345554d493cc"
+    }
+  ]
+}

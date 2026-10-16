@@ -4,6 +4,8 @@
 
 [Open the searchable Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1) · [Historical 1.16.5 traders](Trading-and-Traders-1.16.5)
 
+[Where modern traders spawn, including Precasian hovels](Finding-Traders-1.21.1)
+
 ## Before you spend your coins
 
 - **Base prices can change.** Reputation, demand and other runtime/modpack changes are not evaluated here. Inspect the price in the actual trade screen.
