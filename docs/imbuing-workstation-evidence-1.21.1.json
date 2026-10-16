@@ -1,0 +1,2824 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "135 released recipe definitions, station and energy-stone tag, selected class checks and exact focus-durability lambda shapes. No runtime test, survival-acquisition completeness or automation certification.",
+  "recipes": [
+    {
+      "path": "data/aoa3/recipe/imbuing_aqua_affinity.json",
+      "sha256": "8725d12f55c29d17dd1fe1386914ff61feb20ae9e722e9be0a25ebbfbbf069ff",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:control",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:aqua_affinity",
+        "enchantment_level": 1,
+        "imbuing_level": 33,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 33
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_archmage.json",
+      "sha256": "88a7c0fa66ef6665d1d0f70b795e8c88c9fc43a09af746780e0bf53abb338671",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:change",
+          "aoa3:magic",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:archmage",
+        "enchantment_level": 1,
+        "imbuing_level": 29,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 29
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_archmage_ii.json",
+      "sha256": "47d3ab6245329b25db75d3f4d015f7c143db9e6a4dddd36706ada58bfc3ab1e0",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:change",
+          "aoa3:magic",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:archmage",
+        "enchantment_level": 2,
+        "imbuing_level": 39,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 39
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_archmage_iii.json",
+      "sha256": "62c90c84bf40d62171b0b32753c14908311a53e41eb4692800bbcb2107393716",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:change",
+          "aoa3:magic",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:archmage",
+        "enchantment_level": 3,
+        "imbuing_level": 57,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 57
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_bane_of_arthropods.json",
+      "sha256": "e7a41aa6020c6f7c7f44a28fa6317ca72972f6e493f63f50455dd613deaa8ec8",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:bane_of_arthropods",
+        "enchantment_level": 1,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 1
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_bane_of_arthropods_ii.json",
+      "sha256": "c22db2c66f722237970402c8d9d4198995a3ee55c830366a1a0cb84598c69fd9",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:bane_of_arthropods",
+        "enchantment_level": 2,
+        "imbuing_level": 12,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 12
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_bane_of_arthropods_iii.json",
+      "sha256": "d26d16fbe3c79321aee5d3b33f1896b185eea5e79624d29b7b25599fd2709499",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:bane_of_arthropods",
+        "enchantment_level": 3,
+        "imbuing_level": 25,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 25
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_bane_of_arthropods_iv.json",
+      "sha256": "a2e9f097ff63cb02aaabcb6ef530e70effbd80072ba3f1f8ebd6483dd62b62c9",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:bane_of_arthropods",
+        "enchantment_level": 4,
+        "imbuing_level": 34,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 34
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_bane_of_arthropods_v.json",
+      "sha256": "293331371067270f739470eee62b0e6ebbb142ea30d9ec3e289df5038c35130f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:bane_of_arthropods",
+        "enchantment_level": 5,
+        "imbuing_level": 40,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 40
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_blast_protection.json",
+      "sha256": "bf625dbd403b0f3f5acc7fcf778868bfff3f80b76fe82967c122f1b1934711b3",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "minecraft:blast_protection",
+        "enchantment_level": 1,
+        "imbuing_level": 3,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 3
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_blast_protection_ii.json",
+      "sha256": "63ddd05717d1ae55bc1edc15a88411845937108a18c332b9e2dafd9bc8903808",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "minecraft:blast_protection",
+        "enchantment_level": 2,
+        "imbuing_level": 14,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 14
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_blast_protection_iii.json",
+      "sha256": "4fef90a14a8c4a9a9a45f576f97b1d599b71f1807c9b7c3d52523b32af86c527",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "minecraft:blast_protection",
+        "enchantment_level": 3,
+        "imbuing_level": 26,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 26
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_blast_protection_iv.json",
+      "sha256": "ce519ac43e65b017fea4b2956c8102193cbec3e26ee25a953170dbbceaba119f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "minecraft:blast_protection",
+        "enchantment_level": 4,
+        "imbuing_level": 35,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 35
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_brace.json",
+      "sha256": "f8e9bc22ed29fab3e07662acdb0130d8d40452a81e0664fb5e9ae17fc98ca725",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:brace",
+        "enchantment_level": 1,
+        "imbuing_level": 68,
+        "power_source": {
+          "item": "aoa3:glaring_power_stone"
+        }
+      },
+      "effective_imbuing_level": 68
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_channeling.json",
+      "sha256": "e58d51ce9e2951a5b927daf25e0c36ae6770cc1f305c28e5c04cb57c22a9b189",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:channeling",
+        "enchantment_level": 1,
+        "imbuing_level": 31,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 31
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_control.json",
+      "sha256": "c875fa15eedac3fe4805943c6c2e8df58c7e72b57137847310d62695b196916a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:control",
+        "enchantment_level": 1,
+        "imbuing_level": 22,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 22
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_control_ii.json",
+      "sha256": "3c0c08780d5e15ac2276899effe0a16d595abe2101115801de34c5ee15630f85",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:control",
+        "enchantment_level": 2,
+        "imbuing_level": 36,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 36
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_control_iii.json",
+      "sha256": "bd3f8f0df50bf254bb27895ffd64403f0a1e9b38f8d90492934454571f74dd77",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:control",
+        "enchantment_level": 3,
+        "imbuing_level": 49,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 49
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_depth_strider.json",
+      "sha256": "0bf128014e1eda72e4bb7e9452383c5a29fbb3b7dba1231efd0972ec6f7ea9a4",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:speed"
+        ],
+        "enchantment": "minecraft:depth_strider",
+        "enchantment_level": 1,
+        "imbuing_level": 15,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 15
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_depth_strider_ii.json",
+      "sha256": "28d5ac17d34a67cf0940f5606620e1a8fb2778e494dc12299d971d7b30c3c8e0",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:speed"
+        ],
+        "enchantment": "minecraft:depth_strider",
+        "enchantment_level": 2,
+        "imbuing_level": 27,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 27
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_depth_strider_iii.json",
+      "sha256": "0d7a385c61ab8d3969a1369bb3645ccd0a9b4b2891cd9b31f1698f31f548e187",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:speed"
+        ],
+        "enchantment": "minecraft:depth_strider",
+        "enchantment_level": 3,
+        "imbuing_level": 37,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 37
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_efficiency.json",
+      "sha256": "580a07db36d3bfb38c8308498045e41463889780ede635af677ddec7ddb92f9f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:efficiency",
+        "enchantment_level": 1,
+        "imbuing_level": 5,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 5
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_efficiency_ii.json",
+      "sha256": "36d59cb877fd415ff76595e0597c7ca0020aa616424210227659dc971c8df7cf",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:efficiency",
+        "enchantment_level": 2,
+        "imbuing_level": 19,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 19
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_efficiency_iii.json",
+      "sha256": "a993beb6992da903294e48ce4291d026e81a5c2b193ed10d933ec70e4b8fe48e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:efficiency",
+        "enchantment_level": 3,
+        "imbuing_level": 28,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 28
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_efficiency_iv.json",
+      "sha256": "b379a55b6a3a022d960b38bf8aab3cfb9fe3a3d5877291d9c020f90ebbed2ad5",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:efficiency",
+        "enchantment_level": 4,
+        "imbuing_level": 40,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 40
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_efficiency_v.json",
+      "sha256": "7d4003500ee17806a4e0d87da93e94e0c3787204bc46c2233ad3b3074f5c4a6f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:efficiency",
+        "enchantment_level": 5,
+        "imbuing_level": 55,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 55
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_feather_falling.json",
+      "sha256": "bd463ce167221ffee5f3cbe9fb176a9153949740fb4719d34868f35b46879fa6",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:feather_falling",
+        "enchantment_level": 1,
+        "imbuing_level": 18,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 18
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_feather_falling_ii.json",
+      "sha256": "9326cd13baca4c522cbe75ac14fd3ac30e1a1187d1c4006b223a413ca08e959b",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:feather_falling",
+        "enchantment_level": 2,
+        "imbuing_level": 27,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 27
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_feather_falling_iii.json",
+      "sha256": "01b6227ed71fe29d0511ec6f846d089e4c265f5559f3437bb32dd4419ecb61ca",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:feather_falling",
+        "enchantment_level": 3,
+        "imbuing_level": 35,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 35
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_feather_falling_iv.json",
+      "sha256": "231e9710123cd756f1d6ca0d9f0df8cb5386113d1f078a0064b6818ba3228154",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:feather_falling",
+        "enchantment_level": 4,
+        "imbuing_level": 47,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 47
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fire_aspect.json",
+      "sha256": "e144d6ada502e46ca29b8e26fc042d95f80b5ca7d419eeb94b215e10d81dcda6",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:fire_aspect",
+        "enchantment_level": 1,
+        "imbuing_level": 17,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 17
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fire_aspect_ii.json",
+      "sha256": "3812e32cca934bed66768d2a87b7c3f84b0904232c986d39bfb9067dead49e54",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:fire_aspect",
+        "enchantment_level": 2,
+        "imbuing_level": 26,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 26
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fire_protection.json",
+      "sha256": "895af325dfa259f6101df36f2225cb7f4070806ba05e5c29eeac756c7308627a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability"
+        ],
+        "enchantment": "minecraft:fire_protection",
+        "enchantment_level": 1,
+        "imbuing_level": 15,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 15
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fire_protection_ii.json",
+      "sha256": "a8aa20c3b1ad52c746115bcaa184c3e5f96d0239b42c6194be145267dcce1c01",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability"
+        ],
+        "enchantment": "minecraft:fire_protection",
+        "enchantment_level": 2,
+        "imbuing_level": 24,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 24
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fire_protection_iii.json",
+      "sha256": "d1e74de48cb44d4237fbb8b6dc8e89fcaf6cfcc2503b51a336905b92dd489603",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability"
+        ],
+        "enchantment": "minecraft:fire_protection",
+        "enchantment_level": 3,
+        "imbuing_level": 33,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 33
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fire_protection_iv.json",
+      "sha256": "848e898e7716e631a2994de963e61c5c6f39a7b71858ae5da0d4b46fce0c05b3",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability"
+        ],
+        "enchantment": "minecraft:fire_protection",
+        "enchantment_level": 4,
+        "imbuing_level": 49,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 49
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_flame.json",
+      "sha256": "cb20374eed02786531402506eff814e21d1a24721631aac525096c51df4978a4",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:power"
+        ],
+        "enchantment": "minecraft:flame",
+        "enchantment_level": 1,
+        "imbuing_level": 25,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 25
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_form.json",
+      "sha256": "50f2a06311ac099c3e0a5046e28d433a5a9651230a5b9f8d7814ef353ac4b670",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:form",
+        "enchantment_level": 1,
+        "imbuing_level": 12,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 12
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_form_ii.json",
+      "sha256": "d703c89fd185bb15b1cb23bb8c014cbc95e549e56774e0729540e2f2ad6f5a40",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:form",
+        "enchantment_level": 2,
+        "imbuing_level": 21,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 21
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_form_iii.json",
+      "sha256": "1276dfe6e2c5eaec8c7215fb552473ae95526942d2360a2f2b09bafd3a7df09e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "aoa3:form",
+        "enchantment_level": 3,
+        "imbuing_level": 38,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 38
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fortune.json",
+      "sha256": "0697c5373c050460a82a2c4e4557e565748ead31ebef924e44a79a7f6460f9f1",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource"
+        ],
+        "enchantment": "minecraft:fortune",
+        "enchantment_level": 1,
+        "imbuing_level": 13,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 13
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fortune_ii.json",
+      "sha256": "d125df2a924fc1c13d0dbd57cb261a1ae7893fda800c959b7a0167cff35e5f97",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource"
+        ],
+        "enchantment": "minecraft:fortune",
+        "enchantment_level": 2,
+        "imbuing_level": 29,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 29
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_fortune_iii.json",
+      "sha256": "fb2ef1a31a0eb3a3c0110b880987f30822bfa031d079c26cccfaeaf957c16b87",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource"
+        ],
+        "enchantment": "minecraft:fortune",
+        "enchantment_level": 3,
+        "imbuing_level": 43,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 43
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_frost_walker.json",
+      "sha256": "7f29635084000aa60f47cbc1c0ecff833b883eab816bfca081de92a282f1f164",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:change",
+          "aoa3:elemental"
+        ],
+        "enchantment": "minecraft:frost_walker",
+        "enchantment_level": 1,
+        "imbuing_level": 39,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 39
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_frost_walker_ii.json",
+      "sha256": "b92d104ec6438b3f754259a0ffb0e665451ca136a6424133021628d92d0d04a8",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:change",
+          "aoa3:elemental"
+        ],
+        "enchantment": "minecraft:frost_walker",
+        "enchantment_level": 2,
+        "imbuing_level": 56,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 56
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_impaling.json",
+      "sha256": "2deab6feade4455543440413da857d2628c6bd0c4d806fdfeaef70bf1228ca1b",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:impaling",
+        "enchantment_level": 1,
+        "imbuing_level": 10,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 10
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_impaling_ii.json",
+      "sha256": "4d86afdab6b601d3b7f70d653e4072bc05f26217b2ee1dcdb65ec773dd8a0503",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:impaling",
+        "enchantment_level": 2,
+        "imbuing_level": 24,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 24
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_impaling_iii.json",
+      "sha256": "d06a9c912d697d701765e9cff077422414ca607ea944bf69f0236901cb946b5b",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:impaling",
+        "enchantment_level": 3,
+        "imbuing_level": 35,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 35
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_impaling_iv.json",
+      "sha256": "6d827664e9d1cf452dab8ab48342f542c9d3228cfd63d6fa801fe13e02d51152",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:impaling",
+        "enchantment_level": 4,
+        "imbuing_level": 52,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 52
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_impaling_v.json",
+      "sha256": "5d2984a06c4ac3efaafd3dd9ebc5803fa1151ee98d3af686581d41d5a256bb96",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:elemental",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:impaling",
+        "enchantment_level": 5,
+        "imbuing_level": 66,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 66
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_infinity.json",
+      "sha256": "5be896553fe4770073f05e26e54e44103d9f0dd8f4764f5d745f45a0eaed387e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:infinity",
+        "enchantment_level": 1,
+        "imbuing_level": 62,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 62
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_intervention.json",
+      "sha256": "3fa996f4f35575aa5b74687eb08c9608eee505c12da656d930bb276ee2ecece5",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:magic",
+          "aoa3:life"
+        ],
+        "enchantment": "aoa3:intervention",
+        "enchantment_level": 1,
+        "imbuing_level": 59,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 59
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_knockback.json",
+      "sha256": "50e7a3134323b7255f9b7ea96f38d86874370d1a29708032794541fe62a30d4c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed"
+        ],
+        "enchantment": "minecraft:knockback",
+        "enchantment_level": 1,
+        "imbuing_level": 7,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 7
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_knockback_ii.json",
+      "sha256": "0f39794cb5c870835d367faed6f447e372c596cdf125a4818329478a99f0a47f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed"
+        ],
+        "enchantment": "minecraft:knockback",
+        "enchantment_level": 2,
+        "imbuing_level": 16,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 16
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_looting.json",
+      "sha256": "df45dc4fc1ca80210fd5d58a8fc494559460de5420e6a0d9a0803a0f50d01d9e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:looting",
+        "enchantment_level": 1,
+        "imbuing_level": 18,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 18
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_looting_ii.json",
+      "sha256": "71d2c5fc3f625a1fa6d3bc2119906a3883b4192dd4f27f4eb1fdf00bdee8736c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:looting",
+        "enchantment_level": 2,
+        "imbuing_level": 30,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 30
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_looting_iii.json",
+      "sha256": "887a2b4bb8aed88bca9a6a884726e35639f3e09df6b88b0a4ac803892458272d",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:looting",
+        "enchantment_level": 3,
+        "imbuing_level": 44,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 44
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_loyalty.json",
+      "sha256": "2e41b0a3016589d2cab4b8cc4b84c4a325dece8678971682024e2162c20d595a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:magic",
+          "aoa3:control",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:loyalty",
+        "enchantment_level": 1,
+        "imbuing_level": 23,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 23
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_loyalty_ii.json",
+      "sha256": "ef56fa90f2afa68fe56e61fa5fcdbe40f4ad13a988799120ca5c36a498b4c9dc",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:magic",
+          "aoa3:control",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:loyalty",
+        "enchantment_level": 2,
+        "imbuing_level": 31,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 31
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_loyalty_iii.json",
+      "sha256": "fb4b2f9154a05419d134aa839694a2c894c63f50a8d47d46bb5da6ba62a947a6",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:magic",
+          "aoa3:control",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:loyalty",
+        "enchantment_level": 3,
+        "imbuing_level": 43,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 43
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_luck_of_the_sea.json",
+      "sha256": "b341c9acee739d16d99eff662db520d62d3162d52a6ee71741c1c7a358ee4e55",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource",
+          "aoa3:elemental"
+        ],
+        "enchantment": "minecraft:luck_of_the_sea",
+        "enchantment_level": 1,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 1
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_luck_of_the_sea_ii.json",
+      "sha256": "e3d1172be027a46f6449697fd6a528b1f2daf9d0d7da83ddef9500ce98e80c0b",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource",
+          "aoa3:elemental"
+        ],
+        "enchantment": "minecraft:luck_of_the_sea",
+        "enchantment_level": 2,
+        "imbuing_level": 10,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 10
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_luck_of_the_sea_iii.json",
+      "sha256": "d19428b2f8313e67ddbd4694af8dc1dd96eee3fa147a949122f4868c539e94cc",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:resource",
+          "aoa3:elemental"
+        ],
+        "enchantment": "minecraft:luck_of_the_sea",
+        "enchantment_level": 3,
+        "imbuing_level": 24,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 24
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_lure.json",
+      "sha256": "f0766e98ebd605ec8bd651862cab46a61795af30208c866fbd8c88577ac1b396",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:elemental",
+          "aoa3:speed",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:lure",
+        "enchantment_level": 1,
+        "imbuing_level": 2,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 2
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_lure_ii.json",
+      "sha256": "7b305c2989f1ceb457884653e08148e986b46f79afc5b59a17f393f38f1a2bec",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:elemental",
+          "aoa3:speed",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:lure",
+        "enchantment_level": 2,
+        "imbuing_level": 15,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 15
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_lure_iii.json",
+      "sha256": "6ac77189c76daefa897eaf2562849132985879e96c08b7d632771cdc554d31b5",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:elemental",
+          "aoa3:speed",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:lure",
+        "enchantment_level": 3,
+        "imbuing_level": 25,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 25
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_mending.json",
+      "sha256": "4d0840df2ae5990e2d0ee05cbb8f2a9f9daa8dcb8c0bf4fc3cfc69ee3f7bea4c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:change",
+          "aoa3:durability",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:mending",
+        "enchantment_level": 1,
+        "imbuing_level": 97,
+        "power_source": {
+          "item": "aoa3:radiant_power_stone"
+        }
+      },
+      "effective_imbuing_level": 97
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_multishot.json",
+      "sha256": "3fde4ff3cb1e74f1b80451fbb2b4ba5896c89c4247086f1074fe07fda9b98e5e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:change",
+          "aoa3:power",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:multishot",
+        "enchantment_level": 1,
+        "imbuing_level": 45,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 45
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_piercing.json",
+      "sha256": "64f79fa4a9c37ed08d77b8c5f54ad664be21c04161f96d06f8450a99c563b7be",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:piercing",
+        "enchantment_level": 1,
+        "imbuing_level": 26,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 26
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_piercing_ii.json",
+      "sha256": "588fd18752c056998b49fd35db35f31b63079d39d4f998567e191869461f1790",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:piercing",
+        "enchantment_level": 2,
+        "imbuing_level": 34,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 34
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_piercing_iii.json",
+      "sha256": "e65e9ea59afcb2523c29aa0b6ebd4bfcc835eecf3a165b6245ce0994181d9553",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:piercing",
+        "enchantment_level": 3,
+        "imbuing_level": 51,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 51
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_piercing_iv.json",
+      "sha256": "efc318b09a457ea77290316940e897272bddf6b1a7994c36c5836fd8a3fbcc8e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:piercing",
+        "enchantment_level": 4,
+        "imbuing_level": 69,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 69
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_power.json",
+      "sha256": "f38e868a5b9b23ed5c6186d529a68408f349129ba44e7ed8ea4949f39b307af2",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:power",
+        "enchantment_level": 1,
+        "imbuing_level": 25,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 25
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_power_ii.json",
+      "sha256": "a431d5f2085df9b09394962610e105e3a6e6e38ab104d61f478f24274c988b51",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:power",
+        "enchantment_level": 2,
+        "imbuing_level": 37,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 37
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_power_iii.json",
+      "sha256": "dbd54292b09f7c8a7487dda1ac7b52759bfbfb8527c222cbec54aaf8f19f2859",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:power",
+        "enchantment_level": 3,
+        "imbuing_level": 54,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 54
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_power_iv.json",
+      "sha256": "0abb47336ad32cbfa0710a599f843cf3df722d373d6a0c22ca2988f8d91b04df",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:power",
+        "enchantment_level": 4,
+        "imbuing_level": 70,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 70
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_power_v.json",
+      "sha256": "1c4718e8d3a874a918bd5f135e3e2fc908d1af30eda2f31a45f730f867a00ece",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:power",
+        "enchantment_level": 5,
+        "imbuing_level": 82,
+        "power_source": {
+          "item": "aoa3:glaring_power_stone"
+        }
+      },
+      "effective_imbuing_level": 82
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_projectile_protection.json",
+      "sha256": "287f8805650ca8364d5d0a4ed90ff90d1f0cab0d8bb5f1fca2922e5ff2ebf1ab",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:projectile_protection",
+        "enchantment_level": 1,
+        "imbuing_level": 13,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 13
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_projectile_protection_ii.json",
+      "sha256": "d1e6c2c3d5bbe6eaf4c4b6ac90f1067d0b8327ec310f3c087da8e3c1f6b10539",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:projectile_protection",
+        "enchantment_level": 2,
+        "imbuing_level": 27,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 27
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_projectile_protection_iii.json",
+      "sha256": "62784ad3c97d1c9fa2db61b99b1b54afdaef8830d7c9a3d29995b310e33d744f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:projectile_protection",
+        "enchantment_level": 3,
+        "imbuing_level": 38,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 38
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_projectile_protection_iv.json",
+      "sha256": "3b3dc5015a4de0fb9236f77929d69ba3eef6f8279629ffc85dcdcf5317a1f62a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:projectile_protection",
+        "enchantment_level": 4,
+        "imbuing_level": 51,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 51
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_protection.json",
+      "sha256": "450f7f86f29743ae574e286c250472964fc4ff1a38c38521877fd84c72835603",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:protection",
+        "enchantment_level": 1,
+        "imbuing_level": 8,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 8
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_protection_ii.json",
+      "sha256": "e53d119ec119f0ec4d98f12c237df63f9669a89a8f97d5fd6ccbb85ede02c71c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:protection",
+        "enchantment_level": 2,
+        "imbuing_level": 17,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 17
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_protection_iii.json",
+      "sha256": "a74c722e37074481bdc1942a396b5bbcc7c89934f163d1d3b67351d07ca4f828",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:protection",
+        "enchantment_level": 3,
+        "imbuing_level": 31,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 31
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_protection_iv.json",
+      "sha256": "7d05803c48e51c78938ec00353ec1e25a15a90d42b8ea76cac8a3f0fd6d06d3b",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:protection",
+        "enchantment_level": 4,
+        "imbuing_level": 40,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 40
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_punch.json",
+      "sha256": "aadc49a2e69b1b055ba41e1c47b8a100c312cabfece1b1563c7a96ff65769b47",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:punch",
+        "enchantment_level": 1,
+        "imbuing_level": 25,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 25
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_punch_ii.json",
+      "sha256": "d1476bc06853e4f5aa62295e67e92bf94b5683743473a4a2ecf1fbcf5bae0f9c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:punch",
+        "enchantment_level": 2,
+        "imbuing_level": 36,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 36
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_quick_charge.json",
+      "sha256": "d61c5c9d41437225f9d231875a508d0d2d9b875128faadcdc244026009e99760",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:quick_charge",
+        "enchantment_level": 1,
+        "imbuing_level": 21,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 21
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_quick_charge_ii.json",
+      "sha256": "e850cb66902b44d764ffec9c6e0dbd46f4c00c8295919697cac2c1fc29aa95ee",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:quick_charge",
+        "enchantment_level": 2,
+        "imbuing_level": 33,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 33
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_quick_charge_iii.json",
+      "sha256": "1a30db921561b1b58a6d1ab4bcabc9657a888a52a12bd8a065039ab9c79fd08b",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:quick_charge",
+        "enchantment_level": 3,
+        "imbuing_level": 48,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 48
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_recharge.json",
+      "sha256": "7a2c055a939f66499c8ccab41d3fcd5a6a4df20d853c70e4764947e1149d771c",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "aoa3:recharge",
+        "enchantment_level": 1,
+        "imbuing_level": 24,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 24
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_recharge_ii.json",
+      "sha256": "f4fcf6daa76b32dfe92d2b4a6bdc51ed436d1260be745bea833bddf18637ee2e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "aoa3:recharge",
+        "enchantment_level": 2,
+        "imbuing_level": 39,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 39
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_recharge_iii.json",
+      "sha256": "d9fe0f10ec88bfdeb52fe080f907cf489a1c9a2866b8f9caec0f266c63e63f9a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "aoa3:recharge",
+        "enchantment_level": 3,
+        "imbuing_level": 56,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 56
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_recharge_iv.json",
+      "sha256": "30d31c76812b1d35b07fa26ca00c84b567e8778e97dbd117e0f6ee5af59af414",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "aoa3:recharge",
+        "enchantment_level": 4,
+        "imbuing_level": 73,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 73
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_recharge_v.json",
+      "sha256": "8adf2d2be7791b50ba5cce0bdbe3be5444dc58a177bce7788f1220eac13d5d20",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "aoa3:recharge",
+        "enchantment_level": 5,
+        "imbuing_level": 85,
+        "power_source": {
+          "item": "aoa3:glaring_power_stone"
+        }
+      },
+      "effective_imbuing_level": 85
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_respiration.json",
+      "sha256": "2a23bbcc0dcfb8e1aa42c89095e58ab932d4e695464eb8653ebfb83d7a1244a8",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:respiration",
+        "enchantment_level": 1,
+        "imbuing_level": 14,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 14
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_respiration_ii.json",
+      "sha256": "c028097d2f2ca71c9b299637475e4bb2658162187a35729a6ba3e6f848d09211",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:respiration",
+        "enchantment_level": 2,
+        "imbuing_level": 22,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 22
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_respiration_iii.json",
+      "sha256": "da3824240f624f1f56a11a1a5355a4848c110f40fb463273ef64449afeb80831",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:durability",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:respiration",
+        "enchantment_level": 3,
+        "imbuing_level": 35,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 35
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_riptide.json",
+      "sha256": "e7ed91aff1d4fcb797f94a0684bf356a97b20036b41a9cf0b003d61e7217fc57",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:speed",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:riptide",
+        "enchantment_level": 1,
+        "imbuing_level": 10,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 10
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_riptide_ii.json",
+      "sha256": "0d576aadef53c89ce466ea41c878f88f1c2db8cd05c389baf3adc6fced071414",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:speed",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:riptide",
+        "enchantment_level": 2,
+        "imbuing_level": 20,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 20
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_riptide_iii.json",
+      "sha256": "71f956a36d584bc4cc604b618aaecee65e2143e60164ecd30ce002155efe7181",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:elemental",
+          "aoa3:speed",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:riptide",
+        "enchantment_level": 3,
+        "imbuing_level": 37,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 37
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sever.json",
+      "sha256": "2f14ce01e1c39240d8cd91ae9110e79b0b0e80538f7fbfecd03f94607fd1523e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "aoa3:sever",
+        "enchantment_level": 1,
+        "imbuing_level": 19,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 19
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sever_ii.json",
+      "sha256": "95d6437eee4c1389ec7211c008020d26c9167b89d93c3e0237e9255628c3b9a8",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "aoa3:sever",
+        "enchantment_level": 2,
+        "imbuing_level": 27,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 27
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sever_iii.json",
+      "sha256": "00621907866cec845e42319d8d5250c06d7fb2574a0646c9b8ffd4331700420d",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "aoa3:sever",
+        "enchantment_level": 3,
+        "imbuing_level": 46,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 46
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sever_iv.json",
+      "sha256": "2b432cbe2d76a6d5fe79174572669e367f2b2750f30f944c16fb76ab7bbb0032",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "aoa3:sever",
+        "enchantment_level": 4,
+        "imbuing_level": 62,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 62
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sever_v.json",
+      "sha256": "392886a9ff6556ef6e0521bbcb9aa4921426d53360bd9e82f1e8bc1811d6072a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:luck",
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision"
+        ],
+        "enchantment": "aoa3:sever",
+        "enchantment_level": 5,
+        "imbuing_level": 70,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 70
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sharpness.json",
+      "sha256": "df68c29e7448276e803d0a055c3b6192a42dade4a57f5f358740230be7f1a8a8",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:sharpness",
+        "enchantment_level": 1,
+        "imbuing_level": 9,
+        "power_source": {
+          "item": "aoa3:ambient_power_stone"
+        }
+      },
+      "effective_imbuing_level": 9
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sharpness_ii.json",
+      "sha256": "89b80c4cb9d1918dba29f648012466f4dc7b460dc44349fc55f932f978185089",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:sharpness",
+        "enchantment_level": 2,
+        "imbuing_level": 18,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 18
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sharpness_iii.json",
+      "sha256": "75101affea291dfa1a9a03923dc94a3a11d1ef605a851393aa3ce498ddbd258d",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:sharpness",
+        "enchantment_level": 3,
+        "imbuing_level": 25,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 25
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sharpness_iv.json",
+      "sha256": "8aa28cf63d4a391a767eb14b52ecbbc3f3ca7285fbddccdd42ba390b4a8fbfb6",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:sharpness",
+        "enchantment_level": 4,
+        "imbuing_level": 45,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 45
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sharpness_v.json",
+      "sha256": "4ae1a6465a7fc7aedd786f9c1e9c362aeb00bab6b3b0db6b45c62fd9c74f2ff2",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:precision"
+        ],
+        "enchantment": "minecraft:sharpness",
+        "enchantment_level": 5,
+        "imbuing_level": 57,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 57
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_shell.json",
+      "sha256": "bedb8857f9a00d836e100a1d7a15c932b60e9955ffa62b32eb31fe4ea0a259cf",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "aoa3:shell",
+        "enchantment_level": 1,
+        "imbuing_level": 16,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 16
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_shell_ii.json",
+      "sha256": "b0b0ee18dd3925588451477bd3d88a75011ecef324d78cf45d92273d35df7ece",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "aoa3:shell",
+        "enchantment_level": 2,
+        "imbuing_level": 26,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 26
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_shell_iii.json",
+      "sha256": "8542e1dd7c8a76e739eebaf7dca5f226656b473d69f5d4c77d886c6f5cd505e8",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:durability",
+          "aoa3:power"
+        ],
+        "enchantment": "aoa3:shell",
+        "enchantment_level": 3,
+        "imbuing_level": 42,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 42
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_silk_touch.json",
+      "sha256": "a11b0dfb66b7d7ec9767fe406428923aef1e8f63f4f0aadfc886c44ab1355318",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:resource",
+          "aoa3:precision",
+          "aoa3:magic",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:silk_touch",
+        "enchantment_level": 1,
+        "imbuing_level": 60,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 60
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_smite.json",
+      "sha256": "b1cdfc4c159fc2f771fe7e62e2b283f4c708af5044a500ab748abb7aa80b8a43",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:magic",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:smite",
+        "enchantment_level": 1,
+        "imbuing_level": 14,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 14
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_smite_ii.json",
+      "sha256": "2e031e9246c1ada563e77bfdbf062a7da9d664458c31d0b4479650a2592fadfb",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:magic",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:smite",
+        "enchantment_level": 2,
+        "imbuing_level": 21,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 21
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_smite_iii.json",
+      "sha256": "39a4dd51b09a8646a017742ce4bb48405d0c3305e62e3394aff787ec6ff5642e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:magic",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:smite",
+        "enchantment_level": 3,
+        "imbuing_level": 37,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 37
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_smite_iv.json",
+      "sha256": "b493c4e31621046bc1e9dcd1a2beade6026c88d289569eb4aa69d3a61908c2cd",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:magic",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:smite",
+        "enchantment_level": 4,
+        "imbuing_level": 44,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 44
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_smite_v.json",
+      "sha256": "fa8dd242e8148e7fdccb34bd0100c736107a3eabd1b1b9170a6d9bf4fd37f6c4",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:magic",
+          "aoa3:life"
+        ],
+        "enchantment": "minecraft:smite",
+        "enchantment_level": 5,
+        "imbuing_level": 62,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 62
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_soul_speed.json",
+      "sha256": "79711705e255e26a618219e3e7d6aaf06ee4978ff4c7e487483c30774d5b2802",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:soul_speed",
+        "enchantment_level": 1,
+        "imbuing_level": 20,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 20
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_soul_speed_ii.json",
+      "sha256": "c11159193772b556a919e4c8f32782b65624fee1cab30f694868afd08d7ced8e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:soul_speed",
+        "enchantment_level": 2,
+        "imbuing_level": 30,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 30
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_soul_speed_iii.json",
+      "sha256": "7c1bc8d515974c81b54c898350fc6e59a3b66cac0442e5d1e19a9695f4ad52f0",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:speed",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:soul_speed",
+        "enchantment_level": 3,
+        "imbuing_level": 40,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 40
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sweeping_edge.json",
+      "sha256": "29aeecfba206fdb86611e058b54c195b49bb15590f809a1ddcbf3823916ac315",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:sweeping_edge",
+        "enchantment_level": 1,
+        "imbuing_level": 10,
+        "power_source": {
+          "item": "aoa3:glistening_power_stone"
+        }
+      },
+      "effective_imbuing_level": 10
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sweeping_edge_ii.json",
+      "sha256": "c9f6a29569fb7dd4235da2074c874c312b325ff8e6cc95ad68d213718c139e98",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:sweeping_edge",
+        "enchantment_level": 2,
+        "imbuing_level": 22,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 22
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_sweeping_edge_iii.json",
+      "sha256": "30d9617e6b224fad647be052a2921564b2017912eaef2551d674e973b08e041a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:damage",
+          "aoa3:power",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:sweeping_edge",
+        "enchantment_level": 3,
+        "imbuing_level": 32,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 32
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_swift_sneak.json",
+      "sha256": "28fbdfa3b6b3f621340882d048cd650717ba7e67323f283b73dbb07713089feb",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:swift_sneak",
+        "enchantment_level": 1,
+        "imbuing_level": 35,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 35
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_swift_sneak_ii.json",
+      "sha256": "eb75f060a6133dc919dab04c663b1db7c5421775a093adc6e8818f5c1d79663a",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:swift_sneak",
+        "enchantment_level": 2,
+        "imbuing_level": 42,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 42
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_swift_sneak_iii.json",
+      "sha256": "5b6eadd227a07d9520fdecf2a849ff2bd5e02f2ae2fd24acba98890ac0214e87",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:power",
+          "aoa3:speed",
+          "aoa3:precision",
+          "aoa3:control"
+        ],
+        "enchantment": "minecraft:swift_sneak",
+        "enchantment_level": 3,
+        "imbuing_level": 50,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 50
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_thorns.json",
+      "sha256": "a1e4fbd9925f02b3423796d0df924781b39d8969b23f474e484f1cf657cb7974",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:change",
+          "aoa3:power",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:thorns",
+        "enchantment_level": 1,
+        "imbuing_level": 36,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 36
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_thorns_ii.json",
+      "sha256": "b1a7aed7ab6e8419dcf13f2bdd907ab414640a495ba7c0428baa01308494af2e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:change",
+          "aoa3:power",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:thorns",
+        "enchantment_level": 2,
+        "imbuing_level": 45,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 45
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_thorns_iii.json",
+      "sha256": "6a138b5066e60dce344462e81c08ad5ca218498ff4f419f848e9123bbc3f0c6f",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:change",
+          "aoa3:power",
+          "aoa3:magic"
+        ],
+        "enchantment": "minecraft:thorns",
+        "enchantment_level": 3,
+        "imbuing_level": 58,
+        "power_source": {
+          "item": "aoa3:glowing_power_stone"
+        }
+      },
+      "effective_imbuing_level": 58
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_unbreaking.json",
+      "sha256": "a453fe4a0a2c75cc82fdb90cb532f947bdbbe0504b6011a0051cc7c62f55da5e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:resource"
+        ],
+        "enchantment": "minecraft:unbreaking",
+        "enchantment_level": 1,
+        "imbuing_level": 30,
+        "power_source": {
+          "item": "aoa3:blooming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 30
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_unbreaking_ii.json",
+      "sha256": "3d2ac2b75b22f671fb386a7310ddc60306aba9ef4e5cacb823df2828d1a47009",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:resource"
+        ],
+        "enchantment": "minecraft:unbreaking",
+        "enchantment_level": 2,
+        "imbuing_level": 41,
+        "power_source": {
+          "item": "aoa3:shining_power_stone"
+        }
+      },
+      "effective_imbuing_level": 41
+    },
+    {
+      "path": "data/aoa3/recipe/imbuing_unbreaking_iii.json",
+      "sha256": "8e2a9d551d8de0731302783968bfd795e54cec77ba1a3592596baf01e2d51d5e",
+      "data": {
+        "type": "aoa3:imbuing",
+        "aspect_foci": [
+          "aoa3:durability",
+          "aoa3:resource"
+        ],
+        "enchantment": "minecraft:unbreaking",
+        "enchantment_level": 3,
+        "imbuing_level": 59,
+        "power_source": {
+          "item": "aoa3:gleaming_power_stone"
+        }
+      },
+      "effective_imbuing_level": 59
+    }
+  ],
+  "resources": {
+    "data/aoa3/recipe/crafting_shaped_imbuing_chamber.json": {
+      "sha256": "af0631e6e222738a164b6079794677b15dd8a8adf768a78f5b13914ac23cd20d",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "tag": "c:ingots/copper"
+          },
+          "I": {
+            "item": "aoa3:infusion_table"
+          },
+          "S": {
+            "tag": "aoa3:energy_stone"
+          }
+        },
+        "pattern": [
+          "CCC",
+          "CIC",
+          "CSC"
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:imbuing_chamber"
+        }
+      }
+    },
+    "data/aoa3/tags/item/energy_stone.json": {
+      "sha256": "6cb06fdaf7b0e27ac7306e3ced666ab8716948aa10687c8317d06afad255cbab",
+      "data": {
+        "values": [
+          "aoa3:ambient_energy_stone",
+          "aoa3:glistening_energy_stone",
+          "aoa3:blooming_energy_stone",
+          "aoa3:shining_energy_stone",
+          "aoa3:gleaming_energy_stone",
+          "aoa3:glowing_energy_stone",
+          "aoa3:glaring_energy_stone",
+          "aoa3:radiant_energy_stone"
+        ]
+      }
+    },
+    "data/aoa3/loot_table/entities/ambient_pixon.json": {
+      "sha256": "31e8d1a67e87ff4766e62227571b8f39db488a0b0c8615eb7c6f273011564a6d",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 10.0
+                  }
+                ],
+                "name": "aoa3:ambient_energy_stone",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:imbuing",
+                    "xp": 20.0
+                  }
+                ],
+                "name": "aoa3:ambient_power_stone"
+              }
+            ],
+            "name": "stones",
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/common/menu/ImbuingChamberMenu.class",
+      "sha256": "4a7af5b34743e866946cf41756c234a94c9fd0385ed53bd86d394f38533b2005",
+      "methods": [
+        {
+          "name": "inputSlotCount",
+          "descriptor": "()I",
+          "code_hex": "1006ac"
+        },
+        {
+          "name": "createInputSlot",
+          "descriptor": "(ILnet/tslat/aoa3/common/menu/ImbuingChamberMenu$ImbuingInventory;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "1b9a0011bb0033592c1b10111023b70035b0bb0038592c1b101310131b68601023ba003a0000b7003eb0"
+        },
+        {
+          "name": "createOutputSlot",
+          "descriptor": "(ILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "bb0041592c2ab6001dc00021bb0043592aba00450000b700492aba004c00001b11008b1023b7004fb0"
+        },
+        {
+          "name": "updateRecipeOutput",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/ResultContainer;Ljava/util/function/Predicate;)V",
+          "code_hex": "2ab600793a052a2b19052d2cb6007db600833a062cc1008799009d2cc000873a071907b600893a08190619042d19081907ba008d0000b60090ba00960000b6009a19051908ba009e0000b6009a1908ba00a10000b600902a2c2dba00a40000b600902ab600a7b600abc000af3a092ab600a71909b800b19a003b2ab400b5c0002104b500b82a1909b600bb2a2ab600bf1909b600c31907b400c7bb00cb592ab400cd2ab600d12ab600bf1909b700d4b600d7a700102d190601b600abc000ddb600dfb1"
+        },
+        {
+          "name": "canUseRecipe",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/crafting/RecipeHolder;)Z",
+          "code_hex": "2ab600e39a002b2bb600e7c000ebb600ed04a4001d2ab200f0b60007c000f42bb600e7c000ebb600edb800f699000704a7000403ac"
+        },
+        {
+          "name": "createInputSlot",
+          "descriptor": "(ILnet/minecraft/world/Container;)Lnet/minecraft/world/inventory/Slot;",
+          "code_hex": "2a1b2cc00021b60109b0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/recipe/ImbuingRecipe.class",
+      "sha256": "dbcb9fe6ba99a5e4c47ff24ac3a12fcbecdc66b2344216a457b83d318474b91b",
+      "methods": [
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/tslat/aoa3/content/recipe/ImbuingRecipe$ImbuingRecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2b1006b600894e2db6008f9a00172bb40092b400969a000d2a2db6009b9a000503ac2ab600543a042ab400379900132a2b1904b9009f01002db600a2a7000b2a2b19042db600a6ac"
+        },
+        {
+          "name": "canEnchantInput",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2bb200aab600b099000503ac2ab600b4b900b80100c000bb4d2cb900bd0100c000c02bb600c29900142b2cb600c52ab600b4b900c90100a1000503ac2bb800ccb600d2b900d801004e2db900de01009900272db900e30100c000bb3a0419042cb900e602009a000e19042cb800e99a000503aca7ffd604ac"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/tslat/aoa3/content/recipe/ImbuingRecipe$ImbuingRecipeInput;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2bb6010c0464b2010db8001f4d033e1d2cb60013a2006b2b1db600893a041904b6008f9a00561904b6011099000d1904b801133a04a7003c1904b601193a041d9e002c1904b6011d99000f19041904b601200460b601231904b601201904b60126a10010b2010d3a04a70008b2010d3a042c1d1904b6003a57840301a7ff932cb0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/tslat/aoa3/content/recipe/ImbuingRecipe$ImbuingRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2b1006b60089b601194e2db6008f9900052db02d2ab600b4b900b80100c000bb2ab600b4b900c90100b601292db0"
+        },
+        {
+          "name": "getResultItem",
+          "descriptor": "(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "b2010db60119b0"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2a2bc0008ab6012cb0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc0008a2cb60130b0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc0008a2cb60134ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/ImbuingChamberMenu$ImbuingResultSlot.class",
+      "sha256": "1c684e319744d4787ac8f63ab5ff52c2710b327f580bd8efb9ae602e636c81b5",
+      "methods": [
+        {
+          "name": "set",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2a2bb7003d2bb600419a003f2ab60046c0004ab4004c9900322a2b2bb60050b600542ab600582ab4005c2ab60060b9006403002ab4005c2b2ab4006ab8006e2a2ab4005c2bb60074b1"
+        },
+        {
+          "name": "onTake",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2ab60078b1"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/tslat/aoa3/content/recipe/ImbuingRecipe$ImbuingRecipeInput;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2a2b2c2db7007c3a042ab60046c0004a03b5004c1904b0"
+        },
+        {
+          "name": "getRemainingItems",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/core/NonNullList;",
+          "code_hex": "2a2b2cc0008e2db60090b0"
+        }
+      ]
+    }
+  ],
+  "focus_durability": [
+    {
+      "focus_field": "SPEED",
+      "durability": 10,
+      "method": "lambda$static$106",
+      "code_hex": "bb019259b20194bb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "RESOURCE",
+      "durability": 10,
+      "method": "lambda$static$105",
+      "code_hex": "bb019259b2019fbb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "PRECISION",
+      "durability": 10,
+      "method": "lambda$static$104",
+      "code_hex": "bb019259b201a2bb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "POWER",
+      "durability": 10,
+      "method": "lambda$static$103",
+      "code_hex": "bb019259b201a5bb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "MAGIC",
+      "durability": 10,
+      "method": "lambda$static$102",
+      "code_hex": "bb019259b201a8bb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "LUCK",
+      "durability": 10,
+      "method": "lambda$static$101",
+      "code_hex": "bb019259b201abbb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "LIFE",
+      "durability": 10,
+      "method": "lambda$static$100",
+      "code_hex": "bb019259b201aebb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "ELEMENTAL",
+      "durability": 10,
+      "method": "lambda$static$99",
+      "code_hex": "bb019259b201b1bb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "DURABILITY",
+      "durability": 20,
+      "method": "lambda$static$98",
+      "code_hex": "bb019259b201b4bb003359b700351014b60199b7019cb0"
+    },
+    {
+      "focus_field": "DAMAGE",
+      "durability": 10,
+      "method": "lambda$static$97",
+      "code_hex": "bb019259b201b7bb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "CONTROL",
+      "durability": 10,
+      "method": "lambda$static$96",
+      "code_hex": "bb019259b201babb003359b70035100ab60199b7019cb0"
+    },
+    {
+      "focus_field": "CHANGE",
+      "durability": 10,
+      "method": "lambda$static$95",
+      "code_hex": "bb019259b201bdbb003359b70035100ab60199b7019cb0"
+    }
+  ],
+  "source_files": {
+    "content/recipe/ImbuingRecipe.java": "22974873a104064444b3e8e0f8cfa6c8044b04b8a72bc7dde1461e70db01a01b",
+    "common/menu/ImbuingChamberMenu.java": "c8b4784a9a393c186d4519acf836459311cdae3580a5408c3f44391540313e8b",
+    "content/item/misc/AspectFocusItem.java": "3e42f0085a9d761c95d9e851641f7bb1242d6057e4698a43f77328485b8b7af5",
+    "common/registration/item/AoAItems.java": "92983531b7edda61501ceb2058409e026e062efa49e0a203909866dff62463b4",
+    "content/item/misc/EnergyStone.java": "8fe591c7152aa4507c937fa39989096787c498c887e2f4b813f7ebdef1e6daa7",
+    "content/item/misc/PowerStone.java": "58b69a2ea6bb85133c6dbb7f1cc30835432be4f0984761ed6dc266c6256728c0",
+    "content/item/tool/misc/AttuningBowl.java": "cbcc47232dd3ed9a778799f803391730d8d285f91a320c0230fd14409c7be5ec",
+    "content/entity/misc/PixonEntity.java": "b9f4aa6e562ad8b4910b6ad0e4c32e7d2c1f61879f5dd229839297b3cc768336",
+    "common/registration/entity/variant/PixonVariant.java": "bf8c4c5856b7a6ad31bbab62e10dfd45ee9d2c4c72bfc4e0cc26bda074a4aaa4"
+  },
+  "notes": [
+    "Six reagent slots: power source0, focus slots1-5; target item uses right-hand slot6.",
+    "The result-slot set path performs the imbuing consumption when its imbuing flag is true; onTake does not repeat it.",
+    "Assembly copies the target and applies the recipe enchantment.",
+    "Ordinary book explicitly rejected; target compatibility, existing levels and conflicts are checked."
+  ]
+}
