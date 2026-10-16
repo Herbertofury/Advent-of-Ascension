@@ -1,0 +1,1583 @@
+{
+  "scope": "Candidate acquisition evidence for43 of44 inspected trader identities. Skill Master remains unresolved; not asserted unobtainable. No runtime generation/spawn certification.",
+  "records": [
+    {
+      "id": "aoa3:abyssal_lottoman",
+      "name": "Abyssal Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:abyssal_plains"
+      ],
+      "dimensions": [
+        "aoa3:abyss"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:abyss/abyssal_lotto_hut/abyssal_lotto_hut",
+          "structure": "aoa3:abyssal_lotto_hut",
+          "biomes": [
+            "aoa3:abyssal_plains"
+          ],
+          "dimensions": [
+            "aoa3:abyss"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:assassin",
+      "name": "Assassin",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:FOREST",
+        "BiomeDictionary:HILLS",
+        "BiomeDictionary:PLAINS"
+      ],
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L146",
+          "match_types_any": [
+            "PLAINS",
+            "HILLS",
+            "FOREST"
+          ],
+          "excluded_types_any": [
+            "SNOWY",
+            "CONIFEROUS",
+            "SAVANNA",
+            "SANDY"
+          ],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:baron_lottoman",
+      "name": "Baron Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:barren_grounds"
+      ],
+      "dimensions": [
+        "aoa3:barathos"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:barathos/baron_house/baron_house",
+          "structure": "aoa3:baron_house",
+          "biomes": [
+            "aoa3:barren_grounds"
+          ],
+          "dimensions": [
+            "aoa3:barathos"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:boreic_lottoman",
+      "name": "Boreic Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:coral_fields"
+      ],
+      "dimensions": [
+        "aoa3:lborean"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lborean/drowned_lotto_stand/drowned_lotto_stand",
+          "structure": "aoa3:drowned_lotto_stand",
+          "biomes": [
+            "aoa3:coral_fields"
+          ],
+          "dimensions": [
+            "aoa3:lborean"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:candied_lottoman",
+      "name": "Candied Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:candy_hills"
+      ],
+      "dimensions": [
+        "aoa3:candyland"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:candyland/candy_lotto_platform/candy_lotto_platform",
+          "structure": "aoa3:candy_lotto_platform",
+          "biomes": [
+            "aoa3:candy_hills"
+          ],
+          "dimensions": [
+            "aoa3:candyland"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:celevian_lottoman",
+      "name": "Celevian Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:celevian_highlands"
+      ],
+      "dimensions": [
+        "aoa3:celeve"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:celeve/celevian_lotto_balloon/celevian_lotto_balloon",
+          "structure": "aoa3:celevian_lotto_balloon",
+          "biomes": [
+            "aoa3:celevian_highlands"
+          ],
+          "dimensions": [
+            "aoa3:celeve"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:creeponia_lottoman",
+      "name": "Creeponia Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:creepoid_forest"
+      ],
+      "dimensions": [
+        "aoa3:creeponia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:creeponia/creeponian_lotto_stand/creeponian_lotto_stand",
+          "structure": "aoa3:creeponian_lotto_stand",
+          "biomes": [
+            "aoa3:creepoid_forest"
+          ],
+          "dimensions": [
+            "aoa3:creeponia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:crystal_lottoman",
+      "name": "Crystal Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:crystevian_caverns"
+      ],
+      "dimensions": [
+        "aoa3:crystevia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:crystevia/crystal_lotto_overlook/crystal_lotto_overlook",
+          "structure": "aoa3:crystal_lotto_overlook",
+          "biomes": [
+            "aoa3:crystevian_caverns"
+          ],
+          "dimensions": [
+            "aoa3:crystevia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:dustopian_lottoman",
+      "name": "Dustopian Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:dustopian_forest"
+      ],
+      "dimensions": [
+        "aoa3:dustopia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:dustopia/lotto_cage/lotto_cage",
+          "structure": "aoa3:lotto_cage",
+          "biomes": [
+            "aoa3:dustopian_forest"
+          ],
+          "dimensions": [
+            "aoa3:dustopia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:explosives_expert",
+      "name": "Explosives Expert",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:creepoid_forest"
+      ],
+      "dimensions": [
+        "aoa3:creeponia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:creeponia/explosives_tower/explosives_tower",
+          "structure": "aoa3:explosives_tower",
+          "biomes": [
+            "aoa3:creepoid_forest"
+          ],
+          "dimensions": [
+            "aoa3:creeponia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:floro_lottoman",
+      "name": "Floro Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:floral_islands"
+      ],
+      "dimensions": [
+        "aoa3:gardencia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:gardencia/lotto_sky_flower/top",
+          "structure": "aoa3:lotto_sky_flower",
+          "biomes": [
+            "aoa3:floral_islands"
+          ],
+          "dimensions": [
+            "aoa3:gardencia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:golden_lottoman",
+      "name": "Golden Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:iromine"
+      ],
+      "dimensions": [
+        "aoa3:iromine"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:iromine/iro_pillar/iro_pillar",
+          "structure": "aoa3:iro_pillar",
+          "biomes": [
+            "aoa3:iromine"
+          ],
+          "dimensions": [
+            "aoa3:iromine"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:gorb_arms_dealer",
+      "name": "Gorb Arms Dealer",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:fungal_caverns"
+      ],
+      "dimensions": [
+        "aoa3:mysterium"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:mysterium/gorb_village/arms_dealer_house",
+          "structure": "aoa3:gorb_village",
+          "biomes": [
+            "aoa3:fungal_caverns"
+          ],
+          "dimensions": [
+            "aoa3:mysterium"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:gorb_engineer",
+      "name": "Gorb Engineer",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:fungal_caverns"
+      ],
+      "dimensions": [
+        "aoa3:mysterium"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:mysterium/gorb_village/engineer_house",
+          "structure": "aoa3:gorb_village",
+          "biomes": [
+            "aoa3:fungal_caverns"
+          ],
+          "dimensions": [
+            "aoa3:mysterium"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:haunted_lottoman",
+      "name": "Haunted Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:greckon_mountains"
+      ],
+      "dimensions": [
+        "aoa3:greckon"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:greckon/haunted_lotto_rock/haunted_lotto_rock",
+          "structure": "aoa3:haunted_lotto_rock",
+          "biomes": [
+            "aoa3:greckon_mountains"
+          ],
+          "dimensions": [
+            "aoa3:greckon"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:lelyetian_lottoman",
+      "name": "Lelyetian Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:lelyetian_plains"
+      ],
+      "dimensions": [
+        "aoa3:lelyetia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lelyetia/lelyetian_tower/bottom",
+          "structure": "aoa3:lelyetian_tower",
+          "biomes": [
+            "aoa3:lelyetian_plains"
+          ],
+          "dimensions": [
+            "aoa3:lelyetia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:lelyetian_trader",
+      "name": "Lelyetian Trader",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:lelyetian_plains"
+      ],
+      "dimensions": [
+        "aoa3:lelyetia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lelyetia/lelyetian_tower/bottom",
+          "structure": "aoa3:lelyetian_tower",
+          "biomes": [
+            "aoa3:lelyetian_plains"
+          ],
+          "dimensions": [
+            "aoa3:lelyetia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:lottoman",
+      "name": "Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:FOREST",
+        "BiomeDictionary:HILLS",
+        "BiomeDictionary:PLAINS"
+      ],
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L150",
+          "match_types_any": [
+            "PLAINS",
+            "HILLS",
+            "FOREST"
+          ],
+          "excluded_types_any": [
+            "SNOWY",
+            "CONIFEROUS",
+            "SAVANNA",
+            "SANDY"
+          ],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:lunar_lottoman",
+      "name": "Lunar Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:asteroid_belt"
+      ],
+      "dimensions": [
+        "aoa3:lunalus"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lunalus/stranded_lottoman/stranded_lottoman",
+          "structure": "aoa3:stranded_lottoman",
+          "biomes": [
+            "aoa3:asteroid_belt"
+          ],
+          "dimensions": [
+            "aoa3:lunalus"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:metalloid",
+      "name": "Metalloid",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:iromine"
+      ],
+      "dimensions": [
+        "aoa3:iromine"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L329",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:iromine"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:mystic_lottoman",
+      "name": "Mystic Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:fungal_caverns"
+      ],
+      "dimensions": [
+        "aoa3:mysterium"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:mysterium/mystic_lotto_shroom/mystic_lotto_shroom",
+          "structure": "aoa3:mystic_lotto_shroom",
+          "biomes": [
+            "aoa3:fungal_caverns"
+          ],
+          "dimensions": [
+            "aoa3:mysterium"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:naturalist",
+      "name": "Naturalist",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:FOREST",
+        "BiomeDictionary:HILLS",
+        "BiomeDictionary:PLAINS"
+      ],
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L147",
+          "match_types_any": [
+            "PLAINS",
+            "HILLS",
+            "FOREST"
+          ],
+          "excluded_types_any": [
+            "SNOWY",
+            "CONIFEROUS",
+            "SAVANNA",
+            "SANDY"
+          ],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:precasian_lottoman",
+      "name": "Precasian Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:precasian_tall_forest"
+      ],
+      "dimensions": [
+        "aoa3:precasia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:precasia/jungle_lotto_hut/jungle_lotto_hut",
+          "structure": "aoa3:jungle_lotto_hut",
+          "biomes": [
+            "aoa3:precasian_tall_forest"
+          ],
+          "dimensions": [
+            "aoa3:precasia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:primordial_merchant",
+      "name": "Primordial Merchant",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:dustopian_forest"
+      ],
+      "dimensions": [
+        "aoa3:dustopia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:dustopia/dustopian_village/dustopian_village",
+          "structure": "aoa3:dustopian_village",
+          "biomes": [
+            "aoa3:dustopian_forest"
+          ],
+          "dimensions": [
+            "aoa3:dustopia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:primordial_spellbinder",
+      "name": "Primordial Spellbinder",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:dustopian_forest"
+      ],
+      "dimensions": [
+        "aoa3:dustopia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:dustopia/dustopian_village/dustopian_village",
+          "structure": "aoa3:dustopian_village",
+          "biomes": [
+            "aoa3:dustopian_forest"
+          ],
+          "dimensions": [
+            "aoa3:dustopia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:primordial_wizard",
+      "name": "Primordial Wizard",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:dustopian_forest"
+      ],
+      "dimensions": [
+        "aoa3:dustopia"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:dustopia/dustopian_village/dustopian_village",
+          "structure": "aoa3:dustopian_village",
+          "biomes": [
+            "aoa3:dustopian_forest"
+          ],
+          "dimensions": [
+            "aoa3:dustopia"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:professor",
+      "name": "Professor",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:iromine"
+      ],
+      "dimensions": [
+        "aoa3:iromine"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:iromine/professors_lab/professors_lab",
+          "structure": "aoa3:professors_lab",
+          "biomes": [
+            "aoa3:iromine"
+          ],
+          "dimensions": [
+            "aoa3:iromine"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:realmshifter",
+      "name": "Realmshifter",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:FOREST",
+        "BiomeDictionary:HILLS",
+        "BiomeDictionary:PLAINS"
+      ],
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L148",
+          "match_types_any": [
+            "PLAINS",
+            "HILLS",
+            "FOREST"
+          ],
+          "excluded_types_any": [
+            "SNOWY",
+            "CONIFEROUS",
+            "SAVANNA",
+            "SANDY"
+          ],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:rocky_lottoman",
+      "name": "Rocky Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:cavern_depths"
+      ],
+      "dimensions": [
+        "aoa3:deeplands"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:deeplands/deep_lotto_shelter/deep_lotto_shelter",
+          "structure": "aoa3:deep_lotto_shelter",
+          "biomes": [
+            "aoa3:cavern_depths"
+          ],
+          "dimensions": [
+            "aoa3:deeplands"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:runic_lottoman",
+      "name": "Runic Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:runic_cliffs"
+      ],
+      "dimensions": [
+        "aoa3:runandor"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:runandor/runic_tower/runic_tower",
+          "structure": "aoa3:runic_tower",
+          "biomes": [
+            "aoa3:runic_cliffs"
+          ],
+          "dimensions": [
+            "aoa3:runandor"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:shyre_archer",
+      "name": "Shyre Archer",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:shyre_remnants"
+      ],
+      "dimensions": [
+        "aoa3:shyrelands"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:shyrelands/archer_outpost/archer_outpost",
+          "structure": "aoa3:archer_outpost",
+          "biomes": [
+            "aoa3:shyre_remnants"
+          ],
+          "dimensions": [
+            "aoa3:shyrelands"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:shyrelands_lottoman",
+      "name": "Shyrelands Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:shyre_remnants"
+      ],
+      "dimensions": [
+        "aoa3:shyrelands"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:shyrelands/shyre_lotto_bunker/shyre_lotto_bunker",
+          "structure": "aoa3:shyre_lotto_bunker",
+          "biomes": [
+            "aoa3:shyre_remnants"
+          ],
+          "dimensions": [
+            "aoa3:shyrelands"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:skill_master",
+      "name": "Skill Master",
+      "location_status": "No acquisition route established by this scan",
+      "biomes": [],
+      "dimensions": [],
+      "rules": []
+    },
+    {
+      "id": "aoa3:store_keeper",
+      "name": "Store Keeper",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:vox_wastes"
+      ],
+      "dimensions": [
+        "aoa3:vox_ponds"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:vox_ponds/destroyed_store/destroyed_store1",
+          "structure": "aoa3:destroyed_store",
+          "biomes": [
+            "aoa3:vox_wastes"
+          ],
+          "dimensions": [
+            "aoa3:vox_ponds"
+          ],
+          "route": "player-break crate hook, no Silk Touch",
+          "block": "aoa3:vox_store_crate",
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        },
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:vox_ponds/destroyed_store/destroyed_store2",
+          "structure": "aoa3:destroyed_store",
+          "biomes": [
+            "aoa3:vox_wastes"
+          ],
+          "dimensions": [
+            "aoa3:vox_ponds"
+          ],
+          "route": "player-break crate hook, no Silk Touch",
+          "block": "aoa3:vox_store_crate",
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        },
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:vox_ponds/destroyed_store/destroyed_store3",
+          "structure": "aoa3:destroyed_store",
+          "biomes": [
+            "aoa3:vox_wastes"
+          ],
+          "dimensions": [
+            "aoa3:vox_ponds"
+          ],
+          "route": "player-break crate hook, no Silk Touch",
+          "block": "aoa3:vox_store_crate",
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:toxic_lottoman",
+      "name": "Toxic Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:vox_wastes"
+      ],
+      "dimensions": [
+        "aoa3:vox_ponds"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:vox_ponds/vox_lotto_outpost/vox_lotto_outpost",
+          "structure": "aoa3:vox_lotto_outpost",
+          "biomes": [
+            "aoa3:vox_wastes"
+          ],
+          "dimensions": [
+            "aoa3:vox_ponds"
+          ],
+          "route": "player-break crate hook, no Silk Touch",
+          "block": "aoa3:vox_crate",
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:toy_merchant",
+      "name": "Toy Merchant",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:celevian_highlands"
+      ],
+      "dimensions": [
+        "aoa3:celeve"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:celeve/toy_tower/toy_tower",
+          "structure": "aoa3:toy_tower",
+          "biomes": [
+            "aoa3:celevian_highlands"
+          ],
+          "dimensions": [
+            "aoa3:celeve"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:troll_trader",
+      "name": "Troll Trader",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:BEACH"
+      ],
+      "dimensions": [
+        "minecraft:overworld"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L131",
+          "match_types_any": [
+            "BEACH"
+          ],
+          "excluded_types_any": [],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:twinkling_lottoman",
+      "name": "Twinkling Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:haven"
+      ],
+      "dimensions": [
+        "aoa3:haven"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:haven/floating_lotto_fountain/floating_lotto_fountain",
+          "structure": "aoa3:floating_lotto_fountain",
+          "biomes": [
+            "aoa3:haven"
+          ],
+          "dimensions": [
+            "aoa3:haven"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:undead_herald",
+      "name": "Undead Herald",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:FOREST",
+        "BiomeDictionary:HILLS",
+        "BiomeDictionary:NETHER",
+        "BiomeDictionary:PLAINS",
+        "aoa3:abyssal_plains",
+        "aoa3:asteroid_belt",
+        "aoa3:barren_grounds",
+        "aoa3:candy_hills",
+        "aoa3:cavern_depths",
+        "aoa3:celevian_highlands",
+        "aoa3:coral_fields",
+        "aoa3:creepoid_forest",
+        "aoa3:crystevian_caverns",
+        "aoa3:dustopian_forest",
+        "aoa3:floral_islands",
+        "aoa3:fungal_caverns",
+        "aoa3:greckon_mountains",
+        "aoa3:haven",
+        "aoa3:iromine",
+        "aoa3:lelyetian_plains",
+        "aoa3:precasian_tall_forest",
+        "aoa3:runic_cliffs",
+        "aoa3:shyre_remnants",
+        "aoa3:vox_wastes"
+      ],
+      "dimensions": [
+        "aoa3:abyss",
+        "aoa3:barathos",
+        "aoa3:candyland",
+        "aoa3:celeve",
+        "aoa3:creeponia",
+        "aoa3:crystevia",
+        "aoa3:deeplands",
+        "aoa3:dustopia",
+        "aoa3:gardencia",
+        "aoa3:greckon",
+        "aoa3:haven",
+        "aoa3:iromine",
+        "aoa3:lborean",
+        "aoa3:lelyetia",
+        "aoa3:lunalus",
+        "aoa3:mysterium",
+        "aoa3:precasia",
+        "aoa3:runandor",
+        "aoa3:shyrelands",
+        "aoa3:vox_ponds",
+        "minecraft:overworld",
+        "minecraft:the_nether"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L149",
+          "match_types_any": [
+            "PLAINS",
+            "HILLS",
+            "FOREST"
+          ],
+          "excluded_types_any": [
+            "SNOWY",
+            "CONIFEROUS",
+            "SAVANNA",
+            "SANDY"
+          ],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L189",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:abyssal_plains"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L205",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:barren_grounds"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L216",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:candy_hills"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L231",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:celevian_highlands"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L246",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:creepoid_forest"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L258",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:crystevian_caverns"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L271",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:cavern_depths"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L285",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:dustopian_forest"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L297",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:floral_islands"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L309",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:greckon_mountains"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L320",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:haven"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L330",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:iromine"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L342",
+          "match_types_any": [
+            "NETHER"
+          ],
+          "excluded_types_any": [],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L353",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:coral_fields"
+          ],
+          "weight": 1,
+          "placement": "IN_WATER",
+          "heightmap": "OCEAN_FLOOR",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L365",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:lelyetian_plains"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L369",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:asteroid_belt"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L379",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:fungal_caverns"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L391",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:precasian_tall_forest"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L402",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:runic_cliffs"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L417",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:shyre_remnants"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        },
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L430",
+          "match_types_any": [],
+          "excluded_types_any": [],
+          "exact_biomes": [
+            "aoa3:vox_wastes"
+          ],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": true,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:withering_lottoman",
+      "name": "Withering Lottoman",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "BiomeDictionary:NETHER"
+      ],
+      "dimensions": [
+        "minecraft:the_nether"
+      ],
+      "rules": [
+        {
+          "kind": "custom trader-spawner candidate",
+          "path": "source/common/registration/AoAEntitySpawns.java#L341",
+          "match_types_any": [
+            "NETHER"
+          ],
+          "excluded_types_any": [],
+          "exact_biomes": [],
+          "weight": 1,
+          "placement": "ON_GROUND",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+          "allow_darkness": false,
+          "scope": "Biome membership and placement conditions, not a per-tick spawn percentage. Source semantics and released builder values; special-spawner world/player/rule gates apply."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:zal_grocer",
+      "name": "Zal Grocer",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:asteroid_belt"
+      ],
+      "dimensions": [
+        "aoa3:lunalus"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lunalus/zal_ship/middle",
+          "structure": "aoa3:zal_ship",
+          "biomes": [
+            "aoa3:asteroid_belt"
+          ],
+          "dimensions": [
+            "aoa3:lunalus"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:zal_herbalist",
+      "name": "Zal Herbalist",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:asteroid_belt"
+      ],
+      "dimensions": [
+        "aoa3:lunalus"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lunalus/zal_ship/middle",
+          "structure": "aoa3:zal_ship",
+          "biomes": [
+            "aoa3:asteroid_belt"
+          ],
+          "dimensions": [
+            "aoa3:lunalus"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:zal_spellbinder",
+      "name": "Zal Spellbinder",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:asteroid_belt"
+      ],
+      "dimensions": [
+        "aoa3:lunalus"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lunalus/zal_ship/middle",
+          "structure": "aoa3:zal_ship",
+          "biomes": [
+            "aoa3:asteroid_belt"
+          ],
+          "dimensions": [
+            "aoa3:lunalus"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:zal_vendor",
+      "name": "Zal Vendor",
+      "location_status": "candidate routes found",
+      "biomes": [
+        "aoa3:asteroid_belt"
+      ],
+      "dimensions": [
+        "aoa3:lunalus"
+      ],
+      "rules": [
+        {
+          "kind": "structure/crate trader candidate",
+          "path": "aoa3:lunalus/zal_ship/right",
+          "structure": "aoa3:zal_ship",
+          "biomes": [
+            "aoa3:asteroid_belt"
+          ],
+          "dimensions": [
+            "aoa3:lunalus"
+          ],
+          "route": "embedded template entity",
+          "block": null,
+          "scope": "Released template contents plus declared pool graph, biome starts and dimension structure settings. Connector geometry and actual generation are not simulated."
+        }
+      ]
+    }
+  ]
+}

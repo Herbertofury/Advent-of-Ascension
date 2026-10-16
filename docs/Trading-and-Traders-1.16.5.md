@@ -4,6 +4,8 @@
 
 [Open the illustrated Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.16.5) · [Compare the modern 1.21.1 handbook](Trading-and-Traders-1.21.1)
 
+[Where to find these traders: biomes, structures and crate hooks](Finding-Traders-1.16.5)
+
 ## A practical first shopping plan
 
 1. **Match your release.** This page is historical 3.6.11 reference. Do not copy its banner names, stock limits or shop inventory into 3.7.16.1.
