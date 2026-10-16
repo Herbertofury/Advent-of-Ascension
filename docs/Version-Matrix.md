@@ -49,3 +49,15 @@ Research snapshot: **2026-10-15**. Original documentation for the owner’s Ende
 ## Released 1.20.1 renderer gap audit
 
 AoA 3.7.1 contains 186 temporary-renderer assignments referencing 181 distinct entity fields; 173 of those targets are in the inspected living-entity roster. Five named NPC renderer fields instead reference Primordial Banker in the released binary, while the pinned source has corrected targets. [Exact evidence and restoration checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Renderer-Gaps-1.20.1). Registration and asset presence must not be treated as proof of a complete playable port.
+
+
+## Version-matched portal walkthroughs
+
+Choose the guide for your actual installed release before collecting a frame or destination key:
+
+- [1.12.2 / 3.3.6: Traveller, frame and six-sapling Precasia route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-and-Precasia-1.12.2)
+- [1.16.5 / 3.6.11: historical first portal construction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough-1.16.5)
+- [1.20.1 / 3.7.1: portal support and preparation diagnostics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Portal-Support-and-Preparation-1.20.1)
+- [1.21.1 / 3.7.16.1: modern first portal construction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough)
+
+The 1.20.1 diagnostic guide describes the inspected official 3.7.1 artifact, including its null destination references. It does not override the separate acceptance evidence for the owner's restored Enderloom candidate.
