@@ -95,3 +95,7 @@ There is no promise that the pouch will combine several different ammunition typ
 [Pinned pouch source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/content/item/tool/artifice/AmmoVoidPouch.java) · [Pinned component source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/library/object/container/AmmoVoidPouchComponent.java) · [Pinned gun consumption source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/content/item/weapon/gun/AoAGun.java) · [Checked NeoForge supplier bridge](https://github.com/neoforged/NeoForge/blob/00c6a3fd23d80ce54ec834a7e25d09fba37927e9/src/main/java/net/neoforged/neoforge/common/MutableDataComponentHolder.java) · [Illustration provenance](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/ammo-guide-art-evidence-1.21.1.json).
 
 AoA artwork by Tslat and contributors; vanilla artwork by Mojang. These are source-model illustrations, not runtime screenshots.
+
+## Check the weapon’s registered defaults
+
+The [78-gun statistics and ammunition reference](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Statistics-and-Ammunition-1.21.1) links each covered weapon to its illustrated item card and expandable released-stat panel. Check explicit ammo overrides, durability and firing mode; configured damage and interval values are not measured DPS. Seed-tag ammunition depends on active tag data.
