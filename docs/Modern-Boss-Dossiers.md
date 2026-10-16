@@ -86,3 +86,9 @@ Advent of Ascension is created by **Tslat and contributors**. These are original
 ## Practical entry and token states
 
 [Boss entry and token preparation for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1) covers released damage components, strict Bone Horn repair ingredients, Nowhere altar sequencing, original gold trophies and return behavior. It also flags the inspected WOUNDED-state gap in the Warped Horn acquisition chain. Do not treat the conversion callback alone as proof that the required drop flag is set.
+
+## Finding arena routes in the bestiary
+
+In the [interactive bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1), choose **1.21.1**, then the **aoa3:nowhere · includes arena routes** dimension option. It includes ten separately labelled token/altar routes: five normal bosses and their five elite substitutions. Each card keeps natural-spawn dimensions and biomes separate and links to entry preparation and its source.
+
+A listed arena route does not certify that every token is obtainable in ordinary survival. In particular, the existing Warped Horn acquisition caveat remains. Wounded Tyrosaur is not silently included as a normal arena boss, and this release's routes do not leak into older-version filters. [Route evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/boss-arena-location-evidence-1.21.1.json).
