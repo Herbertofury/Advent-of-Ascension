@@ -446,3 +446,7 @@ Comments were excluded, so disabled legacy declarations are not counted as activ
 Each creature still needs version-specific spawn rules, biome/dimension, attributes, behavior/AI, damage/immunities, drops/trades, models/animation/sounds, interactions/taming where applicable, multiplayer synchronization and save persistence. A matching registry name does not prove matching behavior across generations. Boss entries additionally need summoning/arena access, phases, rewards, death/reset and repeatability.
 
 Use [Content Specification](Content-Specification.md) for the required record and [Bosses and Combat](Bosses-and-Combat.md) for encounter acceptance.
+
+## Searchable artifact-backed base attributes
+
+[Open the legacy Bestiary Observatory](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html) for 485 source-mapped entities with 2,221 resolved literal getter values, portraits, category filtering and method-level evidence. These are base getter values rather than final in-game stats. [How the values are verified](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Attribute-Field-Guide).

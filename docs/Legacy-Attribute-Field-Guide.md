@@ -22,11 +22,11 @@ Movement values are attribute scalars, not travel speed in blocks per second. Pr
 
 - [Creep Cow](https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/entity/animals/EntityCreepCow.java): literal base-health getter 20 and movement getter 0.2 in the artifact.
 - [Shadow](https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/entity/mobs/overworld/EntityShadow.java): literal base-health getter 0.5. It has no invented body portrait; its card links to the particle/invisible-body explanation.
-- All 485 cards passed construction tests. Search, health sorting, pagination and missing/nonliteral/conflicting-getter cases were tested locally. Deployed browser verification is recorded separately below when complete.
+- All 485 cards passed construction tests. Search, health sorting, pagination and missing/nonliteral/conflicting-getter cases were tested locally. The deployed browser also passed Creep Cow search/value checks, Shadow’s no-body handling, boss-category health sorting and pagination from 36 to all 65 matching bosses.
 
 ## Performance and scope
 
-The viewer loads one approximately 240 KB data file and builds a search index once. It initially creates 36 cards, with more on request; images load lazily. Repeated filtering does not rescan game files or refetch the evidence dataset. The larger provenance JSON remains available separately for inspection.
+The viewer loads one approximately 240 KB data file and builds a search index once. It initially creates 36 cards, with more on request; images load lazily. The incremental pagination update appends new cards instead of rebuilding existing ones, preserving open evidence panels. Repeated filtering does not rescan game files or refetch the evidence dataset. The larger provenance JSON remains available separately for inspection.
 
 These records cover source-mapped entities with the selected getter methods. They do not certify a complete runtime entity registry, final stats, spawn probabilities, AI, loot chances, converted gameplay or multiplayer behavior. Portraits remain version-scoped reference renders.
 
