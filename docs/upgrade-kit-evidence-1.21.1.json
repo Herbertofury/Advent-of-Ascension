@@ -1,0 +1,864 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "36 shipped upgrade definitions and selected released recipe/menu methods. Recipe presence does not certify active registry or survival acquisition; no game execution.",
+  "recipes": [
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_ancient_bow.json",
+      "sha256": "197718db4c2302891cc2a96d9942d74925aea847a643aa054372f925f008e93a",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:alacrity_bow"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:ancient_bow"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:ancient_upgrade_kit"
+        }
+      },
+      "input_name": "Alacrity Bow",
+      "kit_name": "Ancient Upgrade Kit",
+      "output_name": "Ancient Bow"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_ancient_discharger.json",
+      "sha256": "1392bd7afd56a657906d97f3a41e702ff730d911644254f6ac42e5fe6d97442e",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:discharge_cannon"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:ancient_discharger"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:ancient_upgrade_kit"
+        }
+      },
+      "input_name": "Discharge Cannon",
+      "kit_name": "Ancient Upgrade Kit",
+      "output_name": "Ancient Discharger"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_apoco_shower.json",
+      "sha256": "d28787e8f078928a1653af8bb32a671544a9bea72455e3cd2c0b99a1b28acacb",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:spirit_shower"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:apoco_shower"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:apoco_upgrade_kit"
+        }
+      },
+      "input_name": "Spirit Shower",
+      "kit_name": "Apoco Upgrade Kit",
+      "output_name": "Apoco Shower"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_aqua_magnum.json",
+      "sha256": "505a9791138432c6cc8106450c4af715d418dfb852fcdb0ade6c2008bfbcd25d",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:mint_magnum"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:aqua_magnum"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:seaside_upgrade_kit"
+        }
+      },
+      "input_name": "Mint Magnum",
+      "kit_name": "Seaside Upgrade Kit",
+      "output_name": "Aqua Magnum"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_atlantic_bow.json",
+      "sha256": "9590f63d0b6b0639cd5fda9249efdc04fbaecb836c062b28a8eb44ef3667439f",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:predatious_bow"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:atlantic_bow"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:seaside_upgrade_kit"
+        }
+      },
+      "input_name": "Predatious Bow",
+      "kit_name": "Seaside Upgrade Kit",
+      "output_name": "Atlantic Bow"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_blissful_blast.json",
+      "sha256": "e77fafbd028745dd4434cce1d503b0e6f13ec221fd0c1f9a5619205b6af70826",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:big_blast"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:blissful_blast"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:smiley_upgrade_kit"
+        }
+      },
+      "input_name": "Big Blast",
+      "kit_name": "Smiley Upgrade Kit",
+      "output_name": "Blissful Blast"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_blue_barrel.json",
+      "sha256": "ab2d8e75344e20c14e96bf39091f1504aa31d14b819c8101a47c4095b353d3c7",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:brown_blaster"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:blue_barrel"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:seaside_upgrade_kit"
+        }
+      },
+      "input_name": "Brown Blaster",
+      "kit_name": "Seaside Upgrade Kit",
+      "output_name": "Blue Barrel"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_boulder.json",
+      "sha256": "4103216f2a1805536ccbcbd6a99c5bc6e99791a12e949fdc1330ceff9c53ec21",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:demolisher"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:boulder"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:rocky_upgrade_kit"
+        }
+      },
+      "input_name": "Demolisher",
+      "kit_name": "Rocky Upgrade Kit",
+      "output_name": "Boulder"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_bulb_cannon.json",
+      "sha256": "931674d40263602dbc05d92b6edd4e64401aac16eeebd515cdec8bf450a2db00",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:wither_cannon"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:bulb_cannon"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:abyssal_upgrade_kit"
+        }
+      },
+      "input_name": "Wither Cannon",
+      "kit_name": "Abyssal Upgrade Kit",
+      "output_name": "Bulb Cannon"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_candlefire_sword.json",
+      "sha256": "6458420663ce2949d5b69d5670c5d4d8672c2856dbdef1c6896b923bfdc79570",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:fireborne_sword"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:candlefire_sword"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:nether_upgrade_kit"
+        }
+      },
+      "input_name": "Fireborne Sword",
+      "kit_name": "Nether Upgrade Kit",
+      "output_name": "Candlefire Sword"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_clownershot.json",
+      "sha256": "481cd4dfce1f0c115d4178ae7f2c6aa0889d887d0fcbe70e6e5eb08e0948696b",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:overshot"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:clownershot"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:clown_upgrade_kit"
+        }
+      },
+      "input_name": "Overshot",
+      "kit_name": "Clown Upgrade Kit",
+      "output_name": "Clownershot"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_darkener.json",
+      "sha256": "f1c8dfe8eebf142723d8b3e53ec53b40ba43c3c2979576c88bf43ad1c3072ba2",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:wrecker"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:darkener"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:darkly_upgrade_kit"
+        }
+      },
+      "input_name": "Wrecker",
+      "kit_name": "Darkly Upgrade Kit",
+      "output_name": "Darkener"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_dark_beast.json",
+      "sha256": "e1f40d0e97f33770a24e420dd94f0b89cccd89e4afde164693dd219247a39c8b",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:monster"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:dark_beast"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:darkly_upgrade_kit"
+        }
+      },
+      "input_name": "Monster",
+      "kit_name": "Darkly Upgrade Kit",
+      "output_name": "Dark Beast"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_death_ray.json",
+      "sha256": "c678767a5c4d2cf9c7d2734b8ab3dd11823e474e77cf8133df38570586e785f7",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:power_ray"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:death_ray"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:abyssal_upgrade_kit"
+        }
+      },
+      "input_name": "Power Ray",
+      "kit_name": "Abyssal Upgrade Kit",
+      "output_name": "Death Ray"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_floro_rifle.json",
+      "sha256": "6258437f47da98811701a6b5914eb64f887787b7c90f6997b610f73dbd87d50b",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:iro_rifle"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:floro_rifle"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:floro_upgrade_kit"
+        }
+      },
+      "input_name": "Iro Rifle",
+      "kit_name": "Floro Upgrade Kit",
+      "output_name": "Floro Rifle"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_floro_rpg.json",
+      "sha256": "f09453d505c03f7fa5ac41eb9db7ae8dd55ebb5ad8b86c64e8b7818df3ce75b1",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:rpg"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:floro_rpg"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:floro_upgrade_kit"
+        }
+      },
+      "input_name": "RPG",
+      "kit_name": "Floro Upgrade Kit",
+      "output_name": "Floro RPG"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_fragment.json",
+      "sha256": "31e2332df2a4940f8200bc098f0d0c3967635ca36559a9c337ab5dd4b0054de5",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:proton"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:fragment"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:rocky_upgrade_kit"
+        }
+      },
+      "input_name": "Proton",
+      "kit_name": "Rocky Upgrade Kit",
+      "output_name": "Fragment"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_golden_fury.json",
+      "sha256": "29fc056ec3e2451113e58c60e00979169a0e1746dbe33b118124ca7b3db16b52",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:flaming_fury"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:golden_fury"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:golden_upgrade_kit"
+        }
+      },
+      "input_name": "Flaming Fury",
+      "kit_name": "Golden Upgrade Kit",
+      "output_name": "Golden Fury"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_golder_bomber.json",
+      "sha256": "d43aab0801226efe1e70555232aa0534415c162acadaa8a8ef059f0c5c5dbe51",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:boulder_bomber"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:golder_bomber"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:golden_upgrade_kit"
+        }
+      },
+      "input_name": "Boulder Bomber",
+      "kit_name": "Golden Upgrade Kit",
+      "output_name": "Golder Bomber"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_happy_haunter.json",
+      "sha256": "7508a4e6d7a1a2585da3a55b2554a547f909489411974a665988aa14939bd282",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:haunter_rifle"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:happy_haunter"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:smiley_upgrade_kit"
+        }
+      },
+      "input_name": "Haunter Rifle",
+      "kit_name": "Smiley Upgrade Kit",
+      "output_name": "Happy Haunter"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_heat_wave.json",
+      "sha256": "6c25af31c802d0f347f3524b6ae801f0d8d2c35545aac8f8b5c2eb233fbc8050",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:hot_shot"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:heat_wave"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:nether_upgrade_kit"
+        }
+      },
+      "input_name": "Hot Shot",
+      "kit_name": "Nether Upgrade Kit",
+      "output_name": "Heat Wave"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_lightning_staff.json",
+      "sha256": "6b738009d2b6841bc65b518b142d31544c9e276803101d9286ed360326f1757e",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:striker_staff"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:lightning_staff"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:predator_upgrade_kit"
+        }
+      },
+      "input_name": "Striker Staff",
+      "kit_name": "Predator Upgrade Kit",
+      "output_name": "Lightning Staff"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_light_iron.json",
+      "sha256": "2ed9371ef330b95468949b87cc27250a1dc6d83ca7bf9d8334728ab474a669a0",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:blood_iron"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:light_iron"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:light_upgrade_kit"
+        }
+      },
+      "input_name": "Blood Iron",
+      "kit_name": "Light Upgrade Kit",
+      "output_name": "Light Iron"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_light_spark.json",
+      "sha256": "d49a9c553bf2836a08fba65569e92ce9011ff60000f2dd8c8f63ffbd60a85584",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:soul_spark"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:light_spark"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:light_upgrade_kit"
+        }
+      },
+      "input_name": "Soul Spark",
+      "kit_name": "Light Upgrade Kit",
+      "output_name": "Light Spark"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_megagun.json",
+      "sha256": "91cb18839888fc82e881c8f626f7307bfa07d8e886ab999ec411874916f583ea",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:minigun"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:megagun"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:weapon_parts"
+        }
+      },
+      "input_name": "Minigun",
+      "kit_name": "Weapon Parts",
+      "output_name": "Megagun"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_millennium_greatblade.json",
+      "sha256": "3e526c43f2e5c00eae50a992fd93fb3e3876283d7d4d1b5221d894d611249c0d",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:lunar_greatblade"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:millennium_greatblade"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:light_upgrade_kit"
+        }
+      },
+      "input_name": "Lunar Greatblade",
+      "kit_name": "Light Upgrade Kit",
+      "output_name": "Millennium Greatblade"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_mk_fung.json",
+      "sha256": "af521c6aacfb5224accce11632e3dc05efc722639e0ad114a4fffcc883647a54",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:mk"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:mk_fung"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:fungal_upgrade_kit"
+        }
+      },
+      "input_name": "MK",
+      "kit_name": "Fungal Upgrade Kit",
+      "output_name": "MK-Fung"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_moon_destroyer.json",
+      "sha256": "eefcd03f84bbaa89bef00d8c89f368c1ef6d06c265f83a74debd53cefa48a6d5",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:dark_destroyer"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:moon_destroyer"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:lunar_upgrade_kit"
+        }
+      },
+      "input_name": "Dark Destroyer",
+      "kit_name": "Lunar Upgrade Kit",
+      "output_name": "Moon Destroyer"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_nethenette_rifle.json",
+      "sha256": "a40e2b1087407fea2edb62341b74afd3adf131901fbdcda143c1a650e285c50e",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:bayonette_rifle"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:nethenette_rifle"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:nether_upgrade_kit"
+        }
+      },
+      "input_name": "Bayonette Rifle",
+      "kit_name": "Nether Upgrade Kit",
+      "output_name": "Nethenette Rifle"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_precasian_slugger.json",
+      "sha256": "4a22cffb655748b4274f87763119021db40044aec448de113eb7805e18f04cff",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:nethengeic_slugger"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:precasian_slugger"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:precasian_upgrade_kit"
+        }
+      },
+      "input_name": "Nethengeic Slugger",
+      "kit_name": "Precasian Upgrade Kit",
+      "output_name": "Precasian Slugger"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_predigun.json",
+      "sha256": "d49225dc9f71158e7a6044ec603222c5c1ef53688a636eeb44f68637f5565faf",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:minigun"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:predigun"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:predator_upgrade_kit"
+        }
+      },
+      "input_name": "Minigun",
+      "kit_name": "Predator Upgrade Kit",
+      "output_name": "Predigun"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_purple_punisher.json",
+      "sha256": "34a43875fe5f58b4186a9b0ae9213e897262b8abbe4bb70da1a7fbbe29e4379b",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:red_rocket"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:purple_punisher"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:haunted_upgrade_kit"
+        }
+      },
+      "input_name": "Red Rocket",
+      "kit_name": "Haunted Upgrade Kit",
+      "output_name": "Purple Punisher"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_roulette.json",
+      "sha256": "bbb8a6b9df274308b1aab75649646d6f5e60812faf36080060014ecf7a98b2a3",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:stampede"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:roulette"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:weapon_parts"
+        }
+      },
+      "input_name": "Stampede",
+      "kit_name": "Weapon Parts",
+      "output_name": "Roulette"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_skullette.json",
+      "sha256": "19e8d4d28c9cef5566c6b7215b0a3aaabee29703be04e7587bd9464d5d9b0acd",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:roulette"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:skullette"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:haunted_upgrade_kit"
+        }
+      },
+      "input_name": "Roulette",
+      "kit_name": "Haunted Upgrade Kit",
+      "output_name": "Skullette"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_tiger_tommy.json",
+      "sha256": "d9ee6c6895f0c6a5712adbd02bbb94e0661d505ecae74be57d36c2f69e70e545",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:tommy"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:tiger_tommy"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:precasian_upgrade_kit"
+        }
+      },
+      "input_name": "Tommy",
+      "kit_name": "Precasian Upgrade Kit",
+      "output_name": "Tiger Tommy"
+    },
+    {
+      "recipe_path": "data/aoa3/recipe/upgrade_kit_water_balloon_bomber.json",
+      "sha256": "49c5a7d217bd3aaa4936b2059ca898d8816d1b02cb9f17ff151ee32e3b22fba6",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:balloon_bomber"
+        },
+        "result": {
+          "count": 1,
+          "id": "aoa3:water_balloon_bomber"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:seaside_upgrade_kit"
+        }
+      },
+      "input_name": "Balloon Bomber",
+      "kit_name": "Seaside Upgrade Kit",
+      "output_name": "Water-Balloon Bomber"
+    }
+  ],
+  "upgrade_ingredients": [
+    "aoa3:abyssal_upgrade_kit",
+    "aoa3:ancient_upgrade_kit",
+    "aoa3:apoco_upgrade_kit",
+    "aoa3:clown_upgrade_kit",
+    "aoa3:darkly_upgrade_kit",
+    "aoa3:floro_upgrade_kit",
+    "aoa3:fungal_upgrade_kit",
+    "aoa3:golden_upgrade_kit",
+    "aoa3:haunted_upgrade_kit",
+    "aoa3:light_upgrade_kit",
+    "aoa3:lunar_upgrade_kit",
+    "aoa3:nether_upgrade_kit",
+    "aoa3:precasian_upgrade_kit",
+    "aoa3:predator_upgrade_kit",
+    "aoa3:rocky_upgrade_kit",
+    "aoa3:seaside_upgrade_kit",
+    "aoa3:smiley_upgrade_kit",
+    "aoa3:weapon_parts"
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/recipe/UpgradeKitRecipe.class",
+      "sha256": "ac9b9899d0dc4623ad88f68bf8956693146b31777b19b3e76856aaf6edb395c5",
+      "methods": [
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2ab4000d2b03b6004db600539900162ab400112b04b6004db6005399000704a7000403ac"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2cb60057b0"
+        },
+        {
+          "name": "getResultItem",
+          "descriptor": "(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2ab40014b6005bb0"
+        },
+        {
+          "name": "assemble",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2a2bc0004e2cb60060b0"
+        },
+        {
+          "name": "matches",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z",
+          "code_hex": "2a2bc0004e2cb60064ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/DivineStationMenu.class",
+      "sha256": "25b8641264fb3aa0dfc4f8dad8625c7d7578f706a23d529610fd202eff73c468",
+      "methods": [
+        {
+          "name": "createRecipeInput",
+          "descriptor": "()Lnet/tslat/aoa3/common/menu/generic/GenericRecipeInput;",
+          "code_hex": "bb001b592ab6001dc00021b60023b70027b0"
+        },
+        {
+          "name": "inputSlotCount",
+          "descriptor": "()I",
+          "code_hex": "05ac"
+        },
+        {
+          "name": "handleContainerUpdate",
+          "descriptor": "()V",
+          "code_hex": "2ab60067c0006b4c2ab20053b60059b60007c0005f2bb6006d2bb40071c0004eba00740000b60078b1"
+        },
+        {
+          "name": "createRecipeInput",
+          "descriptor": "()Lnet/minecraft/world/item/crafting/RecipeInput;",
+          "code_hex": "2ab6008db0"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/generic/ExtensibleRecipeMenu.class",
+      "sha256": "25f97c72c4ba93a3eb9458fa628fe113ad10fcc877859f7b78d1d062297d0c14",
+      "methods": [
+        {
+          "name": "updateRecipeOutput",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/ResultContainer;Ljava/util/function/Predicate;)V",
+          "code_hex": "2cc1000799009c2cc000073a052ab600093a061905b6000f3a072a2b19062d1907b6001319042d19071905ba00170000b6001bba00210000b6002519061907ba00290000b600251907ba002c0000b6001b2a2c2dba002f0000b6001bb20032b60038c000333a082ab6003c1908b800409a00302a1908b600442a2ab600481908b6004c1905b40050bb0054592ab400562ab6005a2ab600481908b7005db60060b1"
+        },
+        {
+          "name": "lambda$updateRecipeOutput$3",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/ResultContainer;Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2b2d2ab600932cb800979a000704a7000403ac"
+        },
+        {
+          "name": "lambda$updateRecipeOutput$2",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)Z",
+          "code_hex": "2b2ab6009db600a3ac"
+        },
+        {
+          "name": "lambda$updateRecipeOutput$1",
+          "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/crafting/Recipe;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2c2a2bb600a7b900ab0300b0"
+        },
+        {
+          "name": "lambda$updateRecipeOutput$0",
+          "descriptor": "(Ljava/util/function/Predicate;Lnet/minecraft/world/inventory/ResultContainer;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/crafting/RecipeHolder;)Z",
+          "code_hex": "2a1904b900af02009900122b2c2d1904b600b499000704a7000403ac"
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/menu/slot/CraftableResultSlot.class",
+      "sha256": "451557e731ec2d44df1beb2dd18d7e956402b0359488e23ddb6e9a28144ed3d0",
+      "methods": [
+        {
+          "name": "onItemRemoved",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2bb8008b2a2ab400072ab40017b900910100c000972bb600994e01b8008b03360415042db6009da200a42ab4000d1504b9005d02003a052d1504b600a0c0006e3a061905b600a39a001d2ab4000d150404b900a70300572ab4000d1504b9005d02003a051906b600a3990006a700591905b600a39900132ab4000d15041906b900ab0300a7004119051906b800af99001d19061905b600b3b600b62ab4000d15041906b900ab0300a7001d2ab40039b600b91906b600bd9a000e2ab40039190603b600c257840401a7ff59b1"
+        }
+      ]
+    }
+  ],
+  "station_output_recipes": [],
+  "source_files": {
+    "content/recipe/UpgradeKitRecipe.java": "07ea707fe295b3dcd0d039dcbb4ff96cd0989bf4c6af8763d359374b190e3d64",
+    "common/menu/DivineStationMenu.java": "6a4b0e8a50f71cf71722669d6ef5c53ff7ebaa258e00110f048010bfed7e0e6a",
+    "common/menu/generic/ExtensibleRecipeMenu.java": "5df5a4892eff765ae11831c7295163227ee602279a59a2909cfbf41b78e9679a",
+    "common/menu/slot/CraftableResultSlot.java": "f0d5b9299caec6f6ad1ba12ec8cca57119eac9be4b9c934cdabd81113e246aeb"
+  },
+  "component_policy": "Base assembly returns a copy of the configured output without reading input stack data. Menu crafting events and datapacks can alter behavior; do not claim unconditional component loss in every modpack.",
+  "acceptance": [
+    "Check target registry and station/kit/weapon acquisition before promising a survival progression route",
+    "Use input in slot0 and upgrade ingredient in slot1; verify intended consumption and remainder behavior",
+    "Compare damage, enchantments, custom name, stored casts and third-party components before and after upgrading",
+    "If adding preservation, choose an explicit compatible-component policy rather than copying all old stats blindly",
+    "Test quick move, missing kit, wrong weapon, canceled/modified crafting event and output preview refresh"
+  ]
+}
