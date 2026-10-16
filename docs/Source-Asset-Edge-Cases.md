@@ -12,15 +12,25 @@ Models and textures: **Tslat and contributors**, official AoA 3.3.6 artifact. Th
 |---|---|---|
 | Filtration System | Some faces reference undefined `#missing` texture aliases | Explicit magenta/black diagnostic texture for those faces; original visible faces retained |
 | Boiling Filtration System | Undefined texture aliases | Same explicit diagnostic handling |
-| Gold Skeletron Statue | Undefined texture aliases | Same explicit diagnostic handling |
+| Gold Skeletron Statue | 64 undefined aliases on zero-area faces | Resolved: discard degenerate faces before texture lookup |
 | Iropole | Undefined texture aliases | Same explicit diagnostic handling |
-| Ornate Skeletron Statue | Undefined texture aliases | Same explicit diagnostic handling |
-| Skeletron Statue | Undefined texture aliases | Same explicit diagnostic handling |
+| Ornate Skeletron Statue | 64 undefined aliases on zero-area faces | Resolved by the same geometric-area check |
+| Skeletron Statue | 64 undefined aliases on zero-area faces | Resolved by the same geometric-area check |
 | Shyre Cloud | The original cutout threshold discarded its translucent pixels | Preserve nonzero alpha in a nearest-depth reference preview |
 
 The unresolved faces are largely hidden in this view. Their absence from the visible screenshot does not prove the source contains no defects. No source textures or mod files were patched, and no guessed replacement artwork was substituted.
 
 The Shyre Cloud view preserves the source alpha but does not implement full runtime translucent surface blending. Its color and opacity can differ against other backgrounds or under the game's lighting.
+
+## Three statue cases resolved without changing source assets
+
+![Corrected statue references and remaining diagnostic cases](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.12.2-degenerate-face-references.webp)
+
+A geometric check found that all 64 unbound texture references in each of the three Skeletron statue variants belong to **zero-area faces**. They cannot contribute rasterized surface area. The documentation renderer had tried to resolve those textures too early; it now discards degenerate faces first. The real, nondegenerate faces use their original textures. No replacement texture was guessed and no upstream asset was patched.
+
+The remaining Filtration System, Boiling Filtration System and Iropole cases have respectively **7, 7 and 40 positive-area unbound references** and remain explicitly diagnostic. Positive area alone does not prove those faces are visible from outside; in-game occlusion still matters.
+
+Three unaffected baseline models rendered pixel-identically before and after the change. The normal Skeletron Statue is now available as a proper source-model loot reference. [Geometric checks](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/degenerate-face-validation.json) · [Statue-specific evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/skeletron-statue-render-evidence.json).
 
 ## Restoration implications
 

@@ -467,16 +467,20 @@ These are inspected rosters, not a claim of complete runtime registries. Modern 
 
 ## Illustrated drops and practical use
 
-Expand a creature’s loot panel for item pictures, base quantities, Looting/conditional indicators, exact functions and nested tables. Recipe links preserve the selected release so you can investigate what a drop is used for. The legacy dataset currently has base icons for 591 of 602 distinct referenced items; missing or ambiguous metadata appearances are not invented. Modern pictures use their own release atlases.
+Expand a creature’s loot panel for item pictures, base quantities, Looting/conditional indicators, exact functions and nested tables. Recipe links preserve the selected release so you can investigate what a drop is used for. The legacy dataset currently has base icons for all 602 distinct referenced items; missing or ambiguous metadata appearances are not invented. Modern pictures use their own release atlases.
 
 The interface fetches each release’s loot only when requested and caches it. Local tests exercised 787 modern creature panels and all 792 retained modern entity/nested tables, plus the legacy tables. Live browser checks covered version switching, Abyss/Barathos filtering, Creep Cow quantities and Arkback’s modern loot. No drop percentages are fabricated.
 
 ### Still being filled in
 
-Complete modern runtime binding checks, variant drops, global loot additions, missing images, spawn-code paths beyond the extracted JSON/source subset, dedicated tactics, full stats and every per-creature player guide remain active work. A useful field guide must answer where to find it, how to handle it, what it drops and what those drops enable.
+Complete modern runtime binding checks, variant drops, global loot additions, missing images, spawn-code paths beyond the extracted JSON/source subset, dedicated tactics, final runtime stats and every per-creature player guide remain active work. A useful field guide must answer where to find it, how to handle it, what it drops and what those drops enable.
 
 
 
 ### Item-picture coverage update
 
 The three modern entity/nested-table datasets now have base model references for all distinct referenced item IDs: 458/458 (1.16.5), 299/299 (1.20.1), and 204/204 (1.21.1). These counts are not variant completeness. Untinted model references are labeled; random metadata is not disguised as a single fixed appearance. Legacy remains 591/602, with metadata-specific forms and a missing-texture statue requiring further work.
+
+## Release-matched base attributes
+
+The browser now shows 787 artifact-derived stat-builder records across the three modern releases (419 / 285 / 83). These are explicit builder inputs, not inferred factory defaults or final in-game values after modifiers. Each record retains its method evidence. Exact creature links preserve the release and entity ID, making entries shareable without ambiguous name searches.

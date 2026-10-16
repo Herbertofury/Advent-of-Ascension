@@ -1,0 +1,55 @@
+{
+  "baseline_pixel_comparisons": 3,
+  "baseline_pixel_comparisons_passed": true,
+  "cases": [
+    {
+      "name": "Filtration System",
+      "model": "aoa3:item/blocks/functional/utility/filtration_system",
+      "unbound_zero_area_faces": 0,
+      "positive_area_unbound_faces": 7,
+      "resolved": false,
+      "image": "/workspace/shared/aoa-docs-20261015/rendering/edge-renders-1.12.2/block-FiltrationSystem.png"
+    },
+    {
+      "name": "Boiling Filtration System",
+      "model": "aoa3:item/blocks/functional/utility/filtration_system_on",
+      "unbound_zero_area_faces": 0,
+      "positive_area_unbound_faces": 7,
+      "resolved": false,
+      "image": "/workspace/shared/aoa-docs-20261015/rendering/edge-renders-1.12.2/block-FiltrationSystemOn.png"
+    },
+    {
+      "name": "Gold Skeletron Statue",
+      "model": "aoa3:item/blocks/decoration/statues/gold_skeletron_statue",
+      "unbound_zero_area_faces": 64,
+      "positive_area_unbound_faces": 0,
+      "resolved": true,
+      "image": "/workspace/scratch/c648c483d888/aoa-expansion/corrected-block-GoldSkeletronStatue.png"
+    },
+    {
+      "name": "Iropole",
+      "model": "aoa3:item/blocks/generation/misc/iropole",
+      "unbound_zero_area_faces": 0,
+      "positive_area_unbound_faces": 40,
+      "resolved": false,
+      "image": "/workspace/shared/aoa-docs-20261015/rendering/edge-renders-1.12.2/block-Iropole.png"
+    },
+    {
+      "name": "Ornate Skeletron Statue",
+      "model": "aoa3:item/blocks/decoration/statues/ornate_skeletron_statue",
+      "unbound_zero_area_faces": 64,
+      "positive_area_unbound_faces": 0,
+      "resolved": true,
+      "image": "/workspace/scratch/c648c483d888/aoa-expansion/corrected-block-OrnateSkeletronStatue.png"
+    },
+    {
+      "name": "Skeletron Statue",
+      "model": "aoa3:item/blocks/decoration/statues/skeletron_statue",
+      "unbound_zero_area_faces": 64,
+      "positive_area_unbound_faces": 0,
+      "resolved": true,
+      "image": "/workspace/scratch/c648c483d888/aoa-expansion/corrected-block-SkeletronStatue.png"
+    }
+  ],
+  "conclusion": "Resolved cases had only zero-area unbound faces; their initial rejection was a documentation-renderer issue. Other cases retain positive-area unbound references and remain diagnostic. No upstream asset was patched."
+}
