@@ -82,3 +82,6 @@ Documentation snapshot: **2026-10-16**. Static reference work is not a new runti
 
 ### Historical progression
 [1.16.5 Realmstone progression: all 22 destination routes, exact triggers and illustrated recipes](Realmstone-Progression-Walkthrough-1.16.5).
+
+### Train skills with a clear goal
+[Modern skill training: XP sources, blockers, Energy Stone stack use and cycling](Skill-Training-Walkthrough-1.21.1). All ten default skill files have been checked against the released 3.7.16.1 artifact.

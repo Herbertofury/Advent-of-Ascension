@@ -1,8 +1,34 @@
-[Home](README.md) · [Versions](Version-Matrix.md) · [Worlds](Dimensions.md) · [Systems](Systems.md) · [Progress](Progress.md)
+[Home](Home) · [Versions](Version-Matrix) · [Worlds](Dimensions) · [Systems](Systems) · [Progress](Progress)
 
 # Progress · what is proven and what remains
 
-**Snapshot: 2026-10-15. No fabricated completion percentage.**
+**Documentation updated: 2026-10-16. Owner-specific runtime certification remains unverified here. No fabricated completion percentage.**
+
+## Current verified documentation status · 2026-10-16
+
+Counts below describe inspected rosters and documentation, not a playable merged Enderloom build. They supersede older intermediate appearance counts later on this page.
+
+| Selected release | Inspected roster | Current appearance result |
+|---|---:|---|
+| 1.12.2 / 3.3.6 | 525 source-mapped classes | 513 static-body entries; three dynamic references; nine particle/empty-body cases |
+| 1.16.5 / 3.6.11 | 419 living-source entries | 409 body portraits; eight particle previews; Shadow invisible; Doppelganger player-skin behavior |
+| 1.20.1 / 3.7.1 | 285 living-source entries | 107 portraits/resource studies; 178 explicit renderer-gap/target-mismatch explanations |
+| 1.21.1 / 3.7.16.1 | 83 living-source entries | All 83 have source-mapped static portraits; selected variants and state galleries included |
+
+The 1.20.1 picture count includes nine released NPC atlas diagnostics and a Coratee intended-texture study. They are labeled clearly, not presented as repaired runtime rendering. Zero unclassified entries in an inspected roster does not establish a complete runtime registry.
+
+- [1.16.5 appearance census](Legacy-Bestiary-Coverage-1.16.5)
+- [1.20.1 appearance census and variants](Bestiary-Coverage-1.20.1)
+- [Nine released NPC texture-atlas mismatches and proposed repairs](NPC-Texture-Atlas-Mismatch-1.20.1)
+- [Modern portraits](Modern-Bestiary-Portraits)
+- [Historical realmstone progression: 22 routes](Realmstone-Progression-Walkthrough-1.16.5)
+- [Practical modern skill training](Skill-Training-Walkthrough-1.21.1)
+
+The searchable bestiary supports release, dimension and biome-selector filters, exact creature links, 787 modern artifact stat-builder records, and lazy illustrated loot. Reverse drop lookup links items back to creatures. Selected-release loading avoids fetching every roster at startup, with caching, retry and stale-result tests.
+
+The recipe explorer covers **6,781 definitions**: 1,172 on 1.12.2; 2,296 on 1.16.5; 1,781 on 1.20.1; 1,532 on 1.21.1. Dynamic recipes are explained separately rather than flattened into invented fixed recipes. Ten modern skill data files and all 201 default ability records now match the inspected released artifact semantically.
+
+
 
 ## Verified by this documentation pass
 
@@ -17,7 +43,7 @@
 
 ## Published visual and recipe deliverables
 
-Verified on 2026-10-15; counts are version-specific records, not unique cross-version content or converted gameplay.
+Initial deliverables verified on 2026-10-15, extended by the current-status section above. Counts are version-specific records, not unique cross-version content or converted gameplay.
 
 - [x] Modern item/block atlas: 2,328 initial previews; 137 entity model/texture presentations after source-mapping supplements, including explicitly labeled unused resource studies.
 - [x] Historical item/block galleries: 7,600 regular previews across 1.20.1, 1.16.5 and 1.12.2, plus seven documented 1.12.2 edge cases.
@@ -61,4 +87,4 @@ Next reconcile: current Git commit/dirty changes, active session ID/target, acce
 
 
 ---
-Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits.md). Source presence is not target runtime proof.
+Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits). Source presence is not target runtime proof.

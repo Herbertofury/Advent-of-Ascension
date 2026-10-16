@@ -2,6 +2,30 @@
 
 [Visual atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas)
 
+## Current verified documentation status · 2026-10-16
+
+Counts below describe inspected rosters and documentation, not a playable merged Enderloom build. They supersede older intermediate appearance counts later on this page.
+
+| Selected release | Inspected roster | Current appearance result |
+|---|---:|---|
+| 1.12.2 / 3.3.6 | 525 source-mapped classes | 513 static-body entries; three dynamic references; nine particle/empty-body cases |
+| 1.16.5 / 3.6.11 | 419 living-source entries | 409 body portraits; eight particle previews; Shadow invisible; Doppelganger player-skin behavior |
+| 1.20.1 / 3.7.1 | 285 living-source entries | 107 portraits/resource studies; 178 explicit renderer-gap/target-mismatch explanations |
+| 1.21.1 / 3.7.16.1 | 83 living-source entries | All 83 have source-mapped static portraits; selected variants and state galleries included |
+
+The 1.20.1 picture count includes nine released NPC atlas diagnostics and a Coratee intended-texture study. They are labeled clearly, not presented as repaired runtime rendering. Zero unclassified entries in an inspected roster does not establish a complete runtime registry.
+
+- [1.16.5 appearance census](Legacy-Bestiary-Coverage-1.16.5)
+- [1.20.1 appearance census and variants](Bestiary-Coverage-1.20.1)
+- [Nine released NPC texture-atlas mismatches and proposed repairs](NPC-Texture-Atlas-Mismatch-1.20.1)
+- [Modern portraits](Modern-Bestiary-Portraits)
+- [Historical realmstone progression: 22 routes](Realmstone-Progression-Walkthrough-1.16.5)
+- [Practical modern skill training](Skill-Training-Walkthrough-1.21.1)
+
+The searchable bestiary supports release, dimension and biome-selector filters, exact creature links, 787 modern artifact stat-builder records, and lazy illustrated loot. Reverse drop lookup links items back to creatures. Selected-release loading avoids fetching every roster at startup, with caching, retry and stale-result tests.
+
+The recipe explorer covers **6,781 definitions**: 1,172 on 1.12.2; 2,296 on 1.16.5; 1,781 on 1.20.1; 1,532 on 1.21.1. Dynamic recipes are explained separately rather than flattened into invented fixed recipes. Ten modern skill data files and all 201 default ability records now match the inspected released artifact semantically.
+
 ## Verified input artifacts
 
 Four official JAR downloads were checked against their advertised SHA-512 hashes: 1.12.2 / 3.3.6, 1.16.5 / 3.6.11, 1.20.1 / 3.7.1 and 1.21.1 / 3.7.16.1. Complete source archives for five pinned branches were downloaded for read-only inspection. No JAR code was executed.
@@ -111,7 +135,7 @@ Exact constructor accounting and static-image review do not establish animation,
 
 ## Supplemental 1.12.2 source edge cases
 
-[Seven supplemental inventory previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) cover the remaining candidates from the 2,466-record localization/model join. Six expose source models with undefined texture aliases; Shyre Cloud needs a translucent reference path. Diagnostic handling and its limits are explicit. These supplement the original 2,459 regular previews and do not certify a complete runtime registry or target renderer.
+[Seven supplemental inventory previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) cover the remaining candidates from the 2,466-record localization/model join. The initial six texture-alias diagnostics were subsequently narrowed: three Skeletron statues resolved after zero-area faces were skipped before texture lookup. Filtration System, its active form and Iropole still contain positive-area faces with undefined aliases. Shyre Cloud has a source-alpha translucent reference. Diagnostic handling and its limits are explicit. These supplement the original 2,459 regular previews and do not certify a complete runtime registry or target renderer.
 
 ## 1.12.2 entity renderer mapping pass
 

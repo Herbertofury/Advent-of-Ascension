@@ -4,7 +4,7 @@
 
 ## What this page proves
 
-This is a complete table of the default ability records in the ten skill data files at the pinned **1.21 source snapshot**, not a promise that every system is finished in every release. Add-ons/data packs and server configuration may change these values. Ability parameters are reported as stored; cumulative effects, resource affordability and conditional activation depend on their implementation.
+This is a complete table of the default ability records in the ten skill data files at the pinned **1.21 source snapshot**. All ten files have now been compared with **AoA 3.7.16.1 for Minecraft 1.21.1** and match semantically, covering **201 records**. This is not a promise that every system is finished in every release. Add-ons/data packs and server configuration may change these values. Ability parameters are reported as stored; cumulative effects, resource affordability and conditional activation depend on their implementation.
 
 [Pinned upstream source](https://github.com/Tslat/Advent-Of-Ascension/tree/7919b5fe48599e6105c5740937ce36c36ef21d16/data/aoa3/player/skills). AoA is created by Tslat and contributors.
 
@@ -302,3 +302,7 @@ The Java Imbuing skill wrapper is small, but the default data contains recipe-le
 6. Do not award completion from registration counts or UI icons alone.
 
 Total default ability records documented: **201**.
+
+## Practical training guide and released-data check
+
+[How to train each supported skill, common blockers, full-stack Energy Stone consumption and cycling cautions](Skill-Training-Walkthrough-1.21.1). [Released data comparison with hashes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/modern-skill-artifact-comparison.json).

@@ -1,0 +1,193 @@
+{
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Pinned source training logic; released class method bytes retained for review. Ten default skill JSON files separately verified semantically identical to the released artifact. No live XP-rate benchmark or certification of every event ordering.",
+  "source_class_checks": [
+    {
+      "source": "source/player/skill/AlchemySkill.java",
+      "source_sha256": "fe7f696ec5caa7df1da95f7ba4e9bee21c22a32496a760694efa47f746b8de32",
+      "released_class": "net/tslat/aoa3/player/skill/AlchemySkill.class",
+      "class_sha256": "926d04928ca712b91f88f82bf5ec86d6b56421c4e01dc7fc27a8d98cf1185743",
+      "methods": []
+    },
+    {
+      "source": "source/player/skill/AoASkill.java",
+      "source_sha256": "b0e91b4d6b3bc8f26e656cde9d14d07d1f6dc3f44b85b5fdc96d226ad6d6812b",
+      "released_class": "net/tslat/aoa3/player/skill/AoASkill.class",
+      "class_sha256": "7725fed6fcd43d81c8dc2ef548a1be680963621201410834d6b2fc43df61fa00",
+      "methods": []
+    },
+    {
+      "source": "source/player/skill/ArtificeSkill.java",
+      "source_sha256": "5a8d001de2537855aafb2c8448c8f205497e9b923e88de99e551a13ca023f142",
+      "released_class": "net/tslat/aoa3/player/skill/ArtificeSkill.class",
+      "class_sha256": "06206db774b95831d51a850751e3d750268d7bba77c5431ffac1d304a4e39026",
+      "methods": []
+    },
+    {
+      "source": "source/player/skill/CreationSkill.java",
+      "source_sha256": "02e21149829fe612627d8e766b3da65b578cfe4ea2d84932c03eaff91118b7ab",
+      "released_class": "net/tslat/aoa3/player/skill/CreationSkill.class",
+      "class_sha256": "d00f3e7ecb977cf7292706aeb3b2e482ad754bd06d25d74781bf05eb8a5822d3",
+      "methods": []
+    },
+    {
+      "source": "source/player/skill/DexteritySkill.java",
+      "source_sha256": "0a80af66a719d5dc025ef3499b97b8a31ed7c4875d3b9a98d9f036e04049a5fc",
+      "released_class": "net/tslat/aoa3/player/skill/DexteritySkill.class",
+      "class_sha256": "1c15b68c7e0b062a0f538cea987cb2b2a55ca6220dc909168f3e183fb63e290e",
+      "methods": [
+        {
+          "name": "handlePlayerTick",
+          "descriptor": "(Lnet/neoforged/neoforge/event/tick/PlayerTickEvent$Pre;)V",
+          "code_hex": "2a04b6004c99000d2bb60050b60054990004b12bb600504d2cb6005a4e2cb6005e99006e2cb600619a000a2cb6006499006a2ab4003b0e979900442ab4003f0e9799003b2db600672ab4003b6739042db6006d2ab4003f673906180418046b180618066b63b80070390818080f989c000e2a59b40042180863b500422a2db60067b5003b2a2db6006db5003fa7000d2a0eb5003b2a0eb5003f2cb400761100c8709a004b2ab400420e979e002a2a59b400452a04b6007a127eb8007f12852ab400421400866f90b800886a62b500452a0eb500422ab400450b959e00122a2ab400450303b6008c2a0bb50045b1"
+        },
+        {
+          "name": "handlePlayerJump",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/LivingEvent$LivingJumpEvent;)V",
+          "code_hex": "2a04b6004c9a0004b12a04b6007a1290b8007f452bb60091b600949900082412976a452a59b400452462b50045b1"
+        },
+        {
+          "name": "handleCriticalHit",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/player/CriticalHitEvent;)V",
+          "code_hex": "2a04b6004c9a0004b12a59b400452bb600982a04b6007a129cb8007f6a62b50045b1"
+        }
+      ]
+    },
+    {
+      "source": "source/player/skill/ExtractionSkill.java",
+      "source_sha256": "2905bb464a98b9481ff391811079e9b8d4a8e14f1013729f6a3366315df9ed77",
+      "released_class": "net/tslat/aoa3/player/skill/ExtractionSkill.class",
+      "class_sha256": "6a5b9606f7ccc5d7d94a0490fffaf3d9663af3cd42261f8cdec96ae28aecd396",
+      "methods": [
+        {
+          "name": "handleLootModification",
+          "descriptor": "(Lnet/tslat/aoa3/event/custom/events/PlayerSkillsLootModificationEvent;)V",
+          "code_hex": "2a04b600359a0004b12bb600394d2cb2003db60043c000494e2dc70004b12cb2004bb60043c0004e3a041904c70004b12cb600503a051904b800543a062db6005a3a072d2cb600501906b6005eb800629a0004b12db800689a0004b12d19051906b6006c38082a04b600700d17086ab8007338092bb60079b6007d3a0a190ab900830100990028190ab900890100c0008c3a0b190bb6008e1907b60092a5000c17090d6a3809a70006a7ffd42bb60079b6009505a4000a170912996a38092a17090303b6009ab1"
+        },
+        {
+          "name": "handleItemSmelted",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/player/PlayerEvent$ItemSmeltedEvent;)V",
+          "code_hex": "2bb6009eb600a2b600a89a000d2bb600adb600b19d0004b12bb600ad4d2c2bb6009eb600b4c7004f2a04b600359900472a04b6007012b8b80073462cb200b9b600bf99000b2512996a46a700232cb200c3b600bf99000a250d6a46a700122cb200c6b600bf9900082512c96a462a250303b6009ab1"
+        },
+        {
+          "name": "isApplicableBlock",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;)Z",
+          "code_hex": "2ab200cab600cfac"
+        }
+      ]
+    },
+    {
+      "source": "source/player/skill/FarmingSkill.java",
+      "source_sha256": "cbd81b3b35b91c2d7ea86be7fef403fd54f7a009ea1717b8ff4fba0ab4f53479",
+      "released_class": "net/tslat/aoa3/player/skill/FarmingSkill.class",
+      "class_sha256": "146f47c6a75c71a2cecb5e22a45c4f209187e2c65f9339c6a2a6a83c95e298b9",
+      "methods": [
+        {
+          "name": "handleBlockBreak",
+          "descriptor": "(Lnet/neoforged/neoforge/event/level/BlockEvent$BreakEvent;)V",
+          "code_hex": "2bb6003a4d2a04b6003e9900b52c2bb600422bb600462bb6004ab8004e9900a22cb6005459b8005a573a0403360519041505ba00600000ab0000005900000002000000000000001900000001000000381904c000643a0619062cb6006699000e10071906b6006a68a7004203a7003e1904c0006e3a072cb20070b60074c00078b6007a06a000081015a7002103a7001d2cb2007db600839900122cb60054c100879a0008100ca70004033e1d9e00132bb60042c000892ab6008b1d03b8008fb1"
+        },
+        {
+          "name": "handleAnimalBreed",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/BabyEntitySpawnEvent;)V",
+          "code_hex": "2a04b6003e9a0004b12ab60095c000892ab6008b11025803b8008fb1"
+        }
+      ]
+    },
+    {
+      "source": "source/player/skill/FaunamancySkill.java",
+      "source_sha256": "171994707155130122d2b65e9b28e5c8dc1d960c5f8adbcf3a0bbbd9ce2527b4",
+      "released_class": "net/tslat/aoa3/player/skill/FaunamancySkill.class",
+      "class_sha256": "442d2f63151a414b93327164ca74d1e620cf2ff6d60b61a1342390facec54646",
+      "methods": [
+        {
+          "name": "handleAfterAttacking",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/LivingDamageEvent$Post;)V",
+          "code_hex": "2a04b600309900322bb600342ab6003a2bb6003eb800429900202ab6003ac000462ab600482bb60034b6004c12516e12526a8b03b80053b1"
+        },
+        {
+          "name": "isValidSacrifice",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/player/Player;F)Z",
+          "code_hex": "240b959a000503ac2ab6005924660b959e000503ac2bb6005cb20062b600689a000503ac2ab6006eb60072140078989c000704a7000403ac"
+        }
+      ]
+    },
+    {
+      "source": "source/player/skill/HaulingSkill.java",
+      "source_sha256": "d9200302b7fd3b8c1e6ff453b89cb43b056462f2a2a0af3d86dbc07f1be466e3",
+      "released_class": "net/tslat/aoa3/player/skill/HaulingSkill.class",
+      "class_sha256": "8ef2fda4c901363857e2cc0dd387a4f8d13193384fbf5426576309d82a63d7e6",
+      "methods": [
+        {
+          "name": "handleItemFished",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/player/ItemFishedEvent;)V",
+          "code_hex": "2a04b600369a0004b12a04b6003a123eb8003f0f140045b8004763906a452bc1004d990036240d6a452bb6004fb600534e2db9005901009900212db9005f0100c000623a041904b20064b6006a99000824126e6a45a7ffdc2a240303b6006fb1"
+        }
+      ]
+    },
+    {
+      "source": "source/player/skill/ImbuingSkill.java",
+      "source_sha256": "78a2cefceae59751228423106c71e1f96546d116dba48aa3c6e5c08d8b5527c9",
+      "released_class": "net/tslat/aoa3/player/skill/ImbuingSkill.class",
+      "class_sha256": "40b419ccdc4f55ec1355035681ca24f0c674c0a9d73c962042bb82d3ede5f3b5",
+      "methods": []
+    },
+    {
+      "source": "source/player/skill/InnervationSkill.java",
+      "source_sha256": "d0ee27a9b09891bc359540245ef7939754291ea5a965f47853dff6bc4f50f803",
+      "released_class": "net/tslat/aoa3/player/skill/InnervationSkill.class",
+      "class_sha256": "b217ebdd53a9cd2a05f2e9894c5387682da8b6c39fb28d19e9509d27304756e9",
+      "methods": [
+        {
+          "name": "handleAfterAttacking",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/LivingDamageEvent$Post;)V",
+          "code_hex": "2bb6003d4d2ab400362cb600432c2bba00490000b6004d57b1"
+        },
+        {
+          "name": "handleEntityKill",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/LivingDeathEvent;)V",
+          "code_hex": "2bb600514d2ab400362cb60043b60054c000574e2dc700081259a7000d2db6005ac0005db6005f38042dc600122ab400362bb60051b60043b60063572a04b600669900192ab6006ac0006e2ab600702a2c1704b6007403b800782ab40036b6007e100aa4000e2a2cb60081b60085b6008bb1"
+        },
+        {
+          "name": "getKillXpForEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;F)F",
+          "code_hex": "2a04b600a72bb600ab12ae6a24b800af12b56e12b66a8b86b800b7462bb200bbb800c1390418040e979e000d2bb200c7b800c1a700040e39062bb200cab800c13908250c18041400cd6fb800cf18061400d56f1400d7b800d96390626a462bb600dd12e3b600e59900082512eb6a462bc100ec9a001b2bc100ee9900192bc000ee3a0a190ab600f0c100f49900082512f66a4618081400f7979e00082512f66a462bb800f99a00082512ff6a462bb60100b20104b6010a990009251301106a4625ae"
+        }
+      ]
+    }
+  ],
+  "released_tags": [
+    {
+      "path": "data/aoa3/tags/block/extraction_trainable.json",
+      "sha256": "4d89581aa229f4b1106cf819592c56de9d41243f652ec265b14c56246245c4cd",
+      "data": {
+        "values": [
+          "#c:stones",
+          "#c:cobblestones/normal",
+          "#c:cobblestones/mossy",
+          "#c:ores",
+          "#minecraft:logs",
+          "#c:sands",
+          "#c:grass",
+          "#minecraft:dirt",
+          "#c:gravels",
+          "#c:netherracks",
+          "#c:obsidians",
+          "minecraft:blackstone",
+          "minecraft:basalt",
+          "minecraft:ancient_debris"
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/tags/item/faunamancer_tool.json",
+      "sha256": "312beec26b368fe1fcc1daced366fcf2ca563c1f9899d46c2bbf0ad9f815d206",
+      "data": {
+        "values": [
+          "aoa3:faunamancers_blade"
+        ]
+      }
+    }
+  ]
+}

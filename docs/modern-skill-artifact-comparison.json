@@ -1,0 +1,1438 @@
+{
+  "release": "3.7.16.1",
+  "version": "1.21.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "records": [
+    {
+      "path": "data/aoa3/player/skills/alchemy.json",
+      "artifact_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "source_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "semantic_match": true,
+      "data": {
+        "abilities": [],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/artifice.json",
+      "artifact_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "source_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "semantic_match": true,
+      "data": {
+        "abilities": [],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/creation.json",
+      "artifact_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "source_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "semantic_match": true,
+      "data": {
+        "abilities": [],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/dexterity.json",
+      "artifact_sha256": "a971e3d860b7b58f1ba7e108fe26b91a2a16c665b97b91297fe4675281502ec5",
+      "source_sha256": "a971e3d860b7b58f1ba7e108fe26b91a2a16c665b97b91297fe4675281502ec5",
+      "semantic_match": true,
+      "data": {
+        "abilities": [
+          {
+            "attribute": "minecraft:generic.movement_speed",
+            "base_value": 0.0,
+            "id": "aoa3:attribute_modification",
+            "level_req": 5,
+            "operation": 1,
+            "per_level_mod": 0.002,
+            "unique_id": "-1632793115"
+          },
+          {
+            "base_value": 0.0,
+            "id": "aoa3:fall_damage_reduction",
+            "level_req": 15,
+            "max_height": 10,
+            "min_height": 0,
+            "per_level_mod": 0.0085,
+            "unique_id": "1581623737"
+          },
+          {
+            "base_value": 0.25,
+            "id": "aoa3:jump_boost",
+            "level_req": 25,
+            "per_level_mod": 0.004,
+            "unique_id": "-93812277"
+          },
+          {
+            "attribute": "minecraft:generic.movement_speed",
+            "base_value": 0.05,
+            "id": "aoa3:attribute_modification",
+            "level_req": 40,
+            "operation": 1,
+            "per_level_mod": 0.0,
+            "unique_id": "1978567372"
+          },
+          {
+            "attribute": "neoforge:swim_speed",
+            "base_value": 0.0,
+            "id": "aoa3:attribute_modification",
+            "level_req": 50,
+            "operation": 1,
+            "per_level_mod": 0.003,
+            "unique_id": "286986321"
+          },
+          {
+            "base_value": 0.0,
+            "id": "aoa3:fall_damage_reduction",
+            "level_req": 60,
+            "max_height": 2147483647,
+            "min_height": 11,
+            "per_level_mod": 0.005,
+            "unique_id": "131469337"
+          },
+          {
+            "amplify_lateral_velocity": true,
+            "base_value": 0.25,
+            "id": "aoa3:jump_boost",
+            "level_req": 70,
+            "per_level_mod": 0.0,
+            "unique_id": "-585227644"
+          },
+          {
+            "attribute": "minecraft:generic.movement_speed",
+            "base_value": 0.05,
+            "id": "aoa3:attribute_modification",
+            "level_req": 80,
+            "operation": 1,
+            "per_level_mod": 0.0,
+            "unique_id": "1978566628"
+          },
+          {
+            "energy_consumption": 20.0,
+            "id": "aoa3:double_jump",
+            "level_req": 90,
+            "unique_id": "1755700425"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_dextrous",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "-1978598326"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/extraction.json",
+      "artifact_sha256": "fc28596cd3b9d5d73371e37593d82344cf6c0b8a4cc2087b48f5694e50c12ddf",
+      "source_sha256": "fc28596cd3b9d5d73371e37593d82344cf6c0b8a4cc2087b48f5694e50c12ddf",
+      "semantic_match": true,
+      "data": {
+        "abilities": [
+          {
+            "base_value": 0.4,
+            "id": "aoa3:bonus_mining_result",
+            "level_req": 6,
+            "per_level_mod": 0.0,
+            "unique_id": "-1680950606"
+          },
+          {
+            "base_value": 0.0,
+            "id": "aoa3:hard_block_speed_increase",
+            "level_req": 10,
+            "per_level_mod": 0.02,
+            "unique_id": "-957387662"
+          },
+          {
+            "base_value": 0.5,
+            "id": "aoa3:bonus_smelt_result",
+            "level_req": 16,
+            "per_level_mod": 0.0,
+            "unique_id": "1290688990"
+          },
+          {
+            "cost_reduction_per_level": 0.0135,
+            "energy_drain_per_tick": 1.7,
+            "id": "aoa3:harvest_speed_boost",
+            "level_req": 25,
+            "speed_boost": 2.5,
+            "unique_id": "194191539"
+          },
+          {
+            "base_value": 0.4,
+            "id": "aoa3:bonus_mining_result",
+            "level_req": 32,
+            "per_level_mod": 0.0,
+            "unique_id": "-1680951660"
+          },
+          {
+            "base_value": 0.5,
+            "id": "aoa3:bonus_crafting_output",
+            "level_req": 39,
+            "per_level_mod": 0.0,
+            "tag": "minecraft:planks",
+            "unique_id": "1051162964"
+          },
+          {
+            "base_value": 0.5,
+            "id": "aoa3:bonus_smelt_result",
+            "level_req": 48,
+            "per_level_mod": 0.0,
+            "unique_id": "1290687998"
+          },
+          {
+            "enchantments": {
+              "minecraft:fortune": 3,
+              "minecraft:unbreaking": 3
+            },
+            "id": "aoa3:auto_enchant_crafting",
+            "level_req": 55,
+            "unique_id": "1784233177"
+          },
+          {
+            "base_value": 0.5,
+            "id": "aoa3:bonus_crafting_output",
+            "item": "minecraft:torch",
+            "level_req": 62,
+            "per_level_mod": 0.0,
+            "unique_id": "1891831171"
+          },
+          {
+            "id": "aoa3:auto_harvesting_trash",
+            "level_req": 74,
+            "unique_id": "1857567991"
+          },
+          {
+            "base_value": 0.5,
+            "id": "aoa3:bonus_smelt_result",
+            "level_req": 82,
+            "per_level_mod": 0.0,
+            "unique_id": "1290686944"
+          },
+          {
+            "base_value": 0.4,
+            "id": "aoa3:bonus_mining_result",
+            "level_req": 89,
+            "per_level_mod": 0.0,
+            "unique_id": "-1680951939"
+          },
+          {
+            "base_value": 0.001,
+            "id": "aoa3:rare_table_harvesting_chance",
+            "level_req": 96,
+            "per_level_mod": 0.0,
+            "unique_id": "613461728"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_treasurer",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1966560183"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/farming.json",
+      "artifact_sha256": "ef38ae288c079ec4549409496a2d6e969e9292ad99d0b981feab285e46ec60cc",
+      "source_sha256": "ef38ae288c079ec4549409496a2d6e969e9292ad99d0b981feab285e46ec60cc",
+      "semantic_match": true,
+      "data": {
+        "abilities": [
+          {
+            "id": "aoa3:fertilise_farmland",
+            "level_req": 8,
+            "unique_id": "-1220019474"
+          },
+          {
+            "id": "aoa3:block_conversion",
+            "interaction_item": "minecraft:wheat_seeds",
+            "level_req": 16,
+            "radius": 1,
+            "replacement_block": "minecraft:mossy_cobblestone",
+            "target_block": "minecraft:cobblestone",
+            "unique_id": "1047471040"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 24,
+            "restricted_id": "aoa3:green_manure",
+            "restrictions": [
+              "interact_with",
+              "place_block"
+            ],
+            "unique_id": "-53236229"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 29,
+            "restricted_id": "aoa3:magic_marang_crop",
+            "restrictions": [
+              "place_block"
+            ],
+            "unique_id": "-1900201208"
+          },
+          {
+            "base_value": 0.1,
+            "id": "aoa3:breeding_bonus",
+            "level_req": 35,
+            "per_level_mod": 0.002,
+            "unique_id": "1383801170"
+          },
+          {
+            "base_value": 0.00075,
+            "id": "aoa3:dryad_sprite_spawn",
+            "level_req": 44,
+            "per_level_mod": 8e-05,
+            "unique_id": "-2033215558"
+          },
+          {
+            "base_value": 0.1,
+            "id": "aoa3:harvest_replant",
+            "level_req": 49,
+            "per_level_mod": 0.003,
+            "unique_id": "2052180611"
+          },
+          {
+            "base_radius": 1,
+            "id": "aoa3:hoe_area_harvest",
+            "level_req": 57,
+            "levels_per_radius_increase": 20,
+            "per_block_hoe_damage": 1,
+            "unique_id": "1619780961"
+          },
+          {
+            "id": "aoa3:block_conversion",
+            "interaction_item": "aoa3:mushroom_spores",
+            "level_req": 60,
+            "radius": 4,
+            "replacement_block": "minecraft:mycelium",
+            "target_block": "minecraft:grass_block",
+            "unique_id": "1885649426"
+          },
+          {
+            "id": "aoa3:no_trampling",
+            "level_req": 66,
+            "unique_id": "122493923"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 74,
+            "restricted_id": "aoa3:trilliad_crop",
+            "restrictions": [
+              "place_block"
+            ],
+            "unique_id": "1707876746"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 86,
+            "restricted_id": "aoa3:thorny_plant_crop",
+            "restrictions": [
+              "place_block"
+            ],
+            "unique_id": "1780713585"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 92,
+            "restricted_id": "aoa3:dryads_blessing",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1453633970"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_dryad",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "-870832574"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/faunamancy.json",
+      "artifact_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "source_sha256": "1435bc4b9ddb6820eed327296dbbb81c8e1453b145f3c45a60ced172ccd884c0",
+      "semantic_match": true,
+      "data": {
+        "abilities": [],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/hauling.json",
+      "artifact_sha256": "65b4fa275c38258383c09cb4287fb6f725b987e59384649c6526c6568847fe2d",
+      "source_sha256": "65b4fa275c38258383c09cb4287fb6f725b987e59384649c6526c6568847fe2d",
+      "semantic_match": true,
+      "data": {
+        "abilities": [
+          {
+            "base_value": 1.0,
+            "id": "aoa3:fishing_xp_boost",
+            "level_req": 8,
+            "per_level_mod": 0.0,
+            "unique_id": "-1580201954"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 15,
+            "restricted_id": "aoa3:hauling_rod",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1485830590"
+          },
+          {
+            "base_value": 0.05875,
+            "id": "aoa3:fishing_trap_spawn",
+            "level_req": 25,
+            "per_level_mod": -0.00035,
+            "unique_id": "-1825942066"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 31,
+            "restricted_id": "aoa3:fishing_cage",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1276175481"
+          },
+          {
+            "base_value": 0.0,
+            "id": "aoa3:hauling_rod_pull_strength",
+            "level_req": 45,
+            "per_level_mod": 0.0025,
+            "unique_id": "1276940119"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 54,
+            "restricted_id": "aoa3:thermally_insulated_rod",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "-818450273"
+          },
+          {
+            "id": "aoa3:hauling_glowing_fish",
+            "level_req": 60,
+            "unique_id": "218637460"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 69,
+            "restricted_id": "aoa3:light_rod",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "-1363353400"
+          },
+          {
+            "base_value": 3.0,
+            "id": "aoa3:hauling_rod_pull_damage",
+            "level_req": 77,
+            "per_level_mod": 0.0,
+            "unique_id": "-496987384"
+          },
+          {
+            "base_value": 0.075,
+            "id": "aoa3:hauling_resupply",
+            "level_req": 86,
+            "per_level_mod": 0.0,
+            "unique_id": "219506441"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_trawler",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1539846777"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/imbuing.json",
+      "artifact_sha256": "f7d1f8dc558af123b38d263bc363d840a0a08e0428471dd0d9d5796929232813",
+      "source_sha256": "f7d1f8dc558af123b38d263bc363d840a0a08e0428471dd0d9d5796929232813",
+      "semantic_match": true,
+      "data": {
+        "abilities": [
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 33,
+            "recipe_id": "aoa3:imbuing_aqua_affinity",
+            "unique_id": "1455984626"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 29,
+            "recipe_id": "aoa3:imbuing_archmage",
+            "unique_id": "44457645"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 39,
+            "recipe_id": "aoa3:imbuing_archmage_ii",
+            "unique_id": "1436353020"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 57,
+            "recipe_id": "aoa3:imbuing_archmage_iii",
+            "unique_id": "-1583953089"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 1,
+            "recipe_id": "aoa3:imbuing_bane_of_arthropods",
+            "unique_id": "466186290"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 12,
+            "recipe_id": "aoa3:imbuing_bane_of_arthropods_ii",
+            "unique_id": "-749130520"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 25,
+            "recipe_id": "aoa3:imbuing_bane_of_arthropods_iii",
+            "unique_id": "1906638464"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 34,
+            "recipe_id": "aoa3:imbuing_bane_of_arthropods_iv",
+            "unique_id": "-749132287"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 40,
+            "recipe_id": "aoa3:imbuing_bane_of_arthropods_v",
+            "unique_id": "-861966846"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 3,
+            "recipe_id": "aoa3:imbuing_blast_protection",
+            "unique_id": "1840195043"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 14,
+            "recipe_id": "aoa3:imbuing_blast_protection_ii",
+            "unique_id": "1429062939"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 26,
+            "recipe_id": "aoa3:imbuing_blast_protection_iii",
+            "unique_id": "-1519752296"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 35,
+            "recipe_id": "aoa3:imbuing_blast_protection_iv",
+            "unique_id": "1429061203"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 68,
+            "recipe_id": "aoa3:imbuing_brace",
+            "unique_id": "1708945589"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 31,
+            "recipe_id": "aoa3:imbuing_channeling",
+            "unique_id": "-1624587224"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 22,
+            "recipe_id": "aoa3:imbuing_control",
+            "unique_id": "1875381517"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 36,
+            "recipe_id": "aoa3:imbuing_control_ii",
+            "unique_id": "1673157954"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 49,
+            "recipe_id": "aoa3:imbuing_control_iii",
+            "unique_id": "1621857790"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 15,
+            "recipe_id": "aoa3:imbuing_depth_strider",
+            "unique_id": "2060777302"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 27,
+            "recipe_id": "aoa3:imbuing_depth_strider_ii",
+            "unique_id": "-944270895"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 37,
+            "recipe_id": "aoa3:imbuing_depth_strider_iii",
+            "unique_id": "1881853930"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 5,
+            "recipe_id": "aoa3:imbuing_efficiency",
+            "unique_id": "1067591684"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 19,
+            "recipe_id": "aoa3:imbuing_efficiency_ii",
+            "unique_id": "1552059505"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 28,
+            "recipe_id": "aoa3:imbuing_efficiency_iii",
+            "unique_id": "-1685228423"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 40,
+            "recipe_id": "aoa3:imbuing_efficiency_iv",
+            "unique_id": "1552059009"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 55,
+            "recipe_id": "aoa3:imbuing_efficiency_v",
+            "unique_id": "-1190489841"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 18,
+            "recipe_id": "aoa3:imbuing_feather_falling",
+            "unique_id": "-1660006205"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 27,
+            "recipe_id": "aoa3:imbuing_feather_falling_ii",
+            "unique_id": "-714237377"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 35,
+            "recipe_id": "aoa3:imbuing_feather_falling_iii",
+            "unique_id": "-1782401478"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 47,
+            "recipe_id": "aoa3:imbuing_feather_falling_iv",
+            "unique_id": "-714239082"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 17,
+            "recipe_id": "aoa3:imbuing_fire_aspect",
+            "unique_id": "2099505204"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 26,
+            "recipe_id": "aoa3:imbuing_fire_aspect_ii",
+            "unique_id": "-709457588"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 15,
+            "recipe_id": "aoa3:imbuing_fire_protection",
+            "unique_id": "31934369"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 24,
+            "recipe_id": "aoa3:imbuing_fire_protection_ii",
+            "unique_id": "269642947"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 33,
+            "recipe_id": "aoa3:imbuing_fire_protection_iii",
+            "unique_id": "758375761"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 49,
+            "recipe_id": "aoa3:imbuing_fire_protection_iv",
+            "unique_id": "269642079"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 25,
+            "recipe_id": "aoa3:imbuing_flame",
+            "unique_id": "-1656372286"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 12,
+            "recipe_id": "aoa3:imbuing_form",
+            "unique_id": "1074865752"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 21,
+            "recipe_id": "aoa3:imbuing_form_ii",
+            "unique_id": "2070233614"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 38,
+            "recipe_id": "aoa3:imbuing_form_iii",
+            "unique_id": "-1347215344"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 13,
+            "recipe_id": "aoa3:imbuing_fortune",
+            "unique_id": "2063141496"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 29,
+            "recipe_id": "aoa3:imbuing_fortune_ii",
+            "unique_id": "-177245657"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 43,
+            "recipe_id": "aoa3:imbuing_fortune_iii",
+            "unique_id": "291896620"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 39,
+            "recipe_id": "aoa3:imbuing_frost_walker",
+            "unique_id": "919430926"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 56,
+            "recipe_id": "aoa3:imbuing_frost_walker_ii",
+            "unique_id": "-671499842"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 10,
+            "recipe_id": "aoa3:imbuing_impaling",
+            "unique_id": "1407430471"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 24,
+            "recipe_id": "aoa3:imbuing_impaling_ii",
+            "unique_id": "-1520141664"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 35,
+            "recipe_id": "aoa3:imbuing_impaling_iii",
+            "unique_id": "-571722826"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 52,
+            "recipe_id": "aoa3:imbuing_impaling_iv",
+            "unique_id": "-1520142129"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 66,
+            "recipe_id": "aoa3:imbuing_impaling_v",
+            "unique_id": "-370563800"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 62,
+            "recipe_id": "aoa3:imbuing_infinity",
+            "unique_id": "1731871246"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 59,
+            "recipe_id": "aoa3:imbuing_intervention",
+            "unique_id": "-357701340"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 7,
+            "recipe_id": "aoa3:imbuing_knockback",
+            "unique_id": "161033376"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 16,
+            "recipe_id": "aoa3:imbuing_knockback_ii",
+            "unique_id": "-1227449292"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 18,
+            "recipe_id": "aoa3:imbuing_looting",
+            "unique_id": "-688842988"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 30,
+            "recipe_id": "aoa3:imbuing_looting_ii",
+            "unique_id": "734513193"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 44,
+            "recipe_id": "aoa3:imbuing_looting_iii",
+            "unique_id": "-2022582884"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 23,
+            "recipe_id": "aoa3:imbuing_loyalty",
+            "unique_id": "-958507555"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 31,
+            "recipe_id": "aoa3:imbuing_loyalty_ii",
+            "unique_id": "-1498663650"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 43,
+            "recipe_id": "aoa3:imbuing_loyalty_iii",
+            "unique_id": "-1281154705"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 1,
+            "recipe_id": "aoa3:imbuing_luck_of_the_sea",
+            "unique_id": "1318501358"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 10,
+            "recipe_id": "aoa3:imbuing_luck_of_the_sea_ii",
+            "unique_id": "-1551221006"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 24,
+            "recipe_id": "aoa3:imbuing_luck_of_the_sea_iii",
+            "unique_id": "-1352562597"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 2,
+            "recipe_id": "aoa3:imbuing_lure",
+            "unique_id": "1068390782"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 15,
+            "recipe_id": "aoa3:imbuing_lure_ii",
+            "unique_id": "-109181184"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 25,
+            "recipe_id": "aoa3:imbuing_lure_iii",
+            "unique_id": "1550171443"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 97,
+            "recipe_id": "aoa3:imbuing_mending",
+            "unique_id": "2057100665"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 45,
+            "recipe_id": "aoa3:imbuing_multishot",
+            "unique_id": "772979438"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 26,
+            "recipe_id": "aoa3:imbuing_piercing",
+            "unique_id": "-2094543379"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 34,
+            "recipe_id": "aoa3:imbuing_piercing_ii",
+            "unique_id": "412282020"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 51,
+            "recipe_id": "aoa3:imbuing_piercing_iii",
+            "unique_id": "-1870352316"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 69,
+            "recipe_id": "aoa3:imbuing_piercing_iv",
+            "unique_id": "412281834"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 25,
+            "recipe_id": "aoa3:imbuing_power",
+            "unique_id": "-1945549648"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 37,
+            "recipe_id": "aoa3:imbuing_power_ii",
+            "unique_id": "-1156012005"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 54,
+            "recipe_id": "aoa3:imbuing_power_iii",
+            "unique_id": "693618851"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 70,
+            "recipe_id": "aoa3:imbuing_power_iv",
+            "unique_id": "-1156012377"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 82,
+            "recipe_id": "aoa3:imbuing_power_v",
+            "unique_id": "-1567533550"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 13,
+            "recipe_id": "aoa3:imbuing_projectile_protection",
+            "unique_id": "-478272630"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 27,
+            "recipe_id": "aoa3:imbuing_projectile_protection_ii",
+            "unique_id": "-1190419045"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 38,
+            "recipe_id": "aoa3:imbuing_projectile_protection_iii",
+            "unique_id": "-388677671"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 51,
+            "recipe_id": "aoa3:imbuing_projectile_protection_iv",
+            "unique_id": "-1190421618"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 8,
+            "recipe_id": "aoa3:imbuing_protection",
+            "unique_id": "-1830112721"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 17,
+            "recipe_id": "aoa3:imbuing_protection_ii",
+            "unique_id": "-1171154145"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 31,
+            "recipe_id": "aoa3:imbuing_protection_iii",
+            "unique_id": "851553644"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 40,
+            "recipe_id": "aoa3:imbuing_protection_iv",
+            "unique_id": "-1171156687"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 25,
+            "recipe_id": "aoa3:imbuing_punch",
+            "unique_id": "-1950559713"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 36,
+            "recipe_id": "aoa3:imbuing_punch_ii",
+            "unique_id": "933435947"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 21,
+            "recipe_id": "aoa3:imbuing_quick_charge",
+            "unique_id": "760069111"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 33,
+            "recipe_id": "aoa3:imbuing_quick_charge_ii",
+            "unique_id": "55109052"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 48,
+            "recipe_id": "aoa3:imbuing_quick_charge_iii",
+            "unique_id": "-619665280"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 24,
+            "recipe_id": "aoa3:imbuing_recharge",
+            "unique_id": "-2061713135"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 39,
+            "recipe_id": "aoa3:imbuing_recharge_ii",
+            "unique_id": "62967259"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 56,
+            "recipe_id": "aoa3:imbuing_recharge_iii",
+            "unique_id": "-998733705"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 73,
+            "recipe_id": "aoa3:imbuing_recharge_iv",
+            "unique_id": "62967104"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 85,
+            "recipe_id": "aoa3:imbuing_recharge_v",
+            "unique_id": "-1687123857"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 14,
+            "recipe_id": "aoa3:imbuing_respiration",
+            "unique_id": "699050550"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 22,
+            "recipe_id": "aoa3:imbuing_respiration_ii",
+            "unique_id": "-881053869"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 35,
+            "recipe_id": "aoa3:imbuing_respiration_iii",
+            "unique_id": "-638564495"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 10,
+            "recipe_id": "aoa3:imbuing_riptide",
+            "unique_id": "1565687247"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 20,
+            "recipe_id": "aoa3:imbuing_riptide_ii",
+            "unique_id": "516437660"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 37,
+            "recipe_id": "aoa3:imbuing_riptide_iii",
+            "unique_id": "1219885784"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 19,
+            "recipe_id": "aoa3:imbuing_sever",
+            "unique_id": "-1891411930"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 27,
+            "recipe_id": "aoa3:imbuing_sever_ii",
+            "unique_id": "-4913667"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 46,
+            "recipe_id": "aoa3:imbuing_sever_iii",
+            "unique_id": "-985803977"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 62,
+            "recipe_id": "aoa3:imbuing_sever_iv",
+            "unique_id": "-4915837"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 70,
+            "recipe_id": "aoa3:imbuing_sever_v",
+            "unique_id": "-104029430"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 9,
+            "recipe_id": "aoa3:imbuing_sharpness",
+            "unique_id": "-1700841092"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 18,
+            "recipe_id": "aoa3:imbuing_sharpness_ii",
+            "unique_id": "236785940"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 25,
+            "recipe_id": "aoa3:imbuing_sharpness_iii",
+            "unique_id": "1711370938"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 45,
+            "recipe_id": "aoa3:imbuing_sharpness_iv",
+            "unique_id": "236785506"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 57,
+            "recipe_id": "aoa3:imbuing_sharpness_v",
+            "unique_id": "-578134075"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 16,
+            "recipe_id": "aoa3:imbuing_shell",
+            "unique_id": "-1893079420"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 26,
+            "recipe_id": "aoa3:imbuing_shell_ii",
+            "unique_id": "-1274393925"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 42,
+            "recipe_id": "aoa3:imbuing_shell_iii",
+            "unique_id": "106003004"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 60,
+            "recipe_id": "aoa3:imbuing_silk_touch",
+            "unique_id": "1157218103"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 14,
+            "recipe_id": "aoa3:imbuing_smite",
+            "unique_id": "-1898624390"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 21,
+            "recipe_id": "aoa3:imbuing_smite_ii",
+            "unique_id": "-875628114"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 37,
+            "recipe_id": "aoa3:imbuing_smite_iii",
+            "unique_id": "1446147215"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 44,
+            "recipe_id": "aoa3:imbuing_smite_iv",
+            "unique_id": "-875628672"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 62,
+            "recipe_id": "aoa3:imbuing_smite_v",
+            "unique_id": "-1375147005"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 20,
+            "recipe_id": "aoa3:imbuing_soul_speed",
+            "unique_id": "485122825"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 30,
+            "recipe_id": "aoa3:imbuing_soul_speed_ii",
+            "unique_id": "559267534"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 40,
+            "recipe_id": "aoa3:imbuing_soul_speed_iii",
+            "unique_id": "245593819"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 10,
+            "recipe_id": "aoa3:imbuing_sweeping_edge",
+            "unique_id": "-1267191384"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 22,
+            "recipe_id": "aoa3:imbuing_sweeping_edge_ii",
+            "unique_id": "1229830181"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 32,
+            "recipe_id": "aoa3:imbuing_sweeping_edge_iii",
+            "unique_id": "1739431412"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 35,
+            "recipe_id": "aoa3:imbuing_swift_sneak",
+            "unique_id": "556747631"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 42,
+            "recipe_id": "aoa3:imbuing_swift_sneak_ii",
+            "unique_id": "-545126701"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 50,
+            "recipe_id": "aoa3:imbuing_swift_sneak_iii",
+            "unique_id": "1890786924"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 36,
+            "recipe_id": "aoa3:imbuing_thorns",
+            "unique_id": "2137374136"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 45,
+            "recipe_id": "aoa3:imbuing_thorns_ii",
+            "unique_id": "186054142"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 58,
+            "recipe_id": "aoa3:imbuing_thorns_iii",
+            "unique_id": "863703700"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 30,
+            "recipe_id": "aoa3:imbuing_unbreaking",
+            "unique_id": "1857722626"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 41,
+            "recipe_id": "aoa3:imbuing_unbreaking_ii",
+            "unique_id": "-939869502"
+          },
+          {
+            "id": "aoa3:imbuing_level_restriction",
+            "level_req": 59,
+            "recipe_id": "aoa3:imbuing_unbreaking_iii",
+            "unique_id": "80872757"
+          },
+          {
+            "id": "aoa3:grindstone_curses_removal",
+            "level_req": 26,
+            "unique_id": "-1677288371"
+          },
+          {
+            "id": "aoa3:enchant_entity_equipment",
+            "level_req": 74,
+            "unique_id": "143817153"
+          },
+          {
+            "id": "aoa3:enchant_container_contents",
+            "level_req": 92,
+            "unique_id": "581431109"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_ritualist",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "1461853211"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    },
+    {
+      "path": "data/aoa3/player/skills/innervation.json",
+      "artifact_sha256": "125ed3020c506d40c4bf77588b1c8f5bd59669b5ab4f18220da3c59e452aeb87",
+      "source_sha256": "125ed3020c506d40c4bf77588b1c8f5bd59669b5ab4f18220da3c59e452aeb87",
+      "semantic_match": true,
+      "data": {
+        "abilities": [
+          {
+            "attribute": "minecraft:generic.max_health",
+            "base_value": 0.0,
+            "id": "aoa3:attribute_modification",
+            "level_req": 1,
+            "operation": 0,
+            "per_level_mod": 0.3,
+            "unique_id": "1970224826"
+          },
+          {
+            "health_restore_amount": 1.0,
+            "id": "aoa3:one_shot_damage_limiter",
+            "level_req": 10,
+            "min_activation_health": 0.0,
+            "unique_id": "-437214191"
+          },
+          {
+            "id": "aoa3:potion_duration_reducer",
+            "level_req": 19,
+            "match_effects": [
+              "minecraft:slowness",
+              "minecraft:mining_fatigue",
+              "minecraft:weakness",
+              "minecraft:blindness",
+              "minecraft:nausea"
+            ],
+            "modifier": 0.5,
+            "unique_id": "-1015989968"
+          },
+          {
+            "attribute": "minecraft:generic.max_health",
+            "base_value": 10.0,
+            "id": "aoa3:attribute_modification",
+            "level_req": 25,
+            "operation": 0,
+            "per_level_mod": 0.0,
+            "unique_id": "-2042597261"
+          },
+          {
+            "id": "aoa3:bow_damage_increase",
+            "level_req": 36,
+            "modifier": 1.2,
+            "require_full_charge": true,
+            "unique_id": "-591168779"
+          },
+          {
+            "id": "aoa3:innervation_mob_lure",
+            "level_req": 44,
+            "lured_damage_modifier": 0.25,
+            "on_hit_drain": 30.0,
+            "per_tick_spirit_drain": 0.4,
+            "unique_id": "284037887"
+          },
+          {
+            "attribute": "minecraft:generic.max_health",
+            "base_value": 10.0,
+            "id": "aoa3:attribute_modification",
+            "level_req": 50,
+            "operation": 0,
+            "per_level_mod": 0.0,
+            "unique_id": "-2042598532"
+          },
+          {
+            "energy_cost": 30.0,
+            "id": "aoa3:innervation_dodge",
+            "level_req": 59,
+            "unique_id": "-1148022055"
+          },
+          {
+            "id": "aoa3:vulcane_damage_increase",
+            "level_req": 65,
+            "min_rage": 0.0,
+            "modifier": 1.5,
+            "unique_id": "-1590910758"
+          },
+          {
+            "base_value": 0.1,
+            "id": "aoa3:double_drops_chance",
+            "level_req": 77,
+            "per_level_mod": 0.00147,
+            "unique_id": "-1596895304"
+          },
+          {
+            "attribute": "minecraft:generic.max_health",
+            "base_value": 10.0,
+            "id": "aoa3:attribute_modification",
+            "level_req": 85,
+            "operation": 0,
+            "per_level_mod": 0.0,
+            "unique_id": "-2042599369"
+          },
+          {
+            "energy_cost": 30.0,
+            "id": "aoa3:stun_strike",
+            "level_req": 91,
+            "stun_duration": 40,
+            "unique_id": "-1782268962"
+          },
+          {
+            "id": "aoa3:level_restriction",
+            "level_req": 100,
+            "restricted_id": "aoa3:helm_of_the_warrior",
+            "restrictions": [
+              "equip"
+            ],
+            "unique_id": "619464118"
+          }
+        ],
+        "xp_modifier": 1.0
+      }
+    }
+  ]
+}
