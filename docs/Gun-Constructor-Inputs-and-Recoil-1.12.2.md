@@ -114,6 +114,8 @@ Each linked name opens its own source-model portrait and input panel. Tick inter
 
 ## Firing and ammunition
 
+For drawn weapons, use the [33-bow draw timing and ammunition guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-Draw-Timing-and-Ammunition-1.12.2), including Holly Arrow crafting and subclass exceptions.
+
 For launchers, use the [50-cannon ammunition and armor-scaling guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Ammunition-and-Armor-Scaling-1.12.2); their checked payment items span six categories.
 
 For precision weapons, use the [27-sniper stance and scope guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sniper-Stance-Scopes-and-Inputs-1.12.2), including all 13 released scope overlays and the early-impact age check.
