@@ -1,0 +1,4043 @@
+{
+  "scope": "Released interaction methods, exact recipe/loot resources and retained castle templates for three releases. Resource retention is not proof of working modern world generation or current Enderloom parity.",
+  "versions": [
+    {
+      "output_ids": [
+        "aoa3:hydrangic_boots",
+        "aoa3:hydrangic_legs",
+        "aoa3:hydrangic_chestplate",
+        "aoa3:hydrangic_helmet"
+      ],
+      "version": "1.16.5",
+      "release": "3.6.11",
+      "interaction": {
+        "class_path": "net/tslat/aoa3/content/block/functional/utility/PetalCraftingStation.class",
+        "class_sha256": "1c06f4929e854b2910483a450f8ab1d8fb986deeba139bef0b99b0d4529489e6",
+        "name": "func_225533_a_",
+        "descriptor": "(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;",
+        "code_hex": "19041905b6003cb60042b20048b6004da600c52cb600539a00ba1904b600569a000e19041905b6003c04b6005a1904b6005e07b60064aa000000008700000000000000030000001e00000039000000540000006f1904bb003e59b20068b4006bb6004dc0006db70070b80076a700511904bb003e59b20068b40079b6004dc0006db70070b80076a700361904bb003e59b20068b4007cb6004dc0006db70070b80076a7001b1904bb003e59b20068b4007fb6004dc0006db70070b800762c012db20084b6004dc00086b2008c0c0cb60090b20096b0b20099b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 2,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/entity/player/PlayerEntity",
+              "func_184586_b",
+              "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/item/ItemStack",
+              "func_77973_b",
+              "()Lnet/minecraft/item/Item;"
+            ]
+          },
+          {
+            "offset": 10,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAItems",
+              "PETALS",
+              "Lnet/minecraftforge/fml/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 13,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/fml/RegistryObject",
+              "get",
+              "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 166,
+            "operands": [
+              0,
+              197
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 44
+          },
+          {
+            "offset": 20,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/World",
+              "func_201670_d",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 23,
+            "opcode": 154,
+            "operands": [
+              0,
+              186
+            ]
+          },
+          {
+            "offset": 26,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 28,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/entity/player/PlayerEntity",
+              "func_184812_l_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 31,
+            "opcode": 154,
+            "operands": [
+              0,
+              14
+            ]
+          },
+          {
+            "offset": 34,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 36,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/entity/player/PlayerEntity",
+              "func_184586_b",
+              "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+            ]
+          },
+          {
+            "offset": 41,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 42,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/item/ItemStack",
+              "func_190918_g",
+              "(I)V"
+            ]
+          },
+          {
+            "offset": 45,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 47,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/entity/player/PlayerEntity",
+              "func_70681_au",
+              "()Ljava/util/Random;"
+            ]
+          },
+          {
+            "offset": 50,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 51,
+            "opcode": 182,
+            "member": [
+              "java/util/Random",
+              "nextInt",
+              "(I)I"
+            ]
+          },
+          {
+            "offset": 54,
+            "opcode": 170,
+            "default_target": 189,
+            "cases": [
+              {
+                "key": 0,
+                "target": 84
+              },
+              {
+                "key": 1,
+                "target": 111
+              },
+              {
+                "key": 2,
+                "target": 138
+              },
+              {
+                "key": 3,
+                "target": 165
+              }
+            ]
+          },
+          {
+            "offset": 84,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 187,
+            "operands": [
+              0,
+              62
+            ]
+          },
+          {
+            "offset": 89,
+            "opcode": 89
+          },
+          {
+            "offset": 90,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 93,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour$ArmourSet",
+              "boots",
+              "Lnet/minecraftforge/fml/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 96,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/fml/RegistryObject",
+              "get",
+              "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+            ]
+          },
+          {
+            "offset": 99,
+            "opcode": 192,
+            "operands": [
+              0,
+              109
+            ]
+          },
+          {
+            "offset": 102,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/util/IItemProvider;)V"
+            ]
+          },
+          {
+            "offset": 105,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 108,
+            "opcode": 167,
+            "operands": [
+              0,
+              81
+            ]
+          },
+          {
+            "offset": 111,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 113,
+            "opcode": 187,
+            "operands": [
+              0,
+              62
+            ]
+          },
+          {
+            "offset": 116,
+            "opcode": 89
+          },
+          {
+            "offset": 117,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 120,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour$ArmourSet",
+              "leggings",
+              "Lnet/minecraftforge/fml/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 123,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/fml/RegistryObject",
+              "get",
+              "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+            ]
+          },
+          {
+            "offset": 126,
+            "opcode": 192,
+            "operands": [
+              0,
+              109
+            ]
+          },
+          {
+            "offset": 129,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/util/IItemProvider;)V"
+            ]
+          },
+          {
+            "offset": 132,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 135,
+            "opcode": 167,
+            "operands": [
+              0,
+              54
+            ]
+          },
+          {
+            "offset": 138,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 140,
+            "opcode": 187,
+            "operands": [
+              0,
+              62
+            ]
+          },
+          {
+            "offset": 143,
+            "opcode": 89
+          },
+          {
+            "offset": 144,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 147,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour$ArmourSet",
+              "chestplate",
+              "Lnet/minecraftforge/fml/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 150,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/fml/RegistryObject",
+              "get",
+              "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+            ]
+          },
+          {
+            "offset": 153,
+            "opcode": 192,
+            "operands": [
+              0,
+              109
+            ]
+          },
+          {
+            "offset": 156,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/util/IItemProvider;)V"
+            ]
+          },
+          {
+            "offset": 159,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 162,
+            "opcode": 167,
+            "operands": [
+              0,
+              27
+            ]
+          },
+          {
+            "offset": 165,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 167,
+            "opcode": 187,
+            "operands": [
+              0,
+              62
+            ]
+          },
+          {
+            "offset": 170,
+            "opcode": 89
+          },
+          {
+            "offset": 171,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 174,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAArmour$ArmourSet",
+              "helmet",
+              "Lnet/minecraftforge/fml/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 177,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/fml/RegistryObject",
+              "get",
+              "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+            ]
+          },
+          {
+            "offset": 180,
+            "opcode": 192,
+            "operands": [
+              0,
+              109
+            ]
+          },
+          {
+            "offset": 183,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/util/IItemProvider;)V"
+            ]
+          },
+          {
+            "offset": 186,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 189,
+            "opcode": 44
+          },
+          {
+            "offset": 190,
+            "opcode": 1
+          },
+          {
+            "offset": 191,
+            "opcode": 45
+          },
+          {
+            "offset": 192,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoASounds",
+              "BLOCK_PETAL_CRAFTING_STATION_USE",
+              "Lnet/minecraftforge/fml/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 195,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/fml/RegistryObject",
+              "get",
+              "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+            ]
+          },
+          {
+            "offset": 198,
+            "opcode": 192,
+            "operands": [
+              0,
+              134
+            ]
+          },
+          {
+            "offset": 201,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/util/SoundCategory",
+              "BLOCKS",
+              "Lnet/minecraft/util/SoundCategory;"
+            ]
+          },
+          {
+            "offset": 204,
+            "opcode": 12
+          },
+          {
+            "offset": 205,
+            "opcode": 12
+          },
+          {
+            "offset": 206,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/World",
+              "func_184133_a",
+              "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+            ]
+          },
+          {
+            "offset": 209,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/util/ActionResultType",
+              "SUCCESS",
+              "Lnet/minecraft/util/ActionResultType;"
+            ]
+          },
+          {
+            "offset": 212,
+            "opcode": 176
+          },
+          {
+            "offset": 213,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/util/ActionResultType",
+              "PASS",
+              "Lnet/minecraft/util/ActionResultType;"
+            ]
+          },
+          {
+            "offset": 216,
+            "opcode": 176
+          }
+        ]
+      },
+      "output_slots": [
+        "boots",
+        "leggings",
+        "chestplate",
+        "helmet"
+      ],
+      "petal_recipes": [
+        {
+          "path": "data/aoa3/recipes/shapeless_craft_petals.json",
+          "sha256": "a915cdb133ab870d6964d7469eae1cdbff3b911e31f6265188616141c20f8302",
+          "data": {
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+              {
+                "item": "aoa3:small_blue_petal"
+              },
+              {
+                "item": "aoa3:small_green_petal"
+              },
+              {
+                "item": "aoa3:small_orange_petal"
+              },
+              {
+                "item": "aoa3:small_purple_petal"
+              },
+              {
+                "item": "aoa3:small_red_petal"
+              }
+            ],
+            "result": {
+              "item": "aoa3:petals"
+            }
+          }
+        }
+      ],
+      "petal_loot_tables": [
+        {
+          "path": "data/aoa3/loot_tables/entities/archvine.json",
+          "sha256": "34dd394b0092dfa070b10e92a438e3d80e7d2540684675f48709ca4c0db4755f",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "loot",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:small_red_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:small_green_petal"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/gardencia"
+                  }
+                ]
+              },
+              {
+                "name": "mob_specific_loot",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:sticky_slime"
+                  }
+                ]
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "name": "loot",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "aoa3:small_red_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "aoa3:small_green_petal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/carrotop.json",
+          "sha256": "63bb5e3e81d85ee8d5371fad02fa1de68ddcfcc6b5f8ef5594db598289f5fd83",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "golden_carrots",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 975
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 25,
+                    "name": "minecraft:golden_carrot"
+                  }
+                ]
+              },
+              {
+                "name": "carrots",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 0.0,
+                          "max": 2.0,
+                          "type": "minecraft:uniform"
+                        }
+                      },
+                      {
+                        "function": "minecraft:looting_enchant",
+                        "count": {
+                          "min": 0.0,
+                          "max": 1.0
+                        }
+                      }
+                    ],
+                    "name": "minecraft:carrot"
+                  }
+                ]
+              },
+              {
+                "name": "loot",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "aoa3:small_orange_petal"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/gardencia"
+                  }
+                ]
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "name": "loot",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 20,
+                  "name": "aoa3:small_orange_petal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/flowerface.json",
+          "sha256": "75675b844bc74db64f34b08d24474824e20c4287d77c72de455e927df7f6baf7",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "loot",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:small_purple_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:small_blue_petal"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/gardencia"
+                  }
+                ]
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "name": "loot",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "aoa3:small_purple_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "aoa3:small_blue_petal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/pod_plant.json",
+          "sha256": "3f3003d6ac2652715b489dcaf33e460fbc3345ab9aca467044392ed56e617c31",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "loot",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:small_red_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "aoa3:small_green_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "aoa3:flowercorne"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "minecraft:poppy"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 19,
+                    "name": "minecraft:lime_dye"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 24,
+                    "name": "aoa3:garden_grass"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 22,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 6.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "minecraft:stick"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/gardencia"
+                  }
+                ]
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "name": "loot",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "aoa3:small_red_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 10,
+                  "name": "aoa3:small_green_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "name": "aoa3:flowercorne"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 20,
+                  "name": "minecraft:poppy"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 19,
+                  "name": "minecraft:lime_dye"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 24,
+                  "name": "aoa3:garden_grass"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 22,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 6.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "minecraft:stick"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/sunny.json",
+          "sha256": "d22d98f5e8516246035697e83d25b2df5283e41320bcf622622567b2c241e600",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "loot",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "aoa3:small_green_petal"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/gardencia"
+                  }
+                ]
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "name": "loot",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 20,
+                  "name": "aoa3:small_green_petal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/vinocorne.json",
+          "sha256": "45e1dfa912ec4b68233e0388b29a93e151461a9cb90b1df58c3902c7fd62c005",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "rares",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 10
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 19,
+                    "name": "aoa3:rosidian_sword"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 14,
+                    "name": "aoa3:flowers_fury"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 13,
+                    "name": "aoa3:rosid_rifle"
+                  }
+                ]
+              },
+              {
+                "name": "supplies",
+                "rolls": {
+                  "min": 1.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 50
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 35,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 5.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:silver_coin"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 2.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:gold_coin"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 40,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 4.0,
+                          "max": 16.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:rosidons"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 40,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 6.0,
+                          "max": 20.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:life_rune"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 40,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 6.0,
+                          "max": 20.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:water_rune"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 34,
+                    "name": "aoa3:small_purple_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 34,
+                    "name": "aoa3:small_red_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 34,
+                    "name": "aoa3:small_blue_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 34,
+                    "name": "aoa3:small_green_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 34,
+                    "name": "aoa3:small_orange_petal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 40,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 10.0,
+                          "max": 30.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "minecraft:green_dye"
+                  }
+                ],
+                "bonus_rolls": 1.0
+              },
+              {
+                "name": "trophy",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{BlockEntityTag:{EntityID:\"aoa3:vinocorne\",OriginalTrophy:1b},display:{Name:'{\"translate\":\"block.aoa3.trophy.desc\",\"with\":[{\"translate\":\"entity.aoa3.vinocorne\"}]}'}}"
+                      }
+                    ],
+                    "name": "aoa3:trophy"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/gardencia"
+                  }
+                ]
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "name": "supplies",
+              "rolls": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 50
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 35,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 5.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "aoa3:silver_coin"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 15,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 2.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "aoa3:gold_coin"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 4.0,
+                        "max": 16.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "aoa3:rosidons"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 6.0,
+                        "max": 20.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "aoa3:life_rune"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 6.0,
+                        "max": 20.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "aoa3:water_rune"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 34,
+                  "name": "aoa3:small_purple_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 34,
+                  "name": "aoa3:small_red_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 34,
+                  "name": "aoa3:small_blue_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 34,
+                  "name": "aoa3:small_green_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 34,
+                  "name": "aoa3:small_orange_petal"
+                },
+                {
+                  "type": "minecraft:item",
+                  "weight": 40,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 10.0,
+                        "max": 30.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "minecraft:green_dye"
+                }
+              ],
+              "bonus_rolls": 1.0
+            }
+          ]
+        }
+      ],
+      "garden_castle_worldgen_resources": [
+        {
+          "path": "data/aoa3/dimension/gardencia.json",
+          "sha256": "71930045458c42d1f7c9fae8b3851330b7843be7577be28470dd73ef7932777c",
+          "data": {
+            "type": "aoa3:gardencia",
+            "generator": {
+              "type": "minecraft:noise",
+              "seed": 0,
+              "settings": {
+                "bedrock_roof_position": -20,
+                "bedrock_floor_position": -20,
+                "sea_level": 66,
+                "disable_mob_generation": false,
+                "default_block": {
+                  "Name": "aoa3:aromatic_stone"
+                },
+                "default_fluid": {
+                  "Name": "minecraft:water",
+                  "Properties": {
+                    "level": "0"
+                  }
+                },
+                "structures": {
+                  "structures": {
+                    "aoa3:garden_castle": {
+                      "spacing": 32,
+                      "separation": 12,
+                      "salt": 2125739041
+                    },
+                    "aoa3:lotto_sky_flower": {
+                      "spacing": 32,
+                      "separation": 12,
+                      "salt": 730257616
+                    },
+                    "aoa3:daysee_flower": {
+                      "spacing": 26,
+                      "separation": 10,
+                      "salt": 662890857
+                    },
+                    "aoa3:wizard_flower": {
+                      "spacing": 26,
+                      "separation": 10,
+                      "salt": 952624489
+                    },
+                    "aoa3:floro_castle": {
+                      "spacing": 40,
+                      "separation": 16,
+                      "salt": 102785241
+                    }
+                  }
+                },
+                "noise": {
+                  "top_slide": {
+                    "target": -10,
+                    "size": 3,
+                    "offset": 0
+                  },
+                  "bottom_slide": {
+                    "target": -30,
+                    "size": 0,
+                    "offset": 0
+                  },
+                  "sampling": {
+                    "xz_scale": 1.0,
+                    "y_scale": 1.0,
+                    "xz_factor": 80.0,
+                    "y_factor": 160.0
+                  },
+                  "size_vertical": 2,
+                  "size_horizontal": 1,
+                  "height": 256,
+                  "density_factor": 1.0,
+                  "density_offset": -0.46875,
+                  "random_density_offset": true,
+                  "simplex_surface_noise": true,
+                  "island_noise_override": false,
+                  "amplified": false
+                }
+              },
+              "biome_source": {
+                "type": "minecraft:fixed",
+                "seed": 0,
+                "biome": "aoa3:floral_islands"
+              }
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/worldgen/biome/floral_islands.json",
+          "sha256": "35894ff943fc838276a99238649355ad43e7353f4d23028c88b50bad9cf0c63b",
+          "data": {
+            "precipitation": "none",
+            "category": "none",
+            "depth": 0.0,
+            "scale": 0.3,
+            "temperature": 0.65,
+            "temperature_modifier": "none",
+            "downfall": 0.75,
+            "effects": {
+              "fog_color": 0,
+              "sky_color": 7907327,
+              "water_color": 1692534,
+              "water_fog_color": 1692534,
+              "grass_color_modifier": "none"
+            },
+            "surface_builder": "aoa3:gardencia",
+            "carvers": {},
+            "features": [
+              [
+                "aoa3:dimensional_fabric_floor"
+              ],
+              [
+                "aoa3:gardencia_lakes"
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                "aoa3:giant_flowers",
+                "aoa3:garden_grass",
+                "aoa3:gardencian_flowers"
+              ],
+              []
+            ],
+            "starts": [
+              "aoa3:garden_castle",
+              "aoa3:lotto_sky_flower",
+              "aoa3:daysee_flower",
+              "aoa3:wizard_flower",
+              "aoa3:floro_castle"
+            ],
+            "spawners": {
+              "monster": [
+                {
+                  "type": "aoa3:flowerface",
+                  "weight": 20,
+                  "minCount": 1,
+                  "maxCount": 1
+                },
+                {
+                  "type": "aoa3:corny",
+                  "weight": 20,
+                  "minCount": 1,
+                  "maxCount": 1
+                },
+                {
+                  "type": "aoa3:sunny",
+                  "weight": 1,
+                  "minCount": 1,
+                  "maxCount": 1
+                },
+                {
+                  "type": "aoa3:archvine",
+                  "weight": 20,
+                  "minCount": 1,
+                  "maxCount": 1
+                },
+                {
+                  "type": "aoa3:squasher",
+                  "weight": 20,
+                  "minCount": 1,
+                  "maxCount": 1
+                },
+                {
+                  "type": "aoa3:carrotop",
+                  "weight": 20,
+                  "minCount": 1,
+                  "maxCount": 1
+                },
+                {
+                  "type": "aoa3:broccohead",
+                  "weight": 20,
+                  "minCount": 1,
+                  "maxCount": 1
+                }
+              ],
+              "creature": [],
+              "ambient": [],
+              "water_creature": [],
+              "water_ambient": [],
+              "misc": []
+            },
+            "player_spawn_friendly": false,
+            "creature_spawn_probability": 0.1,
+            "spawn_costs": {}
+          }
+        },
+        {
+          "path": "data/aoa3/worldgen/configured_structure_feature/garden_castle.json",
+          "sha256": "84aa4a0d3a3d00283a1c040b8b7318b8a466ea5cd618c1f0164a45794c6b899b",
+          "data": {
+            "config": {},
+            "type": "aoa3:garden_castle"
+          }
+        },
+        {
+          "path": "data/aoa3/worldgen/template_pool/gardencia/garden_castle/main_pool.json",
+          "sha256": "8e767a8c35d01f781c4bc838d41d73ab0ea8891074d5bf111c8167576003bfe1",
+          "data": {
+            "name": "aoa3:gardencia/garden_castle/main_pool",
+            "fallback": "minecraft:empty",
+            "elements": [
+              {
+                "weight": 1,
+                "element": {
+                  "location": "aoa3:gardencia/garden_castle/garden_castle",
+                  "processors": {
+                    "processors": []
+                  },
+                  "projection": "rigid",
+                  "element_type": "minecraft:single_pool_element"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "template": {
+        "path": "data/aoa3/structures/gardencia/garden_castle/garden_castle.nbt",
+        "sha256": "23c7c7df12e6ee98a027176a7130e10e6329a20507b756b719b9f5d6445044e8",
+        "size": [
+          27,
+          23,
+          21
+        ],
+        "station_positions": [
+          [
+            13,
+            12,
+            13
+          ]
+        ],
+        "coordinate_scope": "template-relative, not world coordinates"
+      },
+      "hidden_from_recipe_viewers": null
+    },
+    {
+      "output_ids": [
+        "aoa3:hydrangic_boots",
+        "aoa3:hydrangic_leggings",
+        "aoa3:hydrangic_chestplate",
+        "aoa3:hydrangic_helmet"
+      ],
+      "version": "1.20.1",
+      "release": "3.7.1",
+      "interaction": {
+        "class_path": "net/tslat/aoa3/content/block/functional/utility/PetalCraftingStation.class",
+        "class_sha256": "14ba1614548a62c0fa077c2fc9e468e2ccae799a8f7ef584390f178967734294",
+        "name": "m_6227_",
+        "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;",
+        "code_hex": "19041905b6001fb60025b2002bb60031a600c92cb600379a00be1904b6003a9a000e19041905b6001f04b6003e1904b6004207b900480200aa000000000000890000000000000003000000200000003b00000056000000711904bb002159b2004cb4004fb60031c00051b70054b8005aa700511904bb002159b2004cb4005db60031c00051b70054b8005aa700361904bb002159b2004cb40060b60031c00051b70054b8005aa7001b1904bb002159b2004cb40063b60031c00051b70054b8005a2c012db20068b60031c0006ab200700c0cb60074b2007ab0b2007db0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 2,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/player/Player",
+              "m_21120_",
+              "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "m_41720_",
+              "()Lnet/minecraft/world/item/Item;"
+            ]
+          },
+          {
+            "offset": 10,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItems",
+              "PETALS",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 13,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 166,
+            "operands": [
+              0,
+              201
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 44
+          },
+          {
+            "offset": 20,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "m_5776_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 23,
+            "opcode": 154,
+            "operands": [
+              0,
+              190
+            ]
+          },
+          {
+            "offset": 26,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 28,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/player/Player",
+              "m_7500_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 31,
+            "opcode": 154,
+            "operands": [
+              0,
+              14
+            ]
+          },
+          {
+            "offset": 34,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 36,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/player/Player",
+              "m_21120_",
+              "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+            ]
+          },
+          {
+            "offset": 41,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 42,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "m_41774_",
+              "(I)V"
+            ]
+          },
+          {
+            "offset": 45,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 47,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/player/Player",
+              "m_217043_",
+              "()Lnet/minecraft/util/RandomSource;"
+            ]
+          },
+          {
+            "offset": 50,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 51,
+            "opcode": 185,
+            "member": [
+              "net/minecraft/util/RandomSource",
+              "m_188503_",
+              "(I)I"
+            ]
+          },
+          {
+            "offset": 56,
+            "opcode": 170,
+            "default_target": 193,
+            "cases": [
+              {
+                "key": 0,
+                "target": 88
+              },
+              {
+                "key": 1,
+                "target": 115
+              },
+              {
+                "key": 2,
+                "target": 142
+              },
+              {
+                "key": 3,
+                "target": 169
+              }
+            ]
+          },
+          {
+            "offset": 88,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 90,
+            "opcode": 187,
+            "operands": [
+              0,
+              33
+            ]
+          },
+          {
+            "offset": 93,
+            "opcode": 89
+          },
+          {
+            "offset": 94,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 97,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "boots",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 100,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 103,
+            "opcode": 192,
+            "operands": [
+              0,
+              81
+            ]
+          },
+          {
+            "offset": 106,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/world/level/ItemLike;)V"
+            ]
+          },
+          {
+            "offset": 109,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 112,
+            "opcode": 167,
+            "operands": [
+              0,
+              81
+            ]
+          },
+          {
+            "offset": 115,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 117,
+            "opcode": 187,
+            "operands": [
+              0,
+              33
+            ]
+          },
+          {
+            "offset": 120,
+            "opcode": 89
+          },
+          {
+            "offset": 121,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 124,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "leggings",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 127,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 130,
+            "opcode": 192,
+            "operands": [
+              0,
+              81
+            ]
+          },
+          {
+            "offset": 133,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/world/level/ItemLike;)V"
+            ]
+          },
+          {
+            "offset": 136,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 139,
+            "opcode": 167,
+            "operands": [
+              0,
+              54
+            ]
+          },
+          {
+            "offset": 142,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 144,
+            "opcode": 187,
+            "operands": [
+              0,
+              33
+            ]
+          },
+          {
+            "offset": 147,
+            "opcode": 89
+          },
+          {
+            "offset": 148,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 151,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "chestplate",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 154,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 157,
+            "opcode": 192,
+            "operands": [
+              0,
+              81
+            ]
+          },
+          {
+            "offset": 160,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/world/level/ItemLike;)V"
+            ]
+          },
+          {
+            "offset": 163,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 166,
+            "opcode": 167,
+            "operands": [
+              0,
+              27
+            ]
+          },
+          {
+            "offset": 169,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 171,
+            "opcode": 187,
+            "operands": [
+              0,
+              33
+            ]
+          },
+          {
+            "offset": 174,
+            "opcode": 89
+          },
+          {
+            "offset": 175,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 178,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "helmet",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 181,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 184,
+            "opcode": 192,
+            "operands": [
+              0,
+              81
+            ]
+          },
+          {
+            "offset": 187,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "<init>",
+              "(Lnet/minecraft/world/level/ItemLike;)V"
+            ]
+          },
+          {
+            "offset": 190,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/ItemUtil",
+              "givePlayerItemOrDrop",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+            ]
+          },
+          {
+            "offset": 193,
+            "opcode": 44
+          },
+          {
+            "offset": 194,
+            "opcode": 1
+          },
+          {
+            "offset": 195,
+            "opcode": 45
+          },
+          {
+            "offset": 196,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoASounds",
+              "BLOCK_PETAL_CRAFTING_STATION_USE",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 199,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 202,
+            "opcode": 192,
+            "operands": [
+              0,
+              106
+            ]
+          },
+          {
+            "offset": 205,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/sounds/SoundSource",
+              "BLOCKS",
+              "Lnet/minecraft/sounds/SoundSource;"
+            ]
+          },
+          {
+            "offset": 208,
+            "opcode": 12
+          },
+          {
+            "offset": 209,
+            "opcode": 12
+          },
+          {
+            "offset": 210,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "m_5594_",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+            ]
+          },
+          {
+            "offset": 213,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/InteractionResult",
+              "SUCCESS",
+              "Lnet/minecraft/world/InteractionResult;"
+            ]
+          },
+          {
+            "offset": 216,
+            "opcode": 176
+          },
+          {
+            "offset": 217,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/InteractionResult",
+              "PASS",
+              "Lnet/minecraft/world/InteractionResult;"
+            ]
+          },
+          {
+            "offset": 220,
+            "opcode": 176
+          }
+        ]
+      },
+      "output_slots": [
+        "boots",
+        "leggings",
+        "chestplate",
+        "helmet"
+      ],
+      "petal_recipes": [
+        {
+          "path": "data/aoa3/recipes/shapeless_craft_petals.json",
+          "sha256": "5e2c20459e58207e6729ba66e5937500a39a026affd4823c703e0254cbf59339",
+          "data": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+              {
+                "item": "aoa3:small_blue_petal"
+              },
+              {
+                "item": "aoa3:small_green_petal"
+              },
+              {
+                "item": "aoa3:small_orange_petal"
+              },
+              {
+                "item": "aoa3:small_purple_petal"
+              },
+              {
+                "item": "aoa3:small_red_petal"
+              }
+            ],
+            "result": {
+              "item": "aoa3:petals"
+            }
+          }
+        }
+      ],
+      "petal_loot_tables": [
+        {
+          "path": "data/aoa3/loot_tables/entities/archvine.json",
+          "sha256": "49436997a43260e6591f43b8782399cd1b0ef50e79b72a91c8a79d2a106f44aa",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_red_petal",
+                    "weight": 10
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_green_petal",
+                    "weight": 10
+                  }
+                ],
+                "name": "loot",
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:sticky_slime",
+                    "weight": 10
+                  }
+                ],
+                "name": "mob_specific_loot",
+                "rolls": 1.0
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "bonus_rolls": 0.0,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_red_petal",
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_green_petal",
+                  "weight": 10
+                }
+              ],
+              "name": "loot",
+              "rolls": 1.0
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/carrotop.json",
+          "sha256": "17121da2a17365b5b4a76781008a474f5adbc07f3bd92137e764f8f4ae56ec7e",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 975
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_carrot",
+                    "weight": 25
+                  }
+                ],
+                "name": "golden_carrots",
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "max": 2.0,
+                          "min": 0.0
+                        },
+                        "function": "minecraft:set_count"
+                      },
+                      {
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "max": 1.0,
+                          "min": 0.0
+                        },
+                        "function": "minecraft:looting_enchant"
+                      }
+                    ],
+                    "name": "minecraft:carrot"
+                  }
+                ],
+                "name": "carrots",
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_orange_petal",
+                    "weight": 20
+                  }
+                ],
+                "name": "loot",
+                "rolls": 1.0
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "bonus_rolls": 0.0,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_orange_petal",
+                  "weight": 20
+                }
+              ],
+              "name": "loot",
+              "rolls": 1.0
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/flowerface.json",
+          "sha256": "ae835b8a97ae98ed945b7843440ed32cdf0c175295975e5870a9d3de40090e95",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_purple_petal",
+                    "weight": 10
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_blue_petal",
+                    "weight": 10
+                  }
+                ],
+                "name": "loot",
+                "rolls": 1.0
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "bonus_rolls": 0.0,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_purple_petal",
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_blue_petal",
+                  "weight": 10
+                }
+              ],
+              "name": "loot",
+              "rolls": 1.0
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/pod_plant.json",
+          "sha256": "2e2ad79e1de1762cce1390c7edbdaa4913fa049e28e802582bcb1176f1047f9c",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_red_petal",
+                    "weight": 10
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_green_petal",
+                    "weight": 10
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:flowercorne",
+                    "weight": 5
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poppy",
+                    "weight": 20
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_dye",
+                    "weight": 19
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:garden_grass",
+                    "weight": 24
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "max": 6.0,
+                          "min": 1.0
+                        },
+                        "function": "minecraft:set_count"
+                      }
+                    ],
+                    "name": "minecraft:stick",
+                    "weight": 22
+                  }
+                ],
+                "name": "loot",
+                "rolls": 1.0
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "bonus_rolls": 0.0,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_red_petal",
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_green_petal",
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:flowercorne",
+                  "weight": 5
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:poppy",
+                  "weight": 20
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:lime_dye",
+                  "weight": 19
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:garden_grass",
+                  "weight": 24
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "max": 6.0,
+                        "min": 1.0
+                      },
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:stick",
+                  "weight": 22
+                }
+              ],
+              "name": "loot",
+              "rolls": 1.0
+            }
+          ]
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/sunny.json",
+          "sha256": "f40f37a000a91e1d4d08c5cf81586b75221b05110e730975387526eb1cd62374",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 100
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:small_green_petal",
+                    "weight": 20
+                  }
+                ],
+                "name": "loot",
+                "rolls": 1.0
+              }
+            ]
+          },
+          "petal_pools": [
+            {
+              "bonus_rolls": 0.0,
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:small_green_petal",
+                  "weight": 20
+                }
+              ],
+              "name": "loot",
+              "rolls": 1.0
+            }
+          ]
+        }
+      ],
+      "garden_castle_worldgen_resources": [],
+      "template": {
+        "path": "data/aoa3/structures/gardencia/garden_castle/garden_castle.nbt",
+        "sha256": "23c7c7df12e6ee98a027176a7130e10e6329a20507b756b719b9f5d6445044e8",
+        "size": [
+          27,
+          23,
+          21
+        ],
+        "station_positions": [
+          [
+            13,
+            12,
+            13
+          ]
+        ],
+        "coordinate_scope": "template-relative, not world coordinates"
+      },
+      "hidden_from_recipe_viewers": null
+    },
+    {
+      "output_ids": [
+        "aoa3:hydrangic_boots",
+        "aoa3:hydrangic_leggings",
+        "aoa3:hydrangic_chestplate",
+        "aoa3:hydrangic_helmet"
+      ],
+      "version": "1.21.1",
+      "release": "3.7.16.1",
+      "interaction": {
+        "class_path": "net/tslat/aoa3/content/block/functional/utility/PetalCraftingStation.class",
+        "class_sha256": "ec9e27b8cf46d7e53a89c7215d894ead853d6204a94502b75774520b4af9828a",
+        "name": "useItemOn",
+        "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;",
+        "code_hex": "2bb20007b6000d9900731905c100139900631905c000133a081908b60015b400199a00082b04b6001f190807bd00235903b20025b4002b535904b20025b40030535905b20025b40033535906b20025b4003653b80039c0003fb80041572d011904b20047b6004dc00053b200550c0cb6005b2db40061b80064b0b2006ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 43
+          },
+          {
+            "offset": 1,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItems",
+              "PETALS",
+              "Lnet/neoforged/neoforge/registries/DeferredItem;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "is",
+              "(Lnet/minecraft/core/Holder;)Z"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 153,
+            "operands": [
+              0,
+              115
+            ]
+          },
+          {
+            "offset": 10,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 193,
+            "operands": [
+              0,
+              19
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 153,
+            "operands": [
+              0,
+              99
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 20,
+            "opcode": 192,
+            "operands": [
+              0,
+              19
+            ]
+          },
+          {
+            "offset": 23,
+            "opcode": 58,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 25,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 27,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/server/level/ServerPlayer",
+              "getAbilities",
+              "()Lnet/minecraft/world/entity/player/Abilities;"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/entity/player/Abilities",
+              "instabuild",
+              "Z"
+            ]
+          },
+          {
+            "offset": 33,
+            "opcode": 154,
+            "operands": [
+              0,
+              8
+            ]
+          },
+          {
+            "offset": 36,
+            "opcode": 43
+          },
+          {
+            "offset": 37,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 38,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/item/ItemStack",
+              "shrink",
+              "(I)V"
+            ]
+          },
+          {
+            "offset": 41,
+            "opcode": 25,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 43,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 44,
+            "opcode": 189,
+            "operands": [
+              0,
+              35
+            ]
+          },
+          {
+            "offset": 47,
+            "opcode": 89
+          },
+          {
+            "offset": 48,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 49,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 52,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "boots",
+              "Lnet/neoforged/neoforge/registries/DeferredItem;"
+            ]
+          },
+          {
+            "offset": 55,
+            "opcode": 83
+          },
+          {
+            "offset": 56,
+            "opcode": 89
+          },
+          {
+            "offset": 57,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 58,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 61,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "leggings",
+              "Lnet/neoforged/neoforge/registries/DeferredItem;"
+            ]
+          },
+          {
+            "offset": 64,
+            "opcode": 83
+          },
+          {
+            "offset": 65,
+            "opcode": 89
+          },
+          {
+            "offset": 66,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 67,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 70,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "chestplate",
+              "Lnet/neoforged/neoforge/registries/DeferredItem;"
+            ]
+          },
+          {
+            "offset": 73,
+            "opcode": 83
+          },
+          {
+            "offset": 74,
+            "opcode": 89
+          },
+          {
+            "offset": 75,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 76,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour",
+              "HYDRANGIC_ARMOUR",
+              "Lnet/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet;"
+            ]
+          },
+          {
+            "offset": 79,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAArmour$ArmourSet",
+              "helmet",
+              "Lnet/neoforged/neoforge/registries/DeferredItem;"
+            ]
+          },
+          {
+            "offset": 82,
+            "opcode": 83
+          },
+          {
+            "offset": 83,
+            "opcode": 184,
+            "member": [
+              "net/tslat/tme/api/util/RandomUtil",
+              "selection",
+              "([Ljava/lang/Object;)Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 192,
+            "operands": [
+              0,
+              63
+            ]
+          },
+          {
+            "offset": 89,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/InventoryUtil",
+              "giveItemTo",
+              "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/ItemLike;)Z"
+            ]
+          },
+          {
+            "offset": 92,
+            "opcode": 87
+          },
+          {
+            "offset": 93,
+            "opcode": 45
+          },
+          {
+            "offset": 94,
+            "opcode": 1
+          },
+          {
+            "offset": 95,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 97,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoASounds",
+              "BLOCK_PETAL_CRAFTING_STATION_USE",
+              "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+            ]
+          },
+          {
+            "offset": 100,
+            "opcode": 182,
+            "member": [
+              "net/neoforged/neoforge/registries/DeferredHolder",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 103,
+            "opcode": 192,
+            "operands": [
+              0,
+              83
+            ]
+          },
+          {
+            "offset": 106,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/sounds/SoundSource",
+              "BLOCKS",
+              "Lnet/minecraft/sounds/SoundSource;"
+            ]
+          },
+          {
+            "offset": 109,
+            "opcode": 12
+          },
+          {
+            "offset": 110,
+            "opcode": 12
+          },
+          {
+            "offset": 111,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "playSound",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+            ]
+          },
+          {
+            "offset": 114,
+            "opcode": 45
+          },
+          {
+            "offset": 115,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "isClientSide",
+              "Z"
+            ]
+          },
+          {
+            "offset": 118,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/world/ItemInteractionResult",
+              "sidedSuccess",
+              "(Z)Lnet/minecraft/world/ItemInteractionResult;"
+            ]
+          },
+          {
+            "offset": 121,
+            "opcode": 176
+          },
+          {
+            "offset": 122,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/ItemInteractionResult",
+              "PASS_TO_DEFAULT_BLOCK_INTERACTION",
+              "Lnet/minecraft/world/ItemInteractionResult;"
+            ]
+          },
+          {
+            "offset": 125,
+            "opcode": 176
+          }
+        ]
+      },
+      "output_slots": [
+        "boots",
+        "leggings",
+        "chestplate",
+        "helmet"
+      ],
+      "petal_recipes": [],
+      "petal_loot_tables": [],
+      "garden_castle_worldgen_resources": [],
+      "template": {
+        "path": "data/aoa3/structure/gardencia/garden_castle/garden_castle.nbt",
+        "sha256": "23c7c7df12e6ee98a027176a7130e10e6329a20507b756b719b9f5d6445044e8",
+        "size": [
+          27,
+          23,
+          21
+        ],
+        "station_positions": [
+          [
+            13,
+            12,
+            13
+          ]
+        ],
+        "coordinate_scope": "template-relative, not world coordinates"
+      },
+      "hidden_from_recipe_viewers": {
+        "path": "data/c/tags/item/hidden_from_recipe_viewers.json",
+        "sha256": "cd6b8e6011a97d6bc32be6888f17e7f6e00a6413a72e3cc8872275ffaaba7f62",
+        "data": {
+          "values": [
+            "aoa3:lunar_chestplate",
+            "aoa3:darkwash_brick_slab",
+            "aoa3:bloodstone_bricks",
+            "aoa3:artifact",
+            "aoa3:mecha_blaster",
+            "aoa3:black_mysterium_brick_slab",
+            "aoa3:stormer",
+            "aoa3:toxic_lump",
+            "aoa3:alacrity_leggings",
+            "aoa3:core_rifle",
+            "aoa3:coral_brick_wall",
+            "aoa3:whitewash_brick_slab",
+            "aoa3:vile_vanquisher",
+            "aoa3:discharge_sniper",
+            "aoa3:moon_cannon",
+            "aoa3:orbocron",
+            "aoa3:creepoid_greataxe",
+            "aoa3:ghoulish_chestplate",
+            "aoa3:ghastly_boots",
+            "aoa3:pulsator",
+            "aoa3:luna_blaster",
+            "aoa3:ornamyte_axe",
+            "aoa3:bayonette_sr",
+            "aoa3:hunters_rifle",
+            "aoa3:speed_helmet",
+            "aoa3:purity_boots",
+            "aoa3:revolution",
+            "aoa3:battleborn_leggings",
+            "aoa3:skeletal_brick_wall",
+            "aoa3:aquatic_staff",
+            "aoa3:dual_sight",
+            "aoa3:soulfire_bow",
+            "aoa3:explosive_gems",
+            "aoa3:miasma",
+            "aoa3:blue_crystal",
+            "aoa3:gold_bringer",
+            "aoa3:gravity_blaster",
+            "aoa3:mechyro",
+            "aoa3:floating_stone",
+            "aoa3:carrot_cannon",
+            "aoa3:sticky_slime",
+            "aoa3:purity_leggings",
+            "aoa3:skeletal_brick_stairs",
+            "aoa3:purity_chestplate",
+            "aoa3:vivo",
+            "aoa3:purity_shotgun",
+            "aoa3:weaken_helmet",
+            "aoa3:hardened_confetti_ball",
+            "aoa3:nightmare_leggings",
+            "aoa3:crystallite_brick_stairs",
+            "aoa3:coral_bricks",
+            "aoa3:weaken_chestplate",
+            "aoa3:alacrity_boots",
+            "aoa3:supremacy_sword",
+            "aoa3:skullo_blaster",
+            "aoa3:shadow_blaster",
+            "aoa3:terminator",
+            "aoa3:goofy_greatblade",
+            "aoa3:battleborn_helmet",
+            "aoa3:apoco_assault_rifle",
+            "aoa3:spectral_crossbow",
+            "aoa3:screamer_bow",
+            "aoa3:purple_gemstones",
+            "aoa3:chilli_chugger",
+            "aoa3:predatorian_blaster",
+            "aoa3:green_mysterium_brick_wall",
+            "aoa3:rosidian_chestplate",
+            "aoa3:fungal_helmet",
+            "aoa3:ornamyte_pickaxe",
+            "aoa3:darkly_powder",
+            "aoa3:knight_chestplate",
+            "aoa3:poison_helmet",
+            "aoa3:flame_wrecker",
+            "aoa3:doom_bringer",
+            "aoa3:goofy_axe",
+            "aoa3:bloodstone_brick_wall",
+            "aoa3:mecha_gear",
+            "aoa3:ka_500",
+            "aoa3:darkwash_bricks",
+            "aoa3:ghastly_leggings",
+            "aoa3:elecanyte_chestplate",
+            "aoa3:yellow_gemstones",
+            "aoa3:coralstone_maul",
+            "aoa3:iro_miner",
+            "aoa3:black_mysterium_brick_wall",
+            "aoa3:whitewash_brick_stairs",
+            "aoa3:chroma_goggles",
+            "aoa3:mineral",
+            "aoa3:knight_helmet",
+            "aoa3:orange_spores",
+            "aoa3:long_shot",
+            "aoa3:speed_boots",
+            "aoa3:illusion_revolver",
+            "aoa3:decimator",
+            "aoa3:nightmare_bow",
+            "aoa3:soul_drainer",
+            "aoa3:iominator",
+            "aoa3:small_purple_petal",
+            "aoa3:jack_rocker",
+            "aoa3:destruction_shotgun",
+            "aoa3:toxic_terrorizer",
+            "aoa3:mercurial_boots",
+            "aoa3:power_staff",
+            "aoa3:predator",
+            "aoa3:oceanus_helmet",
+            "aoa3:subterranean_helmet",
+            "aoa3:crystallite_brick_wall",
+            "aoa3:speed_chestplate",
+            "aoa3:blast_cannon",
+            "aoa3:big_top",
+            "aoa3:subterranean_chestplate",
+            "aoa3:ghoulish_boots",
+            "aoa3:lyonic_helmet",
+            "aoa3:mark_maker",
+            "aoa3:odious",
+            "aoa3:boreic_leggings",
+            "aoa3:rosidian_bow",
+            "aoa3:lunar_crossbow",
+            "aoa3:skullifact",
+            "aoa3:nightmare_helmet",
+            "aoa3:sharpshot_helmet",
+            "aoa3:magnet_shard",
+            "aoa3:bloodstone_brick_slab",
+            "aoa3:nightmare_boots",
+            "aoa3:show_staff",
+            "aoa3:yellow_spores",
+            "aoa3:viper_1",
+            "aoa3:spine_gun",
+            "aoa3:spectral_bow",
+            "aoa3:red_druse",
+            "aoa3:ghastly_chestplate",
+            "aoa3:nightmare_chestplate",
+            "aoa3:speed_leggings",
+            "aoa3:crystik_staff",
+            "aoa3:discharge_rifle",
+            "aoa3:yellow_druse",
+            "aoa3:lunar_leggings",
+            "aoa3:elecanyte_boots",
+            "aoa3:battleborn_boots",
+            "aoa3:crystallis_helmet",
+            "aoa3:weaken_leggings",
+            "aoa3:mercurial_leggings",
+            "aoa3:skeletal_brick_slab",
+            "aoa3:sealord_helmet",
+            "aoa3:bubble_horn",
+            "aoa3:mind_blaster",
+            "aoa3:battleborn_chestplate",
+            "aoa3:sublimus",
+            "aoa3:crystaneer",
+            "aoa3:unstable_gunpowder",
+            "aoa3:elecanyte_helmet",
+            "aoa3:lelyetian_ranseur",
+            "aoa3:bloodstone",
+            "aoa3:black_mysterium_brick_stairs",
+            "aoa3:rockbone_helmet",
+            "aoa3:purple_crystal",
+            "aoa3:missile_maker",
+            "aoa3:purity_rifle",
+            "aoa3:lyonic_boots",
+            "aoa3:shroomic_bardiche",
+            "aoa3:subterranean_boots",
+            "aoa3:blue_druse",
+            "aoa3:ghastly_helmet",
+            "aoa3:clowno_pulse",
+            "aoa3:krilinator",
+            "aoa3:small_blue_petal",
+            "aoa3:ornamyte",
+            "aoa3:haunted_bow",
+            "aoa3:lunar_boots",
+            "aoa3:whitewash_brick_wall",
+            "aoa3:underworld_glaive",
+            "aoa3:fungal_cannon",
+            "aoa3:small_red_petal",
+            "aoa3:ghoul_cannon",
+            "aoa3:floro500",
+            "aoa3:moonlight_staff",
+            "aoa3:crystallite_brick_slab",
+            "aoa3:moon_maker",
+            "aoa3:rockbone_boots",
+            "aoa3:coral_greatblade",
+            "aoa3:green_druse",
+            "aoa3:mercurial_helmet",
+            "aoa3:sky_staff",
+            "aoa3:whimsy_winder",
+            "aoa3:hell_horn",
+            "aoa3:ornamyte_shovel",
+            "aoa3:mushroom_spores",
+            "aoa3:mecha_staff",
+            "aoa3:atomizer",
+            "aoa3:lyonic_leggings",
+            "aoa3:gas_blaster",
+            "aoa3:phantasm",
+            "aoa3:shadow_sword",
+            "aoa3:primordial_skull",
+            "aoa3:chain_wrecker",
+            "aoa3:jewelyte",
+            "aoa3:goofy_pickaxe",
+            "aoa3:orbulon",
+            "aoa3:mecha_crossbow",
+            "aoa3:energy_cannon",
+            "aoa3:alacrity_helmet",
+            "aoa3:firestorm_staff",
+            "aoa3:dustometer",
+            "aoa3:yellow_crystal",
+            "aoa3:black_mysterium_bricks",
+            "aoa3:skeletal_bricks",
+            "aoa3:green_crystal",
+            "aoa3:flower_cannon",
+            "aoa3:dense_rock",
+            "aoa3:construct",
+            "aoa3:destruction_rifle",
+            "aoa3:clownimator",
+            "aoa3:nightmare_flakes",
+            "aoa3:baronator",
+            "aoa3:poison_plunger",
+            "aoa3:face_mask",
+            "aoa3:exoplate_helmet",
+            "aoa3:rockbone_leggings",
+            "aoa3:coral_brick_stairs",
+            "aoa3:pulse_cannon",
+            "aoa3:exoplate_boots",
+            "aoa3:mercurial_chestplate",
+            "aoa3:ancient_bomber",
+            "aoa3:white_druse",
+            "aoa3:sabbath",
+            "aoa3:weaken_boots",
+            "aoa3:ghoulish_helmet",
+            "aoa3:sharpshot_leggings",
+            "aoa3:light_blaster",
+            "aoa3:bozo_blaster",
+            "aoa3:mechanical_assault_rifle",
+            "aoa3:smile_blaster",
+            "aoa3:rosidian_helmet",
+            "aoa3:seaocron",
+            "aoa3:darkly_guster",
+            "aoa3:rejuvenation_staff",
+            "aoa3:rosidian_leggings",
+            "aoa3:small_green_petal",
+            "aoa3:red_gemstones",
+            "aoa3:rosidian_boots",
+            "aoa3:poison_leggings",
+            "aoa3:haunted_idol",
+            "aoa3:green_mysterium_bricks",
+            "aoa3:blood_drainer",
+            "aoa3:whitewash_bricks",
+            "aoa3:boreic_chestplate",
+            "aoa3:elecanyte_leggings",
+            "aoa3:viral_crossbow",
+            "aoa3:abyssro",
+            "aoa3:darkwash_brick_stairs",
+            "aoa3:small_orange_petal",
+            "aoa3:green_gemstones",
+            "aoa3:boreic_boots",
+            "aoa3:boreic_helmet",
+            "aoa3:rainbow_druse",
+            "aoa3:squad_gun",
+            "aoa3:rockbone_chestplate",
+            "aoa3:crystal_carver",
+            "aoa3:blue_gemstones",
+            "aoa3:bloodstone_brick_stairs",
+            "aoa3:crystallis_leggings",
+            "aoa3:mecha_bow",
+            "aoa3:runic_greatblade",
+            "aoa3:bloodfury",
+            "aoa3:boulder",
+            "aoa3:lunar_helmet",
+            "aoa3:lyonic_staff",
+            "aoa3:lunar_bow",
+            "aoa3:speed_bow",
+            "aoa3:crystallis_chestplate",
+            "aoa3:rosidian_staff",
+            "aoa3:mecha_cannon",
+            "aoa3:ghast_blaster",
+            "aoa3:ion_blaster",
+            "aoa3:crystallis_boots",
+            "aoa3:surge_staff",
+            "aoa3:knight_leggings",
+            "aoa3:party_popper",
+            "aoa3:zhinx_dust",
+            "aoa3:goofy_shovel",
+            "aoa3:jack_funger",
+            "aoa3:subterranean_leggings",
+            "aoa3:bomb_launcher",
+            "aoa3:fungal_boots",
+            "aoa3:purple_druse",
+            "aoa3:hive_cracker",
+            "aoa3:shroom_stone",
+            "aoa3:alacrity_chestplate",
+            "aoa3:poison_boots",
+            "aoa3:ghoul_gasser",
+            "aoa3:clown_cracker",
+            "aoa3:gemenyte",
+            "aoa3:fungal_leggings",
+            "aoa3:crystallite",
+            "aoa3:toxin_bow",
+            "aoa3:eradicator",
+            "aoa3:exoplate_leggings",
+            "aoa3:ghoulasm",
+            "aoa3:exoplate_chestplate",
+            "aoa3:green_mysterium_brick_slab",
+            "aoa3:boom_boom",
+            "aoa3:red_crystal",
+            "aoa3:darkwash_brick_wall",
+            "aoa3:boom_cannon",
+            "aoa3:hiver",
+            "aoa3:coral_brick_slab",
+            "aoa3:petals",
+            "aoa3:white_crystal",
+            "aoa3:hive_blaster",
+            "aoa3:white_gemstones",
+            "aoa3:purity_helmet",
+            "aoa3:confetti_pile",
+            "aoa3:rosid_root",
+            "aoa3:urka_hide",
+            "aoa3:green_mysterium_brick_stairs",
+            "aoa3:runic_energy",
+            "aoa3:coral_stone",
+            "aoa3:sludge_sniper",
+            "aoa3:apoco_rifle",
+            "aoa3:sharpshot_chestplate",
+            "aoa3:knight_boots",
+            "aoa3:poison_chestplate",
+            "aoa3:shyrelands_realmstone",
+            "aoa3:ghoulish_leggings",
+            "aoa3:lyonic_chestplate",
+            "aoa3:whitewashing_solution",
+            "aoa3:boulder_dash",
+            "aoa3:soul_storm",
+            "aoa3:weaken_bow",
+            "aoa3:shyregem",
+            "aoa3:horizon_maul",
+            "aoa3:ion_revolver",
+            "aoa3:sharpshot_boots",
+            "aoa3:crystallite_bricks",
+            "aoa3:underworld_staff",
+            "aoa3:abominator",
+            "aoa3:fungal_chestplate"
+          ]
+        }
+      }
+    }
+  ],
+  "modern_delivery_helpers": [
+    {
+      "class_path": "net/tslat/aoa3/util/InventoryUtil.class",
+      "class_sha256": "0af28fb1134e74208ef241e7f1f9655d9e341bddb2777035d0025cf6cc2d6acd",
+      "name": "giveItemTo",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/ItemLike;)Z",
+      "code_hex": "2a2bb900070100b600d2b800d7ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/world/level/ItemLike",
+            "asItem",
+            "()Lnet/minecraft/world/item/Item;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/Item",
+            "getDefaultInstance",
+            "()Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/InventoryUtil",
+            "giveItemTo",
+            "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/util/InventoryUtil.class",
+      "class_sha256": "0af28fb1134e74208ef241e7f1f9655d9e341bddb2777035d0025cf6cc2d6acd",
+      "name": "giveItemTo",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)Z",
+      "code_hex": "2a2b04b800c3ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/InventoryUtil",
+            "giveItemTo",
+            "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Z)Z"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/util/InventoryUtil.class",
+      "class_sha256": "0af28fb1134e74208ef241e7f1f9655d9e341bddb2777035d0025cf6cc2d6acd",
+      "name": "giveItemTo",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Z)Z",
+      "code_hex": "2bb6004199000503ac2bb600da3e2ab600de2bb600df99004e2bb600419900472ab600e3012ab600e72ab600eb2ab600eeb200f1b200f712fd2ab600feb9010201002ab600feb901020100661301086a0c620d6ab601091c99000a2ab400c7b600cd04ac2a2b03b6010f3a041904c600111904b6011319042ab60118b6011c1d2bb600daa3000503ac1c99000a2ab400c7b600cd04ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 172
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "getCount",
+            "()I"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 62
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getInventory",
+            "()Lnet/minecraft/world/entity/player/Inventory;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 43
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/player/Inventory",
+            "add",
+            "(Lnet/minecraft/world/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 153,
+          "operands": [
+            0,
+            78
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 43
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 153,
+          "operands": [
+            0,
+            71
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "level",
+            "()Lnet/minecraft/world/level/Level;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 1
+        },
+        {
+          "offset": 37,
+          "opcode": 42
+        },
+        {
+          "offset": 38,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getX",
+            "()D"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 42
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getY",
+            "()D"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 42
+        },
+        {
+          "offset": 46,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getZ",
+            "()D"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/sounds/SoundEvents",
+            "ITEM_PICKUP",
+            "Lnet/minecraft/sounds/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/sounds/SoundSource",
+            "PLAYERS",
+            "Lnet/minecraft/sounds/SoundSource;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 18,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 57,
+          "opcode": 42
+        },
+        {
+          "offset": 58,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getRandom",
+            "()Lnet/minecraft/util/RandomSource;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/util/RandomSource",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 42
+        },
+        {
+          "offset": 67,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getRandom",
+            "()Lnet/minecraft/util/RandomSource;"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/util/RandomSource",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 102
+        },
+        {
+          "offset": 76,
+          "opcode": 19,
+          "constant": 0.699999988079071
+        },
+        {
+          "offset": 79,
+          "opcode": 106
+        },
+        {
+          "offset": 80,
+          "opcode": 12
+        },
+        {
+          "offset": 81,
+          "opcode": 98
+        },
+        {
+          "offset": 82,
+          "opcode": 13
+        },
+        {
+          "offset": 83,
+          "opcode": 106
+        },
+        {
+          "offset": 84,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/Level",
+            "playSound",
+            "(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 28
+        },
+        {
+          "offset": 88,
+          "opcode": 153,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 42
+        },
+        {
+          "offset": 92,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "inventoryMenu",
+            "Lnet/minecraft/world/inventory/InventoryMenu;"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/inventory/InventoryMenu",
+            "broadcastChanges",
+            "()V"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 99,
+          "opcode": 172
+        },
+        {
+          "offset": 100,
+          "opcode": 42
+        },
+        {
+          "offset": 101,
+          "opcode": 43
+        },
+        {
+          "offset": 102,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 103,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "drop",
+            "(Lnet/minecraft/world/item/ItemStack;Z)Lnet/minecraft/world/entity/item/ItemEntity;"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 198,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/item/ItemEntity",
+            "setNoPickUpDelay",
+            "()V"
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 42
+        },
+        {
+          "offset": 121,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getUUID",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/item/ItemEntity",
+            "setTarget",
+            "(Ljava/util/UUID;)V"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 29
+        },
+        {
+          "offset": 128,
+          "opcode": 43
+        },
+        {
+          "offset": 129,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "getCount",
+            "()I"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 163,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 136,
+          "opcode": 172
+        },
+        {
+          "offset": 137,
+          "opcode": 28
+        },
+        {
+          "offset": 138,
+          "opcode": 153,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 42
+        },
+        {
+          "offset": 142,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "inventoryMenu",
+            "Lnet/minecraft/world/inventory/InventoryMenu;"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/inventory/InventoryMenu",
+            "broadcastChanges",
+            "()V"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 149,
+          "opcode": 172
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "One randomly selected armor piece per qualifying use does not guarantee a complete set after four uses",
+    "Historical weighted loot rows describe eligible pool selection, not a universal chance per kill",
+    "1.20.1 retains the recipe and five loot-table references, but this scan found no Garden Castle worldgen JSON link",
+    "1.21.1 retains the station interaction and castle template while the inspected Petals recipe/loot references are absent and petal items are hidden from recipe viewers",
+    "Modern giveItemTo tries inventory insertion and then a targeted dropped-item fallback; an ignored boolean alone does not establish item loss",
+    "No Java, mod or game execution"
+  ]
+}
