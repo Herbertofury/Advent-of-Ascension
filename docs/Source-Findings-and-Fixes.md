@@ -33,6 +33,7 @@ This finding does not certify a visual failure in a running game. The atlas can 
 The two-sided thin-surface correction is already applied to the published preview images and has a separate [validation record](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/planar-render-validation.json). It changes the offline documentation renderer, not AoA game code.
 
 
+
 ## Roaming trader coordinate bounds · official 1.20.1 and 1.21.1 references
 
 Released-bytecode checks confirm that the inspected official trader callers pass 20/64, but their coordinate helper adds the 44-block width again to each signed offset. A +22 axis draw becomes +66; this exceeds the named maximum without proving a successful in-game spawn. The helper moved between classes across the inspected versions, so source layouts are not interchangeable.
@@ -100,3 +101,9 @@ Released-bytecode checks confirm that the inspected official trader callers pass
 **Status: released base-recipe behavior, not an unconditional modpack-loss claim or applied preservation patch.** UpgradeKitRecipe's assembly method does not read input stack data; it returns the configured output's copy. All 36 inspected declarations specify only output item ID and count. Input enchantments, names, damage and stored casts are not automatically transferred by that base method. The parent menu also invokes crafting events, so integrations can alter or cancel results.
 
 [All illustrated upgrade routes and precautions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1) · [Released recipe/menu evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/upgrade-kit-evidence-1.21.1.json). If preservation is desired in the restoration, define which compatible components transfer instead of copying obsolete weapon stats wholesale. Test preview accuracy, component compatibility, exact consumption, quick move and canceled/modified crafting events in the target build. Keep stock conversion behavior distinguishable from an intentional new policy.
+
+## Rage synchronization and Battle Vulcane recipient · 1.21.1
+
+**Status: released-class call/data-flow evidence and bounded arithmetic models; no in-game reproduction or owner-local patch claimed.** Rage damage/drain handlers write the value directly without the setter’s dirty flag, while the selected incremental resource collector gates serialization on that flag. Near-zero positive Rage can also cross below zero in the selected drain subtraction. Separately, Battle Vulcane’s released Strength-effect call passes the hit entity as target and the user as source.
+
+[Eight-variant guide, exact evidence and runtime acceptance cases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vulcanes-and-Rage-1.21.1). Reproduce post-sync damage/drain and compare server value with the client meter; confirm intended effect recipient before changing it. Prefer the existing clamping and dirty-marking path if a fix is warranted, without adding repeated scans. Preserve resource exemptions, capacity, targeting, save/client behavior and existing owner-local fixes. These observations apply to AoA 3.7.16.1, not automatically to the private 1.20.1 candidate.
