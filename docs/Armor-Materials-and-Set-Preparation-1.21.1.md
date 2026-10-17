@@ -119,3 +119,7 @@ Each slot link opens its exact item, including the recipe/drop searches and coll
 The evidence retains class hashes, selected method bytes, registration callbacks, material builder chains, special-helmet overrides and the official vanilla durability formula. No Java classes were executed. Remaining work includes complete per-set effect walkthroughs, animation, exact acquisition routes, equipment requirement reconciliation and real client/server acceptance. These are open tasks, not completed checkmarks.
 
 Upstream context: [AoA armor registration](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/item/AoAArmour.java) and [material builders](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/item/AoAArmourMaterials.java). The released archive remains authoritative for this page where the source snapshot differs. AoA art and systems are credited to Tslat and contributors; vanilla references to Mojang/Microsoft.
+
+## Choose a set by its effects
+
+The [48-set effects and activation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) pairs every set preview with its released tooltip, distinguishes checked callbacks for nine sets and flags the Alacrity partial-set source mismatch. The Armor Atelier also searches effect wording such as oxygen, Spirit and fire.

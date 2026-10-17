@@ -10,10 +10,12 @@
 
 ## Use the gallery
 
-1. Open the Armor Atelier to search a set by name. Twelve cards are created at a time and images load lazily.
+1. Open the Armor Atelier to search a set by name or released effect wording, such as oxygen, Spirit or fire. Twelve cards are created at a time and images load lazily.
 2. Open a set's exact link to focus on it and share that view. Each card links all four matching item records, their recipe/drop searches and their property panels.
-3. Use sorting to compare the base armor sum or per-piece toughness if useful. Neither is a universal damage reduction percentage or a best-set ranking; special effects need separate reading.
+3. Use sorting to compare the base armor sum or per-piece toughness if useful. Neither is a universal damage reduction percentage or a best-set ranking; the expandable released-tooltip panels describe intended effects, while the linked callback guide records checked behavior and known differences.
 4. Click a study image to open its full 512×512 reference. Reset returns to all 48 sets. An unsupported release or unknown exact set is clearly refused rather than silently substituted.
+
+[Read all set effects and activation notes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1), including the Alacrity partial-set tooltip mismatch.
 
 ## All 48 set studies
 
