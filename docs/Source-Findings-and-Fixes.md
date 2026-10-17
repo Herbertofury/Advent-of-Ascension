@@ -293,3 +293,8 @@ The special-dimension height helper accepts at least two exact-air cells above a
 - [ ] Keep search work bounded; avoid unnecessary chunk generation and measure worst-case scan cost.
 
 See [the illustrated Rosidons safety study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rosidons-Escape-and-Destination-Safety-1.12.2) for 72 bounded column cases and 12 coordinate examples.
+
+
+## Movement and void utilities · released 1.21.1 review
+
+[Illustrated equipment and recovery guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Movement-and-Void-Recovery-Utilities-1.21.1) records the released 3.7.16.1 behavior and target-build acceptance checklist. Static candidates: Gravitator's mutable downward scan skips heights, its offhand durability call reports MAINHAND, Distorting Artifact uses fixed Y=257 without a local landing search, and Floating Stone replaces any qualifying dropped stack with one Heavy Boulder. These findings are not private Enderloom runtime defects or completed fixes. Preserve stack/component semantics, use bounded server-side checks and validate custom dimensions and multiplayer before certifying recovery.
