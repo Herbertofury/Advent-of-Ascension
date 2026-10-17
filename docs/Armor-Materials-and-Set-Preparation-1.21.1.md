@@ -122,4 +122,4 @@ Upstream context: [AoA armor registration](https://github.com/Tslat/Advent-Of-As
 
 ## Choose a set by its effects
 
-The [48-set effects and activation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) pairs every set preview with its released tooltip, distinguishes checked callbacks for nine sets and flags the Alacrity partial-set source mismatch. The Armor Atelier also searches effect wording such as oxygen, Spirit and fire.
+The [48-set effects and activation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) pairs every set preview with its released tooltip, reviews all 48 sets, including cross-class effects and unresolved summoning paths and flags the Alacrity partial-set source mismatch. The Armor Atelier also searches effect wording such as oxygen, Spirit and fire.
