@@ -167,3 +167,7 @@ For related mechanics, read [Anima training and fragments](https://github.com/He
 ## Before using harvested Rosidons
 
 [Rosidons escape and destination safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rosidons-Escape-and-Destination-Safety-1.12.2) explains its dimension restrictions, height selection, negative-coordinate mismatch and a bounded roof-overlap test candidate. Harvesting the crop does not guarantee a safe teleport destination.
+
+## What the harvested food actually does
+
+[Special foods, drinks and drawbacks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Foods-Drinks-and-Drawbacks-1.12.2) gives nineteen illustrated profiles, including air recovery, vanilla XP, Energy/Rage additions, potion requests and hazardous combinations. Crop appearance and nutrition do not describe every side effect.
