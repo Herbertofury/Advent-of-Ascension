@@ -5,16 +5,27 @@
 
 > **Project status:** player atlas plus living Enderloom restoration tooling. The private Current Playtest has native client/server and signed-in production acceptance; the full historical/latest merge remains unfinished. [Current build evidence](development/README.md) · [Runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist) · [Upstream reconciliation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation).
 
-## Explore it visually
+## Open the illustrated atlas
 
-- [Interactive 3D Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/)
-- [Illustrated Recipe Observatory: 6,781 version-specific definitions](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html)
-- [Named modern and historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas)
-- [Legacy model atlas: 301 Java-model portraits and 151 geometry-resource previews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas)
-- [First portal: illustrated crafting and construction walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough)
-- [17 plants and their 134 growth-stage models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages)
+**Choose your installed release first:** [1.12.2](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.12.2) · [1.16.5](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.16.5) · [1.20.1](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.20.1) · [1.21.1](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.21.1).
 
-Counts are version-specific documentation records and can overlap. Source-derived images are not runtime certification. [Coverage and remaining gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage).
+| Inspect the world | Learn the mechanics |
+|---|---|
+| [![Six source-model block examples](docs/previews/block-model-explorer-overview-1.21.1.webp)](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1) | [![Modern fish effects and food comparison](docs/previews/modern-fish-effect-comparison-1.21.1.webp)](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Fish-Food-Cooking-and-Healing-1.21.1) |
+| **[Rotate 1,026 block source models](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1)** · search, orbit, zoom and follow item links | **[Follow 130 illustrated guide routes](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html)** · choose a release, goal and six-stop reading path |
+
+| What you need | Open it |
+|---|---|
+| Creatures, dimensions, biomes and illustrated drops | [Interactive bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html) |
+| An item or block, with release-specific evidence | [10,133 item/block resource candidates](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
+| Ingredients and crafting layouts | [6,837 version-specific recipe definitions](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
+| A creature that lists the item you need | [Drop finder](https://herbertofury.github.io/Advent-of-Ascension/drop-finder.html) |
+| Prices, trade inputs and traders | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
+| Equipment appearance | [Worn armor gallery · 1.21.1](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html?v=1.21.1) |
+| Workstation shape and crafting help | [Seven interactive workstation models · 1.21.1](https://herbertofury.github.io/Advent-of-Ascension/workstation-3d.html?v=1.21.1) |
+| Creature model references | [Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/) · [Historical portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas) |
+
+Counts describe release-specific documentation records and can overlap. The 1.20.1 reading route is preparation/support guidance, not complete legacy progression. Source models, recipes and names do not establish registration, obtainability or runtime parity. [Coverage and remaining gaps](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage) · [Block-model limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Block-Model-Coverage-1.21.1).
 
 ## The vision
 
@@ -27,7 +38,7 @@ Complete **Advent of Ascension** through the existing Enderloom studio: retain t
 | [Versions & completeness](docs/Version-Matrix.md) | [Progress: done vs. unverified](docs/Progress.md) |
 | [Worlds & travel](docs/Dimensions.md) | [Restoration roadmap](docs/Roadmap.md) |
 | [Skills & progression](docs/Skills-and-Progression.md) | [Enderloom integration](docs/Enderloom-Integration.md) |
-| [Bestiary: 432 cross-version IDs](docs/Bestiary.md) | [Content acceptance contract](docs/Content-Specification.md) |
+| [Cross-version creature ledger](docs/Bestiary.md) | [Content acceptance contract](docs/Content-Specification.md) |
 | [Bosses & combat](docs/Bosses-and-Combat.md) | [Runtime, migration & performance](docs/Testing-and-Performance.md) |
 | [Items](docs/Items-Atlas.md) · [Blocks](docs/Blocks-Atlas.md) · [Systems](docs/Systems.md) | [Sources & media credits](docs/Sources-and-Credits.md) |
 
@@ -50,7 +61,7 @@ This atlas includes pinned source snapshots, a cross-version entity declaration 
 
 Advent of Ascension is created by **Tslat** and its contributors. [Official source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Official downloads](https://modrinth.com/mod/adventofascension).
 
-This owner-maintained repository is independent of upstream. It contains original documentation and evidence indexes, not a redistribution of upstream source/assets. [Rights and image provenance](docs/Sources-and-Credits.md).
+This owner-maintained repository is independent of upstream. It contains original documentation, evidence indexes and source-derived visual/model references. Original AoA art and model credits remain with Tslat and contributors; inclusion here does not grant permission to redistribute a merged mod or its assets. [Rights and image provenance](docs/Sources-and-Credits.md).
 
 ## Optional premium weapon overhaul
 
