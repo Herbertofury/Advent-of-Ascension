@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 70 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 71 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,077 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,781 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Contextual how-to links | 398 links across 384 item cards; 405 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -25,9 +25,11 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
 | Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 102 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 103 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
+
+- [Soul Tablets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Tablets-Effects-and-Ownership-1.12.2): 17 illustrated effect dossiers, exact recipes, initial/ongoing Soul costs and ownership/reload test targets.
 
 - [Historical Anima](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Anima-Training-and-Fragments-1.12.2): harvest gates, short-lived stones, fragment growth and two distinct released XP calculations.
 
@@ -37,7 +39,6 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 - [Crystal Extension across releases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crystal-Extension-and-Giant-Crystals): illustrated Druse preparation, four released consumption loops and exhaustive exact-ten stack-partition tests; historical risks and modern acquisition gaps remain explicit.
 - [Worlds and travel atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions): 24 comparison identities, 22 code-era declarations and exact 21/7/10 data-definition counts, with biome references and travel links kept release-specific.
-- [Immortallis dungeon](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Immortallis-Dungeon-Walkthrough-1.12.2): nine-stage historical walkthrough, four illustrated bosses, progress coins, tribute boundaries and Return Crystal recovery.
 - The larger how-to coverage now uses **9,802 inline bytes** for inventory links and **5,434 bytes** for recipe links. Common wiki prefixes are stored once; links are decoded once with no extra requests. Existing associations are preserved. These are payload measurements, not measured Minecraft FPS gains.
 
 ### What still prevents a “complete AoA” claim
