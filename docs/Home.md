@@ -21,6 +21,17 @@
 | **Which version contains the content I remember?** | [Version matrix and reference releases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) |
 | **What is finished in the Enderloom project?** | [Verified progress and remaining work](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress) |
 
+## Start with your installed release
+
+| Minecraft | Open the reading route | Scope |
+|---|---|---|
+| 1.12.2 | [Historical adventure route](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.12.2) | Portals, food, skills, realmstones, trading and altars |
+| 1.16.5 | [Legacy-era adventure route](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.16.5) | Portal construction, supplies, runes and destination progression |
+| 1.20.1 | [Preparation and support route](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.20.1) | Checked support references; not complete legacy progression |
+| 1.21.1 | [Modern adventure route](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.21.1) | Beginner preparation, Precasia, mining, skills and boss entry |
+
+The reading checkboxes are saved only in your browser. They mark pages you have read, not in-game quest progress. [How the checklists work](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reading-Routes-and-Local-Checklists).
+
 ## Your first adventure
 
 1. **Get established:** shelter, food, a retreat route and basic equipment. [Start here](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough).
@@ -33,9 +44,12 @@ These steps link to the **1.21.1 / AoA 3.7.16.1** walkthrough. Use version-speci
 
 ## Explore by sight
 
-| Creature models | Items, blocks and growth |
+[![Interactive block-model reference examples](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/block-model-explorer-overview-1.21.1.webp)](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1)
+
+| 3D and creature references | Items, blocks and growth |
 |---|---|
 | [Live 3D Model Observatory](https://herbertofury.github.io/Advent-of-Ascension/) | [Named visual atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Visual-Atlas) |
+| [Rotate 1,026 modern block item models](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1) | [Seven workstation models and crafting links](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Workstation-Models-1.21.1) |
 | [1.12.2 entity portraits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Entity-Atlas-1.12.2) | [Historical inventory galleries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Galleries) |
 | [1.16.5 source-model atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Legacy-Model-Atlas) | [Crop growth stages](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) |
 | [Cross-version creature ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bestiary) | [Item index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas) · [Block index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blocks-Atlas) |
@@ -82,7 +96,7 @@ Advent of Ascension is created by **Tslat and contributors**. This is an indepen
 
 [Repository](https://github.com/Herbertofury/Advent-of-Ascension) · [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits)
 
-Documentation snapshot: **2026-10-16**. Static reference work is not a new runtime certification of the merged mod.
+Documentation snapshot: **2026-10-17**. Static reference work is not a new runtime certification of the merged mod.
 
 ### Historical progression
 [1.16.5 Realmstone progression: all 22 destination routes, exact triggers and illustrated recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5).
