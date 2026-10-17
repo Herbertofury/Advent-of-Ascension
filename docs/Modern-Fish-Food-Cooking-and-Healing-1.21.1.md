@@ -113,7 +113,7 @@ Actual healing is limited by missing health and helper/hook behavior. The 21 bou
 | Cooked Rainbowfish | Historical Rainbowfish: 9 hunger, maximum healing 10 | Cooked Rainbowfish: 6 nutrition, maximum healing 5, plus Luck request |
 | Nearly full Rainbowfish meal, hunger 19 | About 1.1111 extra health points | About 0.8333 extra health points |
 
-These are two pinned releases, not a claim about every intermediate version. Use the [version-aware food planner](https://herbertofury.github.io/Advent-of-Ascension/fish-food-planner.html?v=1.21.1) with the release selector set correctly. It keeps 1.12.2 and 1.21.1 datasets separate and rejects unindexed releases or mismatched fish links.
+These are two pinned releases, not a claim about every intermediate version. Use the [version-aware food planner](https://herbertofury.github.io/Advent-of-Ascension/fish-food-planner.html?v=1.21.1) with the release selector set correctly. It keeps all four checked release datasets separate and rejects unindexed releases or mismatched fish links. See the [1.16.5 and 1.20.1 fish reference](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Intermediate-Fish-Food-and-Cooking) for the intermediate releases.
 
 ## Evidence
 
