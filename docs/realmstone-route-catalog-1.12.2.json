@@ -1,0 +1,1960 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "routes": [
+    {
+      "id": "aoa3:abyss_realmstone",
+      "translation": "AbyssRealmstone",
+      "dimension_suffix": "abyss",
+      "inventory_reference": {
+        "id": "localization:item.AbyssRealmstone.name",
+        "name": "Abyss Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/abyss_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-01.webp",
+          "x": 235,
+          "y": 96,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7596,
+          "opcode": 43
+        },
+        {
+          "offset": 7597,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7600,
+          "opcode": 89
+        },
+        {
+          "offset": 7601,
+          "opcode": 19,
+          "constant": "AbyssRealmstone"
+        },
+        {
+          "offset": 7604,
+          "opcode": 19,
+          "constant": "abyss_realmstone"
+        },
+        {
+          "offset": 7607,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "ABYSS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7610,
+          "opcode": 186,
+          "operands": [
+            8,
+            11,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7615,
+          "opcode": 19,
+          "constant": "abyss"
+        },
+        {
+          "offset": 7618,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Nether",
+      "action": "Be near a Wither joining the world in dimension -1, with a Blank Realmstone.",
+      "warning": "The callback checks players in the Wither bounding box expanded by 50; it does not identify only the player who built the Wither.",
+      "image": "previews/realmstone-1.12.2-abyss_realmstone.webp"
+    },
+    {
+      "id": "aoa3:nether_realmstone",
+      "translation": "NetherRealmstone",
+      "dimension_suffix": "nether",
+      "inventory_reference": {
+        "id": "localization:item.NetherRealmstone.name",
+        "name": "Nether Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/nether_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-16.webp",
+          "x": 675,
+          "y": 361,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7631,
+          "opcode": 43
+        },
+        {
+          "offset": 7632,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7635,
+          "opcode": 89
+        },
+        {
+          "offset": 7636,
+          "opcode": 19,
+          "constant": "NetherRealmstone"
+        },
+        {
+          "offset": 7639,
+          "opcode": 19,
+          "constant": "nether_realmstone"
+        },
+        {
+          "offset": 7642,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "NETHER_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7645,
+          "opcode": 186,
+          "operands": [
+            8,
+            28,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7650,
+          "opcode": 19,
+          "constant": "nether"
+        },
+        {
+          "offset": 7653,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Lava toss event",
+      "action": "Toss a Blank Realmstone when the dropped item entity is detected in lava by the toss callback.",
+      "warning": "This is an immediate event-time check, not a general later lava-immersion conversion. See the timing warning below.",
+      "image": "previews/realmstone-1.12.2-nether_realmstone.webp"
+    },
+    {
+      "id": "aoa3:ancient_cavern_realmstone",
+      "translation": "AncientCavernRealmstone",
+      "dimension_suffix": "ancientCavern",
+      "inventory_reference": {
+        "id": "localization:item.AncientCavernRealmstone.name",
+        "name": "Ancient Cavern Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/ancient_cavern_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-01.webp",
+          "x": 895,
+          "y": 1421,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7666,
+          "opcode": 43
+        },
+        {
+          "offset": 7667,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7670,
+          "opcode": 89
+        },
+        {
+          "offset": 7671,
+          "opcode": 19,
+          "constant": "AncientCavernRealmstone"
+        },
+        {
+          "offset": 7674,
+          "opcode": 19,
+          "constant": "ancient_cavern_realmstone"
+        },
+        {
+          "offset": 7677,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "ANCIENT_CAVERN_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7680,
+          "opcode": 186,
+          "operands": [
+            8,
+            42,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7685,
+          "opcode": 19,
+          "constant": "ancientCavern"
+        },
+        {
+          "offset": 7688,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Crystevia",
+      "action": "Complete the checked five-different-Construct task within its retained 600-tick window.",
+      "warning": "Use the Ancient Cavern guide for eligible classes, timing boundaries and capability persistence.",
+      "image": "previews/realmstone-1.12.2-ancient_cavern_realmstone.webp"
+    },
+    {
+      "id": "aoa3:barathos_realmstone",
+      "translation": "BarathosRealmstone",
+      "dimension_suffix": "barathos",
+      "inventory_reference": {
+        "id": "localization:item.BarathosRealmstone.name",
+        "name": "Barathos Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/barathos_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-02.webp",
+          "x": 675,
+          "y": 891,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7701,
+          "opcode": 43
+        },
+        {
+          "offset": 7702,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7705,
+          "opcode": 89
+        },
+        {
+          "offset": 7706,
+          "opcode": 19,
+          "constant": "BarathosRealmstone"
+        },
+        {
+          "offset": 7709,
+          "opcode": 19,
+          "constant": "barathos_realmstone"
+        },
+        {
+          "offset": 7712,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "BARATHOS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7715,
+          "opcode": 186,
+          "operands": [
+            8,
+            56,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7720,
+          "opcode": 19,
+          "constant": "barathos"
+        },
+        {
+          "offset": 7723,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Husk finishing hit",
+      "action": "Use the Blank Realmstone as the item hit that leaves a Husk at health \u22640.",
+      "warning": "The server item-hit callback replaces the player\u2019s main-hand item with the result; it is not any Husk kill while merely carrying a blank.",
+      "image": "previews/realmstone-1.12.2-barathos_realmstone.webp"
+    },
+    {
+      "id": "aoa3:borean_realmstone",
+      "translation": "BoreanRealmstone",
+      "dimension_suffix": "lborean",
+      "inventory_reference": {
+        "id": "localization:item.BoreanRealmstone.name",
+        "name": "Borean Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/borean_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-03.webp",
+          "x": 455,
+          "y": 1421,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7736,
+          "opcode": 43
+        },
+        {
+          "offset": 7737,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7740,
+          "opcode": 89
+        },
+        {
+          "offset": 7741,
+          "opcode": 19,
+          "constant": "BoreanRealmstone"
+        },
+        {
+          "offset": 7744,
+          "opcode": 19,
+          "constant": "borean_realmstone"
+        },
+        {
+          "offset": 7747,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "BOREAN_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7750,
+          "opcode": 186,
+          "operands": [
+            8,
+            70,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7755,
+          "opcode": 19,
+          "constant": "lborean"
+        },
+        {
+          "offset": 7758,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Gardencian creature",
+      "action": "Let one of the ten checked Gardencia classes touch Candied Water, then kill it with player true-source credit while carrying a blank.",
+      "warning": "The retained flag is set by contact, not a timed soak. The historical item ID uses borean_realmstone.",
+      "image": "previews/realmstone-1.12.2-borean_realmstone.webp"
+    },
+    {
+      "id": "aoa3:candyland_realmstone",
+      "translation": "CandylandRealmstone",
+      "dimension_suffix": "candyland",
+      "inventory_reference": {
+        "id": "localization:item.CandylandRealmstone.name",
+        "name": "Candyland Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/candyland_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-04.webp",
+          "x": 895,
+          "y": 626,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7771,
+          "opcode": 43
+        },
+        {
+          "offset": 7772,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7775,
+          "opcode": 89
+        },
+        {
+          "offset": 7776,
+          "opcode": 19,
+          "constant": "CandylandRealmstone"
+        },
+        {
+          "offset": 7779,
+          "opcode": 19,
+          "constant": "candyland_realmstone"
+        },
+        {
+          "offset": 7782,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "CANDYLAND_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7785,
+          "opcode": 186,
+          "operands": [
+            8,
+            84,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7790,
+          "opcode": 19,
+          "constant": "candyland"
+        },
+        {
+          "offset": 7793,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Precasia",
+      "action": "Eat a Heart Fruit in Precasia with a blank and remain above zero health after its self-harm request.",
+      "warning": "The method requests 7 self-harm damage before checking the reward. Prepare health and recovery.",
+      "image": "previews/realmstone-1.12.2-candyland_realmstone.webp"
+    },
+    {
+      "id": "aoa3:celeve_realmstone",
+      "translation": "CeleveRealmstone",
+      "dimension_suffix": "celeve",
+      "inventory_reference": {
+        "id": "localization:item.CeleveRealmstone.name",
+        "name": "Celeve Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/celeve_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-04.webp",
+          "x": 1115,
+          "y": 891,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7806,
+          "opcode": 43
+        },
+        {
+          "offset": 7807,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7810,
+          "opcode": 89
+        },
+        {
+          "offset": 7811,
+          "opcode": 19,
+          "constant": "CeleveRealmstone"
+        },
+        {
+          "offset": 7814,
+          "opcode": 19,
+          "constant": "celeve_realmstone"
+        },
+        {
+          "offset": 7817,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "CELEVE_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7820,
+          "opcode": 186,
+          "operands": [
+            8,
+            98,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7825,
+          "opcode": 19,
+          "constant": "celeve"
+        },
+        {
+          "offset": 7828,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Clown death",
+      "action": "Get player true-source kill credit on a Clown while holding the Lelyetian Greatblade in the main hand and carrying a blank.",
+      "warning": "The selected callback checks the held item at death; it does not itself require a melee-damage classification.",
+      "image": "previews/realmstone-1.12.2-celeve_realmstone.webp"
+    },
+    {
+      "id": "aoa3:creeponia_realmstone",
+      "translation": "CreeponiaRealmstone",
+      "dimension_suffix": "creeponia",
+      "inventory_reference": {
+        "id": "localization:item.CreeponiaRealmstone.name",
+        "name": "Creeponia Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/creeponia_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-05.webp",
+          "x": 455,
+          "y": 1421,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7841,
+          "opcode": 43
+        },
+        {
+          "offset": 7842,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7845,
+          "opcode": 89
+        },
+        {
+          "offset": 7846,
+          "opcode": 19,
+          "constant": "CreeponiaRealmstone"
+        },
+        {
+          "offset": 7849,
+          "opcode": 19,
+          "constant": "creeponia_realmstone"
+        },
+        {
+          "offset": 7852,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "CREEPONIA_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7855,
+          "opcode": 186,
+          "operands": [
+            8,
+            112,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7860,
+          "opcode": 19,
+          "constant": "creeponia"
+        },
+        {
+          "offset": 7863,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Creeper explosion",
+      "action": "Take an eligible Creeper explosion hurt event with primed TNT near the player or Creeper and a blank available.",
+      "warning": "The TNT query expands either bounding box by 3. Positive health is checked in the hurt callback, not a certified post-damage survival result.",
+      "image": "previews/realmstone-1.12.2-creeponia_realmstone.webp"
+    },
+    {
+      "id": "aoa3:crystevia_realmstone",
+      "translation": "CrysteviaRealmstone",
+      "dimension_suffix": "crystevia",
+      "inventory_reference": {
+        "id": "localization:item.CrysteviaRealmstone.name",
+        "name": "Crystevia Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/crystevia_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-06.webp",
+          "x": 15,
+          "y": 96,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7876,
+          "opcode": 43
+        },
+        {
+          "offset": 7877,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7880,
+          "opcode": 89
+        },
+        {
+          "offset": 7881,
+          "opcode": 19,
+          "constant": "CrysteviaRealmstone"
+        },
+        {
+          "offset": 7884,
+          "opcode": 19,
+          "constant": "crystevia_realmstone"
+        },
+        {
+          "offset": 7887,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "CRYSTEVIA_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7890,
+          "opcode": 186,
+          "operands": [
+            8,
+            126,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7895,
+          "opcode": 19,
+          "constant": "crystevia"
+        },
+        {
+          "offset": 7898,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Case Construct",
+      "action": "Interact with a Case Construct while holding the Deep Crystal block item and carrying a blank.",
+      "warning": "The selected method consumes the blank through the helper; it does not shrink the held Deep Crystal.",
+      "image": "previews/realmstone-1.12.2-crystevia_realmstone.webp"
+    },
+    {
+      "id": "aoa3:deeplands_realmstone",
+      "translation": "DeeplandsRealmstone",
+      "dimension_suffix": "deeplands",
+      "inventory_reference": {
+        "id": "localization:item.DeeplandsRealmstone.name",
+        "name": "Deeplands Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/deeplands_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-06.webp",
+          "x": 675,
+          "y": 891,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7911,
+          "opcode": 43
+        },
+        {
+          "offset": 7912,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7915,
+          "opcode": 89
+        },
+        {
+          "offset": 7916,
+          "opcode": 19,
+          "constant": "DeeplandsRealmstone"
+        },
+        {
+          "offset": 7919,
+          "opcode": 19,
+          "constant": "deeplands_realmstone"
+        },
+        {
+          "offset": 7922,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "DEEPLANDS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7925,
+          "opcode": 186,
+          "operands": [
+            8,
+            140,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7930,
+          "opcode": 19,
+          "constant": "deeplands"
+        },
+        {
+          "offset": 7933,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Deep ore harvest",
+      "action": "Harvest an accepted ore block at Y\u22645 with a blank available.",
+      "warning": "The helper accepts BlockOre or BlockRedstoneOre classes; a modded ore tag or name alone is insufficient.",
+      "image": "previews/realmstone-1.12.2-deeplands_realmstone.webp"
+    },
+    {
+      "id": "aoa3:dustopia_realmstone",
+      "translation": "DustopiaRealmstone",
+      "dimension_suffix": "dustopia",
+      "inventory_reference": {
+        "id": "localization:item.DustopiaRealmstone.name",
+        "name": "Dustopia Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/dustopia_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-07.webp",
+          "x": 15,
+          "y": 96,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7946,
+          "opcode": 43
+        },
+        {
+          "offset": 7947,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7950,
+          "opcode": 89
+        },
+        {
+          "offset": 7951,
+          "opcode": 19,
+          "constant": "DustopiaRealmstone"
+        },
+        {
+          "offset": 7954,
+          "opcode": 19,
+          "constant": "dustopia_realmstone"
+        },
+        {
+          "offset": 7957,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "DUSTOPIA_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7960,
+          "opcode": 186,
+          "operands": [
+            8,
+            154,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 7965,
+          "opcode": 19,
+          "constant": "dustopia"
+        },
+        {
+          "offset": 7968,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Shadow Altar",
+      "action": "Trigger the Shadow Altar activation while Night Vision is active and a blank is available.",
+      "warning": "The reward check accompanies a scheduled ritual; it is not proof of a successful boss spawn or kill.",
+      "image": "previews/realmstone-1.12.2-dustopia_realmstone.webp"
+    },
+    {
+      "id": "aoa3:gardencia_realmstone",
+      "translation": "GardenciaRealmstone",
+      "dimension_suffix": "gardencia",
+      "inventory_reference": {
+        "id": "localization:item.GardenciaRealmstone.name",
+        "name": "Gardencia Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/gardencia_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-09.webp",
+          "x": 1115,
+          "y": 361,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 7981,
+          "opcode": 43
+        },
+        {
+          "offset": 7982,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 7985,
+          "opcode": 89
+        },
+        {
+          "offset": 7986,
+          "opcode": 19,
+          "constant": "GardenciaRealmstone"
+        },
+        {
+          "offset": 7989,
+          "opcode": 19,
+          "constant": "gardencia_realmstone"
+        },
+        {
+          "offset": 7992,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "GARDENCIA_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 7995,
+          "opcode": 186,
+          "operands": [
+            8,
+            168,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8000,
+          "opcode": 19,
+          "constant": "gardencia"
+        },
+        {
+          "offset": 8003,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Precasia carrot ritual",
+      "action": "Drop a blank into a fully grown carrot crop in Precasia, then defeat the spawned Primitive Carrotop there.",
+      "warning": "The item-update path removes the dropped blank and crop after the spawn call; the creature\u2019s death drops the realmstone without requiring another blank.",
+      "image": "previews/realmstone-1.12.2-gardencia_realmstone.webp"
+    },
+    {
+      "id": "aoa3:greckon_realmstone",
+      "translation": "GreckonRealmstone",
+      "dimension_suffix": "greckon",
+      "inventory_reference": {
+        "id": "localization:item.GreckonRealmstone.name",
+        "name": "Greckon Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/greckon_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-10.webp",
+          "x": 455,
+          "y": 1156,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8016,
+          "opcode": 43
+        },
+        {
+          "offset": 8017,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8020,
+          "opcode": 89
+        },
+        {
+          "offset": 8021,
+          "opcode": 19,
+          "constant": "GreckonRealmstone"
+        },
+        {
+          "offset": 8024,
+          "opcode": 19,
+          "constant": "greckon_realmstone"
+        },
+        {
+          "offset": 8027,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "GRECKON_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8030,
+          "opcode": 186,
+          "operands": [
+            8,
+            182,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8035,
+          "opcode": 19,
+          "constant": "greckon"
+        },
+        {
+          "offset": 8038,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Elusive interaction",
+      "action": "Use Nightmare Flakes on Elusive with a blank available.",
+      "warning": "The inspected method consumes the blank through the helper and shrinks one Flakes item; it lacks its own explicit side guard.",
+      "image": "previews/realmstone-1.12.2-greckon_realmstone.webp"
+    },
+    {
+      "id": "aoa3:haven_realmstone",
+      "translation": "HavenRealmstone",
+      "dimension_suffix": "haven",
+      "inventory_reference": {
+        "id": "localization:item.HavenRealmstone.name",
+        "name": "Haven Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/haven_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-11.webp",
+          "x": 455,
+          "y": 96,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8051,
+          "opcode": 43
+        },
+        {
+          "offset": 8052,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8055,
+          "opcode": 89
+        },
+        {
+          "offset": 8056,
+          "opcode": 19,
+          "constant": "HavenRealmstone"
+        },
+        {
+          "offset": 8059,
+          "opcode": 19,
+          "constant": "haven_realmstone"
+        },
+        {
+          "offset": 8062,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "HAVEN_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8065,
+          "opcode": 186,
+          "operands": [
+            8,
+            196,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8070,
+          "opcode": 19,
+          "constant": "haven"
+        },
+        {
+          "offset": 8073,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Lelyetia",
+      "action": "Kill a Flye with eligible melee damage and player true-source credit while the player is at Y\u226580, carrying a blank.",
+      "warning": "The height check uses the player\u2019s position; do not substitute the Flye\u2019s Y coordinate.",
+      "image": "previews/realmstone-1.12.2-haven_realmstone.webp"
+    },
+    {
+      "id": "aoa3:immortallis_realmstone",
+      "translation": "ImmortallisRealmstone",
+      "dimension_suffix": "immortallis",
+      "inventory_reference": {
+        "id": "localization:item.ImmortallisRealmstone.name",
+        "name": "Immortallis Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/immortallis_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-12.webp",
+          "x": 455,
+          "y": 361,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8086,
+          "opcode": 43
+        },
+        {
+          "offset": 8087,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8090,
+          "opcode": 89
+        },
+        {
+          "offset": 8091,
+          "opcode": 19,
+          "constant": "ImmortallisRealmstone"
+        },
+        {
+          "offset": 8094,
+          "opcode": 19,
+          "constant": "immortallis_realmstone"
+        },
+        {
+          "offset": 8097,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "IMMORTALLIS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8100,
+          "opcode": 186,
+          "operands": [
+            8,
+            210,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8105,
+          "opcode": 19,
+          "constant": "immortallis"
+        },
+        {
+          "offset": 8108,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Construct of Strength",
+      "action": "Receive a successful hit from a Strength-buffed Construct of Strength, remain above zero health and have a blank available.",
+      "warning": "Follow the dedicated Immortallis walkthrough for dungeon preparation and recovery.",
+      "image": "previews/realmstone-1.12.2-immortallis_realmstone.webp"
+    },
+    {
+      "id": "aoa3:iromine_realmstone",
+      "translation": "IromineRealmstone",
+      "dimension_suffix": "iromine",
+      "inventory_reference": {
+        "id": "localization:item.IromineRealmstone.name",
+        "name": "Iromine Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/iromine_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-12.webp",
+          "x": 15,
+          "y": 1686,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8121,
+          "opcode": 43
+        },
+        {
+          "offset": 8122,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8125,
+          "opcode": 89
+        },
+        {
+          "offset": 8126,
+          "opcode": 19,
+          "constant": "IromineRealmstone"
+        },
+        {
+          "offset": 8129,
+          "opcode": 19,
+          "constant": "iromine_realmstone"
+        },
+        {
+          "offset": 8132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "IROMINE_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8135,
+          "opcode": 186,
+          "operands": [
+            8,
+            224,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8140,
+          "opcode": 19,
+          "constant": "iromine"
+        },
+        {
+          "offset": 8143,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Mineralization Station",
+      "action": "Use a held Blank Realmstone on a Mineralization Station.",
+      "warning": "The selected server handler switches on the held item\u2019s translation-key suffix and replaces the held stack with Iromine\u2019s stone.",
+      "image": "previews/realmstone-1.12.2-iromine_realmstone.webp"
+    },
+    {
+      "id": "aoa3:lelyetia_realmstone",
+      "translation": "LelyetiaRealmstone",
+      "dimension_suffix": "lelyetia",
+      "inventory_reference": {
+        "id": "localization:item.LelyetiaRealmstone.name",
+        "name": "Lelyetia Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/lelyetia_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 1115,
+          "y": 626,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8156,
+          "opcode": 43
+        },
+        {
+          "offset": 8157,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8160,
+          "opcode": 89
+        },
+        {
+          "offset": 8161,
+          "opcode": 19,
+          "constant": "LelyetiaRealmstone"
+        },
+        {
+          "offset": 8164,
+          "opcode": 19,
+          "constant": "lelyetia_realmstone"
+        },
+        {
+          "offset": 8167,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "LELYETIA_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8170,
+          "opcode": 186,
+          "operands": [
+            8,
+            238,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8175,
+          "opcode": 19,
+          "constant": "lelyetia"
+        },
+        {
+          "offset": 8178,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Fall event",
+      "action": "Trigger a player fall event with distance >25 and damage multiplier >0 while a blank is available.",
+      "warning": "The reward check runs before later player-data/Expedition fall handling. It does not certify surviving the final damage.",
+      "image": "previews/realmstone-1.12.2-lelyetia_realmstone.webp"
+    },
+    {
+      "id": "aoa3:lunalus_realmstone",
+      "translation": "LunalusRealmstone",
+      "dimension_suffix": "lunalus",
+      "inventory_reference": {
+        "id": "localization:item.LunalusRealmstone.name",
+        "name": "Lunalus Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/lunalus_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-14.webp",
+          "x": 895,
+          "y": 96,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8191,
+          "opcode": 43
+        },
+        {
+          "offset": 8192,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8195,
+          "opcode": 89
+        },
+        {
+          "offset": 8196,
+          "opcode": 19,
+          "constant": "LunalusRealmstone"
+        },
+        {
+          "offset": 8199,
+          "opcode": 19,
+          "constant": "lunalus_realmstone"
+        },
+        {
+          "offset": 8202,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "LUNALUS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8205,
+          "opcode": 186,
+          "operands": [
+            8,
+            252,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8210,
+          "opcode": 19,
+          "constant": "lunalus"
+        },
+        {
+          "offset": 8213,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Haven",
+      "action": "Hold the selected Gravitator while airborne in Haven, outside Creative, with a blank in main inventory at a five-tick world-time boundary.",
+      "warning": "Its downward air-test loop mutates the sampled position cumulatively; see the implementation warning below.",
+      "image": "previews/realmstone-1.12.2-lunalus_realmstone.webp"
+    },
+    {
+      "id": "aoa3:mysterium_realmstone",
+      "translation": "MysteriumRealmstone",
+      "dimension_suffix": "mysterium",
+      "inventory_reference": {
+        "id": "localization:item.MysteriumRealmstone.name",
+        "name": "Mysterium Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/mysterium_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-15.webp",
+          "x": 235,
+          "y": 1686,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8226,
+          "opcode": 43
+        },
+        {
+          "offset": 8227,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8230,
+          "opcode": 89
+        },
+        {
+          "offset": 8231,
+          "opcode": 19,
+          "constant": "MysteriumRealmstone"
+        },
+        {
+          "offset": 8234,
+          "opcode": 19,
+          "constant": "mysterium_realmstone"
+        },
+        {
+          "offset": 8237,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "MYSTERIUM_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8240,
+          "opcode": 186,
+          "operands": [
+            9,
+            10,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8245,
+          "opcode": 19,
+          "constant": "mysterium"
+        },
+        {
+          "offset": 8248,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Creepird poison",
+      "action": "Cause a successful poison-classified damage event on a Creepird with its attackingPlayer reference set to a player carrying a blank.",
+      "warning": "Poison classification checks magic damage, no true source, not thorns, active Poison and exactly 1.0 damage.",
+      "image": "previews/realmstone-1.12.2-mysterium_realmstone.webp"
+    },
+    {
+      "id": "aoa3:precasia_realmstone",
+      "translation": "PrecasiaRealmstone",
+      "dimension_suffix": "precasia",
+      "inventory_reference": {
+        "id": "localization:item.PrecasiaRealmstone.name",
+        "name": "Precasia Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/precasia_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-17.webp",
+          "x": 895,
+          "y": 1156,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8261,
+          "opcode": 43
+        },
+        {
+          "offset": 8262,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8265,
+          "opcode": 89
+        },
+        {
+          "offset": 8266,
+          "opcode": 19,
+          "constant": "PrecasiaRealmstone"
+        },
+        {
+          "offset": 8269,
+          "opcode": 19,
+          "constant": "precasia_realmstone"
+        },
+        {
+          "offset": 8272,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "PRECASIA_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8275,
+          "opcode": 186,
+          "operands": [
+            9,
+            24,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8280,
+          "opcode": 19,
+          "constant": "precasia"
+        },
+        {
+          "offset": 8283,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Crafting",
+      "action": "Shapeless: Blank Realmstone plus one each of all six vanilla sapling metadata variants 0\u20135.",
+      "warning": "Use the illustrated first-portal guide; this is not the modern archaeology route.",
+      "image": "previews/realmstone-1.12.2-precasia_realmstone.webp"
+    },
+    {
+      "id": "aoa3:runandor_realmstone",
+      "translation": "RunandorRealmstone",
+      "dimension_suffix": "runandor",
+      "inventory_reference": {
+        "id": "localization:item.RunandorRealmstone.name",
+        "name": "Runandor Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/runandor_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-20.webp",
+          "x": 1115,
+          "y": 96,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8296,
+          "opcode": 43
+        },
+        {
+          "offset": 8297,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8300,
+          "opcode": 89
+        },
+        {
+          "offset": 8301,
+          "opcode": 19,
+          "constant": "RunandorRealmstone"
+        },
+        {
+          "offset": 8304,
+          "opcode": 19,
+          "constant": "runandor_realmstone"
+        },
+        {
+          "offset": 8307,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "RUNANDOR_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8310,
+          "opcode": 186,
+          "operands": [
+            9,
+            38,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8315,
+          "opcode": 19,
+          "constant": "runandor"
+        },
+        {
+          "offset": 8318,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Mysterium Vox Light",
+      "action": "Place a dropped blank and Runic Energy above a Vox Light in Mysterium, then use an Active Rune Stone.",
+      "warning": "Use exactly the required dropped entities and keep spare stacks away. The loop and whole-stack consumption warning below matters.",
+      "image": "previews/realmstone-1.12.2-runandor_realmstone.webp"
+    },
+    {
+      "id": "aoa3:shyrelands_realmstone",
+      "translation": "ShyrelandsRealmstone",
+      "dimension_suffix": "shyrelands",
+      "inventory_reference": {
+        "id": "localization:item.ShyrelandsRealmstone.name",
+        "name": "Shyrelands Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/shyrelands_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-21.webp",
+          "x": 235,
+          "y": 891,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8331,
+          "opcode": 43
+        },
+        {
+          "offset": 8332,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8335,
+          "opcode": 89
+        },
+        {
+          "offset": 8336,
+          "opcode": 19,
+          "constant": "ShyrelandsRealmstone"
+        },
+        {
+          "offset": 8339,
+          "opcode": 19,
+          "constant": "shyrelands_realmstone"
+        },
+        {
+          "offset": 8342,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "SHYRELANDS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8345,
+          "opcode": 186,
+          "operands": [
+            9,
+            52,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8350,
+          "opcode": 19,
+          "constant": "shyrelands"
+        },
+        {
+          "offset": 8353,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Crafting",
+      "action": "Shapeless: blank, Darkly Powder, Bloodstone, Glowstone block, Haunted Flower and Magic Mending Solution.",
+      "warning": "The recipe uses minecraft:glowstone, not Glowstone Dust; these exact items are not automatically replaceable by modded equivalents.",
+      "image": "previews/realmstone-1.12.2-shyrelands_realmstone.webp"
+    },
+    {
+      "id": "aoa3:vox_ponds_realmstone",
+      "translation": "VoxPondsRealmstone",
+      "dimension_suffix": "voxPonds",
+      "inventory_reference": {
+        "id": "localization:item.VoxPondsRealmstone.name",
+        "name": "Vox Ponds Realmstone",
+        "kind": "item",
+        "model": "aoa3:item/misc/realmstone/vox_ponds_realmstone",
+        "registry_style_id": false,
+        "preview": {
+          "sheet": "previews/1.12.2-item-sheet-24.webp",
+          "x": 455,
+          "y": 1156,
+          "size": 190
+        },
+        "status": "Regular source-model preview",
+        "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      },
+      "registration_instructions": [
+        {
+          "offset": 8366,
+          "opcode": 43
+        },
+        {
+          "offset": 8367,
+          "opcode": 187,
+          "operands": [
+            7,
+            240
+          ]
+        },
+        {
+          "offset": 8370,
+          "opcode": 89
+        },
+        {
+          "offset": 8371,
+          "opcode": 19,
+          "constant": "VoxPondsRealmstone"
+        },
+        {
+          "offset": 8374,
+          "opcode": 19,
+          "constant": "vox_ponds_realmstone"
+        },
+        {
+          "offset": 8377,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "VOX_PONDS_PORTAL",
+            "Lnet/tslat/aoa3/block/functional/portal/PortalBlock;"
+          ]
+        },
+        {
+          "offset": 8380,
+          "opcode": 186,
+          "operands": [
+            9,
+            66,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 8385,
+          "opcode": 19,
+          "constant": "voxPonds"
+        },
+        {
+          "offset": 8388,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/Realmstone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/tslat/aoa3/block/functional/portal/PortalBlock;Ljava/util/function/Supplier;Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "route_category": "Creeponia trader",
+      "action": "Interact with an AoATrader in Creeponia using a blank while environmentally protected.",
+      "warning": "The helper accepts a full Hazmat set or Face Mask, with an additional IC2 compatibility route if active.",
+      "image": "previews/realmstone-1.12.2-vox_ponds_realmstone.webp"
+    }
+  ]
+}

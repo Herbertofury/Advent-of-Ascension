@@ -106,6 +106,10 @@ Before entering, put irreplaceable items away, take supplies, record your depart
 | Portal shuts off instead of opening | Blank Realmstone used rather than destination stone |
 | Ruins seem absent | Confirm structure configuration and explore appropriate newly generated terrain; no guaranteed search radius |
 
+## Continue to the other destinations
+
+[All 23 historical realmstone routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-and-Challenges-1.12.2) compares the acquisition checks, exact recipes and item-consumption warnings for your next expedition.
+
 ## Evidence and limits
 
 [Recipe and class evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/starter-portal-evidence-1.12.2.json) records exact released resources, sapling metadata ingredients, the successful-inventory-insertion food guard, book lookup and source frame coordinates. Source interpretation is pinned to [29dd8a8a20642ee182b851e34ef58b65f68e68bf](https://github.com/Tslat/Advent-Of-Ascension/tree/29dd8a8a20642ee182b851e34ef58b65f68e68bf). Only the specified bytecode paths were independently checked; this is not a complete source/binary equivalence proof or live-game test.

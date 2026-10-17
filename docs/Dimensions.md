@@ -12,7 +12,7 @@ Choose a release before planning an expedition. This atlas distinguishes **dimen
 
 | Your release | Start here | Important boundary |
 |---|---|---|
-| 1.12.2 / 3.3.6 | [First portal and Precasia](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-and-Precasia-1.12.2) | Code-era dimensions use configurable integer IDs; namespaced keys here are comparison labels. |
+| 1.12.2 / 3.3.6 | [First portal and Precasia](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-and-Precasia-1.12.2) · [23 realmstone routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-and-Challenges-1.12.2) | Code-era dimensions use configurable integer IDs; namespaced keys here are comparison labels. |
 | 1.16.5 / 3.6.11 | [First portal](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough-1.16.5) · [22 realmstone routes and restrictions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5) | Follow the release-specific trigger and destination checks. |
 | 1.20.1 / 3.7.1 | [Portal support and preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Portal-Support-and-Preparation-1.20.1) | Retained dimension files do not certify every travel/acquisition route. |
 | 1.21.1 / 3.7.16.1 | [First portal](https://github.com/Herbertofury/Advent-of-Ascension/wiki/First-Portal-Walkthrough) · [Precasia archaeology](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Realmstone-Walkthrough) · [Nowhere/Skill Master](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1) | Nowhere arenas and ordinary realm portals are different journeys. |
