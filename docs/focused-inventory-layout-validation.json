@@ -1,0 +1,30 @@
+{
+  "scope": "Live desktop DOM and screenshot checks of the published inventory layout; not a claim of physical mobile-device testing.",
+  "commit": "bc84993c9cbaf661ebef06eb56932f6a6e91660f",
+  "pages_run": "https://github.com/Herbertofury/Advent-of-Ascension/actions/runs/38986421732",
+  "deployment": "build, report-build-status and deploy observed successful",
+  "desktop_viewport_css_width": 1180,
+  "single_item": {
+    "id": "aoa3:amber_staff",
+    "card_client_width": 958,
+    "card_scroll_width": 958,
+    "body_width": 575,
+    "columns": "383.188px 574.812px",
+    "screenshot_review": "Preview and readable staff planner side by side; no horizontal card overflow."
+  },
+  "responsive_rule": {
+    "breakpoint_css_px": 650,
+    "fallback": "Single column with static preview; present in stylesheet, not separately verified on a physical mobile device."
+  },
+  "data_behavior": "CSS-only layout change; no added network requests, item-data mutations or JavaScript rendering work. Existing 64 documentation checks passed.",
+  "multi_item": {
+    "count": 40,
+    "first_three_card_widths": [
+      260,
+      260,
+      260
+    ],
+    "display": "flex",
+    "horizontal_card_overflow": false
+  }
+}
