@@ -36,3 +36,7 @@ Research snapshot: **2026-10-15**. Original documentation for the owner’s Ende
 ## Practical entry and token states
 
 [Boss entry and token preparation for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1) covers released damage components, strict Bone Horn repair ingredients, Nowhere altar sequencing, original gold trophies and return behavior. It also flags the inspected WOUNDED-state gap in the Warped Horn acquisition chain. Do not treat the conversion callback alone as proof that the required drop flag is set.
+
+## Daylight combat preparation
+
+Daylight is not universally safe. [Ancient Golem and Bomb Carrier](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Overworld-Daylight-Threats-1.21.1) compares their armor, thrown explosives, spawn conditions and illustrated loot without treating spawn weights as encounter percentages.

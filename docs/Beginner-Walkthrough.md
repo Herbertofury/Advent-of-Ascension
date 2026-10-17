@@ -115,3 +115,7 @@ This chapter covers the start-to-first-expedition route. Continue with the check
 - [1.16.5 Rune Posts and Randomizer handbook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Randomizer-1.16.5)
 
 - [Trading, prices and restocking · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1)
+
+## Daylight combat preparation
+
+Daylight is not universally safe. [Ancient Golem and Bomb Carrier](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Overworld-Daylight-Threats-1.21.1) compares their armor, thrown explosives, spawn conditions and illustrated loot without treating spawn weights as encounter percentages.
