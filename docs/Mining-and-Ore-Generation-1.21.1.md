@@ -2162,3 +2162,7 @@ Configured: `data/aoa3/worldgen/configured_feature/varsium_ore.json`
 - Compare local Enderloom generation against this released baseline before marking a port complete.
 
 Related: [Inventory Explorer](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1) · [Recipe Explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Boss token preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boss-Entry-and-Token-Preparation-1.21.1).
+
+## Choose special mining effects carefully
+
+[Special pickaxes: charging, drops and mining safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Pickaxes-Charging-and-Mining-Safety-1.21.1) compares eight implementations and four illustrated recipes. Check Spirit charge, Pickmax’s neighboring-block volume, smelted-drop XP and tool-specific loot gates before testing near valuable builds.

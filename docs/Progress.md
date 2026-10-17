@@ -17,10 +17,10 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 136 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 137 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,837 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
-| Compact contextual guide index | 559 links across 518 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
+| Compact contextual guide index | 567 links across 526 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Equipment | 411 modern weapon references; 204 armor records; 48 ordinary set source reviews | [Armor effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) |
 | Historical firearm panels | 328 release-specific panels: 172 in 1.12.2, 78 in 1.16.5 and 78 in 1.20.1 | [Historical item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&family=verified) |
 | Historical archergun panels | 9 source-checked 1.12.2 arrow-firing weapons | [Ammunition and special effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Archergun-Ammunition-and-Special-Effects-1.12.2) |
@@ -46,7 +46,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Interactive block models | 1,026 JSON-element item-model references; 17,537 quads in 33 on-demand chunks; 183 explicit exclusions | [Explore block models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Block-Model-Coverage-1.21.1) |
 | Interactive workstations | 7 static item meshes, 240 quads and 14 source textures; orbit controls and keyboard views | [Inspect in 3D](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Workstation-Models-1.21.1) |
 | Reading routes | 4 release-specific six-stop routes; browser-local reading checklists | [Choose a route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reading-Routes-and-Local-Checklists) |
-| Local documentation validation | 224 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 225 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
@@ -59,7 +59,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 - [Historical Exp Flask](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Exp-Flask-Storage-and-Recovery-1.12.2): automatic orb capture, inventory priority, withdrawal tiers, actual empty/filled textures and float storage/capability limits.
 
-- Historical item cards now also connect Soul Tablets, Runation, Pixon harvesting, Infusion crafting and reward boxes to their checked guides: 559 exact links across 518 cards, with an 11,652-byte inline index and no additional requests.
+- Inventory cards connect historical skills, crafting, recovery and modern special tools to their checked guides: 567 exact links across 526 cards, with a 11,870-byte inline index and no additional requests.
 
 - [Historical realmstone challenges](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-and-Challenges-1.12.2): 23 illustrated destination stones, exact acquisition predicates, two recipes and consumption/timing warnings.
 
@@ -83,18 +83,8 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 - [Historical Infusion crafting and enchanting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2): all 386 shipped recipes, 37 enchantment families, exact slot layout and visible recipe-browser requirements.
 
-
-
-
-
-
-
-
-
-
-
 - [Worlds and travel atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions): 24 comparison identities, 22 code-era declarations and exact 21/7/10 data-definition counts, with biome references and travel links kept release-specific.
-- The larger how-to coverage now uses **11,652 inline bytes** for inventory links and **8,461 bytes** for recipe links. Common wiki prefixes are stored once; links are decoded once with no extra requests. Existing associations are preserved. These are payload measurements, not measured Minecraft FPS gains.
+- The larger how-to coverage now uses **11,870 inline bytes** for inventory links and **8,461 bytes** for recipe links. Common wiki prefixes are stored once; links are decoded once with no extra requests. Existing associations are preserved. These are payload measurements, not measured Minecraft FPS gains.
 
 ### What still prevents a “complete AoA” claim
 
