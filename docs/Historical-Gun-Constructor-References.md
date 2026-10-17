@@ -6,6 +6,8 @@
 
 **Inspected artifacts:** AoA 3.6.11 for Minecraft 1.16.5 and AoA 3.7.1 for Minecraft 1.20.1. Each release has 78 covered gun registration factories, giving **156 release-specific item-card panels**. The two artifacts are analysed separately; modern 1.21.1 values are not copied into older cards.
 
+For the older edition, use the separate [78-gun 1.12.2 reference](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2). Its constructor values and base recoil getter differ; do not transplant this table into that release.
+
 ## Read a historical item card
 
 Open one of the release links below, then expand **Historical gun inputs · damage, timing and durability**. The panel lists the literal damage, durability, firing-interval and recoil arguments passed by the released registration factory, plus a resolved literal fire-mode getter where available.
