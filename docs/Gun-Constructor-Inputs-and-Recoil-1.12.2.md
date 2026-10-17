@@ -114,6 +114,8 @@ Each linked name opens its own source-model portrait and input panel. Tick inter
 
 ## Firing and ammunition
 
+For precision weapons, use the [27-sniper stance and scope guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sniper-Stance-Scopes-and-Inputs-1.12.2), including all 13 released scope overlays and the early-impact age check.
+
 For pellet weapons, use the separate [17-shotgun guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Pellets-Spread-and-Special-Effects-1.12.2), including Spreadshot, Form spread and special impact branches.
 
 Continue with [hand selection, ammunition and inventory pitfalls](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2) for the checked base use path, exact historical bullet recipe and split-stack payment test cases.
