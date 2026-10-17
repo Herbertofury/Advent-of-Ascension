@@ -1,0 +1,2586 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Eight released thrown-weapon registrations, selected creation/spawn paths and two explosion builder segments. Not an explosion simulation or live cancellation reproduction.",
+  "records": [
+    {
+      "id": "aoa3:grenade",
+      "name": "Grenade",
+      "impact_damage": 0,
+      "damage_origin": "released builder default",
+      "throw_interval_ticks": 9,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 6930
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            9
+          ],
+          "offset": 6935
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$240",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/Grenade;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              112
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "GRENADE",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/Grenade",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb047059b204721040b904460200b70475b0"
+      }
+    },
+    {
+      "id": "aoa3:slice_star",
+      "name": "Slice Star",
+      "impact_damage": 4.5,
+      "damage_origin": "explicit builder override",
+      "throw_interval_ticks": 4,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 6941
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            4
+          ],
+          "offset": 6945
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2",
+            "impactDamage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            4.5
+          ],
+          "offset": 6951
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$241",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/SliceStar;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              106
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "SLICE_STAR",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/SliceStar",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb046a59b2046c1040b904460200b7046fb0"
+      }
+    },
+    {
+      "id": "aoa3:chakram",
+      "name": "Chakram",
+      "impact_damage": 4.0,
+      "damage_origin": "explicit builder override",
+      "throw_interval_ticks": 5,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 6957
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            5
+          ],
+          "offset": 6961
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2",
+            "impactDamage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            4.0
+          ],
+          "offset": 6967
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$242",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/Chakram;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              100
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "CHAKRAM",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/Chakram",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb046459b204661040b904460200b70469b0"
+      }
+    },
+    {
+      "id": "aoa3:goo_ball",
+      "name": "Goo Ball",
+      "impact_damage": 3.5,
+      "damage_origin": "explicit builder override",
+      "throw_interval_ticks": 7,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 6973
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            7
+          ],
+          "offset": 6978
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2",
+            "impactDamage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            3.5
+          ],
+          "offset": 6984
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$243",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/GooBall;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              94
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "GOO_BALL",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/GooBall",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb045e59b204601040b904460200b70463b0"
+      }
+    },
+    {
+      "id": "aoa3:vulkram",
+      "name": "Vulkram",
+      "impact_damage": 3.0,
+      "damage_origin": "explicit builder override",
+      "throw_interval_ticks": 5,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 6990
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            5
+          ],
+          "offset": 6994
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2",
+            "impactDamage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            3.0
+          ],
+          "offset": 7000
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$244",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/Vulkram;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              88
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "VULKRAM",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/Vulkram",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb045859b2045a1040b904460200b7045db0"
+      }
+    },
+    {
+      "id": "aoa3:hellfire",
+      "name": "Hellfire",
+      "impact_damage": 3.5,
+      "damage_origin": "explicit builder override",
+      "throw_interval_ticks": 6,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7006
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            6
+          ],
+          "offset": 7011
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2",
+            "impactDamage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            3.5
+          ],
+          "offset": 7017
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$245",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/Hellfire;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              82
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "HELLFIRE",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/Hellfire",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb045259b204541040b904460200b70457b0"
+      }
+    },
+    {
+      "id": "aoa3:runic_bomb",
+      "name": "Runic Bomb",
+      "impact_damage": 0,
+      "damage_origin": "released builder default",
+      "throw_interval_ticks": 10,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7023
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10
+          ],
+          "offset": 7028
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$246",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/RunicBomb;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              76
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "RUNIC_BOMB",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/RunicBomb",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb044c59b2044e1040b904460200b70451b0"
+      }
+    },
+    {
+      "id": "aoa3:hardened_parapiranha",
+      "name": "Hardened Parapiranha",
+      "impact_damage": 10.0,
+      "damage_origin": "explicit builder override",
+      "throw_interval_ticks": 20,
+      "maximum_stack": 64,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7034
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+            "throwTickInterval",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            20
+          ],
+          "offset": 7039
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2",
+            "impactDamage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7044
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$247",
+        "descriptor": "()Lnet/tslat/aoa3/content/item/weapon/thrown/HardenedParapiranha;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              64
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "HARDENED_PARAPIRANHA",
+              "Lnet/tslat/aoa3/library/builder/item/ThrownItemProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 64
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/ThrownItemProperties",
+              "stacksTo",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/thrown/HardenedParapiranha",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb044059b204421040b904460200b7044bb0"
+      }
+    }
+  ],
+  "behavior_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder.class",
+      "sha256": "532958ca3a847ca4ab1160921b6e0cd1043c50fdd252f53f3b89ecbaa569514f",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "()V",
+          "code_hex": "2ab700012a1006b500072a0bb5000db1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 183,
+              "member": [
+                "java/lang/Object",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 16,
+              "constant": 6
+            },
+            {
+              "offset": 7,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+                "throwTickInterval",
+                "I"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 42
+            },
+            {
+              "offset": 11,
+              "opcode": 11
+            },
+            {
+              "offset": 12,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/library/builder/item/ThrownItemProperties$Builder",
+                "impactDamage",
+                "F"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon.class",
+      "sha256": "6a2f8fa8dc68f5144da8dafdea2a73f9c794b355cbd2cdc4d3c1e3aef76e96e0",
+      "methods": [
+        {
+          "name": "createFiringContext",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder;",
+          "code_hex": "2bb600302c2db800330db600392a2bb6003db60041b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "copy",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 44
+            },
+            {
+              "offset": 5,
+              "opcode": 45
+            },
+            {
+              "offset": 6,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder",
+                "of",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 13
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder",
+                "degreesInaccuracy",
+                "(F)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 42
+            },
+            {
+              "offset": 14,
+              "opcode": 43
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "getImpactDamage",
+                "(Lnet/minecraft/world/item/ItemStack;)F"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder",
+                "damage",
+                "(F)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder;"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "asProjectile",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/ThrowableItemProjectile;",
+          "code_hex": "2a2b2d01b80044b60047b6004bb9004f0100c000553a0519052cb9005701002cb9005d01002cb900600100b600631905b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 45
+            },
+            {
+              "offset": 3,
+              "opcode": 1
+            },
+            {
+              "offset": 4,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder",
+                "of",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder",
+                "build",
+                "()Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Instance;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "createProjectileEntity",
+                "(Lnet/minecraft/world/level/Level;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+                "asEntity",
+                "()Lnet/minecraft/world/entity/projectile/Projectile;"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 192,
+              "operands": [
+                0,
+                85
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 44
+            },
+            {
+              "offset": 26,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/core/Position",
+                "x",
+                "()D"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 44
+            },
+            {
+              "offset": 32,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/core/Position",
+                "y",
+                "()D"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 44
+            },
+            {
+              "offset": 38,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/core/Position",
+                "z",
+                "()D"
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/projectile/ThrowableItemProjectile",
+                "setPos",
+                "(DDD)V"
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "findAndConsumeAmmo",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;",
+          "code_hex": "2cb9006701003a051905c1006d9900111905c0006d3a042d041904b6006f2a2b2cb6004bb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext",
+                "getShooter",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 193,
+              "operands": [
+                0,
+                109
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 153,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 192,
+              "operands": [
+                0,
+                109
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 45
+            },
+            {
+              "offset": 24,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 25,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "consume",
+                "(ILnet/minecraft/world/entity/LivingEntity;)V"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 43
+            },
+            {
+              "offset": 32,
+              "opcode": 44
+            },
+            {
+              "offset": 33,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "createProjectileEntity",
+                "(Lnet/minecraft/world/level/Level;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;"
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db6009c3a042cb600a09900102cb600a49900091904b800a7b02c0bb600ad0c969c00091904b800b1b02bc1009799004a2bc000973a052a19042c2db600b4b600473a062a190519061904b600b73a071907c600262cb200bb2ab600c1b600c62a1904b600ca3608150804a4000d2cb600ce2a1508b600d219042bb600d8b800ddb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 45
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 44
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "isUsingItem",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 153,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 44
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "isBlocking",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 153,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "pass",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 176
+            },
+            {
+              "offset": 27,
+              "opcode": 44
+            },
+            {
+              "offset": 28,
+              "opcode": 11
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getAttackStrengthScale",
+                "(F)F"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 12
+            },
+            {
+              "offset": 33,
+              "opcode": 150
+            },
+            {
+              "offset": 34,
+              "opcode": 156,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "fail",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 176
+            },
+            {
+              "offset": 43,
+              "opcode": 43
+            },
+            {
+              "offset": 44,
+              "opcode": 193,
+              "operands": [
+                0,
+                151
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 153,
+              "operands": [
+                0,
+                74
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 43
+            },
+            {
+              "offset": 51,
+              "opcode": 192,
+              "operands": [
+                0,
+                151
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 42
+            },
+            {
+              "offset": 57,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 44
+            },
+            {
+              "offset": 60,
+              "opcode": 45
+            },
+            {
+              "offset": 61,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "createFiringContext",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder;"
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Builder",
+                "build",
+                "()Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext$Instance;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 42
+            },
+            {
+              "offset": 70,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "throwProjectile",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;"
+              ]
+            },
+            {
+              "offset": 79,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 198,
+              "operands": [
+                0,
+                38
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 44
+            },
+            {
+              "offset": 87,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/stats/Stats",
+                "ITEM_USED",
+                "Lnet/minecraft/stats/StatType;"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 42
+            },
+            {
+              "offset": 91,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/stats/StatType",
+                "get",
+                "(Ljava/lang/Object;)Lnet/minecraft/stats/Stat;"
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "awardStat",
+                "(Lnet/minecraft/stats/Stat;)V"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 42
+            },
+            {
+              "offset": 98,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "getTicksBetweenThrows",
+                "(Lnet/minecraft/world/item/ItemStack;)I"
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 54,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 21,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 108,
+              "opcode": 164,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 44
+            },
+            {
+              "offset": 112,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getCooldowns",
+                "()Lnet/minecraft/world/item/ItemCooldowns;"
+              ]
+            },
+            {
+              "offset": 115,
+              "opcode": 42
+            },
+            {
+              "offset": 116,
+              "opcode": 21,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemCooldowns",
+                "addCooldown",
+                "(Lnet/minecraft/world/item/Item;I)V"
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 43
+            },
+            {
+              "offset": 124,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "sidedSuccess",
+                "(Ljava/lang/Object;Z)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "throwProjectile",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;",
+          "code_hex": "2a2b2c2db600e13a041904c6001b1904b9004f01003a061906c100e599000a19063a05a7000501b01904b900e70100c000502cb900ea01002cb900ed0100b900f00300572b1905b600f49900132a2b2c1904b600f82a2b2c1904b600fc1904b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 45
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "findAndConsumeAmmo",
+                "(Lnet/minecraft/world/level/Level;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 198,
+              "operands": [
+                0,
+                27
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+                "asEntity",
+                "()Lnet/minecraft/world/entity/projectile/Projectile;"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 193,
+              "operands": [
+                0,
+                229
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 167,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 1
+            },
+            {
+              "offset": 39,
+              "opcode": 176
+            },
+            {
+              "offset": 40,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+                "fromEyePos",
+                "()Lnet/minecraft/world/entity/projectile/Projectile;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 192,
+              "operands": [
+                0,
+                80
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 44
+            },
+            {
+              "offset": 51,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext",
+                "velocity",
+                "()F"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 44
+            },
+            {
+              "offset": 57,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext",
+                "inaccuracy",
+                "()F"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+                "shootingStraight",
+                "(FF)Lnet/minecraft/world/entity/projectile/Projectile;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 87
+            },
+            {
+              "offset": 68,
+              "opcode": 43
+            },
+            {
+              "offset": 69,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerLevel",
+                "addFreshEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 153,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 42
+            },
+            {
+              "offset": 78,
+              "opcode": 43
+            },
+            {
+              "offset": 79,
+              "opcode": 44
+            },
+            {
+              "offset": 80,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "onProjectileThrown",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;)V"
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 42
+            },
+            {
+              "offset": 86,
+              "opcode": 43
+            },
+            {
+              "offset": 87,
+              "opcode": 44
+            },
+            {
+              "offset": 88,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "doThrowEffects",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;Lnet/tslat/aoa3/content/entity/projectile/base/WeaponProjectile;)V"
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "asProjectile",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/Projectile;",
+          "code_hex": "2a2b2c2d1904b6013cb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 45
+            },
+            {
+              "offset": 4,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/thrown/AoAThrowableWeapon",
+                "asProjectile",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/ThrowableItemProjectile;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity.class",
+      "sha256": "adc9f0dc24220bf897d3d3ca22a05aa3bf04c61b9536b9d9de48eb7ce34a2137",
+      "methods": [
+        {
+          "name": "doBlockImpact",
+          "descriptor": "(Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/level/block/state/BlockState;)V",
+          "code_hex": "2a2bb6004fb60031b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/BlockHitResult",
+                "getLocation",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity",
+                "explode",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doEntityImpact",
+          "descriptor": "(Lnet/minecraft/world/phys/EntityHitResult;Lnet/minecraft/world/entity/Entity;)V",
+          "code_hex": "2a2bb60054b60031b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/EntityHitResult",
+                "getLocation",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity",
+                "explode",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "explode",
+          "descriptor": "(Lnet/minecraft/world/phys/Vec3;)V",
+          "code_hex": "2ab600574e2dc1005b9900242dc0005b4d2c2bb2005dba00620000b800662ab6006c2ab60035b60070b6007357b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 78
+            },
+            {
+              "offset": 5,
+              "opcode": 45
+            },
+            {
+              "offset": 6,
+              "opcode": 193,
+              "operands": [
+                0,
+                91
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                36
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 45
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                0,
+                91
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 77
+            },
+            {
+              "offset": 17,
+              "opcode": 44
+            },
+            {
+              "offset": 18,
+              "opcode": 43
+            },
+            {
+              "offset": 19,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAExplosions",
+                "GRENADE",
+                "Lnet/tslat/tme/api/explosion/ExplosionInfo;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 186,
+              "operands": [
+                0,
+                98,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "at",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/tslat/tme/api/explosion/ExplosionInfo;Lnet/tslat/tme/api/explosion/ExplosionBuilder$Constructor;)Lnet/tslat/aoa3/library/builder/AoAExplosionBuilder;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "explodingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/library/builder/AoAExplosionBuilder;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 42
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity",
+                "getOwner",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "indirectSource",
+                "(Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/library/builder/AoAExplosionBuilder;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "explode",
+                "()Lnet/tslat/tme/api/explosion/ExtendedExplosion;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 87
+            },
+            {
+              "offset": 45,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/projectile/thrown/RunicBombEntity.class",
+      "sha256": "1a6e59d31e22f75e50e068b45b71cee10ac99f2a97a5cef69cb79cfeae1aca35",
+      "methods": [
+        {
+          "name": "doEntityImpact",
+          "descriptor": "(Lnet/minecraft/world/phys/EntityHitResult;Lnet/minecraft/world/entity/Entity;)V",
+          "code_hex": "2a2bb6001db60023b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/EntityHitResult",
+                "getLocation",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/RunicBombEntity",
+                "explode",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doBlockImpact",
+          "descriptor": "(Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/level/block/state/BlockState;)V",
+          "code_hex": "2a2bb60027b60023b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/BlockHitResult",
+                "getLocation",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/RunicBombEntity",
+                "explode",
+                "(Lnet/minecraft/world/phys/Vec3;)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "explode",
+          "descriptor": "(Lnet/minecraft/world/phys/Vec3;)V",
+          "code_hex": "2ab6002a4e2dc1002e99001d2dc0002e4d2c2bb20030ba00350000b800392ab6003fb6004357b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/thrown/RunicBombEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 78
+            },
+            {
+              "offset": 5,
+              "opcode": 45
+            },
+            {
+              "offset": 6,
+              "opcode": 193,
+              "operands": [
+                0,
+                46
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                29
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 45
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                0,
+                46
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 77
+            },
+            {
+              "offset": 17,
+              "opcode": 44
+            },
+            {
+              "offset": 18,
+              "opcode": 43
+            },
+            {
+              "offset": 19,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAExplosions",
+                "RUNIC_BOMB",
+                "Lnet/tslat/tme/api/explosion/ExplosionInfo;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 186,
+              "operands": [
+                0,
+                53,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "at",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/tslat/tme/api/explosion/ExplosionInfo;Lnet/tslat/tme/api/explosion/ExplosionBuilder$Constructor;)Lnet/tslat/aoa3/library/builder/AoAExplosionBuilder;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "explodingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/library/builder/AoAExplosionBuilder;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/AoAExplosionBuilder",
+                "explode",
+                "()Lnet/tslat/tme/api/explosion/ExtendedExplosion;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 87
+            },
+            {
+              "offset": 38,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "explosion_evidence": {
+    "class_path": "net/tslat/aoa3/common/registration/AoAExplosions.class",
+    "sha256": "aaa5a472b17cc0efed0898408ba8f8ac80cd2d96a917b78074f14fbcdef31709",
+    "segments": [
+      {
+        "field": "GRENADE",
+        "instructions": [
+          {
+            "offset": 228,
+            "opcode": 184,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo",
+              "builder",
+              "()Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 231,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 233,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "radius",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 236,
+            "opcode": 18,
+            "constant": 7.0
+          },
+          {
+            "offset": 238,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "blockDamage",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 241,
+            "opcode": 18,
+            "constant": 5.0
+          },
+          {
+            "offset": 243,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "entityDamage",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 246,
+            "opcode": 18,
+            "constant": 0.10000000149011612
+          },
+          {
+            "offset": 248,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "blockDropChance",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 251,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "build",
+              "()Lnet/tslat/tme/api/explosion/ExplosionInfo;"
+            ]
+          },
+          {
+            "offset": 254,
+            "opcode": 179,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAExplosions",
+              "GRENADE",
+              "Lnet/tslat/tme/api/explosion/ExplosionInfo;"
+            ]
+          }
+        ],
+        "builder_inputs": {
+          "radius": 3.0,
+          "blockDamage": 7.0,
+          "entityDamage": 5.0,
+          "blockDropChance": 0.10000000149011612
+        }
+      },
+      {
+        "field": "RUNIC_BOMB",
+        "instructions": [
+          {
+            "offset": 257,
+            "opcode": 184,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo",
+              "builder",
+              "()Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 260,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 262,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "radius",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 265,
+            "opcode": 18,
+            "constant": 7.0
+          },
+          {
+            "offset": 267,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "blockDamage",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 270,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 272,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "entityDamage",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 275,
+            "opcode": 19,
+            "constant": 0.05000000074505806
+          },
+          {
+            "offset": 278,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "blockDropChance",
+              "(F)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 281,
+            "opcode": 186,
+            "operands": [
+              1,
+              199,
+              0,
+              0
+            ]
+          },
+          {
+            "offset": 286,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "onEntityHit",
+              "(Lnet/tslat/tme/api/explosion/ExplosionInfo$OnEntityHit;)Lnet/tslat/tme/api/explosion/ExplosionInfo$Builder;"
+            ]
+          },
+          {
+            "offset": 289,
+            "opcode": 182,
+            "member": [
+              "net/tslat/tme/api/explosion/ExplosionInfo$Builder",
+              "build",
+              "()Lnet/tslat/tme/api/explosion/ExplosionInfo;"
+            ]
+          },
+          {
+            "offset": 292,
+            "opcode": 179,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAExplosions",
+              "RUNIC_BOMB",
+              "Lnet/tslat/tme/api/explosion/ExplosionInfo;"
+            ]
+          }
+        ],
+        "builder_inputs": {
+          "radius": 3.0,
+          "blockDamage": 7.0,
+          "entityDamage": 3.0,
+          "blockDropChance": 0.05000000074505806
+        }
+      }
+    ]
+  },
+  "limits": [
+    "Impact damage zero is not proof of harmlessness; two items have separate explosion definitions",
+    "Stack size is not durability",
+    "The selected base player path calls consume before projectile construction/spawn; failure paths need transaction tests",
+    "Dispenser asProjectile uses a different context-building path; hand/dispenser damage parity is not assumed",
+    "Explosion values are builder inputs, not guarantees of damage, affected blocks or drops"
+  ]
+}
