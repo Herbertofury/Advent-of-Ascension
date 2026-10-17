@@ -21,7 +21,7 @@ The crafting area has **one separate base-item slot on the left**, a **3×3 ingr
 3. Keep the other four ingredient slots empty. The selected recipe defaults to **Infusion level 1**.
 4. Take the **Alacrity Boots** from the result slot. The selected take-handler consumes one from each occupied input slot, including the base slot.
 
-[Inspect the illustrated recipe and source fields](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2&type=aoa3%3Ainfusion&q=aoa3%3Ainfusion%2Finfusing%2Farmour%2Falacrity%2Falacrity_boots). The output is a copy of the recipe’s declared result; arbitrary custom name, damage or NBT from the base item is not automatically inherited by this transformation branch.
+[Inspect the illustrated recipe and source fields](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2&recipe=aoa3%3Ainfusion%2Finfusing%2Farmour%2Falacrity%2Falacrity_boots). The output is a copy of the recipe’s declared result; arbitrary custom name, damage or NBT from the base item is not automatically inherited by this transformation branch.
 
 ### Apply Sharpness II
 
@@ -31,7 +31,7 @@ The crafting area has **one separate base-item slot on the left**, a **3×3 ingr
 4. The existing Sharpness level must be below II, the enchantment must apply to the input item, and its other enchantments must pass mutual compatibility checks.
 5. Take the modified equipment from the result slot. This path starts from a copy of the input stack and replaces/adds the selected enchantment level.
 
-[Inspect the Sharpness II recipe](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2&type=aoa3%3Ainfusion&q=aoa3%3Ainfusion%2Fimbuing%2Fsharpness_ii). JEI presents an enchanted book as the recipe’s display symbol, but the table’s actual result is the compatible input equipment with the enchantment applied. It is not a recipe for generating that display book.
+[Inspect the Sharpness II recipe](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2&recipe=aoa3%3Ainfusion%2Fimbuing%2Fsharpness_ii). JEI presents an enchanted book as the recipe’s display symbol, but the table’s actual result is the compatible input equipment with the enchantment applied. It is not a recipe for generating that display book.
 
 ## Ingredient-slot rules that prevent failed recipes
 

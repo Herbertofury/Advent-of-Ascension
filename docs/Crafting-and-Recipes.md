@@ -10,6 +10,8 @@
 
 - Select the exact Minecraft generation first.
 - Search by item name, ingredient ID, tag or recipe ID.
+- Use **Link to this exact recipe** on a card to share that one definition and release. General text search remains a broader substring search; for example Sharpness II and III can share a prefix.
+- Edit the search, click an ingredient or use Reset to leave an exact-recipe selection. An unavailable recipe stays empty in another release instead of silently substituting a different one.
 - Filter by crafting, stonecutting, cooking, infusion, imbuing, upgrade kits and other recipe types.
 - Click an ingredient to find definitions mentioning it.
 - Expand source details for the exact artifact path, SHA-256, conditions and serializer-specific fields.
@@ -25,6 +27,8 @@
 **6,781 definition records** does not mean 6,781 distinct crafted items. Alternate recipes, optional-mod recipes and runtime-defined serializers are included. The legacy `_factories` metadata file is excluded from the recipe count.
 
 ## Illustrated walkthroughs
+
+- [Historical Infusion crafting and enchanting · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2): 386 definitions, separate base slot, 37 enchantment families and checked XP defaults.
 
 - [Imbuing Chamber enchanting · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Imbuing-Chamber-Enchanting-1.21.1): Power Stones, focus combinations, skill requirements, durability and immediate target insertion.
 

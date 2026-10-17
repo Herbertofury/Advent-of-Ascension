@@ -1,0 +1,19 @@
+{
+  "scope": "Original browser navigation and presentation changes; no recipe data, game behavior or network loader changes.",
+  "counts": {
+    "1.12.2": 1172,
+    "1.16.5": 2296,
+    "1.20.1": 1781,
+    "1.21.1": 1532
+  },
+  "total_links": 6781,
+  "tests": "test_recipe_exact_links.cjs",
+  "behaviors": [
+    "Exact recipe= parameter takes precedence over q when valid.",
+    "Search editing, ingredient clicks and Reset return to general search.",
+    "Missing recipe stays an empty exact result; unsupported release does not fetch.",
+    "Cached release data reused; no per-card network request.",
+    "Historical enchantment headings use readable names and Roman level labels."
+  ],
+  "page_sha256": "3bfaa4c382eab35f36ab2663af547d4d1533e05c9cfc2adb7e5528c73e4cd0fe"
+}
