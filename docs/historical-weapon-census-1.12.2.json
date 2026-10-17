@@ -1,0 +1,3324 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Exact coverage of the412direct weapon-class constructor calls in this released WeaponRegister.registerWeapon method. Not a census of addon/runtime-injected items or certification of every effect.",
+  "registration_class": "net/tslat/aoa3/common/registration/WeaponRegister.class",
+  "registration_sha256": "bb0ca1a0b768e677e1809091b9973d24df935dda88599ecad04467918cf0d5bc",
+  "method_name": "registerWeapon",
+  "method_descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+  "method_code_sha256": "ea947d2d5a32adaf21010b1e2e5406a6d26123948de3d22153d675f59f60d40e",
+  "total": 412,
+  "family_counts": {
+    "gun": 78,
+    "shotgun": 17,
+    "sniper": 27,
+    "cannon": 50,
+    "bow": 33,
+    "archergun": 9,
+    "staff": 57,
+    "blaster": 56,
+    "vulcane": 8,
+    "thrown": 7,
+    "sword": 36,
+    "greatblade": 29,
+    "maul": 5
+  },
+  "records": [
+    {
+      "id": "aoa3:abominator",
+      "inventory_id": "localization:item.Abominator.name",
+      "name": "Abominator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Abominator.class",
+      "registration_offset": 1285
+    },
+    {
+      "id": "aoa3:apoco_assault_rifle",
+      "inventory_id": "localization:item.ApocoAssaultRifle.name",
+      "name": "Apoco Assault Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/ApocoAssaultRifle.class",
+      "registration_offset": 1306
+    },
+    {
+      "id": "aoa3:apoco_rifle",
+      "inventory_id": "localization:item.ApocoRifle.name",
+      "name": "Apoco Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/ApocoRifle.class",
+      "registration_offset": 1327
+    },
+    {
+      "id": "aoa3:aqua_magnum",
+      "inventory_id": "localization:item.AquaMagnum.name",
+      "name": "Aqua Magnum",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/AquaMagnum.class",
+      "registration_offset": 1348
+    },
+    {
+      "id": "aoa3:artifact",
+      "inventory_id": "localization:item.Artifact.name",
+      "name": "Artifact",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Artifact.class",
+      "registration_offset": 1369
+    },
+    {
+      "id": "aoa3:baronator",
+      "inventory_id": "localization:item.Baronator.name",
+      "name": "Baronator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Baronator.class",
+      "registration_offset": 1390
+    },
+    {
+      "id": "aoa3:bayonette_rifle",
+      "inventory_id": "localization:item.BayonetteRifle.name",
+      "name": "Bayonette Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/BayonetteRifle.class",
+      "registration_offset": 1412
+    },
+    {
+      "id": "aoa3:big_top",
+      "inventory_id": "localization:item.BigTop.name",
+      "name": "Big Top",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/BigTop.class",
+      "registration_offset": 1434
+    },
+    {
+      "id": "aoa3:blood_iron",
+      "inventory_id": "localization:item.BloodIron.name",
+      "name": "Blood Iron",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/BloodIron.class",
+      "registration_offset": 1456
+    },
+    {
+      "id": "aoa3:chain_wrecker",
+      "inventory_id": "localization:item.ChainWrecker.name",
+      "name": "Chain Wrecker",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/ChainWrecker.class",
+      "registration_offset": 1476
+    },
+    {
+      "id": "aoa3:chilli_chugger",
+      "inventory_id": "localization:item.ChilliChugger.name",
+      "name": "Chilli Chugger",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/ChilliChugger.class",
+      "registration_offset": 1496
+    },
+    {
+      "id": "aoa3:clownershot",
+      "inventory_id": "localization:item.Clownershot.name",
+      "name": "Clownershot",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Clownershot.class",
+      "registration_offset": 1518
+    },
+    {
+      "id": "aoa3:construct",
+      "inventory_id": "localization:item.Construct.name",
+      "name": "Construct",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Construct.class",
+      "registration_offset": 1540
+    },
+    {
+      "id": "aoa3:coral_clogger",
+      "inventory_id": "localization:item.CoralClogger.name",
+      "name": "Coral Clogger",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/CoralClogger.class",
+      "registration_offset": 1562
+    },
+    {
+      "id": "aoa3:core_rifle",
+      "inventory_id": "localization:item.CoreRifle.name",
+      "name": "Core Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/CoreRifle.class",
+      "registration_offset": 1584
+    },
+    {
+      "id": "aoa3:crystal_carver",
+      "inventory_id": "localization:item.CrystalCarver.name",
+      "name": "Crystal Carver",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/CrystalCarver.class",
+      "registration_offset": 1606
+    },
+    {
+      "id": "aoa3:cyclone",
+      "inventory_id": "localization:item.Cyclone.name",
+      "name": "Cyclone",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Cyclone.class",
+      "registration_offset": 1628
+    },
+    {
+      "id": "aoa3:darkener",
+      "inventory_id": "localization:item.Darkener.name",
+      "name": "Darkener",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Darkener.class",
+      "registration_offset": 1650
+    },
+    {
+      "id": "aoa3:dart_gun",
+      "inventory_id": "localization:item.DartGun.name",
+      "name": "Dart Gun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/DartGun.class",
+      "registration_offset": 1672
+    },
+    {
+      "id": "aoa3:destruction_rifle",
+      "inventory_id": "localization:item.DestructionRifle.name",
+      "name": "Destruction Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/DestructionRifle.class",
+      "registration_offset": 1694
+    },
+    {
+      "id": "aoa3:discharge_rifle",
+      "inventory_id": "localization:item.DischargeRifle.name",
+      "name": "Discharge Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/DischargeRifle.class",
+      "registration_offset": 1716
+    },
+    {
+      "id": "aoa3:draco",
+      "inventory_id": "localization:item.Draco.name",
+      "name": "Draco",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Draco.class",
+      "registration_offset": 1736
+    },
+    {
+      "id": "aoa3:dragilator",
+      "inventory_id": "localization:item.Dragilator.name",
+      "name": "Dragilator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Dragilator.class",
+      "registration_offset": 1758
+    },
+    {
+      "id": "aoa3:dustometer",
+      "inventory_id": "localization:item.Dustometer.name",
+      "name": "Dustometer",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Dustometer.class",
+      "registration_offset": 1780
+    },
+    {
+      "id": "aoa3:echo_gull",
+      "inventory_id": "localization:item.EchoGull.name",
+      "name": "Echo Gull",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/EchoGull.class",
+      "registration_offset": 1802
+    },
+    {
+      "id": "aoa3:electinator",
+      "inventory_id": "localization:item.Electinator.name",
+      "name": "Electinator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Electinator.class",
+      "registration_offset": 1824
+    },
+    {
+      "id": "aoa3:flame_wrecker",
+      "inventory_id": "localization:item.FlameWrecker.name",
+      "name": "Flame Wrecker",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/FlameWrecker.class",
+      "registration_offset": 1844
+    },
+    {
+      "id": "aoa3:flaming_fury",
+      "inventory_id": "localization:item.FlamingFury.name",
+      "name": "Flaming Fury",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/FlamingFury.class",
+      "registration_offset": 1866
+    },
+    {
+      "id": "aoa3:floro_rifle",
+      "inventory_id": "localization:item.FloroRifle.name",
+      "name": "Floro Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/FloroRifle.class",
+      "registration_offset": 1888
+    },
+    {
+      "id": "aoa3:flowers_fury",
+      "inventory_id": "localization:item.FlowersFury.name",
+      "name": "Flower's Fury",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/FlowersFury.class",
+      "registration_offset": 1910
+    },
+    {
+      "id": "aoa3:frosticator",
+      "inventory_id": "localization:item.Frosticator.name",
+      "name": "Frosticator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Frosticator.class",
+      "registration_offset": 1932
+    },
+    {
+      "id": "aoa3:gardener",
+      "inventory_id": "localization:item.Gardener.name",
+      "name": "Gardener",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Gardener.class",
+      "registration_offset": 1952
+    },
+    {
+      "id": "aoa3:gauge_rifle",
+      "inventory_id": "localization:item.GaugeRifle.name",
+      "name": "Gauge Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/GaugeRifle.class",
+      "registration_offset": 1974
+    },
+    {
+      "id": "aoa3:germinator",
+      "inventory_id": "localization:item.Germinator.name",
+      "name": "Germinator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Germinator.class",
+      "registration_offset": 1996
+    },
+    {
+      "id": "aoa3:golden_fury",
+      "inventory_id": "localization:item.GoldenFury.name",
+      "name": "Golden Fury",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/GoldenFury.class",
+      "registration_offset": 2018
+    },
+    {
+      "id": "aoa3:happy_haunter",
+      "inventory_id": "localization:item.HappyHaunter.name",
+      "name": "Happy Haunter",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/HappyHaunter.class",
+      "registration_offset": 2040
+    },
+    {
+      "id": "aoa3:haunter_rifle",
+      "inventory_id": "localization:item.HaunterRifle.name",
+      "name": "Haunter Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/HaunterRifle.class",
+      "registration_offset": 2062
+    },
+    {
+      "id": "aoa3:heat_wave",
+      "inventory_id": "localization:item.HeatWave.name",
+      "name": "Heat Wave",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/HeatWave.class",
+      "registration_offset": 2084
+    },
+    {
+      "id": "aoa3:hiver",
+      "inventory_id": "localization:item.Hiver.name",
+      "name": "Hiver",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Hiver.class",
+      "registration_offset": 2106
+    },
+    {
+      "id": "aoa3:hot_shot",
+      "inventory_id": "localization:item.HotShot.name",
+      "name": "Hot Shot",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/HotShot.class",
+      "registration_offset": 2128
+    },
+    {
+      "id": "aoa3:hunters_rifle",
+      "inventory_id": "localization:item.HuntersRifle.name",
+      "name": "Hunter's Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/HuntersRifle.class",
+      "registration_offset": 2150
+    },
+    {
+      "id": "aoa3:iominator",
+      "inventory_id": "localization:item.Iominator.name",
+      "name": "Iominator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Iominator.class",
+      "registration_offset": 2172
+    },
+    {
+      "id": "aoa3:ion_revolver",
+      "inventory_id": "localization:item.IonRevolver.name",
+      "name": "Ion Revolver",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/IonRevolver.class",
+      "registration_offset": 2194
+    },
+    {
+      "id": "aoa3:iro_rifle",
+      "inventory_id": "localization:item.IroRifle.name",
+      "name": "Iro Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/IroRifle.class",
+      "registration_offset": 2216
+    },
+    {
+      "id": "aoa3:krilinator",
+      "inventory_id": "localization:item.Krilinator.name",
+      "name": "Krilinator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Krilinator.class",
+      "registration_offset": 2238
+    },
+    {
+      "id": "aoa3:light_iron",
+      "inventory_id": "localization:item.LightIron.name",
+      "name": "Light Iron",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/LightIron.class",
+      "registration_offset": 2260
+    },
+    {
+      "id": "aoa3:lunar_assault_rifle",
+      "inventory_id": "localization:item.LunarAssaultRifle.name",
+      "name": "Lunar Assault Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/LunarAssaultRifle.class",
+      "registration_offset": 2282
+    },
+    {
+      "id": "aoa3:mechanical_assault_rifle",
+      "inventory_id": "localization:item.MechanicalAssaultRifle.name",
+      "name": "Mechanical Assault Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/MechanicalAssaultRifle.class",
+      "registration_offset": 2304
+    },
+    {
+      "id": "aoa3:megagun",
+      "inventory_id": "localization:item.Megagun.name",
+      "name": "Megagun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Megagun.class",
+      "registration_offset": 2325
+    },
+    {
+      "id": "aoa3:miasma",
+      "inventory_id": "localization:item.Miasma.name",
+      "name": "Miasma",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Miasma.class",
+      "registration_offset": 2347
+    },
+    {
+      "id": "aoa3:minigun",
+      "inventory_id": "localization:item.Minigun.name",
+      "name": "Minigun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Minigun.class",
+      "registration_offset": 2368
+    },
+    {
+      "id": "aoa3:mint_magnum",
+      "inventory_id": "localization:item.MintMagnum.name",
+      "name": "Mint Magnum",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/MintMagnum.class",
+      "registration_offset": 2390
+    },
+    {
+      "id": "aoa3:mk",
+      "inventory_id": "localization:item.MK.name",
+      "name": "MK",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/MK.class",
+      "registration_offset": 2412
+    },
+    {
+      "id": "aoa3:mk_fung",
+      "inventory_id": "localization:item.MKFung.name",
+      "name": "MK-Fung",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/MKFung.class",
+      "registration_offset": 2434
+    },
+    {
+      "id": "aoa3:nethenette_rifle",
+      "inventory_id": "localization:item.NethenetteRifle.name",
+      "name": "Nethenette Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/NethenetteRifle.class",
+      "registration_offset": 2456
+    },
+    {
+      "id": "aoa3:nethengeic_slugger",
+      "inventory_id": "localization:item.NethengeicSlugger.name",
+      "name": "Nethengeic Slugger",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/NethengeicSlugger.class",
+      "registration_offset": 2478
+    },
+    {
+      "id": "aoa3:overshot",
+      "inventory_id": "localization:item.Overshot.name",
+      "name": "Overshot",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Overshot.class",
+      "registration_offset": 2500
+    },
+    {
+      "id": "aoa3:precasian_slugger",
+      "inventory_id": "localization:item.PrecasianSlugger.name",
+      "name": "Precasian Slugger",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/PrecasianSlugger.class",
+      "registration_offset": 2522
+    },
+    {
+      "id": "aoa3:predator",
+      "inventory_id": "localization:item.Predator.name",
+      "name": "Predator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Predator.class",
+      "registration_offset": 2544
+    },
+    {
+      "id": "aoa3:predigun",
+      "inventory_id": "localization:item.Predigun.name",
+      "name": "Predigun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Predigun.class",
+      "registration_offset": 2565
+    },
+    {
+      "id": "aoa3:pulsator",
+      "inventory_id": "localization:item.Pulsator.name",
+      "name": "Pulsator",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Pulsator.class",
+      "registration_offset": 2587
+    },
+    {
+      "id": "aoa3:purity_rifle",
+      "inventory_id": "localization:item.PurityRifle.name",
+      "name": "Purity Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/PurityRifle.class",
+      "registration_offset": 2609
+    },
+    {
+      "id": "aoa3:rocker_rifle",
+      "inventory_id": "localization:item.RockerRifle.name",
+      "name": "Rocker Rifle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/RockerRifle.class",
+      "registration_offset": 2631
+    },
+    {
+      "id": "aoa3:roulette",
+      "inventory_id": "localization:item.Roulette.name",
+      "name": "Roulette",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Roulette.class",
+      "registration_offset": 2653
+    },
+    {
+      "id": "aoa3:shoe_flinger",
+      "inventory_id": "localization:item.ShoeFlinger.name",
+      "name": "Shoe Flinger",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/ShoeFlinger.class",
+      "registration_offset": 2675
+    },
+    {
+      "id": "aoa3:skullette",
+      "inventory_id": "localization:item.Skullette.name",
+      "name": "Skullette",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Skullette.class",
+      "registration_offset": 2697
+    },
+    {
+      "id": "aoa3:skullifact",
+      "inventory_id": "localization:item.Skullifact.name",
+      "name": "Skullifact",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Skullifact.class",
+      "registration_offset": 2719
+    },
+    {
+      "id": "aoa3:spectacle",
+      "inventory_id": "localization:item.Spectacle.name",
+      "name": "Spectacle",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Spectacle.class",
+      "registration_offset": 2741
+    },
+    {
+      "id": "aoa3:spine_gun",
+      "inventory_id": "localization:item.SpineGun.name",
+      "name": "Spine Gun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/SpineGun.class",
+      "registration_offset": 2763
+    },
+    {
+      "id": "aoa3:squad_gun",
+      "inventory_id": "localization:item.SquadGun.name",
+      "name": "Squad Gun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/SquadGun.class",
+      "registration_offset": 2785
+    },
+    {
+      "id": "aoa3:stampede",
+      "inventory_id": "localization:item.Stampede.name",
+      "name": "Stampede",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Stampede.class",
+      "registration_offset": 2807
+    },
+    {
+      "id": "aoa3:stormer",
+      "inventory_id": "localization:item.Stormer.name",
+      "name": "Stormer",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Stormer.class",
+      "registration_offset": 2829
+    },
+    {
+      "id": "aoa3:sublimus",
+      "inventory_id": "localization:item.Sublimus.name",
+      "name": "Sublimus",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Sublimus.class",
+      "registration_offset": 2851
+    },
+    {
+      "id": "aoa3:tiger_tommy",
+      "inventory_id": "localization:item.TigerTommy.name",
+      "name": "Tiger Tommy",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/TigerTommy.class",
+      "registration_offset": 2873
+    },
+    {
+      "id": "aoa3:tommy",
+      "inventory_id": "localization:item.Tommy.name",
+      "name": "Tommy",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Tommy.class",
+      "registration_offset": 2895
+    },
+    {
+      "id": "aoa3:vile_vanquisher",
+      "inventory_id": "localization:item.VileVanquisher.name",
+      "name": "Vile Vanquisher",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/VileVanquisher.class",
+      "registration_offset": 2917
+    },
+    {
+      "id": "aoa3:wart_gun",
+      "inventory_id": "localization:item.WartGun.name",
+      "name": "Wart Gun",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/WartGun.class",
+      "registration_offset": 2937
+    },
+    {
+      "id": "aoa3:wrecker",
+      "inventory_id": "localization:item.Wrecker.name",
+      "name": "Wrecker",
+      "family": "gun",
+      "class_path": "net/tslat/aoa3/item/weapon/gun/Wrecker.class",
+      "registration_offset": 2959
+    },
+    {
+      "id": "aoa3:abyssro",
+      "inventory_id": "localization:item.Abyssro.name",
+      "name": "Abyssro",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Abyssro.class",
+      "registration_offset": 2993
+    },
+    {
+      "id": "aoa3:amplifier",
+      "inventory_id": "localization:item.Amplifier.name",
+      "name": "Amplifier",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Amplifier.class",
+      "registration_offset": 3018
+    },
+    {
+      "id": "aoa3:blast_barrel",
+      "inventory_id": "localization:item.BlastBarrel.name",
+      "name": "Blast Barrel",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/BlastBarrel.class",
+      "registration_offset": 3043
+    },
+    {
+      "id": "aoa3:blue_barrel",
+      "inventory_id": "localization:item.BlueBarrel.name",
+      "name": "Blue Barrel",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/BlueBarrel.class",
+      "registration_offset": 3068
+    },
+    {
+      "id": "aoa3:boulder",
+      "inventory_id": "localization:item.Boulder.name",
+      "name": "Boulder",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Boulder.class",
+      "registration_offset": 3093
+    },
+    {
+      "id": "aoa3:brown_blaster",
+      "inventory_id": "localization:item.BrownBlaster.name",
+      "name": "Brown Blaster",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/BrownBlaster.class",
+      "registration_offset": 3118
+    },
+    {
+      "id": "aoa3:demolisher",
+      "inventory_id": "localization:item.Demolisher.name",
+      "name": "Demolisher",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Demolisher.class",
+      "registration_offset": 3144
+    },
+    {
+      "id": "aoa3:destruction_shotgun",
+      "inventory_id": "localization:item.DestructionShotgun.name",
+      "name": "Destruction Shotgun",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun.class",
+      "registration_offset": 3170
+    },
+    {
+      "id": "aoa3:discharge_shotgun",
+      "inventory_id": "localization:item.DischargeShotgun.name",
+      "name": "Discharge Shotgun",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun.class",
+      "registration_offset": 3192
+    },
+    {
+      "id": "aoa3:gimmick",
+      "inventory_id": "localization:item.Gimmick.name",
+      "name": "Gimmick",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Gimmick.class",
+      "registration_offset": 3219
+    },
+    {
+      "id": "aoa3:ginger_blaster",
+      "inventory_id": "localization:item.GingerBlaster.name",
+      "name": "Ginger Blaster",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/GingerBlaster.class",
+      "registration_offset": 3245
+    },
+    {
+      "id": "aoa3:long_shot",
+      "inventory_id": "localization:item.LongShot.name",
+      "name": "Long Shot",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/LongShot.class",
+      "registration_offset": 3271
+    },
+    {
+      "id": "aoa3:mechyro",
+      "inventory_id": "localization:item.Mechyro.name",
+      "name": "Mechyro",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Mechyro.class",
+      "registration_offset": 3297
+    },
+    {
+      "id": "aoa3:purity_shotgun",
+      "inventory_id": "localization:item.PurityShotgun.name",
+      "name": "Purity Shotgun",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun.class",
+      "registration_offset": 3323
+    },
+    {
+      "id": "aoa3:purple_punisher",
+      "inventory_id": "localization:item.PurplePunisher.name",
+      "name": "Purple Punisher",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/PurplePunisher.class",
+      "registration_offset": 3349
+    },
+    {
+      "id": "aoa3:red_rocket",
+      "inventory_id": "localization:item.RedRocket.name",
+      "name": "Red Rocket",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/RedRocket.class",
+      "registration_offset": 3375
+    },
+    {
+      "id": "aoa3:vivo",
+      "inventory_id": "localization:item.Vivo.name",
+      "name": "Vivo",
+      "family": "shotgun",
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Vivo.class",
+      "registration_offset": 3401
+    },
+    {
+      "id": "aoa3:baron_ssr",
+      "inventory_id": "localization:item.BaronSSR.name",
+      "name": "Baron SSR",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/BaronSSR.class",
+      "registration_offset": 3431
+    },
+    {
+      "id": "aoa3:bayonette_sr",
+      "inventory_id": "localization:item.BayonetteSR.name",
+      "name": "Bayonette SR",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/BayonetteSR.class",
+      "registration_offset": 3452
+    },
+    {
+      "id": "aoa3:bolt_rifle",
+      "inventory_id": "localization:item.BoltRifle.name",
+      "name": "Bolt Rifle",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/BoltRifle.class",
+      "registration_offset": 3472
+    },
+    {
+      "id": "aoa3:camo_rifle",
+      "inventory_id": "localization:item.CamoRifle.name",
+      "name": "Camo Rifle",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/CamoRifle.class",
+      "registration_offset": 3493
+    },
+    {
+      "id": "aoa3:clown_cracker",
+      "inventory_id": "localization:item.ClownCracker.name",
+      "name": "Clown Cracker",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/ClownCracker.class",
+      "registration_offset": 3514
+    },
+    {
+      "id": "aoa3:clownimator",
+      "inventory_id": "localization:item.Clownimator.name",
+      "name": "Clownimator",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Clownimator.class",
+      "registration_offset": 3535
+    },
+    {
+      "id": "aoa3:crystaneer",
+      "inventory_id": "localization:item.Crystaneer.name",
+      "name": "Crystaneer",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Crystaneer.class",
+      "registration_offset": 3557
+    },
+    {
+      "id": "aoa3:dark_beast",
+      "inventory_id": "localization:item.DarkBeast.name",
+      "name": "Dark Beast",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/DarkBeast.class",
+      "registration_offset": 3579
+    },
+    {
+      "id": "aoa3:deadlock",
+      "inventory_id": "localization:item.Deadlock.name",
+      "name": "Deadlock",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Deadlock.class",
+      "registration_offset": 3600
+    },
+    {
+      "id": "aoa3:decimator",
+      "inventory_id": "localization:item.Decimator.name",
+      "name": "Decimator",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Decimator.class",
+      "registration_offset": 3622
+    },
+    {
+      "id": "aoa3:discharge_sniper",
+      "inventory_id": "localization:item.DischargeSniper.name",
+      "name": "Discharge Sniper",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/DischargeSniper.class",
+      "registration_offset": 3644
+    },
+    {
+      "id": "aoa3:dual_sight",
+      "inventory_id": "localization:item.DualSight.name",
+      "name": "Dual Sight",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/DualSight.class",
+      "registration_offset": 3666
+    },
+    {
+      "id": "aoa3:duster",
+      "inventory_id": "localization:item.Duster.name",
+      "name": "Duster",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Duster.class",
+      "registration_offset": 3688
+    },
+    {
+      "id": "aoa3:floro500",
+      "inventory_id": "localization:item.Floro500.name",
+      "name": "Floro500",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Floro500.class",
+      "registration_offset": 3710
+    },
+    {
+      "id": "aoa3:head_hunter",
+      "inventory_id": "localization:item.HeadHunter.name",
+      "name": "Head Hunter",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/HeadHunter.class",
+      "registration_offset": 3732
+    },
+    {
+      "id": "aoa3:hive_cracker",
+      "inventory_id": "localization:item.HiveCracker.name",
+      "name": "Hive Cracker",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/HiveCracker.class",
+      "registration_offset": 3754
+    },
+    {
+      "id": "aoa3:ka500",
+      "inventory_id": "localization:item.Ka500.name",
+      "name": "Ka500",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Ka500.class",
+      "registration_offset": 3776
+    },
+    {
+      "id": "aoa3:mark_maker",
+      "inventory_id": "localization:item.MarkMaker.name",
+      "name": "Mark Maker",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/MarkMaker.class",
+      "registration_offset": 3798
+    },
+    {
+      "id": "aoa3:mineral",
+      "inventory_id": "localization:item.Mineral.name",
+      "name": "Mineral",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Mineral.class",
+      "registration_offset": 3820
+    },
+    {
+      "id": "aoa3:monster",
+      "inventory_id": "localization:item.Monster.name",
+      "name": "Monster",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Monster.class",
+      "registration_offset": 3842
+    },
+    {
+      "id": "aoa3:moon_maker",
+      "inventory_id": "localization:item.MoonMaker.name",
+      "name": "Moon Maker",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/MoonMaker.class",
+      "registration_offset": 3864
+    },
+    {
+      "id": "aoa3:rosid_rifle",
+      "inventory_id": "localization:item.RosidRifle.name",
+      "name": "Rosid Rifle",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/RosidRifle.class",
+      "registration_offset": 3886
+    },
+    {
+      "id": "aoa3:sabbath",
+      "inventory_id": "localization:item.Sabbath.name",
+      "name": "Sabbath",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Sabbath.class",
+      "registration_offset": 3908
+    },
+    {
+      "id": "aoa3:sludge_sniper",
+      "inventory_id": "localization:item.SludgeSniper.name",
+      "name": "Sludge Sniper",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/SludgeSniper.class",
+      "registration_offset": 3930
+    },
+    {
+      "id": "aoa3:sweet_tooth",
+      "inventory_id": "localization:item.SweetTooth.name",
+      "name": "Sweet Tooth",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/SweetTooth.class",
+      "registration_offset": 3952
+    },
+    {
+      "id": "aoa3:terminator",
+      "inventory_id": "localization:item.Terminator.name",
+      "name": "Terminator",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Terminator.class",
+      "registration_offset": 3974
+    },
+    {
+      "id": "aoa3:viper1",
+      "inventory_id": "localization:item.Viper1.name",
+      "name": "Viper-1",
+      "family": "sniper",
+      "class_path": "net/tslat/aoa3/item/weapon/sniper/Viper1.class",
+      "registration_offset": 3996
+    },
+    {
+      "id": "aoa3:ancient_bomber",
+      "inventory_id": "localization:item.AncientBomber.name",
+      "name": "Ancient Bomber",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/AncientBomber.class",
+      "registration_offset": 4026
+    },
+    {
+      "id": "aoa3:ancient_discharger",
+      "inventory_id": "localization:item.AncientDischarger.name",
+      "name": "Ancient Discharger",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/AncientDischarger.class",
+      "registration_offset": 4045
+    },
+    {
+      "id": "aoa3:aqua_cannon",
+      "inventory_id": "localization:item.AquaCannon.name",
+      "name": "Aqua Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/AquaCannon.class",
+      "registration_offset": 4066
+    },
+    {
+      "id": "aoa3:balloon_bomber",
+      "inventory_id": "localization:item.BalloonBomber.name",
+      "name": "Balloon Bomber",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BalloonBomber.class",
+      "registration_offset": 4087
+    },
+    {
+      "id": "aoa3:big_blast",
+      "inventory_id": "localization:item.BigBlast.name",
+      "name": "Big Blast",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BigBlast.class",
+      "registration_offset": 4108
+    },
+    {
+      "id": "aoa3:blast_cannon",
+      "inventory_id": "localization:item.BlastCannon.name",
+      "name": "Blast Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BlastCannon.class",
+      "registration_offset": 4129
+    },
+    {
+      "id": "aoa3:blissful_blast",
+      "inventory_id": "localization:item.BlissfulBlast.name",
+      "name": "Blissful Blast",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BlissfulBlast.class",
+      "registration_offset": 4151
+    },
+    {
+      "id": "aoa3:bomb_launcher",
+      "inventory_id": "localization:item.BombLauncher.name",
+      "name": "Bomb Launcher",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BombLauncher.class",
+      "registration_offset": 4173
+    },
+    {
+      "id": "aoa3:boom_boom",
+      "inventory_id": "localization:item.BoomBoom.name",
+      "name": "Boom Boom",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BoomBoom.class",
+      "registration_offset": 4195
+    },
+    {
+      "id": "aoa3:boom_cannon",
+      "inventory_id": "localization:item.BoomCannon.name",
+      "name": "Boom Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BoomCannon.class",
+      "registration_offset": 4217
+    },
+    {
+      "id": "aoa3:boulder_bomber",
+      "inventory_id": "localization:item.BoulderBomber.name",
+      "name": "Boulder Bomber",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BoulderBomber.class",
+      "registration_offset": 4239
+    },
+    {
+      "id": "aoa3:bozo_blaster",
+      "inventory_id": "localization:item.BozoBlaster.name",
+      "name": "Bozo Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BozoBlaster.class",
+      "registration_offset": 4261
+    },
+    {
+      "id": "aoa3:bulb_cannon",
+      "inventory_id": "localization:item.BulbCannon.name",
+      "name": "Bulb Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/BulbCannon.class",
+      "registration_offset": 4283
+    },
+    {
+      "id": "aoa3:carrot_cannon",
+      "inventory_id": "localization:item.CarrotCannon.name",
+      "name": "Carrot Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/CarrotCannon.class",
+      "registration_offset": 4305
+    },
+    {
+      "id": "aoa3:clown_cannon",
+      "inventory_id": "localization:item.ClownCannon.name",
+      "name": "Clown Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/ClownCannon.class",
+      "registration_offset": 4327
+    },
+    {
+      "id": "aoa3:clowno_pulse",
+      "inventory_id": "localization:item.ClownoPulse.name",
+      "name": "Clowno-Pulse",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/ClownoPulse.class",
+      "registration_offset": 4349
+    },
+    {
+      "id": "aoa3:coral_cannon",
+      "inventory_id": "localization:item.CoralCannon.name",
+      "name": "Coral Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/CoralCannon.class",
+      "registration_offset": 4371
+    },
+    {
+      "id": "aoa3:discharge_cannon",
+      "inventory_id": "localization:item.DischargeCannon.name",
+      "name": "Discharge Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/DischargeCannon.class",
+      "registration_offset": 4391
+    },
+    {
+      "id": "aoa3:energy_cannon",
+      "inventory_id": "localization:item.EnergyCannon.name",
+      "name": "Energy Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/EnergyCannon.class",
+      "registration_offset": 4413
+    },
+    {
+      "id": "aoa3:erebon_stickler",
+      "inventory_id": "localization:item.ErebonStickler.name",
+      "name": "Erebon Stickler",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/ErebonStickler.class",
+      "registration_offset": 4435
+    },
+    {
+      "id": "aoa3:floro_rpg",
+      "inventory_id": "localization:item.FloroRPG.name",
+      "name": "Floro RPG",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/FloroRPG.class",
+      "registration_offset": 4457
+    },
+    {
+      "id": "aoa3:flower_cannon",
+      "inventory_id": "localization:item.FlowerCannon.name",
+      "name": "Flower Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/FlowerCannon.class",
+      "registration_offset": 4479
+    },
+    {
+      "id": "aoa3:fungal_cannon",
+      "inventory_id": "localization:item.FungalCannon.name",
+      "name": "Fungal Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/FungalCannon.class",
+      "registration_offset": 4501
+    },
+    {
+      "id": "aoa3:ghast_blaster",
+      "inventory_id": "localization:item.GhastBlaster.name",
+      "name": "Ghast Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/GhastBlaster.class",
+      "registration_offset": 4523
+    },
+    {
+      "id": "aoa3:ghoul_cannon",
+      "inventory_id": "localization:item.GhoulCannon.name",
+      "name": "Ghoul Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/GhoulCannon.class",
+      "registration_offset": 4545
+    },
+    {
+      "id": "aoa3:giga_cannon",
+      "inventory_id": "localization:item.GigaCannon.name",
+      "name": "Giga-Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/GigaCannon.class",
+      "registration_offset": 4567
+    },
+    {
+      "id": "aoa3:golder_bomber",
+      "inventory_id": "localization:item.GolderBomber.name",
+      "name": "Golder Bomber",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/GolderBomber.class",
+      "registration_offset": 4589
+    },
+    {
+      "id": "aoa3:hive_blaster",
+      "inventory_id": "localization:item.HiveBlaster.name",
+      "name": "Hive Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/HiveBlaster.class",
+      "registration_offset": 4611
+    },
+    {
+      "id": "aoa3:hive_howitzer",
+      "inventory_id": "localization:item.HiveHowitzer.name",
+      "name": "Hive Howitzer",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/HiveHowitzer.class",
+      "registration_offset": 4633
+    },
+    {
+      "id": "aoa3:iro_cannon",
+      "inventory_id": "localization:item.IroCannon.name",
+      "name": "Iro Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/IroCannon.class",
+      "registration_offset": 4655
+    },
+    {
+      "id": "aoa3:jack_funger",
+      "inventory_id": "localization:item.JackFunger.name",
+      "name": "Jack Funger",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/JackFunger.class",
+      "registration_offset": 4677
+    },
+    {
+      "id": "aoa3:jack_rocker",
+      "inventory_id": "localization:item.JackRocker.name",
+      "name": "Jack Rocker",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/JackRocker.class",
+      "registration_offset": 4699
+    },
+    {
+      "id": "aoa3:luxon_stickler",
+      "inventory_id": "localization:item.LuxonStickler.name",
+      "name": "Luxon Stickler",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/LuxonStickler.class",
+      "registration_offset": 4721
+    },
+    {
+      "id": "aoa3:mecha_cannon",
+      "inventory_id": "localization:item.MechaCannon.name",
+      "name": "Mecha Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/MechaCannon.class",
+      "registration_offset": 4743
+    },
+    {
+      "id": "aoa3:mini_cannon",
+      "inventory_id": "localization:item.MiniCannon.name",
+      "name": "Mini-Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/MiniCannon.class",
+      "registration_offset": 4765
+    },
+    {
+      "id": "aoa3:missile_maker",
+      "inventory_id": "localization:item.MissileMaker.name",
+      "name": "Missile Maker",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/MissileMaker.class",
+      "registration_offset": 4785
+    },
+    {
+      "id": "aoa3:moon_cannon",
+      "inventory_id": "localization:item.MoonCannon.name",
+      "name": "Moon Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/MoonCannon.class",
+      "registration_offset": 4807
+    },
+    {
+      "id": "aoa3:pluton_stickler",
+      "inventory_id": "localization:item.PlutonStickler.name",
+      "name": "Pluton Stickler",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/PlutonStickler.class",
+      "registration_offset": 4829
+    },
+    {
+      "id": "aoa3:predatorian_blaster",
+      "inventory_id": "localization:item.PredatorianBlaster.name",
+      "name": "Predatorian Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/PredatorianBlaster.class",
+      "registration_offset": 4851
+    },
+    {
+      "id": "aoa3:pulse_cannon",
+      "inventory_id": "localization:item.PulseCannon.name",
+      "name": "Pulse Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/PulseCannon.class",
+      "registration_offset": 4873
+    },
+    {
+      "id": "aoa3:rpg",
+      "inventory_id": "localization:item.RPG.name",
+      "name": "RPG",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/RPG.class",
+      "registration_offset": 4895
+    },
+    {
+      "id": "aoa3:selyan_stickler",
+      "inventory_id": "localization:item.SelyanStickler.name",
+      "name": "Selyan Stickler",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/SelyanStickler.class",
+      "registration_offset": 4917
+    },
+    {
+      "id": "aoa3:shadow_blaster",
+      "inventory_id": "localization:item.ShadowBlaster.name",
+      "name": "Shadow Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/ShadowBlaster.class",
+      "registration_offset": 4939
+    },
+    {
+      "id": "aoa3:shyre_blaster",
+      "inventory_id": "localization:item.ShyreBlaster.name",
+      "name": "Shyre Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/ShyreBlaster.class",
+      "registration_offset": 4961
+    },
+    {
+      "id": "aoa3:smile_blaster",
+      "inventory_id": "localization:item.SmileBlaster.name",
+      "name": "Smile Blaster",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/SmileBlaster.class",
+      "registration_offset": 4983
+    },
+    {
+      "id": "aoa3:super_cannon",
+      "inventory_id": "localization:item.SuperCannon.name",
+      "name": "Super-Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/SuperCannon.class",
+      "registration_offset": 5005
+    },
+    {
+      "id": "aoa3:ultra_cannon",
+      "inventory_id": "localization:item.UltraCannon.name",
+      "name": "Ultra-Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/UltraCannon.class",
+      "registration_offset": 5027
+    },
+    {
+      "id": "aoa3:vox_cannon",
+      "inventory_id": "localization:item.VoxCannon.name",
+      "name": "Vox Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/VoxCannon.class",
+      "registration_offset": 5049
+    },
+    {
+      "id": "aoa3:water_balloon_bomber",
+      "inventory_id": "localization:item.WaterBalloonBomber.name",
+      "name": "Water-Balloon Bomber",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/WaterBalloonBomber.class",
+      "registration_offset": 5071
+    },
+    {
+      "id": "aoa3:wither_cannon",
+      "inventory_id": "localization:item.WitherCannon.name",
+      "name": "Wither Cannon",
+      "family": "cannon",
+      "class_path": "net/tslat/aoa3/item/weapon/cannon/WitherCannon.class",
+      "registration_offset": 5093
+    },
+    {
+      "id": "aoa3:alacrity_bow",
+      "inventory_id": "localization:item.AlacrityBow.name",
+      "name": "Alacrity Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/AlacrityBow.class",
+      "registration_offset": 5330
+    },
+    {
+      "id": "aoa3:ancient_bow",
+      "inventory_id": "localization:item.AncientBow.name",
+      "name": "Ancient Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/AncientBow.class",
+      "registration_offset": 5347
+    },
+    {
+      "id": "aoa3:atlantic_bow",
+      "inventory_id": "localization:item.AtlanticBow.name",
+      "name": "Atlantic Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/AtlanticBow.class",
+      "registration_offset": 5366
+    },
+    {
+      "id": "aoa3:baron_bow",
+      "inventory_id": "localization:item.BaronBow.name",
+      "name": "Baron Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/BaronBow.class",
+      "registration_offset": 5385
+    },
+    {
+      "id": "aoa3:boreic_bow",
+      "inventory_id": "localization:item.BoreicBow.name",
+      "name": "Boreic Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/BoreicBow.class",
+      "registration_offset": 5404
+    },
+    {
+      "id": "aoa3:daybreaker_bow",
+      "inventory_id": "localization:item.DaybreakerBow.name",
+      "name": "Daybreaker Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/DaybreakerBow.class",
+      "registration_offset": 5421
+    },
+    {
+      "id": "aoa3:deep_bow",
+      "inventory_id": "localization:item.DeepBow.name",
+      "name": "Deep Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/DeepBow.class",
+      "registration_offset": 5441
+    },
+    {
+      "id": "aoa3:explosive_bow",
+      "inventory_id": "localization:item.ExplosiveBow.name",
+      "name": "Explosive Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/ExplosiveBow.class",
+      "registration_offset": 5461
+    },
+    {
+      "id": "aoa3:haunted_bow",
+      "inventory_id": "localization:item.HauntedBow.name",
+      "name": "Haunted Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/HauntedBow.class",
+      "registration_offset": 5479
+    },
+    {
+      "id": "aoa3:ice_bow",
+      "inventory_id": "localization:item.IceBow.name",
+      "name": "Ice Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/IceBow.class",
+      "registration_offset": 5497
+    },
+    {
+      "id": "aoa3:infernal_bow",
+      "inventory_id": "localization:item.InfernalBow.name",
+      "name": "Infernal Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/InfernalBow.class",
+      "registration_offset": 5515
+    },
+    {
+      "id": "aoa3:justice_bow",
+      "inventory_id": "localization:item.JusticeBow.name",
+      "name": "Justice Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/JusticeBow.class",
+      "registration_offset": 5533
+    },
+    {
+      "id": "aoa3:lunar_bow",
+      "inventory_id": "localization:item.LunarBow.name",
+      "name": "Lunar Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/LunarBow.class",
+      "registration_offset": 5551
+    },
+    {
+      "id": "aoa3:mecha_bow",
+      "inventory_id": "localization:item.MechaBow.name",
+      "name": "Mecha Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/MechaBow.class",
+      "registration_offset": 5571
+    },
+    {
+      "id": "aoa3:nightmare_bow",
+      "inventory_id": "localization:item.NightmareBow.name",
+      "name": "Nightmare Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/NightmareBow.class",
+      "registration_offset": 5589
+    },
+    {
+      "id": "aoa3:poison_bow",
+      "inventory_id": "localization:item.PoisonBow.name",
+      "name": "Poison Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/PoisonBow.class",
+      "registration_offset": 5607
+    },
+    {
+      "id": "aoa3:predatious_bow",
+      "inventory_id": "localization:item.PredatiousBow.name",
+      "name": "Predatious Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/PredatiousBow.class",
+      "registration_offset": 5627
+    },
+    {
+      "id": "aoa3:primordial_bow",
+      "inventory_id": "localization:item.PrimordialBow.name",
+      "name": "Primordial Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/PrimordialBow.class",
+      "registration_offset": 5645
+    },
+    {
+      "id": "aoa3:rosidian_bow",
+      "inventory_id": "localization:item.RosidianBow.name",
+      "name": "Rosidian Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/RosidianBow.class",
+      "registration_offset": 5663
+    },
+    {
+      "id": "aoa3:runic_bow",
+      "inventory_id": "localization:item.RunicBow.name",
+      "name": "Runic Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/RunicBow.class",
+      "registration_offset": 5681
+    },
+    {
+      "id": "aoa3:screamer_bow",
+      "inventory_id": "localization:item.ScreamerBow.name",
+      "name": "Screamer Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/ScreamerBow.class",
+      "registration_offset": 5699
+    },
+    {
+      "id": "aoa3:shyregem_bow",
+      "inventory_id": "localization:item.ShyregemBow.name",
+      "name": "Shyregem Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/ShyregemBow.class",
+      "registration_offset": 5719
+    },
+    {
+      "id": "aoa3:skeletal_bow",
+      "inventory_id": "localization:item.SkeletalBow.name",
+      "name": "Skeletal Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/SkeletalBow.class",
+      "registration_offset": 5739
+    },
+    {
+      "id": "aoa3:skydriver_bow",
+      "inventory_id": "localization:item.SkydriverBow.name",
+      "name": "Skydriver Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/SkydriverBow.class",
+      "registration_offset": 5757
+    },
+    {
+      "id": "aoa3:slingshot",
+      "inventory_id": "localization:item.Slingshot.name",
+      "name": "Slingshot",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/Slingshot.class",
+      "registration_offset": 5775
+    },
+    {
+      "id": "aoa3:soulfire_bow",
+      "inventory_id": "localization:item.SoulfireBow.name",
+      "name": "Soulfire Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/SoulfireBow.class",
+      "registration_offset": 5795
+    },
+    {
+      "id": "aoa3:spectral_bow",
+      "inventory_id": "localization:item.SpectralBow.name",
+      "name": "Spectral Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/SpectralBow.class",
+      "registration_offset": 5815
+    },
+    {
+      "id": "aoa3:speed_bow",
+      "inventory_id": "localization:item.SpeedBow.name",
+      "name": "Speed Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/SpeedBow.class",
+      "registration_offset": 5833
+    },
+    {
+      "id": "aoa3:sunshine_bow",
+      "inventory_id": "localization:item.SunshineBow.name",
+      "name": "Sunshine Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/SunshineBow.class",
+      "registration_offset": 5853
+    },
+    {
+      "id": "aoa3:toxin_bow",
+      "inventory_id": "localization:item.ToxinBow.name",
+      "name": "Toxin Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/ToxinBow.class",
+      "registration_offset": 5873
+    },
+    {
+      "id": "aoa3:void_bow",
+      "inventory_id": "localization:item.VoidBow.name",
+      "name": "Void Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/VoidBow.class",
+      "registration_offset": 5893
+    },
+    {
+      "id": "aoa3:weaken_bow",
+      "inventory_id": "localization:item.WeakenBow.name",
+      "name": "Weaken Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/WeakenBow.class",
+      "registration_offset": 5911
+    },
+    {
+      "id": "aoa3:wither_bow",
+      "inventory_id": "localization:item.WitherBow.name",
+      "name": "Wither Bow",
+      "family": "bow",
+      "class_path": "net/tslat/aoa3/item/weapon/bow/WitherBow.class",
+      "registration_offset": 5929
+    },
+    {
+      "id": "aoa3:coral_archergun",
+      "inventory_id": "localization:item.CoralArchergun.name",
+      "name": "Coral Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/CoralArchergun.class",
+      "registration_offset": 5959
+    },
+    {
+      "id": "aoa3:lunar_archergun",
+      "inventory_id": "localization:item.LunarArchergun.name",
+      "name": "Lunar Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/LunarArchergun.class",
+      "registration_offset": 5980
+    },
+    {
+      "id": "aoa3:mecha_archergun",
+      "inventory_id": "localization:item.MechaArchergun.name",
+      "name": "Mecha Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/MechaArchergun.class",
+      "registration_offset": 6001
+    },
+    {
+      "id": "aoa3:pyro_archergun",
+      "inventory_id": "localization:item.PyroArchergun.name",
+      "name": "Pyro Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/PyroArchergun.class",
+      "registration_offset": 6022
+    },
+    {
+      "id": "aoa3:rosidian_archergun",
+      "inventory_id": "localization:item.RosidianArchergun.name",
+      "name": "Rosidian Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun.class",
+      "registration_offset": 6043
+    },
+    {
+      "id": "aoa3:skeletal_archergun",
+      "inventory_id": "localization:item.SkeletalArchergun.name",
+      "name": "Skeletal Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/SkeletalArchergun.class",
+      "registration_offset": 6064
+    },
+    {
+      "id": "aoa3:spectral_archergun",
+      "inventory_id": "localization:item.SpectralArchergun.name",
+      "name": "Spectral Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun.class",
+      "registration_offset": 6086
+    },
+    {
+      "id": "aoa3:trolls_archergun",
+      "inventory_id": "localization:item.TrollsArchergun.name",
+      "name": "Trolls Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/TrollsArchergun.class",
+      "registration_offset": 6108
+    },
+    {
+      "id": "aoa3:viral_archergun",
+      "inventory_id": "localization:item.ViralArchergun.name",
+      "name": "Viral Archergun",
+      "family": "archergun",
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/ViralArchergun.class",
+      "registration_offset": 6130
+    },
+    {
+      "id": "aoa3:aquatic_staff",
+      "inventory_id": "localization:item.AquaticStaff.name",
+      "name": "Aquatic Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/AquaticStaff.class",
+      "registration_offset": 6152
+    },
+    {
+      "id": "aoa3:atlantic_staff",
+      "inventory_id": "localization:item.AtlanticStaff.name",
+      "name": "Atlantic Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/AtlanticStaff.class",
+      "registration_offset": 6165
+    },
+    {
+      "id": "aoa3:baron_staff",
+      "inventory_id": "localization:item.BaronStaff.name",
+      "name": "Baron Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/BaronStaff.class",
+      "registration_offset": 6178
+    },
+    {
+      "id": "aoa3:candy_staff",
+      "inventory_id": "localization:item.CandyStaff.name",
+      "name": "Candy Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CandyStaff.class",
+      "registration_offset": 6191
+    },
+    {
+      "id": "aoa3:celestial_staff",
+      "inventory_id": "localization:item.CelestialStaff.name",
+      "name": "Celestial Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CelestialStaff.class",
+      "registration_offset": 6204
+    },
+    {
+      "id": "aoa3:concussion_staff",
+      "inventory_id": "localization:item.ConcussionStaff.name",
+      "name": "Concussion Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ConcussionStaff.class",
+      "registration_offset": 6217
+    },
+    {
+      "id": "aoa3:coral_staff",
+      "inventory_id": "localization:item.CoralStaff.name",
+      "name": "Coral Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CoralStaff.class",
+      "registration_offset": 6231
+    },
+    {
+      "id": "aoa3:crystal_staff",
+      "inventory_id": "localization:item.CrystalStaff.name",
+      "name": "Crystal Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CrystalStaff.class",
+      "registration_offset": 6245
+    },
+    {
+      "id": "aoa3:crystik_staff",
+      "inventory_id": "localization:item.CrystikStaff.name",
+      "name": "Crystik Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CrystikStaff.class",
+      "registration_offset": 6259
+    },
+    {
+      "id": "aoa3:cryston_staff",
+      "inventory_id": "localization:item.CrystonStaff.name",
+      "name": "Cryston Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CrystonStaff.class",
+      "registration_offset": 6273
+    },
+    {
+      "id": "aoa3:destruction_staff",
+      "inventory_id": "localization:item.DestructionStaff.name",
+      "name": "Destruction Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/DestructionStaff.class",
+      "registration_offset": 6287
+    },
+    {
+      "id": "aoa3:ember_staff",
+      "inventory_id": "localization:item.EmberStaff.name",
+      "name": "Ember Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/EmberStaff.class",
+      "registration_offset": 6301
+    },
+    {
+      "id": "aoa3:everfight_staff",
+      "inventory_id": "localization:item.EverfightStaff.name",
+      "name": "Everfight Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/EverfightStaff.class",
+      "registration_offset": 6315
+    },
+    {
+      "id": "aoa3:evermight_staff",
+      "inventory_id": "localization:item.EvermightStaff.name",
+      "name": "Evermight Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/EvermightStaff.class",
+      "registration_offset": 6329
+    },
+    {
+      "id": "aoa3:fire_staff",
+      "inventory_id": "localization:item.FireStaff.name",
+      "name": "Fire Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/FireStaff.class",
+      "registration_offset": 6343
+    },
+    {
+      "id": "aoa3:firefly_staff",
+      "inventory_id": "localization:item.FireflyStaff.name",
+      "name": "Firefly Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/FireflyStaff.class",
+      "registration_offset": 6357
+    },
+    {
+      "id": "aoa3:firestorm_staff",
+      "inventory_id": "localization:item.FirestormStaff.name",
+      "name": "Firestorm Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/FirestormStaff.class",
+      "registration_offset": 6371
+    },
+    {
+      "id": "aoa3:fungal_staff",
+      "inventory_id": "localization:item.FungalStaff.name",
+      "name": "Fungal Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/FungalStaff.class",
+      "registration_offset": 6385
+    },
+    {
+      "id": "aoa3:ghoul_staff",
+      "inventory_id": "localization:item.GhoulStaff.name",
+      "name": "Ghoul Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/GhoulStaff.class",
+      "registration_offset": 6399
+    },
+    {
+      "id": "aoa3:haunters_staff",
+      "inventory_id": "localization:item.HauntersStaff.name",
+      "name": "Haunter's Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/HauntersStaff.class",
+      "registration_offset": 6413
+    },
+    {
+      "id": "aoa3:hive_staff",
+      "inventory_id": "localization:item.HiveStaff.name",
+      "name": "Hive Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/HiveStaff.class",
+      "registration_offset": 6427
+    },
+    {
+      "id": "aoa3:joker_staff",
+      "inventory_id": "localization:item.JokerStaff.name",
+      "name": "Joker Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/JokerStaff.class",
+      "registration_offset": 6441
+    },
+    {
+      "id": "aoa3:kaiyu_staff",
+      "inventory_id": "localization:item.KaiyuStaff.name",
+      "name": "Kaiyu Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/KaiyuStaff.class",
+      "registration_offset": 6455
+    },
+    {
+      "id": "aoa3:lightning_staff",
+      "inventory_id": "localization:item.LightningStaff.name",
+      "name": "Lightning Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LightningStaff.class",
+      "registration_offset": 6469
+    },
+    {
+      "id": "aoa3:lightshine",
+      "inventory_id": "localization:item.Lightshine.name",
+      "name": "Lightshine",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/Lightshine.class",
+      "registration_offset": 6483
+    },
+    {
+      "id": "aoa3:lunar_staff",
+      "inventory_id": "localization:item.LunarStaff.name",
+      "name": "Lunar Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LunarStaff.class",
+      "registration_offset": 6497
+    },
+    {
+      "id": "aoa3:lyonic_staff",
+      "inventory_id": "localization:item.LyonicStaff.name",
+      "name": "Lyonic Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LyonicStaff.class",
+      "registration_offset": 6511
+    },
+    {
+      "id": "aoa3:mecha_staff",
+      "inventory_id": "localization:item.MechaStaff.name",
+      "name": "Mecha Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/MechaStaff.class",
+      "registration_offset": 6525
+    },
+    {
+      "id": "aoa3:meteor_staff",
+      "inventory_id": "localization:item.MeteorStaff.name",
+      "name": "Meteor Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/MeteorStaff.class",
+      "registration_offset": 6539
+    },
+    {
+      "id": "aoa3:moonlight_staff",
+      "inventory_id": "localization:item.MoonlightStaff.name",
+      "name": "Moonlight Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/MoonlightStaff.class",
+      "registration_offset": 6553
+    },
+    {
+      "id": "aoa3:nature_staff",
+      "inventory_id": "localization:item.NatureStaff.name",
+      "name": "Nature Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/NatureStaff.class",
+      "registration_offset": 6567
+    },
+    {
+      "id": "aoa3:nightmare_staff",
+      "inventory_id": "localization:item.NightmareStaff.name",
+      "name": "Nightmare Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/NightmareStaff.class",
+      "registration_offset": 6581
+    },
+    {
+      "id": "aoa3:noxious_staff",
+      "inventory_id": "localization:item.NoxiousStaff.name",
+      "name": "Noxious Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/NoxiousStaff.class",
+      "registration_offset": 6595
+    },
+    {
+      "id": "aoa3:phantom_staff",
+      "inventory_id": "localization:item.PhantomStaff.name",
+      "name": "Phantom Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/PhantomStaff.class",
+      "registration_offset": 6609
+    },
+    {
+      "id": "aoa3:poison_staff",
+      "inventory_id": "localization:item.PoisonStaff.name",
+      "name": "Poison Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/PoisonStaff.class",
+      "registration_offset": 6623
+    },
+    {
+      "id": "aoa3:power_staff",
+      "inventory_id": "localization:item.PowerStaff.name",
+      "name": "Power Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/PowerStaff.class",
+      "registration_offset": 6637
+    },
+    {
+      "id": "aoa3:primordial_staff",
+      "inventory_id": "localization:item.PrimordialStaff.name",
+      "name": "Primordial Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/PrimordialStaff.class",
+      "registration_offset": 6651
+    },
+    {
+      "id": "aoa3:reef_staff",
+      "inventory_id": "localization:item.ReefStaff.name",
+      "name": "Reef Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ReefStaff.class",
+      "registration_offset": 6665
+    },
+    {
+      "id": "aoa3:rejuvenation_staff",
+      "inventory_id": "localization:item.RejuvenationStaff.name",
+      "name": "Rejuvenation Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/RejuvenationStaff.class",
+      "registration_offset": 6679
+    },
+    {
+      "id": "aoa3:rosidian_staff",
+      "inventory_id": "localization:item.RosidianStaff.name",
+      "name": "Rosidian Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/RosidianStaff.class",
+      "registration_offset": 6693
+    },
+    {
+      "id": "aoa3:runic_staff",
+      "inventory_id": "localization:item.RunicStaff.name",
+      "name": "Runic Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/RunicStaff.class",
+      "registration_offset": 6707
+    },
+    {
+      "id": "aoa3:shadowlord_staff",
+      "inventory_id": "localization:item.ShadowlordStaff.name",
+      "name": "Shadowlord Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ShadowlordStaff.class",
+      "registration_offset": 6721
+    },
+    {
+      "id": "aoa3:show_staff",
+      "inventory_id": "localization:item.ShowStaff.name",
+      "name": "Show Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ShowStaff.class",
+      "registration_offset": 6735
+    },
+    {
+      "id": "aoa3:shyre_staff",
+      "inventory_id": "localization:item.ShyreStaff.name",
+      "name": "Shyre Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ShyreStaff.class",
+      "registration_offset": 6749
+    },
+    {
+      "id": "aoa3:sky_staff",
+      "inventory_id": "localization:item.SkyStaff.name",
+      "name": "Sky Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/SkyStaff.class",
+      "registration_offset": 6763
+    },
+    {
+      "id": "aoa3:striker_staff",
+      "inventory_id": "localization:item.StrikerStaff.name",
+      "name": "Striker Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/StrikerStaff.class",
+      "registration_offset": 6777
+    },
+    {
+      "id": "aoa3:sun_staff",
+      "inventory_id": "localization:item.SunStaff.name",
+      "name": "Sun Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/SunStaff.class",
+      "registration_offset": 6791
+    },
+    {
+      "id": "aoa3:surge_staff",
+      "inventory_id": "localization:item.SurgeStaff.name",
+      "name": "Surge Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/SurgeStaff.class",
+      "registration_offset": 6805
+    },
+    {
+      "id": "aoa3:tangle_staff",
+      "inventory_id": "localization:item.TangleStaff.name",
+      "name": "Tangle Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/TangleStaff.class",
+      "registration_offset": 6819
+    },
+    {
+      "id": "aoa3:ultimatum_staff",
+      "inventory_id": "localization:item.UltimatumStaff.name",
+      "name": "Ultimatum Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/UltimatumStaff.class",
+      "registration_offset": 6833
+    },
+    {
+      "id": "aoa3:underworld_staff",
+      "inventory_id": "localization:item.UnderworldStaff.name",
+      "name": "Underworld Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/UnderworldStaff.class",
+      "registration_offset": 6847
+    },
+    {
+      "id": "aoa3:warlock_staff",
+      "inventory_id": "localization:item.WarlockStaff.name",
+      "name": "Warlock Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WarlockStaff.class",
+      "registration_offset": 6861
+    },
+    {
+      "id": "aoa3:water_staff",
+      "inventory_id": "localization:item.WaterStaff.name",
+      "name": "Water Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WaterStaff.class",
+      "registration_offset": 6875
+    },
+    {
+      "id": "aoa3:web_staff",
+      "inventory_id": "localization:item.WebStaff.name",
+      "name": "Web Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WebStaff.class",
+      "registration_offset": 6889
+    },
+    {
+      "id": "aoa3:wind_staff",
+      "inventory_id": "localization:item.WindStaff.name",
+      "name": "Wind Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WindStaff.class",
+      "registration_offset": 6903
+    },
+    {
+      "id": "aoa3:wither_staff",
+      "inventory_id": "localization:item.WitherStaff.name",
+      "name": "Wither Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WitherStaff.class",
+      "registration_offset": 6917
+    },
+    {
+      "id": "aoa3:wizards_staff",
+      "inventory_id": "localization:item.WizardsStaff.name",
+      "name": "Wizard's Staff",
+      "family": "staff",
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WizardsStaff.class",
+      "registration_offset": 6931
+    },
+    {
+      "id": "aoa3:apoco_shower",
+      "inventory_id": "localization:item.ApocoShower.name",
+      "name": "Apoco Shower",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/ApocoShower.class",
+      "registration_offset": 6959
+    },
+    {
+      "id": "aoa3:atomizer",
+      "inventory_id": "localization:item.Atomizer.name",
+      "name": "Atomizer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Atomizer.class",
+      "registration_offset": 6980
+    },
+    {
+      "id": "aoa3:beamer",
+      "inventory_id": "localization:item.Beamer.name",
+      "name": "Beamer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Beamer.class",
+      "registration_offset": 6998
+    },
+    {
+      "id": "aoa3:blast_chiller",
+      "inventory_id": "localization:item.BlastChiller.name",
+      "name": "Blast Chiller",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/BlastChiller.class",
+      "registration_offset": 7019
+    },
+    {
+      "id": "aoa3:blood_drainer",
+      "inventory_id": "localization:item.BloodDrainer.name",
+      "name": "Blood Drainer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/BloodDrainer.class",
+      "registration_offset": 7039
+    },
+    {
+      "id": "aoa3:bone_blaster",
+      "inventory_id": "localization:item.BoneBlaster.name",
+      "name": "Bone Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/BoneBlaster.class",
+      "registration_offset": 7060
+    },
+    {
+      "id": "aoa3:bubble_horn",
+      "inventory_id": "localization:item.BubbleHorn.name",
+      "name": "Bubble Horn",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/BubbleHorn.class",
+      "registration_offset": 7082
+    },
+    {
+      "id": "aoa3:colour_cannon",
+      "inventory_id": "localization:item.ColourCannon.name",
+      "name": "Colour Cannon",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/ColourCannon.class",
+      "registration_offset": 7104
+    },
+    {
+      "id": "aoa3:confetti_cannon",
+      "inventory_id": "localization:item.ConfettiCannon.name",
+      "name": "Confetti Cannon",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/ConfettiCannon.class",
+      "registration_offset": 7122
+    },
+    {
+      "id": "aoa3:confetti_cluster",
+      "inventory_id": "localization:item.ConfettiCluster.name",
+      "name": "Confetti Cluster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/ConfettiCluster.class",
+      "registration_offset": 7139
+    },
+    {
+      "id": "aoa3:dark_destroyer",
+      "inventory_id": "localization:item.DarkDestroyer.name",
+      "name": "Dark Destroyer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/DarkDestroyer.class",
+      "registration_offset": 7159
+    },
+    {
+      "id": "aoa3:darkly_guster",
+      "inventory_id": "localization:item.DarklyGuster.name",
+      "name": "Darkly Guster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/DarklyGuster.class",
+      "registration_offset": 7180
+    },
+    {
+      "id": "aoa3:death_ray",
+      "inventory_id": "localization:item.DeathRay.name",
+      "name": "Death Ray",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/DeathRay.class",
+      "registration_offset": 7202
+    },
+    {
+      "id": "aoa3:doom_bringer",
+      "inventory_id": "localization:item.DoomBringer.name",
+      "name": "Doom Bringer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/DoomBringer.class",
+      "registration_offset": 7221
+    },
+    {
+      "id": "aoa3:eradicator",
+      "inventory_id": "localization:item.Eradicator.name",
+      "name": "Eradicator",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Eradicator.class",
+      "registration_offset": 7238
+    },
+    {
+      "id": "aoa3:experiment_w801",
+      "inventory_id": "localization:item.ExperimentW801.name",
+      "name": "Experiment W-801",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/ExperimentW801.class",
+      "registration_offset": 7260
+    },
+    {
+      "id": "aoa3:flowercorne",
+      "inventory_id": "localization:item.Flowercorne.name",
+      "name": "Flowercorne",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Flowercorne.class",
+      "registration_offset": 7281
+    },
+    {
+      "id": "aoa3:fragment",
+      "inventory_id": "localization:item.Fragment.name",
+      "name": "Fragment",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Fragment.class",
+      "registration_offset": 7302
+    },
+    {
+      "id": "aoa3:froster",
+      "inventory_id": "localization:item.Froster.name",
+      "name": "Froster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Froster.class",
+      "registration_offset": 7323
+    },
+    {
+      "id": "aoa3:gas_blaster",
+      "inventory_id": "localization:item.GasBlaster.name",
+      "name": "Gas Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/GasBlaster.class",
+      "registration_offset": 7342
+    },
+    {
+      "id": "aoa3:ghoul_gasser",
+      "inventory_id": "localization:item.GhoulGasser.name",
+      "name": "Ghoul Gasser",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/GhoulGasser.class",
+      "registration_offset": 7359
+    },
+    {
+      "id": "aoa3:gold_bringer",
+      "inventory_id": "localization:item.GoldBringer.name",
+      "name": "Gold Bringer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/GoldBringer.class",
+      "registration_offset": 7378
+    },
+    {
+      "id": "aoa3:gravity_blaster",
+      "inventory_id": "localization:item.GravityBlaster.name",
+      "name": "Gravity Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/GravityBlaster.class",
+      "registration_offset": 7399
+    },
+    {
+      "id": "aoa3:hell_horn",
+      "inventory_id": "localization:item.HellHorn.name",
+      "name": "Hell Horn",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/HellHorn.class",
+      "registration_offset": 7421
+    },
+    {
+      "id": "aoa3:illusion_revolver",
+      "inventory_id": "localization:item.IllusionRevolver.name",
+      "name": "Illusion Revolver",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/IllusionRevolver.class",
+      "registration_offset": 7443
+    },
+    {
+      "id": "aoa3:illusion_smg",
+      "inventory_id": "localization:item.IllusionSMG.name",
+      "name": "Illusion SMG",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/IllusionSMG.class",
+      "registration_offset": 7464
+    },
+    {
+      "id": "aoa3:ion_blaster",
+      "inventory_id": "localization:item.IonBlaster.name",
+      "name": "Ion Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/IonBlaster.class",
+      "registration_offset": 7486
+    },
+    {
+      "id": "aoa3:iro_miner",
+      "inventory_id": "localization:item.IroMiner.name",
+      "name": "Iro Miner",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/IroMiner.class",
+      "registration_offset": 7507
+    },
+    {
+      "id": "aoa3:laser_blaster",
+      "inventory_id": "localization:item.LaserBlaster.name",
+      "name": "Laser Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/LaserBlaster.class",
+      "registration_offset": 7528
+    },
+    {
+      "id": "aoa3:light_blaster",
+      "inventory_id": "localization:item.LightBlaster.name",
+      "name": "Light Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/LightBlaster.class",
+      "registration_offset": 7550
+    },
+    {
+      "id": "aoa3:light_spark",
+      "inventory_id": "localization:item.LightSpark.name",
+      "name": "Light Spark",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/LightSpark.class",
+      "registration_offset": 7566
+    },
+    {
+      "id": "aoa3:luna_blaster",
+      "inventory_id": "localization:item.LunaBlaster.name",
+      "name": "Luna Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/LunaBlaster.class",
+      "registration_offset": 7587
+    },
+    {
+      "id": "aoa3:mecha_blaster",
+      "inventory_id": "localization:item.MechaBlaster.name",
+      "name": "Mecha Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/MechaBlaster.class",
+      "registration_offset": 7609
+    },
+    {
+      "id": "aoa3:mind_blaster",
+      "inventory_id": "localization:item.MindBlaster.name",
+      "name": "Mind Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/MindBlaster.class",
+      "registration_offset": 7631
+    },
+    {
+      "id": "aoa3:moon_destroyer",
+      "inventory_id": "localization:item.MoonDestroyer.name",
+      "name": "Moon Destroyer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/MoonDestroyer.class",
+      "registration_offset": 7651
+    },
+    {
+      "id": "aoa3:moon_shiner",
+      "inventory_id": "localization:item.MoonShiner.name",
+      "name": "Moon Shiner",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/MoonShiner.class",
+      "registration_offset": 7672
+    },
+    {
+      "id": "aoa3:odious",
+      "inventory_id": "localization:item.Odious.name",
+      "name": "Odious",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Odious.class",
+      "registration_offset": 7691
+    },
+    {
+      "id": "aoa3:orbocron",
+      "inventory_id": "localization:item.Orbocron.name",
+      "name": "Orb-O-Cron",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Orbocron.class",
+      "registration_offset": 7713
+    },
+    {
+      "id": "aoa3:paralyzer",
+      "inventory_id": "localization:item.Paralyzer.name",
+      "name": "Paralyzer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Paralyzer.class",
+      "registration_offset": 7734
+    },
+    {
+      "id": "aoa3:party_popper",
+      "inventory_id": "localization:item.PartyPopper.name",
+      "name": "Party Popper",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/PartyPopper.class",
+      "registration_offset": 7755
+    },
+    {
+      "id": "aoa3:poison_plunger",
+      "inventory_id": "localization:item.PoisonPlunger.name",
+      "name": "Poison Plunger",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/PoisonPlunger.class",
+      "registration_offset": 7775
+    },
+    {
+      "id": "aoa3:power_ray",
+      "inventory_id": "localization:item.PowerRay.name",
+      "name": "Power Ray",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/PowerRay.class",
+      "registration_offset": 7797
+    },
+    {
+      "id": "aoa3:proton",
+      "inventory_id": "localization:item.Proton.name",
+      "name": "Proton",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Proton.class",
+      "registration_offset": 7818
+    },
+    {
+      "id": "aoa3:reefer",
+      "inventory_id": "localization:item.Reefer.name",
+      "name": "Reefer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Reefer.class",
+      "registration_offset": 7839
+    },
+    {
+      "id": "aoa3:revolution",
+      "inventory_id": "localization:item.Revolution.name",
+      "name": "Revolution",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Revolution.class",
+      "registration_offset": 7859
+    },
+    {
+      "id": "aoa3:seaocron",
+      "inventory_id": "localization:item.Seaocron.name",
+      "name": "Sea-O-Cron",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Seaocron.class",
+      "registration_offset": 7881
+    },
+    {
+      "id": "aoa3:skullo_blaster",
+      "inventory_id": "localization:item.SkulloBlaster.name",
+      "name": "Skullo Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/SkulloBlaster.class",
+      "registration_offset": 7902
+    },
+    {
+      "id": "aoa3:soul_drainer",
+      "inventory_id": "localization:item.SoulDrainer.name",
+      "name": "Soul Drainer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/SoulDrainer.class",
+      "registration_offset": 7921
+    },
+    {
+      "id": "aoa3:soul_spark",
+      "inventory_id": "localization:item.SoulSpark.name",
+      "name": "Soul Spark",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/SoulSpark.class",
+      "registration_offset": 7936
+    },
+    {
+      "id": "aoa3:soul_storm",
+      "inventory_id": "localization:item.SoulStorm.name",
+      "name": "Soul Storm",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/SoulStorm.class",
+      "registration_offset": 7955
+    },
+    {
+      "id": "aoa3:spirit_shower",
+      "inventory_id": "localization:item.SpiritShower.name",
+      "name": "Spirit Shower",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/SpiritShower.class",
+      "registration_offset": 7975
+    },
+    {
+      "id": "aoa3:swarmotron",
+      "inventory_id": "localization:item.Swarmotron.name",
+      "name": "Swarm-O-Tron",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/Swarmotron.class",
+      "registration_offset": 7997
+    },
+    {
+      "id": "aoa3:toxic_terrorizer",
+      "inventory_id": "localization:item.ToxicTerrorizer.name",
+      "name": "Toxic Terrorizer",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/ToxicTerrorizer.class",
+      "registration_offset": 8017
+    },
+    {
+      "id": "aoa3:vortex_blaster",
+      "inventory_id": "localization:item.VortexBlaster.name",
+      "name": "Vortex Blaster",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/VortexBlaster.class",
+      "registration_offset": 8036
+    },
+    {
+      "id": "aoa3:whimsy_winder",
+      "inventory_id": "localization:item.WhimsyWinder.name",
+      "name": "Whimsy Winder",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/WhimsyWinder.class",
+      "registration_offset": 8057
+    },
+    {
+      "id": "aoa3:withers_wrath",
+      "inventory_id": "localization:item.WithersWrath.name",
+      "name": "Wither's Wrath",
+      "family": "blaster",
+      "class_path": "net/tslat/aoa3/item/weapon/blaster/WithersWrath.class",
+      "registration_offset": 8079
+    },
+    {
+      "id": "aoa3:vulcane",
+      "inventory_id": "localization:item.Vulcane.name",
+      "name": "Vulcane",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/Vulcane.class",
+      "registration_offset": 5197
+    },
+    {
+      "id": "aoa3:battle_vulcane",
+      "inventory_id": "localization:item.BattleVulcane.name",
+      "name": "Vulcane: Battle",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/BattleVulcane.class",
+      "registration_offset": 5212
+    },
+    {
+      "id": "aoa3:equality_vulcane",
+      "inventory_id": "localization:item.EqualityVulcane.name",
+      "name": "Vulcane: Equality",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/EqualityVulcane.class",
+      "registration_offset": 5227
+    },
+    {
+      "id": "aoa3:fire_vulcane",
+      "inventory_id": "localization:item.FireVulcane.name",
+      "name": "Vulcane: Fire",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/FireVulcane.class",
+      "registration_offset": 5242
+    },
+    {
+      "id": "aoa3:impairment_vulcane",
+      "inventory_id": "localization:item.ImpairmentVulcane.name",
+      "name": "Vulcane: Impairment",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/ImpairmentVulcane.class",
+      "registration_offset": 5257
+    },
+    {
+      "id": "aoa3:poison_vulcane",
+      "inventory_id": "localization:item.PoisonVulcane.name",
+      "name": "Vulcane: Poison",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/PoisonVulcane.class",
+      "registration_offset": 5272
+    },
+    {
+      "id": "aoa3:power_vulcane",
+      "inventory_id": "localization:item.PowerVulcane.name",
+      "name": "Vulcane: Power",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/PowerVulcane.class",
+      "registration_offset": 5288
+    },
+    {
+      "id": "aoa3:wither_vulcane",
+      "inventory_id": "localization:item.WitherVulcane.name",
+      "name": "Vulcane: Wither",
+      "family": "vulcane",
+      "class_path": "net/tslat/aoa3/item/weapon/vulcane/WitherVulcane.class",
+      "registration_offset": 5304
+    },
+    {
+      "id": "aoa3:grenade",
+      "inventory_id": "localization:item.Grenade.name",
+      "name": "Grenade",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/Grenade.class",
+      "registration_offset": 5112
+    },
+    {
+      "id": "aoa3:slice_star",
+      "inventory_id": "localization:item.SliceStar.name",
+      "name": "Slice Star",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/SliceStar.class",
+      "registration_offset": 5122
+    },
+    {
+      "id": "aoa3:chakram",
+      "inventory_id": "localization:item.Chakram.name",
+      "name": "Chakram",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/Chakram.class",
+      "registration_offset": 5132
+    },
+    {
+      "id": "aoa3:goo_ball",
+      "inventory_id": "localization:item.GooBall.name",
+      "name": "Goo Ball",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/GooBall.class",
+      "registration_offset": 5142
+    },
+    {
+      "id": "aoa3:vulkram",
+      "inventory_id": "localization:item.Vulkram.name",
+      "name": "Vulkram",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/Vulkram.class",
+      "registration_offset": 5152
+    },
+    {
+      "id": "aoa3:hellfire",
+      "inventory_id": "localization:item.Hellfire.name",
+      "name": "Hellfire",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/Hellfire.class",
+      "registration_offset": 5162
+    },
+    {
+      "id": "aoa3:runic_bomb",
+      "inventory_id": "localization:item.RunicBomb.name",
+      "name": "Runic Bomb",
+      "family": "thrown",
+      "class_path": "net/tslat/aoa3/item/weapon/thrown/RunicBomb.class",
+      "registration_offset": 5173
+    },
+    {
+      "id": "aoa3:amethyst_sword",
+      "inventory_id": "localization:item.AmethystSword.name",
+      "name": "Amethyst Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/AmethystSword.class",
+      "registration_offset": 21
+    },
+    {
+      "id": "aoa3:baron_sword",
+      "inventory_id": "localization:item.BaronSword.name",
+      "name": "Baron Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/BaronSword.class",
+      "registration_offset": 35
+    },
+    {
+      "id": "aoa3:bloodfury",
+      "inventory_id": "localization:item.Bloodfury.name",
+      "name": "Bloodfury",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/BloodfurySword.class",
+      "registration_offset": 51
+    },
+    {
+      "id": "aoa3:bloodstone_sword",
+      "inventory_id": "localization:item.BloodstoneSword.name",
+      "name": "Bloodstone Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/BloodstoneSword.class",
+      "registration_offset": 65
+    },
+    {
+      "id": "aoa3:candlefire_sword",
+      "inventory_id": "localization:item.CandlefireSword.name",
+      "name": "Candlefire Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/CandlefireSword.class",
+      "registration_offset": 79
+    },
+    {
+      "id": "aoa3:caramel_carver",
+      "inventory_id": "localization:item.CaramelCarver.name",
+      "name": "Caramel Carver",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/CaramelCarver.class",
+      "registration_offset": 93
+    },
+    {
+      "id": "aoa3:coralstorm_sword",
+      "inventory_id": "localization:item.CoralstormSword.name",
+      "name": "Coralstorm Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/CoralstormSword.class",
+      "registration_offset": 108
+    },
+    {
+      "id": "aoa3:creepified_sword",
+      "inventory_id": "localization:item.CreepifiedSword.name",
+      "name": "Creepified Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/CreepifiedSword.class",
+      "registration_offset": 123
+    },
+    {
+      "id": "aoa3:crystallite_sword",
+      "inventory_id": "localization:item.CrystalliteSword.name",
+      "name": "Crystallite Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/CrystalliteSword.class",
+      "registration_offset": 140
+    },
+    {
+      "id": "aoa3:emberstone_sword",
+      "inventory_id": "localization:item.EmberstoneSword.name",
+      "name": "Emberstone Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/EmberstoneSword.class",
+      "registration_offset": 155
+    },
+    {
+      "id": "aoa3:explochron_sword",
+      "inventory_id": "localization:item.ExplochronSword.name",
+      "name": "Explochron Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/ExplochronSword.class",
+      "registration_offset": 170
+    },
+    {
+      "id": "aoa3:fireborne_sword",
+      "inventory_id": "localization:item.FireborneSword.name",
+      "name": "Fireborne Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/FireborneSword.class",
+      "registration_offset": 185
+    },
+    {
+      "id": "aoa3:guardians_sword",
+      "inventory_id": "localization:item.GuardiansSword.name",
+      "name": "Guardian's Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/GuardiansSword.class",
+      "registration_offset": 200
+    },
+    {
+      "id": "aoa3:harvester_sword",
+      "inventory_id": "localization:item.HarvesterSword.name",
+      "name": "Harvester Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/HarvesterSword.class",
+      "registration_offset": 215
+    },
+    {
+      "id": "aoa3:holy_sword",
+      "inventory_id": "localization:item.HolySword.name",
+      "name": "Holy Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/HolySword.class",
+      "registration_offset": 235
+    },
+    {
+      "id": "aoa3:illusion_sword",
+      "inventory_id": "localization:item.IllusionSword.name",
+      "name": "Illusion Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/IllusionSword.class",
+      "registration_offset": 250
+    },
+    {
+      "id": "aoa3:jade_sword",
+      "inventory_id": "localization:item.JadeSword.name",
+      "name": "Jade Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/JadeSword.class",
+      "registration_offset": 265
+    },
+    {
+      "id": "aoa3:legbone_sword",
+      "inventory_id": "localization:item.LegboneSword.name",
+      "name": "Legbone Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/LegboneSword.class",
+      "registration_offset": 280
+    },
+    {
+      "id": "aoa3:lights_way",
+      "inventory_id": "localization:item.LightsWay.name",
+      "name": "Light's Way",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/LightsWay.class",
+      "registration_offset": 300
+    },
+    {
+      "id": "aoa3:limonite_sword",
+      "inventory_id": "localization:item.LimoniteSword.name",
+      "name": "Limonite Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/LimoniteSword.class",
+      "registration_offset": 315
+    },
+    {
+      "id": "aoa3:nethengeic_sword",
+      "inventory_id": "localization:item.NethengeicSword.name",
+      "name": "Nethengeic Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/NethengeicSword.class",
+      "registration_offset": 330
+    },
+    {
+      "id": "aoa3:primal_sword",
+      "inventory_id": "localization:item.PrimalSword.name",
+      "name": "Primal Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/PrimalSword.class",
+      "registration_offset": 345
+    },
+    {
+      "id": "aoa3:rockbasher_sword",
+      "inventory_id": "localization:item.RockbasherSword.name",
+      "name": "Rockbasher Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/RockbasherSword.class",
+      "registration_offset": 360
+    },
+    {
+      "id": "aoa3:rock_pick_sword",
+      "inventory_id": "localization:item.RockPickSword.name",
+      "name": "Rock-Pick Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/RockPickSword.class",
+      "registration_offset": 375
+    },
+    {
+      "id": "aoa3:rosidian_sword",
+      "inventory_id": "localization:item.RosidianSword.name",
+      "name": "Rosidian Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/RosidianSword.class",
+      "registration_offset": 390
+    },
+    {
+      "id": "aoa3:rosite_sword",
+      "inventory_id": "localization:item.RositeSword.name",
+      "name": "Rosite Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/RositeSword.class",
+      "registration_offset": 405
+    },
+    {
+      "id": "aoa3:runic_sword",
+      "inventory_id": "localization:item.RunicSword.name",
+      "name": "Runic Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/RunicSword.class",
+      "registration_offset": 420
+    },
+    {
+      "id": "aoa3:sapphire_sword",
+      "inventory_id": "localization:item.SapphireSword.name",
+      "name": "Sapphire Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/SapphireSword.class",
+      "registration_offset": 435
+    },
+    {
+      "id": "aoa3:shadow_sword",
+      "inventory_id": "localization:item.ShadowSword.name",
+      "name": "Shadow Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/ShadowSword.class",
+      "registration_offset": 450
+    },
+    {
+      "id": "aoa3:shroomus_sword",
+      "inventory_id": "localization:item.ShroomusSword.name",
+      "name": "Shroomus Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/ShroomusSword.class",
+      "registration_offset": 465
+    },
+    {
+      "id": "aoa3:skeletal_sword",
+      "inventory_id": "localization:item.SkeletalSword.name",
+      "name": "Skeletal Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/SkeletalSword.class",
+      "registration_offset": 482
+    },
+    {
+      "id": "aoa3:supremacy_sword",
+      "inventory_id": "localization:item.SupremacySword.name",
+      "name": "Supremacy Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/SupremacySword.class",
+      "registration_offset": 497
+    },
+    {
+      "id": "aoa3:sweet_sword",
+      "inventory_id": "localization:item.SweetSword.name",
+      "name": "Sweet Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/SweetSword.class",
+      "registration_offset": 512
+    },
+    {
+      "id": "aoa3:troll_basher_axe",
+      "inventory_id": "localization:item.TrollBasherAxe.name",
+      "name": "Troll-Basher Axe",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/TrollBasherAxe.class",
+      "registration_offset": 527
+    },
+    {
+      "id": "aoa3:ultraflame",
+      "inventory_id": "localization:item.Ultraflame.name",
+      "name": "Ultraflame",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/Ultraflame.class",
+      "registration_offset": 542
+    },
+    {
+      "id": "aoa3:void_sword",
+      "inventory_id": "localization:item.VoidSword.name",
+      "name": "Void Sword",
+      "family": "sword",
+      "class_path": "net/tslat/aoa3/item/weapon/sword/VoidSword.class",
+      "registration_offset": 557
+    },
+    {
+      "id": "aoa3:baron_greatblade",
+      "inventory_id": "localization:item.BaronGreatblade.name",
+      "name": "Baron Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/BaronGreatblade.class",
+      "registration_offset": 583
+    },
+    {
+      "id": "aoa3:bloodlurker",
+      "inventory_id": "localization:item.Bloodlurker.name",
+      "name": "Bloodlurker",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/Bloodlurker.class",
+      "registration_offset": 600
+    },
+    {
+      "id": "aoa3:candy_blade",
+      "inventory_id": "localization:item.CandyBlade.name",
+      "name": "Candy Blade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/CandyBlade.class",
+      "registration_offset": 617
+    },
+    {
+      "id": "aoa3:coral_greatblade",
+      "inventory_id": "localization:item.CoralGreatblade.name",
+      "name": "Coral Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/CoralGreatblade.class",
+      "registration_offset": 634
+    },
+    {
+      "id": "aoa3:cotton_crusher",
+      "inventory_id": "localization:item.CottonCrusher.name",
+      "name": "Cotton Crusher",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/CottonCrusher.class",
+      "registration_offset": 651
+    },
+    {
+      "id": "aoa3:creepoid_greatblade",
+      "inventory_id": "localization:item.CreepoidGreatblade.name",
+      "name": "Creepoid Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/CreepoidGreatblade.class",
+      "registration_offset": 668
+    },
+    {
+      "id": "aoa3:crystal_greatblade",
+      "inventory_id": "localization:item.CrystalGreatblade.name",
+      "name": "Crystal Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/CrystalGreatblade.class",
+      "registration_offset": 686
+    },
+    {
+      "id": "aoa3:erebon_scythe",
+      "inventory_id": "localization:item.ErebonScythe.name",
+      "name": "Erebon Scythe",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/ErebonScythe.class",
+      "registration_offset": 706
+    },
+    {
+      "id": "aoa3:gods_greatblade",
+      "inventory_id": "localization:item.GodsGreatblade.name",
+      "name": "God's Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/GodsGreatblade.class",
+      "registration_offset": 724
+    },
+    {
+      "id": "aoa3:goofy_greatblade",
+      "inventory_id": "localization:item.GoofyGreatblade.name",
+      "name": "Goofy Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/GoofyGreatblade.class",
+      "registration_offset": 742
+    },
+    {
+      "id": "aoa3:haunted_greatblade",
+      "inventory_id": "localization:item.HauntedGreatblade.name",
+      "name": "Haunted Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/HauntedGreatblade.class",
+      "registration_offset": 760
+    },
+    {
+      "id": "aoa3:knights_guard",
+      "inventory_id": "localization:item.KnightsGuard.name",
+      "name": "Knight's Guard",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/KnightsGuard.class",
+      "registration_offset": 778
+    },
+    {
+      "id": "aoa3:lelyetian_greatblade",
+      "inventory_id": "localization:item.LelyetianGreatblade.name",
+      "name": "Lelyetian Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/LelyetianGreatblade.class",
+      "registration_offset": 796
+    },
+    {
+      "id": "aoa3:lunar_greatblade",
+      "inventory_id": "localization:item.LunarGreatblade.name",
+      "name": "Lunar Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/LunarGreatblade.class",
+      "registration_offset": 814
+    },
+    {
+      "id": "aoa3:luxon_scythe",
+      "inventory_id": "localization:item.LuxonScythe.name",
+      "name": "Luxon Scythe",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/LuxonScythe.class",
+      "registration_offset": 834
+    },
+    {
+      "id": "aoa3:lyonic_greatblade",
+      "inventory_id": "localization:item.LyonicGreatblade.name",
+      "name": "Lyonic Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/LyonicGreatblade.class",
+      "registration_offset": 854
+    },
+    {
+      "id": "aoa3:millennium_greatblade",
+      "inventory_id": "localization:item.MillenniumGreatblade.name",
+      "name": "Millennium Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/MillenniumGreatblade.class",
+      "registration_offset": 872
+    },
+    {
+      "id": "aoa3:noxious_greatblade",
+      "inventory_id": "localization:item.NoxiousGreatblade.name",
+      "name": "Noxious Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/NoxiousGreatblade.class",
+      "registration_offset": 890
+    },
+    {
+      "id": "aoa3:pluton_scythe",
+      "inventory_id": "localization:item.PlutonScythe.name",
+      "name": "Pluton Scythe",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/PlutonScythe.class",
+      "registration_offset": 910
+    },
+    {
+      "id": "aoa3:primordial_greatblade",
+      "inventory_id": "localization:item.PrimordialGreatblade.name",
+      "name": "Primordial Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/PrimordialGreatblade.class",
+      "registration_offset": 928
+    },
+    {
+      "id": "aoa3:rosidian_greatblade",
+      "inventory_id": "localization:item.RosidianGreatblade.name",
+      "name": "Rosidian Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/RosidianGreatblade.class",
+      "registration_offset": 946
+    },
+    {
+      "id": "aoa3:royal_greatblade",
+      "inventory_id": "localization:item.RoyalGreatblade.name",
+      "name": "Royal Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/RoyalGreatblade.class",
+      "registration_offset": 964
+    },
+    {
+      "id": "aoa3:runic_greatblade",
+      "inventory_id": "localization:item.RunicGreatblade.name",
+      "name": "Runic Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/RunicGreatblade.class",
+      "registration_offset": 982
+    },
+    {
+      "id": "aoa3:selyan_scythe",
+      "inventory_id": "localization:item.SelyanScythe.name",
+      "name": "Selyan Scythe",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/SelyanScythe.class",
+      "registration_offset": 1002
+    },
+    {
+      "id": "aoa3:shroomic_greatblade",
+      "inventory_id": "localization:item.ShroomicGreatblade.name",
+      "name": "Shroomic Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/ShroomicGreatblade.class",
+      "registration_offset": 1020
+    },
+    {
+      "id": "aoa3:shyre_sword",
+      "inventory_id": "localization:item.ShyreSword.name",
+      "name": "Shyre Sword",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/ShyreSword.class",
+      "registration_offset": 1038
+    },
+    {
+      "id": "aoa3:subterranean_greatblade",
+      "inventory_id": "localization:item.SubterraneanGreatblade.name",
+      "name": "Subterranean Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/SubterraneanGreatblade.class",
+      "registration_offset": 1056
+    },
+    {
+      "id": "aoa3:tidal_greatblade",
+      "inventory_id": "localization:item.TidalGreatblade.name",
+      "name": "Tidal Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/TidalGreatblade.class",
+      "registration_offset": 1074
+    },
+    {
+      "id": "aoa3:underworld_greatblade",
+      "inventory_id": "localization:item.UnderworldGreatblade.name",
+      "name": "Underworld Greatblade",
+      "family": "greatblade",
+      "class_path": "net/tslat/aoa3/item/weapon/greatblade/UnderworldGreatblade.class",
+      "registration_offset": 1092
+    },
+    {
+      "id": "aoa3:coralstone_maul",
+      "inventory_id": "localization:item.CoralstoneMaul.name",
+      "name": "Coralstone Maul",
+      "family": "maul",
+      "class_path": "net/tslat/aoa3/item/weapon/maul/CoralstoneMaul.class",
+      "registration_offset": 1131
+    },
+    {
+      "id": "aoa3:crystal_maul",
+      "inventory_id": "localization:item.CrystalMaul.name",
+      "name": "Crystal Maul",
+      "family": "maul",
+      "class_path": "net/tslat/aoa3/item/weapon/maul/CrystalMaul.class",
+      "registration_offset": 1162
+    },
+    {
+      "id": "aoa3:electron_maul",
+      "inventory_id": "localization:item.ElectronMaul.name",
+      "name": "Electron Maul",
+      "family": "maul",
+      "class_path": "net/tslat/aoa3/item/weapon/maul/ElectronMaul.class",
+      "registration_offset": 1193
+    },
+    {
+      "id": "aoa3:horizon_maul",
+      "inventory_id": "localization:item.HorizonMaul.name",
+      "name": "Horizon Maul",
+      "family": "maul",
+      "class_path": "net/tslat/aoa3/item/weapon/maul/HorizonMaul.class",
+      "registration_offset": 1224
+    },
+    {
+      "id": "aoa3:vulcammer_maul",
+      "inventory_id": "localization:item.VulcammerMaul.name",
+      "name": "Vulcammer Maul",
+      "family": "maul",
+      "class_path": "net/tslat/aoa3/item/weapon/maul/VulcammerMaul.class",
+      "registration_offset": 1255
+    }
+  ]
+}

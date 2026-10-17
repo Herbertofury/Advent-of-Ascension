@@ -10,6 +10,9 @@
 
 Before redesigning a weapon, compare its original appearance and release-specific resource behavior. These illustrated **1.12.2 / AoA 3.3.6** tables now place a checked source-model portrait beside every listed weapon name:
 
+- [36 swords: material and attack inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sword-Materials-and-Attack-Inputs-1.12.2)
+- [29 greatblades: inputs and variable damage branches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Greatblade-Inputs-and-Damage-Branches-1.12.2)
+- [5 mauls: reach and knockback inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Maul-Inputs-Reach-and-Knockback-1.12.2)
 - [78 guns: constructor inputs and recoil](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2)
 - [17 shotguns: pellets, spread and special effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Pellets-Spread-and-Special-Effects-1.12.2)
 - [27 snipers: stance, scopes and inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sniper-Stance-Scopes-and-Inputs-1.12.2)
@@ -21,7 +24,7 @@ Before redesigning a weapon, compare its original appearance and release-specifi
 - [56 blasters: Energy, timing and Spark exceptions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2)
 - [57 staves: rune costs and hand safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2), with [29 custom casting requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Casting-Requirements-and-Troubleshooting-1.12.2)
 
-These 342 portraits preserve existing source-model atlas pixels. They are not new animated remodels, in-game screenshots or a complete census of all historical weapon families. Keep version differences explicit and retain optional reloading rather than imposing magazines on rune/resource weapons.
+These 412 portraits preserve existing source-model atlas pixels. They cover all 412 direct weapon constructors in the checked 1.12.2 WeaponRegister method, with [exact identity and family evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-weapon-census-1.12.2.json). This does not certify every effect, runtime-injected addon item, new animated remodel or in-game renderer. Keep version differences explicit and retain optional reloading rather than imposing magazines on rune/resource weapons.
 
 ## Owner-selected quality anchors
 

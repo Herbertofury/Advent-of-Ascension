@@ -229,3 +229,14 @@ Minecraft 1.12.2 / AoA 3.3.6: BaseBullet chooses weapon.doImpactDamage when a we
 - [ ] Verify explosion destruction policy and target effects independently; strength is not a measured radius.
 
 [Throwable source evidence and practical guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2). These are static restoration targets, not a reproduced current-build failure.
+
+
+## Historical melee display and parameter distinctions
+
+Minecraft 1.12.2 / AoA 3.3.6: sword material damage bonuses are not final attack damage, and speed operands are attribute modifiers rather than attacks per second. Lunar and Millennium Greatblade attack methods read their incoming baseDmg parameter while the tooltip references a same-named stored minimum field. Goofy Greatblade uses a Gaussian term, not a fixed ±5 interval; Primordial's maximum-health tiers have discontinuous boundaries.
+
+- [ ] Compare displayed values with the selected attack-input method and the later damage pipeline, including configuration changes after construction.
+- [ ] Preserve and validate sword/maul capability-backed cooldown handoff when porting.
+- [ ] Test the Primordial boundaries at 100/101,300/301 and 1000/1001 before deciding whether to preserve or deliberately rebalance them.
+
+[Greatblade input branches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Greatblade-Inputs-and-Damage-Branches-1.12.2) · [Sword material inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sword-Materials-and-Attack-Inputs-1.12.2) · [Maul inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Maul-Inputs-Reach-and-Knockback-1.12.2). These are source-level review targets, not a runtime defect certification.
