@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-10-17T09:01:23.273Z",
+  "scope": "Cloud Chrome UI checks of published documentation; not Minecraft runtime tests or physical mobile testing.",
+  "planner_url": "https://herbertofury.github.io/Advent-of-Ascension/skill-crystal-planner.html",
+  "planner_checks": [
+    {
+      "case": "initial",
+      "inputs": 15,
+      "overflow": false,
+      "result": "No eligible target\n\nAt least one displayed skill must be level 15–999. The selected crystal path does not shrink the item when it finds no target."
+    },
+    {
+      "case": "tie-all-15",
+      "result": "Alchemy\n\nDisplayed level 15 · effective level 15\n\n13.924 base XP\n\nNext-level XP lookup ÷ 15. Final skill XP can differ after modifiers.\n\nThe selected caller consumes one crystal outside Creative after requesting XP."
+    },
+    {
+      "case": "skip-alchemy-14",
+      "result": "Anima\n\nDisplayed level 15 · effective level 15\n\n13.924 base XP\n\nNext-level XP lookup ÷ 15. Final skill XP can differ after modifiers.\n\nThe selected caller consumes one crystal outside Creative after requesting XP."
+    },
+    {
+      "case": "augury-giant",
+      "result": "Augury\n\nDisplayed level 15 · effective level 15\n\n52.216 base XP\n\nNext-level XP lookup ÷ 4. Final skill XP can differ after modifiers.\n\nThe selected caller consumes one crystal outside Creative after requesting XP."
+    },
+    {
+      "case": "disabled",
+      "result": "Augury\n\nDisplayed level 15 · effective level 100\n\nSkills are disabled. The XP helper returns without awarding skill XP.\n\nBecause an eligible target was found, the caller can still consume one crystal outside Creative. Test configuration changes before spending valuable items."
+    },
+    {
+      "case": "invalid-fraction",
+      "result": "Check the levels\n\nEnter a whole displayed level from 1 to 1000 for every skill."
+    },
+    {
+      "case": "reset",
+      "result": "No eligible target\n\nAt least one displayed skill must be level 15–999. The selected crystal path does not shrink the item when it finds no target."
+    }
+  ],
+  "wiki": {
+    "hasCrystals": true,
+    "hasGem": true,
+    "images": [
+      {
+        "alt": "Four historical Skill Crystals, their Crystal Box weights and XP divisors",
+        "loaded": true,
+        "width": 1400
+      },
+      {
+        "alt": "All sixteen historical Fish Case rewards",
+        "loaded": true,
+        "width": 1400
+      },
+      {
+        "alt": "All twelve historical Weapons Case rewards",
+        "loaded": true,
+        "width": 1400
+      },
+      {
+        "alt": "All twenty-one historical Gem Bag token rewards",
+        "loaded": true,
+        "width": 1400
+      },
+      {
+        "alt": "All twenty-four historical Shiny Box material rewards",
+        "loaded": true,
+        "width": 1400
+      }
+    ],
+    "planner": [
+      "https://herbertofury.github.io/Advent-of-Ascension/skill-crystal-planner.html",
+      "https://herbertofury.github.io/Advent-of-Ascension/skill-crystal-planner.html",
+      "https://herbertofury.github.io/Advent-of-Ascension/skill-crystal-planner.html"
+    ],
+    "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reward-Boxes-and-Skill-Crystals-1.12.2"
+  },
+  "visual_review": "Desktop screenshot inspected: readable two-column form, selected skill highlight, visible version caveat and result."
+}
