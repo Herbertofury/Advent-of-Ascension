@@ -15,6 +15,7 @@ These guides explain the selected historical release. Read each guide’s limits
 
 | Topic | Walkthrough covers |
 |---|---|
+| [Hunter](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hunter-Requirements-and-Training-1.12.2) | 71 illustrated defaults, level and XP sorting, attack permission and separate drop eligibility |
 | [Butchery and Innervation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Butchery-Innervation-and-Combat-Pickups-1.12.2) | Combat eligibility, temporary pickups, Rage, health and displayed-level XP |
 | [Runation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runation-Rune-Shrines-and-Inputs-1.12.2) | Four-post layout, fourteen rune tiers, input preparation and practice warnings |
 | [Infusion crafting and enchanting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2) | 386 recipes, separate base slot, 37 enchantment families and actual XP defaults |
