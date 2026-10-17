@@ -119,3 +119,15 @@ Released-bytecode checks confirm that the inspected official trader callers pass
 **Status: 68 released registration traces and selected helper-method evidence; no in-game reproduction or private candidate patch claimed.** The five Maul factories’ overload chain supplies approximately -3.46667 to the eventual extra-damage argument and zero to the attack-speed argument. Pluton Scythe’s one-argument factory request resolves an inherited Greatblade helper, not its separate two-argument Luck helper. Rock-Pick Sword and Troll-Basher Axe also forward positive tool-tier speed into their selected melee helper; preserve those released inputs until intended behavior is established.
 
 [Complete melee inputs, eight repair-tag references and targeted acceptance cases](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Melee-Weapons-and-Property-Routing-1.21.1). Verify equipped attributes, attack cadence, reach, knockback, special effects, repairs and multiplayer in the exact build before changing helper signatures or routing. The guide distinguishes tier damage input, its stored minus-one bonus and later helper arguments instead of presenting intended-looking values as measured combat results.
+
+## Skill Helmet cosmetic ownership and selection · 1.21.1
+
+**Status: released method and factory traces; no multiplayer defect reproduced or private candidate patch claimed.** All twelve base/trim routes for the six registered Skill Helmets resolve to their intended selected layer factories. Both model and texture selection read the local `ClientPlayerDataManager` skill instance. Model trim additionally requires the rendered entity to be a Player; texture trim does not have the equivalent entity gate in the inspected method.
+
+- [ ] Establish whether cosmetic ownership is intended to follow the wearer or viewer, then test local/remote players with opposite skill levels.
+- [ ] Test supported non-player wearers while the viewer is at level 1000; verify that geometry and texture select the same variant.
+- [ ] Test 999 → 1000, resource reload, reconnect and changes of viewed entity; preserve cached model reuse.
+- [ ] Verify equip/unequip and reconnect do not accumulate the Skill Helmet's +0.5 XP modifier. Keep XP sources that ignore buffs separate.
+- [ ] If selection changes are warranted, share one bounded variant decision between model and texture paths and use existing synchronized skill/equipment state; avoid repeated registry or inventory scans during rendering.
+
+The stock level setter clamps 0–1000, so the `>=1000` versus `==1000` comparison alone does not establish a stock reachable mismatch. [Illustrated models, XP interpretation and acceptance matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) · [Exact released selection evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/skill-helmet-selection-evidence-1.21.1.json).

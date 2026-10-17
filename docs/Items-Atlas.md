@@ -2,6 +2,8 @@
 
 **Search the full versioned resource catalog:** [Items & Blocks Observatory](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html). It includes the regular previews and all 149 initial exceptions, linked to current supplements or explicit remaining limits. [Preview resolution ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Inventory-Preview-Resolution-Ledger).
 
+[Special armor and Skill Helmets: 18 additional model studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1)
+
 
 [Documentation home](README.md) · [Version matrix](Version-Matrix.md)
 
@@ -9,7 +11,7 @@ This is a discoverability index of source-localized names, **not** a list of obt
 
 ## Prepare your armor
 
-[Armor materials and set preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1) covers 48 matching sets and 12 individual pieces, with exact item-card links, per-slot material inputs, durability reference limits and special unbreakable helmets. [Browse all 48 neutral armor-only 3D studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Worn-Armor-Gallery-1.21.1). Custom special-helmet models, animation and complete special-effect guides remain open work.
+[Armor materials and set preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1) covers 48 matching sets and 12 individual pieces, with exact item-card links, per-slot material inputs, durability reference limits and special unbreakable helmets. [Browse all 48 neutral armor-only 3D studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Worn-Armor-Gallery-1.21.1). Animation and complete special-effect guides remain open work.
 
 ## Browse checked weapon families
 

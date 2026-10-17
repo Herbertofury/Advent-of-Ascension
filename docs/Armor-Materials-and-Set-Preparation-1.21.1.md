@@ -2,6 +2,8 @@
 
 [Items atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas) · [Beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) · [Repairing equipment](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mending-Table-and-Repair-Materials-1.21.1)
 
+[Special armor and Skill Helmets: 18 additional model studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1)
+
 ![Four matching armor sets, with inventory previews and per-piece material inputs](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/armour-preparation-overview-1.21.1.webp)
 
 **Release:** Minecraft 1.21.1 / AoA 3.7.16.1. This reference joins **48 four-piece sets and 12 individual pieces**, covering 204 registered items and 55 material definitions. It reads released class instructions; it is not a playtest of their effects or a promise that every item is obtainable in your world. The image shows inventory models, not worn-body renders.
@@ -112,6 +114,6 @@ Each slot link opens its exact item, including the recipe/drop searches and coll
 
 [Released material, registration and method evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/armour-material-evidence-1.21.1.json) · [Illustration provenance](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/armour-art-evidence-1.21.1.json)
 
-The evidence retains class hashes, selected method bytes, registration callbacks, material builder chains, special-helmet overrides and the official vanilla durability formula. No Java classes were executed. Remaining work includes complete per-set effect walkthroughs, custom special-helmet model previews, animation, exact acquisition routes, equipment requirement reconciliation and real client/server acceptance. These are open tasks, not completed checkmarks.
+The evidence retains class hashes, selected method bytes, registration callbacks, material builder chains, special-helmet overrides and the official vanilla durability formula. No Java classes were executed. Remaining work includes complete per-set effect walkthroughs, animation, exact acquisition routes, equipment requirement reconciliation and real client/server acceptance. These are open tasks, not completed checkmarks.
 
 Upstream context: [AoA armor registration](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/item/AoAArmour.java) and [material builders](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/item/AoAArmourMaterials.java). The released archive remains authoritative for this page where the source snapshot differs. AoA art and systems are credited to Tslat and contributors; vanilla references to Mojang/Microsoft.

@@ -2,6 +2,8 @@
 
 [Open the searchable Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html?v=1.21.1) · [Armor preparation and properties](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1) · [Items atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas)
 
+[Special armor and Skill Helmets: 18 additional model studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1)
+
 ![Four neutral armor-only studies showing Alacrity, Ghoulish, Hazmat and Runic](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/worn-armour-gallery-overview-1.21.1.webp)
 
 **Scope:** 48 four-piece sets from Minecraft 1.21.1 / AoA 3.7.16.1. Each study uses the released pair of 64×32 armor textures on the official vanilla neutral armor meshes, including the distinct inner leggings layer, outer layer, mirrored limbs and armor-specific leg deformation. This is a static armor-only reconstruction. Player skin, poses, animation, trims, enchantment glint, custom special-helmet models and modpack renderer alterations are not reproduced.
