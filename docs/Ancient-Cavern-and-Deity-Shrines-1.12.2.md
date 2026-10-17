@@ -103,6 +103,77 @@ Each of these four released boss tables has a one-roll **rares** pool with the s
 
 A separate one-roll **statue** pool contains that boss’s statue. Supply and shared rare-table pools remain separate. The illustration shows signature rewards, not everything awarded together or every possible supply item. Open the boss’s exact creature record above and expand its loot section for the complete version-specific table reference and item pictures.
 
+## 7. Fight each shrine boss on its own terms
+
+These are release-specific tactics inferred from the checked callbacks. They do not certify a successful live fight or a modern port. Health and damage below are base getter inputs before configuration, attributes, mitigation and other modifiers.
+
+### Coniferon: change weapon class and manage the pull
+
+Coniferon's special immunity delegates to AoA's **gun-damage classifier**: the source must have damage type `gun` and be marked as a projectile. Choose an alternative damage class instead of repeatedly spending gun ammunition into that immunity. This does not claim that every non-gun attack automatically succeeds.
+
+Its current attack target receives horizontal pull while not sneaking, using the sign of each horizontal offset ×0.029. Sneaking skips that pull branch, but not melee damage, poison or other effects. Unlike Klobber's area query, this selected override operates on the current target and contains no explicit distance test of its own. Do not invent a pull radius from the model size.
+
+A random `nextInt(300) == 0` branch can apply Poison for 60 ticks at amplifier 0 and request a 70-tick vine screen overlay for a server player. A successful melee effect applies Slowness for 140 ticks at amplifier 2, then uses Coniferon's own motion and the target's knockback resistance for added velocity. At a nominal 20 ticks per second these potion durations correspond to 3 and 7 seconds; the random trigger is not a fixed 15-second cooldown. Prepare for impaired movement and do not rely on crouching as universal protection.
+
+Base references: **4,000 health, 25 melee damage**, movement getter 0.2875 and knockback-resistance getter 0.3. These movement values are not measured blocks per second.
+
+### Horon: protect your resource budget
+
+Horon's special immunity uses AoA's **ranged-damage helper**, which is narrower than “anything fired from a distance.” That helper checks projectile sources excluding the `gun` damage type, or `thrown`, and excludes the helper's magic classification. Guns and magical attacks are therefore different classifications for this check; validate your chosen weapon in the target build rather than assuming its visual style defines its damage type.
+
+When Horon's successful melee effect hits a player, it asks the resource helper to consume **60 Energy, 20 Creation and 20 Soul**, with forced payment. The shared helper applies fortitude adjustments, clamps remaining resources at zero, and can bypass payment when resources are disabled or for the relevant Creative case. These are requested costs, not an unconditional measured drain of those exact amounts. Keep enough reserve for your escape and attack plan instead of planning only around health.
+
+On eligible server living updates, an independent 1-in-60 check requests an explosion of strength 2. The selected explosion overload uses `doStrongerMobGriefing` for its destructive flag and passes a non-fiery flag; this is not a guarantee about every block or explosion-event modification. A separate 1-in-400 check with an attack target applies Weakness for 120 ticks at amplifier 3. Avoid describing either random check as a fixed timer.
+
+Base references: **3,000 health, 24 melee damage**, movement getter 0.2875 and knockback-resistance getter 0.3. Space your engagements and monitor resource bars after contact.
+
+### Goldorth: leave room for a heavy melee pursuer
+
+The selected class is comparatively straightforward: **3,000 base health, 17 base melee damage**, movement getter 0.329 and knockback-resistance getter 1. Its constructor enables the slippery-movement flag and supplies an AI movement-speed value of 1.6. Neither number is a measured run speed, and the resistance getter is not proof of immunity to every modded displacement mechanic.
+
+A practical source-derived plan is to keep a retreat lane and avoid depending on ordinary knockback to hold it away. The selected class does not define the Coniferon/Horon special-immunity overrides. That bounded observation is not a claim that inherited code, difficulty or other mods cannot alter combat behavior.
+
+### Penumbra: avoid feeding the summon loop
+
+Penumbra creates magic-type Penumbra Shots and has base getters of **3,000 health and 18 projectile damage**. The ranged superclass applies its own damage path and invokes the impact-effect callback only when that damage path reports success. Penumbra's override also returns early for the eight creature classes listed below. A projectile simply touching a wall is not the same checked summon trigger: the inherited block-impact callback is empty in this reviewed path.
+
+On an eligible impact effect, Penumbra chooses one of eight alternatives and attempts to spawn it at the projectile's coordinates:
+
+- Occulent
+- Alarmo
+- Shifter
+- Devourer
+- Basilisk
+- Apparition
+- Stalker
+- Hellspot
+
+
+| Summoned creature | Historical source-model preview |
+|---|---|
+| [Occulent](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aocculent) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-OcculentModel-thumb.webp" width="120" height="120" alt="Occulent historical source-model study"> |
+| [Alarmo](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aalarmo) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-AlarmoModel-thumb.webp" width="120" height="120" alt="Alarmo historical source-model study"> |
+| [Shifter](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Ashifter) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-ShifterModel-thumb.webp" width="120" height="120" alt="Shifter historical source-model study"> |
+| [Devourer](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Adevourer) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-DevourerModel-thumb.webp" width="120" height="120" alt="Devourer historical source-model study"> |
+| [Basilisk](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Abasilisk) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-BasiliskModel-thumb.webp" width="120" height="120" alt="Basilisk historical source-model study"> |
+| [Apparition](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aapparition) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-ApparitionModel-thumb.webp" width="120" height="120" alt="Apparition historical source-model study"> |
+| [Stalker](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Astalker) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.16.5/1.16.5-model-StalkerModel-thumb.webp" width="120" height="120" alt="Stalker historical source-model study"> |
+| [Hellspot](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Ahellspot) | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/23120805126274f701fbc573-thumb.webp" width="120" height="120" alt="Hellspot historical source-model study"> |
+
+The spawn call's return is ignored. This is one random spawn attempt per eligible effect, not a guarantee that eight mobs appear together, that every projectile creates a mob, or that a cancelled spawn succeeded. Keep moving to reduce successful hits and leave space to manage summoned enemies; do not mistake the roster for a guaranteed simultaneous wave. Those eight classes are also excluded from Penumbra's selected entity-impact processing, so they are not ordinary recipients of the same summon-producing hit path.
+
+### Combat acceptance tests for the restored mod
+
+- Test gun, arrow, thrown, magic, fire and explosion damage classifications independently; preserve native immunity distinctions without breaking other weapon mods.
+- Verify crouching versus pull, target changes, knockback resistance and client/server velocity synchronization.
+- Check potion amplifier/duration values, screen-overlay timing and cleanup after death, return travel or disconnect.
+- Verify Horon's forced resource payments with low/zero resources, fortitude adjustments, disabled resources and Creative mode.
+- Check explosion game-rule behavior on disposable test worlds, with protection/event-cancellation mods enabled.
+- Confirm Penumbra's successful-hit gate, block impacts, eight exclusions, spawn cancellation, multiplayer ownership and accumulated summon performance.
+- Profile the actual target build before optimizing per-tick queries. These static findings establish review targets, not measured FPS or tick-time improvements.
+
+[Released combat methods and helper evidence](https://herbertofury.github.io/Advent-of-Ascension/ancient-cavern-combat-evidence-1.12.2.json).
+
 ## Restoration acceptance checklist
 
 1. Preserve the 1.12.2 dimension/configuration identity and save mappings; do not assume this historical provider exists in the modern dimension JSON list.
