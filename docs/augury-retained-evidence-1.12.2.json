@@ -1,0 +1,2110 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Selected retained Augury callbacks and metadata; direct member-reference scan of AoA classes and literal ID scan of selected gameplay JSON roots. No game execution.",
+  "source_files": {
+    "common/registration/ItemRegister.java": "b26afa8092727cb42ee445ab262bfe37908517ed8ef9fddb1ab6599e440e29dc",
+    "block/functional/utility/AscensionShrine.java": "ae38f36288a79eb1a314a05ede6405c43c6ba8f6792cc833163f017f39724259",
+    "item/misc/AuguryEssence.java": "08f0923c06016477fd8c88b5ea5883464853eb48b24ec3def517361e0722768a",
+    "utils/skills/AuguryUtil.java": "419459ae051c66f3e7b8784e835f169377451e672c3bde21d1263944654e13ac",
+    "item/armour/AuguryArmour.java": "b624bdbb99301a63fda8a1f2ea85d3fb10bb6d0ba56a0aadffd7686e05540f7b",
+    "entity/npcs/skillmaster/EntityAuguryMaster.java": "7e85ce9dd320ef6023be8e05892720f211111ace206078cc2e1b121a2632f413",
+    "utils/player/PlayerDataManager.java": "e476fdffed48ccc03d6f0ead116b382a4ab8a80510e836d64b373623627d757f",
+    "common/registration/BlockRegister.java": "89d2a690ecd2c3f649ffd495553b425c8f844622f652d37980de92aa923a4b58"
+  },
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/AscensionShrine.class",
+      "class_sha256": "eae96fe59c338feace454cb26a3bced95c6d22e5ea58b5f94d5e925a4b370dd0",
+      "name": "<init>",
+      "descriptor": "()V",
+      "code_hex": "2ab2000db700102a1212b60016572a1218b6001c572a121db60021572a1222b60025572ab2002bb6002f572ab20035b6003957b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151576_e",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/block/Block",
+            "<init>",
+            "(Lnet/minecraft/block/material/Material;)V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": "AscensionShrine"
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "func_149663_c",
+            "(Ljava/lang/String;)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 87
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "aoa3:ascension_shrine"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": 10.0
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "func_149711_c",
+            "(F)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 18,
+          "constant": 15.0
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "func_149752_b",
+            "(F)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 87
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/SoundType",
+            "field_185851_d",
+            "Lnet/minecraft/block/SoundType;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "func_149672_a",
+            "(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 87
+        },
+        {
+          "offset": 43,
+          "opcode": 42
+        },
+        {
+          "offset": 44,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "FUNCTIONAL_BLOCKS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "func_149647_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 87
+        },
+        {
+          "offset": 51,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/AscensionShrine.class",
+      "class_sha256": "eae96fe59c338feace454cb26a3bced95c6d22e5ea58b5f94d5e925a4b370dd0",
+      "name": "func_180639_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z",
+      "code_hex": "2bb400439a000304ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            3
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/AuguryEssence.class",
+      "class_sha256": "9b103bc3179d9935a876c921af7db26d483b3ad1d95b51740f024168c1c1185d",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IF)V",
+      "code_hex": "2a2b2cb7000e2a1db500102a1704b50012b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/SimpleItem",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 42
+        },
+        {
+          "offset": 7,
+          "opcode": 29
+        },
+        {
+          "offset": 8,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "lvlReq",
+            "I"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/AuguryEssence.class",
+      "class_sha256": "9b103bc3179d9935a876c921af7db26d483b3ad1d95b51740f024168c1c1185d",
+      "name": "getLvlReq",
+      "descriptor": "()I",
+      "code_hex": "2ab40010ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "lvlReq",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/AuguryEssence.class",
+      "class_sha256": "9b103bc3179d9935a876c921af7db26d483b3ad1d95b51740f024168c1c1185d",
+      "name": "getXp",
+      "descriptor": "()F",
+      "code_hex": "2ab40012ae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/AuguryUtil.class",
+      "class_sha256": "4a7da8549db4a550d66901e4b70a9ba2a1882d381b065265553d6739f470e645",
+      "name": "getMaxCreation",
+      "descriptor": "(I)F",
+      "code_hex": "120eae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 18,
+          "constant": 200.0
+        },
+        {
+          "offset": 2,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/AuguryUtil.class",
+      "class_sha256": "4a7da8549db4a550d66901e4b70a9ba2a1882d381b065265553d6739f470e645",
+      "name": "getMaxSoul",
+      "descriptor": "(I)F",
+      "code_hex": "120eae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 18,
+          "constant": 200.0
+        },
+        {
+          "offset": 2,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AuguryArmour.class",
+      "class_sha256": "db389d47d569d0214a12e187a0cf4520c6808fee65b6f4d4cb1c15601eb9c717",
+      "name": "onEffectTick",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Ljava/util/HashSet;)V",
+      "code_hex": "2bb60038b2003c123db60041b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Resources",
+            "SOUL",
+            "Lnet/tslat/aoa3/library/Enums$Resources;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 18,
+          "constant": 0.009999999776482582
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "regenResource",
+            "(Lnet/tslat/aoa3/library/Enums$Resources;F)V"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AuguryArmour.class",
+      "class_sha256": "db389d47d569d0214a12e187a0cf4520c6808fee65b6f4d4cb1c15601eb9c717",
+      "name": "setType",
+      "descriptor": "()Lnet/tslat/aoa3/library/Enums$ArmourSets;",
+      "code_hex": "b2004cb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ArmourSets",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AuguryArmour.class",
+      "class_sha256": "db389d47d569d0214a12e187a0cf4520c6808fee65b6f4d4cb1c15601eb9c717",
+      "name": "getSkill",
+      "descriptor": "()Lnet/tslat/aoa3/library/Enums$Skills;",
+      "code_hex": "b20051b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AuguryArmour.class",
+      "class_sha256": "db389d47d569d0214a12e187a0cf4520c6808fee65b6f4d4cb1c15601eb9c717",
+      "name": "getLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AuguryArmour.class",
+      "class_sha256": "db389d47d569d0214a12e187a0cf4520c6808fee65b6f4d4cb1c15601eb9c717",
+      "name": "addBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb200511256b6005ab1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "addXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AuguryArmour.class",
+      "class_sha256": "db389d47d569d0214a12e187a0cf4520c6808fee65b6f4d4cb1c15601eb9c717",
+      "name": "removeBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb200511256b60060b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "removeXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/npcs/skillmaster/EntityAuguryMaster.class",
+      "class_sha256": "1a89fe293625372a0bf9d46e959616790843796cb59353acbb8aeb299a866aee",
+      "name": "getTradesList",
+      "descriptor": "(Lnet/minecraft/util/NonNullList;)V",
+      "code_hex": "2bbb001a59bb001c59b20022b70025bb001c59b2002bb70025b7002eb60034572bbb001a59bb001c59b20022b70025bb001c59b20037b70025b7002eb60034572bbb001a59bb001c59b20022b70025bb001c59b2003ab70025b7002eb60034572bbb001a59bb001c59b20022b70025bb001c59b2003db70025b7002eb6003457b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 89
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LUNAVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 89
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ArmourRegister",
+            "AUGURY_HELMET",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 87
+        },
+        {
+          "offset": 32,
+          "opcode": 43
+        },
+        {
+          "offset": 33,
+          "opcode": 187,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 89
+        },
+        {
+          "offset": 37,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 89
+        },
+        {
+          "offset": 41,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LUNAVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 89
+        },
+        {
+          "offset": 51,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ArmourRegister",
+            "AUGURY_CHESTPLATE",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 87
+        },
+        {
+          "offset": 64,
+          "opcode": 43
+        },
+        {
+          "offset": 65,
+          "opcode": 187,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 89
+        },
+        {
+          "offset": 69,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 89
+        },
+        {
+          "offset": 73,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LUNAVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 89
+        },
+        {
+          "offset": 83,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ArmourRegister",
+            "AUGURY_LEGS",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 87
+        },
+        {
+          "offset": 96,
+          "opcode": 43
+        },
+        {
+          "offset": 97,
+          "opcode": 187,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 89
+        },
+        {
+          "offset": 101,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 89
+        },
+        {
+          "offset": 105,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LUNAVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 89
+        },
+        {
+          "offset": 115,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ArmourRegister",
+            "AUGURY_BOOTS",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 87
+        },
+        {
+          "offset": 128,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "regenResource",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Resources;F)V",
+      "code_hex": "2ab4004a2bb60075c00050b6007946127a38042ab4002eb801012b24b801b4452ab4004a2b2524621704b80109b80054b60058572517049599000c2ab4002e04b801ae57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "resources",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "java/lang/Float",
+            "floatValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 70
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": 200.0
+        },
+        {
+          "offset": 17,
+          "opcode": 56,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2100",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 43
+        },
+        {
+          "offset": 27,
+          "opcode": 36
+        },
+        {
+          "offset": 28,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "access$3400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/tslat/aoa3/library/Enums$Resources;F)F"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 69
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "resources",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 43
+        },
+        {
+          "offset": 37,
+          "opcode": 37
+        },
+        {
+          "offset": 38,
+          "opcode": 36
+        },
+        {
+          "offset": 39,
+          "opcode": 98
+        },
+        {
+          "offset": 40,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(FF)F"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 184,
+          "member": [
+            "java/lang/Float",
+            "valueOf",
+            "(F)Ljava/lang/Float;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 87
+        },
+        {
+          "offset": 52,
+          "opcode": 37
+        },
+        {
+          "offset": 53,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 149
+        },
+        {
+          "offset": 56,
+          "opcode": 153,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 42
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 64,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$3302",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Z)Z"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 87
+        },
+        {
+          "offset": 68,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "getLevel",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;)I",
+      "code_hex": "b200e899001910642ab4003e2bb60075c0005ab6009ab800eea700051064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "skillsEnabled",
+            "Z"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 30,
+          "opcode": 172
+        }
+      ]
+    }
+  ],
+  "essence_bindings": [
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8406,
+          "opcode": 19,
+          "constant": "AncientEssence"
+        },
+        {
+          "offset": 8409,
+          "opcode": 19,
+          "constant": "ancient_essence"
+        },
+        {
+          "offset": 8412,
+          "opcode": 16,
+          "constant": 58
+        },
+        {
+          "offset": 8414,
+          "opcode": 19,
+          "constant": 120.0
+        },
+        {
+          "offset": 8417,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "AncientEssence",
+        "ancient_essence",
+        58,
+        120.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8441,
+          "opcode": 19,
+          "constant": "ChargedEssence"
+        },
+        {
+          "offset": 8444,
+          "opcode": 19,
+          "constant": "charged_essence"
+        },
+        {
+          "offset": 8447,
+          "opcode": 16,
+          "constant": 18
+        },
+        {
+          "offset": 8449,
+          "opcode": 19,
+          "constant": 10.0
+        },
+        {
+          "offset": 8452,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "ChargedEssence",
+        "charged_essence",
+        18,
+        10.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8476,
+          "opcode": 19,
+          "constant": "DarkEssence"
+        },
+        {
+          "offset": 8479,
+          "opcode": 19,
+          "constant": "dark_essence"
+        },
+        {
+          "offset": 8482,
+          "opcode": 16,
+          "constant": 66
+        },
+        {
+          "offset": 8484,
+          "opcode": 19,
+          "constant": 250.0
+        },
+        {
+          "offset": 8487,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "DarkEssence",
+        "dark_essence",
+        66,
+        250.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8511,
+          "opcode": 19,
+          "constant": "DivineEssence"
+        },
+        {
+          "offset": 8514,
+          "opcode": 19,
+          "constant": "divine_essence"
+        },
+        {
+          "offset": 8517,
+          "opcode": 16,
+          "constant": 84
+        },
+        {
+          "offset": 8519,
+          "opcode": 19,
+          "constant": 600.0
+        },
+        {
+          "offset": 8522,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "DivineEssence",
+        "divine_essence",
+        84,
+        600.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8546,
+          "opcode": 19,
+          "constant": "EmpoweredEssence"
+        },
+        {
+          "offset": 8549,
+          "opcode": 19,
+          "constant": "empowered_essence"
+        },
+        {
+          "offset": 8552,
+          "opcode": 16,
+          "constant": 36
+        },
+        {
+          "offset": 8554,
+          "opcode": 19,
+          "constant": 15.0
+        },
+        {
+          "offset": 8557,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "EmpoweredEssence",
+        "empowered_essence",
+        36,
+        15.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8581,
+          "opcode": 19,
+          "constant": "EtherealEssence"
+        },
+        {
+          "offset": 8584,
+          "opcode": 19,
+          "constant": "ethereal_essence"
+        },
+        {
+          "offset": 8587,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 8589,
+          "opcode": 19,
+          "constant": 400.0
+        },
+        {
+          "offset": 8592,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "EtherealEssence",
+        "ethereal_essence",
+        75,
+        400.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8616,
+          "opcode": 19,
+          "constant": "LuminateEssence"
+        },
+        {
+          "offset": 8619,
+          "opcode": 19,
+          "constant": "luminate_essence"
+        },
+        {
+          "offset": 8622,
+          "opcode": 16,
+          "constant": 45
+        },
+        {
+          "offset": 8624,
+          "opcode": 19,
+          "constant": 20.0
+        },
+        {
+          "offset": 8627,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "LuminateEssence",
+        "luminate_essence",
+        45,
+        20.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8651,
+          "opcode": 19,
+          "constant": "MoltenEssence"
+        },
+        {
+          "offset": 8654,
+          "opcode": 19,
+          "constant": "molten_essence"
+        },
+        {
+          "offset": 8657,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 8659,
+          "opcode": 19,
+          "constant": 7.0
+        },
+        {
+          "offset": 8662,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "MoltenEssence",
+        "molten_essence",
+        10,
+        7.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8686,
+          "opcode": 19,
+          "constant": "OminousEssence"
+        },
+        {
+          "offset": 8689,
+          "opcode": 19,
+          "constant": "ominous_essence"
+        },
+        {
+          "offset": 8692,
+          "opcode": 16,
+          "constant": 27
+        },
+        {
+          "offset": 8694,
+          "opcode": 19,
+          "constant": 12.0
+        },
+        {
+          "offset": 8697,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "OminousEssence",
+        "ominous_essence",
+        27,
+        12.0
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 8721,
+          "opcode": 19,
+          "constant": "WeakEssence"
+        },
+        {
+          "offset": 8724,
+          "opcode": 19,
+          "constant": "weak_essence"
+        },
+        {
+          "offset": 8727,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8728,
+          "opcode": 19,
+          "constant": 4.0
+        },
+        {
+          "offset": 8731,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/AuguryEssence",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        }
+      ],
+      "values": [
+        "WeakEssence",
+        "weak_essence",
+        1,
+        4.0
+      ]
+    }
+  ],
+  "essences": [
+    {
+      "id": "aoa3:weak_essence",
+      "inventory_id": "localization:item.WeakEssence.name",
+      "name": "Weak Essence",
+      "stored_level": 1,
+      "stored_xp": 4.0
+    },
+    {
+      "id": "aoa3:molten_essence",
+      "inventory_id": "localization:item.MoltenEssence.name",
+      "name": "Molten Essence",
+      "stored_level": 10,
+      "stored_xp": 7.0
+    },
+    {
+      "id": "aoa3:charged_essence",
+      "inventory_id": "localization:item.ChargedEssence.name",
+      "name": "Charged Essence",
+      "stored_level": 18,
+      "stored_xp": 10.0
+    },
+    {
+      "id": "aoa3:ominous_essence",
+      "inventory_id": "localization:item.OminousEssence.name",
+      "name": "Ominous Essence",
+      "stored_level": 27,
+      "stored_xp": 12.0
+    },
+    {
+      "id": "aoa3:empowered_essence",
+      "inventory_id": "localization:item.EmpoweredEssence.name",
+      "name": "Empowered Essence",
+      "stored_level": 36,
+      "stored_xp": 15.0
+    },
+    {
+      "id": "aoa3:luminate_essence",
+      "inventory_id": "localization:item.LuminateEssence.name",
+      "name": "Luminate Essence",
+      "stored_level": 45,
+      "stored_xp": 20.0
+    },
+    {
+      "id": "aoa3:ancient_essence",
+      "inventory_id": "localization:item.AncientEssence.name",
+      "name": "Ancient Essence",
+      "stored_level": 58,
+      "stored_xp": 120.0
+    },
+    {
+      "id": "aoa3:dark_essence",
+      "inventory_id": "localization:item.DarkEssence.name",
+      "name": "Dark Essence",
+      "stored_level": 66,
+      "stored_xp": 250.0
+    },
+    {
+      "id": "aoa3:ethereal_essence",
+      "inventory_id": "localization:item.EtherealEssence.name",
+      "name": "Ethereal Essence",
+      "stored_level": 75,
+      "stored_xp": 400.0
+    },
+    {
+      "id": "aoa3:divine_essence",
+      "inventory_id": "localization:item.DivineEssence.name",
+      "name": "Divine Essence",
+      "stored_level": 84,
+      "stored_xp": 600.0
+    }
+  ],
+  "block_registration": [
+    {
+      "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+      "method": "registerBlocks",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 23803,
+          "opcode": 43
+        },
+        {
+          "offset": 23804,
+          "opcode": 187,
+          "operands": [
+            21,
+            20
+          ]
+        },
+        {
+          "offset": 23807,
+          "opcode": 89
+        },
+        {
+          "offset": 23808,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/AscensionShrine",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 23811,
+          "opcode": 19,
+          "constant": "blocks/functional/utility/"
+        },
+        {
+          "offset": 23814,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 23815,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        }
+      ]
+    }
+  ],
+  "member_scan": {
+    "classes_scanned": 3451,
+    "targets": [
+      [
+        "net/tslat/aoa3/item/misc/AuguryEssence",
+        "getLvlReq"
+      ],
+      [
+        "net/tslat/aoa3/item/misc/AuguryEssence",
+        "getXp"
+      ],
+      [
+        "net/tslat/aoa3/utils/skills/AuguryUtil",
+        "getMaxCreation"
+      ],
+      [
+        "net/tslat/aoa3/utils/skills/AuguryUtil",
+        "getMaxSoul"
+      ]
+    ],
+    "uses": [
+      {
+        "class_path": "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer.class",
+        "class_sha256": "b1f115de07dbb21f8cc12983d72d4213923a72db8165561534c3ecc06a09a993",
+        "method": "renderResources",
+        "descriptor": "()V",
+        "references": [
+          {
+            "offset": 493,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/skills/AuguryUtil",
+              "getMaxCreation",
+              "(I)F"
+            ]
+          },
+          {
+            "offset": 572,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/skills/AuguryUtil",
+              "getMaxSoul",
+              "(I)F"
+            ]
+          }
+        ]
+      },
+      {
+        "class_path": "net/tslat/aoa3/client/gui/render/ResourcesRenderer.class",
+        "class_sha256": "c535cd918a25765f2b449144f2a02b4a51273e71f36417834df5d18d32ba8a46",
+        "method": "renderHorizontalResources",
+        "descriptor": "(II)V",
+        "references": [
+          {
+            "offset": 507,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/skills/AuguryUtil",
+              "getMaxCreation",
+              "(I)F"
+            ]
+          },
+          {
+            "offset": 589,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/skills/AuguryUtil",
+              "getMaxSoul",
+              "(I)F"
+            ]
+          }
+        ]
+      },
+      {
+        "class_path": "net/tslat/aoa3/client/gui/render/ResourcesRenderer.class",
+        "class_sha256": "c535cd918a25765f2b449144f2a02b4a51273e71f36417834df5d18d32ba8a46",
+        "method": "renderVerticalResources",
+        "descriptor": "(II)V",
+        "references": [
+          {
+            "offset": 479,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/skills/AuguryUtil",
+              "getMaxCreation",
+              "(I)F"
+            ]
+          },
+          {
+            "offset": 559,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/skills/AuguryUtil",
+              "getMaxSoul",
+              "(I)F"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gameplay_resource_hits": [],
+  "master": {
+    "id": "aoa3:augury_master",
+    "n": "Augury Master",
+    "c": "entity/npcs/skillmaster/EntityAuguryMaster",
+    "p": "previews/legacy-1.12.2/inherited-augury_master-thumb.webp",
+    "f": "previews/legacy-1.12.2/inherited-augury_master.webp",
+    "g": {
+      "health": [
+        50.0,
+        14,
+        1
+      ],
+      "speed": [
+        0.329,
+        14,
+        1
+      ],
+      "spawn": [
+        10,
+        1,
+        2
+      ]
+    },
+    "biomes": [],
+    "dimensions": [],
+    "spawn_rules": []
+  },
+  "older_source_reference": {
+    "version": "1.7.10 pinned source only; no released-artifact verification",
+    "source_path": "source/block/functional/AscensionShrine.java",
+    "source_commit": "cb1ca8c65315c749a6edd5f3ca602b2aa27dac6d",
+    "sha256": "c2a8d3177e950b878c65ec27179f4b44ef774456bd538f185a9ae4f6ea95474d",
+    "routes": [
+      {
+        "unlocalized_item_key": "item.EssenceWeak",
+        "minimum_level": null,
+        "xp_request": 4.0,
+        "inventory_item_field": "EssenceWeak"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceMolten",
+        "minimum_level": 10,
+        "xp_request": 7.0,
+        "inventory_item_field": "EssenceMolten"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceCharged",
+        "minimum_level": 18,
+        "xp_request": 10.0,
+        "inventory_item_field": "EssenceCharged"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceOminous",
+        "minimum_level": 27,
+        "xp_request": 12.0,
+        "inventory_item_field": "EssenceOminous"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceEmpowered",
+        "minimum_level": 36,
+        "xp_request": 15.0,
+        "inventory_item_field": "EssenceEmpowered"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceLuminate",
+        "minimum_level": 45,
+        "xp_request": 20.0,
+        "inventory_item_field": "EssenceLuminate"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceAncient",
+        "minimum_level": 58,
+        "xp_request": 120.0,
+        "inventory_item_field": "EssenceAncient"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceDark",
+        "minimum_level": 66,
+        "xp_request": 250.0,
+        "inventory_item_field": "EssenceDark"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceEthereal",
+        "minimum_level": 75,
+        "xp_request": 400.0,
+        "inventory_item_field": "EssenceEthereal"
+      },
+      {
+        "unlocalized_item_key": "item.EssenceDivine",
+        "minimum_level": 84,
+        "xp_request": 600.0,
+        "inventory_item_field": "EssenceDivine"
+      },
+      {
+        "unlocalized_item_key": "item.GhostStone",
+        "minimum_level": 50,
+        "xp_request": 40.0,
+        "inventory_item_field": "GhostStone"
+      }
+    ]
+  },
+  "limits": [
+    "An inactive shrine does not prove no generic XP route, command or external mod can affect the skill.",
+    "Stored essence level/XP fields are not an active shrine training recipe.",
+    "No fixed max-resource progression should be copied from commented-out source branches.",
+    "Literal resource matches alone do not establish natural acquisition or runtime registration."
+  ]
+}
