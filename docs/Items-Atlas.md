@@ -1668,3 +1668,7 @@ Family filtering reuses the selected release's loaded data. It does not download
 | Zorp Spawn Egg · `item.aoa3.zorp_spawn_egg` | Present | Present | — |
 
 Source identities and raw evidence are in [content-census.json](content-census.json). No source code, textures or complete upstream wiki articles are redistributed here.
+
+## Newly resolved historical declarations
+
+[Registered blocks and items · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Registered-Blocks-and-Items-1.12.2) adds 34 missing model-backed references and fixes six crystal block/item picture collisions, with exact IDs and illustrated comparisons.
