@@ -1,6 +1,6 @@
 # Staff batteries and charging: why the recipe has no fixed output
 
-[Recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=arcanum_battery) · [Beginner guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough)
+[Recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1&q=arcanum_battery) · [Exact staff rune costs and materials planner](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Rune-Costs-and-Preparation-1.21.1) · [Beginner guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough)
 
 **Scope:** the pinned 1.21 implementation, with recipe declarations, staff tag and item pictures checked in the released Minecraft 1.21.1 / AoA 3.7.16.1 archive. This is source-guided instruction, not a new live-game test. Older releases may use different components and rules.
 
