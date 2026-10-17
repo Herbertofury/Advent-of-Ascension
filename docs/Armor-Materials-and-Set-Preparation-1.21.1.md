@@ -1,5 +1,7 @@
 # Armor materials and set preparation
 
+[Make frames before Infusion: Frame Bench workflow and eight armor-set shopping lists](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1)
+
 [Items atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas) · [Beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) · [Repairing equipment](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mending-Table-and-Repair-Materials-1.21.1)
 
 [Special armor and Skill Helmets: 18 additional model studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1)
