@@ -1,0 +1,3863 @@
+{
+  "behavior_methods": [
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun.class",
+      "class_sha256": "4f6abd61b5f1923c2dada9363125d1bf623fb2a14091d9636e73126e4cbd364a",
+      "name": "findAndConsumeAmmo",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;",
+      "code_hex": "2bbb002c59b20032b700350404b2003b2cb8004160b80047990028bb0049592b2cb6004dc000042d107803b700503a04190459b4005314005463b500531904b001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            44
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "HOLLY_ARROW",
+            "Lnet/tslat/aoa3/item/misc/HollyArrow;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "GREED",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 96
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            73
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 44
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 45
+        },
+        {
+          "offset": 40,
+          "opcode": 16,
+          "constant": 120
+        },
+        {
+          "offset": 42,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 43,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 89
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 20,
+          "constant": 0.25
+        },
+        {
+          "offset": 57,
+          "opcode": 99
+        },
+        {
+          "offset": 58,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 176
+        },
+        {
+          "offset": 64,
+          "opcode": 1
+        },
+        {
+          "offset": 65,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/LunarArchergun.class",
+      "class_sha256": "aa0a24e2a636bdcbd9e44379832e37c1d527f2835c2ab5563fa9681ec2084eaa",
+      "name": "findAndConsumeAmmo",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;",
+      "code_hex": "2bbb003259b20038b7003b0404b200412cb8004760b8004d990017bb004f592b2cb60053c000552d107803b70058b001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            50
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "HOLLY_ARROW",
+            "Lnet/tslat/aoa3/item/misc/HollyArrow;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "GREED",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 96
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            79
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 44
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 45
+        },
+        {
+          "offset": 40,
+          "opcode": 16,
+          "constant": 120
+        },
+        {
+          "offset": 42,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 43,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityLunarHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 176
+        },
+        {
+          "offset": 47,
+          "opcode": 1
+        },
+        {
+          "offset": 48,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun.class",
+      "class_sha256": "fbb9178361f08ef3ba2d02284115961d56ef4920fa5297ef5f3757969e597c60",
+      "name": "findAndConsumeAmmo",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;",
+      "code_hex": "bb0027592b2cb6002dc0002f2d107803b700323a04190459b4003514003663b500351904b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 192,
+          "operands": [
+            0,
+            47
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 45
+        },
+        {
+          "offset": 13,
+          "opcode": 16,
+          "constant": 120
+        },
+        {
+          "offset": 15,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 16,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 89
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 20,
+          "constant": 0.25
+        },
+        {
+          "offset": 30,
+          "opcode": 99
+        },
+        {
+          "offset": 31,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/CoralArchergun.class",
+      "class_sha256": "662e095813e3d733b29df5487c32a3f3b8e0f7b451cc0d1cc837183e538df4b8",
+      "name": "<init>",
+      "descriptor": "(DIIF)V",
+      "code_hex": "2a271d15041705b700092a120bb6000f572a1211b6001557b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "CoralArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/CoralArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:coral_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/CoralArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/CoralArchergun.class",
+      "class_sha256": "662e095813e3d733b29df5487c32a3f3b8e0f7b451cc0d1cc837183e538df4b8",
+      "name": "doImpactDamage",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2bc100229900172bc00022bb002459b2002a102805b7002db600312a2b2c2d1704b70033b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 43
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 187,
+          "operands": [
+            0,
+            36
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 89
+        },
+        {
+          "offset": 15,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76421_d",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 16,
+          "constant": 40
+        },
+        {
+          "offset": 20,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 21,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;II)V"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 43
+        },
+        {
+          "offset": 29,
+          "opcode": 44
+        },
+        {
+          "offset": 30,
+          "opcode": 45
+        },
+        {
+          "offset": 31,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "doImpactDamage",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/PyroArchergun.class",
+      "class_sha256": "377fe71f747a99775411756c03dabb0435018e74e5e6993e1f0f19b39d47a042",
+      "name": "<init>",
+      "descriptor": "(DIIF)V",
+      "code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "PyroArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/PyroArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:pyro_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/PyroArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/PyroArchergun.class",
+      "class_sha256": "377fe71f747a99775411756c03dabb0435018e74e5e6993e1f0f19b39d47a042",
+      "name": "doImpactEffect",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2bc100279900082b08b6002db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 43
+        },
+        {
+          "offset": 8,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "func_70015_d",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun.class",
+      "class_sha256": "95cfb7678e544c73365a2a974cef61a88558e5fdce6e87bed0b7413ec7e67a6c",
+      "name": "<init>",
+      "descriptor": "(DIIF)V",
+      "code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "RosidianArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:rosidian_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun.class",
+      "class_sha256": "95cfb7678e544c73365a2a974cef61a88558e5fdce6e87bed0b7413ec7e67a6c",
+      "name": "doImpactEffect",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "b200291008b6002f9a00082c0cb60035b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 154,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 44
+        },
+        {
+          "offset": 12,
+          "opcode": 12
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70691_i",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/ViralArchergun.class",
+      "class_sha256": "133a1dec2d4bc4b0fd177bdba7a591fce377f8c34a0059236842a9d828475891",
+      "name": "<init>",
+      "descriptor": "(DIIF)V",
+      "code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "ViralArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/ViralArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:viral_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/ViralArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/archergun/ViralArchergun.class",
+      "class_sha256": "133a1dec2d4bc4b0fd177bdba7a591fce377f8c34a0059236842a9d828475891",
+      "name": "doImpactEffect",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2bc100279900192bc00027bb002959b2002f1028050404b70032b60036b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 43
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 187,
+          "operands": [
+            0,
+            41
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 89
+        },
+        {
+          "offset": 15,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76436_u",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 16,
+          "constant": 40
+        },
+        {
+          "offset": 20,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 21,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 22,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 23,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot.class",
+      "class_sha256": "29d3cd0fab6ade2a6c76b99026a523243a3d835330f1acd4930dbcbcf44c8e89",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;)V",
+      "code_hex": "2a2bb70015b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "<init>",
+            "(Lnet/minecraft/world/World;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot.class",
+      "class_sha256": "29d3cd0fab6ade2a6c76b99026a523243a3d835330f1acd4930dbcbcf44c8e89",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V",
+      "code_hex": "2a2b2c2d15040c1505b7001db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 12
+        },
+        {
+          "offset": 7,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;IFI)V"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot.class",
+      "class_sha256": "29d3cd0fab6ade2a6c76b99026a523243a3d835330f1acd4930dbcbcf44c8e89",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;DDD)V",
+      "code_hex": "2a2b2818041806b70029b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 40
+        },
+        {
+          "offset": 3,
+          "opcode": 24,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 24,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "<init>",
+            "(Lnet/minecraft/world/World;DDD)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot.class",
+      "class_sha256": "29d3cd0fab6ade2a6c76b99026a523243a3d835330f1acd4930dbcbcf44c8e89",
+      "name": "func_70185_h",
+      "descriptor": "()F",
+      "code_hex": "1230ae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 18,
+          "constant": 0.05000000074505806
+        },
+        {
+          "offset": 2,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot.class",
+      "class_sha256": "29d3cd0fab6ade2a6c76b99026a523243a3d835330f1acd4930dbcbcf44c8e89",
+      "name": "func_70184_a",
+      "descriptor": "(Lnet/minecraft/util/math/RayTraceResult;)V",
+      "code_hex": "2a2bb700342ab40037b4003d9a00762ab4004099006f2bb40044b20047a60065b2004d2ab400372ab600534d2c04b500582c2ab4005bb5005c2c2ab4005fb500602c2ab40063b500642c04b500672ab6006bc1006d9900132ab6006bc0006db40071b400769a000d2ab6007ab20080a6000a2cb20084b500872ab400372cb6008b57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "func_70184_a",
+            "(Lnet/minecraft/util/math/RayTraceResult;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 154,
+          "operands": [
+            0,
+            118
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70128_L",
+            "Z"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 153,
+          "operands": [
+            0,
+            111
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 43
+        },
+        {
+          "offset": 23,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/util/math/RayTraceResult",
+            "field_72313_a",
+            "Lnet/minecraft/util/math/RayTraceResult$Type;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/math/RayTraceResult$Type",
+            "BLOCK",
+            "Lnet/minecraft/util/math/RayTraceResult$Type;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 166,
+          "operands": [
+            0,
+            101
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "HOLLY_ARROW",
+            "Lnet/tslat/aoa3/item/misc/HollyArrow;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 42
+        },
+        {
+          "offset": 40,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/HollyArrow",
+            "createArrow",
+            "(Lnet/minecraft/world/World;Lnet/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot;)Lnet/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 77
+        },
+        {
+          "offset": 44,
+          "opcode": 44
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow",
+            "field_70254_i",
+            "Z"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 44
+        },
+        {
+          "offset": 50,
+          "opcode": 42
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70159_w",
+            "D"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow",
+            "field_70159_w",
+            "D"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 44
+        },
+        {
+          "offset": 58,
+          "opcode": 42
+        },
+        {
+          "offset": 59,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 44
+        },
+        {
+          "offset": 66,
+          "opcode": 42
+        },
+        {
+          "offset": 67,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70179_y",
+            "D"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow",
+            "field_70179_y",
+            "D"
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 44
+        },
+        {
+          "offset": 74,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 75,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow",
+            "field_70133_I",
+            "Z"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 42
+        },
+        {
+          "offset": 79,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "func_85052_h",
+            "()Lnet/minecraft/entity/EntityLivingBase;"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 193,
+          "operands": [
+            0,
+            109
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 153,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 42
+        },
+        {
+          "offset": 89,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "func_85052_h",
+            "()Lnet/minecraft/entity/EntityLivingBase;"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 192,
+          "operands": [
+            0,
+            109
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 154,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 42
+        },
+        {
+          "offset": 105,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "getWeapon",
+            "()Lnet/tslat/aoa3/item/weapon/gun/BaseGun;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/WeaponRegister",
+            "SPECTRAL_ARCHERGUN",
+            "Lnet/tslat/aoa3/item/weapon/archergun/BaseArchergun;"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 166,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 44
+        },
+        {
+          "offset": 115,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/entity/projectile/EntityArrow$PickupStatus",
+            "CREATIVE_ONLY",
+            "Lnet/minecraft/entity/projectile/EntityArrow$PickupStatus;"
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/arrow/EntityHollyArrow",
+            "field_70251_a",
+            "Lnet/minecraft/entity/projectile/EntityArrow$PickupStatus;"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 42
+        },
+        {
+          "offset": 122,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 44
+        },
+        {
+          "offset": 126,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 87
+        },
+        {
+          "offset": 130,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityLunarHollyArrowShot.class",
+      "class_sha256": "586f3cb00b0f3bd3e5b894f38d3afa402e8c1417c0a3d0babdc5cbb042392c17",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;)V",
+      "code_hex": "2a2bb70009b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/world/World;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityLunarHollyArrowShot.class",
+      "class_sha256": "586f3cb00b0f3bd3e5b894f38d3afa402e8c1417c0a3d0babdc5cbb042392c17",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V",
+      "code_hex": "2a2b2c2d15041505b70010b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityLunarHollyArrowShot.class",
+      "class_sha256": "586f3cb00b0f3bd3e5b894f38d3afa402e8c1417c0a3d0babdc5cbb042392c17",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;DDD)V",
+      "code_hex": "2a2b2818041806b7001cb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 40
+        },
+        {
+          "offset": 3,
+          "opcode": 24,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 24,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/world/World;DDD)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/projectiles/gun/EntityLunarHollyArrowShot.class",
+      "class_sha256": "586f3cb00b0f3bd3e5b894f38d3afa402e8c1417c0a3d0babdc5cbb042392c17",
+      "name": "func_70185_h",
+      "descriptor": "()F",
+      "code_hex": "0bae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 11
+        },
+        {
+          "offset": 1,
+          "opcode": 174
+        }
+      ]
+    }
+  ],
+  "holly_arrow_recipe": {
+    "path": "assets/aoa3/recipes/items/misc/ammo/holly_arrow.json",
+    "sha256": "477cc13822e35f0ddf8ca7946898a0c6a56fcd4fb1dd12e8e173233b21901815",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "A",
+        "B",
+        "C"
+      ],
+      "key": {
+        "A": [
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        ],
+        "B": [
+          {
+            "item": "minecraft:stick"
+          }
+        ],
+        "C": [
+          {
+            "item": "aoa3:holly_top_petals"
+          }
+        ]
+      },
+      "result": {
+        "item": "aoa3:holly_arrow",
+        "count": 4
+      }
+    }
+  },
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Direct archergun registration inputs, identity constructors and selected base/subclass/projectile methods. Static evidence; no final damage, DPS or runtime certification.",
+  "registration_class": "net/tslat/aoa3/common/registration/WeaponRegister.class",
+  "registration_sha256": "bb0ca1a0b768e677e1809091b9973d24df935dda88599ecad04467918cf0d5bc",
+  "registration_method": {
+    "name": "registerWeapon",
+    "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+    "code_hex": "2ab601f44c2b1024bd01f65903bb01f859b201fe0eb70201535904bb020359b202060eb70207535905bb020959b2020c14020db7020f535906bb021159b202140eb70215535907bb021759b2021a0eb7021b535908bb021d59b202200eb7022153591006bb022359b202260eb7022753591007bb022959b2022c0eb7022d53591008bb022f59b20232140233b7023553591009bb023759b2023a0eb7023b5359100abb023d59b202400eb702415359100bbb024359b202460eb702475359100cbb024959b2024c0eb7024d5359100dbb024f59b202520eb702535359100ebb025559b20258b2025cb4025fb702605359100fbb026259b202650eb7026653591010bb026859b2026b0eb7026c53591011bb026e59b202710eb7027253591012bb027459b20277b2027ab4025fb7027b53591013bb027d59b202800eb7028153591014bb028359b202860eb7028753591015bb028959b2028c0eb7028d53591016bb028f59b202920eb7029353591017bb029559b202980eb7029953591018bb029b59b2029e0eb7029f53591019bb02a159b202a40eb702a55359101abb02a759b202aa0eb702ab5359101bbb02ad59b202b00eb702b15359101cbb02b359b202b60eb702b75359101dbb02b959b202bc0eb702bd5359101ebb02bf59b202c21402c3b702c55359101fbb02c759b202ca0eb702cb53591020bb02cd59b202d00eb702d153591021bb02d359b202d50eb702d653591022bb02d859b202db0eb702dc53591023bb02de59b202e10eb702e253b802e62b101dbd02e85903bb02ea591402eb0e1104b0b702ef535904bb02f1591402f20e110546b702f4535905bb02f6591402f70e1105aab702f9535906bb02fb591402fc0e110708b702fe535907bb0300591403010e110640b70303535908bb0305591403060e110438b7030853591006bb030a5914030b0e1105c8b7030d53591007bb030f591403061403101106d6b7031253591008bb0314591403150e1107d0b7031753591009bb03195914030b0e110514b7031a5359100abb031c5914030b0e11055ab7031d5359100bbb031f591403200e110802b703225359100cbb0324591403250e11044cb703275359100dbb03295914032a0e11073ab7032c5359100ebb032e5914032f1403311106d6b703335359100fbb0335591403361403381105dcb7033a53591010bb033c591403200e110802b7033d53591011bb033f591402f70e11062cb7034053591012bb0342591403061403101106d6b7034353591013bb0345591403460e11076cb7034853591014bb034a5914034b0e1105beb7034d53591015bb034f591403060e11046ab7035053591016bb0352591402fc0e110708b7035353591017bb0355591403061403101106d6b7035653591018bb0358591403590e110514b7035b53591019bb035d5914035e0e1107d0b703605359101abb0362591403590e110488b703635359101bbb0365591403010e1106d6b703665359101cbb0368591403250e11041ab7036953b8036d2b08bd036f5903bb037159130372b80378b2037bb4025fb80380140381110640b70385535904bb038759130388b80378b2037bb4025fb80380140389110578b7038b535905bb038d5913038eb80378b2037bb4025fb8038014038f1105dcb70391535906bb039359130394b80378b2037bb4025fb80380140395110514b70397535907bb03995913039ab80378b2037bb4025fb8038014038f1106d6b7039b53b8039f2b104ebd03a15903bb03a3591403a411049c100c1303a6b703a9535904bb03ab5914034b1105c810181303acb703ad535905bb03af591403b01105d210181303acb703b2535906bb03b4591403b51105f010081303b7b703b8535907bb03ba591403061105dc10141303a6b703bb535908bb03bd591403be11026c10141303a6b703c053591006bb03c2591403c311027610141303b7b703c553591007bb03c7591403c311039810101303b7b703c853591008bb03ca591402fc11036610201303cbb703cc53591009bb03ce591403cf1103c010080db703d15359100abb03d3591403be11037a10100db703d45359100bbb03d6591403d71105be10101303d9b703da5359100cbb03dc591403dd11038e100c1303b7b703df5359100dbb03e1591403e21101f410281303e4b703e55359100ebb03e7591403b5110276100c1303a6b703e85359100fbb03ea591403be11036610101303ebb703ec53591010bb03ee591403dd11044c100c1303a6b703ef53591011bb03f1591403f21105e6100c1303d9b703f453591012bb03f6591403b011016810141303f7b703f853591013bb03fa591403c311026210141303ebb703fb53591014bb03fd591403fe11023a10181303acb7040053591015bb04025914040311056e10100db7040553591016bb04075914040811046010081303b7b7040a53591017bb040c591402f211049c10181303d9b7040d53591018bb040f5914032f110244101c1303acb7041053591019bb04125914040811046010081303b7b704135359101abb0415591403b51105fa10080db704165359101bbb04185914041911035c101c1303b7b7041b5359101cbb041d591404031105dc10101303b7b7041e5359101dbb04205914042111044c10101303ebb704235359101ebb04255914040811046010081303b7b704265359101fbb042859140429110276100c0db7042b53591020bb042d5914034b11024e102413042eb7042f53591021bb04315914040811046010081303b7b7043253591022bb04345914035e1105f0101c1303b7b7043553591023bb0437591403f21105e6100c1303a6b7043853591024bb043a5914043b11058c100c1303a6b7043d53591025bb043f591404401105be10181303ebb7044253591026bb0444591403f21105d2100c1303b7b7044553591027bb04475914044811024410181303ebb7044a53591028bb044c59140359110384101c1303b7b7044d53591029bb044f591403f21105dc100c1303a6b704505359102abb0452591403dd1103a2100c1303a6b704535359102bbb0455591403c311038e10101303b7b704565359102cbb04585914040311038410141303b7b704595359102dbb045b5914045c1105be10201303cbb7045e5359102ebb0460591403f2110596100c1303ebb704615359102fbb0463591403251103ac10181303acb7046453591030bb0466591404671105fa071303a6b7046953591031bb046b5914046c1103ac100c1303a6b7046e53591032bb04705914047111029e071303a6b7047353591033bb0475591403cf11038410081303b7b7047653591034bb0478591404481104d810101303a6b7047953591035bb047b591404031105d210101303a6b7047c53591036bb047e591403251105dc10141303b7b7047f53591037bb04815914034b11030c1020130482b7048353591038bb0485591404081103de10101303d9b7048653591039bb0488591403151105d21020130482b704895359103abb048b591403461105c8101c1303acb7048c5359103bbb048e591404671105fa071303a6b7048f5359103cbb04915914032a1104a6101c1303acb704925359103dbb0494591404951104b010141303a6b704975359103ebb0499591403b011027610101303acb7049a5359103fbb049c5914034b1105be101813042eb7049d53591040bb049f5914030111019010181303d9b704a053591041bb04a25914044011062c101813042eb704a353591042bb04a5591402eb11062210141303a6b704a653591043bb04a85914043b11037010101303a6b704a953591044bb04ab591403f21105e6100c1303d9b704ac53591045bb04ae591403a41104ba100c1303d9b704af53591046bb04b1591403be11012c101813042eb704b253591047bb04b45914040311038410141303a6b704b553591048bb04b75914043b1105fa100c1303ebb704b853591049bb04ba591403f21105d2100c1303d9b704bb5359104abb04bd591403cf11014a100c1303d9b704be5359104bbb04c05914043b1103a210101303a6b704c15359104cbb04c3591404c4110244101c0cb704c65359104dbb04c8591403dd110398100c1303d9b704c953b804cd2b1011bd04cf5903bb04d1591403250511044c102e1304d21304d3b704d6535904bb04d85914046c0811044c10381303f713038eb704d9535905bb04db59140421061102e4103e1304dc130394b704dd535906bb04df591404480611046010361304dc1304e0b704e1535907bb04e3591403f207110438103a1304dc1304e4b704e5535908bb04e7591403cf0611012c10361304dc1304e0b704e853591006bb04ea591404eb071102da103a1304dc1304e4b704ed53591007bb04ef591403a4061102b210381304dc1303cbb704f053591008bb04f2590e071100a010370b1303e4b704f353591009bb04f5591404f6100a11032010441303f713039ab704f85359100abb04fa59140429081102d0103c1304dc1304fbb704fc5359100bbb04fe591404ff051102da10361303f7130501b705025359100cbb050459140421051102d0102e1304d21304d3b705055359100dbb0507591404030611044210381304dc1303cbb705085359100ebb050a5914041905110460103413050b130394b7050c5359100fbb050e591403f2051101f4103413050b130394b7050f53591010bb051159140429061102c610241304d213042eb7051253b805162b101bbd05185903bb051a5914051b1100f0105813051db7051e535904bb0520591403e211012c10561304d3b70521535905bb05235914052410641064130526b70527535906bb05295914052a11009610541304fbb7052c535907bb052e5914052f1101311054130531b70532535908bb053459140535110221105f1304d3b7053753591006bb05395914053a110159105813053cb7053d53591007bb053f59140540110230106013038eb7054253591008bb0544591403461078105a13038eb7054553591009bb0547591403e21100b4105f1304d3b705485359100abb054a591403b011021c101813054bb7054c5359100bbb054e5914054f11015e105b1304e4b705515359100cbb0553591402f21100aa103c1304d3b705545359100dbb0556591405571102261046130559b7055a5359100ebb055c5914055d11017c105c130394b7055f5359100fbb05615914056211022b1054130531b7056453591010bb0566591405241101681046130559b7056753591011bb05695914056a1102121046130559b7056c53591012bb056e5914056f1102301070130571b7057253591013bb0574591405751100fa106013038eb7057753591014bb05795914054f11023a1046130559b7057a53591015bb057c5914057d11019510661304fbb7057f53591016bb0581591405621101c21061130571b7058253591017bb05845914055711015e10571304d3b7058553591018bb0587591405881101cc104d130531b7058a53591019bb058c5914058d1101d61070130571b7058f5359101abb0591591405241100b91059130531b7059253b805962b1032bd05985903bb059a59140440110357101c1303cbb7059b535904bb059d590e11035210141303acb7059e535905bb05a0591405a111012c10231303ebb705a3535906bb05a5591403c31101f910181303d9b705a6535907bb05a8591405a9110226103c1304fbb705ab535908bb05ad591405ae1101fe101b130531b705b053591006bb05b25914052f110343103c1304fbb705b353591007bb05b5591402f7110348101b130531b705b653591008bb05b859140325110186102413054bb705b953591009bb05bb5914032f1101fe101c1303cbb705bc5359100abb05be591403251101db103e13051db705bf5359100bbb05c1591403c31101f9101413054bb705c25359100cbb05c45914032a11035c101e13042eb705c55359100dbb05c7591403b0110208101013042eb705c85359100ebb05ca5914034b11023a10201305cbb705cc5359100fbb05ce591405cf11034d102a13054bb705d153591010bb05d3591403be11012c100f1303ebb705d453591011bb05d6590e11019010141303acb705d753591012bb05d95914032511026210191303a6b705da53591013bb05dc5914051b1102ee103013054bb705dd53591014bb05df591405a111033e100e1303d9b705e053591015bb05e2591404481101fe1017130531b705e353591016bb05e5591402eb1103521017130531b705e653591017bb05e859140336110258101c1304e0b705e953591018bb05eb5914034611024e10221304d3b705ec53591019bb05ee591403461102bc101e1303acb705ef5359101abb05f15914035e110348103e13051db705f25359101bbb05f4591404191103521018130559b705f55359101cbb05f75914042111017710181305f8b705f95359101dbb05fb5914034611024410241305cbb705fc5359101ebb05fe591405ae11035c10141303acb705ff5359101fbb0601591403a411019010141303acb7060253591020bb06045914051b1102ee103013054bb7060553591021bb06075914032011020d102a13054bb7060853591022bb060a5914040311019f101e1303a6b7060b53591023bb060d590e1101ef103c1305cbb7060e53591024bb0610591402f211035710191303a6b7061153591025bb06135914051b1102ee103013054bb7061453591026bb06165914044011034d101c1304e0b7061753591027bb06195914035e1101fe102a13054bb7061a53591028bb061c591405a1110140103213061db7061e53591029bb06205914051b1102ee103013054bb706215359102abb0623591404031102031018130559b706245359102bbb062659140346110352101e130501b706275359102cbb0629591404191103481018130559b7062a5359102dbb062c591403251101fe101e1303b7b7062d5359102ebb062f5914034b11025d101e1303ebb706305359102fbb0632591404031101b8101a130559b7063353591030bb06355914041911035710181303d9b7063653591031bb0638591405ae1101cc101e13042eb7063953b8063d2b1007bd063f5903bb064159b70642535904bb064459b70645535905bb064759b70648535906bb064a59b7064b535907bb064d59b7064e535908bb065059b7065153591006bb065359b7065453b806582b1008bd065a5903bb065c591404031032b7065f535904bb066159140336104bb70662535905bb066459140336104bb70665535906bb066759140336104bb70668535907bb066a59140336104bb7066b535908bb066d59140336104bb7066e53591006bb067059140336104bb7067153591007bb067359140336104bb7067453b806782b1021bd067a5903bb067c591403dd0c110258b7067f535904bb06815914030b0c1105e6b70682535905bb0684591402fc1306851105c8b70686535906bb0688591403be130689110bb8b7068a535907bb068c591405a113068d1104a6b7068e535908bb06905914032f0c11049cb7069153591006bb0693591404ff1306941102bcb7069553591007bb0697591405ae130698110384b7069953591008bb069b591405ae0c110398b7069c53591009bb069e591404eb0c110244b7069f5359100abb06a1591403f20c1102c6b706a25359100bbb06a4591404480c110398b706a55359100cbb06a75914032f0c110384b706a85359100dbb06aa591404191306ab1103a2b706ac5359100ebb06ae591406af0c11037ab706b15359100fbb06b3591404030c1103b6b706b453591010bb06b6591405a11306851102b2b706b753591011bb06b9591403250c110546b706ba53591012bb06bc591404ff0c110384b706bd53591013bb06bf591404190c110528b706c053591014bb06c2591403be0c110299b706c353591015bb06c5591403b51303a61105dcb706c653591016bb06c8591404eb1306c91102d0b706ca53591017bb06cc591404480c110352b706cd53591018bb06cf591405ae0c1104b0b706d053591019bb06d2591404401306ab11044cb706d35359101abb06d5591403be13068d110384b706d65359101bbb06d8591403d70d1103a2b706d95359101cbb06db591406dc1306981105fab706de5359101dbb06e0591405a1130694110384b706e15359101ebb06e35914046c1306e4110258b706e55359101fbb06e7591403c30c1102bcb706e853591020bb06ea591406af0c110343b706eb53b806ef2b1009bd06f15903bb06f359140421110258100c1303a6b706f4535904bb06f6591403a41105fa100c1303a6b706f7535905bb06f9591403f211051410101303a6b706fa535906bb06fc591403b51103b6100c1303a6b706fd535907bb06ff5914046c110500100c1303a6b70700535908bb0702591404eb11044c100c1303a6b7070353591006bb07055914040811064010081303a6b7070653591007bb0708591403dd11032010101303a6b7070953591008bb070b5914046c1104e2100c1303a6b7070c53b807102b1039bd07125903bb0714591104c4b70717535904bb0719591104e2b7071a535905bb071c591104b0b7071d535906bb071f591103b6b70720535907bb07225911047eb70723535908bb07255911047eb7072653591006bb0728591103b6b7072953591007bb072b591104ceb7072c53591008bb072e59110474b7072f53591009bb0731591104d8b707325359100abb073459110492b707355359100bbb073759110578b707385359100cbb073a5911041ab7073b5359100dbb073d5911041ab7073e5359100ebb074059110352b707415359100fbb0743591104ceb7074453591010bb0746591103deb7074753591011bb07495911046ab7074a53591012bb074c59110190b7074d53591013bb074f591104c9b7075053591014bb07525911046ab7075353591015bb07555911012cb7075653591016bb075859110384b7075953591017bb075b5911042eb7075c53591018bb075e591102bcb7075f53591019bb0761591104e2b707625359101abb07645911044cb707655359101bbb076759110456b707685359101cbb076a591104a6b7076b5359101dbb076d5911046ab7076e5359101ebb0770591105aab707715359101fbb0773591104b0b7077453591020bb0776591104bab7077753591021bb077959110424b7077a53591022bb077c59110352b7077d53591023bb077f591103f2b7078053591024bb0782591104ceb7078353591025bb0785591104ceb7078653591026bb078859110366b7078953591027bb078b5911049cb7078c53591028bb078e591103e8b7078f53591029bb0791591104b0b707925359102abb079459110384b707955359102bbb079759110564b707985359102cbb079a591105c8b7079b5359102dbb079d59110352b7079e5359102ebb07a0591103c0b707a15359102fbb07a3591104f6b707a453591030bb07a659110474b707a753591031bb07a9591102eeb707aa53591032bb07ac59110474b707ad53591033bb07af5911041ab707b053591034bb07b259110352b707b353591035bb07b55911058cb707b653591036bb07b859110352b707b953591037bb07bb59110352b707bc53591038bb07be59110320b707bf53b807c32b1038bd07c55903bb07c7590e110eb0100a1307c8b707c9535904bb07cb5914043b110c4e10081303e4b707cc535905bb07ce590f110ca8041303a6b707cf535906bb07d1591404671106d6100613051db707d2535907bb07d4591407d5110abe041307d7b707d8535908bb07da591403cf11097e100613051db707db53591006bb07dd5914043b110c8010081307deb707df53591007bb07e1591407e21103e810281307e4b707e553591008bb07e7590e1103e8100a0bb707e853591009bb07ea590e1105dc080bb707eb5359100abb07ed590e110c6c10641307c8b707ee5359100bbb07f0591403d7110ece081303d9b707f15359100cbb07f359140306110f00100c130531b707f45359100dbb07f6590e110b04061307deb707f75359100ebb07f9590f110ae6040db707fa5359100fbb07fc5914055711138810321307fdb707fe53591010bb080059140471110b5e0713051db7080153591011bb080359140395110ef6051307d7b7080453591012bb08065914038f110af006130807b7080853591013bb080a590e110b2c0413080bb7080c53591014bb080e590e110c8a040cb7080f53591015bb0811590e110ef606130812b7081353591016bb08155914046711025804130816b7081753591017bb0819591403c3110ed8100813081ab7081b53591018bb081d591405a1110c80100a13051db7081e53591019bb082059140467110ca8061303d9b708215359101abb082359140421110afa100b130824b708255359101bbb082759140467110bf4071303d9b708285359101cbb082a5914082b110b18041307d7b7082d5359101dbb082f5914034b110ee2100e130830b708315359101ebb0833590e1007040bb708345359101fbb083659140395110c80051303b7b7083753591020bb08395914083a110ad2101e1307c8b7083c53591021bb083e591402eb110c6c100e13083fb7084053591022bb0842590e110ea61064130843b7084453591023bb08465914038f11071208130847b7084853591024bb084a590f110c76041306c9b7084b53591025bb084d59140325110c9e100d130372b7084e53591026bb085059140851110f3c041306c9b7085353591027bb085559140851110afa041303a6b7085653591028bb0858590e110a281014130859b7085a53591029bb085c591403c31109ba100c13085db7085e5359102abb086059140471110bb805130861b708625359102bbb0864591403fe110e10071303d9b708655359102cbb0867590e110af01014130868b708695359102dbb086b59140419110ed8100d13086cb7086d5359102ebb086f5914038f110ec4051303a6b708705359102fbb087259140873110eba040db7087553591030bb0877590e08040bb7087853591031bb087a59140851110c76040db7087b53591032bb087d590e110b36100a13087eb7087f53591033bb088159140882110960100c130884b7088553591034bb0887590e110ac81007130571b7088853591035bb088a590e110b360413088bb7088c53591036bb088e591403cf110b0e08130559b7088f53591037bb0891591403b5110320100713053cb7089253b80896b1"
+  },
+  "base_class": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun.class",
+  "base_sha256": "4f6abd61b5f1923c2dada9363125d1bf623fb2a14091d9636e73126e4cbd364a",
+  "base_methods": [
+    {
+      "name": "<init>",
+      "descriptor": "(DIIF)V",
+      "code_hex": "2a271d15041705b7000b2a1504b5000d2ab20013b6001757b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/gun/BaseGun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "firingDelay",
+            "I"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "ARCHERGUNS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "name": "doImpactDamage",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2bc70004b12b2c2d2ab6006390b8006999000f2a2b2c2d1704b6006ca700192bc1006e9a00122b2d2cb800742ab6006390b6007a57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 177
+        },
+        {
+          "offset": 5,
+          "opcode": 43
+        },
+        {
+          "offset": 6,
+          "opcode": 44
+        },
+        {
+          "offset": 7,
+          "opcode": 45
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "getDamage",
+            "()D"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 144
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "dealRangedDamage",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/Entity;F)Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 153,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 43
+        },
+        {
+          "offset": 21,
+          "opcode": 44
+        },
+        {
+          "offset": 22,
+          "opcode": 45
+        },
+        {
+          "offset": 23,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "doImpactEffect",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 167,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 193,
+          "operands": [
+            0,
+            110
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 154,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 43
+        },
+        {
+          "offset": 39,
+          "opcode": 45
+        },
+        {
+          "offset": 40,
+          "opcode": 44
+        },
+        {
+          "offset": 41,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76356_a",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/DamageSource;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 42
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "getDamage",
+            "()D"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 144
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "func_70097_a",
+            "(Lnet/minecraft/util/DamageSource;F)Z"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 87
+        },
+        {
+          "offset": 53,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "name": "findAndConsumeAmmo",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;",
+      "code_hex": "2bbb002c59b20032b700350404b2003b2cb8004160b80047990028bb0049592b2cb6004dc000042d107803b700503a04190459b4005314005463b500531904b001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            44
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "HOLLY_ARROW",
+            "Lnet/tslat/aoa3/item/misc/HollyArrow;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "GREED",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 96
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            73
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 44
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 45
+        },
+        {
+          "offset": 40,
+          "opcode": 16,
+          "constant": 120
+        },
+        {
+          "offset": 42,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 43,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 89
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 20,
+          "constant": 0.25
+        },
+        {
+          "offset": 57,
+          "opcode": 99
+        },
+        {
+          "offset": 58,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityHollyArrowShot",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 176
+        },
+        {
+          "offset": 64,
+          "opcode": 1
+        },
+        {
+          "offset": 65,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "aoa3:coral_archergun",
+      "inventory_id": "localization:item.CoralArchergun.name",
+      "name": "Coral Archergun",
+      "damage_input": 13.0,
+      "durability_input": 600,
+      "shot_interval_input_ticks": 12,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 5944,
+          "opcode": 187,
+          "operands": [
+            6,
+            243
+          ]
+        },
+        {
+          "offset": 5947,
+          "opcode": 89
+        },
+        {
+          "offset": 5948,
+          "opcode": 20,
+          "constant": 13.0
+        },
+        {
+          "offset": 5951,
+          "opcode": 17,
+          "constant": 600
+        },
+        {
+          "offset": 5954,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 5956,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 5959,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/CoralArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/CoralArchergun",
+      "class_sha256": "662e095813e3d733b29df5487c32a3f3b8e0f7b451cc0d1cc837183e538df4b8",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "CoralArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/CoralArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:coral_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/CoralArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactDamage"
+      ],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:lunar_archergun",
+      "inventory_id": "localization:item.LunarArchergun.name",
+      "name": "Lunar Archergun",
+      "damage_input": 10.5,
+      "durability_input": 1530,
+      "shot_interval_input_ticks": 12,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 5965,
+          "opcode": 187,
+          "operands": [
+            6,
+            246
+          ]
+        },
+        {
+          "offset": 5968,
+          "opcode": 89
+        },
+        {
+          "offset": 5969,
+          "opcode": 20,
+          "constant": 10.5
+        },
+        {
+          "offset": 5972,
+          "opcode": 17,
+          "constant": 1530
+        },
+        {
+          "offset": 5975,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 5977,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 5980,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+      "class_sha256": "aa0a24e2a636bdcbd9e44379832e37c1d527f2835c2ab5563fa9681ec2084eaa",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b700152a14000eb500172a27b500192a121bb6001f572a1221b60025572a1504b50027b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 20,
+          "constant": 19.0
+        },
+        {
+          "offset": 14,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+            "maxDamage",
+            "D"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 39
+        },
+        {
+          "offset": 19,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+            "baseDmg",
+            "D"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 42
+        },
+        {
+          "offset": 23,
+          "opcode": 18,
+          "constant": "LunarArchergun"
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 87
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 18,
+          "constant": "aoa3:lunar_archergun"
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 87
+        },
+        {
+          "offset": 36,
+          "opcode": 42
+        },
+        {
+          "offset": 37,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+            "firingDelay",
+            "I"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "findAndConsumeAmmo"
+      ],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/LunarArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:mecha_archergun",
+      "inventory_id": "localization:item.MechaArchergun.name",
+      "name": "Mecha Archergun",
+      "damage_input": 11.5,
+      "durability_input": 1300,
+      "shot_interval_input_ticks": 16,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 5986,
+          "opcode": 187,
+          "operands": [
+            6,
+            249
+          ]
+        },
+        {
+          "offset": 5989,
+          "opcode": 89
+        },
+        {
+          "offset": 5990,
+          "opcode": 20,
+          "constant": 11.5
+        },
+        {
+          "offset": 5993,
+          "opcode": 17,
+          "constant": 1300
+        },
+        {
+          "offset": 5996,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 5998,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6001,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/MechaArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/MechaArchergun",
+      "class_sha256": "2eaecdf5673a77c48c9c7f93314a6c810a1ff536d4028404ff50f74c66a422c7",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "MechaArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/MechaArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:mecha_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/MechaArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:pyro_archergun",
+      "inventory_id": "localization:item.PyroArchergun.name",
+      "name": "Pyro Archergun",
+      "damage_input": 7.5,
+      "durability_input": 950,
+      "shot_interval_input_ticks": 12,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 6007,
+          "opcode": 187,
+          "operands": [
+            6,
+            252
+          ]
+        },
+        {
+          "offset": 6010,
+          "opcode": 89
+        },
+        {
+          "offset": 6011,
+          "opcode": 20,
+          "constant": 7.5
+        },
+        {
+          "offset": 6014,
+          "opcode": 17,
+          "constant": 950
+        },
+        {
+          "offset": 6017,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 6019,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6022,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/PyroArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/PyroArchergun",
+      "class_sha256": "377fe71f747a99775411756c03dabb0435018e74e5e6993e1f0f19b39d47a042",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "PyroArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/PyroArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:pyro_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/PyroArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactEffect"
+      ],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:rosidian_archergun",
+      "inventory_id": "localization:item.RosidianArchergun.name",
+      "name": "Rosidian Archergun",
+      "damage_input": 9.0,
+      "durability_input": 1280,
+      "shot_interval_input_ticks": 12,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 6028,
+          "opcode": 187,
+          "operands": [
+            6,
+            255
+          ]
+        },
+        {
+          "offset": 6031,
+          "opcode": 89
+        },
+        {
+          "offset": 6032,
+          "opcode": 20,
+          "constant": 9.0
+        },
+        {
+          "offset": 6035,
+          "opcode": 17,
+          "constant": 1280
+        },
+        {
+          "offset": 6038,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 6040,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6043,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+      "class_sha256": "95cfb7678e544c73365a2a974cef61a88558e5fdce6e87bed0b7413ec7e67a6c",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "RosidianArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:rosidian_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/RosidianArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactEffect"
+      ],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:skeletal_archergun",
+      "inventory_id": "localization:item.SkeletalArchergun.name",
+      "name": "Skeletal Archergun",
+      "damage_input": 8.5,
+      "durability_input": 1100,
+      "shot_interval_input_ticks": 12,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 6049,
+          "opcode": 187,
+          "operands": [
+            7,
+            2
+          ]
+        },
+        {
+          "offset": 6052,
+          "opcode": 89
+        },
+        {
+          "offset": 6053,
+          "opcode": 20,
+          "constant": 8.5
+        },
+        {
+          "offset": 6056,
+          "opcode": 17,
+          "constant": 1100
+        },
+        {
+          "offset": 6059,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 6061,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6064,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/SkeletalArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/SkeletalArchergun",
+      "class_sha256": "2876880cfcc89bf87f2117286ea66857c9e2ea3354433a16c6ad54c363207716",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "SkeletalArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/SkeletalArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:skeletal_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/SkeletalArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:spectral_archergun",
+      "inventory_id": "localization:item.SpectralArchergun.name",
+      "name": "Spectral Archergun",
+      "damage_input": 6.5,
+      "durability_input": 1600,
+      "shot_interval_input_ticks": 8,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 6071,
+          "opcode": 187,
+          "operands": [
+            7,
+            5
+          ]
+        },
+        {
+          "offset": 6074,
+          "opcode": 89
+        },
+        {
+          "offset": 6075,
+          "opcode": 20,
+          "constant": 6.5
+        },
+        {
+          "offset": 6078,
+          "opcode": 17,
+          "constant": 1600
+        },
+        {
+          "offset": 6081,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 6083,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6086,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun",
+      "class_sha256": "fbb9178361f08ef3ba2d02284115961d56ef4920fa5297ef5f3757969e597c60",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "SpectralArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:spectral_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "findAndConsumeAmmo"
+      ],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/SpectralArchergun",
+      "ammo_label": "No item consumed by selected method",
+      "ammo_id": null
+    },
+    {
+      "id": "aoa3:trolls_archergun",
+      "inventory_id": "localization:item.TrollsArchergun.name",
+      "name": "Trolls Archergun",
+      "damage_input": 9.5,
+      "durability_input": 800,
+      "shot_interval_input_ticks": 16,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 6093,
+          "opcode": 187,
+          "operands": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset": 6096,
+          "opcode": 89
+        },
+        {
+          "offset": 6097,
+          "opcode": 20,
+          "constant": 9.5
+        },
+        {
+          "offset": 6100,
+          "opcode": 17,
+          "constant": 800
+        },
+        {
+          "offset": 6103,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 6105,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6108,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/TrollsArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/TrollsArchergun",
+      "class_sha256": "5a190ae3430a9b722bfffb4b779229a6b82d36b44acfe26b2c0b6410a80cae68",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "TrollsArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/TrollsArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:trolls_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/TrollsArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    },
+    {
+      "id": "aoa3:viral_archergun",
+      "inventory_id": "localization:item.ViralArchergun.name",
+      "name": "Viral Archergun",
+      "damage_input": 9.0,
+      "durability_input": 1250,
+      "shot_interval_input_ticks": 12,
+      "recoil_argument": 3.0,
+      "registration_window": [
+        {
+          "offset": 6115,
+          "opcode": 187,
+          "operands": [
+            7,
+            11
+          ]
+        },
+        {
+          "offset": 6118,
+          "opcode": 89
+        },
+        {
+          "offset": 6119,
+          "opcode": 20,
+          "constant": 9.0
+        },
+        {
+          "offset": 6122,
+          "opcode": 17,
+          "constant": 1250
+        },
+        {
+          "offset": 6125,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 6127,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 6130,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/ViralArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/archergun/ViralArchergun",
+      "class_sha256": "133a1dec2d4bc4b0fd177bdba7a591fce377f8c34a0059236842a9d828475891",
+      "constructor_descriptor": "(DIIF)V",
+      "constructor_code_hex": "2a271d15041705b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "ViralArchergun"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/ViralArchergun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 87
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:viral_archergun"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/archergun/ViralArchergun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 87
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactEffect"
+      ],
+      "ammo_owner": "net/tslat/aoa3/item/weapon/archergun/BaseArchergun",
+      "ammo_label": "Holly Arrow",
+      "ammo_id": "aoa3:holly_arrow"
+    }
+  ]
+}
