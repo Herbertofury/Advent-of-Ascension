@@ -1,0 +1,128 @@
+[Home](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Home) · [Gun inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2) · [Ammunition pitfalls](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2)
+
+# Historical cannons: ammunition and armor scaling
+
+**Minecraft 1.12.2 / AoA 3.3.6.** Fifty direct cannon registrations are checked against released constructor windows and item identities. Their ammunition methods are resolved separately. These are reference inputs and selected behavior, not final damage, DPS, blast radius or runtime compatibility results.
+
+![Four historical cannon source-model portraits with exact constructor inputs](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/cannon-inputs-and-ammo-1.12.2.webp)
+
+## Check ammunition before firing
+
+“Cannon” is a weapon family, not a promise that the item consumes Cannonballs. Across these 50 entries, the inspected ammunition references are:
+
+| Ammunition | Cannon entries |
+|---|---:|
+| Cannonball | 31 |
+| Grenade | 12 |
+| Discharge Capsule | 2 |
+| Balloon | 2 |
+| Cobblestone | 2 |
+| Carrot | 1 |
+
+Only **two classes inherit the base cannon ammo method**; the other 48 override it, often to construct a different projectile while retaining the same payment item. Do not infer a different cost just from the existence of an override, or copy the base rule across all items without checking.
+
+The inspected helper calls use the matching item with a requested amount of **1 + Greed level**. Their shared inventory helper has the [split-stack accounting warning](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2). Test small known balances and preserve metadata/tag matching when porting.
+
+- **Carrot Cannon:** the inspected item reference is the vanilla Carrot.
+- **Jack Rocker and Jack Funger:** the checked input is the item form of vanilla Cobblestone. The historical tooltip localization key is not a reason to substitute a similarly named decorative block.
+- **Ancient Discharger and Discharge Cannon:** use Discharge Capsules.
+- **Missile Maker:** uses Grenades. Its zero ordinary damage input is not a guarantee of harmless projectile behavior.
+
+## Craft Cannonballs
+
+Arrange **four Limonite Ingots in a 2×2 square**. The released shaped recipe produces **12 Cannonballs**. It uses the exact AoA Limonite Ingot ID, not any arbitrary ingot tag.
+
+[Open the illustrated exact Cannonball recipe](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2&recipe=aoa3%3Aitems%2Fmisc%2Fammo%2Fcannonball).
+
+This recipe supplies only the Cannonball category above. Do not craft a large batch for a launcher that actually checks Grenades, Balloons or another input.
+
+## Compare the 50 source-backed entries
+
+Open a name for its source-model portrait and lazy **1.12.2 cannon inputs · ammunition and armor scaling** panel. The historical cannon family filter lists the same 50 records.
+
+| Cannon and portrait | Damage input | Delay · ticks | Durability | Recoil input | Ammo item |
+|---|---:|---:|---:|---:|---|
+| [Ancient Bomber](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.AncientBomber.name) | 23.5 | 28 | 855 | 14 | Grenade |
+| [Ancient Discharger](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.AncientDischarger.name) | 0 | 20 | 850 | 6 | Discharge Capsule |
+| [Aqua Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.AquaCannon.name) | 14 | 35 | 300 | 5 | Cannonball |
+| [Balloon Bomber](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BalloonBomber.name) | 12.5 | 24 | 505 | 7 | Balloon |
+| [Big Blast](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BigBlast.name) | 28 | 60 | 550 | 19 | Cannonball |
+| [Blast Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BlastCannon.name) | 17 | 27 | 510 | 17 | Grenade |
+| [Blissful Blast](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BlissfulBlast.name) | 33.5 | 60 | 835 | 19 | Cannonball |
+| [Bomb Launcher](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BombLauncher.name) | 23 | 27 | 840 | 17 | Grenade |
+| [Boom Boom](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BoomBoom.name) | 18.5 | 36 | 390 | 11 | Grenade |
+| [Boom Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BoomCannon.name) | 17.5 | 28 | 510 | 14 | Grenade |
+| [Boulder Bomber](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BoulderBomber.name) | 18.5 | 62 | 475 | 20 | Cannonball |
+| [Bozo Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BozoBlaster.name) | 12.5 | 20 | 505 | 11 | Cannonball |
+| [Bulb Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.BulbCannon.name) | 25 | 30 | 860 | 8 | Cannonball |
+| [Carrot Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.CarrotCannon.name) | 10 | 16 | 520 | 8 | Carrot |
+| [Clown Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.ClownCannon.name) | 22.5 | 32 | 570 | 10 | Cannonball |
+| [Clowno-Pulse](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.ClownoPulse.name) | 35.5 | 42 | 845 | 11 | Cannonball |
+| [Coral Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.CoralCannon.name) | 12 | 15 | 300 | 5 | Cannonball |
+| [Discharge Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.DischargeCannon.name) | 0 | 20 | 400 | 6 | Discharge Capsule |
+| [Energy Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.EnergyCannon.name) | 18.5 | 25 | 610 | 3 | Cannonball |
+| [Erebon Stickler](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.ErebonStickler.name) | 35 | 48 | 750 | 11 | Grenade |
+| [Floro RPG](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.FloroRPG.name) | 14 | 14 | 830 | 7 | Grenade |
+| [Flower Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.FlowerCannon.name) | 14.5 | 23 | 510 | 17 | Cannonball |
+| [Fungal Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.FungalCannon.name) | 19.5 | 23 | 850 | 17 | Cannonball |
+| [Ghast Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.GhastBlaster.name) | 20 | 28 | 600 | 16 | Cannonball |
+| [Ghoul Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.GhoulCannon.name) | 25.5 | 34 | 590 | 18 | Cannonball |
+| [Giga-Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.GigaCannon.name) | 25.5 | 30 | 700 | 6 | Cannonball |
+| [Golder Bomber](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.GolderBomber.name) | 26 | 62 | 840 | 20 | Cannonball |
+| [Hive Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.HiveBlaster.name) | 20.5 | 24 | 850 | 13 | Cannonball |
+| [Hive Howitzer](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.HiveHowitzer.name) | 13 | 24 | 375 | 6.5 | Cannonball |
+| [Iro Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.IroCannon.name) | 25.5 | 36 | 580 | 10 | Cannonball |
+| [Jack Funger](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.JackFunger.name) | 17 | 20 | 860 | 6 | Cobblestone |
+| [Jack Rocker](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.JackRocker.name) | 10.5 | 20 | 400 | 6 | Cobblestone |
+| [Luxon Stickler](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.LuxonStickler.name) | 35 | 48 | 750 | 11 | Grenade |
+| [Mecha Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.MechaCannon.name) | 26.5 | 42 | 525 | 11 | Cannonball |
+| [Mini-Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.MiniCannon.name) | 15 | 30 | 415 | 3 | Cannonball |
+| [Missile Maker](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.MissileMaker.name) | 0 | 60 | 495 | 10 | Grenade |
+| [Moon Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.MoonCannon.name) | 21 | 25 | 855 | 3 | Cannonball |
+| [Pluton Stickler](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.PlutonStickler.name) | 35 | 48 | 750 | 11 | Grenade |
+| [Predatorian Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.PredatorianBlaster.name) | 23.5 | 28 | 845 | 16 | Cannonball |
+| [Pulse Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.PulseCannon.name) | 26 | 42 | 510 | 11 | Cannonball |
+| [RPG](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.RPG.name) | 14 | 50 | 320 | 24 | Grenade |
+| [Selyan Stickler](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.SelyanStickler.name) | 35 | 48 | 750 | 11 | Grenade |
+| [Shadow Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.ShadowBlaster.name) | 15 | 24 | 515 | 13 | Cannonball |
+| [Shyre Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.ShyreBlaster.name) | 25.5 | 30 | 850 | 12 | Cannonball |
+| [Smile Blaster](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.SmileBlaster.name) | 20.5 | 24 | 840 | 13 | Cannonball |
+| [Super-Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.SuperCannon.name) | 18.5 | 30 | 510 | 4 | Cannonball |
+| [Ultra-Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.UltraCannon.name) | 22.5 | 30 | 605 | 5 | Cannonball |
+| [Vox Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.VoxCannon.name) | 15 | 26 | 440 | 13 | Cannonball |
+| [Water-Balloon Bomber](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.WaterBalloonBomber.name) | 20.5 | 24 | 855 | 7 | Balloon |
+| [Wither Cannon](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.WitherCannon.name) | 17 | 30 | 460 | 8 | Cannonball |
+
+## What the base armor scaling actually does
+
+For a non-null living target, the selected BaseCannon impact method multiplies the incoming bullet multiplier by:
+
+**1 + target armor attribute × 1.5 / 100**
+
+It then passes the base damage getter times that adjusted multiplier to the gun-damage helper. The effect hook is called only when that helper reports success.
+
+| Target armor attribute | This pre-damage multiplier factor |
+|---:|---:|
+| 0 | 1.00 |
+| 10 | 1.15 |
+| 20 | 1.30 |
+| 30 | 1.45 |
+
+These are arithmetic examples of this one factor, not net damage after target defenses. The selected method does not establish that armor is ignored, removed or bypassed. A nonliving target does not take the living-target armor branch. Subclass overrides, projectile effects and other mods still require separate checks.
+
+## Zero inputs and projectile effects
+
+Ancient Discharger, Discharge Cannon and Missile Maker each receive a zero ordinary damage argument in this registration. Their ammunition methods construct specialized projectiles. The input table alone cannot establish the effect or safety of those projectiles, so do not rank them as doing nothing or test them beside valuable builds on that assumption.
+
+Likewise, a cannon's name or texture does not establish an explosion, a terrain-destruction policy or a fixed radius. Inspect the corresponding projectile/effect path and world settings before promising those behaviors in an overhaul.
+
+## Practical and restoration checklist
+
+1. Verify the release and the exact ammunition row before crafting supplies.
+2. Test one small known inventory, especially with Greed or multiple matching stacks.
+3. Read the [base firing requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2), while keeping any subclass overrides distinct.
+4. Test living targets with known armor separately from nonliving targets. Record final health changes instead of treating the constructor input as the answer.
+5. Check custom projectiles, rejected spawns, resource payment, durability and cooldown together.
+6. Preserve original resource semantics in optional remodels. Reloading remains an optional presentation/design choice, not a new mandatory rule inferred from these cannon references.
+
+[Released constructors, three base methods, 49 resolved ammunition-method records and Cannonball recipe](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-cannon-inputs-1.12.2.json) · [Source-model crop provenance](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/cannon-art-evidence-1.12.2.json).
