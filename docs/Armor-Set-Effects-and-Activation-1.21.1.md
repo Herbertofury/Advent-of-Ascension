@@ -305,6 +305,8 @@ The images use released textures and the checked neutral armor mesh. They do not
 
 ### Hydrangic
 
+[Petal Crafting acquisition and release differences](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Petal-Crafting-and-Hydrangic-Armor).
+
 <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/worn-armour-hydrangic-1.21.1.webp" width="220" height="220" alt="Hydrangic neutral armor-only study">
 
 [View set and all four pieces](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html?v=1.21.1&set=hydrangic)
