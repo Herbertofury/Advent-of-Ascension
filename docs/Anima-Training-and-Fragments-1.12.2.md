@@ -64,6 +64,8 @@ Historical Extraction's loot table includes Fragmented Anima Stone at effective 
 
 ### Save fragments for tablet recipes
 
+Use the [complete Soul Tablet catalog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Tablets-Effects-and-Ownership-1.12.2) to compare all 17 effects, Soul costs, deactivation and ownership behavior.
+
 The released recipe scan finds **17 tablet recipes** referencing the fragment. Links open the exact historical grids and ingredient images; a recipe reference does not by itself certify placement, skill level, Soul supply or the tablet's effect.
 
 - [Agility Tablet](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2&q=aoa3%3Aagility_tablet)
