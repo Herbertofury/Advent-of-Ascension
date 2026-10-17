@@ -6,6 +6,8 @@
 
 [Boss attributes and mechanics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Boss-Dossiers) · [Smash tactics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Smash-Combat-Field-Guide) · [Versioned recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1)
 
+For group fights, read [boss reward distribution and multiplayer health scaling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Nowhere-Boss-Rewards-and-Multiplayer-Scaling-1.21.1) before entering. Make inventory room and check the server’s loot policy.
+
 ## The essential distinction: entry item versus arena summon
 
 The modern boss item does not simply create the boss beside you when you right-click it. For a ready token, the inspected common item flow takes a server player **into Nowhere** after its use action finishes. The actual encounter is requested at a **Boss Altar inside Nowhere**.

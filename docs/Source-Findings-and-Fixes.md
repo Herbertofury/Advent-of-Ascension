@@ -298,3 +298,8 @@ See [the illustrated Rosidons safety study](https://github.com/Herbertofury/Adve
 ## Movement and void utilities · released 1.21.1 review
 
 [Illustrated equipment and recovery guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Movement-and-Void-Recovery-Utilities-1.21.1) records the released 3.7.16.1 behavior and target-build acceptance checklist. Static candidates: Gravitator's mutable downward scan skips heights, its offhand durability call reports MAINHAND, Distorting Artifact uses fixed Y=257 without a local landing search, and Floating Stone replaces any qualifying dropped stack with one Heavy Boulder. These findings are not private Enderloom runtime defects or completed fixes. Preserve stack/component semantics, use bounded server-side checks and validate custom dimensions and multiplayer before certifying recovery.
+
+
+## Nowhere boss reward insertion · released 1.21.1 review
+
+The [multiplayer reward guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Nowhere-Boss-Rewards-and-Multiplayer-Scaling-1.21.1) checks four distribution modes and the default health scaling. In the copied partial-stack branch of split distribution, the original stack is reduced before insertion and the failed insertion branch does not reattach or drop the copied remainder. A bounded model retains 800 cases, including 680 with a detached remainder; vanilla inventory insertion was inspected separately. This is a static target-build test candidate, not an observed loss in the private Enderloom build. Preserve item/component conservation through full, partial and failed insertion, test recipient messages independently, and keep allocation event-scoped rather than adding recurring scans.
