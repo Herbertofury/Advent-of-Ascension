@@ -15,6 +15,7 @@ These guides explain the selected historical release. Read each guide’s limits
 
 | Topic | Walkthrough covers |
 |---|---|
+| [Minion abilities](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minion-Abilities-and-Choosing-Companions-1.12.2) | 22 companion comparisons, status effects, healing, utility interactions and movement limits |
 | [Creation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Creation-Minions-Slabs-and-Forge-1.12.2) | 22 minion slabs, exact crafting links, summon costs, sacrifice XP and owner/lifespan limits |
 | [Expedition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Expedition-Sprinting-Bonuses-and-Falls-1.12.2) | Sprint tick gates, selectable bonuses, fall multipliers and configuration interactions |
 | [Hunter](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hunter-Requirements-and-Training-1.12.2) | 71 illustrated defaults, level and XP sorting, attack permission and separate drop eligibility |
