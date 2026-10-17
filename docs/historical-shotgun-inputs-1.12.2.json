@@ -1,0 +1,6288 @@
+{
+  "subclass_methods": [
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/Amplifier.class",
+      "class_sha256": "54e04e91a0bc159f28a2792283faefa4f936f3fe93cad46205d9d069a6ad1b5e",
+      "name": "doImpactEffect",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2c2cb400362d0cb8003c57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 44
+        },
+        {
+          "offset": 2,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 45
+        },
+        {
+          "offset": 6,
+          "opcode": 12
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/WorldUtil",
+            "createExplosion",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;F)Lnet/minecraft/world/Explosion;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 87
+        },
+        {
+          "offset": 11,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/BlastBarrel.class",
+      "class_sha256": "0da18457f751538934ee92db93f640b322c93e752b78d2b570b8cc68142fa70c",
+      "name": "doImpactEffect",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2c2cb400362d0db8003c57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 44
+        },
+        {
+          "offset": 2,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 45
+        },
+        {
+          "offset": 6,
+          "opcode": 13
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/WorldUtil",
+            "createExplosion",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;F)Lnet/minecraft/world/Explosion;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 87
+        },
+        {
+          "offset": 11,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun.class",
+      "class_sha256": "84211d1d92ce9ded53ee271fd3e2008f76c014906fcafad21264f9d05f33fd1f",
+      "name": "fireShotgun",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;FI)V",
+      "code_hex": "b2002b08b600319a000704a7000403360503360615061504a2004dbb0033592b2a2c0715059900081234a700040c03b2002bb6003c123d66256ab2002bb6003c123d66256ab2002bb6003c123d66256ab700403a072bb400441907b6004a57840601a7ffb2b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 15,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 18,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 162,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            51
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 44
+        },
+        {
+          "offset": 34,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 35,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 153,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 18,
+          "constant": 1.5
+        },
+        {
+          "offset": 42,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 12
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 55,
+          "opcode": 102
+        },
+        {
+          "offset": 56,
+          "opcode": 37
+        },
+        {
+          "offset": 57,
+          "opcode": 106
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 66,
+          "opcode": 102
+        },
+        {
+          "offset": 67,
+          "opcode": 37
+        },
+        {
+          "offset": 68,
+          "opcode": 106
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 77,
+          "opcode": 102
+        },
+        {
+          "offset": 78,
+          "opcode": 37
+        },
+        {
+          "offset": 79,
+          "opcode": 106
+        },
+        {
+          "offset": 80,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityLimoniteBullet",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;IFIFFF)V"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 43
+        },
+        {
+          "offset": 86,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 87
+        },
+        {
+          "offset": 95,
+          "opcode": 132,
+          "operands": [
+            6,
+            1
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 167,
+          "operands": [
+            255,
+            178
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun.class",
+      "class_sha256": "da750edc532d93f10fd8d656bea911d47e8abc897169cf0c039b406774e8cb24",
+      "name": "fireShotgun",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;FI)V",
+      "code_hex": "b2002b08b600319a000704a7000403360503360615061504a2004dbb0033592b2a2c0715059900081234a700040c03b2002bb6003c123d66256ab2002bb6003c123d66256ab2002bb6003c123d66256ab700403a072bb400441907b6004a57840601a7ffb2b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 15,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 18,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 162,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            51
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 44
+        },
+        {
+          "offset": 34,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 35,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 153,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 18,
+          "constant": 1.5
+        },
+        {
+          "offset": 42,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 12
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 55,
+          "opcode": 102
+        },
+        {
+          "offset": 56,
+          "opcode": 37
+        },
+        {
+          "offset": 57,
+          "opcode": 106
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 66,
+          "opcode": 102
+        },
+        {
+          "offset": 67,
+          "opcode": 37
+        },
+        {
+          "offset": 68,
+          "opcode": 106
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 77,
+          "opcode": 102
+        },
+        {
+          "offset": 78,
+          "opcode": 37
+        },
+        {
+          "offset": 79,
+          "opcode": 106
+        },
+        {
+          "offset": 80,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityLimoniteBullet",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;IFIFFF)V"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 43
+        },
+        {
+          "offset": 86,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 87
+        },
+        {
+          "offset": 95,
+          "opcode": 132,
+          "operands": [
+            6,
+            1
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 167,
+          "operands": [
+            255,
+            178
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/LongShot.class",
+      "class_sha256": "1b60f447852dc6561ed2af918cc36badb54fe282a76d06e1dece096aafba5576",
+      "name": "fireShotgun",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;FI)V",
+      "code_hex": "03360515051504a20044bb0032592b2a2c10060c03b20036b6003c123d66256ab20036b6003c123d66256ab20036b6003c123d66256ab700403a062bb400461906b6004c57840501a7ffbbb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 162,
+          "operands": [
+            0,
+            68
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 187,
+          "operands": [
+            0,
+            50
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 43
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 19,
+          "opcode": 12
+        },
+        {
+          "offset": 20,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 21,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 29,
+          "opcode": 102
+        },
+        {
+          "offset": 30,
+          "opcode": 37
+        },
+        {
+          "offset": 31,
+          "opcode": 106
+        },
+        {
+          "offset": 32,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 40,
+          "opcode": 102
+        },
+        {
+          "offset": 41,
+          "opcode": 37
+        },
+        {
+          "offset": 42,
+          "opcode": 106
+        },
+        {
+          "offset": 43,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 51,
+          "opcode": 102
+        },
+        {
+          "offset": 52,
+          "opcode": 37
+        },
+        {
+          "offset": 53,
+          "opcode": 106
+        },
+        {
+          "offset": 54,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityLimoniteBullet",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;IFIFFF)V"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 43
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 87
+        },
+        {
+          "offset": 69,
+          "opcode": 132,
+          "operands": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 167,
+          "operands": [
+            255,
+            187
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun.class",
+      "class_sha256": "82feb91d2cef0eed9a95d3bdea54afbe2e3093027a260813c790647309641f75",
+      "name": "fireShotgun",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;FI)V",
+      "code_hex": "03360515051504a20043bb004a592b2a2c070c03b2004eb60054125566256ab2004eb60054125566256ab2004eb60054125566256ab700583a062bb4005b1906b6006157840501a7ffbcb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 162,
+          "operands": [
+            0,
+            67
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 187,
+          "operands": [
+            0,
+            74
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 43
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 18,
+          "opcode": 12
+        },
+        {
+          "offset": 19,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 28,
+          "opcode": 102
+        },
+        {
+          "offset": 29,
+          "opcode": 37
+        },
+        {
+          "offset": 30,
+          "opcode": 106
+        },
+        {
+          "offset": 31,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 39,
+          "opcode": 102
+        },
+        {
+          "offset": 40,
+          "opcode": 37
+        },
+        {
+          "offset": 41,
+          "opcode": 106
+        },
+        {
+          "offset": 42,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 50,
+          "opcode": 102
+        },
+        {
+          "offset": 51,
+          "opcode": 37
+        },
+        {
+          "offset": 52,
+          "opcode": 106
+        },
+        {
+          "offset": 53,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityDischargeShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;IFIFFF)V"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 43
+        },
+        {
+          "offset": 59,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 87
+        },
+        {
+          "offset": 68,
+          "opcode": 132,
+          "operands": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 167,
+          "operands": [
+            255,
+            188
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun.class",
+      "class_sha256": "82feb91d2cef0eed9a95d3bdea54afbe2e3093027a260813c790647309641f75",
+      "name": "findAndConsumeAmmo",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;",
+      "code_hex": "2bbb006a59b20070b700730404b200792cb8007f60b80085990016bb004a592b2cb60089c0008b2d0703b7008eb001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            106
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DISCHARGE_CAPSULE",
+            "Lnet/tslat/aoa3/item/misc/AmmoItem;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "GREED",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 96
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            74
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 44
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            139
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 45
+        },
+        {
+          "offset": 40,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 41,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 42,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityDischargeShot",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 176
+        },
+        {
+          "offset": 46,
+          "opcode": 1
+        },
+        {
+          "offset": 47,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun.class",
+      "class_sha256": "82feb91d2cef0eed9a95d3bdea54afbe2e3093027a260813c790647309641f75",
+      "name": "doImpactDamage",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2bc600072db600342c2db400382d1239b8003f57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 198,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 45
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "doImpactEffect",
+            "()V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 44
+        },
+        {
+          "offset": 9,
+          "opcode": 45
+        },
+        {
+          "offset": 10,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 45
+        },
+        {
+          "offset": 14,
+          "opcode": 18,
+          "constant": 2.5
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/WorldUtil",
+            "createExplosion",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;F)Lnet/minecraft/world/Explosion;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 87
+        },
+        {
+          "offset": 20,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "spreadshot_recipe": {
+    "path": "assets/aoa3/recipes/items/misc/ammo/spreadshot.json",
+    "sha256": "bac29c1395ee621dcd8d4882e2456d6a3f3241bbf45204efb8722bd447ffb1fd",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " A ",
+        "ABA",
+        " C "
+      ],
+      "key": {
+        "A": [
+          {
+            "item": "aoa3:limonite_bullet"
+          }
+        ],
+        "B": [
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ],
+        "C": [
+          {
+            "item": "aoa3:limonite_ingot"
+          }
+        ]
+      },
+      "result": {
+        "item": "aoa3:spreadshot",
+        "count": 5
+      }
+    }
+  },
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Direct shotgun constructors in released registration method, exact identity constructors and selected BaseShotgun methods. Not aggregate pellet damage, DPS, ammo semantics or firing-mode certification.",
+  "registration_class": "net/tslat/aoa3/common/registration/WeaponRegister.class",
+  "registration_sha256": "bb0ca1a0b768e677e1809091b9973d24df935dda88599ecad04467918cf0d5bc",
+  "registration_method": {
+    "name": "registerWeapon",
+    "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+    "code_hex": "2ab601f44c2b1024bd01f65903bb01f859b201fe0eb70201535904bb020359b202060eb70207535905bb020959b2020c14020db7020f535906bb021159b202140eb70215535907bb021759b2021a0eb7021b535908bb021d59b202200eb7022153591006bb022359b202260eb7022753591007bb022959b2022c0eb7022d53591008bb022f59b20232140233b7023553591009bb023759b2023a0eb7023b5359100abb023d59b202400eb702415359100bbb024359b202460eb702475359100cbb024959b2024c0eb7024d5359100dbb024f59b202520eb702535359100ebb025559b20258b2025cb4025fb702605359100fbb026259b202650eb7026653591010bb026859b2026b0eb7026c53591011bb026e59b202710eb7027253591012bb027459b20277b2027ab4025fb7027b53591013bb027d59b202800eb7028153591014bb028359b202860eb7028753591015bb028959b2028c0eb7028d53591016bb028f59b202920eb7029353591017bb029559b202980eb7029953591018bb029b59b2029e0eb7029f53591019bb02a159b202a40eb702a55359101abb02a759b202aa0eb702ab5359101bbb02ad59b202b00eb702b15359101cbb02b359b202b60eb702b75359101dbb02b959b202bc0eb702bd5359101ebb02bf59b202c21402c3b702c55359101fbb02c759b202ca0eb702cb53591020bb02cd59b202d00eb702d153591021bb02d359b202d50eb702d653591022bb02d859b202db0eb702dc53591023bb02de59b202e10eb702e253b802e62b101dbd02e85903bb02ea591402eb0e1104b0b702ef535904bb02f1591402f20e110546b702f4535905bb02f6591402f70e1105aab702f9535906bb02fb591402fc0e110708b702fe535907bb0300591403010e110640b70303535908bb0305591403060e110438b7030853591006bb030a5914030b0e1105c8b7030d53591007bb030f591403061403101106d6b7031253591008bb0314591403150e1107d0b7031753591009bb03195914030b0e110514b7031a5359100abb031c5914030b0e11055ab7031d5359100bbb031f591403200e110802b703225359100cbb0324591403250e11044cb703275359100dbb03295914032a0e11073ab7032c5359100ebb032e5914032f1403311106d6b703335359100fbb0335591403361403381105dcb7033a53591010bb033c591403200e110802b7033d53591011bb033f591402f70e11062cb7034053591012bb0342591403061403101106d6b7034353591013bb0345591403460e11076cb7034853591014bb034a5914034b0e1105beb7034d53591015bb034f591403060e11046ab7035053591016bb0352591402fc0e110708b7035353591017bb0355591403061403101106d6b7035653591018bb0358591403590e110514b7035b53591019bb035d5914035e0e1107d0b703605359101abb0362591403590e110488b703635359101bbb0365591403010e1106d6b703665359101cbb0368591403250e11041ab7036953b8036d2b08bd036f5903bb037159130372b80378b2037bb4025fb80380140381110640b70385535904bb038759130388b80378b2037bb4025fb80380140389110578b7038b535905bb038d5913038eb80378b2037bb4025fb8038014038f1105dcb70391535906bb039359130394b80378b2037bb4025fb80380140395110514b70397535907bb03995913039ab80378b2037bb4025fb8038014038f1106d6b7039b53b8039f2b104ebd03a15903bb03a3591403a411049c100c1303a6b703a9535904bb03ab5914034b1105c810181303acb703ad535905bb03af591403b01105d210181303acb703b2535906bb03b4591403b51105f010081303b7b703b8535907bb03ba591403061105dc10141303a6b703bb535908bb03bd591403be11026c10141303a6b703c053591006bb03c2591403c311027610141303b7b703c553591007bb03c7591403c311039810101303b7b703c853591008bb03ca591402fc11036610201303cbb703cc53591009bb03ce591403cf1103c010080db703d15359100abb03d3591403be11037a10100db703d45359100bbb03d6591403d71105be10101303d9b703da5359100cbb03dc591403dd11038e100c1303b7b703df5359100dbb03e1591403e21101f410281303e4b703e55359100ebb03e7591403b5110276100c1303a6b703e85359100fbb03ea591403be11036610101303ebb703ec53591010bb03ee591403dd11044c100c1303a6b703ef53591011bb03f1591403f21105e6100c1303d9b703f453591012bb03f6591403b011016810141303f7b703f853591013bb03fa591403c311026210141303ebb703fb53591014bb03fd591403fe11023a10181303acb7040053591015bb04025914040311056e10100db7040553591016bb04075914040811046010081303b7b7040a53591017bb040c591402f211049c10181303d9b7040d53591018bb040f5914032f110244101c1303acb7041053591019bb04125914040811046010081303b7b704135359101abb0415591403b51105fa10080db704165359101bbb04185914041911035c101c1303b7b7041b5359101cbb041d591404031105dc10101303b7b7041e5359101dbb04205914042111044c10101303ebb704235359101ebb04255914040811046010081303b7b704265359101fbb042859140429110276100c0db7042b53591020bb042d5914034b11024e102413042eb7042f53591021bb04315914040811046010081303b7b7043253591022bb04345914035e1105f0101c1303b7b7043553591023bb0437591403f21105e6100c1303a6b7043853591024bb043a5914043b11058c100c1303a6b7043d53591025bb043f591404401105be10181303ebb7044253591026bb0444591403f21105d2100c1303b7b7044553591027bb04475914044811024410181303ebb7044a53591028bb044c59140359110384101c1303b7b7044d53591029bb044f591403f21105dc100c1303a6b704505359102abb0452591403dd1103a2100c1303a6b704535359102bbb0455591403c311038e10101303b7b704565359102cbb04585914040311038410141303b7b704595359102dbb045b5914045c1105be10201303cbb7045e5359102ebb0460591403f2110596100c1303ebb704615359102fbb0463591403251103ac10181303acb7046453591030bb0466591404671105fa071303a6b7046953591031bb046b5914046c1103ac100c1303a6b7046e53591032bb04705914047111029e071303a6b7047353591033bb0475591403cf11038410081303b7b7047653591034bb0478591404481104d810101303a6b7047953591035bb047b591404031105d210101303a6b7047c53591036bb047e591403251105dc10141303b7b7047f53591037bb04815914034b11030c1020130482b7048353591038bb0485591404081103de10101303d9b7048653591039bb0488591403151105d21020130482b704895359103abb048b591403461105c8101c1303acb7048c5359103bbb048e591404671105fa071303a6b7048f5359103cbb04915914032a1104a6101c1303acb704925359103dbb0494591404951104b010141303a6b704975359103ebb0499591403b011027610101303acb7049a5359103fbb049c5914034b1105be101813042eb7049d53591040bb049f5914030111019010181303d9b704a053591041bb04a25914044011062c101813042eb704a353591042bb04a5591402eb11062210141303a6b704a653591043bb04a85914043b11037010101303a6b704a953591044bb04ab591403f21105e6100c1303d9b704ac53591045bb04ae591403a41104ba100c1303d9b704af53591046bb04b1591403be11012c101813042eb704b253591047bb04b45914040311038410141303a6b704b553591048bb04b75914043b1105fa100c1303ebb704b853591049bb04ba591403f21105d2100c1303d9b704bb5359104abb04bd591403cf11014a100c1303d9b704be5359104bbb04c05914043b1103a210101303a6b704c15359104cbb04c3591404c4110244101c0cb704c65359104dbb04c8591403dd110398100c1303d9b704c953b804cd2b1011bd04cf5903bb04d1591403250511044c102e1304d21304d3b704d6535904bb04d85914046c0811044c10381303f713038eb704d9535905bb04db59140421061102e4103e1304dc130394b704dd535906bb04df591404480611046010361304dc1304e0b704e1535907bb04e3591403f207110438103a1304dc1304e4b704e5535908bb04e7591403cf0611012c10361304dc1304e0b704e853591006bb04ea591404eb071102da103a1304dc1304e4b704ed53591007bb04ef591403a4061102b210381304dc1303cbb704f053591008bb04f2590e071100a010370b1303e4b704f353591009bb04f5591404f6100a11032010441303f713039ab704f85359100abb04fa59140429081102d0103c1304dc1304fbb704fc5359100bbb04fe591404ff051102da10361303f7130501b705025359100cbb050459140421051102d0102e1304d21304d3b705055359100dbb0507591404030611044210381304dc1303cbb705085359100ebb050a5914041905110460103413050b130394b7050c5359100fbb050e591403f2051101f4103413050b130394b7050f53591010bb051159140429061102c610241304d213042eb7051253b805162b101bbd05185903bb051a5914051b1100f0105813051db7051e535904bb0520591403e211012c10561304d3b70521535905bb05235914052410641064130526b70527535906bb05295914052a11009610541304fbb7052c535907bb052e5914052f1101311054130531b70532535908bb053459140535110221105f1304d3b7053753591006bb05395914053a110159105813053cb7053d53591007bb053f59140540110230106013038eb7054253591008bb0544591403461078105a13038eb7054553591009bb0547591403e21100b4105f1304d3b705485359100abb054a591403b011021c101813054bb7054c5359100bbb054e5914054f11015e105b1304e4b705515359100cbb0553591402f21100aa103c1304d3b705545359100dbb0556591405571102261046130559b7055a5359100ebb055c5914055d11017c105c130394b7055f5359100fbb05615914056211022b1054130531b7056453591010bb0566591405241101681046130559b7056753591011bb05695914056a1102121046130559b7056c53591012bb056e5914056f1102301070130571b7057253591013bb0574591405751100fa106013038eb7057753591014bb05795914054f11023a1046130559b7057a53591015bb057c5914057d11019510661304fbb7057f53591016bb0581591405621101c21061130571b7058253591017bb05845914055711015e10571304d3b7058553591018bb0587591405881101cc104d130531b7058a53591019bb058c5914058d1101d61070130571b7058f5359101abb0591591405241100b91059130531b7059253b805962b1032bd05985903bb059a59140440110357101c1303cbb7059b535904bb059d590e11035210141303acb7059e535905bb05a0591405a111012c10231303ebb705a3535906bb05a5591403c31101f910181303d9b705a6535907bb05a8591405a9110226103c1304fbb705ab535908bb05ad591405ae1101fe101b130531b705b053591006bb05b25914052f110343103c1304fbb705b353591007bb05b5591402f7110348101b130531b705b653591008bb05b859140325110186102413054bb705b953591009bb05bb5914032f1101fe101c1303cbb705bc5359100abb05be591403251101db103e13051db705bf5359100bbb05c1591403c31101f9101413054bb705c25359100cbb05c45914032a11035c101e13042eb705c55359100dbb05c7591403b0110208101013042eb705c85359100ebb05ca5914034b11023a10201305cbb705cc5359100fbb05ce591405cf11034d102a13054bb705d153591010bb05d3591403be11012c100f1303ebb705d453591011bb05d6590e11019010141303acb705d753591012bb05d95914032511026210191303a6b705da53591013bb05dc5914051b1102ee103013054bb705dd53591014bb05df591405a111033e100e1303d9b705e053591015bb05e2591404481101fe1017130531b705e353591016bb05e5591402eb1103521017130531b705e653591017bb05e859140336110258101c1304e0b705e953591018bb05eb5914034611024e10221304d3b705ec53591019bb05ee591403461102bc101e1303acb705ef5359101abb05f15914035e110348103e13051db705f25359101bbb05f4591404191103521018130559b705f55359101cbb05f75914042111017710181305f8b705f95359101dbb05fb5914034611024410241305cbb705fc5359101ebb05fe591405ae11035c10141303acb705ff5359101fbb0601591403a411019010141303acb7060253591020bb06045914051b1102ee103013054bb7060553591021bb06075914032011020d102a13054bb7060853591022bb060a5914040311019f101e1303a6b7060b53591023bb060d590e1101ef103c1305cbb7060e53591024bb0610591402f211035710191303a6b7061153591025bb06135914051b1102ee103013054bb7061453591026bb06165914044011034d101c1304e0b7061753591027bb06195914035e1101fe102a13054bb7061a53591028bb061c591405a1110140103213061db7061e53591029bb06205914051b1102ee103013054bb706215359102abb0623591404031102031018130559b706245359102bbb062659140346110352101e130501b706275359102cbb0629591404191103481018130559b7062a5359102dbb062c591403251101fe101e1303b7b7062d5359102ebb062f5914034b11025d101e1303ebb706305359102fbb0632591404031101b8101a130559b7063353591030bb06355914041911035710181303d9b7063653591031bb0638591405ae1101cc101e13042eb7063953b8063d2b1007bd063f5903bb064159b70642535904bb064459b70645535905bb064759b70648535906bb064a59b7064b535907bb064d59b7064e535908bb065059b7065153591006bb065359b7065453b806582b1008bd065a5903bb065c591404031032b7065f535904bb066159140336104bb70662535905bb066459140336104bb70665535906bb066759140336104bb70668535907bb066a59140336104bb7066b535908bb066d59140336104bb7066e53591006bb067059140336104bb7067153591007bb067359140336104bb7067453b806782b1021bd067a5903bb067c591403dd0c110258b7067f535904bb06815914030b0c1105e6b70682535905bb0684591402fc1306851105c8b70686535906bb0688591403be130689110bb8b7068a535907bb068c591405a113068d1104a6b7068e535908bb06905914032f0c11049cb7069153591006bb0693591404ff1306941102bcb7069553591007bb0697591405ae130698110384b7069953591008bb069b591405ae0c110398b7069c53591009bb069e591404eb0c110244b7069f5359100abb06a1591403f20c1102c6b706a25359100bbb06a4591404480c110398b706a55359100cbb06a75914032f0c110384b706a85359100dbb06aa591404191306ab1103a2b706ac5359100ebb06ae591406af0c11037ab706b15359100fbb06b3591404030c1103b6b706b453591010bb06b6591405a11306851102b2b706b753591011bb06b9591403250c110546b706ba53591012bb06bc591404ff0c110384b706bd53591013bb06bf591404190c110528b706c053591014bb06c2591403be0c110299b706c353591015bb06c5591403b51303a61105dcb706c653591016bb06c8591404eb1306c91102d0b706ca53591017bb06cc591404480c110352b706cd53591018bb06cf591405ae0c1104b0b706d053591019bb06d2591404401306ab11044cb706d35359101abb06d5591403be13068d110384b706d65359101bbb06d8591403d70d1103a2b706d95359101cbb06db591406dc1306981105fab706de5359101dbb06e0591405a1130694110384b706e15359101ebb06e35914046c1306e4110258b706e55359101fbb06e7591403c30c1102bcb706e853591020bb06ea591406af0c110343b706eb53b806ef2b1009bd06f15903bb06f359140421110258100c1303a6b706f4535904bb06f6591403a41105fa100c1303a6b706f7535905bb06f9591403f211051410101303a6b706fa535906bb06fc591403b51103b6100c1303a6b706fd535907bb06ff5914046c110500100c1303a6b70700535908bb0702591404eb11044c100c1303a6b7070353591006bb07055914040811064010081303a6b7070653591007bb0708591403dd11032010101303a6b7070953591008bb070b5914046c1104e2100c1303a6b7070c53b807102b1039bd07125903bb0714591104c4b70717535904bb0719591104e2b7071a535905bb071c591104b0b7071d535906bb071f591103b6b70720535907bb07225911047eb70723535908bb07255911047eb7072653591006bb0728591103b6b7072953591007bb072b591104ceb7072c53591008bb072e59110474b7072f53591009bb0731591104d8b707325359100abb073459110492b707355359100bbb073759110578b707385359100cbb073a5911041ab7073b5359100dbb073d5911041ab7073e5359100ebb074059110352b707415359100fbb0743591104ceb7074453591010bb0746591103deb7074753591011bb07495911046ab7074a53591012bb074c59110190b7074d53591013bb074f591104c9b7075053591014bb07525911046ab7075353591015bb07555911012cb7075653591016bb075859110384b7075953591017bb075b5911042eb7075c53591018bb075e591102bcb7075f53591019bb0761591104e2b707625359101abb07645911044cb707655359101bbb076759110456b707685359101cbb076a591104a6b7076b5359101dbb076d5911046ab7076e5359101ebb0770591105aab707715359101fbb0773591104b0b7077453591020bb0776591104bab7077753591021bb077959110424b7077a53591022bb077c59110352b7077d53591023bb077f591103f2b7078053591024bb0782591104ceb7078353591025bb0785591104ceb7078653591026bb078859110366b7078953591027bb078b5911049cb7078c53591028bb078e591103e8b7078f53591029bb0791591104b0b707925359102abb079459110384b707955359102bbb079759110564b707985359102cbb079a591105c8b7079b5359102dbb079d59110352b7079e5359102ebb07a0591103c0b707a15359102fbb07a3591104f6b707a453591030bb07a659110474b707a753591031bb07a9591102eeb707aa53591032bb07ac59110474b707ad53591033bb07af5911041ab707b053591034bb07b259110352b707b353591035bb07b55911058cb707b653591036bb07b859110352b707b953591037bb07bb59110352b707bc53591038bb07be59110320b707bf53b807c32b1038bd07c55903bb07c7590e110eb0100a1307c8b707c9535904bb07cb5914043b110c4e10081303e4b707cc535905bb07ce590f110ca8041303a6b707cf535906bb07d1591404671106d6100613051db707d2535907bb07d4591407d5110abe041307d7b707d8535908bb07da591403cf11097e100613051db707db53591006bb07dd5914043b110c8010081307deb707df53591007bb07e1591407e21103e810281307e4b707e553591008bb07e7590e1103e8100a0bb707e853591009bb07ea590e1105dc080bb707eb5359100abb07ed590e110c6c10641307c8b707ee5359100bbb07f0591403d7110ece081303d9b707f15359100cbb07f359140306110f00100c130531b707f45359100dbb07f6590e110b04061307deb707f75359100ebb07f9590f110ae6040db707fa5359100fbb07fc5914055711138810321307fdb707fe53591010bb080059140471110b5e0713051db7080153591011bb080359140395110ef6051307d7b7080453591012bb08065914038f110af006130807b7080853591013bb080a590e110b2c0413080bb7080c53591014bb080e590e110c8a040cb7080f53591015bb0811590e110ef606130812b7081353591016bb08155914046711025804130816b7081753591017bb0819591403c3110ed8100813081ab7081b53591018bb081d591405a1110c80100a13051db7081e53591019bb082059140467110ca8061303d9b708215359101abb082359140421110afa100b130824b708255359101bbb082759140467110bf4071303d9b708285359101cbb082a5914082b110b18041307d7b7082d5359101dbb082f5914034b110ee2100e130830b708315359101ebb0833590e1007040bb708345359101fbb083659140395110c80051303b7b7083753591020bb08395914083a110ad2101e1307c8b7083c53591021bb083e591402eb110c6c100e13083fb7084053591022bb0842590e110ea61064130843b7084453591023bb08465914038f11071208130847b7084853591024bb084a590f110c76041306c9b7084b53591025bb084d59140325110c9e100d130372b7084e53591026bb085059140851110f3c041306c9b7085353591027bb085559140851110afa041303a6b7085653591028bb0858590e110a281014130859b7085a53591029bb085c591403c31109ba100c13085db7085e5359102abb086059140471110bb805130861b708625359102bbb0864591403fe110e10071303d9b708655359102cbb0867590e110af01014130868b708695359102dbb086b59140419110ed8100d13086cb7086d5359102ebb086f5914038f110ec4051303a6b708705359102fbb087259140873110eba040db7087553591030bb0877590e08040bb7087853591031bb087a59140851110c76040db7087b53591032bb087d590e110b36100a13087eb7087f53591033bb088159140882110960100c130884b7088553591034bb0887590e110ac81007130571b7088853591035bb088a590e110b360413088bb7088c53591036bb088e591403cf110b0e08130559b7088f53591037bb0891591403b5110320100713053cb7089253b80896b1"
+  },
+  "base_class": "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun.class",
+  "base_sha256": "264c51aeda72e2e171957682c21cf5204bab80ef54cdf3360d2f45a07d05d307",
+  "base_methods": [
+    {
+      "name": "<init>",
+      "descriptor": "(DIIIFF)V",
+      "code_hex": "2a27150415051707b700152a1db500172a1706b500192ab2001fb6002357b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/gun/BaseGun",
+            "<init>",
+            "(DIIF)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 29
+        },
+        {
+          "offset": 13,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "pelletCount",
+            "I"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "knockbackFactor",
+            "F"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 42
+        },
+        {
+          "offset": 23,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "SHOTGUNS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 87
+        },
+        {
+          "offset": 30,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "name": "getPelletCount",
+      "descriptor": "()I",
+      "code_hex": "2ab40017ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "pelletCount",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "name": "func_77659_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;",
+      "code_hex": "2c2db6003e3a042d2a1904b60042a5000cb200481904b8004eb02c0bb600540c969c000cb200481904b8004eb02a2c19042db600583a051905c600b82bb4005e9a0028125fb200651904b8006b866a38062a2c2d126c2ab40017866a0c1706666a2ab40017b600702ab60074c600202cb40078012cb4007b2cb4007e2cb400812ab60074b200870c0cb6008b1904042cb6008f2cb600932a2ab60096b6009c2cc1009e990045b200a11904b8006b36062a19042cb600a50c150686125f6a666a3807b200abbb00ad592db200b3a6000b170712b46aa7000517072ab60096b700b92cc0009eb600bdb200c01904b8004eb02cc1009e99000e2cc0009e2cb400c4b600c8b200481904b8004eb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 45
+        },
+        {
+          "offset": 2,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 45
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getGunHand",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 165,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/ActionResult",
+            "newResult",
+            "(Lnet/minecraft/util/EnumActionResult;Ljava/lang/Object;)Lnet/minecraft/util/ActionResult;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 176
+        },
+        {
+          "offset": 26,
+          "opcode": 44
+        },
+        {
+          "offset": 27,
+          "opcode": 11
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184825_o",
+            "(F)F"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 12
+        },
+        {
+          "offset": 32,
+          "opcode": 150
+        },
+        {
+          "offset": 33,
+          "opcode": 156,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/ActionResult",
+            "newResult",
+            "(Lnet/minecraft/util/EnumActionResult;Ljava/lang/Object;)Lnet/minecraft/util/ActionResult;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 176
+        },
+        {
+          "offset": 45,
+          "opcode": 42
+        },
+        {
+          "offset": 46,
+          "opcode": 44
+        },
+        {
+          "offset": 47,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 45
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "findAndConsumeAmmo",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 198,
+          "operands": [
+            0,
+            184
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 43
+        },
+        {
+          "offset": 61,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 154,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 18,
+          "constant": 0.15000000596046448
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "FORM",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 134
+        },
+        {
+          "offset": 78,
+          "opcode": 106
+        },
+        {
+          "offset": 79,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 42
+        },
+        {
+          "offset": 82,
+          "opcode": 44
+        },
+        {
+          "offset": 83,
+          "opcode": 45
+        },
+        {
+          "offset": 84,
+          "opcode": 18,
+          "constant": 0.10000000149011612
+        },
+        {
+          "offset": 86,
+          "opcode": 42
+        },
+        {
+          "offset": 87,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "pelletCount",
+            "I"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 134
+        },
+        {
+          "offset": 91,
+          "opcode": 106
+        },
+        {
+          "offset": 92,
+          "opcode": 12
+        },
+        {
+          "offset": 93,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 102
+        },
+        {
+          "offset": 96,
+          "opcode": 106
+        },
+        {
+          "offset": 97,
+          "opcode": 42
+        },
+        {
+          "offset": 98,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "pelletCount",
+            "I"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "fireShotgun",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;FI)V"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 42
+        },
+        {
+          "offset": 105,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getFiringSound",
+            "()Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 198,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 44
+        },
+        {
+          "offset": 112,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 1
+        },
+        {
+          "offset": 116,
+          "opcode": 44
+        },
+        {
+          "offset": 117,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 44
+        },
+        {
+          "offset": 121,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 44
+        },
+        {
+          "offset": 125,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 42
+        },
+        {
+          "offset": 129,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getFiringSound",
+            "()Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "PLAYERS",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 12
+        },
+        {
+          "offset": 136,
+          "opcode": 12
+        },
+        {
+          "offset": 137,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184148_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 143,
+          "opcode": 44
+        },
+        {
+          "offset": 144,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77972_a",
+            "(ILnet/minecraft/entity/EntityLivingBase;)V"
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 44
+        },
+        {
+          "offset": 148,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184811_cZ",
+            "()Lnet/minecraft/util/CooldownTracker;"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 42
+        },
+        {
+          "offset": 152,
+          "opcode": 42
+        },
+        {
+          "offset": 153,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getFiringDelay",
+            "()I"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/CooldownTracker",
+            "func_185145_a",
+            "(Lnet/minecraft/item/Item;I)V"
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 44
+        },
+        {
+          "offset": 160,
+          "opcode": 193,
+          "operands": [
+            0,
+            158
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 153,
+          "operands": [
+            0,
+            69
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "CONTROL",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 42
+        },
+        {
+          "offset": 177,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 44
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getRecoilForShot",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;)F"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 12
+        },
+        {
+          "offset": 184,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 134
+        },
+        {
+          "offset": 187,
+          "opcode": 18,
+          "constant": 0.15000000596046448
+        },
+        {
+          "offset": 189,
+          "opcode": 106
+        },
+        {
+          "offset": 190,
+          "opcode": 102
+        },
+        {
+          "offset": 191,
+          "opcode": 106
+        },
+        {
+          "offset": 192,
+          "opcode": 56,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 194,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 197,
+          "opcode": 187,
+          "operands": [
+            0,
+            173
+          ]
+        },
+        {
+          "offset": 200,
+          "opcode": 89
+        },
+        {
+          "offset": 201,
+          "opcode": 45
+        },
+        {
+          "offset": 202,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumHand",
+            "OFF_HAND",
+            "Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 205,
+          "opcode": 166,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 208,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 18,
+          "constant": 2.5
+        },
+        {
+          "offset": 212,
+          "opcode": 106
+        },
+        {
+          "offset": 213,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 42
+        },
+        {
+          "offset": 219,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getFiringDelay",
+            "()I"
+          ]
+        },
+        {
+          "offset": 222,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketRecoil",
+            "<init>",
+            "(FI)V"
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 44
+        },
+        {
+          "offset": 226,
+          "opcode": 192,
+          "operands": [
+            0,
+            158
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "PASS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/ActionResult",
+            "newResult",
+            "(Lnet/minecraft/util/EnumActionResult;Ljava/lang/Object;)Lnet/minecraft/util/ActionResult;"
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 176
+        },
+        {
+          "offset": 241,
+          "opcode": 44
+        },
+        {
+          "offset": 242,
+          "opcode": 193,
+          "operands": [
+            0,
+            158
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 44
+        },
+        {
+          "offset": 249,
+          "opcode": 192,
+          "operands": [
+            0,
+            158
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 44
+        },
+        {
+          "offset": 253,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71069_bz",
+            "Lnet/minecraft/inventory/Container;"
+          ]
+        },
+        {
+          "offset": 256,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayerMP",
+            "func_71120_a",
+            "(Lnet/minecraft/inventory/Container;)V"
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/ActionResult",
+            "newResult",
+            "(Lnet/minecraft/util/EnumActionResult;Ljava/lang/Object;)Lnet/minecraft/util/ActionResult;"
+          ]
+        },
+        {
+          "offset": 267,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "name": "fireShotgun",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;FI)V",
+      "code_hex": "03360515051504a20043bb00d5592b2a2c070c03b200d9b600df12e066256ab200d9b600df12e066256ab200d9b600df12e066256ab700e33a062bb400e61906b600ea57840501a7ffbcb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 162,
+          "operands": [
+            0,
+            67
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 187,
+          "operands": [
+            0,
+            213
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 43
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 18,
+          "opcode": 12
+        },
+        {
+          "offset": 19,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 28,
+          "opcode": 102
+        },
+        {
+          "offset": 29,
+          "opcode": 37
+        },
+        {
+          "offset": 30,
+          "opcode": 106
+        },
+        {
+          "offset": 31,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 39,
+          "opcode": 102
+        },
+        {
+          "offset": 40,
+          "opcode": 37
+        },
+        {
+          "offset": 41,
+          "opcode": 106
+        },
+        {
+          "offset": 42,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 50,
+          "opcode": 102
+        },
+        {
+          "offset": 51,
+          "opcode": 37
+        },
+        {
+          "offset": 52,
+          "opcode": 106
+        },
+        {
+          "offset": 53,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityLimoniteBullet",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;IFIFFF)V"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 43
+        },
+        {
+          "offset": 59,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 87
+        },
+        {
+          "offset": 68,
+          "opcode": 132,
+          "operands": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 167,
+          "operands": [
+            255,
+            188
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "name": "doImpactDamage",
+      "descriptor": "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V",
+      "code_hex": "2bc600720c38052db600f5c6001d17058d1400f6b200fa2c2db600f5b600fbb8006b876b639038052b2c2d2ab600ff9017046a17056ab8010599003a2ab400190b959e00282bc100e59900212bc000e52c2ab400192cb401062bb40109672cb4010a2bb4010b67b8010f2a2b2c2d1704b60112b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 198,
+          "operands": [
+            0,
+            114
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 12
+        },
+        {
+          "offset": 5,
+          "opcode": 56,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 45
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "getHand",
+            "()Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 198,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 141
+        },
+        {
+          "offset": 17,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "SHELL",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 44
+        },
+        {
+          "offset": 24,
+          "opcode": 45
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/BaseBullet",
+            "getHand",
+            "()Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 135
+        },
+        {
+          "offset": 35,
+          "opcode": 107
+        },
+        {
+          "offset": 36,
+          "opcode": 99
+        },
+        {
+          "offset": 37,
+          "opcode": 144
+        },
+        {
+          "offset": 38,
+          "opcode": 56,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 43
+        },
+        {
+          "offset": 41,
+          "opcode": 44
+        },
+        {
+          "offset": 42,
+          "opcode": 45
+        },
+        {
+          "offset": 43,
+          "opcode": 42
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "getDamage",
+            "()D"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 144
+        },
+        {
+          "offset": 48,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 106
+        },
+        {
+          "offset": 51,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 106
+        },
+        {
+          "offset": 54,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "dealGunDamage",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/projectile/EntityThrowable;F)Z"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 153,
+          "operands": [
+            0,
+            58
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 42
+        },
+        {
+          "offset": 61,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "knockbackFactor",
+            "F"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 11
+        },
+        {
+          "offset": 65,
+          "opcode": 149
+        },
+        {
+          "offset": 66,
+          "opcode": 158,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 43
+        },
+        {
+          "offset": 70,
+          "opcode": 193,
+          "operands": [
+            0,
+            229
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 153,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 43
+        },
+        {
+          "offset": 77,
+          "opcode": 192,
+          "operands": [
+            0,
+            229
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 44
+        },
+        {
+          "offset": 81,
+          "opcode": 42
+        },
+        {
+          "offset": 82,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "knockbackFactor",
+            "F"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 44
+        },
+        {
+          "offset": 86,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 43
+        },
+        {
+          "offset": 90,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 103
+        },
+        {
+          "offset": 94,
+          "opcode": 44
+        },
+        {
+          "offset": 95,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 43
+        },
+        {
+          "offset": 99,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 103
+        },
+        {
+          "offset": 103,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "doScaledKnockback",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/Entity;FDD)V"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 42
+        },
+        {
+          "offset": 107,
+          "opcode": 43
+        },
+        {
+          "offset": 108,
+          "opcode": 44
+        },
+        {
+          "offset": 109,
+          "opcode": 45
+        },
+        {
+          "offset": 110,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "doImpactEffect",
+            "(Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;F)V"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "name": "findAndConsumeAmmo",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;Lnet/minecraft/util/EnumHand;)Lnet/tslat/aoa3/entity/projectiles/gun/BaseBullet;",
+      "code_hex": "2bbb005059b2011db701200404b201232cb8006b60b80129990016bb012b592b2cb6012fc000042d0703b70132b001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SPREADSHOT",
+            "Lnet/tslat/aoa3/item/misc/AmmoItem;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EnchantmentsRegister",
+            "GREED",
+            "Lnet/tslat/aoa3/item/enchantment/BaseEnchantment;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 44
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/enchantment/EnchantmentHelper",
+            "func_77506_a",
+            "(Lnet/minecraft/enchantment/Enchantment;Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 96
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            1,
+            43
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 44
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 45
+        },
+        {
+          "offset": 40,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 41,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 42,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/gun/EntityMetalSlug",
+            "<init>",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/tslat/aoa3/item/weapon/gun/BaseGun;Lnet/minecraft/util/EnumHand;II)V"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 176
+        },
+        {
+          "offset": 46,
+          "opcode": 1
+        },
+        {
+          "offset": 47,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "aoa3:abyssro",
+      "inventory_id": "localization:item.Abyssro.name",
+      "name": "Abyssro",
+      "damage_input": 18.5,
+      "pellet_count": 2,
+      "durability_input": 1100,
+      "shot_interval_input_ticks": 46,
+      "knockback_factor": 0.30000001192092896,
+      "recoil_argument": 18.0,
+      "registration_window": [
+        {
+          "offset": 2974,
+          "opcode": 187,
+          "operands": [
+            4,
+            209
+          ]
+        },
+        {
+          "offset": 2977,
+          "opcode": 89
+        },
+        {
+          "offset": 2978,
+          "opcode": 20,
+          "constant": 18.5
+        },
+        {
+          "offset": 2981,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 2982,
+          "opcode": 17,
+          "constant": 1100
+        },
+        {
+          "offset": 2985,
+          "opcode": 16,
+          "constant": 46
+        },
+        {
+          "offset": 2987,
+          "opcode": 19,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 2990,
+          "opcode": 19,
+          "constant": 18.0
+        },
+        {
+          "offset": 2993,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Abyssro",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Abyssro",
+      "class_sha256": "dd3e0066c8d11aceccfdde6d804339a5e35e5e2803c1ae38a69f0ffc143f5dc8",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Abyssro"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Abyssro",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:abyssro"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Abyssro",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:amplifier",
+      "inventory_id": "localization:item.Amplifier.name",
+      "name": "Amplifier",
+      "damage_input": 9.0,
+      "pellet_count": 5,
+      "durability_input": 1100,
+      "shot_interval_input_ticks": 56,
+      "knockback_factor": 0.20000000298023224,
+      "recoil_argument": 25.0,
+      "registration_window": [
+        {
+          "offset": 2999,
+          "opcode": 187,
+          "operands": [
+            4,
+            216
+          ]
+        },
+        {
+          "offset": 3002,
+          "opcode": 89
+        },
+        {
+          "offset": 3003,
+          "opcode": 20,
+          "constant": 9.0
+        },
+        {
+          "offset": 3006,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 3007,
+          "opcode": 17,
+          "constant": 1100
+        },
+        {
+          "offset": 3010,
+          "opcode": 16,
+          "constant": 56
+        },
+        {
+          "offset": 3012,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 3015,
+          "opcode": 19,
+          "constant": 25.0
+        },
+        {
+          "offset": 3018,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Amplifier",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Amplifier",
+      "class_sha256": "54e04e91a0bc159f28a2792283faefa4f936f3fe93cad46205d9d069a6ad1b5e",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Amplifier"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Amplifier",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:amplifier"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Amplifier",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactEffect"
+      ]
+    },
+    {
+      "id": "aoa3:blast_barrel",
+      "inventory_id": "localization:item.BlastBarrel.name",
+      "name": "Blast Barrel",
+      "damage_input": 13.0,
+      "pellet_count": 3,
+      "durability_input": 740,
+      "shot_interval_input_ticks": 62,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 23.0,
+      "registration_window": [
+        {
+          "offset": 3024,
+          "opcode": 187,
+          "operands": [
+            4,
+            219
+          ]
+        },
+        {
+          "offset": 3027,
+          "opcode": 89
+        },
+        {
+          "offset": 3028,
+          "opcode": 20,
+          "constant": 13.0
+        },
+        {
+          "offset": 3031,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 3032,
+          "opcode": 17,
+          "constant": 740
+        },
+        {
+          "offset": 3035,
+          "opcode": 16,
+          "constant": 62
+        },
+        {
+          "offset": 3037,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3040,
+          "opcode": 19,
+          "constant": 23.0
+        },
+        {
+          "offset": 3043,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BlastBarrel",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/BlastBarrel",
+      "class_sha256": "0da18457f751538934ee92db93f640b322c93e752b78d2b570b8cc68142fa70c",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "BlastBarrel"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BlastBarrel",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:blast_barrel"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BlastBarrel",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactEffect"
+      ]
+    },
+    {
+      "id": "aoa3:blue_barrel",
+      "inventory_id": "localization:item.BlueBarrel.name",
+      "name": "Blue Barrel",
+      "damage_input": 14.5,
+      "pellet_count": 3,
+      "durability_input": 1120,
+      "shot_interval_input_ticks": 54,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 16.0,
+      "registration_window": [
+        {
+          "offset": 3049,
+          "opcode": 187,
+          "operands": [
+            4,
+            223
+          ]
+        },
+        {
+          "offset": 3052,
+          "opcode": 89
+        },
+        {
+          "offset": 3053,
+          "opcode": 20,
+          "constant": 14.5
+        },
+        {
+          "offset": 3056,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 3057,
+          "opcode": 17,
+          "constant": 1120
+        },
+        {
+          "offset": 3060,
+          "opcode": 16,
+          "constant": 54
+        },
+        {
+          "offset": 3062,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3065,
+          "opcode": 19,
+          "constant": 16.0
+        },
+        {
+          "offset": 3068,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BlueBarrel",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/BlueBarrel",
+      "class_sha256": "bf7ba2a1bc9c6bd5e3282a6fd8e776ba9e8ad8961d19d85622977041c15bc6fd",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "BlueBarrel"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BlueBarrel",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:blue_barrel"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BlueBarrel",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:boulder",
+      "inventory_id": "localization:item.Boulder.name",
+      "name": "Boulder",
+      "damage_input": 11.5,
+      "pellet_count": 4,
+      "durability_input": 1080,
+      "shot_interval_input_ticks": 58,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 30.0,
+      "registration_window": [
+        {
+          "offset": 3074,
+          "opcode": 187,
+          "operands": [
+            4,
+            227
+          ]
+        },
+        {
+          "offset": 3077,
+          "opcode": 89
+        },
+        {
+          "offset": 3078,
+          "opcode": 20,
+          "constant": 11.5
+        },
+        {
+          "offset": 3081,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 3082,
+          "opcode": 17,
+          "constant": 1080
+        },
+        {
+          "offset": 3085,
+          "opcode": 16,
+          "constant": 58
+        },
+        {
+          "offset": 3087,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3090,
+          "opcode": 19,
+          "constant": 30.0
+        },
+        {
+          "offset": 3093,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Boulder",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Boulder",
+      "class_sha256": "48815e1524d292eb97b4b8d5804478b551864a66d747761e56a4cf5eea083f2b",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Boulder"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Boulder",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:boulder"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Boulder",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:brown_blaster",
+      "inventory_id": "localization:item.BrownBlaster.name",
+      "name": "Brown Blaster",
+      "damage_input": 6.0,
+      "pellet_count": 3,
+      "durability_input": 300,
+      "shot_interval_input_ticks": 54,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 16.0,
+      "registration_window": [
+        {
+          "offset": 3099,
+          "opcode": 187,
+          "operands": [
+            4,
+            231
+          ]
+        },
+        {
+          "offset": 3102,
+          "opcode": 89
+        },
+        {
+          "offset": 3103,
+          "opcode": 20,
+          "constant": 6.0
+        },
+        {
+          "offset": 3106,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 3107,
+          "opcode": 17,
+          "constant": 300
+        },
+        {
+          "offset": 3110,
+          "opcode": 16,
+          "constant": 54
+        },
+        {
+          "offset": 3112,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3115,
+          "opcode": 19,
+          "constant": 16.0
+        },
+        {
+          "offset": 3118,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BrownBlaster",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/BrownBlaster",
+      "class_sha256": "6f6693e8f47d58adc66923d564e27feb76edbe62f6be5937be6669d57cc51e1a",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "BrownBlaster"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BrownBlaster",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:brown_blaster"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BrownBlaster",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:demolisher",
+      "inventory_id": "localization:item.Demolisher.name",
+      "name": "Demolisher",
+      "damage_input": 8.5,
+      "pellet_count": 4,
+      "durability_input": 730,
+      "shot_interval_input_ticks": 58,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 30.0,
+      "registration_window": [
+        {
+          "offset": 3125,
+          "opcode": 187,
+          "operands": [
+            4,
+            234
+          ]
+        },
+        {
+          "offset": 3128,
+          "opcode": 89
+        },
+        {
+          "offset": 3129,
+          "opcode": 20,
+          "constant": 8.5
+        },
+        {
+          "offset": 3132,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 3133,
+          "opcode": 17,
+          "constant": 730
+        },
+        {
+          "offset": 3136,
+          "opcode": 16,
+          "constant": 58
+        },
+        {
+          "offset": 3138,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3141,
+          "opcode": 19,
+          "constant": 30.0
+        },
+        {
+          "offset": 3144,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Demolisher",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Demolisher",
+      "class_sha256": "4b051bc4d5f137544d3ce83975c6805bf568d1ba5d3b547be531399435c11fdb",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Demolisher"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Demolisher",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:demolisher"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Demolisher",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:destruction_shotgun",
+      "inventory_id": "localization:item.DestructionShotgun.name",
+      "name": "Destruction Shotgun",
+      "damage_input": 10.5,
+      "pellet_count": 3,
+      "durability_input": 690,
+      "shot_interval_input_ticks": 56,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 14.0,
+      "registration_window": [
+        {
+          "offset": 3151,
+          "opcode": 187,
+          "operands": [
+            4,
+            239
+          ]
+        },
+        {
+          "offset": 3154,
+          "opcode": 89
+        },
+        {
+          "offset": 3155,
+          "opcode": 20,
+          "constant": 10.5
+        },
+        {
+          "offset": 3158,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 3159,
+          "opcode": 17,
+          "constant": 690
+        },
+        {
+          "offset": 3162,
+          "opcode": 16,
+          "constant": 56
+        },
+        {
+          "offset": 3164,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3167,
+          "opcode": 19,
+          "constant": 14.0
+        },
+        {
+          "offset": 3170,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+      "class_sha256": "84211d1d92ce9ded53ee271fd3e2008f76c014906fcafad21264f9d05f33fd1f",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "DestructionShotgun"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:destruction_shotgun"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DestructionShotgun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "fireShotgun"
+      ]
+    },
+    {
+      "id": "aoa3:discharge_shotgun",
+      "inventory_id": "localization:item.DischargeShotgun.name",
+      "name": "Discharge Shotgun",
+      "damage_input": 0.0,
+      "pellet_count": 4,
+      "durability_input": 160,
+      "shot_interval_input_ticks": 55,
+      "knockback_factor": 0.0,
+      "recoil_argument": 15.0,
+      "registration_window": [
+        {
+          "offset": 3177,
+          "opcode": 187,
+          "operands": [
+            4,
+            242
+          ]
+        },
+        {
+          "offset": 3180,
+          "opcode": 89
+        },
+        {
+          "offset": 3181,
+          "opcode": 14
+        },
+        {
+          "offset": 3182,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 3183,
+          "opcode": 17,
+          "constant": 160
+        },
+        {
+          "offset": 3186,
+          "opcode": 16,
+          "constant": 55
+        },
+        {
+          "offset": 3188,
+          "opcode": 11
+        },
+        {
+          "offset": 3189,
+          "opcode": 19,
+          "constant": 15.0
+        },
+        {
+          "offset": 3192,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+      "class_sha256": "82feb91d2cef0eed9a95d3bdea54afbe2e3093027a260813c790647309641f75",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b7000b2a1505b5000d2a120fb60013572a1215b6001957b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "firingDelay",
+            "I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 18,
+          "constant": "DischargeShotgun"
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 87
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 18,
+          "constant": "aoa3:discharge_shotgun"
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/DischargeShotgun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 87
+        },
+        {
+          "offset": 34,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "doImpactDamage",
+        "fireShotgun",
+        "findAndConsumeAmmo"
+      ]
+    },
+    {
+      "id": "aoa3:gimmick",
+      "inventory_id": "localization:item.Gimmick.name",
+      "name": "Gimmick",
+      "damage_input": 4.5,
+      "pellet_count": 10,
+      "durability_input": 800,
+      "shot_interval_input_ticks": 68,
+      "knockback_factor": 0.20000000298023224,
+      "recoil_argument": 28.0,
+      "registration_window": [
+        {
+          "offset": 3199,
+          "opcode": 187,
+          "operands": [
+            4,
+            245
+          ]
+        },
+        {
+          "offset": 3202,
+          "opcode": 89
+        },
+        {
+          "offset": 3203,
+          "opcode": 20,
+          "constant": 4.5
+        },
+        {
+          "offset": 3206,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 3208,
+          "opcode": 17,
+          "constant": 800
+        },
+        {
+          "offset": 3211,
+          "opcode": 16,
+          "constant": 68
+        },
+        {
+          "offset": 3213,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 3216,
+          "opcode": 19,
+          "constant": 28.0
+        },
+        {
+          "offset": 3219,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Gimmick",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Gimmick",
+      "class_sha256": "2a83e0b8292360e505d82876a18509b0e1794544649ec7c227de01b3411d4ad9",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Gimmick"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Gimmick",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:gimmick"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Gimmick",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:ginger_blaster",
+      "inventory_id": "localization:item.GingerBlaster.name",
+      "name": "Ginger Blaster",
+      "damage_input": 7.0,
+      "pellet_count": 5,
+      "durability_input": 720,
+      "shot_interval_input_ticks": 60,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 19.0,
+      "registration_window": [
+        {
+          "offset": 3226,
+          "opcode": 187,
+          "operands": [
+            4,
+            250
+          ]
+        },
+        {
+          "offset": 3229,
+          "opcode": 89
+        },
+        {
+          "offset": 3230,
+          "opcode": 20,
+          "constant": 7.0
+        },
+        {
+          "offset": 3233,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 3234,
+          "opcode": 17,
+          "constant": 720
+        },
+        {
+          "offset": 3237,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 3239,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3242,
+          "opcode": 19,
+          "constant": 19.0
+        },
+        {
+          "offset": 3245,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/GingerBlaster",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/GingerBlaster",
+      "class_sha256": "9279b4a4f1af1b79c271e34575a22aa64710018c25af2bf39dba37027aa2612c",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "GingerBlaster"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/GingerBlaster",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:ginger_blaster"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/GingerBlaster",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:long_shot",
+      "inventory_id": "localization:item.LongShot.name",
+      "name": "Long Shot",
+      "damage_input": 15.5,
+      "pellet_count": 2,
+      "durability_input": 730,
+      "shot_interval_input_ticks": 54,
+      "knockback_factor": 0.20000000298023224,
+      "recoil_argument": 12.0,
+      "registration_window": [
+        {
+          "offset": 3252,
+          "opcode": 187,
+          "operands": [
+            4,
+            254
+          ]
+        },
+        {
+          "offset": 3255,
+          "opcode": 89
+        },
+        {
+          "offset": 3256,
+          "opcode": 20,
+          "constant": 15.5
+        },
+        {
+          "offset": 3259,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 3260,
+          "opcode": 17,
+          "constant": 730
+        },
+        {
+          "offset": 3263,
+          "opcode": 16,
+          "constant": 54
+        },
+        {
+          "offset": 3265,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 3268,
+          "opcode": 19,
+          "constant": 12.0
+        },
+        {
+          "offset": 3271,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+      "class_sha256": "1b60f447852dc6561ed2af918cc36badb54fe282a76d06e1dece096aafba5576",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "LongShot"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:long_shot"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/LongShot",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "fireShotgun"
+      ]
+    },
+    {
+      "id": "aoa3:mechyro",
+      "inventory_id": "localization:item.Mechyro.name",
+      "name": "Mechyro",
+      "damage_input": 13.0,
+      "pellet_count": 2,
+      "durability_input": 720,
+      "shot_interval_input_ticks": 46,
+      "knockback_factor": 0.30000001192092896,
+      "recoil_argument": 18.0,
+      "registration_window": [
+        {
+          "offset": 3278,
+          "opcode": 187,
+          "operands": [
+            5,
+            4
+          ]
+        },
+        {
+          "offset": 3281,
+          "opcode": 89
+        },
+        {
+          "offset": 3282,
+          "opcode": 20,
+          "constant": 13.0
+        },
+        {
+          "offset": 3285,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 3286,
+          "opcode": 17,
+          "constant": 720
+        },
+        {
+          "offset": 3289,
+          "opcode": 16,
+          "constant": 46
+        },
+        {
+          "offset": 3291,
+          "opcode": 19,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 3294,
+          "opcode": 19,
+          "constant": 18.0
+        },
+        {
+          "offset": 3297,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Mechyro",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Mechyro",
+      "class_sha256": "bf5d6dd0055c44fb3524a3141cbfa009df871991e41b960a429b297a7905b2a9",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Mechyro"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Mechyro",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:mechyro"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Mechyro",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:purity_shotgun",
+      "inventory_id": "localization:item.PurityShotgun.name",
+      "name": "Purity Shotgun",
+      "damage_input": 15.0,
+      "pellet_count": 3,
+      "durability_input": 1090,
+      "shot_interval_input_ticks": 56,
+      "knockback_factor": 0.4000000059604645,
+      "recoil_argument": 14.0,
+      "registration_window": [
+        {
+          "offset": 3304,
+          "opcode": 187,
+          "operands": [
+            5,
+            7
+          ]
+        },
+        {
+          "offset": 3307,
+          "opcode": 89
+        },
+        {
+          "offset": 3308,
+          "opcode": 20,
+          "constant": 15.0
+        },
+        {
+          "offset": 3311,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 3312,
+          "opcode": 17,
+          "constant": 1090
+        },
+        {
+          "offset": 3315,
+          "opcode": 16,
+          "constant": 56
+        },
+        {
+          "offset": 3317,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 3320,
+          "opcode": 19,
+          "constant": 14.0
+        },
+        {
+          "offset": 3323,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+      "class_sha256": "da750edc532d93f10fd8d656bea911d47e8abc897169cf0c039b406774e8cb24",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b7000e2a1210b60014572a1216b6001a57b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "PurityShotgun"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:purity_shotgun"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurityShotgun",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": [
+        "fireShotgun"
+      ]
+    },
+    {
+      "id": "aoa3:purple_punisher",
+      "inventory_id": "localization:item.PurplePunisher.name",
+      "name": "Purple Punisher",
+      "damage_input": 20.5,
+      "pellet_count": 2,
+      "durability_input": 1120,
+      "shot_interval_input_ticks": 52,
+      "knockback_factor": 0.7850000262260437,
+      "recoil_argument": 23.0,
+      "registration_window": [
+        {
+          "offset": 3330,
+          "opcode": 187,
+          "operands": [
+            5,
+            10
+          ]
+        },
+        {
+          "offset": 3333,
+          "opcode": 89
+        },
+        {
+          "offset": 3334,
+          "opcode": 20,
+          "constant": 20.5
+        },
+        {
+          "offset": 3337,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 3338,
+          "opcode": 17,
+          "constant": 1120
+        },
+        {
+          "offset": 3341,
+          "opcode": 16,
+          "constant": 52
+        },
+        {
+          "offset": 3343,
+          "opcode": 19,
+          "constant": 0.7850000262260437
+        },
+        {
+          "offset": 3346,
+          "opcode": 19,
+          "constant": 23.0
+        },
+        {
+          "offset": 3349,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurplePunisher",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/PurplePunisher",
+      "class_sha256": "7e35ec98571615c31cacba025798171debee0a8227bb15b6d70cc9d3e69fb02d",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "PurplePunisher"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurplePunisher",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:purple_punisher"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/PurplePunisher",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:red_rocket",
+      "inventory_id": "localization:item.RedRocket.name",
+      "name": "Red Rocket",
+      "damage_input": 11.5,
+      "pellet_count": 2,
+      "durability_input": 500,
+      "shot_interval_input_ticks": 52,
+      "knockback_factor": 0.7850000262260437,
+      "recoil_argument": 23.0,
+      "registration_window": [
+        {
+          "offset": 3356,
+          "opcode": 187,
+          "operands": [
+            5,
+            14
+          ]
+        },
+        {
+          "offset": 3359,
+          "opcode": 89
+        },
+        {
+          "offset": 3360,
+          "opcode": 20,
+          "constant": 11.5
+        },
+        {
+          "offset": 3363,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 3364,
+          "opcode": 17,
+          "constant": 500
+        },
+        {
+          "offset": 3367,
+          "opcode": 16,
+          "constant": 52
+        },
+        {
+          "offset": 3369,
+          "opcode": 19,
+          "constant": 0.7850000262260437
+        },
+        {
+          "offset": 3372,
+          "opcode": 19,
+          "constant": 23.0
+        },
+        {
+          "offset": 3375,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/RedRocket",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/RedRocket",
+      "class_sha256": "82dd0b4f1d107b0fe1ad72b6985ef0aea38e50dab978c4f7c79475eeb4453fa5",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "RedRocket"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/RedRocket",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:red_rocket"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/RedRocket",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    },
+    {
+      "id": "aoa3:vivo",
+      "inventory_id": "localization:item.Vivo.name",
+      "name": "Vivo",
+      "damage_input": 7.0,
+      "pellet_count": 3,
+      "durability_input": 710,
+      "shot_interval_input_ticks": 36,
+      "knockback_factor": 0.30000001192092896,
+      "recoil_argument": 8.0,
+      "registration_window": [
+        {
+          "offset": 3382,
+          "opcode": 187,
+          "operands": [
+            5,
+            17
+          ]
+        },
+        {
+          "offset": 3385,
+          "opcode": 89
+        },
+        {
+          "offset": 3386,
+          "opcode": 20,
+          "constant": 7.0
+        },
+        {
+          "offset": 3389,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 3390,
+          "opcode": 17,
+          "constant": 710
+        },
+        {
+          "offset": 3393,
+          "opcode": 16,
+          "constant": 36
+        },
+        {
+          "offset": 3395,
+          "opcode": 19,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 3398,
+          "opcode": 19,
+          "constant": 8.0
+        },
+        {
+          "offset": 3401,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Vivo",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        }
+      ],
+      "constructor_class": "net/tslat/aoa3/item/weapon/shotgun/Vivo",
+      "class_sha256": "a9f3168953aad9638c00e52277d34c8d346fe8675fbb6e44259fa9afb0aa931f",
+      "constructor_descriptor": "(DIIIFF)V",
+      "constructor_code_hex": "2a271d1504150517061707b700092a120bb6000f572a1211b6001557b1",
+      "constructor_instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 39
+        },
+        {
+          "offset": 2,
+          "opcode": 29
+        },
+        {
+          "offset": 3,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/BaseShotgun",
+            "<init>",
+            "(DIIIFF)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 18,
+          "constant": "Vivo"
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Vivo",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 87
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:vivo"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/weapon/shotgun/Vivo",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ],
+      "declared_behavior_overrides": []
+    }
+  ]
+}
