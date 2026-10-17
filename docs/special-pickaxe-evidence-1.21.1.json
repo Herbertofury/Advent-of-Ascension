@@ -2,7 +2,7 @@
   "version": "1.21.1",
   "release": "3.7.16.1",
   "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
-  "scope": "Eight special pickaxes;14 selected released classes;resource registration and independent arithmetic examples. No game execution, final mining speed or compatibility benchmark.",
+  "scope": "Eight special pickaxes;14 selected AoA classes plus2 bundled TME helper classes;resource registration and independent arithmetic examples. No game execution, final mining speed or compatibility benchmark.",
   "classes": [
     {
       "path": "net/tslat/aoa3/content/item/tool/pickaxe/Gemcracker.class",
@@ -13196,10 +13196,1219 @@
     }
   ],
   "limits": [
-    "RandomUtil helper arguments are recorded; uninspected external RNG implementation is not turned into exact reward probabilities",
+    "Random helper endpoints are verified in the bundled TME1.0.0. Nominal percentages assume normal uniform draws;float discretization and loot gates remain separate.",
     "Pickmax queries the center world block during neighbor checks; callback timing and protection behavior need target-build tests",
     "Experience examples reproduce integer arguments per matched drop stack, not ordinary furnace XP mechanics",
     "Occult scan coordinates use Java truncation toward zero, not flooring or a spherical radius",
     "Repeated Occult render batches are appended and expire by tick; no measured FPS effect is claimed"
+  ],
+  "bundled_random_helpers": {
+    "archive": "META-INF/jarjar/TslatModdingExtensions-neoforge-1.21.1-1.0.0.jar",
+    "sha256": "8e21421ae839605cdafd2c43aa169baf073890d1939c80696d71077037c81c5b",
+    "classes": [
+      {
+        "path": "net/tslat/tme/api/util/RandomUtil.class",
+        "sha256": "dd86342d2f00d26c834fef54bf50da65d8dff537b8c7c1ef3ba9107d1d65f42b",
+        "methods": [
+          {
+            "name": "oneInNChance",
+            "descriptor": "(I)Z",
+            "code_hex": "b200071ab60013ac",
+            "instructions": [
+              {
+                "offset": 0,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/tme/api/util/RandomUtil",
+                  "RANDOM",
+                  "Lnet/tslat/tme/api/object/EasyRandom;"
+                ]
+              },
+              {
+                "offset": 3,
+                "opcode": 26
+              },
+              {
+                "offset": 4,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/tme/api/object/EasyRandom",
+                  "oneInNChance",
+                  "(I)Z"
+                ]
+              },
+              {
+                "offset": 7,
+                "opcode": 172
+              }
+            ]
+          },
+          {
+            "name": "numberUpTo",
+            "descriptor": "(I)I",
+            "code_hex": "b200071ab6001bac",
+            "instructions": [
+              {
+                "offset": 0,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/tme/api/util/RandomUtil",
+                  "RANDOM",
+                  "Lnet/tslat/tme/api/object/EasyRandom;"
+                ]
+              },
+              {
+                "offset": 3,
+                "opcode": 26
+              },
+              {
+                "offset": 4,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/tme/api/object/EasyRandom",
+                  "numberUpTo",
+                  "(I)I"
+                ]
+              },
+              {
+                "offset": 7,
+                "opcode": 172
+              }
+            ]
+          },
+          {
+            "name": "selection",
+            "descriptor": "([Ljava/lang/Object;)Ljava/lang/Object;",
+            "code_hex": "b200072ab6003eb0",
+            "instructions": [
+              {
+                "offset": 0,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/tme/api/util/RandomUtil",
+                  "RANDOM",
+                  "Lnet/tslat/tme/api/object/EasyRandom;"
+                ]
+              },
+              {
+                "offset": 3,
+                "opcode": 42
+              },
+              {
+                "offset": 4,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/tme/api/object/EasyRandom",
+                  "selection",
+                  "([Ljava/lang/Object;)Ljava/lang/Object;"
+                ]
+              },
+              {
+                "offset": 7,
+                "opcode": 176
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "net/tslat/tme/api/object/EasyRandom.class",
+        "sha256": "a6c003ad4afc878a426d37eaec8e2bc64e10170129f317baf479cbfeca74e8b7",
+        "methods": [
+          {
+            "name": "oneInNChance",
+            "descriptor": "(I)Z",
+            "code_hex": "1b9d000503ac1b049f00142ab40007b9002601000c1b866e969c000704a7000403ac",
+            "instructions": [
+              {
+                "offset": 0,
+                "opcode": 27
+              },
+              {
+                "offset": 1,
+                "opcode": 157,
+                "operands": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "offset": 4,
+                "opcode": 3,
+                "constant": 0
+              },
+              {
+                "offset": 5,
+                "opcode": 172
+              },
+              {
+                "offset": 6,
+                "opcode": 27
+              },
+              {
+                "offset": 7,
+                "opcode": 4,
+                "constant": 1
+              },
+              {
+                "offset": 8,
+                "opcode": 159,
+                "operands": [
+                  0,
+                  20
+                ]
+              },
+              {
+                "offset": 11,
+                "opcode": 42
+              },
+              {
+                "offset": 12,
+                "opcode": 180,
+                "member": [
+                  "net/tslat/tme/api/object/EasyRandom",
+                  "random",
+                  "Lnet/minecraft/util/RandomSource;"
+                ]
+              },
+              {
+                "offset": 15,
+                "opcode": 185,
+                "member": [
+                  "net/minecraft/util/RandomSource",
+                  "nextFloat",
+                  "()F"
+                ]
+              },
+              {
+                "offset": 20,
+                "opcode": 12
+              },
+              {
+                "offset": 21,
+                "opcode": 27
+              },
+              {
+                "offset": 22,
+                "opcode": 134
+              },
+              {
+                "offset": 23,
+                "opcode": 110
+              },
+              {
+                "offset": 24,
+                "opcode": 150
+              },
+              {
+                "offset": 25,
+                "opcode": 156,
+                "operands": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "offset": 28,
+                "opcode": 4,
+                "constant": 1
+              },
+              {
+                "offset": 29,
+                "opcode": 167,
+                "operands": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "offset": 32,
+                "opcode": 3,
+                "constant": 0
+              },
+              {
+                "offset": 33,
+                "opcode": 172
+              }
+            ]
+          },
+          {
+            "name": "numberUpTo",
+            "descriptor": "(I)I",
+            "code_hex": "2ab400071bb9002e0200ac",
+            "instructions": [
+              {
+                "offset": 0,
+                "opcode": 42
+              },
+              {
+                "offset": 1,
+                "opcode": 180,
+                "member": [
+                  "net/tslat/tme/api/object/EasyRandom",
+                  "random",
+                  "Lnet/minecraft/util/RandomSource;"
+                ]
+              },
+              {
+                "offset": 4,
+                "opcode": 27
+              },
+              {
+                "offset": 5,
+                "opcode": 185,
+                "member": [
+                  "net/minecraft/util/RandomSource",
+                  "nextInt",
+                  "(I)I"
+                ]
+              },
+              {
+                "offset": 10,
+                "opcode": 172
+              }
+            ]
+          },
+          {
+            "name": "selection",
+            "descriptor": "([Ljava/lang/Object;)Ljava/lang/Object;",
+            "code_hex": "2bbe9a000501b02b2ab400072bbeb9002e020032b0",
+            "instructions": [
+              {
+                "offset": 0,
+                "opcode": 43
+              },
+              {
+                "offset": 1,
+                "opcode": 190
+              },
+              {
+                "offset": 2,
+                "opcode": 154,
+                "operands": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "offset": 5,
+                "opcode": 1
+              },
+              {
+                "offset": 6,
+                "opcode": 176
+              },
+              {
+                "offset": 7,
+                "opcode": 43
+              },
+              {
+                "offset": 8,
+                "opcode": 42
+              },
+              {
+                "offset": 9,
+                "opcode": 180,
+                "member": [
+                  "net/tslat/tme/api/object/EasyRandom",
+                  "random",
+                  "Lnet/minecraft/util/RandomSource;"
+                ]
+              },
+              {
+                "offset": 12,
+                "opcode": 43
+              },
+              {
+                "offset": 13,
+                "opcode": 190
+              },
+              {
+                "offset": 14,
+                "opcode": 185,
+                "member": [
+                  "net/minecraft/util/RandomSource",
+                  "nextInt",
+                  "(I)I"
+                ]
+              },
+              {
+                "offset": 19,
+                "opcode": 50
+              },
+              {
+                "offset": 20,
+                "opcode": 176
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "Bundled TME1.0.0 delegates numberUpTo(n) and array selection to RandomSource.nextInt(n), exclusive upper bound;oneInNChance compares nextFloat with float1/n for n>1."
+  },
+  "gemcracker_positive_count_cases": [
+    {
+      "primary_count": 1,
+      "random_index": 0,
+      "extra": 1,
+      "total": 2
+    },
+    {
+      "primary_count": 2,
+      "random_index": 0,
+      "extra": 1,
+      "total": 3
+    },
+    {
+      "primary_count": 2,
+      "random_index": 1,
+      "extra": 2,
+      "total": 4
+    },
+    {
+      "primary_count": 3,
+      "random_index": 0,
+      "extra": 1,
+      "total": 4
+    },
+    {
+      "primary_count": 3,
+      "random_index": 1,
+      "extra": 2,
+      "total": 5
+    },
+    {
+      "primary_count": 3,
+      "random_index": 2,
+      "extra": 3,
+      "total": 6
+    },
+    {
+      "primary_count": 8,
+      "random_index": 0,
+      "extra": 1,
+      "total": 9
+    },
+    {
+      "primary_count": 8,
+      "random_index": 1,
+      "extra": 2,
+      "total": 10
+    },
+    {
+      "primary_count": 8,
+      "random_index": 2,
+      "extra": 3,
+      "total": 11
+    },
+    {
+      "primary_count": 8,
+      "random_index": 3,
+      "extra": 4,
+      "total": 12
+    },
+    {
+      "primary_count": 8,
+      "random_index": 4,
+      "extra": 5,
+      "total": 13
+    },
+    {
+      "primary_count": 8,
+      "random_index": 5,
+      "extra": 6,
+      "total": 14
+    },
+    {
+      "primary_count": 8,
+      "random_index": 6,
+      "extra": 7,
+      "total": 15
+    },
+    {
+      "primary_count": 8,
+      "random_index": 7,
+      "extra": 8,
+      "total": 16
+    },
+    {
+      "primary_count": 32,
+      "random_index": 0,
+      "extra": 1,
+      "total": 33
+    },
+    {
+      "primary_count": 32,
+      "random_index": 1,
+      "extra": 2,
+      "total": 34
+    },
+    {
+      "primary_count": 32,
+      "random_index": 2,
+      "extra": 3,
+      "total": 35
+    },
+    {
+      "primary_count": 32,
+      "random_index": 3,
+      "extra": 4,
+      "total": 36
+    },
+    {
+      "primary_count": 32,
+      "random_index": 4,
+      "extra": 5,
+      "total": 37
+    },
+    {
+      "primary_count": 32,
+      "random_index": 5,
+      "extra": 6,
+      "total": 38
+    },
+    {
+      "primary_count": 32,
+      "random_index": 6,
+      "extra": 7,
+      "total": 39
+    },
+    {
+      "primary_count": 32,
+      "random_index": 7,
+      "extra": 8,
+      "total": 40
+    },
+    {
+      "primary_count": 32,
+      "random_index": 8,
+      "extra": 9,
+      "total": 41
+    },
+    {
+      "primary_count": 32,
+      "random_index": 9,
+      "extra": 10,
+      "total": 42
+    },
+    {
+      "primary_count": 32,
+      "random_index": 10,
+      "extra": 11,
+      "total": 43
+    },
+    {
+      "primary_count": 32,
+      "random_index": 11,
+      "extra": 12,
+      "total": 44
+    },
+    {
+      "primary_count": 32,
+      "random_index": 12,
+      "extra": 13,
+      "total": 45
+    },
+    {
+      "primary_count": 32,
+      "random_index": 13,
+      "extra": 14,
+      "total": 46
+    },
+    {
+      "primary_count": 32,
+      "random_index": 14,
+      "extra": 15,
+      "total": 47
+    },
+    {
+      "primary_count": 32,
+      "random_index": 15,
+      "extra": 16,
+      "total": 48
+    },
+    {
+      "primary_count": 32,
+      "random_index": 16,
+      "extra": 17,
+      "total": 49
+    },
+    {
+      "primary_count": 32,
+      "random_index": 17,
+      "extra": 18,
+      "total": 50
+    },
+    {
+      "primary_count": 32,
+      "random_index": 18,
+      "extra": 19,
+      "total": 51
+    },
+    {
+      "primary_count": 32,
+      "random_index": 19,
+      "extra": 20,
+      "total": 52
+    },
+    {
+      "primary_count": 32,
+      "random_index": 20,
+      "extra": 21,
+      "total": 53
+    },
+    {
+      "primary_count": 32,
+      "random_index": 21,
+      "extra": 22,
+      "total": 54
+    },
+    {
+      "primary_count": 32,
+      "random_index": 22,
+      "extra": 23,
+      "total": 55
+    },
+    {
+      "primary_count": 32,
+      "random_index": 23,
+      "extra": 24,
+      "total": 56
+    },
+    {
+      "primary_count": 32,
+      "random_index": 24,
+      "extra": 25,
+      "total": 57
+    },
+    {
+      "primary_count": 32,
+      "random_index": 25,
+      "extra": 26,
+      "total": 58
+    },
+    {
+      "primary_count": 32,
+      "random_index": 26,
+      "extra": 27,
+      "total": 59
+    },
+    {
+      "primary_count": 32,
+      "random_index": 27,
+      "extra": 28,
+      "total": 60
+    },
+    {
+      "primary_count": 32,
+      "random_index": 28,
+      "extra": 29,
+      "total": 61
+    },
+    {
+      "primary_count": 32,
+      "random_index": 29,
+      "extra": 30,
+      "total": 62
+    },
+    {
+      "primary_count": 32,
+      "random_index": 30,
+      "extra": 31,
+      "total": 63
+    },
+    {
+      "primary_count": 32,
+      "random_index": 31,
+      "extra": 32,
+      "total": 64
+    },
+    {
+      "primary_count": 64,
+      "random_index": 0,
+      "extra": 1,
+      "total": 65
+    },
+    {
+      "primary_count": 64,
+      "random_index": 1,
+      "extra": 2,
+      "total": 66
+    },
+    {
+      "primary_count": 64,
+      "random_index": 2,
+      "extra": 3,
+      "total": 67
+    },
+    {
+      "primary_count": 64,
+      "random_index": 3,
+      "extra": 4,
+      "total": 68
+    },
+    {
+      "primary_count": 64,
+      "random_index": 4,
+      "extra": 5,
+      "total": 69
+    },
+    {
+      "primary_count": 64,
+      "random_index": 5,
+      "extra": 6,
+      "total": 70
+    },
+    {
+      "primary_count": 64,
+      "random_index": 6,
+      "extra": 7,
+      "total": 71
+    },
+    {
+      "primary_count": 64,
+      "random_index": 7,
+      "extra": 8,
+      "total": 72
+    },
+    {
+      "primary_count": 64,
+      "random_index": 8,
+      "extra": 9,
+      "total": 73
+    },
+    {
+      "primary_count": 64,
+      "random_index": 9,
+      "extra": 10,
+      "total": 74
+    },
+    {
+      "primary_count": 64,
+      "random_index": 10,
+      "extra": 11,
+      "total": 75
+    },
+    {
+      "primary_count": 64,
+      "random_index": 11,
+      "extra": 12,
+      "total": 76
+    },
+    {
+      "primary_count": 64,
+      "random_index": 12,
+      "extra": 13,
+      "total": 77
+    },
+    {
+      "primary_count": 64,
+      "random_index": 13,
+      "extra": 14,
+      "total": 78
+    },
+    {
+      "primary_count": 64,
+      "random_index": 14,
+      "extra": 15,
+      "total": 79
+    },
+    {
+      "primary_count": 64,
+      "random_index": 15,
+      "extra": 16,
+      "total": 80
+    },
+    {
+      "primary_count": 64,
+      "random_index": 16,
+      "extra": 17,
+      "total": 81
+    },
+    {
+      "primary_count": 64,
+      "random_index": 17,
+      "extra": 18,
+      "total": 82
+    },
+    {
+      "primary_count": 64,
+      "random_index": 18,
+      "extra": 19,
+      "total": 83
+    },
+    {
+      "primary_count": 64,
+      "random_index": 19,
+      "extra": 20,
+      "total": 84
+    },
+    {
+      "primary_count": 64,
+      "random_index": 20,
+      "extra": 21,
+      "total": 85
+    },
+    {
+      "primary_count": 64,
+      "random_index": 21,
+      "extra": 22,
+      "total": 86
+    },
+    {
+      "primary_count": 64,
+      "random_index": 22,
+      "extra": 23,
+      "total": 87
+    },
+    {
+      "primary_count": 64,
+      "random_index": 23,
+      "extra": 24,
+      "total": 88
+    },
+    {
+      "primary_count": 64,
+      "random_index": 24,
+      "extra": 25,
+      "total": 89
+    },
+    {
+      "primary_count": 64,
+      "random_index": 25,
+      "extra": 26,
+      "total": 90
+    },
+    {
+      "primary_count": 64,
+      "random_index": 26,
+      "extra": 27,
+      "total": 91
+    },
+    {
+      "primary_count": 64,
+      "random_index": 27,
+      "extra": 28,
+      "total": 92
+    },
+    {
+      "primary_count": 64,
+      "random_index": 28,
+      "extra": 29,
+      "total": 93
+    },
+    {
+      "primary_count": 64,
+      "random_index": 29,
+      "extra": 30,
+      "total": 94
+    },
+    {
+      "primary_count": 64,
+      "random_index": 30,
+      "extra": 31,
+      "total": 95
+    },
+    {
+      "primary_count": 64,
+      "random_index": 31,
+      "extra": 32,
+      "total": 96
+    },
+    {
+      "primary_count": 64,
+      "random_index": 32,
+      "extra": 33,
+      "total": 97
+    },
+    {
+      "primary_count": 64,
+      "random_index": 33,
+      "extra": 34,
+      "total": 98
+    },
+    {
+      "primary_count": 64,
+      "random_index": 34,
+      "extra": 35,
+      "total": 99
+    },
+    {
+      "primary_count": 64,
+      "random_index": 35,
+      "extra": 36,
+      "total": 100
+    },
+    {
+      "primary_count": 64,
+      "random_index": 36,
+      "extra": 37,
+      "total": 101
+    },
+    {
+      "primary_count": 64,
+      "random_index": 37,
+      "extra": 38,
+      "total": 102
+    },
+    {
+      "primary_count": 64,
+      "random_index": 38,
+      "extra": 39,
+      "total": 103
+    },
+    {
+      "primary_count": 64,
+      "random_index": 39,
+      "extra": 40,
+      "total": 104
+    },
+    {
+      "primary_count": 64,
+      "random_index": 40,
+      "extra": 41,
+      "total": 105
+    },
+    {
+      "primary_count": 64,
+      "random_index": 41,
+      "extra": 42,
+      "total": 106
+    },
+    {
+      "primary_count": 64,
+      "random_index": 42,
+      "extra": 43,
+      "total": 107
+    },
+    {
+      "primary_count": 64,
+      "random_index": 43,
+      "extra": 44,
+      "total": 108
+    },
+    {
+      "primary_count": 64,
+      "random_index": 44,
+      "extra": 45,
+      "total": 109
+    },
+    {
+      "primary_count": 64,
+      "random_index": 45,
+      "extra": 46,
+      "total": 110
+    },
+    {
+      "primary_count": 64,
+      "random_index": 46,
+      "extra": 47,
+      "total": 111
+    },
+    {
+      "primary_count": 64,
+      "random_index": 47,
+      "extra": 48,
+      "total": 112
+    },
+    {
+      "primary_count": 64,
+      "random_index": 48,
+      "extra": 49,
+      "total": 113
+    },
+    {
+      "primary_count": 64,
+      "random_index": 49,
+      "extra": 50,
+      "total": 114
+    },
+    {
+      "primary_count": 64,
+      "random_index": 50,
+      "extra": 51,
+      "total": 115
+    },
+    {
+      "primary_count": 64,
+      "random_index": 51,
+      "extra": 52,
+      "total": 116
+    },
+    {
+      "primary_count": 64,
+      "random_index": 52,
+      "extra": 53,
+      "total": 117
+    },
+    {
+      "primary_count": 64,
+      "random_index": 53,
+      "extra": 54,
+      "total": 118
+    },
+    {
+      "primary_count": 64,
+      "random_index": 54,
+      "extra": 55,
+      "total": 119
+    },
+    {
+      "primary_count": 64,
+      "random_index": 55,
+      "extra": 56,
+      "total": 120
+    },
+    {
+      "primary_count": 64,
+      "random_index": 56,
+      "extra": 57,
+      "total": 121
+    },
+    {
+      "primary_count": 64,
+      "random_index": 57,
+      "extra": 58,
+      "total": 122
+    },
+    {
+      "primary_count": 64,
+      "random_index": 58,
+      "extra": 59,
+      "total": 123
+    },
+    {
+      "primary_count": 64,
+      "random_index": 59,
+      "extra": 60,
+      "total": 124
+    },
+    {
+      "primary_count": 64,
+      "random_index": 60,
+      "extra": 61,
+      "total": 125
+    },
+    {
+      "primary_count": 64,
+      "random_index": 61,
+      "extra": 62,
+      "total": 126
+    },
+    {
+      "primary_count": 64,
+      "random_index": 62,
+      "extra": 63,
+      "total": 127
+    },
+    {
+      "primary_count": 64,
+      "random_index": 63,
+      "extra": 64,
+      "total": 128
+    }
+  ],
+  "skeletal_choice_cases": [
+    {
+      "choice": 0,
+      "branch": "fragment"
+    },
+    {
+      "choice": 1,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 2,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 3,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 4,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 5,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 6,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 7,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 8,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 9,
+      "branch": "bone_meal"
+    },
+    {
+      "choice": 10,
+      "branch": "bone"
+    },
+    {
+      "choice": 11,
+      "branch": "bone"
+    },
+    {
+      "choice": 12,
+      "branch": "bone"
+    },
+    {
+      "choice": 13,
+      "branch": "bone"
+    },
+    {
+      "choice": 14,
+      "branch": "bone"
+    },
+    {
+      "choice": 15,
+      "branch": "bone"
+    },
+    {
+      "choice": 16,
+      "branch": "bone"
+    },
+    {
+      "choice": 17,
+      "branch": "bone"
+    },
+    {
+      "choice": 18,
+      "branch": "bone"
+    },
+    {
+      "choice": 19,
+      "branch": "bone"
+    },
+    {
+      "choice": 20,
+      "branch": "bone"
+    },
+    {
+      "choice": 21,
+      "branch": "bone"
+    },
+    {
+      "choice": 22,
+      "branch": "bone"
+    },
+    {
+      "choice": 23,
+      "branch": "bone"
+    },
+    {
+      "choice": 24,
+      "branch": "bone"
+    },
+    {
+      "choice": 25,
+      "branch": "bone"
+    },
+    {
+      "choice": 26,
+      "branch": "bone"
+    },
+    {
+      "choice": 27,
+      "branch": "bone"
+    },
+    {
+      "choice": 28,
+      "branch": "bone"
+    },
+    {
+      "choice": 29,
+      "branch": "bone"
+    },
+    {
+      "choice": 30,
+      "branch": "bone"
+    },
+    {
+      "choice": 31,
+      "branch": "bone"
+    },
+    {
+      "choice": 32,
+      "branch": "bone"
+    },
+    {
+      "choice": 33,
+      "branch": "bone"
+    },
+    {
+      "choice": 34,
+      "branch": "bone"
+    },
+    {
+      "choice": 35,
+      "branch": "bone"
+    },
+    {
+      "choice": 36,
+      "branch": "bone"
+    },
+    {
+      "choice": 37,
+      "branch": "bone"
+    },
+    {
+      "choice": 38,
+      "branch": "bone"
+    },
+    {
+      "choice": 39,
+      "branch": "bone"
+    },
+    {
+      "choice": 40,
+      "branch": "bone"
+    },
+    {
+      "choice": 41,
+      "branch": "bone"
+    },
+    {
+      "choice": 42,
+      "branch": "bone"
+    },
+    {
+      "choice": 43,
+      "branch": "bone"
+    },
+    {
+      "choice": 44,
+      "branch": "bone"
+    },
+    {
+      "choice": 45,
+      "branch": "bone"
+    },
+    {
+      "choice": 46,
+      "branch": "bone"
+    },
+    {
+      "choice": 47,
+      "branch": "bone"
+    },
+    {
+      "choice": 48,
+      "branch": "bone"
+    },
+    {
+      "choice": 49,
+      "branch": "bone"
+    }
   ]
 }

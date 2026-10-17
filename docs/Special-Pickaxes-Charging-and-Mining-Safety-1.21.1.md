@@ -64,7 +64,7 @@ The loot callback requires a non-air ore-tagged block, nonempty loot and tool sp
 
 For an eligible primary stack, it asks for an additional amount of `1 + RandomUtil.numberUpTo(currentCount)`, using the shared stack-growth helper. That helper either grows the original stack or returns additional bounded stacks when the addition would exceed its maximum stack size. Other stacks in the loot list are not all independently multiplied.
 
-The external random helper's endpoint semantics are not inferred here, so this guide does not invent an exact multiplier or probability distribution. Silk-Touch-like block drops and raw-metal drops can take different branches because of the identity/tag checks.
+The bundled TME 1.0.0 helper delegates to RandomSource.nextInt(n), with an exclusive upper bound. For a positive primary count n, the added amount is therefore 1 through n, giving n+1 through 2n total items across the resulting stacks. A count of 1 becomes 2; a count of 4 becomes 5–8. Silk-Touch-like block drops and raw-metal drops can take different branches because of the identity/tag checks. Modded empty-primary-stack cases need testing because the random helper requires a positive bound.
 
 ## Soulstone: Spirit-funded stone drops
 
@@ -76,7 +76,7 @@ If the 5-Spirit consumption succeeds, it doubles that selected stack's count. It
 
 After the non-air, nonempty-loot and tool-speed gates, it invokes `oneInNChance(10)`. On success, a 50-bound random choice selects a bone fragment at 0, Bone Meal below 10, or Bone otherwise. The fragment branch chooses among Skullbone, Chestbone, Legbone and Footbone Fragments.
 
-This records the inspected branch structure. Exact random-helper probabilities are not asserted without the external implementation. The bonus is appended to the existing loot rather than replacing the entire list.
+The bundled helper checks a random float against 1/10, then chooses an integer from 0 through 49. Conditional on the bonus gate passing, the branch shares are 1/50 fragment, 9/50 Bone Meal and 40/50 Bone. Under normal uniform draws, those correspond to approximately 0.2%, 1.8% and 8% per qualifying callback, respectively. They are nominal rates, not a guarantee per mined block; prior gates and floating-point discretization still matter. The fragment branch chooses among four entries. The bonus is appended to existing loot.
 
 ## Ornamyte: hard-block speed input
 
@@ -107,6 +107,6 @@ The block helper verifies required block-loot parameters; otherwise it returns a
 - Test modified large loot stacks and delivery for Gemcracker/Soulstone.
 - Profile repeated Occult activations, expiration and renderer compatibility; do not claim a measured performance improvement from this inspection.
 
-[Fourteen released class selections, four recipes and 414 bounded arithmetic/coordinate cases](https://herbertofury.github.io/Advent-of-Ascension/special-pickaxe-evidence-1.21.1.json) · [Image and recipe-pattern evidence](https://herbertofury.github.io/Advent-of-Ascension/special-pickaxe-art-evidence-1.21.1.json)
+[Fourteen AoA class selections, two bundled helper classes, four recipes and 574 bounded cases](https://herbertofury.github.io/Advent-of-Ascension/special-pickaxe-evidence-1.21.1.json) · [Image and recipe-pattern evidence](https://herbertofury.github.io/Advent-of-Ascension/special-pickaxe-art-evidence-1.21.1.json)
 
 Original AoA item art: Tslat and contributors. Source-model crops and explanatory recipe diagrams are not game screenshots. No Java/game code was executed, and runtime mining, economy, compatibility and performance certification remain separate.
