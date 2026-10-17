@@ -133,3 +133,7 @@ AoA artwork and systems are by Tslat and contributors; vanilla reference assets 
 ## Banker coin conversion
 
 [The illustrated banker guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bankers-Coin-Exchange-and-Inventory-Safety-1.12.2) explains the shared six-lane interface, 20:1 currency tiers, first-input placement and scoped partial-transfer/GUI-target findings. The five empty recipe placeholders remain excluded from the offer catalog.
+
+## Lotto Totem follow-up
+
+See [Lotto Totem placement, all thirteen reward pictures, seller costs and save-safety warnings](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Lotto-Totems-Placement-Rewards-and-Save-Safety-1.12.2). The single-roll winning table and five-choice selection use different probability denominators.

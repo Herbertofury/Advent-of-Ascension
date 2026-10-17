@@ -270,3 +270,15 @@ The same container passes end-exclusive destination ranges [12,47),[39,47),[12,3
 - [ ] Require before/after currency-value conservation and measured performance without capability loss.
 
 [Illustrated banker guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bankers-Coin-Exchange-and-Inventory-Safety-1.12.2) · [Released evidence and 252 bounded models](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/banker-exchange-evidence-1.12.2.json). No game files were modified or executed by this documentation work.
+
+## Lotto Totem persistence and placement audit · released 1.12.2
+
+The AoA 3.3.6 custom Lotto Totem NBT callbacks are reversed: readEntityFromNBT writes current UUID fields into the tag; writeEntityToNBT reads keys into the fields. Released bytecode and vanilla callback-dispatch mappings were checked. A bounded callback model loses the custom owner/winner data across a fresh save/load. This is a static finding, not a reproduced runtime session or evidence that the current Enderloom build still contains the defect.
+
+- [ ] Verify the target build; write WinningUUID/OwnerUUID on save and restore them on read. Preserve the base entity UUID used to identify the winning choice.
+- [ ] Test all five linked choices through chunk unload, server restart and multiplayer ownership. Define migration for old incomplete groups without inventing owners or winners.
+- [ ] Check cancelled/partial spawns: the released item shrinks before five spawn calls and ignores their return values. Confirm appropriate failure/refund behavior.
+- [ ] Check overlapping externally created groups: cleanup uses a nearby entity-class box without a group UUID filter.
+- [ ] Verify both interaction callbacks before describing the 12000-tick branch as an ownership expiry.
+
+See [the illustrated walkthrough and scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Lotto-Totems-Placement-Rewards-and-Save-Safety-1.12.2).

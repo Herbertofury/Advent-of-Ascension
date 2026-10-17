@@ -1,0 +1,6689 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Released item/entity/helper bytecode,unmodified loot JSON,vanilla loot/callback comparisons,and original bounded probability/persistence models. No game execution. Forge hooks,spawn success,save migration and current Enderloom acceptance are separate.",
+  "methods": [
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/misc/ItemLottoTotem.class",
+      "class_sha256": "883a1dae372f6db710c30fe7f4b2fe2b5ed19d04e36b73aa0bba21ef6095105d",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "82f222361d61a9c3e563789d5b244b797af7ac5d0caa03711f04e188c37c1c7a",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/Item",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 18,
+          "constant": "LottoTotem"
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/ItemLottoTotem",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 87
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 18,
+          "constant": "aoa3:lotto_totem"
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/ItemLottoTotem",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 87
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "MISC",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/ItemLottoTotem",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 87
+        },
+        {
+          "offset": 26,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/misc/ItemLottoTotem.class",
+      "class_sha256": "883a1dae372f6db710c30fe7f4b2fe2b5ed19d04e36b73aa0bba21ef6095105d",
+      "name": "func_180614_a",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;",
+      "method_sha256": "960cd4d58972c3d0dd5881716c6613f8820f968506f3b47bfc9bf937e1a28b14",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 45
+        },
+        {
+          "offset": 2,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 45
+        },
+        {
+          "offset": 7,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_185899_b",
+            "(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 58,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "UP",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 166,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 44
+        },
+        {
+          "offset": 25,
+          "opcode": 45
+        },
+        {
+          "offset": 26,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "UP",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_193401_d",
+            "(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/state/BlockFaceShape",
+            "SOLID",
+            "Lnet/minecraft/block/state/BlockFaceShape;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 165,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 176
+        },
+        {
+          "offset": 44,
+          "opcode": 44
+        },
+        {
+          "offset": 45,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 154,
+          "operands": [
+            0,
+            223
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 44
+        },
+        {
+          "offset": 52,
+          "opcode": 18,
+          "constant": "net/tslat/aoa3/entity/misc/EntityLottoTotem"
+        },
+        {
+          "offset": 54,
+          "opcode": 187,
+          "operands": [
+            0,
+            82
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 89
+        },
+        {
+          "offset": 58,
+          "opcode": 45
+        },
+        {
+          "offset": 59,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "<init>",
+            "(Lnet/minecraft/util/math/BlockPos;)V"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 20,
+          "constant": 4.0
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72872_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 154,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 43
+        },
+        {
+          "offset": 80,
+          "opcode": 192,
+          "operands": [
+            0,
+            103
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 18,
+          "constant": "message.feedback.lottoTotem.nearby"
+        },
+        {
+          "offset": 85,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 86,
+          "opcode": 189,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 89
+        },
+        {
+          "offset": 90,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 91,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "RED",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 83
+        },
+        {
+          "offset": 95,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "notifyPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Ljava/lang/String;[Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 176
+        },
+        {
+          "offset": 102,
+          "opcode": 187,
+          "operands": [
+            0,
+            121
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 89
+        },
+        {
+          "offset": 106,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 107,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 58,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 45
+        },
+        {
+          "offset": 115,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 87
+        },
+        {
+          "offset": 119,
+          "opcode": 42
+        },
+        {
+          "offset": 120,
+          "opcode": 44
+        },
+        {
+          "offset": 121,
+          "opcode": 45
+        },
+        {
+          "offset": 122,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/ItemLottoTotem",
+            "populateSpawnPositions",
+            "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/ArrayList;)Z"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 153,
+          "operands": [
+            0,
+            121
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 43
+        },
+        {
+          "offset": 131,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 137,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/misc/ItemLottoTotem",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 144,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 54,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_188210_a",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 58,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 58,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 153,
+          "operands": [
+            0,
+            58
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 192,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 181,
+          "opcode": 58,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 187,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 89
+        },
+        {
+          "offset": 187,
+          "opcode": 44
+        },
+        {
+          "offset": 188,
+          "opcode": 25,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 43
+        },
+        {
+          "offset": 193,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_110124_au",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "<init>",
+            "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/UUID;Ljava/util/UUID;)V"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 58,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 21,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 154,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 25,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 208,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_184221_a",
+            "(Ljava/util/UUID;)V"
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 44
+        },
+        {
+          "offset": 214,
+          "opcode": 25,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 87
+        },
+        {
+          "offset": 220,
+          "opcode": 132,
+          "operands": [
+            11,
+            255
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 167,
+          "operands": [
+            255,
+            194
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 43
+        },
+        {
+          "offset": 227,
+          "opcode": 192,
+          "operands": [
+            0,
+            103
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 18,
+          "constant": "message.feedback.lottoTotem.spawn"
+        },
+        {
+          "offset": 232,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 233,
+          "opcode": 189,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 236,
+          "opcode": 89
+        },
+        {
+          "offset": 237,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 238,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "GOLD",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 241,
+          "opcode": 83
+        },
+        {
+          "offset": 242,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "notifyPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Ljava/lang/String;[Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 167,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 43
+        },
+        {
+          "offset": 249,
+          "opcode": 192,
+          "operands": [
+            0,
+            103
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 18,
+          "constant": "message.feedback.lottoTotem.space"
+        },
+        {
+          "offset": 254,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 255,
+          "opcode": 189,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 89
+        },
+        {
+          "offset": 259,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 260,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "RED",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 263,
+          "opcode": 83
+        },
+        {
+          "offset": 264,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "notifyPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Ljava/lang/String;[Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 267,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 270,
+          "opcode": 176
+        },
+        {
+          "offset": 271,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "PASS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/misc/ItemLottoTotem.class",
+      "class_sha256": "883a1dae372f6db710c30fe7f4b2fe2b5ed19d04e36b73aa0bba21ef6095105d",
+      "name": "populateSpawnPositions",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/ArrayList;)Z",
+      "method_sha256": "9a8f89a81b327e896e7d3e27a3092ea3e3261d4770e07061aa6c0acaa734cfd9",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "<init>",
+            "(Lnet/minecraft/util/math/BlockPos;)V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 44
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 15,
+          "opcode": 100
+        },
+        {
+          "offset": 16,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 44
+        },
+        {
+          "offset": 21,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 25,
+          "opcode": 96
+        },
+        {
+          "offset": 26,
+          "opcode": 163,
+          "operands": [
+            0,
+            119
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 44
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 34,
+          "opcode": 100
+        },
+        {
+          "offset": 35,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 44
+        },
+        {
+          "offset": 40,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 44,
+          "opcode": 96
+        },
+        {
+          "offset": 45,
+          "opcode": 163,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 44
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_181079_c",
+            "(III)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 87
+        },
+        {
+          "offset": 62,
+          "opcode": 43
+        },
+        {
+          "offset": 63,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_177984_a",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_185904_a",
+            "()Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "func_76222_j",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 153,
+          "operands": [
+            0,
+            54
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 43
+        },
+        {
+          "offset": 83,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 43
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_185899_b",
+            "(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 43
+        },
+        {
+          "offset": 97,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "UP",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_193401_d",
+            "(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/state/BlockFaceShape",
+            "SOLID",
+            "Lnet/minecraft/block/state/BlockFaceShape;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 166,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 45
+        },
+        {
+          "offset": 114,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 87
+        },
+        {
+          "offset": 123,
+          "opcode": 45
+        },
+        {
+          "offset": 124,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 128,
+          "opcode": 161,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 132,
+          "opcode": 172
+        },
+        {
+          "offset": 133,
+          "opcode": 132,
+          "operands": [
+            6,
+            2
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 167,
+          "operands": [
+            255,
+            157
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 132,
+          "operands": [
+            5,
+            2
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 167,
+          "operands": [
+            255,
+            132
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 146,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Ljava/util/UUID;Ljava/util/UUID;)V",
+      "method_sha256": "909f637f4367200ef68a09b78e749fa0e2450e77bc2e2ffeb3f8318bcb11d577",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "<init>",
+            "(Lnet/minecraft/world/World;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 45
+        },
+        {
+          "offset": 7,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 43
+        },
+        {
+          "offset": 17,
+          "opcode": 44
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 43
+        },
+        {
+          "offset": 22,
+          "opcode": 44
+        },
+        {
+          "offset": 23,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_185899_b",
+            "(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 43
+        },
+        {
+          "offset": 29,
+          "opcode": 44
+        },
+        {
+          "offset": 30,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_185890_d",
+            "(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 42
+        },
+        {
+          "offset": 38,
+          "opcode": 44
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 135
+        },
+        {
+          "offset": 43,
+          "opcode": 20,
+          "constant": 0.5
+        },
+        {
+          "offset": 46,
+          "opcode": 99
+        },
+        {
+          "offset": 47,
+          "opcode": 44
+        },
+        {
+          "offset": 48,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 135
+        },
+        {
+          "offset": 52,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 199,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 14
+        },
+        {
+          "offset": 58,
+          "opcode": 167,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "field_72337_e",
+            "D"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 99
+        },
+        {
+          "offset": 67,
+          "opcode": 44
+        },
+        {
+          "offset": 68,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 135
+        },
+        {
+          "offset": 72,
+          "opcode": 20,
+          "constant": 0.5
+        },
+        {
+          "offset": 75,
+          "opcode": 99
+        },
+        {
+          "offset": 76,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_70107_b",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;)V",
+      "method_sha256": "8ca98bf88156a81d23b45cb1d97a00c6da92a9b376b0037bcba358f332fa04f5",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "<init>",
+            "(Lnet/minecraft/world/World;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 1
+        },
+        {
+          "offset": 7,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70156_m",
+            "Z"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 18,
+          "constant": 0.75
+        },
+        {
+          "offset": 23,
+          "opcode": 18,
+          "constant": 0.949999988079071
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_70105_a",
+            "(FF)V"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_184230_a",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Z",
+      "method_sha256": "7fe314acd3e5c629495326866341e2c9bd21957fe870504cafe01c841c69c479",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70173_aa",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 17,
+          "constant": 12000
+        },
+        {
+          "offset": 7,
+          "opcode": 162,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 154,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 198,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 43
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_110124_au",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "java/util/UUID",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 42,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 46,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_184199_a",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/EnumActionResult;",
+      "method_sha256": "569dd27833916e1072f3cc3477d0e4ce982fd2d2dcc4919fd4599a4f35b6257e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70128_L",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            255
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 198,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 43
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_110124_au",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "java/util/UUID",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 153,
+          "operands": [
+            0,
+            234
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 154,
+          "operands": [
+            0,
+            220
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 42
+        },
+        {
+          "offset": 39,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 198,
+          "operands": [
+            0,
+            150
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 42
+        },
+        {
+          "offset": 46,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 42
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_110124_au",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "java/util/UUID",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 153,
+          "operands": [
+            0,
+            136
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "lottoTotem",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 42
+        },
+        {
+          "offset": 63,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 192,
+          "operands": [
+            0,
+            120
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 18,
+          "constant": 5.0
+        },
+        {
+          "offset": 71,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/LootUtil",
+            "generateLootWithCustomLuck",
+            "(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/world/WorldServer;F)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 153,
+          "operands": [
+            0,
+            53
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 192,
+          "operands": [
+            0,
+            145
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 42
+        },
+        {
+          "offset": 104,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 11
+        },
+        {
+          "offset": 107,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_70099_a",
+            "(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 198,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 43
+        },
+        {
+          "offset": 120,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70005_c_",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/item/EntityItem",
+            "func_145797_a",
+            "(Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 43
+        },
+        {
+          "offset": 127,
+          "opcode": 192,
+          "operands": [
+            0,
+            161
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 18,
+          "constant": "overworld/winner_winner"
+        },
+        {
+          "offset": 132,
+          "opcode": 18,
+          "constant": "lotto_win"
+        },
+        {
+          "offset": 134,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "completeAdvancement",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Ljava/lang/String;Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 87
+        },
+        {
+          "offset": 138,
+          "opcode": 167,
+          "operands": [
+            255,
+            199
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 42
+        },
+        {
+          "offset": 142,
+          "opcode": 187,
+          "operands": [
+            0,
+            145
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 89
+        },
+        {
+          "offset": 146,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "LOTTO_BANNER",
+            "Lnet/tslat/aoa3/block/decoration/banner/BannerBlock;"
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/block/Block;)V"
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 11
+        },
+        {
+          "offset": 153,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_70099_a",
+            "(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 198,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 43
+        },
+        {
+          "offset": 166,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70005_c_",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/item/EntityItem",
+            "func_145797_a",
+            "(Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 42
+        },
+        {
+          "offset": 173,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 1
+        },
+        {
+          "offset": 177,
+          "opcode": 42
+        },
+        {
+          "offset": 178,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_180425_c",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 181,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "LOTTO_WIN",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 184,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "PLAYERS",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 12
+        },
+        {
+          "offset": 188,
+          "opcode": 12
+        },
+        {
+          "offset": 189,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184133_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 42
+        },
+        {
+          "offset": 193,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 18,
+          "constant": "net/tslat/aoa3/entity/misc/EntityLottoTotem"
+        },
+        {
+          "offset": 198,
+          "opcode": 187,
+          "operands": [
+            0,
+            51
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 89
+        },
+        {
+          "offset": 202,
+          "opcode": 42
+        },
+        {
+          "offset": 203,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_180425_c",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "<init>",
+            "(Lnet/minecraft/util/math/BlockPos;)V"
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 20,
+          "constant": 2.0
+        },
+        {
+          "offset": 212,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72872_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 153,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 242,
+          "opcode": 192,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 247,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 249,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "func_70106_y",
+            "()V"
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 167,
+          "operands": [
+            255,
+            229
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "SUCCESS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 176
+        },
+        {
+          "offset": 259,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "PASS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "onRemovedFromWorld",
+      "descriptor": "()V",
+      "method_sha256": "af624db1fb867be736b47071d3cb3aa1df098aeffe89c7160268f9bfe4940b09",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "onRemovedFromWorld",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 153,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70128_L",
+            "Z"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 153,
+          "operands": [
+            0,
+            50
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 22,
+          "opcode": 60
+        },
+        {
+          "offset": 23,
+          "opcode": 27
+        },
+        {
+          "offset": 24,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 25,
+          "opcode": 162,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumParticleTypes",
+            "SMOKE_LARGE",
+            "Lnet/minecraft/util/EnumParticleTypes;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 42
+        },
+        {
+          "offset": 40,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 20,
+          "constant": 0.3
+        },
+        {
+          "offset": 46,
+          "opcode": 99
+        },
+        {
+          "offset": 47,
+          "opcode": 42
+        },
+        {
+          "offset": 48,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 14
+        },
+        {
+          "offset": 52,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 55,
+          "opcode": 14
+        },
+        {
+          "offset": 56,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 57,
+          "opcode": 188,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175688_a",
+            "(Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 132,
+          "operands": [
+            1,
+            1
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 167,
+          "operands": [
+            255,
+            214
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70088_a",
+      "descriptor": "()V",
+      "method_sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70037_a",
+      "descriptor": "(Lnet/minecraft/nbt/NBTTagCompound;)V",
+      "method_sha256": "7de6f40a2f56b596416dc70eb918ec2983ee123b67ab2c07e3a2602f153dd67f",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 198,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 43
+        },
+        {
+          "offset": 8,
+          "opcode": 19,
+          "constant": "WinningUUID"
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_186854_a",
+            "(Ljava/lang/String;Ljava/util/UUID;)V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 198,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 43
+        },
+        {
+          "offset": 26,
+          "opcode": 19,
+          "constant": "OwnerUUID"
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_186854_a",
+            "(Ljava/lang/String;Ljava/util/UUID;)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70014_b",
+      "descriptor": "(Lnet/minecraft/nbt/NBTTagCompound;)V",
+      "method_sha256": "39f12f37bd18b0f1ab6d4a16ccfcc2bff1eb6b87d616fc437cbe8a803603e480",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 19,
+          "constant": "WinningUUID"
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_186855_b",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 43
+        },
+        {
+          "offset": 12,
+          "opcode": 19,
+          "constant": "WinningUUID"
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_186857_a",
+            "(Ljava/lang/String;)Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "winnerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 43
+        },
+        {
+          "offset": 22,
+          "opcode": 19,
+          "constant": "OwnerUUID"
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_186855_b",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 43
+        },
+        {
+          "offset": 33,
+          "opcode": 19,
+          "constant": "OwnerUUID"
+        },
+        {
+          "offset": 36,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_186857_a",
+            "(Ljava/lang/String;)Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityLottoTotem",
+            "ownerUUID",
+            "Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70104_M",
+      "descriptor": "()Z",
+      "method_sha256": "42ca1f85243342bd41983ab86f2235408fa46ded7466d4525196f66b9dbb5f3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_96092_aw",
+      "descriptor": "()Z",
+      "method_sha256": "42ca1f85243342bd41983ab86f2235408fa46ded7466d4525196f66b9dbb5f3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70067_L",
+      "descriptor": "()Z",
+      "method_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_180431_b",
+      "descriptor": "(Lnet/minecraft/util/DamageSource;)Z",
+      "method_sha256": "f531b52e1ef7b4fc8bdb696ed3fcc546cf30e5d872cc5f6211f2b7636bf1aca3",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "field_76380_i",
+            "Lnet/minecraft/util/DamageSource;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 165,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 12,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70091_d",
+      "descriptor": "(Lnet/minecraft/entity/MoverType;DDD)V",
+      "method_sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/entity/misc/EntityLottoTotem.class",
+      "class_sha256": "b87eebb35951a5fd9277a996743636281c5c7f8b10513ad9f19ebbec124fc0d9",
+      "name": "func_70071_h_",
+      "descriptor": "()V",
+      "method_sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/utils/LootUtil.class",
+      "class_sha256": "5ed4caa8163ca9c5534f4d2963a5ac65b125c462f1e13e00c2694d5f6298b078",
+      "name": "generateLootWithCustomLuck",
+      "descriptor": "(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/world/WorldServer;F)Ljava/util/List;",
+      "method_sha256": "64f68cc0f1f8f0ba27bd062d8062e47544c50a87c8eced334852f4882470b8f4",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldServer",
+            "func_184146_ak",
+            "()Lnet/minecraft/world/storage/loot/LootTableManager;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTableManager",
+            "func_186521_a",
+            "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 43
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/WorldServer",
+            "field_73012_v",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 89
+        },
+        {
+          "offset": 16,
+          "opcode": 43
+        },
+        {
+          "offset": 17,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "<init>",
+            "(Lnet/minecraft/world/WorldServer;)V"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 36
+        },
+        {
+          "offset": 21,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186469_a",
+            "(F)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186471_a",
+            "()Lnet/minecraft/world/storage/loot/LootContext;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "func_186462_a",
+            "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "bfr.class",
+      "class_sha256": "39cc77a268c0277f24024afbcb24317b642b1f939e6e30fceac3fd48992c2972",
+      "name": "<init>",
+      "descriptor": "(II[Lbgl;)V",
+      "method_sha256": "9bb12ef7df6441599f08285e636e225faac7a07f5a5a2cdde6cb139ad17c1a94",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 27
+        },
+        {
+          "offset": 6,
+          "opcode": 181,
+          "member": [
+            "bfr",
+            "c",
+            "I"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 28
+        },
+        {
+          "offset": 11,
+          "opcode": 181,
+          "member": [
+            "bfr",
+            "d",
+            "I"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 45
+        },
+        {
+          "offset": 16,
+          "opcode": 181,
+          "member": [
+            "bfr",
+            "e",
+            "[Lbgl;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "bfr.class",
+      "class_sha256": "39cc77a268c0277f24024afbcb24317b642b1f939e6e30fceac3fd48992c2972",
+      "name": "a",
+      "descriptor": "(F)I",
+      "method_sha256": "7429b9b553fce1668ea9e994a9f814092fb5a94d5e0a525e9fa6896e68ef52b3",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "bfr",
+            "c",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 134
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 180,
+          "member": [
+            "bfr",
+            "d",
+            "I"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 134
+        },
+        {
+          "offset": 10,
+          "opcode": 35
+        },
+        {
+          "offset": 11,
+          "opcode": 106
+        },
+        {
+          "offset": 12,
+          "opcode": 98
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "rk",
+            "d",
+            "(F)I"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "max",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "bfr$a.class",
+      "class_sha256": "e567df0a14d4de1471080f07a31e8d174685f51aea189de4a9ba07e522827a64",
+      "name": "a",
+      "descriptor": "(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbfr;",
+      "method_sha256": "c1e34ebded2d36cef30b96335ead41351735f23e548a936ba55fa5a4a684af35",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "loot item"
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "m",
+            "(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonObject;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 18,
+          "constant": "type"
+        },
+        {
+          "offset": 12,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "h",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 18,
+          "constant": "weight"
+        },
+        {
+          "offset": 21,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;I)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 18,
+          "constant": "quality"
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;I)I"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 18,
+          "constant": "conditions"
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "com/google/gson/JsonObject",
+            "has",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 18,
+          "constant": "conditions"
+        },
+        {
+          "offset": 51,
+          "opcode": 45
+        },
+        {
+          "offset": 52,
+          "opcode": 18,
+          "constant": "[Lbgl;"
+        },
+        {
+          "offset": 54,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 192,
+          "operands": [
+            0,
+            53
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 167,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 66,
+          "opcode": 189,
+          "operands": [
+            0,
+            62
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 18,
+          "constant": "item"
+        },
+        {
+          "offset": 73,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 153,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 45
+        },
+        {
+          "offset": 84,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 184,
+          "member": [
+            "bfp",
+            "a",
+            "(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lbgl;)Lbfp;"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 176
+        },
+        {
+          "offset": 94,
+          "opcode": 18,
+          "constant": "loot_table"
+        },
+        {
+          "offset": 96,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 153,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 45
+        },
+        {
+          "offset": 107,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 184,
+          "member": [
+            "bfu",
+            "a",
+            "(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lbgl;)Lbfu;"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 176
+        },
+        {
+          "offset": 117,
+          "opcode": 18,
+          "constant": "empty"
+        },
+        {
+          "offset": 119,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 153,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 45
+        },
+        {
+          "offset": 130,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 184,
+          "member": [
+            "bfo",
+            "a",
+            "(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lbgl;)Lbfo;"
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 176
+        },
+        {
+          "offset": 140,
+          "opcode": 187,
+          "operands": [
+            0,
+            89
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 89
+        },
+        {
+          "offset": 144,
+          "opcode": 187,
+          "operands": [
+            0,
+            91
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 89
+        },
+        {
+          "offset": 148,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 18,
+          "constant": "Unknown loot entry type '"
+        },
+        {
+          "offset": 153,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 18,
+          "constant": "'"
+        },
+        {
+          "offset": 163,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 183,
+          "member": [
+            "com/google/gson/JsonSyntaxException",
+            "<init>",
+            "(Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 191
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "bfq.class",
+      "class_sha256": "6feb8d6337cabd60e1e0c0a79b6042c8ecc54a092a23b158bad457fff2d64d78",
+      "name": "a",
+      "descriptor": "(Ljava/util/Collection;Ljava/util/Random;Lbft;)V",
+      "method_sha256": "9eaa3915506510a6b041b5bae5aeec15bbcd4fd7e87d09b408a058224f82e29a",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "com/google/common/collect/Lists",
+            "newArrayList",
+            "()Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 6,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "bfq",
+            "a",
+            "[Lbfr;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 190
+        },
+        {
+          "offset": 17,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 162,
+          "operands": [
+            0,
+            62
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 50
+        },
+        {
+          "offset": 34,
+          "opcode": 58,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 180,
+          "member": [
+            "bfr",
+            "e",
+            "[Lbgl;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 44
+        },
+        {
+          "offset": 42,
+          "opcode": 45
+        },
+        {
+          "offset": 43,
+          "opcode": 184,
+          "member": [
+            "bgm",
+            "a",
+            "([Lbgl;Ljava/util/Random;Lbft;)Z"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 153,
+          "operands": [
+            0,
+            36
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 45
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "bft",
+            "f",
+            "()F"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 182,
+          "member": [
+            "bfr",
+            "a",
+            "(F)I"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 54,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 21,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 158,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 87
+        },
+        {
+          "offset": 75,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 21,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 96
+        },
+        {
+          "offset": 80,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 132,
+          "operands": [
+            8,
+            1
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 167,
+          "operands": [
+            255,
+            193
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 177
+        },
+        {
+          "offset": 104,
+          "opcode": 44
+        },
+        {
+          "offset": 105,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 153,
+          "operands": [
+            0,
+            46
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 192,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 45
+        },
+        {
+          "offset": 148,
+          "opcode": 182,
+          "member": [
+            "bft",
+            "f",
+            "()F"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 182,
+          "member": [
+            "bfr",
+            "a",
+            "(F)I"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 100
+        },
+        {
+          "offset": 155,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 156,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 43
+        },
+        {
+          "offset": 165,
+          "opcode": 44
+        },
+        {
+          "offset": 166,
+          "opcode": 45
+        },
+        {
+          "offset": 167,
+          "opcode": 182,
+          "member": [
+            "bfr",
+            "a",
+            "(Ljava/util/Collection;Ljava/util/Random;Lbft;)V"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 177
+        },
+        {
+          "offset": 171,
+          "opcode": 167,
+          "operands": [
+            255,
+            206
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "bfq.class",
+      "class_sha256": "6feb8d6337cabd60e1e0c0a79b6042c8ecc54a092a23b158bad457fff2d64d78",
+      "name": "b",
+      "descriptor": "(Ljava/util/Collection;Ljava/util/Random;Lbft;)V",
+      "method_sha256": "70c5cca0bdcd58ee6e3d034789f3399c27d87d228e9c998a68682269e24aa71a",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "bfq",
+            "b",
+            "[Lbgl;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 45
+        },
+        {
+          "offset": 6,
+          "opcode": 184,
+          "member": [
+            "bgm",
+            "a",
+            "([Lbgl;Ljava/util/Random;Lbft;)Z"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 154,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 180,
+          "member": [
+            "bfq",
+            "c",
+            "Lbfw;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 44
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "bfw",
+            "a",
+            "(Ljava/util/Random;)I"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "bfq",
+            "d",
+            "Lbfw;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 44
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "bfw",
+            "b",
+            "(Ljava/util/Random;)F"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 45
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "bft",
+            "f",
+            "()F"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 106
+        },
+        {
+          "offset": 34,
+          "opcode": 184,
+          "member": [
+            "rk",
+            "d",
+            "(F)I"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 96
+        },
+        {
+          "offset": 38,
+          "opcode": 54,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 41,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 162,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 42
+        },
+        {
+          "offset": 51,
+          "opcode": 43
+        },
+        {
+          "offset": 52,
+          "opcode": 44
+        },
+        {
+          "offset": 53,
+          "opcode": 45
+        },
+        {
+          "offset": 54,
+          "opcode": 182,
+          "member": [
+            "bfq",
+            "a",
+            "(Ljava/util/Collection;Ljava/util/Random;Lbft;)V"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 132,
+          "operands": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 167,
+          "operands": [
+            255,
+            239
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "bfq$a.class",
+      "class_sha256": "8f509cc5a29e79a33e6d7a445827112c1ea0b634f856d83a7a87ef581447a31d",
+      "name": "a",
+      "descriptor": "(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbfq;",
+      "method_sha256": "fc4aa8856f100a8536d429674e075812d97fc4d617ec479349a2217d5592bb08",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "loot pool"
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "m",
+            "(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonObject;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 18,
+          "constant": "entries"
+        },
+        {
+          "offset": 12,
+          "opcode": 45
+        },
+        {
+          "offset": 13,
+          "opcode": 18,
+          "constant": "[Lbfr;"
+        },
+        {
+          "offset": 15,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 192,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 18,
+          "constant": "conditions"
+        },
+        {
+          "offset": 27,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 28,
+          "opcode": 189,
+          "operands": [
+            0,
+            41
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 45
+        },
+        {
+          "offset": 32,
+          "opcode": 18,
+          "constant": "[Lbgl;"
+        },
+        {
+          "offset": 34,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/Object;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 192,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 18,
+          "constant": "rolls"
+        },
+        {
+          "offset": 46,
+          "opcode": 45
+        },
+        {
+          "offset": 47,
+          "opcode": 18,
+          "constant": "bfw"
+        },
+        {
+          "offset": 49,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 192,
+          "operands": [
+            0,
+            50
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 18,
+          "constant": "bonus_rolls"
+        },
+        {
+          "offset": 61,
+          "opcode": 187,
+          "operands": [
+            0,
+            50
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 89
+        },
+        {
+          "offset": 65,
+          "opcode": 11
+        },
+        {
+          "offset": 66,
+          "opcode": 11
+        },
+        {
+          "offset": 67,
+          "opcode": 183,
+          "member": [
+            "bfw",
+            "<init>",
+            "(FF)V"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 45
+        },
+        {
+          "offset": 71,
+          "opcode": 18,
+          "constant": "bfw"
+        },
+        {
+          "offset": 73,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/Object;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 192,
+          "operands": [
+            0,
+            50
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 187,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 89
+        },
+        {
+          "offset": 85,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 183,
+          "member": [
+            "bfq",
+            "<init>",
+            "([Lbfr;[Lbgl;Lbfw;Lbfw;)V"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "vanilla_entity_dispatch": [
+    {
+      "class_path": "vg.class",
+      "class_sha256": "70130aeffa96586131e23e3b701d4a1faeb4e3add3a56b1a085ee3f049ed1bd3",
+      "name": "e",
+      "descriptor": "(Lfy;)Lfy;",
+      "method_sha256": "bedb882efef2bc517a06dce65527d9447d94b7d246cc5cd57ecfae7a9e3653b8",
+      "window": [
+        {
+          "offset": 360,
+          "opcode": 42
+        },
+        {
+          "offset": 361,
+          "opcode": 43
+        },
+        {
+          "offset": 362,
+          "opcode": 182,
+          "member": [
+            "vg",
+            "b",
+            "(Lfy;)V"
+          ]
+        },
+        {
+          "offset": 365,
+          "opcode": 42
+        }
+      ]
+    },
+    {
+      "class_path": "vg.class",
+      "class_sha256": "70130aeffa96586131e23e3b701d4a1faeb4e3add3a56b1a085ee3f049ed1bd3",
+      "name": "f",
+      "descriptor": "(Lfy;)V",
+      "method_sha256": "27ae3fcef861d5eca7fdb502b96aed77dd514acb04e8645fd8433e13d6066645",
+      "window": [
+        {
+          "offset": 541,
+          "opcode": 42
+        },
+        {
+          "offset": 542,
+          "opcode": 43
+        },
+        {
+          "offset": 543,
+          "opcode": 182,
+          "member": [
+            "vg",
+            "a",
+            "(Lfy;)V"
+          ]
+        },
+        {
+          "offset": 546,
+          "opcode": 42
+        }
+      ]
+    }
+  ],
+  "mapping_sha256": "7dada8ab1ae837b507fa9edb292bcd8660748d1bd650b10d3bd2e4f5b435f856",
+  "placement_positions": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      1
+    ]
+  ],
+  "winner_cases": [
+    {
+      "selected_index": 0,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "winner_count": 1
+    },
+    {
+      "selected_index": 1,
+      "position": [
+        -1,
+        0,
+        -1
+      ],
+      "winner_count": 1
+    },
+    {
+      "selected_index": 2,
+      "position": [
+        -1,
+        0,
+        1
+      ],
+      "winner_count": 1
+    },
+    {
+      "selected_index": 3,
+      "position": [
+        1,
+        0,
+        -1
+      ],
+      "winner_count": 1
+    },
+    {
+      "selected_index": 4,
+      "position": [
+        1,
+        0,
+        1
+      ],
+      "winner_count": 1
+    }
+  ],
+  "loot_table": {
+    "path": "assets/aoa3/loot_tables/misc/lotto_totem.json",
+    "sha256": "d9c0f11a8901aab0e8a5747e16f05c778d4d9f6295343cc44645388d98172b9e",
+    "definition": {
+      "type": "entity",
+      "pools": [
+        {
+          "name": "treasures",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "item",
+              "name": "aoa3:golden_upgrade_kit",
+              "weight": 20
+            },
+            {
+              "type": "item",
+              "name": "aoa3:magic_repair_dust",
+              "weight": 60,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "aoa3:small_skill_crystal",
+              "weight": 75,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "aoa3:medium_skill_crystal",
+              "weight": 50,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 9
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "aoa3:large_skill_crystal",
+              "weight": 35,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 8
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "aoa3:giant_skill_crystal",
+              "weight": 20,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 7
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:diamond",
+              "weight": 90,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 5,
+                    "max": 25
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:emerald",
+              "weight": 60,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 5,
+                    "max": 25
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:nether_star",
+              "weight": 15
+            },
+            {
+              "type": "item",
+              "name": "aoa3:colour_cannon",
+              "weight": 1
+            },
+            {
+              "type": "item",
+              "name": "minecraft:ghast_tear",
+              "weight": 19
+            },
+            {
+              "type": "item",
+              "name": "minecraft:experience_bottle",
+              "weight": 100,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 10,
+                    "max": 32
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:golden_apple",
+              "weight": 15,
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 2
+                  }
+                },
+                {
+                  "function": "set_data",
+                  "data": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "total_weight": 560
+  },
+  "rewards": [
+    {
+      "id": "aoa3:golden_upgrade_kit",
+      "weight": 20,
+      "count": 1,
+      "metadata": 0,
+      "conditional_on_win": "1/28",
+      "per_uniform_choice": "1/140",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:golden_upgrade_kit",
+        "weight": 20
+      }
+    },
+    {
+      "id": "aoa3:magic_repair_dust",
+      "weight": 60,
+      "count": {
+        "min": 1,
+        "max": 5
+      },
+      "metadata": 0,
+      "conditional_on_win": "3/28",
+      "per_uniform_choice": "3/140",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:magic_repair_dust",
+        "weight": 60,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:small_skill_crystal",
+      "weight": 75,
+      "count": {
+        "min": 1,
+        "max": 10
+      },
+      "metadata": 0,
+      "conditional_on_win": "15/112",
+      "per_uniform_choice": "3/112",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:small_skill_crystal",
+        "weight": 75,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:medium_skill_crystal",
+      "weight": 50,
+      "count": {
+        "min": 1,
+        "max": 9
+      },
+      "metadata": 0,
+      "conditional_on_win": "5/56",
+      "per_uniform_choice": "1/56",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:medium_skill_crystal",
+        "weight": 50,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:large_skill_crystal",
+      "weight": 35,
+      "count": {
+        "min": 1,
+        "max": 8
+      },
+      "metadata": 0,
+      "conditional_on_win": "1/16",
+      "per_uniform_choice": "1/80",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:large_skill_crystal",
+        "weight": 35,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 8
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "aoa3:giant_skill_crystal",
+      "weight": 20,
+      "count": {
+        "min": 1,
+        "max": 7
+      },
+      "metadata": 0,
+      "conditional_on_win": "1/28",
+      "per_uniform_choice": "1/140",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:giant_skill_crystal",
+        "weight": 20,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 7
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "minecraft:diamond",
+      "weight": 90,
+      "count": {
+        "min": 5,
+        "max": 25
+      },
+      "metadata": 0,
+      "conditional_on_win": "9/56",
+      "per_uniform_choice": "9/280",
+      "definition": {
+        "type": "item",
+        "name": "minecraft:diamond",
+        "weight": 90,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 5,
+              "max": 25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "minecraft:emerald",
+      "weight": 60,
+      "count": {
+        "min": 5,
+        "max": 25
+      },
+      "metadata": 0,
+      "conditional_on_win": "3/28",
+      "per_uniform_choice": "3/140",
+      "definition": {
+        "type": "item",
+        "name": "minecraft:emerald",
+        "weight": 60,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 5,
+              "max": 25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "minecraft:nether_star",
+      "weight": 15,
+      "count": 1,
+      "metadata": 0,
+      "conditional_on_win": "3/112",
+      "per_uniform_choice": "3/560",
+      "definition": {
+        "type": "item",
+        "name": "minecraft:nether_star",
+        "weight": 15
+      }
+    },
+    {
+      "id": "aoa3:colour_cannon",
+      "weight": 1,
+      "count": 1,
+      "metadata": 0,
+      "conditional_on_win": "1/560",
+      "per_uniform_choice": "1/2800",
+      "definition": {
+        "type": "item",
+        "name": "aoa3:colour_cannon",
+        "weight": 1
+      }
+    },
+    {
+      "id": "minecraft:ghast_tear",
+      "weight": 19,
+      "count": 1,
+      "metadata": 0,
+      "conditional_on_win": "19/560",
+      "per_uniform_choice": "19/2800",
+      "definition": {
+        "type": "item",
+        "name": "minecraft:ghast_tear",
+        "weight": 19
+      }
+    },
+    {
+      "id": "minecraft:experience_bottle",
+      "weight": 100,
+      "count": {
+        "min": 10,
+        "max": 32
+      },
+      "metadata": 0,
+      "conditional_on_win": "5/28",
+      "per_uniform_choice": "1/28",
+      "definition": {
+        "type": "item",
+        "name": "minecraft:experience_bottle",
+        "weight": 100,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 10,
+              "max": 32
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "weight": 15,
+      "count": {
+        "min": 1,
+        "max": 2
+      },
+      "metadata": 1,
+      "conditional_on_win": "3/112",
+      "per_uniform_choice": "3/560",
+      "definition": {
+        "type": "item",
+        "name": "minecraft:golden_apple",
+        "weight": 15,
+        "functions": [
+          {
+            "function": "set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          },
+          {
+            "function": "set_data",
+            "data": 1
+          }
+        ]
+      }
+    }
+  ],
+  "merchant_offers": [
+    {
+      "vendor": "aoa3:abyssal_lottoman",
+      "vendor_name": "Abyssal Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityAbyssalLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:abyss_tokens",
+          "name": "Abyss Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.ABYSS_TOKENS",
+          "inventory_id": "localization:item.AbyssTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-01.webp",
+            "x": 455,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.ABYSS_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:baron_lottoman",
+      "vendor_name": "Baron Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityBaronLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:baron_tokens",
+          "name": "Baron Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.BARON_TOKENS",
+          "inventory_id": "localization:item.BaronTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-02.webp",
+            "x": 235,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.BARON_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:boreic_lottoman",
+      "vendor_name": "Boreic Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityBoreicLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:borean_tokens",
+          "name": "Borean Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.BOREAN_TOKENS",
+          "inventory_id": "localization:item.BoreanTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-03.webp",
+            "x": 675,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.BOREAN_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:candied_lottoman",
+      "vendor_name": "Candied Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityCandiedLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:candyland_tokens",
+          "name": "Candyland Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.CANDYLAND_TOKENS",
+          "inventory_id": "localization:item.CandylandTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-04.webp",
+            "x": 1115,
+            "y": 626,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CANDYLAND_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:celevian_lottoman",
+      "vendor_name": "Celevian Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityCelevianLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:celeve_tokens",
+          "name": "Celeve Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.CELEVE_TOKENS",
+          "inventory_id": "localization:item.CeleveTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-04.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CELEVE_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:creeponia_lottoman",
+      "vendor_name": "Creeponia Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityCreeponiaLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:creeponia_tokens",
+          "name": "Creeponia Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.CREEPONIA_TOKENS",
+          "inventory_id": "localization:item.CreeponiaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-05.webp",
+            "x": 675,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CREEPONIA_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:crystal_lottoman",
+      "vendor_name": "Crystal Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityCrystalLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:crystevia_tokens",
+          "name": "Crystevia Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.CRYSTEVIA_TOKENS",
+          "inventory_id": "localization:item.CrysteviaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-06.webp",
+            "x": 235,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CRYSTEVIA_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:dustopian_lottoman",
+      "vendor_name": "Dustopian Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityDustopianLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:dustopia_tokens",
+          "name": "Dustopia Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.DUSTOPIA_TOKENS",
+          "inventory_id": "localization:item.DustopiaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-07.webp",
+            "x": 235,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.DUSTOPIA_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:floro_lottoman",
+      "vendor_name": "Floro Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityFloroLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:gardencia_tokens",
+          "name": "Gardencia Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.GARDENCIA_TOKENS",
+          "inventory_id": "localization:item.GardenciaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-09.webp",
+            "x": 15,
+            "y": 626,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.GARDENCIA_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:golden_lottoman",
+      "vendor_name": "Golden Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityGoldenLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:iromine_tokens",
+          "name": "Iromine Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.IROMINE_TOKENS",
+          "inventory_id": "localization:item.IromineTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-12.webp",
+            "x": 235,
+            "y": 1686,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.IROMINE_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:haunted_lottoman",
+      "vendor_name": "Haunted Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityHauntedLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:greckon_tokens",
+          "name": "Greckon Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.GRECKON_TOKENS",
+          "inventory_id": "localization:item.GreckonTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-10.webp",
+            "x": 675,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.GRECKON_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:lelyetian_lottoman",
+      "vendor_name": "Lelyetian Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityLelyetianLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:lelyetia_tokens",
+          "name": "Lelyetia Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.LELYETIA_TOKENS",
+          "inventory_id": "localization:item.LelyetiaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-13.webp",
+            "x": 15,
+            "y": 891,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.LELYETIA_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:lottoman",
+      "vendor_name": "Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 14,
+          "source_symbol": "ItemRegister.SILVER_COIN",
+          "inventory_id": "localization:item.SilverCoin.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 14), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:lunar_lottoman",
+      "vendor_name": "Lunar Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityLunarLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:lunar_tokens",
+          "name": "Lunar Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.LUNAR_TOKENS",
+          "inventory_id": "localization:item.LunarTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-14.webp",
+            "x": 1115,
+            "y": 626,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.LUNAR_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:mystic_lottoman",
+      "vendor_name": "Mystic Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityMysticLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:mysterium_tokens",
+          "name": "Mysterium Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.MYSTERIUM_TOKENS",
+          "inventory_id": "localization:item.MysteriumTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-15.webp",
+            "x": 455,
+            "y": 1686,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.MYSTERIUM_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:precasian_lottoman",
+      "vendor_name": "Precasian Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityPrecasianLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:precasian_tokens",
+          "name": "Precasian Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.PRECASIAN_TOKENS",
+          "inventory_id": "localization:item.PrecasianTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-17.webp",
+            "x": 15,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.PRECASIAN_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:rocky_lottoman",
+      "vendor_name": "Rocky Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityRockyLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:deeplands_tokens",
+          "name": "Deeplands Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.DEEPLANDS_TOKENS",
+          "inventory_id": "localization:item.DeeplandsTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-06.webp",
+            "x": 895,
+            "y": 891,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.DEEPLANDS_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:runic_lottoman",
+      "vendor_name": "Runic Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityRunicLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:runandor_tokens",
+          "name": "Runandor Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.RUNANDOR_TOKENS",
+          "inventory_id": "localization:item.RunandorTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-20.webp",
+            "x": 15,
+            "y": 361,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.RUNANDOR_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:shyrelands_lottoman",
+      "vendor_name": "Shyrelands Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityShyrelandsLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:shyrelands_tokens",
+          "name": "Shyrelands Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.SHYRELANDS_TOKENS",
+          "inventory_id": "localization:item.ShyrelandsTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 455,
+            "y": 891,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SHYRELANDS_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:toxic_lottoman",
+      "vendor_name": "Toxic Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityToxicLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:vox_ponds_tokens",
+          "name": "Vox Ponds Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.VOX_PONDS_TOKENS",
+          "inventory_id": "localization:item.VoxPondsTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-24.webp",
+            "x": 675,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.VOX_PONDS_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:twinkling_lottoman",
+      "vendor_name": "Twinkling Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityTwinklingLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:haven_tokens",
+          "name": "Haven Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.HAVEN_TOKENS",
+          "inventory_id": "localization:item.HavenTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-11.webp",
+            "x": 675,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.HAVEN_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    },
+    {
+      "vendor": "aoa3:withering_lottoman",
+      "vendor_name": "Withering Lottoman",
+      "source_method": "net/tslat/aoa3/entity/npcs/lottoman/EntityWitheringLottoman.class",
+      "source_offset": 30,
+      "costs": [
+        {
+          "id": "aoa3:nether_tokens",
+          "name": "Nether Tokens",
+          "count": 28,
+          "source_symbol": "ItemRegister.NETHER_TOKENS",
+          "inventory_id": "localization:item.NetherTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-16.webp",
+            "x": 895,
+            "y": 361,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lotto_totem",
+        "name": "Lotto Totem",
+        "count": 1,
+        "source_symbol": "ItemRegister.LOTTO_TOTEM",
+        "inventory_id": "localization:item.LottoTotem.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-item-sheet-13.webp",
+          "x": 235,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.NETHER_TOKENS, 28), new ItemStack(ItemRegister.LOTTO_TOTEM)));"
+    }
+  ],
+  "trade_catalog_sha256": "aedad67c46079406598a886e378ffc78d8d47c80e8f1a5787b88445d7eafb543",
+  "probability_scope": "One uniformly selected winner among five successfully spawned choices,one ordinary choice,and the unmodified single-roll table with default quality0 and no additional hooks. The separate Lotto Banner is added by the callback after table loot.",
+  "persistence_model": {
+    "before": {
+      "winner": "winner-example",
+      "owner": "owner-example"
+    },
+    "save_tag": {},
+    "after_save": {
+      "winner": "winner-example",
+      "owner": "owner-example"
+    },
+    "after_load": {
+      "winner": null,
+      "owner": null
+    },
+    "read_preloaded_tag_fields": {
+      "winner": null,
+      "owner": null
+    },
+    "scope": "Models only the two reversed custom callbacks. Entity UUID/base fields and actual Forge serialization are not simulated."
+  }
+}
