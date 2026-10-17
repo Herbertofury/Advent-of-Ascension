@@ -14,6 +14,10 @@ The base ammo predicate accepts items in the **HollyArrow class family**. This i
 
 The base search checks offhand first, then main hand, then inventory slots. A different eligible arrow in your offhand can therefore be selected before one elsewhere in the inventory. It does not inspect arbitrary nested modded storage.
 
+## Inspect the actual draw textures
+
+The [complete 33-bow draw-state gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-Draw-State-Gallery-1.12.2) shows each resting layer and all three released draw overrides. The same four-state sheet opens inside each item’s timing panel only when expanded. These are static source textures alongside the existing model preview, not a runtime animation claim.
+
 ## How draw timing is calculated
 
 The selected release path multiplies elapsed use ticks by the bow's draw-speed multiplier, using float arithmetic, then converts the result to an integer charge. Forge's onArrowLoose hook can change or cancel that charge. A negative hook result returns without firing.
