@@ -255,3 +255,18 @@ Minecraft 1.12.2 / AoA 3.3.6 released ChunkGenLBorean.func_185931_b tests drowne
 - [ ] Resolve survival acquisition of the waterlogged inputs before claiming a complete restoration progression loop.
 
 [Illustrated Declogging Table and configuration guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Declogging-Waterlogged-Weapons-1.12.2) · [Released method evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/declogging-evidence-1.12.2.json). No game files or runtime configuration were changed by this documentation work.
+
+## Banker exchange transaction and GUI safety candidates · 1.12.2
+
+Released AoA 3.3.6 ContainerBankerTrade uses six 20:1 conversion lanes shared by five bankers. Its output onTake callback charges a fixed 20 or 1 input coins and regenerates the preview after a successful quick-move path. A bounded model with one Silver input and space for only one Copper moves one Copper, charges the Silver and overwrites the old nineteen-Copper remainder. This is a source-derived partial-transfer risk candidate, not a reproduced Forge/modpack transaction or a confirmed defect in the current owner-local build.
+
+The same container passes end-exclusive destination ranges [12,47),[39,47),[12,38), omitting container slot 47 or 38 as documented. The server BANKER GUI branch also passes the nearby-entity lookup result directly into a constructor that dereferences it, unlike the client’s local null guard.
+
+- [ ] First compare the current implementation with these old released methods; do not assume parity.
+- [ ] Make output delivery and input debit preserve coin value under partial capacity; reject incomplete delivery or correctly preserve paid leftovers.
+- [ ] Check complete player-inventory destination ranges, especially slots 38 and 47.
+- [ ] Guard missing, removed, out-of-range and stale banker GUI targets on the server.
+- [ ] Test ordinary pickup, right-click, shift-click, full/partly filled inventories, close/disconnect, repeated conversion and multiplayer synchronization.
+- [ ] Require before/after currency-value conservation and measured performance without capability loss.
+
+[Illustrated banker guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bankers-Coin-Exchange-and-Inventory-Safety-1.12.2) · [Released evidence and 252 bounded models](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/banker-exchange-evidence-1.12.2.json). No game files were modified or executed by this documentation work.

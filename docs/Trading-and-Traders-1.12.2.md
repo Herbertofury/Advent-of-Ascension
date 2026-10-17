@@ -118,7 +118,7 @@ Only the selected release’s compact data file is requested. The browser builds
 - [Fixed-list getter evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/trade-fixed-list-evidence-1.12.2.json)
 
 - [x] Decode the Undead Herald’s dimension switch and add a realm selector that preserves the four common offers.
-- [ ] Document bankers’ dedicated behavior separately from their placeholder trade method.
+- [x] Document the six-lane banker container, currency ratios and source-level inventory safety candidates separately from placeholder trades.
 - [ ] Verify spawning, GUI behavior, special-NBT matching, list expansion, save/reload and event/modpack interactions in a running test build.
 - [x] Add the six newly illustrated block references to the general item index with exact registration/localization evidence.
 
@@ -129,3 +129,7 @@ AoA artwork and systems are by Tslat and contributors; vanilla reference assets 
 ## Undead Herald realm-specific shopping
 
 [The illustrated Herald exchange guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Undead-Herald-Banner-Exchanges-1.12.2) compares all 22 conditional banners and four common banners. Choose a Herald realm in the Trading Desk, and clear other filters to inspect its full four- or five-offer source list.
+
+## Banker coin conversion
+
+[The illustrated banker guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bankers-Coin-Exchange-and-Inventory-Safety-1.12.2) explains the shared six-lane interface, 20:1 currency tiers, first-input placement and scoped partial-transfer/GUI-target findings. The five empty recipe placeholders remain excluded from the offer catalog.
