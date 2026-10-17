@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "reportDate": "2026-10-17",
+  "project": "Advent of Ascension",
+  "scope": "Private whole-mod 1.20.1 / Forge 47.4.23 / Java 17 candidate; implementation and compile evidence are distinct from native gameplay acceptance.",
+  "completeAoAPort": false,
+  "currentPlayableArtifactChanged": false,
+  "currentPlayableSha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
+  "candidateSourceOwners": 861,
+  "implementedPendingRuntime": [
+    "Historical 1.7.10 Anima crop/flower/vine/AoA-leaf harvest and stone pickup progression",
+    "Functional Fragmented Anima Stone through Forge bonemeal cancellation/ALLOW",
+    "Original Anima art/audio and canonical existing skill save/sync/UI lifecycle",
+    "Complete 22-outcome classic extraction loop with later stored-lava block state",
+    "Extraction obsidian-column output, XP, tribute, bowl wear and partial/full inventory handling",
+    "Restored Holly Arrow identity/NBT through native bow/crossbow wrapping and saves",
+    "Latest upstream Blackstone/Basalt/Ancient Debris extraction eligibility with extension tag; every old predicate branch retained",
+    "Original per-unit Pixon Luxon tribute inserted in the newer complete harvest loop"
+  ],
+  "compileEvidence": {
+    "file": "output/aoa-v86h-extraction-anima-changed-source-compiler-20261017.json",
+    "sha256": "ba536c63d881f4f96a8e6ccf338abcdc2a0e858bf381c945cfde37b2dd71feb3",
+    "bytes": 10079018
+  },
+  "compileSummary": {
+    "passed": true,
+    "changedCompleteJavaSources": 15,
+    "completeNativeClasspathEntries": 123,
+    "outputClasses": 24,
+    "annotationProcessing": "Disabled for this cheap diagnostic; normal whole native compile/AP/build/runtime remain required"
+  },
+  "sourcePlan": {
+    "file": "output\\aoa-forge1201-whole-native-extraction-anima-plan-v86i-native-sdk.json",
+    "sha256": "4b8a6e45d6818a87c42bd861292f7b6cfc78b2253b757db0d20fa631e054112f",
+    "bytes": 22973229
+  },
+  "upstreamObservation": {
+    "file": "output/aoa-upstream-freshness-f636734a-a94f-450e-be83-399849990f8d.json",
+    "sha256": "178ac94e9e290e1383e57ee72528b2841f89a1d715bb5ea21b46fed6c81c6627",
+    "bytes": 4764
+  },
+  "nativeAcceptance": {
+    "state": "in_progress",
+    "previousFailedCandidate": {
+      "file": "output/whole-mod-modern-server-baseline-8e142092-01c9-42db-a74e-4abd76877e1d.json",
+      "sha256": "876028a916777e4e4f32b7879073e23d654aea5b4f60afff7feef64b2e68a6c9",
+      "bytes": 25495482
+    },
+    "observedFailure": "Empty Anima skill JSON is an intentional disable marker; registration alone did not create the player skill.",
+    "correction": "Nonempty native skill configuration plus safe disabled-skill interaction guards; corrected whole candidate is undergoing native acceptance.",
+    "promoted": false
+  },
+  "stillOpen": [
+    "Complete Anima Soul Power/tablet/armour consumer reconciliation",
+    "Remaining deity consumers and historical dungeon progression",
+    "Full historical/latest identity and feature union",
+    "Natural full gameplay/travel, multiplayer, existing-save and optional-pack compatibility",
+    "Current candidate full native client/production acceptance and equivalent-work performance"
+  ],
+  "publication": "Factual metadata only; no original AoA code, assets or modified JAR are published.",
+  "completeSourceRecipeReadback": {
+    "file": "output\\aoa-v86i-complete-source-recipe-readback-20261017.json",
+    "sha256": "d537098ae5908d49b45dc41c990589120ac44a219c7d63992fcd66d17e222507",
+    "bytes": 853
+  }
+}

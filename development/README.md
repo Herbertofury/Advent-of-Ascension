@@ -14,6 +14,10 @@ In the owner's installed Enderloom, choose **Advent of Ascension · Current Play
 
 The complete historical/latest union, Extraction/Anima, additional deity consumers, all natural progression and travel, optional full-pack compatibility, migration and equivalent-work performance gates remain open. Twenty-five loaded-world validation contexts are not full dimension gameplay acceptance.
 
+## Current merge implementation
+
+[2026-10-17 Extraction/Anima source, compile and native-test progress](merge-progress-2026-10-17.json). The playable artifact is unchanged until the new complete candidate passes native and production acceptance.
+
 ## Keep the original moving forward
 
 `upstream-lock.json` is a dated observation, not a permanent newest-version constant. The retained modern archive matches all **14,236 official Git blob objects**, including all **46 changelogs**, at `7919b5fe48599e6105c5740937ce36c36ef21d16`. The current official production observation is AoA3 1.21.1-3.7.16.1. Freshness is separate from reconciliation: the newest source is not fully merged into the private playable target.
