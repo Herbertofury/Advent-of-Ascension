@@ -4,7 +4,7 @@
 
 ![Six gun models with their ammunition and default-stat examples](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/gun-statistics-overview-1.21.1.webp)
 
-**Coverage:** 78 direct `GunProperties.of` registrations in Minecraft 1.21.1 / AoA 3.7.16.1. The values were read from released class instructions and joined through their released registration factories. This is not a complete weapon census: wrapper-based shotguns, cannons, snipers, bows, staves and other families need their own extraction.
+**Coverage:** 78 direct `GunProperties.of` registrations in Minecraft 1.21.1 / AoA 3.7.16.1. The values were read from released class instructions and joined through their released registration factories. This is not a complete weapon census: [94 wrapped shotguns, cannons and snipers now have their own guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Cannon-and-Sniper-Statistics-1.21.1); bows, staves and other families remain separate work.
 
 ## How to use the numbers
 
