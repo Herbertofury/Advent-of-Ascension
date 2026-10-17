@@ -180,7 +180,7 @@ Each table call has one roll. These are separate from the outer fishing treasure
 
 A Treasure Box is therefore another historical reference for Fragmented Anima Stone and Utopian armor pieces. It does not guarantee a complete armor set, a specific fragment count or different armor pieces from repeated rolls.
 
-This page documents these two level-scaled boxes. Fish Case, Weapons Case and Crystal Box are listed above as catch entries; their inner contents are separate resources and are not replaced by the Treasure Box table.
+This page documents these two level-scaled boxes. The [complete remaining reward-box guide and Skill Crystal Planner](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reward-Boxes-and-Skill-Crystals-1.12.2) covers Fish Case, Weapons Case, Crystal Box, Gem Bag and Shiny Box; their contents are separate resources, not the Treasure Box table.
 
 ## Troubleshooting and restoration tests
 
