@@ -17,17 +17,19 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 72 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 73 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,077 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,781 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
-| Contextual how-to links | 398 links across 384 item cards; 405 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
+| Contextual how-to links | 399 links across 385 item cards; 405 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Equipment | 411 modern weapon references; 204 armor records; 48 ordinary set source reviews | [Armor effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) |
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
 | Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 104 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 105 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
+
+- [Augury and Ascension Shrine](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Augury-and-Ascension-Shrine-1.12.2): inactive released interaction, ten retained essence definitions and a separately labelled older source-only restoration route.
 
 - [Foraging and Logging](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Foraging-and-Logging-Rewards-1.12.2): 21 illustrated rewards, exact gate thresholds, XP functions and the distinct log-copy branch.
 
@@ -37,10 +39,9 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 - [Historical Extraction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extraction-Device-and-Skill-Rewards-1.12.2): illustrated device setup, three exact recipes, all 23 loot entries, bowl costs and integer success-gate arithmetic.
 
-- [Skeletal Army](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skeletal-Army-Waves-and-Recovery-1.12.2): all 39 wave lineups, eleven illustrated fighters, Elder-controlled progression and explicit starter save/reload boundaries.
 
 - [Worlds and travel atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions): 24 comparison identities, 22 code-era declarations and exact 21/7/10 data-definition counts, with biome references and travel links kept release-specific.
-- The larger how-to coverage now uses **9,802 inline bytes** for inventory links and **5,434 bytes** for recipe links. Common wiki prefixes are stored once; links are decoded once with no extra requests. Existing associations are preserved. These are payload measurements, not measured Minecraft FPS gains.
+- The larger how-to coverage now uses **9,895 inline bytes** for inventory links and **5,434 bytes** for recipe links. Common wiki prefixes are stored once; links are decoded once with no extra requests. Existing associations are preserved. These are payload measurements, not measured Minecraft FPS gains.
 
 ### What still prevents a “complete AoA” claim
 
