@@ -7,6 +7,10 @@
 
 This is a discoverability index of source-localized names, **not** a list of obtainable/implemented content. Leftover localization is common. Active registration, recipes, loot, behavior and the target build must be verified independently. Historical aliases and same-name redesigns remain distinct migration questions.
 
+## Prepare your armor
+
+[Armor materials and set preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1) covers 48 matching sets and 12 individual pieces, with exact item-card links, per-slot material inputs, durability reference limits and special unbreakable helmets. Worn-body previews and complete special-effect guides remain open work.
+
 ## Browse checked weapon families
 
 Choose your Minecraft release first, then use **Weapon family** in the Items & Blocks Observatory. Counts describe the inspected archive's reference panels, not damage rankings, obtainable items, or compatibility with a different build. Search, preview outcome, item/block kind and exact-item links intersect with the family filter. **Share this view** keeps those choices in the URL; Reset restores all records for the selected release.
