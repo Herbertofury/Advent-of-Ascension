@@ -10,6 +10,8 @@
 
 [Buy historical weapons: 29 trader offers, input quantities and cannon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Buying-Weapons-and-Trader-Upgrades-1.12.2)
 
+[Acquisition atlas for all 412 historical weapons](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Weapon-Acquisition-1.12.2): exact recipes, direct loot-table references, trader candidates and clearly marked unresolved routes.
+
 Before redesigning a weapon, compare its original appearance and release-specific resource behavior. These illustrated **1.12.2 / AoA 3.3.6** tables now place a checked source-model portrait beside every listed weapon name:
 
 - [36 swords: material and attack inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sword-Materials-and-Attack-Inputs-1.12.2)
