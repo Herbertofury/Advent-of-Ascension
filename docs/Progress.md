@@ -17,18 +17,18 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 96 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 97 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,077 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,781 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Contextual how-to links | 559 links across 518 item cards; 791 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Equipment | 411 modern weapon references; 204 armor records; 48 ordinary set source reviews | [Armor effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) |
 | Historical firearm panels | 328 release-specific panels: 172 in 1.12.2, 78 in 1.16.5 and 78 in 1.20.1 | [Historical item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&family=verified) |
 | Historical archergun panels | 9 source-checked 1.12.2 arrow-firing weapons | [Ammunition and special effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Archergun-Ammunition-and-Special-Effects-1.12.2) |
-| Historical staff panels | 57 staves, 134 base rune-cost entries and 800 arithmetic-model cases | [Casting and hand safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2) |
+| Historical staff panels | 57 staves, 134 base rune-cost entries, 29 custom casting gates and 800 arithmetic-model cases | [Casting and hand safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2) |
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
 | Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 147 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 148 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 

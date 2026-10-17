@@ -1,0 +1,268 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Human-reviewed precondition summaries tied to exact released method evidence. These are cast-entry gates, not all spell effects.",
+  "records": [
+    {
+      "id": "aoa3:celestial_staff",
+      "inventory_id": "localization:item.CelestialStaff.name",
+      "name": "Celestial Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CelestialStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:firestorm_staff",
+      "inventory_id": "localization:item.FirestormStaff.name",
+      "name": "Firestorm Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/FirestormStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:lightning_staff",
+      "inventory_id": "localization:item.LightningStaff.name",
+      "name": "Lightning Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/LightningStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:lunar_staff",
+      "inventory_id": "localization:item.LunarStaff.name",
+      "name": "Lunar Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/LunarStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:meteor_staff",
+      "inventory_id": "localization:item.MeteorStaff.name",
+      "name": "Meteor Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/MeteorStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:moonlight_staff",
+      "inventory_id": "localization:item.MoonlightStaff.name",
+      "name": "Moonlight Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/MoonlightStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:nightmare_staff",
+      "inventory_id": "localization:item.NightmareStaff.name",
+      "name": "Nightmare Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/NightmareStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:striker_staff",
+      "inventory_id": "localization:item.StrikerStaff.name",
+      "name": "Striker Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/StrikerStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:tangle_staff",
+      "inventory_id": "localization:item.TangleStaff.name",
+      "name": "Tangle Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/TangleStaff",
+      "category": "Aim at a block",
+      "requirement": "Player caster with a non-null block ray trace using distance input 70.",
+      "tip": "Aim at a reachable block rather than empty sky. This does not check a clear overhead path for the later spell."
+    },
+    {
+      "id": "aoa3:atlantic_staff",
+      "inventory_id": "localization:item.AtlanticStaff.name",
+      "name": "Atlantic Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/AtlanticStaff",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 10 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 10 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:candy_staff",
+      "inventory_id": "localization:item.CandyStaff.name",
+      "name": "Candy Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CandyStaff",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 10 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 10 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:cryston_staff",
+      "inventory_id": "localization:item.CrystonStaff.name",
+      "name": "Cryston Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CrystonStaff",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 10 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 10 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:joker_staff",
+      "inventory_id": "localization:item.JokerStaff.name",
+      "name": "Joker Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/JokerStaff",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 10 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 10 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:lightshine",
+      "inventory_id": "localization:item.Lightshine.name",
+      "name": "Lightshine",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/Lightshine",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 10 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 10 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:concussion_staff",
+      "inventory_id": "localization:item.ConcussionStaff.name",
+      "name": "Concussion Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/ConcussionStaff",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 8 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 8 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:show_staff",
+      "inventory_id": "localization:item.ShowStaff.name",
+      "name": "Show Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/ShowStaff",
+      "category": "Nearby hostile targets",
+      "requirement": "At least one IMob-matching target in the caster bounding box expanded by 30 on each axis.",
+      "tip": "Move close to an eligible hostile mob. The 30 value expands a box, not a spherical radius; this precondition does not add a line-of-sight test."
+    },
+    {
+      "id": "aoa3:crystik_staff",
+      "inventory_id": "localization:item.CrystikStaff.name",
+      "name": "Crystik Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CrystikStaff",
+      "category": "Magic-vulnerable hostiles",
+      "requirement": "At least one IMob-matching target without the checked MAGIC_IMMUNE property, in a box expanded by 10.",
+      "tip": "A nearby mob can still fail this predicate because of its explicit magic immunity property; no promise about all other defenses."
+    },
+    {
+      "id": "aoa3:lyonic_staff",
+      "inventory_id": "localization:item.LyonicStaff.name",
+      "name": "Lyonic Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/LyonicStaff",
+      "category": "Nearby living hostiles",
+      "requirement": "At least one alive IMob in a box expanded by 10 horizontally and 1 vertically.",
+      "tip": "Large vertical separation can exclude a target even if it looks nearby horizontally."
+    },
+    {
+      "id": "aoa3:crystal_staff",
+      "inventory_id": "localization:item.CrystalStaff.name",
+      "name": "Crystal Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CrystalStaff",
+      "category": "Injured player nearby",
+      "requirement": "At least one eligible vulnerable player in a box expanded by 20 whose health differs from max health.",
+      "tip": "The predicate excludes spectator, Creative and damage-disabled players. The check is health != max, not an explicit team/friendship check; success returns the whole eligible player list."
+    },
+    {
+      "id": "aoa3:everfight_staff",
+      "inventory_id": "localization:item.EverfightStaff.name",
+      "name": "Everfight Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/EverfightStaff",
+      "category": "Caster health",
+      "requirement": "Caster health / max health is strictly greater than 0 and strictly less than 1.",
+      "tip": "At full health the precondition returns null; the fraction is tested before rune payment."
+    },
+    {
+      "id": "aoa3:evermight_staff",
+      "inventory_id": "localization:item.EvermightStaff.name",
+      "name": "Evermight Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/EvermightStaff",
+      "category": "Caster health",
+      "requirement": "Caster health / max health is strictly greater than 0 and strictly less than 1.",
+      "tip": "At full health the precondition returns null; the fraction is tested before rune payment."
+    },
+    {
+      "id": "aoa3:reef_staff",
+      "inventory_id": "localization:item.ReefStaff.name",
+      "name": "Reef Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/ReefStaff",
+      "category": "Water",
+      "requirement": "The caster reports being in water.",
+      "tip": "Rain, an ocean biome label or water nearby alone is not this check."
+    },
+    {
+      "id": "aoa3:sky_staff",
+      "inventory_id": "localization:item.SkyStaff.name",
+      "name": "Sky Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/SkyStaff",
+      "category": "Grounded",
+      "requirement": "The caster onGround flag is true.",
+      "tip": "Try from a grounded position; the check does not prove clear airspace for what the spell does next."
+    },
+    {
+      "id": "aoa3:runic_staff",
+      "inventory_id": "localization:item.RunicStaff.name",
+      "name": "Runic Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/RunicStaff",
+      "category": "Player caster",
+      "requirement": "Caster is an EntityPlayer.",
+      "tip": "The precondition itself adds no target check. This is not proof that every later cast action succeeds."
+    },
+    {
+      "id": "aoa3:warlock_staff",
+      "inventory_id": "localization:item.WarlockStaff.name",
+      "name": "Warlock Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/WarlockStaff",
+      "category": "Player caster",
+      "requirement": "Caster is an EntityPlayer.",
+      "tip": "The precondition itself adds no target check. This is not proof that every later cast action succeeds."
+    },
+    {
+      "id": "aoa3:web_staff",
+      "inventory_id": "localization:item.WebStaff.name",
+      "name": "Web Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/WebStaff",
+      "category": "Negative potion effect",
+      "requirement": "At least one active potion whose isBadEffect flag is true.",
+      "tip": "This checks the game potion flag, not every possible harmful condition. Fire, hunger or a mod custom status is not automatically included."
+    },
+    {
+      "id": "aoa3:fungal_staff",
+      "inventory_id": "localization:item.FungalStaff.name",
+      "name": "Fungal Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/FungalStaff",
+      "category": "Workable nearby blocks",
+      "requirement": "The sampled 5\u00d75\u00d75 offsets around caster coordinates include grass or a BlockMushroom.",
+      "tip": "The collected entries distinguish grass from mushrooms. This only establishes a workable list, not successful growth or placement."
+    },
+    {
+      "id": "aoa3:nature_staff",
+      "inventory_id": "localization:item.NatureStaff.name",
+      "name": "Nature Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/NatureStaff",
+      "category": "Growable blocks",
+      "requirement": "A block in the caster box expanded by 10 implements IGrowable and its canGrow(..., false) returns true.",
+      "tip": "A fully grown crop can fail the growth predicate. Each block owns its growability rule."
+    },
+    {
+      "id": "aoa3:coral_staff",
+      "inventory_id": "localization:item.CoralStaff.name",
+      "name": "Coral Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+      "category": "Air placement candidates",
+      "requirement": "The selected surrounding shell positions contain exact vanilla AIR and pass the selected player mining-permission check.",
+      "tip": "This is not a universal claim/protection compatibility check. The later spell places blocks, so test it away from valuable builds."
+    }
+  ]
+}

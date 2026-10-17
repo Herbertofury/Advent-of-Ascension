@@ -14,6 +14,8 @@
 4. Check the spell's target/environment requirements. **29 staves declare custom precondition methods**; the default method simply returns a non-null object. A rejected custom precondition can prevent the cast before rune payment.
 5. Do not hold a gun or blaster in your main hand while trying to use a staff in the offhand: the base staff use path explicitly rejects that pairing.
 
+[Read the per-staff casting requirements and troubleshooting guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Casting-Requirements-and-Troubleshooting-1.12.2).
+
 ## What a successful base cast does
 
 On the server, the base use method checks the precondition, then requests rune payment with buffs allowed. A null precondition or failed payment returns failure. After payment it may play the casting sound, then sets a **12-tick cooldown**, records the use statistic, damages the staff by **1**, and finally calls `cast`.

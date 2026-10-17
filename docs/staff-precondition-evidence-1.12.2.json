@@ -1,0 +1,6110 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "All29customstaffpreconditionmethods plus selected local helpers, aiming/health helpers and predicate implementation. No cast-effect or game-runtime claim.",
+  "records": [
+    {
+      "id": "aoa3:atlantic_staff",
+      "inventory_id": "localization:item.AtlanticStaff.name",
+      "name": "Atlantic Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/AtlanticStaff"
+    },
+    {
+      "id": "aoa3:candy_staff",
+      "inventory_id": "localization:item.CandyStaff.name",
+      "name": "Candy Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CandyStaff"
+    },
+    {
+      "id": "aoa3:celestial_staff",
+      "inventory_id": "localization:item.CelestialStaff.name",
+      "name": "Celestial Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CelestialStaff"
+    },
+    {
+      "id": "aoa3:concussion_staff",
+      "inventory_id": "localization:item.ConcussionStaff.name",
+      "name": "Concussion Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/ConcussionStaff"
+    },
+    {
+      "id": "aoa3:coral_staff",
+      "inventory_id": "localization:item.CoralStaff.name",
+      "name": "Coral Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CoralStaff"
+    },
+    {
+      "id": "aoa3:crystal_staff",
+      "inventory_id": "localization:item.CrystalStaff.name",
+      "name": "Crystal Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CrystalStaff"
+    },
+    {
+      "id": "aoa3:crystik_staff",
+      "inventory_id": "localization:item.CrystikStaff.name",
+      "name": "Crystik Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CrystikStaff"
+    },
+    {
+      "id": "aoa3:cryston_staff",
+      "inventory_id": "localization:item.CrystonStaff.name",
+      "name": "Cryston Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/CrystonStaff"
+    },
+    {
+      "id": "aoa3:everfight_staff",
+      "inventory_id": "localization:item.EverfightStaff.name",
+      "name": "Everfight Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/EverfightStaff"
+    },
+    {
+      "id": "aoa3:evermight_staff",
+      "inventory_id": "localization:item.EvermightStaff.name",
+      "name": "Evermight Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/EvermightStaff"
+    },
+    {
+      "id": "aoa3:firestorm_staff",
+      "inventory_id": "localization:item.FirestormStaff.name",
+      "name": "Firestorm Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/FirestormStaff"
+    },
+    {
+      "id": "aoa3:fungal_staff",
+      "inventory_id": "localization:item.FungalStaff.name",
+      "name": "Fungal Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/FungalStaff"
+    },
+    {
+      "id": "aoa3:joker_staff",
+      "inventory_id": "localization:item.JokerStaff.name",
+      "name": "Joker Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/JokerStaff"
+    },
+    {
+      "id": "aoa3:lightning_staff",
+      "inventory_id": "localization:item.LightningStaff.name",
+      "name": "Lightning Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/LightningStaff"
+    },
+    {
+      "id": "aoa3:lightshine",
+      "inventory_id": "localization:item.Lightshine.name",
+      "name": "Lightshine",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/Lightshine"
+    },
+    {
+      "id": "aoa3:lunar_staff",
+      "inventory_id": "localization:item.LunarStaff.name",
+      "name": "Lunar Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/LunarStaff"
+    },
+    {
+      "id": "aoa3:lyonic_staff",
+      "inventory_id": "localization:item.LyonicStaff.name",
+      "name": "Lyonic Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/LyonicStaff"
+    },
+    {
+      "id": "aoa3:meteor_staff",
+      "inventory_id": "localization:item.MeteorStaff.name",
+      "name": "Meteor Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/MeteorStaff"
+    },
+    {
+      "id": "aoa3:moonlight_staff",
+      "inventory_id": "localization:item.MoonlightStaff.name",
+      "name": "Moonlight Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/MoonlightStaff"
+    },
+    {
+      "id": "aoa3:nature_staff",
+      "inventory_id": "localization:item.NatureStaff.name",
+      "name": "Nature Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/NatureStaff"
+    },
+    {
+      "id": "aoa3:nightmare_staff",
+      "inventory_id": "localization:item.NightmareStaff.name",
+      "name": "Nightmare Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/NightmareStaff"
+    },
+    {
+      "id": "aoa3:reef_staff",
+      "inventory_id": "localization:item.ReefStaff.name",
+      "name": "Reef Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/ReefStaff"
+    },
+    {
+      "id": "aoa3:runic_staff",
+      "inventory_id": "localization:item.RunicStaff.name",
+      "name": "Runic Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/RunicStaff"
+    },
+    {
+      "id": "aoa3:show_staff",
+      "inventory_id": "localization:item.ShowStaff.name",
+      "name": "Show Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/ShowStaff"
+    },
+    {
+      "id": "aoa3:sky_staff",
+      "inventory_id": "localization:item.SkyStaff.name",
+      "name": "Sky Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/SkyStaff"
+    },
+    {
+      "id": "aoa3:striker_staff",
+      "inventory_id": "localization:item.StrikerStaff.name",
+      "name": "Striker Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/StrikerStaff"
+    },
+    {
+      "id": "aoa3:tangle_staff",
+      "inventory_id": "localization:item.TangleStaff.name",
+      "name": "Tangle Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/TangleStaff"
+    },
+    {
+      "id": "aoa3:warlock_staff",
+      "inventory_id": "localization:item.WarlockStaff.name",
+      "name": "Warlock Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/WarlockStaff"
+    },
+    {
+      "id": "aoa3:web_staff",
+      "inventory_id": "localization:item.WebStaff.name",
+      "name": "Web Staff",
+      "method_class": "net/tslat/aoa3/item/weapon/staff/WebStaff"
+    }
+  ],
+  "methods": [
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/AtlanticStaff.class",
+      "class_sha256": "f89cefed15acc908bc03b54f11ba2284f732db46f551bcff8a3ead819a47e474",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4004c12482bb60050140051b60058b2005eb600644e2db9006a01009a00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 45
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CandyStaff.class",
+      "class_sha256": "c51fd4990e02eeba21297463019485895cea8c77012f51c4b95038386faedcf5",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4004912452bb6004d14004eb60055b2005bb600614e2db9006701009a00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 45
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CelestialStaff.class",
+      "class_sha256": "1d39151d9044690de0d0440736924d6d47e41a5dcda14b15277796f32e2928cc",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004899000e2bc00048140049b800504e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ConcussionStaff.class",
+      "class_sha256": "88d6f9a2329184a1359db3fafb9ca9e5642816866a682a7be4a5039e5b667ff1",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4002f122b2bb60033140034b6003bb20041b600474e2db9004d01009a00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 8.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 45
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CoralStaff.class",
+      "class_sha256": "69faff07beaca7455d056b1fca13ff945cf38d0e116890f4733928cedf2535d3",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "bb004a59b7004d4e2bb600533a04bb000759b700543a0510fe3606150604a300c110fe3607150704a3005519051904b6005a1506601904b6005d05641904b60060150760b60064572a2b1905b7006899000d2d1905b6006bb6006f572a2b1905b2007507b60079b7006899000d2d1905b6006bb6006f57840701a7ffab10fe3607150705a3005519051904b6005a1506601904b6005d1507601904b600600564b60064572a2b1905b7006899000d2d1905b6006bb6006f572a2b1905b2007c07b60079b7006899000d2d1905b6006bb6006f57840701a7ffab840601a7ff3f10fe3606150605a3006510fe3607150705a3005519051904b6005a05641904b6005d1507601904b60060150660b60064572a2b1905b7006899000d2d1905b6006bb6006f572a2b1905b2007f07b60079b7006899000d2d1905b6006bb6006f57840701a7ffab840601a7ff9b2db6008399000701a700042db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            74
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 78
+        },
+        {
+          "offset": 8,
+          "opcode": 43
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_180425_c",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 89
+        },
+        {
+          "offset": 18,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 25,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 30,
+          "opcode": 163,
+          "operands": [
+            0,
+            193
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 35,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 40,
+          "opcode": 163,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 96
+        },
+        {
+          "offset": 53,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 59,
+          "opcode": 100
+        },
+        {
+          "offset": 60,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 96
+        },
+        {
+          "offset": 68,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_181079_c",
+            "(III)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 87
+        },
+        {
+          "offset": 72,
+          "opcode": 42
+        },
+        {
+          "offset": 73,
+          "opcode": 43
+        },
+        {
+          "offset": 74,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+            "safeBlockPos",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 45
+        },
+        {
+          "offset": 83,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 87
+        },
+        {
+          "offset": 92,
+          "opcode": 42
+        },
+        {
+          "offset": 93,
+          "opcode": 43
+        },
+        {
+          "offset": 94,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "UP",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 100,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_189534_c",
+            "(Lnet/minecraft/util/EnumFacing;I)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+            "safeBlockPos",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 45
+        },
+        {
+          "offset": 110,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 87
+        },
+        {
+          "offset": 119,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 167,
+          "operands": [
+            255,
+            171
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 127,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 132,
+          "opcode": 163,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 96
+        },
+        {
+          "offset": 145,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 96
+        },
+        {
+          "offset": 153,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 159,
+          "opcode": 100
+        },
+        {
+          "offset": 160,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_181079_c",
+            "(III)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 87
+        },
+        {
+          "offset": 164,
+          "opcode": 42
+        },
+        {
+          "offset": 165,
+          "opcode": 43
+        },
+        {
+          "offset": 166,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+            "safeBlockPos",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 45
+        },
+        {
+          "offset": 175,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 87
+        },
+        {
+          "offset": 184,
+          "opcode": 42
+        },
+        {
+          "offset": 185,
+          "opcode": 43
+        },
+        {
+          "offset": 186,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 188,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "SOUTH",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 191,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 192,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_189534_c",
+            "(Lnet/minecraft/util/EnumFacing;I)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+            "safeBlockPos",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 45
+        },
+        {
+          "offset": 202,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 87
+        },
+        {
+          "offset": 211,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 214,
+          "opcode": 167,
+          "operands": [
+            255,
+            171
+          ]
+        },
+        {
+          "offset": 217,
+          "opcode": 132,
+          "operands": [
+            6,
+            1
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 167,
+          "operands": [
+            255,
+            63
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 225,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 230,
+          "opcode": 163,
+          "operands": [
+            0,
+            101
+          ]
+        },
+        {
+          "offset": 233,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 235,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 239,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 240,
+          "opcode": 163,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 247,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 250,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 251,
+          "opcode": 100
+        },
+        {
+          "offset": 252,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 254,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 257,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 96
+        },
+        {
+          "offset": 260,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 265,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 267,
+          "opcode": 96
+        },
+        {
+          "offset": 268,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_181079_c",
+            "(III)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 87
+        },
+        {
+          "offset": 272,
+          "opcode": 42
+        },
+        {
+          "offset": 273,
+          "opcode": 43
+        },
+        {
+          "offset": 274,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+            "safeBlockPos",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 282,
+          "opcode": 45
+        },
+        {
+          "offset": 283,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 285,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 288,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 291,
+          "opcode": 87
+        },
+        {
+          "offset": 292,
+          "opcode": 42
+        },
+        {
+          "offset": 293,
+          "opcode": 43
+        },
+        {
+          "offset": 294,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 296,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "EAST",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 299,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 300,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_189534_c",
+            "(Lnet/minecraft/util/EnumFacing;I)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/weapon/staff/CoralStaff",
+            "safeBlockPos",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 306,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 45
+        },
+        {
+          "offset": 310,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 312,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 315,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 318,
+          "opcode": 87
+        },
+        {
+          "offset": 319,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 322,
+          "opcode": 167,
+          "operands": [
+            255,
+            171
+          ]
+        },
+        {
+          "offset": 325,
+          "opcode": 132,
+          "operands": [
+            6,
+            1
+          ]
+        },
+        {
+          "offset": 328,
+          "opcode": 167,
+          "operands": [
+            255,
+            155
+          ]
+        },
+        {
+          "offset": 331,
+          "opcode": 45
+        },
+        {
+          "offset": 332,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 335,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 338,
+          "opcode": 1
+        },
+        {
+          "offset": 339,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 342,
+          "opcode": 45
+        },
+        {
+          "offset": 343,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CoralStaff.class",
+      "class_sha256": "69faff07beaca7455d056b1fca13ff945cf38d0e116890f4733928cedf2535d3",
+      "name": "safeBlockPos",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/math/BlockPos;)Z",
+      "code_hex": "2bb400e72cb600ebb900f10100b200f7a600202bc1009d9900152bb400e7b400fb2bc0009d2cb6010199000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150350_a",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 166,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 43
+        },
+        {
+          "offset": 20,
+          "opcode": 193,
+          "operands": [
+            0,
+            157
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 43
+        },
+        {
+          "offset": 27,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 43
+        },
+        {
+          "offset": 34,
+          "opcode": 192,
+          "operands": [
+            0,
+            157
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 44
+        },
+        {
+          "offset": 38,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "canMineBlock",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 45,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 49,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CrystalStaff.class",
+      "class_sha256": "44a8df08ce6a49a8a6e51f20ad04ab7df7858b8c7f5e0fd4c5e456f54464eae3",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4002f12312bb60035140036b6003db20043b600494e2db9004f010099000501b02db9005301003a041904b9005801009900221904b9005c0100c000313a051905b600601905b60063959900052db0a7ffda01b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/player/EntityPlayer"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 20.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_VULNERABLE_PLAYER",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 1
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 45
+        },
+        {
+          "offset": 35,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 153,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 192,
+          "operands": [
+            0,
+            49
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_110138_aP",
+            "()F"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 149
+        },
+        {
+          "offset": 75,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 45
+        },
+        {
+          "offset": 79,
+          "opcode": 176
+        },
+        {
+          "offset": 80,
+          "opcode": 167,
+          "operands": [
+            255,
+            218
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 1
+        },
+        {
+          "offset": 84,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CrystikStaff.class",
+      "class_sha256": "f1da86fb1507d3d3823767406f05a48eb562cc3e8df7c8ee79741737ad2e6181",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4002f122b2bb60033140034b6003bb20041b600474e2db9004d010099000501b02db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "MAGIC_VULNERABLE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 1
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 45
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/CrystonStaff.class",
+      "class_sha256": "86860a304a7ccc98e9ab0c6d41edaa0d1318e2c3a58e2cfee082aae4165c4c74",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4002f122b2bb60033140034b6003bb20041b60047b9004d0100b800534e2db600569e00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 78
+        },
+        {
+          "offset": 31,
+          "opcode": 45
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 158,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 45
+        },
+        {
+          "offset": 39,
+          "opcode": 176
+        },
+        {
+          "offset": 40,
+          "opcode": 1
+        },
+        {
+          "offset": 41,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/EverfightStaff.class",
+      "class_sha256": "94f8b914fc80f52543ff134430780b5d61bd4dcaabfb0748f6379f2e357cb9bc",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb8004946250c969c0010250b959e000a25b8004ea7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getCurrentHealthPercent",
+            "(Lnet/minecraft/entity/EntityLivingBase;)F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 70
+        },
+        {
+          "offset": 5,
+          "opcode": 37
+        },
+        {
+          "offset": 6,
+          "opcode": 12
+        },
+        {
+          "offset": 7,
+          "opcode": 150
+        },
+        {
+          "offset": 8,
+          "opcode": 156,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 37
+        },
+        {
+          "offset": 12,
+          "opcode": 11
+        },
+        {
+          "offset": 13,
+          "opcode": 149
+        },
+        {
+          "offset": 14,
+          "opcode": 158,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 37
+        },
+        {
+          "offset": 18,
+          "opcode": 184,
+          "member": [
+            "java/lang/Float",
+            "valueOf",
+            "(F)Ljava/lang/Float;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 1
+        },
+        {
+          "offset": 25,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/EvermightStaff.class",
+      "class_sha256": "907f8acfc408241ca1e0e22a3f232c37e05f4800b2636ae00afd12b58f9b63df",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb8004946250c969c0010250b959e000a25b8004ea7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getCurrentHealthPercent",
+            "(Lnet/minecraft/entity/EntityLivingBase;)F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 70
+        },
+        {
+          "offset": 5,
+          "opcode": 37
+        },
+        {
+          "offset": 6,
+          "opcode": 12
+        },
+        {
+          "offset": 7,
+          "opcode": 150
+        },
+        {
+          "offset": 8,
+          "opcode": 156,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 37
+        },
+        {
+          "offset": 12,
+          "opcode": 11
+        },
+        {
+          "offset": 13,
+          "opcode": 149
+        },
+        {
+          "offset": 14,
+          "opcode": 158,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 37
+        },
+        {
+          "offset": 18,
+          "opcode": 184,
+          "member": [
+            "java/lang/Float",
+            "valueOf",
+            "(F)Ljava/lang/Float;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 1
+        },
+        {
+          "offset": 25,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/FirestormStaff.class",
+      "class_sha256": "6a00b67d8a94b6c6c686479b3f85d58064a39504afebdcdc68e895dab94a8d5b",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004899000e2bc00048140049b800504e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/FungalStaff.class",
+      "class_sha256": "026090f808aac8cf58069a0e2e73ffa3cca8c6512f9fb753fb473b78ce72aa35",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "bb000759b700504ebb004159b700513a0410fe3605150505a3008210fe3606150605a3007210fe3607150705a300622bb400572d2bb4005b150587632bb4005e150687632bb4006115078763b60065b6006bb9007101003a081908b20077a6001419042db6007b04b80080b6004557a700191908c1008499001119042db6007b03b80080b6004557840701a7ff9e840601a7ff8e840501a7ff7e1904b6008899000701a700051904b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 78
+        },
+        {
+          "offset": 8,
+          "opcode": 187,
+          "operands": [
+            0,
+            65
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 89
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "java/util/HashMap",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 19,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 24,
+          "opcode": 163,
+          "operands": [
+            0,
+            130
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 29,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 34,
+          "opcode": 163,
+          "operands": [
+            0,
+            114
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 16,
+          "constant": -2
+        },
+        {
+          "offset": 39,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 44,
+          "opcode": 163,
+          "operands": [
+            0,
+            98
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 43
+        },
+        {
+          "offset": 48,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 45
+        },
+        {
+          "offset": 52,
+          "opcode": 43
+        },
+        {
+          "offset": 53,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 135
+        },
+        {
+          "offset": 59,
+          "opcode": 99
+        },
+        {
+          "offset": 60,
+          "opcode": 43
+        },
+        {
+          "offset": 61,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 135
+        },
+        {
+          "offset": 67,
+          "opcode": 99
+        },
+        {
+          "offset": 68,
+          "opcode": 43
+        },
+        {
+          "offset": 69,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 135
+        },
+        {
+          "offset": 75,
+          "opcode": 99
+        },
+        {
+          "offset": 76,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_189532_c",
+            "(DDD)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150349_c",
+            "Lnet/minecraft/block/BlockGrass;"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 166,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 45
+        },
+        {
+          "offset": 100,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 104,
+          "opcode": 184,
+          "member": [
+            "java/lang/Boolean",
+            "valueOf",
+            "(Z)Ljava/lang/Boolean;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 87
+        },
+        {
+          "offset": 111,
+          "opcode": 167,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 193,
+          "operands": [
+            0,
+            132
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 153,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 45
+        },
+        {
+          "offset": 125,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 129,
+          "opcode": 184,
+          "member": [
+            "java/lang/Boolean",
+            "valueOf",
+            "(Z)Ljava/lang/Boolean;"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 87
+        },
+        {
+          "offset": 136,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 167,
+          "operands": [
+            255,
+            158
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 132,
+          "operands": [
+            6,
+            1
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 167,
+          "operands": [
+            255,
+            142
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 132,
+          "operands": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 167,
+          "operands": [
+            255,
+            126
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 1
+        },
+        {
+          "offset": 163,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/JokerStaff.class",
+      "class_sha256": "665670139acd35545884fe510b6f892d6d358f9876d2a0354396e8009bff58b1",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4004c12482bb60050140051b60058b2005eb600644e2db9006a01009a00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 45
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LightningStaff.class",
+      "class_sha256": "431ffee7c87b1802bba1641ab1c5a5aa63f964dfecd00c4bd9856089a9fbcbc0",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004899000e2bc00048140049b800504e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/Lightshine.class",
+      "class_sha256": "7aa39651063dce80c19e80d7d5298653ac6ad9363a97f3cffac8cb87093aadff",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb40051124d2bb60055140056b6005db20063b600694e2db9006f01009a00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 45
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LunarStaff.class",
+      "class_sha256": "949b8c3f64c544abd2801c3e9f55d7d56b5d1d9013e6dbfe28b9eea7b319ce16",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004599000e2bc00045140046b8004d4e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            69
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            69
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LyonicStaff.class",
+      "class_sha256": "5a89df84064f8aa1e468d4d71a7e9768a1481396e4af03d74b54dfde3e898e09",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4005412502bb600581400590f140059b60060ba00730000b600794e2db9007f010099000701a700042db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 13,
+          "opcode": 15
+        },
+        {
+          "offset": 14,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_72314_b",
+            "(DDD)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 186,
+          "operands": [
+            0,
+            115,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 78
+        },
+        {
+          "offset": 29,
+          "opcode": 45
+        },
+        {
+          "offset": 30,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 1
+        },
+        {
+          "offset": 39,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 45
+        },
+        {
+          "offset": 43,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/LyonicStaff.class",
+      "class_sha256": "5a89df84064f8aa1e468d4d71a7e9768a1481396e4af03d74b54dfde3e898e09",
+      "name": "lambda$checkPreconditions$0",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;)Z",
+      "code_hex": "2ac1009f99000e2ab600f599000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            159
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70089_S",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 15,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 19,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/MeteorStaff.class",
+      "class_sha256": "1aec7625f3039d5f4535c7246056dc1b46a9e04157f4a925857feff91960955a",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004899000e2bc00048140049b800504e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/MoonlightStaff.class",
+      "class_sha256": "aec5282823ecae5fa5d6b926c3ed201ce8a2a89f63e0f304c7ef9e9b146195d8",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004b99000e2bc0004b14004cb800534e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            75
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            75
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/NatureStaff.class",
+      "class_sha256": "0883321f44a8fc05625152c269811cba8103fd246ff09ddb40051937fa991b62",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb400392bb6003d14003eb600452bba00590000b8005f4e2db6006599000701a700042db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 43
+        },
+        {
+          "offset": 15,
+          "opcode": 186,
+          "operands": [
+            0,
+            89,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/WorldUtil",
+            "getBlocksWithinAABB",
+            "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/AxisAlignedBB;Ljava/util/function/BiPredicate;)Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 78
+        },
+        {
+          "offset": 24,
+          "opcode": 45
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 1
+        },
+        {
+          "offset": 32,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 45
+        },
+        {
+          "offset": 36,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/NatureStaff.class",
+      "class_sha256": "0883321f44a8fc05625152c269811cba8103fd246ff09ddb40051937fa991b62",
+      "name": "lambda$checkPreconditions$0",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos$MutableBlockPos;)Z",
+      "code_hex": "2bb900d30100c100d59900222bb900d30100c000d52ab400392cb600d92b03b900dd050099000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 193,
+          "operands": [
+            0,
+            213
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 153,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 192,
+          "operands": [
+            0,
+            213
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 44
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos$MutableBlockPos",
+            "func_185334_h",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 43
+        },
+        {
+          "offset": 30,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 31,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/IGrowable",
+            "func_176473_a",
+            "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Z)Z"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 40,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 44,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/NightmareStaff.class",
+      "class_sha256": "cd7264b1c4d37d6988e62efa16cb8c9baa3922023b33a1ca60f056f1b0d94ef5",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004399000e2bc00043140044b8004b4e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            67
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            67
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ReefStaff.class",
+      "class_sha256": "60cfcee46d82698448e2163bb5571b06880859cff01c7eabbf809585a5f96513",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb6004999000a04b8004ea7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70090_H",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8,
+          "opcode": 184,
+          "member": [
+            "java/lang/Boolean",
+            "valueOf",
+            "(Z)Ljava/lang/Boolean;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 1
+        },
+        {
+          "offset": 15,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/RunicStaff.class",
+      "class_sha256": "9143be766b28516802de20226991281c51e3ed0b2f5cdbf8cd468ce5c00371c0",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bc1004299000dbb004459b70047a7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            66
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 187,
+          "operands": [
+            0,
+            68
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 89
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/ShowStaff.class",
+      "class_sha256": "bbf6c02526dbd330bb2f36ec7247e328bec183e794e8689d1d0c5475bfb40cb1",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4004912452bb6004d14004eb60055b2005bb600614e2db9006701009a00052db001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/EntityLivingBase"
+        },
+        {
+          "offset": 6,
+          "opcode": 43
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 30.0
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 78
+        },
+        {
+          "offset": 23,
+          "opcode": 45
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 45
+        },
+        {
+          "offset": 33,
+          "opcode": 176
+        },
+        {
+          "offset": 34,
+          "opcode": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/SkyStaff.class",
+      "class_sha256": "6c9e092080e8ca6bf027820c6c323672474103a1d5ffd1bf47853bd3c39b593f",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bb4004c99000dbb004e59b70051a7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70122_E",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 187,
+          "operands": [
+            0,
+            78
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 89
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/StrikerStaff.class",
+      "class_sha256": "a7c9a9af4275da29e8a2b6ffc3ea70147e19a1cba538c3fccbcc735fc0f797a0",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004299000e2bc00042140043b8004a4e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            66
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            66
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/TangleStaff.class",
+      "class_sha256": "f857609f8b1d5ca1e9197a7b6a18f98968cde750e8a792923f2a553bb1e588a5",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "014e2bc1004899000e2bc00048140049b800504e2db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 78
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 193,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 70.0
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getBlockAimingAt",
+            "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 78
+        },
+        {
+          "offset": 20,
+          "opcode": 45
+        },
+        {
+          "offset": 21,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WarlockStaff.class",
+      "class_sha256": "f5053f5419077b2c749811c6d89d274aab0297d6fa888d1bd432f4613a4321d0",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "2bc1004599000dbb004759b7004aa7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            69
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 187,
+          "operands": [
+            0,
+            71
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 89
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/weapon/staff/WebStaff.class",
+      "class_sha256": "9120180b5b16362112c57bc653c8385ec3f6e7eb8b66ae9e77c17ea0d712c87c",
+      "name": "checkPreconditions",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)Ljava/lang/Object;",
+      "code_hex": "bb004a592bb60050b900560100b700574e2bb60050b9005b01003a041904b9006101009900271904b900650100c000673a051905b6006bb6007099000d2d1905b6006bb6007457a7ffd52db600759e00072da7000401b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            74
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70651_bq",
+            "()Ljava/util/Collection;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 185,
+          "member": [
+            "java/util/Collection",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 78
+        },
+        {
+          "offset": 17,
+          "opcode": 43
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70651_bq",
+            "()Ljava/util/Collection;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 185,
+          "member": [
+            "java/util/Collection",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 153,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 192,
+          "operands": [
+            0,
+            103
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "func_188419_a",
+            "()Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/Potion",
+            "func_76398_f",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 45
+        },
+        {
+          "offset": 62,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "func_188419_a",
+            "()Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 87
+        },
+        {
+          "offset": 71,
+          "opcode": 167,
+          "operands": [
+            255,
+            213
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 45
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 158,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 45
+        },
+        {
+          "offset": 82,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 1
+        },
+        {
+          "offset": 86,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/EntityUtil.class",
+      "class_sha256": "b711efc4c6e99c4fde55e7755e18ec1f3f8cc8a152c506deeaa20b8a56d35402",
+      "name": "getBlockAimingAt",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;D)Lnet/minecraft/util/math/BlockPos;",
+      "code_hex": "bb018c592ab4018f2ab401922ab601958d632ab40198b7019b4e2ab4019e7613019f6a1301a066b801a438042ab4019e7613019f6a1301a066b801a738052ab401aa7613019f6ab801a47638062ab401aa7613019f6ab801a73807170517066a3808170417066a38092d17088d276b17078d276b17098d276bb601ae3a0a2ab401b22d190a040403b601b83a0b190bc7000501b0190bb601beb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            1,
+            140
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 42
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70047_e",
+            "()F"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 141
+        },
+        {
+          "offset": 17,
+          "opcode": 99
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/Vec3d",
+            "<init>",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 78
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70177_z",
+            "F"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 118
+        },
+        {
+          "offset": 31,
+          "opcode": 19,
+          "constant": 0.01745329238474369
+        },
+        {
+          "offset": 34,
+          "opcode": 106
+        },
+        {
+          "offset": 35,
+          "opcode": 19,
+          "constant": 3.1415927410125732
+        },
+        {
+          "offset": 38,
+          "opcode": 102
+        },
+        {
+          "offset": 39,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76134_b",
+            "(F)F"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 56,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 42
+        },
+        {
+          "offset": 45,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70177_z",
+            "F"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 118
+        },
+        {
+          "offset": 49,
+          "opcode": 19,
+          "constant": 0.01745329238474369
+        },
+        {
+          "offset": 52,
+          "opcode": 106
+        },
+        {
+          "offset": 53,
+          "opcode": 19,
+          "constant": 3.1415927410125732
+        },
+        {
+          "offset": 56,
+          "opcode": 102
+        },
+        {
+          "offset": 57,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76126_a",
+            "(F)F"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 56,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 42
+        },
+        {
+          "offset": 63,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70125_A",
+            "F"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 118
+        },
+        {
+          "offset": 67,
+          "opcode": 19,
+          "constant": 0.01745329238474369
+        },
+        {
+          "offset": 70,
+          "opcode": 106
+        },
+        {
+          "offset": 71,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76134_b",
+            "(F)F"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 118
+        },
+        {
+          "offset": 75,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 42
+        },
+        {
+          "offset": 78,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70125_A",
+            "F"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 118
+        },
+        {
+          "offset": 82,
+          "opcode": 19,
+          "constant": 0.01745329238474369
+        },
+        {
+          "offset": 85,
+          "opcode": 106
+        },
+        {
+          "offset": 86,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76126_a",
+            "(F)F"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 56,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 106
+        },
+        {
+          "offset": 96,
+          "opcode": 56,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 106
+        },
+        {
+          "offset": 103,
+          "opcode": 56,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 45
+        },
+        {
+          "offset": 106,
+          "opcode": 23,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 141
+        },
+        {
+          "offset": 109,
+          "opcode": 39
+        },
+        {
+          "offset": 110,
+          "opcode": 107
+        },
+        {
+          "offset": 111,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 141
+        },
+        {
+          "offset": 114,
+          "opcode": 39
+        },
+        {
+          "offset": 115,
+          "opcode": 107
+        },
+        {
+          "offset": 116,
+          "opcode": 23,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 141
+        },
+        {
+          "offset": 119,
+          "opcode": 39
+        },
+        {
+          "offset": 120,
+          "opcode": 107
+        },
+        {
+          "offset": 121,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/Vec3d",
+            "func_72441_c",
+            "(DDD)Lnet/minecraft/util/math/Vec3d;"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 58,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 42
+        },
+        {
+          "offset": 127,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 45
+        },
+        {
+          "offset": 131,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 134,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 135,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 136,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_147447_a",
+            "(Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;ZZZ)Lnet/minecraft/util/math/RayTraceResult;"
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 58,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 199,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 1
+        },
+        {
+          "offset": 147,
+          "opcode": 176
+        },
+        {
+          "offset": 148,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/RayTraceResult",
+            "func_178782_a",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/EntityUtil.class",
+      "class_sha256": "b711efc4c6e99c4fde55e7755e18ec1f3f8cc8a152c506deeaa20b8a56d35402",
+      "name": "getCurrentHealthPercent",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;)F",
+      "code_hex": "2ab600182ab6001b6eae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_110138_aP",
+            "()F"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 110
+        },
+        {
+          "offset": 9,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "<init>",
+      "descriptor": "()V",
+      "code_hex": "2ab7001bb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "lambda$static$4",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;)Z",
+      "code_hex": "2ac100219900202ac100239900152ac00023b900270100b2002bb600319a000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 193,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 192,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/entity/properties/SpecialPropertyEntity",
+            "getMobProperties",
+            "()Ljava/util/TreeSet;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$MobProperties",
+            "MAGIC_IMMUNE",
+            "Lnet/tslat/aoa3/library/Enums$MobProperties;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "java/util/TreeSet",
+            "contains",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 33,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 37,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "lambda$static$3",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;)Z",
+      "code_hex": "2ac100239900152ac00023b900270100b2002bb600319a000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/entity/properties/SpecialPropertyEntity",
+            "getMobProperties",
+            "()Ljava/util/TreeSet;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$MobProperties",
+            "MAGIC_IMMUNE",
+            "Lnet/tslat/aoa3/library/Enums$MobProperties;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "java/util/TreeSet",
+            "contains",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 30,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "lambda$static$2",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;)Z",
+      "code_hex": "2ac10021ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "lambda$static$1",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;)Z",
+      "code_hex": "2ac600112ab6003cb20042a5000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 198,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70668_bt",
+            "()Lnet/minecraft/entity/EnumCreatureAttribute;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/entity/EnumCreatureAttribute",
+            "UNDEAD",
+            "Lnet/minecraft/entity/EnumCreatureAttribute;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 165,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 15,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 19,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "lambda$static$0",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;)Z",
+      "code_hex": "2ac6001f2ab6004a9a00182ab6004d9a00112ab40051b400579a000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 198,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_175149_v",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 154,
+          "operands": [
+            0,
+            24
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184812_l_",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 154,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75102_a",
+            "Z"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 29,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 33,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PredicateUtil.class",
+      "class_sha256": "da120d9d39b2a5a49b051c813e9ef684505865b8c401927b9462239c5ae67b17",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "ba006a0000b3006cba00710000b30073ba00770000b30079ba007d0000b3007fba00830000b30085b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 186,
+          "operands": [
+            0,
+            106,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_VULNERABLE_PLAYER",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 186,
+          "operands": [
+            0,
+            113,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "NOT_UNDEAD",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 186,
+          "operands": [
+            0,
+            119,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_HOSTILE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 186,
+          "operands": [
+            0,
+            125,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "VULNERABLE_TO_MAGIC",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 186,
+          "operands": [
+            0,
+            131,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "MAGIC_VULNERABLE_MOB",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 177
+        }
+      ]
+    }
+  ]
+}
