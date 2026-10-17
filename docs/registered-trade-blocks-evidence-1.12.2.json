@@ -1,0 +1,523 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Six direct released block constructor/registration declarations plus exact localization and model paths. This supplements earlier name-normalized candidates; it is not a full runtime registry census.",
+  "registration_class": "net/tslat/aoa3/common/registration/BlockRegister.class",
+  "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+  "method_name": "registerBlocks",
+  "method_descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+  "method_sha256": "bde849f60532b6c417f9753a4598edd307e1024791a9651a8e4c29cba9712a61",
+  "records": [
+    {
+      "id": "aoa3:archaic_stream_horizontal_breakable",
+      "name": "Archaic Stream: Horizontal",
+      "localization_key": "tile.ArchaicHorizontalStreamBreakable.name",
+      "model": "aoa3:item/blocks/generation/misc/archaic_stream_horizontal_breakable",
+      "model_path": "assets/aoa3/models/item/blocks/generation/misc/archaic_stream_horizontal_breakable.json",
+      "model_sha256": "2aabccd9329b8590a08353c501b84476c28ffe12342aa4c36b46a179d8868f56",
+      "constructor": [
+        "net/tslat/aoa3/block/decoration/BasicDecorationBlock",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;FF)V"
+      ],
+      "registration_window": [
+        {
+          "offset": 17065,
+          "opcode": 187,
+          "operands": [
+            7,
+            147
+          ]
+        },
+        {
+          "offset": 17068,
+          "opcode": 89
+        },
+        {
+          "offset": 17069,
+          "opcode": 19,
+          "constant": "ArchaicHorizontalStreamBreakable"
+        },
+        {
+          "offset": 17072,
+          "opcode": 19,
+          "constant": "archaic_stream_horizontal_breakable"
+        },
+        {
+          "offset": 17075,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151576_e",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 17078,
+          "opcode": 13
+        },
+        {
+          "offset": 17079,
+          "opcode": 19,
+          "constant": 10.0
+        },
+        {
+          "offset": 17082,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/decoration/BasicDecorationBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;FF)V"
+          ]
+        },
+        {
+          "offset": 17085,
+          "opcode": 19,
+          "constant": "blocks/generation/misc/"
+        },
+        {
+          "offset": 17088,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 17089,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        },
+        {
+          "offset": 17092,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "registerBlock",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "preview": {
+        "sheet": "previews/registered-trade-blocks-1.12.2.webp",
+        "x": 15,
+        "y": 45,
+        "size": 190
+      }
+    },
+    {
+      "id": "aoa3:archaic_stream_vertical_breakable",
+      "name": "Archaic Stream: Vertical",
+      "localization_key": "tile.ArchaicVerticalStreamBreakable.name",
+      "model": "aoa3:item/blocks/generation/misc/archaic_stream_vertical_breakable",
+      "model_path": "assets/aoa3/models/item/blocks/generation/misc/archaic_stream_vertical_breakable.json",
+      "model_sha256": "fe5faf40cb3cf8913d7c50449c5869c5807f40ce15a2038df4f89766ad380a0b",
+      "constructor": [
+        "net/tslat/aoa3/block/decoration/BasicDecorationBlock",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;FF)V"
+      ],
+      "registration_window": [
+        {
+          "offset": 17297,
+          "opcode": 187,
+          "operands": [
+            7,
+            147
+          ]
+        },
+        {
+          "offset": 17300,
+          "opcode": 89
+        },
+        {
+          "offset": 17301,
+          "opcode": 19,
+          "constant": "ArchaicVerticalStreamBreakable"
+        },
+        {
+          "offset": 17304,
+          "opcode": 19,
+          "constant": "archaic_stream_vertical_breakable"
+        },
+        {
+          "offset": 17307,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151576_e",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 17310,
+          "opcode": 13
+        },
+        {
+          "offset": 17311,
+          "opcode": 19,
+          "constant": 10.0
+        },
+        {
+          "offset": 17314,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/decoration/BasicDecorationBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;FF)V"
+          ]
+        },
+        {
+          "offset": 17317,
+          "opcode": 19,
+          "constant": "blocks/generation/misc/"
+        },
+        {
+          "offset": 17320,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 17321,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        },
+        {
+          "offset": 17324,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "registerBlock",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "preview": {
+        "sheet": "previews/registered-trade-blocks-1.12.2.webp",
+        "x": 235,
+        "y": 45,
+        "size": 190
+      }
+    },
+    {
+      "id": "aoa3:carved_rune_direction",
+      "name": "Carved Rune of Direction",
+      "localization_key": "tile.CarvedRuneOfDirection.name",
+      "model": "aoa3:item/blocks/generation/misc/carved_rune_direction",
+      "model_path": "assets/aoa3/models/item/blocks/generation/misc/carved_rune_direction.json",
+      "model_sha256": "d6cefb1c57a6bca3a486c4a311c267a7be80114b8ccda929820aee54ef3d7aa4",
+      "constructor": [
+        "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V"
+      ],
+      "registration_window": [
+        {
+          "offset": 20040,
+          "opcode": 187,
+          "operands": [
+            17,
+            198
+          ]
+        },
+        {
+          "offset": 20043,
+          "opcode": 89
+        },
+        {
+          "offset": 20044,
+          "opcode": 19,
+          "constant": "CarvedRuneOfDirection"
+        },
+        {
+          "offset": 20047,
+          "opcode": 19,
+          "constant": "carved_rune_direction"
+        },
+        {
+          "offset": 20050,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 20053,
+          "opcode": 19,
+          "constant": "blocks/generation/misc/"
+        },
+        {
+          "offset": 20056,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20057,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        },
+        {
+          "offset": 20060,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "registerBlock",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "preview": {
+        "sheet": "previews/registered-trade-blocks-1.12.2.webp",
+        "x": 455,
+        "y": 45,
+        "size": 190
+      }
+    },
+    {
+      "id": "aoa3:carved_rune_reality",
+      "name": "Carved Rune of Reality",
+      "localization_key": "tile.CarvedRuneOfReality.name",
+      "model": "aoa3:item/blocks/generation/misc/carved_rune_reality",
+      "model_path": "assets/aoa3/models/item/blocks/generation/misc/carved_rune_reality.json",
+      "model_sha256": "ec11f02bc5db17d88c745130484018ce2d087511cf1cfc0927dbbb0c9e8a5472",
+      "constructor": [
+        "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V"
+      ],
+      "registration_window": [
+        {
+          "offset": 20136,
+          "opcode": 187,
+          "operands": [
+            17,
+            198
+          ]
+        },
+        {
+          "offset": 20139,
+          "opcode": 89
+        },
+        {
+          "offset": 20140,
+          "opcode": 19,
+          "constant": "CarvedRuneOfReality"
+        },
+        {
+          "offset": 20143,
+          "opcode": 19,
+          "constant": "carved_rune_reality"
+        },
+        {
+          "offset": 20146,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 20149,
+          "opcode": 19,
+          "constant": "blocks/generation/misc/"
+        },
+        {
+          "offset": 20152,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20153,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        },
+        {
+          "offset": 20156,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "registerBlock",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "preview": {
+        "sheet": "previews/registered-trade-blocks-1.12.2.webp",
+        "x": 675,
+        "y": 45,
+        "size": 190
+      }
+    },
+    {
+      "id": "aoa3:carved_rune_space",
+      "name": "Carved Rune of Space",
+      "localization_key": "tile.CarvedRuneOfSpace.name",
+      "model": "aoa3:item/blocks/generation/misc/carved_rune_space",
+      "model_path": "assets/aoa3/models/item/blocks/generation/misc/carved_rune_space.json",
+      "model_sha256": "2de8c75d049b0ad0f904884d3e27cc2b942acf401db19e818c2b7ea9913f8260",
+      "constructor": [
+        "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V"
+      ],
+      "registration_window": [
+        {
+          "offset": 20160,
+          "opcode": 187,
+          "operands": [
+            17,
+            198
+          ]
+        },
+        {
+          "offset": 20163,
+          "opcode": 89
+        },
+        {
+          "offset": 20164,
+          "opcode": 19,
+          "constant": "CarvedRuneOfSpace"
+        },
+        {
+          "offset": 20167,
+          "opcode": 19,
+          "constant": "carved_rune_space"
+        },
+        {
+          "offset": 20170,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 20173,
+          "opcode": 19,
+          "constant": "blocks/generation/misc/"
+        },
+        {
+          "offset": 20176,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20177,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        },
+        {
+          "offset": 20180,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "registerBlock",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "preview": {
+        "sheet": "previews/registered-trade-blocks-1.12.2.webp",
+        "x": 895,
+        "y": 45,
+        "size": 190
+      }
+    },
+    {
+      "id": "aoa3:carved_rune_travel",
+      "name": "Carved Rune of Travel",
+      "localization_key": "tile.CarvedRuneOfTravel.name",
+      "model": "aoa3:item/blocks/generation/misc/carved_rune_travel",
+      "model_path": "assets/aoa3/models/item/blocks/generation/misc/carved_rune_travel.json",
+      "model_sha256": "55d1396d1634a168df1c38235f6715a7bbe8530568cc9f3549fbcba33d3c2efa",
+      "constructor": [
+        "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V"
+      ],
+      "registration_window": [
+        {
+          "offset": 20184,
+          "opcode": 187,
+          "operands": [
+            17,
+            198
+          ]
+        },
+        {
+          "offset": 20187,
+          "opcode": 89
+        },
+        {
+          "offset": 20188,
+          "opcode": 19,
+          "constant": "CarvedRuneOfTravel"
+        },
+        {
+          "offset": 20191,
+          "opcode": 19,
+          "constant": "carved_rune_travel"
+        },
+        {
+          "offset": 20194,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/misc/CarvedRunicPortalBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 20197,
+          "opcode": 19,
+          "constant": "blocks/generation/misc/"
+        },
+        {
+          "offset": 20200,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20201,
+          "opcode": 189,
+          "operands": [
+            5,
+            218
+          ]
+        },
+        {
+          "offset": 20204,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "registerBlock",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "preview": {
+        "sheet": "previews/registered-trade-blocks-1.12.2.webp",
+        "x": 1115,
+        "y": 45,
+        "size": 190
+      }
+    }
+  ],
+  "sheet_sha256": "f592bf98152c0d5749cd1098f95cbc491529bfe85694d07c7286c174b0be179f"
+}

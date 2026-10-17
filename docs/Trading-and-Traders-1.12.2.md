@@ -104,9 +104,9 @@ The Toy Merchant requires **64 + 64 Circus Coins** and supplies an explicit one-
 
 ## Pictures and version-safe navigation
 
-The catalog uses 266 distinct item/metadata picture references: **243 existing atlas regions and 23 new source-model illustrations**. These include six historical block models absent from the current general item index. Those six names remain readable in the Trading Desk rather than linking to a fabricated inventory entry. Adding their dedicated inventory records remains a separate coverage task.
+The catalog uses 266 distinct item/metadata picture references: **249 existing atlas regions and 17 standalone source-model illustrations**. Six previously unmatched historical block models now have checked registration/localization entries in the general item index. Their trade cards link directly to those exact IDs.
 
-Only the selected release’s compact data file is requested. The browser builds 24 cards at a time, caches loaded releases and ignores stale responses after a version switch. Atlas regions reuse the existing sheets; new standalone item and NPC images are lazy-loaded. No game-folder scan or background polling is performed.
+Only the selected release’s compact data file is requested. The browser builds 24 cards at a time, caches loaded releases and ignores stale responses after a version switch. Atlas regions reuse the existing sheets; new standalone item and NPC images are lazy-loaded. No game-folder scan or background polling is performed. Vendor labels use a cached ID lookup instead of repeatedly scanning the vendor list for every card or search result. [Trade semantic and payload comparison](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/trade-browser-compaction-proof-1.12.2.json) confirms that quantities, metadata, special requirements and use-limit fields were preserved.
 
 ## Evidence and remaining work
 
@@ -119,7 +119,7 @@ Only the selected release’s compact data file is requested. The browser builds
 - [ ] Trace the Undead Herald’s dimension switch without treating every branch as simultaneous.
 - [ ] Document bankers’ dedicated behavior separately from their placeholder trade method.
 - [ ] Verify spawning, GUI behavior, special-NBT matching, list expansion, save/reload and event/modpack interactions in a running test build.
-- [ ] Add the six newly illustrated block references to the general item index with exact registration/localization evidence.
+- [x] Add the six newly illustrated block references to the general item index with exact registration/localization evidence.
 
 AoA artwork and systems are by Tslat and contributors; vanilla reference assets are by Mojang. These are static source references and documentation UI checks, not a live trading or Enderloom compatibility certification.
 

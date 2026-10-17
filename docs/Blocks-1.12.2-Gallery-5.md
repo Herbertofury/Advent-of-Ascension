@@ -151,3 +151,20 @@ Actual source-model/texture showcases from the indicated official JAR, credited 
 
 </details>
 
+
+## Additional checked registration references
+
+These six entries were missing from the older name-normalized index. Their exact released registration windows, localization keys and model paths are now recorded separately. They supplement the gallery above; they do not turn all older localization-only entries into a runtime registry census.
+
+![Six checked historical block models](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/registered-trade-blocks-1.12.2.webp)
+
+| Block | Exact released declaration ID | Inspect |
+|---|---|---|
+| Archaic Stream: Horizontal | `aoa3:archaic_stream_horizontal_breakable` | [Item entry](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=aoa3:archaic_stream_horizontal_breakable) · [Trade candidates](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&q=aoa3:archaic_stream_horizontal_breakable) |
+| Archaic Stream: Vertical | `aoa3:archaic_stream_vertical_breakable` | [Item entry](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=aoa3:archaic_stream_vertical_breakable) · [Trade candidates](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&q=aoa3:archaic_stream_vertical_breakable) |
+| Carved Rune of Direction | `aoa3:carved_rune_direction` | [Item entry](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=aoa3:carved_rune_direction) · [Trade candidates](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&q=aoa3:carved_rune_direction) |
+| Carved Rune of Reality | `aoa3:carved_rune_reality` | [Item entry](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=aoa3:carved_rune_reality) · [Trade candidates](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&q=aoa3:carved_rune_reality) |
+| Carved Rune of Space | `aoa3:carved_rune_space` | [Item entry](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=aoa3:carved_rune_space) · [Trade candidates](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&q=aoa3:carved_rune_space) |
+| Carved Rune of Travel | `aoa3:carved_rune_travel` | [Item entry](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=aoa3:carved_rune_travel) · [Trade candidates](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&q=aoa3:carved_rune_travel) |
+
+[Registration and source-model evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/registered-trade-blocks-evidence-1.12.2.json). These are static source illustrations, not game screenshots or survival/runtime acceptance.
