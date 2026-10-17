@@ -1,0 +1,5132 @@
+{
+  "artifact": "AoA3-3.3.6.jar",
+  "artifact_sha256": "4900a26fc181d8f08b7f46bac86846551028f522f67009341184a61be6c7f3f2",
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Exhaustive direct Skills.ALCHEMY/ENGINEERING field-reference inventory across shipped net/tslat/aoa3 classfiles, plus recipe/loot text-resource matches. Generic enum iteration, reflection, external mods and runtime configuration are outside this negative search.",
+  "classes_scanned": 3451,
+  "referencing_classes": [
+    {
+      "path": "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1.class",
+      "sha256": "506d32091e2fbec512aa7276e3d621db1202c8d1bc48a129bc2281154056af21",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ALCHEMY",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ],
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ENGINEERING",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/client/gui/render/SkillsRenderer$1.class",
+      "sha256": "9bca6c33197aa88b79d5fc67d0412f98c2f54fa009e5211e7c79607c519add87",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ALCHEMY",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ],
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ENGINEERING",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1.class",
+      "sha256": "c8d4395071a427e326e90c69bf06a0ab0031da56c3c3025c2b2a66f395ce0230",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ALCHEMY",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ],
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ENGINEERING",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1.class",
+      "sha256": "1b6c4b24bfbbf7079f5e1203d46b5ed4eed59dea60d7d2d9e0f1cc0abc469534",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ALCHEMY",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ],
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ENGINEERING",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/item/armour/AlchemyArmour.class",
+      "sha256": "3cc72981a7ead152b6635dc1de9deee48efe118a9830b79928b7d838f2523046",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ALCHEMY",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/item/armour/EngineeringArmour.class",
+      "sha256": "69b663f8c67b394683aa12334cd93cac6a2fd5447c23e4638e35ab049d1f4d64",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ENGINEERING",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/library/Enums$Skills.class",
+      "sha256": "bbf9f70a5ef8487c7be34e8215f5d68bb9684bdf246b0c8303c281f084c31267",
+      "references": [
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ALCHEMY",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ],
+        [
+          "net/tslat/aoa3/library/Enums$Skills",
+          "ENGINEERING",
+          "Lnet/tslat/aoa3/library/Enums$Skills;"
+        ]
+      ]
+    }
+  ],
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1.class",
+      "class_sha256": "506d32091e2fbec512aa7276e3d621db1202c8d1bc48a129bc2281154056af21",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "b80016bebc0ab30018b20018b2001cb60020044fa700044bb20018b20023b60020054fa700044bb20018b20026b60020064fa700044bb20018b20029b60020074fa700044bb20018b2002cb60020084fa700044bb20018b2002fb6002010064fa700044bb20018b20032b6002010074fa700044bb20018b20035b6002010084fa700044bb20018b20038b6002010094fa700044bb20018b2003bb60020100a4fa700044bb20018b2003eb60020100b4fa700044bb20018b20041b60020100c4fa700044bb20018b20044b60020100d4fa700044bb20018b20047b60020100e4fa700044bb20018b2004ab60020100f4fa700044bb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "values",
+            "()[Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 190
+        },
+        {
+          "offset": 4,
+          "opcode": 188,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 79
+        },
+        {
+          "offset": 20,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 75
+        },
+        {
+          "offset": 24,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 34,
+          "opcode": 79
+        },
+        {
+          "offset": 35,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 75
+        },
+        {
+          "offset": 39,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 49,
+          "opcode": 79
+        },
+        {
+          "offset": 50,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 75
+        },
+        {
+          "offset": 54,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 64,
+          "opcode": 79
+        },
+        {
+          "offset": 65,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 75
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 79,
+          "opcode": 79
+        },
+        {
+          "offset": 80,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 75
+        },
+        {
+          "offset": 84,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 95,
+          "opcode": 79
+        },
+        {
+          "offset": 96,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 75
+        },
+        {
+          "offset": 100,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 111,
+          "opcode": 79
+        },
+        {
+          "offset": 112,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 75
+        },
+        {
+          "offset": 116,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 127,
+          "opcode": 79
+        },
+        {
+          "offset": 128,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 75
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 143,
+          "opcode": 79
+        },
+        {
+          "offset": 144,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 75
+        },
+        {
+          "offset": 148,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 159,
+          "opcode": 79
+        },
+        {
+          "offset": 160,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 75
+        },
+        {
+          "offset": 164,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 175,
+          "opcode": 79
+        },
+        {
+          "offset": 176,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 75
+        },
+        {
+          "offset": 180,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 191,
+          "opcode": 79
+        },
+        {
+          "offset": 192,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 75
+        },
+        {
+          "offset": 196,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 205,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 207,
+          "opcode": 79
+        },
+        {
+          "offset": 208,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 75
+        },
+        {
+          "offset": 212,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 223,
+          "opcode": 79
+        },
+        {
+          "offset": 224,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 75
+        },
+        {
+          "offset": 228,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 239,
+          "opcode": 79
+        },
+        {
+          "offset": 240,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 75
+        },
+        {
+          "offset": 244,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/gui/render/SkillsRenderer$1.class",
+      "class_sha256": "9bca6c33197aa88b79d5fc67d0412f98c2f54fa009e5211e7c79607c519add87",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "b80016bebc0ab30018b20018b2001cb60020044fa700044bb20018b20023b60020054fa700044bb20018b20026b60020064fa700044bb20018b20029b60020074fa700044bb20018b2002cb60020084fa700044bb20018b2002fb6002010064fa700044bb20018b20032b6002010074fa700044bb20018b20035b6002010084fa700044bb20018b20038b6002010094fa700044bb20018b2003bb60020100a4fa700044bb20018b2003eb60020100b4fa700044bb20018b20041b60020100c4fa700044bb20018b20044b60020100d4fa700044bb20018b20047b60020100e4fa700044bb20018b2004ab60020100f4fa700044bb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "values",
+            "()[Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 190
+        },
+        {
+          "offset": 4,
+          "opcode": 188,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 79
+        },
+        {
+          "offset": 20,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 75
+        },
+        {
+          "offset": 24,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 34,
+          "opcode": 79
+        },
+        {
+          "offset": 35,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 75
+        },
+        {
+          "offset": 39,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 49,
+          "opcode": 79
+        },
+        {
+          "offset": 50,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 75
+        },
+        {
+          "offset": 54,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 64,
+          "opcode": 79
+        },
+        {
+          "offset": 65,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 75
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 79,
+          "opcode": 79
+        },
+        {
+          "offset": 80,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 75
+        },
+        {
+          "offset": 84,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 95,
+          "opcode": 79
+        },
+        {
+          "offset": 96,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 75
+        },
+        {
+          "offset": 100,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 111,
+          "opcode": 79
+        },
+        {
+          "offset": 112,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 75
+        },
+        {
+          "offset": 116,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 127,
+          "opcode": 79
+        },
+        {
+          "offset": 128,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 75
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 143,
+          "opcode": 79
+        },
+        {
+          "offset": 144,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 75
+        },
+        {
+          "offset": 148,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 159,
+          "opcode": 79
+        },
+        {
+          "offset": 160,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 75
+        },
+        {
+          "offset": 164,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 175,
+          "opcode": 79
+        },
+        {
+          "offset": 176,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 75
+        },
+        {
+          "offset": 180,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 191,
+          "opcode": 79
+        },
+        {
+          "offset": 192,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 75
+        },
+        {
+          "offset": 196,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 205,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 207,
+          "opcode": 79
+        },
+        {
+          "offset": 208,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 75
+        },
+        {
+          "offset": 212,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 223,
+          "opcode": 79
+        },
+        {
+          "offset": 224,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 75
+        },
+        {
+          "offset": 228,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/SkillsRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 239,
+          "opcode": 79
+        },
+        {
+          "offset": 240,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 75
+        },
+        {
+          "offset": 244,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1.class",
+      "class_sha256": "c8d4395071a427e326e90c69bf06a0ab0031da56c3c3025c2b2a66f395ce0230",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "b80016bebc0ab30018b20018b2001cb60020044fa700044bb20018b20023b60020054fa700044bb20018b20026b60020064fa700044bb20018b20029b60020074fa700044bb20018b2002cb60020084fa700044bb20018b2002fb6002010064fa700044bb20018b20032b6002010074fa700044bb20018b20035b6002010084fa700044bb20018b20038b6002010094fa700044bb20018b2003bb60020100a4fa700044bb20018b2003eb60020100b4fa700044bb20018b20041b60020100c4fa700044bb20018b20044b60020100d4fa700044bb20018b20047b60020100e4fa700044bb20018b2004ab60020100f4fa700044bb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "values",
+            "()[Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 190
+        },
+        {
+          "offset": 4,
+          "opcode": 188,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 79
+        },
+        {
+          "offset": 20,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 75
+        },
+        {
+          "offset": 24,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 34,
+          "opcode": 79
+        },
+        {
+          "offset": 35,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 75
+        },
+        {
+          "offset": 39,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 49,
+          "opcode": 79
+        },
+        {
+          "offset": 50,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 75
+        },
+        {
+          "offset": 54,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 64,
+          "opcode": 79
+        },
+        {
+          "offset": 65,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 75
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 79,
+          "opcode": 79
+        },
+        {
+          "offset": 80,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 75
+        },
+        {
+          "offset": 84,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 95,
+          "opcode": 79
+        },
+        {
+          "offset": 96,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 75
+        },
+        {
+          "offset": 100,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 111,
+          "opcode": 79
+        },
+        {
+          "offset": 112,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 75
+        },
+        {
+          "offset": 116,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 127,
+          "opcode": 79
+        },
+        {
+          "offset": 128,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 75
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 143,
+          "opcode": 79
+        },
+        {
+          "offset": 144,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 75
+        },
+        {
+          "offset": 148,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 159,
+          "opcode": 79
+        },
+        {
+          "offset": 160,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 75
+        },
+        {
+          "offset": 164,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 175,
+          "opcode": 79
+        },
+        {
+          "offset": 176,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 75
+        },
+        {
+          "offset": 180,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 191,
+          "opcode": 79
+        },
+        {
+          "offset": 192,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 75
+        },
+        {
+          "offset": 196,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 205,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 207,
+          "opcode": 79
+        },
+        {
+          "offset": 208,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 75
+        },
+        {
+          "offset": 212,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 223,
+          "opcode": 79
+        },
+        {
+          "offset": 224,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 75
+        },
+        {
+          "offset": 228,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/render/XpParticlesRenderer$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 239,
+          "opcode": 79
+        },
+        {
+          "offset": 240,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 75
+        },
+        {
+          "offset": 244,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1.class",
+      "class_sha256": "1b6c4b24bfbbf7079f5e1203d46b5ed4eed59dea60d7d2d9e0f1cc0abc469534",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "b80016bebc0ab30018b20018b2001cb60020044fa700044bb20018b20023b60020054fa700044bb20018b20026b60020064fa700044bb20018b20029b60020074fa700044bb20018b2002cb60020084fa700044bb20018b2002fb6002010064fa700044bb20018b20032b6002010074fa700044bb20018b20035b6002010084fa700044bb20018b20038b6002010094fa700044bb20018b2003bb60020100a4fa700044bb20018b2003eb60020100b4fa700044bb20018b20041b60020100c4fa700044bb20018b20044b60020100d4fa700044bb20018b20047b60020100e4fa700044bb20018b2004ab60020100f4fa700044bb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "values",
+            "()[Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 190
+        },
+        {
+          "offset": 4,
+          "opcode": 188,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 79
+        },
+        {
+          "offset": 20,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 75
+        },
+        {
+          "offset": 24,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 34,
+          "opcode": 79
+        },
+        {
+          "offset": 35,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 75
+        },
+        {
+          "offset": 39,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 49,
+          "opcode": 79
+        },
+        {
+          "offset": 50,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 75
+        },
+        {
+          "offset": 54,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 64,
+          "opcode": 79
+        },
+        {
+          "offset": 65,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 75
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 79,
+          "opcode": 79
+        },
+        {
+          "offset": 80,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 75
+        },
+        {
+          "offset": 84,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 95,
+          "opcode": 79
+        },
+        {
+          "offset": 96,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 75
+        },
+        {
+          "offset": 100,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 111,
+          "opcode": 79
+        },
+        {
+          "offset": 112,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 75
+        },
+        {
+          "offset": 116,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 127,
+          "opcode": 79
+        },
+        {
+          "offset": 128,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 75
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 143,
+          "opcode": 79
+        },
+        {
+          "offset": 144,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 75
+        },
+        {
+          "offset": 148,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 159,
+          "opcode": 79
+        },
+        {
+          "offset": 160,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 75
+        },
+        {
+          "offset": 164,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 175,
+          "opcode": 79
+        },
+        {
+          "offset": 176,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 75
+        },
+        {
+          "offset": 180,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 191,
+          "opcode": 79
+        },
+        {
+          "offset": 192,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 75
+        },
+        {
+          "offset": 196,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 205,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 207,
+          "opcode": 79
+        },
+        {
+          "offset": 208,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 75
+        },
+        {
+          "offset": 212,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 223,
+          "opcode": 79
+        },
+        {
+          "offset": 224,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 75
+        },
+        {
+          "offset": 228,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/toasts/LevelRequirementToast$1",
+            "$SwitchMap$net$tslat$aoa3$library$Enums$Skills",
+            "[I"
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ordinal",
+            "()I"
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 239,
+          "opcode": 79
+        },
+        {
+          "offset": 240,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 75
+        },
+        {
+          "offset": 244,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AlchemyArmour.class",
+      "class_sha256": "3cc72981a7ead152b6635dc1de9deee48efe118a9830b79928b7d838f2523046",
+      "name": "getSkill",
+      "descriptor": "()Lnet/tslat/aoa3/library/Enums$Skills;",
+      "code_hex": "b20031b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/AlchemyArmour.class",
+      "class_sha256": "3cc72981a7ead152b6635dc1de9deee48efe118a9830b79928b7d838f2523046",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "code_hex": "2db200311064b8003fb90045020057b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 6,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "getFormattedLevelRestrictedDescriptionText",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;I)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 87
+        },
+        {
+          "offset": 15,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/EngineeringArmour.class",
+      "class_sha256": "69b663f8c67b394683aa12334cd93cac6a2fd5447c23e4638e35ab049d1f4d64",
+      "name": "getSkill",
+      "descriptor": "()Lnet/tslat/aoa3/library/Enums$Skills;",
+      "code_hex": "b20031b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/EngineeringArmour.class",
+      "class_sha256": "69b663f8c67b394683aa12334cd93cac6a2fd5447c23e4638e35ab049d1f4d64",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "code_hex": "2db200311064b8003fb90045020057b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 6,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "getFormattedLevelRestrictedDescriptionText",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;I)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 87
+        },
+        {
+          "offset": 15,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/Enums$Skills.class",
+      "class_sha256": "bbf9f70a5ef8487c7be34e8215f5d68bb9684bdf246b0c8303c281f084c31267",
+      "name": "getById",
+      "descriptor": "(I)Lnet/tslat/aoa3/library/Enums$Skills;",
+      "code_hex": "1aaa000000000087000000000000000e0000004b0000004f00000053000000570000005b0000005f00000063000000670000006b0000006f00000073000000770000007b0000007f00000083b20039b0b2003bb0b2003db0b2003fb0b20041b0b20043b0b20045b0b20047b0b20049b0b2004bb0b2004db0b2004fb0b20051b0b20053b0b20055b001b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 170,
+          "default_target": 136,
+          "cases": [
+            {
+              "key": 0,
+              "target": 76
+            },
+            {
+              "key": 1,
+              "target": 80
+            },
+            {
+              "key": 2,
+              "target": 84
+            },
+            {
+              "key": 3,
+              "target": 88
+            },
+            {
+              "key": 4,
+              "target": 92
+            },
+            {
+              "key": 5,
+              "target": 96
+            },
+            {
+              "key": 6,
+              "target": 100
+            },
+            {
+              "key": 7,
+              "target": 104
+            },
+            {
+              "key": 8,
+              "target": 108
+            },
+            {
+              "key": 9,
+              "target": 112
+            },
+            {
+              "key": 10,
+              "target": 116
+            },
+            {
+              "key": 11,
+              "target": 120
+            },
+            {
+              "key": 12,
+              "target": 124
+            },
+            {
+              "key": 13,
+              "target": 128
+            },
+            {
+              "key": 14,
+              "target": 132
+            }
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 176
+        },
+        {
+          "offset": 80,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 176
+        },
+        {
+          "offset": 84,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 176
+        },
+        {
+          "offset": 88,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 176
+        },
+        {
+          "offset": 92,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 176
+        },
+        {
+          "offset": 96,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 176
+        },
+        {
+          "offset": 100,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 176
+        },
+        {
+          "offset": 104,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 176
+        },
+        {
+          "offset": 108,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 176
+        },
+        {
+          "offset": 112,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 176
+        },
+        {
+          "offset": 116,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 176
+        },
+        {
+          "offset": 120,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 176
+        },
+        {
+          "offset": 124,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 176
+        },
+        {
+          "offset": 128,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 176
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 176
+        },
+        {
+          "offset": 136,
+          "opcode": 1
+        },
+        {
+          "offset": 137,
+          "opcode": 176
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 76,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/Enums$Skills.class",
+      "class_sha256": "bbf9f70a5ef8487c7be34e8215f5d68bb9684bdf246b0c8303c281f084c31267",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "bb000259128b0303b7008db30039bb000259128e0404b7008db3003bbb000259128f0505b7008db3003dbb00025912900606b7008db3003fbb00025912910707b7008db30041bb00025912920808b7008db30043bb000259129310061006b7008db30045bb000259129410071007b7008db30047bb000259129510081008b7008db30049bb000259129610091009b7008db3004bbb0002591297100a100ab7008db3004dbb0002591298100b100bb7008db3004fbb0002591299100c100cb7008db30051bb000259129a100d100db7008db30053bb000259129b100e100eb7008db30055100fbd00025903b20039535904b2003b535905b2003d535906b2003f535907b20041535908b2004353591006b2004553591007b2004753591008b2004953591009b2004b5359100ab2004d5359100bb2004f5359100cb200515359100db200535359100eb2005553b30021b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "ALCHEMY"
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 89
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "ANIMA"
+        },
+        {
+          "offset": 20,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 21,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 22,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 89
+        },
+        {
+          "offset": 32,
+          "opcode": 18,
+          "constant": "AUGURY"
+        },
+        {
+          "offset": 34,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 35,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 36,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 89
+        },
+        {
+          "offset": 46,
+          "opcode": 18,
+          "constant": "BUTCHERY"
+        },
+        {
+          "offset": 48,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 49,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 50,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 89
+        },
+        {
+          "offset": 60,
+          "opcode": 18,
+          "constant": "CREATION"
+        },
+        {
+          "offset": 62,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 63,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 64,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 89
+        },
+        {
+          "offset": 74,
+          "opcode": 18,
+          "constant": "ENGINEERING"
+        },
+        {
+          "offset": 76,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 77,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 78,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 89
+        },
+        {
+          "offset": 88,
+          "opcode": 18,
+          "constant": "EXPEDITION"
+        },
+        {
+          "offset": 90,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 92,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 94,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 89
+        },
+        {
+          "offset": 104,
+          "opcode": 18,
+          "constant": "EXTRACTION"
+        },
+        {
+          "offset": 106,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 108,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 110,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 89
+        },
+        {
+          "offset": 120,
+          "opcode": 18,
+          "constant": "FORAGING"
+        },
+        {
+          "offset": 122,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 124,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 126,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 89
+        },
+        {
+          "offset": 136,
+          "opcode": 18,
+          "constant": "HAULING"
+        },
+        {
+          "offset": 138,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 140,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 142,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 89
+        },
+        {
+          "offset": 152,
+          "opcode": 18,
+          "constant": "HUNTER"
+        },
+        {
+          "offset": 154,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 156,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 158,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 89
+        },
+        {
+          "offset": 168,
+          "opcode": 18,
+          "constant": "INFUSION"
+        },
+        {
+          "offset": 170,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 172,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 174,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 89
+        },
+        {
+          "offset": 184,
+          "opcode": 18,
+          "constant": "INNERVATION"
+        },
+        {
+          "offset": 186,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 188,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 190,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 89
+        },
+        {
+          "offset": 200,
+          "opcode": 18,
+          "constant": "LOGGING"
+        },
+        {
+          "offset": 202,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 204,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 206,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 212,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 89
+        },
+        {
+          "offset": 216,
+          "opcode": 18,
+          "constant": "RUNATION"
+        },
+        {
+          "offset": 218,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 220,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 222,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "<init>",
+            "(Ljava/lang/String;II)V"
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 230,
+          "opcode": 189,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 233,
+          "opcode": 89
+        },
+        {
+          "offset": 234,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 235,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 83
+        },
+        {
+          "offset": 239,
+          "opcode": 89
+        },
+        {
+          "offset": 240,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 241,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ANIMA",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 244,
+          "opcode": 83
+        },
+        {
+          "offset": 245,
+          "opcode": 89
+        },
+        {
+          "offset": 246,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 247,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "AUGURY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 250,
+          "opcode": 83
+        },
+        {
+          "offset": 251,
+          "opcode": 89
+        },
+        {
+          "offset": 252,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 253,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "BUTCHERY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 256,
+          "opcode": 83
+        },
+        {
+          "offset": 257,
+          "opcode": 89
+        },
+        {
+          "offset": 258,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 259,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "CREATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 83
+        },
+        {
+          "offset": 263,
+          "opcode": 89
+        },
+        {
+          "offset": 264,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 265,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 268,
+          "opcode": 83
+        },
+        {
+          "offset": 269,
+          "opcode": 89
+        },
+        {
+          "offset": 270,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 272,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 275,
+          "opcode": 83
+        },
+        {
+          "offset": 276,
+          "opcode": 89
+        },
+        {
+          "offset": 277,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 279,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXTRACTION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 282,
+          "opcode": 83
+        },
+        {
+          "offset": 283,
+          "opcode": 89
+        },
+        {
+          "offset": 284,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 286,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 83
+        },
+        {
+          "offset": 290,
+          "opcode": 89
+        },
+        {
+          "offset": 291,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 293,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 296,
+          "opcode": 83
+        },
+        {
+          "offset": 297,
+          "opcode": 89
+        },
+        {
+          "offset": 298,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 300,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HUNTER",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 83
+        },
+        {
+          "offset": 304,
+          "opcode": 89
+        },
+        {
+          "offset": 305,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 307,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 310,
+          "opcode": 83
+        },
+        {
+          "offset": 311,
+          "opcode": 89
+        },
+        {
+          "offset": 312,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 314,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INNERVATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 317,
+          "opcode": 83
+        },
+        {
+          "offset": 318,
+          "opcode": 89
+        },
+        {
+          "offset": 319,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 321,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 324,
+          "opcode": 83
+        },
+        {
+          "offset": 325,
+          "opcode": 89
+        },
+        {
+          "offset": 326,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 328,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "RUNATION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 331,
+          "opcode": 83
+        },
+        {
+          "offset": 332,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "$VALUES",
+            "[Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 335,
+          "opcode": 177
+        }
+      ],
+      "direct_references": [
+        {
+          "offset": 11,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ALCHEMY",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 265,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "ENGINEERING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe_loot_matches": [],
+  "armour_methods": {
+    "Alchemy": [
+      {
+        "name": "<init>",
+        "descriptor": "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+        "code_hex": "2ab2001c2b2c2db7001fb1",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/MaterialsRegister",
+              "ARMOUR_ALCHEMY",
+              "Lnet/minecraft/item/ItemArmor$ArmorMaterial;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 43
+          },
+          {
+            "offset": 5,
+            "opcode": 44
+          },
+          {
+            "offset": 6,
+            "opcode": 45
+          },
+          {
+            "offset": 7,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/item/armour/AdventArmour",
+              "<init>",
+              "(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/inventory/EntityEquipmentSlot;)V"
+            ]
+          },
+          {
+            "offset": 10,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "setType",
+        "descriptor": "()Lnet/tslat/aoa3/library/Enums$ArmourSets;",
+        "code_hex": "b2002cb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/library/Enums$ArmourSets",
+              "ALCHEMY",
+              "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "getSkill",
+        "descriptor": "()Lnet/tslat/aoa3/library/Enums$Skills;",
+        "code_hex": "b20031b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/library/Enums$Skills",
+              "ALCHEMY",
+              "Lnet/tslat/aoa3/library/Enums$Skills;"
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "getLevelReq",
+        "descriptor": "()I",
+        "code_hex": "1064ac",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 16,
+            "constant": 100
+          },
+          {
+            "offset": 2,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "func_77624_a",
+        "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+        "code_hex": "2db200311064b8003fb90045020057b1",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 45
+          },
+          {
+            "offset": 1,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/library/Enums$Skills",
+              "ALCHEMY",
+              "Lnet/tslat/aoa3/library/Enums$Skills;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 16,
+            "constant": 100
+          },
+          {
+            "offset": 6,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/ItemUtil",
+              "getFormattedLevelRestrictedDescriptionText",
+              "(Lnet/tslat/aoa3/library/Enums$Skills;I)Ljava/lang/String;"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "java/util/List",
+              "add",
+              "(Ljava/lang/Object;)Z"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 87
+          },
+          {
+            "offset": 15,
+            "opcode": 177
+          }
+        ]
+      }
+    ],
+    "Engineering": [
+      {
+        "name": "<init>",
+        "descriptor": "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+        "code_hex": "2ab2001c2b2c2db7001fb1",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/MaterialsRegister",
+              "ARMOUR_ENGINEERING",
+              "Lnet/minecraft/item/ItemArmor$ArmorMaterial;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 43
+          },
+          {
+            "offset": 5,
+            "opcode": 44
+          },
+          {
+            "offset": 6,
+            "opcode": 45
+          },
+          {
+            "offset": 7,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/item/armour/AdventArmour",
+              "<init>",
+              "(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/inventory/EntityEquipmentSlot;)V"
+            ]
+          },
+          {
+            "offset": 10,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "setType",
+        "descriptor": "()Lnet/tslat/aoa3/library/Enums$ArmourSets;",
+        "code_hex": "b2002cb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/library/Enums$ArmourSets",
+              "ENGINEERING",
+              "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "getSkill",
+        "descriptor": "()Lnet/tslat/aoa3/library/Enums$Skills;",
+        "code_hex": "b20031b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/library/Enums$Skills",
+              "ENGINEERING",
+              "Lnet/tslat/aoa3/library/Enums$Skills;"
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "getLevelReq",
+        "descriptor": "()I",
+        "code_hex": "1064ac",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 16,
+            "constant": 100
+          },
+          {
+            "offset": 2,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "func_77624_a",
+        "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+        "code_hex": "2db200311064b8003fb90045020057b1",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 45
+          },
+          {
+            "offset": 1,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/library/Enums$Skills",
+              "ENGINEERING",
+              "Lnet/tslat/aoa3/library/Enums$Skills;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 16,
+            "constant": 100
+          },
+          {
+            "offset": 6,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/utils/ItemUtil",
+              "getFormattedLevelRestrictedDescriptionText",
+              "(Lnet/tslat/aoa3/library/Enums$Skills;I)Ljava/lang/String;"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "java/util/List",
+              "add",
+              "(Ljava/lang/Object;)Z"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 87
+          },
+          {
+            "offset": 15,
+            "opcode": 177
+          }
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "A retained skill enum, GUI icon or armor restriction is not proof of a dedicated training action.",
+    "Generic XP systems can address skills without a direct named field reference.",
+    "No game code executed; no claim of exhaustive dynamic reachability."
+  ]
+}
