@@ -1,0 +1,581 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "All18 roster entries whose pinned source class is in monster/overworld; exact recognized linear released spawnRules builders. Does not replace biome selectors or certify natural spawning.",
+  "records": [
+    {
+      "id": "aoa3:ancient_golem",
+      "name": "Ancient Golem",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/AncientGolemEntity.class",
+      "class_sha256": "3a932759ecca89e135a2b8546fa625cfa17d96a0e3ef8ff9fe410143b2c4e1f2",
+      "source": "source/content/entity/monster/overworld/AncientGolemEntity.java",
+      "source_sha256": "0e0e2c4f7d7dbece1378f6cd882efe3a849c283660b467b45a58330295775417",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab80076b2007c1041b60082b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            65
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 65,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "1636a00c3bbcdbdf350b5bb55f4e0865e53ffa4b69497e758df7307fa39a3d61"
+    },
+    {
+      "id": "aoa3:bomb_carrier",
+      "name": "Bomb Carrier",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/BombCarrierEntity.class",
+      "class_sha256": "42b77c7f0f55566d8934e41b1718bb9e4b311ab2107a07c85d8ec9a35fb9186b",
+      "source": "source/content/entity/monster/overworld/BombCarrierEntity.java",
+      "source_sha256": "0e9bb2ec3563dc8b2ce604ae8fa8bdf9584a927505f7eda0b40a4d529cccaaab",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8006eb200741037b6007a127eb6007fb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            55
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.20000000298023224
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 55,
+        "chance_denominator": 5,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "3a63a0524b6ed2e4fd8ed7e504fbc0771dc148740bb8973723be3597d7e783b4"
+    },
+    {
+      "id": "aoa3:bush_baby",
+      "name": "Bush Baby",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/BushBabyEntity.class",
+      "class_sha256": "4a3994faab5b05b8f1b4fe89221eaa7b90c9a60a8b7cd5a44884b7e5443bad93",
+      "source": "source/content/entity/monster/overworld/BushBabyEntity.java",
+      "source_sha256": "a6de64606db504bcfca334ccc5baeacc64106f3af51592c685d553cd5b11a6bd",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab80015b2001b1041b60021b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            65
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 65,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "18e3f3bd1b7f18717dcb56883bd9fbc6236c0e683c855b780e388e6fdaaa50d2"
+    },
+    {
+      "id": "aoa3:charger",
+      "name": "Charger",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/ChargerEntity.class",
+      "class_sha256": "a6a9aa4f25e5cd799e10681dafbef284ee7d162030603776fc31c5b05d7afba4",
+      "source": "source/content/entity/monster/overworld/ChargerEntity.java",
+      "source_sha256": "80cd2e3f5dc0072ead659933c45efe93bbada827dd5a9f1018ad6225e5eb720b",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab800c2b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "e9a6057c921ec7d29b153dcf83cdf5012c597c01021a431dd16e628875c5ad01"
+    },
+    {
+      "id": "aoa3:chomper",
+      "name": "Chomper",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/ChomperEntity.class",
+      "class_sha256": "4eec1b96bfcdf809c1514b1c93cfeca91f5d3e4fcec656cf0082013f9fcc73f8",
+      "source": "source/content/entity/monster/overworld/ChomperEntity.java",
+      "source_sha256": "b99ee7a343b4da18b637f8bd8957885a87299dad0e1c75c299f516b62c775605",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab80112130118b60119b0",
+      "calls": [
+        {
+          "method": "createDayNightMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "difficultyBasedSpawnChance",
+          "args": [
+            0.10000000149011612
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day_or_night",
+        "difficulty_factor": 0.1
+      },
+      "unchanged_row_sha256": "2fc0ccf09abc9143627bc4d7061be5e90c975bcf33ee6c2bde09a7230eef96dd"
+    },
+    {
+      "id": "aoa3:cyclops",
+      "name": "Cyclops",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/CyclopsEntity.class",
+      "class_sha256": "0651c37f6df8921ef11ac300fd30b568b64aa4205c954eed8884ac0c086dc844",
+      "source": "source/content/entity/monster/overworld/CyclopsEntity.java",
+      "source_sha256": "70214784233d3cd6af662325977422cc483ff54f60be4504404e88b205f701d8",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8001bb200211037b60027b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            55
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 55,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "4ff7919804a97a7ca45f0755416eaa96f5a67644e83a4e3378170d66965b5204"
+    },
+    {
+      "id": "aoa3:ghost",
+      "name": "Ghost",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/GhostEntity.class",
+      "class_sha256": "333d40dafe4aa5e80548ca2ea7c8140e9a4ae2c74a7c056a1c8c94ae946bf12e",
+      "source": "source/content/entity/monster/overworld/GhostEntity.java",
+      "source_sha256": "fdd553bddf84513d488489d92d84d4ca44761dc002e0bafb735341c11d4b5f2c",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab80007b2000d03b600131217b60018b0",
+      "calls": [
+        {
+          "method": "createMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noHigherThanY",
+          "args": [
+            "minecraft:overworld",
+            0
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.5
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "monster_light",
+        "maximum_y": 0,
+        "chance_denominator": 2
+      },
+      "unchanged_row_sha256": "ecb1d40457c4f8ca594395c2ef774fc00e51a040e188ebb1b9b2843255e64bcb"
+    },
+    {
+      "id": "aoa3:goblin",
+      "name": "Goblin",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/GoblinEntity.class",
+      "class_sha256": "dd17f463af4df5264a4ce4249bf607bf4bcae33273c6495cb3449d3406b7b84f",
+      "source": "source/content/entity/monster/overworld/GoblinEntity.java",
+      "source_sha256": "78c3dcbd988776901c3a94a0ef201a0ef51b509b6dab8b8446b012a3cf8dd989",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8001bb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "33250600f6375951a0bc1ef61f5b7ad1f5e6e51aae64b63030989535a69e5fb6"
+    },
+    {
+      "id": "aoa3:king_charger",
+      "name": "King Charger",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/KingChargerEntity.class",
+      "class_sha256": "84cd52254e562fe0aa408e518631344dcddaf09d1a55628ed8016b55569748d8",
+      "source": "source/content/entity/monster/overworld/KingChargerEntity.java",
+      "source_sha256": "3a5abcaf6a9084592f1c05e09eb113dce3d6acd78b1d82359f286454bcf29051",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab800d812deb600dfb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.0625
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "chance_denominator": 16,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "8358f9af1c6d5c158ff1a7c113d272d0e86b1cfcb6de1a8aebd0e59857ac745a"
+    },
+    {
+      "id": "aoa3:sasquatch",
+      "name": "Sasquatch",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/SasquatchEntity.class",
+      "class_sha256": "f5766a8ec9f2a445db3fb882ca727e2f237d267a2931a80758ac90c9ad7cfbb4",
+      "source": "source/content/entity/monster/overworld/SasquatchEntity.java",
+      "source_sha256": "4ec8fa404fc1429e61fbf99419a347d7074e44f7b5153905b3a12a677422fb4d",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8001bb200211037b60027b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            55
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 55,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "0e106c5971769a5d7309fb05dcb6e706cc9bf3c9b4a10331f1288f55c856341c"
+    },
+    {
+      "id": "aoa3:tree_spirit",
+      "name": "Tree Spirit",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/TreeSpiritEntity.class",
+      "class_sha256": "febc3107d098e6da6f91945b04e60138e82ad344b709b5cf5859008bfa3a25c0",
+      "source": "source/content/entity/monster/overworld/TreeSpiritEntity.java",
+      "source_sha256": "ae58c6e21f5335f22081429959cf0a365c2a7163ee7312fe583ca32550ad0983",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8012bb201311037b6013713013bb6013cb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            55
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.10000000149011612
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 55,
+        "chance_denominator": 10,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "ac31de15099e24c01723a707b32095efd247bc8606314bb5d32e6d93f13ba86a"
+    },
+    {
+      "id": "aoa3:void_walker",
+      "name": "Void Walker",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/VoidWalkerEntity.class",
+      "class_sha256": "5b2b5b7014e8d97d1046ec24c85b38f6730e36e3a76b98b5a405a8e5079634af",
+      "source": "source/content/entity/monster/overworld/VoidWalkerEntity.java",
+      "source_sha256": "c64578b52bf6a60084575c29161ed85bb0b5dc2d2d573500401a8ebc7add52f1",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab80015b2001b03b60021b0",
+      "calls": [
+        {
+          "method": "createMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noHigherThanY",
+          "args": [
+            "minecraft:overworld",
+            0
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "monster_light",
+        "maximum_y": 0
+      },
+      "unchanged_row_sha256": "0e66eb135073c60c940e4f3d6819f8e25e98107a0aa2523f721bd13ed1979a5c"
+    },
+    {
+      "id": "aoa3:yeti",
+      "name": "Yeti",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/YetiEntity.class",
+      "class_sha256": "9288afe85812e9a2b156e586295b4b83155ad69b83f498b162aff1f367f5e8d1",
+      "source": "source/content/entity/monster/overworld/YetiEntity.java",
+      "source_sha256": "7a4999f31488c7caff6d18fb096304fb5e8d399cb15273d009073a4ae4983fb4",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8007eb20084102db6008a128eb6008fb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "noLowerThanY",
+          "args": [
+            "minecraft:overworld",
+            45
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.5
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "minimum_y": 45,
+        "chance_denominator": 2,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "e01c7b17f7fbe58b04a459ce681f3aa4d362295d82b890ff9d131b8ab21e7f5c"
+    },
+    {
+      "id": "aoa3:ice_giant",
+      "name": "Ice Giant",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/IceGiantEntity.class",
+      "class_sha256": "2f614ef41e37df5a5d59ecf03e666a3bb1126625865901bad8ecb0fd4b94b99e",
+      "source": "source/content/entity/monster/overworld/IceGiantEntity.java",
+      "source_sha256": "dd20b7fe300925308ad94b1c19c3b99382a3de56b9b59325494a07cb51c70e8f",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8017613017cb6017db0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.06666667014360428
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "21e533dc92fd9f8bf1164880643d80a4821ce874553be2cac9502b6d03cfae1a"
+    },
+    {
+      "id": "aoa3:leafy_giant",
+      "name": "Leafy Giant",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/LeafyGiantEntity.class",
+      "class_sha256": "4522fe7c358a7e88d98265d91242adf1afe985c8a01e86dc88e9d5c8ccf2aeea",
+      "source": "source/content/entity/monster/overworld/LeafyGiantEntity.java",
+      "source_sha256": "55db0098ccb6d42e4a23e1248dad26b378c899d3b1ba5b86d5c244860c095687",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8012f130135b60136b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.06666667014360428
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "935f85fa147b28d4c3b18a2f7303bc5c6bdce4c180357efec3d5985e768f9f4b"
+    },
+    {
+      "id": "aoa3:sand_giant",
+      "name": "Sand Giant",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/SandGiantEntity.class",
+      "class_sha256": "bed5e81b75b3bc8deafd37504dd6cb5b1202712b0323f0e42e1b1449f6088584",
+      "source": "source/content/entity/monster/overworld/SandGiantEntity.java",
+      "source_sha256": "1286005386181e802f575de9205db33e9df992fb86471125e8d9bad50f723941",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8010813010eb6010fb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.06666667014360428
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "b430e7b70ed51f546867033b7befa8afe5289d252520204a451833b2a62d350a"
+    },
+    {
+      "id": "aoa3:stone_giant",
+      "name": "Stone Giant",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/StoneGiantEntity.class",
+      "class_sha256": "c15a75b3ed39e6243e781ad5bb79fd257572c2abd8407b4668562eb65b21c632",
+      "source": "source/content/entity/monster/overworld/StoneGiantEntity.java",
+      "source_sha256": "04ffbf1c699299bb655e9c59c1648fd5daf73923f278af80874b66813a334912",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab8018513018bb6018cb0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.06666667014360428
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "05fc2170ea16a3c8185babd1d2ec334cea87dc2e81c243d928fa5d79cf4adb63"
+    },
+    {
+      "id": "aoa3:wood_giant",
+      "name": "Wood Giant",
+      "class_path": "net/tslat/aoa3/content/entity/monster/overworld/WoodGiantEntity.class",
+      "class_sha256": "317c1d288cc1b15449067b228f789fc024c3a00cd6592e23e8008239be0ea433",
+      "source": "source/content/entity/monster/overworld/WoodGiantEntity.java",
+      "source_sha256": "73985576ae743222681e290387bd20c5cfe39ff360f3ef1f76cca93363c1a9fd",
+      "method_descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab801ad1301b3b601b4b0",
+      "calls": [
+        {
+          "method": "createDayMonster",
+          "args": [
+            "entity_type"
+          ]
+        },
+        {
+          "method": "spawnChance",
+          "args": [
+            0.06666667014360428
+          ]
+        }
+      ],
+      "compact": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      },
+      "unchanged_row_sha256": "cf769ffd4ad73e97c8b22010ee77fdafd879a033911a2519dd14c99f3d8ea47b"
+    }
+  ],
+  "limits": [
+    "Day is the shared helper phase gate, not a guaranteed clock schedule",
+    "monster_light does not imply an explicit only-at-night predicate",
+    "Height and chance gates apply to helper-defined natural spawn reasons; specified height is scoped to Overworld",
+    "Chance denominator and difficulty multiplier are extra predicate inputs, not encounter odds",
+    "No mod classes executed; no spawner, command, modpack or live spawn tests"
+  ],
+  "roster_byte_change": {
+    "before": 530583,
+    "after": 532775,
+    "added_uncompressed_bytes": 2192,
+    "scope": "Selected-release JSON only; not HTTP compressed bytes or measured browser time"
+  }
+}

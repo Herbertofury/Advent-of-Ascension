@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 134 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 135 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,837 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Compact contextual guide index | 559 links across 518 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -45,7 +45,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Interactive block models | 1,026 JSON-element item-model references; 17,537 quads in 33 on-demand chunks; 183 explicit exclusions | [Explore block models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Block-Model-Coverage-1.21.1) |
 | Interactive workstations | 7 static item meshes, 240 quads and 14 source textures; orbit controls and keyboard views | [Inspect in 3D](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Workstation-Models-1.21.1) |
 | Reading routes | 4 release-specific six-stop routes; browser-local reading checklists | [Choose a route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reading-Routes-and-Local-Checklists) |
-| Local documentation validation | 220 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 222 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 

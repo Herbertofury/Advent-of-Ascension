@@ -52,6 +52,8 @@ AoA's explosion builder supplies its griefing check. It first rejects block dama
 
 [Numbered loot details and spawn selectors](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1&entity=aoa3:bomb_carrier) · [Rotate Bomb Carrier](https://herbertofury.github.io/Advent-of-Ascension/model-turntable.html?entity=aoa3:bomb_carrier)
 
+[Compare spawn checks for all 18 Overworld monster entries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Overworld-Spawn-Checks-1.21.1). Their bestiary cards now include the same release-specific panels.
+
 ## Where the spawn evidence applies
 
 | Creature | Biome selector | Natural Overworld height gate | Spawn-pool entry |

@@ -148,7 +148,12 @@
           16.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:ancient_golem"
+      "turntable": "model-turntable.html?entity=aoa3:ancient_golem",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 65,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:attercopus",
@@ -1782,7 +1787,13 @@
           8.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:bomb_carrier"
+      "turntable": "model-turntable.html?entity=aoa3:bomb_carrier",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 55,
+        "chance_denominator": 5,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:bush_baby",
@@ -1889,7 +1900,12 @@
           8.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:bush_baby"
+      "turntable": "model-turntable.html?entity=aoa3:bush_baby",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 65,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:charger",
@@ -2036,7 +2052,11 @@
       ],
       "portrait_note": "Default plains source form shown; expand the other verified static appearances. Runtime selection and animation remain separate.",
       "variant_source": "https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/entity/variant/ChargerVariant.java",
-      "turntable": "model-turntable.html?entity=aoa3:charger"
+      "turntable": "model-turntable.html?entity=aoa3:charger",
+      "spawn_checks": {
+        "profile": "day",
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:chomper",
@@ -2235,7 +2255,11 @@
           8.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:chomper"
+      "turntable": "model-turntable.html?entity=aoa3:chomper",
+      "spawn_checks": {
+        "profile": "day_or_night",
+        "difficulty_factor": 0.1
+      }
     },
     {
       "id": "aoa3:cyclops",
@@ -2344,7 +2368,12 @@
           14.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:cyclops"
+      "turntable": "model-turntable.html?entity=aoa3:cyclops",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 55,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:dunkleosteus",
@@ -2804,7 +2833,12 @@
       },
       "portrait": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-mob-ghost.png",
       "portrait_evidence": "https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/client/render/entity/mob/GhostRenderer.java",
-      "turntable": "model-turntable.html?entity=aoa3:ghost"
+      "turntable": "model-turntable.html?entity=aoa3:ghost",
+      "spawn_checks": {
+        "profile": "monster_light",
+        "maximum_y": 0,
+        "chance_denominator": 2
+      }
     },
     {
       "id": "aoa3:goblin",
@@ -2916,7 +2950,11 @@
           8.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:goblin"
+      "turntable": "model-turntable.html?entity=aoa3:goblin",
+      "spawn_checks": {
+        "profile": "day",
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:infernal",
@@ -3153,7 +3191,12 @@
           16.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:king_charger"
+      "turntable": "model-turntable.html?entity=aoa3:king_charger",
+      "spawn_checks": {
+        "profile": "day",
+        "chance_denominator": 16,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:little_bam",
@@ -3802,7 +3845,12 @@
           12.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:sasquatch"
+      "turntable": "model-turntable.html?entity=aoa3:sasquatch",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 55,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:scolopendis",
@@ -6623,7 +6671,13 @@
           32.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:tree_spirit"
+      "turntable": "model-turntable.html?entity=aoa3:tree_spirit",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 55,
+        "chance_denominator": 10,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:veloraptor",
@@ -8180,7 +8234,11 @@
           10.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:void_walker"
+      "turntable": "model-turntable.html?entity=aoa3:void_walker",
+      "spawn_checks": {
+        "profile": "monster_light",
+        "maximum_y": 0
+      }
     },
     {
       "id": "aoa3:yeti",
@@ -8300,7 +8358,13 @@
           12.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:yeti"
+      "turntable": "model-turntable.html?entity=aoa3:yeti",
+      "spawn_checks": {
+        "profile": "day",
+        "minimum_y": 45,
+        "chance_denominator": 2,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:nospike",
@@ -8738,7 +8802,12 @@
           40.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:ice_giant"
+      "turntable": "model-turntable.html?entity=aoa3:ice_giant",
+      "spawn_checks": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:leafy_giant",
@@ -8852,7 +8921,12 @@
           40.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:leafy_giant"
+      "turntable": "model-turntable.html?entity=aoa3:leafy_giant",
+      "spawn_checks": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:sand_giant",
@@ -8965,7 +9039,12 @@
           40.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:sand_giant"
+      "turntable": "model-turntable.html?entity=aoa3:sand_giant",
+      "spawn_checks": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:stone_giant",
@@ -9102,7 +9181,12 @@
           40.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:stone_giant"
+      "turntable": "model-turntable.html?entity=aoa3:stone_giant",
+      "spawn_checks": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:wood_giant",
@@ -9229,7 +9313,12 @@
           40.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:wood_giant"
+      "turntable": "model-turntable.html?entity=aoa3:wood_giant",
+      "spawn_checks": {
+        "profile": "day",
+        "chance_denominator": 15,
+        "difficulty_factor": 0.12
+      }
     },
     {
       "id": "aoa3:nethengeic_beast",
