@@ -82,3 +82,8 @@ The selected tick handler checks positive value and subtracts the drain without 
 [Released registration and 14-class behavior evidence](https://herbertofury.github.io/Advent-of-Ascension/vulcane-rage-evidence-1.21.1.json) · [Illustration provenance](https://herbertofury.github.io/Advent-of-Ascension/vulcane-art-evidence-1.21.1.json).
 
 Archive: `AoA3-1.21.1-3.7.16.1.jar`. No Java game classes were executed. Models and mechanics are credited to Tslat and contributors. These findings do not establish that the private owner-local candidate contains the same paths, and no game fix is claimed here.
+
+
+## Historical edition boundary
+
+The checked 1.12.2 / AoA 3.3.6 family uses a stored revenge target and timer. Use the [historical revenge guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vulcanes-Revenge-Targets-and-Effects-1.12.2) for that release rather than applying this page's modern Rage rules.

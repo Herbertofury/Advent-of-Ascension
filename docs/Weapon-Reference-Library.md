@@ -16,10 +16,11 @@ Before redesigning a weapon, compare its original appearance and release-specifi
 - [50 cannons: ammunition and armor scaling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Ammunition-and-Armor-Scaling-1.12.2)
 - [33 bows: draw timing and ammunition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-Draw-Timing-and-Ammunition-1.12.2)
 - [9 archerguns: trajectories and effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Archergun-Ammunition-and-Special-Effects-1.12.2)
+- [8 vulcanes: stored revenge targets and effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vulcanes-Revenge-Targets-and-Effects-1.12.2)
 - [56 blasters: Energy, timing and Spark exceptions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2)
 - [57 staves: rune costs and hand safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2), with [29 custom casting requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Casting-Requirements-and-Troubleshooting-1.12.2)
 
-These 327 portraits preserve existing source-model atlas pixels. They are not new animated remodels, in-game screenshots or a complete census of all historical weapon families. Keep version differences explicit and retain optional reloading rather than imposing magazines on rune/resource weapons.
+These 335 portraits preserve existing source-model atlas pixels. They are not new animated remodels, in-game screenshots or a complete census of all historical weapon families. Keep version differences explicit and retain optional reloading rather than imposing magazines on rune/resource weapons.
 
 ## Owner-selected quality anchors
 
