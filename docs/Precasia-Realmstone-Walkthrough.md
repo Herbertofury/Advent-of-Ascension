@@ -68,3 +68,7 @@ Return to the **5 × 6** Ancient Rock/rune frame. Confirm the Power rune is at b
 - `data/aoa3/advancement/overworld/the_fossilised_key.json`: inventory criterion for obtaining the realmstone
 
 These are independently summarized artifact definitions. Custom Java feature behavior and live world generation have not been newly play-tested in this documentation pass. No copied upstream guide is presented as original work.
+
+## Plan the expedition after arrival
+
+[Precasia habitat and height checks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Precasia-Habitat-and-Height-Checks-1.21.1) explains seven monster spawn paths, including Attercopus’s split branch and Spinoledon’s separate altitude bands. Use it with the bestiary; passing a height predicate is not a guarantee of a spawn or a safe travel route.
