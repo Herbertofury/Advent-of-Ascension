@@ -1,0 +1,3072 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Direct constant-pool material-field references outside ordinary armor implementations and their material registration class. Not a proof of complete runtime behavior or absence of reflected, tag-driven, item-ID or external-mod paths.",
+  "class_files_scanned": 2014,
+  "material_fields": [
+    "ALACRITY",
+    "ARCHAIC",
+    "BARON",
+    "BATTLEBORN",
+    "BIOGENIC",
+    "BOREIC",
+    "CANDY",
+    "COMMANDER",
+    "CRYSTALLIS",
+    "ELECANYTE",
+    "EMBRODIUM",
+    "EXOPLATE",
+    "EXPLOSIVE",
+    "FUNGAL",
+    "GHASTLY",
+    "GHOULISH",
+    "HAZMAT",
+    "HYDRANGIC",
+    "HYDROPLATE",
+    "ICE",
+    "INFERNAL",
+    "KNIGHT",
+    "LUNAR",
+    "LYNDAMYTE",
+    "LYONIC",
+    "MERCURIAL",
+    "NECRO",
+    "NETHENGEIC",
+    "NIGHTMARE",
+    "OMNI",
+    "PHANTASM",
+    "POISON",
+    "PREDATIOUS",
+    "PRIMORDIAL",
+    "PURITY",
+    "ROCKBONE",
+    "ROSIDIAN",
+    "RUNIC",
+    "SHARPSHOT",
+    "SKELETAL",
+    "SPACEKING",
+    "SPEED",
+    "SUBTERRANEAN",
+    "UTOPIAN",
+    "VOID",
+    "WEAKEN",
+    "WITHER",
+    "ZARGONITE"
+  ],
+  "records": [
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/blaster/AoABlaster.class",
+      "class_sha256": "7ab814a208034a363998c81bc33b578d4e5283266714fd7f8a2f283dfdafa064",
+      "materials": [
+        "GHOULISH"
+      ],
+      "methods": [
+        {
+          "name": "getSpiritCost",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Z)F",
+          "materials": [
+            "GHOULISH"
+          ],
+          "code_hex": "2cc1006d9900152cc0006d3a041904b600999900091d9900050bae2a2bb601a338051904b601a62b1705b801aa380517050c1904b601a62b03b801b0861301b46a626a38051904b201b5b801ba99000b17051301be6a38051705ae",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 193,
+              "operands": [
+                0,
+                109
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                21
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 44
+            },
+            {
+              "offset": 8,
+              "opcode": 192,
+              "operands": [
+                0,
+                109
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "hasInfiniteMaterials",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 153,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 29
+            },
+            {
+              "offset": 22,
+              "opcode": 153,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 11
+            },
+            {
+              "offset": 26,
+              "opcode": 174
+            },
+            {
+              "offset": 27,
+              "opcode": 42
+            },
+            {
+              "offset": 28,
+              "opcode": 43
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/blaster/AoABlaster",
+                "getBaseSpiritCost",
+                "(Lnet/minecraft/world/item/ItemStack;)F"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 43
+            },
+            {
+              "offset": 40,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAEnchantments",
+                "modifySpiritConsumption",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;F)F"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 12
+            },
+            {
+              "offset": 50,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 43
+            },
+            {
+              "offset": 56,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 57,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAEnchantments",
+                "modifyAmmoCost",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;I)I"
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 134
+            },
+            {
+              "offset": 61,
+              "opcode": 19,
+              "constant": 0.30000001192092896
+            },
+            {
+              "offset": 64,
+              "opcode": 106
+            },
+            {
+              "offset": 65,
+              "opcode": 98
+            },
+            {
+              "offset": 66,
+              "opcode": 106
+            },
+            {
+              "offset": 67,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArmourMaterials",
+                "GHOULISH",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "isWearingFullSet",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;)Z"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 153,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 19,
+              "constant": 0.699999988079071
+            },
+            {
+              "offset": 85,
+              "opcode": 106
+            },
+            {
+              "offset": 86,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 174
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "class_sha256": "1652efb8b6d3d439dcd967b4a7453e83f78868250a29926b7cc8f78b9494a0d1",
+      "materials": [
+        "HYDRANGIC"
+      ],
+      "methods": [
+        {
+          "name": "onBlockPlace",
+          "descriptor": "(Lnet/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent;)V",
+          "materials": [
+            "HYDRANGIC"
+          ],
+          "code_hex": "2ab601b24d2cc100a999000b2cc000a94ca70004b12bb201b3b801b899004e2ab601bcb601bfc101c3990041bb00ec59b201c5b701822ab601b2b601cb2ab601ce2bb801cf9900252ab601d51105e12ab601ce03b901db04002b2bb60118b601e1b601e51301eab601ebb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent",
+                "getEntity",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 77
+            },
+            {
+              "offset": 5,
+              "opcode": 44
+            },
+            {
+              "offset": 6,
+              "opcode": 193,
+              "operands": [
+                0,
+                169
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 44
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                0,
+                169
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 76
+            },
+            {
+              "offset": 17,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 177
+            },
+            {
+              "offset": 21,
+              "opcode": 43
+            },
+            {
+              "offset": 22,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArmourMaterials",
+                "HYDRANGIC",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "isWearingFullSet",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;)Z"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 153,
+              "operands": [
+                0,
+                78
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 42
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent",
+                "getPlacedBlock",
+                "()Lnet/minecraft/world/level/block/state/BlockState;"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/state/BlockState",
+                "getBlock",
+                "()Lnet/minecraft/world/level/block/Block;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 193,
+              "operands": [
+                1,
+                195
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 153,
+              "operands": [
+                0,
+                65
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 187,
+              "operands": [
+                0,
+                236
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 89
+            },
+            {
+              "offset": 48,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/Items",
+                "BONE_MEAL",
+                "Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "<init>",
+                "(Lnet/minecraft/world/level/ItemLike;)V"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 42
+            },
+            {
+              "offset": 55,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent",
+                "getEntity",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 42
+            },
+            {
+              "offset": 62,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent",
+                "getPos",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 65,
+              "opcode": 43
+            },
+            {
+              "offset": 66,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/item/BoneMealItem",
+                "applyBonemeal",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;)Z"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 153,
+              "operands": [
+                0,
+                37
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 42
+            },
+            {
+              "offset": 73,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent",
+                "getLevel",
+                "()Lnet/minecraft/world/level/LevelAccessor;"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 17,
+              "constant": 1505
+            },
+            {
+              "offset": 79,
+              "opcode": 42
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/level/BlockEvent$EntityPlaceEvent",
+                "getPos",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 84,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/world/level/LevelAccessor",
+                "levelEvent",
+                "(ILnet/minecraft/core/BlockPos;I)V"
+              ]
+            },
+            {
+              "offset": 89,
+              "opcode": 43
+            },
+            {
+              "offset": 90,
+              "opcode": 43
+            },
+            {
+              "offset": 91,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "damageSources",
+                "()Lnet/minecraft/world/damagesource/DamageSources;"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSources",
+                "generic",
+                "()Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 19,
+              "constant": 16.0
+            },
+            {
+              "offset": 103,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "hurtArmor",
+                "(Lnet/minecraft/world/damagesource/DamageSource;F)V"
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/util/ItemUtil.class",
+      "class_sha256": "592c51c9eee804ca05c20d2b89d56fa2af7cb0facf2739ab7c9cc6404a421008",
+      "materials": [
+        "NIGHTMARE"
+      ],
+      "methods": [
+        {
+          "name": "findAndConsumeRunes",
+          "descriptor": "(Lit/unimi/dsi/fastutil/objects/Reference2IntMap;Lnet/minecraft/server/level/ServerPlayer;ZLnet/minecraft/world/item/ItemStack;)Z",
+          "materials": [
+            "NIGHTMARE"
+          ],
+          "code_hex": "2bb6003599000504acbb0089592ab7008b3a041c9900112bb2008eb8009499000704a700040336051904b6009ab9009e01003a061906b900a401009900241906b900a90100c000773a07190419071c2b2d1505ba00ad0000b600b157a7ffd81904b600b599000504acbb00b659b700b83a06bb0089591904b7008b3a072bb200b9b600bf3a082bb200c3b600bf3a091908b200c6b600cc99004a1908b600d03a0a1907190ab600d39900391907190ab600d7360b190602b900db020057150b1908b600e164360b150b9e00101907190a150bb600e557a7000b1907190ab600e9571907b600b59a00561909b200c6b600cc99004b1909b600d03a0a1907190ab600d399003a1907190ab600d7360b190610feb900db020057150b1909b600e164360b150b9e00101907190a150bb600e557a7000b1907190ab600e9571907b600b59a008103360a150a2bb600ecb600f0a200722bb600ec150ab600f53a0b190bb200c6b600cc990056190bb600d03a0c1907190cb600d39900451907190cb600d7360d1906150ab900db020057150d190bb600e164360d150d9e00101907190c150db600e557a7000b1907190cb600e9571907b600b5990006a70009840a01a7ff881907b600b599012d190602b900f802009900502bb200b9b600bf3a0a190ab600d03a0b1904190bb600d7360c150c190ab600e164360d190a150cb60020150d9d000e1904190bb600e957a7000d1904190b150db600e557190602b900fb020057190610feb900f802009900512bb200c3b600bf3a0a190ab600d03a0b1904190bb600d7360c150c190ab600e164360d190a150cb60020150d9d000e1904190bb600e957a7000d1904190b150db600e557190610feb900fb0200571906b900fe01003a0a190ab900a40100990066190ab900a90100c00101b60103360b2bb600ec150bb600f53a0c190cb600d03a0d1904190db600d7360e150e190cb600e164360f190c150eb60020150f9d000e1904190db600e957a7000d1904190d150fb600e5571904b600b5990006a70006a7ff9604ac03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "hasInfiniteMaterials",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 8,
+              "opcode": 172
+            },
+            {
+              "offset": 9,
+              "opcode": 187,
+              "operands": [
+                0,
+                137
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 89
+            },
+            {
+              "offset": 13,
+              "opcode": 42
+            },
+            {
+              "offset": 14,
+              "opcode": 183,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "<init>",
+                "(Lit/unimi/dsi/fastutil/objects/Reference2IntMap;)V"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 28
+            },
+            {
+              "offset": 20,
+              "opcode": 153,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 43
+            },
+            {
+              "offset": 24,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArmourMaterials",
+                "NIGHTMARE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "isWearingFullSet",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;)Z"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 34,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 38,
+              "opcode": 54,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "keySet",
+                "()Lit/unimi/dsi/fastutil/objects/ReferenceSet;"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/ReferenceSet",
+                "iterator",
+                "()Lit/unimi/dsi/fastutil/objects/ObjectIterator;"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 153,
+              "operands": [
+                0,
+                36
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 192,
+              "operands": [
+                0,
+                119
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 28
+            },
+            {
+              "offset": 79,
+              "opcode": 43
+            },
+            {
+              "offset": 80,
+              "opcode": 45
+            },
+            {
+              "offset": 81,
+              "opcode": 21,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 186,
+              "operands": [
+                0,
+                173,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "computeIntIfPresent",
+                "(Ljava/lang/Object;Ljava/util/function/BiFunction;)I"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 87
+            },
+            {
+              "offset": 92,
+              "opcode": 167,
+              "operands": [
+                255,
+                216
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 153,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 104,
+              "opcode": 172
+            },
+            {
+              "offset": 105,
+              "opcode": 187,
+              "operands": [
+                0,
+                182
+              ]
+            },
+            {
+              "offset": 108,
+              "opcode": 89
+            },
+            {
+              "offset": 109,
+              "opcode": 183,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntOpenHashSet",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 112,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 187,
+              "operands": [
+                0,
+                137
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 89
+            },
+            {
+              "offset": 118,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 183,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "<init>",
+                "(Lit/unimi/dsi/fastutil/objects/Reference2IntMap;)V"
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 125,
+              "opcode": 43
+            },
+            {
+              "offset": 126,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionHand",
+                "MAIN_HAND",
+                "Lnet/minecraft/world/InteractionHand;"
+              ]
+            },
+            {
+              "offset": 129,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 132,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 43
+            },
+            {
+              "offset": 135,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionHand",
+                "OFF_HAND",
+                "Lnet/minecraft/world/InteractionHand;"
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 58,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 143,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoATags$Items",
+                "ADVENT_RUNE",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 148,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 151,
+              "opcode": 153,
+              "operands": [
+                0,
+                74
+              ]
+            },
+            {
+              "offset": 154,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 159,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 161,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 165,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "containsKey",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 153,
+              "operands": [
+                0,
+                57
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "getInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 182,
+              "opcode": 2,
+              "constant": -1
+            },
+            {
+              "offset": 183,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "add",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 188,
+              "opcode": 87
+            },
+            {
+              "offset": 189,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 196,
+              "opcode": 100
+            },
+            {
+              "offset": 197,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 201,
+              "opcode": 158,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 204,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 206,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 208,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 210,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "put",
+                "(Ljava/lang/Object;I)I"
+              ]
+            },
+            {
+              "offset": 213,
+              "opcode": 87
+            },
+            {
+              "offset": 214,
+              "opcode": 167,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 217,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "removeInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 224,
+              "opcode": 87
+            },
+            {
+              "offset": 225,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 227,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 154,
+              "operands": [
+                0,
+                86
+              ]
+            },
+            {
+              "offset": 233,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 235,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoATags$Items",
+                "ADVENT_RUNE",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 238,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 241,
+              "opcode": 153,
+              "operands": [
+                0,
+                75
+              ]
+            },
+            {
+              "offset": 244,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 246,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 251,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 253,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 255,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "containsKey",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 258,
+              "opcode": 153,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 261,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 263,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 265,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "getInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 268,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 270,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 272,
+              "opcode": 16,
+              "constant": -2
+            },
+            {
+              "offset": 274,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "add",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 279,
+              "opcode": 87
+            },
+            {
+              "offset": 280,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 282,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 284,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 287,
+              "opcode": 100
+            },
+            {
+              "offset": 288,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 290,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 292,
+              "opcode": 158,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 295,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 297,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 299,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 301,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "put",
+                "(Ljava/lang/Object;I)I"
+              ]
+            },
+            {
+              "offset": 304,
+              "opcode": 87
+            },
+            {
+              "offset": 305,
+              "opcode": 167,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 308,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 310,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 312,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "removeInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 315,
+              "opcode": 87
+            },
+            {
+              "offset": 316,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 318,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 321,
+              "opcode": 154,
+              "operands": [
+                0,
+                129
+              ]
+            },
+            {
+              "offset": 324,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 325,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 327,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 329,
+              "opcode": 43
+            },
+            {
+              "offset": 330,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getInventory",
+                "()Lnet/minecraft/world/entity/player/Inventory;"
+              ]
+            },
+            {
+              "offset": 333,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Inventory",
+                "getContainerSize",
+                "()I"
+              ]
+            },
+            {
+              "offset": 336,
+              "opcode": 162,
+              "operands": [
+                0,
+                114
+              ]
+            },
+            {
+              "offset": 339,
+              "opcode": 43
+            },
+            {
+              "offset": 340,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getInventory",
+                "()Lnet/minecraft/world/entity/player/Inventory;"
+              ]
+            },
+            {
+              "offset": 343,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 345,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Inventory",
+                "getItem",
+                "(I)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 348,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 350,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 352,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoATags$Items",
+                "ADVENT_RUNE",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 355,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 358,
+              "opcode": 153,
+              "operands": [
+                0,
+                86
+              ]
+            },
+            {
+              "offset": 361,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 363,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 366,
+              "opcode": 58,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 368,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 370,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 372,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "containsKey",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 375,
+              "opcode": 153,
+              "operands": [
+                0,
+                69
+              ]
+            },
+            {
+              "offset": 378,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 380,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 382,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "getInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 385,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 387,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 389,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 391,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "add",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 396,
+              "opcode": 87
+            },
+            {
+              "offset": 397,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 399,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 401,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 404,
+              "opcode": 100
+            },
+            {
+              "offset": 405,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 407,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 409,
+              "opcode": 158,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 412,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 414,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 416,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 418,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "put",
+                "(Ljava/lang/Object;I)I"
+              ]
+            },
+            {
+              "offset": 421,
+              "opcode": 87
+            },
+            {
+              "offset": 422,
+              "opcode": 167,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 425,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 427,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 429,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "removeInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 432,
+              "opcode": 87
+            },
+            {
+              "offset": 433,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 435,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 438,
+              "opcode": 153,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 441,
+              "opcode": 167,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 444,
+              "opcode": 132,
+              "operands": [
+                10,
+                1
+              ]
+            },
+            {
+              "offset": 447,
+              "opcode": 167,
+              "operands": [
+                255,
+                136
+              ]
+            },
+            {
+              "offset": 450,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 452,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 455,
+              "opcode": 153,
+              "operands": [
+                1,
+                45
+              ]
+            },
+            {
+              "offset": 458,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 460,
+              "opcode": 2,
+              "constant": -1
+            },
+            {
+              "offset": 461,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "contains",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 466,
+              "opcode": 153,
+              "operands": [
+                0,
+                80
+              ]
+            },
+            {
+              "offset": 469,
+              "opcode": 43
+            },
+            {
+              "offset": 470,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionHand",
+                "MAIN_HAND",
+                "Lnet/minecraft/world/InteractionHand;"
+              ]
+            },
+            {
+              "offset": 473,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 476,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 478,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 480,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 483,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 485,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 487,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 489,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "getInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 492,
+              "opcode": 54,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 494,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 496,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 498,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 501,
+              "opcode": 100
+            },
+            {
+              "offset": 502,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 504,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 506,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 508,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "shrink",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 511,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 513,
+              "opcode": 157,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 516,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 518,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 520,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "removeInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 523,
+              "opcode": 87
+            },
+            {
+              "offset": 524,
+              "opcode": 167,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 527,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 529,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 531,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 533,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "put",
+                "(Ljava/lang/Object;I)I"
+              ]
+            },
+            {
+              "offset": 536,
+              "opcode": 87
+            },
+            {
+              "offset": 537,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 539,
+              "opcode": 2,
+              "constant": -1
+            },
+            {
+              "offset": 540,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "remove",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 545,
+              "opcode": 87
+            },
+            {
+              "offset": 546,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 548,
+              "opcode": 16,
+              "constant": -2
+            },
+            {
+              "offset": 550,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "contains",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 555,
+              "opcode": 153,
+              "operands": [
+                0,
+                81
+              ]
+            },
+            {
+              "offset": 558,
+              "opcode": 43
+            },
+            {
+              "offset": 559,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionHand",
+                "OFF_HAND",
+                "Lnet/minecraft/world/InteractionHand;"
+              ]
+            },
+            {
+              "offset": 562,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 565,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 567,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 569,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 572,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 574,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 576,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 578,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "getInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 581,
+              "opcode": 54,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 583,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 585,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 587,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 590,
+              "opcode": 100
+            },
+            {
+              "offset": 591,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 593,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 595,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 597,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "shrink",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 600,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 602,
+              "opcode": 157,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 605,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 607,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 609,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "removeInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 612,
+              "opcode": 87
+            },
+            {
+              "offset": 613,
+              "opcode": 167,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 616,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 618,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 620,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 622,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "put",
+                "(Ljava/lang/Object;I)I"
+              ]
+            },
+            {
+              "offset": 625,
+              "opcode": 87
+            },
+            {
+              "offset": 626,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 628,
+              "opcode": 16,
+              "constant": -2
+            },
+            {
+              "offset": 630,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "remove",
+                "(I)Z"
+              ]
+            },
+            {
+              "offset": 635,
+              "opcode": 87
+            },
+            {
+              "offset": 636,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 638,
+              "opcode": 185,
+              "member": [
+                "it/unimi/dsi/fastutil/ints/IntSet",
+                "iterator",
+                "()Lit/unimi/dsi/fastutil/ints/IntIterator;"
+              ]
+            },
+            {
+              "offset": 643,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 645,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 647,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 652,
+              "opcode": 153,
+              "operands": [
+                0,
+                102
+              ]
+            },
+            {
+              "offset": 655,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 657,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 662,
+              "opcode": 192,
+              "operands": [
+                1,
+                1
+              ]
+            },
+            {
+              "offset": 665,
+              "opcode": 182,
+              "member": [
+                "java/lang/Integer",
+                "intValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 668,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 670,
+              "opcode": 43
+            },
+            {
+              "offset": 671,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getInventory",
+                "()Lnet/minecraft/world/entity/player/Inventory;"
+              ]
+            },
+            {
+              "offset": 674,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 676,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Inventory",
+                "getItem",
+                "(I)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 679,
+              "opcode": 58,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 681,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 683,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 686,
+              "opcode": 58,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 688,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 690,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 692,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "getInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 695,
+              "opcode": 54,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 697,
+              "opcode": 21,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 699,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 701,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 704,
+              "opcode": 100
+            },
+            {
+              "offset": 705,
+              "opcode": 54,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 707,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 709,
+              "opcode": 21,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 711,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "shrink",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 714,
+              "opcode": 21,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 716,
+              "opcode": 157,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 719,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 721,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 723,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "removeInt",
+                "(Ljava/lang/Object;)I"
+              ]
+            },
+            {
+              "offset": 726,
+              "opcode": 87
+            },
+            {
+              "offset": 727,
+              "opcode": 167,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 730,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 732,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 734,
+              "opcode": 21,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 736,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "put",
+                "(Ljava/lang/Object;I)I"
+              ]
+            },
+            {
+              "offset": 739,
+              "opcode": 87
+            },
+            {
+              "offset": 740,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 742,
+              "opcode": 182,
+              "member": [
+                "it/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 745,
+              "opcode": 153,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 748,
+              "opcode": 167,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 751,
+              "opcode": 167,
+              "operands": [
+                255,
+                150
+              ]
+            },
+            {
+              "offset": 754,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 755,
+              "opcode": 172
+            },
+            {
+              "offset": 756,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 757,
+              "opcode": 172
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
