@@ -1,0 +1,6968 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Selected released table replacement, fishing event, condition and box methods; four complete reward resources; vanilla category resource and official Forge source-patch context. No game execution.",
+  "source_files": {
+    "event/GlobalEvents.java": "266a9c5ceed6d1d07bf9177d3c62e4bb08f580fee7f36071e2e006e199001c40",
+    "common/registration/LootSystemRegister.java": "f5de4e1baceea8bcb111d46a2bf0b931ac60b5fead6faec8db803e6f629f7e76",
+    "utils/ModUtil.java": "77ca38c00841aa79e410447977b952d5f4e9e509161c008b1ce5e88a39d41c6d",
+    "event/PlayerEvents.java": "c670109a2e49219d5f5ad3e9e821917c8dbb780e3a36900b9492bea9222b1b18",
+    "utils/skills/HaulingUtil.java": "90b1aa7a96f7f2b1f8bb51bd071f7de853598378ffc6911e81197dde954f2093",
+    "item/lootbox/RuneBox.java": "ad846dac1777c41c20ad3ed407fda744f2827e9baa4294cdd78ff3f71bdc7bb2",
+    "item/lootbox/TreasureBox.java": "3f2116e22f857bd529a3107a7ec4d685dc346b57f968c0f17f60eb1030dc3600",
+    "utils/LootUtil.java": "2e2a659a6224d9ec9cc68342f4db9e42a4d86ebb98db77e9eeed205e574fff64",
+    "library/loot/functions/GrantXp.java": "4bb6b08fb2364c3360e0029cec497b66b3fc1f78fabed57b3df766807152919b",
+    "library/loot/conditions/PlayerHasLevel.java": "b7368a9cf90107ed0c7c458094adfb83b78aabd81122b6023236c3cf4b7b459b",
+    "library/loot/conditions/MatchEntityId.java": "c93f524795118dae28555d4f97c824d238cd67b57872e4e90aae85b5b3011770",
+    "item/armour/HaulingArmour.java": "2d616bebda3777615527f4ccdd252d2581f4bb59e5056166de1a2be04da3c80e",
+    "utils/player/PlayerDataManager.java": "e476fdffed48ccc03d6f0ead116b382a4ab8a80510e836d64b373623627d757f"
+  },
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/event/GlobalEvents.class",
+      "class_sha256": "e3ebfbff0398f6cd01841a151251fcfeb437d6b50cfefd1a259547a63c87b6a4",
+      "name": "onLootTableLoad",
+      "descriptor": "(Lnet/minecraftforge/event/LootTableLoadEvent;)V",
+      "code_hex": "2bb80030b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "injectThirdPartyPools",
+            "(Lnet/minecraftforge/event/LootTableLoadEvent;)V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/LootSystemRegister.class",
+      "class_sha256": "f08e48e989ea9a505c687170ba6430c07d5f278bc4117a5c8683896e87fc1d19",
+      "name": "injectThirdPartyPools",
+      "descriptor": "(Lnet/minecraftforge/event/LootTableLoadEvent;)V",
+      "code_hex": "2ab60258b6025e4c023d2bb60264ab00000001c90000001387334a0d000000ed8a34b567000001ac986da53d000000de9edf0ee0000000c0aa97cdf90000014cc2999a23000000fcd73376750000018ce769bf4c000000a2fbec14e70000012c038c9f400000017c092b248f0000016c20621ceb000001bc386703ff000000cf3b5acff80000013c4add59620000011c4ff641d00000015c5647ff36000000b15c4077db0000010c755aff920000019c2b130266b6026a990120033da7011b2b13026cb6026a990111043da7010c2b13026eb6026a990102053da700fd2b130270b6026a9900f3063da700ee2b130272b6026a9900e4073da700df2b130274b6026a9900d5083da700d02b130276b6026a9900c610063da700c02b130278b6026a9900b610073da700b02b13027ab6026a9900a610083da700a02b13027cb6026a99009610093da700902b13027eb6026a990086100a3da700802b130280b6026a990076100b3da700702b130282b6026a990066100c3da700602b130284b6026a990056100d3da700502b130286b6026a990046100e3da700402b130288b6026a990036100f3da700302b13028ab6026a99002610103da700202b13028cb6026a99001610113da700102b13028eb6026a99000610123d1caa0000000000014c00000000000000120000005c0000005c0000005c0000005c0000005c0000005c0000005c0000005c0000005c0000005c0000005c00000093000000a7000000bb000000bb000000d8000000f5000001120000012f2ab60292130294bb025a59130296130298b7029bb802a1b602a72ab602921302a9bb025a591302961302abb7029bb802a1b602a7a700bc2abb025a591302961302adb7029bb802b1a700a82abb025a591302961302b3b7029bb802b1a700942ab602921302a9bb025a591302961302abb7029bb802a1b602a7a700772ab602921302b5bb025a591302961302b7b7029bb802a1b602a7a7005a2ab602921302b9bb025a591302961302bbb7029bb802a1b602a7a7003d2ab602921302b9bb025a591302961302bdb7029bb802a1b602a7a700202ab602921302bfbb025a591302961302c1b7029bb802a1b602a7a70003b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getName",
+            "()Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 76
+        },
+        {
+          "offset": 8,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 9,
+          "opcode": 61
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "hashCode",
+            "()I"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 171,
+          "default_target": 471,
+          "cases": [
+            {
+              "key": -2026681843,
+              "target": 251
+            },
+            {
+              "key": -1976257177,
+              "target": 442
+            },
+            {
+              "key": -1737644739,
+              "target": 236
+            },
+            {
+              "key": -1629548832,
+              "target": 206
+            },
+            {
+              "key": -1432891911,
+              "target": 346
+            },
+            {
+              "key": -1030120925,
+              "target": 266
+            },
+            {
+              "key": -684493195,
+              "target": 410
+            },
+            {
+              "key": -412500148,
+              "target": 176
+            },
+            {
+              "key": -68414233,
+              "target": 314
+            },
+            {
+              "key": 59547456,
+              "target": 394
+            },
+            {
+              "key": 153822351,
+              "target": 378
+            },
+            {
+              "key": 543300843,
+              "target": 458
+            },
+            {
+              "key": 946275327,
+              "target": 221
+            },
+            {
+              "key": 995807224,
+              "target": 330
+            },
+            {
+              "key": 1256020322,
+              "target": 298
+            },
+            {
+              "key": 1341538768,
+              "target": 362
+            },
+            {
+              "key": 1447558966,
+              "target": 191
+            },
+            {
+              "key": 1547728859,
+              "target": 282
+            },
+            {
+              "key": 1968897938,
+              "target": 426
+            }
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 43
+        },
+        {
+          "offset": 177,
+          "opcode": 19,
+          "constant": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 153,
+          "operands": [
+            1,
+            32
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 187,
+          "opcode": 61
+        },
+        {
+          "offset": 188,
+          "opcode": 167,
+          "operands": [
+            1,
+            27
+          ]
+        },
+        {
+          "offset": 191,
+          "opcode": 43
+        },
+        {
+          "offset": 192,
+          "opcode": 19,
+          "constant": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "offset": 195,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 153,
+          "operands": [
+            1,
+            17
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 202,
+          "opcode": 61
+        },
+        {
+          "offset": 203,
+          "opcode": 167,
+          "operands": [
+            1,
+            12
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 43
+        },
+        {
+          "offset": 207,
+          "opcode": 19,
+          "constant": "minecraft:chests/igloo_chest"
+        },
+        {
+          "offset": 210,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 153,
+          "operands": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 217,
+          "opcode": 61
+        },
+        {
+          "offset": 218,
+          "opcode": 167,
+          "operands": [
+            0,
+            253
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 43
+        },
+        {
+          "offset": 222,
+          "opcode": 19,
+          "constant": "minecraft:chests/jungle_temple"
+        },
+        {
+          "offset": 225,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 153,
+          "operands": [
+            0,
+            243
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 232,
+          "opcode": 61
+        },
+        {
+          "offset": 233,
+          "opcode": 167,
+          "operands": [
+            0,
+            238
+          ]
+        },
+        {
+          "offset": 236,
+          "opcode": 43
+        },
+        {
+          "offset": 237,
+          "opcode": 19,
+          "constant": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "offset": 240,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 153,
+          "operands": [
+            0,
+            228
+          ]
+        },
+        {
+          "offset": 246,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 247,
+          "opcode": 61
+        },
+        {
+          "offset": 248,
+          "opcode": 167,
+          "operands": [
+            0,
+            223
+          ]
+        },
+        {
+          "offset": 251,
+          "opcode": 43
+        },
+        {
+          "offset": 252,
+          "opcode": 19,
+          "constant": "minecraft:chests/spawn_bonus_chest"
+        },
+        {
+          "offset": 255,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 153,
+          "operands": [
+            0,
+            213
+          ]
+        },
+        {
+          "offset": 261,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 262,
+          "opcode": 61
+        },
+        {
+          "offset": 263,
+          "opcode": 167,
+          "operands": [
+            0,
+            208
+          ]
+        },
+        {
+          "offset": 266,
+          "opcode": 43
+        },
+        {
+          "offset": 267,
+          "opcode": 19,
+          "constant": "minecraft:chests/stronghold_corridor"
+        },
+        {
+          "offset": 270,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 273,
+          "opcode": 153,
+          "operands": [
+            0,
+            198
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 278,
+          "opcode": 61
+        },
+        {
+          "offset": 279,
+          "opcode": 167,
+          "operands": [
+            0,
+            192
+          ]
+        },
+        {
+          "offset": 282,
+          "opcode": 43
+        },
+        {
+          "offset": 283,
+          "opcode": 19,
+          "constant": "minecraft:chests/stronghold_crossing"
+        },
+        {
+          "offset": 286,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 153,
+          "operands": [
+            0,
+            182
+          ]
+        },
+        {
+          "offset": 292,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 294,
+          "opcode": 61
+        },
+        {
+          "offset": 295,
+          "opcode": 167,
+          "operands": [
+            0,
+            176
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 43
+        },
+        {
+          "offset": 299,
+          "opcode": 19,
+          "constant": "minecraft:chests/stronghold_library"
+        },
+        {
+          "offset": 302,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 305,
+          "opcode": 153,
+          "operands": [
+            0,
+            166
+          ]
+        },
+        {
+          "offset": 308,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 310,
+          "opcode": 61
+        },
+        {
+          "offset": 311,
+          "opcode": 167,
+          "operands": [
+            0,
+            160
+          ]
+        },
+        {
+          "offset": 314,
+          "opcode": 43
+        },
+        {
+          "offset": 315,
+          "opcode": 19,
+          "constant": "minecraft:chests/village_blacksmith"
+        },
+        {
+          "offset": 318,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 321,
+          "opcode": 153,
+          "operands": [
+            0,
+            150
+          ]
+        },
+        {
+          "offset": 324,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 326,
+          "opcode": 61
+        },
+        {
+          "offset": 327,
+          "opcode": 167,
+          "operands": [
+            0,
+            144
+          ]
+        },
+        {
+          "offset": 330,
+          "opcode": 43
+        },
+        {
+          "offset": 331,
+          "opcode": 19,
+          "constant": "minecraft:chests/woodland_mansion"
+        },
+        {
+          "offset": 334,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 337,
+          "opcode": 153,
+          "operands": [
+            0,
+            134
+          ]
+        },
+        {
+          "offset": 340,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 342,
+          "opcode": 61
+        },
+        {
+          "offset": 343,
+          "opcode": 167,
+          "operands": [
+            0,
+            128
+          ]
+        },
+        {
+          "offset": 346,
+          "opcode": 43
+        },
+        {
+          "offset": 347,
+          "opcode": 19,
+          "constant": "minecraft:gameplay/fishing/fish"
+        },
+        {
+          "offset": 350,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 353,
+          "opcode": 153,
+          "operands": [
+            0,
+            118
+          ]
+        },
+        {
+          "offset": 356,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 358,
+          "opcode": 61
+        },
+        {
+          "offset": 359,
+          "opcode": 167,
+          "operands": [
+            0,
+            112
+          ]
+        },
+        {
+          "offset": 362,
+          "opcode": 43
+        },
+        {
+          "offset": 363,
+          "opcode": 19,
+          "constant": "minecraft:gameplay/fishing/treasure"
+        },
+        {
+          "offset": 366,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 153,
+          "operands": [
+            0,
+            102
+          ]
+        },
+        {
+          "offset": 372,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 374,
+          "opcode": 61
+        },
+        {
+          "offset": 375,
+          "opcode": 167,
+          "operands": [
+            0,
+            96
+          ]
+        },
+        {
+          "offset": 378,
+          "opcode": 43
+        },
+        {
+          "offset": 379,
+          "opcode": 19,
+          "constant": "minecraft:chests/end_city_treasure"
+        },
+        {
+          "offset": 382,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 385,
+          "opcode": 153,
+          "operands": [
+            0,
+            86
+          ]
+        },
+        {
+          "offset": 388,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 390,
+          "opcode": 61
+        },
+        {
+          "offset": 391,
+          "opcode": 167,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 394,
+          "opcode": 43
+        },
+        {
+          "offset": 395,
+          "opcode": 19,
+          "constant": "minecraft:chests/nether_bridge"
+        },
+        {
+          "offset": 398,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 401,
+          "opcode": 153,
+          "operands": [
+            0,
+            70
+          ]
+        },
+        {
+          "offset": 404,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 406,
+          "opcode": 61
+        },
+        {
+          "offset": 407,
+          "opcode": 167,
+          "operands": [
+            0,
+            64
+          ]
+        },
+        {
+          "offset": 410,
+          "opcode": 43
+        },
+        {
+          "offset": 411,
+          "opcode": 19,
+          "constant": "minecraft:chests/jungle_temple_dispenser"
+        },
+        {
+          "offset": 414,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 417,
+          "opcode": 153,
+          "operands": [
+            0,
+            54
+          ]
+        },
+        {
+          "offset": 420,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 422,
+          "opcode": 61
+        },
+        {
+          "offset": 423,
+          "opcode": 167,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 426,
+          "opcode": 43
+        },
+        {
+          "offset": 427,
+          "opcode": 19,
+          "constant": "minecraft:entities/guardian"
+        },
+        {
+          "offset": 430,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 433,
+          "opcode": 153,
+          "operands": [
+            0,
+            38
+          ]
+        },
+        {
+          "offset": 436,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 438,
+          "opcode": 61
+        },
+        {
+          "offset": 439,
+          "opcode": 167,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 442,
+          "opcode": 43
+        },
+        {
+          "offset": 443,
+          "opcode": 19,
+          "constant": "minecraft:entities/elder_guardian"
+        },
+        {
+          "offset": 446,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 449,
+          "opcode": 153,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 452,
+          "opcode": 16,
+          "constant": 17
+        },
+        {
+          "offset": 454,
+          "opcode": 61
+        },
+        {
+          "offset": 455,
+          "opcode": 167,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 458,
+          "opcode": 43
+        },
+        {
+          "offset": 459,
+          "opcode": 19,
+          "constant": "minecraft:entities/ender_dragon"
+        },
+        {
+          "offset": 462,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 465,
+          "opcode": 153,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 468,
+          "opcode": 16,
+          "constant": 18
+        },
+        {
+          "offset": 470,
+          "opcode": 61
+        },
+        {
+          "offset": 471,
+          "opcode": 28
+        },
+        {
+          "offset": 472,
+          "opcode": 170,
+          "default_target": 804,
+          "cases": [
+            {
+              "key": 0,
+              "target": 564
+            },
+            {
+              "key": 1,
+              "target": 564
+            },
+            {
+              "key": 2,
+              "target": 564
+            },
+            {
+              "key": 3,
+              "target": 564
+            },
+            {
+              "key": 4,
+              "target": 564
+            },
+            {
+              "key": 5,
+              "target": 564
+            },
+            {
+              "key": 6,
+              "target": 564
+            },
+            {
+              "key": 7,
+              "target": 564
+            },
+            {
+              "key": 8,
+              "target": 564
+            },
+            {
+              "key": 9,
+              "target": 564
+            },
+            {
+              "key": 10,
+              "target": 564
+            },
+            {
+              "key": 11,
+              "target": 619
+            },
+            {
+              "key": 12,
+              "target": 639
+            },
+            {
+              "key": 13,
+              "target": 659
+            },
+            {
+              "key": 14,
+              "target": 659
+            },
+            {
+              "key": 15,
+              "target": 688
+            },
+            {
+              "key": 16,
+              "target": 717
+            },
+            {
+              "key": 17,
+              "target": 746
+            },
+            {
+              "key": 18,
+              "target": 775
+            }
+          ]
+        },
+        {
+          "offset": 564,
+          "opcode": 42
+        },
+        {
+          "offset": 565,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 568,
+          "opcode": 19,
+          "constant": "aoa_carved_runic_blocks"
+        },
+        {
+          "offset": 571,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 574,
+          "opcode": 89
+        },
+        {
+          "offset": 575,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 578,
+          "opcode": 19,
+          "constant": "misc/carved_rune_blocks"
+        },
+        {
+          "offset": 581,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 584,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 587,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 590,
+          "opcode": 42
+        },
+        {
+          "offset": 591,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 594,
+          "opcode": 19,
+          "constant": "aoa_misc_loot"
+        },
+        {
+          "offset": 597,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 600,
+          "opcode": 89
+        },
+        {
+          "offset": 601,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 604,
+          "opcode": 19,
+          "constant": "misc/generic_chest_loot"
+        },
+        {
+          "offset": 607,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 610,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 613,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 616,
+          "opcode": 167,
+          "operands": [
+            0,
+            188
+          ]
+        },
+        {
+          "offset": 619,
+          "opcode": 42
+        },
+        {
+          "offset": 620,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 623,
+          "opcode": 89
+        },
+        {
+          "offset": 624,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 627,
+          "opcode": 19,
+          "constant": "skills/hauling/fish"
+        },
+        {
+          "offset": 630,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 633,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "replaceAndMergeLootTables",
+            "(Lnet/minecraftforge/event/LootTableLoadEvent;Lnet/minecraft/util/ResourceLocation;)V"
+          ]
+        },
+        {
+          "offset": 636,
+          "opcode": 167,
+          "operands": [
+            0,
+            168
+          ]
+        },
+        {
+          "offset": 639,
+          "opcode": 42
+        },
+        {
+          "offset": 640,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 643,
+          "opcode": 89
+        },
+        {
+          "offset": 644,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 647,
+          "opcode": 19,
+          "constant": "skills/hauling/treasure"
+        },
+        {
+          "offset": 650,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 653,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "replaceAndMergeLootTables",
+            "(Lnet/minecraftforge/event/LootTableLoadEvent;Lnet/minecraft/util/ResourceLocation;)V"
+          ]
+        },
+        {
+          "offset": 656,
+          "opcode": 167,
+          "operands": [
+            0,
+            148
+          ]
+        },
+        {
+          "offset": 659,
+          "opcode": 42
+        },
+        {
+          "offset": 660,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 663,
+          "opcode": 19,
+          "constant": "aoa_misc_loot"
+        },
+        {
+          "offset": 666,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 669,
+          "opcode": 89
+        },
+        {
+          "offset": 670,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 673,
+          "opcode": 19,
+          "constant": "misc/generic_chest_loot"
+        },
+        {
+          "offset": 676,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 679,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 682,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 685,
+          "opcode": 167,
+          "operands": [
+            0,
+            119
+          ]
+        },
+        {
+          "offset": 688,
+          "opcode": 42
+        },
+        {
+          "offset": 689,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 692,
+          "opcode": 19,
+          "constant": "aoa_dispenser_loot"
+        },
+        {
+          "offset": 695,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 698,
+          "opcode": 89
+        },
+        {
+          "offset": 699,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 702,
+          "opcode": 19,
+          "constant": "misc/dispenser_loot"
+        },
+        {
+          "offset": 705,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 708,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 711,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 714,
+          "opcode": 167,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 717,
+          "opcode": 42
+        },
+        {
+          "offset": 718,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 721,
+          "opcode": 19,
+          "constant": "biogenic_drops"
+        },
+        {
+          "offset": 724,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 727,
+          "opcode": 89
+        },
+        {
+          "offset": 728,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 731,
+          "opcode": 19,
+          "constant": "misc/guardian_drops"
+        },
+        {
+          "offset": 734,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 737,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 740,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 743,
+          "opcode": 167,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 746,
+          "opcode": 42
+        },
+        {
+          "offset": 747,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 750,
+          "opcode": 19,
+          "constant": "biogenic_drops"
+        },
+        {
+          "offset": 753,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 756,
+          "opcode": 89
+        },
+        {
+          "offset": 757,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 760,
+          "opcode": 19,
+          "constant": "misc/elder_guardian_drops"
+        },
+        {
+          "offset": 763,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 766,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 769,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 772,
+          "opcode": 167,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 775,
+          "opcode": 42
+        },
+        {
+          "offset": 776,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 779,
+          "opcode": 19,
+          "constant": "aoa_loot"
+        },
+        {
+          "offset": 782,
+          "opcode": 187,
+          "operands": [
+            2,
+            90
+          ]
+        },
+        {
+          "offset": 785,
+          "opcode": 89
+        },
+        {
+          "offset": 786,
+          "opcode": 19,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 789,
+          "opcode": 19,
+          "constant": "entities/bosses/ender_dragon"
+        },
+        {
+          "offset": 792,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 795,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "generateLootPoolFromResourceLocation",
+            "(Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootPool;"
+          ]
+        },
+        {
+          "offset": 798,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 801,
+          "opcode": 167,
+          "operands": [
+            0,
+            3
+          ]
+        },
+        {
+          "offset": 804,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/ModUtil.class",
+      "class_sha256": "d3fa85a1b932cad97cae66b3e05cf0f3183db09d70187278cd2e9a08661a4b2c",
+      "name": "replaceAndMergeLootTables",
+      "descriptor": "(Lnet/minecraftforge/event/LootTableLoadEvent;Lnet/minecraft/util/ResourceLocation;)V",
+      "code_hex": "014d130150bb015259b70153130155b601592bb6015db6015913015fb601592bb60162b60159130164b60159b60167b6016d4e2dc601012db20173b801783a04b2017a2b1904042ab60180b801864da700343a04b20190bb015259b70153130192b601592bb60193b60159130195b601592db60196b60159b60167b8019a1904b6019d2cc70004b112122c13019fb801a3c001a53a0412122ab601a913019fb801a3c001a53a0512122c03b801ae04bd01b059031301b253b801b71904b901b801003a061906b900cf010099002f1906b900d30100c0000e3a071907b601ba990018120e190703b801ae04bd01b059031301b253b801b7a7ffcd1905b901b801003a061906b900cf01009900261906b900d30100c0000e3a071907b601bd1301bfb601c29a00092c1907b601c6a7ffd62a2cb601cab1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 77
+        },
+        {
+          "offset": 2,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/common/registration/LootSystemRegister"
+        },
+        {
+          "offset": 5,
+          "opcode": 187,
+          "operands": [
+            1,
+            82
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 89
+        },
+        {
+          "offset": 9,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 19,
+          "constant": "/assets/"
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 43
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "func_110624_b",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 19,
+          "constant": "/loot_tables/"
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "func_110623_a",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 19,
+          "constant": ".json"
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "java/lang/Class",
+            "getResource",
+            "(Ljava/lang/String;)Ljava/net/URL;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 78
+        },
+        {
+          "offset": 51,
+          "opcode": 45
+        },
+        {
+          "offset": 52,
+          "opcode": 198,
+          "operands": [
+            1,
+            1
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 45
+        },
+        {
+          "offset": 56,
+          "opcode": 178,
+          "member": [
+            "java/nio/charset/StandardCharsets",
+            "UTF_8",
+            "Ljava/nio/charset/Charset;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 184,
+          "member": [
+            "com/google/common/io/Resources",
+            "toString",
+            "(Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ModUtil",
+            "gson",
+            "Lcom/google/gson/Gson;"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 43
+        },
+        {
+          "offset": 68,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 71,
+          "opcode": 42
+        },
+        {
+          "offset": 72,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getLootTableManager",
+            "()Lnet/minecraft/world/storage/loot/LootTableManager;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/common/ForgeHooks",
+            "loadLootTable",
+            "(Lcom/google/gson/Gson;Lnet/minecraft/util/ResourceLocation;Ljava/lang/String;ZLnet/minecraft/world/storage/loot/LootTableManager;)Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 77
+        },
+        {
+          "offset": 79,
+          "opcode": 167,
+          "operands": [
+            0,
+            52
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 178,
+          "member": [
+            "org/apache/logging/log4j/Level",
+            "WARN",
+            "Lorg/apache/logging/log4j/Level;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 187,
+          "operands": [
+            1,
+            82
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 89
+        },
+        {
+          "offset": 91,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 19,
+          "constant": "Couldn't load loot table "
+        },
+        {
+          "offset": 97,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 43
+        },
+        {
+          "offset": 101,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 19,
+          "constant": " from "
+        },
+        {
+          "offset": 110,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 45
+        },
+        {
+          "offset": 114,
+          "opcode": 182,
+          "member": [
+            "java/net/URL",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "logMessage",
+            "(Lorg/apache/logging/log4j/Level;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 182,
+          "member": [
+            "java/lang/Exception",
+            "printStackTrace",
+            "()V"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 44
+        },
+        {
+          "offset": 132,
+          "opcode": 199,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 177
+        },
+        {
+          "offset": 136,
+          "opcode": 18,
+          "constant": "net/minecraft/world/storage/loot/LootTable"
+        },
+        {
+          "offset": 138,
+          "opcode": 44
+        },
+        {
+          "offset": 139,
+          "opcode": 19,
+          "constant": "field_186466_c"
+        },
+        {
+          "offset": 142,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/ObfuscationReflectionHelper",
+            "getPrivateValue",
+            "(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 192,
+          "operands": [
+            1,
+            165
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 18,
+          "constant": "net/minecraft/world/storage/loot/LootTable"
+        },
+        {
+          "offset": 152,
+          "opcode": 42
+        },
+        {
+          "offset": 153,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "getTable",
+            "()Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 19,
+          "constant": "field_186466_c"
+        },
+        {
+          "offset": 159,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/ObfuscationReflectionHelper",
+            "getPrivateValue",
+            "(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 192,
+          "operands": [
+            1,
+            165
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 18,
+          "constant": "net/minecraft/world/storage/loot/LootTable"
+        },
+        {
+          "offset": 169,
+          "opcode": 44
+        },
+        {
+          "offset": 170,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 171,
+          "opcode": 184,
+          "member": [
+            "java/lang/Boolean",
+            "valueOf",
+            "(Z)Ljava/lang/Boolean;"
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 175,
+          "opcode": 189,
+          "operands": [
+            1,
+            176
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 89
+        },
+        {
+          "offset": 179,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 180,
+          "opcode": 19,
+          "constant": "isFrozen"
+        },
+        {
+          "offset": 183,
+          "opcode": 83
+        },
+        {
+          "offset": 184,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/relauncher/ReflectionHelper",
+            "setPrivateValue",
+            "(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 194,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 153,
+          "operands": [
+            0,
+            47
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 208,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 192,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootPool",
+            "isFrozen",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 153,
+          "operands": [
+            0,
+            24
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 18,
+          "constant": "net/minecraft/world/storage/loot/LootPool"
+        },
+        {
+          "offset": 228,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 231,
+          "opcode": 184,
+          "member": [
+            "java/lang/Boolean",
+            "valueOf",
+            "(Z)Ljava/lang/Boolean;"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 235,
+          "opcode": 189,
+          "operands": [
+            1,
+            176
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 89
+        },
+        {
+          "offset": 239,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 240,
+          "opcode": 19,
+          "constant": "isFrozen"
+        },
+        {
+          "offset": 243,
+          "opcode": 83
+        },
+        {
+          "offset": 244,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/relauncher/ReflectionHelper",
+            "setPrivateValue",
+            "(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 247,
+          "opcode": 167,
+          "operands": [
+            255,
+            205
+          ]
+        },
+        {
+          "offset": 250,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 257,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 261,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 266,
+          "opcode": 153,
+          "operands": [
+            0,
+            38
+          ]
+        },
+        {
+          "offset": 269,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 192,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 281,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 283,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootPool",
+            "getName",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 19,
+          "constant": "main"
+        },
+        {
+          "offset": 289,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 292,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 295,
+          "opcode": 44
+        },
+        {
+          "offset": 296,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "addPool",
+            "(Lnet/minecraft/world/storage/loot/LootPool;)V"
+          ]
+        },
+        {
+          "offset": 301,
+          "opcode": 167,
+          "operands": [
+            255,
+            214
+          ]
+        },
+        {
+          "offset": 304,
+          "opcode": 42
+        },
+        {
+          "offset": 305,
+          "opcode": 44
+        },
+        {
+          "offset": 306,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/LootTableLoadEvent",
+            "setTable",
+            "(Lnet/minecraft/world/storage/loot/LootTable;)V"
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "class_sha256": "cb7763b9bf48e40936eaa17765c1fffd6f538914f42f9f7ecbf7c052c7ef77f0",
+      "name": "onPlayerFishing",
+      "descriptor": "(Lnet/minecraftforge/event/entity/player/ItemFishedEvent;)V",
+      "code_hex": "2bb60558b4006fb401ccb602dab2009cb4055ba000ad2bb60558b6055f100ab601379a009e2bb605634d2bb605584ebb04f8592db4006f2cb405662cb405672cb40568bb016859b2056cb70171b7056f3a042db403ed2cb405666739052db403f02cb405676739072db403f52cb40568673909180518056b180718076b63180918096b63b805758d390b190418051403f86bb50578190418071403f86b180bb805758d1405796b63b5057d190418091403f86bb505802db4006f1904b602a357b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/ItemFishedEvent",
+            "getEntityPlayer",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "lborean",
+            "I"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 160,
+          "operands": [
+            0,
+            173
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 43
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/ItemFishedEvent",
+            "getEntityPlayer",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70681_au",
+            "()Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 154,
+          "operands": [
+            0,
+            158
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 43
+        },
+        {
+          "offset": 38,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/ItemFishedEvent",
+            "getHookEntity",
+            "()Lnet/minecraft/entity/projectile/EntityFishHook;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 77
+        },
+        {
+          "offset": 42,
+          "opcode": 43
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/ItemFishedEvent",
+            "getEntityPlayer",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 78
+        },
+        {
+          "offset": 47,
+          "opcode": 187,
+          "operands": [
+            4,
+            248
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 89
+        },
+        {
+          "offset": 51,
+          "opcode": 45
+        },
+        {
+          "offset": 52,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 44
+        },
+        {
+          "offset": 56,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/projectile/EntityFishHook",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 44
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/projectile/EntityFishHook",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 44
+        },
+        {
+          "offset": 64,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/projectile/EntityFishHook",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 187,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 89
+        },
+        {
+          "offset": 71,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CALL_OF_THE_DRAKE",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/entity/item/EntityItem",
+            "<init>",
+            "(Lnet/minecraft/world/World;DDDLnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 45
+        },
+        {
+          "offset": 83,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 44
+        },
+        {
+          "offset": 87,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/projectile/EntityFishHook",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 103
+        },
+        {
+          "offset": 91,
+          "opcode": 57,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 45
+        },
+        {
+          "offset": 94,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 44
+        },
+        {
+          "offset": 98,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/projectile/EntityFishHook",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 103
+        },
+        {
+          "offset": 102,
+          "opcode": 57,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 45
+        },
+        {
+          "offset": 105,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 44
+        },
+        {
+          "offset": 109,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/projectile/EntityFishHook",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 103
+        },
+        {
+          "offset": 113,
+          "opcode": 57,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 24,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 24,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 107
+        },
+        {
+          "offset": 120,
+          "opcode": 24,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 24,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 107
+        },
+        {
+          "offset": 125,
+          "opcode": 99
+        },
+        {
+          "offset": 126,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 107
+        },
+        {
+          "offset": 131,
+          "opcode": 99
+        },
+        {
+          "offset": 132,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76133_a",
+            "(D)F"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 141
+        },
+        {
+          "offset": 136,
+          "opcode": 57,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 24,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 145,
+          "opcode": 107
+        },
+        {
+          "offset": 146,
+          "opcode": 181,
+          "member": [
+            "net/minecraft/entity/item/EntityItem",
+            "field_70159_w",
+            "D"
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 24,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 156,
+          "opcode": 107
+        },
+        {
+          "offset": 157,
+          "opcode": 24,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76133_a",
+            "(D)F"
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 141
+        },
+        {
+          "offset": 163,
+          "opcode": 20,
+          "constant": 0.08
+        },
+        {
+          "offset": 166,
+          "opcode": 107
+        },
+        {
+          "offset": 167,
+          "opcode": 99
+        },
+        {
+          "offset": 168,
+          "opcode": 181,
+          "member": [
+            "net/minecraft/entity/item/EntityItem",
+            "field_70181_x",
+            "D"
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 178,
+          "opcode": 107
+        },
+        {
+          "offset": 179,
+          "opcode": 181,
+          "member": [
+            "net/minecraft/entity/item/EntityItem",
+            "field_70179_y",
+            "D"
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 45
+        },
+        {
+          "offset": 183,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 188,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 191,
+          "opcode": 87
+        },
+        {
+          "offset": 192,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/HaulingUtil.class",
+      "class_sha256": "a64aba060c7bc5cd5e4cec4f1d74ca0f9b61018a6882cb457bb6add4e00010fd",
+      "name": "getTreasureBoxRolls",
+      "descriptor": "(I)I",
+      "code_hex": "1a100ba2000504ac1a101aa2000505ac1a1029a2000506ac1a1038a2000507ac1a1047a2000508ac1a1056a200061006ac1a1060a200061007ac1008ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 3,
+          "opcode": 162,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 7,
+          "opcode": 172
+        },
+        {
+          "offset": 8,
+          "opcode": 26
+        },
+        {
+          "offset": 9,
+          "opcode": 16,
+          "constant": 26
+        },
+        {
+          "offset": 11,
+          "opcode": 162,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 15,
+          "opcode": 172
+        },
+        {
+          "offset": 16,
+          "opcode": 26
+        },
+        {
+          "offset": 17,
+          "opcode": 16,
+          "constant": 41
+        },
+        {
+          "offset": 19,
+          "opcode": 162,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 23,
+          "opcode": 172
+        },
+        {
+          "offset": 24,
+          "opcode": 26
+        },
+        {
+          "offset": 25,
+          "opcode": 16,
+          "constant": 56
+        },
+        {
+          "offset": 27,
+          "opcode": 162,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 31,
+          "opcode": 172
+        },
+        {
+          "offset": 32,
+          "opcode": 26
+        },
+        {
+          "offset": 33,
+          "opcode": 16,
+          "constant": 71
+        },
+        {
+          "offset": 35,
+          "opcode": 162,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 39,
+          "opcode": 172
+        },
+        {
+          "offset": 40,
+          "opcode": 26
+        },
+        {
+          "offset": 41,
+          "opcode": 16,
+          "constant": 86
+        },
+        {
+          "offset": 43,
+          "opcode": 162,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 48,
+          "opcode": 172
+        },
+        {
+          "offset": 49,
+          "opcode": 26
+        },
+        {
+          "offset": 50,
+          "opcode": 16,
+          "constant": 96
+        },
+        {
+          "offset": 52,
+          "opcode": 162,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 57,
+          "opcode": 172
+        },
+        {
+          "offset": 58,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 60,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/HaulingUtil.class",
+      "class_sha256": "a64aba060c7bc5cd5e4cec4f1d74ca0f9b61018a6882cb457bb6add4e00010fd",
+      "name": "getRunesLootCount",
+      "descriptor": "(I)I",
+      "code_hex": "1a100fa3000504ac1a1019a3000506ac1a1023a3000508ac1a1037a300061008ac1a1041a30006100bac1a104ba30006100fac1a1055a300061011ac1a105fa300061013ac1015ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 3,
+          "opcode": 163,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 7,
+          "opcode": 172
+        },
+        {
+          "offset": 8,
+          "opcode": 26
+        },
+        {
+          "offset": 9,
+          "opcode": 16,
+          "constant": 25
+        },
+        {
+          "offset": 11,
+          "opcode": 163,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 15,
+          "opcode": 172
+        },
+        {
+          "offset": 16,
+          "opcode": 26
+        },
+        {
+          "offset": 17,
+          "opcode": 16,
+          "constant": 35
+        },
+        {
+          "offset": 19,
+          "opcode": 163,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 23,
+          "opcode": 172
+        },
+        {
+          "offset": 24,
+          "opcode": 26
+        },
+        {
+          "offset": 25,
+          "opcode": 16,
+          "constant": 55
+        },
+        {
+          "offset": 27,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 32,
+          "opcode": 172
+        },
+        {
+          "offset": 33,
+          "opcode": 26
+        },
+        {
+          "offset": 34,
+          "opcode": 16,
+          "constant": 65
+        },
+        {
+          "offset": 36,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 41,
+          "opcode": 172
+        },
+        {
+          "offset": 42,
+          "opcode": 26
+        },
+        {
+          "offset": 43,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 45,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 50,
+          "opcode": 172
+        },
+        {
+          "offset": 51,
+          "opcode": 26
+        },
+        {
+          "offset": 52,
+          "opcode": 16,
+          "constant": 85
+        },
+        {
+          "offset": 54,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 16,
+          "constant": 17
+        },
+        {
+          "offset": 59,
+          "opcode": 172
+        },
+        {
+          "offset": 60,
+          "opcode": 26
+        },
+        {
+          "offset": 61,
+          "opcode": 16,
+          "constant": 95
+        },
+        {
+          "offset": 63,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 16,
+          "constant": 19
+        },
+        {
+          "offset": 68,
+          "opcode": 172
+        },
+        {
+          "offset": 69,
+          "opcode": 16,
+          "constant": 21
+        },
+        {
+          "offset": 71,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/lootbox/RuneBox.class",
+      "class_sha256": "60f9067af017fd550287bbf2d0a06d52da078fca6333533fec8a26214feea9ac",
+      "name": "func_180614_a",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;",
+      "code_hex": "2cb400339a004303360915092bb80039b6003db20041b60045b8004ba200132bc0004db20053b80059840901a7ffde2bb4005fb400649a000d2b1904b6006804b6006eb20074b0b20077b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            67
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/HaulingUtil",
+            "getRunesLootCount",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 162,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 192,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "itemRuneBox",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/LootUtil",
+            "generateAndProvideLootDirectly",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/util/ResourceLocation;)V"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 132,
+          "operands": [
+            9,
+            1
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 167,
+          "operands": [
+            255,
+            222
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 43
+        },
+        {
+          "offset": 48,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 154,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 43
+        },
+        {
+          "offset": 58,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "SUCCESS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 176
+        },
+        {
+          "offset": 71,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "PASS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/lootbox/TreasureBox.class",
+      "class_sha256": "7c5db11111239a822204cd13e9d98900d2cf048193796ef30017fbd4e695cfaf",
+      "name": "func_180614_a",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;",
+      "code_hex": "2cb400339a004a03360915092bb80039b6003db20041b60045b8004ba200132bc0004db20053b80059840901a7ffde2bb4005fb400649a000d2b1904b6006804b6006e2bb40072b60077b2007db0b20080b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            74
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/HaulingUtil",
+            "getTreasureBoxRolls",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 162,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 43
+        },
+        {
+          "offset": 32,
+          "opcode": 192,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "itemTreasureBox",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/LootUtil",
+            "generateAndProvideLootDirectly",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/util/ResourceLocation;)V"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 132,
+          "operands": [
+            9,
+            1
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 167,
+          "operands": [
+            255,
+            222
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 43
+        },
+        {
+          "offset": 48,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 154,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 43
+        },
+        {
+          "offset": 58,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 43
+        },
+        {
+          "offset": 68,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71069_bz",
+            "Lnet/minecraft/inventory/Container;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/inventory/Container",
+            "func_75142_b",
+            "()V"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "SUCCESS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 176
+        },
+        {
+          "offset": 78,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "PASS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/LootUtil.class",
+      "class_sha256": "5ed4caa8163ca9c5534f4d2963a5ac65b125c462f1e13e00c2694d5f6298b078",
+      "name": "generateAndProvideLootDirectly",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/util/ResourceLocation;)V",
+      "code_hex": "2a2b2ab80016b8001cb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 42
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/LootUtil",
+            "generateLootWithLuck",
+            "(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/entity/player/EntityPlayerMP;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerMultipleItems",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/LootUtil.class",
+      "class_sha256": "5ed4caa8163ca9c5534f4d2963a5ac65b125c462f1e13e00c2694d5f6298b078",
+      "name": "generateLootWithLuck",
+      "descriptor": "(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/entity/player/EntityPlayerMP;)Ljava/util/List;",
+      "code_hex": "2bb40027b4002d990007b80033b02bb40027b600372ab6003d2bb40027b40041bb0007592bb60045b700482bb6004c2bb60050b60054b60058b6005eb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayerMP",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 184,
+          "member": [
+            "com/google/common/collect/Lists",
+            "newArrayList",
+            "()Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 176
+        },
+        {
+          "offset": 14,
+          "opcode": 43
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayerMP",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184146_ak",
+            "()Lnet/minecraft/world/storage/loot/LootTableManager;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTableManager",
+            "func_186521_a",
+            "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 43
+        },
+        {
+          "offset": 26,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayerMP",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73012_v",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 89
+        },
+        {
+          "offset": 36,
+          "opcode": 43
+        },
+        {
+          "offset": 37,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayerMP",
+            "func_71121_q",
+            "()Lnet/minecraft/world/WorldServer;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "<init>",
+            "(Lnet/minecraft/world/WorldServer;)V"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 43
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186470_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 43
+        },
+        {
+          "offset": 48,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayerMP",
+            "func_184817_da",
+            "()F"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186469_a",
+            "(F)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186471_a",
+            "()Lnet/minecraft/world/storage/loot/LootContext;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "func_186462_a",
+            "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/functions/GrantXp.class",
+      "class_sha256": "3df2567b36348261fd5ea23d60f2e4acda19a146af919209dce182075825a32c",
+      "name": "func_186553_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Lnet/minecraft/item/ItemStack;",
+      "code_hex": "2db6002bc1002d99001d2db6002bc0002db80033b600372ab4001d2ab4001f0303b6003b2bb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 193,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 153,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 45
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 192,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/functions/GrantXp",
+            "skill",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/functions/GrantXp",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addXp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 43
+        },
+        {
+          "offset": 37,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/conditions/PlayerHasLevel.class",
+      "class_sha256": "3c04928e1afb11865ef839031ef8c285075dca73332394b7d67696f657977669",
+      "name": "func_186618_a",
+      "descriptor": "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Z",
+      "code_hex": "2cb6002bc600222cb6002bc0002db80033b600372ab4001fb6003b2ab40021a1000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 198,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 192,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/PlayerHasLevel",
+            "skill",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/PlayerHasLevel",
+            "level",
+            "I"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 161,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 39,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/conditions/MatchEntityId.class",
+      "class_sha256": "247c9e114bb4ffac9242ee890ad4339b02f4031e7b3884d617eeba35000e51a4",
+      "name": "func_186618_a",
+      "descriptor": "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Z",
+      "code_hex": "2c2ab40020b600294e2dc6000d2db8002f593a04c7000d2ab4001e1233b60039ac1904b6003f2ab4001eb60043ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 42
+        },
+        {
+          "offset": 2,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/MatchEntityId",
+            "target",
+            "Lnet/minecraft/world/storage/loot/LootContext$EntityTarget;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186494_a",
+            "(Lnet/minecraft/world/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 78
+        },
+        {
+          "offset": 9,
+          "opcode": 45
+        },
+        {
+          "offset": 10,
+          "opcode": 198,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 45
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/entity/EntityList",
+            "func_191301_a",
+            "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 89
+        },
+        {
+          "offset": 18,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 199,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/MatchEntityId",
+            "entityId",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 18,
+          "constant": "null"
+        },
+        {
+          "offset": 29,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equalsIgnoreCase",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 172
+        },
+        {
+          "offset": 33,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 42
+        },
+        {
+          "offset": 39,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/MatchEntityId",
+            "entityId",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/HaulingArmour.class",
+      "class_sha256": "c941be3d9da11aec50587b455ff316cf2bedf3bbaec195f990a6d8e16292bf4f",
+      "name": "getLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/HaulingArmour.class",
+      "class_sha256": "c941be3d9da11aec50587b455ff316cf2bedf3bbaec195f990a6d8e16292bf4f",
+      "name": "addBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60043b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "addXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/HaulingArmour.class",
+      "class_sha256": "c941be3d9da11aec50587b455ff316cf2bedf3bbaec195f990a6d8e16292bf4f",
+      "name": "removeBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60049b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "HAULING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "removeXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "getLevel",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;)I",
+      "code_hex": "b200e899001910642ab4003e2bb60075c0005ab6009ab800eea700051064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "skillsEnabled",
+            "Z"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 30,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/conditions/MatchEntityId$Serializer.class",
+      "class_sha256": "0e1af4eb13ab752828df6ece108da8cf59be583c89c9882e77433f06ce8b5880",
+      "name": "deserialize",
+      "descriptor": "(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/tslat/aoa3/library/loot/conditions/MatchEntityId;",
+      "code_hex": "2b122803b800593e2b1236125bb8005f3a04bb0008591d19042b123e2c120db80063c0000db70066b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "inverted"
+        },
+        {
+          "offset": 3,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 4,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/JsonUtils",
+            "func_151209_a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Z)Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 62
+        },
+        {
+          "offset": 8,
+          "opcode": 43
+        },
+        {
+          "offset": 9,
+          "opcode": 18,
+          "constant": "id"
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "null"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/JsonUtils",
+            "func_151219_a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 187,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 89
+        },
+        {
+          "offset": 22,
+          "opcode": 29
+        },
+        {
+          "offset": 23,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 43
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": "entity"
+        },
+        {
+          "offset": 28,
+          "opcode": 44
+        },
+        {
+          "offset": 29,
+          "opcode": 18,
+          "constant": "net/minecraft/world/storage/loot/LootContext$EntityTarget"
+        },
+        {
+          "offset": 31,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/JsonUtils",
+            "func_188174_a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 192,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/MatchEntityId",
+            "<init>",
+            "(ZLjava/lang/String;Lnet/minecraft/world/storage/loot/LootContext$EntityTarget;)V"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "skills/hauling/fish": {
+      "path": "assets/aoa3/loot_tables/skills/hauling/fish.json",
+      "sha256": "e09abeb01c36660bf084b54583a9e4b4339f892581fe07b46d8154c6c56449ff",
+      "data": {
+        "type": "fishing",
+        "pools": [
+          {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "minecraft:fish",
+                "entryName": "cod",
+                "functions": [
+                  {
+                    "function": "set_data",
+                    "data": 0
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 15,
+                    "conditions": [
+                      {
+                        "condition": "aoa3:match_entity_id",
+                        "entity": "this"
+                      }
+                    ]
+                  }
+                ],
+                "weight": 100
+              },
+              {
+                "type": "item",
+                "name": "minecraft:fish",
+                "entryName": "salmon",
+                "functions": [
+                  {
+                    "function": "set_data",
+                    "data": 1
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 70,
+                    "conditions": [
+                      {
+                        "condition": "aoa3:match_entity_id",
+                        "entity": "this"
+                      }
+                    ]
+                  }
+                ],
+                "weight": 30
+              },
+              {
+                "type": "item",
+                "name": "minecraft:fish",
+                "entryName": "clownfish",
+                "functions": [
+                  {
+                    "function": "set_data",
+                    "data": 2
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 75,
+                    "conditions": [
+                      {
+                        "condition": "aoa3:match_entity_id",
+                        "entity": "this"
+                      }
+                    ]
+                  }
+                ],
+                "weight": 10
+              },
+              {
+                "type": "item",
+                "name": "minecraft:fish",
+                "entryName": "pufferfish",
+                "functions": [
+                  {
+                    "function": "set_data",
+                    "data": 3
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 75,
+                    "conditions": [
+                      {
+                        "condition": "aoa3:match_entity_id",
+                        "entity": "this"
+                      }
+                    ]
+                  }
+                ],
+                "weight": 26
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_fingerfish",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 85
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_pearl_stripefish",
+                "weight": 19,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 3
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 100
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_limefish",
+                "weight": 18,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 5
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 130
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_sailback",
+                "weight": 17,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 9
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 180
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_golden_gullfish",
+                "weight": 16,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 14
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 250
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_turquoise_stripefish",
+                "weight": 15,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 18
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 380
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_violet_skipper",
+                "weight": 14,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 30
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 600
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_rocketfish",
+                "weight": 13,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 35
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 840
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_crimson_stripefish",
+                "weight": 12,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 42
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 1090
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_crimson_skipper",
+                "weight": 11,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 56
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 1900
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_sapphire_strider",
+                "weight": 10,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 61
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 2420
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_candlefish",
+                "weight": 9,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 65
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 3010
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_dark_hatchetfish",
+                "weight": 8,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 74
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 5260
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_ironback",
+                "weight": 7,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 79
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 7800
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_rainbowfish",
+                "weight": 6,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 90
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 11950
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_razorfish",
+                "weight": 5,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 98
+                  },
+                  {
+                    "condition": "aoa3:match_entity_id",
+                    "entity": "this"
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 18030
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "skills/hauling/treasure": {
+      "path": "assets/aoa3/loot_tables/skills/hauling/treasure.json",
+      "sha256": "0213a920b604793d8690959a0c81e9887278c7818b43229f1c105982b5ecb8a3",
+      "data": {
+        "type": "fishing",
+        "pools": [
+          {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "minecraft:waterlily",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 50
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:name_tag",
+                "weight": 90,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 80
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:saddle",
+                "weight": 90,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 80
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:bow",
+                "weight": 95,
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0,
+                      "max": 0.25
+                    }
+                  },
+                  {
+                    "function": "enchant_with_levels",
+                    "levels": 30,
+                    "treasure": true
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 70
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:fishing_rod",
+                "weight": 85,
+                "functions": [
+                  {
+                    "function": "set_damage",
+                    "damage": {
+                      "min": 0,
+                      "max": 0.25
+                    }
+                  },
+                  {
+                    "function": "enchant_with_levels",
+                    "levels": 30,
+                    "treasure": true
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 100
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:book",
+                "weight": 70,
+                "functions": [
+                  {
+                    "function": "enchant_with_levels",
+                    "levels": 30,
+                    "treasure": true
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 150
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:old_boot",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rune_box",
+                "weight": 50,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 25
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 1000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fish_case",
+                "weight": 50,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 50
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 8000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:weapons_case",
+                "weight": 40,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 70
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 15000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:treasure_box",
+                "weight": 30,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 85
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 30000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:crystal_box",
+                "weight": 20,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 94
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 50000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:tidal_greatblade",
+                "weight": 10,
+                "quality": 5,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "hauling",
+                    "level": 95
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "hauling",
+                    "xp": 55000
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "items/rune_box": {
+      "path": "assets/aoa3/loot_tables/items/rune_box.json",
+      "sha256": "b49e121cca9ddf62a79a11ca644665d2b2e5d843ebd8d29e10190a0fc57685d1",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "main_loot",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:wind_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fire_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:water_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:wither_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:energy_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:lunar_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:kinetic_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:distortion_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:poison_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:strike_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:power_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:storm_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:life_rune",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:compass_rune",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "items/treasure_box": {
+      "path": "assets/aoa3/loot_tables/items/treasure_box.json",
+      "sha256": "ae32b3246aa522de90c4d6c2960f4d80e058761b5aad68313180adeea679fbc1",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "main_loot",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 50,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 4,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:silver_coin",
+                "weight": 30
+              },
+              {
+                "type": "item",
+                "name": "aoa3:limonite_ingot",
+                "weight": 50,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:tea",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 2,
+                      "max": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:holly_top_petals",
+                "weight": 40,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 8,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:experience_bottle",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosite_ingot",
+                "weight": 40,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 2,
+                      "max": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fragmented_anima_stone",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:magic_repair_dust",
+                "weight": 10
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gold_coin",
+                "weight": 10
+              },
+              {
+                "type": "item",
+                "name": "minecraft:diamond",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 2,
+                      "max": 8
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:utopian_helmet",
+                "weight": 5,
+                "quality": 5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:utopian_chestplate",
+                "weight": 5,
+                "quality": 5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:utopian_legs",
+                "weight": 5,
+                "quality": 5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:utopian_boots",
+                "weight": 5,
+                "quality": 5
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "vanilla_fishing_categories": {
+    "path": "assets/minecraft/loot_tables/gameplay/fishing.json",
+    "sha256": "57cfcd9fc4f2c112b0a200fe1af23309eae771e8f2d1dc97d9dc64be2b437fbd",
+    "data": {
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "loot_table",
+              "name": "minecraft:gameplay/fishing/junk",
+              "weight": 10,
+              "quality": -2
+            },
+            {
+              "type": "loot_table",
+              "name": "minecraft:gameplay/fishing/treasure",
+              "weight": 5,
+              "quality": 2
+            },
+            {
+              "type": "loot_table",
+              "name": "minecraft:gameplay/fishing/fish",
+              "weight": 85,
+              "quality": -1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vanilla_rod_recipe": {
+    "path": "assets/minecraft/recipes/fishing_rod.json",
+    "sha256": "42c6f84295b4d0a5e062fa55d128f6f5672b5c83a975ff06c96fb7d6a3c21139",
+    "data": {
+      "type": "crafting_shaped",
+      "pattern": [
+        "  #",
+        " #X",
+        "# X"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:stick"
+        },
+        "X": {
+          "item": "minecraft:string"
+        }
+      },
+      "result": {
+        "item": "minecraft:fishing_rod"
+      }
+    }
+  },
+  "vanilla_function_methods": [
+    {
+      "class_path": "bge.class",
+      "class_sha256": "1f1f7694e7d4d8d241846b998897be76ca35e12213a0361c611fcd988891c3ae",
+      "name": "a",
+      "descriptor": "(Laip;Ljava/util/Random;Lbft;)Laip;",
+      "code_hex": "2bb6001d9900210c2ab400122cb600226638042b17042bb60026866ab8002cb6002fa7000eb2003112332bb9003903002bb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "aip",
+            "f",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 12
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "bge",
+            "b",
+            "Lbfw;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 44
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "bfw",
+            "b",
+            "(Ljava/util/Random;)F"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 102
+        },
+        {
+          "offset": 17,
+          "opcode": 56,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 43
+        },
+        {
+          "offset": 20,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 43
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "aip",
+            "k",
+            "()I"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 134
+        },
+        {
+          "offset": 27,
+          "opcode": 106
+        },
+        {
+          "offset": 28,
+          "opcode": 184,
+          "member": [
+            "rk",
+            "d",
+            "(F)I"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "aip",
+            "b",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 167,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 178,
+          "member": [
+            "bge",
+            "a",
+            "Lorg/apache/logging/log4j/Logger;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 18,
+          "constant": "Couldn't set damage of loot item {}"
+        },
+        {
+          "offset": 42,
+          "opcode": 43
+        },
+        {
+          "offset": 43,
+          "opcode": 185,
+          "member": [
+            "org/apache/logging/log4j/Logger",
+            "warn",
+            "(Ljava/lang/String;Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 43
+        },
+        {
+          "offset": 49,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "bfy.class",
+      "class_sha256": "1e64d87213d934793742f9c0d3b2976c6273332666df5d25e05c6eff344b3252",
+      "name": "a",
+      "descriptor": "(Laip;Ljava/util/Random;Lbft;)Laip;",
+      "code_hex": "2c2b2ab400122cb6001e2ab40014b80023b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 42
+        },
+        {
+          "offset": 3,
+          "opcode": 180,
+          "member": [
+            "bfy",
+            "a",
+            "Lbfw;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 44
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "bfw",
+            "a",
+            "(Ljava/util/Random;)I"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 180,
+          "member": [
+            "bfy",
+            "b",
+            "Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "alm",
+            "a",
+            "(Ljava/util/Random;Laip;IZ)Laip;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "mapping_sha256": "7dada8ab1ae837b507fa9edb292bcd8660748d1bd650b10d3bd2e4f5b435f856",
+  "forge_reference": {
+    "source_url": "https://raw.githubusercontent.com/MinecraftForge/MinecraftForge/1.12.x/patches/minecraft/net/minecraft/entity/projectile/EntityFishHook.java.patch",
+    "sha256": "9957972e2bc73c35b0fe6c27e7528db1c63b0b5f2b5367d33601804f54141077",
+    "bytes": 4664,
+    "retrieved_date": "2026-10-17",
+    "scope": "Official1.12.x branch patch, not a verified installed Forge binary.",
+    "adds_player_to_loot_context": true,
+    "adds_hook_as_looted_entity": true,
+    "posts_item_fished_event_before_spawning_result": true,
+    "checks_event_cancellation": true
+  },
+  "box_call_models": [
+    {
+      "level": 1,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 2,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 3,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 4,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 5,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 6,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 7,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 8,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 9,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 10,
+      "treasure_table_calls": 1,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 11,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 12,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 13,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 14,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 15,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 1
+    },
+    {
+      "level": 16,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 17,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 18,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 19,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 20,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 21,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 22,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 23,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 24,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 25,
+      "treasure_table_calls": 2,
+      "rune_table_calls": 3
+    },
+    {
+      "level": 26,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 27,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 28,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 29,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 30,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 31,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 32,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 33,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 34,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 35,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 5
+    },
+    {
+      "level": 36,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 37,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 38,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 39,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 40,
+      "treasure_table_calls": 3,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 41,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 42,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 43,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 44,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 45,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 46,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 47,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 48,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 49,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 50,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 51,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 52,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 53,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 54,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 55,
+      "treasure_table_calls": 4,
+      "rune_table_calls": 8
+    },
+    {
+      "level": 56,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 57,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 58,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 59,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 60,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 61,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 62,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 63,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 64,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 65,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 11
+    },
+    {
+      "level": 66,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 67,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 68,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 69,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 70,
+      "treasure_table_calls": 5,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 71,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 72,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 73,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 74,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 75,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 15
+    },
+    {
+      "level": 76,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 77,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 78,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 79,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 80,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 81,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 82,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 83,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 84,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 85,
+      "treasure_table_calls": 6,
+      "rune_table_calls": 17
+    },
+    {
+      "level": 86,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 87,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 88,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 89,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 90,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 91,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 92,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 93,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 94,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 95,
+      "treasure_table_calls": 7,
+      "rune_table_calls": 19
+    },
+    {
+      "level": 96,
+      "treasure_table_calls": 8,
+      "rune_table_calls": 21
+    },
+    {
+      "level": 97,
+      "treasure_table_calls": 8,
+      "rune_table_calls": 21
+    },
+    {
+      "level": 98,
+      "treasure_table_calls": 8,
+      "rune_table_calls": 21
+    },
+    {
+      "level": 99,
+      "treasure_table_calls": 8,
+      "rune_table_calls": 21
+    },
+    {
+      "level": 100,
+      "treasure_table_calls": 8,
+      "rune_table_calls": 21
+    }
+  ],
+  "default_match_entity_id_examples": [
+    {
+      "entity": "absent",
+      "registry_id": null,
+      "result": true
+    },
+    {
+      "entity": "present",
+      "registry_id": null,
+      "result": true
+    },
+    {
+      "entity": "present",
+      "registry_id": "example:registered_hook",
+      "result": false
+    }
+  ],
+  "limits": [
+    "Weights within fish/treasure subtables are not unconditional catch chances.",
+    "Official Forge branch patch is not installed-runtime verification.",
+    "Registered custom hook IDs can change the selected null-ID condition.",
+    "Box table calls are not guaranteed unique reward types or a fixed item total."
+  ]
+}
