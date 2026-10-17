@@ -87,6 +87,7 @@ These are optional presentation choices. They are not measured performance optim
 
 ## Related guidance and evidence
 
+- [Historical controls and config migration](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Controls-and-Client-Configuration)
 - [Books, Lore and optional Patchouli troubleshooting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Books-Lore-and-Blank-Realmstone-Recovery-1.21.1)
 - [Modern skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1)
 - [Released defaults, enum values, key registration and renderer methods](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/client-settings-evidence-1.21.1.json)
