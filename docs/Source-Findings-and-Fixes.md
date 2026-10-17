@@ -141,3 +141,11 @@ The stock level setter clamps 0–1000, so the `>=1000` versus `==1000` comparis
 - [ ] Keep client buttons, menu selection, display recipes and any future data-driven extensions aligned without repeated registry scans.
 
 [Illustrated preparation and eight full-set shopping lists](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1) · [Exact released evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/frame-bench-and-armor-infusion-evidence-1.21.1.json). Other armor acquisition paths remain separate work; absence from the 32 Infusion outputs is not proof of unavailability.
+
+## Skill Master acquisition and the missing tier-five course record
+
+Minecraft 1.21.1 / AoA 3.7.16.1 static audit adds ten released Skill Master offer definitions to the previous 45-offer modern catalog: four Skill Crystals and six Skill Helmets. The utility-lobby template contains the canonical NPC; this is a distinct route from roaming traders. [Illustrated acquisition guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1) · [Released methods and resource hashes](https://herbertofury.github.io/Advent-of-Ascension/skill-master-acquisition-evidence-1.21.1.json).
+
+Six tier reward tables and six parkour activity choices ship, but the inspected registry resources contain only five parkour-course records: tiers 1, 2, 3, 4 and 6. The checked course lookup returns failure when no matching course exists. A tier-five reward table therefore does not establish a playable tier-five route. This is a static completeness finding, not an observed game failure or a change to the private current candidate.
+
+Acceptance work: verify target-build entry and safe return, utility-lobby generation/NPC presence, all ten offers, completion versus death/exit reward gates, explicit tier-five handling, full-inventory delivery, discounts/restocking and reconnect persistence. Retain real item IDs and saves. Do not silently treat missing content as completed or grant reward tables without their intended course.

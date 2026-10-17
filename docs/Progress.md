@@ -167,3 +167,11 @@ The player guide explains Silk Touch/Fortune branches, global Ivory conditions, 
 
 - [Loot resource browser](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1)
 - [Illustrated conditions and modifier guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Loot-Tables-and-Global-Modifiers-1.21.1)
+
+## Skill Master acquisition walkthrough · 2026-10-17
+
+The modern trading reference now includes **55 base offers across seven vendor groups**, adding ten checked Skill Master definitions without changing the previous 45. The illustrated acquisition guide connects the Nowhere utility lobby to six Skill Helmets and four crystal sizes, exact base token shopping totals, five shipped parkour-course records, six reward-tier tables and eight boss-table references. Tier-five course availability is explicitly unresolved in this archive.
+
+The tutorial library now has **56 version-scoped illustrated routes**. Inventory cards retain prior how-to links and add this route: **306 links across 293 cards**, using a single precomputed inline lookup. All **82 local documentation regression checks pass**. These are documentation/source checks, not game tests or private-candidate certification.
+
+[Skill Master and Archaic Tokens](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1) · [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1&vendor=vendor%3Askill_master)
