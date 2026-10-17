@@ -22,13 +22,15 @@ Turn, tilt and zoom seven source-derived workstation item models. The viewer use
 - Focus the preview and use arrow keys to rotate, + / − to zoom, or 0 to reset.
 - Front, Side and Top angle provide quick inspection views.
 - “Link to this view” includes the selected model and camera settings. It does not upload a screenshot or save game data.
-- If WebGL is unavailable, a crop from the existing source sheet remains available with the same guide links.
+- If WebGL is unavailable, the viewer tries its software canvas renderer. If neither renderer is available, a crop from the existing source sheet remains available with the same guide links.
 
 ## Understand the limits
 
 These are **static inventory item models**, not a simulation of the workstation. A cube-shaped item model stays a cube; the viewer does not invent a more elaborate placed-block renderer. Block-entity animation, fluids, active pistons, runtime lighting and machine behavior are outside this view. Animated textures use their first declared frame.
 
 Fishing Cage is deliberately excluded from this seven-model set: its item appearance is generated pixel-extruded artwork rather than one of these JSON-element workstation meshes. Its ordinary reference remains in the item browser.
+
+The software canvas preview sorts faces by depth rather than using a per-pixel depth buffer. Intersecting or translucent surfaces can differ from game rendering; the preview labels this limitation.
 
 Other Minecraft releases are refused explicitly. An unknown model ID does not silently select a replacement.
 
