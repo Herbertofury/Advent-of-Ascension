@@ -23,6 +23,52 @@ These categories cover **63 distinct items**. Separately, **92 armor items** occ
 4. For **Old Boot**, both custom water Hauling pools require Hauling level 50. The default pool entry has weight 5 and luck modifier 5.0; Barathos water has weight 1 and luck modifier 2.0. These fields are not percentages and this is not an ordinary vanilla fishing recipe.
 5. [Read the Petal Crafting release comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Petal-Crafting-and-Hydrangic-Armor) before assuming retained Hydrangic outputs can be reached in an unmodified modern survival world.
 
+## Full-set drops and single-piece rewards are different
+
+![Explosive armor source model](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/worn-armour-explosive-1.21.1.webp)
+
+### Explosive and Predatious: the selected reward can be a complete set
+
+The normal King BamBamBam and Tyrosaur tables each contain a one-roll `special_loot` pool. It chooses between a weapon entry with weight **3** and an `aoa3:multi` entry with default weight **1**. The checked Multi entry loops over its child entries and creates each expanded child's loot. In these two tables, those children are the four unconditional armor pieces.
+
+- [King BamBamBam encounter](https://github.com/Herbertofury/Advent-of-Ascension/wiki/King-BamBamBam-Combat-Field-Guide-1.21.1): Explosive Bow or the **four Explosive pieces together**.
+- [Tyrosaur encounter](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tyrosaur-Combat-Field-Guide-1.21.1): Primal Sword or the **four Predatious pieces together**.
+
+For this isolated, unmodified outer pool, the armor bundle has a **1-in-4 selection share**. It is not four separate 1-in-4 piece rolls. Death eligibility, custom loot-table overrides, loader hooks and datapacks remain separate. Other pools in the same boss table can also award supplies.
+
+### Utopian: acquire a Treasure Box, then roll one reward
+
+![Treasure Box reward possibilities](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/treasure-box-rewards-1.21.1.webp)
+
+1. Use the [Hauling equipment and pool-selection guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hauling-Rods-and-Fishing-Pools-1.21.1). The shipped default-water and Precasia-water Treasure Box entries require **Hauling level 30**.
+2. The default-water entry has weight **250** and luck modifier **15.0**; Precasia water has weight **35** and luck modifier **5.0**. These are pool parameters, not catch percentages.
+3. Make inventory space and use the box on the server. The checked use method invokes `aoa3:items/treasure_box`, gives the results through the inventory helper and consumes one box outside Creative.
+4. Its one-roll pool contains twelve entries with total base weight **256**. Each Utopian piece has weight **5**: **5/256 for a particular piece**, or **20/256 for any Utopian piece**, conditional on this eligible unmodified pool.
+5. Duplicates are possible. A Treasure Box does not award a full Utopian set; [inspect every possible reward](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reward-Boxes-and-Skill-Crystals-1.21.1#treasure-box) before planning a collection.
+
+### Nethengeic: look for the pit's encounter area
+
+![Nethengeic armor source model](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/worn-armour-nethengeic-1.21.1.webp)
+
+The shipped **Nethengeic Pit** structure gives the Nethengeic Beast a concrete structure-spawn route. The entity's name and loot-table filename alone were not the evidence for this connection.
+
+- The structure is eligible for `#minecraft:is_nether`, starts from absolute height **31**, and uses a lava block-match surface test. Placement can still fail against terrain; this is not a fixed-coordinate locator.
+- Its registered random-spread structure set uses spacing **30**, separation **8**, salt **845278832**. These settings do not promise a pit every thirty chunks.
+- The start pool has two equally weighted template alternatives, both present in the released JAR.
+- Its monster override applies to **structure-piece bounding boxes** and lists `aoa3:nethengeic_beast` with min/max group size **1/1** and weight **1**. A spawn-list entry does not guarantee a beast is already standing in every pit.
+- The checked spawn-rule builder requests non-Peaceful spawning, excludes Nether Wart Block below the spawn, checks the valid spawn block, and adds a nearby-same-entity exclusion with extents **15, 2, 15**. Mob caps, engine rules, other mods and eligible terrain still matter.
+- The Beast's separate armor pool has one roll: empty weight **50**, then each of four Nethengeic pieces weight **2**. The isolated base pool therefore has **2/58 per piece**, not a full-set bundle.
+
+Do not confuse the **Nethengeic Beast** with the **Nethengeic Wither** boss. Their encounter routes and tables are separate.
+
+### Why these are stronger connections, but still bounded
+
+The checked AoA inheritance chains for King BamBamBam, Tyrosaur and Nethengeic Beast declare no local `getLootTable` or `getDefaultLootTable` override. The official vanilla reference follows the entity type's registry ID and prefixes its path with `entities/`; a mob's custom loot-table field can replace that default. AoA's `shouldDropLoot` also requires its `hasDrops` flag alongside the inherited gate.
+
+The separate Guardian extra-table handler iterates configured table keys, resolves each table and invokes `getRandomItemsRaw` into the generated-loot list. This supports the registered Biogenic modifier route described above, while avoiding a claim that the extra table recursively reapplies every global modifier.
+
+[Read the selected method instructions, source hashes, pool comparison and structure resources](https://herbertofury.github.io/Advent-of-Ascension/armor-loot-route-evidence-1.21.1.json). These are static source connections, not live kill, catch or world-generation tests.
+
 ## Every ordinary set
 
 Each picture is the existing neutral worn-model study. It is not a screenshot or an availability certificate.
@@ -611,6 +657,6 @@ Recipe-viewer hiding tag: **not listed**.
 
 [Machine-readable 204-item ledger and 44 hash-pinned resources](https://herbertofury.github.io/Advent-of-Ascension/armour-acquisition-evidence-1.21.1.json). The extractor parses each selected JSON once and matches exact registered item IDs; it does not search name substrings or infer a recipe from an advancement icon.
 
-Remaining work: trace non-Guardian table bindings and encounter reachability; inspect generic or indirect item suppliers; distinguish legacy-only progression from modern pathways; validate a copied save on the exact target build when runtime testing is separately authorized. Keep retained resources, static routes and live acceptance as separate statuses.
+Remaining work: validate the documented encounter routes in the exact target build; inspect generic or indirect item suppliers; distinguish legacy-only progression from modern pathways; validate a copied save on the exact target build when runtime testing is separately authorized. Keep retained resources, static routes and live acceptance as separate statuses.
 
 AoA systems and artwork: Tslat and contributors. Neutral mesh reference: Mojang/Microsoft. Original documentation tooling and presentation. No Java/game code was executed.

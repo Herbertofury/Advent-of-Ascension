@@ -9237,9 +9237,47 @@
       "group": "AoAMonsters",
       "source": "https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/entity/AoAMonsters.java#L65",
       "class": "source/content/entity/monster/nether/NethengeicBeastEntity.java",
-      "biomes": [],
+      "biomes": [
+        "#minecraft:is_nether"
+      ],
       "dimensions": [],
-      "spawn_rules": [],
+      "spawn_rules": [
+        {
+          "kind": "Structure-piece spawn override",
+          "path": "data/aoa3/worldgen/structure/nethengeic_pit.json",
+          "sha256": "bfa9cbc8ef2b384415c6208117079799af6073f6389866a1104bc7ab784d846f",
+          "source": "https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/armor-loot-route-evidence-1.21.1.json",
+          "definition": {
+            "type": "aoa3:aoa_default_structure",
+            "align_to_top": true,
+            "biomes": "#minecraft:is_nether",
+            "size": 15,
+            "spawn_overrides": {
+              "monster": {
+                "bounding_box": "piece",
+                "spawns": [
+                  {
+                    "type": "aoa3:nethengeic_beast",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 1
+                  }
+                ]
+              }
+            },
+            "start_height": {
+              "absolute": 31
+            },
+            "start_pool": "aoa3:nether/nethengeic_pit/starts",
+            "step": "surface_structures",
+            "surface_test": {
+              "block": "minecraft:lava",
+              "predicate_type": "minecraft:block_match"
+            }
+          },
+          "expression": "Nethengeic Pit piece bounds; #minecraft:is_nether selector; group1; generation and spawn gates still apply."
+        }
+      ],
       "portrait": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-mob-nethengeic_beast.png",
       "portrait_evidence": "https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/client/AoAEntityRendering.java#L155",
       "stat_evidence": {
@@ -9305,7 +9343,9 @@
           24.0
         ]
       },
-      "turntable": "model-turntable.html?entity=aoa3:nethengeic_beast"
+      "turntable": "model-turntable.html?entity=aoa3:nethengeic_beast",
+      "structure_guide": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Acquisition-Ledger-1.21.1#nethengeic-look-for-the-pits-encounter-area",
+      "structure_note": "Nethengeic Pit structure-piece spawn override. This is a biome-tag selector, not guaranteed occupancy or a universal natural-spawn claim."
     },
     {
       "id": "aoa3:skeletal_abomination",
@@ -14179,7 +14219,7 @@
   ],
   "summary": {
     "source_roster": 83,
-    "with_spawn_evidence": 38,
+    "with_spawn_evidence": 39,
     "biome_dimension_links": 25
   }
 }

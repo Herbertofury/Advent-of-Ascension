@@ -1,0 +1,3539 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Selected released loot methods, official vanilla default routing reference and exact shipped resource graph. Loader changes, custom entity loot tables, death gates, RNG and full survival reachability are not certified.",
+  "method_evidence": [
+    {
+      "artifact": "minecraft-1.21.1-client.jar",
+      "class_path": "btp.class",
+      "class_sha256": "64df9009f5438ccad2a3fdd4d612b60848cf84b8f05c2a7b5ec0582253439d95",
+      "name": "eA",
+      "descriptor": "()Lakq;",
+      "code_hex": "2ab4025ac7000a2ab602c6a700072ab4025ab0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "btp",
+            "cm",
+            "Lakq;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 199,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "btp",
+            "V",
+            "()Lakq;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 167,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "btp",
+            "cm",
+            "Lakq;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "minecraft-1.21.1-client.jar",
+      "class_path": "btp.class",
+      "class_sha256": "64df9009f5438ccad2a3fdd4d612b60848cf84b8f05c2a7b5ec0582253439d95",
+      "name": "V",
+      "descriptor": "()Lakq;",
+      "code_hex": "2ab702c8b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "btn",
+            "eA",
+            "()Lakq;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "minecraft-1.21.1-client.jar",
+      "class_path": "btn.class",
+      "class_sha256": "a729393b3a7d636dc60a0f34e743ed48c951bef7ca75509ec7316dad0d39d0f4",
+      "name": "eA",
+      "descriptor": "()Lakq;",
+      "code_hex": "2ab6028bb607eeb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "btn",
+            "am",
+            "()Lbsx;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "bsx",
+            "k",
+            "()Lakq;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "minecraft-1.21.1-client.jar",
+      "class_path": "bsx.class",
+      "class_sha256": "0178475b8600aae5067425f54cd27d46bb56404299f40caa2f31cc32ca114e93",
+      "name": "k",
+      "descriptor": "()Lakq;",
+      "code_hex": "2ab402b0c7001eb201552ab9016802004c2ab202b42b1302b6b602b8b802bdb502b02ab402b0b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "bsx",
+            "bQ",
+            "Lakq;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 199,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "lt",
+            "f",
+            "Ljh;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 185,
+          "member": [
+            "jh",
+            "b",
+            "(Ljava/lang/Object;)Lakr;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 76
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 178,
+          "member": [
+            "lu",
+            "bc",
+            "Lakq;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 43
+        },
+        {
+          "offset": 22,
+          "opcode": 19,
+          "constant": "entities/"
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "akr",
+            "f",
+            "(Ljava/lang/String;)Lakr;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 184,
+          "member": [
+            "akq",
+            "a",
+            "(Lakq;Lakr;)Lakq;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 181,
+          "member": [
+            "bsx",
+            "bQ",
+            "Lakq;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 42
+        },
+        {
+          "offset": 35,
+          "opcode": 180,
+          "member": [
+            "bsx",
+            "bQ",
+            "Lakq;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "minecraft-1.21.1-client.jar",
+      "class_path": "esj.class",
+      "class_sha256": "ab886cd29f255d9d9def1f63af9d7590cbbaa50bc5ea016e3f8366e30cac9f34",
+      "name": "b",
+      "descriptor": "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P4;",
+      "code_hex": "2ab20062126404b8006ab900700300ba00820000b60088b20062128a03b8006ab900700300ba008e0000b60088b600922ab80095b60099b6009db200a0b900a4010012a6b800acb900ad0300ba00b30000b60088b600b6b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "com/mojang/serialization/Codec",
+            "INT",
+            "Lcom/mojang/serialization/codecs/PrimitiveCodec;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "weight"
+        },
+        {
+          "offset": 6,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 185,
+          "member": [
+            "com/mojang/serialization/codecs/PrimitiveCodec",
+            "optionalFieldOf",
+            "(Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/serialization/MapCodec;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 186,
+          "operands": [
+            0,
+            130,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "com/mojang/serialization/MapCodec",
+            "forGetter",
+            "(Ljava/util/function/Function;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 178,
+          "member": [
+            "com/mojang/serialization/Codec",
+            "INT",
+            "Lcom/mojang/serialization/codecs/PrimitiveCodec;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": "quality"
+        },
+        {
+          "offset": 28,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 29,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 185,
+          "member": [
+            "com/mojang/serialization/codecs/PrimitiveCodec",
+            "optionalFieldOf",
+            "(Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/serialization/MapCodec;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 186,
+          "operands": [
+            0,
+            142,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "com/mojang/serialization/MapCodec",
+            "forGetter",
+            "(Ljava/util/function/Function;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "com/mojang/serialization/codecs/RecordCodecBuilder$Instance",
+            "group",
+            "(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/Products$P2;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 42
+        },
+        {
+          "offset": 49,
+          "opcode": 184,
+          "member": [
+            "esj",
+            "a",
+            "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P1;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "com/mojang/datafixers/Products$P1",
+            "t1",
+            "()Lcom/mojang/datafixers/kinds/App;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 182,
+          "member": [
+            "com/mojang/datafixers/Products$P2",
+            "and",
+            "(Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/Products$P3;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "eth",
+            "c",
+            "Lcom/mojang/serialization/Codec;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 185,
+          "member": [
+            "com/mojang/serialization/Codec",
+            "listOf",
+            "()Lcom/mojang/serialization/Codec;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 18,
+          "constant": "functions"
+        },
+        {
+          "offset": 68,
+          "opcode": 184,
+          "member": [
+            "java/util/List",
+            "of",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 185,
+          "member": [
+            "com/mojang/serialization/Codec",
+            "optionalFieldOf",
+            "(Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/serialization/MapCodec;"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 186,
+          "operands": [
+            0,
+            179,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 182,
+          "member": [
+            "com/mojang/serialization/MapCodec",
+            "forGetter",
+            "(Ljava/util/function/Function;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 182,
+          "member": [
+            "com/mojang/datafixers/Products$P3",
+            "and",
+            "(Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/Products$P4;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/loottable/entry/LootMultiEntry.class",
+      "class_sha256": "a063fdfc89985685d5b2d3b1ba90f5b7e2b54eededc13bdc9e221674334609cf",
+      "name": "createItemStack",
+      "descriptor": "(Ljava/util/function/Consumer;Lnet/minecraft/world/level/storage/loot/LootContext;)V",
+      "code_hex": "2ab40007b9001b01004e2db90021010099001f2db900270100c0002a3a0419042c2b2cba002c0000b6003057a7ffdeb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/loottable/entry/LootMultiEntry",
+            "entries",
+            "Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 78
+        },
+        {
+          "offset": 10,
+          "opcode": 45
+        },
+        {
+          "offset": 11,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 153,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 45
+        },
+        {
+          "offset": 20,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 192,
+          "operands": [
+            0,
+            42
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 44
+        },
+        {
+          "offset": 33,
+          "opcode": 43
+        },
+        {
+          "offset": 34,
+          "opcode": 44
+        },
+        {
+          "offset": 35,
+          "opcode": 186,
+          "operands": [
+            0,
+            44,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/storage/loot/entries/LootPoolEntryContainer",
+            "expand",
+            "(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/function/Consumer;)Z"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 87
+        },
+        {
+          "offset": 44,
+          "opcode": 167,
+          "operands": [
+            255,
+            222
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/loottable/entry/LootMultiEntry.class",
+      "class_sha256": "a063fdfc89985685d5b2d3b1ba90f5b7e2b54eededc13bdc9e221674334609cf",
+      "name": "lambda$createItemStack$2",
+      "descriptor": "(Ljava/util/function/Consumer;Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/entries/LootPoolEntry;)V",
+      "code_hex": "2c2a2bb900390300b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 42
+        },
+        {
+          "offset": 2,
+          "opcode": 43
+        },
+        {
+          "offset": 3,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/world/level/storage/loot/entries/LootPoolEntry",
+            "createItemStack",
+            "(Ljava/util/function/Consumer;Lnet/minecraft/world/level/storage/loot/LootContext;)V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/loottable/entry/LootMultiEntry.class",
+      "class_sha256": "a063fdfc89985685d5b2d3b1ba90f5b7e2b54eededc13bdc9e221674334609cf",
+      "name": "lambda$static$1",
+      "descriptor": "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;",
+      "code_hex": "2ab2003fb900450100124bb8004cb900500300ba00540000b60058b6005e2ab80064b600682aba006e0000b60071b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/world/level/storage/loot/entries/LootPoolEntries",
+            "CODEC",
+            "Lcom/mojang/serialization/Codec;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 185,
+          "member": [
+            "com/mojang/serialization/Codec",
+            "listOf",
+            "()Lcom/mojang/serialization/Codec;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 18,
+          "constant": "entries"
+        },
+        {
+          "offset": 11,
+          "opcode": 184,
+          "member": [
+            "java/util/List",
+            "of",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 185,
+          "member": [
+            "com/mojang/serialization/Codec",
+            "optionalFieldOf",
+            "(Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/serialization/MapCodec;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 186,
+          "operands": [
+            0,
+            84,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "com/mojang/serialization/MapCodec",
+            "forGetter",
+            "(Ljava/util/function/Function;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "com/mojang/serialization/codecs/RecordCodecBuilder$Instance",
+            "group",
+            "(Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/Products$P1;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 42
+        },
+        {
+          "offset": 31,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/loottable/entry/LootMultiEntry",
+            "singletonFields",
+            "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P4;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "com/mojang/datafixers/Products$P1",
+            "and",
+            "(Lcom/mojang/datafixers/Products$P4;)Lcom/mojang/datafixers/Products$P5;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 42
+        },
+        {
+          "offset": 38,
+          "opcode": 186,
+          "operands": [
+            0,
+            110,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "com/mojang/datafixers/Products$P5",
+            "apply",
+            "(Lcom/mojang/datafixers/kinds/Applicative;Lcom/mojang/datafixers/util/Function5;)Lcom/mojang/datafixers/kinds/App;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/item/lootbox/TreasureBox.class",
+      "class_sha256": "d7254abd4992fed9e48d6128f98d4f51f753a995194cae3a693d6c9e30e21c8a",
+      "name": "use",
+      "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+      "code_hex": "2c2db6000c3a042cc100129900412cc000123a0519051214b800161905b6001c1905b600201905b80024b8002ab8002e1905b600349a0009190404b600381905b4003eb600421904b80047b01904b8004db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 45
+        },
+        {
+          "offset": 2,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/player/Player",
+            "getItemInHand",
+            "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 193,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 153,
+          "operands": [
+            0,
+            65
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 44
+        },
+        {
+          "offset": 15,
+          "opcode": 192,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "items/treasure_box"
+        },
+        {
+          "offset": 24,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "id",
+            "(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "serverLevel",
+            "()Lnet/minecraft/server/level/ServerLevel;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "position",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LootUtil",
+            "getGiftParameters",
+            "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/storage/loot/LootParams;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LootUtil",
+            "generateLoot",
+            "(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/level/storage/loot/LootParams;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/InventoryUtil",
+            "giveItemsTo",
+            "(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "isCreative",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "shrink",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "inventoryMenu",
+            "Lnet/minecraft/world/inventory/InventoryMenu;"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/inventory/InventoryMenu",
+            "broadcastChanges",
+            "()V"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/world/InteractionResultHolder",
+            "success",
+            "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 176
+        },
+        {
+          "offset": 76,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/world/InteractionResultHolder",
+            "pass",
+            "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/entity/base/AoAMonster.class",
+      "class_sha256": "41e16fdefe2d6074d7636a5679ee7eaa67660f74e3bc27f5973eb6a761cd9678",
+      "name": "shouldDropLoot",
+      "descriptor": "()Z",
+      "code_hex": "2ab7028699000e2ab4001999000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/entity/monster/Monster",
+            "shouldDropLoot",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoAMonster",
+            "hasDrops",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 15,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 19,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/entity/monster/nether/NethengeicBeastEntity.class",
+      "class_sha256": "4bfa55e8b1459e2029aaf025ae7434d9ec867b5379c1c0e980a914dbff4ed868",
+      "name": "spawnRules",
+      "descriptor": "(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;",
+      "code_hex": "2ab80212b60218b2021cb6021fb602231202140226140228140226b6022ab0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/builder/EntitySpawnConditions",
+            "create",
+            "(Lnet/minecraft/world/entity/EntityType;)Lnet/tslat/aoa3/library/builder/EntitySpawnConditions;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/EntitySpawnConditions",
+            "noPeacefulSpawn",
+            "()Lnet/tslat/aoa3/library/builder/EntitySpawnConditions;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/world/level/block/Blocks",
+            "NETHER_WART_BLOCK",
+            "Lnet/minecraft/world/level/block/Block;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/EntitySpawnConditions",
+            "noSpawnOn",
+            "(Lnet/minecraft/world/level/block/Block;)Lnet/tslat/aoa3/library/builder/EntitySpawnConditions;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/EntitySpawnConditions",
+            "ifValidSpawnBlock",
+            "()Lnet/tslat/aoa3/library/builder/EntitySpawnConditions;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 18,
+          "constant": "net/tslat/aoa3/content/entity/monster/nether/NethengeicBeastEntity"
+        },
+        {
+          "offset": 18,
+          "opcode": 20,
+          "constant": 15.0
+        },
+        {
+          "offset": 21,
+          "opcode": 20,
+          "constant": 2.0
+        },
+        {
+          "offset": 24,
+          "opcode": 20,
+          "constant": 15.0
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/EntitySpawnConditions",
+            "notNearEntities",
+            "(Ljava/lang/Class;DDD)Lnet/tslat/aoa3/library/builder/EntitySpawnConditions;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/loottable/modifier/RollExtraTablesLootModifier.class",
+      "class_sha256": "73e62d56bf48e7a1a9d18ad4359b1b48c51875f2f4b9c825a691db67690e8fb9",
+      "name": "doApply",
+      "descriptor": "(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;",
+      "code_hex": "2cb600284e2ab40020b9002e01003a041904b9003401009900271904b9003a0100c0003e3a052db200401905b9004603002c2bba004c0000b60050a7ffd52bb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/storage/loot/LootContext",
+            "getResolver",
+            "()Lnet/minecraft/core/HolderGetter$Provider;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 78
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/loottable/modifier/RollExtraTablesLootModifier",
+            "additionalTables",
+            "Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 153,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 192,
+          "operands": [
+            0,
+            62
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 45
+        },
+        {
+          "offset": 39,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/core/registries/Registries",
+            "LOOT_TABLE",
+            "Lnet/minecraft/resources/ResourceKey;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/core/HolderGetter$Provider",
+            "get",
+            "(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 44
+        },
+        {
+          "offset": 50,
+          "opcode": 43
+        },
+        {
+          "offset": 51,
+          "opcode": 186,
+          "operands": [
+            0,
+            76,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 182,
+          "member": [
+            "java/util/Optional",
+            "ifPresent",
+            "(Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 167,
+          "operands": [
+            255,
+            213
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 43
+        },
+        {
+          "offset": 63,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/loottable/modifier/RollExtraTablesLootModifier.class",
+      "class_sha256": "73e62d56bf48e7a1a9d18ad4359b1b48c51875f2f4b9c825a691db67690e8fb9",
+      "name": "lambda$doApply$3",
+      "descriptor": "(Lnet/minecraft/world/level/storage/loot/LootContext;Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lnet/minecraft/core/Holder$Reference;)V",
+      "code_hex": "2cb60056c0005b2a2ab6005d2b59b8006157ba00670000b8006ab6006eb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/core/Holder$Reference",
+            "value",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 192,
+          "operands": [
+            0,
+            91
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/storage/loot/LootContext",
+            "getLevel",
+            "()Lnet/minecraft/server/level/ServerLevel;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "java/util/Objects",
+            "requireNonNull",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 87
+        },
+        {
+          "offset": 18,
+          "opcode": 186,
+          "operands": [
+            0,
+            103,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/world/level/storage/loot/LootTable",
+            "createStackSplitter",
+            "(Lnet/minecraft/server/level/ServerLevel;Ljava/util/function/Consumer;)Ljava/util/function/Consumer;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/storage/loot/LootTable",
+            "getRandomItemsRaw",
+            "(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "aoa_entity_chains": {
+    "nethengeic_beast": [
+      {
+        "class_path": "net/tslat/aoa3/content/entity/monster/nether/NethengeicBeastEntity.class",
+        "class_sha256": "4bfa55e8b1459e2029aaf025ae7434d9ec867b5379c1c0e980a914dbff4ed868",
+        "super_class": "net/tslat/aoa3/content/entity/base/AoARangedMob",
+        "loot_table_overrides": []
+      },
+      {
+        "class_path": "net/tslat/aoa3/content/entity/base/AoARangedMob.class",
+        "class_sha256": "7916c1c5d9d51c25bfe1ce91efd2115be4cbc244241a9354c2ca5070735776bc",
+        "super_class": "net/tslat/aoa3/content/entity/base/AoAMonster",
+        "loot_table_overrides": []
+      },
+      {
+        "class_path": "net/tslat/aoa3/content/entity/base/AoAMonster.class",
+        "class_sha256": "41e16fdefe2d6074d7636a5679ee7eaa67660f74e3bc27f5973eb6a761cd9678",
+        "super_class": "net/minecraft/world/entity/monster/Monster",
+        "loot_table_overrides": []
+      }
+    ],
+    "king_bambambam": [
+      {
+        "class_path": "net/tslat/aoa3/content/entity/boss/king_bambambam/KingBamBamBamEntity.class",
+        "class_sha256": "866742206e35b9caa6a7c23f1205460f4417f5138a7eaedd4acd11b584c33492",
+        "super_class": "net/tslat/aoa3/content/entity/boss/AoABoss",
+        "loot_table_overrides": []
+      },
+      {
+        "class_path": "net/tslat/aoa3/content/entity/boss/AoABoss.class",
+        "class_sha256": "f8e94698f229281608b20fb0a9331dc3c53ad722b2cdbeaeb6b007f4311fe51a",
+        "super_class": "net/tslat/aoa3/content/entity/base/AoAMonster",
+        "loot_table_overrides": []
+      },
+      {
+        "class_path": "net/tslat/aoa3/content/entity/base/AoAMonster.class",
+        "class_sha256": "41e16fdefe2d6074d7636a5679ee7eaa67660f74e3bc27f5973eb6a761cd9678",
+        "super_class": "net/minecraft/world/entity/monster/Monster",
+        "loot_table_overrides": []
+      }
+    ],
+    "tyrosaur": [
+      {
+        "class_path": "net/tslat/aoa3/content/entity/boss/tyrosaur/TyrosaurEntity.class",
+        "class_sha256": "a1d239caf8ad0e48f074d6114e2fc00d1f77a830771863864d27e594b8f0cc6c",
+        "super_class": "net/tslat/aoa3/content/entity/boss/AoABoss",
+        "loot_table_overrides": []
+      },
+      {
+        "class_path": "net/tslat/aoa3/content/entity/boss/AoABoss.class",
+        "class_sha256": "f8e94698f229281608b20fb0a9331dc3c53ad722b2cdbeaeb6b007f4311fe51a",
+        "super_class": "net/tslat/aoa3/content/entity/base/AoAMonster",
+        "loot_table_overrides": []
+      },
+      {
+        "class_path": "net/tslat/aoa3/content/entity/base/AoAMonster.class",
+        "class_sha256": "41e16fdefe2d6074d7636a5679ee7eaa67660f74e3bc27f5973eb6a761cd9678",
+        "super_class": "net/minecraft/world/entity/monster/Monster",
+        "loot_table_overrides": []
+      }
+    ]
+  },
+  "resources": {
+    "data/aoa3/loot_table/entities/king_bambambam.json": {
+      "sha256": "697cdc07a0d2bf7f05cec2fba4debf3ac731df0f6d5bb742608a07f11d2bbd19",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 175
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:fire_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:power_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:life_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_repair_dust",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:enchanted_gunpowder",
+                "weight": 16
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:flammable_dust",
+                "weight": 17
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:large_skill_crystal",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:armour_plating",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:emberstone_ingot",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:grenade",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:hellfire",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "minecraft:potion_contents": {
+                        "custom_color": 15424773,
+                        "custom_effects": [
+                          {
+                            "duration": 72000,
+                            "id": "minecraft:fire_resistance",
+                            "neoforge:cures": [
+                              "milk",
+                              "protected_by_totem"
+                            ],
+                            "show_icon": true
+                          }
+                        ]
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "item.aoa3.potion.unignitable"
+                    },
+                    "target": "item_name"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": -1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:potion",
+                "weight": 5
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:explosive_bow",
+                "weight": 3
+              },
+              {
+                "type": "aoa3:multi",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_helmet"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_chestplate"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_leggings"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_boots"
+                  }
+                ]
+              }
+            ],
+            "name": "special_loot",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:king_bambambam"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.king_bambambam"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/entities/tyrosaur.json": {
+      "sha256": "5666c0e10701ee3b2403b4f4d99d1449ef5fc752197bd60676568906f15c7d7b",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 175
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:kinetic_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:life_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:leather",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:sharp_claw",
+                "weight": 14
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_repair_dust",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:jungle_thorns",
+                "weight": 16
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:ashfern_seeds",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:large_skill_crystal",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:armour_plating",
+                "weight": 12
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:primal_sword",
+                "weight": 3
+              },
+              {
+                "type": "aoa3:multi",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_helmet"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_chestplate"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_leggings"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_boots"
+                  }
+                ]
+              }
+            ],
+            "name": "special_loot",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:tyrosaur"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.tyrosaur"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/entities/nethengeic_beast.json": {
+      "sha256": "86509c3f6822d28da537f3765570d7294bd48bc9a00f0c0e97a4a2209857226f",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 50
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 9.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:nether_wart",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:blaze_powder",
+                "weight": 15
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:quartz",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:raw_emberstone",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:hellfire",
+                "weight": 7
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": -1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin"
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 50
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:nethengeic_helmet",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:nethengeic_chestplate",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:nethengeic_leggings",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:nethengeic_boots",
+                "weight": 2
+              }
+            ],
+            "name": "armour",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/entities/vanilla_guardian.json": {
+      "sha256": "6c2095a509460272563da774577833d710717b853e2787f1d08176966b06992c",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_helmet",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_chestplate",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_leggings",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_boots",
+                "weight": 2
+              }
+            ],
+            "name": "biogenic_armour",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/entities/vanilla_elder_guardian.json": {
+      "sha256": "60173e663c54a0fbb3655d1037c119df065e01dc8e82152acd5e48e8f35248e4",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 100
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_helmet",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_chestplate",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_leggings",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:biogenic_boots",
+                "weight": 10
+              }
+            ],
+            "name": "biogenic_armour",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/loot_table/items/treasure_box.json": {
+      "sha256": "b3c71e2b820ddbc65d510c49f57fb2abf34ab023ae5ed17a750de6b08fe99dd5",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:copper_coin",
+                "weight": 75
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:silver_coin",
+                "weight": 50
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 7.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:limonite_ingot",
+                "weight": 50
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:experience_bottle",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:magic_repair_dust",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:diamond",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:utopian_helmet",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:utopian_chestplate",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:utopian_leggings",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:utopian_boots",
+                "weight": 5
+              }
+            ],
+            "name": "main",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    "data/aoa3/aoa3/hauling_spawn_pool/water_default.json": {
+      "sha256": "aa4e8b24288905d601f158df3dd63d355699c6d7f6ccd54fcb99d525ebff1dfe",
+      "data": {
+        "biomes": [],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -50.0,
+            "object_id": {
+              "entity": "minecraft:cod"
+            },
+            "weight": 1000
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -50.0,
+            "object_id": {
+              "entity": "minecraft:salmon"
+            },
+            "weight": 1000
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -50.0,
+            "object_id": {
+              "entity": "minecraft:tropical_fish"
+            },
+            "weight": 1000
+          },
+          {
+            "hauling_level_req": 5,
+            "luck_mod": -45.0,
+            "object_id": {
+              "entity": "minecraft:pufferfish"
+            },
+            "weight": 900
+          },
+          {
+            "hauling_level_req": 10,
+            "luck_mod": 5.0,
+            "object_id": {
+              "entity": "minecraft:squid"
+            },
+            "weight": 300
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 40.0,
+            "object_id": {
+              "entity": "aoa3:rainbowfish"
+            },
+            "weight": 350
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 30.0,
+            "object_id": {
+              "entity": "aoa3:sailback"
+            },
+            "weight": 800
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 30.0,
+            "object_id": {
+              "entity": "aoa3:violet_skipper"
+            },
+            "weight": 800
+          },
+          {
+            "hauling_level_req": 30,
+            "luck_mod": 10.0,
+            "object_id": {
+              "entity": "minecraft:dolphin"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 20,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:nautilus_shell"
+              }
+            },
+            "weight": 400
+          },
+          {
+            "hauling_level_req": 5,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:name_tag"
+              }
+            },
+            "weight": 600
+          },
+          {
+            "hauling_level_req": 14,
+            "luck_mod": -100.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:leather"
+              }
+            },
+            "weight": 900
+          },
+          {
+            "hauling_level_req": 25,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:crystal_box"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 15,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:gem_bag"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 30,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:treasure_box"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 20,
+            "luck_mod": 15.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:weapons_case"
+              }
+            },
+            "weight": 250
+          },
+          {
+            "hauling_level_req": 50,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:old_boot"
+              }
+            },
+            "weight": 5
+          },
+          {
+            "hauling_level_req": 75,
+            "luck_mod": 3.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:tidal_greatblade"
+              }
+            },
+            "weight": 1
+          },
+          {
+            "hauling_level_req": 1,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:water_bucket"
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "for_fluid": "minecraft:water",
+        "is_default": true
+      }
+    },
+    "data/aoa3/aoa3/hauling_spawn_pool/precasia_water.json": {
+      "sha256": "c9ec3136fe3a9b77c44b2f48c90bc3aaa1808661470d9803b8a6b61bc98df06e",
+      "data": {
+        "biomes": [
+          "aoa3:precasian_plains",
+          "aoa3:precasian_savannah",
+          "aoa3:precasian_ocean",
+          "aoa3:precasian_shore",
+          "aoa3:precasian_volcano",
+          "aoa3:precasian_deadlands",
+          "aoa3:precasian_tar_pits",
+          "aoa3:precasian_jungle",
+          "aoa3:precasian_desert",
+          "aoa3:precasian_river",
+          "aoa3:precasian_forest",
+          "aoa3:precasian_tall_forest",
+          "aoa3:precasian_caves"
+        ],
+        "entries": [
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "entity": "minecraft:cod"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -10.0,
+            "object_id": {
+              "entity": "minecraft:salmon"
+            },
+            "weight": 200
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": -5.0,
+            "object_id": {
+              "entity": "minecraft:tropical_fish"
+            },
+            "weight": 180
+          },
+          {
+            "hauling_level_req": 5,
+            "object_id": {
+              "entity": "minecraft:pufferfish"
+            },
+            "weight": 150
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 10.0,
+            "object_id": {
+              "entity": "aoa3:rainbowfish"
+            },
+            "weight": 50
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 20.0,
+            "object_id": {
+              "entity": "aoa3:sailback"
+            },
+            "weight": 140
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 20.0,
+            "object_id": {
+              "entity": "aoa3:dark_hatchetfish"
+            },
+            "weight": 140
+          },
+          {
+            "hauling_level_req": 20,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:nautilus_shell"
+              }
+            },
+            "weight": 65
+          },
+          {
+            "hauling_level_req": 5,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:name_tag"
+              }
+            },
+            "weight": 100
+          },
+          {
+            "hauling_level_req": 14,
+            "luck_mod": -20.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "minecraft:leather"
+              }
+            },
+            "weight": 120
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 8.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:sharp_claw"
+              }
+            },
+            "weight": 90
+          },
+          {
+            "hauling_level_req": 1,
+            "luck_mod": 8.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:jungle_thorns"
+              }
+            },
+            "weight": 90
+          },
+          {
+            "hauling_level_req": 25,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:crystal_box"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 10,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:shiny_box"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 30,
+            "luck_mod": 5.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:treasure_box"
+              }
+            },
+            "weight": 35
+          },
+          {
+            "hauling_level_req": 75,
+            "luck_mod": 3.0,
+            "object_id": {
+              "item": {
+                "count": 1,
+                "id": "aoa3:tidal_greatblade"
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "for_fluid": "minecraft:water"
+      }
+    },
+    "data/aoa3/worldgen/structure/nethengeic_pit.json": {
+      "sha256": "bfa9cbc8ef2b384415c6208117079799af6073f6389866a1104bc7ab784d846f",
+      "data": {
+        "type": "aoa3:aoa_default_structure",
+        "align_to_top": true,
+        "biomes": "#minecraft:is_nether",
+        "size": 15,
+        "spawn_overrides": {
+          "monster": {
+            "bounding_box": "piece",
+            "spawns": [
+              {
+                "type": "aoa3:nethengeic_beast",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 1
+              }
+            ]
+          }
+        },
+        "start_height": {
+          "absolute": 31
+        },
+        "start_pool": "aoa3:nether/nethengeic_pit/starts",
+        "step": "surface_structures",
+        "surface_test": {
+          "block": "minecraft:lava",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    },
+    "data/aoa3/worldgen/structure_set/nethengeic_pits.json": {
+      "sha256": "f708d144322fbf7c9971c188d34e56f45839522cccccb3b8fa147320c03cb599",
+      "data": {
+        "placement": {
+          "type": "minecraft:random_spread",
+          "salt": 845278832,
+          "separation": 8,
+          "spacing": 30
+        },
+        "structures": [
+          {
+            "structure": "aoa3:nethengeic_pit",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "data/aoa3/worldgen/template_pool/nether/nethengeic_pit/starts.json": {
+      "sha256": "c82330eaec40b5223b2272372c4fd0c92fcbf4aa4f9e818e5f2ee3673d69ad84",
+      "data": {
+        "elements": [
+          {
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "location": "aoa3:nether/nethengeic_pit/1/1",
+              "processors": {
+                "processors": [
+                  {
+                    "processor_type": "minecraft:rule",
+                    "rules": [
+                      {
+                        "input_predicate": {
+                          "block": "minecraft:blackstone",
+                          "predicate_type": "minecraft:random_block_match",
+                          "probability": 0.0025
+                        },
+                        "location_predicate": {
+                          "predicate_type": "minecraft:always_true"
+                        },
+                        "output_state": {
+                          "Name": "minecraft:gilded_blackstone"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "projection": "rigid"
+            },
+            "weight": 1
+          },
+          {
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "location": "aoa3:nether/nethengeic_pit/2/1",
+              "processors": {
+                "processors": [
+                  {
+                    "processor_type": "minecraft:rule",
+                    "rules": [
+                      {
+                        "input_predicate": {
+                          "block": "minecraft:blackstone",
+                          "predicate_type": "minecraft:random_block_match",
+                          "probability": 0.0025
+                        },
+                        "location_predicate": {
+                          "predicate_type": "minecraft:always_true"
+                        },
+                        "output_state": {
+                          "Name": "minecraft:gilded_blackstone"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "projection": "rigid"
+            },
+            "weight": 1
+          }
+        ],
+        "fallback": "minecraft:empty"
+      }
+    }
+  },
+  "pool_comparison": {
+    "king_bambambam": {
+      "pool_name": "special_loot",
+      "selection": "one outer selection; selected multi entry expands all four unconditional armor children",
+      "outer_weights": [
+        3,
+        1
+      ],
+      "armor_items": [
+        "aoa3:explosive_helmet",
+        "aoa3:explosive_chestplate",
+        "aoa3:explosive_leggings",
+        "aoa3:explosive_boots"
+      ]
+    },
+    "tyrosaur": {
+      "pool_name": "special_loot",
+      "selection": "one outer selection; selected multi entry expands all four unconditional armor children",
+      "outer_weights": [
+        3,
+        1
+      ],
+      "armor_items": [
+        "aoa3:predatious_helmet",
+        "aoa3:predatious_chestplate",
+        "aoa3:predatious_leggings",
+        "aoa3:predatious_boots"
+      ]
+    },
+    "treasure_box": {
+      "selection": "one independent item entry per base roll",
+      "total_base_weight": 256,
+      "armor_entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:utopian_helmet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:utopian_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:utopian_leggings",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:utopian_boots",
+          "weight": 5
+        }
+      ]
+    }
+  },
+  "treasure_box_hauling": {
+    "water_default": {
+      "hauling_level_req": 30,
+      "luck_mod": 15.0,
+      "object_id": {
+        "item": {
+          "count": 1,
+          "id": "aoa3:treasure_box"
+        }
+      },
+      "weight": 250
+    },
+    "precasia_water": {
+      "hauling_level_req": 30,
+      "luck_mod": 5.0,
+      "object_id": {
+        "item": {
+          "count": 1,
+          "id": "aoa3:treasure_box"
+        }
+      },
+      "weight": 35
+    }
+  },
+  "pit_start_templates": [
+    {
+      "path": "data/aoa3/structure/nether/nethengeic_pit/1/1.nbt",
+      "sha256": "87f194da55d3d5ffee22dc8a0cbc697ea003b1f0593ff49c77ebd3c5195486a7",
+      "pool_weight": 1
+    },
+    {
+      "path": "data/aoa3/structure/nether/nethengeic_pit/2/1.nbt",
+      "sha256": "64b738d38886f9e9100f6dea572229af9a0652e54398b9f0562f7ab5b70af8ba",
+      "pool_weight": 1
+    }
+  ],
+  "vanilla_mapping_sha256": "140c47931cccc8fc9e4c22d7603e2d714d1a953a146f51ea7397d95c955536ec",
+  "limits": [
+    "A structure spawn override supplies a spawn list, not a guaranteed occupant or fixed spawn time.",
+    "Spacing30/separation8 are random-spread placement settings, not a promise of a pit every30chunks.",
+    "hasDrops and inherited death/loot gates still apply; custom loot-table fields can override defaults.",
+    "No runtime or private Enderloom acceptance is implied."
+  ]
+}
