@@ -2,6 +2,8 @@
 
 **Minecraft 1.12.2 · AoA 3.3.6.** 29 checked weapon-output offers cover **25 weapons at 15 trader types**. These are trade candidates read from the released artifact, not promises that every NPC offers every row.
 
+[Full 1.12.2 trading handbook and illustrated catalog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.12.2) also covers non-weapon offers, special stacks and placeholder exclusions.
+
 ## Plan the purchase
 
 1. Find the weapon below and bring every listed input. A second input is an additional cost, not an alternative.

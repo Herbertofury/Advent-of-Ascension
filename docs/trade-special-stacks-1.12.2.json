@@ -1,0 +1,1313 @@
+{
+  "scope": "Five released factory/builder methods. Base icons do not display NBT or certify merchant matching in a running game.",
+  "methods": [
+    {
+      "class_path": "net/tslat/aoa3/utils/FireworkUtil.class",
+      "class_sha256": "694c2412bb1ce630938c6aee40db59da162f006c5c6ba170fc5e266c5e7ace3c",
+      "name": "getExplosiveExpertFireworks",
+      "descriptor": "()Lnet/minecraft/item/ItemStack;",
+      "code_sha256": "4a6bd0dae73c85435186837d4134bdebd334c6046fec92956257f6b97dcd303d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Items",
+            "field_151152_bP",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 75
+        },
+        {
+          "offset": 11,
+          "opcode": 187,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 89
+        },
+        {
+          "offset": 15,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 76
+        },
+        {
+          "offset": 19,
+          "opcode": 187,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 89
+        },
+        {
+          "offset": 23,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 77
+        },
+        {
+          "offset": 27,
+          "opcode": 44
+        },
+        {
+          "offset": 28,
+          "opcode": 18,
+          "constant": "Flight"
+        },
+        {
+          "offset": 30,
+          "opcode": 16,
+          "constant": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74774_a",
+            "(Ljava/lang/String;B)V"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 43
+        },
+        {
+          "offset": 36,
+          "opcode": 18,
+          "constant": "Fireworks"
+        },
+        {
+          "offset": 38,
+          "opcode": 44
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74782_a",
+            "(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 43
+        },
+        {
+          "offset": 43,
+          "opcode": 18,
+          "constant": "AoA"
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74757_a",
+            "(Ljava/lang/String;Z)V"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 42
+        },
+        {
+          "offset": 50,
+          "opcode": 43
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77982_d",
+            "(Lnet/minecraft/nbt/NBTTagCompound;)V"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 42
+        },
+        {
+          "offset": 55,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityStoreKeeper.class",
+      "class_sha256": "c6a6a6a8ebd51e2fc2b91ad1facf7111517f7d98f1df09a4d802ca372166820d",
+      "name": "poisonPotionStack",
+      "descriptor": "()Lnet/minecraft/item/ItemStack;",
+      "code_sha256": "4ac60f3d884533ace5e46087ce5e266fadd489411a41d715d715f91e55002f02",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Items",
+            "field_185156_bI",
+            "Lnet/minecraft/item/ItemPotion;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 187,
+          "operands": [
+            0,
+            151
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76436_u",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 17,
+          "constant": 2500
+        },
+        {
+          "offset": 20,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 21,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 22,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 23,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "addEffect",
+            "(Lnet/minecraft/potion/PotionEffect;)Lnet/tslat/aoa3/utils/PotionUtil$PotionBuilder;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "build",
+            "()Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PotionUtil$PotionBuilder.class",
+      "class_sha256": "8664a219aacb4321c3b6f189ef48616374b758e212d7a676bc7e2d4df0a1a265",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/item/Item;)V",
+      "code_sha256": "cb56a2dd5310705ffaf45ee228569e6187ec0e7649bedb67ec0f3fb92c788bb8",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 1
+        },
+        {
+          "offset": 6,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "displayName",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "translatable",
+            "Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 1
+        },
+        {
+          "offset": 16,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 1
+        },
+        {
+          "offset": 21,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "colour",
+            "Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 42
+        },
+        {
+          "offset": 25,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 26,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "dynamicColour",
+            "Z"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 43
+        },
+        {
+          "offset": 31,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "potionItem",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PotionUtil$PotionBuilder.class",
+      "class_sha256": "8664a219aacb4321c3b6f189ef48616374b758e212d7a676bc7e2d4df0a1a265",
+      "name": "addEffect",
+      "descriptor": "(Lnet/minecraft/potion/PotionEffect;)Lnet/tslat/aoa3/utils/PotionUtil$PotionBuilder;",
+      "code_sha256": "74a4d99c7444f5c4bea9ac0bc9b008f5a15f6f72fe997fbad1b7070f89cf4801",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 199,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 187,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 89
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 43
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/PotionUtil$PotionBuilder.class",
+      "class_sha256": "8664a219aacb4321c3b6f189ef48616374b758e212d7a676bc7e2d4df0a1a265",
+      "name": "build",
+      "descriptor": "()Lnet/minecraft/item/ItemStack;",
+      "code_sha256": "0a21a4e26d947fdeb1a2d4c53b6635b0a490e15a0bc029a413315af800b3c3b7",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            81
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "potionItem",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 76
+        },
+        {
+          "offset": 12,
+          "opcode": 187,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 89
+        },
+        {
+          "offset": 16,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 77
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "displayName",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 198,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 78
+        },
+        {
+          "offset": 35,
+          "opcode": 45
+        },
+        {
+          "offset": 36,
+          "opcode": 42
+        },
+        {
+          "offset": 37,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "translatable",
+            "Z"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 153,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 18,
+          "constant": "LocName"
+        },
+        {
+          "offset": 45,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 18,
+          "constant": "Name"
+        },
+        {
+          "offset": 50,
+          "opcode": 42
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "displayName",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74778_a",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 44
+        },
+        {
+          "offset": 58,
+          "opcode": 18,
+          "constant": "display"
+        },
+        {
+          "offset": 60,
+          "opcode": 45
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74782_a",
+            "(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 42
+        },
+        {
+          "offset": 65,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "dynamicColour",
+            "Z"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 153,
+          "operands": [
+            0,
+            24
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 42
+        },
+        {
+          "offset": 72,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 198,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 42
+        },
+        {
+          "offset": 79,
+          "opcode": 42
+        },
+        {
+          "offset": 80,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/potion/PotionUtils",
+            "func_185181_a",
+            "(Ljava/util/Collection;)I"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "colour",
+            "Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 42
+        },
+        {
+          "offset": 93,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "colour",
+            "Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 198,
+          "operands": [
+            0,
+            64
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 187,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 89
+        },
+        {
+          "offset": 103,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 78
+        },
+        {
+          "offset": 107,
+          "opcode": 44
+        },
+        {
+          "offset": 108,
+          "opcode": 18,
+          "constant": "display"
+        },
+        {
+          "offset": 110,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74764_b",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 44
+        },
+        {
+          "offset": 117,
+          "opcode": 18,
+          "constant": "display"
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74781_a",
+            "(Ljava/lang/String;)Lnet/minecraft/nbt/NBTBase;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 192,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 78
+        },
+        {
+          "offset": 126,
+          "opcode": 45
+        },
+        {
+          "offset": 127,
+          "opcode": 18,
+          "constant": "Color"
+        },
+        {
+          "offset": 129,
+          "opcode": 187,
+          "operands": [
+            0,
+            118
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 89
+        },
+        {
+          "offset": 133,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 18,
+          "constant": "#"
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 42
+        },
+        {
+          "offset": 142,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "colour",
+            "Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "toHexString",
+            "(I)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74778_a",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 43
+        },
+        {
+          "offset": 161,
+          "opcode": 44
+        },
+        {
+          "offset": 162,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77982_d",
+            "(Lnet/minecraft/nbt/NBTTagCompound;)V"
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 42
+        },
+        {
+          "offset": 166,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 198,
+          "operands": [
+            0,
+            76
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 42
+        },
+        {
+          "offset": 173,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 154,
+          "operands": [
+            0,
+            66
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 42
+        },
+        {
+          "offset": 183,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 187,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "get",
+            "(I)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 192,
+          "operands": [
+            0,
+            150
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 78
+        },
+        {
+          "offset": 194,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/potion/PotionType",
+            "field_185176_a",
+            "Lnet/minecraft/util/registry/RegistryNamespacedDefaultedByKey;"
+          ]
+        },
+        {
+          "offset": 197,
+          "opcode": 45
+        },
+        {
+          "offset": 198,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "func_188419_a",
+            "()Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/Potion",
+            "getRegistryName",
+            "()Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/registry/RegistryNamespacedDefaultedByKey",
+            "func_82594_a",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 192,
+          "operands": [
+            0,
+            152
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 212,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 214,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/PotionTypes",
+            "field_185229_a",
+            "Lnet/minecraft/potion/PotionType;"
+          ]
+        },
+        {
+          "offset": 217,
+          "opcode": 165,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 43
+        },
+        {
+          "offset": 221,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/potion/PotionUtils",
+            "func_185188_a",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/potion/PotionType;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 87
+        },
+        {
+          "offset": 227,
+          "opcode": 42
+        },
+        {
+          "offset": 228,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 232,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "remove",
+            "(I)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 87
+        },
+        {
+          "offset": 236,
+          "opcode": 43
+        },
+        {
+          "offset": 237,
+          "opcode": 42
+        },
+        {
+          "offset": 238,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/PotionUtil$PotionBuilder",
+            "effects",
+            "Ljava/util/ArrayList;"
+          ]
+        },
+        {
+          "offset": 241,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/potion/PotionUtils",
+            "func_185184_a",
+            "(Lnet/minecraft/item/ItemStack;Ljava/util/Collection;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 244,
+          "opcode": 87
+        },
+        {
+          "offset": 245,
+          "opcode": 43
+        },
+        {
+          "offset": 246,
+          "opcode": 176
+        }
+      ]
+    }
+  ]
+}

@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 108 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 109 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,077 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,781 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Contextual how-to links | 559 links across 518 item cards; 947 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -32,9 +32,9 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Historical weapon registration coverage | All 412 direct constructors in the checked 1.12.2 WeaponRegister method are matched to cards and portraits | [Exact census](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-weapon-census-1.12.2.json) |
 | Illustrated historical weapon tables | 412 inline source-model portraits across 13 family guides | [Historical gun table](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2) |
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
-| Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
+| Trading | 337 offers for 1.12.2, 207 for 1.16.5 and 55 for 1.21.1; availability limits retained | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 165 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 167 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
