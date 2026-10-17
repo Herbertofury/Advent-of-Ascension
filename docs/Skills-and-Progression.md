@@ -15,6 +15,7 @@ These guides explain the selected historical release. Read each guide’s limits
 
 | Topic | Walkthrough covers |
 |---|---|
+| [Runation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runation-Rune-Shrines-and-Inputs-1.12.2) | Four-post layout, fourteen rune tiers, input preparation and practice warnings |
 | [Infusion crafting and enchanting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2) | 386 recipes, separate base slot, 37 enchantment families and actual XP defaults |
 | [Extraction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extraction-Device-and-Skill-Rewards-1.12.2) | Lava device, bowl recipes, success gate, 23 loot entries |
 | [Anima](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Anima-Training-and-Fragments-1.12.2) | Plant eligibility, temporary stones, fragment growth and distinct XP formulas |
