@@ -103,3 +103,7 @@ The model uses `hasLevel(1000)` while the texture uses `getLevel(true) == 1000`.
 Each of the twelve selected models was followed from the registered helmet's skill through the cached model pair, its model factory and exact layer-definition callback. Four other dormant skill-model families are not presented here as currently registered/obtainable helmets. No Java/game code was executed. Acquisition completeness, exact equip-event balance, remote-player cosmetic ownership and real client/server rendering acceptance remain open.
 
 AoA models, textures and systems: Tslat and contributors. Vanilla armor geometry: Mojang/Microsoft. Original extraction, neutral rendering and documentation layout.
+
+## Where to buy these six helmets
+
+The [Skill Master and Archaic Tokens walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1) covers the Nowhere utility lobby, all ten trader offers, the 64-token base price per helmet and checked reward routes, including the unresolved tier-five course.
