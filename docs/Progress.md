@@ -20,7 +20,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Illustrated walkthroughs | 121 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,837 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
-| Contextual how-to links | 559 links across 518 item cards; 947 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
+| Compact contextual guide index | 559 links across 518 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Equipment | 411 modern weapon references; 204 armor records; 48 ordinary set source reviews | [Armor effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) |
 | Historical firearm panels | 328 release-specific panels: 172 in 1.12.2, 78 in 1.16.5 and 78 in 1.20.1 | [Historical item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&family=verified) |
 | Historical archergun panels | 9 source-checked 1.12.2 arrow-firing weapons | [Ammunition and special effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Archergun-Ammunition-and-Special-Effects-1.12.2) |
@@ -34,7 +34,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
 | Trading | 363 candidate definitions for 1.12.2, 207 for 1.16.5 and 55 for 1.21.1; Herald contexts resolve to four or five offers | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 191 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 192 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
