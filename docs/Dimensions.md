@@ -582,7 +582,7 @@ Comparison key: `aoa3:precasia`.
 - Declared type fields: `min_y=-64`, `height=384`, `logical_height=319`, `has_skylight=true`, `has_ceiling=false`, `bed_works=true`, `respawn_anchor_works=true`, `coordinate_scale=1.0`.
 - Generator defaults: block `aoa3:precasian_stone`, fluid `minecraft:water`, sea level `62`.
 
-**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Aprecasia) (8 dimension-tagged entries) · [1.16.5 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5&dimension=aoa3%3Aprecasia) (9 dimension-tagged entries) · [1.20.1 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.20.1&dimension=aoa3%3Aprecasia) (11 dimension-tagged entries) · [1.21.1 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1&dimension=aoa3%3Aprecasia) (13 dimension-tagged entries).
+**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Aprecasia) (8 dimension-tagged entries; 11 arena routes) · [1.16.5 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5&dimension=aoa3%3Aprecasia) (9 dimension-tagged entries) · [1.20.1 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.20.1&dimension=aoa3%3Aprecasia) (11 dimension-tagged entries) · [1.21.1 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.21.1&dimension=aoa3%3Aprecasia) (13 dimension-tagged entries).
 
 ### Precasia backup resource
 
