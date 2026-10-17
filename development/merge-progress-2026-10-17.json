@@ -69,11 +69,29 @@
         },
         "observedFailure": "Inherited trader fixture found no ineligible/empty biome among nine coordinates in this fresh random world seed.",
         "correction": "Keep every weighted/native placement assertion; extend real-biome search with noise queries and record the measured world seed/search extent."
+      },
+      {
+        "receipt": {
+          "file": "output/whole-mod-modern-server-baseline-4806891e-717a-4c11-b04c-ff9e4a78127f.json",
+          "sha256": "c9c1fec2c5dd5203158aaa22f423f7c2d5f9f39b5e4ab192d7922e7e6ef45616",
+          "bytes": 25659730
+        },
+        "observedFailure": "A generated Forge fake player has no Netty Channel, so dispatching the entire online-login bus hits Forge tier synchronisation.",
+        "correction": "Invoke AoA's actual subscribed login handler for offline fixtures, initialise attributes and age the otherwise untracked player past its first-login tick. Genuine online login remains a separate production requirement."
+      },
+      {
+        "receipt": {
+          "file": "output/whole-mod-modern-server-baseline-ec1cc502-ff56-41a3-a1a5-cf0ee328ac57.json",
+          "sha256": "eaf58999bd9993d58d0621a2739f2cc937222d3058b3d12817f01dac70a5f82f",
+          "bytes": 25659865
+        },
+        "observedFailure": "The arrow fixture attempted to construct a new Item after Forge froze its registries. Skill XP and Anima fixtures passed before this failure.",
+        "correction": "Use the actual registered Alacrity Bow and Mecha Crossbow; keep all ammunition/addon NBT wrapping and native save assertions."
       }
     ],
     "currentProbe": {
-      "file": "output/aoa-v86m-native-extraction-anima-server-probe-b-20261017.json",
-      "sha256": "dfe3a1d44baf485b13623a25d72f63a5d12c9f38a0cfa7479677c0386f3a1888",
+      "file": "output/aoa-v86m-native-extraction-anima-server-probe-h-20261017.json",
+      "sha256": "832ea857906d1674508bba111196dd8edd46f458d6311f6b3d5634afcd8343ab",
       "bytes": 43806
     },
     "expectedNewScope": {
@@ -84,7 +102,29 @@
       "pixonTributeCases": 2,
       "nativeArrowWrappingAndSaveCases": 2
     },
-    "scopeStatus": "Corrected whole native run in progress; expected case counts are requirements, not passed results."
+    "scopeStatus": "All 96 native skill threshold/save cases and 20 Anima progression/sync cases, plus actual bonemeal/pickup ownership and delay checks, passed in a run that later failed on weapon fixture setup. The complete corrected run remains in progress; no promotion.",
+    "passedBeforeLaterFixtureFailure": [
+      {
+        "family": "skill_xp",
+        "buildId": "aa03f720-fc17-4fb1-96bb-738894273cf4",
+        "capture": "enderloom-forge1201-skill-xp-boundaries.json",
+        "sha256": "6f1e7aabec6e972d94164bbfd1a62f8b922d8e905eda283fa71415803950194d",
+        "bytes": 14993,
+        "nativePassed": true,
+        "wholeRunAccepted": false,
+        "progressionCases": 96
+      },
+      {
+        "family": "anima",
+        "buildId": "aa03f720-fc17-4fb1-96bb-738894273cf4",
+        "capture": "enderloom-forge1201-anima.json",
+        "sha256": "17904d4301b1e3db9612768b02dcbdcfe71d3a78d81fae86f90629b0290b7cad",
+        "bytes": 2099,
+        "nativePassed": true,
+        "wholeRunAccepted": false,
+        "progressionCases": 20
+      }
+    ]
   },
   "stillOpen": [
     "Complete Anima Soul Power/tablet/armour consumer reconciliation",
