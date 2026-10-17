@@ -6,6 +6,8 @@
 
 [Beginner walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Beginner-Walkthrough) · [AoA skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1) · [Ammunition storage safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ammunition-and-Void-Pouch-1.21.1)
 
+For Minecraft 1.12.2, use the separate [historical Exp Flask guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Exp-Flask-Storage-and-Recovery-1.12.2); inventory selection, withdrawal and storage implementations differ by release.
+
 ## Before following this guide
 
 The Exp Flask is a registered Artifice item in the inspected release. This audit did **not** establish a survival acquisition recipe: a scan of shipped data JSON found no direct `aoa3:exp_flask` reference. That does not exclude code-based grants or modpack additions. If your pack supplies one, use that pack's verified acquisition route; do not invent a bottle-and-XP crafting recipe from the picture.

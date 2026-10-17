@@ -1,0 +1,3679 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Selected released XP orb capture, using-tick withdrawal, appearance predicate and capability serialization. Independent float32 models; no game execution.",
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "<init>",
+      "descriptor": "()V",
+      "code_hex": "2ab7000b2a120db60011572a1213b60017572ab2001db60021572a04b60025572abb0027591229b7002cbb0007592ab7002fb60033b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/Item",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 18,
+          "constant": "ExpFlask"
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 87
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 18,
+          "constant": "aoa3:exp_flask"
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 87
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "TOOLS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 87
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "func_77625_d",
+            "(I)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 87
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 187,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 89
+        },
+        {
+          "offset": 37,
+          "opcode": 18,
+          "constant": "filled"
+        },
+        {
+          "offset": 39,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 89
+        },
+        {
+          "offset": 46,
+          "opcode": 42
+        },
+        {
+          "offset": 47,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask$1",
+            "<init>",
+            "(Lnet/tslat/aoa3/item/tool/misc/ExpFlask;)V"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "func_185043_a",
+            "(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/item/IItemPropertyGetter;)V"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "func_77616_k",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Z",
+      "code_hex": "03ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "func_77661_b",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;",
+      "code_hex": "b20041b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/EnumAction",
+            "DRINK",
+            "Lnet/minecraft/item/EnumAction;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "func_77626_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "func_77659_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;",
+      "code_hex": "2c2db6004b3a042bb400519a00291904b800553a051905c6000f1905b9005b01000b969d000cb200631904b80069b02c2db6006db200701904b80069b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 45
+        },
+        {
+          "offset": 2,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 43
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            0,
+            41
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 198,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 11
+        },
+        {
+          "offset": 34,
+          "opcode": 150
+        },
+        {
+          "offset": 35,
+          "opcode": 157,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "FAIL",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/ActionResult",
+            "newResult",
+            "(Lnet/minecraft/util/EnumActionResult;Ljava/lang/Object;)Lnet/minecraft/util/ActionResult;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 176
+        },
+        {
+          "offset": 47,
+          "opcode": 44
+        },
+        {
+          "offset": 48,
+          "opcode": 45
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184598_c",
+            "(Lnet/minecraft/util/EnumHand;)V"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumActionResult",
+            "PASS",
+            "Lnet/minecraft/util/EnumActionResult;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/ActionResult",
+            "newResult",
+            "(Lnet/minecraft/util/EnumActionResult;Ljava/lang/Object;)Lnet/minecraft/util/ActionResult;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "onUsingTick",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;I)V",
+      "code_hex": "2cb4007fb400519a00662cc1004799005f2cc000473a042bb800553a051905b9005b01000b959e0047041904b400838612846e8b60861905b9005b0100b8008a8b360619041506b6008e19051905b9005b010015068666b9009202001905b9005b01000b959a00081904b60095b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 154,
+          "operands": [
+            0,
+            102
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 44
+        },
+        {
+          "offset": 11,
+          "opcode": 193,
+          "operands": [
+            0,
+            71
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 153,
+          "operands": [
+            0,
+            95
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 44
+        },
+        {
+          "offset": 18,
+          "opcode": 192,
+          "operands": [
+            0,
+            71
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 43
+        },
+        {
+          "offset": 24,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 11
+        },
+        {
+          "offset": 37,
+          "opcode": 149
+        },
+        {
+          "offset": 38,
+          "opcode": 158,
+          "operands": [
+            0,
+            71
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 42,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71068_ca",
+            "I"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 134
+        },
+        {
+          "offset": 48,
+          "opcode": 18,
+          "constant": 15.0
+        },
+        {
+          "offset": 50,
+          "opcode": 110
+        },
+        {
+          "offset": 51,
+          "opcode": 139
+        },
+        {
+          "offset": 52,
+          "opcode": 96
+        },
+        {
+          "offset": 53,
+          "opcode": 134
+        },
+        {
+          "offset": 54,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(FF)F"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 139
+        },
+        {
+          "offset": 65,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_71023_q",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 134
+        },
+        {
+          "offset": 86,
+          "opcode": 102
+        },
+        {
+          "offset": 87,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "setValue",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 11
+        },
+        {
+          "offset": 100,
+          "opcode": 149
+        },
+        {
+          "offset": 101,
+          "opcode": 154,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184602_cy",
+            "()V"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "getNBTShareTag",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/nbt/NBTTagCompound;",
+      "code_hex": "2a2bb7009e4d2cc7000bbb00a059b700a14d2c12a32bb80055b9005b0100b600a72cb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/Item",
+            "getNBTShareTag",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/nbt/NBTTagCompound;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 77
+        },
+        {
+          "offset": 6,
+          "opcode": 44
+        },
+        {
+          "offset": 7,
+          "opcode": 199,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 187,
+          "operands": [
+            0,
+            160
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 77
+        },
+        {
+          "offset": 18,
+          "opcode": 44
+        },
+        {
+          "offset": 19,
+          "opcode": 18,
+          "constant": "AdventMiscStackCapability"
+        },
+        {
+          "offset": 21,
+          "opcode": 43
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74776_a",
+            "(Ljava/lang/String;F)V"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 44
+        },
+        {
+          "offset": 34,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "readNBTShareTag",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)V",
+      "code_hex": "2cc6001b2c12a3b600af9900122bb800552c12a3b600b3b9009202002a2b2cb700b5b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 198,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 18,
+          "constant": "AdventMiscStackCapability"
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74764_b",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 153,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 43
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 44
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "AdventMiscStackCapability"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagCompound",
+            "func_74760_g",
+            "(Ljava/lang/String;)F"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "setValue",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 43
+        },
+        {
+          "offset": 30,
+          "opcode": 44
+        },
+        {
+          "offset": 31,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/Item",
+            "readNBTShareTag",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)V"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "initCapabilities",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;",
+      "code_hex": "bb00ba59b700bbb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            186
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/capabilities/providers/AdventMiscStackSerializeableProvider",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "getCapability",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;",
+      "code_hex": "2ab200bf01b600c2c00057b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/capabilities/providers/AdventMiscStackSerializeableProvider",
+            "MISC_STACK",
+            "Lnet/minecraftforge/common/capabilities/Capability;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 1
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "getCapability",
+            "(Lnet/minecraftforge/common/capabilities/Capability;Lnet/minecraft/util/EnumFacing;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            87
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "addExp",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayerMP;ILnet/minecraft/item/ItemStack;I)V",
+      "code_hex": "2cb800553a041904c6001419041904b9005b01001d8662b900920200b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 198,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 29
+        },
+        {
+          "offset": 21,
+          "opcode": 134
+        },
+        {
+          "offset": 22,
+          "opcode": 98
+        },
+        {
+          "offset": 23,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "setValue",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "setExp",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;I)V",
+      "code_hex": "2ab800554d2cc6000b2c1b86b900920200b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 77
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 198,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 44
+        },
+        {
+          "offset": 10,
+          "opcode": 27
+        },
+        {
+          "offset": 11,
+          "opcode": 134
+        },
+        {
+          "offset": 12,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "setValue",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "consumeExp",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;I)Z",
+      "code_hex": "2ab800554d2cc600202cb9005b01001b86959b00142c2cb9005b01001b8666b90092020004ac03ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 77
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 198,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 44
+        },
+        {
+          "offset": 10,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 27
+        },
+        {
+          "offset": 16,
+          "opcode": 134
+        },
+        {
+          "offset": 17,
+          "opcode": 149
+        },
+        {
+          "offset": 18,
+          "opcode": 155,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 44
+        },
+        {
+          "offset": 22,
+          "opcode": 44
+        },
+        {
+          "offset": 23,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 27
+        },
+        {
+          "offset": 29,
+          "opcode": 134
+        },
+        {
+          "offset": 30,
+          "opcode": 102
+        },
+        {
+          "offset": 31,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "setValue",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 37,
+          "opcode": 172
+        },
+        {
+          "offset": 38,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 39,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask.class",
+      "class_sha256": "d522cec2acdcbd26452b7c0213abbfc747eddc0e6734afe00062ec23226551f2",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "code_hex": "2bb80055b9005b01008b360515059e00592d12d3b200d904bd00db5903bb00dd59b700de15058604b800e4b600e815051007a10022bb00dd59b700de12eab600e81505b800f0b600f312f5b600e8b600f9a70006130101b600e8b600f953b80105b901090200572d13010bb8010fb901090200572d130111b8010fb90109020057b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 139
+        },
+        {
+          "offset": 10,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 158,
+          "operands": [
+            0,
+            89
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 45
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "item.ExpFlask.desc.1"
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "GOLD",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 24,
+          "opcode": 189,
+          "operands": [
+            0,
+            219
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 89
+        },
+        {
+          "offset": 28,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 29,
+          "opcode": 187,
+          "operands": [
+            0,
+            221
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 89
+        },
+        {
+          "offset": 33,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 134
+        },
+        {
+          "offset": 39,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 40,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "floorAndAppendSuffix",
+            "(FZ)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 50,
+          "opcode": 161,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 187,
+          "operands": [
+            0,
+            221
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 89
+        },
+        {
+          "offset": 57,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 18,
+          "constant": " ("
+        },
+        {
+          "offset": 62,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getPlayerLevelFromExp",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(I)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 18,
+          "constant": ")"
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 167,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 19,
+          "constant": ""
+        },
+        {
+          "offset": 87,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 83
+        },
+        {
+          "offset": 94,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getColourLocaleStringWithArguments",
+            "(Ljava/lang/String;Lnet/minecraft/util/text/TextFormatting;[Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 87
+        },
+        {
+          "offset": 103,
+          "opcode": 45
+        },
+        {
+          "offset": 104,
+          "opcode": 19,
+          "constant": "item.ExpFlask.desc.2"
+        },
+        {
+          "offset": 107,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleString",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 87
+        },
+        {
+          "offset": 116,
+          "opcode": 45
+        },
+        {
+          "offset": 117,
+          "opcode": 19,
+          "constant": "item.ExpFlask.desc.3"
+        },
+        {
+          "offset": 120,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleString",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 87
+        },
+        {
+          "offset": 129,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/ExpFlask$1.class",
+      "class_sha256": "9d38c79936f85e1fa290ebc935a689a43d289acb1653a9c642146164519aa623",
+      "name": "func_185085_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)F",
+      "code_hex": "2bb8001f3a041904c6000f1904b9002501000b969d00070ba700040cae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "getCapability",
+            "(Lnet/minecraft/item/ItemStack;)Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 198,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 11
+        },
+        {
+          "offset": 19,
+          "opcode": 150
+        },
+        {
+          "offset": 20,
+          "opcode": 157,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 11
+        },
+        {
+          "offset": 24,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 12
+        },
+        {
+          "offset": 28,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "class_sha256": "cb7763b9bf48e40936eaa17765c1fffd6f538914f42f9f7ecbf7c052c7ef77f0",
+      "name": "onPlayerPickupXp",
+      "descriptor": "(Lnet/minecraftforge/event/entity/player/PlayerPickupXpEvent;)V",
+      "code_hex": "2bb605324d2cb4006fb400759a004c2bb60536b4053b9e00422cb2053fb805433e1d9c0004b12cb4036c1db605473a042bb60532c003bf1d19042bb60536b4053bb8054d2b04b6054e2bb6053603b5053b2bb60536b60551b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "getEntityPlayer",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 77
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 154,
+          "operands": [
+            0,
+            76
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 43
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "getOrb",
+            "()Lnet/minecraft/entity/item/EntityXPOrb;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/item/EntityXPOrb",
+            "field_70530_e",
+            "I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 158,
+          "operands": [
+            0,
+            66
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 44
+        },
+        {
+          "offset": 26,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "EXP_FLASK",
+            "Lnet/tslat/aoa3/item/tool/misc/ExpFlask;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findItemInInventory",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/Item;)I"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 62
+        },
+        {
+          "offset": 33,
+          "opcode": 29
+        },
+        {
+          "offset": 34,
+          "opcode": 156,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 177
+        },
+        {
+          "offset": 38,
+          "opcode": 44
+        },
+        {
+          "offset": 39,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 29
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "func_70301_a",
+            "(I)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 43
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "getEntityPlayer",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 192,
+          "operands": [
+            3,
+            191
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 29
+        },
+        {
+          "offset": 56,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 43
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "getOrb",
+            "()Lnet/minecraft/entity/item/EntityXPOrb;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/item/EntityXPOrb",
+            "field_70530_e",
+            "I"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/ExpFlask",
+            "addExp",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;ILnet/minecraft/item/ItemStack;I)V"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 43
+        },
+        {
+          "offset": 69,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 70,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "setCanceled",
+            "(Z)V"
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 43
+        },
+        {
+          "offset": 74,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "getOrb",
+            "()Lnet/minecraft/entity/item/EntityXPOrb;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 78,
+          "opcode": 181,
+          "member": [
+            "net/minecraft/entity/item/EntityXPOrb",
+            "field_70530_e",
+            "I"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 43
+        },
+        {
+          "offset": 82,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/player/PlayerPickupXpEvent",
+            "getOrb",
+            "()Lnet/minecraft/entity/item/EntityXPOrb;"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/item/EntityXPOrb",
+            "func_70106_y",
+            "()V"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/ItemUtil.class",
+      "class_sha256": "3ee8e32e16db575dda130782b998c12e5d16a3cd857d1604ce43d9f7fa068918",
+      "name": "findItemInInventory",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/Item;)I",
+      "code_hex": "033d2ab40163b401d7b601da4e2db900b0010099001f2db900b30100c000993a041904b6009d2ba600051cac840201a7ffde2ab40163b401ddb601da4e2db900b0010099001f2db900b30100c000993a041904b6009d2ba600051cac840201a7ffde2ab40163b4028cb601da4e2db900b0010099001f2db900b30100c000993a041904b6009d2ba600051cac840201a7ffde02ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 61
+        },
+        {
+          "offset": 2,
+          "opcode": 42
+        },
+        {
+          "offset": 3,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_70462_a",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 78
+        },
+        {
+          "offset": 13,
+          "opcode": 45
+        },
+        {
+          "offset": 14,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 153,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 45
+        },
+        {
+          "offset": 23,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 43
+        },
+        {
+          "offset": 39,
+          "opcode": 166,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 28
+        },
+        {
+          "offset": 43,
+          "opcode": 172
+        },
+        {
+          "offset": 44,
+          "opcode": 132,
+          "operands": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 167,
+          "operands": [
+            255,
+            222
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 42
+        },
+        {
+          "offset": 51,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_70460_b",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 78
+        },
+        {
+          "offset": 61,
+          "opcode": 45
+        },
+        {
+          "offset": 62,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 153,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 45
+        },
+        {
+          "offset": 71,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 43
+        },
+        {
+          "offset": 87,
+          "opcode": 166,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 28
+        },
+        {
+          "offset": 91,
+          "opcode": 172
+        },
+        {
+          "offset": 92,
+          "opcode": 132,
+          "operands": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 167,
+          "operands": [
+            255,
+            222
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 42
+        },
+        {
+          "offset": 99,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_184439_c",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 78
+        },
+        {
+          "offset": 109,
+          "opcode": 45
+        },
+        {
+          "offset": 110,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 153,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 45
+        },
+        {
+          "offset": 119,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 43
+        },
+        {
+          "offset": 135,
+          "opcode": 166,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 28
+        },
+        {
+          "offset": 139,
+          "opcode": 172
+        },
+        {
+          "offset": 140,
+          "opcode": 132,
+          "operands": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 167,
+          "operands": [
+            255,
+            222
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 147,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerUtil.class",
+      "class_sha256": "28a2278753967ef9b5103ccd1e2ac8c93a3b2b644d13d537dc623d2f4331a189",
+      "name": "getPlayerLevelFromExp",
+      "descriptor": "(I)I",
+      "code_hex": "1a1105e3a4002114013b14013d14013f1108ac1a64876b67b80144631401456fb801498eac1a110160a4002114014a14014c14014e1101681a64876b67b80144631401506fb801498eac1401521024071a74686487b80144631401546fb801498eac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 17,
+          "constant": 1507
+        },
+        {
+          "offset": 4,
+          "opcode": 164,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 20,
+          "constant": 162.5
+        },
+        {
+          "offset": 10,
+          "opcode": 20,
+          "constant": 26406.25
+        },
+        {
+          "offset": 13,
+          "opcode": 20,
+          "constant": 18.0
+        },
+        {
+          "offset": 16,
+          "opcode": 17,
+          "constant": 2220
+        },
+        {
+          "offset": 19,
+          "opcode": 26
+        },
+        {
+          "offset": 20,
+          "opcode": 100
+        },
+        {
+          "offset": 21,
+          "opcode": 135
+        },
+        {
+          "offset": 22,
+          "opcode": 107
+        },
+        {
+          "offset": 23,
+          "opcode": 103
+        },
+        {
+          "offset": 24,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "sqrt",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 99
+        },
+        {
+          "offset": 28,
+          "opcode": 20,
+          "constant": 9.0
+        },
+        {
+          "offset": 31,
+          "opcode": 111
+        },
+        {
+          "offset": 32,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "floor",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 142
+        },
+        {
+          "offset": 36,
+          "opcode": 172
+        },
+        {
+          "offset": 37,
+          "opcode": 26
+        },
+        {
+          "offset": 38,
+          "opcode": 17,
+          "constant": 352
+        },
+        {
+          "offset": 41,
+          "opcode": 164,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 20,
+          "constant": 40.5
+        },
+        {
+          "offset": 47,
+          "opcode": 20,
+          "constant": 1640.25
+        },
+        {
+          "offset": 50,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 53,
+          "opcode": 17,
+          "constant": 360
+        },
+        {
+          "offset": 56,
+          "opcode": 26
+        },
+        {
+          "offset": 57,
+          "opcode": 100
+        },
+        {
+          "offset": 58,
+          "opcode": 135
+        },
+        {
+          "offset": 59,
+          "opcode": 107
+        },
+        {
+          "offset": 60,
+          "opcode": 103
+        },
+        {
+          "offset": 61,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "sqrt",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 99
+        },
+        {
+          "offset": 65,
+          "opcode": 20,
+          "constant": 5.0
+        },
+        {
+          "offset": 68,
+          "opcode": 111
+        },
+        {
+          "offset": 69,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "floor",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 142
+        },
+        {
+          "offset": 73,
+          "opcode": 172
+        },
+        {
+          "offset": 74,
+          "opcode": 20,
+          "constant": -6.0
+        },
+        {
+          "offset": 77,
+          "opcode": 16,
+          "constant": 36
+        },
+        {
+          "offset": 79,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 80,
+          "opcode": 26
+        },
+        {
+          "offset": 81,
+          "opcode": 116
+        },
+        {
+          "offset": 82,
+          "opcode": 104
+        },
+        {
+          "offset": 83,
+          "opcode": 100
+        },
+        {
+          "offset": 84,
+          "opcode": 135
+        },
+        {
+          "offset": 85,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "sqrt",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 99
+        },
+        {
+          "offset": 89,
+          "opcode": 20,
+          "constant": 2.0
+        },
+        {
+          "offset": 92,
+          "opcode": 111
+        },
+        {
+          "offset": 93,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "floor",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 142
+        },
+        {
+          "offset": 97,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/capabilities/handlers/AdventMiscStackSerializeableCapability.class",
+      "class_sha256": "e3118eedcfd7844057051ce5a1d5751b3c17172036ceaba063514d5ec0f20736",
+      "name": "<init>",
+      "descriptor": "()V",
+      "code_hex": "2ab7000db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/capabilities/handlers/AdventMiscStackSerializeableCapability.class",
+      "class_sha256": "e3118eedcfd7844057051ce5a1d5751b3c17172036ceaba063514d5ec0f20736",
+      "name": "getValue",
+      "descriptor": "()F",
+      "code_hex": "2ab40013ae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/capabilities/handlers/AdventMiscStackSerializeableCapability",
+            "value",
+            "F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/capabilities/handlers/AdventMiscStackSerializeableCapability.class",
+      "class_sha256": "e3118eedcfd7844057051ce5a1d5751b3c17172036ceaba063514d5ec0f20736",
+      "name": "setValue",
+      "descriptor": "(F)V",
+      "code_hex": "2a23b50013b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 35
+        },
+        {
+          "offset": 2,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/capabilities/handlers/AdventMiscStackSerializeableCapability",
+            "value",
+            "F"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/capabilities/providers/AdventMiscStackSerializeableProvider.class",
+      "class_sha256": "9295e2d926a30e3c5dc391a97ed4ac3c2155fdd92b8e75e25a202a3e3f9bef5c",
+      "name": "serializeNBT",
+      "descriptor": "()Lnet/minecraft/nbt/NBTTagFloat;",
+      "code_hex": "bb0034592ab4001fb900380100b7003bb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            52
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/capabilities/providers/AdventMiscStackSerializeableProvider",
+            "instance",
+            "Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "getValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/NBTTagFloat",
+            "<init>",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/capabilities/providers/AdventMiscStackSerializeableProvider.class",
+      "class_sha256": "9295e2d926a30e3c5dc391a97ed4ac3c2155fdd92b8e75e25a202a3e3f9bef5c",
+      "name": "deserializeNBT",
+      "descriptor": "(Lnet/minecraft/nbt/NBTTagFloat;)V",
+      "code_hex": "2ab4001f2bb60040b900430200b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/capabilities/providers/AdventMiscStackSerializeableProvider",
+            "instance",
+            "Lnet/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/NBTTagFloat",
+            "func_150288_h",
+            "()F"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/capabilities/interfaces/CapabilityBaseMiscStackSerializable",
+            "setValue",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "withdrawal_models": [
+    {
+      "player_level": 0,
+      "before": 0.0,
+      "requested_rate": 1,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 0,
+      "before": 0.5,
+      "requested_rate": 1,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 0,
+      "before": 1.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 0,
+      "before": 10.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 9.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 0,
+      "before": 100.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 99.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 0,
+      "before": 16777218.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 16777216.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 0,
+      "before": 33554432.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 33554432.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 0.0,
+      "requested_rate": 1,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 0.5,
+      "requested_rate": 1,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 1.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 10.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 9.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 100.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 99.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 16777218.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 16777216.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 14,
+      "before": 33554432.0,
+      "requested_rate": 1,
+      "withdrawal": 1,
+      "after": 33554432.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 0.0,
+      "requested_rate": 2,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 0.5,
+      "requested_rate": 2,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 1.0,
+      "requested_rate": 2,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 10.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 8.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 100.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 98.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 16777218.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 16777216.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 15,
+      "before": 33554432.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 33554430.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 0.0,
+      "requested_rate": 2,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 0.5,
+      "requested_rate": 2,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 1.0,
+      "requested_rate": 2,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 10.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 8.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 100.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 98.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 16777218.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 16777216.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 29,
+      "before": 33554432.0,
+      "requested_rate": 2,
+      "withdrawal": 2,
+      "after": 33554430.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 0.0,
+      "requested_rate": 3,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 0.5,
+      "requested_rate": 3,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 1.0,
+      "requested_rate": 3,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 10.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 7.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 100.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 97.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 16777218.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 16777215.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 30,
+      "before": 33554432.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 33554428.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 0.0,
+      "requested_rate": 3,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 0.5,
+      "requested_rate": 3,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 1.0,
+      "requested_rate": 3,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 10.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 7.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 100.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 97.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 16777218.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 16777215.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 44,
+      "before": 33554432.0,
+      "requested_rate": 3,
+      "withdrawal": 3,
+      "after": 33554428.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 0.0,
+      "requested_rate": 4,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 0.5,
+      "requested_rate": 4,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 1.0,
+      "requested_rate": 4,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 10.0,
+      "requested_rate": 4,
+      "withdrawal": 4,
+      "after": 6.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 100.0,
+      "requested_rate": 4,
+      "withdrawal": 4,
+      "after": 96.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 16777218.0,
+      "requested_rate": 4,
+      "withdrawal": 4,
+      "after": 16777214.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 45,
+      "before": 33554432.0,
+      "requested_rate": 4,
+      "withdrawal": 4,
+      "after": 33554428.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 0.0,
+      "requested_rate": 7,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 0.5,
+      "requested_rate": 7,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 1.0,
+      "requested_rate": 7,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 10.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 3.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 100.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 93.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 16777218.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 16777211.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 99,
+      "before": 33554432.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 33554424.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 0.0,
+      "requested_rate": 7,
+      "withdrawal": 0,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 0.5,
+      "requested_rate": 7,
+      "withdrawal": 0,
+      "after": 0.5,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 1.0,
+      "requested_rate": 7,
+      "withdrawal": 1,
+      "after": 0.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 10.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 3.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 100.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 93.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 16777218.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 16777211.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    },
+    {
+      "player_level": 100,
+      "before": 33554432.0,
+      "requested_rate": 7,
+      "withdrawal": 7,
+      "after": 33554424.0,
+      "scope": "One eligible using-tick; level held fixed only for this arithmetic model."
+    }
+  ],
+  "deposit_models": [
+    {
+      "before": 0.0,
+      "orb_xp": 1,
+      "after": 1.0
+    },
+    {
+      "before": 0.0,
+      "orb_xp": 2,
+      "after": 2.0
+    },
+    {
+      "before": 0.0,
+      "orb_xp": 7,
+      "after": 7.0
+    },
+    {
+      "before": 100.0,
+      "orb_xp": 1,
+      "after": 101.0
+    },
+    {
+      "before": 100.0,
+      "orb_xp": 2,
+      "after": 102.0
+    },
+    {
+      "before": 100.0,
+      "orb_xp": 7,
+      "after": 107.0
+    },
+    {
+      "before": 16777215.0,
+      "orb_xp": 1,
+      "after": 16777216.0
+    },
+    {
+      "before": 16777215.0,
+      "orb_xp": 2,
+      "after": 16777216.0
+    },
+    {
+      "before": 16777215.0,
+      "orb_xp": 7,
+      "after": 16777222.0
+    },
+    {
+      "before": 16777216.0,
+      "orb_xp": 1,
+      "after": 16777216.0
+    },
+    {
+      "before": 16777216.0,
+      "orb_xp": 2,
+      "after": 16777218.0
+    },
+    {
+      "before": 16777216.0,
+      "orb_xp": 7,
+      "after": 16777224.0
+    },
+    {
+      "before": 16777218.0,
+      "orb_xp": 1,
+      "after": 16777220.0
+    },
+    {
+      "before": 16777218.0,
+      "orb_xp": 2,
+      "after": 16777220.0
+    },
+    {
+      "before": 16777218.0,
+      "orb_xp": 7,
+      "after": 16777224.0
+    },
+    {
+      "before": 33554432.0,
+      "orb_xp": 1,
+      "after": 33554432.0
+    },
+    {
+      "before": 33554432.0,
+      "orb_xp": 2,
+      "after": 33554432.0
+    },
+    {
+      "before": 33554432.0,
+      "orb_xp": 7,
+      "after": 33554440.0
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/aoa3/models/item/tools/misc/exp_flask.json",
+      "sha256": "1830c59452011d214138b789fcd90a720f4efa8c988d4d31b5e00f58dc5eaccc",
+      "definition": {
+        "parent": "item/handheld",
+        "textures": {
+          "layer0": "aoa3:items/tools/misc/exp_flask"
+        },
+        "overrides": [
+          {
+            "predicate": {
+              "filled": 1
+            },
+            "model": "aoa3:item/tools/misc/exp_flask_filled"
+          }
+        ]
+      }
+    },
+    {
+      "path": "assets/aoa3/models/item/tools/misc/exp_flask_filled.json",
+      "sha256": "abff4694320c52b4a10c7729cfd8af76ac952bd9b86ae8feb46a2355fc649bad",
+      "definition": {
+        "parent": "item/handheld",
+        "textures": {
+          "layer0": "aoa3:items/tools/misc/exp_flask_filled"
+        }
+      }
+    }
+  ],
+  "recipe_loot_acquisition_matches": [],
+  "direct_field_reference_classes": [
+    {
+      "path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d"
+    },
+    {
+      "path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "sha256": "cb7763b9bf48e40936eaa17765c1fffd6f538914f42f9f7ecbf7c052c7ef77f0"
+    }
+  ],
+  "limits": [
+    "Stored points are vanilla XP, not AoA skill XP or a count of levels.",
+    "A float value is not an exact unlimited integer bank.",
+    "Recipe/loot and direct named-reference absence is a bounded acquisition search; external mods or generic registration/data paths are not excluded.",
+    "Missing capability can affect storage and rendering; observed source ordering is a runtime test target."
+  ]
+}
