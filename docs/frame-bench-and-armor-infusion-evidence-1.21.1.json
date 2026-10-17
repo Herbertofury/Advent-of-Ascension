@@ -1,0 +1,3901 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Ten hardcoded released Frame Bench choices, one-input removal callback, two shapeless recipes and 32 exact armor Infusion recipes. No game execution or complete acquisition census.",
+  "frame_choices": [
+    "aoa3:crossbow_frame",
+    "aoa3:blaster_frame",
+    "aoa3:cannon_frame",
+    "aoa3:helmet_frame",
+    "aoa3:chestplate_frame",
+    "aoa3:leggings_frame",
+    "aoa3:boots_frame",
+    "aoa3:gun_frame",
+    "aoa3:shotgun_frame",
+    "aoa3:sniper_frame"
+  ],
+  "frame_bench_recipe": {
+    "path": "data/aoa3/recipe/crafting_shapeless_frame_bench.json",
+    "sha256": "291107491fe81e6f8ef18a3cf20668a07110f4443b075e2ad76a378f0a55af0a",
+    "data": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "minecraft:crafting_table"
+        },
+        {
+          "item": "minecraft:iron_axe"
+        },
+        {
+          "item": "minecraft:shears"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "aoa3:frame_bench"
+      }
+    }
+  },
+  "scrap_recipe": {
+    "path": "data/aoa3/recipe/crafting_shapeless_scrap_metal.json",
+    "sha256": "5d8c0fa0d621e97fe047bc40889db872f9392395b758d3853e4482e8a925d63b",
+    "data": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "tag": "c:ingots/iron"
+        },
+        {
+          "tag": "c:nuggets/gold"
+        },
+        {
+          "item": "aoa3:limonite_nugget"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "aoa3:scrap_metal"
+      }
+    }
+  },
+  "frame_tag": {
+    "path": "data/aoa3/tags/item/frame_bench_frame.json",
+    "sha256": "79abd3075b56540fdd1de7f64c57ace7bdd6de8efe35802aa48530a4495c3710",
+    "data": {
+      "values": [
+        "aoa3:blaster_frame",
+        "aoa3:crossbow_frame",
+        "aoa3:boots_frame",
+        "aoa3:leggings_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:helmet_frame",
+        "aoa3:cannon_frame",
+        "aoa3:gun_frame",
+        "aoa3:shotgun_frame",
+        "aoa3:sniper_frame"
+      ]
+    }
+  },
+  "armor_recipes": [
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_boots.json",
+      "sha256": "3e1652b4e478202978d2c98134f4294bd0d1f6e1d07db838113d7383f51d9fbf",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_boots"
+        }
+      },
+      "output": "aoa3:embrodium_boots",
+      "set": "embrodium",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_embrodium_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_chestplate.json",
+      "sha256": "5dd970a343ea3794da1c6acc35ab68945d9e98ed4d9f801497ef89b1b49628c4",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_chestplate"
+        }
+      },
+      "output": "aoa3:embrodium_chestplate",
+      "set": "embrodium",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_embrodium_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_helmet.json",
+      "sha256": "17886d36d29f62db41fd559a62085ef082c6e372513ce890bcf61c0490188f79",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_helmet"
+        }
+      },
+      "output": "aoa3:embrodium_helmet",
+      "set": "embrodium",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_embrodium_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_embrodium_leggings.json",
+      "sha256": "980194fd0c09fbbb324050da24925b702efdd2caee6c37b25efb49d8d3ccf98c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/varsium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          },
+          {
+            "tag": "c:ingots/blazium"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:embrodium_leggings"
+        }
+      },
+      "output": "aoa3:embrodium_leggings",
+      "set": "embrodium",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_embrodium_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_boots.json",
+      "sha256": "c5a813b2d76bca0f407fae973052a1b1e7f47a968d07e840a64cc3115aa15a2c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_boots"
+        }
+      },
+      "output": "aoa3:hazmat_boots",
+      "set": "hazmat",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_hazmat_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_chestplate.json",
+      "sha256": "35984282a53564a1b57e92d8f5dfefe21289541a5ce15bee1270eb1c45346318",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:strings"
+          },
+          {
+            "tag": "c:strings"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_chestplate"
+        }
+      },
+      "output": "aoa3:hazmat_chestplate",
+      "set": "hazmat",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_hazmat_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_helmet.json",
+      "sha256": "f1d6499f2e418adf81e6940b65b970bbd6c97c63955e718a965ce1b996b84330",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:charcoal"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_helmet"
+        }
+      },
+      "output": "aoa3:hazmat_helmet",
+      "set": "hazmat",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_hazmat_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_hazmat_leggings.json",
+      "sha256": "9f05ff9921ebe9f83af43ec4ee324273c1651caa6dbf8631a85a5707f6e01777",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:strings"
+          },
+          {
+            "tag": "c:strings"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:hazmat_leggings"
+        }
+      },
+      "output": "aoa3:hazmat_leggings",
+      "set": "hazmat",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_hazmat_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_boots.json",
+      "sha256": "cbec49fad2c684b401783407bef8f78cfcd90c7a8cfeba7896d8d23b2992c9fe",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_boots"
+        }
+      },
+      "output": "aoa3:ice_boots",
+      "set": "ice",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_ice_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_chestplate.json",
+      "sha256": "47b9a669b41e7e86ca0ce86371194f5844c3d989928f5f61b05be29688068135",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_chestplate"
+        }
+      },
+      "output": "aoa3:ice_chestplate",
+      "set": "ice",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_ice_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_helmet.json",
+      "sha256": "7b93b3f03ffac03e06decb102d5c0a5a4ccc0289c20f0012d79eea36fe6d6940",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_helmet"
+        }
+      },
+      "output": "aoa3:ice_helmet",
+      "set": "ice",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_ice_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_ice_leggings.json",
+      "sha256": "ce0de320c4689b359c6346614a07cf305e1dda80e6d1cc54e667e3ac596fd307",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:ice_leggings"
+        }
+      },
+      "output": "aoa3:ice_leggings",
+      "set": "ice",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_ice_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_boots.json",
+      "sha256": "26a6a80bf80aa536cf427a66c0224cbb17935ab9e00934787ca410e6b51db18f",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_boots"
+        }
+      },
+      "output": "aoa3:infernal_boots",
+      "set": "infernal",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_infernal_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_chestplate.json",
+      "sha256": "d892a4990c3f6a8053e958f81e29cde6c479dd359dd0e39ab7eab6b252099819",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_chestplate"
+        }
+      },
+      "output": "aoa3:infernal_chestplate",
+      "set": "infernal",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_infernal_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_helmet.json",
+      "sha256": "f72445aae16d95bd53053784ffbb5e87f97416620021388fd699a321cc3730a6",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_helmet"
+        }
+      },
+      "output": "aoa3:infernal_helmet",
+      "set": "infernal",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_infernal_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_infernal_leggings.json",
+      "sha256": "6aae7c7229d523d210eeab75112c841d99e3ad2671ebb376c95e38b4a528462a",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "minecraft:magma_cream"
+          },
+          {
+            "item": "aoa3:ice_crystal"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:infernal_leggings"
+        }
+      },
+      "output": "aoa3:infernal_leggings",
+      "set": "infernal",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_infernal_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_boots.json",
+      "sha256": "9fc4cd36ded00d6213232a3eefce5b95501a6b6496bca03e48a8ead9dfd9c619",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_boots"
+        }
+      },
+      "output": "aoa3:lyndamyte_boots",
+      "set": "lyndamyte",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_lyndamyte_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_chestplate.json",
+      "sha256": "3f7950812c27d517b402ffaf6736426d9898055275690e183f8bd6f2abdd0197",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_chestplate"
+        }
+      },
+      "output": "aoa3:lyndamyte_chestplate",
+      "set": "lyndamyte",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_lyndamyte_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_helmet.json",
+      "sha256": "bec2fa8e31359a556528072334fddb0dedff0e42fa5a65bc3d2bd2cfe239ea89",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_helmet"
+        }
+      },
+      "output": "aoa3:lyndamyte_helmet",
+      "set": "lyndamyte",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_lyndamyte_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_lyndamyte_leggings.json",
+      "sha256": "395de037709e9ba6177f9ce0b578b12b16bf6c90e830a387396e33e24fb421ba",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/emberstone"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          },
+          {
+            "tag": "c:ingots/limonite"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:lyndamyte_leggings"
+        }
+      },
+      "output": "aoa3:lyndamyte_leggings",
+      "set": "lyndamyte",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_lyndamyte_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_boots.json",
+      "sha256": "9fba47ffdd4137354a89c444192d31df0757178bd1dbef99835b2c7157be588a",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:footbone_fragment"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_boots"
+        }
+      },
+      "output": "aoa3:skeletal_boots",
+      "set": "skeletal",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_skeletal_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_chestplate.json",
+      "sha256": "da3535b75fc6032424e6ebf5ded1c09782a97f25f317a279c3ea516e6f786b91",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:chestbone_fragment"
+          },
+          {
+            "item": "aoa3:chestbone_fragment"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_chestplate"
+        }
+      },
+      "output": "aoa3:skeletal_chestplate",
+      "set": "skeletal",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_skeletal_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_helmet.json",
+      "sha256": "fce7b34e0253f6329ffa5988dd66237c32ac8d7adf38e1a3c19eb3e2000826fb",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:skullbone_fragment"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_helmet"
+        }
+      },
+      "output": "aoa3:skeletal_helmet",
+      "set": "skeletal",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_skeletal_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_skeletal_leggings.json",
+      "sha256": "3841555575365da653109c86e81fd16674999c84227e9ee2c6ab8542e3625ab6",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:legbone_fragment"
+          },
+          {
+            "item": "aoa3:legbone_fragment"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:ingots/skeletal"
+          },
+          {
+            "tag": "c:foods"
+          },
+          {
+            "tag": "c:foods"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:skeletal_leggings"
+        }
+      },
+      "output": "aoa3:skeletal_leggings",
+      "set": "skeletal",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_skeletal_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_boots.json",
+      "sha256": "4d47f35f52752feee8b57ff6b7977166bd5799243ea541ee6e59ec8de979a85c",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_boots"
+        }
+      },
+      "output": "aoa3:void_boots",
+      "set": "void",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_void_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_chestplate.json",
+      "sha256": "3607470b0ad1217a383552e35e2a6bdcd0fee5db3e28469662db86e9e7cd5c68",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_chestplate"
+        }
+      },
+      "output": "aoa3:void_chestplate",
+      "set": "void",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_void_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_helmet.json",
+      "sha256": "07583dcf9a9f6862b8e727b05b90a56e051e55b5859320ee5fe8017c77a4c74e",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_helmet"
+        }
+      },
+      "output": "aoa3:void_helmet",
+      "set": "void",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_void_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_void_leggings.json",
+      "sha256": "1c7f99e936948d99c0862a1de6e5b096ead9b911ab193cafec13d81e67a8f281",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "item": "aoa3:void_scales"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          },
+          {
+            "tag": "c:ingots/iron"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:void_leggings"
+        }
+      },
+      "output": "aoa3:void_leggings",
+      "set": "void",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_void_leggings"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_boots.json",
+      "sha256": "ffb2dad9d5cd88c611301160c123628aad4712725e96901ae9453e95f54a4237",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:boots_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_boots"
+        }
+      },
+      "output": "aoa3:wither_boots",
+      "set": "wither",
+      "slot": "boots",
+      "recipe_id": "aoa3:infusion_wither_boots"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_chestplate.json",
+      "sha256": "29a236a73d211de80eafa02a4aad5d19d0b9fc0e2bd7fcccc2de2289c727cc1b",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:chestplate_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_chestplate"
+        }
+      },
+      "output": "aoa3:wither_chestplate",
+      "set": "wither",
+      "slot": "chestplate",
+      "recipe_id": "aoa3:infusion_wither_chestplate"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_helmet.json",
+      "sha256": "3bd2c9f89064e2649862b2c2fe4c97d5ed52e359248bf6322541ae07052ef6ab",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:helmet_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "item": "aoa3:padded_cloth"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_helmet"
+        }
+      },
+      "output": "aoa3:wither_helmet",
+      "set": "wither",
+      "slot": "helmet",
+      "recipe_id": "aoa3:infusion_wither_helmet"
+    },
+    {
+      "path": "data/aoa3/recipe/infusion_wither_leggings.json",
+      "sha256": "686e3ad13adb4e146311f0dbcd323fac7b3e969470dde5ac663d2e43d32f8c33",
+      "data": {
+        "type": "aoa3:infusion",
+        "base": {
+          "item": "aoa3:leggings_frame"
+        },
+        "ingredients": [
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:armour_plating"
+          },
+          {
+            "item": "aoa3:wither_rune"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "item": "aoa3:reinforced_cloth"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          },
+          {
+            "tag": "c:gems/bloodstone"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "aoa3:wither_leggings"
+        }
+      },
+      "output": "aoa3:wither_leggings",
+      "set": "wither",
+      "slot": "leggings",
+      "recipe_id": "aoa3:infusion_wither_leggings"
+    }
+  ],
+  "full_set_shopping": [
+    {
+      "set": "embrodium",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:padded_cloth",
+          "count": 1
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/blazium",
+          "count": 9
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/varsium",
+          "count": 10
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_embrodium_boots",
+        "aoa3:infusion_embrodium_chestplate",
+        "aoa3:infusion_embrodium_helmet",
+        "aoa3:infusion_embrodium_leggings"
+      ]
+    },
+    {
+      "set": "hazmat",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:padded_cloth",
+          "count": 2
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:reinforced_cloth",
+          "count": 11
+        },
+        {
+          "kind": "item",
+          "reference": "minecraft:charcoal",
+          "count": 1
+        },
+        {
+          "kind": "tag",
+          "reference": "c:strings",
+          "count": 7
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_hazmat_boots",
+        "aoa3:infusion_hazmat_chestplate",
+        "aoa3:infusion_hazmat_helmet",
+        "aoa3:infusion_hazmat_leggings"
+      ]
+    },
+    {
+      "set": "ice",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:ice_crystal",
+          "count": 18
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/iron",
+          "count": 4
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_ice_boots",
+        "aoa3:infusion_ice_chestplate",
+        "aoa3:infusion_ice_helmet",
+        "aoa3:infusion_ice_leggings"
+      ]
+    },
+    {
+      "set": "infernal",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:ice_crystal",
+          "count": 4
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:padded_cloth",
+          "count": 1
+        },
+        {
+          "kind": "item",
+          "reference": "minecraft:magma_cream",
+          "count": 8
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/emberstone",
+          "count": 8
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_infernal_boots",
+        "aoa3:infusion_infernal_chestplate",
+        "aoa3:infusion_infernal_helmet",
+        "aoa3:infusion_infernal_leggings"
+      ]
+    },
+    {
+      "set": "lyndamyte",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "tag",
+          "reference": "c:ingots/emberstone",
+          "count": 13
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/limonite",
+          "count": 11
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_lyndamyte_boots",
+        "aoa3:infusion_lyndamyte_chestplate",
+        "aoa3:infusion_lyndamyte_helmet",
+        "aoa3:infusion_lyndamyte_leggings"
+      ]
+    },
+    {
+      "set": "skeletal",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:chestbone_fragment",
+          "count": 2
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:footbone_fragment",
+          "count": 1
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:legbone_fragment",
+          "count": 2
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:padded_cloth",
+          "count": 2
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:skullbone_fragment",
+          "count": 1
+        },
+        {
+          "kind": "tag",
+          "reference": "c:foods",
+          "count": 6
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/skeletal",
+          "count": 12
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_skeletal_boots",
+        "aoa3:infusion_skeletal_chestplate",
+        "aoa3:infusion_skeletal_helmet",
+        "aoa3:infusion_skeletal_leggings"
+      ]
+    },
+    {
+      "set": "void",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:void_scales",
+          "count": 6
+        },
+        {
+          "kind": "tag",
+          "reference": "c:ingots/iron",
+          "count": 12
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_void_boots",
+        "aoa3:infusion_void_chestplate",
+        "aoa3:infusion_void_helmet",
+        "aoa3:infusion_void_leggings"
+      ]
+    },
+    {
+      "set": "wither",
+      "frames": [
+        "aoa3:helmet_frame",
+        "aoa3:chestplate_frame",
+        "aoa3:leggings_frame",
+        "aoa3:boots_frame"
+      ],
+      "infusion_ingredients": [
+        {
+          "kind": "item",
+          "reference": "aoa3:armour_plating",
+          "count": 5
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:padded_cloth",
+          "count": 4
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:reinforced_cloth",
+          "count": 4
+        },
+        {
+          "kind": "item",
+          "reference": "aoa3:wither_rune",
+          "count": 6
+        },
+        {
+          "kind": "tag",
+          "reference": "c:gems/bloodstone",
+          "count": 10
+        }
+      ],
+      "recipes": [
+        "aoa3:infusion_wither_boots",
+        "aoa3:infusion_wither_chestplate",
+        "aoa3:infusion_wither_helmet",
+        "aoa3:infusion_wither_leggings"
+      ]
+    }
+  ],
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "100abd006c5903b200a4535904b200a7535905b200aa535906b200ad535907b200b0535908b200b353591006b200b653591007b200b953591008b200bc53591009b200bf53b30067b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 2,
+          "opcode": 189,
+          "operands": [
+            0,
+            108
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 89
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "CROSSBOW_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 83
+        },
+        {
+          "offset": 11,
+          "opcode": 89
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "BLASTER_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 83
+        },
+        {
+          "offset": 17,
+          "opcode": 89
+        },
+        {
+          "offset": 18,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "CANNON_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 83
+        },
+        {
+          "offset": 23,
+          "opcode": 89
+        },
+        {
+          "offset": 24,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 25,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "HELMET_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 83
+        },
+        {
+          "offset": 29,
+          "opcode": 89
+        },
+        {
+          "offset": 30,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 31,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "CHESTPLATE_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 83
+        },
+        {
+          "offset": 35,
+          "opcode": 89
+        },
+        {
+          "offset": 36,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 37,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "LEGGINGS_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 83
+        },
+        {
+          "offset": 41,
+          "opcode": 89
+        },
+        {
+          "offset": 42,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 44,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "BOOTS_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 83
+        },
+        {
+          "offset": 48,
+          "opcode": 89
+        },
+        {
+          "offset": 49,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 51,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "GUN_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 83
+        },
+        {
+          "offset": 55,
+          "opcode": 89
+        },
+        {
+          "offset": 56,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "SHOTGUN_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 83
+        },
+        {
+          "offset": 62,
+          "opcode": 89
+        },
+        {
+          "offset": 63,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 65,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "SNIPER_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 83
+        },
+        {
+          "offset": 69,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "SELECTIONS",
+            "[Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "<init>",
+      "descriptor": "(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V",
+      "code_hex": "2ab20001b60007c0000d1b2c2db7000f2a03b500152a2c10081054b6001bb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAMenus",
+            "FRAME_BENCH",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/registries/DeferredHolder",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 192,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 27
+        },
+        {
+          "offset": 11,
+          "opcode": 44
+        },
+        {
+          "offset": 12,
+          "opcode": 45
+        },
+        {
+          "offset": 13,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/menu/generic/ExtensibleRecipeMenu",
+            "<init>",
+            "(Lnet/minecraft/world/inventory/MenuType;ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 18,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "currentSelection",
+            "I"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 44
+        },
+        {
+          "offset": 23,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 25,
+          "opcode": 16,
+          "constant": 84
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "createPlayerInventory",
+            "(Lnet/minecraft/world/entity/player/Inventory;II)V"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "inputSlotCount",
+      "descriptor": "()I",
+      "code_hex": "04ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "createInputSlot",
+      "descriptor": "(ILnet/minecraft/world/inventory/TransientCraftingContainer;)Lnet/minecraft/world/inventory/Slot;",
+      "code_hex": "bb004c592c1b100b1022ba004e0000b70052b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            76
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 27
+        },
+        {
+          "offset": 6,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 8,
+          "opcode": 16,
+          "constant": 34
+        },
+        {
+          "offset": 10,
+          "opcode": 186,
+          "operands": [
+            0,
+            78,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/menu/slot/PredicatedSlot",
+            "<init>",
+            "(Lnet/minecraft/world/Container;IIILjava/util/function/Predicate;)V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "createOutputSlot",
+      "descriptor": "(ILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/Slot;",
+      "code_hex": "bb0055592abb005759b700592c1b1100951022b7005cb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 187,
+          "operands": [
+            0,
+            87
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 89
+        },
+        {
+          "offset": 9,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/inventory/ResultContainer",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 44
+        },
+        {
+          "offset": 13,
+          "opcode": 27
+        },
+        {
+          "offset": 14,
+          "opcode": 17,
+          "constant": 149
+        },
+        {
+          "offset": 17,
+          "opcode": 16,
+          "constant": 34
+        },
+        {
+          "offset": 19,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu$1",
+            "<init>",
+            "(Lnet/tslat/aoa3/common/menu/FrameBenchMenu;Lnet/minecraft/world/Container;Lnet/minecraft/world/entity/player/Player;III)V"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "handleContainerUpdate",
+      "descriptor": "()V",
+      "code_hex": "2a2a03b6005fb60063990009b20035a70016b200672ab4001532b9006b0100c0006eb60070b60074b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 42
+        },
+        {
+          "offset": 2,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "getInputItem",
+            "(I)Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 153,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "EMPTY",
+            "Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 167,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "SELECTIONS",
+            "[Ljava/util/function/Supplier;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "currentSelection",
+            "I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 50
+        },
+        {
+          "offset": 26,
+          "opcode": 185,
+          "member": [
+            "java/util/function/Supplier",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 192,
+          "operands": [
+            0,
+            110
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/Item",
+            "getDefaultInstance",
+            "()Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "setOutputItem",
+            "(Lnet/minecraft/world/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "clickMenuButton",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;I)Z",
+      "code_hex": "2ab400151ca0000503ac2a1cb500152ab6007704ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "currentSelection",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 28
+        },
+        {
+          "offset": 5,
+          "opcode": 160,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 9,
+          "opcode": 172
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 28
+        },
+        {
+          "offset": 12,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "currentSelection",
+            "I"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "handleContainerUpdate",
+            "()V"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "createInputSlot",
+      "descriptor": "(ILnet/minecraft/world/Container;)Lnet/minecraft/world/inventory/Slot;",
+      "code_hex": "2a1b2cc00025b6008fb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 27
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 192,
+          "operands": [
+            0,
+            37
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "createInputSlot",
+            "(ILnet/minecraft/world/inventory/TransientCraftingContainer;)Lnet/minecraft/world/inventory/Slot;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu.class",
+      "class_sha256": "0daaf013f9e620a819167d1f7539e7c4fbd675280197efbd9d66122e5d5ae8ce",
+      "name": "lambda$createInputSlot$0",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+      "code_hex": "2ab60097b2009bb600a1a6000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "getItem",
+            "()Lnet/minecraft/world/item/Item;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "SCRAP_METAL",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/registries/DeferredItem",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 166,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 14,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 18,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/FrameBenchMenu$1.class",
+      "class_sha256": "7cac8ec45df862f9c654f2581e06943c7961d28bd569913d8532d20a8324873f",
+      "name": "onItemRemoved",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+      "code_hex": "2ab400010304b6000db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu$1",
+            "this$0",
+            "Lnet/tslat/aoa3/common/menu/FrameBenchMenu;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 5,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "consumeInputItem",
+            "(II)V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu.class",
+      "class_sha256": "35e2dbb6d45c522c175fd9a8e4da408be1afdb8ce691c969b1ccea41ac39fa43",
+      "name": "consumeInputItem",
+      "descriptor": "(II)V",
+      "code_hex": "2ab400111b1cb90045030057b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu",
+            "inventory",
+            "Lnet/minecraft/world/Container;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 27
+        },
+        {
+          "offset": 5,
+          "opcode": 28
+        },
+        {
+          "offset": 6,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/world/Container",
+            "removeItem",
+            "(II)Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 87
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu.class",
+      "class_sha256": "35e2dbb6d45c522c175fd9a8e4da408be1afdb8ce691c969b1ccea41ac39fa43",
+      "name": "handleContainerClosed",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;)V",
+      "code_hex": "2a2b2ab40011b6004db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 42
+        },
+        {
+          "offset": 3,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu",
+            "inventory",
+            "Lnet/minecraft/world/Container;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu",
+            "clearContainer",
+            "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/Container;)V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu.class",
+      "class_sha256": "35e2dbb6d45c522c175fd9a8e4da408be1afdb8ce691c969b1ccea41ac39fa43",
+      "name": "removed",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;)V",
+      "code_hex": "2a2bb7005b2ab400072a2bba005f0000b900550200b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/inventory/AbstractContainerMenu",
+            "removed",
+            "(Lnet/minecraft/world/entity/player/Player;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/common/menu/generic/ExtensibleContainerMenu",
+            "accessValidator",
+            "Lnet/minecraft/world/inventory/ContainerLevelAccess;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 186,
+          "operands": [
+            0,
+            95,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/world/inventory/ContainerLevelAccess",
+            "execute",
+            "(Ljava/util/function/BiConsumer;)V"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/menu/slot/OutputSlot.class",
+      "class_sha256": "8201538b3d91571f7116a30e8a4f5e0448651477cc1045fd571e57345a98396e",
+      "name": "onTake",
+      "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+      "code_hex": "2a2b2cb600312a2cb6002d2a2b2cb70035b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/slot/OutputSlot",
+            "onItemRemoved",
+            "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 42
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/menu/slot/OutputSlot",
+            "checkTakeAchievements",
+            "(Lnet/minecraft/world/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 44
+        },
+        {
+          "offset": 14,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/inventory/Slot",
+            "onTake",
+            "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/recipe/FrameBenchRecipe.class",
+      "class_sha256": "659bbd4166de1fdbf6084a9f3a69f1519396de943321440da8836cb0210f9ac5",
+      "name": "assemble",
+      "descriptor": "(Lnet/minecraft/world/item/crafting/SingleRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+      "code_hex": "2ab40011b60052b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/recipe/FrameBenchRecipe",
+            "output",
+            "Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "copy",
+            "()Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/recipe/FrameBenchRecipe.class",
+      "class_sha256": "659bbd4166de1fdbf6084a9f3a69f1519396de943321440da8836cb0210f9ac5",
+      "name": "getSerializer",
+      "descriptor": "()Lnet/minecraft/world/item/crafting/RecipeSerializer;",
+      "code_hex": "01b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/recipe/FrameBenchRecipe.class",
+      "class_sha256": "659bbd4166de1fdbf6084a9f3a69f1519396de943321440da8836cb0210f9ac5",
+      "name": "assemble",
+      "descriptor": "(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+      "code_hex": "2a2bc000492cb60069b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 192,
+          "operands": [
+            0,
+            73
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/recipe/FrameBenchRecipe",
+            "assemble",
+            "(Lnet/minecraft/world/item/crafting/SingleRecipeInput;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/gui/container/FrameBenchScreen.class",
+      "class_sha256": "d36c64208f835b143d94364e8b3a983b6f882059c24bc5daae23f3d5d9ef866a",
+      "name": "init",
+      "descriptor": "()V",
+      "code_hex": "2ab700112abb0015592a032ab400171037602ab4001a100d60b2001db70023b60026572abb0015592a042ab40017104b602ab4001a100d60b2002ab70023b60026572abb0015592a052ab40017105f602ab4001a100d60b2002db70023b60026572abb0015592a062ab40017102d602ab4001a102160b20030b70023b60026572abb0015592a072ab400171041602ab4001a102160b20033b70023b60026572abb0015592a082ab400171055602ab4001a102160b20036b70023b60026572abb0015592a10062ab400171069602ab4001a102160b20039b70023b60026572abb0015592a10072ab400171037602ab4001a103560b2003cb70023b60026572abb0015592a10082ab40017104b602ab4001a103560b2003fb70023b60026572abb0015592a10092ab40017105f602ab4001a103560b20042b70023b6002657b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/gui/screens/inventory/AbstractContainerScreen",
+            "init",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 89
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 16,
+          "constant": 55
+        },
+        {
+          "offset": 17,
+          "opcode": 96
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 24,
+          "opcode": 96
+        },
+        {
+          "offset": 25,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "CROSSBOW_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 87
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 89
+        },
+        {
+          "offset": 40,
+          "opcode": 42
+        },
+        {
+          "offset": 41,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 42,
+          "opcode": 42
+        },
+        {
+          "offset": 43,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 48,
+          "opcode": 96
+        },
+        {
+          "offset": 49,
+          "opcode": 42
+        },
+        {
+          "offset": 50,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 55,
+          "opcode": 96
+        },
+        {
+          "offset": 56,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "BLASTER_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 87
+        },
+        {
+          "offset": 66,
+          "opcode": 42
+        },
+        {
+          "offset": 67,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 89
+        },
+        {
+          "offset": 71,
+          "opcode": 42
+        },
+        {
+          "offset": 72,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 73,
+          "opcode": 42
+        },
+        {
+          "offset": 74,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 16,
+          "constant": 95
+        },
+        {
+          "offset": 79,
+          "opcode": 96
+        },
+        {
+          "offset": 80,
+          "opcode": 42
+        },
+        {
+          "offset": 81,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 86,
+          "opcode": 96
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "CANNON_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 87
+        },
+        {
+          "offset": 97,
+          "opcode": 42
+        },
+        {
+          "offset": 98,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 89
+        },
+        {
+          "offset": 102,
+          "opcode": 42
+        },
+        {
+          "offset": 103,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 104,
+          "opcode": 42
+        },
+        {
+          "offset": 105,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 16,
+          "constant": 45
+        },
+        {
+          "offset": 110,
+          "opcode": 96
+        },
+        {
+          "offset": 111,
+          "opcode": 42
+        },
+        {
+          "offset": 112,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 16,
+          "constant": 33
+        },
+        {
+          "offset": 117,
+          "opcode": 96
+        },
+        {
+          "offset": 118,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "HELMET_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 87
+        },
+        {
+          "offset": 128,
+          "opcode": 42
+        },
+        {
+          "offset": 129,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 89
+        },
+        {
+          "offset": 133,
+          "opcode": 42
+        },
+        {
+          "offset": 134,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 135,
+          "opcode": 42
+        },
+        {
+          "offset": 136,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 16,
+          "constant": 65
+        },
+        {
+          "offset": 141,
+          "opcode": 96
+        },
+        {
+          "offset": 142,
+          "opcode": 42
+        },
+        {
+          "offset": 143,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 16,
+          "constant": 33
+        },
+        {
+          "offset": 148,
+          "opcode": 96
+        },
+        {
+          "offset": 149,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "CHESTPLATE_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 87
+        },
+        {
+          "offset": 159,
+          "opcode": 42
+        },
+        {
+          "offset": 160,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 89
+        },
+        {
+          "offset": 164,
+          "opcode": 42
+        },
+        {
+          "offset": 165,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 166,
+          "opcode": 42
+        },
+        {
+          "offset": 167,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 16,
+          "constant": 85
+        },
+        {
+          "offset": 172,
+          "opcode": 96
+        },
+        {
+          "offset": 173,
+          "opcode": 42
+        },
+        {
+          "offset": 174,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 16,
+          "constant": 33
+        },
+        {
+          "offset": 179,
+          "opcode": 96
+        },
+        {
+          "offset": 180,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "LEGGINGS_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 87
+        },
+        {
+          "offset": 190,
+          "opcode": 42
+        },
+        {
+          "offset": 191,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 194,
+          "opcode": 89
+        },
+        {
+          "offset": 195,
+          "opcode": 42
+        },
+        {
+          "offset": 196,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 198,
+          "opcode": 42
+        },
+        {
+          "offset": 199,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 16,
+          "constant": 105
+        },
+        {
+          "offset": 204,
+          "opcode": 96
+        },
+        {
+          "offset": 205,
+          "opcode": 42
+        },
+        {
+          "offset": 206,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 16,
+          "constant": 33
+        },
+        {
+          "offset": 211,
+          "opcode": 96
+        },
+        {
+          "offset": 212,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "BOOTS_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 87
+        },
+        {
+          "offset": 222,
+          "opcode": 42
+        },
+        {
+          "offset": 223,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 89
+        },
+        {
+          "offset": 227,
+          "opcode": 42
+        },
+        {
+          "offset": 228,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 230,
+          "opcode": 42
+        },
+        {
+          "offset": 231,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 16,
+          "constant": 55
+        },
+        {
+          "offset": 236,
+          "opcode": 96
+        },
+        {
+          "offset": 237,
+          "opcode": 42
+        },
+        {
+          "offset": 238,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 241,
+          "opcode": 16,
+          "constant": 53
+        },
+        {
+          "offset": 243,
+          "opcode": 96
+        },
+        {
+          "offset": 244,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "GUN_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 247,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 250,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 253,
+          "opcode": 87
+        },
+        {
+          "offset": 254,
+          "opcode": 42
+        },
+        {
+          "offset": 255,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 89
+        },
+        {
+          "offset": 259,
+          "opcode": 42
+        },
+        {
+          "offset": 260,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 262,
+          "opcode": 42
+        },
+        {
+          "offset": 263,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 266,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 268,
+          "opcode": 96
+        },
+        {
+          "offset": 269,
+          "opcode": 42
+        },
+        {
+          "offset": 270,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 273,
+          "opcode": 16,
+          "constant": 53
+        },
+        {
+          "offset": 275,
+          "opcode": 96
+        },
+        {
+          "offset": 276,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "SHOTGUN_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 282,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 285,
+          "opcode": 87
+        },
+        {
+          "offset": 286,
+          "opcode": 42
+        },
+        {
+          "offset": 287,
+          "opcode": 187,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 290,
+          "opcode": 89
+        },
+        {
+          "offset": 291,
+          "opcode": 42
+        },
+        {
+          "offset": 292,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 294,
+          "opcode": 42
+        },
+        {
+          "offset": 295,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "leftPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 16,
+          "constant": 95
+        },
+        {
+          "offset": 300,
+          "opcode": 96
+        },
+        {
+          "offset": 301,
+          "opcode": 42
+        },
+        {
+          "offset": 302,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "topPos",
+            "I"
+          ]
+        },
+        {
+          "offset": 305,
+          "opcode": 16,
+          "constant": 53
+        },
+        {
+          "offset": 307,
+          "opcode": 96
+        },
+        {
+          "offset": 308,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "SNIPER_FRAME",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 311,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen$FrameSelectButton",
+            "<init>",
+            "(Lnet/tslat/aoa3/client/gui/container/FrameBenchScreen;IIILjava/util/function/Supplier;)V"
+          ]
+        },
+        {
+          "offset": 314,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/gui/container/FrameBenchScreen",
+            "addRenderableWidget",
+            "(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;"
+          ]
+        },
+        {
+          "offset": 317,
+          "opcode": 87
+        },
+        {
+          "offset": 318,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/block/functional/utility/FrameBench.class",
+      "class_sha256": "307f9d1177d373ddc4ebdd8451e0470c4f855797da6c0140b81224021804dd8b",
+      "name": "useWithoutItem",
+      "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;",
+      "code_hex": "1904c100079900101904c000073a0619062db800092cb4000fb80015b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 2,
+          "opcode": 193,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 153,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 45
+        },
+        {
+          "offset": 18,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/menu/FrameBenchMenu",
+            "openContainer",
+            "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/core/BlockPos;)V"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 44
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/level/Level",
+            "isClientSide",
+            "Z"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/InteractionResults$BlockUseWithoutItem",
+            "succeedAndSwingArmBothSides",
+            "(Z)Lnet/minecraft/world/InteractionResult;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "FrameBenchRecipe is a display helper with a null serializer; these choices are menu-driven, not ten JSON recipes",
+    "One full armor-frame set needs four separate output takes and four Scrap Metal under the selected callback",
+    "Ingredient repetition counts units across four separate recipes; it does not mean stacked ingredients can share a slot or that bulk output is supported",
+    "Tags preserve active-pack substitution; no fixed vanilla-only member list is assumed",
+    "clickMenuButton has no explicit range guard before assigning the index in the inspected method; invalid-state handling remains a bounded acceptance task",
+    "The remaining armor registrations may use loot, code rewards, other mechanisms or have unresolved acquisition; this scan is not proof of absence"
+  ]
+}
