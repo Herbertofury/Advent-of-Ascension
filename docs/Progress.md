@@ -25,9 +25,11 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
 | Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 109 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 110 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
+
+- [Historical Pixon cards](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Particle-and-Invisible-Entities-1.12.2): eight released particle references now appear directly in the bestiary, with harvest thresholds and guide links; skill navigation is grouped by release.
 
 - [Pixon harvesting and Infusion Stones](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Pixon-Harvesting-and-Stones-1.12.2): eight illustrated tiers, exact bowl/table recipes, released particle references and whole-stack conversion rules.
 
@@ -37,7 +39,6 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 - [Augury and Ascension Shrine](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Augury-and-Ascension-Shrine-1.12.2): inactive released interaction, ten retained essence definitions and a separately labelled older source-only restoration route.
 
-- [Foraging and Logging](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Foraging-and-Logging-Rewards-1.12.2): 21 illustrated rewards, exact gate thresholds, XP functions and the distinct log-copy branch.
 
 
 
