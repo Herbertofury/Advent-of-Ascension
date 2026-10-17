@@ -39,7 +39,8 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Books and starter recovery | 7 declared books, 53 English entries/190 page definitions, integration and language troubleshooting | [Books and recovery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Books-Lore-and-Blank-Realmstone-Recovery-1.21.1) |
 | Controls and client presentation | 4 key defaults, 15 settings and 4 exact enum lists | [Controls and HUD](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Controls-HUD-and-Client-Settings-1.21.1) |
 | Multiplayer boss rewards | 4 allocation modes, 32 health cases and 800 scoped copied-stack checks | [Rewards and inventory safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Nowhere-Boss-Rewards-and-Multiplayer-Scaling-1.21.1) |
-| Local documentation validation | 201 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Reading routes | 4 release-specific six-stop routes; browser-local reading checklists | [Choose a route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reading-Routes-and-Local-Checklists) |
+| Local documentation validation | 203 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
