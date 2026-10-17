@@ -1,6 +1,6 @@
 # Gun statistics and ammunition: read the registered defaults
 
-[Open the illustrated item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1) · [Ammo preparation and pouch precautions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ammunition-and-Void-Pouch-1.21.1) · [Weapon upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1) · [Historical 1.16.5 / 1.20.1 inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Gun-Constructor-References)
+[Open the illustrated item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1) · [Bows and crossbows](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bows-and-Crossbows-1.21.1) · [Ammo preparation and pouch precautions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ammunition-and-Void-Pouch-1.21.1) · [Weapon upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1) · [Historical 1.16.5 / 1.20.1 inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Gun-Constructor-References)
 
 ![Six gun models with their ammunition and default-stat examples](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/gun-statistics-overview-1.21.1.webp)
 
