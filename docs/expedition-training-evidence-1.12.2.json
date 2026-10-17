@@ -1,0 +1,7069 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Selected released sprint/fall/bonus callbacks, GUI toggle and packet handler; independent numerical models, not game execution.",
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/ExpeditionUtil.class",
+      "class_sha256": "565d233d6bd4fc511f23756769ee819307fa4212ec8c2ae4af8a12961dbc196d",
+      "name": "handleFallEvent",
+      "descriptor": "(Lnet/minecraftforge/event/entity/living/LivingFallEvent;Lnet/tslat/aoa3/utils/player/PlayerDataManager;)V",
+      "code_hex": "2ab60022990004b12bb60026b2002ab6002e3d1c100aa100ae1c1014a200112a2ab6003212336ab60037a7009a1c101ea200112a2ab6003212386ab60037a700861c1028a200112a2ab6003212396ab60037a700721c1032a200112a2ab60032123a6ab60037a7005e1c103ca200112a2ab60032123b6ab60037a7004a1c1046a200112a2ab60032123c6ab60037a700361c1050a200112a2ab60032123d6ab60037a700221c105aa200112a2ab60032123e6ab60037a7000e2a2ab60032123f6ab60037b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "isCanceled",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 177
+        },
+        {
+          "offset": 8,
+          "opcode": 43
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 61
+        },
+        {
+          "offset": 19,
+          "opcode": 28
+        },
+        {
+          "offset": 20,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 22,
+          "opcode": 161,
+          "operands": [
+            0,
+            174
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 28
+        },
+        {
+          "offset": 26,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 28,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 18,
+          "constant": 0.949999988079071
+        },
+        {
+          "offset": 38,
+          "opcode": 106
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 167,
+          "operands": [
+            0,
+            154
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 28
+        },
+        {
+          "offset": 46,
+          "opcode": 16,
+          "constant": 30
+        },
+        {
+          "offset": 48,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 42
+        },
+        {
+          "offset": 52,
+          "opcode": 42
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 18,
+          "constant": 0.8999999761581421
+        },
+        {
+          "offset": 58,
+          "opcode": 106
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 167,
+          "operands": [
+            0,
+            134
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 28
+        },
+        {
+          "offset": 66,
+          "opcode": 16,
+          "constant": 40
+        },
+        {
+          "offset": 68,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 42
+        },
+        {
+          "offset": 72,
+          "opcode": 42
+        },
+        {
+          "offset": 73,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 18,
+          "constant": 0.8500000238418579
+        },
+        {
+          "offset": 78,
+          "opcode": 106
+        },
+        {
+          "offset": 79,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 167,
+          "operands": [
+            0,
+            114
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 28
+        },
+        {
+          "offset": 86,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 88,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 42
+        },
+        {
+          "offset": 92,
+          "opcode": 42
+        },
+        {
+          "offset": 93,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 18,
+          "constant": 0.800000011920929
+        },
+        {
+          "offset": 98,
+          "opcode": 106
+        },
+        {
+          "offset": 99,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 167,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 28
+        },
+        {
+          "offset": 106,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 108,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 42
+        },
+        {
+          "offset": 112,
+          "opcode": 42
+        },
+        {
+          "offset": 113,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 18,
+          "constant": 0.699999988079071
+        },
+        {
+          "offset": 118,
+          "opcode": 106
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 167,
+          "operands": [
+            0,
+            74
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 28
+        },
+        {
+          "offset": 126,
+          "opcode": 16,
+          "constant": 70
+        },
+        {
+          "offset": 128,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 42
+        },
+        {
+          "offset": 132,
+          "opcode": 42
+        },
+        {
+          "offset": 133,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 18,
+          "constant": 0.6000000238418579
+        },
+        {
+          "offset": 138,
+          "opcode": 106
+        },
+        {
+          "offset": 139,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 167,
+          "operands": [
+            0,
+            54
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 28
+        },
+        {
+          "offset": 146,
+          "opcode": 16,
+          "constant": 80
+        },
+        {
+          "offset": 148,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 42
+        },
+        {
+          "offset": 152,
+          "opcode": 42
+        },
+        {
+          "offset": 153,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 158,
+          "opcode": 106
+        },
+        {
+          "offset": 159,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 167,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 28
+        },
+        {
+          "offset": 166,
+          "opcode": 16,
+          "constant": 90
+        },
+        {
+          "offset": 168,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 42
+        },
+        {
+          "offset": 172,
+          "opcode": 42
+        },
+        {
+          "offset": 173,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 18,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 178,
+          "opcode": 106
+        },
+        {
+          "offset": 179,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 167,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 42
+        },
+        {
+          "offset": 186,
+          "opcode": 42
+        },
+        {
+          "offset": 187,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 192,
+          "opcode": 106
+        },
+        {
+          "offset": 193,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/ExpeditionUtil.class",
+      "class_sha256": "565d233d6bd4fc511f23756769ee819307fa4212ec8c2ae4af8a12961dbc196d",
+      "name": "handleRunningTick",
+      "descriptor": "(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;Lnet/minecraft/entity/player/EntityPlayer;)V",
+      "code_hex": "2bb8004d4d2cb60026b2002ab6002e3e2ab40051b600569900272ab40051b4005911008c709a00192cb60026b2002a1db8005d1db80061866e0303b600652cb60026b2002ab60069b6006f0770aa00000000010700000001000000030000001b00000075000000b92ab40051b600569900e52ab40051b40059110258709a00d7b20075106eb6007a1da200cb2ab40051b20080b600849a00be2ab40051bb008659b200801050070403b70089b6008d2c128f04bd00045903b2009553b60099a700952ab40051b6005699008b2ab40051b40059110258709a007db20075106eb6007a1da200712ab40051b6009d08123fb600a32c12a504bd00045903b2009553b60099a700512ab40051b600a89900472ab40051b400591101f4709a0039b20075106eb6007a1da2002d2ab40051bb008659b200ab110190030403b70089b6008d2c12ad04bd00045903b2009553b60099a70003b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 77
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 62
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70051_ag",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 153,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70173_aa",
+            "I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 17,
+          "constant": 140
+        },
+        {
+          "offset": 36,
+          "opcode": 112
+        },
+        {
+          "offset": 37,
+          "opcode": 154,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 44
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 29
+        },
+        {
+          "offset": 48,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getXpRequiredForNextLevel",
+            "(I)F"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 29
+        },
+        {
+          "offset": 52,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/ExpeditionUtil",
+            "getXpDenominator",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 134
+        },
+        {
+          "offset": 56,
+          "opcode": 110
+        },
+        {
+          "offset": 57,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 58,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addXp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 44
+        },
+        {
+          "offset": 63,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getSkillData",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 76,
+          "opcode": 112
+        },
+        {
+          "offset": 77,
+          "opcode": 170,
+          "default_target": 340,
+          "cases": [
+            {
+              "key": 1,
+              "target": 104
+            },
+            {
+              "key": 2,
+              "target": 194
+            },
+            {
+              "key": 3,
+              "target": 262
+            }
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 42
+        },
+        {
+          "offset": 105,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70051_ag",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 153,
+          "operands": [
+            0,
+            229
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 42
+        },
+        {
+          "offset": 115,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70173_aa",
+            "I"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 17,
+          "constant": 600
+        },
+        {
+          "offset": 124,
+          "opcode": 112
+        },
+        {
+          "offset": 125,
+          "opcode": 154,
+          "operands": [
+            0,
+            215
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 16,
+          "constant": 110
+        },
+        {
+          "offset": 133,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 29
+        },
+        {
+          "offset": 137,
+          "opcode": 162,
+          "operands": [
+            0,
+            203
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 42
+        },
+        {
+          "offset": 141,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76424_c",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70644_a",
+            "(Lnet/minecraft/potion/Potion;)Z"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 154,
+          "operands": [
+            0,
+            190
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 42
+        },
+        {
+          "offset": 154,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 187,
+          "operands": [
+            0,
+            134
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 89
+        },
+        {
+          "offset": 161,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76424_c",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 16,
+          "constant": 80
+        },
+        {
+          "offset": 166,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 167,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 168,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 169,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 44
+        },
+        {
+          "offset": 176,
+          "opcode": 18,
+          "constant": "message.event.expedition.speed"
+        },
+        {
+          "offset": 178,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 179,
+          "opcode": 189,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 89
+        },
+        {
+          "offset": 183,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 184,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "AQUA",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 83
+        },
+        {
+          "offset": 188,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "sendThrottledChatMessage",
+            "(Ljava/lang/String;[Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 191,
+          "opcode": 167,
+          "operands": [
+            0,
+            149
+          ]
+        },
+        {
+          "offset": 194,
+          "opcode": 42
+        },
+        {
+          "offset": 195,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70051_ag",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 153,
+          "operands": [
+            0,
+            139
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 42
+        },
+        {
+          "offset": 205,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 208,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70173_aa",
+            "I"
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 17,
+          "constant": 600
+        },
+        {
+          "offset": 214,
+          "opcode": 112
+        },
+        {
+          "offset": 215,
+          "opcode": 154,
+          "operands": [
+            0,
+            125
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 110
+        },
+        {
+          "offset": 223,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 29
+        },
+        {
+          "offset": 227,
+          "opcode": 162,
+          "operands": [
+            0,
+            113
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 42
+        },
+        {
+          "offset": 231,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_71024_bL",
+            "()Lnet/minecraft/util/FoodStats;"
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 238,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 240,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/FoodStats",
+            "func_75122_a",
+            "(IF)V"
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 44
+        },
+        {
+          "offset": 244,
+          "opcode": 18,
+          "constant": "message.event.expedition.food"
+        },
+        {
+          "offset": 246,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 247,
+          "opcode": 189,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 250,
+          "opcode": 89
+        },
+        {
+          "offset": 251,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 252,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "AQUA",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 83
+        },
+        {
+          "offset": 256,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "sendThrottledChatMessage",
+            "(Ljava/lang/String;[Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 167,
+          "operands": [
+            0,
+            81
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 42
+        },
+        {
+          "offset": 263,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 266,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70090_H",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 269,
+          "opcode": 153,
+          "operands": [
+            0,
+            71
+          ]
+        },
+        {
+          "offset": 272,
+          "opcode": 42
+        },
+        {
+          "offset": 273,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70173_aa",
+            "I"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 17,
+          "constant": 500
+        },
+        {
+          "offset": 282,
+          "opcode": 112
+        },
+        {
+          "offset": 283,
+          "opcode": 154,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 16,
+          "constant": 110
+        },
+        {
+          "offset": 291,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 294,
+          "opcode": 29
+        },
+        {
+          "offset": 295,
+          "opcode": 162,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 42
+        },
+        {
+          "offset": 299,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 302,
+          "opcode": 187,
+          "operands": [
+            0,
+            134
+          ]
+        },
+        {
+          "offset": 305,
+          "opcode": 89
+        },
+        {
+          "offset": 306,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76427_o",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 17,
+          "constant": 400
+        },
+        {
+          "offset": 312,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 313,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 314,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 315,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 318,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 321,
+          "opcode": 44
+        },
+        {
+          "offset": 322,
+          "opcode": 18,
+          "constant": "message.event.expedition.breath"
+        },
+        {
+          "offset": 324,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 325,
+          "opcode": 189,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 328,
+          "opcode": 89
+        },
+        {
+          "offset": 329,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 330,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/text/TextFormatting",
+            "AQUA",
+            "Lnet/minecraft/util/text/TextFormatting;"
+          ]
+        },
+        {
+          "offset": 333,
+          "opcode": 83
+        },
+        {
+          "offset": 334,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "sendThrottledChatMessage",
+            "(Ljava/lang/String;[Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 337,
+          "opcode": 167,
+          "operands": [
+            0,
+            3
+          ]
+        },
+        {
+          "offset": 340,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/ExpeditionUtil.class",
+      "class_sha256": "565d233d6bd4fc511f23756769ee819307fa4212ec8c2ae4af8a12961dbc196d",
+      "name": "getXpDenominator",
+      "descriptor": "(I)I",
+      "code_hex": "1a07a300061016ac1a1009a300061023ac1a100ea30006102dac1a1013a300061041ac1a1018a30006105aac1a1022a30007110096ac1a1027a300071100beac1a102ca300071100e6ac1a1031a30007110118ac1a1036a30007110168ac1a103ba300071101c2ac1a1040a3000711021cac1a1045a3000711028aac1a104aa300071102eeac1a104fa30007110352ac1a1054a300071103b6ac1a1059a300071103e8ac1a105ea3000711044cac1a1062a300071104b0ac110514ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 2,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 16,
+          "constant": 22
+        },
+        {
+          "offset": 7,
+          "opcode": 172
+        },
+        {
+          "offset": 8,
+          "opcode": 26
+        },
+        {
+          "offset": 9,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 11,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 16,
+          "constant": 35
+        },
+        {
+          "offset": 16,
+          "opcode": 172
+        },
+        {
+          "offset": 17,
+          "opcode": 26
+        },
+        {
+          "offset": 18,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 20,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 16,
+          "constant": 45
+        },
+        {
+          "offset": 25,
+          "opcode": 172
+        },
+        {
+          "offset": 26,
+          "opcode": 26
+        },
+        {
+          "offset": 27,
+          "opcode": 16,
+          "constant": 19
+        },
+        {
+          "offset": 29,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 16,
+          "constant": 65
+        },
+        {
+          "offset": 34,
+          "opcode": 172
+        },
+        {
+          "offset": 35,
+          "opcode": 26
+        },
+        {
+          "offset": 36,
+          "opcode": 16,
+          "constant": 24
+        },
+        {
+          "offset": 38,
+          "opcode": 163,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 16,
+          "constant": 90
+        },
+        {
+          "offset": 43,
+          "opcode": 172
+        },
+        {
+          "offset": 44,
+          "opcode": 26
+        },
+        {
+          "offset": 45,
+          "opcode": 16,
+          "constant": 34
+        },
+        {
+          "offset": 47,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 17,
+          "constant": 150
+        },
+        {
+          "offset": 53,
+          "opcode": 172
+        },
+        {
+          "offset": 54,
+          "opcode": 26
+        },
+        {
+          "offset": 55,
+          "opcode": 16,
+          "constant": 39
+        },
+        {
+          "offset": 57,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 17,
+          "constant": 190
+        },
+        {
+          "offset": 63,
+          "opcode": 172
+        },
+        {
+          "offset": 64,
+          "opcode": 26
+        },
+        {
+          "offset": 65,
+          "opcode": 16,
+          "constant": 44
+        },
+        {
+          "offset": 67,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 17,
+          "constant": 230
+        },
+        {
+          "offset": 73,
+          "opcode": 172
+        },
+        {
+          "offset": 74,
+          "opcode": 26
+        },
+        {
+          "offset": 75,
+          "opcode": 16,
+          "constant": 49
+        },
+        {
+          "offset": 77,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 17,
+          "constant": 280
+        },
+        {
+          "offset": 83,
+          "opcode": 172
+        },
+        {
+          "offset": 84,
+          "opcode": 26
+        },
+        {
+          "offset": 85,
+          "opcode": 16,
+          "constant": 54
+        },
+        {
+          "offset": 87,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 17,
+          "constant": 360
+        },
+        {
+          "offset": 93,
+          "opcode": 172
+        },
+        {
+          "offset": 94,
+          "opcode": 26
+        },
+        {
+          "offset": 95,
+          "opcode": 16,
+          "constant": 59
+        },
+        {
+          "offset": 97,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 17,
+          "constant": 450
+        },
+        {
+          "offset": 103,
+          "opcode": 172
+        },
+        {
+          "offset": 104,
+          "opcode": 26
+        },
+        {
+          "offset": 105,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 107,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 17,
+          "constant": 540
+        },
+        {
+          "offset": 113,
+          "opcode": 172
+        },
+        {
+          "offset": 114,
+          "opcode": 26
+        },
+        {
+          "offset": 115,
+          "opcode": 16,
+          "constant": 69
+        },
+        {
+          "offset": 117,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 17,
+          "constant": 650
+        },
+        {
+          "offset": 123,
+          "opcode": 172
+        },
+        {
+          "offset": 124,
+          "opcode": 26
+        },
+        {
+          "offset": 125,
+          "opcode": 16,
+          "constant": 74
+        },
+        {
+          "offset": 127,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 17,
+          "constant": 750
+        },
+        {
+          "offset": 133,
+          "opcode": 172
+        },
+        {
+          "offset": 134,
+          "opcode": 26
+        },
+        {
+          "offset": 135,
+          "opcode": 16,
+          "constant": 79
+        },
+        {
+          "offset": 137,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 17,
+          "constant": 850
+        },
+        {
+          "offset": 143,
+          "opcode": 172
+        },
+        {
+          "offset": 144,
+          "opcode": 26
+        },
+        {
+          "offset": 145,
+          "opcode": 16,
+          "constant": 84
+        },
+        {
+          "offset": 147,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 17,
+          "constant": 950
+        },
+        {
+          "offset": 153,
+          "opcode": 172
+        },
+        {
+          "offset": 154,
+          "opcode": 26
+        },
+        {
+          "offset": 155,
+          "opcode": 16,
+          "constant": 89
+        },
+        {
+          "offset": 157,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 17,
+          "constant": 1000
+        },
+        {
+          "offset": 163,
+          "opcode": 172
+        },
+        {
+          "offset": 164,
+          "opcode": 26
+        },
+        {
+          "offset": 165,
+          "opcode": 16,
+          "constant": 94
+        },
+        {
+          "offset": 167,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 17,
+          "constant": 1100
+        },
+        {
+          "offset": 173,
+          "opcode": 172
+        },
+        {
+          "offset": 174,
+          "opcode": 26
+        },
+        {
+          "offset": 175,
+          "opcode": 16,
+          "constant": 98
+        },
+        {
+          "offset": 177,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 17,
+          "constant": 1200
+        },
+        {
+          "offset": 183,
+          "opcode": 172
+        },
+        {
+          "offset": 184,
+          "opcode": 17,
+          "constant": 1300
+        },
+        {
+          "offset": 187,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "class_sha256": "cb7763b9bf48e40936eaa17765c1fffd6f538914f42f9f7ecbf7c052c7ef77f0",
+      "name": "onPlayerTick",
+      "descriptor": "(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V",
+      "code_hex": "2bb40062b20065a600b72bb40069b4006fb400759a000f2bb40069b8007b4d2cb6007e2bb40069b4006fb400759a002c2bb40069b40082b400879a001f2bb40069b4008a9900152bb40069b6008e9a000b2b2bb40069b800942bb40069b40098b2009cb4009fa0001a2bb40069b4006fb400759a004b2bb40069b800a5a700412bb40069b40098b2009cb400a8a0000d2bb40069b800aba700272bb40069b40098b2009cb400aea000172bb40069b4006fb400759a000a2bb40069b800b1b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "phase",
+            "Lnet/minecraftforge/fml/common/gameevent/TickEvent$Phase;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$Phase",
+            "END",
+            "Lnet/minecraftforge/fml/common/gameevent/TickEvent$Phase;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 166,
+          "operands": [
+            0,
+            183
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 154,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 43
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 77
+        },
+        {
+          "offset": 31,
+          "opcode": 44
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "tickPlayer",
+            "()V"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 43
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 154,
+          "operands": [
+            0,
+            44
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 43
+        },
+        {
+          "offset": 49,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 154,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 43
+        },
+        {
+          "offset": 62,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70122_E",
+            "Z"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 43
+        },
+        {
+          "offset": 72,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184218_aH",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 154,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 43
+        },
+        {
+          "offset": 82,
+          "opcode": 43
+        },
+        {
+          "offset": 83,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/ExpeditionUtil",
+            "handleRunningTick",
+            "(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 43
+        },
+        {
+          "offset": 90,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71093_bK",
+            "I"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "shyrelands",
+            "I"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 160,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 43
+        },
+        {
+          "offset": 106,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 154,
+          "operands": [
+            0,
+            75
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 43
+        },
+        {
+          "offset": 119,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/event/dimension/ShyrelandsEvents",
+            "doPlayerTick",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 167,
+          "operands": [
+            0,
+            65
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 43
+        },
+        {
+          "offset": 129,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71093_bK",
+            "I"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "lelyetia",
+            "I"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 160,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 43
+        },
+        {
+          "offset": 145,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/event/dimension/LelyetiaEvents",
+            "doPlayerTick",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 167,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 43
+        },
+        {
+          "offset": 155,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71093_bK",
+            "I"
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "voxPonds",
+            "I"
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 160,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 43
+        },
+        {
+          "offset": 171,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 154,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 43
+        },
+        {
+          "offset": 184,
+          "opcode": 180,
+          "member": [
+            "net/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent",
+            "player",
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/event/dimension/VoxPondsEvents",
+            "doPlayerTick",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "class_sha256": "cb7763b9bf48e40936eaa17765c1fffd6f538914f42f9f7ecbf7c052c7ef77f0",
+      "name": "onPlayerFall",
+      "descriptor": "(Lnet/minecraftforge/event/entity/living/LivingFallEvent;)V",
+      "code_hex": "2bb6019eb400c0b400759a00632bb6019ec1006b9900592bb601a11301a2959e00392bb601a50b959e00302bb6019ec0006bbb016859b2016eb701710404b801779900172bb6019ec0006bbb016859b201a8b70171b8017f2bb6019ec0006bb8007b4d2c2bb601ab2b2cb801afb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getEntity",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 154,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 43
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getEntity",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 193,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 153,
+          "operands": [
+            0,
+            89
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 43
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDistance",
+            "()F"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 19,
+          "constant": 25.0
+        },
+        {
+          "offset": 30,
+          "opcode": 149
+        },
+        {
+          "offset": 31,
+          "opcode": 158,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 43
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 11
+        },
+        {
+          "offset": 39,
+          "opcode": 149
+        },
+        {
+          "offset": 40,
+          "opcode": 158,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 43
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getEntity",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 192,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 187,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 89
+        },
+        {
+          "offset": 54,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "BLANK_REALMSTONE",
+            "Lnet/tslat/aoa3/item/misc/BlankRealmstone;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 61,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 62,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 153,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 43
+        },
+        {
+          "offset": 69,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getEntity",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 192,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 187,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 89
+        },
+        {
+          "offset": 79,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LELYETIA_REALMSTONE",
+            "Lnet/tslat/aoa3/item/misc/Realmstone;"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 43
+        },
+        {
+          "offset": 89,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getEntity",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 192,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 77
+        },
+        {
+          "offset": 99,
+          "opcode": 44
+        },
+        {
+          "offset": 100,
+          "opcode": 43
+        },
+        {
+          "offset": 101,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "handlePlayerFalling",
+            "(Lnet/minecraftforge/event/entity/living/LivingFallEvent;)V"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 43
+        },
+        {
+          "offset": 105,
+          "opcode": 44
+        },
+        {
+          "offset": 106,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/ExpeditionUtil",
+            "handleFallEvent",
+            "(Lnet/minecraftforge/event/entity/living/LivingFallEvent;Lnet/tslat/aoa3/utils/player/PlayerDataManager;)V"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager.class",
+      "class_sha256": "c38c592da948d5f12aa4622195690b12cd729af745a55ae89943bd3bfcad7c44",
+      "name": "handlePlayerFalling",
+      "descriptor": "(Lnet/minecraftforge/event/entity/living/LivingFallEvent;)V",
+      "code_hex": "2bb601bb9a000b2ab400652bb801bfb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "isCanceled",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "equipment",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 43
+        },
+        {
+          "offset": 12,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment",
+            "access$1000",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment;Lnet/minecraftforge/event/entity/living/LivingFallEvent;)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "getLevel",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;)I",
+      "code_hex": "b200e899001910642ab4003e2bb60075c0005ab6009ab800eea700051064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "skillsEnabled",
+            "Z"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 30,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "getSkillData",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;)Ljava/lang/Integer;",
+      "code_hex": "2ab400402bb60075c0005ab0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "incrementExpeditionBoost",
+      "descriptor": "()V",
+      "code_hex": "2ab40040b20065b60075c0005ab6009a3c1b06a400118401011b1007a40012073ca7000d8401011b06a40005033c2ab40040b200651bb8005db60058572ab4002eb800a9c10125990044b2013abb013c59b20065b4013f2ab4003eb20065b60075c0005ab6009a2ab4003cb20065b60075c00050b600791bb8005db701422ab4002eb800a9c00125b60148b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 60
+        },
+        {
+          "offset": 17,
+          "opcode": 27
+        },
+        {
+          "offset": 18,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 19,
+          "opcode": 164,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 132,
+          "operands": [
+            1,
+            1
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 27
+        },
+        {
+          "offset": 26,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 28,
+          "opcode": 164,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 32,
+          "opcode": 60
+        },
+        {
+          "offset": 33,
+          "opcode": 167,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 132,
+          "operands": [
+            1,
+            1
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 27
+        },
+        {
+          "offset": 40,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 41,
+          "opcode": 164,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 45,
+          "opcode": 60
+        },
+        {
+          "offset": 46,
+          "opcode": 42
+        },
+        {
+          "offset": 47,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 27
+        },
+        {
+          "offset": 54,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 87
+        },
+        {
+          "offset": 61,
+          "opcode": 42
+        },
+        {
+          "offset": 62,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 193,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 153,
+          "operands": [
+            0,
+            68
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 187,
+          "operands": [
+            1,
+            60
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 89
+        },
+        {
+          "offset": 81,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 42
+        },
+        {
+          "offset": 88,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 42
+        },
+        {
+          "offset": 104,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 192,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 182,
+          "member": [
+            "java/lang/Float",
+            "floatValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 27
+        },
+        {
+          "offset": 120,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketSkillData",
+            "<init>",
+            "(IIFLjava/lang/Integer;)V"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 42
+        },
+        {
+          "offset": 127,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "addXp",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V",
+      "code_hex": "b200e89a0004b12ab4003e2bb60075c0005ab6009a360515051103e8a10004b11d9a00102ab4002eb801012b24b801054513010624b801093806033607b2010c9a000e15051064a1000704a700040336082ab4004c2bb80112380917061709959e00351706170966380684070117061505150760b801156659380a0b959b001815051507601103e8a2000d170a3806840701a7ffdb15079e00492a2b150515051507601d9a000704a7000403b601191d9a00302ab40040b20065b60075c0005ab6009a07a2001c2ab4002eb800a92b2ab4003e2bb60075c0005ab6009ab8011f1d99000d2ab4002eb80123a700232ab4002eb800a9c10125990016b2012b2ab4002eb800a9c001252b248bb601312ab4003c2b2ab4003c2bb60075c00050b60079170662b80054b60058572ab4002eb800a9c101259900772ab4002eb80134b2013abb013c592bb4013f2ab4003e2bb60075c0005ab6009a2ab4003c2bb60075c00050b600792ab400402bb60075c0005ab701422ab4002eb800a9c00125b6014815089a0029b2013abb014a592bb4013f2415079e000704a7000403b7014d2ab4002eb800a9c00125b60148b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "skillsEnabled",
+            "Z"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 154,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 177
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 43
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 17,
+          "constant": 1000
+        },
+        {
+          "offset": 28,
+          "opcode": 161,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 177
+        },
+        {
+          "offset": 32,
+          "opcode": 29
+        },
+        {
+          "offset": 33,
+          "opcode": 154,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 42
+        },
+        {
+          "offset": 37,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2100",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 43
+        },
+        {
+          "offset": 44,
+          "opcode": 36
+        },
+        {
+          "offset": 45,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "access$2900",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/tslat/aoa3/library/Enums$Skills;F)F"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 69
+        },
+        {
+          "offset": 49,
+          "opcode": 19,
+          "constant": 544132352.0
+        },
+        {
+          "offset": 52,
+          "opcode": 36
+        },
+        {
+          "offset": 53,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(FF)F"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 59,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "showVanityLevels",
+            "Z"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 154,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 71,
+          "opcode": 161,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 75,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 79,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 42
+        },
+        {
+          "offset": 82,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "playerDataManager",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 43
+        },
+        {
+          "offset": 86,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getXpRemainingUntilLevel",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Lnet/tslat/aoa3/library/Enums$Skills;)F"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 56,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 23,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 149
+        },
+        {
+          "offset": 96,
+          "opcode": 158,
+          "operands": [
+            0,
+            53
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 23,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 102
+        },
+        {
+          "offset": 104,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 96
+        },
+        {
+          "offset": 116,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getXpRequiredForNextLevel",
+            "(I)F"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 102
+        },
+        {
+          "offset": 120,
+          "opcode": 89
+        },
+        {
+          "offset": 121,
+          "opcode": 56,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 11
+        },
+        {
+          "offset": 124,
+          "opcode": 149
+        },
+        {
+          "offset": 125,
+          "opcode": 155,
+          "operands": [
+            0,
+            24
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 96
+        },
+        {
+          "offset": 133,
+          "opcode": 17,
+          "constant": 1000
+        },
+        {
+          "offset": 136,
+          "opcode": 162,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 23,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 167,
+          "operands": [
+            255,
+            219
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 158,
+          "operands": [
+            0,
+            73
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 42
+        },
+        {
+          "offset": 155,
+          "opcode": 43
+        },
+        {
+          "offset": 156,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 96
+        },
+        {
+          "offset": 163,
+          "opcode": 29
+        },
+        {
+          "offset": 164,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 168,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 172,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levelUp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;IIZ)V"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 29
+        },
+        {
+          "offset": 176,
+          "opcode": 154,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 42
+        },
+        {
+          "offset": 180,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 196,
+          "opcode": 162,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 42
+        },
+        {
+          "offset": 200,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 43
+        },
+        {
+          "offset": 207,
+          "opcode": 42
+        },
+        {
+          "offset": 208,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 43
+        },
+        {
+          "offset": 212,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/leaderboard/AoALeaderboard",
+            "updatePlayerStat",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/tslat/aoa3/library/Enums$Skills;I)V"
+          ]
+        },
+        {
+          "offset": 224,
+          "opcode": 29
+        },
+        {
+          "offset": 225,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 42
+        },
+        {
+          "offset": 229,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$3000",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)V"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 167,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 42
+        },
+        {
+          "offset": 239,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 242,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 193,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 153,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 251,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AdvancementTriggerRegister",
+            "xpGainTrigger",
+            "Lnet/tslat/aoa3/advancement/AoAXpGainTrigger;"
+          ]
+        },
+        {
+          "offset": 254,
+          "opcode": 42
+        },
+        {
+          "offset": 255,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 261,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 43
+        },
+        {
+          "offset": 265,
+          "opcode": 36
+        },
+        {
+          "offset": 266,
+          "opcode": 139
+        },
+        {
+          "offset": 267,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/advancement/AoAXpGainTrigger",
+            "trigger",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/tslat/aoa3/library/Enums$Skills;I)V"
+          ]
+        },
+        {
+          "offset": 270,
+          "opcode": 42
+        },
+        {
+          "offset": 271,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 43
+        },
+        {
+          "offset": 275,
+          "opcode": 42
+        },
+        {
+          "offset": 276,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 43
+        },
+        {
+          "offset": 280,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 283,
+          "opcode": 192,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 182,
+          "member": [
+            "java/lang/Float",
+            "floatValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 291,
+          "opcode": 98
+        },
+        {
+          "offset": 292,
+          "opcode": 184,
+          "member": [
+            "java/lang/Float",
+            "valueOf",
+            "(F)Ljava/lang/Float;"
+          ]
+        },
+        {
+          "offset": 295,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 87
+        },
+        {
+          "offset": 299,
+          "opcode": 42
+        },
+        {
+          "offset": 300,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 306,
+          "opcode": 193,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 153,
+          "operands": [
+            0,
+            119
+          ]
+        },
+        {
+          "offset": 312,
+          "opcode": 42
+        },
+        {
+          "offset": 313,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 316,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$3100",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)V"
+          ]
+        },
+        {
+          "offset": 319,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 322,
+          "opcode": 187,
+          "operands": [
+            1,
+            60
+          ]
+        },
+        {
+          "offset": 325,
+          "opcode": 89
+        },
+        {
+          "offset": 326,
+          "opcode": 43
+        },
+        {
+          "offset": 327,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 330,
+          "opcode": 42
+        },
+        {
+          "offset": 331,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 334,
+          "opcode": 43
+        },
+        {
+          "offset": 335,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 338,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 341,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 344,
+          "opcode": 42
+        },
+        {
+          "offset": 345,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 348,
+          "opcode": 43
+        },
+        {
+          "offset": 349,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 352,
+          "opcode": 192,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 355,
+          "opcode": 182,
+          "member": [
+            "java/lang/Float",
+            "floatValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 358,
+          "opcode": 42
+        },
+        {
+          "offset": 359,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 362,
+          "opcode": 43
+        },
+        {
+          "offset": 363,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 366,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketSkillData",
+            "<init>",
+            "(IIFLjava/lang/Integer;)V"
+          ]
+        },
+        {
+          "offset": 372,
+          "opcode": 42
+        },
+        {
+          "offset": 373,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 376,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 379,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 382,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 385,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 387,
+          "opcode": 154,
+          "operands": [
+            0,
+            41
+          ]
+        },
+        {
+          "offset": 390,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 393,
+          "opcode": 187,
+          "operands": [
+            1,
+            74
+          ]
+        },
+        {
+          "offset": 396,
+          "opcode": 89
+        },
+        {
+          "offset": 397,
+          "opcode": 43
+        },
+        {
+          "offset": 398,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 401,
+          "opcode": 36
+        },
+        {
+          "offset": 402,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 404,
+          "opcode": 158,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 407,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 408,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 411,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 412,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketXpGain",
+            "<init>",
+            "(IFZ)V"
+          ]
+        },
+        {
+          "offset": 415,
+          "opcode": 42
+        },
+        {
+          "offset": 416,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 422,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 425,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 428,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerUtil.class",
+      "class_sha256": "28a2278753967ef9b5103ccd1e2ac8c93a3b2b644d13d537dc623d2f4331a189",
+      "name": "getXpRequiredForNextLevel",
+      "descriptor": "(I)F",
+      "code_hex": "1a1064a3001114009e1a87b800a51400a66b90ae1a1103e8a100070ba7001c1a1103e7b800ab100a64871400acb800a51400ae6f9012b062ae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 3,
+          "opcode": 163,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 20,
+          "constant": 1.1
+        },
+        {
+          "offset": 9,
+          "opcode": 26
+        },
+        {
+          "offset": 10,
+          "opcode": 135
+        },
+        {
+          "offset": 11,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "pow",
+            "(DD)D"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 20,
+          "constant": 50.0
+        },
+        {
+          "offset": 17,
+          "opcode": 107
+        },
+        {
+          "offset": 18,
+          "opcode": 144
+        },
+        {
+          "offset": 19,
+          "opcode": 174
+        },
+        {
+          "offset": 20,
+          "opcode": 26
+        },
+        {
+          "offset": 21,
+          "opcode": 17,
+          "constant": 1000
+        },
+        {
+          "offset": 24,
+          "opcode": 161,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 11
+        },
+        {
+          "offset": 28,
+          "opcode": 167,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 26
+        },
+        {
+          "offset": 32,
+          "opcode": 17,
+          "constant": 999
+        },
+        {
+          "offset": 35,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 40,
+          "opcode": 100
+        },
+        {
+          "offset": 41,
+          "opcode": 135
+        },
+        {
+          "offset": 42,
+          "opcode": 20,
+          "constant": 2.5
+        },
+        {
+          "offset": 45,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "pow",
+            "(DD)D"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 20,
+          "constant": 100.0
+        },
+        {
+          "offset": 51,
+          "opcode": 111
+        },
+        {
+          "offset": 52,
+          "opcode": 144
+        },
+        {
+          "offset": 53,
+          "opcode": 18,
+          "constant": 630000.0
+        },
+        {
+          "offset": 55,
+          "opcode": 98
+        },
+        {
+          "offset": 56,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ExpeditionArmour.class",
+      "class_sha256": "3eece0220c71f9bf314e210592c57e1f3888e0d3cb1c4017c57a9a3b8175ba06",
+      "name": "getLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ExpeditionArmour.class",
+      "class_sha256": "3eece0220c71f9bf314e210592c57e1f3888e0d3cb1c4017c57a9a3b8175ba06",
+      "name": "addBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60043b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "addXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ExpeditionArmour.class",
+      "class_sha256": "3eece0220c71f9bf314e210592c57e1f3888e0d3cb1c4017c57a9a3b8175ba06",
+      "name": "onUnequip",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc700262bb6004fb20055b6005b4e2dc600172db6006011012ca3000d2bb6004fb20055b60064b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            38
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "player",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76439_r",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70660_b",
+            "(Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 78
+        },
+        {
+          "offset": 15,
+          "opcode": 45
+        },
+        {
+          "offset": 16,
+          "opcode": 198,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 45
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "func_76459_b",
+            "()I"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 17,
+          "constant": 300
+        },
+        {
+          "offset": 26,
+          "opcode": 163,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 43
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "player",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76439_r",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184589_d",
+            "(Lnet/minecraft/potion/Potion;)V"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ExpeditionArmour.class",
+      "class_sha256": "3eece0220c71f9bf314e210592c57e1f3888e0d3cb1c4017c57a9a3b8175ba06",
+      "name": "onPlayerLandingFall",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Ljava/util/HashSet;Lnet/minecraftforge/event/entity/living/LivingFallEvent;)V",
+      "code_hex": "2cc7000e2d2db6007012716ab60075b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 45
+        },
+        {
+          "offset": 5,
+          "opcode": 45
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "getDamageMultiplier",
+            "()F"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 11,
+          "opcode": 106
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/entity/living/LivingFallEvent",
+            "setDamageMultiplier",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ExpeditionArmour.class",
+      "class_sha256": "3eece0220c71f9bf314e210592c57e1f3888e0d3cb1c4017c57a9a3b8175ba06",
+      "name": "onEffectTick",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Ljava/util/HashSet;)V",
+      "code_hex": "2cc700592bb6004f4e2dbb005d59b2007f02040403b70082b600862dbb005d59b2008902030403b70082b600862db20055b6005b3a041904c6000e1904b600601100faa200172dbb005d59b2005511012c030403b70082b60086b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            89
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "player",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 78
+        },
+        {
+          "offset": 9,
+          "opcode": 45
+        },
+        {
+          "offset": 10,
+          "opcode": 187,
+          "operands": [
+            0,
+            93
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 89
+        },
+        {
+          "offset": 14,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76424_c",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 21,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 45
+        },
+        {
+          "offset": 28,
+          "opcode": 187,
+          "operands": [
+            0,
+            93
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 89
+        },
+        {
+          "offset": 32,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76427_o",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 36,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 37,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 38,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 39,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 45
+        },
+        {
+          "offset": 46,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76439_r",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70660_b",
+            "(Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 198,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "func_76459_b",
+            "()I"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 17,
+          "constant": 250
+        },
+        {
+          "offset": 67,
+          "opcode": 162,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 45
+        },
+        {
+          "offset": 71,
+          "opcode": 187,
+          "operands": [
+            0,
+            93
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 89
+        },
+        {
+          "offset": 75,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76439_r",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 17,
+          "constant": 300
+        },
+        {
+          "offset": 81,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 82,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 83,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 84,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/packet/PacketExpeditionToggle$Handler.class",
+      "class_sha256": "23e8fd67ba24bee58b7e170f6de192d5f392ff4b6e4cc1c7c478523a8fdba0b4",
+      "name": "onMessage",
+      "descriptor": "(Lnet/tslat/aoa3/common/packet/PacketExpeditionToggle;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;",
+      "code_hex": "2cb6001eb40024b8002ab6002eb6003101b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/MessageContext",
+            "getServerHandler",
+            "()Lnet/minecraft/network/NetHandlerPlayServer;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/network/NetHandlerPlayServer",
+            "field_147369_b",
+            "Lnet/minecraft/entity/player/EntityPlayerMP;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "incrementExpeditionBoost",
+            "()V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer.class",
+      "class_sha256": "b1f115de07dbb21f8cc12983d72d4213923a72db8165561534c3ecc06a09a993",
+      "name": "func_73864_a",
+      "descriptor": "(III)V",
+      "code_hex": "2a1b1c1db70299b20079101460b2029cb4012c8613012d6e8db801331401346b8e603604b200761100aa60106404b2029cb4012c087060686036052ab4006f1505a100312ab4006f1505103e60a300252ab400711504a1001c2ab400711504103e60a30010b202a2bb02a459b702a5b602abb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 27
+        },
+        {
+          "offset": 2,
+          "opcode": 28
+        },
+        {
+          "offset": 3,
+          "opcode": 29
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/gui/GuiScreen",
+            "func_73864_a",
+            "(III)V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventMainGui",
+            "scaledTabRootY",
+            "I"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 12,
+          "opcode": 96
+        },
+        {
+          "offset": 13,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 134
+        },
+        {
+          "offset": 20,
+          "opcode": 19,
+          "constant": 5.0
+        },
+        {
+          "offset": 23,
+          "opcode": 110
+        },
+        {
+          "offset": 24,
+          "opcode": 141
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "floor",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 20,
+          "constant": 112.0
+        },
+        {
+          "offset": 31,
+          "opcode": 107
+        },
+        {
+          "offset": 32,
+          "opcode": 142
+        },
+        {
+          "offset": 33,
+          "opcode": 96
+        },
+        {
+          "offset": 34,
+          "opcode": 54,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventMainGui",
+            "scaledTabRootX",
+            "I"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 17,
+          "constant": 170
+        },
+        {
+          "offset": 42,
+          "opcode": 96
+        },
+        {
+          "offset": 43,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 53,
+          "opcode": 112
+        },
+        {
+          "offset": 54,
+          "opcode": 96
+        },
+        {
+          "offset": 55,
+          "opcode": 104
+        },
+        {
+          "offset": 56,
+          "opcode": 96
+        },
+        {
+          "offset": 57,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 42
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer",
+            "adjustedMouseX",
+            "I"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 161,
+          "operands": [
+            0,
+            49
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 42
+        },
+        {
+          "offset": 69,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer",
+            "adjustedMouseX",
+            "I"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 16,
+          "constant": 62
+        },
+        {
+          "offset": 76,
+          "opcode": 96
+        },
+        {
+          "offset": 77,
+          "opcode": 163,
+          "operands": [
+            0,
+            37
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 42
+        },
+        {
+          "offset": 81,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer",
+            "adjustedMouseY",
+            "I"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 161,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 42
+        },
+        {
+          "offset": 90,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/gui/mainwindow/AdventGuiTabPlayer",
+            "adjustedMouseY",
+            "I"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 16,
+          "constant": 62
+        },
+        {
+          "offset": 97,
+          "opcode": 96
+        },
+        {
+          "offset": 98,
+          "opcode": 163,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 187,
+          "operands": [
+            2,
+            164
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 89
+        },
+        {
+          "offset": 108,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketExpeditionToggle",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendToServer",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V"
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "utils/skills/ExpeditionUtil.java": "d0af82d37bc059c9c36828a8346f8cbafc177c94cd31df89a4f95abf1b51bf02",
+    "event/PlayerEvents.java": "c670109a2e49219d5f5ad3e9e821917c8dbb780e3a36900b9492bea9222b1b18",
+    "utils/player/PlayerDataManager.java": "e476fdffed48ccc03d6f0ead116b382a4ab8a80510e836d64b373623627d757f",
+    "utils/player/PlayerUtil.java": "9fd8d2896c1f31dec2e25df692b576d7b6889e5fed7f4aad5f9876845cba13c8",
+    "item/armour/ExpeditionArmour.java": "532dee1ad2f7bee52d8e58563bb73758b13e951c2356e5df9f70d3dbbe0282c6",
+    "common/packet/PacketExpeditionToggle.java": "fba34d9d7b9ac90d56af665fdaa633cb5648f64678ada4e95a7de62d1f6a5286",
+    "client/gui/mainwindow/AdventGuiTabPlayer.java": "728d07a1cf77748a816b9d98471bfebf109ee5dfb44c532b3016266b456f6325"
+  },
+  "level_models": [
+    {
+      "level": 1,
+      "xp_denominator": 22,
+      "base_xp": 2.5,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 1,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 2,
+      "xp_denominator": 22,
+      "base_xp": 2.75,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 2,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 3,
+      "xp_denominator": 22,
+      "base_xp": 3.0250000953674316,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 3,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 4,
+      "xp_denominator": 22,
+      "base_xp": 3.327500104904175,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 4,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 5,
+      "xp_denominator": 35,
+      "base_xp": 2.3007285594940186,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 5,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 6,
+      "xp_denominator": 35,
+      "base_xp": 2.530801296234131,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 6,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 7,
+      "xp_denominator": 35,
+      "base_xp": 2.783881425857544,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 7,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 8,
+      "xp_denominator": 35,
+      "base_xp": 3.062269926071167,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 8,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 9,
+      "xp_denominator": 35,
+      "base_xp": 3.3684966564178467,
+      "fall_multiplier": 1.0,
+      "successful_bonus_rolls": 9,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 10,
+      "xp_denominator": 45,
+      "base_xp": 2.8819360733032227,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 10,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 11,
+      "xp_denominator": 45,
+      "base_xp": 3.1701297760009766,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 11,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 12,
+      "xp_denominator": 45,
+      "base_xp": 3.487142562866211,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 12,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 13,
+      "xp_denominator": 45,
+      "base_xp": 3.8358569145202637,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 13,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 14,
+      "xp_denominator": 45,
+      "base_xp": 4.219442844390869,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 14,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 15,
+      "xp_denominator": 65,
+      "base_xp": 3.2132678031921387,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 15,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 16,
+      "xp_denominator": 65,
+      "base_xp": 3.5345945358276367,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 16,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 17,
+      "xp_denominator": 65,
+      "base_xp": 3.8880538940429688,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 17,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 18,
+      "xp_denominator": 65,
+      "base_xp": 4.276859760284424,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 18,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 19,
+      "xp_denominator": 65,
+      "base_xp": 4.704545021057129,
+      "fall_multiplier": 0.949999988079071,
+      "successful_bonus_rolls": 19,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 20,
+      "xp_denominator": 90,
+      "base_xp": 3.737499952316284,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 20,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 21,
+      "xp_denominator": 90,
+      "base_xp": 4.111249923706055,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 21,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 22,
+      "xp_denominator": 90,
+      "base_xp": 4.522374629974365,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 22,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 23,
+      "xp_denominator": 90,
+      "base_xp": 4.974612236022949,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 23,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 24,
+      "xp_denominator": 90,
+      "base_xp": 5.472073554992676,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 24,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 25,
+      "xp_denominator": 150,
+      "base_xp": 3.6115686893463135,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 25,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 26,
+      "xp_denominator": 150,
+      "base_xp": 3.9727253913879395,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 26,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 27,
+      "xp_denominator": 150,
+      "base_xp": 4.369997978210449,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 27,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 28,
+      "xp_denominator": 150,
+      "base_xp": 4.806997776031494,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 28,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 29,
+      "xp_denominator": 150,
+      "base_xp": 5.287697792053223,
+      "fall_multiplier": 0.8999999761581421,
+      "successful_bonus_rolls": 29,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 30,
+      "xp_denominator": 150,
+      "base_xp": 5.81646728515625,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 30,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 31,
+      "xp_denominator": 150,
+      "base_xp": 6.398114204406738,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 31,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 32,
+      "xp_denominator": 150,
+      "base_xp": 7.037925720214844,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 32,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 33,
+      "xp_denominator": 150,
+      "base_xp": 7.74171781539917,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 33,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 34,
+      "xp_denominator": 150,
+      "base_xp": 8.515890121459961,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 34,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 35,
+      "xp_denominator": 190,
+      "base_xp": 7.395378112792969,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 35,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 36,
+      "xp_denominator": 190,
+      "base_xp": 8.134916305541992,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 36,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 37,
+      "xp_denominator": 190,
+      "base_xp": 8.948407173156738,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 37,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 38,
+      "xp_denominator": 190,
+      "base_xp": 9.84324836730957,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 38,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 39,
+      "xp_denominator": 190,
+      "base_xp": 10.8275728225708,
+      "fall_multiplier": 0.8500000238418579,
+      "successful_bonus_rolls": 39,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 40,
+      "xp_denominator": 230,
+      "base_xp": 9.838969230651855,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 40,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 41,
+      "xp_denominator": 230,
+      "base_xp": 10.82286548614502,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 41,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 42,
+      "xp_denominator": 230,
+      "base_xp": 11.905152320861816,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 42,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 43,
+      "xp_denominator": 230,
+      "base_xp": 13.095666885375977,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 43,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 44,
+      "xp_denominator": 230,
+      "base_xp": 14.405234336853027,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 44,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 45,
+      "xp_denominator": 280,
+      "base_xp": 13.016158103942871,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 45,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 46,
+      "xp_denominator": 280,
+      "base_xp": 14.317773818969727,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 46,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 47,
+      "xp_denominator": 280,
+      "base_xp": 15.749549865722656,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 47,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 48,
+      "xp_denominator": 280,
+      "base_xp": 17.324506759643555,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 48,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 49,
+      "xp_denominator": 280,
+      "base_xp": 19.056955337524414,
+      "fall_multiplier": 0.800000011920929,
+      "successful_bonus_rolls": 49,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 50,
+      "xp_denominator": 360,
+      "base_xp": 16.304285049438477,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 50,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 51,
+      "xp_denominator": 360,
+      "base_xp": 17.93471336364746,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 51,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 52,
+      "xp_denominator": 360,
+      "base_xp": 19.72818374633789,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 52,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 53,
+      "xp_denominator": 360,
+      "base_xp": 21.701004028320312,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 53,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 54,
+      "xp_denominator": 360,
+      "base_xp": 23.871105194091797,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 54,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 55,
+      "xp_denominator": 450,
+      "base_xp": 21.00657081604004,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 55,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 56,
+      "xp_denominator": 450,
+      "base_xp": 23.107229232788086,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 56,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 57,
+      "xp_denominator": 450,
+      "base_xp": 25.417951583862305,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 57,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 58,
+      "xp_denominator": 450,
+      "base_xp": 27.959745407104492,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 58,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 59,
+      "xp_denominator": 450,
+      "base_xp": 30.755720138549805,
+      "fall_multiplier": 0.699999988079071,
+      "successful_bonus_rolls": 59,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 60,
+      "xp_denominator": 540,
+      "base_xp": 28.192745208740234,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 60,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 61,
+      "xp_denominator": 540,
+      "base_xp": 31.01201820373535,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 61,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 62,
+      "xp_denominator": 540,
+      "base_xp": 34.11322021484375,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 62,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 63,
+      "xp_denominator": 540,
+      "base_xp": 37.52454376220703,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 63,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 64,
+      "xp_denominator": 540,
+      "base_xp": 41.27699661254883,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 64,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 65,
+      "xp_denominator": 650,
+      "base_xp": 37.7208251953125,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 65,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 66,
+      "xp_denominator": 650,
+      "base_xp": 41.4929084777832,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 66,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 67,
+      "xp_denominator": 650,
+      "base_xp": 45.6422004699707,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 67,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 68,
+      "xp_denominator": 650,
+      "base_xp": 50.206417083740234,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 68,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 69,
+      "xp_denominator": 650,
+      "base_xp": 55.2270622253418,
+      "fall_multiplier": 0.6000000238418579,
+      "successful_bonus_rolls": 69,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 70,
+      "xp_denominator": 750,
+      "base_xp": 52.64979553222656,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 70,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 71,
+      "xp_denominator": 750,
+      "base_xp": 57.91477584838867,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 71,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 72,
+      "xp_denominator": 750,
+      "base_xp": 63.70625686645508,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 72,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 73,
+      "xp_denominator": 750,
+      "base_xp": 70.0768814086914,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 73,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 74,
+      "xp_denominator": 750,
+      "base_xp": 77.08456420898438,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 74,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 75,
+      "xp_denominator": 850,
+      "base_xp": 74.81737518310547,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 75,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 76,
+      "xp_denominator": 850,
+      "base_xp": 82.29911041259766,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 76,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 77,
+      "xp_denominator": 850,
+      "base_xp": 90.52902221679688,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 77,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 78,
+      "xp_denominator": 850,
+      "base_xp": 99.5819320678711,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 78,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 79,
+      "xp_denominator": 850,
+      "base_xp": 109.54012298583984,
+      "fall_multiplier": 0.5,
+      "successful_bonus_rolls": 79,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 80,
+      "xp_denominator": 950,
+      "base_xp": 107.81053161621094,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 80,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 81,
+      "xp_denominator": 950,
+      "base_xp": 118.59159851074219,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 81,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 82,
+      "xp_denominator": 950,
+      "base_xp": 130.45074462890625,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 82,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 83,
+      "xp_denominator": 950,
+      "base_xp": 143.49581909179688,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 83,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 84,
+      "xp_denominator": 950,
+      "base_xp": 157.8454132080078,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 84,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 85,
+      "xp_denominator": 1000,
+      "base_xp": 164.94845581054688,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 85,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 86,
+      "xp_denominator": 1000,
+      "base_xp": 181.44329833984375,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 86,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 87,
+      "xp_denominator": 1000,
+      "base_xp": 199.58763122558594,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 87,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 88,
+      "xp_denominator": 1000,
+      "base_xp": 219.54638671875,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 88,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 89,
+      "xp_denominator": 1000,
+      "base_xp": 241.50103759765625,
+      "fall_multiplier": 0.4000000059604645,
+      "successful_bonus_rolls": 89,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 90,
+      "xp_denominator": 1100,
+      "base_xp": 241.5010223388672,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 90,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 91,
+      "xp_denominator": 1100,
+      "base_xp": 265.651123046875,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 91,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 92,
+      "xp_denominator": 1100,
+      "base_xp": 292.21624755859375,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 92,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 93,
+      "xp_denominator": 1100,
+      "base_xp": 321.4378662109375,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 93,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 94,
+      "xp_denominator": 1100,
+      "base_xp": 353.5816345214844,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 94,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 95,
+      "xp_denominator": 1200,
+      "base_xp": 356.5281677246094,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 95,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 96,
+      "xp_denominator": 1200,
+      "base_xp": 392.1809997558594,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 96,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 97,
+      "xp_denominator": 1200,
+      "base_xp": 431.3990783691406,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 97,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 98,
+      "xp_denominator": 1200,
+      "base_xp": 474.53900146484375,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 98,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 99,
+      "xp_denominator": 1300,
+      "base_xp": 481.8396301269531,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 99,
+      "total_bonus_rolls": 110
+    },
+    {
+      "level": 100,
+      "xp_denominator": 1300,
+      "base_xp": 530.0235595703125,
+      "fall_multiplier": 0.30000001192092896,
+      "successful_bonus_rolls": 100,
+      "total_bonus_rolls": 110
+    }
+  ],
+  "toggle_models": [
+    {
+      "stored": 0,
+      "mode": 0,
+      "next": 1
+    },
+    {
+      "stored": 1,
+      "mode": 1,
+      "next": 2
+    },
+    {
+      "stored": 2,
+      "mode": 2,
+      "next": 3
+    },
+    {
+      "stored": 3,
+      "mode": 3,
+      "next": 0
+    },
+    {
+      "stored": 4,
+      "mode": 0,
+      "next": 5
+    },
+    {
+      "stored": 5,
+      "mode": 1,
+      "next": 6
+    },
+    {
+      "stored": 6,
+      "mode": 2,
+      "next": 7
+    },
+    {
+      "stored": 7,
+      "mode": 3,
+      "next": 4
+    }
+  ],
+  "limits": [
+    "Player-age tick multiples are not timers measured from the start of a sprint.",
+    "Outer running handler requires grounded, not riding, non-Creative server player at END phase.",
+    "Water-breathing branch inherits the grounded outer gate.",
+    "Skills-disabled getter returns effective level100 while addXp exits; bonus/fall paths need explicit configuration testing.",
+    "Fall multiplier is an input to remaining damage processing, not guaranteed health loss."
+  ]
+}
