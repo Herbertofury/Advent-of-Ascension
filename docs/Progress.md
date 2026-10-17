@@ -175,3 +175,9 @@ The modern trading reference now includes **55 base offers across seven vendor g
 The tutorial library now has **56 version-scoped illustrated routes**. Inventory cards retain prior how-to links and add this route: **306 links across 293 cards**, using a single precomputed inline lookup. All **82 local documentation regression checks pass**. These are documentation/source checks, not game tests or private-candidate certification.
 
 [Skill Master and Archaic Tokens](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1) · [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.21.1&vendor=vendor%3Askill_master)
+
+## Armor effects beside the previews · 2026-10-17
+
+All **48 ordinary set studies** now carry expandable released-tooltip descriptions, covering **100 effect lines**. The Armor Atelier searches effect wording as well as set names, with one precomputed search index and no added data requests. The new [activation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) separates intended tooltip text from nine checked callback routes and documents the Alacrity partial-set source mismatch without claiming a reproduced game bug.
+
+The tutorial library contains **57 illustrated routes**, with **83 passing local documentation checks**. Full interpretation of the remaining set callbacks, equipment-transition behavior and actual target-build combat/performance tests remain open. The existing owner-local runtime receipts retain their independent scope.

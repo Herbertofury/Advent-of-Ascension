@@ -149,3 +149,11 @@ Minecraft 1.21.1 / AoA 3.7.16.1 static audit adds ten released Skill Master offe
 Six tier reward tables and six parkour activity choices ship, but the inspected registry resources contain only five parkour-course records: tiers 1, 2, 3, 4 and 6. The checked course lookup returns failure when no matching course exists. A tier-five reward table therefore does not establish a playable tier-five route. This is a static completeness finding, not an observed game failure or a change to the private current candidate.
 
 Acceptance work: verify target-build entry and safe return, utility-lobby generation/NPC presence, all ten offers, completion versus death/exit reward gates, explicit tier-five handling, full-inventory delivery, discounts/restocking and reconnect persistence. Retain real item IDs and saves. Do not silently treat missing content as completed or grant reward tables without their intended course.
+
+## Armor tooltip versus callback scope · 1.21.1
+
+The checked 3.7.16.1 archive supplies 100 tooltip lines across all 48 ordinary armor sets. The [illustrated activation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) separates those descriptions from nine callback-level interpretations and preserves 194 released set methods plus 13 shared equipment/damage methods.
+
+Alacrity’s partial-set `handleIncomingDamage` method checks absence of `FULL_SET` and installs an armor-stage reduction using `equippedPieces.size × 0.2`, without a fall-source guard in that method. Its tooltip says fall resistance; the full-set invulnerability callback does check `IS_FALL`. This is a static scope mismatch, not a reproduced combat failure or a fix applied to the private current candidate.
+
+Acceptance: test one, two, three and four pieces with fall and non-fall damage; include compatible helmets and equipment requirements. Decide intended behavior before changing either code or tooltip. Preserve item/save identities and event-driven equipment tracking. Measure actual damage and performance rather than treating tooltip percentages as final damage reductions. [Released route audit](https://herbertofury.github.io/Advent-of-Ascension/armour-effect-route-audit-1.21.1.json).
