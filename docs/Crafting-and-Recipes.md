@@ -26,6 +26,17 @@
 
 **6,781 definition records** does not mean 6,781 distinct crafted items. Alternate recipes, optional-mod recipes and runtime-defined serializers are included. The legacy `_factories` metadata file is excluded from the recipe count.
 
+## From a weapon recipe to using it
+
+In the [Recipe Observatory](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.12.2), historical weapon recipe cards now include a **How to: Use historical … weapons** link. Crafting is only the first step: the linked guides explain the relevant ammunition, rune costs, firing or draw timing, revenge targets, melee inputs and special exceptions.
+
+- **256 recipe cards cover 255 weapon outputs across all 13 historical weapon families.** Alternate Grenade recipes remain separate cards.
+- Infusion and upgrade recipes keep their existing workstation instructions alongside the weapon usage link.
+- These usage links apply to **1.12.2 / AoA 3.3.6**. Selecting another release never substitutes a historical weapon guide for that release's behavior.
+- A missing recipe does **not** mean a weapon is unobtainable. Drops, trades and other acquisition paths are separate evidence; the [weapon reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) also includes weapons without a matching recipe definition.
+
+All previous recipe-guide links are retained. The browser uses a compact inline lookup, with no additional network request or inventory scan for these links.
+
 ## Illustrated walkthroughs
 
 - [Historical Infusion crafting and enchanting · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2): 386 definitions, separate base slot, 37 enchantment families and checked XP defaults.
