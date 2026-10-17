@@ -202,3 +202,7 @@ Eighteen selected AoA methods, four complete reward resources with **62 entries*
 - [Image provenance, including vanilla fish metadata variants](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hauling-fishing-art-evidence-1.12.2.json)
 - [Pinned upstream fishing-table injection](https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/common/registration/LootSystemRegister.java)
 - [Pinned upstream Hauling thresholds](https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/utils/skills/HaulingUtil.java)
+
+## Cook and use your catch
+
+[Compare all sixteen raw/cooked fish pairs and use the meal planner](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cooking-Fish-and-Hunger-Scaled-Healing-1.12.2). The shared cooked-fish healing callback scales its request by missing hunger before eating; the configured maximum is not guaranteed every meal.

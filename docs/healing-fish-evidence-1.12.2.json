@@ -1,0 +1,8347 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "32 released fish food declarations,16 smelting registrations and bounded 0\u201320 hunger/healing models. No game execution; actual health and saturation are capped and Forge hooks can intervene.",
+  "registration": {
+    "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+    "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+    "name": "registerItems",
+    "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+    "method_sha256": "16ebbe5311df2ed3cdac398dbf5a62c42e136401972f29edb70938d4c84ec067"
+  },
+  "records": [
+    {
+      "id": "aoa3:raw_candlefish",
+      "localization_key": "item.RawCandlefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.20000000298023224,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10223,
+          "opcode": 43
+        },
+        {
+          "offset": 10224,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10227,
+          "opcode": 89
+        },
+        {
+          "offset": 10228,
+          "opcode": 19,
+          "constant": "RawCandlefish"
+        },
+        {
+          "offset": 10231,
+          "opcode": 19,
+          "constant": "raw_candlefish"
+        },
+        {
+          "offset": 10234,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10235,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 10238,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10241,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10244,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10245,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10248,
+          "opcode": 89
+        },
+        {
+          "offset": 10249,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10250,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10253,
+          "opcode": 83
+        },
+        {
+          "offset": 10254,
+          "opcode": 89
+        },
+        {
+          "offset": 10255,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10256,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10259,
+          "opcode": 83
+        },
+        {
+          "offset": 10260,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.4000000059604645
+    },
+    {
+      "id": "aoa3:raw_crimson_skipper",
+      "localization_key": "item.RawCrimsonSkipper.name",
+      "hunger": 1,
+      "saturation_modifier": 0.15000000596046448,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10263,
+          "opcode": 43
+        },
+        {
+          "offset": 10264,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10267,
+          "opcode": 89
+        },
+        {
+          "offset": 10268,
+          "opcode": 19,
+          "constant": "RawCrimsonSkipper"
+        },
+        {
+          "offset": 10271,
+          "opcode": 19,
+          "constant": "raw_crimson_skipper"
+        },
+        {
+          "offset": 10274,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10275,
+          "opcode": 19,
+          "constant": 0.15000000596046448
+        },
+        {
+          "offset": 10278,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10281,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10284,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10285,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10288,
+          "opcode": 89
+        },
+        {
+          "offset": 10289,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10290,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10293,
+          "opcode": 83
+        },
+        {
+          "offset": 10294,
+          "opcode": 89
+        },
+        {
+          "offset": 10295,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10296,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10299,
+          "opcode": 83
+        },
+        {
+          "offset": 10300,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.30000001192092896
+    },
+    {
+      "id": "aoa3:raw_crimson_stripefish",
+      "localization_key": "item.RawCrimsonStripefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.10000000149011612,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10303,
+          "opcode": 43
+        },
+        {
+          "offset": 10304,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10307,
+          "opcode": 89
+        },
+        {
+          "offset": 10308,
+          "opcode": 19,
+          "constant": "RawCrimsonStripefish"
+        },
+        {
+          "offset": 10311,
+          "opcode": 19,
+          "constant": "raw_crimson_stripefish"
+        },
+        {
+          "offset": 10314,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10315,
+          "opcode": 19,
+          "constant": 0.10000000149011612
+        },
+        {
+          "offset": 10318,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10321,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10324,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10325,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10328,
+          "opcode": 89
+        },
+        {
+          "offset": 10329,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10330,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10333,
+          "opcode": 83
+        },
+        {
+          "offset": 10334,
+          "opcode": 89
+        },
+        {
+          "offset": 10335,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10336,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10339,
+          "opcode": 83
+        },
+        {
+          "offset": 10340,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.20000000298023224
+    },
+    {
+      "id": "aoa3:raw_dark_hatchetfish",
+      "localization_key": "item.RawDarkHatchetfish.name",
+      "hunger": 2,
+      "saturation_modifier": 0.20000000298023224,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10343,
+          "opcode": 43
+        },
+        {
+          "offset": 10344,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10347,
+          "opcode": 89
+        },
+        {
+          "offset": 10348,
+          "opcode": 19,
+          "constant": "RawDarkHatchetfish"
+        },
+        {
+          "offset": 10351,
+          "opcode": 19,
+          "constant": "raw_dark_hatchetfish"
+        },
+        {
+          "offset": 10354,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10355,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 10358,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10361,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10364,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10365,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10368,
+          "opcode": 89
+        },
+        {
+          "offset": 10369,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10370,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10373,
+          "opcode": 83
+        },
+        {
+          "offset": 10374,
+          "opcode": 89
+        },
+        {
+          "offset": 10375,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10376,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10379,
+          "opcode": 83
+        },
+        {
+          "offset": 10380,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.800000011920929
+    },
+    {
+      "id": "aoa3:raw_fingerfish",
+      "localization_key": "item.RawFingerfish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.0,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10383,
+          "opcode": 43
+        },
+        {
+          "offset": 10384,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10387,
+          "opcode": 89
+        },
+        {
+          "offset": 10388,
+          "opcode": 19,
+          "constant": "RawFingerfish"
+        },
+        {
+          "offset": 10391,
+          "opcode": 19,
+          "constant": "raw_fingerfish"
+        },
+        {
+          "offset": 10394,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10395,
+          "opcode": 11
+        },
+        {
+          "offset": 10396,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10399,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10402,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10403,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10406,
+          "opcode": 89
+        },
+        {
+          "offset": 10407,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10408,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10411,
+          "opcode": 83
+        },
+        {
+          "offset": 10412,
+          "opcode": 89
+        },
+        {
+          "offset": 10413,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10414,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10417,
+          "opcode": 83
+        },
+        {
+          "offset": 10418,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.0
+    },
+    {
+      "id": "aoa3:raw_golden_gullfish",
+      "localization_key": "item.RawGoldenGullfish.name",
+      "hunger": 2,
+      "saturation_modifier": 0.10000000149011612,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10421,
+          "opcode": 43
+        },
+        {
+          "offset": 10422,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10425,
+          "opcode": 89
+        },
+        {
+          "offset": 10426,
+          "opcode": 19,
+          "constant": "RawGoldenGullfish"
+        },
+        {
+          "offset": 10429,
+          "opcode": 19,
+          "constant": "raw_golden_gullfish"
+        },
+        {
+          "offset": 10432,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10433,
+          "opcode": 19,
+          "constant": 0.10000000149011612
+        },
+        {
+          "offset": 10436,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10439,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10442,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10443,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10446,
+          "opcode": 89
+        },
+        {
+          "offset": 10447,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10448,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10451,
+          "opcode": 83
+        },
+        {
+          "offset": 10452,
+          "opcode": 89
+        },
+        {
+          "offset": 10453,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10454,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10457,
+          "opcode": 83
+        },
+        {
+          "offset": 10458,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.4000000059604645
+    },
+    {
+      "id": "aoa3:raw_ironback",
+      "localization_key": "item.RawIronback.name",
+      "hunger": 3,
+      "saturation_modifier": 0.30000001192092896,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10461,
+          "opcode": 43
+        },
+        {
+          "offset": 10462,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10465,
+          "opcode": 89
+        },
+        {
+          "offset": 10466,
+          "opcode": 19,
+          "constant": "RawIronback"
+        },
+        {
+          "offset": 10469,
+          "opcode": 19,
+          "constant": "raw_ironback"
+        },
+        {
+          "offset": 10472,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 10473,
+          "opcode": 19,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10476,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10479,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10482,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10483,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10486,
+          "opcode": 89
+        },
+        {
+          "offset": 10487,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10488,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10491,
+          "opcode": 83
+        },
+        {
+          "offset": 10492,
+          "opcode": 89
+        },
+        {
+          "offset": 10493,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10494,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10497,
+          "opcode": 83
+        },
+        {
+          "offset": 10498,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 1.8000000715255737
+    },
+    {
+      "id": "aoa3:raw_limefish",
+      "localization_key": "item.RawLimefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.15000000596046448,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10501,
+          "opcode": 43
+        },
+        {
+          "offset": 10502,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10505,
+          "opcode": 89
+        },
+        {
+          "offset": 10506,
+          "opcode": 19,
+          "constant": "RawLimefish"
+        },
+        {
+          "offset": 10509,
+          "opcode": 19,
+          "constant": "raw_limefish"
+        },
+        {
+          "offset": 10512,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10513,
+          "opcode": 19,
+          "constant": 0.15000000596046448
+        },
+        {
+          "offset": 10516,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10519,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10522,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10523,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10526,
+          "opcode": 89
+        },
+        {
+          "offset": 10527,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10528,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10531,
+          "opcode": 83
+        },
+        {
+          "offset": 10532,
+          "opcode": 89
+        },
+        {
+          "offset": 10533,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10534,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10537,
+          "opcode": 83
+        },
+        {
+          "offset": 10538,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.30000001192092896
+    },
+    {
+      "id": "aoa3:raw_pearl_stripefish",
+      "localization_key": "item.RawPearlStripefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.05000000074505806,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10541,
+          "opcode": 43
+        },
+        {
+          "offset": 10542,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10545,
+          "opcode": 89
+        },
+        {
+          "offset": 10546,
+          "opcode": 19,
+          "constant": "RawPearlStripefish"
+        },
+        {
+          "offset": 10549,
+          "opcode": 19,
+          "constant": "raw_pearl_stripefish"
+        },
+        {
+          "offset": 10552,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10553,
+          "opcode": 19,
+          "constant": 0.05000000074505806
+        },
+        {
+          "offset": 10556,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10559,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10562,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10563,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10566,
+          "opcode": 89
+        },
+        {
+          "offset": 10567,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10568,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10571,
+          "opcode": 83
+        },
+        {
+          "offset": 10572,
+          "opcode": 89
+        },
+        {
+          "offset": 10573,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10574,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10577,
+          "opcode": 83
+        },
+        {
+          "offset": 10578,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.10000000149011612
+    },
+    {
+      "id": "aoa3:raw_rainbowfish",
+      "localization_key": "item.RawRainbowfish.name",
+      "hunger": 3,
+      "saturation_modifier": 0.8500000238418579,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10581,
+          "opcode": 43
+        },
+        {
+          "offset": 10582,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10585,
+          "opcode": 89
+        },
+        {
+          "offset": 10586,
+          "opcode": 19,
+          "constant": "RawRainbowfish"
+        },
+        {
+          "offset": 10589,
+          "opcode": 19,
+          "constant": "raw_rainbowfish"
+        },
+        {
+          "offset": 10592,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 10593,
+          "opcode": 19,
+          "constant": 0.8500000238418579
+        },
+        {
+          "offset": 10596,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10599,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10602,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10603,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10606,
+          "opcode": 89
+        },
+        {
+          "offset": 10607,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10608,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10611,
+          "opcode": 83
+        },
+        {
+          "offset": 10612,
+          "opcode": 89
+        },
+        {
+          "offset": 10613,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10614,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10617,
+          "opcode": 83
+        },
+        {
+          "offset": 10618,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 5.100000381469727
+    },
+    {
+      "id": "aoa3:raw_razorfish",
+      "localization_key": "item.RawRazorfish.name",
+      "hunger": 3,
+      "saturation_modifier": 0.30000001192092896,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10621,
+          "opcode": 43
+        },
+        {
+          "offset": 10622,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10625,
+          "opcode": 89
+        },
+        {
+          "offset": 10626,
+          "opcode": 19,
+          "constant": "RawRazorfish"
+        },
+        {
+          "offset": 10629,
+          "opcode": 19,
+          "constant": "raw_razorfish"
+        },
+        {
+          "offset": 10632,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 10633,
+          "opcode": 19,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10636,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10639,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10642,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10643,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10646,
+          "opcode": 89
+        },
+        {
+          "offset": 10647,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10648,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10651,
+          "opcode": 83
+        },
+        {
+          "offset": 10652,
+          "opcode": 89
+        },
+        {
+          "offset": 10653,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10654,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10657,
+          "opcode": 83
+        },
+        {
+          "offset": 10658,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 1.8000000715255737
+    },
+    {
+      "id": "aoa3:raw_rocketfish",
+      "localization_key": "item.RawRocketfish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.15000000596046448,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10661,
+          "opcode": 43
+        },
+        {
+          "offset": 10662,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10665,
+          "opcode": 89
+        },
+        {
+          "offset": 10666,
+          "opcode": 19,
+          "constant": "RawRocketfish"
+        },
+        {
+          "offset": 10669,
+          "opcode": 19,
+          "constant": "raw_rocketfish"
+        },
+        {
+          "offset": 10672,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10673,
+          "opcode": 19,
+          "constant": 0.15000000596046448
+        },
+        {
+          "offset": 10676,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10679,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10682,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10683,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10686,
+          "opcode": 89
+        },
+        {
+          "offset": 10687,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10688,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10691,
+          "opcode": 83
+        },
+        {
+          "offset": 10692,
+          "opcode": 89
+        },
+        {
+          "offset": 10693,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10694,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10697,
+          "opcode": 83
+        },
+        {
+          "offset": 10698,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.30000001192092896
+    },
+    {
+      "id": "aoa3:raw_sailback",
+      "localization_key": "item.RawSailback.name",
+      "hunger": 1,
+      "saturation_modifier": 0.10000000149011612,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10701,
+          "opcode": 43
+        },
+        {
+          "offset": 10702,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10705,
+          "opcode": 89
+        },
+        {
+          "offset": 10706,
+          "opcode": 19,
+          "constant": "RawSailback"
+        },
+        {
+          "offset": 10709,
+          "opcode": 19,
+          "constant": "raw_sailback"
+        },
+        {
+          "offset": 10712,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10713,
+          "opcode": 19,
+          "constant": 0.10000000149011612
+        },
+        {
+          "offset": 10716,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10719,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10722,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10723,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10726,
+          "opcode": 89
+        },
+        {
+          "offset": 10727,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10728,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10731,
+          "opcode": 83
+        },
+        {
+          "offset": 10732,
+          "opcode": 89
+        },
+        {
+          "offset": 10733,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10734,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10737,
+          "opcode": 83
+        },
+        {
+          "offset": 10738,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.20000000298023224
+    },
+    {
+      "id": "aoa3:raw_sapphire_strider",
+      "localization_key": "item.RawSapphireStrider.name",
+      "hunger": 2,
+      "saturation_modifier": 0.20000000298023224,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10741,
+          "opcode": 43
+        },
+        {
+          "offset": 10742,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10745,
+          "opcode": 89
+        },
+        {
+          "offset": 10746,
+          "opcode": 19,
+          "constant": "RawSapphireStrider"
+        },
+        {
+          "offset": 10749,
+          "opcode": 19,
+          "constant": "raw_sapphire_strider"
+        },
+        {
+          "offset": 10752,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10753,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 10756,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10759,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10762,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10763,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10766,
+          "opcode": 89
+        },
+        {
+          "offset": 10767,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10768,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10771,
+          "opcode": 83
+        },
+        {
+          "offset": 10772,
+          "opcode": 89
+        },
+        {
+          "offset": 10773,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10774,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10777,
+          "opcode": 83
+        },
+        {
+          "offset": 10778,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.800000011920929
+    },
+    {
+      "id": "aoa3:raw_turquoise_stripefish",
+      "localization_key": "item.RawTurquoiseStripefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.15000000596046448,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10781,
+          "opcode": 43
+        },
+        {
+          "offset": 10782,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10785,
+          "opcode": 89
+        },
+        {
+          "offset": 10786,
+          "opcode": 19,
+          "constant": "RawTurquoiseStripefish"
+        },
+        {
+          "offset": 10789,
+          "opcode": 19,
+          "constant": "raw_turquoise_stripefish"
+        },
+        {
+          "offset": 10792,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10793,
+          "opcode": 19,
+          "constant": 0.15000000596046448
+        },
+        {
+          "offset": 10796,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10799,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10802,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10803,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10806,
+          "opcode": 89
+        },
+        {
+          "offset": 10807,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10808,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10811,
+          "opcode": 83
+        },
+        {
+          "offset": 10812,
+          "opcode": 89
+        },
+        {
+          "offset": 10813,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10814,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10817,
+          "opcode": 83
+        },
+        {
+          "offset": 10818,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.30000001192092896
+    },
+    {
+      "id": "aoa3:raw_violet_skipper",
+      "localization_key": "item.RawVioletSkipper.name",
+      "hunger": 1,
+      "saturation_modifier": 0.20000000298023224,
+      "maximum_healing": 0,
+      "cooked": false,
+      "constructor": [
+        "net/tslat/aoa3/item/food/BasicFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IF)V"
+      ],
+      "window": [
+        {
+          "offset": 10821,
+          "opcode": 43
+        },
+        {
+          "offset": 10822,
+          "opcode": 187,
+          "operands": [
+            10,
+            178
+          ]
+        },
+        {
+          "offset": 10825,
+          "opcode": 89
+        },
+        {
+          "offset": 10826,
+          "opcode": 19,
+          "constant": "RawVioletSkipper"
+        },
+        {
+          "offset": 10829,
+          "opcode": 19,
+          "constant": "raw_violet_skipper"
+        },
+        {
+          "offset": 10832,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10833,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 10836,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 10839,
+          "opcode": 19,
+          "constant": "food/fish/raw/"
+        },
+        {
+          "offset": 10842,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 10843,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10846,
+          "opcode": 89
+        },
+        {
+          "offset": 10847,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10848,
+          "opcode": 19,
+          "constant": "listAllfishfresh"
+        },
+        {
+          "offset": 10851,
+          "opcode": 83
+        },
+        {
+          "offset": 10852,
+          "opcode": 89
+        },
+        {
+          "offset": 10853,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10854,
+          "opcode": 19,
+          "constant": "listAllfishraw"
+        },
+        {
+          "offset": 10857,
+          "opcode": 83
+        },
+        {
+          "offset": 10858,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.4000000059604645
+    },
+    {
+      "id": "aoa3:candlefish",
+      "localization_key": "item.Candlefish.name",
+      "hunger": 6,
+      "saturation_modifier": 0.699999988079071,
+      "maximum_healing": 7.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 10861,
+          "opcode": 43
+        },
+        {
+          "offset": 10862,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 10865,
+          "opcode": 89
+        },
+        {
+          "offset": 10866,
+          "opcode": 19,
+          "constant": "Candlefish"
+        },
+        {
+          "offset": 10869,
+          "opcode": 19,
+          "constant": "candlefish"
+        },
+        {
+          "offset": 10872,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 10874,
+          "opcode": 19,
+          "constant": 0.699999988079071
+        },
+        {
+          "offset": 10877,
+          "opcode": 19,
+          "constant": 7.0
+        },
+        {
+          "offset": 10880,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 10883,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 10886,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10887,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10890,
+          "opcode": 89
+        },
+        {
+          "offset": 10891,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10892,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 10895,
+          "opcode": 83
+        },
+        {
+          "offset": 10896,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 8.399999618530273
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "localization_key": "item.CrimsonSkipper.name",
+      "hunger": 5,
+      "saturation_modifier": 0.6000000238418579,
+      "maximum_healing": 6.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 10899,
+          "opcode": 43
+        },
+        {
+          "offset": 10900,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 10903,
+          "opcode": 89
+        },
+        {
+          "offset": 10904,
+          "opcode": 19,
+          "constant": "CrimsonSkipper"
+        },
+        {
+          "offset": 10907,
+          "opcode": 19,
+          "constant": "crimson_skipper"
+        },
+        {
+          "offset": 10910,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 10911,
+          "opcode": 19,
+          "constant": 0.6000000238418579
+        },
+        {
+          "offset": 10914,
+          "opcode": 19,
+          "constant": 6.0
+        },
+        {
+          "offset": 10917,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 10920,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 10923,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10924,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10927,
+          "opcode": 89
+        },
+        {
+          "offset": 10928,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10929,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 10932,
+          "opcode": 83
+        },
+        {
+          "offset": 10933,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "localization_key": "item.CrimsonStripefish.name",
+      "hunger": 4,
+      "saturation_modifier": 0.5,
+      "maximum_healing": 5.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 10936,
+          "opcode": 43
+        },
+        {
+          "offset": 10937,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 10940,
+          "opcode": 89
+        },
+        {
+          "offset": 10941,
+          "opcode": 19,
+          "constant": "CrimsonStripefish"
+        },
+        {
+          "offset": 10944,
+          "opcode": 19,
+          "constant": "crimson_stripefish"
+        },
+        {
+          "offset": 10947,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 10948,
+          "opcode": 19,
+          "constant": 0.5
+        },
+        {
+          "offset": 10951,
+          "opcode": 19,
+          "constant": 5.0
+        },
+        {
+          "offset": 10954,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 10957,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 10960,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10961,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 10964,
+          "opcode": 89
+        },
+        {
+          "offset": 10965,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10966,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 10969,
+          "opcode": 83
+        },
+        {
+          "offset": 10970,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 4.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "localization_key": "item.DarkHatchetfish.name",
+      "hunger": 7,
+      "saturation_modifier": 0.75,
+      "maximum_healing": 8.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 10973,
+          "opcode": 43
+        },
+        {
+          "offset": 10974,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 10977,
+          "opcode": 89
+        },
+        {
+          "offset": 10978,
+          "opcode": 19,
+          "constant": "DarkHatchetfish"
+        },
+        {
+          "offset": 10981,
+          "opcode": 19,
+          "constant": "dark_hatchetfish"
+        },
+        {
+          "offset": 10984,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 10986,
+          "opcode": 19,
+          "constant": 0.75
+        },
+        {
+          "offset": 10989,
+          "opcode": 19,
+          "constant": 8.0
+        },
+        {
+          "offset": 10992,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 10995,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 10998,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10999,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11002,
+          "opcode": 89
+        },
+        {
+          "offset": 11003,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11004,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11007,
+          "opcode": 83
+        },
+        {
+          "offset": 11008,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 10.5
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "localization_key": "item.Fingerfish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.20000000298023224,
+      "maximum_healing": 1.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11011,
+          "opcode": 43
+        },
+        {
+          "offset": 11012,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11015,
+          "opcode": 89
+        },
+        {
+          "offset": 11016,
+          "opcode": 19,
+          "constant": "Fingerfish"
+        },
+        {
+          "offset": 11019,
+          "opcode": 19,
+          "constant": "fingerfish"
+        },
+        {
+          "offset": 11022,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11023,
+          "opcode": 19,
+          "constant": 0.20000000298023224
+        },
+        {
+          "offset": 11026,
+          "opcode": 12
+        },
+        {
+          "offset": 11027,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11030,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11033,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11034,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11037,
+          "opcode": 89
+        },
+        {
+          "offset": 11038,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11039,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11042,
+          "opcode": 83
+        },
+        {
+          "offset": 11043,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.4000000059604645
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "localization_key": "item.GoldenGullfish.name",
+      "hunger": 2,
+      "saturation_modifier": 0.4000000059604645,
+      "maximum_healing": 3.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11046,
+          "opcode": 43
+        },
+        {
+          "offset": 11047,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11050,
+          "opcode": 89
+        },
+        {
+          "offset": 11051,
+          "opcode": 19,
+          "constant": "GoldenGullfish"
+        },
+        {
+          "offset": 11054,
+          "opcode": 19,
+          "constant": "golden_gullfish"
+        },
+        {
+          "offset": 11057,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 11058,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 11061,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 11064,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11067,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11070,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11071,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11074,
+          "opcode": 89
+        },
+        {
+          "offset": 11075,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11076,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11079,
+          "opcode": 83
+        },
+        {
+          "offset": 11080,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 1.600000023841858
+    },
+    {
+      "id": "aoa3:ironback",
+      "localization_key": "item.Ironback.name",
+      "hunger": 8,
+      "saturation_modifier": 0.800000011920929,
+      "maximum_healing": 9.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11083,
+          "opcode": 43
+        },
+        {
+          "offset": 11084,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11087,
+          "opcode": 89
+        },
+        {
+          "offset": 11088,
+          "opcode": 19,
+          "constant": "Ironback"
+        },
+        {
+          "offset": 11091,
+          "opcode": 19,
+          "constant": "ironback"
+        },
+        {
+          "offset": 11094,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 11096,
+          "opcode": 19,
+          "constant": 0.800000011920929
+        },
+        {
+          "offset": 11099,
+          "opcode": 19,
+          "constant": 9.0
+        },
+        {
+          "offset": 11102,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11105,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11108,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11109,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11112,
+          "opcode": 89
+        },
+        {
+          "offset": 11113,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11114,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11117,
+          "opcode": 83
+        },
+        {
+          "offset": 11118,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 12.800000190734863
+    },
+    {
+      "id": "aoa3:limefish",
+      "localization_key": "item.Limefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.3499999940395355,
+      "maximum_healing": 2.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11121,
+          "opcode": 43
+        },
+        {
+          "offset": 11122,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11125,
+          "opcode": 89
+        },
+        {
+          "offset": 11126,
+          "opcode": 19,
+          "constant": "Limefish"
+        },
+        {
+          "offset": 11129,
+          "opcode": 19,
+          "constant": "limefish"
+        },
+        {
+          "offset": 11132,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11133,
+          "opcode": 19,
+          "constant": 0.3499999940395355
+        },
+        {
+          "offset": 11136,
+          "opcode": 13
+        },
+        {
+          "offset": 11137,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11140,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11143,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11144,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11147,
+          "opcode": 89
+        },
+        {
+          "offset": 11148,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11149,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11152,
+          "opcode": 83
+        },
+        {
+          "offset": 11153,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.699999988079071
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "localization_key": "item.PearlStripefish.name",
+      "hunger": 1,
+      "saturation_modifier": 0.3499999940395355,
+      "maximum_healing": 1.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11156,
+          "opcode": 43
+        },
+        {
+          "offset": 11157,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11160,
+          "opcode": 89
+        },
+        {
+          "offset": 11161,
+          "opcode": 19,
+          "constant": "PearlStripefish"
+        },
+        {
+          "offset": 11164,
+          "opcode": 19,
+          "constant": "pearl_stripefish"
+        },
+        {
+          "offset": 11167,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11168,
+          "opcode": 19,
+          "constant": 0.3499999940395355
+        },
+        {
+          "offset": 11171,
+          "opcode": 12
+        },
+        {
+          "offset": 11172,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11175,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11178,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11179,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11182,
+          "opcode": 89
+        },
+        {
+          "offset": 11183,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11184,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11187,
+          "opcode": 83
+        },
+        {
+          "offset": 11188,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 0.699999988079071
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "localization_key": "item.Rainbowfish.name",
+      "hunger": 9,
+      "saturation_modifier": 0.8500000238418579,
+      "maximum_healing": 10.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11191,
+          "opcode": 43
+        },
+        {
+          "offset": 11192,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11195,
+          "opcode": 89
+        },
+        {
+          "offset": 11196,
+          "opcode": 19,
+          "constant": "Rainbowfish"
+        },
+        {
+          "offset": 11199,
+          "opcode": 19,
+          "constant": "rainbowfish"
+        },
+        {
+          "offset": 11202,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 11204,
+          "opcode": 19,
+          "constant": 0.8500000238418579
+        },
+        {
+          "offset": 11207,
+          "opcode": 19,
+          "constant": 10.0
+        },
+        {
+          "offset": 11210,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11213,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11216,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11217,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11220,
+          "opcode": 89
+        },
+        {
+          "offset": 11221,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11222,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11225,
+          "opcode": 83
+        },
+        {
+          "offset": 11226,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 15.300000190734863
+    },
+    {
+      "id": "aoa3:razorfish",
+      "localization_key": "item.Razorfish.name",
+      "hunger": 9,
+      "saturation_modifier": 0.8500000238418579,
+      "maximum_healing": 10.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11229,
+          "opcode": 43
+        },
+        {
+          "offset": 11230,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11233,
+          "opcode": 89
+        },
+        {
+          "offset": 11234,
+          "opcode": 19,
+          "constant": "Razorfish"
+        },
+        {
+          "offset": 11237,
+          "opcode": 19,
+          "constant": "razorfish"
+        },
+        {
+          "offset": 11240,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 11242,
+          "opcode": 19,
+          "constant": 0.8500000238418579
+        },
+        {
+          "offset": 11245,
+          "opcode": 19,
+          "constant": 10.0
+        },
+        {
+          "offset": 11248,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11251,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11254,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11255,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11258,
+          "opcode": 89
+        },
+        {
+          "offset": 11259,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11260,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11263,
+          "opcode": 83
+        },
+        {
+          "offset": 11264,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 15.300000190734863
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "localization_key": "item.Rocketfish.name",
+      "hunger": 4,
+      "saturation_modifier": 0.5,
+      "maximum_healing": 5.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11267,
+          "opcode": 43
+        },
+        {
+          "offset": 11268,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11271,
+          "opcode": 89
+        },
+        {
+          "offset": 11272,
+          "opcode": 19,
+          "constant": "Rocketfish"
+        },
+        {
+          "offset": 11275,
+          "opcode": 19,
+          "constant": "rocketfish"
+        },
+        {
+          "offset": 11278,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 11279,
+          "opcode": 19,
+          "constant": 0.5
+        },
+        {
+          "offset": 11282,
+          "opcode": 19,
+          "constant": 5.0
+        },
+        {
+          "offset": 11285,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11288,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11291,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11292,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11295,
+          "opcode": 89
+        },
+        {
+          "offset": 11296,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11297,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11300,
+          "opcode": 83
+        },
+        {
+          "offset": 11301,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 4.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "localization_key": "item.Sailback.name",
+      "hunger": 2,
+      "saturation_modifier": 0.4000000059604645,
+      "maximum_healing": 2.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11304,
+          "opcode": 43
+        },
+        {
+          "offset": 11305,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11308,
+          "opcode": 89
+        },
+        {
+          "offset": 11309,
+          "opcode": 19,
+          "constant": "Sailback"
+        },
+        {
+          "offset": 11312,
+          "opcode": 19,
+          "constant": "sailback"
+        },
+        {
+          "offset": 11315,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 11316,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 11319,
+          "opcode": 13
+        },
+        {
+          "offset": 11320,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11323,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11326,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11327,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11330,
+          "opcode": 89
+        },
+        {
+          "offset": 11331,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11332,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11335,
+          "opcode": 83
+        },
+        {
+          "offset": 11336,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 1.600000023841858
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "localization_key": "item.SapphireStrider.name",
+      "hunger": 6,
+      "saturation_modifier": 0.6499999761581421,
+      "maximum_healing": 6.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11339,
+          "opcode": 43
+        },
+        {
+          "offset": 11340,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11343,
+          "opcode": 89
+        },
+        {
+          "offset": 11344,
+          "opcode": 19,
+          "constant": "SapphireStrider"
+        },
+        {
+          "offset": 11347,
+          "opcode": 19,
+          "constant": "sapphire_strider"
+        },
+        {
+          "offset": 11350,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 11352,
+          "opcode": 19,
+          "constant": 0.6499999761581421
+        },
+        {
+          "offset": 11355,
+          "opcode": 19,
+          "constant": 6.0
+        },
+        {
+          "offset": 11358,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11361,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11364,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11365,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11368,
+          "opcode": 89
+        },
+        {
+          "offset": 11369,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11370,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11373,
+          "opcode": 83
+        },
+        {
+          "offset": 11374,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 7.799999713897705
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "localization_key": "item.TurquoiseStripefish.name",
+      "hunger": 2,
+      "saturation_modifier": 0.4000000059604645,
+      "maximum_healing": 4.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11377,
+          "opcode": 43
+        },
+        {
+          "offset": 11378,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11381,
+          "opcode": 89
+        },
+        {
+          "offset": 11382,
+          "opcode": 19,
+          "constant": "TurquoiseStripefish"
+        },
+        {
+          "offset": 11385,
+          "opcode": 19,
+          "constant": "turquoise_stripefish"
+        },
+        {
+          "offset": 11388,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 11389,
+          "opcode": 19,
+          "constant": 0.4000000059604645
+        },
+        {
+          "offset": 11392,
+          "opcode": 19,
+          "constant": 4.0
+        },
+        {
+          "offset": 11395,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11398,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11401,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11402,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11405,
+          "opcode": 89
+        },
+        {
+          "offset": 11406,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11407,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11410,
+          "opcode": 83
+        },
+        {
+          "offset": 11411,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 1.600000023841858
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "localization_key": "item.VioletSkipper.name",
+      "hunger": 3,
+      "saturation_modifier": 0.5,
+      "maximum_healing": 4.0,
+      "cooked": true,
+      "constructor": [
+        "net/tslat/aoa3/item/food/HealingFishFood",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+      ],
+      "window": [
+        {
+          "offset": 11414,
+          "opcode": 43
+        },
+        {
+          "offset": 11415,
+          "opcode": 187,
+          "operands": [
+            11,
+            1
+          ]
+        },
+        {
+          "offset": 11418,
+          "opcode": 89
+        },
+        {
+          "offset": 11419,
+          "opcode": 19,
+          "constant": "VioletSkipper"
+        },
+        {
+          "offset": 11422,
+          "opcode": 19,
+          "constant": "violet_skipper"
+        },
+        {
+          "offset": 11425,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 11426,
+          "opcode": 19,
+          "constant": 0.5
+        },
+        {
+          "offset": 11429,
+          "opcode": 19,
+          "constant": 4.0
+        },
+        {
+          "offset": 11432,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFishFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11435,
+          "opcode": 19,
+          "constant": "food/fish/"
+        },
+        {
+          "offset": 11438,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 11439,
+          "opcode": 189,
+          "operands": [
+            2,
+            121
+          ]
+        },
+        {
+          "offset": 11442,
+          "opcode": 89
+        },
+        {
+          "offset": 11443,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11444,
+          "opcode": 19,
+          "constant": "listAllfishcooked"
+        },
+        {
+          "offset": 11447,
+          "opcode": 83
+        },
+        {
+          "offset": 11448,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "registerItem",
+            "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/item/Item;Ljava/lang/String;[Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "saturation_request": 3.0
+    }
+  ],
+  "smelting_method": {
+    "class_path": "net/tslat/aoa3/common/registration/RecipeRegister.class",
+    "class_sha256": "d674b4d13282b2271ad08602705b5bd55846366909846bf6031b56f2032ce1b6",
+    "name": "registerRecipes",
+    "descriptor": "()V",
+    "method_sha256": "262809a89d83cedb8235dc5887f4a6673b45dae7f099433bf3948f0415b4baa7"
+  },
+  "smelts": [
+    {
+      "input": "aoa3:raw_candlefish",
+      "output": "aoa3:candlefish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 594,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_CANDLEFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 597,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 600,
+          "opcode": 89
+        },
+        {
+          "offset": 601,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CANDLEFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 604,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 607,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 609,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_crimson_skipper",
+      "output": "aoa3:crimson_skipper",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 648,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_CRIMSON_SKIPPER",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 651,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 654,
+          "opcode": 89
+        },
+        {
+          "offset": 655,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CRIMSON_SKIPPER",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 658,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 661,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 663,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_crimson_stripefish",
+      "output": "aoa3:crimson_stripefish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 666,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_CRIMSON_STRIPEFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 669,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 672,
+          "opcode": 89
+        },
+        {
+          "offset": 673,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CRIMSON_STRIPEFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 676,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 679,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 681,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_dark_hatchetfish",
+      "output": "aoa3:dark_hatchetfish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 684,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_DARK_HATCHETFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 687,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 690,
+          "opcode": 89
+        },
+        {
+          "offset": 691,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DARK_HATCHETFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 694,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 697,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 699,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_fingerfish",
+      "output": "aoa3:fingerfish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 702,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_FINGERFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 705,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 708,
+          "opcode": 89
+        },
+        {
+          "offset": 709,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "FINGERFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 712,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 715,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 717,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_golden_gullfish",
+      "output": "aoa3:golden_gullfish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 738,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_GOLDEN_GULLFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 741,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 744,
+          "opcode": 89
+        },
+        {
+          "offset": 745,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "GOLDEN_GULLFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 748,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 751,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 753,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_ironback",
+      "output": "aoa3:ironback",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 791,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_IRONBACK",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 794,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 797,
+          "opcode": 89
+        },
+        {
+          "offset": 798,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "IRONBACK",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 801,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 804,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 806,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_limefish",
+      "output": "aoa3:limefish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 809,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_LIMEFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 812,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 815,
+          "opcode": 89
+        },
+        {
+          "offset": 816,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LIMEFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 819,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 822,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 824,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_pearl_stripefish",
+      "output": "aoa3:pearl_stripefish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 827,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_PEARL_STRIPEFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 830,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 833,
+          "opcode": 89
+        },
+        {
+          "offset": 834,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "PEARL_STRIPEFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 837,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 840,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 842,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_rainbowfish",
+      "output": "aoa3:rainbowfish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 845,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_RAINBOWFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 848,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 851,
+          "opcode": 89
+        },
+        {
+          "offset": 852,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAINBOWFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 855,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 858,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 860,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_razorfish",
+      "output": "aoa3:razorfish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 863,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_RAZORFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 866,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 869,
+          "opcode": 89
+        },
+        {
+          "offset": 870,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAZORFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 873,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 876,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 878,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_rocketfish",
+      "output": "aoa3:rocketfish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 881,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_ROCKETFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 884,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 887,
+          "opcode": 89
+        },
+        {
+          "offset": 888,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "ROCKETFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 891,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 894,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 896,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_sailback",
+      "output": "aoa3:sailback",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 899,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_SAILBACK",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 902,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 905,
+          "opcode": 89
+        },
+        {
+          "offset": 906,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SAILBACK",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 909,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 912,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 914,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_sapphire_strider",
+      "output": "aoa3:sapphire_strider",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 917,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_SAPPHIRE_STRIDER",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 920,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 923,
+          "opcode": 89
+        },
+        {
+          "offset": 924,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SAPPHIRE_STRIDER",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 927,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 930,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 932,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_turquoise_stripefish",
+      "output": "aoa3:turquoise_stripefish",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 952,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_TURQUOISE_STRIPEFISH",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 955,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 958,
+          "opcode": 89
+        },
+        {
+          "offset": 959,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TURQUOISE_STRIPEFISH",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 962,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 965,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 967,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    },
+    {
+      "input": "aoa3:raw_violet_skipper",
+      "output": "aoa3:violet_skipper",
+      "experience": 3.0,
+      "window": [
+        {
+          "offset": 988,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAW_VIOLET_SKIPPER",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 991,
+          "opcode": 187,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 994,
+          "opcode": 89
+        },
+        {
+          "offset": 995,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "VIOLET_SKIPPER",
+            "Lnet/tslat/aoa3/item/food/HealingFishFood;"
+          ]
+        },
+        {
+          "offset": 998,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 1001,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 1003,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/registry/GameRegistry",
+            "addSmelting",
+            "(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V"
+          ]
+        }
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/food/BasicFood.class",
+      "class_sha256": "669e187bfe6a5a3e8c3ce5c7a832507a9461505a4f4ca9607c30b84ac65deca3",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IFZ)V",
+      "method_sha256": "189ce863d7cf84e9df9279b9da021049c92df8c4d8901ebf490031ef9e21202b",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 29
+        },
+        {
+          "offset": 2,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemFood",
+            "<init>",
+            "(IFZ)V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 87
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 187,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 89
+        },
+        {
+          "offset": 20,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 18,
+          "constant": "aoa3:"
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 44
+        },
+        {
+          "offset": 29,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 87
+        },
+        {
+          "offset": 39,
+          "opcode": 42
+        },
+        {
+          "offset": 40,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "FOOD",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 87
+        },
+        {
+          "offset": 47,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/food/BasicFood.class",
+      "class_sha256": "669e187bfe6a5a3e8c3ce5c7a832507a9461505a4f4ca9607c30b84ac65deca3",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IF)V",
+      "method_sha256": "58f0a77e3b1f04002e878ac07893910e58e0b050359d446d309d68d733151747",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 29
+        },
+        {
+          "offset": 4,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFZ)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/food/HealingFood.class",
+      "class_sha256": "f27b56434f57fe4fef8ac03af5e0a003ac36b234ca40bc5360fc6cf5d80feee2",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IFF)V",
+      "method_sha256": "d2a9d049c32a0415b6b214794f89543a0bf1e31fb594e7e531a1b0957671e5f9",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 29
+        },
+        {
+          "offset": 2,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 5,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemFood",
+            "<init>",
+            "(IFZ)V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 87
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 187,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 89
+        },
+        {
+          "offset": 19,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 18,
+          "constant": "aoa3:"
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 44
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 87
+        },
+        {
+          "offset": 38,
+          "opcode": 42
+        },
+        {
+          "offset": 39,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "field_77853_b",
+            "F"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 42
+        },
+        {
+          "offset": 45,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "FOOD",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 87
+        },
+        {
+          "offset": 52,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/food/HealingFood.class",
+      "class_sha256": "f27b56434f57fe4fef8ac03af5e0a003ac36b234ca40bc5360fc6cf5d80feee2",
+      "name": "func_77654_b",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;",
+      "method_sha256": "42778f24d10aab4870d5e47d03eb83cc2665e7196a7a4b61b380437dcd5e7fc0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 18,
+          "constant": 100.0
+        },
+        {
+          "offset": 2,
+          "opcode": 56,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 45
+        },
+        {
+          "offset": 5,
+          "opcode": 193,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 153,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 13,
+          "opcode": 45
+        },
+        {
+          "offset": 14,
+          "opcode": 192,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_71024_bL",
+            "()Lnet/minecraft/util/FoodStats;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/FoodStats",
+            "func_75116_a",
+            "()I"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 100
+        },
+        {
+          "offset": 24,
+          "opcode": 134
+        },
+        {
+          "offset": 25,
+          "opcode": 42
+        },
+        {
+          "offset": 26,
+          "opcode": 43
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "func_150905_g",
+            "(Lnet/minecraft/item/ItemStack;)I"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 134
+        },
+        {
+          "offset": 31,
+          "opcode": 110
+        },
+        {
+          "offset": 32,
+          "opcode": 12
+        },
+        {
+          "offset": 33,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(FF)F"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 56,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 42
+        },
+        {
+          "offset": 39,
+          "opcode": 43
+        },
+        {
+          "offset": 40,
+          "opcode": 44
+        },
+        {
+          "offset": 41,
+          "opcode": 45
+        },
+        {
+          "offset": 42,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemFood",
+            "func_77654_b",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 45
+        },
+        {
+          "offset": 48,
+          "opcode": 193,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 45
+        },
+        {
+          "offset": 55,
+          "opcode": 42
+        },
+        {
+          "offset": 56,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "field_77853_b",
+            "F"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 106
+        },
+        {
+          "offset": 62,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "healEntity",
+            "(Lnet/minecraft/entity/EntityLivingBase;F)V"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/food/HealingFood.class",
+      "class_sha256": "f27b56434f57fe4fef8ac03af5e0a003ac36b234ca40bc5360fc6cf5d80feee2",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "method_sha256": "b25b9b245784469fa175548976e722d1ea37a155377096a073a6d19e73862dd6",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "items.description.healingFood.desc.1"
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleString",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 87
+        },
+        {
+          "offset": 12,
+          "opcode": 45
+        },
+        {
+          "offset": 13,
+          "opcode": 18,
+          "constant": "items.description.healingFood.desc.2"
+        },
+        {
+          "offset": 15,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 16,
+          "opcode": 189,
+          "operands": [
+            0,
+            124
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 89
+        },
+        {
+          "offset": 20,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "field_77853_b",
+            "F"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "java/lang/Float",
+            "toString",
+            "(F)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 83
+        },
+        {
+          "offset": 29,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleStringWithArguments",
+            "(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 87
+        },
+        {
+          "offset": 38,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/item/food/HealingFishFood.class",
+      "class_sha256": "7777b66bf4b7755231c587923ca700e0e508be69bcf8e2cd3d60c64316503235",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IFF)V",
+      "method_sha256": "bef52116522ac7a4778032087376f88504f0b859679d22770081a0135b898a3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 29
+        },
+        {
+          "offset": 4,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/HealingFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFF)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/utils/EntityUtil.class",
+      "class_sha256": "b711efc4c6e99c4fde55e7755e18ec1f3f8cc8a152c506deeaa20b8a56d35402",
+      "name": "healEntity",
+      "descriptor": "(Lnet/minecraft/entity/EntityLivingBase;F)V",
+      "method_sha256": "9226b88c5a8d7d7f12dafaebe2719e46d2c61e87aff80d2f3c02e7eb9a076d2d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "field_70128_L",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 11
+        },
+        {
+          "offset": 12,
+          "opcode": 149
+        },
+        {
+          "offset": 13,
+          "opcode": 158,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_110138_aP",
+            "()F"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 150
+        },
+        {
+          "offset": 25,
+          "opcode": 156,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 35
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/EntityLivingBase",
+            "func_70691_i",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "afp.class",
+      "class_sha256": "54a411c858f713ce3e7331ea774cf927ff11bdc91f6a29da7d46fee267a534a0",
+      "name": "a",
+      "descriptor": "(IF)V",
+      "method_sha256": "a46987d2e6f957c33e61db51f14196f548641c7573fa8920d3d7f5ffdd1bb5cd",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 27
+        },
+        {
+          "offset": 2,
+          "opcode": 42
+        },
+        {
+          "offset": 3,
+          "opcode": 180,
+          "member": [
+            "afp",
+            "a",
+            "I"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 96
+        },
+        {
+          "offset": 7,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 9,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 181,
+          "member": [
+            "afp",
+            "a",
+            "I"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 180,
+          "member": [
+            "afp",
+            "b",
+            "F"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 27
+        },
+        {
+          "offset": 21,
+          "opcode": 134
+        },
+        {
+          "offset": 22,
+          "opcode": 36
+        },
+        {
+          "offset": 23,
+          "opcode": 106
+        },
+        {
+          "offset": 24,
+          "opcode": 13
+        },
+        {
+          "offset": 25,
+          "opcode": 106
+        },
+        {
+          "offset": 26,
+          "opcode": 98
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "afp",
+            "a",
+            "I"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 134
+        },
+        {
+          "offset": 32,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(FF)F"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 181,
+          "member": [
+            "afp",
+            "b",
+            "F"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "aij.class",
+      "class_sha256": "3728a7adf70a22400e5d345ad78f6bf9272ec06230349ab5da5e88f3bddbb702",
+      "name": "a",
+      "descriptor": "(Laip;Lamu;Lvp;)Laip;",
+      "method_sha256": "88a029e318c8025b70598d141701251ac4b83c3d695a0ff61ac9654e236170b6",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 193,
+          "operands": [
+            0,
+            49
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            97
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 45
+        },
+        {
+          "offset": 8,
+          "opcode": 192,
+          "operands": [
+            0,
+            49
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "aed",
+            "di",
+            "()Lafp;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 43
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "afp",
+            "a",
+            "(Laij;Laip;)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 44
+        },
+        {
+          "offset": 24,
+          "opcode": 1
+        },
+        {
+          "offset": 25,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 180,
+          "member": [
+            "aed",
+            "p",
+            "D"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 180,
+          "member": [
+            "aed",
+            "q",
+            "D"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 180,
+          "member": [
+            "aed",
+            "r",
+            "D"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 178,
+          "member": [
+            "qf",
+            "fD",
+            "Lqe;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 178,
+          "member": [
+            "qg",
+            "h",
+            "Lqg;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 48,
+          "opcode": 44
+        },
+        {
+          "offset": 49,
+          "opcode": 180,
+          "member": [
+            "amu",
+            "r",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 18,
+          "constant": 0.10000000149011612
+        },
+        {
+          "offset": 57,
+          "opcode": 106
+        },
+        {
+          "offset": 58,
+          "opcode": 18,
+          "constant": 0.8999999761581421
+        },
+        {
+          "offset": 60,
+          "opcode": 98
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "amu",
+            "a",
+            "(Laed;DDDLqe;Lqg;FF)V"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 42
+        },
+        {
+          "offset": 65,
+          "opcode": 43
+        },
+        {
+          "offset": 66,
+          "opcode": 44
+        },
+        {
+          "offset": 67,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 182,
+          "member": [
+            "aij",
+            "a",
+            "(Laip;Lamu;Laed;)V"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 42
+        },
+        {
+          "offset": 75,
+          "opcode": 184,
+          "member": [
+            "qs",
+            "b",
+            "(Lain;)Lqo;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 182,
+          "member": [
+            "aed",
+            "b",
+            "(Lqo;)V"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 193,
+          "operands": [
+            0,
+            109
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 153,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 178,
+          "member": [
+            "m",
+            "y",
+            "Lz;"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 192,
+          "operands": [
+            0,
+            109
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 43
+        },
+        {
+          "offset": 98,
+          "opcode": 182,
+          "member": [
+            "z",
+            "a",
+            "(Loq;Laip;)V"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 43
+        },
+        {
+          "offset": 102,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 103,
+          "opcode": 182,
+          "member": [
+            "aip",
+            "g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 43
+        },
+        {
+          "offset": 107,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "archive": "minecraft-1.12.2-client.jar",
+      "class_path": "aij.class",
+      "class_sha256": "3728a7adf70a22400e5d345ad78f6bf9272ec06230349ab5da5e88f3bddbb702",
+      "name": "a",
+      "descriptor": "(Lamu;Laed;Lub;)Lue;",
+      "method_sha256": "20457a865c233507047fb6ae9ccb4fffa451aec3eea784f62e6e5a376c1311f0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 45
+        },
+        {
+          "offset": 2,
+          "opcode": 182,
+          "member": [
+            "aed",
+            "b",
+            "(Lub;)Laip;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "aij",
+            "e",
+            "Z"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "aed",
+            "n",
+            "(Z)Z"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 44
+        },
+        {
+          "offset": 19,
+          "opcode": 45
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "aed",
+            "c",
+            "(Lub;)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 187,
+          "operands": [
+            0,
+            165
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 89
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "ud",
+            "a",
+            "Lud;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 183,
+          "member": [
+            "ue",
+            "<init>",
+            "(Lud;Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 176
+        },
+        {
+          "offset": 36,
+          "opcode": 187,
+          "operands": [
+            0,
+            165
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 89
+        },
+        {
+          "offset": 40,
+          "opcode": 178,
+          "member": [
+            "ud",
+            "c",
+            "Lud;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 183,
+          "member": [
+            "ue",
+            "<init>",
+            "(Lud;Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "healing_cases": [
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 0,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 1,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 2,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 3,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 4,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 5,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 6,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 7,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 8,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 9,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 10,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 11,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 12,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 13,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 14,
+      "hunger_restored": 6,
+      "healing_request": 7.0
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 5.8333330154418945
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.6666669845581055
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.5
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.3333334922790527
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.1666667461395264
+    },
+    {
+      "id": "aoa3:candlefish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 0,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 1,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 2,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 3,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 4,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 5,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 6,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 7,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 8,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 9,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 10,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 11,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 12,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 13,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 14,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.800000190734863
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.6000001430511475
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.4000000953674316
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.2000000476837158
+    },
+    {
+      "id": "aoa3:crimson_skipper",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 0,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 1,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 2,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 3,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 4,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 5,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 6,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 7,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 8,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 9,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 10,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 11,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 12,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 13,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 14,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 15,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.75
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.5
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.25
+    },
+    {
+      "id": "aoa3:crimson_stripefish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 0,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 1,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 2,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 3,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 4,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 5,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 6,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 7,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 8,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 9,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 10,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 11,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 12,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 13,
+      "hunger_restored": 7,
+      "healing_request": 8.0
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 14,
+      "hunger_restored": 6,
+      "healing_request": 6.857142925262451
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 5.714285850524902
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.5714287757873535
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.4285714626312256
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.2857143878936768
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.1428571939468384
+    },
+    {
+      "id": "aoa3:dark_hatchetfish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 0,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 1,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 2,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 3,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 4,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 5,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 6,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 7,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 8,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 9,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 10,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 11,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 12,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 13,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 14,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 15,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 16,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 17,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 18,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:fingerfish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 0,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 1,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 2,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 3,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 4,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 5,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 6,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 7,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 8,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 9,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 10,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 11,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 12,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 13,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 14,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 15,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 16,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 17,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.5
+    },
+    {
+      "id": "aoa3:golden_gullfish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 0,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 1,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 2,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 3,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 4,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 5,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 6,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 7,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 8,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 9,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 10,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 11,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 12,
+      "hunger_restored": 8,
+      "healing_request": 9.0
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 13,
+      "hunger_restored": 7,
+      "healing_request": 7.875
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 14,
+      "hunger_restored": 6,
+      "healing_request": 6.75
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 5.625
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.5
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.375
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.25
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.125
+    },
+    {
+      "id": "aoa3:ironback",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 0,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 1,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 2,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 3,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 4,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 5,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 6,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 7,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 8,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 9,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 10,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 11,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 12,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 13,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 14,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 15,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 16,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 17,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 18,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:limefish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 0,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 1,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 2,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 3,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 4,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 5,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 6,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 7,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 8,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 9,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 10,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 11,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 12,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 13,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 14,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 15,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 16,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 17,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 18,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:pearl_stripefish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 0,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 1,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 2,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 3,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 4,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 5,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 6,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 7,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 8,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 9,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 10,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 11,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 12,
+      "hunger_restored": 8,
+      "healing_request": 8.88888931274414
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 13,
+      "hunger_restored": 7,
+      "healing_request": 7.777777671813965
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 14,
+      "hunger_restored": 6,
+      "healing_request": 6.6666669845581055
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 5.555555820465088
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.44444465637207
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.3333334922790527
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.222222328186035
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.1111111640930176
+    },
+    {
+      "id": "aoa3:rainbowfish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 0,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 1,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 2,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 3,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 4,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 5,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 6,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 7,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 8,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 9,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 10,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 11,
+      "hunger_restored": 9,
+      "healing_request": 10.0
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 12,
+      "hunger_restored": 8,
+      "healing_request": 8.88888931274414
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 13,
+      "hunger_restored": 7,
+      "healing_request": 7.777777671813965
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 14,
+      "hunger_restored": 6,
+      "healing_request": 6.6666669845581055
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 5.555555820465088
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.44444465637207
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.3333334922790527
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.222222328186035
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.1111111640930176
+    },
+    {
+      "id": "aoa3:razorfish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 0,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 1,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 2,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 3,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 4,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 5,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 6,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 7,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 8,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 9,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 10,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 11,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 12,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 13,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 14,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 15,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.75
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.5
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.25
+    },
+    {
+      "id": "aoa3:rocketfish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 0,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 1,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 2,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 3,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 4,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 5,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 6,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 7,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 8,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 9,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 10,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 11,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 12,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 13,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 14,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 15,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 16,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 17,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:sailback",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 0,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 1,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 2,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 3,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 4,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 5,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 6,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 7,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 8,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 9,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 10,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 11,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 12,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 13,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 14,
+      "hunger_restored": 6,
+      "healing_request": 6.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 15,
+      "hunger_restored": 5,
+      "healing_request": 5.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 16,
+      "hunger_restored": 4,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 3.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.0
+    },
+    {
+      "id": "aoa3:sapphire_strider",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 0,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 1,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 2,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 3,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 4,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 5,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 6,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 7,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 8,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 9,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 10,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 11,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 12,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 13,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 14,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 15,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 16,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 17,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 2.0
+    },
+    {
+      "id": "aoa3:turquoise_stripefish",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 0,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 1,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 2,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 3,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 4,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 5,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 6,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 7,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 8,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 9,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 10,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 11,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 12,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 13,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 14,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 15,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 16,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 17,
+      "hunger_restored": 3,
+      "healing_request": 4.0
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 18,
+      "hunger_restored": 2,
+      "healing_request": 2.6666667461395264
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 19,
+      "hunger_restored": 1,
+      "healing_request": 1.3333333730697632
+    },
+    {
+      "id": "aoa3:violet_skipper",
+      "food_before": 20,
+      "hunger_restored": 0,
+      "healing_request": 0.0
+    }
+  ]
+}
