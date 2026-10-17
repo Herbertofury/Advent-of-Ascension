@@ -60,6 +60,8 @@ An `IGrowable` target can return SUCCESS from the outer interaction even when no
 
 ### Additional acquisition
 
+[Historical Logging](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Foraging-and-Logging-Rewards-1.12.2#logging-reward-table) can select 1–2 fragments at effective Logging level 40, through its separate gate and loot-table branch.
+
 Historical Extraction's loot table includes Fragmented Anima Stone at effective Extraction level **60**, count **1–4**, base weight **100**. That is one conditional entry after Extraction's separate success gate, not a guaranteed source every cycle. See the [complete Extraction reward ladder](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extraction-Device-and-Skill-Rewards-1.12.2#reward-ladder).
 
 ### Save fragments for tablet recipes

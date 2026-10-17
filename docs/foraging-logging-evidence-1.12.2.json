@@ -1,0 +1,7916 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Released harvest/skill methods, complete reward tables, selected vanilla loot-context condition wiring and independent gate/threshold models. No game execution.",
+  "source_files": {
+    "event/PlayerEvents.java": "c670109a2e49219d5f5ad3e9e821917c8dbb780e3a36900b9492bea9222b1b18",
+    "utils/skills/ForagingUtil.java": "afce48a9b57cd6737538988cf3aee6da9be610d4d0fed5f5ba767a7717ae7b77",
+    "utils/skills/LoggingUtil.java": "f530e529ac4135fdc74b4aa5f7908073b2c36a7fbd95fab3c270aa3828d00b15",
+    "library/loot/functions/GrantXp.java": "4bb6b08fb2364c3360e0029cec497b66b3fc1f78fabed57b3df766807152919b",
+    "library/loot/conditions/PlayerHasLevel.java": "b7368a9cf90107ed0c7c458094adfb83b78aabd81122b6023236c3cf4b7b459b",
+    "utils/player/PlayerDataManager.java": "e476fdffed48ccc03d6f0ead116b382a4ab8a80510e836d64b373623627d757f",
+    "item/armour/ForagingArmour.java": "581dbf3c791af91cb2dab566e502465c2e5fac66c762cb76040458b62c8e9b16",
+    "item/armour/LoggingArmour.java": "1bff9910061b68fbb0a9608015ec07faa998c63ef1e3b22f7b937be3a11c0e00"
+  },
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/event/PlayerEvents.class",
+      "class_sha256": "cb7763b9bf48e40936eaa17765c1fffd6f538914f42f9f7ecbf7c052c7ef77f0",
+      "name": "onBlockHarvest",
+      "descriptor": "(Lnet/minecraftforge/event/world/BlockEvent$HarvestDropsEvent;)V",
+      "code_hex": "2bb60249c6000d2bb60249c1024b990004b12bb602494d2cb20251b60255b602594e2dc1025b99000d2dc0025b2bb9025e02002bb60264b40075990004b12bb60268b9026e01003a041904c102709a001b1904c102729a00131904c102749a000b1904c102769900bf1904c102709900121904c002702bb60268b6027c9902a31904c102709900372bb60264b601db99002d2cb8007bb601bcb2027f05b601e3b201311107d0b601379a00132cbb016859b20285b701710bb60286571904c10276990011b201311023b601379a0254a700241904c10270990011b201311006b601379a023ea7000eb201311008b601379a0230bb0288592bb602642bb6028cb7028f3a052bb60264012bb6028cb20295b2029b0c0cb6029f2bb602641905b602a357a701fe1904b202a9a5001b1904b202aca500131904c102ae9a000b1904b202b1a6009a2cb8007b3a051905b601bcb202b4b602b836061904b202aca6000cb20131b602bb9900731506b802c199006b2bb602c52cb802c9b902cd0200571905b60223b602d1b202d4a600112bb602c52cb802c9b902cd0200572bb60264012bb6028cb202d7b2029b0c0cb6029f2bb60264b401ccb602da9a00202bb60264b601db9900161905b601bcb202dd100b1506100a6c64b601e3a701471904c102df99010b2cb8007b3a051905b601bcb202e2b602b836061506b802e59900edb20131b602bb9900302bb602c52cb802e6b902cd0200571905b60223b602d1b202e8a600942bb602c52cb802e6b902cd020057a70083b202eb3a072bb602c5b902ef01003a081908b902f401009900551908b902f80100c001683a091909b602591904b802fca600391909b603003a07190715061032a4000705a7000404b603041905b601bcb202e2150687140305b8030c9013030d6a0303b60311a70006a7ffa71907b603149a000f2bb602c51907b903180200572bb60264b401ccb602da9a00161905b601bcb202dd100b1506100a6c64b601e32bb60264012bb6028cb202d7b2029b0c0cb6029fa700371904b8031e99002f2bb6028cb6032308a300242cbb016859b2016eb701710404b801779900112cbb016859b20326b70171b8017fb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getHarvester",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 198,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 43
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getHarvester",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 193,
+          "operands": [
+            2,
+            75
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 177
+        },
+        {
+          "offset": 18,
+          "opcode": 43
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getHarvester",
+            "()Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 77
+        },
+        {
+          "offset": 23,
+          "opcode": 44
+        },
+        {
+          "offset": 24,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumHand",
+            "MAIN_HAND",
+            "Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 78
+        },
+        {
+          "offset": 34,
+          "opcode": 45
+        },
+        {
+          "offset": 35,
+          "opcode": 193,
+          "operands": [
+            2,
+            91
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 45
+        },
+        {
+          "offset": 42,
+          "opcode": 192,
+          "operands": [
+            2,
+            91
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 43
+        },
+        {
+          "offset": 46,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/item/tool/SpecialHarvestTool",
+            "doHarvestEffect",
+            "(Lnet/minecraftforge/event/world/BlockEvent$HarvestDropsEvent;)V"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 43
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 177
+        },
+        {
+          "offset": 62,
+          "opcode": 43
+        },
+        {
+          "offset": 63,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getState",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 193,
+          "operands": [
+            2,
+            112
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 154,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 193,
+          "operands": [
+            2,
+            114
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 154,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 193,
+          "operands": [
+            2,
+            116
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 154,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 193,
+          "operands": [
+            2,
+            118
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 153,
+          "operands": [
+            0,
+            191
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 193,
+          "operands": [
+            2,
+            112
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 153,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 192,
+          "operands": [
+            2,
+            112
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 43
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getState",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/BlockCrops",
+            "func_185525_y",
+            "(Lnet/minecraft/block/state/IBlockState;)Z"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 153,
+          "operands": [
+            2,
+            163
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 193,
+          "operands": [
+            2,
+            112
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 153,
+          "operands": [
+            0,
+            55
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 43
+        },
+        {
+          "offset": 137,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72935_r",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 153,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 44
+        },
+        {
+          "offset": 147,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "SELYAN",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 157,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addTribute",
+            "(Lnet/tslat/aoa3/library/Enums$Deities;I)V"
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 17,
+          "constant": 2000
+        },
+        {
+          "offset": 166,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 154,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 44
+        },
+        {
+          "offset": 173,
+          "opcode": 187,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 89
+        },
+        {
+          "offset": 177,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/WeaponRegister",
+            "GARDENER",
+            "Lnet/tslat/aoa3/item/weapon/gun/BaseGun;"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 11
+        },
+        {
+          "offset": 184,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70099_a",
+            "(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 87
+        },
+        {
+          "offset": 188,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 193,
+          "operands": [
+            2,
+            118
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 153,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 16,
+          "constant": 35
+        },
+        {
+          "offset": 201,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 154,
+          "operands": [
+            2,
+            84
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 167,
+          "operands": [
+            0,
+            36
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 212,
+          "opcode": 193,
+          "operands": [
+            2,
+            112
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 153,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 223,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 154,
+          "operands": [
+            2,
+            62
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 167,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 237,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 154,
+          "operands": [
+            2,
+            48
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 187,
+          "operands": [
+            2,
+            136
+          ]
+        },
+        {
+          "offset": 246,
+          "opcode": 89
+        },
+        {
+          "offset": 247,
+          "opcode": 43
+        },
+        {
+          "offset": 248,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 251,
+          "opcode": 43
+        },
+        {
+          "offset": 252,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getPos",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/misc/EntityAnimaStone",
+            "<init>",
+            "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 260,
+          "opcode": 43
+        },
+        {
+          "offset": 261,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 1
+        },
+        {
+          "offset": 265,
+          "opcode": 43
+        },
+        {
+          "offset": 266,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getPos",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 269,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "HEART_STONE_SPAWN",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 272,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "MASTER",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 275,
+          "opcode": 12
+        },
+        {
+          "offset": 276,
+          "opcode": 12
+        },
+        {
+          "offset": 277,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184133_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 280,
+          "opcode": 43
+        },
+        {
+          "offset": 281,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 284,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72838_d",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 87
+        },
+        {
+          "offset": 290,
+          "opcode": 167,
+          "operands": [
+            1,
+            254
+          ]
+        },
+        {
+          "offset": 293,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 295,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150348_b",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 165,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 301,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150424_aL",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 306,
+          "opcode": 165,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 311,
+          "opcode": 193,
+          "operands": [
+            2,
+            174
+          ]
+        },
+        {
+          "offset": 314,
+          "opcode": 154,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 317,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 319,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150377_bs",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 322,
+          "opcode": 166,
+          "operands": [
+            0,
+            154
+          ]
+        },
+        {
+          "offset": 325,
+          "opcode": 44
+        },
+        {
+          "offset": 326,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 329,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 331,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 333,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 336,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 339,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 342,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 344,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 346,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150424_aL",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 349,
+          "opcode": 166,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 352,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 355,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextBoolean",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 358,
+          "opcode": 153,
+          "operands": [
+            0,
+            115
+          ]
+        },
+        {
+          "offset": 361,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 363,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/ForagingUtil",
+            "shouldGetLoot",
+            "(I)Z"
+          ]
+        },
+        {
+          "offset": 366,
+          "opcode": 153,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 43
+        },
+        {
+          "offset": 370,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getDrops",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 373,
+          "opcode": 44
+        },
+        {
+          "offset": 374,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/ForagingUtil",
+            "getLoot",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 377,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 382,
+          "opcode": 87
+        },
+        {
+          "offset": 383,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 385,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "equipment",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment;"
+          ]
+        },
+        {
+          "offset": 388,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment",
+            "getCurrentFullArmourSet",
+            "()Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 391,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ArmourSets",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 394,
+          "opcode": 166,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 397,
+          "opcode": 43
+        },
+        {
+          "offset": 398,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getDrops",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 401,
+          "opcode": 44
+        },
+        {
+          "offset": 402,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/ForagingUtil",
+            "getLoot",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 405,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 410,
+          "opcode": 87
+        },
+        {
+          "offset": 411,
+          "opcode": 43
+        },
+        {
+          "offset": 412,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 415,
+          "opcode": 1
+        },
+        {
+          "offset": 416,
+          "opcode": 43
+        },
+        {
+          "offset": 417,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getPos",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 420,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "FORAGING_LOOT",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 423,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "MASTER",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 426,
+          "opcode": 12
+        },
+        {
+          "offset": 427,
+          "opcode": 12
+        },
+        {
+          "offset": 428,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184133_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 431,
+          "opcode": 43
+        },
+        {
+          "offset": 432,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 435,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 438,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 441,
+          "opcode": 154,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 444,
+          "opcode": 43
+        },
+        {
+          "offset": 445,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 448,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72935_r",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 451,
+          "opcode": 153,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 454,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 456,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 459,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "PLUTON",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 462,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 464,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 466,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 468,
+          "opcode": 108
+        },
+        {
+          "offset": 469,
+          "opcode": 100
+        },
+        {
+          "offset": 470,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addTribute",
+            "(Lnet/tslat/aoa3/library/Enums$Deities;I)V"
+          ]
+        },
+        {
+          "offset": 473,
+          "opcode": 167,
+          "operands": [
+            1,
+            71
+          ]
+        },
+        {
+          "offset": 476,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 478,
+          "opcode": 193,
+          "operands": [
+            2,
+            223
+          ]
+        },
+        {
+          "offset": 481,
+          "opcode": 153,
+          "operands": [
+            1,
+            11
+          ]
+        },
+        {
+          "offset": 484,
+          "opcode": 44
+        },
+        {
+          "offset": 485,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 488,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 490,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 492,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 495,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 498,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 501,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 503,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 505,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/LoggingUtil",
+            "shouldGetLoot",
+            "(I)Z"
+          ]
+        },
+        {
+          "offset": 508,
+          "opcode": 153,
+          "operands": [
+            0,
+            237
+          ]
+        },
+        {
+          "offset": 511,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 514,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextBoolean",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 517,
+          "opcode": 153,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 520,
+          "opcode": 43
+        },
+        {
+          "offset": 521,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getDrops",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 524,
+          "opcode": 44
+        },
+        {
+          "offset": 525,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/LoggingUtil",
+            "getLoot",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 528,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 533,
+          "opcode": 87
+        },
+        {
+          "offset": 534,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 536,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "equipment",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment;"
+          ]
+        },
+        {
+          "offset": 539,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment",
+            "getCurrentFullArmourSet",
+            "()Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 542,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ArmourSets",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 545,
+          "opcode": 166,
+          "operands": [
+            0,
+            148
+          ]
+        },
+        {
+          "offset": 548,
+          "opcode": 43
+        },
+        {
+          "offset": 549,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getDrops",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 552,
+          "opcode": 44
+        },
+        {
+          "offset": 553,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/skills/LoggingUtil",
+            "getLoot",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 556,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 561,
+          "opcode": 87
+        },
+        {
+          "offset": 562,
+          "opcode": 167,
+          "operands": [
+            0,
+            131
+          ]
+        },
+        {
+          "offset": 565,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "field_190927_a",
+            "Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 568,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 570,
+          "opcode": 43
+        },
+        {
+          "offset": 571,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getDrops",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 574,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 579,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 581,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 583,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 588,
+          "opcode": 153,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 591,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 593,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 598,
+          "opcode": 192,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 601,
+          "opcode": 58,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 603,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 605,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 608,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 610,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/item/Item",
+            "func_150898_a",
+            "(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 613,
+          "opcode": 166,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 616,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 618,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77946_l",
+            "()Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 621,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 623,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 625,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 627,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 629,
+          "opcode": 164,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 632,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 633,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 636,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 637,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190920_e",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 640,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 642,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 645,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 648,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 650,
+          "opcode": 135
+        },
+        {
+          "offset": 651,
+          "opcode": 20,
+          "constant": 1.65
+        },
+        {
+          "offset": 654,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "pow",
+            "(DD)D"
+          ]
+        },
+        {
+          "offset": 657,
+          "opcode": 144
+        },
+        {
+          "offset": 658,
+          "opcode": 19,
+          "constant": 3.0
+        },
+        {
+          "offset": 661,
+          "opcode": 106
+        },
+        {
+          "offset": 662,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 663,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 664,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addXp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V"
+          ]
+        },
+        {
+          "offset": 667,
+          "opcode": 167,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 670,
+          "opcode": 167,
+          "operands": [
+            255,
+            167
+          ]
+        },
+        {
+          "offset": 673,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 675,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 678,
+          "opcode": 154,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 681,
+          "opcode": 43
+        },
+        {
+          "offset": 682,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getDrops",
+            "()Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 685,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 687,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 692,
+          "opcode": 87
+        },
+        {
+          "offset": 693,
+          "opcode": 43
+        },
+        {
+          "offset": 694,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 697,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 700,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 703,
+          "opcode": 154,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 706,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 708,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 711,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "PLUTON",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 714,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 716,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 718,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 720,
+          "opcode": 108
+        },
+        {
+          "offset": 721,
+          "opcode": 100
+        },
+        {
+          "offset": 722,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addTribute",
+            "(Lnet/tslat/aoa3/library/Enums$Deities;I)V"
+          ]
+        },
+        {
+          "offset": 725,
+          "opcode": 43
+        },
+        {
+          "offset": 726,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getWorld",
+            "()Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 729,
+          "opcode": 1
+        },
+        {
+          "offset": 730,
+          "opcode": 43
+        },
+        {
+          "offset": 731,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getPos",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 734,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "FORAGING_LOOT",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 737,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "MASTER",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 740,
+          "opcode": 12
+        },
+        {
+          "offset": 741,
+          "opcode": 12
+        },
+        {
+          "offset": 742,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184133_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 745,
+          "opcode": 167,
+          "operands": [
+            0,
+            55
+          ]
+        },
+        {
+          "offset": 748,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 750,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/WorldUtil",
+            "isOreBlock",
+            "(Lnet/minecraft/block/Block;)Z"
+          ]
+        },
+        {
+          "offset": 753,
+          "opcode": 153,
+          "operands": [
+            0,
+            47
+          ]
+        },
+        {
+          "offset": 756,
+          "opcode": 43
+        },
+        {
+          "offset": 757,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/event/world/BlockEvent$HarvestDropsEvent",
+            "getPos",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 760,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 763,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 764,
+          "opcode": 163,
+          "operands": [
+            0,
+            36
+          ]
+        },
+        {
+          "offset": 767,
+          "opcode": 44
+        },
+        {
+          "offset": 768,
+          "opcode": 187,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 771,
+          "opcode": 89
+        },
+        {
+          "offset": 772,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "BLANK_REALMSTONE",
+            "Lnet/tslat/aoa3/item/misc/BlankRealmstone;"
+          ]
+        },
+        {
+          "offset": 775,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 778,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 779,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 780,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 783,
+          "opcode": 153,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 786,
+          "opcode": 44
+        },
+        {
+          "offset": 787,
+          "opcode": 187,
+          "operands": [
+            1,
+            104
+          ]
+        },
+        {
+          "offset": 790,
+          "opcode": 89
+        },
+        {
+          "offset": 791,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DEEPLANDS_REALMSTONE",
+            "Lnet/tslat/aoa3/item/misc/Realmstone;"
+          ]
+        },
+        {
+          "offset": 794,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 797,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 800,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/ForagingUtil.class",
+      "class_sha256": "c4cf8f5dddf0c5ff52d22a6778f1f62b81ecb6b459d0246048a77f87503cb70e",
+      "name": "shouldGetLoot",
+      "descriptor": "(I)Z",
+      "code_hex": "1a1014a20014b200181041b6001e9a000704a7000403ac1a1028a20014b200181037b6001e9a000704a7000403ac1a103ca20014b200181030b6001e9a000704a7000403ac1a1050a20014b200181024b6001e9a000704a7000403acb20018101db6001e9a000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 3,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 16,
+          "constant": 65
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 22,
+          "opcode": 172
+        },
+        {
+          "offset": 23,
+          "opcode": 26
+        },
+        {
+          "offset": 24,
+          "opcode": 16,
+          "constant": 40
+        },
+        {
+          "offset": 26,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 16,
+          "constant": 55
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 41,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 45,
+          "opcode": 172
+        },
+        {
+          "offset": 46,
+          "opcode": 26
+        },
+        {
+          "offset": 47,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 49,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 16,
+          "constant": 48
+        },
+        {
+          "offset": 57,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 64,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 68,
+          "opcode": 172
+        },
+        {
+          "offset": 69,
+          "opcode": 26
+        },
+        {
+          "offset": 70,
+          "opcode": 16,
+          "constant": 80
+        },
+        {
+          "offset": 72,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 16,
+          "constant": 36
+        },
+        {
+          "offset": 80,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 87,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 91,
+          "opcode": 172
+        },
+        {
+          "offset": 92,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 16,
+          "constant": 29
+        },
+        {
+          "offset": 97,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 104,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 108,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/ForagingUtil.class",
+      "class_sha256": "c4cf8f5dddf0c5ff52d22a6778f1f62b81ecb6b459d0246048a77f87503cb70e",
+      "name": "getLoot",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;)Ljava/util/List;",
+      "code_hex": "2ab40028b6002eb20034b6003a2ab6003ebb0007592ab40028c00040b700432ab600472ab6004bb6004fb60053b60059b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184146_ak",
+            "()Lnet/minecraft/world/storage/loot/LootTableManager;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "skillForaging",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTableManager",
+            "func_186521_a",
+            "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70681_au",
+            "()Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 89
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 192,
+          "operands": [
+            0,
+            64
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "<init>",
+            "(Lnet/minecraft/world/WorldServer;)V"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186470_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184817_da",
+            "()F"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186469_a",
+            "(F)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186471_a",
+            "()Lnet/minecraft/world/storage/loot/LootContext;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "func_186462_a",
+            "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/LoggingUtil.class",
+      "class_sha256": "6e96b0fe3d6e055ea53f9424b96e098e8b498c224a9423b2983f0398b6ebde92",
+      "name": "shouldGetLoot",
+      "descriptor": "(I)Z",
+      "code_hex": "1a1014a20014b200181019b6001e9a000704a7000403ac1a1028a20014b200181014b6001e9a000704a7000403ac1a103ca20014b200181010b6001e9a000704a7000403ac1a1050a20014b20018100cb6001e9a000704a7000403acb200181009b6001e9a000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 3,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 16,
+          "constant": 25
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 22,
+          "opcode": 172
+        },
+        {
+          "offset": 23,
+          "opcode": 26
+        },
+        {
+          "offset": 24,
+          "opcode": 16,
+          "constant": 40
+        },
+        {
+          "offset": 26,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 41,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 45,
+          "opcode": 172
+        },
+        {
+          "offset": 46,
+          "opcode": 26
+        },
+        {
+          "offset": 47,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 49,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 57,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 64,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 68,
+          "opcode": 172
+        },
+        {
+          "offset": 69,
+          "opcode": 26
+        },
+        {
+          "offset": 70,
+          "opcode": 16,
+          "constant": 80
+        },
+        {
+          "offset": 72,
+          "opcode": 162,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 80,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 87,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 91,
+          "opcode": 172
+        },
+        {
+          "offset": 92,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 97,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 104,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 108,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/skills/LoggingUtil.class",
+      "class_sha256": "6e96b0fe3d6e055ea53f9424b96e098e8b498c224a9423b2983f0398b6ebde92",
+      "name": "getLoot",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;)Ljava/util/List;",
+      "code_hex": "2ab40028b6002eb20034b6003a2ab6003ebb0007592ab40028c00040b700432ab600472ab6004bb6004fb60053b60059b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184146_ak",
+            "()Lnet/minecraft/world/storage/loot/LootTableManager;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "skillLogging",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTableManager",
+            "func_186521_a",
+            "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70681_au",
+            "()Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 89
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 192,
+          "operands": [
+            0,
+            64
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "<init>",
+            "(Lnet/minecraft/world/WorldServer;)V"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186470_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184817_da",
+            "()F"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186469_a",
+            "(F)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186471_a",
+            "()Lnet/minecraft/world/storage/loot/LootContext;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "func_186462_a",
+            "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/functions/GrantXp.class",
+      "class_sha256": "3df2567b36348261fd5ea23d60f2e4acda19a146af919209dce182075825a32c",
+      "name": "func_186553_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Lnet/minecraft/item/ItemStack;",
+      "code_hex": "2db6002bc1002d99001d2db6002bc0002db80033b600372ab4001d2ab4001f0303b6003b2bb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 193,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 153,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 45
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 192,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/functions/GrantXp",
+            "skill",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/functions/GrantXp",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addXp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 43
+        },
+        {
+          "offset": 37,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/conditions/PlayerHasLevel.class",
+      "class_sha256": "3c04928e1afb11865ef839031ef8c285075dca73332394b7d67696f657977669",
+      "name": "func_186618_a",
+      "descriptor": "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Z",
+      "code_hex": "2cb6002bc600222cb6002bc0002db80033b600372ab4001fb6003b2ab40021a1000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 198,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 192,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/PlayerHasLevel",
+            "skill",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/conditions/PlayerHasLevel",
+            "level",
+            "I"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 161,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 35,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 39,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "getLevel",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;)I",
+      "code_hex": "b200e899001910642ab4003e2bb60075c0005ab6009ab800eea700051064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "skillsEnabled",
+            "Z"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 30,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "addXp",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V",
+      "code_hex": "b200e89a0004b12ab4003e2bb60075c0005ab6009a360515051103e8a10004b11d9a00102ab4002eb801012b24b801054513010624b801093806033607b2010c9a000e15051064a1000704a700040336082ab4004c2bb80112380917061709959e00351706170966380684070117061505150760b801156659380a0b959b001815051507601103e8a2000d170a3806840701a7ffdb15079e00492a2b150515051507601d9a000704a7000403b601191d9a00302ab40040b20065b60075c0005ab6009a07a2001c2ab4002eb800a92b2ab4003e2bb60075c0005ab6009ab8011f1d99000d2ab4002eb80123a700232ab4002eb800a9c10125990016b2012b2ab4002eb800a9c001252b248bb601312ab4003c2b2ab4003c2bb60075c00050b60079170662b80054b60058572ab4002eb800a9c101259900772ab4002eb80134b2013abb013c592bb4013f2ab4003e2bb60075c0005ab6009a2ab4003c2bb60075c00050b600792ab400402bb60075c0005ab701422ab4002eb800a9c00125b6014815089a0029b2013abb014a592bb4013f2415079e000704a7000403b7014d2ab4002eb800a9c00125b60148b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "skillsEnabled",
+            "Z"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 154,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 177
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 43
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 17,
+          "constant": 1000
+        },
+        {
+          "offset": 28,
+          "opcode": 161,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 177
+        },
+        {
+          "offset": 32,
+          "opcode": 29
+        },
+        {
+          "offset": 33,
+          "opcode": 154,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 42
+        },
+        {
+          "offset": 37,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2100",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 43
+        },
+        {
+          "offset": 44,
+          "opcode": 36
+        },
+        {
+          "offset": 45,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "access$2900",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/tslat/aoa3/library/Enums$Skills;F)F"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 69
+        },
+        {
+          "offset": 49,
+          "opcode": 19,
+          "constant": 544132352.0
+        },
+        {
+          "offset": 52,
+          "opcode": 36
+        },
+        {
+          "offset": 53,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(FF)F"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 59,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "showVanityLevels",
+            "Z"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 154,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 71,
+          "opcode": 161,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 75,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 79,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 42
+        },
+        {
+          "offset": 82,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "playerDataManager",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 43
+        },
+        {
+          "offset": 86,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getXpRemainingUntilLevel",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;Lnet/tslat/aoa3/library/Enums$Skills;)F"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 56,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 23,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 149
+        },
+        {
+          "offset": 96,
+          "opcode": 158,
+          "operands": [
+            0,
+            53
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 23,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 102
+        },
+        {
+          "offset": 104,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 96
+        },
+        {
+          "offset": 116,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getXpRequiredForNextLevel",
+            "(I)F"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 102
+        },
+        {
+          "offset": 120,
+          "opcode": 89
+        },
+        {
+          "offset": 121,
+          "opcode": 56,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 11
+        },
+        {
+          "offset": 124,
+          "opcode": 149
+        },
+        {
+          "offset": 125,
+          "opcode": 155,
+          "operands": [
+            0,
+            24
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 96
+        },
+        {
+          "offset": 133,
+          "opcode": 17,
+          "constant": 1000
+        },
+        {
+          "offset": 136,
+          "opcode": 162,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 23,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 56,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 132,
+          "operands": [
+            7,
+            1
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 167,
+          "operands": [
+            255,
+            219
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 158,
+          "operands": [
+            0,
+            73
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 42
+        },
+        {
+          "offset": 155,
+          "opcode": 43
+        },
+        {
+          "offset": 156,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 96
+        },
+        {
+          "offset": 163,
+          "opcode": 29
+        },
+        {
+          "offset": 164,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 168,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 172,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levelUp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;IIZ)V"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 29
+        },
+        {
+          "offset": 176,
+          "opcode": 154,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 42
+        },
+        {
+          "offset": 180,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "EXPEDITION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 196,
+          "opcode": 162,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 42
+        },
+        {
+          "offset": 200,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 43
+        },
+        {
+          "offset": 207,
+          "opcode": 42
+        },
+        {
+          "offset": 208,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 43
+        },
+        {
+          "offset": 212,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/leaderboard/AoALeaderboard",
+            "updatePlayerStat",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/tslat/aoa3/library/Enums$Skills;I)V"
+          ]
+        },
+        {
+          "offset": 224,
+          "opcode": 29
+        },
+        {
+          "offset": 225,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 42
+        },
+        {
+          "offset": 229,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$3000",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)V"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 167,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 42
+        },
+        {
+          "offset": 239,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 242,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 193,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 153,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 251,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AdvancementTriggerRegister",
+            "xpGainTrigger",
+            "Lnet/tslat/aoa3/advancement/AoAXpGainTrigger;"
+          ]
+        },
+        {
+          "offset": 254,
+          "opcode": 42
+        },
+        {
+          "offset": 255,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 261,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 43
+        },
+        {
+          "offset": 265,
+          "opcode": 36
+        },
+        {
+          "offset": 266,
+          "opcode": 139
+        },
+        {
+          "offset": 267,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/advancement/AoAXpGainTrigger",
+            "trigger",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/tslat/aoa3/library/Enums$Skills;I)V"
+          ]
+        },
+        {
+          "offset": 270,
+          "opcode": 42
+        },
+        {
+          "offset": 271,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 43
+        },
+        {
+          "offset": 275,
+          "opcode": 42
+        },
+        {
+          "offset": 276,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 43
+        },
+        {
+          "offset": 280,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 283,
+          "opcode": 192,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 182,
+          "member": [
+            "java/lang/Float",
+            "floatValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 291,
+          "opcode": 98
+        },
+        {
+          "offset": 292,
+          "opcode": 184,
+          "member": [
+            "java/lang/Float",
+            "valueOf",
+            "(F)Ljava/lang/Float;"
+          ]
+        },
+        {
+          "offset": 295,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 298,
+          "opcode": 87
+        },
+        {
+          "offset": 299,
+          "opcode": 42
+        },
+        {
+          "offset": 300,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 306,
+          "opcode": 193,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 153,
+          "operands": [
+            0,
+            119
+          ]
+        },
+        {
+          "offset": 312,
+          "opcode": 42
+        },
+        {
+          "offset": 313,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 316,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$3100",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)V"
+          ]
+        },
+        {
+          "offset": 319,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 322,
+          "opcode": 187,
+          "operands": [
+            1,
+            60
+          ]
+        },
+        {
+          "offset": 325,
+          "opcode": 89
+        },
+        {
+          "offset": 326,
+          "opcode": 43
+        },
+        {
+          "offset": 327,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 330,
+          "opcode": 42
+        },
+        {
+          "offset": 331,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "levels",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 334,
+          "opcode": 43
+        },
+        {
+          "offset": 335,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 338,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 341,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 344,
+          "opcode": 42
+        },
+        {
+          "offset": 345,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "xp",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 348,
+          "opcode": 43
+        },
+        {
+          "offset": 349,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 352,
+          "opcode": 192,
+          "operands": [
+            0,
+            80
+          ]
+        },
+        {
+          "offset": 355,
+          "opcode": 182,
+          "member": [
+            "java/lang/Float",
+            "floatValue",
+            "()F"
+          ]
+        },
+        {
+          "offset": 358,
+          "opcode": 42
+        },
+        {
+          "offset": 359,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "optionals",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 362,
+          "opcode": 43
+        },
+        {
+          "offset": 363,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 366,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketSkillData",
+            "<init>",
+            "(IIFLjava/lang/Integer;)V"
+          ]
+        },
+        {
+          "offset": 372,
+          "opcode": 42
+        },
+        {
+          "offset": 373,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 376,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 379,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 382,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 385,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 387,
+          "opcode": 154,
+          "operands": [
+            0,
+            41
+          ]
+        },
+        {
+          "offset": 390,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 393,
+          "opcode": 187,
+          "operands": [
+            1,
+            74
+          ]
+        },
+        {
+          "offset": 396,
+          "opcode": 89
+        },
+        {
+          "offset": 397,
+          "opcode": 43
+        },
+        {
+          "offset": 398,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "id",
+            "I"
+          ]
+        },
+        {
+          "offset": 401,
+          "opcode": 36
+        },
+        {
+          "offset": 402,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 404,
+          "opcode": 158,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 407,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 408,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 411,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 412,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketXpGain",
+            "<init>",
+            "(IFZ)V"
+          ]
+        },
+        {
+          "offset": 415,
+          "opcode": 42
+        },
+        {
+          "offset": 416,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 422,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 425,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 428,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats.class",
+      "class_sha256": "c880c7701cafae73ae2ddd7693fbd4dd0bfe92fb53ed839fd319700d7ed21c5e",
+      "name": "addTribute",
+      "descriptor": "(Lnet/tslat/aoa3/library/Enums$Deities;I)V",
+      "code_hex": "2ab4002eb800a9b201bdb801c39900071c05683d2ab400452b2ab400452bb60075c0005ab6009a1c60031100c8b80190b8005db60058572ab4002eb800a9c1012599005ab2013abb01c5592ab40045b200d3b60075c0005ab6009a2ab40045b200c1b60075c0005ab6009a2ab40045b200d9b60075c0005ab6009a2ab40045b200dfb60075c0005ab6009ab701c82ab4002eb800a9c00125b60148b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/WeaponRegister",
+            "HOLY_SWORD",
+            "Lnet/tslat/aoa3/item/weapon/sword/BaseSword;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "isHoldingItem",
+            "(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/Item;)Z"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 28
+        },
+        {
+          "offset": 17,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 18,
+          "opcode": 104
+        },
+        {
+          "offset": 19,
+          "opcode": 61
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "tribute",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 43
+        },
+        {
+          "offset": 25,
+          "opcode": 42
+        },
+        {
+          "offset": 26,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "tribute",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 43
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 28
+        },
+        {
+          "offset": 40,
+          "opcode": 96
+        },
+        {
+          "offset": 41,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 42,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 45,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/math/MathHelper",
+            "func_76125_a",
+            "(III)I"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 87
+        },
+        {
+          "offset": 55,
+          "opcode": 42
+        },
+        {
+          "offset": 56,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 193,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 153,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PacketUtil",
+            "network",
+            "Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 187,
+          "operands": [
+            1,
+            197
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 89
+        },
+        {
+          "offset": 75,
+          "opcode": 42
+        },
+        {
+          "offset": 76,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "tribute",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "EREBON",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 42
+        },
+        {
+          "offset": 92,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "tribute",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "LUXON",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 42
+        },
+        {
+          "offset": 108,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "tribute",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "PLUTON",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 42
+        },
+        {
+          "offset": 124,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "tribute",
+            "Ljava/util/HashMap;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "SELYAN",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 182,
+          "member": [
+            "java/util/HashMap",
+            "get",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 192,
+          "operands": [
+            0,
+            90
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 182,
+          "member": [
+            "java/lang/Integer",
+            "intValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/packet/PacketTributeData",
+            "<init>",
+            "(IIII)V"
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 42
+        },
+        {
+          "offset": 143,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "this$0",
+            "Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "access$2400",
+            "(Lnet/tslat/aoa3/utils/player/PlayerDataManager;)Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 192,
+          "operands": [
+            1,
+            37
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper",
+            "sendTo",
+            "(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraft/entity/player/EntityPlayerMP;)V"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ForagingArmour.class",
+      "class_sha256": "66980f4f7e50e4ac7edd1e12b0f112d2da93011db3c16c6c1de906b3b7bcb019",
+      "name": "getLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ForagingArmour.class",
+      "class_sha256": "66980f4f7e50e4ac7edd1e12b0f112d2da93011db3c16c6c1de906b3b7bcb019",
+      "name": "addBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60043b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "addXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/ForagingArmour.class",
+      "class_sha256": "66980f4f7e50e4ac7edd1e12b0f112d2da93011db3c16c6c1de906b3b7bcb019",
+      "name": "removeBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60049b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "FORAGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "removeXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/LoggingArmour.class",
+      "class_sha256": "30673b130f4b42cfe2bb148b825d5579ece4106f6af3858816f59dfa6ed1b794",
+      "name": "getLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/LoggingArmour.class",
+      "class_sha256": "30673b130f4b42cfe2bb148b825d5579ece4106f6af3858816f59dfa6ed1b794",
+      "name": "addBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60043b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "addXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/LoggingArmour.class",
+      "class_sha256": "30673b130f4b42cfe2bb148b825d5579ece4106f6af3858816f59dfa6ed1b794",
+      "name": "removeBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60049b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "LOGGING",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "removeXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "foraging": {
+      "path": "assets/aoa3/loot_tables/skills/foraging/foraging.json",
+      "sha256": "36e2c6a36f00e2687240aada0d4450832a97144a39a164527ee38dbd56f913e2",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "drops",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "item",
+                "name": "minecraft:coal",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 20
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:scrap_metal",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 20
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:gold_nugget",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 20
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:ender_pearl",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 15
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 100
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:gunpowder",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 20
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 16
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 150
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:iron_ingot",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 35
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 650
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:experience_bottle",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 50
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 1000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:diamond",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 65
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 3550
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:small_skill_crystal",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 70
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 4000
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosite_ingot",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 85
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 10100
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gold_coin",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 90
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 19800
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:occult_pickaxe",
+                "weight": 10,
+                "quality": 5,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "foraging",
+                    "level": 90
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "foraging",
+                    "xp": 30000
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "logging": {
+      "path": "assets/aoa3/loot_tables/skills/logging/logging.json",
+      "sha256": "efa4405d5776b2848d6db799a0d412e07dd83e7c86b1e1df758b9d55556a83c7",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "drops",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "item",
+                "name": "minecraft:stick",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 16
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 15
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:apple",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 25
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:tea_seeds",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 10
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 40
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:experience_bottle",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 20
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 9
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 90
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fragmented_anima_stone",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 40
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 360
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gem_bag",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 50
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 500
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 90
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 6200
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosite_ingot",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 95
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 9500
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:occult_axe",
+                "weight": 10,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 95
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 15000
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "vanilla_method_evidence": [
+    {
+      "class_path": "bft$a.class",
+      "class_sha256": "b164b5adafe28025124850f5888696d2d2a317dfca4393e71fbff88f78f18956",
+      "name": "a",
+      "descriptor": "(Laed;)Lbft$a;",
+      "code_hex": "2a2bb500242ab0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 181,
+          "member": [
+            "bft$a",
+            "d",
+            "Laed;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "bft$a.class",
+      "class_sha256": "b164b5adafe28025124850f5888696d2d2a317dfca4393e71fbff88f78f18956",
+      "name": "a",
+      "descriptor": "()Lbft;",
+      "code_hex": "bb0007592ab4001e2ab400182ab40018b6002e2ab400212ab400242ab40027b70031b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "bft$a",
+            "b",
+            "F"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "bft$a",
+            "a",
+            "Loo;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 42
+        },
+        {
+          "offset": 13,
+          "opcode": 180,
+          "member": [
+            "bft$a",
+            "a",
+            "Loo;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 182,
+          "member": [
+            "oo",
+            "am",
+            "()Lbfv;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 180,
+          "member": [
+            "bft$a",
+            "c",
+            "Lvg;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "bft$a",
+            "d",
+            "Laed;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "bft$a",
+            "e",
+            "Lur;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 183,
+          "member": [
+            "bft",
+            "<init>",
+            "(FLoo;Lbfv;Lvg;Laed;Lur;)V"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "bft.class",
+      "class_sha256": "a99bab3b944c605aa5d23f084bc78529051371256cf7b7d25e2b323f7ff8f6f0",
+      "name": "<init>",
+      "descriptor": "(FLoo;Lbfv;Lvg;Laed;Lur;)V",
+      "code_hex": "2ab700202ab80026b500282a23b5002a2a2cb5002c2a2db5002e2a1904b500302a1905b500322a1906b50034b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 184,
+          "member": [
+            "com/google/common/collect/Sets",
+            "newLinkedHashSet",
+            "()Ljava/util/LinkedHashSet;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "g",
+            "Ljava/util/Set;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 35
+        },
+        {
+          "offset": 13,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "a",
+            "F"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 44
+        },
+        {
+          "offset": 18,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "b",
+            "Loo;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 45
+        },
+        {
+          "offset": 23,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "c",
+            "Lbfv;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "d",
+            "Lvg;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "e",
+            "Laed;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 42
+        },
+        {
+          "offset": 39,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 181,
+          "member": [
+            "bft",
+            "f",
+            "Lur;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "bft.class",
+      "class_sha256": "a99bab3b944c605aa5d23f084bc78529051371256cf7b7d25e2b323f7ff8f6f0",
+      "name": "b",
+      "descriptor": "()Lvg;",
+      "code_hex": "2ab40032b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "bft",
+            "e",
+            "Laed;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "bgo.class",
+      "class_sha256": "400b245517dc959069bfb478e5303959983966d93f180fbd06dfbb59d91666fc",
+      "name": "a",
+      "descriptor": "(Ljava/util/Random;Lbft;)Z",
+      "code_hex": "2cb6001cc6000704a70004033e1d2ab400129a000704a7000403a0000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "bft",
+            "b",
+            "()Lvg;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 198,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 12,
+          "opcode": 62
+        },
+        {
+          "offset": 13,
+          "opcode": 29
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "bgo",
+            "a",
+            "Z"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 22,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 26,
+          "opcode": 160,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 30,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 34,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "bgo$a.class",
+      "class_sha256": "d45fce32ca0b7a9c50c82d320ae7937d075e4eb4d190842bacdc16bfde8eecbd",
+      "name": "a",
+      "descriptor": "(Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbgo;",
+      "code_hex": "bb0008592b121c03b80035b70038b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 18,
+          "constant": "inverse"
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 184,
+          "member": [
+            "rc",
+            "a",
+            "(Lcom/google/gson/JsonObject;Ljava/lang/String;Z)Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "bgo",
+            "<init>",
+            "(Z)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "mapping_sha256": "7dada8ab1ae837b507fa9edb292bcd8660748d1bd650b10d3bd2e4f5b435f856",
+  "mapping_anchors": [
+    "bft net/minecraft/world/storage/loot/LootContext",
+    "bft$a net/minecraft/world/storage/loot/LootContext$Builder",
+    "bgo net/minecraft/world/storage/loot/conditions/KilledByPlayer",
+    "a (Laed;)Lbft$a; func_186470_a",
+    "b ()Lvg; func_186495_b"
+  ],
+  "gate_models": [
+    {
+      "level": 1,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 2,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 3,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 4,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 5,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 6,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 7,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 8,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 9,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 11
+    },
+    {
+      "level": 10,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 11,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 12,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 13,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 14,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 15,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 16,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 17,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 18,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 19,
+      "foraging_gate_denominator": 65,
+      "netherrack_combined_denominator": 130,
+      "logging_gate_denominator": 25,
+      "logging_loot_branch_denominator": 50,
+      "logging_duplicate_branch_denominator": 50,
+      "duplicate_added_count": 1,
+      "tribute_request": 10
+    },
+    {
+      "level": 20,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 21,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 22,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 23,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 24,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 25,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 26,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 27,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 28,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 29,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 9
+    },
+    {
+      "level": 30,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 31,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 32,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 33,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 34,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 35,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 36,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 37,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 38,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 39,
+      "foraging_gate_denominator": 55,
+      "netherrack_combined_denominator": 110,
+      "logging_gate_denominator": 20,
+      "logging_loot_branch_denominator": 40,
+      "logging_duplicate_branch_denominator": 40,
+      "duplicate_added_count": 1,
+      "tribute_request": 8
+    },
+    {
+      "level": 40,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 41,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 42,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 43,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 44,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 45,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 46,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 47,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 48,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 49,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 7
+    },
+    {
+      "level": 50,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 1,
+      "tribute_request": 6
+    },
+    {
+      "level": 51,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 52,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 53,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 54,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 55,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 56,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 57,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 58,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 59,
+      "foraging_gate_denominator": 48,
+      "netherrack_combined_denominator": 96,
+      "logging_gate_denominator": 16,
+      "logging_loot_branch_denominator": 32,
+      "logging_duplicate_branch_denominator": 32,
+      "duplicate_added_count": 2,
+      "tribute_request": 6
+    },
+    {
+      "level": 60,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 61,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 62,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 63,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 64,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 65,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 66,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 67,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 68,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 69,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 5
+    },
+    {
+      "level": 70,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 71,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 72,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 73,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 74,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 75,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 76,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 77,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 78,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 79,
+      "foraging_gate_denominator": 36,
+      "netherrack_combined_denominator": 72,
+      "logging_gate_denominator": 12,
+      "logging_loot_branch_denominator": 24,
+      "logging_duplicate_branch_denominator": 24,
+      "duplicate_added_count": 2,
+      "tribute_request": 4
+    },
+    {
+      "level": 80,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 81,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 82,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 83,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 84,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 85,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 86,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 87,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 88,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 89,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 3
+    },
+    {
+      "level": 90,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 91,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 92,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 93,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 94,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 95,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 96,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 97,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 98,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 99,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 2
+    },
+    {
+      "level": 100,
+      "foraging_gate_denominator": 29,
+      "netherrack_combined_denominator": 58,
+      "logging_gate_denominator": 9,
+      "logging_loot_branch_denominator": 18,
+      "logging_duplicate_branch_denominator": 18,
+      "duplicate_added_count": 2,
+      "tribute_request": 1
+    }
+  ],
+  "limits": [
+    "Random gates precede weighted reward selection and downstream harvest handling.",
+    "Full armor adds another table call, not an identical guaranteed item duplicate.",
+    "Logging duplicate branch adds one or two copies, not a multiplier of the original stack count.",
+    "XP values are requests before modifiers and skill configuration."
+  ]
+}
