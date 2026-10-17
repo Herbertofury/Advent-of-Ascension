@@ -374,7 +374,9 @@ Comparison key: `aoa3:immortallis`.
 
 This historical code-era realm is outside the inspected 1.16.5 dimension JSON list. Keep its provider, encounters and progression dependencies as a distinct restoration task.
 
-No dimension-matched bestiary link is generated from the current extracted roster. Structure, summoning and other dynamic routes remain separate.
+[Follow the historical nine-stage dungeon walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Immortallis-Dungeon-Walkthrough-1.12.2).
+
+**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Aimmortallis) (0 dimension-tagged entries; 4 arena routes).
 
 ### Iromine
 
