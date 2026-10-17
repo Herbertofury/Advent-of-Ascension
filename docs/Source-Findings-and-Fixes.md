@@ -182,3 +182,14 @@ The historical leggings ID is `aoa3:hydrangic_legs`; the newer inspected version
 One qualifying non-creative station interaction consumes one Petals item and chooses one armor piece; duplicates are possible. The modern delivery helper tries inventory insertion and a player-targeted dropped-item fallback, so its ignored boolean is not evidence of ordinary full-inventory item loss. Acceptance still needs resource acquisition, all four outcomes, delivery, reconnect and farming-effect checks in the target build.
 
 [Released interaction/resource evidence](https://herbertofury.github.io/Advent-of-Ascension/petal-crafting-evidence.json). No game execution or private current-candidate parity is claimed.
+
+## Historical gun inventory accounting and spawn acceptance · 1.12.2
+
+The released AoA 3.3.6 audit adds four target-build checks. These findings do not assert that the current private Enderloom candidate still has the same code.
+
+- **Multi-stack exact payment:** `ItemUtil.findInventoryItem` reuses the original requested amount for each matched stack while decrementing foundCount. A matching `[2, 2]` inventory with a request of 3 removes 4 in the independent model. Introduce a remaining-request counter, stop at zero, and preserve the no-partial-loss behavior when unique stock is insufficient.
+- **Physical-stack identity:** the selected main-hand stack can also be encountered through main inventory. Deduplicate references before counting; tests must compare physical inventory counts rather than only the boolean return.
+- **Projectile acceptance:** the base gun caller discards spawnEntity's boolean result after its ammunition call. Define and test failure handling for payment, gun durability, use statistics and cooldown instead of assuming a constructed projectile was accepted by the world.
+- **Per-impact console output:** the inspected base impact method calls System.out.println(target). Consider removing or gating this diagnostic after checking its purpose, then profile log volume and frame/tick timing. This is a performance candidate, not a measured speedup or permission to drop functional behavior.
+
+The player-facing [firing and ammunition guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2) includes the 16-bullet recipe, hand/attack-strength gates and the distinction between 45 inherited base ammo methods and 33 overrides. [Evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/gun-firing-evidence-1.12.2.json) records 40 released methods and 201 independent matching-stack models. Preserve Creative, metadata/NBT, hand selection, subclass and multiplayer behavior when implementing a fix; no gameplay patch or runtime acceptance is claimed here.

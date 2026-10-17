@@ -112,6 +112,10 @@ Each linked name opens its own source-model portrait and input panel. Tick inter
 | [Wart Gun](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.WartGun.name) | 16.5 | 28 | 580 | 1 |
 | [Wrecker](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.Wrecker.name) | 9.5 | 12 | 920 | 7 |
 
+## Firing and ammunition
+
+Continue with [hand selection, ammunition and inventory pitfalls](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2) for the checked base use path, exact historical bullet recipe and split-stack payment test cases.
+
 ## Scope and next checks
 
 - The 78 entries are direct constructors from the gun package in the inspected registration method. Shotguns, snipers, cannons, archerguns and other weapon families are not silently counted here.
