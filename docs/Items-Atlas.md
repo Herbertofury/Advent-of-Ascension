@@ -7,6 +7,34 @@
 
 This is a discoverability index of source-localized names, **not** a list of obtainable/implemented content. Leftover localization is common. Active registration, recipes, loot, behavior and the target build must be verified independently. Historical aliases and same-name redesigns remain distinct migration questions.
 
+## Browse checked weapon families
+
+Choose your Minecraft release first, then use **Weapon family** in the Items & Blocks Observatory. Counts describe the inspected archive's reference panels, not damage rankings, obtainable items, or compatibility with a different build. Search, preview outcome, item/block kind and exact-item links intersect with the family filter. **Share this view** keeps those choices in the URL; Reset restores all records for the selected release.
+
+[All 411 checked modern weapon references](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=verified) · AoA 3.7.16.1 / Minecraft 1.21.1. This matches the selected released AoAWeapons registration class, not every possible add-on item.
+
+| Family | Checked references | How it works |
+|---|---:|---|
+| [Direct guns](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=gun) | 78 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Statistics-and-Ammunition-1.21.1) |
+| [Shotguns](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=shotgun) | 17 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Cannon-and-Sniper-Statistics-1.21.1) |
+| [Cannons](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=cannon) | 50 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Cannon-and-Sniper-Statistics-1.21.1) |
+| [Snipers](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=sniper) | 27 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Cannon-and-Sniper-Statistics-1.21.1) |
+| [Bows](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=bow) | 33 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bows-and-Crossbows-1.21.1) |
+| [Crossbows](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=crossbow) | 9 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bows-and-Crossbows-1.21.1) |
+| [Staves](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=staff) | 57 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Rune-Costs-and-Preparation-1.21.1) |
+| [Blasters](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=blaster) | 56 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blasters-and-Spirit-1.21.1) |
+| [Vulcanes](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=vulcane) | 8 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vulcanes-and-Rage-1.21.1) |
+| [Throwables](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=throwable) | 8 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Throwable-Weapons-1.21.1) |
+| [Swords](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=sword) | 34 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Melee-Weapons-and-Property-Routing-1.21.1) |
+| [Greatblades](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=greatblade) | 29 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Melee-Weapons-and-Property-Routing-1.21.1) |
+| [Mauls](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.21.1&family=maul) | 5 | [Mechanics and evidence limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Melee-Weapons-and-Property-Routing-1.21.1) |
+
+Historical gun constructor references remain separate: [78 for 1.16.5](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.16.5&family=historical-gun) and [78 for 1.20.1](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.20.1&family=historical-gun). Read [what those older inputs mean](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Gun-Constructor-References) before comparing them with modern builder properties.
+
+If you change to a release where the selected family has no checked references, the browser keeps the choice and explains the empty result. It never fills the gap with another release's numbers. This does not prove that the weapon family is absent from the game. Select **All records** to return to the broader resource catalog.
+
+Family filtering reuses the selected release's loaded data. It does not download another roster or start a scan each time you change a family; reference panels remain collapsed until opened.
+
 | Content name / ID | 1.16.5 name evidence | 1.20 name evidence | 1.21 name evidence |
 |---|---|---|---|
 | Abominator · `item.aoa3.abominator` | Present | Present | Present |
