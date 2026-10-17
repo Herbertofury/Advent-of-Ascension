@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-17T10:05:03.987Z",
+  "scope": "Cloud Chrome desktop DOM and screenshot verification; no game or physical-mobile test.",
+  "checks": [
+    {
+      "case": "radiant-harvest",
+      "icons": [
+        {
+          "background": "url(\"previews/1.12.2-item-sheet-18.webp\")",
+          "label": "Radiant Infusion Stone"
+        },
+        {
+          "background": "url(\"previews/1.12.2-item-sheet-18.webp\")",
+          "label": "Radiant Power Stone"
+        }
+      ],
+      "open": true,
+      "overflow": false,
+      "text": "Pixon harvest rewards · inspect on demand\n\nBowl-interaction rewards, not ordinary death drops. One table call per completed harvest iteration; a recognized full Infusion armor set adds a second independent call. Skill gates, cooldown and remaining Pixon health still apply.\n\naoa3:entities/misc/pixons/radiant_pixon_harvest\n\nassets/aoa3/loot_tables/entities/misc/pixons/radiant_pixon_harvest.json\n\nArtifact JSON SHA-256: 3948314e15c271fb90f28c3e332a4ed9615038b35df83fd32ec9822b5fa56476\n\nPool 1 · stones\n\nRolls: 1 · Bonus rolls: \"unspecified\"\n\nRadiant Infusion Stone\n\nType: item · Weight: 30 · Quality: default\n\nBase stack: default 1 · per selected entry, not the total for a bowl use\n\nBase infusion XP request: 700 · modifiers can change final XP\n\nFind recipe references\nExact entry, conditions and functions\nRadiant Power Stone\n\nType: item · Weight: 1 · Quality: default\n\nBase stack: default 1 · per selected entry, not the total for a bowl use\n\nBase infusion XP request: 60 · modifiers can change final XP\n\nFind recipe references\nExact entry, conditions and functions\nFull pool definition\nComplete artifact table\nHarvest method, thresholds and XP evidence",
+      "url": "https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aradiant_pixon"
+    },
+    {
+      "case": "ordinary-loot-separate",
+      "text": "Loot tables · inspect on demand\n\nWeights are not drop percentages. Conditions, looting, nested tables and runtime events are not evaluated.\n\nno AoA table getter located; external/custom behavior not evaluated\n\nTable association evidence"
+    }
+  ],
+  "visual_review": "Radiant stone icons, weights, separate700/60baseXP labels and distinct ordinary-loot section visible."
+}

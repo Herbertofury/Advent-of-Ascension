@@ -25,9 +25,11 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
 | Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 114 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 115 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
+
+- [Pixon harvest rewards](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Pixon-Harvesting-and-Stones-1.12.2): sixteen illustrated interaction rewards and their XP now open directly inside eight bestiary cards, sharing the existing on-demand loot cache.
 
 - [Historical Runation shrines](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runation-Rune-Shrines-and-Inputs-1.12.2): exact four-post layout, fourteen illustrated tiers, input-rune recipes and destructive practice/post-removal warnings.
 
@@ -35,7 +37,6 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 - [Historical Infusion crafting and enchanting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2): all 386 shipped recipes, 37 enchantment families, exact slot layout and visible recipe-browser requirements.
 
-- [Historical Pixon cards](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Particle-and-Invisible-Entities-1.12.2): eight released particle references now appear directly in the bestiary, with harvest thresholds and guide links; skill navigation is grouped by release.
 
 - [Pixon harvesting and Infusion Stones](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Pixon-Harvesting-and-Stones-1.12.2): eight illustrated tiers, exact bowl/table recipes, released particle references and whole-stack conversion rules.
 
