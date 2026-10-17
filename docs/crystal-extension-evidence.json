@@ -1,0 +1,6725 @@
+{
+  "scope": "Released selected-method decoding and independent finite stack models. No Minecraft execution, live loss reproduction or target-port certification. Resource references are bounded selected-file scans, not a complete acquisition proof.",
+  "releases": [
+    {
+      "version": "1.12.2",
+      "artifact": "AoA3-3.3.6.jar",
+      "class_path": "net/tslat/aoa3/block/functional/utility/CrystalExtensionShrine.class",
+      "class_sha256": "34c2d8b03b36bf6fa5736f73eb6aaa372dc0f92675a3ced2ff5312ebdf1101fa",
+      "method_evidence": [
+        {
+          "name": "func_180639_a",
+          "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z",
+          "code_hex": "19041905b60048b6004e9a011a19041905b600483a0a190ab60052b20058a601062bb4005e9a00fd2b1260bb0062592cb600680864872cb6006b0464872cb6006e0864872cb600680860872cb6006b0460872cb6006e086087b70071ba00840000b600883a0b03360c190bb9008e01003a0d190db900990100990029190db9009d0100c000603a0e150c190eb600a1b600a460360c150c100aa10006a70006a7ffd3150c100aa200131904c000a612a803bd00aab800b004ac100a360d150d9e0043190b03b900b40200c000603a0e190eb600a13a0f190fb600a43610190f150db600b8190fb600a49d000c190b03b900bb020057150d151064360d840d01a7ffbe1904b400bfb400c49a0009190a04b600b81904bb004a59b200c7b700cab800d004ac03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 2,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/player/EntityPlayer",
+                "func_184586_b",
+                "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190926_b",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 154,
+              "operands": [
+                1,
+                26
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/player/EntityPlayer",
+                "func_184586_b",
+                "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_77973_b",
+                "()Lnet/minecraft/item/Item;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "RAINBOW_DRUSE",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 166,
+              "operands": [
+                1,
+                6
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 43
+            },
+            {
+              "offset": 34,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/World",
+                "field_72995_K",
+                "Z"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 154,
+              "operands": [
+                0,
+                253
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 43
+            },
+            {
+              "offset": 41,
+              "opcode": 18,
+              "constant": "net/minecraft/entity/item/EntityItem"
+            },
+            {
+              "offset": 43,
+              "opcode": 187,
+              "operands": [
+                0,
+                98
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 89
+            },
+            {
+              "offset": 47,
+              "opcode": 44
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177958_n",
+                "()I"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 52,
+              "opcode": 100
+            },
+            {
+              "offset": 53,
+              "opcode": 135
+            },
+            {
+              "offset": 54,
+              "opcode": 44
+            },
+            {
+              "offset": 55,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177956_o",
+                "()I"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 59,
+              "opcode": 100
+            },
+            {
+              "offset": 60,
+              "opcode": 135
+            },
+            {
+              "offset": 61,
+              "opcode": 44
+            },
+            {
+              "offset": 62,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177952_p",
+                "()I"
+              ]
+            },
+            {
+              "offset": 65,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 66,
+              "opcode": 100
+            },
+            {
+              "offset": 67,
+              "opcode": 135
+            },
+            {
+              "offset": 68,
+              "opcode": 44
+            },
+            {
+              "offset": 69,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177958_n",
+                "()I"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 73,
+              "opcode": 96
+            },
+            {
+              "offset": 74,
+              "opcode": 135
+            },
+            {
+              "offset": 75,
+              "opcode": 44
+            },
+            {
+              "offset": 76,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177956_o",
+                "()I"
+              ]
+            },
+            {
+              "offset": 79,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 80,
+              "opcode": 96
+            },
+            {
+              "offset": 81,
+              "opcode": 135
+            },
+            {
+              "offset": 82,
+              "opcode": 44
+            },
+            {
+              "offset": 83,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177952_p",
+                "()I"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 87,
+              "opcode": 96
+            },
+            {
+              "offset": 88,
+              "opcode": 135
+            },
+            {
+              "offset": 89,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/util/math/AxisAlignedBB",
+                "<init>",
+                "(DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 92,
+              "opcode": 186,
+              "operands": [
+                0,
+                132,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/World",
+                "func_175647_a",
+                "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 102,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 103,
+              "opcode": 54,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 112,
+              "opcode": 58,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 153,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 124,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 131,
+              "opcode": 192,
+              "operands": [
+                0,
+                96
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 58,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 25,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 140,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/item/EntityItem",
+                "func_92059_d",
+                "()Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 143,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190916_E",
+                "()I"
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 96
+            },
+            {
+              "offset": 147,
+              "opcode": 54,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 151,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 153,
+              "opcode": 161,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 167,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 159,
+              "opcode": 167,
+              "operands": [
+                255,
+                211
+              ]
+            },
+            {
+              "offset": 162,
+              "opcode": 21,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 166,
+              "opcode": 162,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 169,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 192,
+              "operands": [
+                0,
+                166
+              ]
+            },
+            {
+              "offset": 174,
+              "opcode": 18,
+              "constant": "message.feedback.crystalExtensionShrine.crystals"
+            },
+            {
+              "offset": 176,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 177,
+              "opcode": 189,
+              "operands": [
+                0,
+                170
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/utils/player/PlayerUtil",
+                "notifyPlayer",
+                "(Lnet/minecraft/entity/player/EntityPlayerMP;Ljava/lang/String;[Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 183,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 184,
+              "opcode": 172
+            },
+            {
+              "offset": 185,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 187,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 189,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 158,
+              "operands": [
+                0,
+                67
+              ]
+            },
+            {
+              "offset": 194,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 196,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 197,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "get",
+                "(I)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 192,
+              "operands": [
+                0,
+                96
+              ]
+            },
+            {
+              "offset": 205,
+              "opcode": 58,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 207,
+              "opcode": 25,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 209,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/item/EntityItem",
+                "func_92059_d",
+                "()Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 212,
+              "opcode": 58,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 25,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190916_E",
+                "()I"
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 54,
+              "operands": [
+                16
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 25,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 225,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190918_g",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 25,
+              "operands": [
+                15
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190916_E",
+                "()I"
+              ]
+            },
+            {
+              "offset": 233,
+              "opcode": 157,
+              "operands": [
+                0,
+                12
+              ]
+            },
+            {
+              "offset": 236,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 238,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 239,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "remove",
+                "(I)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 244,
+              "opcode": 87
+            },
+            {
+              "offset": 245,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 247,
+              "opcode": 21,
+              "operands": [
+                16
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 100
+            },
+            {
+              "offset": 250,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 252,
+              "opcode": 132,
+              "operands": [
+                13,
+                1
+              ]
+            },
+            {
+              "offset": 255,
+              "opcode": 167,
+              "operands": [
+                255,
+                190
+              ]
+            },
+            {
+              "offset": 258,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 260,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/entity/player/EntityPlayer",
+                "field_71075_bZ",
+                "Lnet/minecraft/entity/player/PlayerCapabilities;"
+              ]
+            },
+            {
+              "offset": 263,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/entity/player/PlayerCapabilities",
+                "field_75098_d",
+                "Z"
+              ]
+            },
+            {
+              "offset": 266,
+              "opcode": 154,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 269,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 271,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 272,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190918_g",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 275,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 277,
+              "opcode": 187,
+              "operands": [
+                0,
+                74
+              ]
+            },
+            {
+              "offset": 280,
+              "opcode": 89
+            },
+            {
+              "offset": 281,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "GIANT_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 284,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "<init>",
+                "(Lnet/minecraft/item/Item;)V"
+              ]
+            },
+            {
+              "offset": 287,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/utils/ItemUtil",
+                "givePlayerItemOrDrop",
+                "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+              ]
+            },
+            {
+              "offset": 290,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 291,
+              "opcode": 172
+            },
+            {
+              "offset": 292,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 293,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "isCrystal",
+          "descriptor": "(Lnet/minecraft/item/Item;)Z",
+          "code_hex": "2ab200f2a500262ab200f5a5001f2ab200f8a500182ab200fba500112ab200fea5000a2ab20101a6000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "BLUE_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 165,
+              "operands": [
+                0,
+                38
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "GREEN_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 165,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 42
+            },
+            {
+              "offset": 15,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "PURPLE_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 165,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 42
+            },
+            {
+              "offset": 22,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "RED_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 165,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 42
+            },
+            {
+              "offset": 29,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "WHITE_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 165,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 42
+            },
+            {
+              "offset": 36,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/ItemRegister",
+                "YELLOW_CRYSTAL",
+                "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 166,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 43,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 47,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$onBlockActivated$0",
+          "descriptor": "(Lnet/minecraft/entity/item/EntityItem;)Z",
+          "code_hex": "2ab600a1b60052b80104ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/item/EntityItem",
+                "func_92059_d",
+                "()Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_77973_b",
+                "()Lnet/minecraft/item/Item;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/block/functional/utility/CrystalExtensionShrine",
+                "isCrystal",
+                "(Lnet/minecraft/item/Item;)Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 172
+            }
+          ]
+        }
+      ],
+      "accepted_crystal_fields": [
+        "BLUE_CRYSTAL",
+        "GREEN_CRYSTAL",
+        "PURPLE_CRYSTAL",
+        "RED_CRYSTAL",
+        "WHITE_CRYSTAL",
+        "YELLOW_CRYSTAL"
+      ],
+      "loop_step": 1,
+      "subtracts_size_minus_one": false,
+      "examples": [
+        {
+          "stacks": [
+            9
+          ],
+          "outcome": "precheck_rejected",
+          "consumed": 0,
+          "remaining": [
+            9
+          ],
+          "iterations": 0
+        },
+        {
+          "stacks": [
+            10
+          ],
+          "outcome": "empty_list_access_before_output",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            5,
+            5
+          ],
+          "outcome": "empty_list_access_before_output",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "outcome": "empty_list_access_before_output",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 10
+        },
+        {
+          "stacks": [
+            11
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            1
+          ],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            6,
+            7
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 11,
+          "remaining": [
+            2
+          ],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            64
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            54
+          ],
+          "iterations": 1
+        }
+      ],
+      "exact_ten_compositions": {
+        "cases": 512,
+        "output_reached": 0,
+        "consumes_exactly_ten": 0
+      },
+      "resource_references": [
+        {
+          "path": "assets/aoa3/loot_tables/entities/bosses/crystocore.json",
+          "sha256": "56345a0a267c716c10dc392e00e027df8aa44878d007f922cee7ceb21cea2b26",
+          "data": {
+            "type": "entity",
+            "pools": [
+              {
+                "name": "dimension_table",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "loot_table",
+                    "name": "aoa3:worlds/crystevia",
+                    "weight": 1
+                  }
+                ]
+              },
+              {
+                "name": "supplies",
+                "rolls": {
+                  "min": 1,
+                  "max": 2
+                },
+                "bonus_rolls": 1,
+                "entries": [
+                  {
+                    "type": "empty",
+                    "weight": 50,
+                    "quality": -10
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:magic_repair_dust",
+                    "weight": 30,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 3
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 35,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 5
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:gold_coin",
+                    "weight": 15,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 2
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:crystevia_tokens",
+                    "weight": 36,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 5,
+                          "max": 32
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:rainbow_druse",
+                    "weight": 31
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:life_rune",
+                    "weight": 40,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 6,
+                          "max": 20
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:small_skill_crystal",
+                    "weight": 29,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 5
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:medium_skill_crystal",
+                    "weight": 25,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 3
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:large_skill_crystal",
+                    "weight": 21,
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 2
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "rares",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "empty",
+                    "weight": 100,
+                    "quality": -10
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:crystal_staff",
+                    "weight": 15
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:cryston_staff",
+                    "weight": 16
+                  },
+                  {
+                    "type": "item",
+                    "name": "aoa3:proton",
+                    "weight": 18
+                  }
+                ]
+              },
+              {
+                "name": "statue",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "item",
+                    "name": "aoa3:crystocore_statue",
+                    "weight": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/infusion/infusing/armour/crystallis/crystallis_boots.json",
+          "sha256": "dceba884f44999529a50ab59f1deb378f5f352c1f2715716c460e663e619b332",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:boots_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_boots"
+            }
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/infusion/infusing/armour/crystallis/crystallis_chestplate.json",
+          "sha256": "4cf22c4f3e7511bd7706d91f2c540f9bfeb64af395d92462cdf6644a6a471bb8",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:chestplate_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_chestplate"
+            }
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/infusion/infusing/armour/crystallis/crystallis_helmet.json",
+          "sha256": "438507e4deb524bf81490e2f50184276e6f1266e66cd4c2ae3c0a372ee7c37d7",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:helmet_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_helmet"
+            }
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/infusion/infusing/armour/crystallis/crystallis_legs.json",
+          "sha256": "e0d0fb5ff8c52a1d23abf0e547b859bc1d7b877923b10d874bc8b3815c40bc30",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:leggings_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_legs"
+            }
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/infusion/infusing/weapons/guns/crystal_carver.json",
+          "sha256": "178f0cd63afbffed8e39d61602be60d650e1d9c6622df0b873884fb8ad0f9d32",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:gun_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              },
+              {
+                "item": "aoa3:sapphire"
+              },
+              {
+                "item": "minecraft:diamond"
+              },
+              {
+                "item": "minecraft:gunpowder"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystal_carver"
+            }
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/infusion/infusing/weapons/snipers/crystaneer.json",
+          "sha256": "d780c2610fe068bfa766b719f89d3e34959814a0852895fd74afb4559f59d126",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:sniper_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:amethyst"
+              },
+              {
+                "item": "aoa3:amethyst"
+              },
+              {
+                "item": "minecraft:iron_ingot"
+              },
+              {
+                "item": "minecraft:iron_ingot"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystaneer"
+            }
+          }
+        },
+        {
+          "path": "assets/aoa3/recipes/items/misc/misc/rainbow_druse.json",
+          "sha256": "012970ad2ab44cc8a7909fd2402ce670357b837ad462cc7672e0a19c73880c8f",
+          "data": {
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+              {
+                "item": "aoa3:red_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:purple_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              },
+              {
+                "item": "aoa3:white_druse"
+              },
+              {
+                "item": "aoa3:yellow_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:rainbow_druse"
+            }
+          }
+        }
+      ],
+      "recipe_viewer_hidden_items": []
+    },
+    {
+      "version": "1.16.5",
+      "artifact": "AoA3-1.16.5-3.6.11.jar",
+      "class_path": "net/tslat/aoa3/content/block/functional/utility/CrystalExtensionShrine.class",
+      "class_sha256": "26c785a7ecbc993e378296264b6d298139e9b2f872d37ef267f6cb3249364828",
+      "method_evidence": [
+        {
+          "name": "func_225533_a_",
+          "descriptor": "(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;",
+          "code_hex": "19041905b60046b6004c9a012819041905b600463a071907b60050b20056b6005ba601111904c1005d9901052c125fbb0061592db600670864872db6006a0464872db6006d0864872db600670860872db6006a0460872db6006d086087b70070ba00830000b600893a080336091908b9008f01003a0a190ab9009a0100990029190ab9009e0100c0005f3a0b1509190bb600a2b600a56036091509100aa10006a70006a7ffd31509100aa200181904c0005dbb00a75912a9b700acb800b2b200b8b0100a360a150a9e0043190803b900bb0200c0005f3a0b190bb600a23a0c190cb600a5360d190c150ab600bf190cb600a59d000c190803b900c2020057150a150d64360a840affa7ffbe1904b600c59a0009190704b600bf1904bb004859b200c8b6005bc000cab700cdb800d3b200d6b0b200d9b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 2,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/player/PlayerEntity",
+                "func_184586_b",
+                "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190926_b",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 154,
+              "operands": [
+                1,
+                40
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/player/PlayerEntity",
+                "func_184586_b",
+                "(Lnet/minecraft/util/Hand;)Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_77973_b",
+                "()Lnet/minecraft/item/Item;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "RAINBOW_DRUSE",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 166,
+              "operands": [
+                1,
+                17
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 193,
+              "operands": [
+                0,
+                93
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 153,
+              "operands": [
+                1,
+                5
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 44
+            },
+            {
+              "offset": 45,
+              "opcode": 18,
+              "constant": "net/minecraft/entity/item/ItemEntity"
+            },
+            {
+              "offset": 47,
+              "opcode": 187,
+              "operands": [
+                0,
+                97
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 89
+            },
+            {
+              "offset": 51,
+              "opcode": 45
+            },
+            {
+              "offset": 52,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177958_n",
+                "()I"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 56,
+              "opcode": 100
+            },
+            {
+              "offset": 57,
+              "opcode": 135
+            },
+            {
+              "offset": 58,
+              "opcode": 45
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177956_o",
+                "()I"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 63,
+              "opcode": 100
+            },
+            {
+              "offset": 64,
+              "opcode": 135
+            },
+            {
+              "offset": 65,
+              "opcode": 45
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177952_p",
+                "()I"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 70,
+              "opcode": 100
+            },
+            {
+              "offset": 71,
+              "opcode": 135
+            },
+            {
+              "offset": 72,
+              "opcode": 45
+            },
+            {
+              "offset": 73,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177958_n",
+                "()I"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 77,
+              "opcode": 96
+            },
+            {
+              "offset": 78,
+              "opcode": 135
+            },
+            {
+              "offset": 79,
+              "opcode": 45
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177956_o",
+                "()I"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 84,
+              "opcode": 96
+            },
+            {
+              "offset": 85,
+              "opcode": 135
+            },
+            {
+              "offset": 86,
+              "opcode": 45
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/util/math/BlockPos",
+                "func_177952_p",
+                "()I"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 91,
+              "opcode": 96
+            },
+            {
+              "offset": 92,
+              "opcode": 135
+            },
+            {
+              "offset": 93,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/util/math/AxisAlignedBB",
+                "<init>",
+                "(DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 186,
+              "operands": [
+                0,
+                131,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/World",
+                "func_175647_a",
+                "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Ljava/util/function/Predicate;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 107,
+              "opcode": 54,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 125,
+              "opcode": 153,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 135,
+              "opcode": 192,
+              "operands": [
+                0,
+                95
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 140,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 142,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/item/ItemEntity",
+                "func_92059_d",
+                "()Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190916_E",
+                "()I"
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 96
+            },
+            {
+              "offset": 151,
+              "opcode": 54,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 157,
+              "opcode": 161,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 160,
+              "opcode": 167,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 167,
+              "operands": [
+                255,
+                211
+              ]
+            },
+            {
+              "offset": 166,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 170,
+              "opcode": 162,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 192,
+              "operands": [
+                0,
+                93
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 187,
+              "operands": [
+                0,
+                167
+              ]
+            },
+            {
+              "offset": 181,
+              "opcode": 89
+            },
+            {
+              "offset": 182,
+              "opcode": 18,
+              "constant": "message.feedback.crystalExtensionShrine.crystals"
+            },
+            {
+              "offset": 184,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/util/text/TranslationTextComponent",
+                "<init>",
+                "(Ljava/lang/String;)V"
+              ]
+            },
+            {
+              "offset": 187,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "notifyPlayer",
+                "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/text/ITextComponent;)V"
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/util/ActionResultType",
+                "PASS",
+                "Lnet/minecraft/util/ActionResultType;"
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 176
+            },
+            {
+              "offset": 194,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 196,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 198,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 200,
+              "opcode": 158,
+              "operands": [
+                0,
+                67
+              ]
+            },
+            {
+              "offset": 203,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 205,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 206,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "get",
+                "(I)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 211,
+              "opcode": 192,
+              "operands": [
+                0,
+                95
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 218,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/item/ItemEntity",
+                "func_92059_d",
+                "()Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 58,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 225,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190916_E",
+                "()I"
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 234,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190918_g",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 237,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 239,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190916_E",
+                "()I"
+              ]
+            },
+            {
+              "offset": 242,
+              "opcode": 157,
+              "operands": [
+                0,
+                12
+              ]
+            },
+            {
+              "offset": 245,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 247,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 248,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "remove",
+                "(I)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 253,
+              "opcode": 87
+            },
+            {
+              "offset": 254,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 256,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 258,
+              "opcode": 100
+            },
+            {
+              "offset": 259,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 261,
+              "opcode": 132,
+              "operands": [
+                10,
+                255
+              ]
+            },
+            {
+              "offset": 264,
+              "opcode": 167,
+              "operands": [
+                255,
+                190
+              ]
+            },
+            {
+              "offset": 267,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 269,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/player/PlayerEntity",
+                "func_184812_l_",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 272,
+              "opcode": 154,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 275,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 277,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 278,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_190918_g",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 281,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 283,
+              "opcode": 187,
+              "operands": [
+                0,
+                72
+              ]
+            },
+            {
+              "offset": 286,
+              "opcode": 89
+            },
+            {
+              "offset": 287,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "GIANT_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 290,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 293,
+              "opcode": 192,
+              "operands": [
+                0,
+                202
+              ]
+            },
+            {
+              "offset": 296,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "<init>",
+                "(Lnet/minecraft/util/IItemProvider;)V"
+              ]
+            },
+            {
+              "offset": 299,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/ItemUtil",
+                "givePlayerItemOrDrop",
+                "(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/item/ItemStack;)V"
+              ]
+            },
+            {
+              "offset": 302,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/util/ActionResultType",
+                "SUCCESS",
+                "Lnet/minecraft/util/ActionResultType;"
+              ]
+            },
+            {
+              "offset": 305,
+              "opcode": 176
+            },
+            {
+              "offset": 306,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/util/ActionResultType",
+                "FAIL",
+                "Lnet/minecraft/util/ActionResultType;"
+              ]
+            },
+            {
+              "offset": 309,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "isCrystal",
+          "descriptor": "(Lnet/minecraft/item/Item;)Z",
+          "code_hex": "2ab200f7b6005ba500352ab200fab6005ba5002b2ab200fdb6005ba500212ab20100b6005ba500172ab20103b6005ba5000d2ab20106b6005ba6000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "BLUE_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 165,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 42
+            },
+            {
+              "offset": 11,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "GREEN_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 165,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "PURPLE_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 165,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "RED_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 165,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "WHITE_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 165,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 42
+            },
+            {
+              "offset": 51,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAItems",
+                "YELLOW_CRYSTAL",
+                "Lnet/minecraftforge/fml/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/fml/RegistryObject",
+                "get",
+                "()Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 166,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 61,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 65,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$use$0",
+          "descriptor": "(Lnet/minecraft/entity/item/ItemEntity;)Z",
+          "code_hex": "2ab600a2b60050b80109ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/entity/item/ItemEntity",
+                "func_92059_d",
+                "()Lnet/minecraft/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/item/ItemStack",
+                "func_77973_b",
+                "()Lnet/minecraft/item/Item;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/block/functional/utility/CrystalExtensionShrine",
+                "isCrystal",
+                "(Lnet/minecraft/item/Item;)Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 172
+            }
+          ]
+        }
+      ],
+      "accepted_crystal_fields": [
+        "BLUE_CRYSTAL",
+        "GREEN_CRYSTAL",
+        "PURPLE_CRYSTAL",
+        "RED_CRYSTAL",
+        "WHITE_CRYSTAL",
+        "YELLOW_CRYSTAL"
+      ],
+      "loop_step": -1,
+      "subtracts_size_minus_one": false,
+      "examples": [
+        {
+          "stacks": [
+            9
+          ],
+          "outcome": "precheck_rejected",
+          "consumed": 0,
+          "remaining": [
+            9
+          ],
+          "iterations": 0
+        },
+        {
+          "stacks": [
+            10
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            5,
+            5
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 9,
+          "remaining": [
+            1
+          ],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 5,
+          "remaining": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "iterations": 5
+        },
+        {
+          "stacks": [
+            11
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            1
+          ],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            6,
+            7
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 9,
+          "remaining": [
+            4
+          ],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            64
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            54
+          ],
+          "iterations": 1
+        }
+      ],
+      "exact_ten_compositions": {
+        "cases": 512,
+        "output_reached": 512,
+        "consumes_exactly_ten": 1
+      },
+      "resource_references": [
+        {
+          "path": "data/aoa3/loot_tables/blocks/crystal_extension_shrine.json",
+          "sha256": "fd00d8c3b8d9409b516292376b61a9c724537fda9c6144f0616321f013677517",
+          "data": {
+            "type": "minecraft:block",
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:survives_explosion"
+                      }
+                    ],
+                    "name": "aoa3:crystal_extension_shrine"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": "data/aoa3/loot_tables/entities/crystocore.json",
+          "sha256": "0ad29c7feb4455d0ba56bf1643607ab5616cb254e0007a6cede851c098051ed6",
+          "data": {
+            "type": "minecraft:entity",
+            "pools": [
+              {
+                "name": "rares",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 10
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "name": "aoa3:crystal_staff"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 16,
+                    "name": "aoa3:cryston_staff"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 18,
+                    "name": "aoa3:proton"
+                  }
+                ]
+              },
+              {
+                "name": "supplies",
+                "rolls": {
+                  "min": 1.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:empty",
+                    "weight": 50
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 30,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 3.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:magic_repair_dust"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 35,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 5.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:silver_coin"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 2.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:gold_coin"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 31,
+                    "name": "aoa3:rainbow_druse"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 40,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 6.0,
+                          "max": 20.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:life_rune"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 29,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 5.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:small_skill_crystal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 25,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 3.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:medium_skill_crystal"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "weight": 21,
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1.0,
+                          "max": 2.0,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ],
+                    "name": "aoa3:large_skill_crystal"
+                  }
+                ],
+                "bonus_rolls": 1.0
+              },
+              {
+                "name": "trophy",
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{BlockEntityTag:{EntityID:\"aoa3:crystocore\",OriginalTrophy:1b},display:{Name:'{\"translate\":\"block.aoa3.trophy.desc\",\"with\":[{\"translate\":\"entity.aoa3.crystocore\"}]}'}}"
+                      }
+                    ],
+                    "name": "aoa3:trophy"
+                  }
+                ]
+              },
+              {
+                "rolls": 1.0,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "name": "aoa3:worlds/crystevia"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_boots.json",
+          "sha256": "925c8f0075868336bd9f1e11c4ceb23b25e7215ca6403ac98dd1d9b6d7472b7e",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:boots_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_boots"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_chestplate.json",
+          "sha256": "33b06e6932c1ddd14d10496e95dadb0201c677261974cf792a4811631604e09c",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:chestplate_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_chestplate"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_helmet.json",
+          "sha256": "b76b96c538f1666dcca4cf100c19b279593512a411e94c7730b8ff156c3921b6",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:helmet_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_helmet"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_legs.json",
+          "sha256": "886e6f33317e68991ffa77a3d318268888461e7821a30de5e4a78df39c605657",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:leggings_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystallis_legs"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystal_carver.json",
+          "sha256": "a65a7353d576dcee081832f9759da4293f4769395e0cc700b86f3d4bd62cc7cf",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:gun_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              },
+              {
+                "item": "aoa3:sapphire"
+              },
+              {
+                "item": "minecraft:diamond"
+              },
+              {
+                "item": "minecraft:gunpowder"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystal_carver"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystaneer.json",
+          "sha256": "0fd67de86c5093ae153a57d143e0d6fe8516921f25e9f790525faad77c50cba7",
+          "data": {
+            "type": "aoa3:infusion",
+            "input": {
+              "item": "aoa3:sniper_frame"
+            },
+            "ingredients": [
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:amethyst"
+              },
+              {
+                "item": "aoa3:amethyst"
+              },
+              {
+                "item": "minecraft:iron_ingot"
+              },
+              {
+                "item": "minecraft:iron_ingot"
+              }
+            ],
+            "result": {
+              "item": "aoa3:crystaneer"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/shapeless_craft_rainbow_druse.json",
+          "sha256": "00d75899c908a782b0cd410e5e626392fc30ae03da4c87474abe1902236b9f90",
+          "data": {
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+              {
+                "item": "aoa3:red_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:purple_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              },
+              {
+                "item": "aoa3:white_druse"
+              },
+              {
+                "item": "aoa3:yellow_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:rainbow_druse"
+            }
+          }
+        }
+      ],
+      "recipe_viewer_hidden_items": []
+    },
+    {
+      "version": "1.20.1",
+      "artifact": "AoA3-1.20.1-3.7.1-all.jar",
+      "class_path": "net/tslat/aoa3/content/block/functional/utility/CrystalExtensionShrine.class",
+      "class_sha256": "19b607aa6505ca93dee4703c3de8b6d10833c541d55d277044e46e1d899d6940",
+      "method_evidence": [
+        {
+          "name": "m_6227_",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;",
+          "code_hex": "19041905b6001fb600259a012619041905b6001f3a071907b60029b2002fb60035a6010f1904c100379901032c1239bb003b592db600410864872db600440464872db600470864872db600410860872db600440460872db60047086087b7004aba005d0000b600633a080336091908b9006901003a0a190ab900740100990029190ab900770100c000393a0b1509190bb6007bb6007e6036091509100aa10006a70006a7ffd31509100aa2001419041280b80086b8008cb80092b20098b0100a360a150a9e0045190803b9009b0200c000393a0b190bb6007b3a0c190cb6007e360d190c150ab6009f190cb6007e9d000c190803b900a2020057150a150d046464360a840affa7ffbc1904b600a59a0009190704b6009f1904bb002159b200a8b60035c000aab700adb800b3b200b6b0b200b9b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 2,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "m_21120_",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41619_",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 154,
+              "operands": [
+                1,
+                38
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "m_21120_",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41720_",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "RAINBOW_DRUSE",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 166,
+              "operands": [
+                1,
+                15
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 193,
+              "operands": [
+                0,
+                55
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 153,
+              "operands": [
+                1,
+                3
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 44
+            },
+            {
+              "offset": 45,
+              "opcode": 18,
+              "constant": "net/minecraft/world/entity/item/ItemEntity"
+            },
+            {
+              "offset": 47,
+              "opcode": 187,
+              "operands": [
+                0,
+                59
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 89
+            },
+            {
+              "offset": 51,
+              "opcode": 45
+            },
+            {
+              "offset": 52,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "m_123341_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 56,
+              "opcode": 100
+            },
+            {
+              "offset": 57,
+              "opcode": 135
+            },
+            {
+              "offset": 58,
+              "opcode": 45
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "m_123342_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 63,
+              "opcode": 100
+            },
+            {
+              "offset": 64,
+              "opcode": 135
+            },
+            {
+              "offset": 65,
+              "opcode": 45
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "m_123343_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 70,
+              "opcode": 100
+            },
+            {
+              "offset": 71,
+              "opcode": 135
+            },
+            {
+              "offset": 72,
+              "opcode": 45
+            },
+            {
+              "offset": 73,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "m_123341_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 77,
+              "opcode": 96
+            },
+            {
+              "offset": 78,
+              "opcode": 135
+            },
+            {
+              "offset": 79,
+              "opcode": 45
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "m_123342_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 84,
+              "opcode": 96
+            },
+            {
+              "offset": 85,
+              "opcode": 135
+            },
+            {
+              "offset": 86,
+              "opcode": 45
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "m_123343_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 91,
+              "opcode": 96
+            },
+            {
+              "offset": 92,
+              "opcode": 135
+            },
+            {
+              "offset": 93,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/AABB",
+                "<init>",
+                "(DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 186,
+              "operands": [
+                0,
+                93,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_6443_",
+                "(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 107,
+              "opcode": 54,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 58,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 125,
+              "opcode": 153,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 25,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 135,
+              "opcode": 192,
+              "operands": [
+                0,
+                57
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 140,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 142,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "m_32055_",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41613_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 96
+            },
+            {
+              "offset": 151,
+              "opcode": 54,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 157,
+              "opcode": 161,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 160,
+              "opcode": 167,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 167,
+              "operands": [
+                255,
+                211
+              ]
+            },
+            {
+              "offset": 166,
+              "opcode": 21,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 170,
+              "opcode": 162,
+              "operands": [
+                0,
+                20
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 175,
+              "opcode": 18,
+              "constant": "crystalExtensionShrine.crystals"
+            },
+            {
+              "offset": 177,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "createFeedbackLocaleKey",
+                "(Ljava/lang/String;)Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/network/chat/Component",
+                "m_237115_",
+                "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 183,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "notifyPlayer",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/network/chat/Component;)V"
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionResult",
+                "PASS",
+                "Lnet/minecraft/world/InteractionResult;"
+              ]
+            },
+            {
+              "offset": 189,
+              "opcode": 176
+            },
+            {
+              "offset": 190,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 192,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 194,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 196,
+              "opcode": 158,
+              "operands": [
+                0,
+                69
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 201,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 202,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "get",
+                "(I)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 207,
+              "opcode": 192,
+              "operands": [
+                0,
+                57
+              ]
+            },
+            {
+              "offset": 210,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 212,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "m_32055_",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 217,
+              "opcode": 58,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41613_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 224,
+              "opcode": 54,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 226,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41774_",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 233,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 235,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41613_",
+                "()I"
+              ]
+            },
+            {
+              "offset": 238,
+              "opcode": 157,
+              "operands": [
+                0,
+                12
+              ]
+            },
+            {
+              "offset": 241,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 244,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "remove",
+                "(I)Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 87
+            },
+            {
+              "offset": 250,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 252,
+              "opcode": 21,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 254,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 255,
+              "opcode": 100
+            },
+            {
+              "offset": 256,
+              "opcode": 100
+            },
+            {
+              "offset": 257,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 259,
+              "opcode": 132,
+              "operands": [
+                10,
+                255
+              ]
+            },
+            {
+              "offset": 262,
+              "opcode": 167,
+              "operands": [
+                255,
+                188
+              ]
+            },
+            {
+              "offset": 265,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 267,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "m_7500_",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 270,
+              "opcode": 154,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 273,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 275,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 276,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41774_",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 279,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 281,
+              "opcode": 187,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 284,
+              "opcode": 89
+            },
+            {
+              "offset": 285,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "GIANT_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 288,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 291,
+              "opcode": 192,
+              "operands": [
+                0,
+                170
+              ]
+            },
+            {
+              "offset": 294,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "<init>",
+                "(Lnet/minecraft/world/level/ItemLike;)V"
+              ]
+            },
+            {
+              "offset": 297,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/ItemUtil",
+                "givePlayerItemOrDrop",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+              ]
+            },
+            {
+              "offset": 300,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionResult",
+                "SUCCESS",
+                "Lnet/minecraft/world/InteractionResult;"
+              ]
+            },
+            {
+              "offset": 303,
+              "opcode": 176
+            },
+            {
+              "offset": 304,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/InteractionResult",
+                "FAIL",
+                "Lnet/minecraft/world/InteractionResult;"
+              ]
+            },
+            {
+              "offset": 307,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "isCrystal",
+          "descriptor": "(Lnet/minecraft/world/item/Item;)Z",
+          "code_hex": "2ab200d7b60035a500352ab200dab60035a5002b2ab200ddb60035a500212ab200e0b60035a500172ab200e3b60035a5000d2ab200e6b60035a6000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "BLUE_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 165,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 42
+            },
+            {
+              "offset": 11,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "GREEN_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 165,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "PURPLE_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 165,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "RED_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 165,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "WHITE_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 165,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 42
+            },
+            {
+              "offset": 51,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "YELLOW_CRYSTAL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 166,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 61,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 65,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$use$0",
+          "descriptor": "(Lnet/minecraft/world/entity/item/ItemEntity;)Z",
+          "code_hex": "2ab6007bb60029b800e9ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "m_32055_",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "m_41720_",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/block/functional/utility/CrystalExtensionShrine",
+                "isCrystal",
+                "(Lnet/minecraft/world/item/Item;)Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 172
+            }
+          ]
+        }
+      ],
+      "accepted_crystal_fields": [
+        "BLUE_CRYSTAL",
+        "GREEN_CRYSTAL",
+        "PURPLE_CRYSTAL",
+        "RED_CRYSTAL",
+        "WHITE_CRYSTAL",
+        "YELLOW_CRYSTAL"
+      ],
+      "loop_step": -1,
+      "subtracts_size_minus_one": true,
+      "examples": [
+        {
+          "stacks": [
+            9
+          ],
+          "outcome": "precheck_rejected",
+          "consumed": 0,
+          "remaining": [
+            9
+          ],
+          "iterations": 0
+        },
+        {
+          "stacks": [
+            10
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            5,
+            5
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 10
+        },
+        {
+          "stacks": [
+            11
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            1
+          ],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            6,
+            7
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            3
+          ],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            64
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            54
+          ],
+          "iterations": 1
+        }
+      ],
+      "exact_ten_compositions": {
+        "cases": 512,
+        "output_reached": 512,
+        "consumes_exactly_ten": 512
+      },
+      "resource_references": [
+        {
+          "path": "data/aoa3/loot_tables/blocks/crystal_extension_shrine.json",
+          "sha256": "3aa29f65b4685d2b911c9f7f6e81fa9f91e92bf849f944dda1cd387b7d452f2a",
+          "data": {
+            "type": "minecraft:block",
+            "pools": [
+              {
+                "bonus_rolls": {
+                  "type": "minecraft:uniform",
+                  "max": 0.0,
+                  "min": 0.0
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:survives_explosion"
+                      }
+                    ],
+                    "name": "aoa3:crystal_extension_shrine"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystal_carver.json",
+          "sha256": "b338a12ce5b7d56efc842c7b14e20d86f7789fa067f87ecb51dc66c8885bfa8c",
+          "data": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:gems/diamond"
+              },
+              {
+                "tag": "forge:gunpowder"
+              }
+            ],
+            "input": {
+              "item": "aoa3:gun_frame"
+            },
+            "result": {
+              "item": "aoa3:crystal_carver"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_boots.json",
+          "sha256": "7acb78937e3ca72fee70050c05ee6438bcc0bc9dc425d44e51d6aafa19c5c31c",
+          "data": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "input": {
+              "item": "aoa3:boots_frame"
+            },
+            "result": {
+              "item": "aoa3:crystallis_boots"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_chestplate.json",
+          "sha256": "59e374139dc4ca167588de7987c748a609a1a409b2c07c06f780f0dbe667a1b8",
+          "data": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "input": {
+              "item": "aoa3:chestplate_frame"
+            },
+            "result": {
+              "item": "aoa3:crystallis_chestplate"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_helmet.json",
+          "sha256": "b23358b2314f8e9a84d4c7592147cee10287d3b1dd6d5f412e13404ad9d686bf",
+          "data": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:padded_cloth"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "input": {
+              "item": "aoa3:helmet_frame"
+            },
+            "result": {
+              "item": "aoa3:crystallis_helmet"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystallis_leggings.json",
+          "sha256": "541b89299968b2b262fa13a78d9de08e274f5ebed45dff8940191c8089949309",
+          "data": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:reinforced_cloth"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:armour_plating"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              }
+            ],
+            "input": {
+              "item": "aoa3:leggings_frame"
+            },
+            "result": {
+              "item": "aoa3:crystallis_leggings"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/infusion_crystaneer.json",
+          "sha256": "987c8aed2a70719d936042e75dcd2d731b5c0a5893f883d6f4318acdc7361870",
+          "data": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "item": "aoa3:rainbow_druse"
+              },
+              {
+                "tag": "forge:gems/amethyst"
+              },
+              {
+                "tag": "forge:gems/emerald"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:sniper_frame"
+            },
+            "result": {
+              "item": "aoa3:crystaneer"
+            }
+          }
+        },
+        {
+          "path": "data/aoa3/recipes/shapeless_craft_rainbow_druse.json",
+          "sha256": "8ab6188d26946c7a17151a4540154554caa563e6f4691bf2012f0b8f5b2cb912",
+          "data": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+              {
+                "item": "aoa3:red_druse"
+              },
+              {
+                "item": "aoa3:green_druse"
+              },
+              {
+                "item": "aoa3:purple_druse"
+              },
+              {
+                "item": "aoa3:blue_druse"
+              },
+              {
+                "item": "aoa3:white_druse"
+              },
+              {
+                "item": "aoa3:yellow_druse"
+              }
+            ],
+            "result": {
+              "item": "aoa3:rainbow_druse"
+            }
+          }
+        }
+      ],
+      "recipe_viewer_hidden_items": []
+    },
+    {
+      "version": "1.21.1",
+      "artifact": "AoA3-1.21.1-3.7.16.1.jar",
+      "class_path": "net/tslat/aoa3/content/block/functional/utility/CrystalExtensionShrine.class",
+      "class_sha256": "12834f1f64925b550a9b912d94f66176aef73374862a18822ab8073c0aedc3a2",
+      "method_evidence": [
+        {
+          "name": "useItemOn",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/ItemInteractionResult;",
+          "code_hex": "19051906b60007b6000d9a01212bb60013b20017b6001da601141905c100239901041905c000233a082d1225bb0027591904b600290864871904b6002f0464871904b600320864871904b600290860871904b6002f0460871904b60032086087b70035ba00380000b6003c3a0903360a1909b9004201003a0b190bb900480100990029190bb9004d0100c000253a0c150a190cb60050b6005360360a150a100aa10006a70006a7ffd3150a100aa2001419081256b80058b8005eb80064b2006ab0100a360b150b9e00431909b900700100c000253a0c190cb600503a0d190db60053360e190d150bb60073190db600539d000b1909b90077010057150b150e046464360b840bffa7ffbe1908b6007ab4007e9a00082b04b600731908b20084b80087572db4008db80090b0b20094b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 2,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "isEmpty",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 154,
+              "operands": [
+                1,
+                33
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 43
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "RAINBOW_DRUSE",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 166,
+              "operands": [
+                1,
+                20
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 193,
+              "operands": [
+                0,
+                35
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 153,
+              "operands": [
+                1,
+                4
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 192,
+              "operands": [
+                0,
+                35
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 45
+            },
+            {
+              "offset": 42,
+              "opcode": 18,
+              "constant": "net/minecraft/world/entity/item/ItemEntity"
+            },
+            {
+              "offset": 44,
+              "opcode": 187,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 89
+            },
+            {
+              "offset": 48,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getX",
+                "()I"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 54,
+              "opcode": 100
+            },
+            {
+              "offset": 55,
+              "opcode": 135
+            },
+            {
+              "offset": 56,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getY",
+                "()I"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 62,
+              "opcode": 100
+            },
+            {
+              "offset": 63,
+              "opcode": 135
+            },
+            {
+              "offset": 64,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getZ",
+                "()I"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 70,
+              "opcode": 100
+            },
+            {
+              "offset": 71,
+              "opcode": 135
+            },
+            {
+              "offset": 72,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getX",
+                "()I"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 78,
+              "opcode": 96
+            },
+            {
+              "offset": 79,
+              "opcode": 135
+            },
+            {
+              "offset": 80,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getY",
+                "()I"
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 86,
+              "opcode": 96
+            },
+            {
+              "offset": 87,
+              "opcode": 135
+            },
+            {
+              "offset": 88,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/core/BlockPos",
+                "getZ",
+                "()I"
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 94,
+              "opcode": 96
+            },
+            {
+              "offset": 95,
+              "opcode": 135
+            },
+            {
+              "offset": 96,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/phys/AABB",
+                "<init>",
+                "(DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 99,
+              "opcode": 186,
+              "operands": [
+                0,
+                56,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 104,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getEntitiesOfClass",
+                "(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 58,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 110,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 112,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 119,
+              "opcode": 58,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 153,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 131,
+              "opcode": 25,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 192,
+              "operands": [
+                0,
+                37
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 58,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 143,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 145,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "getItem",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 96
+            },
+            {
+              "offset": 154,
+              "opcode": 54,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 158,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 160,
+              "opcode": 161,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 163,
+              "opcode": 167,
+              "operands": [
+                0,
+                6
+              ]
+            },
+            {
+              "offset": 166,
+              "opcode": 167,
+              "operands": [
+                255,
+                211
+              ]
+            },
+            {
+              "offset": 169,
+              "opcode": 21,
+              "operands": [
+                10
+              ]
+            },
+            {
+              "offset": 171,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 173,
+              "opcode": 162,
+              "operands": [
+                0,
+                20
+              ]
+            },
+            {
+              "offset": 176,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 178,
+              "opcode": 18,
+              "constant": "crystalExtensionShrine.crystals"
+            },
+            {
+              "offset": 180,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "createFeedbackLocaleKey",
+                "(Ljava/lang/String;)Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 183,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/network/chat/Component",
+                "translatable",
+                "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 186,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "notifyPlayer",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/network/chat/Component;)V"
+              ]
+            },
+            {
+              "offset": 189,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/ItemInteractionResult",
+                "FAIL",
+                "Lnet/minecraft/world/ItemInteractionResult;"
+              ]
+            },
+            {
+              "offset": 192,
+              "opcode": 176
+            },
+            {
+              "offset": 193,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 195,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 197,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 158,
+              "operands": [
+                0,
+                67
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 204,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "getFirst",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 209,
+              "opcode": 192,
+              "operands": [
+                0,
+                37
+              ]
+            },
+            {
+              "offset": 212,
+              "opcode": 58,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 25,
+              "operands": [
+                12
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "getItem",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 58,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 221,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 223,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 226,
+              "opcode": 54,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 230,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 232,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "shrink",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 235,
+              "opcode": 25,
+              "operands": [
+                13
+              ]
+            },
+            {
+              "offset": 237,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getCount",
+                "()I"
+              ]
+            },
+            {
+              "offset": 240,
+              "opcode": 157,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 25,
+              "operands": [
+                9
+              ]
+            },
+            {
+              "offset": 245,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "removeFirst",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 250,
+              "opcode": 87
+            },
+            {
+              "offset": 251,
+              "opcode": 21,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 253,
+              "opcode": 21,
+              "operands": [
+                14
+              ]
+            },
+            {
+              "offset": 255,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 256,
+              "opcode": 100
+            },
+            {
+              "offset": 257,
+              "opcode": 100
+            },
+            {
+              "offset": 258,
+              "opcode": 54,
+              "operands": [
+                11
+              ]
+            },
+            {
+              "offset": 260,
+              "opcode": 132,
+              "operands": [
+                11,
+                255
+              ]
+            },
+            {
+              "offset": 263,
+              "opcode": 167,
+              "operands": [
+                255,
+                190
+              ]
+            },
+            {
+              "offset": 266,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 268,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getAbilities",
+                "()Lnet/minecraft/world/entity/player/Abilities;"
+              ]
+            },
+            {
+              "offset": 271,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/entity/player/Abilities",
+                "instabuild",
+                "Z"
+              ]
+            },
+            {
+              "offset": 274,
+              "opcode": 154,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 277,
+              "opcode": 43
+            },
+            {
+              "offset": 278,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 279,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "shrink",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 282,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 284,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "GIANT_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 287,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/InventoryUtil",
+                "giveItemTo",
+                "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/ItemLike;)Z"
+              ]
+            },
+            {
+              "offset": 290,
+              "opcode": 87
+            },
+            {
+              "offset": 291,
+              "opcode": 45
+            },
+            {
+              "offset": 292,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 295,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/ItemInteractionResult",
+                "sidedSuccess",
+                "(Z)Lnet/minecraft/world/ItemInteractionResult;"
+              ]
+            },
+            {
+              "offset": 298,
+              "opcode": 176
+            },
+            {
+              "offset": 299,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/ItemInteractionResult",
+                "PASS_TO_DEFAULT_BLOCK_INTERACTION",
+                "Lnet/minecraft/world/ItemInteractionResult;"
+              ]
+            },
+            {
+              "offset": 302,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "isCrystal",
+          "descriptor": "(Lnet/minecraft/world/item/Item;)Z",
+          "code_hex": "2ab20097b6001da500352ab2009ab6001da5002b2ab2009db6001da500212ab200a0b6001da500172ab200a3b6001da5000d2ab200a6b6001da6000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "BLUE_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 165,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 42
+            },
+            {
+              "offset": 11,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "GREEN_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 165,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "PURPLE_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 165,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "RED_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 165,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 42
+            },
+            {
+              "offset": 41,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "WHITE_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 165,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 42
+            },
+            {
+              "offset": 51,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "YELLOW_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredItem",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 166,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 61,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 65,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "lambda$useItemOn$0",
+          "descriptor": "(Lnet/minecraft/world/entity/item/ItemEntity;)Z",
+          "code_hex": "2ab60050b60013b800a9ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/item/ItemEntity",
+                "getItem",
+                "()Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getItem",
+                "()Lnet/minecraft/world/item/Item;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/content/block/functional/utility/CrystalExtensionShrine",
+                "isCrystal",
+                "(Lnet/minecraft/world/item/Item;)Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 172
+            }
+          ]
+        }
+      ],
+      "accepted_crystal_fields": [
+        "BLUE_CRYSTAL",
+        "GREEN_CRYSTAL",
+        "PURPLE_CRYSTAL",
+        "RED_CRYSTAL",
+        "WHITE_CRYSTAL",
+        "YELLOW_CRYSTAL"
+      ],
+      "loop_step": -1,
+      "subtracts_size_minus_one": true,
+      "examples": [
+        {
+          "stacks": [
+            9
+          ],
+          "outcome": "precheck_rejected",
+          "consumed": 0,
+          "remaining": [
+            9
+          ],
+          "iterations": 0
+        },
+        {
+          "stacks": [
+            10
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            5,
+            5
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [],
+          "iterations": 10
+        },
+        {
+          "stacks": [
+            11
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            1
+          ],
+          "iterations": 1
+        },
+        {
+          "stacks": [
+            6,
+            7
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            3
+          ],
+          "iterations": 2
+        },
+        {
+          "stacks": [
+            64
+          ],
+          "outcome": "reaches_output_branch",
+          "consumed": 10,
+          "remaining": [
+            54
+          ],
+          "iterations": 1
+        }
+      ],
+      "exact_ten_compositions": {
+        "cases": 512,
+        "output_reached": 512,
+        "consumes_exactly_ten": 512
+      },
+      "resource_references": [
+        {
+          "path": "data/aoa3/loot_table/blocks/crystal_extension_shrine.json",
+          "sha256": "3aa29f65b4685d2b911c9f7f6e81fa9f91e92bf849f944dda1cd387b7d452f2a",
+          "data": {
+            "type": "minecraft:block",
+            "pools": [
+              {
+                "bonus_rolls": {
+                  "type": "minecraft:uniform",
+                  "max": 0.0,
+                  "min": 0.0
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:survives_explosion"
+                      }
+                    ],
+                    "name": "aoa3:crystal_extension_shrine"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "path": "data/c/tags/item/hidden_from_recipe_viewers.json",
+          "sha256": "cd6b8e6011a97d6bc32be6888f17e7f6e00a6413a72e3cc8872275ffaaba7f62",
+          "data": {
+            "values": [
+              "aoa3:lunar_chestplate",
+              "aoa3:darkwash_brick_slab",
+              "aoa3:bloodstone_bricks",
+              "aoa3:artifact",
+              "aoa3:mecha_blaster",
+              "aoa3:black_mysterium_brick_slab",
+              "aoa3:stormer",
+              "aoa3:toxic_lump",
+              "aoa3:alacrity_leggings",
+              "aoa3:core_rifle",
+              "aoa3:coral_brick_wall",
+              "aoa3:whitewash_brick_slab",
+              "aoa3:vile_vanquisher",
+              "aoa3:discharge_sniper",
+              "aoa3:moon_cannon",
+              "aoa3:orbocron",
+              "aoa3:creepoid_greataxe",
+              "aoa3:ghoulish_chestplate",
+              "aoa3:ghastly_boots",
+              "aoa3:pulsator",
+              "aoa3:luna_blaster",
+              "aoa3:ornamyte_axe",
+              "aoa3:bayonette_sr",
+              "aoa3:hunters_rifle",
+              "aoa3:speed_helmet",
+              "aoa3:purity_boots",
+              "aoa3:revolution",
+              "aoa3:battleborn_leggings",
+              "aoa3:skeletal_brick_wall",
+              "aoa3:aquatic_staff",
+              "aoa3:dual_sight",
+              "aoa3:soulfire_bow",
+              "aoa3:explosive_gems",
+              "aoa3:miasma",
+              "aoa3:blue_crystal",
+              "aoa3:gold_bringer",
+              "aoa3:gravity_blaster",
+              "aoa3:mechyro",
+              "aoa3:floating_stone",
+              "aoa3:carrot_cannon",
+              "aoa3:sticky_slime",
+              "aoa3:purity_leggings",
+              "aoa3:skeletal_brick_stairs",
+              "aoa3:purity_chestplate",
+              "aoa3:vivo",
+              "aoa3:purity_shotgun",
+              "aoa3:weaken_helmet",
+              "aoa3:hardened_confetti_ball",
+              "aoa3:nightmare_leggings",
+              "aoa3:crystallite_brick_stairs",
+              "aoa3:coral_bricks",
+              "aoa3:weaken_chestplate",
+              "aoa3:alacrity_boots",
+              "aoa3:supremacy_sword",
+              "aoa3:skullo_blaster",
+              "aoa3:shadow_blaster",
+              "aoa3:terminator",
+              "aoa3:goofy_greatblade",
+              "aoa3:battleborn_helmet",
+              "aoa3:apoco_assault_rifle",
+              "aoa3:spectral_crossbow",
+              "aoa3:screamer_bow",
+              "aoa3:purple_gemstones",
+              "aoa3:chilli_chugger",
+              "aoa3:predatorian_blaster",
+              "aoa3:green_mysterium_brick_wall",
+              "aoa3:rosidian_chestplate",
+              "aoa3:fungal_helmet",
+              "aoa3:ornamyte_pickaxe",
+              "aoa3:darkly_powder",
+              "aoa3:knight_chestplate",
+              "aoa3:poison_helmet",
+              "aoa3:flame_wrecker",
+              "aoa3:doom_bringer",
+              "aoa3:goofy_axe",
+              "aoa3:bloodstone_brick_wall",
+              "aoa3:mecha_gear",
+              "aoa3:ka_500",
+              "aoa3:darkwash_bricks",
+              "aoa3:ghastly_leggings",
+              "aoa3:elecanyte_chestplate",
+              "aoa3:yellow_gemstones",
+              "aoa3:coralstone_maul",
+              "aoa3:iro_miner",
+              "aoa3:black_mysterium_brick_wall",
+              "aoa3:whitewash_brick_stairs",
+              "aoa3:chroma_goggles",
+              "aoa3:mineral",
+              "aoa3:knight_helmet",
+              "aoa3:orange_spores",
+              "aoa3:long_shot",
+              "aoa3:speed_boots",
+              "aoa3:illusion_revolver",
+              "aoa3:decimator",
+              "aoa3:nightmare_bow",
+              "aoa3:soul_drainer",
+              "aoa3:iominator",
+              "aoa3:small_purple_petal",
+              "aoa3:jack_rocker",
+              "aoa3:destruction_shotgun",
+              "aoa3:toxic_terrorizer",
+              "aoa3:mercurial_boots",
+              "aoa3:power_staff",
+              "aoa3:predator",
+              "aoa3:oceanus_helmet",
+              "aoa3:subterranean_helmet",
+              "aoa3:crystallite_brick_wall",
+              "aoa3:speed_chestplate",
+              "aoa3:blast_cannon",
+              "aoa3:big_top",
+              "aoa3:subterranean_chestplate",
+              "aoa3:ghoulish_boots",
+              "aoa3:lyonic_helmet",
+              "aoa3:mark_maker",
+              "aoa3:odious",
+              "aoa3:boreic_leggings",
+              "aoa3:rosidian_bow",
+              "aoa3:lunar_crossbow",
+              "aoa3:skullifact",
+              "aoa3:nightmare_helmet",
+              "aoa3:sharpshot_helmet",
+              "aoa3:magnet_shard",
+              "aoa3:bloodstone_brick_slab",
+              "aoa3:nightmare_boots",
+              "aoa3:show_staff",
+              "aoa3:yellow_spores",
+              "aoa3:viper_1",
+              "aoa3:spine_gun",
+              "aoa3:spectral_bow",
+              "aoa3:red_druse",
+              "aoa3:ghastly_chestplate",
+              "aoa3:nightmare_chestplate",
+              "aoa3:speed_leggings",
+              "aoa3:crystik_staff",
+              "aoa3:discharge_rifle",
+              "aoa3:yellow_druse",
+              "aoa3:lunar_leggings",
+              "aoa3:elecanyte_boots",
+              "aoa3:battleborn_boots",
+              "aoa3:crystallis_helmet",
+              "aoa3:weaken_leggings",
+              "aoa3:mercurial_leggings",
+              "aoa3:skeletal_brick_slab",
+              "aoa3:sealord_helmet",
+              "aoa3:bubble_horn",
+              "aoa3:mind_blaster",
+              "aoa3:battleborn_chestplate",
+              "aoa3:sublimus",
+              "aoa3:crystaneer",
+              "aoa3:unstable_gunpowder",
+              "aoa3:elecanyte_helmet",
+              "aoa3:lelyetian_ranseur",
+              "aoa3:bloodstone",
+              "aoa3:black_mysterium_brick_stairs",
+              "aoa3:rockbone_helmet",
+              "aoa3:purple_crystal",
+              "aoa3:missile_maker",
+              "aoa3:purity_rifle",
+              "aoa3:lyonic_boots",
+              "aoa3:shroomic_bardiche",
+              "aoa3:subterranean_boots",
+              "aoa3:blue_druse",
+              "aoa3:ghastly_helmet",
+              "aoa3:clowno_pulse",
+              "aoa3:krilinator",
+              "aoa3:small_blue_petal",
+              "aoa3:ornamyte",
+              "aoa3:haunted_bow",
+              "aoa3:lunar_boots",
+              "aoa3:whitewash_brick_wall",
+              "aoa3:underworld_glaive",
+              "aoa3:fungal_cannon",
+              "aoa3:small_red_petal",
+              "aoa3:ghoul_cannon",
+              "aoa3:floro500",
+              "aoa3:moonlight_staff",
+              "aoa3:crystallite_brick_slab",
+              "aoa3:moon_maker",
+              "aoa3:rockbone_boots",
+              "aoa3:coral_greatblade",
+              "aoa3:green_druse",
+              "aoa3:mercurial_helmet",
+              "aoa3:sky_staff",
+              "aoa3:whimsy_winder",
+              "aoa3:hell_horn",
+              "aoa3:ornamyte_shovel",
+              "aoa3:mushroom_spores",
+              "aoa3:mecha_staff",
+              "aoa3:atomizer",
+              "aoa3:lyonic_leggings",
+              "aoa3:gas_blaster",
+              "aoa3:phantasm",
+              "aoa3:shadow_sword",
+              "aoa3:primordial_skull",
+              "aoa3:chain_wrecker",
+              "aoa3:jewelyte",
+              "aoa3:goofy_pickaxe",
+              "aoa3:orbulon",
+              "aoa3:mecha_crossbow",
+              "aoa3:energy_cannon",
+              "aoa3:alacrity_helmet",
+              "aoa3:firestorm_staff",
+              "aoa3:dustometer",
+              "aoa3:yellow_crystal",
+              "aoa3:black_mysterium_bricks",
+              "aoa3:skeletal_bricks",
+              "aoa3:green_crystal",
+              "aoa3:flower_cannon",
+              "aoa3:dense_rock",
+              "aoa3:construct",
+              "aoa3:destruction_rifle",
+              "aoa3:clownimator",
+              "aoa3:nightmare_flakes",
+              "aoa3:baronator",
+              "aoa3:poison_plunger",
+              "aoa3:face_mask",
+              "aoa3:exoplate_helmet",
+              "aoa3:rockbone_leggings",
+              "aoa3:coral_brick_stairs",
+              "aoa3:pulse_cannon",
+              "aoa3:exoplate_boots",
+              "aoa3:mercurial_chestplate",
+              "aoa3:ancient_bomber",
+              "aoa3:white_druse",
+              "aoa3:sabbath",
+              "aoa3:weaken_boots",
+              "aoa3:ghoulish_helmet",
+              "aoa3:sharpshot_leggings",
+              "aoa3:light_blaster",
+              "aoa3:bozo_blaster",
+              "aoa3:mechanical_assault_rifle",
+              "aoa3:smile_blaster",
+              "aoa3:rosidian_helmet",
+              "aoa3:seaocron",
+              "aoa3:darkly_guster",
+              "aoa3:rejuvenation_staff",
+              "aoa3:rosidian_leggings",
+              "aoa3:small_green_petal",
+              "aoa3:red_gemstones",
+              "aoa3:rosidian_boots",
+              "aoa3:poison_leggings",
+              "aoa3:haunted_idol",
+              "aoa3:green_mysterium_bricks",
+              "aoa3:blood_drainer",
+              "aoa3:whitewash_bricks",
+              "aoa3:boreic_chestplate",
+              "aoa3:elecanyte_leggings",
+              "aoa3:viral_crossbow",
+              "aoa3:abyssro",
+              "aoa3:darkwash_brick_stairs",
+              "aoa3:small_orange_petal",
+              "aoa3:green_gemstones",
+              "aoa3:boreic_boots",
+              "aoa3:boreic_helmet",
+              "aoa3:rainbow_druse",
+              "aoa3:squad_gun",
+              "aoa3:rockbone_chestplate",
+              "aoa3:crystal_carver",
+              "aoa3:blue_gemstones",
+              "aoa3:bloodstone_brick_stairs",
+              "aoa3:crystallis_leggings",
+              "aoa3:mecha_bow",
+              "aoa3:runic_greatblade",
+              "aoa3:bloodfury",
+              "aoa3:boulder",
+              "aoa3:lunar_helmet",
+              "aoa3:lyonic_staff",
+              "aoa3:lunar_bow",
+              "aoa3:speed_bow",
+              "aoa3:crystallis_chestplate",
+              "aoa3:rosidian_staff",
+              "aoa3:mecha_cannon",
+              "aoa3:ghast_blaster",
+              "aoa3:ion_blaster",
+              "aoa3:crystallis_boots",
+              "aoa3:surge_staff",
+              "aoa3:knight_leggings",
+              "aoa3:party_popper",
+              "aoa3:zhinx_dust",
+              "aoa3:goofy_shovel",
+              "aoa3:jack_funger",
+              "aoa3:subterranean_leggings",
+              "aoa3:bomb_launcher",
+              "aoa3:fungal_boots",
+              "aoa3:purple_druse",
+              "aoa3:hive_cracker",
+              "aoa3:shroom_stone",
+              "aoa3:alacrity_chestplate",
+              "aoa3:poison_boots",
+              "aoa3:ghoul_gasser",
+              "aoa3:clown_cracker",
+              "aoa3:gemenyte",
+              "aoa3:fungal_leggings",
+              "aoa3:crystallite",
+              "aoa3:toxin_bow",
+              "aoa3:eradicator",
+              "aoa3:exoplate_leggings",
+              "aoa3:ghoulasm",
+              "aoa3:exoplate_chestplate",
+              "aoa3:green_mysterium_brick_slab",
+              "aoa3:boom_boom",
+              "aoa3:red_crystal",
+              "aoa3:darkwash_brick_wall",
+              "aoa3:boom_cannon",
+              "aoa3:hiver",
+              "aoa3:coral_brick_slab",
+              "aoa3:petals",
+              "aoa3:white_crystal",
+              "aoa3:hive_blaster",
+              "aoa3:white_gemstones",
+              "aoa3:purity_helmet",
+              "aoa3:confetti_pile",
+              "aoa3:rosid_root",
+              "aoa3:urka_hide",
+              "aoa3:green_mysterium_brick_stairs",
+              "aoa3:runic_energy",
+              "aoa3:coral_stone",
+              "aoa3:sludge_sniper",
+              "aoa3:apoco_rifle",
+              "aoa3:sharpshot_chestplate",
+              "aoa3:knight_boots",
+              "aoa3:poison_chestplate",
+              "aoa3:shyrelands_realmstone",
+              "aoa3:ghoulish_leggings",
+              "aoa3:lyonic_chestplate",
+              "aoa3:whitewashing_solution",
+              "aoa3:boulder_dash",
+              "aoa3:soul_storm",
+              "aoa3:weaken_bow",
+              "aoa3:shyregem",
+              "aoa3:horizon_maul",
+              "aoa3:ion_revolver",
+              "aoa3:sharpshot_boots",
+              "aoa3:crystallite_bricks",
+              "aoa3:underworld_staff",
+              "aoa3:abominator",
+              "aoa3:fungal_chestplate"
+            ]
+          }
+        }
+      ],
+      "recipe_viewer_hidden_items": [
+        "aoa3:blue_crystal",
+        "aoa3:purple_crystal",
+        "aoa3:yellow_crystal",
+        "aoa3:green_crystal",
+        "aoa3:rainbow_druse",
+        "aoa3:red_crystal",
+        "aoa3:white_crystal"
+      ]
+    }
+  ]
+}
