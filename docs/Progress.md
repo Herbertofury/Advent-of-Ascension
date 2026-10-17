@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 127 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 128 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,837 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Compact contextual guide index | 559 links across 518 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -39,7 +39,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Books and starter recovery | 7 declared books, 53 English entries/190 page definitions, integration and language troubleshooting | [Books and recovery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Books-Lore-and-Blank-Realmstone-Recovery-1.21.1) |
 | Controls and client presentation | 4 key defaults, 15 settings and 4 exact enum lists | [Controls and HUD](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Controls-HUD-and-Client-Settings-1.21.1) |
 | Multiplayer boss rewards | 4 allocation modes, 32 health cases and 800 scoped copied-stack checks | [Rewards and inventory safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Nowhere-Boss-Rewards-and-Multiplayer-Scaling-1.21.1) |
-| Local documentation validation | 200 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 201 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 

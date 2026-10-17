@@ -1,0 +1,2732 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Two released configuration switches and their direct consumers. Fresh-save and straight-line geometry models are conditional illustrations, not game persistence or hit-rate benchmarks.",
+  "config_class": {
+    "path": "net/tslat/aoa3/config/ServerConfig.class",
+    "sha256": "b1037413bdfcb051145b2b5eaae898d59fc52d59bb6646a819823131607ce454"
+  },
+  "settings": [
+    {
+      "key": "disableSkills",
+      "default": false,
+      "window": [
+        {
+          "offset": 154,
+          "opcode": 42
+        },
+        {
+          "offset": 155,
+          "opcode": 43
+        },
+        {
+          "offset": 156,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 157,
+          "opcode": 189,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 89
+        },
+        {
+          "offset": 161,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 162,
+          "opcode": 18,
+          "constant": "Set to false to disable all AoA Skills for the server."
+        },
+        {
+          "offset": 164,
+          "opcode": 83
+        },
+        {
+          "offset": 165,
+          "opcode": 89
+        },
+        {
+          "offset": 166,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 167,
+          "opcode": 18,
+          "constant": "This may give a slight performance improvement."
+        },
+        {
+          "offset": 169,
+          "opcode": 83
+        },
+        {
+          "offset": 170,
+          "opcode": 89
+        },
+        {
+          "offset": 171,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 172,
+          "opcode": 18,
+          "constant": "NOTE: This will cause any player who logs in to lose any levels & xp they may have previously stored. Only turn this on if you intend for the server to run without skills."
+        },
+        {
+          "offset": 174,
+          "opcode": 83
+        },
+        {
+          "offset": 175,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "([Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 18,
+          "constant": "config.aoa3.server.disableSkills"
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 18,
+          "constant": "disableSkills"
+        },
+        {
+          "offset": 185,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ServerConfig",
+            "disableSkills",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fastProjectileCalculations",
+      "default": false,
+      "window": [
+        {
+          "offset": 242,
+          "opcode": 42
+        },
+        {
+          "offset": 243,
+          "opcode": 43
+        },
+        {
+          "offset": 244,
+          "opcode": 18,
+          "constant": "Disables target intercept calculations for projectile weapons, increasing performance in exchange for reduced accuracy"
+        },
+        {
+          "offset": 246,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 249,
+          "opcode": 18,
+          "constant": "config.aoa3.server.fastProjectileCalculations"
+        },
+        {
+          "offset": 251,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 254,
+          "opcode": 18,
+          "constant": "fastProjectileCalculations"
+        },
+        {
+          "offset": 256,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 257,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 260,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ServerConfig",
+            "fastProjectileCalculations",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "class_path": "net/tslat/aoa3/data/server/AoASkillsReloadListener.class",
+      "class_sha256": "fd33fe8be293bec71356d62c62f1873b3cba91a9df38e8cde0f641b809387b2f",
+      "name": "generateSkillsMap",
+      "descriptor": "(Lnet/tslat/aoa3/player/ServerPlayerDataManager;)Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;",
+      "method_sha256": "ee97f145f10c3f11339aaea2620895bdd4f34fc7633e5dbd6eec67915a65a006",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/data/server/AoASkillsReloadListener",
+            "SKILLS_DATA",
+            "Ljava/util/Map;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 185,
+          "member": [
+            "java/util/Map",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "<init>",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 76
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "SERVER",
+            "Lnet/tslat/aoa3/config/ServerConfig;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ServerConfig",
+            "disableSkills",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$BooleanValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 192,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "java/lang/Boolean",
+            "booleanValue",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 154,
+          "operands": [
+            0,
+            75
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/data/server/AoASkillsReloadListener",
+            "SKILLS_DATA",
+            "Ljava/util/Map;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 185,
+          "member": [
+            "java/util/Map",
+            "entrySet",
+            "()Ljava/util/Set;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 185,
+          "member": [
+            "java/util/Set",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 77
+        },
+        {
+          "offset": 48,
+          "opcode": 44
+        },
+        {
+          "offset": 49,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 153,
+          "operands": [
+            0,
+            52
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 44
+        },
+        {
+          "offset": 58,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 192,
+          "operands": [
+            0,
+            72
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 78
+        },
+        {
+          "offset": 67,
+          "opcode": 43
+        },
+        {
+          "offset": 68,
+          "opcode": 45
+        },
+        {
+          "offset": 69,
+          "opcode": 185,
+          "member": [
+            "java/util/Map$Entry",
+            "getKey",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 192,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 45
+        },
+        {
+          "offset": 78,
+          "opcode": 185,
+          "member": [
+            "java/util/Map$Entry",
+            "getKey",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 192,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 42
+        },
+        {
+          "offset": 87,
+          "opcode": 45
+        },
+        {
+          "offset": 88,
+          "opcode": 185,
+          "member": [
+            "java/util/Map$Entry",
+            "getValue",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 192,
+          "operands": [
+            0,
+            82
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill",
+            "buildDefaultInstance",
+            "(Lnet/tslat/aoa3/player/ServerPlayerDataManager;Lcom/google/gson/JsonObject;)Lnet/tslat/aoa3/player/skill/AoASkill$Instance;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "put",
+            "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 87
+        },
+        {
+          "offset": 103,
+          "opcode": 167,
+          "operands": [
+            255,
+            201
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 43
+        },
+        {
+          "offset": 107,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/ServerPlayerDataManager$Stats.class",
+      "class_sha256": "d427b1e8d8dec0ab1f2c3b7294ede7275b87a65282e1ff4d62051d4674ccd6fa",
+      "name": "<init>",
+      "descriptor": "(Lnet/tslat/aoa3/player/ServerPlayerDataManager;)V",
+      "method_sha256": "664ebb2ad8921e42734eeeef795f7fc949ac16b81a7daedc38bf63a1ea41bc30",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "this$0",
+            "Lnet/tslat/aoa3/player/ServerPlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "this$0",
+            "Lnet/tslat/aoa3/player/ServerPlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/data/server/AoASkillsReloadListener",
+            "generateSkillsMap",
+            "(Lnet/tslat/aoa3/player/ServerPlayerDataManager;)Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "skills",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 42
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "this$0",
+            "Lnet/tslat/aoa3/player/ServerPlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/data/server/AoAResourcesReloadListener",
+            "generateResourcesMap",
+            "(Lnet/tslat/aoa3/player/ServerPlayerDataManager;)Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "resources",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 33,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "isLegitimate",
+            "Z"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 42
+        },
+        {
+          "offset": 37,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 38,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "abilitiesRegionLocked",
+            "Z"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/ServerPlayerDataManager$Stats.class",
+      "class_sha256": "d427b1e8d8dec0ab1f2c3b7294ede7275b87a65282e1ff4d62051d4674ccd6fa",
+      "name": "load",
+      "descriptor": "(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/core/HolderLookup$Provider;Z)V",
+      "method_sha256": "c5c0a24027644f1180425055391f37429614c1062c31aa6622e48414f3381798",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 18,
+          "constant": "legitimate"
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "getBoolean",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "isLegitimate",
+            "Z"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "skills"
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "contains",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 153,
+          "operands": [
+            0,
+            88
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 43
+        },
+        {
+          "offset": 20,
+          "opcode": 18,
+          "constant": "skills"
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "getCompound",
+            "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "skills",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "values",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectCollection;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 185,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/ObjectCollection",
+            "iterator",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectIterator;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 153,
+          "operands": [
+            0,
+            56
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 192,
+          "operands": [
+            0,
+            54
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries",
+            "AOA_SKILLS",
+            "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill$Instance",
+            "type",
+            "()Lnet/tslat/aoa3/player/skill/AoASkill;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+            "getKey",
+            "(Ljava/lang/Object;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/resources/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "contains",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 153,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "getCompound",
+            "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill$Instance",
+            "loadFromNbt",
+            "(Lnet/minecraft/nbt/CompoundTag;)V"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 167,
+          "operands": [
+            255,
+            196
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 43
+        },
+        {
+          "offset": 105,
+          "opcode": 18,
+          "constant": "resources"
+        },
+        {
+          "offset": 107,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "contains",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 153,
+          "operands": [
+            0,
+            88
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 43
+        },
+        {
+          "offset": 114,
+          "opcode": 18,
+          "constant": "resources"
+        },
+        {
+          "offset": 116,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "getCompound",
+            "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 42
+        },
+        {
+          "offset": 122,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "resources",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "values",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectCollection;"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 185,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/ObjectCollection",
+            "iterator",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectIterator;"
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 153,
+          "operands": [
+            0,
+            56
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 192,
+          "operands": [
+            0,
+            111
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries",
+            "AOA_RESOURCES",
+            "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/resource/AoAResource$Instance",
+            "type",
+            "()Lnet/tslat/aoa3/player/resource/AoAResource;"
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+            "getKey",
+            "(Ljava/lang/Object;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/resources/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "contains",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 153,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "getCompound",
+            "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/resource/AoAResource$Instance",
+            "loadFromNbt",
+            "(Lnet/minecraft/nbt/CompoundTag;)V"
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 167,
+          "operands": [
+            255,
+            196
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/ServerPlayerDataManager$Stats.class",
+      "class_sha256": "d427b1e8d8dec0ab1f2c3b7294ede7275b87a65282e1ff4d62051d4674ccd6fa",
+      "name": "save",
+      "descriptor": "(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/core/HolderLookup$Provider;Z)V",
+      "method_sha256": "f582e81914627188731f217572b806455d51536e92f6fc70bb13fafb8a0a6112",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "legitimate"
+        },
+        {
+          "offset": 3,
+          "opcode": 42
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "isLegitimate",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "putBoolean",
+            "(Ljava/lang/String;Z)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "skills",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 154,
+          "operands": [
+            0,
+            98
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 187,
+          "operands": [
+            0,
+            208
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 89
+        },
+        {
+          "offset": 24,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "skills",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "values",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectCollection;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 185,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/ObjectCollection",
+            "iterator",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectIterator;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 153,
+          "operands": [
+            0,
+            56
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 192,
+          "operands": [
+            0,
+            54
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries",
+            "AOA_SKILLS",
+            "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill$Instance",
+            "type",
+            "()Lnet/tslat/aoa3/player/skill/AoASkill;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+            "getKey",
+            "(Ljava/lang/Object;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/resources/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 29
+        },
+        {
+          "offset": 82,
+          "opcode": 153,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 88,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill$Instance",
+            "getSyncData",
+            "(Z)Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 167,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill$Instance",
+            "saveToNbt",
+            "()Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "put",
+            "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 87
+        },
+        {
+          "offset": 103,
+          "opcode": 167,
+          "operands": [
+            255,
+            196
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 43
+        },
+        {
+          "offset": 107,
+          "opcode": 18,
+          "constant": "skills"
+        },
+        {
+          "offset": 109,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "put",
+            "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 87
+        },
+        {
+          "offset": 115,
+          "opcode": 42
+        },
+        {
+          "offset": 116,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "resources",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 154,
+          "operands": [
+            0,
+            98
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 187,
+          "operands": [
+            0,
+            208
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 89
+        },
+        {
+          "offset": 129,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 42
+        },
+        {
+          "offset": 135,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+            "resources",
+            "Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap",
+            "values",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectCollection;"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 185,
+          "member": [
+            "it/unimi/dsi/fastutil/objects/ObjectCollection",
+            "iterator",
+            "()Lit/unimi/dsi/fastutil/objects/ObjectIterator;"
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 153,
+          "operands": [
+            0,
+            56
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 192,
+          "operands": [
+            0,
+            111
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries",
+            "AOA_RESOURCES",
+            "Lnet/tslat/aoa3/common/registration/AoARegistries$RegistryHelper;"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/resource/AoAResource$Instance",
+            "type",
+            "()Lnet/tslat/aoa3/player/resource/AoAResource;"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoARegistries$RegistryHelper",
+            "getKey",
+            "(Ljava/lang/Object;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/resources/ResourceLocation",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 29
+        },
+        {
+          "offset": 187,
+          "opcode": 153,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 193,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/resource/AoAResource$Instance",
+            "getSyncData",
+            "(Z)Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 167,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/resource/AoAResource$Instance",
+            "saveToNbt",
+            "()Lnet/minecraft/nbt/CompoundTag;"
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "put",
+            "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 87
+        },
+        {
+          "offset": 208,
+          "opcode": 167,
+          "operands": [
+            255,
+            196
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 43
+        },
+        {
+          "offset": 212,
+          "opcode": 18,
+          "constant": "resources"
+        },
+        {
+          "offset": 214,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/nbt/CompoundTag",
+            "put",
+            "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 87
+        },
+        {
+          "offset": 220,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile.class",
+      "class_sha256": "bf2bcf8b65d7c80fb528204cfeb6df869975307158ee037a8736913981015ec2",
+      "name": "shootingAtTarget",
+      "descriptor": "(FF)Lnet/minecraft/world/entity/projectile/Projectile;",
+      "method_sha256": "7471d01cf5f913c9c1ac2d7c3ea2b08e8d7b833b70e0fb74c85af1030d100dab",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+            "asEntity",
+            "()Lnet/minecraft/world/entity/projectile/Projectile;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 78
+        },
+        {
+          "offset": 7,
+          "opcode": 45
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/projectile/Projectile",
+            "getOwner",
+            "()Lnet/minecraft/world/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 193,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 192,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 167,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 35
+        },
+        {
+          "offset": 33,
+          "opcode": 36
+        },
+        {
+          "offset": 34,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+            "shootingStraight",
+            "(FF)Lnet/minecraft/world/entity/projectile/Projectile;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 176
+        },
+        {
+          "offset": 40,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/LivingEntity",
+            "getEyePosition",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/LivingEntity",
+            "getLookAngle",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 35
+        },
+        {
+          "offset": 55,
+          "opcode": 42
+        },
+        {
+          "offset": 56,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+            "getShotContext",
+            "()Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 199,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 16,
+          "constant": 120
+        },
+        {
+          "offset": 66,
+          "opcode": 167,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 42
+        },
+        {
+          "offset": 70,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/content/entity/projectile/base/WeaponProjectile",
+            "getShotContext",
+            "()Lnet/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/content/entity/projectile/base/WeaponFiringContext",
+            "projectileLifespan",
+            "()I"
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 134
+        },
+        {
+          "offset": 81,
+          "opcode": 106
+        },
+        {
+          "offset": 82,
+          "opcode": 141
+        },
+        {
+          "offset": 83,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "scale",
+            "(D)Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "add",
+            "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "SERVER",
+            "Lnet/tslat/aoa3/config/ServerConfig;"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ServerConfig",
+            "fastProjectileCalculations",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$BooleanValue",
+            "getAsBoolean",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 154,
+          "operands": [
+            0,
+            37
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 184,
+          "member": [
+            "net/tslat/tme/api/object/RayTrace",
+            "createWithSource",
+            "(Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/object/RayTrace$Builder$WithEntities;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 182,
+          "member": [
+            "net/tslat/tme/api/object/RayTrace$Builder$WithEntities",
+            "between",
+            "(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/object/RayTrace$Builder$WithEntities;"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 45
+        },
+        {
+          "offset": 116,
+          "opcode": 89
+        },
+        {
+          "offset": 117,
+          "opcode": 184,
+          "member": [
+            "java/util/Objects",
+            "requireNonNull",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 87
+        },
+        {
+          "offset": 121,
+          "opcode": 186,
+          "operands": [
+            0,
+            223,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 182,
+          "member": [
+            "net/tslat/tme/api/object/RayTrace$Builder$WithEntities",
+            "filter",
+            "(Ljava/util/function/Predicate;)Lnet/tslat/tme/api/object/RayTrace$Builder$WithEntities;"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 182,
+          "member": [
+            "net/tslat/tme/api/object/RayTrace$Builder$WithEntities",
+            "run",
+            "()Lnet/tslat/tme/api/object/RayTrace;"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 182,
+          "member": [
+            "net/tslat/tme/api/object/RayTrace",
+            "hitPos",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 45
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/projectile/Projectile",
+            "position",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "vectorTo",
+            "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "normalize",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/LivingEntity",
+            "getLookAngle",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "dot",
+            "(Lnet/minecraft/world/phys/Vec3;)D"
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 20,
+          "constant": 0.5
+        },
+        {
+          "offset": 164,
+          "opcode": 152
+        },
+        {
+          "offset": 165,
+          "opcode": 156,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "vectorTo",
+            "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 45
+        },
+        {
+          "offset": 178,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "x",
+            "D"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "y",
+            "D"
+          ]
+        },
+        {
+          "offset": 188,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/phys/Vec3",
+            "z",
+            "D"
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 35
+        },
+        {
+          "offset": 194,
+          "opcode": 36
+        },
+        {
+          "offset": 195,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/projectile/Projectile",
+            "shoot",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 45
+        },
+        {
+          "offset": 199,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "skill_map_cases": [
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 0,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 1,
+      "generated_instances": 1,
+      "skill_entries_in_fresh_save": 1
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 2,
+      "generated_instances": 2,
+      "skill_entries_in_fresh_save": 2
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 3,
+      "generated_instances": 3,
+      "skill_entries_in_fresh_save": 3
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 4,
+      "generated_instances": 4,
+      "skill_entries_in_fresh_save": 4
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 5,
+      "generated_instances": 5,
+      "skill_entries_in_fresh_save": 5
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 6,
+      "generated_instances": 6,
+      "skill_entries_in_fresh_save": 6
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 7,
+      "generated_instances": 7,
+      "skill_entries_in_fresh_save": 7
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 8,
+      "generated_instances": 8,
+      "skill_entries_in_fresh_save": 8
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 9,
+      "generated_instances": 9,
+      "skill_entries_in_fresh_save": 9
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 10,
+      "generated_instances": 10,
+      "skill_entries_in_fresh_save": 10
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 11,
+      "generated_instances": 11,
+      "skill_entries_in_fresh_save": 11
+    },
+    {
+      "disable_skills": false,
+      "available_skill_definitions": 12,
+      "generated_instances": 12,
+      "skill_entries_in_fresh_save": 12
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 0,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 1,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 2,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 3,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 4,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 5,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 6,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 7,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 8,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 9,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 10,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 11,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    },
+    {
+      "disable_skills": true,
+      "available_skill_definitions": 12,
+      "generated_instances": 0,
+      "skill_entries_in_fresh_save": 0
+    }
+  ],
+  "aim_geometry_cases": [
+    {
+      "muzzle_lateral_offset": 0.25,
+      "target_distance": 2.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.24583333333333332
+    },
+    {
+      "muzzle_lateral_offset": 0.25,
+      "target_distance": 5.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.23958333333333334
+    },
+    {
+      "muzzle_lateral_offset": 0.25,
+      "target_distance": 10.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.22916666666666666
+    },
+    {
+      "muzzle_lateral_offset": 0.5,
+      "target_distance": 2.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.49166666666666664
+    },
+    {
+      "muzzle_lateral_offset": 0.5,
+      "target_distance": 5.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.4791666666666667
+    },
+    {
+      "muzzle_lateral_offset": 0.5,
+      "target_distance": 10.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.4583333333333333
+    },
+    {
+      "muzzle_lateral_offset": 1.0,
+      "target_distance": 2.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.9833333333333333
+    },
+    {
+      "muzzle_lateral_offset": 1.0,
+      "target_distance": 5.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.9583333333333334
+    },
+    {
+      "muzzle_lateral_offset": 1.0,
+      "target_distance": 10.0,
+      "far_aim_distance": 120.0,
+      "converged_lateral_position": 0.0,
+      "far_aim_lateral_position": 0.9166666666666666
+    }
+  ]
+}
