@@ -47,6 +47,8 @@ The released ordinary spawn entries use weight 12 for the seven dimensional type
 
 ## Harvest rewards and XP
 
+Open a Pixon’s linked bestiary card and expand **Pixon harvest rewards · inspect on demand** to see both item images, table weights, base XP requests and exact entry functions. This is a separate bowl-interaction panel; it does not replace or invent an ordinary death-loot association. The panel loads only when opened and shares the existing loot-data cache.
+
 ![Sixteen Pixon harvest rewards with separate harvesting and conversion values](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/infusion-pixon-rewards-1.12.2.webp)
 
 Each of the eight selected harvest tables has one pool roll: its Infusion Stone has weight 30 and its Power Stone has weight 1, with no quality modifier or empty entry in these stock resources. Thus, conditional on a call to the unchanged selected table, the two weights divide the selection 30:1. This is not an overall natural-spawn or per-minute yield.
