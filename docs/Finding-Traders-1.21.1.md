@@ -61,3 +61,7 @@ For the inspected modern custom trader goal, close the trade screen and move mor
 - [Roaming trader source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/content/world/spawner/RoamingTraderSpawner.java) · [Shared helper source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/content/world/spawner/AoACustomSpawner.java)
 
 Model and texture artwork: **Tslat and contributors**. Diagram and extraction tools are original documentation work. No live spawn, timing, loot or current Enderloom candidate certification is claimed.
+
+## Skill Master in the Nowhere utility lobby
+
+The released utility-lobby template contains one Skill Master. See the [illustrated token and helmet acquisition route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1) for the ten checked offers, utility activity destination and parkour reward limitations. This is a separate template route from the two roaming definitions above.
