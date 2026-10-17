@@ -1,0 +1,7968 @@
+{
+  "release": "Minecraft 1.12.2 / AoA 3.3.6",
+  "scope": "Selected released methods, eight complete harvest resources, two bowl recipes and the table recipe. No game execution.",
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityPixon.class",
+      "class_sha256": "cae7f12bfefb06db22d3eaed4908296cfd4bd1affec12af525633f86c1358b46",
+      "name": "func_110147_ax",
+      "descriptor": "()V",
+      "code_hex": "2ab700452ab2004bb6004f100f2ab40053101eb600596087b9005f03002ab20062b6004f140063b9005f03002ab20067b6004f0fb9005f0300b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/entity/EntityCreature",
+            "func_110147_ax",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/entity/SharedMonsterAttributes",
+            "field_111267_a",
+            "Lnet/minecraft/entity/ai/attributes/IAttribute;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110148_a",
+            "(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 16,
+          "constant": 30
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 96
+        },
+        {
+          "offset": 23,
+          "opcode": 135
+        },
+        {
+          "offset": 24,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/entity/ai/attributes/IAttributeInstance",
+            "func_111128_a",
+            "(D)V"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/entity/SharedMonsterAttributes",
+            "field_111263_d",
+            "Lnet/minecraft/entity/ai/attributes/IAttribute;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110148_a",
+            "(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 20,
+          "constant": 0.40000000298023225
+        },
+        {
+          "offset": 39,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/entity/ai/attributes/IAttributeInstance",
+            "func_111128_a",
+            "(D)V"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 42
+        },
+        {
+          "offset": 45,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/entity/SharedMonsterAttributes",
+            "field_111266_c",
+            "Lnet/minecraft/entity/ai/attributes/IAttribute;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110148_a",
+            "(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 15
+        },
+        {
+          "offset": 52,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/entity/ai/attributes/IAttributeInstance",
+            "func_111128_a",
+            "(D)V"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityPixon.class",
+      "class_sha256": "cae7f12bfefb06db22d3eaed4908296cfd4bd1affec12af525633f86c1358b46",
+      "name": "func_184645_a",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Z",
+      "code_hex": "2ab600870b969d000503ac2b2cb6008d4e2ab40090b400959a009a2ab40090b600992ab40015949b008b2db6009fc100a19900812db6009fc000a13a042bb400a5b400aa9a00172bb200ae2ab600b11904b600b460b800ba99000e19042b2a2db600bea7001e2bc100c09900172bc000c0b200ae2ab600b11904b600b460b800c42ab600870b969d000f2b2a04b200cab600cea7001d2a2ab40090b600991400cf612ab400531020b600598561b5001504ac03ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 11
+        },
+        {
+          "offset": 5,
+          "opcode": 150
+        },
+        {
+          "offset": 6,
+          "opcode": 157,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10,
+          "opcode": 172
+        },
+        {
+          "offset": 11,
+          "opcode": 43
+        },
+        {
+          "offset": 12,
+          "opcode": 44
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 78
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 154,
+          "operands": [
+            0,
+            154
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_82737_E",
+            "()J"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 42
+        },
+        {
+          "offset": 35,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "nextHarvestTick",
+            "J"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 148
+        },
+        {
+          "offset": 39,
+          "opcode": 155,
+          "operands": [
+            0,
+            139
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 45
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 193,
+          "operands": [
+            0,
+            161
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 153,
+          "operands": [
+            0,
+            129
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 45
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 192,
+          "operands": [
+            0,
+            161
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 43
+        },
+        {
+          "offset": 62,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 154,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 43
+        },
+        {
+          "offset": 72,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 42
+        },
+        {
+          "offset": 76,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "getHarvestLevelReq",
+            "()I"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "getHarvestReqModifier",
+            "()I"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 96
+        },
+        {
+          "offset": 85,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "doesPlayerHaveLevel",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/tslat/aoa3/library/Enums$Skills;I)Z"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 43
+        },
+        {
+          "offset": 94,
+          "opcode": 42
+        },
+        {
+          "offset": 95,
+          "opcode": 45
+        },
+        {
+          "offset": 96,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "handlePixonHarvest",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/tslat/aoa3/entity/misc/pixon/EntityPixon;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 167,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 43
+        },
+        {
+          "offset": 103,
+          "opcode": 193,
+          "operands": [
+            0,
+            192
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 153,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 43
+        },
+        {
+          "offset": 110,
+          "opcode": 192,
+          "operands": [
+            0,
+            192
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 42
+        },
+        {
+          "offset": 117,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "getHarvestLevelReq",
+            "()I"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "getHarvestReqModifier",
+            "()I"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 96
+        },
+        {
+          "offset": 126,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "notifyPlayerOfInsufficientLevel",
+            "(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/tslat/aoa3/library/Enums$Skills;I)V"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 42
+        },
+        {
+          "offset": 130,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 11
+        },
+        {
+          "offset": 134,
+          "opcode": 150
+        },
+        {
+          "offset": 135,
+          "opcode": 157,
+          "operands": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 43
+        },
+        {
+          "offset": 139,
+          "opcode": 42
+        },
+        {
+          "offset": 140,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 141,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "field_76377_j",
+            "Lnet/minecraft/util/DamageSource;"
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_191956_a",
+            "(Lnet/minecraft/entity/Entity;ILnet/minecraft/util/DamageSource;)V"
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 167,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 42
+        },
+        {
+          "offset": 151,
+          "opcode": 42
+        },
+        {
+          "offset": 152,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_82737_E",
+            "()J"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 20,
+          "constant": 8
+        },
+        {
+          "offset": 161,
+          "opcode": 97
+        },
+        {
+          "offset": 162,
+          "opcode": 42
+        },
+        {
+          "offset": 163,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 16,
+          "constant": 32
+        },
+        {
+          "offset": 168,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 133
+        },
+        {
+          "offset": 172,
+          "opcode": 97
+        },
+        {
+          "offset": 173,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "nextHarvestTick",
+            "J"
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 177,
+          "opcode": 172
+        },
+        {
+          "offset": 178,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 179,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityPixon.class",
+      "class_sha256": "cae7f12bfefb06db22d3eaed4908296cfd4bd1affec12af525633f86c1358b46",
+      "name": "func_70601_bi",
+      "descriptor": "()Z",
+      "code_hex": "2ab40090b600ddb200e3a6000503acbb00e5592ab400e92ab400ec2ab400efb700f24c2ab400902bb600f64d2ab400902bb600fa4e2d2cb40100a600112d2ab90106020099000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175624_G",
+            "()Lnet/minecraft/world/WorldType;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/world/WorldType",
+            "field_77138_c",
+            "Lnet/minecraft/world/WorldType;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 166,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 14,
+          "opcode": 172
+        },
+        {
+          "offset": 15,
+          "opcode": 187,
+          "operands": [
+            0,
+            229
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 89
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "<init>",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 76
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 43
+        },
+        {
+          "offset": 40,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180494_b",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 77
+        },
+        {
+          "offset": 44,
+          "opcode": 42
+        },
+        {
+          "offset": 45,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 43
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_180495_p",
+            "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 78
+        },
+        {
+          "offset": 53,
+          "opcode": 45
+        },
+        {
+          "offset": 54,
+          "opcode": 44
+        },
+        {
+          "offset": 55,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/biome/Biome",
+            "field_76752_A",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 166,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 45
+        },
+        {
+          "offset": 62,
+          "opcode": 42
+        },
+        {
+          "offset": 63,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_189884_a",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 72,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 76,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityPixon.class",
+      "class_sha256": "cae7f12bfefb06db22d3eaed4908296cfd4bd1affec12af525633f86c1358b46",
+      "name": "func_180431_b",
+      "descriptor": "(Lnet/minecraft/util/DamageSource;)Z",
+      "code_hex": "2bb20111a5000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "field_76380_i",
+            "Lnet/minecraft/util/DamageSource;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 165,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 12,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityPixon.class",
+      "class_sha256": "cae7f12bfefb06db22d3eaed4908296cfd4bd1affec12af525633f86c1358b46",
+      "name": "func_70692_ba",
+      "descriptor": "()Z",
+      "code_hex": "03ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon.class",
+      "class_sha256": "94e607f3e5b00afd1d83e38fcb596aa744396de6fe49ee97ee0b8ea9388a2951",
+      "name": "func_70601_bi",
+      "descriptor": "()Z",
+      "code_hex": "2ab4001db40023b600289a000e2ab7002a99000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 154,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_70601_bi",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 21,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 25,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/InfusionBowl.class",
+      "class_sha256": "ed1719926b947c5a1098663e9287fe5fc7a1dcb929cfed7abf9d471713fbc050",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;III)V",
+      "code_hex": "2ab700222a2bb60026572abb002859b70029122bb6002f2cb6002fb60033b60037572ab2003db60041572a1db60045572a04b60048572a1504b5004a2a1505b5004cb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/Item",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 43
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "func_77655_b",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 87
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 187,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 89
+        },
+        {
+          "offset": 15,
+          "opcode": 183,
+          "member": [
+            "java/lang/StringBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "aoa3:"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 44
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "append",
+            "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "java/lang/StringBuilder",
+            "toString",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "setRegistryName",
+            "(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 87
+        },
+        {
+          "offset": 34,
+          "opcode": 42
+        },
+        {
+          "offset": 35,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "TOOLS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "func_77637_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 87
+        },
+        {
+          "offset": 42,
+          "opcode": 42
+        },
+        {
+          "offset": 43,
+          "opcode": 29
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "func_77656_e",
+            "(I)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 87
+        },
+        {
+          "offset": 48,
+          "opcode": 42
+        },
+        {
+          "offset": 49,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "func_77625_d",
+            "(I)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 87
+        },
+        {
+          "offset": 54,
+          "opcode": 42
+        },
+        {
+          "offset": 55,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "harvestAmount",
+            "I"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 42
+        },
+        {
+          "offset": 61,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "harvestLevelModifier",
+            "I"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/InfusionBowl.class",
+      "class_sha256": "ed1719926b947c5a1098663e9287fe5fc7a1dcb929cfed7abf9d471713fbc050",
+      "name": "getHarvestAmount",
+      "descriptor": "()I",
+      "code_hex": "2ab4004aac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "harvestAmount",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/InfusionBowl.class",
+      "class_sha256": "ed1719926b947c5a1098663e9287fe5fc7a1dcb929cfed7abf9d471713fbc050",
+      "name": "getHarvestReqModifier",
+      "descriptor": "()I",
+      "code_hex": "2ab4004cac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "harvestLevelModifier",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/tool/misc/InfusionBowl.class",
+      "class_sha256": "ed1719926b947c5a1098663e9287fe5fc7a1dcb929cfed7abf9d471713fbc050",
+      "name": "handlePixonHarvest",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/tslat/aoa3/entity/misc/pixon/EntityPixon;Lnet/minecraft/item/ItemStack;)V",
+      "code_hex": "2bb40061b600672cb6006db600733a04033605bb007559b700763a06bb0007592bb40061c00078b7007b2bb6007f2cb60083b600873a072bb8008d3a0815052ab60095a2006b2cb600990b959e00622bb4009db400a39a00092d042bb600a7190619042bb600ab1907b600afb900b30200571908b600b7b600bbb200bfa60016190619042bb600ab1907b600afb900b30200572c2cb6009912c066b200c41006b600ca8662b600ce840501a7ff921906b900d201009a00092b1906b800d82cb400d9b400ddb600e29a001c2cb400d9b600e59900121908b600e9b200ed07150568b600f12cb600f499000b2c2bb600f8a700082b2cb600fb2b2db600ffb80105b601092bb40061012cb6010db60112872cb6010db60115872cb6010db6011887b2011eb201240c0cb60128b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184146_ak",
+            "()Lnet/minecraft/world/storage/loot/LootTableManager;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "getHarvestLootTable",
+            "()Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTableManager",
+            "func_186521_a",
+            "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/storage/loot/LootTable;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 17,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 187,
+          "operands": [
+            0,
+            117
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 89
+        },
+        {
+          "offset": 23,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 187,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 89
+        },
+        {
+          "offset": 32,
+          "opcode": 43
+        },
+        {
+          "offset": 33,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            120
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "<init>",
+            "(Lnet/minecraft/world/WorldServer;)V"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 43
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186470_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 44
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186472_a",
+            "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/world/storage/loot/LootContext$Builder;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext$Builder",
+            "func_186471_a",
+            "()Lnet/minecraft/world/storage/loot/LootContext;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 43
+        },
+        {
+          "offset": 56,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 42
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "getHarvestAmount",
+            "()I"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 162,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 44
+        },
+        {
+          "offset": 71,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 11
+        },
+        {
+          "offset": 75,
+          "opcode": 149
+        },
+        {
+          "offset": 76,
+          "opcode": 158,
+          "operands": [
+            0,
+            98
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 43
+        },
+        {
+          "offset": 80,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 45
+        },
+        {
+          "offset": 90,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 91,
+          "opcode": 43
+        },
+        {
+          "offset": 92,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77972_a",
+            "(ILnet/minecraft/entity/EntityLivingBase;)V"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 43
+        },
+        {
+          "offset": 100,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70681_au",
+            "()Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "func_186462_a",
+            "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 87
+        },
+        {
+          "offset": 114,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "equipment",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment",
+            "getCurrentFullArmourSet",
+            "()Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ArmourSets",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 166,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 43
+        },
+        {
+          "offset": 133,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70681_au",
+            "()Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootTable",
+            "func_186462_a",
+            "(Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 87
+        },
+        {
+          "offset": 147,
+          "opcode": 44
+        },
+        {
+          "offset": 148,
+          "opcode": 44
+        },
+        {
+          "offset": 149,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_110143_aJ",
+            "()F"
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 18,
+          "constant": 7.0
+        },
+        {
+          "offset": 154,
+          "opcode": 102
+        },
+        {
+          "offset": 155,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "field_77697_d",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 160,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 134
+        },
+        {
+          "offset": 164,
+          "opcode": 98
+        },
+        {
+          "offset": 165,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_70606_j",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 132,
+          "operands": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 167,
+          "operands": [
+            255,
+            146
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 181,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 184,
+          "opcode": 43
+        },
+        {
+          "offset": 185,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerMultipleItems",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 44
+        },
+        {
+          "offset": 191,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 194,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 197,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 200,
+          "opcode": 154,
+          "operands": [
+            0,
+            28
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 44
+        },
+        {
+          "offset": 204,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_72935_r",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 153,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Deities",
+            "LUXON",
+            "Lnet/tslat/aoa3/library/Enums$Deities;"
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 222,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 224,
+          "opcode": 104
+        },
+        {
+          "offset": 225,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addTribute",
+            "(Lnet/tslat/aoa3/library/Enums$Deities;I)V"
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 44
+        },
+        {
+          "offset": 229,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_70089_S",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 153,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 44
+        },
+        {
+          "offset": 236,
+          "opcode": 43
+        },
+        {
+          "offset": 237,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_70604_c",
+            "(Lnet/minecraft/entity/EntityLivingBase;)V"
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 167,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 43
+        },
+        {
+          "offset": 244,
+          "opcode": 44
+        },
+        {
+          "offset": 245,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70074_a",
+            "(Lnet/minecraft/entity/EntityLivingBase;)V"
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 43
+        },
+        {
+          "offset": 249,
+          "opcode": 45
+        },
+        {
+          "offset": 250,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 253,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/stats/StatList",
+            "func_188057_b",
+            "(Lnet/minecraft/item/Item;)Lnet/minecraft/stats/StatBase;"
+          ]
+        },
+        {
+          "offset": 256,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_71029_a",
+            "(Lnet/minecraft/stats/StatBase;)V"
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 43
+        },
+        {
+          "offset": 260,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 263,
+          "opcode": 1
+        },
+        {
+          "offset": 264,
+          "opcode": 44
+        },
+        {
+          "offset": 265,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_180425_c",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 268,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 135
+        },
+        {
+          "offset": 272,
+          "opcode": 44
+        },
+        {
+          "offset": 273,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_180425_c",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 135
+        },
+        {
+          "offset": 280,
+          "opcode": 44
+        },
+        {
+          "offset": 281,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "func_180425_c",
+            "()Lnet/minecraft/util/math/BlockPos;"
+          ]
+        },
+        {
+          "offset": 284,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 287,
+          "opcode": 135
+        },
+        {
+          "offset": 288,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "ENTITY_PIXON_HARVEST",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 291,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "MASTER",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 294,
+          "opcode": 12
+        },
+        {
+          "offset": 295,
+          "opcode": 12
+        },
+        {
+          "offset": 296,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184148_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 299,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/InfusionTable.class",
+      "class_sha256": "430a88bfd5c84d7ef885a798d8f04299fb4daf8403e15edd13102f3510c0e91f",
+      "name": "func_180639_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z",
+      "code_hex": "2bb400569a011e19041905b6005c3a0a190ab600623a0b190bc100649900eb1904b8006a3a0c190bc000643a0d190ab6006e360e1904b40072b400779a0016190cb6007bb2007fb60083190db60086a100b5190cb6007bb2007f190db60094150e866a0303b600982b012cb6009b872cb6009e872cb600a187b200a7b200ad0c0cb600b1190cb600b5b600b9b200bca600081021a700051064360f0336100336111511150ea20017b200c2150fb600c89a0006841001841101a7ffe81904b40072b400779a002d15109e001b19041905bb005e59190db600cb1510b700ceb600d2a7002319041905b200d6b600d2a700161904bb005e59190db600cb1510b700ceb800dca7001e1904b800e0b200e4b400e82b2cb6009b2cb6009e2cb600a1b600ec04ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            1,
+            30
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 58,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 58,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 193,
+          "operands": [
+            0,
+            100
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 153,
+          "operands": [
+            0,
+            235
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 58,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 192,
+          "operands": [
+            0,
+            100
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 58,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190916_E",
+            "()I"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 54,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 154,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "getLevel",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;)I"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "getLvl",
+            "()I"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 161,
+          "operands": [
+            0,
+            181
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "getXp",
+            "()F"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 21,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 134
+        },
+        {
+          "offset": 98,
+          "opcode": 106
+        },
+        {
+          "offset": 99,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 100,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 101,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addXp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 43
+        },
+        {
+          "offset": 105,
+          "opcode": 1
+        },
+        {
+          "offset": 106,
+          "opcode": 44
+        },
+        {
+          "offset": 107,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 135
+        },
+        {
+          "offset": 111,
+          "opcode": 44
+        },
+        {
+          "offset": 112,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 135
+        },
+        {
+          "offset": 116,
+          "opcode": 44
+        },
+        {
+          "offset": 117,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 135
+        },
+        {
+          "offset": 121,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "INFUSION_SUCCESS",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "BLOCKS",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 12
+        },
+        {
+          "offset": 128,
+          "opcode": 12
+        },
+        {
+          "offset": 129,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184148_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "equipment",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment;"
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerEquipment",
+            "getCurrentFullArmourSet",
+            "()Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ArmourSets",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$ArmourSets;"
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 166,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 16,
+          "constant": 33
+        },
+        {
+          "offset": 148,
+          "opcode": 167,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 153,
+          "opcode": 54,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 156,
+          "opcode": 54,
+          "operands": [
+            16
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 159,
+          "opcode": 54,
+          "operands": [
+            17
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 21,
+          "operands": [
+            17
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 21,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 162,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 171,
+          "opcode": 21,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 154,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 132,
+          "operands": [
+            16,
+            1
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 132,
+          "operands": [
+            17,
+            1
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 167,
+          "operands": [
+            255,
+            232
+          ]
+        },
+        {
+          "offset": 188,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 154,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 21,
+          "operands": [
+            16
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 158,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 208,
+          "opcode": 187,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 89
+        },
+        {
+          "offset": 212,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 214,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "getPowerStone",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 217,
+          "opcode": 21,
+          "operands": [
+            16
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;I)V"
+          ]
+        },
+        {
+          "offset": 222,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184611_a",
+            "(Lnet/minecraft/util/EnumHand;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 167,
+          "operands": [
+            0,
+            35
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "field_190927_a",
+            "Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184611_a",
+            "(Lnet/minecraft/util/EnumHand;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 167,
+          "operands": [
+            0,
+            22
+          ]
+        },
+        {
+          "offset": 241,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 187,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 246,
+          "opcode": 89
+        },
+        {
+          "offset": 247,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 249,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "getPowerStone",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 21,
+          "operands": [
+            16
+          ]
+        },
+        {
+          "offset": 254,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;I)V"
+          ]
+        },
+        {
+          "offset": 257,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 260,
+          "opcode": 167,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 263,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 265,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "instance",
+            "()Lnet/tslat/aoa3/advent/AdventOfAscension;"
+          ]
+        },
+        {
+          "offset": 268,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ModGuis",
+            "INFUSION_TABLE",
+            "Lnet/tslat/aoa3/library/Enums$ModGuis;"
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/Enums$ModGuis",
+            "guiId",
+            "I"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 43
+        },
+        {
+          "offset": 275,
+          "opcode": 44
+        },
+        {
+          "offset": 276,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 44
+        },
+        {
+          "offset": 280,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 283,
+          "opcode": 44
+        },
+        {
+          "offset": 284,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 287,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "openGui",
+            "(Ljava/lang/Object;ILnet/minecraft/world/World;III)V"
+          ]
+        },
+        {
+          "offset": 290,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 291,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/InfusionStone.class",
+      "class_sha256": "97856ac67fa0c92341d886e3ae8f859c8cd5d565894838c316709c99514edfcd",
+      "name": "<init>",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V",
+      "code_hex": "2a2b2cb700102a1db500122a1704b500142a1905b50016b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/SimpleItem",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 42
+        },
+        {
+          "offset": 7,
+          "opcode": 29
+        },
+        {
+          "offset": 8,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "lvl",
+            "I"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "powerStone",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/InfusionStone.class",
+      "class_sha256": "97856ac67fa0c92341d886e3ae8f859c8cd5d565894838c316709c99514edfcd",
+      "name": "getLvl",
+      "descriptor": "()I",
+      "code_hex": "2ab40012ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "lvl",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/InfusionStone.class",
+      "class_sha256": "97856ac67fa0c92341d886e3ae8f859c8cd5d565894838c316709c99514edfcd",
+      "name": "getXp",
+      "descriptor": "()F",
+      "code_hex": "2ab40014ae",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 174
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/InfusionStone.class",
+      "class_sha256": "97856ac67fa0c92341d886e3ae8f859c8cd5d565894838c316709c99514edfcd",
+      "name": "getPowerStone",
+      "descriptor": "()Lnet/minecraft/item/Item;",
+      "code_hex": "2ab40016b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "powerStone",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/InfusionArmour.class",
+      "class_sha256": "d6c89b0ff66620eb8efd7386f710ab4004b5d8473321db2cba3d75ceec10c7a0",
+      "name": "getLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1064ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/armour/InfusionArmour.class",
+      "class_sha256": "d6c89b0ff66620eb8efd7386f710ab4004b5d8473321db2cba3d75ceec10c7a0",
+      "name": "addBuffs",
+      "descriptor": "(Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs;Lnet/minecraft/inventory/EntityEquipmentSlot;)V",
+      "code_hex": "2cc7000c2bb20039123fb60043b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 44
+        },
+        {
+          "offset": 1,
+          "opcode": 199,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$Skills",
+            "INFUSION",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerBuffs",
+            "addXpModifier",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/library/loot/functions/GrantXp.class",
+      "class_sha256": "3df2567b36348261fd5ea23d60f2e4acda19a146af919209dce182075825a32c",
+      "name": "func_186553_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Ljava/util/Random;Lnet/minecraft/world/storage/loot/LootContext;)Lnet/minecraft/item/ItemStack;",
+      "code_hex": "2db6002bc1002d99001d2db6002bc0002db80033b600372ab4001d2ab4001f0303b6003b2bb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 193,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 153,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 45
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/storage/loot/LootContext",
+            "func_186495_b",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 192,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerUtil",
+            "getAdventPlayer",
+            "(Lnet/minecraft/entity/player/EntityPlayer;)Lnet/tslat/aoa3/utils/player/PlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager",
+            "stats",
+            "()Lnet/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/functions/GrantXp",
+            "skill",
+            "Lnet/tslat/aoa3/library/Enums$Skills;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/library/loot/functions/GrantXp",
+            "xp",
+            "F"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/utils/player/PlayerDataManager$PlayerStats",
+            "addXp",
+            "(Lnet/tslat/aoa3/library/Enums$Skills;FZZ)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 43
+        },
+        {
+          "offset": 37,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon.class",
+      "class_sha256": "94e607f3e5b00afd1d83e38fcb596aa744396de6fe49ee97ee0b8ea9388a2951",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "04ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon.class",
+      "class_sha256": "94e607f3e5b00afd1d83e38fcb596aa744396de6fe49ee97ee0b8ea9388a2951",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestGlistening",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGleamingPixon.class",
+      "class_sha256": "43743bc3837c7a8479f98008f8e22c1f9a83a58c6f5a47506f9728d2c8642cef",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "100aac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGleamingPixon.class",
+      "class_sha256": "43743bc3837c7a8479f98008f8e22c1f9a83a58c6f5a47506f9728d2c8642cef",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestGleaming",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityAmbientPixon.class",
+      "class_sha256": "0c288eb3db1a254ad9e8bc671e4adb2911d381d52fae62a75e6d2d44f309890a",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1014ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityAmbientPixon.class",
+      "class_sha256": "0c288eb3db1a254ad9e8bc671e4adb2911d381d52fae62a75e6d2d44f309890a",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestAmbient",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlaringPixon.class",
+      "class_sha256": "92f0ec44fe737a0afd0074e4785a98e7a9dc9f8f9638481e7bb4b70ab24ab008",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1019ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 25
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlaringPixon.class",
+      "class_sha256": "92f0ec44fe737a0afd0074e4785a98e7a9dc9f8f9638481e7bb4b70ab24ab008",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestGlaring",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlowingPixon.class",
+      "class_sha256": "99a73569fb2918416e5e1f75017726a5ad140754848ce691d3733098097ac431",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1028ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 40
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityGlowingPixon.class",
+      "class_sha256": "99a73569fb2918416e5e1f75017726a5ad140754848ce691d3733098097ac431",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestGlowing",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityShiningPixon.class",
+      "class_sha256": "2d0d85b841385368150a22159eae4d235c7e8a5dd5dceb5b664308d8972dc165",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "103cac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityShiningPixon.class",
+      "class_sha256": "2d0d85b841385368150a22159eae4d235c7e8a5dd5dceb5b664308d8972dc165",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestShining",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityRadiantPixon.class",
+      "class_sha256": "b6a1000e945eaf928032bf2486af115ac455fc3e979fb668b09fb53b5f1db6bd",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1048ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 72
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityRadiantPixon.class",
+      "class_sha256": "b6a1000e945eaf928032bf2486af115ac455fc3e979fb668b09fb53b5f1db6bd",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestRadiant",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityBloomingPixon.class",
+      "class_sha256": "c0b4b5422cacee086c902bb132ab53de7fdfbbe00ca82b34b6b9e50cb182b22e",
+      "name": "getHarvestLevelReq",
+      "descriptor": "()I",
+      "code_hex": "1051ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 81
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/misc/pixon/EntityBloomingPixon.class",
+      "class_sha256": "c0b4b5422cacee086c902bb132ab53de7fdfbbe00ca82b34b6b9e50cb182b22e",
+      "name": "getHarvestLootTable",
+      "descriptor": "()Lnet/minecraft/util/ResourceLocation;",
+      "code_hex": "b20018b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/LootSystemRegister",
+            "pixonHarvestBlooming",
+            "Lnet/minecraft/util/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/EntitySpawnRegister.class",
+      "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+      "name": "registerEntitySpawns",
+      "descriptor": "()V",
+      "code_hex": "1238b8003eb200419a00181243b8004999000704b3004bb2004bb8004fb80053b80057b80053b8005ab80053b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 18,
+          "constant": "Registering entity spawns"
+        },
+        {
+          "offset": 2,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "logOptionalMessage",
+            "(Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "disableOverworldMobs",
+            "Z"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 154,
+          "operands": [
+            0,
+            24
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 18,
+          "constant": "openterraingenerator"
+        },
+        {
+          "offset": 13,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/common/Loader",
+            "isModLoaded",
+            "(Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "forceAllSpawns",
+            "Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "forceAllSpawns",
+            "Z"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "getOverworldSpawns",
+            "(Z)Ljava/util/HashSet;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "addSpawns",
+            "(Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "getNetherSpawns",
+            "()Ljava/util/HashSet;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "addSpawns",
+            "(Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "getDimensionSpawns",
+            "()Ljava/util/HashSet;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/EntitySpawnRegister",
+            "addSpawns",
+            "(Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "source_files": {
+    "entity/misc/pixon/EntityPixon.java": "58161613a2726da8c40346ff64493de8d3528b60500bb01d007b75ff79b732b3",
+    "entity/misc/pixon/EntityGlisteningPixon.java": "3d8c080b96caa028ff2bb97b17b4211fc619fc2ef9d5f65681f60e65f11451d9",
+    "item/tool/misc/InfusionBowl.java": "655d2f3177aa12f2528468e5407d245e62a19a86434f43b7389f67b4ec567ffe",
+    "block/functional/utility/InfusionTable.java": "59732d85ea57298d64d270512dc9cf9b80490751a34adb15d471a32684b54836",
+    "item/misc/InfusionStone.java": "59388238a29530c52a9501e222e790e85c881e6f7c2b51cae1202a2e9d06df2f",
+    "item/armour/InfusionArmour.java": "a2bd186dec92a19490213ebfcd79fa1e3fb75624911152afd0be9d93cccdb642",
+    "library/loot/functions/GrantXp.java": "4bb6b08fb2364c3360e0029cec497b66b3fc1f78fabed57b3df766807152919b",
+    "entity/misc/pixon/EntityGleamingPixon.java": "089d8e55a9bcb7ba10b36fc3bbdb3e1a7eae46c22a665134939bcfa422132fef",
+    "entity/misc/pixon/EntityAmbientPixon.java": "2a7ffd4464d4d1c8102e9bcdbd533a013b8d714e8a8fa977615705336665ec3f",
+    "entity/misc/pixon/EntityGlaringPixon.java": "3333125c8262a6d8aec13eb88be61a242f2d03bc89053f56e015d50b92d6090a",
+    "entity/misc/pixon/EntityGlowingPixon.java": "7cf9a75e38fdb682089d19e3e93e785ecf1c079d521030b5c1c8714064d6ee01",
+    "entity/misc/pixon/EntityShiningPixon.java": "85ecbffecfb46e0367c9946cf591e634e1d01a926e720c19d99b73fc3e3b44b2",
+    "entity/misc/pixon/EntityRadiantPixon.java": "451369e9796118500b9a3a6515fbad3dcce9063fbef282ec7ce0ee845ff24463",
+    "entity/misc/pixon/EntityBloomingPixon.java": "937f9111659412e352968a1b1b09890d44d30b8a0c241d760f7387acfaad34bb",
+    "common/registration/EntitySpawnRegister.java": "0ab821a499ea445d2cc87a10b95904f4dfb6a492b97d4d3a276214c089d5a3d2",
+    "common/registration/ItemRegister.java": "b26afa8092727cb42ee445ab262bfe37908517ed8ef9fddb1ab6599e440e29dc"
+  },
+  "constructor_bindings": [
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9639,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9642,
+          "opcode": 89
+        },
+        {
+          "offset": 9643,
+          "opcode": 19,
+          "constant": "AmbientInfusionStone"
+        },
+        {
+          "offset": 9646,
+          "opcode": 19,
+          "constant": "ambient_infusion_stone"
+        },
+        {
+          "offset": 9649,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 9651,
+          "opcode": 19,
+          "constant": 20.0
+        },
+        {
+          "offset": 9654,
+          "opcode": 19,
+          "constant": "ambient_power_stone"
+        },
+        {
+          "offset": 9657,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9660,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9680,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9683,
+          "opcode": 89
+        },
+        {
+          "offset": 9684,
+          "opcode": 19,
+          "constant": "BloomingInfusionStone"
+        },
+        {
+          "offset": 9687,
+          "opcode": 19,
+          "constant": "blooming_infusion_stone"
+        },
+        {
+          "offset": 9690,
+          "opcode": 16,
+          "constant": 80
+        },
+        {
+          "offset": 9692,
+          "opcode": 19,
+          "constant": 300.0
+        },
+        {
+          "offset": 9695,
+          "opcode": 19,
+          "constant": "blooming_power_stone"
+        },
+        {
+          "offset": 9698,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9701,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9721,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9724,
+          "opcode": 89
+        },
+        {
+          "offset": 9725,
+          "opcode": 19,
+          "constant": "GlaringInfusionStone"
+        },
+        {
+          "offset": 9728,
+          "opcode": 19,
+          "constant": "glaring_infusion_stone"
+        },
+        {
+          "offset": 9731,
+          "opcode": 16,
+          "constant": 30
+        },
+        {
+          "offset": 9733,
+          "opcode": 19,
+          "constant": 40.0
+        },
+        {
+          "offset": 9736,
+          "opcode": 19,
+          "constant": "glaring_power_stone"
+        },
+        {
+          "offset": 9739,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9742,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9762,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9765,
+          "opcode": 89
+        },
+        {
+          "offset": 9766,
+          "opcode": 19,
+          "constant": "GleamingInfusionStone"
+        },
+        {
+          "offset": 9769,
+          "opcode": 19,
+          "constant": "gleaming_infusion_stone"
+        },
+        {
+          "offset": 9772,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 9774,
+          "opcode": 19,
+          "constant": 16.0
+        },
+        {
+          "offset": 9777,
+          "opcode": 19,
+          "constant": "gleaming_power_stone"
+        },
+        {
+          "offset": 9780,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9783,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9803,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9806,
+          "opcode": 89
+        },
+        {
+          "offset": 9807,
+          "opcode": 19,
+          "constant": "GlisteningInfusionStone"
+        },
+        {
+          "offset": 9810,
+          "opcode": 19,
+          "constant": "glistening_infusion_stone"
+        },
+        {
+          "offset": 9813,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 9814,
+          "opcode": 19,
+          "constant": 8.0
+        },
+        {
+          "offset": 9817,
+          "opcode": 19,
+          "constant": "glistening_power_stone"
+        },
+        {
+          "offset": 9820,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9823,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9843,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9846,
+          "opcode": 89
+        },
+        {
+          "offset": 9847,
+          "opcode": 19,
+          "constant": "GlowingInfusionStone"
+        },
+        {
+          "offset": 9850,
+          "opcode": 19,
+          "constant": "glowing_infusion_stone"
+        },
+        {
+          "offset": 9853,
+          "opcode": 16,
+          "constant": 45
+        },
+        {
+          "offset": 9855,
+          "opcode": 19,
+          "constant": 85.0
+        },
+        {
+          "offset": 9858,
+          "opcode": 19,
+          "constant": "glowing_power_stone"
+        },
+        {
+          "offset": 9861,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9864,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9884,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9887,
+          "opcode": 89
+        },
+        {
+          "offset": 9888,
+          "opcode": 19,
+          "constant": "RadiantInfusionStone"
+        },
+        {
+          "offset": 9891,
+          "opcode": 19,
+          "constant": "radiant_infusion_stone"
+        },
+        {
+          "offset": 9894,
+          "opcode": 16,
+          "constant": 70
+        },
+        {
+          "offset": 9896,
+          "opcode": 19,
+          "constant": 220.0
+        },
+        {
+          "offset": 9899,
+          "opcode": 19,
+          "constant": "radiant_power_stone"
+        },
+        {
+          "offset": 9902,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9905,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionStone",
+      "instructions": [
+        {
+          "offset": 9925,
+          "opcode": 187,
+          "operands": [
+            10,
+            82
+          ]
+        },
+        {
+          "offset": 9928,
+          "opcode": 89
+        },
+        {
+          "offset": 9929,
+          "opcode": 19,
+          "constant": "ShiningInfusionStone"
+        },
+        {
+          "offset": 9932,
+          "opcode": 19,
+          "constant": "shining_infusion_stone"
+        },
+        {
+          "offset": 9935,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 9937,
+          "opcode": 19,
+          "constant": 150.0
+        },
+        {
+          "offset": 9940,
+          "opcode": 19,
+          "constant": "shining_power_stone"
+        },
+        {
+          "offset": 9943,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "getUnmappedItem",
+            "(Ljava/lang/String;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 9946,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/InfusionStone",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/item/Item;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionBowl",
+      "instructions": [
+        {
+          "offset": 12586,
+          "opcode": 187,
+          "operands": [
+            12,
+            14
+          ]
+        },
+        {
+          "offset": 12589,
+          "opcode": 89
+        },
+        {
+          "offset": 12590,
+          "opcode": 19,
+          "constant": "DiamondBowl"
+        },
+        {
+          "offset": 12593,
+          "opcode": 19,
+          "constant": "diamond_bowl"
+        },
+        {
+          "offset": 12596,
+          "opcode": 17,
+          "constant": 750
+        },
+        {
+          "offset": 12599,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 12600,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 12602,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;III)V"
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ItemRegister.class",
+      "class_sha256": "8369b6fb2868748b0423f1e883f7c64c9e667ef8c65d749c411ab4390aee0b7d",
+      "method": "registerItems",
+      "kind": "InfusionBowl",
+      "instructions": [
+        {
+          "offset": 12616,
+          "opcode": 187,
+          "operands": [
+            12,
+            14
+          ]
+        },
+        {
+          "offset": 12619,
+          "opcode": 89
+        },
+        {
+          "offset": 12620,
+          "opcode": 19,
+          "constant": "StoneBowl"
+        },
+        {
+          "offset": 12623,
+          "opcode": 19,
+          "constant": "stone_bowl"
+        },
+        {
+          "offset": 12626,
+          "opcode": 16,
+          "constant": 100
+        },
+        {
+          "offset": 12628,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12629,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 12630,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/tool/misc/InfusionBowl",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;III)V"
+          ]
+        }
+      ]
+    }
+  ],
+  "bowls": [
+    {
+      "name": "DiamondBowl",
+      "id": "aoa3:diamond_bowl",
+      "durability": 750,
+      "harvest_limit": 5,
+      "level_modifier": 10
+    },
+    {
+      "name": "StoneBowl",
+      "id": "aoa3:stone_bowl",
+      "durability": 100,
+      "harvest_limit": 1,
+      "level_modifier": 0
+    }
+  ],
+  "pixons": [
+    {
+      "name": "Glistening Pixon",
+      "id": "aoa3:glistening_pixon",
+      "stone_bowl_level": 1,
+      "diamond_bowl_level": 11,
+      "stone": {
+        "name": "GlisteningInfusionStone",
+        "id": "aoa3:glistening_infusion_stone",
+        "conversion_level": 5,
+        "conversion_base_xp": 8.0,
+        "power_stone": "aoa3:glistening_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:glistening_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 10
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:glistening_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 15
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/glistening_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getOverworldSpawns",
+        "instructions": [
+          {
+            "offset": 2292,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 2295,
+            "opcode": 89
+          },
+          {
+            "offset": 2296,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon"
+          },
+          {
+            "offset": 2299,
+            "opcode": 16,
+            "constant": 30
+          },
+          {
+            "offset": 2301,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 2302,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 2303,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 2306,
+            "opcode": 25,
+            "operands": [
+              14
+            ]
+          },
+          {
+            "offset": 2308,
+            "opcode": 1
+          },
+          {
+            "offset": 2309,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [],
+        "weight": 30,
+        "min_group": 1,
+        "max_group": 3
+      }
+    },
+    {
+      "name": "Gleaming Pixon",
+      "id": "aoa3:gleaming_pixon",
+      "stone_bowl_level": 10,
+      "diamond_bowl_level": 20,
+      "stone": {
+        "name": "GleamingInfusionStone",
+        "id": "aoa3:gleaming_infusion_stone",
+        "conversion_level": 15,
+        "conversion_base_xp": 16.0,
+        "power_stone": "aoa3:gleaming_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:gleaming_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:gleaming_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 45
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/gleaming_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGleamingPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 564,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 567,
+            "opcode": 89
+          },
+          {
+            "offset": 568,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGleamingPixon"
+          },
+          {
+            "offset": 571,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 573,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 574,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 575,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 578,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 579,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 582,
+            "opcode": 89
+          },
+          {
+            "offset": 583,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 584,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "RUNANDOR",
+              "Lnet/tslat/aoa3/dimension/runandor/biomes/BiomeRunandor;"
+            ]
+          },
+          {
+            "offset": 587,
+            "opcode": 83
+          },
+          {
+            "offset": 588,
+            "opcode": 1
+          },
+          {
+            "offset": 589,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "RUNANDOR"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 3
+      }
+    },
+    {
+      "name": "Ambient Pixon",
+      "id": "aoa3:ambient_pixon",
+      "stone_bowl_level": 20,
+      "diamond_bowl_level": 30,
+      "stone": {
+        "name": "AmbientInfusionStone",
+        "id": "aoa3:ambient_infusion_stone",
+        "conversion_level": 20,
+        "conversion_base_xp": 20.0,
+        "power_stone": "aoa3:ambient_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:ambient_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 40
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:ambient_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 60
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/ambient_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityAmbientPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 4841,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 4844,
+            "opcode": 89
+          },
+          {
+            "offset": 4845,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityAmbientPixon"
+          },
+          {
+            "offset": 4848,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 4850,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 4851,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 4852,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 4855,
+            "opcode": 7,
+            "constant": 4
+          },
+          {
+            "offset": 4856,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 4859,
+            "opcode": 89
+          },
+          {
+            "offset": 4860,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 4861,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "HAVEN",
+              "Lnet/tslat/aoa3/dimension/haven/biomes/BiomeHaven;"
+            ]
+          },
+          {
+            "offset": 4864,
+            "opcode": 83
+          },
+          {
+            "offset": 4865,
+            "opcode": 89
+          },
+          {
+            "offset": 4866,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 4867,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "RUNANDOR",
+              "Lnet/tslat/aoa3/dimension/runandor/biomes/BiomeRunandor;"
+            ]
+          },
+          {
+            "offset": 4870,
+            "opcode": 83
+          },
+          {
+            "offset": 4871,
+            "opcode": 89
+          },
+          {
+            "offset": 4872,
+            "opcode": 5,
+            "constant": 2
+          },
+          {
+            "offset": 4873,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "CANDYLAND",
+              "Lnet/tslat/aoa3/dimension/candyland/biomes/BiomeCandyland;"
+            ]
+          },
+          {
+            "offset": 4876,
+            "opcode": 83
+          },
+          {
+            "offset": 4877,
+            "opcode": 89
+          },
+          {
+            "offset": 4878,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 4879,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "SHYRELANDS",
+              "Lnet/tslat/aoa3/dimension/shyrelands/biomes/BiomeShyrelands;"
+            ]
+          },
+          {
+            "offset": 4882,
+            "opcode": 83
+          },
+          {
+            "offset": 4883,
+            "opcode": 1
+          },
+          {
+            "offset": 4884,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "HAVEN",
+          "RUNANDOR",
+          "CANDYLAND",
+          "SHYRELANDS"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 3
+      }
+    },
+    {
+      "name": "Glaring Pixon",
+      "id": "aoa3:glaring_pixon",
+      "stone_bowl_level": 25,
+      "diamond_bowl_level": 35,
+      "stone": {
+        "name": "GlaringInfusionStone",
+        "id": "aoa3:glaring_infusion_stone",
+        "conversion_level": 30,
+        "conversion_base_xp": 40.0,
+        "power_stone": "aoa3:glaring_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:glaring_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 70
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:glaring_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 105
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/glaring_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGlaringPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 270,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 273,
+            "opcode": 89
+          },
+          {
+            "offset": 274,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGlaringPixon"
+          },
+          {
+            "offset": 277,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 279,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 280,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 281,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 284,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 285,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 288,
+            "opcode": 89
+          },
+          {
+            "offset": 289,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 290,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "LELYETIA",
+              "Lnet/tslat/aoa3/dimension/lelyetia/biomes/BiomeLelyetia;"
+            ]
+          },
+          {
+            "offset": 293,
+            "opcode": 83
+          },
+          {
+            "offset": 294,
+            "opcode": 1
+          },
+          {
+            "offset": 295,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "LELYETIA"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 3
+      }
+    },
+    {
+      "name": "Glowing Pixon",
+      "id": "aoa3:glowing_pixon",
+      "stone_bowl_level": 40,
+      "diamond_bowl_level": 50,
+      "stone": {
+        "name": "GlowingInfusionStone",
+        "id": "aoa3:glowing_infusion_stone",
+        "conversion_level": 45,
+        "conversion_base_xp": 85.0,
+        "power_stone": "aoa3:glowing_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:glowing_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 200
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:glowing_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 300
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/glowing_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGlowingPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 858,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 861,
+            "opcode": 89
+          },
+          {
+            "offset": 862,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGlowingPixon"
+          },
+          {
+            "offset": 865,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 867,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 868,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 869,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 872,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 873,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 876,
+            "opcode": 89
+          },
+          {
+            "offset": 877,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 878,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "LBOREAN",
+              "Lnet/tslat/aoa3/dimension/lborean/biomes/BiomeLBorean;"
+            ]
+          },
+          {
+            "offset": 881,
+            "opcode": 83
+          },
+          {
+            "offset": 882,
+            "opcode": 1
+          },
+          {
+            "offset": 883,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "LBOREAN"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 3
+      }
+    },
+    {
+      "name": "Shining Pixon",
+      "id": "aoa3:shining_pixon",
+      "stone_bowl_level": 60,
+      "diamond_bowl_level": 70,
+      "stone": {
+        "name": "ShiningInfusionStone",
+        "id": "aoa3:shining_infusion_stone",
+        "conversion_level": 60,
+        "conversion_base_xp": 150.0,
+        "power_stone": "aoa3:shining_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:shining_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 350
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:shining_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 525
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/shining_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityShiningPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 1480,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 1483,
+            "opcode": 89
+          },
+          {
+            "offset": 1484,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityShiningPixon"
+          },
+          {
+            "offset": 1487,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 1489,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 1490,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 1491,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 1494,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 1495,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 1498,
+            "opcode": 89
+          },
+          {
+            "offset": 1499,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 1500,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "ABYSS",
+              "Lnet/tslat/aoa3/dimension/abyss/biomes/BiomeAbyss;"
+            ]
+          },
+          {
+            "offset": 1503,
+            "opcode": 83
+          },
+          {
+            "offset": 1504,
+            "opcode": 1
+          },
+          {
+            "offset": 1505,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "ABYSS"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 1
+      }
+    },
+    {
+      "name": "Radiant Pixon",
+      "id": "aoa3:radiant_pixon",
+      "stone_bowl_level": 72,
+      "diamond_bowl_level": 82,
+      "stone": {
+        "name": "RadiantInfusionStone",
+        "id": "aoa3:radiant_infusion_stone",
+        "conversion_level": 70,
+        "conversion_base_xp": 220.0,
+        "power_stone": "aoa3:radiant_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:radiant_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 700
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:radiant_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 60
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/radiant_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityRadiantPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 1152,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 1155,
+            "opcode": 89
+          },
+          {
+            "offset": 1156,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityRadiantPixon"
+          },
+          {
+            "offset": 1159,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 1161,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 1162,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 1163,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 1166,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 1167,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 1170,
+            "opcode": 89
+          },
+          {
+            "offset": 1171,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 1172,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "DUSTOPIA",
+              "Lnet/tslat/aoa3/dimension/dustopia/biomes/BiomeDustopia;"
+            ]
+          },
+          {
+            "offset": 1175,
+            "opcode": 83
+          },
+          {
+            "offset": 1176,
+            "opcode": 1
+          },
+          {
+            "offset": 1177,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "DUSTOPIA"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 3
+      }
+    },
+    {
+      "name": "Blooming Pixon",
+      "id": "aoa3:blooming_pixon",
+      "stone_bowl_level": 81,
+      "diamond_bowl_level": 91,
+      "stone": {
+        "name": "BloomingInfusionStone",
+        "id": "aoa3:blooming_infusion_stone",
+        "conversion_level": 80,
+        "conversion_base_xp": 300.0,
+        "power_stone": "aoa3:blooming_power_stone"
+      },
+      "rewards": [
+        {
+          "type": "item",
+          "name": "aoa3:blooming_infusion_stone",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 900
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "aoa3:blooming_power_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "aoa3:grant_xp",
+              "skill": "infusion",
+              "xp": 1350
+            }
+          ]
+        }
+      ],
+      "loot_path": "assets/aoa3/loot_tables/entities/misc/pixons/blooming_pixon_harvest.json",
+      "spawn_entry": {
+        "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityBloomingPixon",
+        "class_sha256": "e4e2a22a79ce17614e0656c60e2264e6a97f273a9e2e37e3cb2690d32a52511c",
+        "method": "getDimensionSpawns",
+        "instructions": [
+          {
+            "offset": 9,
+            "opcode": 187,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 89
+          },
+          {
+            "offset": 13,
+            "opcode": 19,
+            "constant": "net/tslat/aoa3/entity/misc/pixon/EntityBloomingPixon"
+          },
+          {
+            "offset": 16,
+            "opcode": 16,
+            "constant": 12
+          },
+          {
+            "offset": 18,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 19,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 20,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/entity/EnumCreatureType",
+              "CREATURE",
+              "Lnet/minecraft/entity/EnumCreatureType;"
+            ]
+          },
+          {
+            "offset": 23,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 24,
+            "opcode": 189,
+            "operands": [
+              1,
+              133
+            ]
+          },
+          {
+            "offset": 27,
+            "opcode": 89
+          },
+          {
+            "offset": 28,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 29,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/BiomeRegister",
+              "MYSTERIUM",
+              "Lnet/tslat/aoa3/dimension/mysterium/biomes/BiomeMysterium;"
+            ]
+          },
+          {
+            "offset": 32,
+            "opcode": 83
+          },
+          {
+            "offset": 33,
+            "opcode": 1
+          },
+          {
+            "offset": 34,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/registration/EntitySpawnRegister$SpawnEntry",
+              "<init>",
+              "(Ljava/lang/Class;IIILnet/minecraft/entity/EnumCreatureType;[Lnet/minecraft/world/biome/Biome;Lnet/tslat/aoa3/common/registration/EntitySpawnRegister$1;)V"
+            ]
+          }
+        ],
+        "biome_fields": [
+          "MYSTERIUM"
+        ],
+        "weight": 12,
+        "min_group": 1,
+        "max_group": 3
+      }
+    }
+  ],
+  "resources": {
+    "assets/aoa3/loot_tables/entities/misc/pixons/glistening_pixon_harvest.json": {
+      "sha256": "015a4a46c5146bc6162673f9ecbc0a06d77216d79848f5a6405a8cd3b785afbe",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:glistening_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 10
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:glistening_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 15
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/gleaming_pixon_harvest.json": {
+      "sha256": "9d8cc8bcd2f84a124c0110d9239460f5fc78eb2c77edd9b950583f27f159682f",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:gleaming_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 30
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gleaming_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 45
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/ambient_pixon_harvest.json": {
+      "sha256": "6eb2e1f59eacecb7501343c407a42bb739b73d9f753ede2f1d1da1465d973ad4",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:ambient_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 40
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:ambient_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 60
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/glaring_pixon_harvest.json": {
+      "sha256": "3d3d24a0dab9896a7ea36cb39b926dd39fa2662c7314f8000e92e8a31824c13b",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:glaring_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 70
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:glaring_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 105
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/glowing_pixon_harvest.json": {
+      "sha256": "be34be4b60dc7428698236096c8dde6b9b4a91a78d772dcc5b090505c0bc711f",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:glowing_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 200
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:glowing_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 300
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/shining_pixon_harvest.json": {
+      "sha256": "2b07e72d2dd7f90b3bd38b0735bc4eaa884d651a34d47dea04d85c4f679c8a70",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:shining_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 350
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:shining_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 525
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/radiant_pixon_harvest.json": {
+      "sha256": "3948314e15c271fb90f28c3e332a4ed9615038b35df83fd32ec9822b5fa56476",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:radiant_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 700
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:radiant_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 60
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/loot_tables/entities/misc/pixons/blooming_pixon_harvest.json": {
+      "sha256": "b6a8b2aeb6defca61f6c12e26218f8cd0bd901815e71cbbfaeca0af6f05bf90f",
+      "data": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "stones",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:blooming_infusion_stone",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 900
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:blooming_power_stone",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "infusion",
+                    "xp": 1350
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "assets/aoa3/recipes/items/misc/misc/stone_bowl.json": {
+      "sha256": "f61c85cf67d08bf0e86ddbc81df477d24918f0912537fb2b2dc6382bd9186c3f",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "A A",
+          "ABA",
+          "AAA"
+        ],
+        "key": {
+          "A": [
+            {
+              "item": "aoa3:ancient_rock"
+            }
+          ],
+          "B": [
+            {
+              "item": "minecraft:gold_ingot"
+            }
+          ]
+        },
+        "result": {
+          "item": "aoa3:stone_bowl"
+        }
+      }
+    },
+    "assets/aoa3/recipes/items/misc/misc/diamond_bowl.json": {
+      "sha256": "ac6b9706e3b05bc5b6dfb8a1b0d834090e27a5c4def959877525768ee63788c0",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "A A",
+          "ABA",
+          "AAA"
+        ],
+        "key": {
+          "A": [
+            {
+              "item": "minecraft:diamond"
+            }
+          ],
+          "B": [
+            {
+              "item": "minecraft:gold_ingot"
+            }
+          ]
+        },
+        "result": {
+          "item": "aoa3:diamond_bowl"
+        }
+      }
+    },
+    "assets/aoa3/recipes/blocks/functional/utility/infusion_table.json": {
+      "sha256": "0daa19628c4cf3aa5aa3d25a2ddad7e9cf3fed9ab937ab9ed7ea7d3aa1749e03",
+      "data": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "AAA",
+          "BCB",
+          "DDD"
+        ],
+        "key": {
+          "A": [
+            {
+              "item": "minecraft:wool",
+              "data": 32767
+            }
+          ],
+          "B": [
+            {
+              "item": "aoa3:ancient_rock"
+            }
+          ],
+          "C": [
+            {
+              "type": "forge:ore_dict",
+              "ore": "infusionStone"
+            }
+          ],
+          "D": [
+            {
+              "item": "minecraft:obsidian"
+            }
+          ]
+        },
+        "result": {
+          "item": "aoa3:infusion_table"
+        }
+      }
+    }
+  },
+  "health_step_models": [
+    {
+      "health": 1,
+      "random_value": 0,
+      "after": -6,
+      "loss": 7
+    },
+    {
+      "health": 1,
+      "random_value": 1,
+      "after": -5,
+      "loss": 6
+    },
+    {
+      "health": 1,
+      "random_value": 2,
+      "after": -4,
+      "loss": 5
+    },
+    {
+      "health": 1,
+      "random_value": 3,
+      "after": -3,
+      "loss": 4
+    },
+    {
+      "health": 1,
+      "random_value": 4,
+      "after": -2,
+      "loss": 3
+    },
+    {
+      "health": 1,
+      "random_value": 5,
+      "after": -1,
+      "loss": 2
+    },
+    {
+      "health": 2,
+      "random_value": 0,
+      "after": -5,
+      "loss": 7
+    },
+    {
+      "health": 2,
+      "random_value": 1,
+      "after": -4,
+      "loss": 6
+    },
+    {
+      "health": 2,
+      "random_value": 2,
+      "after": -3,
+      "loss": 5
+    },
+    {
+      "health": 2,
+      "random_value": 3,
+      "after": -2,
+      "loss": 4
+    },
+    {
+      "health": 2,
+      "random_value": 4,
+      "after": -1,
+      "loss": 3
+    },
+    {
+      "health": 2,
+      "random_value": 5,
+      "after": 0,
+      "loss": 2
+    },
+    {
+      "health": 3,
+      "random_value": 0,
+      "after": -4,
+      "loss": 7
+    },
+    {
+      "health": 3,
+      "random_value": 1,
+      "after": -3,
+      "loss": 6
+    },
+    {
+      "health": 3,
+      "random_value": 2,
+      "after": -2,
+      "loss": 5
+    },
+    {
+      "health": 3,
+      "random_value": 3,
+      "after": -1,
+      "loss": 4
+    },
+    {
+      "health": 3,
+      "random_value": 4,
+      "after": 0,
+      "loss": 3
+    },
+    {
+      "health": 3,
+      "random_value": 5,
+      "after": 1,
+      "loss": 2
+    },
+    {
+      "health": 4,
+      "random_value": 0,
+      "after": -3,
+      "loss": 7
+    },
+    {
+      "health": 4,
+      "random_value": 1,
+      "after": -2,
+      "loss": 6
+    },
+    {
+      "health": 4,
+      "random_value": 2,
+      "after": -1,
+      "loss": 5
+    },
+    {
+      "health": 4,
+      "random_value": 3,
+      "after": 0,
+      "loss": 4
+    },
+    {
+      "health": 4,
+      "random_value": 4,
+      "after": 1,
+      "loss": 3
+    },
+    {
+      "health": 4,
+      "random_value": 5,
+      "after": 2,
+      "loss": 2
+    },
+    {
+      "health": 5,
+      "random_value": 0,
+      "after": -2,
+      "loss": 7
+    },
+    {
+      "health": 5,
+      "random_value": 1,
+      "after": -1,
+      "loss": 6
+    },
+    {
+      "health": 5,
+      "random_value": 2,
+      "after": 0,
+      "loss": 5
+    },
+    {
+      "health": 5,
+      "random_value": 3,
+      "after": 1,
+      "loss": 4
+    },
+    {
+      "health": 5,
+      "random_value": 4,
+      "after": 2,
+      "loss": 3
+    },
+    {
+      "health": 5,
+      "random_value": 5,
+      "after": 3,
+      "loss": 2
+    },
+    {
+      "health": 6,
+      "random_value": 0,
+      "after": -1,
+      "loss": 7
+    },
+    {
+      "health": 6,
+      "random_value": 1,
+      "after": 0,
+      "loss": 6
+    },
+    {
+      "health": 6,
+      "random_value": 2,
+      "after": 1,
+      "loss": 5
+    },
+    {
+      "health": 6,
+      "random_value": 3,
+      "after": 2,
+      "loss": 4
+    },
+    {
+      "health": 6,
+      "random_value": 4,
+      "after": 3,
+      "loss": 3
+    },
+    {
+      "health": 6,
+      "random_value": 5,
+      "after": 4,
+      "loss": 2
+    },
+    {
+      "health": 7,
+      "random_value": 0,
+      "after": 0,
+      "loss": 7
+    },
+    {
+      "health": 7,
+      "random_value": 1,
+      "after": 1,
+      "loss": 6
+    },
+    {
+      "health": 7,
+      "random_value": 2,
+      "after": 2,
+      "loss": 5
+    },
+    {
+      "health": 7,
+      "random_value": 3,
+      "after": 3,
+      "loss": 4
+    },
+    {
+      "health": 7,
+      "random_value": 4,
+      "after": 4,
+      "loss": 3
+    },
+    {
+      "health": 7,
+      "random_value": 5,
+      "after": 5,
+      "loss": 2
+    },
+    {
+      "health": 8,
+      "random_value": 0,
+      "after": 1,
+      "loss": 7
+    },
+    {
+      "health": 8,
+      "random_value": 1,
+      "after": 2,
+      "loss": 6
+    },
+    {
+      "health": 8,
+      "random_value": 2,
+      "after": 3,
+      "loss": 5
+    },
+    {
+      "health": 8,
+      "random_value": 3,
+      "after": 4,
+      "loss": 4
+    },
+    {
+      "health": 8,
+      "random_value": 4,
+      "after": 5,
+      "loss": 3
+    },
+    {
+      "health": 8,
+      "random_value": 5,
+      "after": 6,
+      "loss": 2
+    },
+    {
+      "health": 9,
+      "random_value": 0,
+      "after": 2,
+      "loss": 7
+    },
+    {
+      "health": 9,
+      "random_value": 1,
+      "after": 3,
+      "loss": 6
+    },
+    {
+      "health": 9,
+      "random_value": 2,
+      "after": 4,
+      "loss": 5
+    },
+    {
+      "health": 9,
+      "random_value": 3,
+      "after": 5,
+      "loss": 4
+    },
+    {
+      "health": 9,
+      "random_value": 4,
+      "after": 6,
+      "loss": 3
+    },
+    {
+      "health": 9,
+      "random_value": 5,
+      "after": 7,
+      "loss": 2
+    },
+    {
+      "health": 10,
+      "random_value": 0,
+      "after": 3,
+      "loss": 7
+    },
+    {
+      "health": 10,
+      "random_value": 1,
+      "after": 4,
+      "loss": 6
+    },
+    {
+      "health": 10,
+      "random_value": 2,
+      "after": 5,
+      "loss": 5
+    },
+    {
+      "health": 10,
+      "random_value": 3,
+      "after": 6,
+      "loss": 4
+    },
+    {
+      "health": 10,
+      "random_value": 4,
+      "after": 7,
+      "loss": 3
+    },
+    {
+      "health": 10,
+      "random_value": 5,
+      "after": 8,
+      "loss": 2
+    },
+    {
+      "health": 11,
+      "random_value": 0,
+      "after": 4,
+      "loss": 7
+    },
+    {
+      "health": 11,
+      "random_value": 1,
+      "after": 5,
+      "loss": 6
+    },
+    {
+      "health": 11,
+      "random_value": 2,
+      "after": 6,
+      "loss": 5
+    },
+    {
+      "health": 11,
+      "random_value": 3,
+      "after": 7,
+      "loss": 4
+    },
+    {
+      "health": 11,
+      "random_value": 4,
+      "after": 8,
+      "loss": 3
+    },
+    {
+      "health": 11,
+      "random_value": 5,
+      "after": 9,
+      "loss": 2
+    },
+    {
+      "health": 12,
+      "random_value": 0,
+      "after": 5,
+      "loss": 7
+    },
+    {
+      "health": 12,
+      "random_value": 1,
+      "after": 6,
+      "loss": 6
+    },
+    {
+      "health": 12,
+      "random_value": 2,
+      "after": 7,
+      "loss": 5
+    },
+    {
+      "health": 12,
+      "random_value": 3,
+      "after": 8,
+      "loss": 4
+    },
+    {
+      "health": 12,
+      "random_value": 4,
+      "after": 9,
+      "loss": 3
+    },
+    {
+      "health": 12,
+      "random_value": 5,
+      "after": 10,
+      "loss": 2
+    },
+    {
+      "health": 13,
+      "random_value": 0,
+      "after": 6,
+      "loss": 7
+    },
+    {
+      "health": 13,
+      "random_value": 1,
+      "after": 7,
+      "loss": 6
+    },
+    {
+      "health": 13,
+      "random_value": 2,
+      "after": 8,
+      "loss": 5
+    },
+    {
+      "health": 13,
+      "random_value": 3,
+      "after": 9,
+      "loss": 4
+    },
+    {
+      "health": 13,
+      "random_value": 4,
+      "after": 10,
+      "loss": 3
+    },
+    {
+      "health": 13,
+      "random_value": 5,
+      "after": 11,
+      "loss": 2
+    },
+    {
+      "health": 14,
+      "random_value": 0,
+      "after": 7,
+      "loss": 7
+    },
+    {
+      "health": 14,
+      "random_value": 1,
+      "after": 8,
+      "loss": 6
+    },
+    {
+      "health": 14,
+      "random_value": 2,
+      "after": 9,
+      "loss": 5
+    },
+    {
+      "health": 14,
+      "random_value": 3,
+      "after": 10,
+      "loss": 4
+    },
+    {
+      "health": 14,
+      "random_value": 4,
+      "after": 11,
+      "loss": 3
+    },
+    {
+      "health": 14,
+      "random_value": 5,
+      "after": 12,
+      "loss": 2
+    },
+    {
+      "health": 15,
+      "random_value": 0,
+      "after": 8,
+      "loss": 7
+    },
+    {
+      "health": 15,
+      "random_value": 1,
+      "after": 9,
+      "loss": 6
+    },
+    {
+      "health": 15,
+      "random_value": 2,
+      "after": 10,
+      "loss": 5
+    },
+    {
+      "health": 15,
+      "random_value": 3,
+      "after": 11,
+      "loss": 4
+    },
+    {
+      "health": 15,
+      "random_value": 4,
+      "after": 12,
+      "loss": 3
+    },
+    {
+      "health": 15,
+      "random_value": 5,
+      "after": 13,
+      "loss": 2
+    },
+    {
+      "health": 16,
+      "random_value": 0,
+      "after": 9,
+      "loss": 7
+    },
+    {
+      "health": 16,
+      "random_value": 1,
+      "after": 10,
+      "loss": 6
+    },
+    {
+      "health": 16,
+      "random_value": 2,
+      "after": 11,
+      "loss": 5
+    },
+    {
+      "health": 16,
+      "random_value": 3,
+      "after": 12,
+      "loss": 4
+    },
+    {
+      "health": 16,
+      "random_value": 4,
+      "after": 13,
+      "loss": 3
+    },
+    {
+      "health": 16,
+      "random_value": 5,
+      "after": 14,
+      "loss": 2
+    },
+    {
+      "health": 17,
+      "random_value": 0,
+      "after": 10,
+      "loss": 7
+    },
+    {
+      "health": 17,
+      "random_value": 1,
+      "after": 11,
+      "loss": 6
+    },
+    {
+      "health": 17,
+      "random_value": 2,
+      "after": 12,
+      "loss": 5
+    },
+    {
+      "health": 17,
+      "random_value": 3,
+      "after": 13,
+      "loss": 4
+    },
+    {
+      "health": 17,
+      "random_value": 4,
+      "after": 14,
+      "loss": 3
+    },
+    {
+      "health": 17,
+      "random_value": 5,
+      "after": 15,
+      "loss": 2
+    },
+    {
+      "health": 18,
+      "random_value": 0,
+      "after": 11,
+      "loss": 7
+    },
+    {
+      "health": 18,
+      "random_value": 1,
+      "after": 12,
+      "loss": 6
+    },
+    {
+      "health": 18,
+      "random_value": 2,
+      "after": 13,
+      "loss": 5
+    },
+    {
+      "health": 18,
+      "random_value": 3,
+      "after": 14,
+      "loss": 4
+    },
+    {
+      "health": 18,
+      "random_value": 4,
+      "after": 15,
+      "loss": 3
+    },
+    {
+      "health": 18,
+      "random_value": 5,
+      "after": 16,
+      "loss": 2
+    },
+    {
+      "health": 19,
+      "random_value": 0,
+      "after": 12,
+      "loss": 7
+    },
+    {
+      "health": 19,
+      "random_value": 1,
+      "after": 13,
+      "loss": 6
+    },
+    {
+      "health": 19,
+      "random_value": 2,
+      "after": 14,
+      "loss": 5
+    },
+    {
+      "health": 19,
+      "random_value": 3,
+      "after": 15,
+      "loss": 4
+    },
+    {
+      "health": 19,
+      "random_value": 4,
+      "after": 16,
+      "loss": 3
+    },
+    {
+      "health": 19,
+      "random_value": 5,
+      "after": 17,
+      "loss": 2
+    },
+    {
+      "health": 20,
+      "random_value": 0,
+      "after": 13,
+      "loss": 7
+    },
+    {
+      "health": 20,
+      "random_value": 1,
+      "after": 14,
+      "loss": 6
+    },
+    {
+      "health": 20,
+      "random_value": 2,
+      "after": 15,
+      "loss": 5
+    },
+    {
+      "health": 20,
+      "random_value": 3,
+      "after": 16,
+      "loss": 4
+    },
+    {
+      "health": 20,
+      "random_value": 4,
+      "after": 17,
+      "loss": 3
+    },
+    {
+      "health": 20,
+      "random_value": 5,
+      "after": 18,
+      "loss": 2
+    },
+    {
+      "health": 21,
+      "random_value": 0,
+      "after": 14,
+      "loss": 7
+    },
+    {
+      "health": 21,
+      "random_value": 1,
+      "after": 15,
+      "loss": 6
+    },
+    {
+      "health": 21,
+      "random_value": 2,
+      "after": 16,
+      "loss": 5
+    },
+    {
+      "health": 21,
+      "random_value": 3,
+      "after": 17,
+      "loss": 4
+    },
+    {
+      "health": 21,
+      "random_value": 4,
+      "after": 18,
+      "loss": 3
+    },
+    {
+      "health": 21,
+      "random_value": 5,
+      "after": 19,
+      "loss": 2
+    },
+    {
+      "health": 22,
+      "random_value": 0,
+      "after": 15,
+      "loss": 7
+    },
+    {
+      "health": 22,
+      "random_value": 1,
+      "after": 16,
+      "loss": 6
+    },
+    {
+      "health": 22,
+      "random_value": 2,
+      "after": 17,
+      "loss": 5
+    },
+    {
+      "health": 22,
+      "random_value": 3,
+      "after": 18,
+      "loss": 4
+    },
+    {
+      "health": 22,
+      "random_value": 4,
+      "after": 19,
+      "loss": 3
+    },
+    {
+      "health": 22,
+      "random_value": 5,
+      "after": 20,
+      "loss": 2
+    },
+    {
+      "health": 23,
+      "random_value": 0,
+      "after": 16,
+      "loss": 7
+    },
+    {
+      "health": 23,
+      "random_value": 1,
+      "after": 17,
+      "loss": 6
+    },
+    {
+      "health": 23,
+      "random_value": 2,
+      "after": 18,
+      "loss": 5
+    },
+    {
+      "health": 23,
+      "random_value": 3,
+      "after": 19,
+      "loss": 4
+    },
+    {
+      "health": 23,
+      "random_value": 4,
+      "after": 20,
+      "loss": 3
+    },
+    {
+      "health": 23,
+      "random_value": 5,
+      "after": 21,
+      "loss": 2
+    },
+    {
+      "health": 24,
+      "random_value": 0,
+      "after": 17,
+      "loss": 7
+    },
+    {
+      "health": 24,
+      "random_value": 1,
+      "after": 18,
+      "loss": 6
+    },
+    {
+      "health": 24,
+      "random_value": 2,
+      "after": 19,
+      "loss": 5
+    },
+    {
+      "health": 24,
+      "random_value": 3,
+      "after": 20,
+      "loss": 4
+    },
+    {
+      "health": 24,
+      "random_value": 4,
+      "after": 21,
+      "loss": 3
+    },
+    {
+      "health": 24,
+      "random_value": 5,
+      "after": 22,
+      "loss": 2
+    },
+    {
+      "health": 25,
+      "random_value": 0,
+      "after": 18,
+      "loss": 7
+    },
+    {
+      "health": 25,
+      "random_value": 1,
+      "after": 19,
+      "loss": 6
+    },
+    {
+      "health": 25,
+      "random_value": 2,
+      "after": 20,
+      "loss": 5
+    },
+    {
+      "health": 25,
+      "random_value": 3,
+      "after": 21,
+      "loss": 4
+    },
+    {
+      "health": 25,
+      "random_value": 4,
+      "after": 22,
+      "loss": 3
+    },
+    {
+      "health": 25,
+      "random_value": 5,
+      "after": 23,
+      "loss": 2
+    },
+    {
+      "health": 26,
+      "random_value": 0,
+      "after": 19,
+      "loss": 7
+    },
+    {
+      "health": 26,
+      "random_value": 1,
+      "after": 20,
+      "loss": 6
+    },
+    {
+      "health": 26,
+      "random_value": 2,
+      "after": 21,
+      "loss": 5
+    },
+    {
+      "health": 26,
+      "random_value": 3,
+      "after": 22,
+      "loss": 4
+    },
+    {
+      "health": 26,
+      "random_value": 4,
+      "after": 23,
+      "loss": 3
+    },
+    {
+      "health": 26,
+      "random_value": 5,
+      "after": 24,
+      "loss": 2
+    },
+    {
+      "health": 27,
+      "random_value": 0,
+      "after": 20,
+      "loss": 7
+    },
+    {
+      "health": 27,
+      "random_value": 1,
+      "after": 21,
+      "loss": 6
+    },
+    {
+      "health": 27,
+      "random_value": 2,
+      "after": 22,
+      "loss": 5
+    },
+    {
+      "health": 27,
+      "random_value": 3,
+      "after": 23,
+      "loss": 4
+    },
+    {
+      "health": 27,
+      "random_value": 4,
+      "after": 24,
+      "loss": 3
+    },
+    {
+      "health": 27,
+      "random_value": 5,
+      "after": 25,
+      "loss": 2
+    },
+    {
+      "health": 28,
+      "random_value": 0,
+      "after": 21,
+      "loss": 7
+    },
+    {
+      "health": 28,
+      "random_value": 1,
+      "after": 22,
+      "loss": 6
+    },
+    {
+      "health": 28,
+      "random_value": 2,
+      "after": 23,
+      "loss": 5
+    },
+    {
+      "health": 28,
+      "random_value": 3,
+      "after": 24,
+      "loss": 4
+    },
+    {
+      "health": 28,
+      "random_value": 4,
+      "after": 25,
+      "loss": 3
+    },
+    {
+      "health": 28,
+      "random_value": 5,
+      "after": 26,
+      "loss": 2
+    },
+    {
+      "health": 29,
+      "random_value": 0,
+      "after": 22,
+      "loss": 7
+    },
+    {
+      "health": 29,
+      "random_value": 1,
+      "after": 23,
+      "loss": 6
+    },
+    {
+      "health": 29,
+      "random_value": 2,
+      "after": 24,
+      "loss": 5
+    },
+    {
+      "health": 29,
+      "random_value": 3,
+      "after": 25,
+      "loss": 4
+    },
+    {
+      "health": 29,
+      "random_value": 4,
+      "after": 26,
+      "loss": 3
+    },
+    {
+      "health": 29,
+      "random_value": 5,
+      "after": 27,
+      "loss": 2
+    },
+    {
+      "health": 30,
+      "random_value": 0,
+      "after": 23,
+      "loss": 7
+    },
+    {
+      "health": 30,
+      "random_value": 1,
+      "after": 24,
+      "loss": 6
+    },
+    {
+      "health": 30,
+      "random_value": 2,
+      "after": 25,
+      "loss": 5
+    },
+    {
+      "health": 30,
+      "random_value": 3,
+      "after": 26,
+      "loss": 4
+    },
+    {
+      "health": 30,
+      "random_value": 4,
+      "after": 27,
+      "loss": 3
+    },
+    {
+      "health": 30,
+      "random_value": 5,
+      "after": 28,
+      "loss": 2
+    },
+    {
+      "health": 31,
+      "random_value": 0,
+      "after": 24,
+      "loss": 7
+    },
+    {
+      "health": 31,
+      "random_value": 1,
+      "after": 25,
+      "loss": 6
+    },
+    {
+      "health": 31,
+      "random_value": 2,
+      "after": 26,
+      "loss": 5
+    },
+    {
+      "health": 31,
+      "random_value": 3,
+      "after": 27,
+      "loss": 4
+    },
+    {
+      "health": 31,
+      "random_value": 4,
+      "after": 28,
+      "loss": 3
+    },
+    {
+      "health": 31,
+      "random_value": 5,
+      "after": 29,
+      "loss": 2
+    },
+    {
+      "health": 32,
+      "random_value": 0,
+      "after": 25,
+      "loss": 7
+    },
+    {
+      "health": 32,
+      "random_value": 1,
+      "after": 26,
+      "loss": 6
+    },
+    {
+      "health": 32,
+      "random_value": 2,
+      "after": 27,
+      "loss": 5
+    },
+    {
+      "health": 32,
+      "random_value": 3,
+      "after": 28,
+      "loss": 4
+    },
+    {
+      "health": 32,
+      "random_value": 4,
+      "after": 29,
+      "loss": 3
+    },
+    {
+      "health": 32,
+      "random_value": 5,
+      "after": 30,
+      "loss": 2
+    },
+    {
+      "health": 33,
+      "random_value": 0,
+      "after": 26,
+      "loss": 7
+    },
+    {
+      "health": 33,
+      "random_value": 1,
+      "after": 27,
+      "loss": 6
+    },
+    {
+      "health": 33,
+      "random_value": 2,
+      "after": 28,
+      "loss": 5
+    },
+    {
+      "health": 33,
+      "random_value": 3,
+      "after": 29,
+      "loss": 4
+    },
+    {
+      "health": 33,
+      "random_value": 4,
+      "after": 30,
+      "loss": 3
+    },
+    {
+      "health": 33,
+      "random_value": 5,
+      "after": 31,
+      "loss": 2
+    },
+    {
+      "health": 34,
+      "random_value": 0,
+      "after": 27,
+      "loss": 7
+    },
+    {
+      "health": 34,
+      "random_value": 1,
+      "after": 28,
+      "loss": 6
+    },
+    {
+      "health": 34,
+      "random_value": 2,
+      "after": 29,
+      "loss": 5
+    },
+    {
+      "health": 34,
+      "random_value": 3,
+      "after": 30,
+      "loss": 4
+    },
+    {
+      "health": 34,
+      "random_value": 4,
+      "after": 31,
+      "loss": 3
+    },
+    {
+      "health": 34,
+      "random_value": 5,
+      "after": 32,
+      "loss": 2
+    },
+    {
+      "health": 35,
+      "random_value": 0,
+      "after": 28,
+      "loss": 7
+    },
+    {
+      "health": 35,
+      "random_value": 1,
+      "after": 29,
+      "loss": 6
+    },
+    {
+      "health": 35,
+      "random_value": 2,
+      "after": 30,
+      "loss": 5
+    },
+    {
+      "health": 35,
+      "random_value": 3,
+      "after": 31,
+      "loss": 4
+    },
+    {
+      "health": 35,
+      "random_value": 4,
+      "after": 32,
+      "loss": 3
+    },
+    {
+      "health": 35,
+      "random_value": 5,
+      "after": 33,
+      "loss": 2
+    },
+    {
+      "health": 36,
+      "random_value": 0,
+      "after": 29,
+      "loss": 7
+    },
+    {
+      "health": 36,
+      "random_value": 1,
+      "after": 30,
+      "loss": 6
+    },
+    {
+      "health": 36,
+      "random_value": 2,
+      "after": 31,
+      "loss": 5
+    },
+    {
+      "health": 36,
+      "random_value": 3,
+      "after": 32,
+      "loss": 4
+    },
+    {
+      "health": 36,
+      "random_value": 4,
+      "after": 33,
+      "loss": 3
+    },
+    {
+      "health": 36,
+      "random_value": 5,
+      "after": 34,
+      "loss": 2
+    },
+    {
+      "health": 37,
+      "random_value": 0,
+      "after": 30,
+      "loss": 7
+    },
+    {
+      "health": 37,
+      "random_value": 1,
+      "after": 31,
+      "loss": 6
+    },
+    {
+      "health": 37,
+      "random_value": 2,
+      "after": 32,
+      "loss": 5
+    },
+    {
+      "health": 37,
+      "random_value": 3,
+      "after": 33,
+      "loss": 4
+    },
+    {
+      "health": 37,
+      "random_value": 4,
+      "after": 34,
+      "loss": 3
+    },
+    {
+      "health": 37,
+      "random_value": 5,
+      "after": 35,
+      "loss": 2
+    },
+    {
+      "health": 38,
+      "random_value": 0,
+      "after": 31,
+      "loss": 7
+    },
+    {
+      "health": 38,
+      "random_value": 1,
+      "after": 32,
+      "loss": 6
+    },
+    {
+      "health": 38,
+      "random_value": 2,
+      "after": 33,
+      "loss": 5
+    },
+    {
+      "health": 38,
+      "random_value": 3,
+      "after": 34,
+      "loss": 4
+    },
+    {
+      "health": 38,
+      "random_value": 4,
+      "after": 35,
+      "loss": 3
+    },
+    {
+      "health": 38,
+      "random_value": 5,
+      "after": 36,
+      "loss": 2
+    },
+    {
+      "health": 39,
+      "random_value": 0,
+      "after": 32,
+      "loss": 7
+    },
+    {
+      "health": 39,
+      "random_value": 1,
+      "after": 33,
+      "loss": 6
+    },
+    {
+      "health": 39,
+      "random_value": 2,
+      "after": 34,
+      "loss": 5
+    },
+    {
+      "health": 39,
+      "random_value": 3,
+      "after": 35,
+      "loss": 4
+    },
+    {
+      "health": 39,
+      "random_value": 4,
+      "after": 36,
+      "loss": 3
+    },
+    {
+      "health": 39,
+      "random_value": 5,
+      "after": 37,
+      "loss": 2
+    },
+    {
+      "health": 40,
+      "random_value": 0,
+      "after": 33,
+      "loss": 7
+    },
+    {
+      "health": 40,
+      "random_value": 1,
+      "after": 34,
+      "loss": 6
+    },
+    {
+      "health": 40,
+      "random_value": 2,
+      "after": 35,
+      "loss": 5
+    },
+    {
+      "health": 40,
+      "random_value": 3,
+      "after": 36,
+      "loss": 4
+    },
+    {
+      "health": 40,
+      "random_value": 4,
+      "after": 37,
+      "loss": 3
+    },
+    {
+      "health": 40,
+      "random_value": 5,
+      "after": 38,
+      "loss": 2
+    },
+    {
+      "health": 41,
+      "random_value": 0,
+      "after": 34,
+      "loss": 7
+    },
+    {
+      "health": 41,
+      "random_value": 1,
+      "after": 35,
+      "loss": 6
+    },
+    {
+      "health": 41,
+      "random_value": 2,
+      "after": 36,
+      "loss": 5
+    },
+    {
+      "health": 41,
+      "random_value": 3,
+      "after": 37,
+      "loss": 4
+    },
+    {
+      "health": 41,
+      "random_value": 4,
+      "after": 38,
+      "loss": 3
+    },
+    {
+      "health": 41,
+      "random_value": 5,
+      "after": 39,
+      "loss": 2
+    },
+    {
+      "health": 42,
+      "random_value": 0,
+      "after": 35,
+      "loss": 7
+    },
+    {
+      "health": 42,
+      "random_value": 1,
+      "after": 36,
+      "loss": 6
+    },
+    {
+      "health": 42,
+      "random_value": 2,
+      "after": 37,
+      "loss": 5
+    },
+    {
+      "health": 42,
+      "random_value": 3,
+      "after": 38,
+      "loss": 4
+    },
+    {
+      "health": 42,
+      "random_value": 4,
+      "after": 39,
+      "loss": 3
+    },
+    {
+      "health": 42,
+      "random_value": 5,
+      "after": 40,
+      "loss": 2
+    },
+    {
+      "health": 43,
+      "random_value": 0,
+      "after": 36,
+      "loss": 7
+    },
+    {
+      "health": 43,
+      "random_value": 1,
+      "after": 37,
+      "loss": 6
+    },
+    {
+      "health": 43,
+      "random_value": 2,
+      "after": 38,
+      "loss": 5
+    },
+    {
+      "health": 43,
+      "random_value": 3,
+      "after": 39,
+      "loss": 4
+    },
+    {
+      "health": 43,
+      "random_value": 4,
+      "after": 40,
+      "loss": 3
+    },
+    {
+      "health": 43,
+      "random_value": 5,
+      "after": 41,
+      "loss": 2
+    },
+    {
+      "health": 44,
+      "random_value": 0,
+      "after": 37,
+      "loss": 7
+    },
+    {
+      "health": 44,
+      "random_value": 1,
+      "after": 38,
+      "loss": 6
+    },
+    {
+      "health": 44,
+      "random_value": 2,
+      "after": 39,
+      "loss": 5
+    },
+    {
+      "health": 44,
+      "random_value": 3,
+      "after": 40,
+      "loss": 4
+    },
+    {
+      "health": 44,
+      "random_value": 4,
+      "after": 41,
+      "loss": 3
+    },
+    {
+      "health": 44,
+      "random_value": 5,
+      "after": 42,
+      "loss": 2
+    }
+  ],
+  "limits": [
+    "Harvest and conversion level requirements are different.",
+    "Pixon renderers use particles, not solid mob geometry.",
+    "Released spawn entries are declarations; actual placement, configuration and compatibility still require runtime tests.",
+    "Cooldown and break-mid-batch behavior are code-derived runtime test targets."
+  ]
+}

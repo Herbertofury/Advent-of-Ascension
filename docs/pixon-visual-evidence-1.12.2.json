@@ -1,0 +1,3808 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "registration_class": "net/tslat/aoa3/client/render/entities/EntityRenders.class",
+  "registration_sha256": "364c38ade2b97cb490e85f0834657f636c52b4941811829bb5a2a462ee2d1941",
+  "pixons": [
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityAmbientPixon",
+      "rgb_integer": 16777215,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "registration_instructions": [
+        {
+          "offset": 50,
+          "opcode": 18,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityAmbientPixon"
+        },
+        {
+          "offset": 52,
+          "opcode": 186,
+          "operands": [
+            0,
+            96,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$5",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a13181fb710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 16777215
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityBloomingPixon",
+      "rgb_integer": 12665047,
+      "rgb": [
+        193,
+        64,
+        215
+      ],
+      "registration_instructions": [
+        {
+          "offset": 444,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityBloomingPixon"
+        },
+        {
+          "offset": 447,
+          "opcode": 186,
+          "operands": [
+            1,
+            108,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 452,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$42",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a13177ab710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 12665047
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGlaringPixon",
+      "rgb_integer": 9593401,
+      "rgb": [
+        146,
+        98,
+        57
+      ],
+      "registration_instructions": [
+        {
+          "offset": 2094,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGlaringPixon"
+        },
+        {
+          "offset": 2097,
+          "opcode": 186,
+          "operands": [
+            5,
+            134,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 2102,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$190",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a1314b7b710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 9593401
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGleamingPixon",
+      "rgb_integer": 65535,
+      "rgb": [
+        0,
+        255,
+        255
+      ],
+      "registration_instructions": [
+        {
+          "offset": 2105,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGleamingPixon"
+        },
+        {
+          "offset": 2108,
+          "opcode": 186,
+          "operands": [
+            5,
+            141,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 2113,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$191",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a1314b6b710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 65535
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon",
+      "rgb_integer": 65280,
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "registration_instructions": [
+        {
+          "offset": 2116,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGlisteningPixon"
+        },
+        {
+          "offset": 2119,
+          "opcode": 186,
+          "operands": [
+            5,
+            148,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 2124,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$192",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a1314b5b710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 65280
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityGlowingPixon",
+      "rgb_integer": 16711680,
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "registration_instructions": [
+        {
+          "offset": 2127,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityGlowingPixon"
+        },
+        {
+          "offset": 2130,
+          "opcode": 186,
+          "operands": [
+            5,
+            155,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 2135,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$193",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a1314b4b710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 16711680
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityRadiantPixon",
+      "rgb_integer": 0,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "registration_instructions": [
+        {
+          "offset": 3843,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityRadiantPixon"
+        },
+        {
+          "offset": 3846,
+          "opcode": 186,
+          "operands": [
+            9,
+            223,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 3851,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$347",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a03b710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 6,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 176
+          }
+        ]
+      }
+    },
+    {
+      "entity_class": "net/tslat/aoa3/entity/misc/pixon/EntityShiningPixon",
+      "rgb_integer": 14653696,
+      "rgb": [
+        223,
+        153,
+        0
+      ],
+      "registration_instructions": [
+        {
+          "offset": 4448,
+          "opcode": 19,
+          "constant": "net/tslat/aoa3/entity/misc/pixon/EntityShiningPixon"
+        },
+        {
+          "offset": 4451,
+          "opcode": 186,
+          "operands": [
+            11,
+            96,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 4456,
+          "opcode": 184,
+          "member": [
+            "net/minecraftforge/fml/client/registry/RenderingRegistry",
+            "registerEntityRenderingHandler",
+            "(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V"
+          ]
+        }
+      ],
+      "factory": {
+        "name": "lambda$registerEntityRenders$402",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;",
+        "code_hex": "bb10f8592a1310f9b710fcb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              16,
+              248
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 19,
+            "constant": 14653696
+          },
+          {
+            "offset": 8,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 176
+          }
+        ]
+      }
+    }
+  ],
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/client/render/entities/AoAPixonRenderer.class",
+      "class_sha256": "a69a174541428838c31c57f94d454b7c45b700705e18fc632c3e3eacc47612ec",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/client/renderer/entity/RenderManager;I)V",
+      "code_hex": "2a2bbb000c59b7000f0bb700122a1cb50014b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 187,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 89
+        },
+        {
+          "offset": 6,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/model/entities/misc/ModelNothing",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 11
+        },
+        {
+          "offset": 10,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/renderer/entity/RenderLiving",
+            "<init>",
+            "(Lnet/minecraft/client/renderer/entity/RenderManager;Lnet/minecraft/client/model/ModelBase;F)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 28
+        },
+        {
+          "offset": 15,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+            "colour",
+            "I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/render/entities/AoAPixonRenderer.class",
+      "class_sha256": "a69a174541428838c31c57f94d454b7c45b700705e18fc632c3e3eacc47612ec",
+      "name": "doRender",
+      "descriptor": "(Lnet/tslat/aoa3/entity/misc/pixon/EntityPixon;DDDFF)V",
+      "code_hex": "2bb40021b20027042bb4002b2bb4002e14002f632bb400330e0e0e07bc0a59032ab400144f59041100964f5905064f5906084fb60039b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ParticleRegister",
+            "FLICKERING_FLUFFY",
+            "Lnet/minecraft/util/EnumParticleTypes;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 8,
+          "opcode": 43
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 20,
+          "constant": 0.65
+        },
+        {
+          "offset": 19,
+          "opcode": 99
+        },
+        {
+          "offset": 20,
+          "opcode": 43
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/misc/pixon/EntityPixon",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 14
+        },
+        {
+          "offset": 25,
+          "opcode": 14
+        },
+        {
+          "offset": 26,
+          "opcode": 14
+        },
+        {
+          "offset": 27,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 28,
+          "opcode": 188,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/render/entities/AoAPixonRenderer",
+            "colour",
+            "I"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 79
+        },
+        {
+          "offset": 37,
+          "opcode": 89
+        },
+        {
+          "offset": 38,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 39,
+          "opcode": 17,
+          "constant": 150
+        },
+        {
+          "offset": 42,
+          "opcode": 79
+        },
+        {
+          "offset": 43,
+          "opcode": 89
+        },
+        {
+          "offset": 44,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 45,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 46,
+          "opcode": 79
+        },
+        {
+          "offset": 47,
+          "opcode": 89
+        },
+        {
+          "offset": 48,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 49,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 50,
+          "opcode": 79
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175682_a",
+            "(Lnet/minecraft/util/EnumParticleTypes;ZDDDDDD[I)V"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle.class",
+      "class_sha256": "0b55ba0905141e62487bedce84bd58a7a425a39526818d5c135820f8d237b499",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;DDDDDDIFII)V",
+      "code_hex": "2a2b28180418061808180a180cb700132ab80019b5001d2a1808b800231400246b0f679012266a8d63b5002a2a180ab800231400246b0f679012266a8d63b5002d2a180cb800231400246b0f679012266a8d63b500302a2ab40034b6003a2ab40034b6003a6a123b6a0c62170f6ab5003f2a1510872ab40034b6003a8d1400406b140042636f8eb500462ab40034b6003a12476a12486238122a150e10107a8612496e17126ab5004c2a150e10087a1100ff7e8612496e17126ab5004f2a150e1100ff7e8612496e17126ab500522a150e10187a8612496eb500552ab400550b959a00082a0cb500552a07b5005a2a1511b5005cb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 40
+        },
+        {
+          "offset": 3,
+          "opcode": 24,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 24,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 24,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 24,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 24,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/particle/Particle",
+            "<init>",
+            "(Lnet/minecraft/world/World;DDDDDD)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ParticleRegister",
+            "getTextureAtlas",
+            "()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187119_C",
+            "Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 24,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "random",
+            "()D"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 20,
+          "constant": 2.0
+        },
+        {
+          "offset": 32,
+          "opcode": 107
+        },
+        {
+          "offset": 33,
+          "opcode": 15
+        },
+        {
+          "offset": 34,
+          "opcode": 103
+        },
+        {
+          "offset": 35,
+          "opcode": 144
+        },
+        {
+          "offset": 36,
+          "opcode": 18,
+          "constant": 0.05000000074505806
+        },
+        {
+          "offset": 38,
+          "opcode": 106
+        },
+        {
+          "offset": 39,
+          "opcode": 141
+        },
+        {
+          "offset": 40,
+          "opcode": 99
+        },
+        {
+          "offset": 41,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187129_i",
+            "D"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 42
+        },
+        {
+          "offset": 45,
+          "opcode": 24,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "random",
+            "()D"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 20,
+          "constant": 2.0
+        },
+        {
+          "offset": 53,
+          "opcode": 107
+        },
+        {
+          "offset": 54,
+          "opcode": 15
+        },
+        {
+          "offset": 55,
+          "opcode": 103
+        },
+        {
+          "offset": 56,
+          "opcode": 144
+        },
+        {
+          "offset": 57,
+          "opcode": 18,
+          "constant": 0.05000000074505806
+        },
+        {
+          "offset": 59,
+          "opcode": 106
+        },
+        {
+          "offset": 60,
+          "opcode": 141
+        },
+        {
+          "offset": 61,
+          "opcode": 99
+        },
+        {
+          "offset": 62,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187130_j",
+            "D"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 42
+        },
+        {
+          "offset": 66,
+          "opcode": 24,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "random",
+            "()D"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 20,
+          "constant": 2.0
+        },
+        {
+          "offset": 74,
+          "opcode": 107
+        },
+        {
+          "offset": 75,
+          "opcode": 15
+        },
+        {
+          "offset": 76,
+          "opcode": 103
+        },
+        {
+          "offset": 77,
+          "opcode": 144
+        },
+        {
+          "offset": 78,
+          "opcode": 18,
+          "constant": 0.05000000074505806
+        },
+        {
+          "offset": 80,
+          "opcode": 106
+        },
+        {
+          "offset": 81,
+          "opcode": 141
+        },
+        {
+          "offset": 82,
+          "opcode": 99
+        },
+        {
+          "offset": 83,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187131_k",
+            "D"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 42
+        },
+        {
+          "offset": 87,
+          "opcode": 42
+        },
+        {
+          "offset": 88,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187136_p",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 42
+        },
+        {
+          "offset": 95,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187136_p",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 106
+        },
+        {
+          "offset": 102,
+          "opcode": 18,
+          "constant": 6.0
+        },
+        {
+          "offset": 104,
+          "opcode": 106
+        },
+        {
+          "offset": 105,
+          "opcode": 12
+        },
+        {
+          "offset": 106,
+          "opcode": 98
+        },
+        {
+          "offset": 107,
+          "opcode": 23,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 106
+        },
+        {
+          "offset": 110,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70544_f",
+            "F"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 42
+        },
+        {
+          "offset": 114,
+          "opcode": 21,
+          "operands": [
+            16
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 135
+        },
+        {
+          "offset": 117,
+          "opcode": 42
+        },
+        {
+          "offset": 118,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187136_p",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 141
+        },
+        {
+          "offset": 125,
+          "opcode": 20,
+          "constant": 0.8
+        },
+        {
+          "offset": 128,
+          "opcode": 107
+        },
+        {
+          "offset": 129,
+          "opcode": 20,
+          "constant": 0.2
+        },
+        {
+          "offset": 132,
+          "opcode": 99
+        },
+        {
+          "offset": 133,
+          "opcode": 111
+        },
+        {
+          "offset": 134,
+          "opcode": 142
+        },
+        {
+          "offset": 135,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70547_e",
+            "I"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 42
+        },
+        {
+          "offset": 139,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187136_p",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 18,
+          "constant": 0.699999988079071
+        },
+        {
+          "offset": 147,
+          "opcode": 106
+        },
+        {
+          "offset": 148,
+          "opcode": 18,
+          "constant": 0.30000001192092896
+        },
+        {
+          "offset": 150,
+          "opcode": 98
+        },
+        {
+          "offset": 151,
+          "opcode": 56,
+          "operands": [
+            18
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 42
+        },
+        {
+          "offset": 154,
+          "opcode": 21,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 158,
+          "opcode": 122
+        },
+        {
+          "offset": 159,
+          "opcode": 134
+        },
+        {
+          "offset": 160,
+          "opcode": 18,
+          "constant": 255.0
+        },
+        {
+          "offset": 162,
+          "opcode": 110
+        },
+        {
+          "offset": 163,
+          "opcode": 23,
+          "operands": [
+            18
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 106
+        },
+        {
+          "offset": 166,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70552_h",
+            "F"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 42
+        },
+        {
+          "offset": 170,
+          "opcode": 21,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 174,
+          "opcode": 122
+        },
+        {
+          "offset": 175,
+          "opcode": 17,
+          "constant": 255
+        },
+        {
+          "offset": 178,
+          "opcode": 126
+        },
+        {
+          "offset": 179,
+          "opcode": 134
+        },
+        {
+          "offset": 180,
+          "opcode": 18,
+          "constant": 255.0
+        },
+        {
+          "offset": 182,
+          "opcode": 110
+        },
+        {
+          "offset": 183,
+          "opcode": 23,
+          "operands": [
+            18
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 106
+        },
+        {
+          "offset": 186,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70553_i",
+            "F"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 42
+        },
+        {
+          "offset": 190,
+          "opcode": 21,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 17,
+          "constant": 255
+        },
+        {
+          "offset": 195,
+          "opcode": 126
+        },
+        {
+          "offset": 196,
+          "opcode": 134
+        },
+        {
+          "offset": 197,
+          "opcode": 18,
+          "constant": 255.0
+        },
+        {
+          "offset": 199,
+          "opcode": 110
+        },
+        {
+          "offset": 200,
+          "opcode": 23,
+          "operands": [
+            18
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 106
+        },
+        {
+          "offset": 203,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70551_j",
+            "F"
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 42
+        },
+        {
+          "offset": 207,
+          "opcode": 21,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 16,
+          "constant": 24
+        },
+        {
+          "offset": 211,
+          "opcode": 122
+        },
+        {
+          "offset": 212,
+          "opcode": 134
+        },
+        {
+          "offset": 213,
+          "opcode": 18,
+          "constant": 255.0
+        },
+        {
+          "offset": 215,
+          "opcode": 110
+        },
+        {
+          "offset": 216,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 42
+        },
+        {
+          "offset": 220,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 11
+        },
+        {
+          "offset": 224,
+          "opcode": 149
+        },
+        {
+          "offset": 225,
+          "opcode": 154,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 42
+        },
+        {
+          "offset": 229,
+          "opcode": 12
+        },
+        {
+          "offset": 230,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 233,
+          "opcode": 42
+        },
+        {
+          "offset": 234,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 235,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_94055_c",
+            "I"
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 42
+        },
+        {
+          "offset": 239,
+          "opcode": 21,
+          "operands": [
+            17
+          ]
+        },
+        {
+          "offset": 241,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "textureIndexOffset",
+            "I"
+          ]
+        },
+        {
+          "offset": 244,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle.class",
+      "class_sha256": "0b55ba0905141e62487bedce84bd58a7a425a39526818d5c135820f8d237b499",
+      "name": "func_189213_a",
+      "descriptor": "()V",
+      "code_hex": "2a2ab40071b500742a2ab40077b5007a2a2ab4007db500802a59b400835a0460b500832ab40046a100072ab600862a10072ab40083862ab40046866e2ab4005c866a8b10087064b500892a2ab4002a2ab4002d2ab40030b6008d2a59b4002a14008e6bb5002a2a59b4002d14008e6bb5002d2a59b4003014008e6bb500302ab4009399001b2a59b4002a1400946bb5002a2a59b400301400946bb50030b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 42
+        },
+        {
+          "offset": 2,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187126_f",
+            "D"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187123_c",
+            "D"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187127_g",
+            "D"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187124_d",
+            "D"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187128_h",
+            "D"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187125_e",
+            "D"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 42
+        },
+        {
+          "offset": 25,
+          "opcode": 89
+        },
+        {
+          "offset": 26,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70546_d",
+            "I"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 90
+        },
+        {
+          "offset": 30,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 31,
+          "opcode": 96
+        },
+        {
+          "offset": 32,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70546_d",
+            "I"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70547_e",
+            "I"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 161,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 42
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "func_187112_i",
+            "()V"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 42
+        },
+        {
+          "offset": 47,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 49,
+          "opcode": 42
+        },
+        {
+          "offset": 50,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70546_d",
+            "I"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 134
+        },
+        {
+          "offset": 54,
+          "opcode": 42
+        },
+        {
+          "offset": 55,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70547_e",
+            "I"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 134
+        },
+        {
+          "offset": 59,
+          "opcode": 110
+        },
+        {
+          "offset": 60,
+          "opcode": 42
+        },
+        {
+          "offset": 61,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "textureIndexOffset",
+            "I"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 134
+        },
+        {
+          "offset": 65,
+          "opcode": 106
+        },
+        {
+          "offset": 66,
+          "opcode": 139
+        },
+        {
+          "offset": 67,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 69,
+          "opcode": 112
+        },
+        {
+          "offset": 70,
+          "opcode": 100
+        },
+        {
+          "offset": 71,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_94054_b",
+            "I"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 42
+        },
+        {
+          "offset": 75,
+          "opcode": 42
+        },
+        {
+          "offset": 76,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187129_i",
+            "D"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 42
+        },
+        {
+          "offset": 80,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187130_j",
+            "D"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 42
+        },
+        {
+          "offset": 84,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187131_k",
+            "D"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "func_187110_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 42
+        },
+        {
+          "offset": 91,
+          "opcode": 89
+        },
+        {
+          "offset": 92,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187129_i",
+            "D"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 20,
+          "constant": 0.8999999761581421
+        },
+        {
+          "offset": 98,
+          "opcode": 107
+        },
+        {
+          "offset": 99,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187129_i",
+            "D"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 42
+        },
+        {
+          "offset": 103,
+          "opcode": 89
+        },
+        {
+          "offset": 104,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187130_j",
+            "D"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 20,
+          "constant": 0.8999999761581421
+        },
+        {
+          "offset": 110,
+          "opcode": 107
+        },
+        {
+          "offset": 111,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187130_j",
+            "D"
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 42
+        },
+        {
+          "offset": 115,
+          "opcode": 89
+        },
+        {
+          "offset": 116,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187131_k",
+            "D"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 20,
+          "constant": 0.8999999761581421
+        },
+        {
+          "offset": 122,
+          "opcode": 107
+        },
+        {
+          "offset": 123,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187131_k",
+            "D"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 42
+        },
+        {
+          "offset": 127,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187132_l",
+            "Z"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 153,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 42
+        },
+        {
+          "offset": 134,
+          "opcode": 89
+        },
+        {
+          "offset": 135,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187129_i",
+            "D"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 20,
+          "constant": 0.699999988079071
+        },
+        {
+          "offset": 141,
+          "opcode": 107
+        },
+        {
+          "offset": 142,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187129_i",
+            "D"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 42
+        },
+        {
+          "offset": 146,
+          "opcode": 89
+        },
+        {
+          "offset": 147,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187131_k",
+            "D"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 20,
+          "constant": 0.699999988079071
+        },
+        {
+          "offset": 153,
+          "opcode": 107
+        },
+        {
+          "offset": 154,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187131_k",
+            "D"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle.class",
+      "class_sha256": "0b55ba0905141e62487bedce84bd58a7a425a39526818d5c135820f8d237b499",
+      "name": "func_180434_a",
+      "descriptor": "(Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/entity/Entity;FFFFFF)V",
+      "code_hex": "b8009a14009b6b39092ab4001db600a18d2ab400898718096b63390b180b180963390d2ab4001db600a48d2ab4005a8718096b63390f180f18096339112ab400742ab400712ab4007467258d6b63b200a76739132ab4007a2ab400772ab4007a67258d6b63b200aa6739152ab400802ab4007d2ab4008067258d6b63b200ad67391712ae2ab4003f6a8d391917078d18196b391b17058d18196b391d17088d18196b391f17048d18196b392117068d18196b39232a25b600b23625152510107a12b37e3626152512b37e36272b1813182167181b671815181d671817182367181f67b600b9180d1811b600bd2ab4004c2ab4004f2ab400522ab40055b600c115261527b600c5b600c82b1813182167181b631815181d631817182367181f63b600b9180d180fb600bd2ab4004c2ab4004f2ab400522ab40055b600c115261527b600c5b600c82b1813182163181b631815181d631817182363181f63b600b9180b180fb600bd2ab4004c2ab4004f2ab400522ab40055b600c115261527b600c5b600c82b1813182163181b671815181d671817182363181f67b600b9180b1811b600bd2ab4004c2ab4004f2ab400522ab40055b600c115261527b600c5b600c8b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/ParticleRegister",
+            "getParticleTextureRatio",
+            "()D"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 20,
+          "constant": 8.0
+        },
+        {
+          "offset": 6,
+          "opcode": 107
+        },
+        {
+          "offset": 7,
+          "opcode": 57,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 42
+        },
+        {
+          "offset": 10,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187119_C",
+            "Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/texture/TextureAtlasSprite",
+            "func_94209_e",
+            "()F"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 141
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_94054_b",
+            "I"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 135
+        },
+        {
+          "offset": 22,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 107
+        },
+        {
+          "offset": 25,
+          "opcode": 99
+        },
+        {
+          "offset": 26,
+          "opcode": 57,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 24,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 99
+        },
+        {
+          "offset": 33,
+          "opcode": 57,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187119_C",
+            "Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/texture/TextureAtlasSprite",
+            "func_94206_g",
+            "()F"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 141
+        },
+        {
+          "offset": 43,
+          "opcode": 42
+        },
+        {
+          "offset": 44,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_94055_c",
+            "I"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 135
+        },
+        {
+          "offset": 48,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 107
+        },
+        {
+          "offset": 51,
+          "opcode": 99
+        },
+        {
+          "offset": 52,
+          "opcode": 57,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 24,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 24,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 99
+        },
+        {
+          "offset": 59,
+          "opcode": 57,
+          "operands": [
+            17
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 42
+        },
+        {
+          "offset": 62,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187123_c",
+            "D"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 42
+        },
+        {
+          "offset": 66,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187126_f",
+            "D"
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 42
+        },
+        {
+          "offset": 70,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187123_c",
+            "D"
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 103
+        },
+        {
+          "offset": 74,
+          "opcode": 37
+        },
+        {
+          "offset": 75,
+          "opcode": 141
+        },
+        {
+          "offset": 76,
+          "opcode": 107
+        },
+        {
+          "offset": 77,
+          "opcode": 99
+        },
+        {
+          "offset": 78,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70556_an",
+            "D"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 103
+        },
+        {
+          "offset": 82,
+          "opcode": 57,
+          "operands": [
+            19
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 42
+        },
+        {
+          "offset": 85,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187124_d",
+            "D"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 42
+        },
+        {
+          "offset": 89,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187127_g",
+            "D"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 42
+        },
+        {
+          "offset": 93,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187124_d",
+            "D"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 103
+        },
+        {
+          "offset": 97,
+          "opcode": 37
+        },
+        {
+          "offset": 98,
+          "opcode": 141
+        },
+        {
+          "offset": 99,
+          "opcode": 107
+        },
+        {
+          "offset": 100,
+          "opcode": 99
+        },
+        {
+          "offset": 101,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70554_ao",
+            "D"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 103
+        },
+        {
+          "offset": 105,
+          "opcode": 57,
+          "operands": [
+            21
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 42
+        },
+        {
+          "offset": 108,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187125_e",
+            "D"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 42
+        },
+        {
+          "offset": 112,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187128_h",
+            "D"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 42
+        },
+        {
+          "offset": 116,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_187125_e",
+            "D"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 103
+        },
+        {
+          "offset": 120,
+          "opcode": 37
+        },
+        {
+          "offset": 121,
+          "opcode": 141
+        },
+        {
+          "offset": 122,
+          "opcode": 107
+        },
+        {
+          "offset": 123,
+          "opcode": 99
+        },
+        {
+          "offset": 124,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70555_ap",
+            "D"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 103
+        },
+        {
+          "offset": 128,
+          "opcode": 57,
+          "operands": [
+            23
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 18,
+          "constant": 0.10000000149011612
+        },
+        {
+          "offset": 132,
+          "opcode": 42
+        },
+        {
+          "offset": 133,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70544_f",
+            "F"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 106
+        },
+        {
+          "offset": 137,
+          "opcode": 141
+        },
+        {
+          "offset": 138,
+          "opcode": 57,
+          "operands": [
+            25
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 142,
+          "opcode": 141
+        },
+        {
+          "offset": 143,
+          "opcode": 24,
+          "operands": [
+            25
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 107
+        },
+        {
+          "offset": 146,
+          "opcode": 57,
+          "operands": [
+            27
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 23,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 141
+        },
+        {
+          "offset": 151,
+          "opcode": 24,
+          "operands": [
+            25
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 107
+        },
+        {
+          "offset": 154,
+          "opcode": 57,
+          "operands": [
+            29
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 23,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 141
+        },
+        {
+          "offset": 159,
+          "opcode": 24,
+          "operands": [
+            25
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 107
+        },
+        {
+          "offset": 162,
+          "opcode": 57,
+          "operands": [
+            31
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 141
+        },
+        {
+          "offset": 167,
+          "opcode": 24,
+          "operands": [
+            25
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 107
+        },
+        {
+          "offset": 170,
+          "opcode": 57,
+          "operands": [
+            33
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 23,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 174,
+          "opcode": 141
+        },
+        {
+          "offset": 175,
+          "opcode": 24,
+          "operands": [
+            25
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 107
+        },
+        {
+          "offset": 178,
+          "opcode": 57,
+          "operands": [
+            35
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 42
+        },
+        {
+          "offset": 181,
+          "opcode": 37
+        },
+        {
+          "offset": 182,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "func_189214_a",
+            "(F)I"
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 54,
+          "operands": [
+            37
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 21,
+          "operands": [
+            37
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 191,
+          "opcode": 122
+        },
+        {
+          "offset": 192,
+          "opcode": 18,
+          "constant": 65535
+        },
+        {
+          "offset": 194,
+          "opcode": 126
+        },
+        {
+          "offset": 195,
+          "opcode": 54,
+          "operands": [
+            38
+          ]
+        },
+        {
+          "offset": 197,
+          "opcode": 21,
+          "operands": [
+            37
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 18,
+          "constant": 65535
+        },
+        {
+          "offset": 201,
+          "opcode": 126
+        },
+        {
+          "offset": 202,
+          "opcode": 54,
+          "operands": [
+            39
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 43
+        },
+        {
+          "offset": 205,
+          "opcode": 24,
+          "operands": [
+            19
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 24,
+          "operands": [
+            33
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 103
+        },
+        {
+          "offset": 210,
+          "opcode": 24,
+          "operands": [
+            27
+          ]
+        },
+        {
+          "offset": 212,
+          "opcode": 103
+        },
+        {
+          "offset": 213,
+          "opcode": 24,
+          "operands": [
+            21
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 24,
+          "operands": [
+            29
+          ]
+        },
+        {
+          "offset": 217,
+          "opcode": 103
+        },
+        {
+          "offset": 218,
+          "opcode": 24,
+          "operands": [
+            23
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 24,
+          "operands": [
+            35
+          ]
+        },
+        {
+          "offset": 222,
+          "opcode": 103
+        },
+        {
+          "offset": 223,
+          "opcode": 24,
+          "operands": [
+            31
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 103
+        },
+        {
+          "offset": 226,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181662_b",
+            "(DDD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 24,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 24,
+          "operands": [
+            17
+          ]
+        },
+        {
+          "offset": 233,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187315_a",
+            "(DD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 236,
+          "opcode": 42
+        },
+        {
+          "offset": 237,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70552_h",
+            "F"
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 42
+        },
+        {
+          "offset": 241,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70553_i",
+            "F"
+          ]
+        },
+        {
+          "offset": 244,
+          "opcode": 42
+        },
+        {
+          "offset": 245,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70551_j",
+            "F"
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 42
+        },
+        {
+          "offset": 249,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181666_a",
+            "(FFFF)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 21,
+          "operands": [
+            38
+          ]
+        },
+        {
+          "offset": 257,
+          "opcode": 21,
+          "operands": [
+            39
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187314_a",
+            "(II)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181675_d",
+            "()V"
+          ]
+        },
+        {
+          "offset": 265,
+          "opcode": 43
+        },
+        {
+          "offset": 266,
+          "opcode": 24,
+          "operands": [
+            19
+          ]
+        },
+        {
+          "offset": 268,
+          "opcode": 24,
+          "operands": [
+            33
+          ]
+        },
+        {
+          "offset": 270,
+          "opcode": 103
+        },
+        {
+          "offset": 271,
+          "opcode": 24,
+          "operands": [
+            27
+          ]
+        },
+        {
+          "offset": 273,
+          "opcode": 99
+        },
+        {
+          "offset": 274,
+          "opcode": 24,
+          "operands": [
+            21
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 24,
+          "operands": [
+            29
+          ]
+        },
+        {
+          "offset": 278,
+          "opcode": 99
+        },
+        {
+          "offset": 279,
+          "opcode": 24,
+          "operands": [
+            23
+          ]
+        },
+        {
+          "offset": 281,
+          "opcode": 24,
+          "operands": [
+            35
+          ]
+        },
+        {
+          "offset": 283,
+          "opcode": 103
+        },
+        {
+          "offset": 284,
+          "opcode": 24,
+          "operands": [
+            31
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 99
+        },
+        {
+          "offset": 287,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181662_b",
+            "(DDD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 290,
+          "opcode": 24,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 292,
+          "opcode": 24,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 294,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187315_a",
+            "(DD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 297,
+          "opcode": 42
+        },
+        {
+          "offset": 298,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70552_h",
+            "F"
+          ]
+        },
+        {
+          "offset": 301,
+          "opcode": 42
+        },
+        {
+          "offset": 302,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70553_i",
+            "F"
+          ]
+        },
+        {
+          "offset": 305,
+          "opcode": 42
+        },
+        {
+          "offset": 306,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70551_j",
+            "F"
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 42
+        },
+        {
+          "offset": 310,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 313,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181666_a",
+            "(FFFF)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 316,
+          "opcode": 21,
+          "operands": [
+            38
+          ]
+        },
+        {
+          "offset": 318,
+          "opcode": 21,
+          "operands": [
+            39
+          ]
+        },
+        {
+          "offset": 320,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187314_a",
+            "(II)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 323,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181675_d",
+            "()V"
+          ]
+        },
+        {
+          "offset": 326,
+          "opcode": 43
+        },
+        {
+          "offset": 327,
+          "opcode": 24,
+          "operands": [
+            19
+          ]
+        },
+        {
+          "offset": 329,
+          "opcode": 24,
+          "operands": [
+            33
+          ]
+        },
+        {
+          "offset": 331,
+          "opcode": 99
+        },
+        {
+          "offset": 332,
+          "opcode": 24,
+          "operands": [
+            27
+          ]
+        },
+        {
+          "offset": 334,
+          "opcode": 99
+        },
+        {
+          "offset": 335,
+          "opcode": 24,
+          "operands": [
+            21
+          ]
+        },
+        {
+          "offset": 337,
+          "opcode": 24,
+          "operands": [
+            29
+          ]
+        },
+        {
+          "offset": 339,
+          "opcode": 99
+        },
+        {
+          "offset": 340,
+          "opcode": 24,
+          "operands": [
+            23
+          ]
+        },
+        {
+          "offset": 342,
+          "opcode": 24,
+          "operands": [
+            35
+          ]
+        },
+        {
+          "offset": 344,
+          "opcode": 99
+        },
+        {
+          "offset": 345,
+          "opcode": 24,
+          "operands": [
+            31
+          ]
+        },
+        {
+          "offset": 347,
+          "opcode": 99
+        },
+        {
+          "offset": 348,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181662_b",
+            "(DDD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 351,
+          "opcode": 24,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 353,
+          "opcode": 24,
+          "operands": [
+            15
+          ]
+        },
+        {
+          "offset": 355,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187315_a",
+            "(DD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 358,
+          "opcode": 42
+        },
+        {
+          "offset": 359,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70552_h",
+            "F"
+          ]
+        },
+        {
+          "offset": 362,
+          "opcode": 42
+        },
+        {
+          "offset": 363,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70553_i",
+            "F"
+          ]
+        },
+        {
+          "offset": 366,
+          "opcode": 42
+        },
+        {
+          "offset": 367,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70551_j",
+            "F"
+          ]
+        },
+        {
+          "offset": 370,
+          "opcode": 42
+        },
+        {
+          "offset": 371,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 374,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181666_a",
+            "(FFFF)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 377,
+          "opcode": 21,
+          "operands": [
+            38
+          ]
+        },
+        {
+          "offset": 379,
+          "opcode": 21,
+          "operands": [
+            39
+          ]
+        },
+        {
+          "offset": 381,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187314_a",
+            "(II)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 384,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181675_d",
+            "()V"
+          ]
+        },
+        {
+          "offset": 387,
+          "opcode": 43
+        },
+        {
+          "offset": 388,
+          "opcode": 24,
+          "operands": [
+            19
+          ]
+        },
+        {
+          "offset": 390,
+          "opcode": 24,
+          "operands": [
+            33
+          ]
+        },
+        {
+          "offset": 392,
+          "opcode": 99
+        },
+        {
+          "offset": 393,
+          "opcode": 24,
+          "operands": [
+            27
+          ]
+        },
+        {
+          "offset": 395,
+          "opcode": 103
+        },
+        {
+          "offset": 396,
+          "opcode": 24,
+          "operands": [
+            21
+          ]
+        },
+        {
+          "offset": 398,
+          "opcode": 24,
+          "operands": [
+            29
+          ]
+        },
+        {
+          "offset": 400,
+          "opcode": 103
+        },
+        {
+          "offset": 401,
+          "opcode": 24,
+          "operands": [
+            23
+          ]
+        },
+        {
+          "offset": 403,
+          "opcode": 24,
+          "operands": [
+            35
+          ]
+        },
+        {
+          "offset": 405,
+          "opcode": 99
+        },
+        {
+          "offset": 406,
+          "opcode": 24,
+          "operands": [
+            31
+          ]
+        },
+        {
+          "offset": 408,
+          "opcode": 103
+        },
+        {
+          "offset": 409,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181662_b",
+            "(DDD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 412,
+          "opcode": 24,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 414,
+          "opcode": 24,
+          "operands": [
+            17
+          ]
+        },
+        {
+          "offset": 416,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187315_a",
+            "(DD)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 42
+        },
+        {
+          "offset": 420,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70552_h",
+            "F"
+          ]
+        },
+        {
+          "offset": 423,
+          "opcode": 42
+        },
+        {
+          "offset": 424,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70553_i",
+            "F"
+          ]
+        },
+        {
+          "offset": 427,
+          "opcode": 42
+        },
+        {
+          "offset": 428,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_70551_j",
+            "F"
+          ]
+        },
+        {
+          "offset": 431,
+          "opcode": 42
+        },
+        {
+          "offset": 432,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/client/particles/FlickeringFluffyTrailParticle",
+            "field_82339_as",
+            "F"
+          ]
+        },
+        {
+          "offset": 435,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181666_a",
+            "(FFFF)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 438,
+          "opcode": 21,
+          "operands": [
+            38
+          ]
+        },
+        {
+          "offset": 440,
+          "opcode": 21,
+          "operands": [
+            39
+          ]
+        },
+        {
+          "offset": 442,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_187314_a",
+            "(II)Lnet/minecraft/client/renderer/BufferBuilder;"
+          ]
+        },
+        {
+          "offset": 445,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/BufferBuilder",
+            "func_181675_d",
+            "()V"
+          ]
+        },
+        {
+          "offset": 448,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/ParticleRegister.class",
+      "class_sha256": "ca78879d4f7fe2b61072b3d9a0ffc7afd5ec11370de2f8688f1c1bb29ddf91ec",
+      "name": "stitchEvent",
+      "descriptor": "(Lnet/minecraftforge/client/event/TextureStitchEvent$Pre;)V",
+      "code_hex": "2bb6004cbb004e5912501252b70055b6005bb3003db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/client/event/TextureStitchEvent$Pre",
+            "getMap",
+            "()Lnet/minecraft/client/renderer/texture/TextureMap;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 187,
+          "operands": [
+            0,
+            78
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 89
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 10,
+          "opcode": 18,
+          "constant": "particles/particles"
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/util/ResourceLocation",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/renderer/texture/TextureMap",
+            "func_174942_a",
+            "(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/common/registration/ParticleRegister",
+            "PARTICLES_ATLAS",
+            "Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "texture": {
+    "path": "assets/aoa3/textures/particles/particles.png",
+    "sha256": "49cdc4a26d6c30b382e766909316a8edcf4b74ccfbc41451f0e5252e8381ce38",
+    "row": 4,
+    "cell_pixels": 8
+  },
+  "scope": "Exact released bootstrap-linked colours and source sprite row. Static reference frames only, not simulated motion, brightness, lifetime, lighting or solid geometry."
+}
