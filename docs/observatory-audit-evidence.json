@@ -1,0 +1,29 @@
+{
+  "baseline_html_sha256": "20cea81639ea07c02a45f062fb3d8e35668ca2fbee588d34639a7264f7b716a8",
+  "baseline_commit": "dd3645d72be071cd0ef31208626de7fd775fd967",
+  "baseline_race_reproduction": {
+    "test": "test_observatory_async.cjs",
+    "scenario": "An earlier model JSON read resolves after a newer selection",
+    "actual_name": "A",
+    "expected_name": "B",
+    "scope": "Deterministic original viewer test fixture, not a Minecraft runtime test"
+  },
+  "official_archive_entries": 20552,
+  "official_geometry_resources": 130,
+  "current_html_sha256": "580793c40f90d6a6fe0681e8479613a28c3449c9d25944ea030be8bf69c687ab",
+  "contracts": [
+    "Latest model, texture and archive request wins",
+    "Superseded failures cannot clear the current preview",
+    "Inflated entry accumulation stops at declared size or32MiB cap",
+    "Stored entries must match declared uncompressed length",
+    "PNG capture is gated on a ready preview",
+    "Keyboard orbit and hidden-page autorotation pause",
+    "Geometry conversion and rasterization unchanged apart from readiness gate",
+    "PNG filenames are captured at request time and newer export requests win"
+  ],
+  "limits": [
+    "Original documentation viewer tests, not mod/game execution",
+    "No GPU certification or comprehensive hostile-archive security audit",
+    "32MiB is an entry accumulation limit, not an absolute process-memory limit"
+  ]
+}
