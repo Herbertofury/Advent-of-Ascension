@@ -207,6 +207,7 @@ Minecraft 1.12.2 / AoA 3.3.6, released ItemUtil.findAndConsumeRunes: collection 
 [Staff preparation and exact caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2) · [Released method and registration evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-staff-inputs-1.12.2.json).
 
 
+
 ## Historical blaster payment and wear boundaries
 
 Minecraft 1.12.2 / AoA 3.3.6. The selected Soul Spark and Light Spark impact paths call Energy and Soul consumers before verifying that the shooter still holds the same weapon, and discard both consumer return values. Their zero ordinary registration inputs do not establish free or harmless impacts. The ordinary blaster base path also has distinct initial-use and Creative tick preflights, remaining-count modulo timing, and accumulated durability arguments on tick/stop.
@@ -217,6 +218,7 @@ Minecraft 1.12.2 / AoA 3.3.6. The selected Soul Spark and Light Spark impact pat
 - [ ] Keep first eligible countdown timing distinct from the nominal interval, particularly delays 7, 11, 13 and 14.
 
 [Blaster guide and source-backed caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2). These are static restoration targets, not a current Enderloom runtime failure claim.
+
 
 
 ## Historical throwable impact routing and type safety
@@ -231,6 +233,7 @@ Minecraft 1.12.2 / AoA 3.3.6: BaseBullet chooses weapon.doImpactDamage when a we
 [Throwable source evidence and practical guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2). These are static restoration targets, not a reproduced current-build failure.
 
 
+
 ## Historical melee display and parameter distinctions
 
 Minecraft 1.12.2 / AoA 3.3.6: sword material damage bonuses are not final attack damage, and speed operands are attribute modifiers rather than attacks per second. Lunar and Millennium Greatblade attack methods read their incoming baseDmg parameter while the tooltip references a same-named stored minimum field. Goofy Greatblade uses a Gaussian term, not a fixed ±5 interval; Primordial's maximum-health tiers have discontinuous boundaries.
@@ -240,3 +243,15 @@ Minecraft 1.12.2 / AoA 3.3.6: sword material damage bonuses are not final attack
 - [ ] Test the Primordial boundaries at 100/101,300/301 and 1000/1001 before deciding whether to preserve or deliberately rebalance them.
 
 [Greatblade input branches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Greatblade-Inputs-and-Damage-Branches-1.12.2) · [Sword material inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sword-Materials-and-Attack-Inputs-1.12.2) · [Maul inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Maul-Inputs-Reach-and-Knockback-1.12.2). These are source-level review targets, not a runtime defect certification.
+
+
+## Historical L’Borean structure-setting mismatch
+
+Minecraft 1.12.2 / AoA 3.3.6 released ChunkGenLBorean.func_185931_b tests drownedLottoStandSpawnChance > 0, then passes aquaticCastleSpawnChance to Random.nextInt for that branch. Defaults are 550 and 1700 respectively. A non-positive castle setting with a positive stand setting can reach a non-positive random bound after the castle guard fails. This is a static exception path, not a reproduced game crash or a statement about the current Enderloom build.
+
+- [ ] Use the stand setting as its own positively checked random bound.
+- [ ] Test independent castle/stand flags at negative, zero, one and ordinary positive values, preserving the terrain and else-if conditions.
+- [ ] Preserve the five Declogging Table mappings, server-side hand selection, fresh-output policy and give-or-drop-before-shrink sequence deliberately.
+- [ ] Resolve survival acquisition of the waterlogged inputs before claiming a complete restoration progression loop.
+
+[Illustrated Declogging Table and configuration guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Declogging-Waterlogged-Weapons-1.12.2) · [Released method evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/declogging-evidence-1.12.2.json). No game files or runtime configuration were changed by this documentation work.

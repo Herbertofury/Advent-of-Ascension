@@ -44,7 +44,7 @@ The evidence preserves each complete loot-table definition, its archive path and
 
 ## Remaining source-category gaps
 
-These thirteen weapons have no direct reference in the three categories above. They remain visible with a clear explanation rather than disappearing from the browser. Waterlogged restoration and event-driven rewards are being traced separately; no item below is labeled removed or impossible to obtain.
+These thirteen weapons have no direct reference in the three categories above. They remain visible with a clear explanation rather than disappearing from the browser. [Five checked waterlogged restoration branches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Declogging-Waterlogged-Weapons-1.12.2) now have their own guide, but normal acquisition of those input items remains unresolved. Event-driven rewards are being traced separately; no item below is labeled removed or impossible to obtain.
 
 | Weapon | Family | Status |
 |---|---|---|
