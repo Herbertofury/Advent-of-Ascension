@@ -1,0 +1,944 @@
+{
+  "release": "Minecraft 1.21.1 / AoA 3.7.16.1",
+  "scope": "Released model-selection callback and configuration plus pinned injection source; not a full render, tint, glint or animation certification.",
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/mixin/client/function/ItemRendererMixin.class",
+      "class_sha256": "ad9214d6dd1492530ed743a6ece0e2a94d12edcd7ccb55844c7e4e7bb52e0559",
+      "name": "aoa3$recursivelyWrapCompressedItem",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V",
+      "code_hex": "2bb20007b6000dc00013b600159900272bb2001bb6002199001d19052a2bb2001bb60025c00028b6002a2c2d1504b6002eb60034b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "COMPRESSED_ITEM",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/registries/DeferredItem",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 192,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "is",
+            "(Lnet/minecraft/world/item/Item;)Z"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 153,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 43
+        },
+        {
+          "offset": 17,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoADataComponents",
+            "COMPRESSED_ITEM_DATA",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "has",
+            "(Ljava/util/function/Supplier;)Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 153,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 43
+        },
+        {
+          "offset": 30,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoADataComponents",
+            "COMPRESSED_ITEM_DATA",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "get",
+            "(Ljava/util/function/Supplier;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 192,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressedStack",
+            "()Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 44
+        },
+        {
+          "offset": 43,
+          "opcode": 45
+        },
+        {
+          "offset": 44,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/mixin/client/function/ItemRendererMixin",
+            "getModel",
+            "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/client/resources/model/BakedModel;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable",
+            "setReturnValue",
+            "(Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/misc/CompressedItem.class",
+      "class_sha256": "21762c3ae73b4514231777b3da18630aed9df5e040a30e27cff2b0879b69f07c",
+      "name": "getName",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;",
+      "code_hex": "2bb20010b600169a00092a2bb7001cb0122004bd002259032bb20010b60024c0002ab6002cc0002fb6003153b80035b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoADataComponents",
+            "COMPRESSED_ITEM_DATA",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "has",
+            "(Ljava/util/function/Supplier;)Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 43
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/world/item/Item",
+            "getName",
+            "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 176
+        },
+        {
+          "offset": 16,
+          "opcode": 18,
+          "constant": "item.aoa3.compressed_item.name"
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 189,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 89
+        },
+        {
+          "offset": 23,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 24,
+          "opcode": 43
+        },
+        {
+          "offset": 25,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoADataComponents",
+            "COMPRESSED_ITEM_DATA",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/registries/DeferredHolder",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 192,
+          "operands": [
+            0,
+            42
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "get",
+            "(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 192,
+          "operands": [
+            0,
+            47
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressedStack",
+            "()Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 83
+        },
+        {
+          "offset": 44,
+          "opcode": 184,
+          "member": [
+            "net/tslat/tme/api/object/extension/Text",
+            "of",
+            "(Ljava/lang/String;[Ljava/lang/Object;)Lnet/tslat/tme/api/object/extension/Text;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/misc/CompressedItem.class",
+      "class_sha256": "21762c3ae73b4514231777b3da18630aed9df5e040a30e27cff2b0879b69f07c",
+      "name": "appendHoverText",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+      "code_hex": "2bb20010b600169900102bb20010b60047c0002fa70004013a051905c6000b1905b6004aa7000403360615069e002e2d2ab2004e0404bd005459031905b60031b600561506b800598a04b8005fb8006553b80069b9006f020057b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoADataComponents",
+            "COMPRESSED_ITEM_DATA",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "has",
+            "(Ljava/util/function/Supplier;)Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 153,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoADataComponents",
+            "COMPRESSED_ITEM_DATA",
+            "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "get",
+            "(Ljava/util/function/Supplier;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 192,
+          "operands": [
+            0,
+            47
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 1
+        },
+        {
+          "offset": 24,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 198,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressions",
+            "()I"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 40,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 158,
+          "operands": [
+            0,
+            46
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 45
+        },
+        {
+          "offset": 48,
+          "opcode": 42
+        },
+        {
+          "offset": 49,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+            "SPECIAL",
+            "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 53,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 54,
+          "opcode": 189,
+          "operands": [
+            0,
+            84
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 89
+        },
+        {
+          "offset": 58,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 59,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressedStack",
+            "()Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/item/ItemStack",
+            "getMaxStackSize",
+            "()I"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/item/misc/CompressedItem",
+            "getCompressedCount",
+            "(II)J"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 138
+        },
+        {
+          "offset": 73,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 74,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/NumberUtil",
+            "floorAndAppendSuffix",
+            "(DZ)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/network/chat/Component",
+            "literal",
+            "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 83
+        },
+        {
+          "offset": 81,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LocaleUtil",
+            "getFormattedItemDescriptionText",
+            "(Lnet/minecraft/world/item/Item;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;I[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 87
+        },
+        {
+          "offset": 90,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/misc/CompressedItem.class",
+      "class_sha256": "21762c3ae73b4514231777b3da18630aed9df5e040a30e27cff2b0879b69f07c",
+      "name": "getCompressedCount",
+      "descriptor": "(II)J",
+      "code_hex": "1a8514003b1b87b8003db8004369ad",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 26
+        },
+        {
+          "offset": 1,
+          "opcode": 133
+        },
+        {
+          "offset": 2,
+          "opcode": 20,
+          "constant": 9.0
+        },
+        {
+          "offset": 5,
+          "opcode": 27
+        },
+        {
+          "offset": 6,
+          "opcode": 135
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "pow",
+            "(DD)D"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "round",
+            "(D)J"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 105
+        },
+        {
+          "offset": 14,
+          "opcode": 173
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/datacomponent/CompressedItemData.class",
+      "class_sha256": "ae0601504568c7dc792b2c58ff70c2b3e09629c48463653bdf5776c5f61a6ddd",
+      "name": "compressedStack",
+      "descriptor": "()Lnet/minecraft/world/item/ItemStack;",
+      "code_hex": "2ab40007b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressedStack",
+            "Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/datacomponent/CompressedItemData.class",
+      "class_sha256": "ae0601504568c7dc792b2c58ff70c2b3e09629c48463653bdf5776c5f61a6ddd",
+      "name": "compressions",
+      "descriptor": "()I",
+      "code_hex": "2ab4000dac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressions",
+            "I"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/datacomponent/CompressedItemData.class",
+      "class_sha256": "ae0601504568c7dc792b2c58ff70c2b3e09629c48463653bdf5776c5f61a6ddd",
+      "name": "compress",
+      "descriptor": "()Lnet/tslat/aoa3/content/item/datacomponent/CompressedItemData;",
+      "code_hex": "bb0008592ab400072ab4000d0460b70011b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressedStack",
+            "Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressions",
+            "I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 96
+        },
+        {
+          "offset": 14,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "<init>",
+            "(Lnet/minecraft/world/item/ItemStack;I)V"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/datacomponent/CompressedItemData.class",
+      "class_sha256": "ae0601504568c7dc792b2c58ff70c2b3e09629c48463653bdf5776c5f61a6ddd",
+      "name": "decompress",
+      "descriptor": "()Lnet/tslat/aoa3/content/item/datacomponent/CompressedItemData;",
+      "code_hex": "bb0008592ab400072ab4000d0464b70011b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressedStack",
+            "Lnet/minecraft/world/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "compressions",
+            "I"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 100
+        },
+        {
+          "offset": 14,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/item/datacomponent/CompressedItemData",
+            "<init>",
+            "(Lnet/minecraft/world/item/ItemStack;I)V"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "aoa3.mixins.json",
+      "sha256": "f0385a6c4f42858c9c1413f66fe19532bed49722891ae238f80d49bc9e2adeac",
+      "definition": {
+        "required": true,
+        "package": "net.tslat.aoa3.mixin",
+        "compatibilityLevel": "JAVA_21",
+        "mixins": [
+          "common.function.AbstractArrowMixin",
+          "common.function.AbstractFurnaceMenuMixin",
+          "common.function.ChunkMapMixin",
+          "common.function.CrossbowItemMixin",
+          "common.function.EntityMixin",
+          "common.function.FurnaceResultSlotMixin",
+          "common.function.GrindstoneMenuMixin",
+          "common.function.LevelMixin",
+          "common.function.LivingEntityMixin",
+          "common.function.PlayerMixin",
+          "common.function.UtilMixin",
+          "common.function.WorkbenchContainerMixin",
+          "common.patch.AbstractArrowMixin",
+          "common.patch.BiomeMixin",
+          "common.patch.InfestedMobEffectMixin",
+          "common.patch.OozingMobEffectMixin",
+          "common.patch.ServerGamePacketListenerImplMixin"
+        ],
+        "client": [
+          "client.function.ClientPacketListenerMixin",
+          "client.function.GameRendererMixin",
+          "client.function.GuiMixin",
+          "client.function.ItemRendererMixin",
+          "client.function.MinecraftMixin",
+          "client.patch.AbstractClientPlayerMixin",
+          "client.patch.ClientRecipeBookMixin",
+          "client.patch.GameRendererMixin",
+          "client.patch.LocalPlayerMixin"
+        ],
+        "injectors": {
+          "defaultRequire": 1,
+          "maxShiftBy": 5
+        },
+        "minVersion": "0.8"
+      }
+    },
+    {
+      "path": "assets/aoa3/models/item/compressed_item.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "definition": {}
+    }
+  ],
+  "injection_source": {
+    "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/mixin/client/function/ItemRendererMixin.java",
+    "sha256": "f56a3b28d34f5c3e6d9c27ed3d1e65f9fce38328710b6daa4a7aea92e57e1ca1"
+  },
+  "rules": [
+    "Only the compressed item with its data component enters this callback branch.",
+    "The stored stack is passed to getModel with the same level, entity and seed.",
+    "The returned BakedModel is supplied to the callback.",
+    "The selected callback contains no compression-count read, color/scale operation or depth limit.",
+    "Missing component does not take the replacement branch.",
+    "Selecting the nested model does not prove the outer render stack uses the nested tint, custom renderer, glint or all item properties."
+  ]
+}

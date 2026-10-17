@@ -14,11 +14,11 @@ These are **version-specific records**, not 149 missing unique items. The origin
 | Degenerate-face issue resolved | 3 |
 | Diagnostic image; source aliases unresolved | 3 |
 | Dynamic bucket study available | 24 |
-| Dynamic stack renderer not verified | 1 |
 | Empty model / functional helper | 1 |
 | Fluid material study available | 24 |
 | Growth-state references available | 50 |
 | Intentionally invisible helper | 6 |
+| Nested model selection traced | 1 |
 | Translucent reference available | 4 |
 | Unqualified localization candidate | 12 |
 | World sign reference available | 12 |
@@ -180,7 +180,7 @@ A container image is not a world-fluid renderer. A growth-state sheet is not an 
 | Toxic Waste · `aoa3:toxic_waste` | Fluid material study available | [Reference image](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-fluid-surface-toxic_waste.webp) · [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-Surface-Material-Studies) — Source still texture and default tint on a synthetic unit box; not actual world-fluid height, flow, animation or full translucent rendering. |
 | Trilliads · `aoa3:trilliad_crop` | Growth-state references available | [Reference image](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-growth-trilliad_crop.webp) · [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crops-and-Growth-Stages) — Use the version-specific age-state sheet. A block-only crop does not need an invented inventory model. |
 | Candied Water Bucket · `aoa3:candied_water_bucket` | Dynamic bucket study available | [Reference image](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/1.21.1-fluid-bucket-reference.webp) · [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fluid-and-Bucket-References) — First-frame source-tinted container study; animation and game renderer parity remain unverified. |
-| Compressed Item · `aoa3:compressed_item` | Dynamic stack renderer not verified | [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) — Appearance depends on another stored stack/component. No single fixed generic mesh is assumed. |
+| Compressed Item · `aoa3:compressed_item` | Nested model selection traced | [Reference image](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/compressed-item-model-delegation-1.21.1.webp) · [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) — Released callback selects the stored stack model with the same level, entity and seed. The diagram shows stored-model examples; final tint, glint and custom-renderer parity remain unverified. |
 | Creature Essence · `aoa3:creature_essence` | Custom texture mapping not verified | [Reference image](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/creature-essence-source-layers.webp) · [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) — Separate base and overlay sprites are available as an authentic source-layer study. Their combined runtime mapping, tint and appearance remain unverified. |
 | Discovery · `aoa3:discovery` | Unqualified localization candidate | [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) — The inspected candidate has no matching model. Runtime registration/activity is not certified by a localization entry. |
 | Expedition · `aoa3:expedition` | Unqualified localization candidate | [Evidence / limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases) — The inspected candidate has no matching model. Runtime registration/activity is not certified by a localization entry. |

@@ -14,7 +14,7 @@
     "World sign reference available": 12,
     "Unqualified localization candidate": 12,
     "Empty model / functional helper": 1,
-    "Dynamic stack renderer not verified": 1
+    "Nested model selection traced": 1
   },
   "records": [
     {
@@ -1704,10 +1704,10 @@
       "initial_status": "needs custom mapping",
       "initial_model": "aoa3:item/compressed_item",
       "initial_reason": "custom renderer or unsupported model without elements",
-      "outcome": "Dynamic stack renderer not verified",
-      "detail": "Appearance depends on another stored stack/component. No single fixed generic mesh is assumed.",
+      "outcome": "Nested model selection traced",
+      "detail": "Released callback selects the stored stack model with the same level, entity and seed. The diagram shows stored-model examples; final tint, glint and custom-renderer parity remain unverified.",
       "page": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Asset-Edge-Cases",
-      "image": null
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/compressed-item-model-delegation-1.21.1.webp"
     },
     {
       "version": "1.21.1",
