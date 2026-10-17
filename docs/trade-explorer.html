@@ -7,7 +7,7 @@
 <script>
 
 'use strict';
-const RESOURCE_REVISIONS={"trade-browser-data-1.16.5.json":"e29459b008d7bba6","trade-browser-data-1.21.1.json":"b80562866b3b77bb"};
+const RESOURCE_REVISIONS={"trade-browser-data-1.16.5.json":"e29459b008d7bba6","trade-browser-data-1.21.1.json":"ae09aaff46552f75"};
 function resourceUrl(path){if(!Object.hasOwn(RESOURCE_REVISIONS,path))throw Error("Unindexed resource");return path+"?v="+RESOURCE_REVISIONS[path];}
 const $=id=>document.getElementById(id),versions=['1.16.5','1.21.1'],cache=new Map();let seq=0,data=null,shown=0,filtered=[],busy=false,pendingVendor='';
 function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}

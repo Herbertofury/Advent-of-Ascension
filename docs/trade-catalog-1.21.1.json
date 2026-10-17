@@ -2,14 +2,15 @@
   "version": "1.21.1",
   "release": "3.7.16.1",
   "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
-  "scope": "45 base offer definitions: 7 fixed trader offers, 22 dimension-conditional Herald offers, 16 added villager-pool candidates. Defaults and literal builder values read from released classes; field-to-registry names checked against pinned source. Default item-instance outputs are shown as one; runtime overrides, reputation, demand and modpack changes are not evaluated.",
+  "scope": "55 base offer definitions: the original 45 offers plus ten released Skill Master offers. Includes 17 fixed trader offers, 22 dimension-conditional Herald offers and 16 villager-pool candidates. Literal builder defaults are not runtime price, selection or availability guarantees.",
   "counts": {
     "Assassin": 7,
     "Butcher": 1,
     "Cartographer": 1,
     "Cleric": 7,
     "Lottoman": 4,
-    "Undead Herald": 25
+    "Undead Herald": 25,
+    "Skill Master": 10
   },
   "records": [
     {
@@ -1051,6 +1052,246 @@
       "evidence": {
         "class": "net/tslat/aoa3/common/registration/entity/variant/UndeadHeraldTrade.class",
         "method": "lambda$static$1"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:small_skill_crystal",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 11
+        }
+      ],
+      "max_uses": 32,
+      "merchant_xp": 20,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:medium_skill_crystal",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 13
+        }
+      ],
+      "max_uses": 24,
+      "merchant_xp": 50,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:large_skill_crystal",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 18
+        }
+      ],
+      "max_uses": 16,
+      "merchant_xp": 75,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:giant_skill_crystal",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 32
+        }
+      ],
+      "max_uses": 12,
+      "merchant_xp": 125,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:helm_of_the_dextrous",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 64
+        }
+      ],
+      "max_uses": 2147483647,
+      "merchant_xp": 200,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:helm_of_the_dryad",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 64
+        }
+      ],
+      "max_uses": 2147483647,
+      "merchant_xp": 200,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:helm_of_the_ritualist",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 64
+        }
+      ],
+      "max_uses": 2147483647,
+      "merchant_xp": 200,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:helm_of_the_trawler",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 64
+        }
+      ],
+      "max_uses": 2147483647,
+      "merchant_xp": 200,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:helm_of_the_treasurer",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 64
+        }
+      ],
+      "max_uses": 2147483647,
+      "merchant_xp": 200,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
+      }
+    },
+    {
+      "vendor": "Skill Master",
+      "level": 1,
+      "output": {
+        "id": "aoa3:helm_of_the_warrior",
+        "count": 1,
+        "count_origin": "default item instance"
+      },
+      "costs": [
+        {
+          "id": "aoa3:archaic_token",
+          "count": 64
+        }
+      ],
+      "max_uses": 2147483647,
+      "merchant_xp": 200,
+      "price_multiplier": 0.05000000074505806,
+      "dimension": null,
+      "note": "Nowhere utility-lobby template contains this NPC. Stock values are maxima; merchant XP is not player skill XP.",
+      "evidence": {
+        "file": "skill-master-acquisition-evidence-1.21.1.json",
+        "method": "<clinit>"
       }
     }
   ],
