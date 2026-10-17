@@ -10,6 +10,18 @@ The owner's Desktop Enderloom worktree has now been inspected directly and recon
 
 The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8`, 146,794,782 bytes. The native-client JAR differs only in its manifest build timestamp; all program/resource members match. Full historical/latest parity, remaining Extraction/Anima/deity consumers, all progression, optional compatibility, multiplayer, save migration and performance acceptance remain open. The modified JAR and original AoA files are local, not a new public mod download. Earlier documentation-only observations below are retained as history and are superseded by this section where they describe missing local access.
 
+## Tutorial and equipment reference snapshot · 2026-10-17
+
+The [visual tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) now contains **46 illustrated, release-scoped guides**. **62 local documentation/source-analysis checks pass**; these are not game tests. New equipment panels are lazy, reuse the selected inventory release and do not fetch statistics separately.
+
+- **214 modern equipment references:** 78 direct guns, 17 shotguns, 50 cannons, 27 snipers, 33 bows and nine crossbows. [Gun defaults](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Statistics-and-Ammunition-1.21.1), [wrapped gun families](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Cannon-and-Sniper-Statistics-1.21.1), [archery preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bows-and-Crossbows-1.21.1).
+- **156 historical gun references:** 78 each for 1.16.5 and 1.20.1, with constructor recoil kept distinct from the base getter. [Historical comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Gun-Constructor-References).
+- **Practical encounter guides:** King BamBamBam’s gold/energy loop, Nethengeic Wither’s aura branches, Tyrosaur’s armour/roar behavior, and six exact Dryad Sprite hoe matches. These preserve unresolved runtime and loot-condition limits.
+- **Find and share a route:** ten normal/elite modern boss arena routes are separately labeled in the bestiary’s dimension filter. Inventory, recipe and bestiary filters have shareable links and refuse unsupported releases instead of silently substituting data.
+- **Cache correctness:** explorer resource URLs carry content revisions, with release caching and stale-request guards retained. This prevents a freshly published interface from silently receiving the previous dataset under an unchanged URL.
+
+Still open: authentic 1.7.10 asset access, remaining 1.20.1 renderer gaps, additional weapon families and subclass-specific effects, and exact-build runtime validation. Documentation coverage does not close the owner-local merge, migration, multiplayer or performance acceptance work above.
+
 ## Current verified documentation status · 2026-10-16
 
 Counts below describe inspected rosters and documentation, not a playable merged Enderloom build. They supersede older intermediate appearance counts later on this page.
