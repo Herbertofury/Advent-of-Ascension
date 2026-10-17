@@ -217,3 +217,15 @@ Minecraft 1.12.2 / AoA 3.3.6. The selected Soul Spark and Light Spark impact pat
 - [ ] Keep first eligible countdown timing distinct from the nominal interval, particularly delays 7, 11, 13 and 14.
 
 [Blaster guide and source-backed caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2). These are static restoration targets, not a current Enderloom runtime failure claim.
+
+
+## Historical throwable impact routing and type safety
+
+Minecraft 1.12.2 / AoA 3.3.6: BaseBullet chooses weapon.doImpactDamage when a weapon reference exists, otherwise projectile.doEntityImpact, then calls the common projectile doImpactEffect. Grenade and Runic Bomb contain explosion-helper calls in both projectile hooks, so the weaponless branch must be tested for repeated effect dispatch rather than being conflated with the weapon-bound path. No double-damage runtime result is claimed.
+
+- [ ] Test weapon-bound, weaponless, block-hit and repeated-pierce paths separately, including saved/reloaded projectile state.
+- [ ] Guard the Chakram/Goo Ball item-hook EntityLivingBase casts: their successful ranged helper can also accept certain nonliving/multipart targets.
+- [ ] Preserve Runic Bomb shield removal and its released high-amplifier slow input without silently flattening them into ordinary damage.
+- [ ] Verify explosion destruction policy and target effects independently; strength is not a measured radius.
+
+[Throwable source evidence and practical guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2). These are static restoration targets, not a reproduced current-build failure.
