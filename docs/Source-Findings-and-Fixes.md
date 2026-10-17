@@ -282,3 +282,14 @@ The AoA 3.3.6 custom Lotto Totem NBT callbacks are reversed: readEntityFromNBT w
 - [ ] Verify both interaction callbacks before describing the 12000-tick branch as an ownership expiry.
 
 See [the illustrated walkthrough and scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Lotto-Totems-Placement-Rewards-and-Save-Safety-1.12.2).
+
+## Rosidons destination safety · released 1.12.2
+
+The special-dimension height helper accepts at least two exact-air cells above a non-air block, while Rosidons requests feet at that block’s Y+2. A simplified full-solid column with a two-cell cavity overlaps the roof for an assumed 1.8-block standing body. The caller also truncates negative fractional X/Z toward zero for scanning but keeps the original coordinates when teleporting. These are static target-build test candidates, not reproduced current Enderloom defects.
+
+- [ ] Verify destination bounding-box clearance, neighboring columns, safe support and hazards before relocation.
+- [ ] Use consistent coordinate conversion; test negative fractions and special dimension scan starts.
+- [ ] Verify Ancient Cavern/Immortallis exclusions, server authority and failure consumption/refund behavior.
+- [ ] Keep search work bounded; avoid unnecessary chunk generation and measure worst-case scan cost.
+
+See [the illustrated Rosidons safety study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rosidons-Escape-and-Destination-Safety-1.12.2) for 72 bounded column cases and 12 coordinate examples.

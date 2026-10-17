@@ -163,3 +163,7 @@ For related mechanics, read [Anima training and fragments](https://github.com/He
 ## Find your first planting stock
 
 [Seed acquisition routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Seeds-and-Starting-a-Farm-1.12.2) connects sixteen planting items to checked recipes, full loot-table entries, Zal Herbalist offers and wild-plant callbacks. It includes illustrated item references and keeps the unresolved Thorny Plant Seeds route explicit.
+
+## Before using harvested Rosidons
+
+[Rosidons escape and destination safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rosidons-Escape-and-Destination-Safety-1.12.2) explains its dimension restrictions, height selection, negative-coordinate mismatch and a bounded roof-overlap test candidate. Harvesting the crop does not guarantee a safe teleport destination.
