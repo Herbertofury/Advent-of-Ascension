@@ -12,7 +12,7 @@
 | Inspect the world | Learn the mechanics |
 |---|---|
 | [![Six source-model block examples](docs/previews/block-model-explorer-overview-1.21.1.webp)](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1) | [![Modern fish effects and food comparison](docs/previews/modern-fish-effect-comparison-1.21.1.webp)](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Fish-Food-Cooking-and-Healing-1.21.1) |
-| **[Rotate 1,026 block source models](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1)** · search, orbit, zoom and follow item links | **[Follow 130 illustrated guide routes](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html)** · choose a release, goal and six-stop reading path |
+| **[Rotate 1,026 block source models](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1)** · search, orbit, zoom and follow item links | **[Follow illustrated guide routes](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html)** · choose a release, goal and six-stop reading path |
 
 | What you need | Open it |
 |---|---|
