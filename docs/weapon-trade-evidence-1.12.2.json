@@ -1,0 +1,2392 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Literal weapon-output offers from 64 evaluated trader methods; Undead Herald conditional method remains unsupported. Registry field names are matched using the AoA ObjectHolder namespace convention and weapon IDs checked against the released constructor census. Costs use readable field-derived labels. Candidate offers are not guaranteed visible on each spawned trader. No runtime transaction test.",
+  "offer_count": 29,
+  "weapon_count": 25,
+  "vendor_count": 15,
+  "new_to_recipe_and_creature_loot_indexes": [
+    "aoa3:balloon_bomber",
+    "aoa3:confetti_cluster",
+    "aoa3:coralstorm_sword",
+    "aoa3:crystal_greatblade",
+    "aoa3:crystal_maul",
+    "aoa3:daybreaker_bow",
+    "aoa3:demolisher",
+    "aoa3:gauge_rifle",
+    "aoa3:giga_cannon",
+    "aoa3:laser_blaster",
+    "aoa3:meteor_staff",
+    "aoa3:slice_star",
+    "aoa3:slingshot",
+    "aoa3:sunshine_bow",
+    "aoa3:super_cannon",
+    "aoa3:ultra_cannon",
+    "aoa3:ultraflame",
+    "aoa3:vulcammer_maul"
+  ],
+  "records": [
+    {
+      "vendor_id": "aoa3:assassin",
+      "vendor_name": "Assassin",
+      "vendor_image": "previews/legacy-1.12.2/inherited-assassin-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityAssassin.class",
+      "class_sha256": "85c0676196f5156181c4d7674bb8ae72b3ba466ecb8a9e17a0ff0950d443f220",
+      "offer_offset": 30,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 2,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:slice_star",
+        "name": "Slice Star",
+        "count": 2,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "SLICE_STAR",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:assassin",
+      "vendor_name": "Assassin",
+      "vendor_image": "previews/legacy-1.12.2/inherited-assassin-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityAssassin.class",
+      "class_sha256": "85c0676196f5156181c4d7674bb8ae72b3ba466ecb8a9e17a0ff0950d443f220",
+      "offer_offset": 64,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 2,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:goo_ball",
+        "name": "Goo Ball",
+        "count": 3,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "GOO_BALL",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:assassin",
+      "vendor_name": "Assassin",
+      "vendor_image": "previews/legacy-1.12.2/inherited-assassin-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityAssassin.class",
+      "class_sha256": "85c0676196f5156181c4d7674bb8ae72b3ba466ecb8a9e17a0ff0950d443f220",
+      "offer_offset": 98,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 3,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:chakram",
+        "name": "Chakram",
+        "count": 2,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "CHAKRAM",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:assassin",
+      "vendor_name": "Assassin",
+      "vendor_image": "previews/legacy-1.12.2/inherited-assassin-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityAssassin.class",
+      "class_sha256": "85c0676196f5156181c4d7674bb8ae72b3ba466ecb8a9e17a0ff0950d443f220",
+      "offer_offset": 132,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 2,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:hellfire",
+        "name": "Hellfire",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "HELLFIRE",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:assassin",
+      "vendor_name": "Assassin",
+      "vendor_image": "previews/legacy-1.12.2/inherited-assassin-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityAssassin.class",
+      "class_sha256": "85c0676196f5156181c4d7674bb8ae72b3ba466ecb8a9e17a0ff0950d443f220",
+      "offer_offset": 166,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 3,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:vulkram",
+        "name": "Vulkram",
+        "count": 2,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "VULKRAM",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:crystal_trader",
+      "vendor_name": "Crystal Trader",
+      "vendor_image": "previews/legacy-1.12.2/inherited-crystal_trader-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityCrystalTrader.class",
+      "class_sha256": "0d7d71b46c7d0b6d95e90209da8fe26fd41e7d0873db5b5ff3e6ef565ca51587",
+      "offer_offset": 438,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:rainbow_druse",
+          "name": "Rainbow Druse",
+          "count": 12,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAINBOW_DRUSE",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:crystal_maul",
+        "name": "Crystal Maul",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "CRYSTAL_MAUL",
+          "Lnet/tslat/aoa3/item/weapon/maul/BaseMaul;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:crystal_trader",
+      "vendor_name": "Crystal Trader",
+      "vendor_image": "previews/legacy-1.12.2/inherited-crystal_trader-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityCrystalTrader.class",
+      "class_sha256": "0d7d71b46c7d0b6d95e90209da8fe26fd41e7d0873db5b5ff3e6ef565ca51587",
+      "offer_offset": 472,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:rainbow_druse",
+          "name": "Rainbow Druse",
+          "count": 12,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "RAINBOW_DRUSE",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:crystal_greatblade",
+        "name": "Crystal Greatblade",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "CRYSTAL_GREATBLADE",
+          "Lnet/tslat/aoa3/item/weapon/greatblade/BaseGreatblade;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:explosives_expert",
+      "vendor_name": "Explosives Expert",
+      "vendor_image": "previews/legacy-1.12.2/inherited-explosives_expert-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityExplosivesExpert.class",
+      "class_sha256": "059e01354b2a3d82fa686e38427bb9ea9add2b846e72c0afb7b4e3be2d564af6",
+      "offer_offset": 29,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 5,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:grenade",
+        "name": "Grenade",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "GRENADE",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:gorb_arms_dealer",
+      "vendor_name": "Gorb Arms Dealer",
+      "vendor_image": "previews/legacy-1.12.2/70d760aae8d8fa6126e84df7-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityGorbArmsDealer.class",
+      "class_sha256": "ee4b3e9d40ea38fed1a070c00e0d835e29d4df9062d9c1f6a11709f3ce3fdb7b",
+      "offer_offset": 29,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 1,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:grenade",
+        "name": "Grenade",
+        "count": 5,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "GRENADE",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:gorb_arms_dealer",
+      "vendor_name": "Gorb Arms Dealer",
+      "vendor_image": "previews/legacy-1.12.2/70d760aae8d8fa6126e84df7-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityGorbArmsDealer.class",
+      "class_sha256": "ee4b3e9d40ea38fed1a070c00e0d835e29d4df9062d9c1f6a11709f3ce3fdb7b",
+      "offer_offset": 129,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:gold_coin",
+          "name": "Gold Coin",
+          "count": 3,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "GOLD_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:laser_blaster",
+        "name": "Laser Blaster",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "LASER_BLASTER",
+          "Lnet/tslat/aoa3/item/weapon/blaster/BaseBlaster;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:gorb_engineer",
+      "vendor_name": "Gorb Engineer",
+      "vendor_image": "previews/legacy-1.12.2/f795f13f8fa4985b69c8c034-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityGorbEngineer.class",
+      "class_sha256": "e2e5775a539d650e468223bac28c0df80e2a9c3fa4eda568f086946f181ed95d",
+      "offer_offset": 29,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:gold_coin",
+          "name": "Gold Coin",
+          "count": 3,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "GOLD_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:ultraflame",
+        "name": "Ultraflame",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "ULTRAFLAME",
+          "Lnet/tslat/aoa3/item/weapon/sword/BaseSword;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:lelyetian_trader",
+      "vendor_name": "Lelyetian Trader",
+      "vendor_image": "previews/legacy-1.12.2/ff695c36f950efcec5de8d56-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityLelyetianTrader.class",
+      "class_sha256": "7c23730d378b47e5a04196b885d73d7d4aee4088a7c6200748ed174d60ddc65b",
+      "offer_offset": 41,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "id": "aoa3:yellow_spores",
+          "name": "Yellow Spores",
+          "count": 5,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "YELLOW_SPORES",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:gauge_rifle",
+        "name": "Gauge Rifle",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "GAUGE_RIFLE",
+          "Lnet/tslat/aoa3/item/weapon/gun/BaseGun;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:lelyetian_trader",
+      "vendor_name": "Lelyetian Trader",
+      "vendor_image": "previews/legacy-1.12.2/ff695c36f950efcec5de8d56-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityLelyetianTrader.class",
+      "class_sha256": "7c23730d378b47e5a04196b885d73d7d4aee4088a7c6200748ed174d60ddc65b",
+      "offer_offset": 86,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "id": "aoa3:orange_spores",
+          "name": "Orange Spores",
+          "count": 5,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "ORANGE_SPORES",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:gauge_rifle",
+        "name": "Gauge Rifle",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "GAUGE_RIFLE",
+          "Lnet/tslat/aoa3/item/weapon/gun/BaseGun;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:primordial_merchant",
+      "vendor_name": "Primordial Merchant",
+      "vendor_image": "previews/legacy-1.12.2/356906d4063bc19ddc4ce63d-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityPrimordialMerchant.class",
+      "class_sha256": "bfa2a5b94835cd8058412a23d07cd02b73f0fe2938c6d1ef88d53fde25ccbb84",
+      "offer_offset": 30,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:darkly_powder",
+          "name": "Darkly Powder",
+          "count": 7,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DARKLY_POWDER",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:daybreaker_bow",
+        "name": "Daybreaker Bow",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "DAYBREAKER_BOW",
+          "Lnet/tslat/aoa3/item/weapon/bow/BaseBow;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:primordial_wizard",
+      "vendor_name": "Primordial Wizard",
+      "vendor_image": "previews/legacy-1.12.2/52e209a81d6bfca7d4e385a3-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityPrimordialWizard.class",
+      "class_sha256": "4c2b597d183ff8d3f2ab89acf28130baedb012dddd76573dc5b0392937985cad",
+      "offer_offset": 65,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 2,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:hellfire",
+        "name": "Hellfire",
+        "count": 2,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "HELLFIRE",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:primordial_wizard",
+      "vendor_name": "Primordial Wizard",
+      "vendor_image": "previews/legacy-1.12.2/52e209a81d6bfca7d4e385a3-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityPrimordialWizard.class",
+      "class_sha256": "4c2b597d183ff8d3f2ab89acf28130baedb012dddd76573dc5b0392937985cad",
+      "offer_offset": 99,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:copper_coin",
+          "name": "Copper Coin",
+          "count": 3,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "COPPER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:vulkram",
+        "name": "Vulkram",
+        "count": 3,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "VULKRAM",
+          "Lnet/tslat/aoa3/item/weapon/thrown/BaseThrownWeapon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:primordial_wizard",
+      "vendor_name": "Primordial Wizard",
+      "vendor_image": "previews/legacy-1.12.2/52e209a81d6bfca7d4e385a3-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityPrimordialWizard.class",
+      "class_sha256": "4c2b597d183ff8d3f2ab89acf28130baedb012dddd76573dc5b0392937985cad",
+      "offer_offset": 133,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:gold_coin",
+          "name": "Gold Coin",
+          "count": 2,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "GOLD_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:primordial_staff",
+        "name": "Primordial Staff",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "PRIMORDIAL_STAFF",
+          "Lnet/tslat/aoa3/item/weapon/staff/BaseStaff;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:professor",
+      "vendor_name": "Professor",
+      "vendor_image": "previews/legacy-1.16.5/1.16.5-model-ProfessorModel-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityProfessor.class",
+      "class_sha256": "dbaa665e47c1079f23aee4c506d0b554879927875aa9176ba9fabcbec745fb6c",
+      "offer_offset": 246,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 5,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "id": "aoa3:mini_cannon",
+          "name": "Mini-Cannon",
+          "count": 1,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/WeaponRegister",
+            "MINI_CANNON",
+            "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:super_cannon",
+        "name": "Super-Cannon",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "SUPER_CANNON",
+          "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:professor",
+      "vendor_name": "Professor",
+      "vendor_image": "previews/legacy-1.16.5/1.16.5-model-ProfessorModel-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityProfessor.class",
+      "class_sha256": "dbaa665e47c1079f23aee4c506d0b554879927875aa9176ba9fabcbec745fb6c",
+      "offer_offset": 292,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 3,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "id": "aoa3:lyon_ingot",
+          "name": "Lyon Ingot",
+          "count": 7,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "LYON_INGOT",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:demolisher",
+        "name": "Demolisher",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "DEMOLISHER",
+          "Lnet/tslat/aoa3/item/weapon/shotgun/BaseShotgun;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:shyre_archer",
+      "vendor_name": "Shyre Archer",
+      "vendor_image": "previews/legacy-1.12.2/inherited-shyre_archer-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityShyreArcher.class",
+      "class_sha256": "6463737588070b21d3f859c1105ecc9a19fbd996d03a76066b1e40477d667083",
+      "offer_offset": 42,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:shyregem",
+          "name": "Shyregem",
+          "count": 7,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SHYREGEM",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        },
+        {
+          "id": "aoa3:shyrestone_ingot",
+          "name": "Shyrestone Ingot",
+          "count": 12,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SHYRESTONE_INGOT",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:sunshine_bow",
+        "name": "Sunshine Bow",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "SUNSHINE_BOW",
+          "Lnet/tslat/aoa3/item/weapon/bow/BaseBow;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:shyre_archer",
+      "vendor_name": "Shyre Archer",
+      "vendor_image": "previews/legacy-1.12.2/inherited-shyre_archer-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityShyreArcher.class",
+      "class_sha256": "6463737588070b21d3f859c1105ecc9a19fbd996d03a76066b1e40477d667083",
+      "offer_offset": 187,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 9,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "id": "aoa3:ultra_cannon",
+          "name": "Ultra-Cannon",
+          "count": 1,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/WeaponRegister",
+            "ULTRA_CANNON",
+            "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:giga_cannon",
+        "name": "Giga-Cannon",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "GIGA_CANNON",
+          "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:token_collector",
+      "vendor_name": "Token Collector",
+      "vendor_image": "previews/legacy-1.12.2/inherited-token_collector-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityTokenCollector.class",
+      "class_sha256": "4a8e91f7b220d7eaf58c1232da2a28460560915e17af890741a1aba91179967f",
+      "offer_offset": 64,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:dungeon_tokens",
+          "name": "Dungeon Tokens",
+          "count": 1,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DUNGEON_TOKENS",
+            "Lnet/tslat/aoa3/item/misc/DimensionalTokensItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:vulcane",
+        "name": "Vulcane",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "VULCANE",
+          "Lnet/tslat/aoa3/item/weapon/vulcane/BaseVulcane;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:token_collector",
+      "vendor_name": "Token Collector",
+      "vendor_image": "previews/legacy-1.12.2/inherited-token_collector-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityTokenCollector.class",
+      "class_sha256": "4a8e91f7b220d7eaf58c1232da2a28460560915e17af890741a1aba91179967f",
+      "offer_offset": 335,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:dungeon_tokens",
+          "name": "Dungeon Tokens",
+          "count": 28,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DUNGEON_TOKENS",
+            "Lnet/tslat/aoa3/item/misc/DimensionalTokensItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:vulcammer_maul",
+        "name": "Vulcammer Maul",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "VULCAMMER_MAUL",
+          "Lnet/tslat/aoa3/item/weapon/maul/BaseMaul;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:token_collector",
+      "vendor_name": "Token Collector",
+      "vendor_image": "previews/legacy-1.12.2/inherited-token_collector-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityTokenCollector.class",
+      "class_sha256": "4a8e91f7b220d7eaf58c1232da2a28460560915e17af890741a1aba91179967f",
+      "offer_offset": 369,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:dungeon_tokens",
+          "name": "Dungeon Tokens",
+          "count": 26,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "DUNGEON_TOKENS",
+            "Lnet/tslat/aoa3/item/misc/DimensionalTokensItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:meteor_staff",
+        "name": "Meteor Staff",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "METEOR_STAFF",
+          "Lnet/tslat/aoa3/item/weapon/staff/BaseStaff;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:toy_merchant",
+      "vendor_name": "Toy Merchant",
+      "vendor_image": "previews/legacy-1.12.2/732a40c05be3f71eb2f8f94a-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityToyMerchant.class",
+      "class_sha256": "e955d44865cfe01396d02ef841cc4a201d21e49dd14c7f2534f5af274fabbad6",
+      "offer_offset": 181,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:circus_coin",
+          "name": "Circus Coin",
+          "count": 15,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CIRCUS_COIN",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:confetti_cluster",
+        "name": "Confetti Cluster",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "CONFETTI_CLUSTER",
+          "Lnet/tslat/aoa3/item/weapon/blaster/BaseBlaster;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:toy_merchant",
+      "vendor_name": "Toy Merchant",
+      "vendor_image": "previews/legacy-1.12.2/732a40c05be3f71eb2f8f94a-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityToyMerchant.class",
+      "class_sha256": "e955d44865cfe01396d02ef841cc4a201d21e49dd14c7f2534f5af274fabbad6",
+      "offer_offset": 215,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:circus_coin",
+          "name": "Circus Coin",
+          "count": 25,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CIRCUS_COIN",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:balloon_bomber",
+        "name": "Balloon Bomber",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "BALLOON_BOMBER",
+          "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:troll_trader",
+      "vendor_name": "Troll Trader",
+      "vendor_image": "previews/legacy-1.12.2/dcf1eb95554c7d7b7006a918-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityTrollTrader.class",
+      "class_sha256": "8aad93c2c8aae10b5a08b3db57bb6bdedaa897e5e12bfb9fa101e855f929a317",
+      "offer_offset": 65,
+      "fixed_offer_list": true,
+      "costs": [
+        {
+          "id": "aoa3:amphibiyte_lung",
+          "name": "Amphibiyte Lung",
+          "count": 30,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "AMPHIBIYTE_LUNG",
+            "Lnet/tslat/aoa3/item/misc/AmphibiyteLung;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:coralstorm_sword",
+        "name": "Coralstorm Sword",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "CORALSTORM_SWORD",
+          "Lnet/tslat/aoa3/item/weapon/sword/BaseSword;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:zal_spellbinder",
+      "vendor_name": "Zal Spellbinder",
+      "vendor_image": "previews/legacy-1.12.2/ea17fdfcd5ae197baaea226b-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityZalSpellbinder.class",
+      "class_sha256": "214c1a3795740b0c125cc1bcd54cb8a31f69620c9236ad5e48d18f15be2ff8c5",
+      "offer_offset": 238,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 7,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "SILVER_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        },
+        {
+          "id": "aoa3:super_cannon",
+          "name": "Super-Cannon",
+          "count": 1,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/WeaponRegister",
+            "SUPER_CANNON",
+            "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:ultra_cannon",
+        "name": "Ultra-Cannon",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "ULTRA_CANNON",
+          "Lnet/tslat/aoa3/item/weapon/cannon/BaseCannon;"
+        ]
+      }
+    },
+    {
+      "vendor_id": "aoa3:zal_vendor",
+      "vendor_name": "Zal Vendor",
+      "vendor_image": "previews/legacy-1.12.2/7829be4ef8f5381bc1104182-thumb.webp",
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityZalVendor.class",
+      "class_sha256": "5e0ece2d3b218a8c92e920b97ef6db0aa02d367a35af7ca4b9ca0925b9086cfc",
+      "offer_offset": 98,
+      "fixed_offer_list": false,
+      "costs": [
+        {
+          "id": "aoa3:gold_coin",
+          "name": "Gold Coin",
+          "count": 1,
+          "registry_field": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "GOLD_COIN",
+            "Lnet/tslat/aoa3/item/misc/CoinItem;"
+          ]
+        }
+      ],
+      "output": {
+        "id": "aoa3:slingshot",
+        "name": "Slingshot",
+        "count": 1,
+        "registry_field": [
+          "net/tslat/aoa3/common/registration/WeaponRegister",
+          "SLINGSHOT",
+          "Lnet/tslat/aoa3/item/weapon/bow/BaseBow;"
+        ]
+      }
+    }
+  ],
+  "behavior_methods": [
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATrader.class",
+      "class_sha256": "1d3cc6ef459bbba5cea7d3aec4f20caec8b92c88ffff145bd4003ccb4bb3d36c",
+      "name": "isFixedTradesList",
+      "descriptor": "()Z",
+      "code_sha256": "42ca1f85243342bd41983ab86f2235408fa46ded7466d4525196f66b9dbb5f3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATrader.class",
+      "class_sha256": "1d3cc6ef459bbba5cea7d3aec4f20caec8b92c88ffff145bd4003ccb4bb3d36c",
+      "name": "generateTrades",
+      "descriptor": "()V",
+      "code_sha256": "11503ff072e91bf321e46b851c1be708742a2c38b45ee1ce85d062ca287d99e4",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            1,
+            119
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 10
+        },
+        {
+          "offset": 5,
+          "opcode": 42
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "func_110124_au",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "java/util/UUID",
+            "getMostSignificantBits",
+            "()J"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 97
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "func_110124_au",
+            "()Ljava/util/UUID;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "java/util/UUID",
+            "getLeastSignificantBits",
+            "()J"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 97
+        },
+        {
+          "offset": 21,
+          "opcode": 183,
+          "member": [
+            "java/util/Random",
+            "<init>",
+            "(J)V"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 76
+        },
+        {
+          "offset": 25,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "func_191196_a",
+            "()Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 77
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 187,
+          "operands": [
+            2,
+            0
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 89
+        },
+        {
+          "offset": 34,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/village/MerchantRecipeList",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "trades",
+            "Lnet/minecraft/village/MerchantRecipeList;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 42
+        },
+        {
+          "offset": 41,
+          "opcode": 44
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "getTradesList",
+            "(Lnet/minecraft/util/NonNullList;)V"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 42
+        },
+        {
+          "offset": 46,
+          "opcode": 44
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "maxTradesCount",
+            "I"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 42
+        },
+        {
+          "offset": 54,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "isFixedTradesList",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 154,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 43
+        },
+        {
+          "offset": 61,
+          "opcode": 44
+        },
+        {
+          "offset": 62,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 69,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "max",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 62
+        },
+        {
+          "offset": 73,
+          "opcode": 42
+        },
+        {
+          "offset": 74,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "additionalTrades",
+            "I"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 158,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 29
+        },
+        {
+          "offset": 81,
+          "opcode": 44
+        },
+        {
+          "offset": 82,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 162,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 29
+        },
+        {
+          "offset": 89,
+          "opcode": 42
+        },
+        {
+          "offset": 90,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "additionalTrades",
+            "I"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 96
+        },
+        {
+          "offset": 94,
+          "opcode": 44
+        },
+        {
+          "offset": 95,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 62
+        },
+        {
+          "offset": 102,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 103,
+          "opcode": 54,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 29
+        },
+        {
+          "offset": 108,
+          "opcode": 162,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 43
+        },
+        {
+          "offset": 112,
+          "opcode": 44
+        },
+        {
+          "offset": 113,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 42
+        },
+        {
+          "offset": 122,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "trades",
+            "Lnet/minecraft/village/MerchantRecipeList;"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 44
+        },
+        {
+          "offset": 126,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "get",
+            "(I)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipeList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 87
+        },
+        {
+          "offset": 135,
+          "opcode": 44
+        },
+        {
+          "offset": 136,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "remove",
+            "(I)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 87
+        },
+        {
+          "offset": 142,
+          "opcode": 132,
+          "operands": [
+            4,
+            1
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 167,
+          "operands": [
+            255,
+            216
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 167,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 42
+        },
+        {
+          "offset": 152,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "trades",
+            "Lnet/minecraft/village/MerchantRecipeList;"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 44
+        },
+        {
+          "offset": 156,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipeList",
+            "addAll",
+            "(Ljava/util/Collection;)Z"
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 87
+        },
+        {
+          "offset": 160,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATrader.class",
+      "class_sha256": "1d3cc6ef459bbba5cea7d3aec4f20caec8b92c88ffff145bd4003ccb4bb3d36c",
+      "name": "func_70933_a",
+      "descriptor": "(Lnet/minecraft/village/MerchantRecipe;)V",
+      "code_sha256": "8ec7a37ccd59ef647471c548d2b6cb174eb0f0217a6f491790be295af4ec58a9",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "isFixedTradesList",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "trades",
+            "Lnet/minecraft/village/MerchantRecipeList;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipeList",
+            "size",
+            "()I"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "maxTradesCount",
+            "I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 161,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 177
+        },
+        {
+          "offset": 22,
+          "opcode": 43
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipe",
+            "func_77399_f",
+            "()V"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 154,
+          "operands": [
+            0,
+            107
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 43
+        },
+        {
+          "offset": 37,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipe",
+            "func_180321_e",
+            "()I"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 43
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipe",
+            "func_180320_f",
+            "()I"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 161,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 48,
+          "opcode": 61
+        },
+        {
+          "offset": 49,
+          "opcode": 42
+        },
+        {
+          "offset": 50,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "trades",
+            "Lnet/minecraft/village/MerchantRecipeList;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipeList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 78
+        },
+        {
+          "offset": 57,
+          "opcode": 45
+        },
+        {
+          "offset": 58,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 153,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 45
+        },
+        {
+          "offset": 67,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 192,
+          "operands": [
+            2,
+            140
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/village/MerchantRecipe",
+            "func_82784_g",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 154,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 86,
+          "opcode": 61
+        },
+        {
+          "offset": 87,
+          "opcode": 167,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 167,
+          "operands": [
+            255,
+            223
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 28
+        },
+        {
+          "offset": 94,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 42
+        },
+        {
+          "offset": 98,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "addNewTrade",
+            "()V"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 42
+        },
+        {
+          "offset": 102,
+          "opcode": 42
+        },
+        {
+          "offset": 103,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "serializeTradeStatuses",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "currentTradesInfo",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 42
+        },
+        {
+          "offset": 110,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "field_70180_af",
+            "Lnet/minecraft/network/datasync/EntityDataManager;"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "TRADE_STATUSES",
+            "Lnet/minecraft/network/datasync/DataParameter;"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 42
+        },
+        {
+          "offset": 117,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "currentTradesInfo",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/network/datasync/EntityDataManager",
+            "func_187227_b",
+            "(Lnet/minecraft/network/datasync/DataParameter;Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 123,
+          "opcode": 42
+        },
+        {
+          "offset": 124,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "field_70180_af",
+            "Lnet/minecraft/network/datasync/EntityDataManager;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "ADDITIONAL_TRADES",
+            "Lnet/minecraft/network/datasync/DataParameter;"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 42
+        },
+        {
+          "offset": 131,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "additionalTrades",
+            "I"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/network/datasync/EntityDataManager",
+            "func_187227_b",
+            "(Lnet/minecraft/network/datasync/DataParameter;Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATrader.class",
+      "class_sha256": "1d3cc6ef459bbba5cea7d3aec4f20caec8b92c88ffff145bd4003ccb4bb3d36c",
+      "name": "addNewTrade",
+      "descriptor": "()V",
+      "code_sha256": "6726f1224a75b15791deeedadda765a5336c2c2276b46d6a96f27e631db39323",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 89
+        },
+        {
+          "offset": 2,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "additionalTrades",
+            "I"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 6,
+          "opcode": 96
+        },
+        {
+          "offset": 7,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "additionalTrades",
+            "I"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATrader",
+            "generateTrades",
+            "()V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATraderRecipe.class",
+      "class_sha256": "50e9f0438cf0302d6be4171f88038cebab4b9a343b577710741ca948ae4df0eb",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/nbt/NBTTagCompound;)V",
+      "code_sha256": "fb453e40d8eb7575c97c537eb862518544afb47a8ba5a363c2e5fee451227a36",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/village/MerchantRecipe",
+            "<init>",
+            "(Lnet/minecraft/nbt/NBTTagCompound;)V"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATraderRecipe.class",
+      "class_sha256": "50e9f0438cf0302d6be4171f88038cebab4b9a343b577710741ca948ae4df0eb",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V",
+      "code_sha256": "a70f5faf123db96617eb03f98f3968d43a9b75f6bd0ea4fd5a43a636e6622424",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 5,
+          "opcode": 45
+        },
+        {
+          "offset": 6,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77985_e",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 13,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;II)V"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATraderRecipe.class",
+      "class_sha256": "50e9f0438cf0302d6be4171f88038cebab4b9a343b577710741ca948ae4df0eb",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;II)V",
+      "code_sha256": "eb0baffc5f7af8f67303916ea8e399236fe01256ea4427f92854918ddf48fa56",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/village/MerchantRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;II)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATraderRecipe.class",
+      "class_sha256": "50e9f0438cf0302d6be4171f88038cebab4b9a343b577710741ca948ae4df0eb",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V",
+      "code_sha256": "1897173d72a94e2c672dcf3c56d99c744bd11a5c8c6bc31f6d0156d0cbb40584",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "field_190927_a",
+            "Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoATraderRecipe.class",
+      "class_sha256": "50e9f0438cf0302d6be4171f88038cebab4b9a343b577710741ca948ae4df0eb",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/Item;)V",
+      "code_sha256": "554863db92245186a3e181634d58bbf6827ae0a8f9e06567ae1c5582bbcf891b",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "field_190927_a",
+            "Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 187,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 89
+        },
+        {
+          "offset": 9,
+          "opcode": 44
+        },
+        {
+          "offset": 10,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoATraderRecipe",
+            "<init>",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityCrystalTrader.class",
+      "class_sha256": "0d7d71b46c7d0b6d95e90209da8fe26fd41e7d0873db5b5ff3e6ef565ca51587",
+      "name": "isFixedTradesList",
+      "descriptor": "()Z",
+      "code_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityProfessor.class",
+      "class_sha256": "dbaa665e47c1079f23aee4c506d0b554879927875aa9176ba9fabcbec745fb6c",
+      "name": "isFixedTradesList",
+      "descriptor": "()Z",
+      "code_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityTokenCollector.class",
+      "class_sha256": "4a8e91f7b220d7eaf58c1232da2a28460560915e17af890741a1aba91179967f",
+      "name": "isFixedTradesList",
+      "descriptor": "()Z",
+      "code_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/npcs/trader/EntityTrollTrader.class",
+      "class_sha256": "8aad93c2c8aae10b5a08b3db57bb6bdedaa897e5e12bfb9fa101e855f929a317",
+      "name": "isFixedTradesList",
+      "descriptor": "()Z",
+      "code_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    }
+  ]
+}

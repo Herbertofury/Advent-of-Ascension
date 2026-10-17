@@ -37,6 +37,8 @@ In the [Recipe Observatory](https://herbertofury.github.io/Advent-of-Ascension/r
 
 All previous recipe-guide links are retained. The browser uses a compact inline lookup, with no additional network request or inventory scan for these links.
 
+[Weapons without a recipe: checked historical trader purchases and upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Buying-Weapons-and-Trader-Upgrades-1.12.2) cover 29 offers, including 18 weapon IDs absent from the recipe-output and creature-loot indexes.
+
 ## Illustrated walkthroughs
 
 - [Historical Infusion crafting and enchanting · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2): 386 definitions, separate base slot, 37 enchantment families and checked XP defaults.
