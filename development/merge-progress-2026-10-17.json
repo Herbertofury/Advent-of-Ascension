@@ -6,7 +6,7 @@
   "completeAoAPort": false,
   "currentPlayableArtifactChanged": false,
   "currentPlayableSha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
-  "candidateSourceOwners": 861,
+  "candidateSourceOwners": 862,
   "implementedPendingRuntime": [
     "Historical 1.7.10 Anima crop/flower/vine/AoA-leaf harvest and stone pickup progression",
     "Functional Fragmented Anima Stone through Forge bonemeal cancellation/ALLOW",
@@ -15,24 +15,26 @@
     "Extraction obsidian-column output, XP, tribute, bowl wear and partial/full inventory handling",
     "Restored Holly Arrow identity/NBT through native bow/crossbow wrapping and saves",
     "Latest upstream Blackstone/Basalt/Ancient Debris extraction eligibility with extension tag; every old predicate branch retained",
-    "Original per-unit Pixon Luxon tribute inserted in the newer complete harvest loop"
+    "Original per-unit Pixon Luxon tribute inserted in the newer complete harvest loop",
+    "Shared skill exact-XP threshold correction; all curves, caps, abilities, modifiers and save identities retained",
+    "Anima uses completed native pickup so ownership, delay, normal inventory admission, stats and animations remain native"
   ],
   "compileEvidence": {
-    "file": "output/aoa-v86h-extraction-anima-changed-source-compiler-20261017.json",
-    "sha256": "ba536c63d881f4f96a8e6ccf338abcdc2a0e858bf381c945cfde37b2dd71feb3",
-    "bytes": 10079018
+    "file": "output/aoa-v86m-extraction-anima-changed-source-compiler-20261017.json",
+    "sha256": "690d4c6b2bb3d2a6f00882d42dce44f45506130256ecc8f1e053f0cade508200",
+    "bytes": 10079989
   },
   "compileSummary": {
     "passed": true,
-    "changedCompleteJavaSources": 15,
+    "changedCompleteJavaSources": 16,
     "completeNativeClasspathEntries": 123,
-    "outputClasses": 24,
+    "outputClasses": 26,
     "annotationProcessing": "Disabled for this cheap diagnostic; normal whole native compile/AP/build/runtime remain required"
   },
   "sourcePlan": {
-    "file": "output\\aoa-forge1201-whole-native-extraction-anima-plan-v86i-native-sdk.json",
-    "sha256": "4b8a6e45d6818a87c42bd861292f7b6cfc78b2253b757db0d20fa631e054112f",
-    "bytes": 22973229
+    "file": "output/aoa-forge1201-whole-native-extraction-anima-plan-v86m-native-sdk.json",
+    "sha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
+    "bytes": 22977970
   },
   "upstreamObservation": {
     "file": "output/aoa-upstream-freshness-f636734a-a94f-450e-be83-399849990f8d.json",
@@ -48,7 +50,41 @@
     },
     "observedFailure": "Empty Anima skill JSON is an intentional disable marker; registration alone did not create the player skill.",
     "correction": "Nonempty native skill configuration plus safe disabled-skill interaction guards; corrected whole candidate is undergoing native acceptance.",
-    "promoted": false
+    "promoted": false,
+    "additionalFailedCases": [
+      {
+        "receipt": {
+          "file": "output/whole-mod-modern-server-baseline-9f691445-1f1c-495b-a49d-5516baf07937.json",
+          "sha256": "289b7c1d8479d45b0a09d1da36c6db2288ca55386c3bf9809e6365299a2d8322",
+          "bytes": 25651347
+        },
+        "observedFailure": "Eight Anima stones exposed the existing shared strict-greater XP threshold; exact required XP did not level up.",
+        "correction": "Add equality at the common AoASkill threshold and verify all 12 skills at 8 exact/cap boundaries."
+      },
+      {
+        "receipt": {
+          "file": "output/whole-mod-modern-server-baseline-ec4d0c66-99f6-4f85-8810-193d1d6fcf6d.json",
+          "sha256": "a05c4b736882022285568f8657bb247760c4870d388e4646f3a285c6d342a13e",
+          "bytes": 25659437
+        },
+        "observedFailure": "Inherited trader fixture found no ineligible/empty biome among nine coordinates in this fresh random world seed.",
+        "correction": "Keep every weighted/native placement assertion; extend real-biome search with noise queries and record the measured world seed/search extent."
+      }
+    ],
+    "currentProbe": {
+      "file": "output/aoa-v86m-native-extraction-anima-server-probe-b-20261017.json",
+      "sha256": "dfe3a1d44baf485b13623a25d72f63a5d12c9f38a0cfa7479677c0386f3a1888",
+      "bytes": 43806
+    },
+    "expectedNewScope": {
+      "canonicalSkillBoundaryCases": 96,
+      "animaProgressionSyncCases": 20,
+      "originalExtractionOutcomes": 22,
+      "extractionInventoryInteractions": 46,
+      "pixonTributeCases": 2,
+      "nativeArrowWrappingAndSaveCases": 2
+    },
+    "scopeStatus": "Corrected whole native run in progress; expected case counts are requirements, not passed results."
   },
   "stillOpen": [
     "Complete Anima Soul Power/tablet/armour consumer reconciliation",
@@ -58,7 +94,26 @@
     "Current candidate full native client/production acceptance and equivalent-work performance"
   ],
   "publication": "Factual metadata only; no original AoA code, assets or modified JAR are published.",
-  "completeSourceRecipeReadback": {
+  "previousSourceSnapshot": {
+    "sourcePlan": {
+      "file": "output\\aoa-forge1201-whole-native-extraction-anima-plan-v86i-native-sdk.json",
+      "sha256": "4b8a6e45d6818a87c42bd861292f7b6cfc78b2253b757db0d20fa631e054112f",
+      "bytes": 22973229
+    },
+    "compileEvidence": {
+      "file": "output/aoa-v86h-extraction-anima-changed-source-compiler-20261017.json",
+      "sha256": "ba536c63d881f4f96a8e6ccf338abcdc2a0e858bf381c945cfde37b2dd71feb3",
+      "bytes": 10079018
+    },
+    "compileSummary": {
+      "passed": true,
+      "changedCompleteJavaSources": 15,
+      "completeNativeClasspathEntries": 123,
+      "outputClasses": 24,
+      "annotationProcessing": "Disabled for this cheap diagnostic; normal whole native compile/AP/build/runtime remain required"
+    }
+  },
+  "previousSourceRecipeReadback": {
     "file": "output\\aoa-v86i-complete-source-recipe-readback-20261017.json",
     "sha256": "d537098ae5908d49b45dc41c990589120ac44a219c7d63992fcd66d17e222507",
     "bytes": 853
