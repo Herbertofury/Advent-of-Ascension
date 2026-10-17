@@ -288,6 +288,8 @@ Comparison key: `aoa3:dustopia`.
 
 **1.12.2 declaration:** `DIM_DUSTOPIA` selects `WorldProviderDustopia`; its integer ID comes from configuration.
 
+[Prepare the historical eight-lamp shrine and five-phase boss chain](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Primordial-Five-Shrine-and-Phase-Guide-1.12.2).
+
 #### 1.16.5 resource details
 
 - Generator: `minecraft:noise`; biome source: `minecraft:fixed`.
@@ -304,7 +306,7 @@ Comparison key: `aoa3:dustopia`.
 - Declared type fields: `min_y=0`, `height=384`, `logical_height=319`, `fixed_time=18000`, `has_skylight=false`, `has_ceiling=false`, `bed_works=true`, `respawn_anchor_works=true`, `coordinate_scale=1.0`.
 - Generator defaults: block `aoa3:darkened_rock`, fluid `minecraft:air`, sea level `0`.
 
-**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Adustopia) (10 dimension-tagged entries) · [1.16.5 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5&dimension=aoa3%3Adustopia) (13 dimension-tagged entries).
+**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Adustopia) (10 dimension-tagged entries; 5 arena routes) · [1.16.5 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5&dimension=aoa3%3Adustopia) (13 dimension-tagged entries).
 
 ### Gardencia
 

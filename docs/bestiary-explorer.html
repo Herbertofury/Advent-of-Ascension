@@ -12,7 +12,7 @@
 <script>
 
 'use strict';
-const RESOURCE_REVISIONS={"bestiary-data-1.12.2.json":"85b49a8d76b4081d","bestiary-data-1.16.5.json":"f4b241fa87602d1b","bestiary-data-1.20.1.json":"4a5e15360e277ae0","bestiary-data-1.21.1.json":"cd16d14daa1f10df","loot-data-1.12.2.json":"7be565e33b8490a3","loot-data-1.16.5.json":"b5d13adaf03bdc48","loot-data-1.20.1.json":"d65f3839fc72bb50","loot-data-1.21.1.json":"589b9b110ca783b8"};
+const RESOURCE_REVISIONS={"bestiary-data-1.12.2.json":"e9639633d3bbaee3","bestiary-data-1.16.5.json":"f4b241fa87602d1b","bestiary-data-1.20.1.json":"4a5e15360e277ae0","bestiary-data-1.21.1.json":"cd16d14daa1f10df","loot-data-1.12.2.json":"7be565e33b8490a3","loot-data-1.16.5.json":"b5d13adaf03bdc48","loot-data-1.20.1.json":"d65f3839fc72bb50","loot-data-1.21.1.json":"589b9b110ca783b8"};
 function resourceUrl(path){if(!Object.hasOwn(RESOURCE_REVISIONS,path))throw Error("Unindexed resource");return path+"?v="+RESOURCE_REVISIONS[path];}
 const $=id=>document.getElementById(id),BASE='https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/',SOURCE='https://github.com/Tslat/Advent-Of-Ascension/blob/';
 let data=null,rows=[],filtered=[],limit=36,legacyRows=[],activeRelease='1.12.2',releaseSequence=0,releaseLoading=false,exactEntityID=null,initialFilters=null,lastFilterUrl=null;
