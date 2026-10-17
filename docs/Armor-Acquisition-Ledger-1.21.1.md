@@ -2,7 +2,7 @@
 
 **Minecraft 1.21.1 / AoA 3.7.16.1.** Before planning a set, check whether its acquisition route is actually represented in this release. This ledger covers all **204 registered armor items**, grouped into **48 four-piece sets and 12 individual pieces**.
 
-[Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html?v=1.21.1) · [Effects and activation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) · [Materials and durability](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1)
+[Compare historical acquisition routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Acquisition-Across-Versions) · [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html?v=1.21.1) · [Effects and activation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) · [Materials and durability](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1)
 
 ## What the census establishes
 
