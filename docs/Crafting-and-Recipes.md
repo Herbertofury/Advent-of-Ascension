@@ -1,5 +1,7 @@
 # Crafting and recipes
 
+[Make frames before Infusion: Frame Bench workflow and eight armor-set shopping lists](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1)
+
 **See the ingredients, keep the version straight.** Recipes are extracted from official AoA release artifacts and paired with rendered item/block previews. This reference preserves conditional integration recipes and custom serializer fields instead of pretending every recipe is a crafting-table grid.
 
 ## Explore recipes

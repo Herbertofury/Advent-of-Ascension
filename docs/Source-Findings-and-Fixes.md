@@ -131,3 +131,13 @@ Released-bytecode checks confirm that the inspected official trader callers pass
 - [ ] If selection changes are warranted, share one bounded variant decision between model and texture paths and use existing synchronized skill/equipment state; avoid repeated registry or inventory scans during rendering.
 
 The stock level setter clamps 0–1000, so the `>=1000` versus `==1000` comparison alone does not establish a stock reachable mismatch. [Illustrated models, XP interpretation and acceptance matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) · [Exact released selection evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/skill-helmet-selection-evidence-1.21.1.json).
+
+## Frame Bench selector bounds and dynamic recipes · 1.21.1
+
+**Status: released menu/slot methods and 32 exact armor Infusion definitions inspected; no in-game crash or private candidate patch claimed.** Ten frame choices are menu-driven. The display-only FrameBenchRecipe returns a null serializer, so a JSON-only recipe census misses frame production. One output-take callback consumes one Scrap Metal. The inspected clickMenuButton assigns a changed selection and refreshes output without an explicit range guard before the later selection-array access.
+
+- [ ] Validate selection bounds and preserve the ten current options; do not assume the client screen is the only possible caller.
+- [ ] Verify normal take, repeated take, shift-click, empty input, full inventory, close/disconnect and reopen without duplication or input loss.
+- [ ] Keep client buttons, menu selection, display recipes and any future data-driven extensions aligned without repeated registry scans.
+
+[Illustrated preparation and eight full-set shopping lists](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1) · [Exact released evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/frame-bench-and-armor-infusion-evidence-1.21.1.json). Other armor acquisition paths remain separate work; absence from the 32 Infusion outputs is not proof of unavailability.

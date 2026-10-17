@@ -1,5 +1,7 @@
 # Infusion Table crafting · 1.21.1
 
+[Make frames before Infusion: Frame Bench workflow and eight armor-set shopping lists](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1)
+
 **Minecraft 1.21.1 / AoA 3.7.16.1.** Build the station, put the base in the correct slot, and match repeated ingredients without confusing stack size with occupied slots. The inspected release supplies **62 `aoa3:infusion` recipe definitions**. This count describes bundled recipes, not proof that every material is obtainable in an unfinished dimension.
 
 [Recipe Observatory: this release](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.21.1) · [Crafting overview](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crafting-and-Recipes) · [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.21.1)
