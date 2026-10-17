@@ -1,0 +1,4492 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Eight released Vulcane registrations and bounded Rage/targeting regression evidence. Not an in-game reproduction or a patch to the owner-local candidate.",
+  "records": [
+    {
+      "id": "aoa3:vulcane",
+      "name": "Vulcane",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 50,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7050
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7055
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7061
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$248",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              58
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 50
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/Vulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb043a59b2043c1032b904120200b7043fb0"
+      }
+    },
+    {
+      "id": "aoa3:battle_vulcane",
+      "name": "Vulcane (Battle)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7067
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7072
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7078
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$249",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              52
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "BATTLE_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/BattleVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb043459b20436104bb904120200b70439b0"
+      }
+    },
+    {
+      "id": "aoa3:equality_vulcane",
+      "name": "Vulcane (Equality)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7084
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7089
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7095
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$250",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              46
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "EQUALITY_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/EqualityVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb042e59b20430104bb904120200b70433b0"
+      }
+    },
+    {
+      "id": "aoa3:fire_vulcane",
+      "name": "Vulcane (Fire)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7101
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7106
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7112
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$251",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              40
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "FIRE_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/FireVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb042859b2042a104bb904120200b7042db0"
+      }
+    },
+    {
+      "id": "aoa3:impairment_vulcane",
+      "name": "Vulcane (Impairment)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7118
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7123
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7129
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$252",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              34
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "IMPAIRMENT_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/ImpairmentVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb042259b20424104bb904120200b70427b0"
+      }
+    },
+    {
+      "id": "aoa3:poison_vulcane",
+      "name": "Vulcane (Poison)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7135
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7140
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7146
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$253",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              28
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "POISON_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/PoisonVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb041c59b2041e104bb904120200b70421b0"
+      }
+    },
+    {
+      "id": "aoa3:power_vulcane",
+      "name": "Vulcane (Power)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7152
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7157
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7163
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$254",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              22
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "POWER_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/PowerVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb041659b20418104bb904120200b7041bb0"
+      }
+    },
+    {
+      "id": "aoa3:wither_vulcane",
+      "name": "Vulcane (Wither)",
+      "damage": 10.0,
+      "rage_threshold": 50.0,
+      "durability": 75,
+      "stat_builder_calls": [
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+            "of",
+            "()Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder;"
+          ],
+          "args": [],
+          "offset": 7169
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            10.0
+          ],
+          "offset": 7174
+        },
+        {
+          "call": [
+            "net/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2",
+            "rageCost",
+            "(F)Lnet/tslat/aoa3/library/builder/item/VulcaneProperties$Builder$Stage2;"
+          ],
+          "args": [
+            50.0
+          ],
+          "offset": 7180
+        }
+      ],
+      "registration_factory": {
+        "name": "lambda$static$255",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              12
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/item/AoAItemStats",
+              "WITHER_VULCANE",
+              "Lnet/tslat/aoa3/library/builder/item/VulcaneProperties;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 75
+          },
+          {
+            "offset": 9,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/library/builder/item/VulcaneProperties",
+              "durability",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/vulcane/WitherVulcane",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ],
+        "code_hex": "bb040c59b2040e104bb904120200b70415b0"
+      }
+    }
+  ],
+  "behavior_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane.class",
+      "sha256": "63d14bd279c942182e4423a0e6d2fe866c6b03f049680ffb28b6c78073cbf39f",
+      "methods": [
+        {
+          "name": "getVulcaneDamage",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)F",
+          "code_hex": "2a2bb6001cb60022ae",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "getVulcaneStats",
+                "(Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/content/item/datacomponent/VulcaneStats;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/datacomponent/VulcaneStats",
+                "damage",
+                "()F"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 174
+            }
+          ]
+        },
+        {
+          "name": "getRageCost",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)F",
+          "code_hex": "2a2bb6001cb60026ae",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "getVulcaneStats",
+                "(Lnet/minecraft/world/item/ItemStack;)Lnet/tslat/aoa3/content/item/datacomponent/VulcaneStats;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/datacomponent/VulcaneStats",
+                "rageCost",
+                "()F"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 174
+            }
+          ]
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2c2db6003e3a042cb20044b6000dc00049b8004b3a052a1904b6005138062cb600559a001319051706b600599a00091904b8005fb02bc100659900602bc000653a072cb600673a081908c700091904b8005fb02a19072c190819040c1905b6006b2a1904b60051661905b6006e6e62b600719900272a19072c19081904b600752c19042db8007919051905b6006b04b6007f571904b80083b019042bb40086b8008cb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 45
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 44
+            },
+            {
+              "offset": 8,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/custom/AoAResources",
+                "RAGE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 192,
+              "operands": [
+                0,
+                73
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "getResource",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/tslat/aoa3/player/resource/AoAResource;)Lnet/tslat/aoa3/player/resource/AoAResource$Instance;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 42
+            },
+            {
+              "offset": 23,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "getRageCost",
+                "(Lnet/minecraft/world/item/ItemStack;)F"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 56,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 44
+            },
+            {
+              "offset": 31,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "hasInfiniteMaterials",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 154,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 23,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "hasAmount",
+                "(F)Z"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 154,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 47,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "fail",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 176
+            },
+            {
+              "offset": 53,
+              "opcode": 43
+            },
+            {
+              "offset": 54,
+              "opcode": 193,
+              "operands": [
+                0,
+                101
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 153,
+              "operands": [
+                0,
+                96
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 43
+            },
+            {
+              "offset": 61,
+              "opcode": 192,
+              "operands": [
+                0,
+                101
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 44
+            },
+            {
+              "offset": 67,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getLastHurtByMob",
+                "()Lnet/minecraft/world/entity/LivingEntity;"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 199,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 79,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "fail",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 176
+            },
+            {
+              "offset": 83,
+              "opcode": 42
+            },
+            {
+              "offset": 84,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 44
+            },
+            {
+              "offset": 87,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 89,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 12
+            },
+            {
+              "offset": 92,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "getCurrentValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 42
+            },
+            {
+              "offset": 98,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "getRageCost",
+                "(Lnet/minecraft/world/item/ItemStack;)F"
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 102
+            },
+            {
+              "offset": 104,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "getMaxValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 110
+            },
+            {
+              "offset": 110,
+              "opcode": 98
+            },
+            {
+              "offset": 111,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "activate",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)Z"
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 153,
+              "operands": [
+                0,
+                39
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 42
+            },
+            {
+              "offset": 118,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 44
+            },
+            {
+              "offset": 121,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 125,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "doActivationFx",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 44
+            },
+            {
+              "offset": 129,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 131,
+              "opcode": 45
+            },
+            {
+              "offset": 132,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/ItemUtil",
+                "damageItemForUser",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)V"
+              ]
+            },
+            {
+              "offset": 135,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 137,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "getCurrentValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 142,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 143,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "consume",
+                "(FZ)Z"
+              ]
+            },
+            {
+              "offset": 146,
+              "opcode": 87
+            },
+            {
+              "offset": 147,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "success",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 152,
+              "opcode": 176
+            },
+            {
+              "offset": 153,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 43
+            },
+            {
+              "offset": 156,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 159,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "sidedSuccess",
+                "(Ljava/lang/Object;Z)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 162,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "activate",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)Z",
+          "code_hex": "2c2d2a1904b6009017056ab800939900172a2b2c2d19042a1904b6009017056ab6009904ac03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 45
+            },
+            {
+              "offset": 2,
+              "opcode": 42
+            },
+            {
+              "offset": 3,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "getVulcaneDamage",
+                "(Lnet/minecraft/world/item/ItemStack;)F"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 106
+            },
+            {
+              "offset": 11,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "doVulcaneAttack",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 153,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 42
+            },
+            {
+              "offset": 18,
+              "opcode": 43
+            },
+            {
+              "offset": 19,
+              "opcode": 44
+            },
+            {
+              "offset": 20,
+              "opcode": 45
+            },
+            {
+              "offset": 21,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 42
+            },
+            {
+              "offset": 24,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "getVulcaneDamage",
+                "(Lnet/minecraft/world/item/ItemStack;)F"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 106
+            },
+            {
+              "offset": 32,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/vulcane/AoAVulcane",
+                "onDamageEntity",
+                "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 36,
+              "opcode": 172
+            },
+            {
+              "offset": 37,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 38,
+              "opcode": 172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/resource/RageResource.class",
+      "sha256": "306b005ab8e76c2b61923087585e017319eca3f4ff97bfd36f01b720c604cb28",
+      "methods": [
+        {
+          "name": "setValue",
+          "descriptor": "(F)V",
+          "code_hex": "2a230b2ab60056b8005ab500342a04b50060b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 35
+            },
+            {
+              "offset": 2,
+              "opcode": 11
+            },
+            {
+              "offset": 3,
+              "opcode": 42
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "getMaxValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/util/Mth",
+                "clamp",
+                "(FFF)F"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "value",
+                "F"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 42
+            },
+            {
+              "offset": 14,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 15,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "needsSync",
+                "Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "handleAfterDamaged",
+          "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/LivingDamageEvent$Post;)V",
+          "code_hex": "2bb60064b6006ac600172a2ab600562ab400342bb6007062b80073b50034b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/entity/living/LivingDamageEvent$Post",
+                "getSource",
+                "()Lnet/minecraft/world/damagesource/DamageSource;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/damagesource/DamageSource",
+                "getEntity",
+                "()Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 198,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 42
+            },
+            {
+              "offset": 11,
+              "opcode": 42
+            },
+            {
+              "offset": 12,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "getMaxValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "value",
+                "F"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 43
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/entity/living/LivingDamageEvent$Post",
+                "getOriginalDamage",
+                "()F"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 98
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "min",
+                "(FF)F"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "value",
+                "F"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "handlePlayerTick",
+          "descriptor": "(Lnet/neoforged/neoforge/event/tick/PlayerTickEvent$Pre;)V",
+          "code_hex": "2ab400340b959e00102a59b400342ab4004d66b50034b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "value",
+                "F"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 11
+            },
+            {
+              "offset": 5,
+              "opcode": 149
+            },
+            {
+              "offset": 6,
+              "opcode": 158,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 89
+            },
+            {
+              "offset": 11,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "value",
+                "F"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 42
+            },
+            {
+              "offset": 15,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "perTickDrain",
+                "F"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 102
+            },
+            {
+              "offset": 19,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "value",
+                "F"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "getSyncData",
+          "descriptor": "(Z)Lnet/minecraft/nbt/CompoundTag;",
+          "code_hex": "bb005159b700764d1b99001a2c12382ab40047b600792c124a2ab4004db60079a7000d2c127d2ab6007eb600791b9a00082a03b500602cb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                81
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 77
+            },
+            {
+              "offset": 8,
+              "opcode": 27
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                26
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 44
+            },
+            {
+              "offset": 13,
+              "opcode": 18,
+              "constant": "max_value"
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "maxValue",
+                "F"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "putFloat",
+                "(Ljava/lang/String;F)V"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 44
+            },
+            {
+              "offset": 23,
+              "opcode": 18,
+              "constant": "per_tick_drain"
+            },
+            {
+              "offset": 25,
+              "opcode": 42
+            },
+            {
+              "offset": 26,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "perTickDrain",
+                "F"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "putFloat",
+                "(Ljava/lang/String;F)V"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 167,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 44
+            },
+            {
+              "offset": 36,
+              "opcode": 18,
+              "constant": "value"
+            },
+            {
+              "offset": 38,
+              "opcode": 42
+            },
+            {
+              "offset": 39,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "getCurrentValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "putFloat",
+                "(Ljava/lang/String;F)V"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 27
+            },
+            {
+              "offset": 46,
+              "opcode": 154,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 42
+            },
+            {
+              "offset": 50,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 51,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/player/resource/RageResource",
+                "needsSync",
+                "Z"
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 44
+            },
+            {
+              "offset": 55,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/ServerPlayerDataManager$Stats.class",
+      "sha256": "d427b1e8d8dec0ab1f2c3b7294ede7275b87a65282e1ff4d62051d4674ccd6fa",
+      "methods": [
+        {
+          "name": "getSyncData",
+          "descriptor": "(Ljava/util/function/Supplier;)Z",
+          "code_hex": "014d014e2ab60038b9003c01003a041904b90042010099003c1904b900480100c000363a051905b400cd9900252cc7000bbb00d059b700d24d2c1905b600d3b800d7b600dd190503b600e3b600e757a7ffc02ab600ebb9003c01003a041904b90042010099003c1904b900480100c0006f3a051905b400ee9900252dc7000bbb00d059b700d24e2d1905b600efb800f2b600dd190503b600f5b600e757a7ffc02cc600132bb900f60100c000d012f92cb600e7572dc600132bb900f60100c000d012fa2db600e7572cc700092dc7000503ac2bb900f60100c000d012fb2ab600fdb600ff04ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 1
+            },
+            {
+              "offset": 1,
+              "opcode": 77
+            },
+            {
+              "offset": 2,
+              "opcode": 1
+            },
+            {
+              "offset": 3,
+              "opcode": 78
+            },
+            {
+              "offset": 4,
+              "opcode": 42
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+                "getSkills",
+                "()Ljava/util/Collection;"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 185,
+              "member": [
+                "java/util/Collection",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 153,
+              "operands": [
+                0,
+                60
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 192,
+              "operands": [
+                0,
+                54
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/skill/AoASkill$Instance",
+                "needsSync",
+                "Z"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 153,
+              "operands": [
+                0,
+                37
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 44
+            },
+            {
+              "offset": 46,
+              "opcode": 199,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 187,
+              "operands": [
+                0,
+                208
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 89
+            },
+            {
+              "offset": 53,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 77
+            },
+            {
+              "offset": 57,
+              "opcode": 44
+            },
+            {
+              "offset": 58,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/skill/AoASkill$Instance",
+                "type",
+                "()Lnet/tslat/aoa3/player/skill/AoASkill;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/RegistryUtil",
+                "getId",
+                "(Lnet/tslat/aoa3/player/skill/AoASkill;)Lnet/minecraft/resources/ResourceLocation;"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/resources/ResourceLocation",
+                "toString",
+                "()Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 72,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/skill/AoASkill$Instance",
+                "getSyncData",
+                "(Z)Lnet/minecraft/nbt/CompoundTag;"
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "put",
+                "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 87
+            },
+            {
+              "offset": 79,
+              "opcode": 167,
+              "operands": [
+                255,
+                192
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 42
+            },
+            {
+              "offset": 83,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+                "getResources",
+                "()Ljava/util/Collection;"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 185,
+              "member": [
+                "java/util/Collection",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 153,
+              "operands": [
+                0,
+                60
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 192,
+              "operands": [
+                0,
+                111
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 115,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "needsSync",
+                "Z"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 153,
+              "operands": [
+                0,
+                37
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 45
+            },
+            {
+              "offset": 124,
+              "opcode": 199,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 127,
+              "opcode": 187,
+              "operands": [
+                0,
+                208
+              ]
+            },
+            {
+              "offset": 130,
+              "opcode": 89
+            },
+            {
+              "offset": 131,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "<init>",
+                "()V"
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 78
+            },
+            {
+              "offset": 135,
+              "opcode": 45
+            },
+            {
+              "offset": 136,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 138,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "type",
+                "()Lnet/tslat/aoa3/player/resource/AoAResource;"
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/RegistryUtil",
+                "getId",
+                "(Lnet/tslat/aoa3/player/resource/AoAResource;)Lnet/minecraft/resources/ResourceLocation;"
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/resources/ResourceLocation",
+                "toString",
+                "()Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 149,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 150,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "getSyncData",
+                "(Z)Lnet/minecraft/nbt/CompoundTag;"
+              ]
+            },
+            {
+              "offset": 153,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "put",
+                "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+              ]
+            },
+            {
+              "offset": 156,
+              "opcode": 87
+            },
+            {
+              "offset": 157,
+              "opcode": 167,
+              "operands": [
+                255,
+                192
+              ]
+            },
+            {
+              "offset": 160,
+              "opcode": 44
+            },
+            {
+              "offset": 161,
+              "opcode": 198,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 43
+            },
+            {
+              "offset": 165,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Supplier",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 170,
+              "opcode": 192,
+              "operands": [
+                0,
+                208
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 18,
+              "constant": "skills"
+            },
+            {
+              "offset": 175,
+              "opcode": 44
+            },
+            {
+              "offset": 176,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "put",
+                "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+              ]
+            },
+            {
+              "offset": 179,
+              "opcode": 87
+            },
+            {
+              "offset": 180,
+              "opcode": 45
+            },
+            {
+              "offset": 181,
+              "opcode": 198,
+              "operands": [
+                0,
+                19
+              ]
+            },
+            {
+              "offset": 184,
+              "opcode": 43
+            },
+            {
+              "offset": 185,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Supplier",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 190,
+              "opcode": 192,
+              "operands": [
+                0,
+                208
+              ]
+            },
+            {
+              "offset": 193,
+              "opcode": 18,
+              "constant": "resources"
+            },
+            {
+              "offset": 195,
+              "opcode": 45
+            },
+            {
+              "offset": 196,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "put",
+                "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+              ]
+            },
+            {
+              "offset": 199,
+              "opcode": 87
+            },
+            {
+              "offset": 200,
+              "opcode": 44
+            },
+            {
+              "offset": 201,
+              "opcode": 199,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 204,
+              "opcode": 45
+            },
+            {
+              "offset": 205,
+              "opcode": 199,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 208,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 209,
+              "opcode": 172
+            },
+            {
+              "offset": 210,
+              "opcode": 43
+            },
+            {
+              "offset": 211,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Supplier",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 216,
+              "opcode": 192,
+              "operands": [
+                0,
+                208
+              ]
+            },
+            {
+              "offset": 219,
+              "opcode": 18,
+              "constant": "legitimate"
+            },
+            {
+              "offset": 221,
+              "opcode": 42
+            },
+            {
+              "offset": 222,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ServerPlayerDataManager$Stats",
+                "isLegitimate",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 225,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/nbt/CompoundTag",
+                "putBoolean",
+                "(Ljava/lang/String;Z)V"
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 229,
+              "opcode": 172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/resource/AoAResource$Instance.class",
+      "sha256": "faf66c8045c6648ee9b30c71996b3c05bf602f1d65ac2e685a7274c660e6d42b",
+      "methods": [
+        {
+          "name": "addValue",
+          "descriptor": "(F)V",
+          "code_hex": "2a2ab600292362b6002db1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 42
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "getCurrentValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 35
+            },
+            {
+              "offset": 6,
+              "opcode": 98
+            },
+            {
+              "offset": 7,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "setValue",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "consume",
+          "descriptor": "(FZ)Z",
+          "code_hex": "2ab4000db60015b800319a000504ac2ab60029462523969c00181c9a00142ab4000db600152ab6001b23b8003703ac2a0b252366b8003bb6002d2a04b500071c9900092523959b000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "playerDataManager",
+                "Lnet/tslat/aoa3/player/ServerPlayerDataManager;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ServerPlayerDataManager",
+                "getPlayer",
+                "()Lnet/minecraft/server/level/ServerPlayer;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "shouldPlayerBeAffected",
+                "(Lnet/minecraft/world/entity/player/Player;)Z"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 154,
+              "operands": [
+                0,
+                5
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 14,
+              "opcode": 172
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "getCurrentValue",
+                "()F"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 70
+            },
+            {
+              "offset": 20,
+              "opcode": 37
+            },
+            {
+              "offset": 21,
+              "opcode": 35
+            },
+            {
+              "offset": 22,
+              "opcode": 150
+            },
+            {
+              "offset": 23,
+              "opcode": 156,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 28
+            },
+            {
+              "offset": 27,
+              "opcode": 154,
+              "operands": [
+                0,
+                20
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 42
+            },
+            {
+              "offset": 31,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "playerDataManager",
+                "Lnet/tslat/aoa3/player/ServerPlayerDataManager;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/ServerPlayerDataManager",
+                "getPlayer",
+                "()Lnet/minecraft/server/level/ServerPlayer;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 42
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "type",
+                "()Lnet/tslat/aoa3/player/resource/AoAResource;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 35
+            },
+            {
+              "offset": 42,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/PlayerUtil",
+                "notifyPlayerOfInsufficientResources",
+                "(Lnet/minecraft/server/level/ServerPlayer;Lnet/tslat/aoa3/player/resource/AoAResource;F)V"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 46,
+              "opcode": 172
+            },
+            {
+              "offset": 47,
+              "opcode": 42
+            },
+            {
+              "offset": 48,
+              "opcode": 11
+            },
+            {
+              "offset": 49,
+              "opcode": 37
+            },
+            {
+              "offset": 50,
+              "opcode": 35
+            },
+            {
+              "offset": 51,
+              "opcode": 102
+            },
+            {
+              "offset": 52,
+              "opcode": 184,
+              "member": [
+                "java/lang/Math",
+                "max",
+                "(FF)F"
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "setValue",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 42
+            },
+            {
+              "offset": 59,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 60,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/player/resource/AoAResource$Instance",
+                "needsSync",
+                "Z"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 28
+            },
+            {
+              "offset": 64,
+              "opcode": 153,
+              "operands": [
+                0,
+                9
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 37
+            },
+            {
+              "offset": 68,
+              "opcode": 35
+            },
+            {
+              "offset": 69,
+              "opcode": 149
+            },
+            {
+              "offset": 70,
+              "opcode": 155,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 74,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 78,
+              "opcode": 172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/util/EntityUtil.class",
+      "sha256": "3fbecdecd75823d1f45ebbae54753a9c3abc3ed6dbb53c8aef2b88000f3e7b3a",
+      "methods": [
+        {
+          "name": "applyPotions",
+          "descriptor": "(Ljava/util/Collection;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V",
+          "code_hex": "2ab900d801004e2db900de01009900182db900e30100c000163a0419042b2cb800e7a7ffe5b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 185,
+              "member": [
+                "java/util/Collection",
+                "iterator",
+                "()Ljava/util/Iterator;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 78
+            },
+            {
+              "offset": 7,
+              "opcode": 45
+            },
+            {
+              "offset": 8,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "hasNext",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 153,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 45
+            },
+            {
+              "offset": 17,
+              "opcode": 185,
+              "member": [
+                "java/util/Iterator",
+                "next",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 192,
+              "operands": [
+                0,
+                22
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 43
+            },
+            {
+              "offset": 30,
+              "opcode": 44
+            },
+            {
+              "offset": 31,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 167,
+              "operands": [
+                255,
+                229
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "applyPotions",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V",
+          "code_hex": "2ab800eb4b2ac1003399001d2ac000334e2ab600ef9900112ab600f09a000a2ac100f3990004b12ac1002d9900182ac0002d3a051905b600f5b400f999000704a700040336042c3a051905be360603360715071506a2003319051507323a0815049900161908b600feb901040100c00109b6010b99000e2d1908b6010e2bb6011257840701a7ffccb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "getPartOrPartOwner",
+                "(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/Entity;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 75
+            },
+            {
+              "offset": 5,
+              "opcode": 42
+            },
+            {
+              "offset": 6,
+              "opcode": 193,
+              "operands": [
+                0,
+                51
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 153,
+              "operands": [
+                0,
+                29
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 42
+            },
+            {
+              "offset": 13,
+              "opcode": 192,
+              "operands": [
+                0,
+                51
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 78
+            },
+            {
+              "offset": 17,
+              "opcode": 42
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "isAlive",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 153,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 42
+            },
+            {
+              "offset": 25,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/Entity",
+                "isSpectator",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 154,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 42
+            },
+            {
+              "offset": 32,
+              "opcode": 193,
+              "operands": [
+                0,
+                243
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 153,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 177
+            },
+            {
+              "offset": 39,
+              "opcode": 42
+            },
+            {
+              "offset": 40,
+              "opcode": 193,
+              "operands": [
+                0,
+                45
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 153,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 42
+            },
+            {
+              "offset": 47,
+              "opcode": 192,
+              "operands": [
+                0,
+                45
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getAbilities",
+                "()Lnet/minecraft/world/entity/player/Abilities;"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/entity/player/Abilities",
+                "invulnerable",
+                "Z"
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 64,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 68,
+              "opcode": 54,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 44
+            },
+            {
+              "offset": 71,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 190
+            },
+            {
+              "offset": 76,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 79,
+              "opcode": 54,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 21,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 21,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 162,
+              "operands": [
+                0,
+                51
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 21,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 92,
+              "opcode": 50
+            },
+            {
+              "offset": 93,
+              "opcode": 58,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 95,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 97,
+              "opcode": 153,
+              "operands": [
+                0,
+                22
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 102,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "getEffect",
+                "()Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/core/Holder",
+                "value",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 192,
+              "operands": [
+                1,
+                9
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/effect/MobEffect",
+                "isBeneficial",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 153,
+              "operands": [
+                0,
+                14
+              ]
+            },
+            {
+              "offset": 119,
+              "opcode": 45
+            },
+            {
+              "offset": 120,
+              "opcode": 25,
+              "operands": [
+                8
+              ]
+            },
+            {
+              "offset": 122,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "build",
+                "()Lnet/minecraft/world/effect/MobEffectInstance;"
+              ]
+            },
+            {
+              "offset": 125,
+              "opcode": 43
+            },
+            {
+              "offset": 126,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "addEffect",
+                "(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 129,
+              "opcode": 87
+            },
+            {
+              "offset": 130,
+              "opcode": 132,
+              "operands": [
+                7,
+                1
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 167,
+              "operands": [
+                255,
+                204
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/player/AoAPlayerEventListener.class",
+      "sha256": "0a8d23557f13fe9325ee8a664a5710b8f032e0ae27c100f701bf9bdf7c1841d1",
+      "methods": [
+        {
+          "name": "listener",
+          "descriptor": "(Ljava/lang/Class;Ljava/util/function/Function;Ljava/util/function/Consumer;)Lnet/tslat/aoa3/event/dynamic/DynamicEventSubscriber;",
+          "code_hex": "2b2a2a2cba003a00002db9003e03002aba00420000b80046b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 42
+            },
+            {
+              "offset": 2,
+              "opcode": 42
+            },
+            {
+              "offset": 3,
+              "opcode": 44
+            },
+            {
+              "offset": 4,
+              "opcode": 186,
+              "operands": [
+                0,
+                58,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 45
+            },
+            {
+              "offset": 10,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/player/AoAPlayerEventListener",
+                "conditionally",
+                "(Ljava/util/function/Predicate;Ljava/util/function/Consumer;)Ljava/util/function/Consumer;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 42
+            },
+            {
+              "offset": 16,
+              "opcode": 186,
+              "operands": [
+                0,
+                66,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/event/dynamic/DynamicEventSubscriber",
+                "of",
+                "(Ljava/lang/Class;Ljava/util/function/Consumer;Ljava/util/function/BooleanSupplier;)Lnet/tslat/aoa3/event/dynamic/DynamicEventSubscriber;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "listener",
+          "descriptor": "(Ljava/lang/Class;Ljava/util/function/Consumer;)Lnet/tslat/aoa3/event/dynamic/DynamicEventSubscriber;",
+          "code_hex": "2b2a2aba004900002cb9003e03002aba00420000b80046b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 42
+            },
+            {
+              "offset": 2,
+              "opcode": 42
+            },
+            {
+              "offset": 3,
+              "opcode": 186,
+              "operands": [
+                0,
+                73,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 44
+            },
+            {
+              "offset": 9,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/player/AoAPlayerEventListener",
+                "conditionally",
+                "(Ljava/util/function/Predicate;Ljava/util/function/Consumer;)Ljava/util/function/Consumer;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 42
+            },
+            {
+              "offset": 15,
+              "opcode": 186,
+              "operands": [
+                0,
+                66,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/event/dynamic/DynamicEventSubscriber",
+                "of",
+                "(Ljava/lang/Class;Ljava/util/function/Consumer;Ljava/util/function/BooleanSupplier;)Lnet/tslat/aoa3/event/dynamic/DynamicEventSubscriber;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "conditionally",
+          "descriptor": "(Ljava/util/function/Predicate;Ljava/util/function/Consumer;)Ljava/util/function/Consumer;",
+          "code_hex": "2b2cba004c0000b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 44
+            },
+            {
+              "offset": 2,
+              "opcode": 186,
+              "operands": [
+                0,
+                76,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "afterTakingDamage",
+          "descriptor": "(Ljava/util/function/Consumer;)Lnet/tslat/aoa3/event/dynamic/DynamicEventSubscriber;",
+          "code_hex": "2a125bba005e00002bb900560400b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 18,
+              "constant": "net/neoforged/neoforge/event/entity/living/LivingDamageEvent$Post"
+            },
+            {
+              "offset": 3,
+              "opcode": 186,
+              "operands": [
+                0,
+                94,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 43
+            },
+            {
+              "offset": 9,
+              "opcode": 185,
+              "member": [
+                "net/tslat/aoa3/player/AoAPlayerEventListener",
+                "listener",
+                "(Ljava/lang/Class;Ljava/util/function/Function;Ljava/util/function/Consumer;)Lnet/tslat/aoa3/event/dynamic/DynamicEventSubscriber;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/event/dynamic/DynamicEventSubscriber$Impl.class",
+      "sha256": "1b3dfc641327b42974bdc057a1f0f5ede0cf4c7a571df49a1afda99161c2b6f4",
+      "methods": [
+        {
+          "name": "accept",
+          "descriptor": "(Lnet/neoforged/bus/api/Event;)V",
+          "code_hex": "2ab4000d2bb9001b0200b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/event/dynamic/DynamicEventSubscriber$Impl",
+                "handler",
+                "Ljava/util/function/Consumer;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 43
+            },
+            {
+              "offset": 5,
+              "opcode": 185,
+              "member": [
+                "java/util/function/Consumer",
+                "accept",
+                "(Ljava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "accept",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "code_hex": "2a2bc00021b60023b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 192,
+              "operands": [
+                0,
+                33
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/event/dynamic/DynamicEventSubscriber$Impl",
+                "accept",
+                "(Lnet/neoforged/bus/api/Event;)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/BattleVulcane.class",
+      "sha256": "fb21f2be4198bc0afda5a9974bbc9fb55fedd5bbbc58b0a5cbf280f17b871750",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2d2c04bd00075903bb000759b200091100c8b7000f05b6001253b80016b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 44
+            },
+            {
+              "offset": 2,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 3,
+              "opcode": 189,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 89
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 187,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "DAMAGE_BOOST",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 18,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 83
+            },
+            {
+              "offset": 26,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/EqualityVulcane.class",
+      "sha256": "ccc06666db09262602d4022e4c91d1e83d74e1cd7bf5700c22a58efd934ba92f",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2c17050d6eb80007b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 13
+            },
+            {
+              "offset": 4,
+              "opcode": 110
+            },
+            {
+              "offset": 5,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "healEntity",
+                "(Lnet/minecraft/world/entity/LivingEntity;F)V"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/FireVulcane.class",
+      "sha256": "f3b25d7d76aff200633f8c7476dc5818360c79a76c70da4fdba15ffd50eda2d9",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2d1207b60008b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 18,
+              "constant": 8.0
+            },
+            {
+              "offset": 3,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "igniteForSeconds",
+                "(F)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/ImpairmentVulcane.class",
+      "sha256": "73d1b2cf2a6bfa7fd3cbbb86e950bd966db433d99e8fb64f5345d8aa9c710256",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2d2c04bd00075903bb000759b200091064b7000f06b6001253b80016b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 44
+            },
+            {
+              "offset": 2,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 3,
+              "opcode": 189,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 89
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 187,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "MOVEMENT_SLOWDOWN",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 17,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 21,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 83
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/PoisonVulcane.class",
+      "sha256": "fa017a7ab229f6b1dac60aca70d46d37d374eca4ad9188b04cf235c9982c8198",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2d2c04bd00075903bb000759b2000911008cb7000f05b6001253b80016b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 44
+            },
+            {
+              "offset": 2,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 3,
+              "opcode": 189,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 89
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 187,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "POISON",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 17,
+              "constant": 140
+            },
+            {
+              "offset": 18,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 22,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 83
+            },
+            {
+              "offset": 26,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/PowerVulcane.class",
+      "sha256": "2bf56ad5aecae2ea0bfbeb3ef0365acc138df2d94c6f039293c5966d767cff17",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2d2c04bd00075903bb000759b200091064b7000f05b6001253b80016b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 44
+            },
+            {
+              "offset": 2,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 3,
+              "opcode": 189,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 89
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 187,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "WEAKNESS",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 17,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 21,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 83
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/item/weapon/vulcane/WitherVulcane.class",
+      "sha256": "e677ba5cb05de5092d83f77de544fd3251134c36a9d082293e490b4435d4c7a6",
+      "methods": [
+        {
+          "name": "onDamageEntity",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;F)V",
+          "code_hex": "2d2c04bd00075903bb000759b200091046b7000f05b6001253b80016b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 44
+            },
+            {
+              "offset": 2,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 3,
+              "opcode": 189,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 89
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 187,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "WITHER",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 16,
+              "constant": 70
+            },
+            {
+              "offset": 17,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 21,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 83
+            },
+            {
+              "offset": 25,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rage_resource": {
+    "path": "data/aoa3/player/resources/rage.json",
+    "sha256": "5b165bfc1fda52555d33224b706a2d4ed16630fbe6ba658456986b2084048db4",
+    "data": {
+      "max_value": 100.0,
+      "per_tick_drain": 0.01
+    }
+  },
+  "findings": [
+    {
+      "id": "rage-all-on-success",
+      "status": "released base path",
+      "detail": "The success branch passes current Rage to consume, not the configured threshold."
+    },
+    {
+      "id": "battle-effect-target",
+      "status": "released call-argument observation; design/runtime review required",
+      "detail": "BattleVulcane passes hitEntity as the effect target and user as the source to applyPotions."
+    },
+    {
+      "id": "rage-dirty-flag",
+      "status": "bounded static regression candidate",
+      "detail": "Damage and drain handlers write value directly without setValue/addValue/needsSync; incremental resource collection is gated on needsSync. Other runtime paths may cause later synchronization."
+    },
+    {
+      "id": "rage-small-drain",
+      "status": "bounded arithmetic regression candidate",
+      "detail": "A positive value smaller than the per-tick drain can become negative because the selected handler subtracts without the clamping setter."
+    }
+  ],
+  "limits": [
+    "Damage formula produces an attack input, not guaranteed health loss",
+    "Vanilla last-attacker lifetime and final damage acceptance need exact-build testing",
+    "EffectBuilder level arguments are recorded without assuming unverified amplifier semantics",
+    "Do not assume the private owner-local implementation contains these released upstream paths"
+  ]
+}
