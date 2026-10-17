@@ -2,13 +2,50 @@
 
 # Progress · what is proven and what remains
 
-**Updated: 2026-10-16. A private owner-local playable candidate has scoped native/production acceptance; the complete historical/latest merge remains unfinished. No fabricated completion percentage.**
+**Updated: 2026-10-17 UTC. A private owner-local playable candidate has scoped native/production acceptance; the complete historical/latest merge remains unfinished. No fabricated completion percentage.**
 
 ## Current owner-local playable candidate · 2026-10-16
 
 The owner's Desktop Enderloom worktree has now been inspected directly and reconciled with exact local runtime receipts. **Advent of Ascension · Current Playtest** runs on Minecraft 1.20.1 / Forge 47.4.23 / Java 17. Native client/server and ordinary signed-in production rendering/movement plus server save/restart pass. Vanilla hearts remain default. [Current evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/development/current-playtest.json) · [Full runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist) · [Upstream reconciliation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation).
 
 The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8`, 146,794,782 bytes. The native-client JAR differs only in its manifest build timestamp; all program/resource members match. Full historical/latest parity, remaining Extraction/Anima/deity consumers, all progression, optional compatibility, multiplayer, save migration and performance acceptance remain open. The modified JAR and original AoA files are local, not a new public mod download. Earlier documentation-only observations below are retained as history and are superseded by this section where they describe missing local access.
+
+<!-- current-documentation-status-start -->
+## Current documentation at a glance
+
+**Checked 2026-10-17 UTC.** These counts describe source-backed documentation and local documentation checks. They do not extend the separate owner-local runtime acceptance above.
+
+| What you can use | Current coverage | Open it |
+|---|---|---|
+| Illustrated walkthroughs | 58 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Item/block reference | 10,077 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
+| Crafting reference | 6,781 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
+| Contextual how-to links | 339 links across 326 item cards; 392 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
+| Equipment | 411 modern weapon references; 204 armor records; 48 ordinary set source reviews | [Armor effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) |
+| Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
+| Trading | 55 modern and 207 historical offer definitions, with availability limits | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
+| Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
+| Local documentation validation | 87 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+
+### Recent useful additions
+
+- [Petal Crafting and Hydrangic armor](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Petal-Crafting-and-Hydrangic-Armor): five-color recipe diagram, historical creature/drop references, random output behavior, modern acquisition gaps and the old `hydrangic_legs` registry identity.
+- [Skill Master acquisition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1): all ten purchases, token shopping totals and the unresolved tier-five parkour-course record.
+- [Frame Bench and armor Infusion](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1): ten frame choices and exact shopping lists for eight craftable sets.
+- [All ordinary armor effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1): intended tooltips are distinguished from checked routes and unresolved summoning. Five relevant cards carry review notices.
+- The larger how-to coverage now uses **8,306 inline bytes** for inventory links and **4,955 bytes** for recipe links. Common wiki prefixes are stored once; links are decoded once with no extra requests. Existing associations are preserved. These are payload measurements, not measured Minecraft FPS gains.
+
+### What still prevents a “complete AoA” claim
+
+1. Full historical/latest content parity and the remaining Extraction/Anima/deity consumers, as scoped by the owner-local runtime receipts.
+2. Authentic 1.7.10 visual coverage and the explicit 1.20.1 renderer/placeholder gaps. Historical reference images are not repaired modern runtime models.
+3. Unresolved acquisition and activation routes, including modern Petal progression and the inspected Rosidian/Spaceking summon paths.
+4. Target-build acceptance for the recorded source findings, including equipment transitions, storage/delivery, multiplayer, saves, compatibility and measured performance.
+
+[Runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist) · [Version matrix](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) · [Render limits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage) · [Source findings](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Source-Findings-and-Fixes) · [Restoration roadmap](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Roadmap)
+<!-- current-documentation-status-end -->
+
+<details><summary>Earlier documentation milestones and receipts · historical counts</summary>
 
 ## Tutorial and equipment reference snapshot · 2026-10-17
 
@@ -187,3 +224,5 @@ The tutorial library contains **57 illustrated routes**, with **83 passing local
 The [armor effects guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) now reviews **all 48 ordinary sets**, retaining **194 released set methods**, **24 shared methods**, four selected external methods and 14 attribute modifier definitions. It distinguishes cross-class rune/Spirit/planting effects, equipment cleanup and damage-category exclusions. Rosidian and Spaceking summoning activation remains explicitly unresolved; the documentation does not substitute tooltip text for an implementation path.
 
 Five exact gallery cards carry relevant source-review notices. Ghastly scan frequency and Biogenic’s negative air write are bounded acceptance targets, not reproduced failures or measured performance regressions. All **84 local documentation checks pass**; the tutorial library remains at **57 illustrated routes**. No game execution or private-current-candidate certification is inferred.
+
+</details>

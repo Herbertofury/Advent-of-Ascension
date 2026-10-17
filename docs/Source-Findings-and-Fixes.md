@@ -170,3 +170,15 @@ All 48 ordinary sets now have a release-scoped source review, with 194 set metho
 - **Damage categories:** the ranged helper excludes magic, energy and gun-tagged projectile damage. Do not promise that a ranged-armor effect applies to all guns.
 
 [Full illustrated reviews](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) · [External material-reference scan](https://herbertofury.github.io/Advent-of-Ascension/external-armour-routes-1.21.1.json) · [Exact route audit](https://herbertofury.github.io/Advent-of-Ascension/armour-effect-route-audit-1.21.1.json). All findings are static documentation evidence; private-current-candidate behavior and runtime performance remain separately tested concerns.
+
+## Petal Crafting acquisition and registry migration boundaries
+
+The [illustrated three-release Petal Crafting guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Petal-Crafting-and-Hydrangic-Armor) follows the actual station interaction and separates retained resources from working acquisition. Both inspected 1.16.5 and 1.20.1 releases include the five-color shapeless Petals recipe. Their entity loot references number six and five respectively. The inspected 1.21.1 archive has no matching Petals recipe or small-petal loot references, and explicitly hides the six petal items from recipe viewers, while retaining the station interaction and Garden Castle template.
+
+All three castle templates contain one station at local (13, 12, 13). Historical 1.16.5 includes the configured structure, template pool, Floral Islands start and Gardencia placement resources. No matching Garden Castle worldgen JSON link was found in the two newer archives by this scan. A retained template does not establish a playable modern survival route.
+
+The historical leggings ID is `aoa3:hydrangic_legs`; the newer inspected versions use `aoa3:hydrangic_leggings`. Preserve that distinction in links and require an explicit save-migration/alias decision when porting. Do not silently rename existing saved content.
+
+One qualifying non-creative station interaction consumes one Petals item and chooses one armor piece; duplicates are possible. The modern delivery helper tries inventory insertion and a player-targeted dropped-item fallback, so its ignored boolean is not evidence of ordinary full-inventory item loss. Acceptance still needs resource acquisition, all four outcomes, delivery, reconnect and farming-effect checks in the target build.
+
+[Released interaction/resource evidence](https://herbertofury.github.io/Advent-of-Ascension/petal-crafting-evidence.json). No game execution or private current-candidate parity is claimed.
