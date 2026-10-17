@@ -159,3 +159,7 @@ For related mechanics, read [Anima training and fragments](https://github.com/He
 - Check multiplayer harvest synchronization, inventory/drop outcomes, Fortune on each hand, bonemeal at every age, Forge event cancellation/modification, farmland placement permissions and save/reload in the target game build.
 - No live game test, runtime timing benchmark, universal seed-acquisition promise or merged Enderloom compatibility certification is implied.
 - Original models, textures and systems by Tslat and AoA contributors; vanilla references by Mojang. Independent illustrated documentation.
+
+## Find your first planting stock
+
+[Seed acquisition routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Seeds-and-Starting-a-Farm-1.12.2) connects sixteen planting items to checked recipes, full loot-table entries, Zal Herbalist offers and wild-plant callbacks. It includes illustrated item references and keeps the unresolved Thorny Plant Seeds route explicit.

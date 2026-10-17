@@ -1,0 +1,4523 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "16 planting-item acquisition audit:exact recipe outputs,matching item entries in complete loot definitions,previously checked trader outputs,and selected released plant/leaf/structure callbacks. Table references and local probabilities are not final per-kill or per-break chances. No runtime generation claim.",
+  "records": [
+    {
+      "id": "aoa3:bubble_berry_seeds",
+      "crops": [
+        "aoa3:bubble_berry_crop"
+      ],
+      "recipes": [],
+      "loot": [
+        {
+          "table": "assets/aoa3/loot_tables/structures/aquaticcastle/general.json",
+          "pointer": "/pools/0/entries/10"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/worlds/lborean.json",
+          "pointer": "/pools/1/entries/2"
+        }
+      ],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:chilli_seeds",
+      "crops": [
+        "aoa3:chilli_crop"
+      ],
+      "recipes": [],
+      "loot": [
+        {
+          "table": "assets/aoa3/loot_tables/worlds/gardencia.json",
+          "pointer": "/pools/1/entries/2"
+        }
+      ],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:eye_bulb",
+      "crops": [
+        "aoa3:eye_bulb_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [],
+      "code_routes": [
+        {
+          "kind": "plant_callback",
+          "block": "aoa3:bulb_stock_cap",
+          "class_path": "net/tslat/aoa3/block/generation/plants/BulbStockCap.class",
+          "note": "Local quantity returns1; selector returns Eye Bulb, which is also its planting item.",
+          "method_hashes": [
+            "199f0a9ab0f98fb26408819d4f584ff176c79f238aa48ffce427c312242c77bb",
+            "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+            "f85e164bfaec8ddc9a5be16f9013b6d7dbbef68da095f6686144d15ebbbf5a58"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aoa3:floracle_seeds",
+      "crops": [
+        "aoa3:floracles_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [],
+      "code_routes": [
+        {
+          "kind": "plant_callback",
+          "block": "aoa3:red_waterweeds",
+          "class_path": "net/tslat/aoa3/block/generation/plants/RedWaterweeds.class",
+          "note": "State-aware quantity predicate nextInt(max(1,5-Fortune))==0 returns1, otherwise0; selector returns Floracle Seeds.",
+          "method_hashes": [
+            "1d3d3b0036a25de967dddca6055544ee9bbd909ee41317a420de21c01dd2bed3",
+            "19aed816b134a7357354a967e40bedebde07d29ca2d68103fdf0a33ccb835185",
+            "29acfda38e3b487f441af16848377ea9ed4c46070c75e9a37cfe6e9cc263cfca"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aoa3:goldicap_seeds",
+      "crops": [
+        "aoa3:goldicaps_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [],
+      "code_routes": [
+        {
+          "kind": "mature_structure_crops",
+          "class_path": "net/tslat/aoa3/structure/gardencia/GardenCastle.class",
+          "class_sha256": "67cd5de87b03a011e49847748ef143090d0b9554e96d3a97cf8be96795402c8f",
+          "method_name": "build",
+          "method_descriptor": "(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)V",
+          "method_sha256": "d5ed0965bec328d490618c8f4a0e75a4529fe409d083849ab068b5c24c337656",
+          "windows": [
+            [
+              {
+                "offset": 9950,
+                "opcode": 42
+              },
+              {
+                "offset": 9951,
+                "opcode": 43
+              },
+              {
+                "offset": 9952,
+                "opcode": 45
+              },
+              {
+                "offset": 9953,
+                "opcode": 16,
+                "constant": 9
+              },
+              {
+                "offset": 9955,
+                "opcode": 8,
+                "constant": 5
+              },
+              {
+                "offset": 9956,
+                "opcode": 16,
+                "constant": 17
+              },
+              {
+                "offset": 9958,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "goldicaps",
+                  "Lnet/minecraft/block/state/IBlockState;"
+                ]
+              },
+              {
+                "offset": 9961,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "addBlock",
+                  "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;IIILnet/minecraft/block/state/IBlockState;)V"
+                ]
+              }
+            ],
+            [
+              {
+                "offset": 9964,
+                "opcode": 42
+              },
+              {
+                "offset": 9965,
+                "opcode": 43
+              },
+              {
+                "offset": 9966,
+                "opcode": 45
+              },
+              {
+                "offset": 9967,
+                "opcode": 16,
+                "constant": 9
+              },
+              {
+                "offset": 9969,
+                "opcode": 8,
+                "constant": 5
+              },
+              {
+                "offset": 9970,
+                "opcode": 16,
+                "constant": 18
+              },
+              {
+                "offset": 9972,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "goldicaps",
+                  "Lnet/minecraft/block/state/IBlockState;"
+                ]
+              },
+              {
+                "offset": 9975,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "addBlock",
+                  "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;IIILnet/minecraft/block/state/IBlockState;)V"
+                ]
+              }
+            ],
+            [
+              {
+                "offset": 9978,
+                "opcode": 42
+              },
+              {
+                "offset": 9979,
+                "opcode": 43
+              },
+              {
+                "offset": 9980,
+                "opcode": 45
+              },
+              {
+                "offset": 9981,
+                "opcode": 16,
+                "constant": 9
+              },
+              {
+                "offset": 9983,
+                "opcode": 8,
+                "constant": 5
+              },
+              {
+                "offset": 9984,
+                "opcode": 16,
+                "constant": 19
+              },
+              {
+                "offset": 9986,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "goldicaps",
+                  "Lnet/minecraft/block/state/IBlockState;"
+                ]
+              },
+              {
+                "offset": 9989,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "addBlock",
+                  "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;IIILnet/minecraft/block/state/IBlockState;)V"
+                ]
+              }
+            ],
+            [
+              {
+                "offset": 12681,
+                "opcode": 42
+              },
+              {
+                "offset": 12682,
+                "opcode": 43
+              },
+              {
+                "offset": 12683,
+                "opcode": 45
+              },
+              {
+                "offset": 12684,
+                "opcode": 16,
+                "constant": 24
+              },
+              {
+                "offset": 12686,
+                "opcode": 8,
+                "constant": 5
+              },
+              {
+                "offset": 12687,
+                "opcode": 16,
+                "constant": 17
+              },
+              {
+                "offset": 12689,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "goldicaps",
+                  "Lnet/minecraft/block/state/IBlockState;"
+                ]
+              },
+              {
+                "offset": 12692,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "addBlock",
+                  "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;IIILnet/minecraft/block/state/IBlockState;)V"
+                ]
+              }
+            ],
+            [
+              {
+                "offset": 12695,
+                "opcode": 42
+              },
+              {
+                "offset": 12696,
+                "opcode": 43
+              },
+              {
+                "offset": 12697,
+                "opcode": 45
+              },
+              {
+                "offset": 12698,
+                "opcode": 16,
+                "constant": 24
+              },
+              {
+                "offset": 12700,
+                "opcode": 8,
+                "constant": 5
+              },
+              {
+                "offset": 12701,
+                "opcode": 16,
+                "constant": 18
+              },
+              {
+                "offset": 12703,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "goldicaps",
+                  "Lnet/minecraft/block/state/IBlockState;"
+                ]
+              },
+              {
+                "offset": 12706,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "addBlock",
+                  "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;IIILnet/minecraft/block/state/IBlockState;)V"
+                ]
+              }
+            ],
+            [
+              {
+                "offset": 12709,
+                "opcode": 42
+              },
+              {
+                "offset": 12710,
+                "opcode": 43
+              },
+              {
+                "offset": 12711,
+                "opcode": 45
+              },
+              {
+                "offset": 12712,
+                "opcode": 16,
+                "constant": 24
+              },
+              {
+                "offset": 12714,
+                "opcode": 8,
+                "constant": 5
+              },
+              {
+                "offset": 12715,
+                "opcode": 16,
+                "constant": 19
+              },
+              {
+                "offset": 12717,
+                "opcode": 178,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "goldicaps",
+                  "Lnet/minecraft/block/state/IBlockState;"
+                ]
+              },
+              {
+                "offset": 12720,
+                "opcode": 182,
+                "member": [
+                  "net/tslat/aoa3/structure/gardencia/GardenCastle",
+                  "addBlock",
+                  "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;IIILnet/minecraft/block/state/IBlockState;)V"
+                ]
+              }
+            ]
+          ],
+          "local_positions": [
+            [
+              9,
+              5,
+              17
+            ],
+            [
+              9,
+              5,
+              18
+            ],
+            [
+              9,
+              5,
+              19
+            ],
+            [
+              24,
+              5,
+              17
+            ],
+            [
+              24,
+              5,
+              18
+            ],
+            [
+              24,
+              5,
+              19
+            ]
+          ],
+          "note": "GardenCastle builder places six Goldicaps crop states; static initializer assigns age7. Finding a generated castle and final hook outcomes require separate verification. Harvest links to the checked crop seed loop."
+        }
+      ]
+    },
+    {
+      "id": "aoa3:heart_fruit_seeds",
+      "crops": [
+        "aoa3:heart_fruit_crop"
+      ],
+      "recipes": [
+        "assets/aoa3/recipes/items/misc/misc/heart_fruit_seeds.json"
+      ],
+      "loot": [],
+      "trades": [],
+      "code_routes": [
+        {
+          "kind": "plant_callback",
+          "block": "aoa3:tangle_thorns",
+          "class_path": "net/tslat/aoa3/block/generation/plants/TangleThorns.class",
+          "note": "Local quantity predicate nextInt(20)==0 returns1, otherwise0; item selector returns Heart Fruit Seeds.",
+          "method_hashes": [
+            "79cabbf499f4c181b33dd15f446ad1a4cfaa805af696dc50e8709f4b2f4a8257",
+            "f84fd4ced423e21dbdbe205ca0301ee329e6e36e046f7e2fb3228f7617a46e71",
+            "f88929d43769a369e4a9db3b4926b5fd97048f5c1ba458a1bc8d1ff1fa23a338"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aoa3:holly_top_seeds",
+      "crops": [
+        "aoa3:holly_tops_crop"
+      ],
+      "recipes": [],
+      "loot": [
+        {
+          "table": "assets/aoa3/loot_tables/misc/generic_chest_loot.json",
+          "pointer": "/pools/0/entries/2"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/worlds/overworld.json",
+          "pointer": "/pools/1/entries/4"
+        }
+      ],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:luna_globe_seeds",
+      "crops": [
+        "aoa3:luna_globe_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [
+        {
+          "vendor": "aoa3:zal_herbalist",
+          "vendor_name": "Zal Herbalist",
+          "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityZalHerbalist.class",
+          "source_offset": 64,
+          "costs": [
+            {
+              "id": "aoa3:silver_coin",
+              "name": "Silver Coin",
+              "count": 5,
+              "source_symbol": "ItemRegister.SILVER_COIN",
+              "inventory_id": "localization:item.SilverCoin.name",
+              "atlas": {
+                "sheet": "previews/1.12.2-item-sheet-21.webp",
+                "x": 15,
+                "y": 1156,
+                "size": 190
+              }
+            }
+          ],
+          "output": {
+            "id": "aoa3:luna_globe_seeds",
+            "name": "Luna Globe Seeds",
+            "count": 5,
+            "source_symbol": "ItemRegister.LUNA_GLOBE_SEEDS",
+            "inventory_id": "localization:item.LunaGlobeSeeds.name",
+            "atlas": {
+              "sheet": "previews/1.12.2-item-sheet-13.webp",
+              "x": 1115,
+              "y": 1951,
+              "size": 190
+            }
+          },
+          "default_uses": 0,
+          "max_uses": null,
+          "max_uses_rule": "5 if output stackable, otherwise 1",
+          "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 5), new ItemStack(ItemRegister.LUNA_GLOBE_SEEDS, 5)));"
+        }
+      ],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:lunacrike_seeds",
+      "crops": [
+        "aoa3:lunacrike_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [
+        {
+          "vendor": "aoa3:zal_herbalist",
+          "vendor_name": "Zal Herbalist",
+          "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityZalHerbalist.class",
+          "source_offset": 30,
+          "costs": [
+            {
+              "id": "aoa3:silver_coin",
+              "name": "Silver Coin",
+              "count": 5,
+              "source_symbol": "ItemRegister.SILVER_COIN",
+              "inventory_id": "localization:item.SilverCoin.name",
+              "atlas": {
+                "sheet": "previews/1.12.2-item-sheet-21.webp",
+                "x": 15,
+                "y": 1156,
+                "size": 190
+              }
+            }
+          ],
+          "output": {
+            "id": "aoa3:lunacrike_seeds",
+            "name": "Lunacrike Seeds",
+            "count": 5,
+            "source_symbol": "ItemRegister.LUNACRIKE_SEEDS",
+            "inventory_id": "localization:item.LunacrikeSeeds.name",
+            "atlas": {
+              "sheet": "previews/1.12.2-item-sheet-14.webp",
+              "x": 235,
+              "y": 96,
+              "size": 190
+            }
+          },
+          "default_uses": 0,
+          "max_uses": null,
+          "max_uses_rule": "5 if output stackable, otherwise 1",
+          "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 5), new ItemStack(ItemRegister.LUNACRIKE_SEEDS, 5)));"
+        }
+      ],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:lunalon_seeds",
+      "crops": [
+        "aoa3:lunalon_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [
+        {
+          "vendor": "aoa3:zal_herbalist",
+          "vendor_name": "Zal Herbalist",
+          "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityZalHerbalist.class",
+          "source_offset": 98,
+          "costs": [
+            {
+              "id": "aoa3:silver_coin",
+              "name": "Silver Coin",
+              "count": 5,
+              "source_symbol": "ItemRegister.SILVER_COIN",
+              "inventory_id": "localization:item.SilverCoin.name",
+              "atlas": {
+                "sheet": "previews/1.12.2-item-sheet-21.webp",
+                "x": 15,
+                "y": 1156,
+                "size": 190
+              }
+            }
+          ],
+          "output": {
+            "id": "aoa3:lunalon_seeds",
+            "name": "Lunalon Seeds",
+            "count": 5,
+            "source_symbol": "ItemRegister.LUNALON_SEEDS",
+            "inventory_id": "localization:item.LunalonSeeds.name",
+            "atlas": {
+              "sheet": "previews/1.12.2-item-sheet-14.webp",
+              "x": 455,
+              "y": 96,
+              "size": 190
+            }
+          },
+          "default_uses": 0,
+          "max_uses": null,
+          "max_uses_rule": "5 if output stackable, otherwise 1",
+          "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 5), new ItemStack(ItemRegister.LUNALON_SEEDS, 5)));"
+        }
+      ],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:magic_marang_seeds",
+      "crops": [
+        "aoa3:magic_marang_crop"
+      ],
+      "recipes": [
+        "assets/aoa3/recipes/items/misc/misc/magic_marang_seeds.json"
+      ],
+      "loot": [],
+      "trades": [],
+      "code_routes": [
+        {
+          "kind": "leaf_selector",
+          "block": "aoa3:haunted_leaves",
+          "class_path": "net/tslat/aoa3/block/generation/leaves/LeavesBlock.class",
+          "note": "Haunted Leaves only: nextBoolean() AND nextInt(50)<=Fortune selects Magic Marang Seeds. This is conditional on the selector being called; inherited leaf quantity/decay and harvesting paths remain separate. Shearing returns the leaf block.",
+          "method_hashes": [
+            "162753542cff2db1fcac86bc1289dff5084863d262326951c2d89281a3fc4b07",
+            "543a626dc2ca5d69c2656edc2f51d24793c10ba8579db9d9907a2546bb9f06b5",
+            "7fad0c05658011563410d5e6bcb74fb9d09eaa584b515a9cdcfb43468331c55e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aoa3:mystic_shrooms",
+      "crops": [
+        "aoa3:mystic_shroom_crop"
+      ],
+      "recipes": [],
+      "loot": [
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/king_shroomus.json",
+          "pointer": "/pools/1/entries/9"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/fungung.json",
+          "pointer": "/pools/1/entries/1"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/structures/hauntedcastle/top_floor.json",
+          "pointer": "/pools/0/entries/3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/worlds/mysterium.json",
+          "pointer": "/pools/1/entries/1"
+        }
+      ],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:rosidon_seeds",
+      "crops": [
+        "aoa3:rosidon_crop"
+      ],
+      "recipes": [],
+      "loot": [
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/daysee.json",
+          "pointer": "/pools/1/entries/1"
+        }
+      ],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:tea_seeds",
+      "crops": [
+        "aoa3:tea_crop"
+      ],
+      "recipes": [],
+      "loot": [
+        {
+          "table": "assets/aoa3/loot_tables/misc/generic_chest_loot.json",
+          "pointer": "/pools/0/entries/1"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/skills/logging/logging.json",
+          "pointer": "/pools/0/entries/2"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/worlds/overworld.json",
+          "pointer": "/pools/1/entries/3"
+        }
+      ],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:thorny_plant_seeds",
+      "crops": [
+        "aoa3:thorny_plant_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [],
+      "code_routes": []
+    },
+    {
+      "id": "aoa3:trilliad_seeds",
+      "crops": [
+        "aoa3:trilliad_crop"
+      ],
+      "recipes": [],
+      "loot": [],
+      "trades": [],
+      "code_routes": [
+        {
+          "kind": "plant_callback",
+          "block": "aoa3:trilliad_bloom",
+          "class_path": "net/tslat/aoa3/block/generation/plants/TrilliadBloom.class",
+          "note": "Local quantity returns1; selector returns Trilliad Seeds.",
+          "method_hashes": [
+            "79cabbf499f4c181b33dd15f446ad1a4cfaa805af696dc50e8709f4b2f4a8257",
+            "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+            "c943ffa0ad636f6ab3aac0c0beca0f84ef8c64657ee2f0ceaef5d0345d1a6b52"
+          ]
+        }
+      ]
+    }
+  ],
+  "loot_tables": {
+    "assets/aoa3/loot_tables/entities/bosses/king_shroomus.json": {
+      "sha256": "4ff7b2464a3c91e1a54edebaf51e3a3cc647aa7faf23cffc6667168eb0751cca",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "dimension_table",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "loot_table",
+                "name": "aoa3:worlds/mysterium",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "name": "supplies",
+            "rolls": {
+              "min": 1,
+              "max": 2
+            },
+            "bonus_rolls": 1,
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 50,
+                "quality": -10
+              },
+              {
+                "type": "item",
+                "name": "aoa3:magic_repair_dust",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:silver_coin",
+                "weight": 35,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gold_coin",
+                "weight": 15,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mysterium_tokens",
+                "weight": 36,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 5,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:enchanted_gunpowder",
+                "weight": 20
+              },
+              {
+                "type": "item",
+                "name": "aoa3:poison_rune",
+                "weight": 40,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 6,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:life_rune",
+                "weight": 40,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 6,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:water_rune",
+                "weight": 40,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 6,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mystic_shrooms",
+                "weight": 28,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:red_mushroom",
+                "weight": 32,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 8,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:brown_mushroom",
+                "weight": 32,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 8,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:mushroom_stew",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 6
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "rares",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -10
+              },
+              {
+                "type": "item",
+                "name": "aoa3:shroomus_sword",
+                "weight": 28
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fungal_staff",
+                "weight": 20
+              }
+            ]
+          },
+          {
+            "name": "statue",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "item",
+                "name": "aoa3:king_shroomus_statue",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/entities/mobs/gardencia/daysee.json": {
+      "sha256": "d311a8de562b5763758766ae90452d702c8ccd2120236ffe6ae4a29a6a071424",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "dimension_table",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "loot_table",
+                "name": "aoa3:worlds/gardencia",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "name": "mob_specific_loot",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -4
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosidon_seeds",
+                "weight": 30,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 0,
+                      "max": 3
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/entities/mobs/mysterium/fungung.json": {
+      "sha256": "d159cafd4037c6f97d1789e092d55c7f3d3752b3f4c77c1e9eff3e4d4c1eb93b",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "dimension_table",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "loot_table",
+                "name": "aoa3:worlds/mysterium",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "name": "loot",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 50,
+                "quality": -6
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mystic_shrooms",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:brown_mushroom",
+                "weight": 25,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 4,
+                      "max": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:red_mushroom",
+                "weight": 25,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 4,
+                      "max": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fungal_tea",
+                "weight": 19
+              },
+              {
+                "type": "item",
+                "name": "aoa3:silver_coin",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/misc/generic_chest_loot.json": {
+      "sha256": "0d415391db696fdf566406c720a5b49209ea7b3e62ad093093033d56cb869186",
+      "definition": {
+        "pools": [
+          {
+            "name": "misc_aoa_loot",
+            "rolls": 2,
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:tea_seeds",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:holly_top_seeds",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:scrap_metal",
+                "weight": 19,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:amethyst",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:jade",
+                "weight": 15,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:sapphire",
+                "weight": 5,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:limonite_ingot",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosite_ingot",
+                "weight": 18,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 8
+              },
+              {
+                "type": "item",
+                "name": "aoa3:large_skill_crystal",
+                "weight": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:silver_coin",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gold_coin",
+                "weight": 3
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/skills/logging/logging.json": {
+      "sha256": "efa4405d5776b2848d6db799a0d412e07dd83e7c86b1e1df758b9d55556a83c7",
+      "definition": {
+        "type": "generic",
+        "pools": [
+          {
+            "name": "drops",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "item",
+                "name": "minecraft:stick",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 16
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 15
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:apple",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 25
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:tea_seeds",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 10
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 40
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:experience_bottle",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 20
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 9
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 90
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:fragmented_anima_stone",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 40
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 360
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gem_bag",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 50
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 500
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 90
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 6200
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosite_ingot",
+                "weight": 100,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 95
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 9500
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:occult_axe",
+                "weight": 10,
+                "conditions": [
+                  {
+                    "condition": "aoa3:player_has_level",
+                    "skill": "logging",
+                    "level": 95
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "aoa3:grant_xp",
+                    "skill": "logging",
+                    "xp": 15000
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/structures/aquaticcastle/general.json": {
+      "sha256": "77804a766006fbe5432215c83aac324869b84b0c43e24771e3be24167f352d03",
+      "definition": {
+        "pools": [
+          {
+            "name": "main",
+            "rolls": 10,
+            "bonus_rolls": {
+              "min": -1,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -10
+              },
+              {
+                "type": "item",
+                "name": "minecraft:fish",
+                "weight": 14
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_fingerfish",
+                "weight": 10
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_limefish",
+                "weight": 8
+              },
+              {
+                "type": "item",
+                "name": "aoa3:raw_sapphire_strider",
+                "weight": 3
+              },
+              {
+                "type": "item",
+                "name": "aoa3:beamer",
+                "weight": 1,
+                "quality": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mk",
+                "weight": 1,
+                "quality": 1
+              },
+              {
+                "type": "item",
+                "name": "aoa3:bubble_berries",
+                "weight": 15,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:water_bucket",
+                "weight": 5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:borean_tokens",
+                "weight": 9,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:bubble_berry_seeds",
+                "weight": 7,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:magic_repair_dust",
+                "weight": 2,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/structures/hauntedcastle/top_floor.json": {
+      "sha256": "ca447dc34c97777a980b34d764bd82312dc89c4173e7fc45d38b6f07850fcce5",
+      "definition": {
+        "pools": [
+          {
+            "name": "main",
+            "rolls": 10,
+            "bonus_rolls": {
+              "min": -1,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -10
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mystite_ingot",
+                "weight": 8
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gold_coin",
+                "weight": 5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mystic_shrooms",
+                "weight": 20
+              },
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:silver_coin",
+                "weight": 12,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mushroom_spores",
+                "weight": 10,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mysterium_grass",
+                "weight": 20,
+                "quality": -4,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mysterium_dirt",
+                "weight": 20,
+                "quality": -4,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:haunted_greatblade",
+                "weight": 5,
+                "quality": 2
+              },
+              {
+                "type": "item",
+                "name": "aoa3:magic_repair_dust",
+                "weight": 2,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": []
+    },
+    "assets/aoa3/loot_tables/worlds/gardencia.json": {
+      "sha256": "97a323125f484660040a98381c7d938218c24b698d4aa908d91eccb214719152",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "rare_table",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 200
+              },
+              {
+                "type": "loot_table",
+                "name": "aoa3:misc/rare_table",
+                "weight": 1,
+                "quality": 1
+              }
+            ]
+          },
+          {
+            "name": "supplies",
+            "rolls": {
+              "min": 0,
+              "max": 2
+            },
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 300
+              },
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:chilli_seeds",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:nature_melon_slice",
+                "weight": 15,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "dimension_specific_loot",
+            "rolls": 1,
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:gardencia_tokens",
+                "weight": 80,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 8
+                    }
+                  },
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:rosid_root",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:floro_upgrade_kit",
+                "weight": 2,
+                "quality": 1
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": [
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/vinocorne.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "59e7e583a0a3ee1b97927b31d86919f977bc549f4354aecb2a5c4d5f5a5939c8"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/archvine.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "03ce9332506019dfa63b24565c938169327052c034ff4ba3e447030a38900436"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/broccohead.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4f72b8a6d221d81aa20c79f0bfa9f270a0ae52eb0c0ccb7095d4938874242920"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/carrotop.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "ca2a47c8d2dbe5d986dfce945b4590c46871d05b8931fe798430516e87c06259"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/corny.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4f72b8a6d221d81aa20c79f0bfa9f270a0ae52eb0c0ccb7095d4938874242920"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/daysee.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "d311a8de562b5763758766ae90452d702c8ccd2120236ffe6ae4a29a6a071424"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/flowerface.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "16529a76209b52de97b3f0b96b88488fa27b27b52c2a430483df925edcf3229c"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/pod_plant.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "73fed832506955ffd3c922ff99bf542353d243d97e8adf1e3983c8e1021e1a8a"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/squasher.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "d65131eae54f3c6b12f5425f76336fc26bfbda7364dc79ffdcd1bb86fc1de178"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/sunny.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "9d8bd33dd155dd4e2a54ad1db9099b8498c70a535e411deb605e86c3504392a4"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/gardencia/vine_wizard.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "77d8ba28d1147f482b10af96b181adfce7a3b839ac96ebe05c8e322a5b8b6d89"
+        }
+      ]
+    },
+    "assets/aoa3/loot_tables/worlds/lborean.json": {
+      "sha256": "28528e14215e09962fdf2ed89f438e49d07deb99984f17cff7db6156114eaf34",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "rare_table",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 200
+              },
+              {
+                "type": "loot_table",
+                "name": "aoa3:misc/rare_table",
+                "weight": 1,
+                "quality": 1
+              }
+            ]
+          },
+          {
+            "name": "supplies",
+            "rolls": {
+              "min": 0,
+              "max": 2
+            },
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 300
+              },
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:bubble_berry_seeds",
+                "weight": 10
+              },
+              {
+                "type": "item",
+                "name": "aoa3:corby_slab",
+                "weight": 5,
+                "quality": 2,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "dimension_specific_loot",
+            "rolls": 1,
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:borean_tokens",
+                "weight": 80,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 8
+                    }
+                  },
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:coral_stone",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:seaside_upgrade_kit",
+                "weight": 2,
+                "quality": 1
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": [
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/dracyon.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2d36110a9f27e77a2a9886d12c7862581dddd386a918ca53060ee1367c8ab2bd"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/hydrolisk.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "22980c278788387fd06f214562a3ab101abd79a5a0b987e7a17d4340cb140cb4"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/amphibior.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "728336cc52e13085c47af3bdc6d3e3249acfdaa7a2bdb5df37e1fd92d18e17ca"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/angler.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "23e47100837f37ab95aa48aefa054199720d2c4a8f76d35962b604ff04009a1e"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/coralon.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2c233b5a579f566b3fecaf5414b148d3d45fcabac83f25de6ffd54de26214e46"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/hydrolon.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2c233b5a579f566b3fecaf5414b148d3d45fcabac83f25de6ffd54de26214e46"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/mermage.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "3956a4085715820f8b8eaa3c25d8d7beb9c38eb230c19930ac75a0e16c1ac113"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/muncher.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2c233b5a579f566b3fecaf5414b148d3d45fcabac83f25de6ffd54de26214e46"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/neptuno.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2c233b5a579f566b3fecaf5414b148d3d45fcabac83f25de6ffd54de26214e46"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/lborean/sea_viper.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "804bb034f162c101d94b8b374a9c9d1fafa5100df4571b16e826f42a3866aa5a"
+        }
+      ]
+    },
+    "assets/aoa3/loot_tables/worlds/mysterium.json": {
+      "sha256": "696d0a7c36bbf767de573bb36ca904fc684489c535f96953c6f36bae6c99d720",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "rare_table",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 200
+              },
+              {
+                "type": "loot_table",
+                "name": "aoa3:misc/rare_table",
+                "weight": 1,
+                "quality": 1
+              }
+            ]
+          },
+          {
+            "name": "supplies",
+            "rolls": {
+              "min": 0,
+              "max": 2
+            },
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 300
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mystic_shrooms",
+                "weight": 2
+              },
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "dimension_specific_loot",
+            "rolls": 1,
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 100,
+                "quality": -5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mysterium_tokens",
+                "weight": 80,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 8
+                    }
+                  },
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:mushroom_spores",
+                "weight": 20,
+                "functions": [
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:runic_upgrade_kit",
+                "weight": 2,
+                "quality": 1
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": [
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/king_shroomus.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4ff7b2464a3c91e1a54edebaf51e3a3cc647aa7faf23cffc6667168eb0751cca"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/banshee.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "10028a1e914c1d0030d81602a8e9970bcec120112093520af2c5d787d6fbfd31"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/eeo.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/fungat.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/fungback.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/fungik.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/fungock.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/fungung.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "d159cafd4037c6f97d1789e092d55c7f3d3752b3f4c77c1e9eff3e4d4c1eb93b"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/mushroom_spider.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "d70f2c02810ece27c829bf782dcc1f338edabb263326934de963601bb2ba2e55"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/nightmare_spider.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "e7427d033439fb1918db9c259b883005133d4a6b76a9f0d9554c84130a3ec881"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/phantom.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "51dabf11f587fa3afc6958022f13fa30f0cad5f1d295b6a146761a172b311aea"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/runic_golem.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/spirit_guardian.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/spirit_protector.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "321bed9e7d3ed4e4bf3ab56fcabadf109d3be38771fc4959bbea0998fca10af3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/mysterium/undead_troll.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4cb1184149d1aa922dc2add1a8219271c5ec21f5c3b9a21189c9cb14a273244f"
+        }
+      ]
+    },
+    "assets/aoa3/loot_tables/worlds/overworld.json": {
+      "sha256": "f7db9c7837e0cdec1107626a479f73a3476e156f3ea48a8569f1b80453795f20",
+      "definition": {
+        "type": "entity",
+        "pools": [
+          {
+            "name": "rare_table",
+            "rolls": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:killed_by_player"
+              }
+            ],
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 200
+              },
+              {
+                "type": "loot_table",
+                "name": "aoa3:misc/rare_table",
+                "weight": 1,
+                "quality": 1
+              }
+            ]
+          },
+          {
+            "name": "supplies",
+            "rolls": {
+              "min": 0,
+              "max": 2
+            },
+            "bonus_rolls": {
+              "min": 0,
+              "max": 1
+            },
+            "entries": [
+              {
+                "type": "empty",
+                "weight": 250
+              },
+              {
+                "type": "item",
+                "name": "aoa3:copper_coin",
+                "weight": 100,
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:scrap_metal",
+                "weight": 15,
+                "functions": [
+                  {
+                    "function": "looting_enchant",
+                    "count": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "aoa3:tea_seeds",
+                "weight": 5
+              },
+              {
+                "type": "item",
+                "name": "aoa3:holly_top_seeds",
+                "weight": 5
+              },
+              {
+                "type": "item",
+                "name": "minecraft:iron_nugget",
+                "weight": 11
+              },
+              {
+                "type": "item",
+                "name": "minecraft:bone",
+                "weight": 12
+              },
+              {
+                "type": "item",
+                "name": "minecraft:coal",
+                "weight": 9,
+                "functions": [
+                  {
+                    "function": "set_data",
+                    "data": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "incoming_table_references": [
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/corallus.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "bae4cfe5113f6d83a91007976f3f5d8b4876322fb5f0d8a056aabda8da0526f5"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/bosses/smash.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "995576f0f4bfc91a99cadf9123735b1f9ec48a5c4e5d8e2ee5f3f6a7a92d5eac"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/amphibiyte.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "268d719069955aec2847ef32bb2be6e140441e7d16bbbbd71801554024ccbe51"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ancient_golem.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "945cb0c8cf1f5bb51af4c6edcfee0a4bb18d42b1e046ba2c0b80e9d5ef542211"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/anemia.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/black_ursa.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "9385f7d8439a8826ed70475d47bbbf65279baeda5deeca19e52cbc2458110b63"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/bloodmist.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/bomb_carrier.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "ef4a71b5c0362219f8f82dd91061b7f0f802e1f8ee939a0ffb986890d7d496f1"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/bone_creature.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "13d4d95ab2615857eb95cf8b934071fcc60302856898831e81b3e76150ee35ae"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/boneback.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/brute.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/bugeye.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "29871c2e07272174966185a2d727b5015a1d89cffb84936a4051521b64f42af4"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/bush_baby.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2260407b67df3f6add2627f3aac10506fe21900209a6eba5ad403041e2611e54"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/chimera.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "675facd0cb1420fb20f9f57f4b407a9ddf0dab176348b8cddc69e69ff6d23271"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/chomper.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4703614bab80df21f6b24887deb16f5b55ff3408a79da1b7475c280497c56a96"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/clown.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "99788fecd77200e82d64c0a9b38751dab71def8f1efb5d45eed685c993c46c9d"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/cyclops.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/dark_beast.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/death_hunter.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/demon_reaper.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "554fa2058edcf5f40a0173ebc349007e7b1d3c16f0fa9759bfd46902e21034d9"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/desert_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "b10e295de25f400b8bbc272e76b86746cf664a19549c3d015837e04eee72d612"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/dicer.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "abf1c4335b9d9ed032abcbeffba64a6452962af3da8c3e482f349f9605d4c493"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/everbeast.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2524808e5fb6aa169f734abd756635ea3c1f48228fe9ce699a11037d31f42b7c"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/faceless_runner.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "25624b9941e03fcf35e3f4883aa67b7a9efbd3d11c5867f1be7c9a443b0de156"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/fishix.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/furlion.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7219bd47f887ff6cb6f2d8fd4904828cc6d01767847ee13865b5407a844d1e84"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghost.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "5ed580dfa2e69ce4623ad3d6c7fd3c3bd4f3956f7fb0c42afc055707e8ce7804"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostine_ancient.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostly_bugeye.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostly_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostly_cyclops.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostly_goblin.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostly_night_reaper.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ghostly_sasquatch.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "7fe8a5de7cf995f4e4559f3e53c9c4332bca44727adee0a6bb92a7d9d2b4bebc"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/goalby.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/goblin.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/grunt.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/hag.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "766d7704fbd2f1a7bb763403cf68fe21342cc4fb8ccdc3380fc838416065bd19"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/headless_destroyer.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/headless_hunter.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/hill_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "b10e295de25f400b8bbc272e76b86746cf664a19549c3d015837e04eee72d612"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/horndron.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4703614bab80df21f6b24887deb16f5b55ff3408a79da1b7475c280497c56a96"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/host.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/hunch.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "8522f71ed15953ae063810a7150c6f765b088e5ad372e2ceef8bb6eb0a7a9959"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/ice_giant.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "aa1b959018f61460f13556229823acb0f27427931c4df508922412d73515deb8"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/irkling.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/king_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "14e3a50db260f0e998225a7666f2b74b60b1f9810b4e95eada17d71c72c8c72e"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/leafy_giant.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "85bee4ee6040718a4861ca341abb9973f4c198cd5fbdaf6fac56ac951659fe99"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/linger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/living_fungi.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/magicke.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/modulo.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "16d344eddfcaae9f6bebec7b18c659578839ccdf0d6d0cf760733fd09621063e"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/mother_void_walker.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "f0eebdd0ff37b0331c2120047f58afe45d46eaee5f56b043f9d5b363746b64e9"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/muckopede.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "f98716c878aa4e8de55dbc9e14d01bf039598e2a74007beadb6d440b5123a468"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/natura.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/night_reaper.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "5625f9062e398636b3f10c1e7948dc13a2204ddef277a1f410d80526ac83acec"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/night_watcher.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/nightfly.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/pincher.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "bb688fb7e257c45b256bd4080a1773384ae95862a95fae4e8f6df4ce9024cb73"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/polar_ursa.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "ebb8477b35633f8a5f147e41990bfeba31959c84e5f7ba4ea58ef6069987c2e4"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/rammerhead.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "efbc550f513d9cecae4ad78ee58998d9900921edaf6198b51a3b9c46fb57fd38"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/reaper_twins.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "813157a61491f6157df78ce4dae067c88612bc65abb40b9fb0fb082a1004479b"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/roloscope.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sand_giant.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "759713903a3835e4f70dcee1c5e913546a7bf071628172970062793ffe3d74ae"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sand_golem.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sasquatch.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/scrubby.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sea_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "b10e295de25f400b8bbc272e76b86746cf664a19549c3d015837e04eee72d612"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sea_skeleton.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "13d4d95ab2615857eb95cf8b934071fcc60302856898831e81b3e76150ee35ae"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sea_spider.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "55f88742df5e10527d1988eaaba4cfbda15971b758093d69da735a8a1c0e7473"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sea_troll.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/shade.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/skellox.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "6c42bd3ec21ea72e01d89925a31d6038eb761ec3e2a99adffdbcc28c8d1f594d"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/skipper.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/skolle.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/snow_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "1edf670cb666309fc09bace7a3f034af88a66782fa7083db98fce3483caf18b2"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/sphinx.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "391afda3fac30e498e3a4ea395290a093440eea66b491d8db4bb35e2d78a48a4"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/spinux.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/stinger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/stone_giant.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "91da7d265bda1e7650a852df21e6cdb23dd66d8c77ae9ccdb5fc7db29af99145"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/swamp_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "b10e295de25f400b8bbc272e76b86746cf664a19549c3d015837e04eee72d612"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/terrestrial.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/tree_spirit.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/trickster.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/triclops.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/urka.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "4dc3ee8d6dc184c5194ef75bca0197765d547cc3e4c28d1f6e6f8ab00b5599d3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/vertebron.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/void_charger.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "1108daabd4db763ade5fdfb0d5dcec668fb10aa923d44d9228716bd364ac8081"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/void_walker.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "25624b9941e03fcf35e3f4883aa67b7a9efbd3d11c5867f1be7c9a443b0de156"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/walker.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/warclops.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "49730f953c66e33416204df3bc0c7b9374416811eb63f764eb59a519af1a3bb3"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/wickett.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "2670e91bb88e06456859e13266ee9a789a02880811d3ab7b395ff29b362b268e"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/wood_giant.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "3dc383ed591ceafe2e2865f6575ea60df4cd6686aa8bfbdb619fa619f978d8bf"
+        },
+        {
+          "table": "assets/aoa3/loot_tables/entities/mobs/overworld/yeti.json",
+          "pointer": "/pools/0/entries/0",
+          "sha256": "eca5b78c69fbd4771c33e0c5ea56baaa1c05f97f2d114214138a162b8e71333d"
+        }
+      ]
+    }
+  },
+  "recipes": {
+    "assets/aoa3/recipes/items/misc/misc/heart_fruit_seeds.json": {
+      "sha256": "9dad1785e6cf8a6648499e45cfcb59a7516ca23a576ea9c98d77547d64fcdfad",
+      "definition": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "aoa3:heart_fruit"
+          }
+        ],
+        "result": {
+          "item": "aoa3:heart_fruit_seeds",
+          "count": 3
+        }
+      }
+    },
+    "assets/aoa3/recipes/items/misc/misc/magic_marang_seeds.json": {
+      "sha256": "b8828de71c6697cc335b75133a883020aecca279c55b922c649632049dcfd5bc",
+      "definition": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "aoa3:magic_marang"
+          }
+        ],
+        "result": {
+          "item": "aoa3:magic_marang_seeds",
+          "count": 2
+        }
+      }
+    }
+  },
+  "methods": [
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/TangleThorns.class",
+      "class_sha256": "084fcfd0cc8274994838c3ee4b5e8da092a8614012feb61ac0abd486504c9cd5",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "79cabbf499f4c181b33dd15f446ad1a4cfaa805af696dc50e8709f4b2f4a8257",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "TangleThorns"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "tangle_thorns"
+        },
+        {
+          "offset": 5,
+          "opcode": 11
+        },
+        {
+          "offset": 6,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 7,
+          "opcode": 189,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 89
+        },
+        {
+          "offset": 11,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151578_c",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 83
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151577_b",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 83
+        },
+        {
+          "offset": 22,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/generation/plants/GenericPlantBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;F[Lnet/minecraft/block/material/Material;)V"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/TangleThorns.class",
+      "class_sha256": "084fcfd0cc8274994838c3ee4b5e8da092a8614012feb61ac0abd486504c9cd5",
+      "name": "func_149745_a",
+      "descriptor": "(Ljava/util/Random;)I",
+      "method_sha256": "f84fd4ced423e21dbdbe205ca0301ee329e6e36e046f7e2fb3228f7617a46e71",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 14,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/TangleThorns.class",
+      "class_sha256": "084fcfd0cc8274994838c3ee4b5e8da092a8614012feb61ac0abd486504c9cd5",
+      "name": "func_180660_a",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+      "method_sha256": "f88929d43769a369e4a9db3b4926b5fd97048f5c1ba458a1bc8d1ff1fa23a338",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "HEART_FRUIT_SEEDS",
+            "Lnet/tslat/aoa3/item/misc/SeedsItem;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/RedWaterweeds.class",
+      "class_sha256": "4a0fbeda86ee0b34072f646969a78425446a84587e936652bc7cbccf8564e662",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "1d3d3b0036a25de967dddca6055544ee9bbd909ee41317a420de21c01dd2bed3",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "WaterweedsRed"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "red_waterweeds"
+        },
+        {
+          "offset": 5,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 6,
+          "opcode": 189,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 89
+        },
+        {
+          "offset": 10,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151577_b",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 83
+        },
+        {
+          "offset": 15,
+          "opcode": 89
+        },
+        {
+          "offset": 16,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151578_c",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 83
+        },
+        {
+          "offset": 21,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/generation/plants/PlantStackable",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;[Lnet/minecraft/block/material/Material;)V"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/RedWaterweeds.class",
+      "class_sha256": "4a0fbeda86ee0b34072f646969a78425446a84587e936652bc7cbccf8564e662",
+      "name": "func_180660_a",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+      "method_sha256": "19aed816b134a7357354a967e40bedebde07d29ca2d68103fdf0a33ccb835185",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "FLORACLE_SEEDS",
+            "Lnet/tslat/aoa3/item/misc/SeedsItem;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/RedWaterweeds.class",
+      "class_sha256": "4a0fbeda86ee0b34072f646969a78425446a84587e936652bc7cbccf8564e662",
+      "name": "quantityDropped",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;ILjava/util/Random;)I",
+      "method_sha256": "29acfda38e3b487f441af16848377ea9ed4c46070c75e9a37cfe6e9cc263cfca",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 2,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 3,
+          "opcode": 28
+        },
+        {
+          "offset": 4,
+          "opcode": 100
+        },
+        {
+          "offset": 5,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "max",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 15,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 19,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/TrilliadBloom.class",
+      "class_sha256": "eff67fce647bdb534f847dd744bd3d7efdadc2a13ad33142988219801b6e8a76",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "79cabbf499f4c181b33dd15f446ad1a4cfaa805af696dc50e8709f4b2f4a8257",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "TrilliadBloom"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "trilliad_bloom"
+        },
+        {
+          "offset": 5,
+          "opcode": 11
+        },
+        {
+          "offset": 6,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 7,
+          "opcode": 189,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 89
+        },
+        {
+          "offset": 11,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 12,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151578_c",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 83
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 18,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151577_b",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 83
+        },
+        {
+          "offset": 22,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/generation/plants/GenericPlantBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;F[Lnet/minecraft/block/material/Material;)V"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/TrilliadBloom.class",
+      "class_sha256": "eff67fce647bdb534f847dd744bd3d7efdadc2a13ad33142988219801b6e8a76",
+      "name": "func_149745_a",
+      "descriptor": "(Ljava/util/Random;)I",
+      "method_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/TrilliadBloom.class",
+      "class_sha256": "eff67fce647bdb534f847dd744bd3d7efdadc2a13ad33142988219801b6e8a76",
+      "name": "func_180660_a",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+      "method_sha256": "c943ffa0ad636f6ab3aac0c0beca0f84ef8c64657ee2f0ceaef5d0345d1a6b52",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TRILLIAD_SEEDS",
+            "Lnet/tslat/aoa3/item/misc/SeedsItem;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/BulbStockCap.class",
+      "class_sha256": "f42cf35a52a41bacb7036870faf295b29d55e873cb666d11eb16264f5be69ec4",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "199f0a9ab0f98fb26408819d4f584ff176c79f238aa48ffce427c312242c77bb",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "EyeBulbCap"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "bulb_stock_cap"
+        },
+        {
+          "offset": 5,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 6,
+          "opcode": 189,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 89
+        },
+        {
+          "offset": 10,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151577_b",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 83
+        },
+        {
+          "offset": 15,
+          "opcode": 89
+        },
+        {
+          "offset": 16,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151578_c",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 83
+        },
+        {
+          "offset": 21,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/generation/plants/PlantStackable",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;[Lnet/minecraft/block/material/Material;)V"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 42
+        },
+        {
+          "offset": 25,
+          "opcode": 18,
+          "constant": "bulb_stock"
+        },
+        {
+          "offset": 27,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "getUnmappedBlock",
+            "(Ljava/lang/String;)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 192,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/generation/plants/BulbStockCap",
+            "setStemBlock",
+            "(Lnet/tslat/aoa3/block/generation/plants/PlantStackable;)Lnet/tslat/aoa3/block/generation/plants/PlantStackable;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 87
+        },
+        {
+          "offset": 37,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/BulbStockCap.class",
+      "class_sha256": "f42cf35a52a41bacb7036870faf295b29d55e873cb666d11eb16264f5be69ec4",
+      "name": "func_149745_a",
+      "descriptor": "(Ljava/util/Random;)I",
+      "method_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/plants/BulbStockCap.class",
+      "class_sha256": "f42cf35a52a41bacb7036870faf295b29d55e873cb666d11eb16264f5be69ec4",
+      "name": "func_180660_a",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+      "method_sha256": "f85e164bfaec8ddc9a5be16f9013b6d7dbbef68da095f6686144d15ebbbf5a58",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "EYE_BULB",
+            "Lnet/tslat/aoa3/item/misc/EyeBulb;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/leaves/LeavesBlock.class",
+      "class_sha256": "978d6378ed0430ee34e6f0a6354ebb84d527ebefa0ee6a828fa5ba51cfeb21de",
+      "name": "func_180660_a",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+      "method_sha256": "162753542cff2db1fcac86bc1289dff5084863d262326951c2d89281a3fc4b07",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "HAUNTED_LEAVES",
+            "Lnet/tslat/aoa3/block/generation/leaves/LeavesBlock;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 166,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 44
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextBoolean",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 153,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 44
+        },
+        {
+          "offset": 20,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 29
+        },
+        {
+          "offset": 26,
+          "opcode": 163,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "MAGIC_MARANG_SEEDS",
+            "Lnet/tslat/aoa3/item/misc/SeedsItem;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 176
+        },
+        {
+          "offset": 33,
+          "opcode": 42
+        },
+        {
+          "offset": 34,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/generation/leaves/LeavesBlock",
+            "sapling",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 198,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 42
+        },
+        {
+          "offset": 41,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/generation/leaves/LeavesBlock",
+            "sapling",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/item/Item",
+            "func_150898_a",
+            "(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 176
+        },
+        {
+          "offset": 48,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Items",
+            "field_190931_a",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 176
+        },
+        {
+          "offset": 52,
+          "opcode": 42
+        },
+        {
+          "offset": 53,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/generation/leaves/LeavesBlock",
+            "sapling",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 198,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 42
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/generation/leaves/LeavesBlock",
+            "sapling",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/item/Item",
+            "func_150898_a",
+            "(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 176
+        },
+        {
+          "offset": 67,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Items",
+            "field_190931_a",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/leaves/LeavesBlock.class",
+      "class_sha256": "978d6378ed0430ee34e6f0a6354ebb84d527ebefa0ee6a828fa5ba51cfeb21de",
+      "name": "func_180643_i",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;",
+      "method_sha256": "543a626dc2ca5d69c2656edc2f51d24793c10ba8579db9d9907a2546bb9f06b5",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            204
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/item/Item",
+            "func_150898_a",
+            "(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/generation/leaves/LeavesBlock.class",
+      "class_sha256": "978d6378ed0430ee34e6f0a6354ebb84d527ebefa0ee6a828fa5ba51cfeb21de",
+      "name": "onSheared",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;I)Ljava/util/List;",
+      "method_sha256": "7fad0c05658011563410d5e6bcb74fb9d09eaa584b515a9cdcfb43468331c55e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            241
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 187,
+          "operands": [
+            0,
+            204
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 89
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/block/Block;I)V"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 87
+        },
+        {
+          "offset": 26,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/structure/gardencia/GardenCastle.class",
+      "class_sha256": "67cd5de87b03a011e49847748ef143090d0b9554e96d3a97cf8be96795402c8f",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "method_sha256": "d9aa0feb528168d52b80d8135eee84a649f666c04377ebe6ffa863b6cff73c20",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "GARDENCIA_BRICKS",
+            "Lnet/tslat/aoa3/block/BasicBlock;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/BasicBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "gardencianBricks",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "ROSIDIAN_BRICKS",
+            "Lnet/tslat/aoa3/block/BasicBlock;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/BasicBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "rosidianBricks",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "GARDENCIAN_GLASS",
+            "Lnet/tslat/aoa3/block/decoration/glass/GlassBlock;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/decoration/glass/GlassBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "gardencianGlass",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "PLANT_STEM",
+            "Lnet/tslat/aoa3/block/BasicBlock;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/BasicBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "stem",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "YELLOW_PETALS",
+            "Lnet/tslat/aoa3/block/BasicBlock;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/BasicBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "yellowPetals",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150358_i",
+            "Lnet/minecraft/block/BlockDynamicLiquid;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/BlockDynamicLiquid",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "water",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "GARDENCIAN_CARPET",
+            "Lnet/tslat/aoa3/block/decoration/carpets/CarpetBlock;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/decoration/carpets/CarpetBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "carpet",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "POD_PLANT_SPAWNER",
+            "Lnet/tslat/aoa3/block/functional/spawners/SpawnerBlock;"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/spawners/SpawnerBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "podPlantSpawner",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "PETAL_CRAFTING_STATION",
+            "Lnet/tslat/aoa3/block/functional/utility/PetalCraftingStation;"
+          ]
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/PetalCraftingStation",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "petalCraftingStation",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150486_ae",
+            "Lnet/minecraft/block/BlockChest;"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/BlockChest",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "chest",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150486_ae",
+            "Lnet/minecraft/block/BlockChest;"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/BlockChest",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockChest",
+            "field_176459_a",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "SOUTH",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "chestSouth",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "GOLDICAPS_CROP",
+            "Lnet/tslat/aoa3/block/functional/crops/CropBlock;"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/crops/CropBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockCrops",
+            "field_176488_a",
+            "Lnet/minecraft/block/properties/PropertyInteger;"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 121,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "goldicaps",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "IVORY_JADE_LAMP",
+            "Lnet/tslat/aoa3/block/functional/lamps/LampBlock;"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/lamps/LampBlock",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/block/functional/lamps/LampBlock",
+            "FIXED_LAMP",
+            "Lnet/minecraft/block/properties/PropertyBool;"
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 142,
+          "opcode": 184,
+          "member": [
+            "java/lang/Boolean",
+            "valueOf",
+            "(Z)Ljava/lang/Boolean;"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "ivoryJadeLamp",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Blocks",
+            "field_150458_ak",
+            "Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/Block",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockFarmland",
+            "field_176531_a",
+            "Lnet/minecraft/block/properties/PropertyInteger;"
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 164,
+          "opcode": 184,
+          "member": [
+            "java/lang/Integer",
+            "valueOf",
+            "(I)Ljava/lang/Integer;"
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/structure/gardencia/GardenCastle",
+            "farmland",
+            "Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "trade_catalog_sha256": "ae90ed039e3bcf0c5b8dd0c2db5ede86fcbcfa4820e5df84f09a1ee2c2eae0dd",
+  "unresolved_in_scanned_routes": [
+    "aoa3:thorny_plant_seeds"
+  ],
+  "source_comment_comparison": {
+    "source_commit": "29dd8a8a20642ee182b851e34ef58b65f68e68bf",
+    "path": "source/common/registration/BlockRegister.java",
+    "file_sha256": "89d2a690ecd2c3f649ffd495553b425c8f844622f652d37980de92aa923a4b58",
+    "line": "public static final CropBlock CHILLI_CROP = ObjectHolder(); // Seeds dropped in Lelyetia",
+    "released_loot_reference": "assets/aoa3/loot_tables/worlds/gardencia.json",
+    "scope": "Comment/resource mismatch; not a runtime reproduction."
+  }
+}
