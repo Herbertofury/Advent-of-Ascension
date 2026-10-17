@@ -181,3 +181,9 @@ The tutorial library now has **56 version-scoped illustrated routes**. Inventory
 All **48 ordinary set studies** now carry expandable released-tooltip descriptions, covering **100 effect lines**. The Armor Atelier searches effect wording as well as set names, with one precomputed search index and no added data requests. The new [activation guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) separates intended tooltip text from nine checked callback routes and documents the Alacrity partial-set source mismatch without claiming a reproduced game bug.
 
 The tutorial library contains **57 illustrated routes**, with **83 passing local documentation checks**. Full interpretation of the remaining set callbacks, equipment-transition behavior and actual target-build combat/performance tests remain open. The existing owner-local runtime receipts retain their independent scope.
+
+## All ordinary armor sets reviewed · 2026-10-17
+
+The [armor effects guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Set-Effects-and-Activation-1.21.1) now reviews **all 48 ordinary sets**, retaining **194 released set methods**, **24 shared methods**, four selected external methods and 14 attribute modifier definitions. It distinguishes cross-class rune/Spirit/planting effects, equipment cleanup and damage-category exclusions. Rosidian and Spaceking summoning activation remains explicitly unresolved; the documentation does not substitute tooltip text for an implementation path.
+
+Five exact gallery cards carry relevant source-review notices. Ghastly scan frequency and Biogenic’s negative air write are bounded acceptance targets, not reproduced failures or measured performance regressions. All **84 local documentation checks pass**; the tutorial library remains at **57 illustrated routes**. No game execution or private-current-candidate certification is inferred.
