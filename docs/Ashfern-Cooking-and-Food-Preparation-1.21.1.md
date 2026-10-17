@@ -76,3 +76,7 @@ The match method uses the supplied level; the inspected assembly method obtains 
 The 25-route list deliberately includes only explicit AoA item ingredients with direct food registrations found by this audit. Custom food subclasses, tag ingredients, vanilla recipes and other mods need their own verification. No game mod code was executed; no private Enderloom runtime behavior or performance gain is certified.
 
 AoA models, textures and systems are by Tslat and contributors. The recipe illustrations are original source-derived documentation, not in-game screenshots.
+
+## Compare modern fish food behavior
+
+[Modern fish food, cooking and healing · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Fish-Food-Cooking-and-Healing-1.21.1) documents 27 foods and 63 cooking recipes. Generic Cooked Fish and Cooked Rainbowfish have distinct effect and healing behavior; historical per-fish healing values must not be carried across releases.

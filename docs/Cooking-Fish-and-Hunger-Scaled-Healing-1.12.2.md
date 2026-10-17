@@ -78,3 +78,7 @@ This comparison covers these fish only. It does not rank every AoA food, certify
 - [Sixteen paired illustration receipts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/healing-fish-art-evidence-1.12.2.json).
 - [Meal calculator](https://herbertofury.github.io/Advent-of-Ascension/fish-food-planner.html), [fishing and Hauling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fishing-Hauling-and-Boxes-1.12.2), [crop harvesting](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crop-Growth-Planting-and-Harvesting-1.12.2).
 - Original item art and mechanics by Tslat and AoA contributors; vanilla comparison by Mojang. No game or mod code was executed.
+
+## Compare modern fish food behavior
+
+[Modern fish food, cooking and healing · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Fish-Food-Cooking-and-Healing-1.21.1) documents 27 foods and 63 cooking recipes. Generic Cooked Fish and Cooked Rainbowfish have distinct effect and healing behavior; historical per-fish healing values must not be carried across releases.
