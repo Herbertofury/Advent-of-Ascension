@@ -6,6 +6,10 @@
 
 **Scope:** 33 bows and 9 crossbows registered in Minecraft 1.21.1 / AoA 3.7.16.1. Values come from released stat-builder instructions joined to the released item registration factories. Source models are static documentation renders. Damage inputs and speed modifiers are not measured hit damage or wall-clock timings.
 
+## Inspect draw and loaded states
+
+The [three-release bow and crossbow state gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-and-Crossbow-Draw-State-Comparisons) shows resting, drawing, charged and firework textures with exact version labels. Fourteen item identities differ across the inspected releases; the item browser selects the matching sheet. These are static source textures, not an animation or gameplay-parity claim.
+
 ## Before leaving base
 
 1. Open a weapon below and expand **Released archery defaults · damage, draw and charge**.

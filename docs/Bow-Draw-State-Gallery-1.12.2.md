@@ -290,6 +290,10 @@ Open a name below for its sheet. The item link opens the normal source-model por
 </details>
 
 
+## Later-release bow and crossbow states
+
+The separate [1.16.5, 1.20.1 and 1.21.1 comparison gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-and-Crossbow-Draw-State-Comparisons) contains 558 additional version-specific source-state references. It preserves changed artwork instead of copying a newer sheet into every release.
+
 ## Parent models and restoration limits
 
 The 33 base JSONs inherit item/bow. The 99 inspected override JSONs name aoa3:item/weapons/bows/speed_bow as their parent while supplying their own layer0 texture. Those parent references are retained in the evidence; this documentation does not silently rewrite them or claim that a flat sheet validates the entire inherited transform/override pipeline.
