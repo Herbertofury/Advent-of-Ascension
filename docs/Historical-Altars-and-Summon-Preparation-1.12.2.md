@@ -20,7 +20,7 @@ Block and item links open the exact historical inventory record. Creature links 
 
 | Block | Input / preparation | Declared result or path |
 |---|---|---|
-| [Army Block](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Atile.ArmyBlock.name) | No fixed item key; Elder/wave route | Skele-Elder preparation; see the wave exception below |
+| [Army Block](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Atile.ArmyBlock.name) | No fixed item key; Elder/wave route | [All 39 waves and recovery boundaries](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skeletal-Army-Waves-and-Recovery-1.12.2) |
 | [Baroness Altar](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Atile.BaronessAltar.name) | [Warlock Gem](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.WarlockGem.name) | [Baroness](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Abaroness) |
 | [Candy Block](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Atile.CandyBlock.name) | [Treat Bag](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.TreatBag.name) | [Cotton Candor](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Acotton_candor) |
 | [Clunkhead Altar](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Atile.ClunkheadAltar.name) | [Mega Rune Stone](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2&id=localization%3Aitem.MegaRuneStone.name); one durability damage | [Clunkhead](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aclunkhead) |
@@ -101,7 +101,7 @@ The growth depends on the shrine beneath it; removing the shrine also removes ma
 
 Army Block's condition can create a wave-0 Skele-Elder when its nearby class-filtered query finds neither a Skele-Elder nor a Skeletron. It then **returns false**. Consequently, that path does not reach the shared handler's item shrink or ordinary activation effect; do not invent an arbitrary-held-item consumption bug from its null activation key.
 
-The selected Skele-Elder death callback advances the wave when it has a nonnegative wave, an Army Block position, has squared distance **less than 2500** from that position (the selected 50-block threshold), and the block is still an Army Block. The broader wave roster and save/reload behavior require their own encounter walkthrough; this catalog only establishes the entry connection.
+The selected Skele-Elder death callback advances the wave when it has a nonnegative wave, an Army Block position, has squared distance **less than 2500** from that position (the selected 50-block threshold), and the block is still an Army Block. Use the [complete Skeletal Army walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skeletal-Army-Waves-and-Recovery-1.12.2) for all 39 wave lineups, starter persistence boundaries and Skeletron rewards.
 
 ### Rockrider: convert first, then use the dropped-boss-item path
 
