@@ -1,0 +1,2958 @@
+{
+  "release": "Minecraft1.12.2/AoA3.3.6",
+  "scope": "Selected released bytecode, source hashes and independent callback interpretation. Not a live fight, final attribute calculation or runtime performance measurement.",
+  "source_files": {
+    "entity/boss/klobber/EntityKlobber.java": "60bd781e4b5c85ed621269d17d5f3dc3a477737e0a7391012bdf100539d50f4c",
+    "entity/boss/proshield/EntityProshield.java": "4467c1b85060155c24750f4f9e9c185314d41548452ca37a78ed7ec7199aad31",
+    "entity/boss/mirage/EntityMirage.java": "ef43f7899973bfe8c9558a6594b3993d624fe535dcc2c4c5f131f925ad224912",
+    "entity/boss/flash/EntityFlash.java": "efbeacf46988972befc61d5419c17c861ada115df780e172271c9c6bd435d93c",
+    "utils/EntityUtil.java": "1fd32fd1079b23f823a5d76ea19a6f1b424c5f53172b19367eb2927fbb7bc610",
+    "entity/base/AoAMeleeMob.java": "aaafb57762cc98b9cec4906e6f66b22749259e882b004ef216bfd3ea86d7809f"
+  },
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/klobber/EntityKlobber.class",
+      "class_sha256": "d2a130224f30c509aa3fb976bb86e81ed2ae919e72a052ebb2133a261f899092",
+      "name": "getBaseMaxHealth",
+      "descriptor": "()D",
+      "code_hex": "14001caf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 1000.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/klobber/EntityKlobber.class",
+      "class_sha256": "d2a130224f30c509aa3fb976bb86e81ed2ae919e72a052ebb2133a261f899092",
+      "name": "getBaseMovementSpeed",
+      "descriptor": "()D",
+      "code_hex": "140022af",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 0.2875
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/klobber/EntityKlobber.class",
+      "class_sha256": "d2a130224f30c509aa3fb976bb86e81ed2ae919e72a052ebb2133a261f899092",
+      "name": "getBaseKnockbackResistance",
+      "descriptor": "()D",
+      "code_hex": "140019af",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/klobber/EntityKlobber.class",
+      "class_sha256": "d2a130224f30c509aa3fb976bb86e81ed2ae919e72a052ebb2133a261f899092",
+      "name": "getBaseMeleeDamage",
+      "descriptor": "()D",
+      "code_hex": "14001faf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 20.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/proshield/EntityProshield.class",
+      "class_sha256": "80a2ebd5f278b489d79ae7183e1d12c0615ede1d978935e69f9ba363bc0c88db",
+      "name": "getBaseMaxHealth",
+      "descriptor": "()D",
+      "code_hex": "14001caf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 500.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/proshield/EntityProshield.class",
+      "class_sha256": "80a2ebd5f278b489d79ae7183e1d12c0615ede1d978935e69f9ba363bc0c88db",
+      "name": "getBaseMovementSpeed",
+      "descriptor": "()D",
+      "code_hex": "140022af",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 0.2875
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/proshield/EntityProshield.class",
+      "class_sha256": "80a2ebd5f278b489d79ae7183e1d12c0615ede1d978935e69f9ba363bc0c88db",
+      "name": "getBaseKnockbackResistance",
+      "descriptor": "()D",
+      "code_hex": "140019af",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 0.1
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/proshield/EntityProshield.class",
+      "class_sha256": "80a2ebd5f278b489d79ae7183e1d12c0615ede1d978935e69f9ba363bc0c88db",
+      "name": "getBaseMeleeDamage",
+      "descriptor": "()D",
+      "code_hex": "14001faf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 5.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/mirage/EntityMirage.class",
+      "class_sha256": "a7f13b626e08a48e826cb0e39012f183f32395464b732f913d2cfa732c739ba0",
+      "name": "getBaseMaxHealth",
+      "descriptor": "()D",
+      "code_hex": "140027af",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 750.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/mirage/EntityMirage.class",
+      "class_sha256": "a7f13b626e08a48e826cb0e39012f183f32395464b732f913d2cfa732c739ba0",
+      "name": "getBaseMovementSpeed",
+      "descriptor": "()D",
+      "code_hex": "14002daf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 0.23
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/mirage/EntityMirage.class",
+      "class_sha256": "a7f13b626e08a48e826cb0e39012f183f32395464b732f913d2cfa732c739ba0",
+      "name": "getBaseKnockbackResistance",
+      "descriptor": "()D",
+      "code_hex": "0faf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 15
+        },
+        {
+          "offset": 1,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/mirage/EntityMirage.class",
+      "class_sha256": "a7f13b626e08a48e826cb0e39012f183f32395464b732f913d2cfa732c739ba0",
+      "name": "getBaseProjectileDamage",
+      "descriptor": "()D",
+      "code_hex": "14002aaf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 8.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "getBaseMaxHealth",
+      "descriptor": "()D",
+      "code_hex": "14002baf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 1000.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "getBaseMovementSpeed",
+      "descriptor": "()D",
+      "code_hex": "140031af",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 0.329
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "getBaseKnockbackResistance",
+      "descriptor": "()D",
+      "code_hex": "0faf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 15
+        },
+        {
+          "offset": 1,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "getBaseMeleeDamage",
+      "descriptor": "()D",
+      "code_hex": "14002eaf",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 20,
+          "constant": 9.0
+        },
+        {
+          "offset": 3,
+          "opcode": 175
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/klobber/EntityKlobber.class",
+      "class_sha256": "d2a130224f30c509aa3fb976bb86e81ed2ae919e72a052ebb2133a261f899092",
+      "name": "func_70636_d",
+      "descriptor": "()V",
+      "code_hex": "2ab700472ab4004a124c2ab60050140051b60058b2005eb60064b9006a01004c2bb9006f010099003c2bb900730100c0004c4d2cb600769a00282c2ab4007a2cb4007b67b800811400826b0e2ab400862cb4008767b800811400826bb6008ba7ffc1b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoAMeleeMob",
+            "func_70636_d",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/klobber/EntityKlobber",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": "net/minecraft/entity/player/EntityPlayer"
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/klobber/EntityKlobber",
+            "func_174813_aQ",
+            "()Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 20,
+          "constant": 11.0
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/AxisAlignedBB",
+            "func_186662_g",
+            "(D)Lnet/minecraft/util/math/AxisAlignedBB;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/PredicateUtil",
+            "IS_VULNERABLE_PLAYER",
+            "Lcom/google/common/base/Predicate;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175647_a",
+            "(Ljava/lang/Class;Lnet/minecraft/util/math/AxisAlignedBB;Lcom/google/common/base/Predicate;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 76
+        },
+        {
+          "offset": 32,
+          "opcode": 43
+        },
+        {
+          "offset": 33,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 153,
+          "operands": [
+            0,
+            60
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 43
+        },
+        {
+          "offset": 42,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 192,
+          "operands": [
+            0,
+            76
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 77
+        },
+        {
+          "offset": 51,
+          "opcode": 44
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70093_af",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 154,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 44
+        },
+        {
+          "offset": 59,
+          "opcode": 42
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/klobber/EntityKlobber",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 44
+        },
+        {
+          "offset": 64,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 103
+        },
+        {
+          "offset": 68,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "signum",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 20,
+          "constant": 0.019
+        },
+        {
+          "offset": 74,
+          "opcode": 107
+        },
+        {
+          "offset": 75,
+          "opcode": 14
+        },
+        {
+          "offset": 76,
+          "opcode": 42
+        },
+        {
+          "offset": 77,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/klobber/EntityKlobber",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 44
+        },
+        {
+          "offset": 81,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 103
+        },
+        {
+          "offset": 85,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "signum",
+            "(D)D"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 20,
+          "constant": 0.019
+        },
+        {
+          "offset": 91,
+          "opcode": 107
+        },
+        {
+          "offset": 92,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70024_g",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 95,
+          "opcode": 167,
+          "operands": [
+            255,
+            193
+          ]
+        },
+        {
+          "offset": 98,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/proshield/EntityProshield.class",
+      "class_sha256": "80a2ebd5f278b489d79ae7183e1d12c0615ede1d978935e69f9ba363bc0c88db",
+      "name": "func_70097_a",
+      "descriptor": "(Lnet/minecraft/util/DamageSource;F)Z",
+      "code_hex": "2a2b24b7004799001b2bb8004d9900122bb600532ab80057240d6eb6005a5704ac03ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 36
+        },
+        {
+          "offset": 3,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoAMeleeMob",
+            "func_70097_a",
+            "(Lnet/minecraft/util/DamageSource;F)Z"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "isMeleeDamage",
+            "(Lnet/minecraft/util/DamageSource;)Z"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 153,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 43
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76364_f",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76358_a",
+            "(Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/DamageSource;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 36
+        },
+        {
+          "offset": 25,
+          "opcode": 13
+        },
+        {
+          "offset": 26,
+          "opcode": 110
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/Entity",
+            "func_70097_a",
+            "(Lnet/minecraft/util/DamageSource;F)Z"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 87
+        },
+        {
+          "offset": 31,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 32,
+          "opcode": 172
+        },
+        {
+          "offset": 33,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 34,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/mirage/EntityMirage.class",
+      "class_sha256": "a7f13b626e08a48e826cb0e39012f183f32395464b732f913d2cfa732c739ba0",
+      "name": "func_70636_d",
+      "descriptor": "()V",
+      "code_hex": "2ab700612ab40064b4006a9a012c2ab4006e1050b600749a01202ab40064012ab400782ab4007b2ab4007eb20081b200870c0cb6008b2ab40064b4008fb60095b20099b4009da000962ab4006e07b60074aa00000000008800000000000000030000001f0000003a00000055000000702a14009e1400a014002a2ab4006eb600a412a56a0bb600a9a700512a1400aa1400a01400ac2ab4006eb600a412a56a0bb600a9a700362a1400ae1400a014002a2ab4006eb600a412a56a0bb600a9a7001b2a1400ae1400a01400ac2ab4006eb600a412a56a0bb600a9a7005e2ab4006eb600b299000e2ab400781400b363a7000b2ab400781400b3678e3c2ab4006eb600b299000e2ab4007e1400b363a7000b2ab4007e1400b3678e3d2a1b872ab400641b1cb600b8871c872ab4006eb600a412a56a0bb600a9b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoARangedMob",
+            "func_70636_d",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            1,
+            44
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 16,
+          "constant": 80
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 154,
+          "operands": [
+            1,
+            32
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 1
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 42
+        },
+        {
+          "offset": 36,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70163_u",
+            "D"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 42
+        },
+        {
+          "offset": 40,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "MOB_MIRAGE_TELEPORT",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "HOSTILE",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 12
+        },
+        {
+          "offset": 50,
+          "opcode": 12
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184148_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 42
+        },
+        {
+          "offset": 55,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "immortallis",
+            "I"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 160,
+          "operands": [
+            0,
+            150
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 42
+        },
+        {
+          "offset": 74,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 78,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 170,
+          "default_target": 217,
+          "cases": [
+            {
+              "key": 0,
+              "target": 112
+            },
+            {
+              "key": 1,
+              "target": 139
+            },
+            {
+              "key": 2,
+              "target": 166
+            },
+            {
+              "key": 3,
+              "target": 193
+            }
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 42
+        },
+        {
+          "offset": 113,
+          "opcode": 20,
+          "constant": 167.0
+        },
+        {
+          "offset": 116,
+          "opcode": 20,
+          "constant": 24.0
+        },
+        {
+          "offset": 119,
+          "opcode": 20,
+          "constant": 8.0
+        },
+        {
+          "offset": 122,
+          "opcode": 42
+        },
+        {
+          "offset": 123,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 18,
+          "constant": 360.0
+        },
+        {
+          "offset": 131,
+          "opcode": 106
+        },
+        {
+          "offset": 132,
+          "opcode": 11
+        },
+        {
+          "offset": 133,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "func_70012_b",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 167,
+          "operands": [
+            0,
+            81
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 42
+        },
+        {
+          "offset": 140,
+          "opcode": 20,
+          "constant": 168.0
+        },
+        {
+          "offset": 143,
+          "opcode": 20,
+          "constant": 24.0
+        },
+        {
+          "offset": 146,
+          "opcode": 20,
+          "constant": -2.0
+        },
+        {
+          "offset": 149,
+          "opcode": 42
+        },
+        {
+          "offset": 150,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 18,
+          "constant": 360.0
+        },
+        {
+          "offset": 158,
+          "opcode": 106
+        },
+        {
+          "offset": 159,
+          "opcode": 11
+        },
+        {
+          "offset": 160,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "func_70012_b",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 167,
+          "operands": [
+            0,
+            54
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 42
+        },
+        {
+          "offset": 167,
+          "opcode": 20,
+          "constant": 177.0
+        },
+        {
+          "offset": 170,
+          "opcode": 20,
+          "constant": 24.0
+        },
+        {
+          "offset": 173,
+          "opcode": 20,
+          "constant": 8.0
+        },
+        {
+          "offset": 176,
+          "opcode": 42
+        },
+        {
+          "offset": 177,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 18,
+          "constant": 360.0
+        },
+        {
+          "offset": 185,
+          "opcode": 106
+        },
+        {
+          "offset": 186,
+          "opcode": 11
+        },
+        {
+          "offset": 187,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "func_70012_b",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 167,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 42
+        },
+        {
+          "offset": 194,
+          "opcode": 20,
+          "constant": 177.0
+        },
+        {
+          "offset": 197,
+          "opcode": 20,
+          "constant": 24.0
+        },
+        {
+          "offset": 200,
+          "opcode": 20,
+          "constant": -2.0
+        },
+        {
+          "offset": 203,
+          "opcode": 42
+        },
+        {
+          "offset": 204,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 18,
+          "constant": 360.0
+        },
+        {
+          "offset": 212,
+          "opcode": 106
+        },
+        {
+          "offset": 213,
+          "opcode": 11
+        },
+        {
+          "offset": 214,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "func_70012_b",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 217,
+          "opcode": 167,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 42
+        },
+        {
+          "offset": 221,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 224,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextBoolean",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 42
+        },
+        {
+          "offset": 231,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 20,
+          "constant": 5.0
+        },
+        {
+          "offset": 237,
+          "opcode": 99
+        },
+        {
+          "offset": 238,
+          "opcode": 167,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 241,
+          "opcode": 42
+        },
+        {
+          "offset": 242,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 20,
+          "constant": 5.0
+        },
+        {
+          "offset": 248,
+          "opcode": 103
+        },
+        {
+          "offset": 249,
+          "opcode": 142
+        },
+        {
+          "offset": 250,
+          "opcode": 60
+        },
+        {
+          "offset": 251,
+          "opcode": 42
+        },
+        {
+          "offset": 252,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextBoolean",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 153,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 261,
+          "opcode": 42
+        },
+        {
+          "offset": 262,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 265,
+          "opcode": 20,
+          "constant": 5.0
+        },
+        {
+          "offset": 268,
+          "opcode": 99
+        },
+        {
+          "offset": 269,
+          "opcode": 167,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 272,
+          "opcode": 42
+        },
+        {
+          "offset": 273,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 20,
+          "constant": 5.0
+        },
+        {
+          "offset": 279,
+          "opcode": 103
+        },
+        {
+          "offset": 280,
+          "opcode": 142
+        },
+        {
+          "offset": 281,
+          "opcode": 61
+        },
+        {
+          "offset": 282,
+          "opcode": 42
+        },
+        {
+          "offset": 283,
+          "opcode": 27
+        },
+        {
+          "offset": 284,
+          "opcode": 135
+        },
+        {
+          "offset": 285,
+          "opcode": 42
+        },
+        {
+          "offset": 286,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 27
+        },
+        {
+          "offset": 290,
+          "opcode": 28
+        },
+        {
+          "offset": 291,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_189649_b",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 294,
+          "opcode": 135
+        },
+        {
+          "offset": 295,
+          "opcode": 28
+        },
+        {
+          "offset": 296,
+          "opcode": 135
+        },
+        {
+          "offset": 297,
+          "opcode": 42
+        },
+        {
+          "offset": 298,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 301,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextFloat",
+            "()F"
+          ]
+        },
+        {
+          "offset": 304,
+          "opcode": 18,
+          "constant": 360.0
+        },
+        {
+          "offset": 306,
+          "opcode": 106
+        },
+        {
+          "offset": 307,
+          "opcode": 11
+        },
+        {
+          "offset": 308,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/mirage/EntityMirage",
+            "func_70012_b",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 311,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/mirage/EntityMirage.class",
+      "class_sha256": "a7f13b626e08a48e826cb0e39012f183f32395464b732f913d2cfa732c739ba0",
+      "name": "getNewProjectileInstance",
+      "descriptor": "()Lnet/tslat/aoa3/entity/projectiles/mob/BaseMobProjectile;",
+      "code_hex": "bb0056592ab2005ab7005db0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            86
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/library/Enums$MobProjectileType",
+            "MAGIC",
+            "Lnet/tslat/aoa3/library/Enums$MobProjectileType;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/projectiles/mob/EntitySpiritualShot",
+            "<init>",
+            "(Lnet/tslat/aoa3/entity/base/AoARangedMob;Lnet/tslat/aoa3/library/Enums$MobProjectileType;)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "<init>",
+      "descriptor": "(Lnet/minecraft/world/World;)V",
+      "code_hex": "2a2b12120db700172ab6001b2a121cb60020b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 18,
+          "constant": 0.800000011920929
+        },
+        {
+          "offset": 4,
+          "opcode": 13
+        },
+        {
+          "offset": 5,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoAMeleeMob",
+            "<init>",
+            "(Lnet/minecraft/world/World;FF)V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "setSlipperyMovement",
+            "()V"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 42
+        },
+        {
+          "offset": 13,
+          "opcode": 18,
+          "constant": 3.200000047683716
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70659_e",
+            "(F)V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "func_70097_a",
+      "descriptor": "(Lnet/minecraft/util/DamageSource;F)Z",
+      "code_hex": "2ab40057b4005d9a00ac2bb800639900a52ab40057b40067b6006db20071b40075a000572ab4007906b6007faa0000000000004900000000000000020000001c0000002c0000003c2a140080140082140084b60089a700202a14008014008214008ab60089a700102a14008c14008214008eb60089a7003e2ab400938e2ab40079100eb6007f100764603e2ab400968e2ab40079100eb6007f1007646036042a1d872ab400571d1504b6009a87150487b6009d2a2b24b7009fac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 154,
+          "operands": [
+            0,
+            172
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 43
+        },
+        {
+          "offset": 11,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "isMeleeDamage",
+            "(Lnet/minecraft/util/DamageSource;)Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 153,
+          "operands": [
+            0,
+            165
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 42
+        },
+        {
+          "offset": 18,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "immortallis",
+            "I"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 160,
+          "operands": [
+            0,
+            87
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 42
+        },
+        {
+          "offset": 37,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 170,
+          "default_target": 117,
+          "cases": [
+            {
+              "key": 0,
+              "target": 72
+            },
+            {
+              "key": 1,
+              "target": 88
+            },
+            {
+              "key": 2,
+              "target": 104
+            }
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 42
+        },
+        {
+          "offset": 73,
+          "opcode": 20,
+          "constant": 235.0
+        },
+        {
+          "offset": 76,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 79,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 82,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70634_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 167,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 42
+        },
+        {
+          "offset": 89,
+          "opcode": 20,
+          "constant": 235.0
+        },
+        {
+          "offset": 92,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 95,
+          "opcode": 20,
+          "constant": -3.0
+        },
+        {
+          "offset": 98,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70634_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 101,
+          "opcode": 167,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 42
+        },
+        {
+          "offset": 105,
+          "opcode": 20,
+          "constant": 228.0
+        },
+        {
+          "offset": 108,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 111,
+          "opcode": 20,
+          "constant": 3.0
+        },
+        {
+          "offset": 114,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70634_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 167,
+          "operands": [
+            0,
+            62
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 42
+        },
+        {
+          "offset": 121,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 142
+        },
+        {
+          "offset": 125,
+          "opcode": 42
+        },
+        {
+          "offset": 126,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 131,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 136,
+          "opcode": 100
+        },
+        {
+          "offset": 137,
+          "opcode": 96
+        },
+        {
+          "offset": 138,
+          "opcode": 62
+        },
+        {
+          "offset": 139,
+          "opcode": 42
+        },
+        {
+          "offset": 140,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 142
+        },
+        {
+          "offset": 144,
+          "opcode": 42
+        },
+        {
+          "offset": 145,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 150,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 155,
+          "opcode": 100
+        },
+        {
+          "offset": 156,
+          "opcode": 96
+        },
+        {
+          "offset": 157,
+          "opcode": 54,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 42
+        },
+        {
+          "offset": 160,
+          "opcode": 29
+        },
+        {
+          "offset": 161,
+          "opcode": 135
+        },
+        {
+          "offset": 162,
+          "opcode": 42
+        },
+        {
+          "offset": 163,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 29
+        },
+        {
+          "offset": 167,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_189649_b",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 135
+        },
+        {
+          "offset": 173,
+          "opcode": 21,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 135
+        },
+        {
+          "offset": 176,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70107_b",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 42
+        },
+        {
+          "offset": 180,
+          "opcode": 43
+        },
+        {
+          "offset": 181,
+          "opcode": 36
+        },
+        {
+          "offset": 182,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoAMeleeMob",
+            "func_70097_a",
+            "(Lnet/minecraft/util/DamageSource;F)Z"
+          ]
+        },
+        {
+          "offset": 185,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/boss/flash/EntityFlash.class",
+      "class_sha256": "5dbf2921e72124165a17e38c9e6635e03c59787ec4a0421a8e3937d21d87fdc9",
+      "name": "doMeleeEffect",
+      "descriptor": "(Lnet/minecraft/entity/Entity;)V",
+      "code_hex": "2ab40057b4005d9a00a12ab40057b40067b6006db20071b40075a000562ab4007906b6007faa00000000004800000000000000020000001b0000002b0000003b2a140080140082140084b60089a700202a14008014008214008ab60089a700102a14008c14008214008eb60089a7003b2ab400938e2ab40079100eb6007f100764603d2ab400968e2ab40079100eb6007f100764603e2a1c872ab400571c1db6009a871d87b6009db1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 154,
+          "operands": [
+            0,
+            161
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_73011_w",
+            "Lnet/minecraft/world/WorldProvider;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/WorldProvider",
+            "getDimension",
+            "()I"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig",
+            "dimensionIds",
+            "Lnet/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/utils/ConfigurationUtil$MainConfig$SubCategoryDimensionIds",
+            "immortallis",
+            "I"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 160,
+          "operands": [
+            0,
+            86
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 170,
+          "default_target": 109,
+          "cases": [
+            {
+              "key": 0,
+              "target": 64
+            },
+            {
+              "key": 1,
+              "target": 80
+            },
+            {
+              "key": 2,
+              "target": 96
+            }
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 42
+        },
+        {
+          "offset": 65,
+          "opcode": 20,
+          "constant": 235.0
+        },
+        {
+          "offset": 68,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 71,
+          "opcode": 20,
+          "constant": 10.0
+        },
+        {
+          "offset": 74,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70634_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 167,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 42
+        },
+        {
+          "offset": 81,
+          "opcode": 20,
+          "constant": 235.0
+        },
+        {
+          "offset": 84,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 87,
+          "opcode": 20,
+          "constant": -3.0
+        },
+        {
+          "offset": 90,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70634_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 167,
+          "operands": [
+            0,
+            16
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 42
+        },
+        {
+          "offset": 97,
+          "opcode": 20,
+          "constant": 228.0
+        },
+        {
+          "offset": 100,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 103,
+          "opcode": 20,
+          "constant": 3.0
+        },
+        {
+          "offset": 106,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70634_a",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 167,
+          "operands": [
+            0,
+            59
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 42
+        },
+        {
+          "offset": 113,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70165_t",
+            "D"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 142
+        },
+        {
+          "offset": 117,
+          "opcode": 42
+        },
+        {
+          "offset": 118,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 123,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 128,
+          "opcode": 100
+        },
+        {
+          "offset": 129,
+          "opcode": 96
+        },
+        {
+          "offset": 130,
+          "opcode": 61
+        },
+        {
+          "offset": 131,
+          "opcode": 42
+        },
+        {
+          "offset": 132,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70161_v",
+            "D"
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 142
+        },
+        {
+          "offset": 136,
+          "opcode": 42
+        },
+        {
+          "offset": 137,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70146_Z",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 16,
+          "constant": 14
+        },
+        {
+          "offset": 142,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 147,
+          "opcode": 100
+        },
+        {
+          "offset": 148,
+          "opcode": 96
+        },
+        {
+          "offset": 149,
+          "opcode": 62
+        },
+        {
+          "offset": 150,
+          "opcode": 42
+        },
+        {
+          "offset": 151,
+          "opcode": 28
+        },
+        {
+          "offset": 152,
+          "opcode": 135
+        },
+        {
+          "offset": 153,
+          "opcode": 42
+        },
+        {
+          "offset": 154,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "field_70170_p",
+            "Lnet/minecraft/world/World;"
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 28
+        },
+        {
+          "offset": 158,
+          "opcode": 29
+        },
+        {
+          "offset": 159,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_189649_b",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 135
+        },
+        {
+          "offset": 163,
+          "opcode": 29
+        },
+        {
+          "offset": 164,
+          "opcode": 135
+        },
+        {
+          "offset": 165,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/boss/flash/EntityFlash",
+            "func_70107_b",
+            "(DDD)V"
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/EntityUtil.class",
+      "class_sha256": "b711efc4c6e99c4fde55e7755e18ec1f3f8cc8a152c506deeaa20b8a56d35402",
+      "name": "isMeleeDamage",
+      "descriptor": "(Lnet/minecraft/util/DamageSource;)Z",
+      "code_hex": "2ab60133c6003b2ab601369a00342ab6013a13013cb601429a00272ab601459a00202ab601489a00192ab6014b9a00122ab6014e2ab60133a6000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76346_g",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 198,
+          "operands": [
+            0,
+            59
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76352_a",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            0,
+            52
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76355_l",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 19,
+          "constant": "thrown"
+        },
+        {
+          "offset": 21,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 154,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_82725_o",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 154,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 42
+        },
+        {
+          "offset": 35,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_94541_c",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 154,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 42
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76347_k",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 154,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 42
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76364_f",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 42
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/DamageSource",
+            "func_76346_g",
+            "()Lnet/minecraft/entity/Entity;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 166,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 60,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 64,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoAMeleeMob.class",
+      "class_sha256": "5cc0110053840fb50003322c91b738267a4cd0f4415840db50c1bcf6d33d09f1",
+      "name": "func_70652_k",
+      "descriptor": "(Lnet/minecraft/entity/Entity;)Z",
+      "code_hex": "2a2bb701c799000a2a2bb601cb04ac03ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/entity/monster/EntityMob",
+            "func_70652_k",
+            "(Lnet/minecraft/entity/Entity;)Z"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 153,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoAMeleeMob",
+            "doMeleeEffect",
+            "(Lnet/minecraft/entity/Entity;)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 14,
+          "opcode": 172
+        },
+        {
+          "offset": 15,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 16,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/entity/base/AoAMeleeMob.class",
+      "class_sha256": "5cc0110053840fb50003322c91b738267a4cd0f4415840db50c1bcf6d33d09f1",
+      "name": "setSlipperyMovement",
+      "descriptor": "()V",
+      "code_hex": "2a04b50035b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 2,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/entity/base/AoAMeleeMob",
+            "isSlipperyMob",
+            "Z"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "base_getters": {
+    "klobber": {
+      "getBaseMaxHealth": 1000.0,
+      "getBaseMovementSpeed": 0.2875,
+      "getBaseKnockbackResistance": 0.1,
+      "getBaseMeleeDamage": 20.0
+    },
+    "proshield": {
+      "getBaseMaxHealth": 500.0,
+      "getBaseMovementSpeed": 0.2875,
+      "getBaseKnockbackResistance": 0.1,
+      "getBaseMeleeDamage": 5.0
+    },
+    "mirage": {
+      "getBaseMaxHealth": 750.0,
+      "getBaseMovementSpeed": 0.23,
+      "getBaseKnockbackResistance": 1.0,
+      "getBaseProjectileDamage": 8.0
+    },
+    "flash": {
+      "getBaseMaxHealth": 1000.0,
+      "getBaseMovementSpeed": 0.329,
+      "getBaseKnockbackResistance": 1.0,
+      "getBaseMeleeDamage": 9.0
+    }
+  },
+  "findings": {
+    "klobber": "Expanded AABB by11, vulnerable non-sneaking players get horizontal signum velocity*0.019; selected override has no explicit server-only guard.",
+    "proshield": "After superclass damage returns true, melee-classified incoming damage triggers mob damage amount/2 against the immediate source. This is the incoming method argument, not a measured final health-loss fraction.",
+    "mirage": "Server living-update callback nextInt80==0; in Immortallis choose one of4 fixed positions. Independent random trials, not a guaranteed80-tick timer.",
+    "flash": "Melee-classified incoming damage can teleport on server before superclass acceptance. Successful outgoing melee invokes doMeleeEffect, which also teleports. Constructor slippery flag and AI-speed argument are not blocks-per-second measurements."
+  },
+  "limits": [
+    "Base values may be modified by configuration, difficulty, attributes and other mods.",
+    "AABB expansion is not a radial11-block sphere.",
+    "No claim that damage classified as ranged bypasses every inherited immunity.",
+    "Source-derived tactics must still be tested in the target port."
+  ]
+}

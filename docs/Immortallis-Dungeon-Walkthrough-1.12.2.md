@@ -60,6 +60,10 @@ Without shared multipliers, 25 eligible +4 contributions take zero to 100, and a
 
 The selected default table has separate one-roll statue and progress-coin pools: `klobber_statue` and `aoa3:progress_coin1`. These are default table contents, subject to the actual death/drop path and server modifications.
 
+**Fight plan: crouch deliberately when the pull threatens your position.** Klobber's living-update callback selects vulnerable players inside its bounding box expanded by 11 on each axis. Non-sneaking players receive horizontal velocity toward its position: each horizontal component uses the sign of the offset multiplied by 0.019. Sneaking skips this particular pull branch; it does not make you immune to melee attacks. This is a box-shaped query, not a guaranteed spherical 11-block radius. Its base getters return 1,000 health and 20 melee damage before shared modifiers.
+
+The selected override has no explicit server-only guard. Whether inherited update/network behavior duplicates the effect is a port-testing question, not an established multiplayer defect.
+
 ### Proshield
 
 ![Proshield historical source-model preview](https://herbertofury.github.io/Advent-of-Ascension/previews/legacy-1.16.5/1.16.5-model-ProshieldModel-thumb.webp)
@@ -67,6 +71,10 @@ The selected default table has separate one-roll statue and progress-coin pools:
 [Creature card](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aproshield)
 
 The selected default table has separate one-roll statue and progress-coin pools: `proshield_statue` and `aoa3:progress_coin2`. These are default table contents, subject to the actual death/drop path and server modifications.
+
+**Fight plan: prefer a genuinely non-melee damage source when avoiding retaliation.** After the superclass accepts an incoming hit, Proshield checks AoA's melee classifier. If it qualifies, the immediate attacker receives a new mob-damage attempt with half the incoming `amount` argument. It is not “exactly half of the health Proshield lost”: armor, damage events and the retaliation target's mitigation are separate. Base getters return 500 health and 5 melee damage.
+
+The helper requires a non-null true source, matching immediate/true sources, and excludes projectile, `thrown`, magic, explosion and fire damage. A weapon's appearance is not its damage classification. Those exclusions explain this reflection branch only; they do not prove that every ranged or magic weapon bypasses every inherited defense.
 
 ### Mirage
 
@@ -76,6 +84,10 @@ The selected default table has separate one-roll statue and progress-coin pools:
 
 The selected default table has separate one-roll statue and progress-coin pools: `mirage_statue` and `aoa3:progress_coin3`. These are default table contents, subject to the actual death/drop path and server modifications.
 
+**Fight plan: keep the four teleport destinations in view and reacquire your aim after each move.** Mirage is a ranged boss whose selected projectile factory creates a Spiritual Shot with the `MAGIC` type. Its base projectile-damage getter is 8 and base health is 750; these are not final player health-loss values.
+
+Each eligible server living update independently checks `nextInt(80) == 0`. Within Immortallis it then selects one of four coordinates: **(167,24,8), (168,24,-2), (177,24,8), (177,24,-2)**. The source has no guaranteed four-second cooldown. At a nominal 20 eligible updates per second, 80 trials corresponds to a four-second mean waiting time, but moves can happen much sooner or later. The random choice can also select its current corner. Outside Immortallis, a different coordinate/height branch applies; do not use the fixed-room map as a universal behavior description.
+
 ### Flash
 
 ![Flash historical source-model preview](https://herbertofury.github.io/Advent-of-Ascension/previews/legacy-1.16.5/1.16.5-model-FlashModel-thumb.webp)
@@ -83,6 +95,10 @@ The selected default table has separate one-roll statue and progress-coin pools:
 [Creature card](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3%3Aflash)
 
 The selected default table has separate one-roll statue and progress-coin pools: `flash_statue` and `aoa3:progress_coin4`. Flash also has a one-roll pool choosing **one Archaic armor piece** from four equal-weight entries, plus a separate Dungeon Tokens pool with a 5–12 count range. This does not award the entire armor set in one pool roll. These are default table contents, subject to the actual death/drop path and server modifications.
+
+**Fight plan: expect relocation around melee exchanges; be ready to turn and reacquire.** On the server, a melee-classified incoming damage attempt can make Flash teleport **before** the superclass reports whether that hit was accepted. Separately, the inherited successful outgoing melee path calls Flash's `doMeleeEffect`, which also relocates it. “Only teleports after you damage it” therefore misses a second trigger and the ordering of the first.
+
+Within Immortallis both paths choose among **(235,22,10), (235,22,-3), (228,22,3)**. Non-melee attacks avoid this particular incoming-melee trigger, but do not switch off its outgoing-melee relocation or certify immunity bypasses. Base getters return 1,000 health and 9 melee damage. The constructor enables slippery movement and supplies an AI movement-speed value of 3.2; neither that argument nor the separate 0.329 base movement getter should be labeled as measured blocks per second.
 
 ## Return Crystal, failure and recovery
 
@@ -112,3 +128,5 @@ The boss progressors instantiate a boss at fixed coordinates, discard the spawn 
 ## Evidence and scope
 
 [Released-method and exact-loot evidence](https://herbertofury.github.io/Advent-of-Ascension/immortallis-evidence-1.12.2.json) records 27 selected methods, nine progressor constructor bindings, four loot resources and arithmetic examples. Source interpretation is pinned to upstream commit `29dd8a8a20642ee182b851e34ef58b65f68e68bf`; selected released bytecode is retained with class hashes.
+
+[Boss combat callback evidence](https://herbertofury.github.io/Advent-of-Ascension/immortallis-combat-evidence-1.12.2.json) supplements the route with 26 selected released methods. Tactics are source-derived guidance; successful live-fight validation remains separate.
