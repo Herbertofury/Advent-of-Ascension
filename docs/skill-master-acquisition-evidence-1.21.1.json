@@ -1,0 +1,5918 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "Released class literals and shipped JSON/NBT; no runtime or modpack certification.",
+  "offers": [
+    {
+      "output": "aoa3:small_skill_crystal",
+      "cost": 11,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 20,
+      "max_uses": 32,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAItems",
+        "SMALL_SKILL_CRYSTAL",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:medium_skill_crystal",
+      "cost": 13,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 50,
+      "max_uses": 24,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAItems",
+        "MEDIUM_SKILL_CRYSTAL",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:large_skill_crystal",
+      "cost": 18,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 75,
+      "max_uses": 16,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAItems",
+        "LARGE_SKILL_CRYSTAL",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:giant_skill_crystal",
+      "cost": 32,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 125,
+      "max_uses": 12,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAItems",
+        "GIANT_SKILL_CRYSTAL",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:helm_of_the_dextrous",
+      "cost": 64,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 200,
+      "max_uses": 2147483647,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAArmour",
+        "HELM_OF_THE_DEXTROUS",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:helm_of_the_dryad",
+      "cost": 64,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 200,
+      "max_uses": 2147483647,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAArmour",
+        "HELM_OF_THE_DRYAD",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:helm_of_the_ritualist",
+      "cost": 64,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 200,
+      "max_uses": 2147483647,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAArmour",
+        "HELM_OF_THE_RITUALIST",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:helm_of_the_trawler",
+      "cost": 64,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 200,
+      "max_uses": 2147483647,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAArmour",
+        "HELM_OF_THE_TRAWLER",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:helm_of_the_treasurer",
+      "cost": 64,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 200,
+      "max_uses": 2147483647,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAArmour",
+        "HELM_OF_THE_TREASURER",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    },
+    {
+      "output": "aoa3:helm_of_the_warrior",
+      "cost": 64,
+      "currency": "aoa3:archaic_token",
+      "merchant_xp": 200,
+      "max_uses": 2147483647,
+      "level": 1,
+      "output_field": [
+        "net/tslat/aoa3/common/registration/item/AoAArmour",
+        "HELM_OF_THE_WARRIOR",
+        "Lnet/neoforged/neoforge/registries/DeferredItem;"
+      ]
+    }
+  ],
+  "entry_recipe": {
+    "path": "data/aoa3/recipe/crafting_shapeless_nowhere_realmstone.json",
+    "sha256": "d7fe702d668dcad13ecc747029d568266a7c1346a4dc84dadd7e94f335420d9d",
+    "data": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "tag": "c:shulker_boxes"
+        },
+        {
+          "item": "minecraft:nether_star"
+        },
+        {
+          "item": "aoa3:void_scales"
+        },
+        {
+          "item": "minecraft:recovery_compass"
+        },
+        {
+          "item": "minecraft:redstone_lamp"
+        },
+        {
+          "item": "aoa3:blank_realmstone"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "aoa3:nowhere_realmstone"
+      }
+    }
+  },
+  "method_evidence": [
+    {
+      "class_path": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class",
+      "class_sha256": "33012c3952c27706e1ae28950e89be2bd4dccb8db0af446702fbf8a18a066dd5",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "1208b200f1b800f7b3004ebb00fb59b700fd04100abd01005903b20102b80108b2010c100bb6010f1014b601131020b60117535904b2011ab80108b2010c100db6010f1032b601131018b60117535905b2011db80108b2010c1012b6010f104bb601131010b60117535906b20120b80108b2010c1020b6010f107db60113100cb60117535907b20123b80108b2010c1040b6010f1100c8b6011313012ab60117535908b2012bb80108b2010c1040b6010f1100c8b6011313012ab6011753591006b2012eb80108b2010c1040b6010f1100c8b6011313012ab6011753591007b20131b80108b2010c1040b6010f1100c8b6011313012ab6011753591008b20134b80108b2010c1040b6010f1100c8b6011313012ab6011753591009b20137b80108b2010c1040b6010f1100c8b6011313012ab6011753b6013ab6013eb3005eb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 18,
+          "constant": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity"
+        },
+        {
+          "offset": 2,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/network/syncher/EntityDataSerializers",
+            "BOOLEAN",
+            "Lnet/minecraft/network/syncher/EntityDataSerializer;"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/network/syncher/SynchedEntityData",
+            "defineId",
+            "(Ljava/lang/Class;Lnet/minecraft/network/syncher/EntityDataSerializer;)Lnet/minecraft/network/syncher/EntityDataAccessor;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity",
+            "TRADING",
+            "Lnet/minecraft/network/syncher/EntityDataAccessor;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 187,
+          "operands": [
+            0,
+            251
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 89
+        },
+        {
+          "offset": 15,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$TradeListBuilder",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 19,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 21,
+          "opcode": 189,
+          "operands": [
+            1,
+            0
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 89
+        },
+        {
+          "offset": 25,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 26,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "SMALL_SKILL_CRYSTAL",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 16,
+          "constant": 11
+        },
+        {
+          "offset": 37,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 16,
+          "constant": 20
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 16,
+          "constant": 32
+        },
+        {
+          "offset": 47,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 83
+        },
+        {
+          "offset": 51,
+          "opcode": 89
+        },
+        {
+          "offset": 52,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 53,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "MEDIUM_SKILL_CRYSTAL",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 16,
+          "constant": 13
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 69,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 16,
+          "constant": 24
+        },
+        {
+          "offset": 74,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 83
+        },
+        {
+          "offset": 78,
+          "opcode": 89
+        },
+        {
+          "offset": 79,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 80,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "LARGE_SKILL_CRYSTAL",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 86,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 16,
+          "constant": 18
+        },
+        {
+          "offset": 91,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 96,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 16,
+          "constant": 16
+        },
+        {
+          "offset": 101,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 83
+        },
+        {
+          "offset": 105,
+          "opcode": 89
+        },
+        {
+          "offset": 106,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 107,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "GIANT_SKILL_CRYSTAL",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 16,
+          "constant": 32
+        },
+        {
+          "offset": 118,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 16,
+          "constant": 125
+        },
+        {
+          "offset": 123,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 126,
+          "opcode": 16,
+          "constant": 12
+        },
+        {
+          "offset": 128,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 83
+        },
+        {
+          "offset": 132,
+          "opcode": 89
+        },
+        {
+          "offset": 133,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 134,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAArmour",
+            "HELM_OF_THE_DEXTROUS",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 145,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 151,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 19,
+          "constant": 2147483647
+        },
+        {
+          "offset": 157,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 83
+        },
+        {
+          "offset": 161,
+          "opcode": 89
+        },
+        {
+          "offset": 162,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 163,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAArmour",
+            "HELM_OF_THE_DRYAD",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 174,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 177,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 180,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 19,
+          "constant": 2147483647
+        },
+        {
+          "offset": 186,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 83
+        },
+        {
+          "offset": 190,
+          "opcode": 89
+        },
+        {
+          "offset": 191,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 193,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAArmour",
+            "HELM_OF_THE_RITUALIST",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 204,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 210,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 19,
+          "constant": 2147483647
+        },
+        {
+          "offset": 216,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 83
+        },
+        {
+          "offset": 220,
+          "opcode": 89
+        },
+        {
+          "offset": 221,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 223,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAArmour",
+            "HELM_OF_THE_TRAWLER",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 234,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 237,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 240,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 19,
+          "constant": 2147483647
+        },
+        {
+          "offset": 246,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 249,
+          "opcode": 83
+        },
+        {
+          "offset": 250,
+          "opcode": 89
+        },
+        {
+          "offset": 251,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 253,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAArmour",
+            "HELM_OF_THE_TREASURER",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 256,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 264,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 267,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 270,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 273,
+          "opcode": 19,
+          "constant": 2147483647
+        },
+        {
+          "offset": 276,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 83
+        },
+        {
+          "offset": 280,
+          "opcode": 89
+        },
+        {
+          "offset": 281,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 283,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAArmour",
+            "HELM_OF_THE_WARRIOR",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "forItem",
+            "(Lnet/minecraft/world/level/ItemLike;)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItems",
+            "ARCHAIC_TOKEN",
+            "Lnet/neoforged/neoforge/registries/DeferredItem;"
+          ]
+        },
+        {
+          "offset": 292,
+          "opcode": 16,
+          "constant": 64
+        },
+        {
+          "offset": 294,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "itemCost",
+            "(Lnet/minecraft/world/level/ItemLike;I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 297,
+          "opcode": 17,
+          "constant": 200
+        },
+        {
+          "offset": 300,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "xp",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 19,
+          "constant": 2147483647
+        },
+        {
+          "offset": 306,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade",
+            "stock",
+            "(I)Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;"
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 83
+        },
+        {
+          "offset": 310,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$TradeListBuilder",
+            "trades",
+            "(I[Lnet/tslat/aoa3/content/entity/base/AoATrader$BuildableTrade;)Lnet/tslat/aoa3/content/entity/base/AoATrader$TradeListBuilder;"
+          ]
+        },
+        {
+          "offset": 313,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader$TradeListBuilder",
+            "build",
+            "()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+          ]
+        },
+        {
+          "offset": 316,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity",
+            "TRADES",
+            "Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+          ]
+        },
+        {
+          "offset": 319,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/base/AoATrader.class",
+      "class_sha256": "0004eab3e6f2b00edbc855f98ab7e9e3f7f4d37a62334a6ee536eac3f2c8dad4",
+      "name": "updateTrades",
+      "descriptor": "()V",
+      "code_hex": "2ab600fe4c2bc600312bb9010201009a00282ab6005eb600cc3d2b1cb901050200c001084e2dc600112a2ab600b82d2a1cb6010ab6010eb1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "getTradesMap",
+            "()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 76
+        },
+        {
+          "offset": 5,
+          "opcode": 43
+        },
+        {
+          "offset": 6,
+          "opcode": 198,
+          "operands": [
+            0,
+            49
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 43
+        },
+        {
+          "offset": 10,
+          "opcode": 185,
+          "member": [
+            "it/unimi/dsi/fastutil/ints/Int2ObjectMap",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 154,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 42
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "getVillagerData",
+            "()Lnet/minecraft/world/entity/npc/VillagerData;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/entity/npc/VillagerData",
+            "getLevel",
+            "()I"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 61
+        },
+        {
+          "offset": 26,
+          "opcode": 43
+        },
+        {
+          "offset": 27,
+          "opcode": 28
+        },
+        {
+          "offset": 28,
+          "opcode": 185,
+          "member": [
+            "it/unimi/dsi/fastutil/ints/Int2ObjectMap",
+            "get",
+            "(I)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 192,
+          "operands": [
+            1,
+            8
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 78
+        },
+        {
+          "offset": 37,
+          "opcode": 45
+        },
+        {
+          "offset": 38,
+          "opcode": 198,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 42
+        },
+        {
+          "offset": 42,
+          "opcode": 42
+        },
+        {
+          "offset": 43,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "getOffers",
+            "()Lnet/minecraft/world/item/trading/MerchantOffers;"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 45
+        },
+        {
+          "offset": 47,
+          "opcode": 42
+        },
+        {
+          "offset": 48,
+          "opcode": 28
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "getMaxTradesToUnlock",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "addOffersFromItemListings",
+            "(Lnet/minecraft/world/item/trading/MerchantOffers;[Lnet/minecraft/world/entity/npc/VillagerTrades$ItemListing;I)V"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class",
+      "class_sha256": "33012c3952c27706e1ae28950e89be2bd4dccb8db0af446702fbf8a18a066dd5",
+      "name": "getMaxTradesToUnlock",
+      "descriptor": "(I)I",
+      "code_hex": "1032ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 2,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class",
+      "class_sha256": "33012c3952c27706e1ae28950e89be2bd4dccb8db0af446702fbf8a18a066dd5",
+      "name": "getTradesMap",
+      "descriptor": "()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;",
+      "code_hex": "b2005eb0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity",
+            "TRADES",
+            "Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class",
+      "class_sha256": "33012c3952c27706e1ae28950e89be2bd4dccb8db0af446702fbf8a18a066dd5",
+      "name": "requiresCustomPersistence",
+      "descriptor": "()Z",
+      "code_hex": "2ab700629a00172ab6006604bd006a5903b2006c53b8007299000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "requiresCustomPersistence",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 42
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity",
+            "level",
+            "()Lnet/minecraft/world/level/Level;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 12,
+          "opcode": 189,
+          "operands": [
+            0,
+            106
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 89
+        },
+        {
+          "offset": 16,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 17,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+            "NOWHERE",
+            "Lnet/minecraft/resources/ResourceKey;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 83
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/WorldUtil",
+            "isWorld",
+            "(Lnet/minecraft/world/level/Level;[Lnet/minecraft/resources/ResourceKey;)Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 28,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class",
+      "class_sha256": "33012c3952c27706e1ae28950e89be2bd4dccb8db0af446702fbf8a18a066dd5",
+      "name": "isInvulnerableTo",
+      "descriptor": "(Lnet/minecraft/world/damagesource/DamageSource;)Z",
+      "code_hex": "2a2bb700789a00212ab6006604bd006a5903b2006c53b800729900112bb2007cb600829a000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "isInvulnerableTo",
+            "(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 154,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity",
+            "level",
+            "()Lnet/minecraft/world/level/Level;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 189,
+          "operands": [
+            0,
+            106
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 18,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+            "NOWHERE",
+            "Lnet/minecraft/resources/ResourceKey;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 83
+        },
+        {
+          "offset": 22,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/WorldUtil",
+            "isWorld",
+            "(Lnet/minecraft/world/level/Level;[Lnet/minecraft/resources/ResourceKey;)Z"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 153,
+          "operands": [
+            0,
+            17
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 43
+        },
+        {
+          "offset": 29,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/tags/DamageTypeTags",
+            "BYPASSES_INVULNERABILITY",
+            "Lnet/minecraft/tags/TagKey;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/damagesource/DamageSource",
+            "is",
+            "(Lnet/minecraft/tags/TagKey;)Z"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 39,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 43,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class",
+      "class_sha256": "33012c3952c27706e1ae28950e89be2bd4dccb8db0af446702fbf8a18a066dd5",
+      "name": "isPushable",
+      "descriptor": "()Z",
+      "code_hex": "2ab6006604bd006a5903b2006c53b800729a000e2ab700af99000704a7000403ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity",
+            "level",
+            "()Lnet/minecraft/world/level/Level;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 5,
+          "opcode": 189,
+          "operands": [
+            0,
+            106
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 89
+        },
+        {
+          "offset": 9,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+            "NOWHERE",
+            "Lnet/minecraft/resources/ResourceKey;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 83
+        },
+        {
+          "offset": 14,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/WorldUtil",
+            "isWorld",
+            "(Lnet/minecraft/world/level/Level;[Lnet/minecraft/resources/ResourceKey;)Z"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 154,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 42
+        },
+        {
+          "offset": 21,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/entity/base/AoATrader",
+            "isPushable",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 28,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 32,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse.class",
+      "class_sha256": "b8f251c63d6c94efc0a819f47dfdff5add056a34bab74462c5c9305541eb8ee2",
+      "name": "grantRewards",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;)V",
+      "code_hex": "2ab400252bba00ab0000b600af2b2ab40021ba00b30000b800b712bdb800bf57b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "rewardLootTable",
+            "Ljava/util/Optional;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 186,
+          "operands": [
+            0,
+            171,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 182,
+          "member": [
+            "java/util/Optional",
+            "ifPresent",
+            "(Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 43
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "tier",
+            "I"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 186,
+          "operands": [
+            0,
+            179,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "id",
+            "(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": "complete_course"
+        },
+        {
+          "offset": 28,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/AdvancementUtil",
+            "grantCriterion",
+            "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/resources/ResourceLocation;Ljava/lang/String;)Z"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 87
+        },
+        {
+          "offset": 32,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse.class",
+      "class_sha256": "b8f251c63d6c94efc0a819f47dfdff5add056a34bab74462c5c9305541eb8ee2",
+      "name": "lambda$grantRewards$9",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/resources/ResourceLocation;)V",
+      "code_hex": "2a2b2ab600de2ab600e22ab600e62ab800e9b800efb800f3b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 42
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "serverLevel",
+            "()Lnet/minecraft/server/level/ServerLevel;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 42
+        },
+        {
+          "offset": 7,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "position",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 42
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getLuck",
+            "()F"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 42
+        },
+        {
+          "offset": 15,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LootUtil",
+            "getGiftParameters",
+            "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;FLnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/storage/loot/LootParams;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LootUtil",
+            "generateLoot",
+            "(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/world/level/storage/loot/LootParams;)Ljava/util/List;"
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/InventoryUtil",
+            "giveItemsTo",
+            "(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/Collection;)V"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity.class",
+      "class_sha256": "20ac71a1ac1d70f1faa1c2dfc0eae385b26739f1890344239796bbf725c2eb86",
+      "name": "doReturnPortalTeleport",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;DDDF)Z",
+      "code_hex": "2ab6006c2ab60072b6007687979b00552ab6007cb8008099004b2ab600869900442ab6008ab8008e2aba00940000b90097020099002f2ab6009d2ab600a1b800a53a081908c6001d19082ab600ab1908b800af3a091909c6000b19092ab600b304ac2ab400b62729180517072ab600bab600be04ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getY",
+            "()D"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "level",
+            "()Lnet/minecraft/world/level/Level;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/Level",
+            "getMinBuildHeight",
+            "()I"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 135
+        },
+        {
+          "offset": 12,
+          "opcode": 151
+        },
+        {
+          "offset": 13,
+          "opcode": 155,
+          "operands": [
+            0,
+            85
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 42
+        },
+        {
+          "offset": 17,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "blockPosition",
+            "()Lnet/minecraft/core/BlockPos;"
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/event/dimension/NowhereEvents",
+            "isInParkourRegion",
+            "(Lnet/minecraft/core/BlockPos;)Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 153,
+          "operands": [
+            0,
+            75
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 42
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "isAlive",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 153,
+          "operands": [
+            0,
+            68
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 42
+        },
+        {
+          "offset": 34,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getBoundingBox",
+            "()Lnet/minecraft/world/phys/AABB;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/core/BlockPos",
+            "betweenClosedStream",
+            "(Lnet/minecraft/world/phys/AABB;)Ljava/util/stream/Stream;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 42
+        },
+        {
+          "offset": 41,
+          "opcode": 186,
+          "operands": [
+            0,
+            148,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 185,
+          "member": [
+            "java/util/stream/Stream",
+            "anyMatch",
+            "(Ljava/util/function/Predicate;)Z"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 153,
+          "operands": [
+            0,
+            47
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 42
+        },
+        {
+          "offset": 55,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "serverLevel",
+            "()Lnet/minecraft/server/level/ServerLevel;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 42
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "position",
+            "()Lnet/minecraft/world/phys/Vec3;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "getCourseForPosition",
+            "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/aoa3/content/world/nowhere/NowhereParkourCourse;"
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 198,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 42
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "grantRewards",
+            "(Lnet/minecraft/server/level/ServerPlayer;)V"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "getNextCourse",
+            "(Lnet/tslat/aoa3/content/world/nowhere/NowhereParkourCourse;)Lnet/tslat/aoa3/content/world/nowhere/NowhereParkourCourse;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 58,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 198,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 25,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 42
+        },
+        {
+          "offset": 93,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "teleportPlayerToCourse",
+            "(Lnet/minecraft/server/level/ServerPlayer;)V"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 97,
+          "opcode": 172
+        },
+        {
+          "offset": 98,
+          "opcode": 42
+        },
+        {
+          "offset": 99,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "connection",
+            "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 39
+        },
+        {
+          "offset": 103,
+          "opcode": 41
+        },
+        {
+          "offset": 104,
+          "opcode": 24,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 23,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 42
+        },
+        {
+          "offset": 109,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "getXRot",
+            "()F"
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/network/ServerGamePacketListenerImpl",
+            "teleport",
+            "(DDDFF)V"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 116,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity.class",
+      "class_sha256": "20ac71a1ac1d70f1faa1c2dfc0eae385b26739f1890344239796bbf725c2eb86",
+      "name": "findParkourCourse",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;I)Z",
+      "code_hex": "1bb800c44d2cc7000503ac2c2ab600b304ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 27
+        },
+        {
+          "offset": 1,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "getFirstCourseForTier",
+            "(I)Lnet/tslat/aoa3/content/world/nowhere/NowhereParkourCourse;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 77
+        },
+        {
+          "offset": 5,
+          "opcode": 44
+        },
+        {
+          "offset": 6,
+          "opcode": 199,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 10,
+          "opcode": 172
+        },
+        {
+          "offset": 11,
+          "opcode": 44
+        },
+        {
+          "offset": 12,
+          "opcode": 42
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/content/world/nowhere/NowhereParkourCourse",
+            "teleportPlayerToCourse",
+            "(Lnet/minecraft/server/level/ServerPlayer;)V"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 17,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity.class",
+      "class_sha256": "20ac71a1ac1d70f1faa1c2dfc0eae385b26739f1890344239796bbf725c2eb86",
+      "name": "lambda$doReturnPortalTeleport$19",
+      "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/core/BlockPos;)Z",
+      "code_hex": "2ab600722bb600c8b200ccb600d2ac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/server/level/ServerPlayer",
+            "level",
+            "()Lnet/minecraft/world/level/Level;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/Level",
+            "getBlockState",
+            "(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/block/AoABlocks",
+            "NOWHERE_ACTIVITY_PORTAL",
+            "Lnet/neoforged/neoforge/registries/DeferredBlock;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/level/block/state/BlockState",
+            "is",
+            "(Lnet/minecraft/core/Holder;)Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity.class",
+      "class_sha256": "20ac71a1ac1d70f1faa1c2dfc0eae385b26739f1890344239796bbf725c2eb86",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "code_hex": "bb0001591301190314011a14011c14011e130120ba01210000b70043b30003bb00015913012204ba01230000ba01260000b7004eb30007bb00015913012705ba01280000ba01290000b7004eb3000abb00015913012a06ba012b0000ba012c0000b7004eb3000dbb00015913012d07ba012e0000ba012f0000b7004eb30010bb00015913013008ba01310000ba01320000b7004eb30013bb0001591301331006ba01340000ba01350000b7004eb30016bb000159130136100714013714013914013b0bb70040b30019bb00015913013d100814013e140107140105130140b70040b3001cbb0001591301411009140142140144140146130120b70040b3001fbb000159130148100aba01490000ba014a0000b7004eb30022b8014bb30025b1",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 19,
+          "constant": "PARKOUR"
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 20,
+          "constant": 21.5
+        },
+        {
+          "offset": 11,
+          "opcode": 20,
+          "constant": 10.5
+        },
+        {
+          "offset": 14,
+          "opcode": 20,
+          "constant": 22.0
+        },
+        {
+          "offset": 17,
+          "opcode": 19,
+          "constant": 90.0
+        },
+        {
+          "offset": 20,
+          "opcode": 186,
+          "operands": [
+            1,
+            33,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;IDDDFLjava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 89
+        },
+        {
+          "offset": 35,
+          "opcode": 19,
+          "constant": "PARKOUR_1"
+        },
+        {
+          "offset": 38,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 39,
+          "opcode": 186,
+          "operands": [
+            1,
+            35,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 186,
+          "operands": [
+            1,
+            38,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR_1",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 89
+        },
+        {
+          "offset": 59,
+          "opcode": 19,
+          "constant": "PARKOUR_2"
+        },
+        {
+          "offset": 62,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 63,
+          "opcode": 186,
+          "operands": [
+            1,
+            40,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 186,
+          "operands": [
+            1,
+            41,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR_2",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 89
+        },
+        {
+          "offset": 83,
+          "opcode": 19,
+          "constant": "PARKOUR_3"
+        },
+        {
+          "offset": 86,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 87,
+          "opcode": 186,
+          "operands": [
+            1,
+            43,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 186,
+          "operands": [
+            1,
+            44,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR_3",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 89
+        },
+        {
+          "offset": 107,
+          "opcode": 19,
+          "constant": "PARKOUR_4"
+        },
+        {
+          "offset": 110,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 111,
+          "opcode": 186,
+          "operands": [
+            1,
+            46,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 186,
+          "operands": [
+            1,
+            47,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR_4",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 89
+        },
+        {
+          "offset": 131,
+          "opcode": 19,
+          "constant": "PARKOUR_5"
+        },
+        {
+          "offset": 134,
+          "opcode": 8,
+          "constant": 5
+        },
+        {
+          "offset": 135,
+          "opcode": 186,
+          "operands": [
+            1,
+            49,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 186,
+          "operands": [
+            1,
+            50,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR_5",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 89
+        },
+        {
+          "offset": 155,
+          "opcode": 19,
+          "constant": "PARKOUR_6"
+        },
+        {
+          "offset": 158,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 160,
+          "opcode": 186,
+          "operands": [
+            1,
+            52,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 186,
+          "operands": [
+            1,
+            53,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "PARKOUR_6",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 89
+        },
+        {
+          "offset": 180,
+          "opcode": 19,
+          "constant": "BOSSES"
+        },
+        {
+          "offset": 183,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 185,
+          "opcode": 20,
+          "constant": 17.5
+        },
+        {
+          "offset": 188,
+          "opcode": 20,
+          "constant": 502.5
+        },
+        {
+          "offset": 191,
+          "opcode": 20,
+          "constant": 3.5
+        },
+        {
+          "offset": 194,
+          "opcode": 11
+        },
+        {
+          "offset": 195,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;IDDDF)V"
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "BOSSES",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 89
+        },
+        {
+          "offset": 205,
+          "opcode": 19,
+          "constant": "DUNGEON"
+        },
+        {
+          "offset": 208,
+          "opcode": 16,
+          "constant": 8
+        },
+        {
+          "offset": 210,
+          "opcode": 20,
+          "constant": 6.5
+        },
+        {
+          "offset": 213,
+          "opcode": 20,
+          "constant": 1501.5
+        },
+        {
+          "offset": 216,
+          "opcode": 20,
+          "constant": 16.5
+        },
+        {
+          "offset": 219,
+          "opcode": 19,
+          "constant": -90.0
+        },
+        {
+          "offset": 222,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;IDDDF)V"
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "DUNGEON",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 228,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 89
+        },
+        {
+          "offset": 232,
+          "opcode": 19,
+          "constant": "UTILITY"
+        },
+        {
+          "offset": 235,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 237,
+          "opcode": 20,
+          "constant": 25.5
+        },
+        {
+          "offset": 240,
+          "opcode": 20,
+          "constant": 1001.5
+        },
+        {
+          "offset": 243,
+          "opcode": 20,
+          "constant": 16.0
+        },
+        {
+          "offset": 246,
+          "opcode": 19,
+          "constant": 90.0
+        },
+        {
+          "offset": 249,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;IDDDF)V"
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "UTILITY",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 89
+        },
+        {
+          "offset": 259,
+          "opcode": 19,
+          "constant": "RETURN"
+        },
+        {
+          "offset": 262,
+          "opcode": 16,
+          "constant": 10
+        },
+        {
+          "offset": 264,
+          "opcode": 186,
+          "operands": [
+            1,
+            73,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 269,
+          "opcode": 186,
+          "operands": [
+            1,
+            74,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "<init>",
+            "(Ljava/lang/String;ILjava/util/function/Predicate;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 277,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "RETURN",
+            "Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 280,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "$values",
+            "()[Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 283,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity",
+            "$VALUES",
+            "[Lnet/tslat/aoa3/content/block/functional/portal/NowhereActivityPortal$Activity;"
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/content/block/functional/portal/NowherePortalBlock.class",
+      "class_sha256": "b0b416f16c47e11d0092a87e429b1ec19d74df07179c3bab1005495c2a0bf4f5",
+      "name": "findExistingPortal",
+      "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;",
+      "code_hex": "2b04bd00335903b2000153b80035990012bb00635910191105dd100fb70065b02a2b2c2db70068b0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 2,
+          "opcode": 189,
+          "operands": [
+            0,
+            51
+          ]
+        },
+        {
+          "offset": 5,
+          "opcode": 89
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+            "NOWHERE",
+            "Lnet/minecraft/resources/ResourceKey;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 83
+        },
+        {
+          "offset": 11,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/WorldUtil",
+            "isWorld",
+            "(Lnet/minecraft/world/level/Level;[Lnet/minecraft/resources/ResourceKey;)Z"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 153,
+          "operands": [
+            0,
+            18
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 89
+        },
+        {
+          "offset": 21,
+          "opcode": 16,
+          "constant": 25
+        },
+        {
+          "offset": 23,
+          "opcode": 17,
+          "constant": 1501
+        },
+        {
+          "offset": 26,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 28,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/core/BlockPos",
+            "<init>",
+            "(III)V"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 176
+        },
+        {
+          "offset": 32,
+          "opcode": 42
+        },
+        {
+          "offset": 33,
+          "opcode": 43
+        },
+        {
+          "offset": 34,
+          "opcode": 44
+        },
+        {
+          "offset": 35,
+          "opcode": 45
+        },
+        {
+          "offset": 36,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/block/functional/portal/PortalBlock",
+            "findExistingPortal",
+            "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "structure_templates_scanned": 334,
+  "skill_master_templates": [
+    {
+      "path": "data/aoa3/structure/nowhere/utility/lobby.nbt",
+      "sha256": "2b667446af1cb23d45964163f4eddd6dab1d45506cac082c3b2b8f94e9376c4d",
+      "size": [
+        32,
+        17,
+        32
+      ],
+      "entities": [
+        {
+          "nbt": {
+            "Brain": {
+              "memories": {}
+            },
+            "HurtByTimestamp": 0,
+            "Attributes": [
+              {
+                "Base": 0.0,
+                "Name": "minecraft:generic.movement_speed"
+              }
+            ],
+            "FoodLevel": 0,
+            "Invulnerable": 0,
+            "FallFlying": 0,
+            "ForcedAge": 0,
+            "Gossips": [],
+            "PortalCooldown": 0,
+            "AbsorptionAmount": 0.0,
+            "LastRestock": 0,
+            "FallDistance": 0.0,
+            "CanUpdate": 1,
+            "DeathTime": 0,
+            "Xp": 0,
+            "LastGossipDecay": 72550,
+            "HandDropChances": [
+              0.08500000089406967,
+              0.08500000089406967
+            ],
+            "PersistenceRequired": 1,
+            "id": "aoa3:skill_master",
+            "UUID": [
+              -916428625,
+              -1581103027,
+              -1467504845,
+              -50703378
+            ],
+            "Age": 0,
+            "Motion": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Health": 50.0,
+            "LeftHanded": 0,
+            "Air": 300,
+            "OnGround": 0,
+            "NoAI": 0,
+            "Rotation": [
+              0.0,
+              0.0
+            ],
+            "HandItems": [
+              {},
+              {}
+            ],
+            "RestocksToday": 0,
+            "ArmorDropChances": [
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967,
+              0.08500000089406967
+            ],
+            "Pos": [
+              21.436558532823515,
+              1001.0625,
+              9.561089466515789
+            ],
+            "Fire": 0,
+            "ArmorItems": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CanPickUpLoot": 0,
+            "VillagerData": {
+              "profession": "minecraft:none",
+              "level": 1,
+              "type": "minecraft:plains"
+            },
+            "HurtTime": 0,
+            "Inventory": []
+          },
+          "blockPos": [
+            21,
+            2,
+            9
+          ],
+          "pos": [
+            21.436558532823515,
+            2.0625,
+            9.561089466515789
+          ]
+        }
+      ]
+    }
+  ],
+  "lobby_resources": [
+    {
+      "path": "data/aoa3/worldgen/structure/nowhere_utility_lobby.json",
+      "sha256": "0d95a963863b5cd5700e18701127c5aa363def6bcc1b833a79508159bca69c37",
+      "data": {
+        "type": "aoa3:single_placement",
+        "biomes": "aoa3:nowhere",
+        "position": [
+          0,
+          1000,
+          0
+        ],
+        "project_start_to_heightmap": "WORLD_SURFACE_WG",
+        "size": 15,
+        "spawn_overrides": {},
+        "start_height": {
+          "absolute": 0
+        },
+        "start_pool": "aoa3:nowhere/utility/lobby/starts",
+        "step": "surface_structures"
+      }
+    },
+    {
+      "path": "data/aoa3/worldgen/structure_set/nowhere_utility_lobbies.json",
+      "sha256": "c46db4fce1065eb5bb71e81091960114d0607ff4873c1b5d9b5fe44a785ff3db",
+      "data": {
+        "placement": {
+          "type": "aoa3:single_structure",
+          "pos": [
+            0,
+            1000,
+            0
+          ],
+          "salt": 0
+        },
+        "structures": [
+          {
+            "structure": "aoa3:nowhere_utility_lobby",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/worldgen/template_pool/nowhere/utility/lobby/starts.json",
+      "sha256": "cae897a28637952b244cdc923ada3c78ff53d5c58c13111e5944e536c40a69f1",
+      "data": {
+        "elements": [
+          {
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "location": "aoa3:nowhere/utility/lobby",
+              "processors": {
+                "processors": []
+              },
+              "projection": "rigid"
+            },
+            "weight": 1
+          }
+        ],
+        "fallback": "minecraft:empty"
+      }
+    }
+  ],
+  "parkour_courses": [
+    {
+      "path": "data/aoa3/aoa3/nowhere_parkour_course/ancient_hallways.json",
+      "sha256": "75df2e58460329ab0d984f97eabf857b9bc2178e144ab2c0b0968ad381f4cff1",
+      "data": {
+        "player_start": [
+          1005.5,
+          6.0,
+          1047.5
+        ],
+        "reward_table": "aoa3:tier_1_parkour_rewards",
+        "structure_id": "aoa3:ancient_hallways",
+        "structure_pos": [
+          1000,
+          5,
+          1000
+        ],
+        "tier": 1
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/nowhere_parkour_course/aurora.json",
+      "sha256": "adb79ffc3ddcde8722c3cfd9d5687f530c74d01475ca52d976b3e5b2baec7462",
+      "data": {
+        "player_start": [
+          2531.5,
+          5.0,
+          1018.5
+        ],
+        "reward_table": "aoa3:tier_4_parkour_rewards",
+        "structure_id": "aoa3:aurora",
+        "structure_pos": [
+          2500,
+          5,
+          1000
+        ],
+        "tier": 4
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/nowhere_parkour_course/mine_madness.json",
+      "sha256": "76255816c00053f77cf33c733acfcd9a38f9b1e5b97a72e82f435523ce95e79e",
+      "data": {
+        "player_start": [
+          1534.5,
+          6.0,
+          1004.5
+        ],
+        "reward_table": "aoa3:tier_2_parkour_rewards",
+        "structure_id": "aoa3:mine_madness",
+        "structure_pos": [
+          1500,
+          5,
+          1000
+        ],
+        "tier": 2
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/nowhere_parkour_course/nether_tourist.json",
+      "sha256": "5d7cc9cf1ffa53f2d8fa8831f0802b362f85d4ad63b5b20fb9c3c9f2f93be5cc",
+      "data": {
+        "player_start": [
+          3528.0,
+          23.0,
+          1077.25
+        ],
+        "reward_table": "aoa3:tier_6_parkour_rewards",
+        "structure_id": "aoa3:nether_tourist",
+        "structure_pos": [
+          3500,
+          5,
+          1000
+        ],
+        "tier": 6
+      }
+    },
+    {
+      "path": "data/aoa3/aoa3/nowhere_parkour_course/twisted_treetops.json",
+      "sha256": "1ee6e7d99d438d3560c83ae6a38408d932e674f8253e97e3b0b60347987561bb",
+      "data": {
+        "player_start": [
+          2009.5,
+          6.0,
+          1026.5
+        ],
+        "reward_table": "aoa3:tier_3_parkour_rewards",
+        "structure_id": "aoa3:twisted_treetops",
+        "structure_pos": [
+          2000,
+          5,
+          1000
+        ],
+        "tier": 3
+      }
+    }
+  ],
+  "reward_tables": [
+    {
+      "path": "data/aoa3/loot_table/tier_1_parkour_rewards.json",
+      "sha256": "cbb68e58d1447e53308b35ba50658d3ebf65767a5c4856847433f1a58016617c",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:dexterity",
+                    "xp": {
+                      "type": "minecraft:uniform",
+                      "max": 400.0,
+                      "min": 200.0
+                    }
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/tier_2_parkour_rewards.json",
+      "sha256": "0e105f8c9276953115d7abf8afa5b210c56dbf066481f3e58532f1c975b9d735",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 3.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:dexterity",
+                    "xp": {
+                      "type": "minecraft:uniform",
+                      "max": 750.0,
+                      "min": 500.0
+                    }
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/tier_3_parkour_rewards.json",
+      "sha256": "9e2a056947cfcce24e99ccc1effc3c40a7794f703abc89906e0c18aed8f4fc08",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 12.0,
+                      "min": 6.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:dexterity",
+                    "xp": {
+                      "type": "minecraft:uniform",
+                      "max": 1200.0,
+                      "min": 800.0
+                    }
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/tier_4_parkour_rewards.json",
+      "sha256": "eb216461dbe7d63c02b6b5b5cc6b417b3bb0cbfea6b41cd66e2606b2fd6cbb2b",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 10.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:dexterity",
+                    "xp": {
+                      "type": "minecraft:uniform",
+                      "max": 2500.0,
+                      "min": 1500.0
+                    }
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/tier_5_parkour_rewards.json",
+      "sha256": "bca3c60d18d8efd37cb16114f4fe80c3c6597d97ea537e9cdeb8891444edc8be",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 14.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:dexterity",
+                    "xp": {
+                      "type": "minecraft:uniform",
+                      "max": 4500.0,
+                      "min": 3000.0
+                    }
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/tier_6_parkour_rewards.json",
+      "sha256": "7962e52d60fab161f35a0a8fd4eae57c2d16cbb75370e65f88d4f04c1e0f5617",
+      "data": {
+        "type": "minecraft:gift",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 28.0,
+                      "min": 19.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "function": "aoa3:grant_skill_xp",
+                    "skill": "aoa3:dexterity",
+                    "xp": {
+                      "type": "minecraft:uniform",
+                      "max": 7500.0,
+                      "min": 5000.0
+                    }
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/worlds/nowhere_boss.json",
+      "sha256": "914c41b407824376aa63c7f41e505a9fbd3d15a05ee979461f43a53fac726f6a",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "aoa3:nowhere"
+                }
+              }
+            ],
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 25.0,
+                      "min": 15.0
+                    },
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "aoa3:archaic_token",
+                "weight": 100
+              }
+            ],
+            "name": "tokens",
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "boss_table_referrers": [
+    {
+      "path": "data/aoa3/loot_table/entities/elite_king_bambambam.json",
+      "sha256": "e06c467df1f6df61c8979319c968f3e02b10fa6ea546e0826ec24e98a1fce7ec",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 150
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:elite_king_bambambam"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.ornate_trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.king_bambambam"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:ornate_trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/elite_nethengeic_wither.json",
+      "sha256": "a4bdc04f63b2a6e1adcf6b7626ac4640812e7e5c519f26adf10551ab84830e88",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 150
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:elite_nethengeic_wither"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.ornate_trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.nethengeic_wither"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:ornate_trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/elite_smash.json",
+      "sha256": "68a0f0eda0ea46701b076360adac9b132b91ddb59242488b4255574405e0bf7f",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 150
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:elite_smash"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.ornate_trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.smash"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:ornate_trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/elite_tyrosaur.json",
+      "sha256": "dbc2587012e1d219a3eaf29f62fa14cd4ccc17ec3eaf832cfb9b0546f564b78e",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 150
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:elite_tyrosaur"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.ornate_trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.tyrosaur"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:ornate_trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/king_bambambam.json",
+      "sha256": "697cdc07a0d2bf7f05cec2fba4debf3ac731df0f6d5bb742608a07f11d2bbd19",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 175
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:fire_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:power_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:life_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_repair_dust",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:enchanted_gunpowder",
+                "weight": 16
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:flammable_dust",
+                "weight": 17
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:large_skill_crystal",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:armour_plating",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:emberstone_ingot",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:grenade",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:hellfire",
+                "weight": 25
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "minecraft:potion_contents": {
+                        "custom_color": 15424773,
+                        "custom_effects": [
+                          {
+                            "duration": 72000,
+                            "id": "minecraft:fire_resistance",
+                            "neoforge:cures": [
+                              "milk",
+                              "protected_by_totem"
+                            ],
+                            "show_icon": true
+                          }
+                        ]
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "item.aoa3.potion.unignitable"
+                    },
+                    "target": "item_name"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": -1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:potion",
+                "weight": 5
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:explosive_bow",
+                "weight": 3
+              },
+              {
+                "type": "aoa3:multi",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_helmet"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_chestplate"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_leggings"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:explosive_boots"
+                  }
+                ]
+              }
+            ],
+            "name": "special_loot",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:king_bambambam"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.king_bambambam"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/nethengeic_wither.json",
+      "sha256": "bee17e05b9a5f64515ec6defeff9089c401fce41b38ee109413dab6cfe56570e",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 175
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:fire_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:wither_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:strike_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_repair_dust",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:enchanted_gunpowder",
+                "weight": 16
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:flammable_dust",
+                "weight": 17
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:large_skill_crystal",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:nether_star",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:netherite_scrap",
+                "weight": 18
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 15.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:hellfire",
+                "weight": 25
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:nethengeic_sword"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:withers_wrath"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:nethengeic_slugger"
+              }
+            ],
+            "name": "special_loot",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:nethengeic_wither"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.nethengeic_wither"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/smash.json",
+      "sha256": "11c7f5a7aa34411b2ce4a73088da580b3364fe1689c62aded3236f8189a46eab",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 175
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 12.0,
+                      "min": 7.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:beef",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 5.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 3.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:experience_bottle",
+                "weight": 35
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:enchanted_golden_apple"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:golden_apple",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 22.0,
+                      "min": 14.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 8.0,
+                      "min": 4.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:leather",
+                "weight": 50
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 3
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_repair_dust",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": -1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "minecraft:potion_contents": {
+                        "custom_color": 12058669,
+                        "custom_effects": [
+                          {
+                            "duration": 18000,
+                            "id": "minecraft:strength",
+                            "neoforge:cures": [
+                              "milk",
+                              "protected_by_totem"
+                            ],
+                            "show_icon": true
+                          }
+                        ]
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "item.aoa3.potion.everlastingStrength"
+                    },
+                    "target": "item_name"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": -1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:potion",
+                "weight": 5
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:trolls_crossbow"
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:troll_basher_axe"
+              }
+            ],
+            "name": "special_loot",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:smash"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.smash"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_table/entities/tyrosaur.json",
+      "sha256": "5666c0e10701ee3b2403b4f4d99d1449ef5fc752197bd60676568906f15c7d7b",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 175
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "aoa3:worlds/nowhere_boss",
+                "weight": 100
+              }
+            ],
+            "name": "nowhere_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 20.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:kinetic_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 12.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:life_rune",
+                "weight": 45
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "minecraft:leather",
+                "weight": 40
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:sharp_claw",
+                "weight": 14
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_repair_dust",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:magic_mending_compound",
+                "weight": 6
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:silver_coin",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:gold_coin",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:jungle_thorns",
+                "weight": 16
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:ashfern_seeds",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:medium_skill_crystal",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:large_skill_crystal",
+                "weight": 5
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 4.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "enchantment": "minecraft:looting",
+                    "function": "minecraft:enchanted_count_increase"
+                  }
+                ],
+                "name": "aoa3:armour_plating",
+                "weight": 12
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:primal_sword",
+                "weight": 3
+              },
+              {
+                "type": "aoa3:multi",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_helmet"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_chestplate"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_leggings"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "aoa3:predatious_boots"
+                  }
+                ]
+              }
+            ],
+            "name": "special_loot",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "components": {
+                      "aoa3:trophy_data": {
+                        "entity_data": {
+                          "id": "aoa3:tyrosaur"
+                        },
+                        "is_original": true
+                      }
+                    },
+                    "function": "minecraft:set_components"
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "block.aoa3.trophy.desc",
+                      "with": [
+                        {
+                          "translate": "entity.aoa3.tyrosaur"
+                        }
+                      ]
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "name": "aoa3:trophy"
+              }
+            ],
+            "name": "trophy",
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Stock is a builder maximum, not a real-time availability guarantee",
+    "Merchant XP is not player skill XP",
+    "Template positions are local, not verified world coordinates",
+    "Six tier reward tables ship but only five course records were found; tier 5 availability is not established",
+    "Loot-table references do not alone prove runtime entity binding or a guaranteed reward"
+  ]
+}
