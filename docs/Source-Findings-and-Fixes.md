@@ -205,3 +205,15 @@ Minecraft 1.12.2 / AoA 3.3.6, released ItemUtil.findAndConsumeRunes: collection 
 - [ ] Test precondition failure before payment and cast/spawn failure after payment, wear and cooldown.
 
 [Staff preparation and exact caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2) · [Released method and registration evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-staff-inputs-1.12.2.json).
+
+
+## Historical blaster payment and wear boundaries
+
+Minecraft 1.12.2 / AoA 3.3.6. The selected Soul Spark and Light Spark impact paths call Energy and Soul consumers before verifying that the shooter still holds the same weapon, and discard both consumer return values. Their zero ordinary registration inputs do not establish free or harmless impacts. The ordinary blaster base path also has distinct initial-use and Creative tick preflights, remaining-count modulo timing, and accumulated durability arguments on tick/stop.
+
+- [ ] Validate the held weapon and full resource transaction before committing a Spark effect; test denied consumption and mid-flight hand changes.
+- [ ] Test both Spark exemptions/immunity and Creative paths separately from the 54 ordinary tick-path users.
+- [ ] Test actual callback wear and cancelled effects without treating integer boundary models as a reproduced exploit.
+- [ ] Keep first eligible countdown timing distinct from the nominal interval, particularly delays 7, 11, 13 and 14.
+
+[Blaster guide and source-backed caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2). These are static restoration targets, not a current Enderloom runtime failure claim.
