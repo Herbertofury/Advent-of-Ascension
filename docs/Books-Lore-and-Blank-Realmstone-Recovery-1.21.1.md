@@ -49,7 +49,7 @@ There are **53 English entry files and 190 English page definitions** across the
 
 ## Reopen collected lore
 
-Open the Advent GUI using your configured key binding and select Lore. Its button is disabled when the checked integration reports Patchouli inactive. The client filters synchronized book IDs against loaded books before displaying them.
+Open the Advent GUI using your configured key binding and select Lore. See [Controls and HUD settings](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Controls-HUD-and-Client-Settings-1.21.1) for the released defaults and key-conflict checks. Its button is disabled when the checked integration reports Patchouli inactive. The client filters synchronized book IDs against loaded books before displaying them.
 
 Opening a valid Torn Pages book records its ID in server storage. The storage uses a set, writes IDs under PatchouliBooks, and marks new additions for synchronization. The Lore display uses those IDs rather than requiring all book items to occupy inventory slots. Save/reload and multiplayer behavior still need target-build testing.
 

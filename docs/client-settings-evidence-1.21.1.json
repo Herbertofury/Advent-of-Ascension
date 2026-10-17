@@ -1,0 +1,6998 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "scope": "15 released client configuration defaults and four key registrations. Existing player settings, key conflicts and runtime rendering may differ. No FPS improvement is claimed.",
+  "settings": [
+    {
+      "key": "showXpParticles",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 41,
+          "opcode": 18,
+          "constant": "showXpParticles"
+        },
+        {
+          "offset": 43,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "showXpParticles",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "showWelcomeMessage",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 62,
+          "opcode": 18,
+          "constant": "showWelcomeMessage"
+        },
+        {
+          "offset": 64,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "showWelcomeMessage",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "showPlayerHalos",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 83,
+          "opcode": 18,
+          "constant": "showPlayerHalos"
+        },
+        {
+          "offset": 85,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 86,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "showPlayerHalos",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "personalHaloPreference",
+      "section": "general_settings",
+      "type": "enum",
+      "default": "DONATOR",
+      "definition_window": [
+        {
+          "offset": 104,
+          "opcode": 18,
+          "constant": "personalHaloPreference"
+        },
+        {
+          "offset": 106,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "DONATOR",
+            "Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "personalHaloPreference",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "adventGuiTheme",
+      "section": "general_settings",
+      "type": "string",
+      "default": "Default",
+      "definition_window": [
+        {
+          "offset": 127,
+          "opcode": 18,
+          "constant": "adventGuiTheme"
+        },
+        {
+          "offset": 129,
+          "opcode": 18,
+          "constant": "Default"
+        },
+        {
+          "offset": 131,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Ljava/lang/Object;)Lnet/neoforged/neoforge/common/ModConfigSpec$ConfigValue;"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "adventGuiTheme",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$ConfigValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thirdPartyBestiary",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 149,
+          "opcode": 18,
+          "constant": "thirdPartyBestiary"
+        },
+        {
+          "offset": 151,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 152,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "thirdPartyBestiary",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hudResourcesPosition",
+      "section": "general_settings",
+      "type": "enum",
+      "default": "Top_Right",
+      "definition_window": [
+        {
+          "offset": 170,
+          "opcode": 18,
+          "constant": "hudResourcesPosition"
+        },
+        {
+          "offset": 172,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "Top_Right",
+            "Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesPosition",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hudResourcesHorizontal",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 193,
+          "opcode": 18,
+          "constant": "hudResourcesHorizontal"
+        },
+        {
+          "offset": 195,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 196,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesHorizontal",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "disableHudPotionOffset",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": false,
+      "definition_window": [
+        {
+          "offset": 214,
+          "opcode": 18,
+          "constant": "disableHudPotionOffset"
+        },
+        {
+          "offset": 216,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 217,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "disableHudPotionOffset",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hudSkillProgressRenderType",
+      "section": "general_settings",
+      "type": "enum",
+      "default": "Bar",
+      "definition_window": [
+        {
+          "offset": 235,
+          "opcode": 18,
+          "constant": "hudSkillProgressRenderType"
+        },
+        {
+          "offset": 237,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "Bar",
+            "Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudSkillProgressRenderType",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "useToasts",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 258,
+          "opcode": 18,
+          "constant": "useToasts"
+        },
+        {
+          "offset": 260,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 261,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "useToasts",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rotatingTrophies",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 279,
+          "opcode": 18,
+          "constant": "rotatingTrophies"
+        },
+        {
+          "offset": 281,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 282,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 285,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "rotatingTrophies",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "healthRenderType",
+      "section": "general_settings",
+      "type": "enum",
+      "default": "BAR_NUMERIC",
+      "definition_window": [
+        {
+          "offset": 300,
+          "opcode": 18,
+          "constant": "healthRenderType"
+        },
+        {
+          "offset": 302,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "BAR_NUMERIC",
+            "Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 305,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 308,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "healthRenderType",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "screenShake",
+      "section": "general_settings",
+      "type": "boolean",
+      "default": true,
+      "definition_window": [
+        {
+          "offset": 323,
+          "opcode": 18,
+          "constant": "screenShake"
+        },
+        {
+          "offset": 325,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 326,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 329,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "screenShake",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "partyDeaths",
+      "section": "fun_options",
+      "type": "boolean",
+      "default": false,
+      "definition_window": [
+        {
+          "offset": 361,
+          "opcode": 18,
+          "constant": "partyDeaths"
+        },
+        {
+          "offset": 363,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 364,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 367,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "partyDeaths",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        }
+      ]
+    }
+  ],
+  "enums": {
+    "personalHaloPreference": {
+      "class_path": "net/tslat/aoa3/player/halo/HaloTypes$Selectable.class",
+      "class_sha256": "6dcdebeb6c03f807181a715b1c5d6b8d952428bc75c3d08319c7520a1ff411d9",
+      "values": [
+        "DONATOR",
+        "SUPER_DONATOR",
+        "WIKI_EDITOR"
+      ],
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "DONATOR"
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "DONATOR",
+            "Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 18,
+          "constant": "SUPER_DONATOR"
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "SUPER_DONATOR",
+            "Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 89
+        },
+        {
+          "offset": 30,
+          "opcode": 18,
+          "constant": "WIKI_EDITOR"
+        },
+        {
+          "offset": 32,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 33,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "WIKI_EDITOR",
+            "Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "$values",
+            "()[Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "$VALUES",
+            "[Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 177
+        }
+      ],
+      "method_sha256": "10a58363038d823fec9ed8faaabd0cb4b499f56d0080b52d5d7170b0f10b00d7"
+    },
+    "hudResourcesPosition": {
+      "class_path": "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition.class",
+      "class_sha256": "036b5c635cfb191875154b7bb4fe02451542c64165cbba81661f9ab4af398d0a",
+      "values": [
+        "Top_Right",
+        "Top_Left"
+      ],
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "Top_Right"
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "Top_Right",
+            "Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 18,
+          "constant": "Top_Left"
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "Top_Left",
+            "Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "$values",
+            "()[Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "$VALUES",
+            "[Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 177
+        }
+      ],
+      "method_sha256": "ae7686cb60cdbdbafc043896617105fb218437d1e9d1dd2ed09bfe8a8c8cdaff"
+    },
+    "hudSkillProgressRenderType": {
+      "class_path": "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType.class",
+      "class_sha256": "12b8300b6acea2da41717f2ddb7e6accd223e9ae6613a76243300c01c11204c7",
+      "values": [
+        "Ring",
+        "Bar",
+        "Percent",
+        "None"
+      ],
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "Ring"
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "Ring",
+            "Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 18,
+          "constant": "Bar"
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "Bar",
+            "Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 89
+        },
+        {
+          "offset": 30,
+          "opcode": 18,
+          "constant": "Percent"
+        },
+        {
+          "offset": 32,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 33,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "Percent",
+            "Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 89
+        },
+        {
+          "offset": 43,
+          "opcode": 18,
+          "constant": "None"
+        },
+        {
+          "offset": 45,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 46,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "None",
+            "Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "$values",
+            "()[Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "$VALUES",
+            "[Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 177
+        }
+      ],
+      "method_sha256": "c861d497ef383dc0abe687e6205eb237148701b83b0b68b6808f3da2f7e0f96a"
+    },
+    "healthRenderType": {
+      "class_path": "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType.class",
+      "class_sha256": "d19467697ebb9653461a80ab2fd91dedb3fffe2b463754adfaf880e852e9793a",
+      "values": [
+        "HEARTS",
+        "BAR",
+        "NUMERIC",
+        "BAR_NUMERIC"
+      ],
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 18,
+          "constant": "HEARTS"
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "HEARTS",
+            "Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 89
+        },
+        {
+          "offset": 17,
+          "opcode": 18,
+          "constant": "BAR"
+        },
+        {
+          "offset": 19,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 20,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "BAR",
+            "Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 89
+        },
+        {
+          "offset": 30,
+          "opcode": 18,
+          "constant": "NUMERIC"
+        },
+        {
+          "offset": 32,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 33,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "NUMERIC",
+            "Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 187,
+          "operands": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 89
+        },
+        {
+          "offset": 43,
+          "opcode": 18,
+          "constant": "BAR_NUMERIC"
+        },
+        {
+          "offset": 45,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 46,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "<init>",
+            "(Ljava/lang/String;I)V"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "BAR_NUMERIC",
+            "Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "$values",
+            "()[Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "$VALUES",
+            "[Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 177
+        }
+      ],
+      "method_sha256": "c861d497ef383dc0abe687e6205eb237148701b83b0b68b6808f3da2f7e0f96a"
+    }
+  },
+  "keybinds": [
+    {
+      "action": "resources",
+      "key_code": 79,
+      "parent_method": "lambda$init$0",
+      "offset": 15
+    },
+    {
+      "action": "skills",
+      "key_code": -1,
+      "parent_method": "lambda$init$0",
+      "offset": 44
+    },
+    {
+      "action": "adventGui",
+      "key_code": 261,
+      "parent_method": "lambda$init$0",
+      "offset": 75
+    },
+    {
+      "action": "abilityAction",
+      "key_code": 86,
+      "parent_method": "lambda$init$0",
+      "offset": 105
+    }
+  ],
+  "source_key_symbols": {
+    "path": "source/client/AoAKeybinds.java",
+    "pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+    "sha256": "df909ae222f675541f69ea4ff967a1311417321aeeb5f799b6674eb5bee86051",
+    "lines": [
+      {
+        "line": 33,
+        "text": "ev.register(RESOURCE_GUI = new KeyMapping(keyName(\"resources\"), KeyConflictContext.IN_GAME, getKey(GLFW.GLFW_KEY_O), CATEGORY));"
+      },
+      {
+        "line": 34,
+        "text": "ev.register(SKILL_GUI = new KeyMapping(keyName(\"skills\"), KeyConflictContext.IN_GAME, getKey(GLFW.GLFW_KEY_UNKNOWN), CATEGORY));"
+      },
+      {
+        "line": 35,
+        "text": "ev.register(ADVENT_GUI = new KeyMapping(keyName(\"adventGui\"), KeyConflictContext.IN_GAME, getKey(GLFW.GLFW_KEY_DELETE), CATEGORY));"
+      },
+      {
+        "line": 36,
+        "text": "ev.register(ABILITY_ACTION = new KeyMapping(keyName(\"abilityAction\"), KeyConflictContext.IN_GAME, getKey(GLFW.GLFW_KEY_V), CATEGORY));"
+      }
+    ]
+  },
+  "methods": [
+    {
+      "class_path": "net/tslat/aoa3/config/ClientConfig.class",
+      "class_sha256": "c8b043332bf4b42a5b1736359c1d1b9bb95b5c530a356c89a1e51e2e65c3d887",
+      "name": "<init>",
+      "descriptor": "(Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;)V",
+      "method_sha256": "fa47bff4ca04acf071efb4bdcb70381691f3f3ee4504b92d8c6987998075aeb7",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "getModEventBus",
+            "()Lnet/neoforged/bus/api/IEventBus;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 186,
+          "operands": [
+            0,
+            13,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 185,
+          "member": [
+            "net/neoforged/bus/api/IEventBus",
+            "addListener",
+            "(Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 43
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "AoA client-side configuration options"
+        },
+        {
+          "offset": 20,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 18,
+          "constant": "general_settings"
+        },
+        {
+          "offset": 25,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "push",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 87
+        },
+        {
+          "offset": 29,
+          "opcode": 42
+        },
+        {
+          "offset": 30,
+          "opcode": 43
+        },
+        {
+          "offset": 31,
+          "opcode": 18,
+          "constant": "Set this to false to disable the small scrolling popups that appear when you gain xp in a skill"
+        },
+        {
+          "offset": 33,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 18,
+          "constant": "config.aoa3.client.showXpParticles"
+        },
+        {
+          "offset": 38,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 18,
+          "constant": "showXpParticles"
+        },
+        {
+          "offset": 43,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 44,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "showXpParticles",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 42
+        },
+        {
+          "offset": 51,
+          "opcode": 43
+        },
+        {
+          "offset": 52,
+          "opcode": 18,
+          "constant": "Set this to false to disable the message that welcomes you to Advent of Ascension when logging in"
+        },
+        {
+          "offset": 54,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 18,
+          "constant": "config.aoa3.client.showWelcomeMessage"
+        },
+        {
+          "offset": 59,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 18,
+          "constant": "showWelcomeMessage"
+        },
+        {
+          "offset": 64,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 65,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "showWelcomeMessage",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 42
+        },
+        {
+          "offset": 72,
+          "opcode": 43
+        },
+        {
+          "offset": 73,
+          "opcode": 18,
+          "constant": "Set this to false to hide player halos for those that have them"
+        },
+        {
+          "offset": 75,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 18,
+          "constant": "config.aoa3.client.showPlayerHalos"
+        },
+        {
+          "offset": 80,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 18,
+          "constant": "showPlayerHalos"
+        },
+        {
+          "offset": 85,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 86,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "showPlayerHalos",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 42
+        },
+        {
+          "offset": 93,
+          "opcode": 43
+        },
+        {
+          "offset": 94,
+          "opcode": 18,
+          "constant": "If multiple halos are available, which one would you prefer to have on?"
+        },
+        {
+          "offset": 96,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 18,
+          "constant": "config.aoa3.client.personalHaloPreference"
+        },
+        {
+          "offset": 101,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 104,
+          "opcode": 18,
+          "constant": "personalHaloPreference"
+        },
+        {
+          "offset": 106,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/player/halo/HaloTypes$Selectable",
+            "DONATOR",
+            "Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;"
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 112,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "personalHaloPreference",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 42
+        },
+        {
+          "offset": 116,
+          "opcode": 43
+        },
+        {
+          "offset": 117,
+          "opcode": 18,
+          "constant": "The current theme for the main Advent of Ascension window."
+        },
+        {
+          "offset": 119,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 18,
+          "constant": "config.aoa3.client.adventGuiTheme"
+        },
+        {
+          "offset": 124,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 18,
+          "constant": "adventGuiTheme"
+        },
+        {
+          "offset": 129,
+          "opcode": 18,
+          "constant": "Default"
+        },
+        {
+          "offset": 131,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Ljava/lang/Object;)Lnet/neoforged/neoforge/common/ModConfigSpec$ConfigValue;"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "adventGuiTheme",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$ConfigValue;"
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 42
+        },
+        {
+          "offset": 138,
+          "opcode": 43
+        },
+        {
+          "offset": 139,
+          "opcode": 18,
+          "constant": "Set this to false to disable third party and vanilla entities from showing in the bestiary"
+        },
+        {
+          "offset": 141,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 18,
+          "constant": "config.aoa3.client.thirdPartyBestiary"
+        },
+        {
+          "offset": 146,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 18,
+          "constant": "thirdPartyBestiary"
+        },
+        {
+          "offset": 151,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 152,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "thirdPartyBestiary",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 158,
+          "opcode": 42
+        },
+        {
+          "offset": 159,
+          "opcode": 43
+        },
+        {
+          "offset": 160,
+          "opcode": 18,
+          "constant": "Choose a corner to have your resources indicators render in."
+        },
+        {
+          "offset": 162,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 165,
+          "opcode": 18,
+          "constant": "config.aoa3.client.hudResourcesPosition"
+        },
+        {
+          "offset": 167,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 18,
+          "constant": "hudResourcesPosition"
+        },
+        {
+          "offset": 172,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "Top_Right",
+            "Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesPosition",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 181,
+          "opcode": 42
+        },
+        {
+          "offset": 182,
+          "opcode": 43
+        },
+        {
+          "offset": 183,
+          "opcode": 18,
+          "constant": "Set this to false to switch to a vertical layout for the HUD resources"
+        },
+        {
+          "offset": 185,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 188,
+          "opcode": 18,
+          "constant": "config.aoa3.client.hudResourcesHorizontal"
+        },
+        {
+          "offset": 190,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 193,
+          "opcode": 18,
+          "constant": "hudResourcesHorizontal"
+        },
+        {
+          "offset": 195,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 196,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesHorizontal",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 202,
+          "opcode": 42
+        },
+        {
+          "offset": 203,
+          "opcode": 43
+        },
+        {
+          "offset": 204,
+          "opcode": 18,
+          "constant": "Set this to true to stop the skills and resources HUD elements shifting down when players have potion effects."
+        },
+        {
+          "offset": 206,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 18,
+          "constant": "config.aoa3.client.disableHudPotionOffset"
+        },
+        {
+          "offset": 211,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 214,
+          "opcode": 18,
+          "constant": "disableHudPotionOffset"
+        },
+        {
+          "offset": 216,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 217,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "disableHudPotionOffset",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 42
+        },
+        {
+          "offset": 224,
+          "opcode": 43
+        },
+        {
+          "offset": 225,
+          "opcode": 18,
+          "constant": "Choose which type of progress indication you would prefer for skills in the HUD"
+        },
+        {
+          "offset": 227,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 18,
+          "constant": "config.aoa3.client.hudSkillProgressRenderType"
+        },
+        {
+          "offset": 232,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 235,
+          "opcode": 18,
+          "constant": "hudSkillProgressRenderType"
+        },
+        {
+          "offset": 237,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType",
+            "Bar",
+            "Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;"
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudSkillProgressRenderType",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 246,
+          "opcode": 42
+        },
+        {
+          "offset": 247,
+          "opcode": 43
+        },
+        {
+          "offset": 248,
+          "opcode": 18,
+          "constant": "Set this to false to use chat messages for mod feedback instead of toasts"
+        },
+        {
+          "offset": 250,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 253,
+          "opcode": 18,
+          "constant": "config.aoa3.client.useToasts"
+        },
+        {
+          "offset": 255,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 258,
+          "opcode": 18,
+          "constant": "useToasts"
+        },
+        {
+          "offset": 260,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 261,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "useToasts",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 267,
+          "opcode": 42
+        },
+        {
+          "offset": 268,
+          "opcode": 43
+        },
+        {
+          "offset": 269,
+          "opcode": 18,
+          "constant": "Set this to false to disable rotation of entities on trophy blocks."
+        },
+        {
+          "offset": 271,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 18,
+          "constant": "config.aoa3.client.rotatingTrophies"
+        },
+        {
+          "offset": 276,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 18,
+          "constant": "rotatingTrophies"
+        },
+        {
+          "offset": 281,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 282,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 285,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "rotatingTrophies",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 288,
+          "opcode": 42
+        },
+        {
+          "offset": 289,
+          "opcode": 43
+        },
+        {
+          "offset": 290,
+          "opcode": 18,
+          "constant": "Select what type of rendering AoA replaces the vanila health bar with"
+        },
+        {
+          "offset": 292,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 295,
+          "opcode": 18,
+          "constant": "config.aoa3.client.healthRenderType"
+        },
+        {
+          "offset": 297,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 300,
+          "opcode": 18,
+          "constant": "healthRenderType"
+        },
+        {
+          "offset": 302,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType",
+            "BAR_NUMERIC",
+            "Lnet/tslat/aoa3/client/gui/hud/HealthStatusRenderer$HealthRenderType;"
+          ]
+        },
+        {
+          "offset": 305,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "defineEnum",
+            "(Ljava/lang/String;Ljava/lang/Enum;)Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 308,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "healthRenderType",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 311,
+          "opcode": 42
+        },
+        {
+          "offset": 312,
+          "opcode": 43
+        },
+        {
+          "offset": 313,
+          "opcode": 18,
+          "constant": "Whether AoA should do screen shaking effects where relevant"
+        },
+        {
+          "offset": 315,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 318,
+          "opcode": 18,
+          "constant": "config.aoa3.client.screenShake"
+        },
+        {
+          "offset": 320,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 323,
+          "opcode": 18,
+          "constant": "screenShake"
+        },
+        {
+          "offset": 325,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 326,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 329,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "screenShake",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 332,
+          "opcode": 43
+        },
+        {
+          "offset": 333,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "pop",
+            "()Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 336,
+          "opcode": 87
+        },
+        {
+          "offset": 337,
+          "opcode": 43
+        },
+        {
+          "offset": 338,
+          "opcode": 18,
+          "constant": "Just for fun :)"
+        },
+        {
+          "offset": 340,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 343,
+          "opcode": 18,
+          "constant": "fun_options"
+        },
+        {
+          "offset": 345,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "push",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 348,
+          "opcode": 87
+        },
+        {
+          "offset": 349,
+          "opcode": 42
+        },
+        {
+          "offset": 350,
+          "opcode": 43
+        },
+        {
+          "offset": 351,
+          "opcode": 18,
+          "constant": "Set this to true to enable party deaths"
+        },
+        {
+          "offset": 353,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "comment",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 356,
+          "opcode": 18,
+          "constant": "config.aoa3.client.partyDeaths"
+        },
+        {
+          "offset": 358,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "translation",
+            "(Ljava/lang/String;)Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 361,
+          "opcode": 18,
+          "constant": "partyDeaths"
+        },
+        {
+          "offset": 363,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 364,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "define",
+            "(Ljava/lang/String;Z)Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 367,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "partyDeaths",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 370,
+          "opcode": 43
+        },
+        {
+          "offset": 371,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$Builder",
+            "pop",
+            "()Lnet/neoforged/neoforge/common/ModConfigSpec$Builder;"
+          ]
+        },
+        {
+          "offset": 374,
+          "opcode": 87
+        },
+        {
+          "offset": 375,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/config/ClientConfig.class",
+      "class_sha256": "c8b043332bf4b42a5b1736359c1d1b9bb95b5c530a356c89a1e51e2e65c3d887",
+      "name": "changeAdventGuiTheme",
+      "descriptor": "(Ljava/lang/String;)V",
+      "method_sha256": "6ac4d51d4d4c569320903389970496bf9cfaedcd307f56f3ed2dbc9ba8642fee",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "adventGuiTheme",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$ConfigValue;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 43
+        },
+        {
+          "offset": 5,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$ConfigValue",
+            "set",
+            "(Ljava/lang/Object;)V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "adventGuiTheme",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$ConfigValue;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$ConfigValue",
+            "save",
+            "()V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/config/ClientConfig.class",
+      "class_sha256": "c8b043332bf4b42a5b1736359c1d1b9bb95b5c530a356c89a1e51e2e65c3d887",
+      "name": "onConfigUpdate",
+      "descriptor": "(Lnet/neoforged/fml/event/config/ModConfigEvent$Reloading;)V",
+      "method_sha256": "7548c12a763415914c7ad224a1fe4b2261d77d11bf2fb5086f3fe1f96c616e5f",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/fml/event/config/ModConfigEvent$Reloading",
+            "getConfig",
+            "()Lnet/neoforged/fml/config/ModConfig;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/fml/config/ModConfig",
+            "getFileName",
+            "()Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 178,
+          "member": [
+            "java/io/File",
+            "separator",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 186,
+          "operands": [
+            0,
+            236,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "java/lang/String",
+            "equals",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 153,
+          "operands": [
+            0,
+            31
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/ClientOperations",
+            "getPlayer",
+            "()Lnet/minecraft/world/entity/player/Player;"
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 198,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 187,
+          "operands": [
+            0,
+            252
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 89
+        },
+        {
+          "offset": 31,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT",
+            "Lnet/tslat/aoa3/config/ClientConfig;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "personalHaloPreference",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$EnumValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 192,
+          "operands": [
+            0,
+            77
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/common/networking/packets/HaloSelectPacket",
+            "<init>",
+            "(Lnet/tslat/aoa3/player/halo/HaloTypes$Selectable;)V"
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/common/networking/AoANetworking",
+            "sendToServer",
+            "(Lnet/tslat/aoa3/common/networking/packets/AoAPacket;)V"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "698b4bbff28b9283e5cfcc5e527afbe2c78f48eccafc11d5007412d00dc1b76d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 183,
+          "member": [
+            "java/lang/Object",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "init",
+      "descriptor": "()V",
+      "method_sha256": "52260572316fa5e824b2301fb1bba2c2a0275622921aee9057ea6d49193eaad3",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/neoforge/common/NeoForge",
+            "EVENT_BUS",
+            "Lnet/neoforged/bus/api/IEventBus;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/bus/api/EventPriority",
+            "NORMAL",
+            "Lnet/neoforged/bus/api/EventPriority;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 7,
+          "opcode": 18,
+          "constant": "net/neoforged/neoforge/client/event/InputEvent$Key"
+        },
+        {
+          "offset": 9,
+          "opcode": 186,
+          "operands": [
+            0,
+            23,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 185,
+          "member": [
+            "net/neoforged/bus/api/IEventBus",
+            "addListener",
+            "(Lnet/neoforged/bus/api/EventPriority;ZLjava/lang/Class;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "getModEventBus",
+            "()Lnet/neoforged/bus/api/IEventBus;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/bus/api/EventPriority",
+            "NORMAL",
+            "Lnet/neoforged/bus/api/EventPriority;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": "net/neoforged/neoforge/client/event/RegisterKeyMappingsEvent"
+        },
+        {
+          "offset": 28,
+          "opcode": 186,
+          "operands": [
+            0,
+            39,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 185,
+          "member": [
+            "net/neoforged/bus/api/IEventBus",
+            "addListener",
+            "(Lnet/neoforged/bus/api/EventPriority;ZLjava/lang/Class;Ljava/util/function/Consumer;)V"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "keyName",
+      "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+      "method_sha256": "8d0f0edd0644e165d9beb691bae3d10f9d547441e8866738f307f6fb7b8c34d0",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 186,
+          "operands": [
+            0,
+            40,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "getKey",
+      "descriptor": "(I)Lcom/mojang/blaze3d/platform/InputConstants$Key;",
+      "method_sha256": "46f46716d7bd57ffbbab262273fb1ad11b9c57925a578377974b7ff289116b6d",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "com/mojang/blaze3d/platform/InputConstants$Type",
+            "KEYSYM",
+            "Lcom/mojang/blaze3d/platform/InputConstants$Type;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 26
+        },
+        {
+          "offset": 4,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/platform/InputConstants$Type",
+            "getOrCreate",
+            "(I)Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "onKeyDown",
+      "descriptor": "(Lnet/neoforged/neoforge/client/event/InputEvent$Key;)V",
+      "method_sha256": "bd251df63a3d54ccacc9f29b68a9548444979eb6101a0df2eadce390831e8dac",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "RESOURCE_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "consumeClick",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 16,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 20,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 24,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGuiMessage",
+            "Z"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "SKILL_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "consumeClick",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 154,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 43,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 51,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGuiMessage",
+            "Z"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getInstance",
+            "()Lnet/minecraft/client/Minecraft;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 76
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "ADVENT_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "consumeClick",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 153,
+          "operands": [
+            0,
+            52
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 43
+        },
+        {
+          "offset": 68,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 198,
+          "operands": [
+            0,
+            45
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 43
+        },
+        {
+          "offset": 75,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "screen",
+            "Lnet/minecraft/client/gui/screens/Screen;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 193,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 153,
+          "operands": [
+            0,
+            11
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 43
+        },
+        {
+          "offset": 85,
+          "opcode": 1
+        },
+        {
+          "offset": 86,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "setScreen",
+            "(Lnet/minecraft/client/gui/screens/Screen;)V"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 167,
+          "operands": [
+            0,
+            27
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 43
+        },
+        {
+          "offset": 93,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "screen",
+            "Lnet/minecraft/client/gui/screens/Screen;"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 199,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 43
+        },
+        {
+          "offset": 100,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 89
+        },
+        {
+          "offset": 104,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getInstance",
+            "()Lnet/minecraft/client/Minecraft;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/gui/adventgui/AdventMainGui",
+            "<init>",
+            "(Lnet/minecraft/world/entity/player/Player;)V"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "setScreen",
+            "(Lnet/minecraft/client/gui/screens/Screen;)V"
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 42
+        },
+        {
+          "offset": 117,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/InputEvent$Key",
+            "getAction",
+            "()I"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 121,
+          "opcode": 160,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getInstance",
+            "()Lnet/minecraft/client/Minecraft;"
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "screen",
+            "Lnet/minecraft/client/gui/screens/Screen;"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 199,
+          "operands": [
+            0,
+            20
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/player/ClientPlayerDataManager",
+            "get",
+            "()Lnet/tslat/aoa3/client/player/ClientPlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 42
+        },
+        {
+          "offset": 137,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/InputEvent$Key",
+            "getKey",
+            "()I"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 42
+        },
+        {
+          "offset": 141,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/InputEvent$Key",
+            "getScanCode",
+            "()I"
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 184,
+          "member": [
+            "com/mojang/blaze3d/platform/InputConstants",
+            "getKey",
+            "(II)Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 147,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/player/ClientPlayerDataManager",
+            "handleKeyInput",
+            "(Lcom/mojang/blaze3d/platform/InputConstants$Key;)V"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "lambda$init$0",
+      "descriptor": "(Lnet/neoforged/neoforge/client/event/RegisterKeyMappingsEvent;)V",
+      "method_sha256": "508006dda98131c47a1572574c88ed3557505d71f1d249a411f3478ab4731dc9",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 187,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 89
+        },
+        {
+          "offset": 5,
+          "opcode": 18,
+          "constant": "resources"
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "keyName",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/neoforge/client/settings/KeyConflictContext",
+            "IN_GAME",
+            "Lnet/neoforged/neoforge/client/settings/KeyConflictContext;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 16,
+          "constant": 79
+        },
+        {
+          "offset": 15,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "getKey",
+            "(I)Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 18,
+          "constant": "key.categories.aoa3"
+        },
+        {
+          "offset": 20,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "<init>",
+            "(Ljava/lang/String;Lnet/neoforged/neoforge/client/settings/IKeyConflictContext;Lcom/mojang/blaze3d/platform/InputConstants$Key;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 89
+        },
+        {
+          "offset": 24,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "RESOURCE_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/RegisterKeyMappingsEvent",
+            "register",
+            "(Lnet/minecraft/client/KeyMapping;)V"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 42
+        },
+        {
+          "offset": 31,
+          "opcode": 187,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 89
+        },
+        {
+          "offset": 35,
+          "opcode": 18,
+          "constant": "skills"
+        },
+        {
+          "offset": 37,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "keyName",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 40,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/neoforge/client/settings/KeyConflictContext",
+            "IN_GAME",
+            "Lnet/neoforged/neoforge/client/settings/KeyConflictContext;"
+          ]
+        },
+        {
+          "offset": 43,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 44,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "getKey",
+            "(I)Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 47,
+          "opcode": 18,
+          "constant": "key.categories.aoa3"
+        },
+        {
+          "offset": 49,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "<init>",
+            "(Ljava/lang/String;Lnet/neoforged/neoforge/client/settings/IKeyConflictContext;Lcom/mojang/blaze3d/platform/InputConstants$Key;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 89
+        },
+        {
+          "offset": 53,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "SKILL_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/RegisterKeyMappingsEvent",
+            "register",
+            "(Lnet/minecraft/client/KeyMapping;)V"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 42
+        },
+        {
+          "offset": 60,
+          "opcode": 187,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 89
+        },
+        {
+          "offset": 64,
+          "opcode": 18,
+          "constant": "adventGui"
+        },
+        {
+          "offset": 66,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "keyName",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/neoforge/client/settings/KeyConflictContext",
+            "IN_GAME",
+            "Lnet/neoforged/neoforge/client/settings/KeyConflictContext;"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 17,
+          "constant": 261
+        },
+        {
+          "offset": 75,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "getKey",
+            "(I)Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 18,
+          "constant": "key.categories.aoa3"
+        },
+        {
+          "offset": 80,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "<init>",
+            "(Ljava/lang/String;Lnet/neoforged/neoforge/client/settings/IKeyConflictContext;Lcom/mojang/blaze3d/platform/InputConstants$Key;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 83,
+          "opcode": 89
+        },
+        {
+          "offset": 84,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "ADVENT_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/RegisterKeyMappingsEvent",
+            "register",
+            "(Lnet/minecraft/client/KeyMapping;)V"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 42
+        },
+        {
+          "offset": 91,
+          "opcode": 187,
+          "operands": [
+            0,
+            61
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 89
+        },
+        {
+          "offset": 95,
+          "opcode": 18,
+          "constant": "abilityAction"
+        },
+        {
+          "offset": 97,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "keyName",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/neoforge/client/settings/KeyConflictContext",
+            "IN_GAME",
+            "Lnet/neoforged/neoforge/client/settings/KeyConflictContext;"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 16,
+          "constant": 86
+        },
+        {
+          "offset": 105,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "getKey",
+            "(I)Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 18,
+          "constant": "key.categories.aoa3"
+        },
+        {
+          "offset": 110,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "<init>",
+            "(Ljava/lang/String;Lnet/neoforged/neoforge/client/settings/IKeyConflictContext;Lcom/mojang/blaze3d/platform/InputConstants$Key;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 89
+        },
+        {
+          "offset": 114,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "ABILITY_ACTION",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/client/event/RegisterKeyMappingsEvent",
+            "register",
+            "(Lnet/minecraft/client/KeyMapping;)V"
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/AoAKeybinds.class",
+      "class_sha256": "dd5e30f2cf34504f7e75a1dcea8a42143c5c3840e30eabc76d2c023896c0e680",
+      "name": "<clinit>",
+      "descriptor": "()V",
+      "method_sha256": "88570eb0a6b785627eb5cfdee7e97ee2e523973e6ef76e54f7587741f37d6c41",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 5,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 9,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGuiMessage",
+            "Z"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 13,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGuiMessage",
+            "Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/common/registration/AoAConfigs.class",
+      "class_sha256": "96baa881bf09686c8fd15c8c7e952303019104de5ef77d09b4ae42b973d27855",
+      "name": "init",
+      "descriptor": "(Lnet/neoforged/fml/ModContainer;)V",
+      "method_sha256": "2e15960cec5d43e25c187692dbc92a459b1994bce9093c8e1ead6b01f84abb94",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/fml/loading/FMLPaths",
+            "CONFIGDIR",
+            "Lnet/neoforged/fml/loading/FMLPaths;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/fml/loading/FMLPaths",
+            "get",
+            "()Ljava/nio/file/Path;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 18,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 8,
+          "opcode": 185,
+          "member": [
+            "java/nio/file/Path",
+            "resolve",
+            "(Ljava/lang/String;)Ljava/nio/file/Path;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 18,
+          "constant": "aoa3"
+        },
+        {
+          "offset": 15,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/ObjectUtil",
+            "getOrCreateDirectory",
+            "(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/Path;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 87
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/fml/config/ModConfig$Type",
+            "SERVER",
+            "Lnet/neoforged/fml/config/ModConfig$Type;"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "SERVER_CONFIG_SPEC",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec;"
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 18,
+          "constant": "aoa3_server_config.toml"
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/fml/ModContainer",
+            "registerConfig",
+            "(Lnet/neoforged/fml/config/ModConfig$Type;Lnet/neoforged/fml/config/IConfigSpec;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 42
+        },
+        {
+          "offset": 32,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/fml/config/ModConfig$Type",
+            "CLIENT",
+            "Lnet/neoforged/fml/config/ModConfig$Type;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT_CONFIG_SPEC",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec;"
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "java/io/File",
+            "separator",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 186,
+          "operands": [
+            0,
+            65,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/fml/ModContainer",
+            "registerConfig",
+            "(Lnet/neoforged/fml/config/ModConfig$Type;Lnet/neoforged/fml/config/IConfigSpec;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 42
+        },
+        {
+          "offset": 50,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/fml/config/ModConfig$Type",
+            "COMMON",
+            "Lnet/neoforged/fml/config/ModConfig$Type;"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "INTEGRATIONS_CONFIG_SPEC",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 178,
+          "member": [
+            "java/io/File",
+            "separator",
+            "Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 59,
+          "opcode": 186,
+          "operands": [
+            0,
+            75,
+            0,
+            0
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/fml/ModContainer",
+            "registerConfig",
+            "(Lnet/neoforged/fml/config/ModConfig$Type;Lnet/neoforged/fml/config/IConfigSpec;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 167,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 76
+        },
+        {
+          "offset": 71,
+          "opcode": 18,
+          "constant": "Failed to create config directories.. this is not good"
+        },
+        {
+          "offset": 73,
+          "opcode": 43
+        },
+        {
+          "offset": 74,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/Logging",
+            "error",
+            "(Ljava/lang/String;Ljava/lang/Exception;)V"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/render/AoAGuiElementRenderers.class",
+      "class_sha256": "eef45aaa87f3bc0bf43f9cd9af4edf28deae75f42f570b1142f7f8ffb1d53f0b",
+      "name": "renderResources",
+      "descriptor": "(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/DeltaTracker;)V",
+      "method_sha256": "ef82b25dc56113cb17b03a952f71c4a6147e09bacf774a8eec27b08930033781",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getInstance",
+            "()Lnet/minecraft/client/Minecraft;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 77
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 198,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 44
+        },
+        {
+          "offset": 12,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/player/LocalPlayer",
+            "isSpectator",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 154,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 44
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "options",
+            "Lnet/minecraft/client/Options;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Options",
+            "hideGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 177
+        },
+        {
+          "offset": 32,
+          "opcode": 43
+        },
+        {
+          "offset": 33,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 34,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/client/DeltaTracker",
+            "getGameTimeDeltaPartialTick",
+            "(Z)F"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 70
+        },
+        {
+          "offset": 40,
+          "opcode": 44
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getWindow",
+            "()Lcom/mojang/blaze3d/platform/Window;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT",
+            "Lnet/tslat/aoa3/config/ClientConfig;"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesHorizontal",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$BooleanValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 192,
+          "operands": [
+            0,
+            132
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 182,
+          "member": [
+            "java/lang/Boolean",
+            "booleanValue",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 153,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 65,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 69,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 71,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 73,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 74,
+          "opcode": 160,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 78,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 82,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 85,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 88,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 91,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 42
+        },
+        {
+          "offset": 94,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/gui/GuiGraphics",
+            "pose",
+            "()Lcom/mojang/blaze3d/vertex/PoseStack;"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 58,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT",
+            "Lnet/tslat/aoa3/config/ClientConfig;"
+          ]
+        },
+        {
+          "offset": 102,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesPosition",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$EnumValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 108,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "Top_Right",
+            "Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 111,
+          "opcode": 166,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 117,
+          "opcode": 104
+        },
+        {
+          "offset": 118,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 120,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 122,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/platform/Window",
+            "getGuiScaledWidth",
+            "()I"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/RenderUtil",
+            "getPotionGuiRenderOffset",
+            "()I"
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 54,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 132,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 138,
+          "opcode": 154,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 132,
+          "operands": [
+            8,
+            231
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 146,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "pushPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 149,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 134
+        },
+        {
+          "offset": 154,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 134
+        },
+        {
+          "offset": 157,
+          "opcode": 11
+        },
+        {
+          "offset": 158,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "translate",
+            "(FFF)V"
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 162,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 165,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 167,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 153,
+          "operands": [
+            0,
+            144
+          ]
+        },
+        {
+          "offset": 173,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 174,
+          "opcode": 54,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/player/ClientPlayerDataManager",
+            "get",
+            "()Lnet/tslat/aoa3/client/player/ClientPlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 179,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/player/ClientPlayerDataManager",
+            "getResources",
+            "()Ljava/util/Collection;"
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 185,
+          "member": [
+            "java/util/Collection",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 58,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 189,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 191,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 196,
+          "opcode": 153,
+          "operands": [
+            0,
+            111
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 206,
+          "opcode": 192,
+          "operands": [
+            0,
+            204
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 58,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/resource/AoAResource$Instance",
+            "type",
+            "()Lnet/tslat/aoa3/player/resource/AoAResource;"
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/render/AoAGuiElementRenderers",
+            "getResourceRenderer",
+            "(Lnet/tslat/aoa3/player/resource/AoAResource;)Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer;"
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 58,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 25,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 227,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer",
+            "hudRenderWidth",
+            "(Lnet/tslat/aoa3/player/resource/AoAResource$Instance;)I"
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 104
+        },
+        {
+          "offset": 235,
+          "opcode": 96
+        },
+        {
+          "offset": 236,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 240,
+          "opcode": 25,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 242,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 244,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer",
+            "hudRenderHeight",
+            "(Lnet/tslat/aoa3/player/resource/AoAResource$Instance;)I"
+          ]
+        },
+        {
+          "offset": 249,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 251,
+          "opcode": 104
+        },
+        {
+          "offset": 252,
+          "opcode": 96
+        },
+        {
+          "offset": 253,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 255,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 257,
+          "opcode": 25,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 261,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer",
+            "hudRenderHeight",
+            "(Lnet/tslat/aoa3/player/resource/AoAResource$Instance;)I"
+          ]
+        },
+        {
+          "offset": 266,
+          "opcode": 96
+        },
+        {
+          "offset": 267,
+          "opcode": 54,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 269,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "pushPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 276,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 278,
+          "opcode": 134
+        },
+        {
+          "offset": 279,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 281,
+          "opcode": 134
+        },
+        {
+          "offset": 282,
+          "opcode": 11
+        },
+        {
+          "offset": 283,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "translate",
+            "(FFF)V"
+          ]
+        },
+        {
+          "offset": 286,
+          "opcode": 25,
+          "operands": [
+            14
+          ]
+        },
+        {
+          "offset": 288,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 290,
+          "opcode": 25,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 292,
+          "opcode": 37
+        },
+        {
+          "offset": 293,
+          "opcode": 1
+        },
+        {
+          "offset": 294,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer",
+            "renderInHud",
+            "(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/tslat/aoa3/player/resource/AoAResource$Instance;FLjava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 299,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 301,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "popPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 304,
+          "opcode": 167,
+          "operands": [
+            255,
+            141
+          ]
+        },
+        {
+          "offset": 307,
+          "opcode": 21,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 311,
+          "opcode": 167,
+          "operands": [
+            0,
+            119
+          ]
+        },
+        {
+          "offset": 314,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusResourceGuiMessage",
+            "Z"
+          ]
+        },
+        {
+          "offset": 317,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "RESOURCE_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 320,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "getKey",
+            "()Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 323,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/platform/InputConstants$Key",
+            "getValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 326,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 327,
+          "opcode": 159,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 330,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 331,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 334,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 335,
+          "opcode": 126
+        },
+        {
+          "offset": 336,
+          "opcode": 153,
+          "operands": [
+            0,
+            94
+          ]
+        },
+        {
+          "offset": 339,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 341,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 343,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 345,
+          "opcode": 11
+        },
+        {
+          "offset": 346,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "scale",
+            "(FFF)V"
+          ]
+        },
+        {
+          "offset": 349,
+          "opcode": 18,
+          "constant": "gui.aoa3.resources.showtip"
+        },
+        {
+          "offset": 351,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 352,
+          "opcode": 189,
+          "operands": [
+            0,
+            252
+          ]
+        },
+        {
+          "offset": 355,
+          "opcode": 89
+        },
+        {
+          "offset": 356,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 357,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "RESOURCE_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 360,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "getTranslatedKeyMessage",
+            "()Lnet/minecraft/network/chat/Component;"
+          ]
+        },
+        {
+          "offset": 363,
+          "opcode": 83
+        },
+        {
+          "offset": 364,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LocaleUtil",
+            "getLocaleMessage",
+            "(Ljava/lang/String;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+          ]
+        },
+        {
+          "offset": 367,
+          "opcode": 58,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 371,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 373,
+          "opcode": 44
+        },
+        {
+          "offset": 374,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "font",
+            "Lnet/minecraft/client/gui/Font;"
+          ]
+        },
+        {
+          "offset": 377,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 379,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/gui/Font",
+            "width",
+            "(Lnet/minecraft/network/chat/FormattedText;)I"
+          ]
+        },
+        {
+          "offset": 382,
+          "opcode": 134
+        },
+        {
+          "offset": 383,
+          "opcode": 19,
+          "constant": 0.75
+        },
+        {
+          "offset": 386,
+          "opcode": 106
+        },
+        {
+          "offset": 387,
+          "opcode": 139
+        },
+        {
+          "offset": 388,
+          "opcode": 116
+        },
+        {
+          "offset": 389,
+          "opcode": 134
+        },
+        {
+          "offset": 390,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 392,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 393,
+          "opcode": 96
+        },
+        {
+          "offset": 394,
+          "opcode": 134
+        },
+        {
+          "offset": 395,
+          "opcode": 13
+        },
+        {
+          "offset": 396,
+          "opcode": 110
+        },
+        {
+          "offset": 397,
+          "opcode": 139
+        },
+        {
+          "offset": 398,
+          "opcode": 134
+        },
+        {
+          "offset": 399,
+          "opcode": 19,
+          "constant": 1.5
+        },
+        {
+          "offset": 402,
+          "opcode": 19,
+          "constant": 16777215
+        },
+        {
+          "offset": 405,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/util/RenderUtil$TextRenderType",
+            "OUTLINED",
+            "Lnet/tslat/aoa3/util/RenderUtil$TextRenderType;"
+          ]
+        },
+        {
+          "offset": 408,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/RenderUtil",
+            "renderCenteredScaledText",
+            "(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/network/chat/Component;FFFILnet/tslat/aoa3/util/RenderUtil$TextRenderType;)V"
+          ]
+        },
+        {
+          "offset": 411,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 413,
+          "opcode": 7,
+          "constant": 4
+        },
+        {
+          "offset": 414,
+          "opcode": 96
+        },
+        {
+          "offset": 415,
+          "opcode": 44
+        },
+        {
+          "offset": 416,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "font",
+            "Lnet/minecraft/client/gui/Font;"
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 184,
+          "member": [
+            "java/util/Objects",
+            "requireNonNull",
+            "(Ljava/lang/Object;)Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 422,
+          "opcode": 87
+        },
+        {
+          "offset": 423,
+          "opcode": 16,
+          "constant": 9
+        },
+        {
+          "offset": 425,
+          "opcode": 5,
+          "constant": 2
+        },
+        {
+          "offset": 426,
+          "opcode": 108
+        },
+        {
+          "offset": 427,
+          "opcode": 96
+        },
+        {
+          "offset": 428,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 430,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 432,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "popPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 435,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT",
+            "Lnet/tslat/aoa3/config/ClientConfig;"
+          ]
+        },
+        {
+          "offset": 438,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudResourcesPosition",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 441,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$EnumValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 444,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition",
+            "Top_Right",
+            "Lnet/tslat/aoa3/client/render/custom/AoAResourceRenderer$HudResourcesPosition;"
+          ]
+        },
+        {
+          "offset": 447,
+          "opcode": 166,
+          "operands": [
+            0,
+            8
+          ]
+        },
+        {
+          "offset": 450,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 452,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 455,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 456,
+          "opcode": 21,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 458,
+          "opcode": 96
+        },
+        {
+          "offset": 459,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/client/render/AoAGuiElementRenderers",
+            "resourcesRenderHeightOffset",
+            "I"
+          ]
+        },
+        {
+          "offset": 462,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/client/render/AoAGuiElementRenderers.class",
+      "class_sha256": "eef45aaa87f3bc0bf43f9cd9af4edf28deae75f42f570b1142f7f8ffb1d53f0b",
+      "name": "renderSkills",
+      "descriptor": "(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/DeltaTracker;)V",
+      "method_sha256": "ceee1ca7125e510722ae9cfb8d4f6e5dfc8d8bfd357be159df8d33e547956acd",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getInstance",
+            "()Lnet/minecraft/client/Minecraft;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 77
+        },
+        {
+          "offset": 4,
+          "opcode": 44
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 198,
+          "operands": [
+            0,
+            23
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 44
+        },
+        {
+          "offset": 12,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/player/LocalPlayer",
+            "isSpectator",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 154,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 21,
+          "opcode": 44
+        },
+        {
+          "offset": 22,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "options",
+            "Lnet/minecraft/client/Options;"
+          ]
+        },
+        {
+          "offset": 25,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Options",
+            "hideGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 177
+        },
+        {
+          "offset": 32,
+          "opcode": 43
+        },
+        {
+          "offset": 33,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 34,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/client/DeltaTracker",
+            "getGameTimeDeltaPartialTick",
+            "(Z)F"
+          ]
+        },
+        {
+          "offset": 39,
+          "opcode": 70
+        },
+        {
+          "offset": 40,
+          "opcode": 44
+        },
+        {
+          "offset": 41,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getWindow",
+            "()Lcom/mojang/blaze3d/platform/Window;"
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 50,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 42
+        },
+        {
+          "offset": 53,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/gui/GuiGraphics",
+            "pose",
+            "()Lcom/mojang/blaze3d/vertex/PoseStack;"
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 58,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "pushPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/platform/Window",
+            "getGuiScaledWidth",
+            "()I"
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 134
+        },
+        {
+          "offset": 71,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/render/AoAGuiElementRenderers",
+            "resourcesRenderHeightOffset",
+            "I"
+          ]
+        },
+        {
+          "offset": 74,
+          "opcode": 134
+        },
+        {
+          "offset": 75,
+          "opcode": 11
+        },
+        {
+          "offset": 76,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "translate",
+            "(FFF)V"
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 184,
+          "member": [
+            "com/mojang/blaze3d/systems/RenderSystem",
+            "disableDepthTest",
+            "()V"
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGui",
+            "Z"
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 153,
+          "operands": [
+            0,
+            183
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 89,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 92,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 94,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/player/ClientPlayerDataManager",
+            "get",
+            "()Lnet/tslat/aoa3/client/player/ClientPlayerDataManager;"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/client/player/ClientPlayerDataManager",
+            "getSkills",
+            "()Ljava/util/Collection;"
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 185,
+          "member": [
+            "java/util/Collection",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 105,
+          "opcode": 58,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 109,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 114,
+          "opcode": 153,
+          "operands": [
+            0,
+            151
+          ]
+        },
+        {
+          "offset": 117,
+          "opcode": 25,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 192,
+          "operands": [
+            1,
+            54
+          ]
+        },
+        {
+          "offset": 127,
+          "opcode": 58,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 129,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/player/skill/AoASkill$Instance",
+            "type",
+            "()Lnet/tslat/aoa3/player/skill/AoASkill;"
+          ]
+        },
+        {
+          "offset": 134,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/client/render/AoAGuiElementRenderers",
+            "getSkillRenderer",
+            "(Lnet/tslat/aoa3/player/skill/AoASkill;)Lnet/tslat/aoa3/client/render/custom/AoASkillRenderer;"
+          ]
+        },
+        {
+          "offset": 137,
+          "opcode": 58,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer",
+            "hudRenderWidth",
+            "(Lnet/tslat/aoa3/player/skill/AoASkill$Instance;)I"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 54,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 152,
+          "opcode": 21,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 154,
+          "opcode": 96
+        },
+        {
+          "offset": 155,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 21,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 161,
+          "opcode": 100
+        },
+        {
+          "offset": 162,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 164,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 168,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 170,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer",
+            "hudRenderHeight",
+            "(Lnet/tslat/aoa3/player/skill/AoASkill$Instance;)I"
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "max",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 182,
+          "opcode": 21,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 184,
+          "opcode": 16,
+          "constant": 6
+        },
+        {
+          "offset": 186,
+          "opcode": 104
+        },
+        {
+          "offset": 187,
+          "opcode": 161,
+          "operands": [
+            0,
+            26
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 21,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 194,
+          "opcode": 96
+        },
+        {
+          "offset": 195,
+          "opcode": 54,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 197,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 199,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 21,
+          "operands": [
+            13
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 100
+        },
+        {
+          "offset": 204,
+          "opcode": 96
+        },
+        {
+          "offset": 205,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 208,
+          "opcode": 54,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 211,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 215,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "pushPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 220,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 222,
+          "opcode": 134
+        },
+        {
+          "offset": 223,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 225,
+          "opcode": 134
+        },
+        {
+          "offset": 226,
+          "opcode": 11
+        },
+        {
+          "offset": 227,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "translate",
+            "(FFF)V"
+          ]
+        },
+        {
+          "offset": 230,
+          "opcode": 25,
+          "operands": [
+            12
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 42
+        },
+        {
+          "offset": 233,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/object/RenderContext",
+            "of",
+            "(Lnet/minecraft/client/gui/GuiGraphics;)Lnet/tslat/aoa3/library/object/RenderContext;"
+          ]
+        },
+        {
+          "offset": 236,
+          "opcode": 25,
+          "operands": [
+            11
+          ]
+        },
+        {
+          "offset": 238,
+          "opcode": 37
+        },
+        {
+          "offset": 239,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT",
+            "Lnet/tslat/aoa3/config/ClientConfig;"
+          ]
+        },
+        {
+          "offset": 242,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "hudSkillProgressRenderType",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$EnumValue;"
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$EnumValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 192,
+          "operands": [
+            1,
+            83
+          ]
+        },
+        {
+          "offset": 251,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 252,
+          "opcode": 185,
+          "member": [
+            "net/tslat/aoa3/client/render/custom/AoASkillRenderer",
+            "renderInHud",
+            "(Lnet/tslat/aoa3/library/object/RenderContext;Lnet/tslat/aoa3/player/skill/AoASkill$Instance;FLnet/tslat/aoa3/client/render/custom/AoASkillRenderer$ProgressRenderType;Z)V"
+          ]
+        },
+        {
+          "offset": 257,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "popPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 167,
+          "operands": [
+            255,
+            101
+          ]
+        },
+        {
+          "offset": 265,
+          "opcode": 167,
+          "operands": [
+            0,
+            101
+          ]
+        },
+        {
+          "offset": 268,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "statusSkillGuiMessage",
+            "Z"
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "SKILL_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "getKey",
+            "()Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+          ]
+        },
+        {
+          "offset": 277,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/platform/InputConstants$Key",
+            "getValue",
+            "()I"
+          ]
+        },
+        {
+          "offset": 280,
+          "opcode": 2,
+          "constant": -1
+        },
+        {
+          "offset": 281,
+          "opcode": 159,
+          "operands": [
+            0,
+            7
+          ]
+        },
+        {
+          "offset": 284,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 285,
+          "opcode": 167,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 288,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 289,
+          "opcode": 126
+        },
+        {
+          "offset": 290,
+          "opcode": 153,
+          "operands": [
+            0,
+            76
+          ]
+        },
+        {
+          "offset": 293,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 295,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 297,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 299,
+          "opcode": 12
+        },
+        {
+          "offset": 300,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "scale",
+            "(FFF)V"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 19,
+          "constant": "gui.aoa3.skills.showtip"
+        },
+        {
+          "offset": 306,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 307,
+          "opcode": 189,
+          "operands": [
+            0,
+            252
+          ]
+        },
+        {
+          "offset": 310,
+          "opcode": 89
+        },
+        {
+          "offset": 311,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 312,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/client/AoAKeybinds",
+            "SKILL_GUI",
+            "Lnet/minecraft/client/KeyMapping;"
+          ]
+        },
+        {
+          "offset": 315,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/KeyMapping",
+            "getTranslatedKeyMessage",
+            "()Lnet/minecraft/network/chat/Component;"
+          ]
+        },
+        {
+          "offset": 318,
+          "opcode": 83
+        },
+        {
+          "offset": 319,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/LocaleUtil",
+            "getLocaleMessage",
+            "(Ljava/lang/String;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+          ]
+        },
+        {
+          "offset": 322,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 324,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 326,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 328,
+          "opcode": 44
+        },
+        {
+          "offset": 329,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "font",
+            "Lnet/minecraft/client/gui/Font;"
+          ]
+        },
+        {
+          "offset": 332,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 334,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/gui/Font",
+            "width",
+            "(Lnet/minecraft/network/chat/FormattedText;)I"
+          ]
+        },
+        {
+          "offset": 337,
+          "opcode": 134
+        },
+        {
+          "offset": 338,
+          "opcode": 19,
+          "constant": 0.75
+        },
+        {
+          "offset": 341,
+          "opcode": 106
+        },
+        {
+          "offset": 342,
+          "opcode": 139
+        },
+        {
+          "offset": 343,
+          "opcode": 116
+        },
+        {
+          "offset": 344,
+          "opcode": 134
+        },
+        {
+          "offset": 345,
+          "opcode": 21,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 347,
+          "opcode": 134
+        },
+        {
+          "offset": 348,
+          "opcode": 13
+        },
+        {
+          "offset": 349,
+          "opcode": 110
+        },
+        {
+          "offset": 350,
+          "opcode": 139
+        },
+        {
+          "offset": 351,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 352,
+          "opcode": 96
+        },
+        {
+          "offset": 353,
+          "opcode": 134
+        },
+        {
+          "offset": 354,
+          "opcode": 19,
+          "constant": 1.5
+        },
+        {
+          "offset": 357,
+          "opcode": 19,
+          "constant": 16777215
+        },
+        {
+          "offset": 360,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/util/RenderUtil$TextRenderType",
+            "OUTLINED",
+            "Lnet/tslat/aoa3/util/RenderUtil$TextRenderType;"
+          ]
+        },
+        {
+          "offset": 363,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/util/RenderUtil",
+            "renderCenteredScaledText",
+            "(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/network/chat/Component;FFFILnet/tslat/aoa3/util/RenderUtil$TextRenderType;)V"
+          ]
+        },
+        {
+          "offset": 366,
+          "opcode": 184,
+          "member": [
+            "com/mojang/blaze3d/systems/RenderSystem",
+            "enableDepthTest",
+            "()V"
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 371,
+          "opcode": 182,
+          "member": [
+            "com/mojang/blaze3d/vertex/PoseStack",
+            "popPose",
+            "()V"
+          ]
+        },
+        {
+          "offset": 374,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/util/RenderUtil.class",
+      "class_sha256": "3c7eebc29daba3ceb27a2d54fcccace3cc177106439383fdf3468ab7b35633c4",
+      "name": "getPotionGuiRenderOffset",
+      "descriptor": "()I",
+      "method_sha256": "0d42069e0177dd619be1b5e8b7d1c0f6f2eeb44b6c274fa4e133b06c21e7ec62",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "getInstance",
+            "()Lnet/minecraft/client/Minecraft;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 75
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 198,
+          "operands": [
+            0,
+            36
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/player/LocalPlayer",
+            "getActiveEffects",
+            "()Ljava/util/Collection;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 185,
+          "member": [
+            "java/util/Collection",
+            "isEmpty",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 23,
+          "opcode": 154,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 26,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoAConfigs",
+            "CLIENT",
+            "Lnet/tslat/aoa3/config/ClientConfig;"
+          ]
+        },
+        {
+          "offset": 29,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/config/ClientConfig",
+            "disableHudPotionOffset",
+            "Lnet/neoforged/neoforge/common/ModConfigSpec$BooleanValue;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/neoforged/neoforge/common/ModConfigSpec$BooleanValue",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 192,
+          "operands": [
+            1,
+            139
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 182,
+          "member": [
+            "java/lang/Boolean",
+            "booleanValue",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 45,
+          "opcode": 172
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 60
+        },
+        {
+          "offset": 48,
+          "opcode": 42
+        },
+        {
+          "offset": 49,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/client/Minecraft",
+            "player",
+            "Lnet/minecraft/client/player/LocalPlayer;"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/client/player/LocalPlayer",
+            "getActiveEffects",
+            "()Ljava/util/Collection;"
+          ]
+        },
+        {
+          "offset": 55,
+          "opcode": 185,
+          "member": [
+            "java/util/Collection",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 77
+        },
+        {
+          "offset": 61,
+          "opcode": 44
+        },
+        {
+          "offset": 62,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 153,
+          "operands": [
+            0,
+            69
+          ]
+        },
+        {
+          "offset": 70,
+          "opcode": 44
+        },
+        {
+          "offset": 71,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 76,
+          "opcode": 192,
+          "operands": [
+            1,
+            145
+          ]
+        },
+        {
+          "offset": 79,
+          "opcode": 78
+        },
+        {
+          "offset": 80,
+          "opcode": 45
+        },
+        {
+          "offset": 81,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/effect/MobEffectInstance",
+            "getDuration",
+            "()I"
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 158,
+          "operands": [
+            0,
+            49
+          ]
+        },
+        {
+          "offset": 87,
+          "opcode": 178,
+          "member": [
+            "net/neoforged/neoforge/client/extensions/common/IClientMobEffectExtensions",
+            "DEFAULT",
+            "Lnet/neoforged/neoforge/client/extensions/common/IClientMobEffectExtensions;"
+          ]
+        },
+        {
+          "offset": 90,
+          "opcode": 45
+        },
+        {
+          "offset": 91,
+          "opcode": 185,
+          "member": [
+            "net/neoforged/neoforge/client/extensions/common/IClientMobEffectExtensions",
+            "isVisibleInGui",
+            "(Lnet/minecraft/world/effect/MobEffectInstance;)Z"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 153,
+          "operands": [
+            0,
+            37
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 45
+        },
+        {
+          "offset": 100,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/effect/MobEffectInstance",
+            "isVisible",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 153,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 106,
+          "opcode": 45
+        },
+        {
+          "offset": 107,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/effect/MobEffectInstance",
+            "getEffect",
+            "()Lnet/minecraft/core/Holder;"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/core/Holder",
+            "value",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 192,
+          "operands": [
+            1,
+            172
+          ]
+        },
+        {
+          "offset": 118,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/effect/MobEffect",
+            "isBeneficial",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 126,
+          "opcode": 60
+        },
+        {
+          "offset": 127,
+          "opcode": 167,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 130,
+          "opcode": 16,
+          "constant": 25
+        },
+        {
+          "offset": 132,
+          "opcode": 60
+        },
+        {
+          "offset": 133,
+          "opcode": 167,
+          "operands": [
+            255,
+            184
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 27
+        },
+        {
+          "offset": 137,
+          "opcode": 172
+        }
+      ]
+    }
+  ]
+}
