@@ -19935,7 +19935,45 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:aquatic_staff",
+        "durability_input": 1220,
+        "damage_getter_input": 10.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "WATER_RUNE",
+            "quantity": 4,
+            "id": "aoa3:water_rune",
+            "name": "Water Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WaterRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 1,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.ArchaicBoots.name",
@@ -20087,7 +20125,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:atlantic_staff",
+        "durability_input": 1250,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 1,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 2,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 2,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.StormRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.Atomizer.name",
@@ -20375,7 +20450,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:baron_staff",
+        "durability_input": 1200,
+        "damage_getter_input": 12.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 3,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.BaronSword.name",
@@ -21836,7 +21941,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:candy_staff",
+        "durability_input": 950,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 3,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.KineticRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 2,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.StormRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.CandylandRealmstone.name",
@@ -21954,7 +22088,47 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:celestial_staff",
+        "durability_input": 1150,
+        "damage_getter_input": 11.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 2,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LunarRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 2,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doBlockImpact",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.CeleveRealmstone.name",
@@ -22504,7 +22678,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:concussion_staff",
+        "durability_input": 1150,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "POWER_RUNE",
+            "quantity": 4,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 4,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.StormRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "checkPreconditions",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.ConfettiCannon.name",
@@ -22710,7 +22913,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:coral_staff",
+        "durability_input": 950,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "WATER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:water_rune",
+            "name": "Water Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WaterRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 8,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 21,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "safeBlockPos"
+        ]
+      }
     },
     {
       "id": "localization:item.CoralStone.name",
@@ -23069,7 +23302,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:crystal_staff",
+        "durability_input": 1230,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 2,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 5,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LifeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "checkPreconditions",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.CrystallisBoots.name",
@@ -23231,7 +23493,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:crystik_staff",
+        "durability_input": 1140,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 2,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 1,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LifeRune.name"
+          },
+          {
+            "field": "WATER_RUNE",
+            "quantity": 1,
+            "id": "aoa3:water_rune",
+            "name": "Water Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.WaterRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "checkPreconditions",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.CrystonStaff.name",
@@ -23246,7 +23545,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:cryston_staff",
+        "durability_input": 1240,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 2,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 4,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "checkPreconditions",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.Cup.name",
@@ -23730,7 +24058,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:destruction_staff",
+        "durability_input": 1170,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "POWER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 2,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact"
+        ]
+      }
     },
     {
       "id": "localization:item.DiamondBowl.name",
@@ -24296,7 +24653,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:ember_staff",
+        "durability_input": 1400,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 1,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.KineticRune.name"
+          },
+          {
+            "field": "WIND_RUNE",
+            "quantity": 1,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "FIRE_RUNE",
+            "quantity": 1,
+            "id": "aoa3:fire_rune",
+            "name": "Fire Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.FireRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "lambda$cast$0"
+        ]
+      }
     },
     {
       "id": "localization:item.EmberstoneAxe.name",
@@ -24759,7 +25153,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:everfight_staff",
+        "durability_input": 1050,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 4,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.KineticRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 4,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.EvermightStaff.name",
@@ -24774,7 +25197,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:evermight_staff",
+        "durability_input": 1050,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 2,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 4,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.ExoplateBoots.name",
@@ -25222,7 +25674,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:fire_staff",
+        "durability_input": 850,
+        "damage_getter_input": 5.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "FIRE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:fire_rune",
+            "name": "Fire Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.FireRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.FireVulcane.name",
@@ -25267,7 +25749,45 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:firefly_staff",
+        "durability_input": 1230,
+        "damage_getter_input": 11.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "STRIKE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:strike_rune",
+            "name": "Strike Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.StrikeRune.name"
+          },
+          {
+            "field": "FIRE_RUNE",
+            "quantity": 1,
+            "id": "aoa3:fire_rune",
+            "name": "Fire Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.FireRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.FirestormStaff.name",
@@ -25282,7 +25802,46 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:firestorm_staff",
+        "durability_input": 990,
+        "damage_getter_input": 16.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "FIRE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:fire_rune",
+            "name": "Fire Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.FireRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 2,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.LunarRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.FishCase.name",
@@ -25819,7 +26378,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:fungal_staff",
+        "durability_input": 1130,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 5,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LifeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.FungalTea.name",
@@ -26212,7 +26800,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:ghoul_staff",
+        "durability_input": 400,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 1,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.LifeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact"
+        ]
+      }
     },
     {
       "id": "localization:item.Ghoulasm.name",
@@ -27282,7 +27907,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:haunters_staff",
+        "durability_input": 1225,
+        "damage_getter_input": 13.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 4,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 4,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.HavenRealmstone.name",
@@ -27667,7 +28322,35 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:hive_staff",
+        "durability_input": 1130,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 10,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 9,
+            "inventory_id": "localization:item.EnergyRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 21,
+            "inventory_id": "localization:item.LifeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.Hiver.name",
@@ -28867,7 +29550,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:joker_staff",
+        "durability_input": 300,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 4,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 4,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.JungleThorns.name",
@@ -28949,7 +29661,35 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:kaiyu_staff",
+        "durability_input": 900,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 1,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.KineticRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 4,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.KineticRune.name",
@@ -29293,7 +30033,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:lightning_staff",
+        "durability_input": 1070,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "STRIKE_RUNE",
+            "quantity": 4,
+            "id": "aoa3:strike_rune",
+            "name": "Strike Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.StrikeRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 4,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.StormRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.LightsWay.name",
@@ -29323,7 +30100,45 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:lightshine",
+        "durability_input": 700,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "POWER_RUNE",
+            "quantity": 3,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 3,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LifeRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 2,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.DistortionRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "lambda$cast$0"
+        ]
+      }
     },
     {
       "id": "localization:item.Limefish.name",
@@ -29905,7 +30720,38 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:lunar_staff",
+        "durability_input": 1250,
+        "damage_getter_input": 16.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 2,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LunarRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.LunarTokens.name",
@@ -30204,7 +31050,54 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:lyonic_staff",
+        "durability_input": 1100,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 1,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.EnergyRune.name"
+          },
+          {
+            "field": "WIND_RUNE",
+            "quantity": 1,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "WITHER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wither_rune",
+            "name": "Wither Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.WitherRune.name"
+          },
+          {
+            "field": "STRIKE_RUNE",
+            "quantity": 1,
+            "id": "aoa3:strike_rune",
+            "name": "Strike Rune",
+            "put_offset": 44,
+            "inventory_id": "localization:item.StrikeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doEntityImpact",
+          "lambda$checkPreconditions$0"
+        ]
+      }
     },
     {
       "id": "localization:item.MK.name",
@@ -30517,7 +31410,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:mecha_staff",
+        "durability_input": 1110,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 1,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 1,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.PowerRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact"
+        ]
+      }
     },
     {
       "id": "localization:item.MechanicalAssaultRifle.name",
@@ -30721,7 +31651,47 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:meteor_staff",
+        "durability_input": 1190,
+        "damage_getter_input": 14.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 2,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LunarRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 2,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doBlockImpact",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.Miasma.name",
@@ -31069,7 +32039,47 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:moonlight_staff",
+        "durability_input": 1130,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 2,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LunarRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 2,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doBlockImpact",
+          "doEntityImpact",
+          "createCloud"
+        ]
+      }
     },
     {
       "id": "localization:item.Moonstone.name",
@@ -31234,7 +32244,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:nature_staff",
+        "durability_input": 1450,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 4,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.LifeRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 2,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "checkPreconditions",
+          "populateRunes",
+          "cast",
+          "lambda$checkPreconditions$0"
+        ]
+      }
     },
     {
       "id": "localization:item.NecroBoots.name",
@@ -31605,7 +32645,46 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:nightmare_staff",
+        "durability_input": 1200,
+        "damage_getter_input": 14.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 2,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.LunarRune.name"
+          },
+          {
+            "field": "POISON_RUNE",
+            "quantity": 2,
+            "id": "aoa3:poison_rune",
+            "name": "Poison Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.PoisonRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.NoxiousGreatblade.name",
@@ -31635,7 +32714,46 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:noxious_staff",
+        "durability_input": 1210,
+        "damage_getter_input": 3.5,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "POISON_RUNE",
+            "quantity": 2,
+            "id": "aoa3:poison_rune",
+            "name": "Poison Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PoisonRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 2,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.StormRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "doBlockImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.ObservingEye.name",
@@ -32167,7 +33285,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:phantom_staff",
+        "durability_input": 1060,
+        "damage_getter_input": 12.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 2,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.DistortionRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.Pickmax.name",
@@ -32373,7 +33521,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:poison_staff",
+        "durability_input": 850,
+        "damage_getter_input": 5.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "POISON_RUNE",
+            "quantity": 2,
+            "id": "aoa3:poison_rune",
+            "name": "Poison Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PoisonRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.PoisonVulcane.name",
@@ -32463,7 +33641,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:power_staff",
+        "durability_input": 1010,
+        "damage_getter_input": 8.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.PowerVulcane.name",
@@ -32911,7 +34119,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:primordial_staff",
+        "durability_input": 1230,
+        "damage_getter_input": 15.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "WITHER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wither_rune",
+            "name": "Wither Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WitherRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.ProficiencyTablet.name",
@@ -33882,7 +35120,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:reef_staff",
+        "durability_input": 1230,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 2,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.EnergyRune.name"
+          },
+          {
+            "field": "WATER_RUNE",
+            "quantity": 1,
+            "id": "aoa3:water_rune",
+            "name": "Water Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WaterRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.Reefer.name",
@@ -33927,7 +35194,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:rejuvenation_staff",
+        "durability_input": 870,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 4,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.LifeRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 2,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "lambda$cast$0"
+        ]
+      }
     },
     {
       "id": "localization:item.ResistanceTablet.name",
@@ -34314,7 +35610,45 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:rosidian_staff",
+        "durability_input": 1180,
+        "damage_getter_input": 10.5,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 3,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "WATER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:water_rune",
+            "name": "Water Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WaterRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 1,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.LifeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.RosidianSword.name",
@@ -34753,7 +36087,28 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:runic_staff",
+        "durability_input": 1000,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 5,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.RunicSword.name",
@@ -35194,7 +36549,35 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:shadowlord_staff",
+        "durability_input": 1200,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "WITHER_RUNE",
+            "quantity": 10,
+            "id": "aoa3:wither_rune",
+            "name": "Wither Rune",
+            "put_offset": 9,
+            "inventory_id": "localization:item.WitherRune.name"
+          },
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 21,
+            "inventory_id": "localization:item.LifeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.SharpClaw.name",
@@ -35366,7 +36749,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:show_staff",
+        "durability_input": 900,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 3,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 3,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "makeFireworksStack"
+        ]
+      }
     },
     {
       "id": "localization:item.ShroomStone.name",
@@ -35452,7 +36865,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:shyre_staff",
+        "durability_input": 1380,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 3,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.EnergyRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 3,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.DistortionRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doBlockImpact",
+          "doEntityImpact"
+        ]
+      }
     },
     {
       "id": "localization:item.ShyreSword.name",
@@ -35887,7 +37330,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:sky_staff",
+        "durability_input": 1480,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 2,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.KineticRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 1,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.SkydriverBow.name",
@@ -36834,7 +38314,28 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:striker_staff",
+        "durability_input": 850,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "STRIKE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:strike_rune",
+            "name": "Strike Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.StrikeRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.Sublimus.name",
@@ -36946,7 +38447,43 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:sun_staff",
+        "durability_input": 960,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "FIRE_RUNE",
+            "quantity": 2,
+            "id": "aoa3:fire_rune",
+            "name": "Fire Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.FireRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 1,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.StormRune.name"
+          },
+          {
+            "field": "LUNAR_RUNE",
+            "quantity": 3,
+            "id": "aoa3:lunar_rune",
+            "name": "Lunar Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.LunarRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.SunshineBow.name",
@@ -37031,7 +38568,35 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:surge_staff",
+        "durability_input": 1270,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "POWER_RUNE",
+            "quantity": 4,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 1,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.Swarmotron.name",
@@ -37103,7 +38668,46 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:tangle_staff",
+        "durability_input": 1140,
+        "damage_getter_input": 9.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "POISON_RUNE",
+            "quantity": 2,
+            "id": "aoa3:poison_rune",
+            "name": "Poison Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PoisonRune.name"
+          },
+          {
+            "field": "STORM_RUNE",
+            "quantity": 1,
+            "id": "aoa3:storm_rune",
+            "name": "Storm Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.StormRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.Tea.name",
@@ -37525,7 +39129,44 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:ultimatum_staff",
+        "durability_input": 750,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 5,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.LifeRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 3,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 8,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 33,
+            "inventory_id": "localization:item.DistortionRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact"
+        ]
+      }
     },
     {
       "id": "localization:item.UltraCannon.name",
@@ -37628,7 +39269,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:underworld_staff",
+        "durability_input": 1140,
+        "damage_getter_input": 5.0,
+        "runes": [
+          {
+            "field": "COMPASS_RUNE",
+            "quantity": 1,
+            "id": "aoa3:compass_rune",
+            "name": "Compass Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.CompassRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 3,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.UnpoweredRune.name",
@@ -38339,7 +40010,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:warlock_staff",
+        "durability_input": 1050,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "POWER_RUNE",
+            "quantity": 3,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "KINETIC_RUNE",
+            "quantity": 2,
+            "id": "aoa3:kinetic_rune",
+            "name": "Kinetic Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.KineticRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.WartGun.name",
@@ -38419,7 +40119,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:water_staff",
+        "durability_input": 850,
+        "damage_getter_input": 5.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "WATER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:water_rune",
+            "name": "Water Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WaterRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.WaterloggedAquaCannon.name",
@@ -38641,7 +40371,36 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:web_staff",
+        "durability_input": 1420,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 4,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.DistortionRune.name"
+          },
+          {
+            "field": "ENERGY_RUNE",
+            "quantity": 4,
+            "id": "aoa3:energy_rune",
+            "name": "Energy Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.EnergyRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "checkPreconditions",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.WhimsyWinder.name",
@@ -38761,7 +40520,29 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:wind_staff",
+        "durability_input": 850,
+        "damage_getter_input": 5.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 3,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.WitherBoots.name",
@@ -38907,7 +40688,37 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:wither_staff",
+        "durability_input": 850,
+        "damage_getter_input": 5.0,
+        "runes": [
+          {
+            "field": "WIND_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wind_rune",
+            "name": "Wind Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.WindRune.name"
+          },
+          {
+            "field": "WITHER_RUNE",
+            "quantity": 2,
+            "id": "aoa3:wither_rune",
+            "name": "Wither Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.WitherRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast",
+          "doEntityImpact",
+          "getDmg"
+        ]
+      }
     },
     {
       "id": "localization:item.WitherVulcane.name",
@@ -38952,7 +40763,43 @@
         "size": 190
       },
       "status": "Regular source-model preview",
-      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified."
+      "detail": "Released resource model/texture showcase. Runtime availability, animation and renderer parity are not certified.",
+      "staff_inputs_112": {
+        "id": "aoa3:wizards_staff",
+        "durability_input": 800,
+        "damage_getter_input": 0.0,
+        "runes": [
+          {
+            "field": "LIFE_RUNE",
+            "quantity": 3,
+            "id": "aoa3:life_rune",
+            "name": "Life Rune",
+            "put_offset": 8,
+            "inventory_id": "localization:item.LifeRune.name"
+          },
+          {
+            "field": "POWER_RUNE",
+            "quantity": 3,
+            "id": "aoa3:power_rune",
+            "name": "Power Rune",
+            "put_offset": 20,
+            "inventory_id": "localization:item.PowerRune.name"
+          },
+          {
+            "field": "DISTORTION_RUNE",
+            "quantity": 3,
+            "id": "aoa3:distortion_rune",
+            "name": "Distortion Rune",
+            "put_offset": 32,
+            "inventory_id": "localization:item.DistortionRune.name"
+          }
+        ],
+        "declared_methods": [
+          "getCastingSound",
+          "populateRunes",
+          "cast"
+        ]
+      }
     },
     {
       "id": "localization:item.WornBook.name",

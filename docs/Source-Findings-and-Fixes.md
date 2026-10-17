@@ -193,3 +193,15 @@ The released AoA 3.3.6 audit adds four target-build checks. These findings do no
 - **Per-impact console output:** the inspected base impact method calls System.out.println(target). Consider removing or gating this diagnostic after checking its purpose, then profile log volume and frame/tick timing. This is a performance candidate, not a measured speedup or permission to drop functional behavior.
 
 The player-facing [firing and ammunition guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Firing-Ammunition-and-Inventory-Pitfalls-1.12.2) includes the 16-bullet recipe, hand/attack-strength gates and the distinction between 45 inherited base ammo methods and 33 overrides. [Evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/gun-firing-evidence-1.12.2.json) records 40 released methods and 201 independent matching-stack models. Preserve Creative, metadata/NBT, hand selection, subclass and multiplayer behavior when implementing a fix; no gameplay patch or runtime acceptance is claimed here.
+
+
+## Historical staff rune payment: opposite-hand marker consumption
+
+Minecraft 1.12.2 / AoA 3.3.6, released ItemUtil.findAndConsumeRunes: collection records OFF_HAND as −1 and MAIN_HAND as −2, while consumption fetches MAIN_HAND for −1 and OFF_HAND for −2. With a non-rune staff in main hand and a sufficient required rune stack in offhand, this leads to an unsafe RuneItem cast of the staff. This is a static control-flow finding, not a reproduced game crash or a claim about the current private Enderloom build.
+
+- [ ] Bind collection and consumption to the same physical stack; de-duplicate hand/inventory aliases.
+- [ ] Validate the complete bill before mutation; cover insufficient runes, partial stacks, mixed types and both hands.
+- [ ] Preserve Creative bypass and the distinct allowBuffs, Greed, Archmage and Nightmare branches.
+- [ ] Test precondition failure before payment and cast/spawn failure after payment, wear and cooldown.
+
+[Staff preparation and exact caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2) · [Released method and registration evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-staff-inputs-1.12.2.json).
