@@ -356,6 +356,8 @@ Comparison key: `aoa3:haven`.
 
 **1.12.2 declaration:** `DIM_HAVEN` selects `WorldProviderHaven`; its integer ID comes from configuration.
 
+[Prepare the historical Four Guardians altar and final-color rewards](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Four-Guardians-Altar-and-Rewards-1.12.2).
+
 #### 1.16.5 resource details
 
 - Generator: `minecraft:noise`; biome source: `aoa3:floating_islands`.
@@ -364,7 +366,7 @@ Comparison key: `aoa3:haven`.
 - Declared type fields: `logical_height=256`, `fixed_time=6000`, `has_skylight=true`, `has_ceiling=false`, `bed_works=true`, `respawn_anchor_works=true`, `coordinate_scale=1.0`.
 - Generator defaults: block `aoa3:weightless_stone`, fluid `minecraft:air`, sea level `0`.
 
-**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Ahaven) (10 dimension-tagged entries) · [1.16.5 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5&dimension=aoa3%3Ahaven) (8 dimension-tagged entries).
+**Inspect the matching roster:** [1.12.2 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&dimension=aoa3%3Ahaven) (10 dimension-tagged entries; 4 arena routes) · [1.16.5 bestiary](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.16.5&dimension=aoa3%3Ahaven) (8 dimension-tagged entries).
 
 ### Immortallis
 
