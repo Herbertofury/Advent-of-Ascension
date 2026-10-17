@@ -4,6 +4,7 @@
   "source_pin": "29dd8a8a20642ee182b851e34ef58b65f68e68bf",
   "scope": "Released selected-method disassembly, source-interpretation anchors, exact loot resources and independent arithmetic/window examples. No live encounter or target-port certification.",
   "source_files": {
+    "common/registration/BlockRegister.java": "89d2a690ecd2c3f649ffd495553b425c8f844622f652d37980de92aa923a4b58",
     "dimension/deeplands/biomes/BiomeDeeplands.java": "4d12724e78950ce4302789bfd4bf7e60c1527981867eb89b65a2a34f25efb9c2",
     "entity/mobs/deeplands/EntityCaseConstruct.java": "e7ea317ab70d2700f853e5a638cdc61dea52c5ba230dab2f2cddb009167f8871",
     "item/misc/BlankRealmstone.java": "b67048e061a4f7fba829a506f21c4719f81753cae732dce23ed5bc6bceb0bf87",
@@ -12929,6 +12930,144 @@
       "generation_code_sha256": "b4454be93bcca63d16bdf66470fbe10eedcf9c6393a40058097de53537ee6c3f"
     }
   ],
+  "spawner_registrations": [
+    {
+      "block": "aoa3:bloodsucker_spawner",
+      "entity_argument": "bloodsucker",
+      "class_path": "net/tslat/aoa3/common/registration/BlockRegister.class",
+      "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+      "method": "registerBlocks",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 20888,
+          "opcode": 19,
+          "constant": "BloodsuckerSpawner"
+        },
+        {
+          "offset": 20891,
+          "opcode": 19,
+          "constant": "bloodsucker_spawner"
+        },
+        {
+          "offset": 20894,
+          "opcode": 19,
+          "constant": "bloodsucker"
+        },
+        {
+          "offset": 20897,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/spawners/SpawnerBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "block": "aoa3:flowerface_spawner",
+      "entity_argument": "flowerface",
+      "class_path": "net/tslat/aoa3/common/registration/BlockRegister.class",
+      "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+      "method": "registerBlocks",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 21186,
+          "opcode": 19,
+          "constant": "FlowerfaceSpawner"
+        },
+        {
+          "offset": 21189,
+          "opcode": 19,
+          "constant": "flowerface_spawner"
+        },
+        {
+          "offset": 21192,
+          "opcode": 19,
+          "constant": "flowerface"
+        },
+        {
+          "offset": 21195,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/spawners/SpawnerBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "block": "aoa3:angelica_spawner",
+      "entity_argument": "angelica",
+      "class_path": "net/tslat/aoa3/common/registration/BlockRegister.class",
+      "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+      "method": "registerBlocks",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 20726,
+          "opcode": 19,
+          "constant": "AngelicaSpawner"
+        },
+        {
+          "offset": 20729,
+          "opcode": 19,
+          "constant": "angelica_spawner"
+        },
+        {
+          "offset": 20732,
+          "opcode": 19,
+          "constant": "angelica"
+        },
+        {
+          "offset": 20735,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/spawners/SpawnerBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        }
+      ]
+    },
+    {
+      "block": "aoa3:rock_critter_spawner",
+      "entity_argument": "rock_critter",
+      "class_path": "net/tslat/aoa3/common/registration/BlockRegister.class",
+      "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+      "method": "registerBlocks",
+      "descriptor": "(Lnet/minecraftforge/event/RegistryEvent$Register;)V",
+      "instructions": [
+        {
+          "offset": 21946,
+          "opcode": 19,
+          "constant": "RockCritterSpawner"
+        },
+        {
+          "offset": 21949,
+          "opcode": 19,
+          "constant": "rock_critter_spawner"
+        },
+        {
+          "offset": 21952,
+          "opcode": 19,
+          "constant": "rock_critter"
+        },
+        {
+          "offset": 21955,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/spawners/SpawnerBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        }
+      ]
+    }
+  ],
   "window_cases": [
     {
       "name": "five distinct within window",
@@ -13298,7 +13437,16 @@
       },
       "biomes": [],
       "dimensions": [],
-      "spawn_rules": []
+      "spawn_rules": [],
+      "encounter_routes": [
+        {
+          "dimension": "aoa3:ancient_cavern",
+          "kind": "Historical shrine arena; actual integer dimension ID is configured",
+          "source": "https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/block/functional/utility/AncientCavernShrine.java",
+          "guide": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ancient-Cavern-and-Deity-Shrines-1.12.2",
+          "availability": "Selyan shrine: Infusion 70 and tribute 200 with enabled systems; source route, not a natural-spawn or modern-port claim."
+        }
+      ]
     },
     "aoa3:construct_flight": {
       "id": "aoa3:construct_flight",
@@ -13820,7 +13968,16 @@
       },
       "biomes": [],
       "dimensions": [],
-      "spawn_rules": []
+      "spawn_rules": [],
+      "encounter_routes": [
+        {
+          "dimension": "aoa3:ancient_cavern",
+          "kind": "Historical shrine arena; actual integer dimension ID is configured",
+          "source": "https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/block/functional/utility/AncientCavernShrine.java",
+          "guide": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ancient-Cavern-and-Deity-Shrines-1.12.2",
+          "availability": "Pluton shrine: Foraging 70 and tribute 200 with enabled systems; source route, not a natural-spawn or modern-port claim."
+        }
+      ]
     },
     "aoa3:horon": {
       "id": "aoa3:horon",
@@ -13862,7 +14019,16 @@
       },
       "biomes": [],
       "dimensions": [],
-      "spawn_rules": []
+      "spawn_rules": [],
+      "encounter_routes": [
+        {
+          "dimension": "aoa3:ancient_cavern",
+          "kind": "Historical shrine arena; actual integer dimension ID is configured",
+          "source": "https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/block/functional/utility/AncientCavernShrine.java",
+          "guide": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ancient-Cavern-and-Deity-Shrines-1.12.2",
+          "availability": "Luxon shrine: Runation 70 and tribute 200 with enabled systems; source route, not a natural-spawn or modern-port claim."
+        }
+      ]
     },
     "aoa3:penumbra": {
       "id": "aoa3:penumbra",
@@ -13904,7 +14070,16 @@
       },
       "biomes": [],
       "dimensions": [],
-      "spawn_rules": []
+      "spawn_rules": [],
+      "encounter_routes": [
+        {
+          "dimension": "aoa3:ancient_cavern",
+          "kind": "Historical shrine arena; actual integer dimension ID is configured",
+          "source": "https://github.com/Tslat/Advent-Of-Ascension/blob/29dd8a8a20642ee182b851e34ef58b65f68e68bf/source/block/functional/utility/AncientCavernShrine.java",
+          "guide": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ancient-Cavern-and-Deity-Shrines-1.12.2",
+          "availability": "Erebon shrine: Hunter 70 and tribute 200 with enabled systems; source route, not a natural-spawn or modern-port claim."
+        }
+      ]
     },
     "aoa3:rock_critter": {
       "id": "aoa3:rock_critter",
