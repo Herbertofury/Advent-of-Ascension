@@ -91,9 +91,9 @@ The images are static renders of the released item-model resources. Generated fl
 
 These declarations use different localization labels and registry suffixes: AbyssalStone maps to abyss_stone, BlueGemstoneOre to blue_crystal_ore, and BlueMegaRuneFragment to mega_rune_fragment_blue. A name-only join misses them. Conversely, BlueCrystal appears in several resource categories, so selecting the first loose-item model gives a block the wrong picture. The repair records the declaration, helper, exact model path and archive hashes instead.
 
-## Remaining crop-state work
+## Itemless crop state references
 
-Sixteen additional declarations explicitly use registerItemlessBlock. They have blockstate resources but no ordinary item model. They are intentionally excluded from these 40 inventory-model references until their growth-state pictures can be represented properly:
+Sixteen additional declarations explicitly use registerItemlessBlock. They have blockstate resources but no ordinary item model. They are separate from these 40 inventory-model references. Their eight growth stages and harvest behavior are now covered in [the historical farming walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crop-Growth-Planting-and-Harvesting-1.12.2):
 
  | Itemless crop declaration | Released label |
 |---|---|
@@ -114,7 +114,7 @@ Sixteen additional declarations explicitly use registerItemlessBlock. They have 
 | `aoa3:thorny_plant_crop` | Thorny Plant |
 | `aoa3:trilliad_crop` | Trilliads |
 
-These are world-block documentation candidates, not missing collectible inventory items. A full crop tutorial must check age/state models, seed linkage and harvest behavior before claiming a farming route.
+These are world-block documentation candidates, not missing collectible inventory items. The dedicated walkthrough checks age-state models, seed linkage and the local harvest behavior while keeping live Forge/modpack acceptance separate.
 
 ## Evidence and acceptance
 
@@ -122,3 +122,7 @@ These are world-block documentation candidates, not missing collectible inventor
 - [Inventory explorer](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html?v=1.12.2) and [source/version coverage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Render-Coverage).
 - Original models, textures and labels: Tslat and Advent of Ascension contributors. Minecraft model bases: Mojang. Independent source-derived documentation.
 - Static regression checks verify the 40 joins, preserved crystal entry IDs, separate Candycane block/food identities, two generic-record translation cases and explicit exclusion of the 16 itemless crops. Runtime acquisition and rendering remain separate acceptance work.
+
+## Historical crop growth references
+
+[Planting and harvesting sixteen 1.12.2 crops](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crop-Growth-Planting-and-Harvesting-1.12.2) now documents all 128 age-state models, seed/produce links and source-level harvest rules. These itemless world blocks have their own classified entries; they are not ordinary collectible inventory items.

@@ -1672,3 +1672,7 @@ Source identities and raw evidence are in [content-census.json](content-census.j
 ## Newly resolved historical declarations
 
 [Registered blocks and items · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Registered-Blocks-and-Items-1.12.2) adds 34 missing model-backed references and fixes six crystal block/item picture collisions, with exact IDs and illustrated comparisons.
+
+## Historical crop growth references
+
+[Planting and harvesting sixteen 1.12.2 crops](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crop-Growth-Planting-and-Harvesting-1.12.2) now documents all 128 age-state models, seed/produce links and source-level harvest rules. These itemless world blocks have their own classified entries; they are not ordinary collectible inventory items.

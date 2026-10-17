@@ -5,6 +5,22 @@
   "scope": "Curated links to checked documentation, not a complete list of wiki pages or runtime-certified progression. Versions are explicit; unsupported routes are not substituted. Document hashes identify wiki-oriented source Markdown; repository copies may normalize link destinations.",
   "guides": [
     {
+      "slug": "Crop-Growth-Planting-and-Harvesting-1.12.2",
+      "title": "Plant and harvest sixteen historical crops",
+      "versions": [
+        "1.12.2"
+      ],
+      "goal": "Prepare",
+      "description": "Compare128 growth states,14 seeds and2 edible planting items with mature harvest and Fortune rules.",
+      "warnings": [
+        "Extra-seed attempts are random;Forge hooks can change drops"
+      ],
+      "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/crop-stages-1.12.2-bubble_berry_crop.webp",
+      "image_alt": "Bubble Berries, ages 0 through7",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crop-Growth-Planting-and-Harvesting-1.12.2",
+      "document_sha256": "ab09c53075aee16036cfb91c1037582a4e348cc2ed2d1252d44b55fa5f6975d1"
+    },
+    {
       "slug": "Registered-Blocks-and-Items-1.12.2",
       "title": "Distinguish legacy blocks and item lookalikes",
       "versions": [
@@ -18,7 +34,7 @@
       "image": "https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/registered-inventory-1.12.2-1.webp",
       "image_alt": "Named released models, sheet 1",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Registered-Blocks-and-Items-1.12.2",
-      "document_sha256": "5826aa724b5d344ebe85902e0bfdda55031b091ae0ae89a26ce3e2a72b9c8523"
+      "document_sha256": "927f0441a6b4b4fc3c7191f852233697164658e02896dbebd04ac84f8f4f3d96"
     },
     {
       "slug": "Trading-and-Traders-1.12.2",
@@ -1732,7 +1748,8 @@
       "document_sha256": "48c63efcc8aa1289be7d856a4d216369cc18eeae27f86b0d3752bf6a7e1f0a3c"
     }
   ]
-}</script><script>
+}
+</script><script>
 const catalog=JSON.parse(document.getElementById('catalog').textContent).guides,$=id=>document.getElementById(id),validVersions=['1.12.2','1.16.5','1.20.1','1.21.1','all'],goals=['Start','Prepare','Explore','Progress','Recover','Reference'];let filtered=[],shown=0,unsupported=false;const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};const link=(text,url,cls)=>{const a=node('a',text,cls);a.href=url;return a;};const norm=s=>s.toLowerCase().replace(/[-_]/g,' ');
 function card(g){const a=node('article',null,'card'),cover=node('div',null,'cover');if(g.image){const im=node('img');im.src=g.image;im.alt=g.image_alt||g.title;im.loading='lazy';im.decoding='async';im.addEventListener('error',()=>{cover.replaceChildren(node('span',g.goal.slice(0,2).toUpperCase(),'noimage'));});cover.append(im);}else cover.append(node('span',g.goal.slice(0,2).toUpperCase(),'noimage'));const b=node('div',null,'body'),meta=node('div',null,'meta');meta.append(node('span',g.goal));for(const v of g.versions)meta.append(node('span',v));const h=node('h2');h.append(link(g.title,g.url));b.append(meta,h,node('p',g.description));for(const w of g.warnings)b.append(node('div',w,'warning'));b.append(link('Open walkthrough →',g.url,'open'),node('div','Evidence-scoped documentation · check the guide’s limits','evidence'));a.append(cover,b);return a;}
 function more(){if(unsupported)return;const end=Math.min(shown+6,filtered.length);for(let i=shown;i<end;i++)$('results').append(card(filtered[i]));shown=end;$('more').hidden=shown>=filtered.length;$('status').textContent=filtered.length+' matching guide'+(filtered.length===1?'':'s')+' · showing '+shown+' of '+catalog.length+' curated guides';}
