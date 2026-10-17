@@ -1,5 +1,7 @@
 # Block model explorer · 1.21.1
 
+[Interactive plant-state explorer · 1.21.1: 18 plants and 179 age/height states](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Plant-Growth-States-1.21.1)
+
 [Open the interactive block-model explorer](https://herbertofury.github.io/Advent-of-Ascension/block-models.html?v=1.21.1)
 
 Explore **1,026 block item-model resource references** from Minecraft 1.21.1 / AoA 3.7.16.1. Search by name or resource ID, turn the model around, inspect it from above, and jump directly to the matching item entry.

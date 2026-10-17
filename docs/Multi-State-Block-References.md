@@ -1,5 +1,7 @@
 # Multi-state plant and portal references
 
+[Interactive plant-state explorer · 1.21.1: 18 plants and 179 age/height states](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Plant-Growth-States-1.21.1)
+
 The age-only crop pass could not represent Thorny Plant’s combined age/height selector. This supplement reads the exact released blockstate maps for **1.16.5, 1.20.1 and 1.21.1** and accounts for **141 version-specific states**.
 
 - Thorny Plant: 45 age/height combinations per release, 135 total.

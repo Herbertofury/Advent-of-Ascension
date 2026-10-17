@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 130 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 131 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,837 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Compact contextual guide index | 559 links across 518 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -39,10 +39,11 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Books and starter recovery | 7 declared books, 53 English entries/190 page definitions, integration and language troubleshooting | [Books and recovery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Books-Lore-and-Blank-Realmstone-Recovery-1.21.1) |
 | Controls and client presentation | 4 key defaults, 15 settings and 4 exact enum lists | [Controls and HUD](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Controls-HUD-and-Client-Settings-1.21.1) |
 | Multiplayer boss rewards | 4 allocation modes, 32 health cases and 800 scoped copied-stack checks | [Rewards and inventory safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Nowhere-Boss-Rewards-and-Multiplayer-Scaling-1.21.1) |
+| Interactive plant states | 18 plants, 179 explicit states and 14 transparent Thorny states; fixed per-plant scale | [Compare plant states](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Plant-Growth-States-1.21.1) |
 | Interactive block models | 1,026 JSON-element item-model references; 17,537 quads in 33 on-demand chunks; 183 explicit exclusions | [Explore block models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Block-Model-Coverage-1.21.1) |
 | Interactive workstations | 7 static item meshes, 240 quads and 14 source textures; orbit controls and keyboard views | [Inspect in 3D](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Workstation-Models-1.21.1) |
 | Reading routes | 4 release-specific six-stop routes; browser-local reading checklists | [Choose a route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reading-Routes-and-Local-Checklists) |
-| Local documentation validation | 209 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 212 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
