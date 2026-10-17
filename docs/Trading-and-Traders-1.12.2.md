@@ -1,8 +1,8 @@
 # Trading and traders · 1.12.2
 
-**Minecraft 1.12.2 · AoA 3.3.6.** Browse **337 nonempty-output offer candidates across 58 NPC types** in the [illustrated Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2). This historical system does not use the modern profession-level and merchant-XP fields shown for later releases.
+**Minecraft 1.12.2 · AoA 3.3.6.** Browse **363 candidate offer definitions across 59 NPC types** in the [illustrated Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2). This historical system does not use the modern profession-level and merchant-XP fields shown for later releases.
 
-The extractor checked 64 literal trader methods against the released artifact and pinned source. Five banker EMPTY→EMPTY placeholders are excluded from real offers; the dimension-conditional Undead Herald method remains a separate unresolved catalog section. An empty placeholder is not a free item exchange.
+The extractor checked 64 literal trader methods plus the separately decoded Undead Herald switch against released bytes and pinned source. Five banker EMPTY→EMPTY placeholders remain excluded. Herald contributes 22 realm-conditional definitions and four common offers; any resolved source context has four or five entries, not all 26. An empty placeholder is not a free item exchange.
 
 ## Plan a useful shopping trip
 
@@ -70,6 +70,7 @@ The extractor checked 64 literal trader methods against the released artifact an
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/732a40c05be3f71eb2f8f94a-thumb.webp" width="64" height="64" alt="Toy Merchant"><br>[Toy Merchant](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:toy_merchant) | 6 | Generated selection | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:toy_merchant) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/dcf1eb95554c7d7b7006a918-thumb.webp" width="64" height="64" alt="Troll Trader"><br>[Troll Trader](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:troll_trader) | 6 | Fixed list | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:troll_trader) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/3446d92ba89013cf2e328322-thumb.webp" width="64" height="64" alt="Twinkling Lottoman"><br>[Twinkling Lottoman](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:twinkling_lottoman) | 4 | Generated selection | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:twinkling_lottoman) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/inherited-undead_herald-thumb.webp" width="64" height="64" alt="Undead Herald"><br>[Undead Herald](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:undead_herald) | 26 catalogued; 4–5 per realm | Fixed list | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:undead_herald) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/c75dbdcbf2b2058547e3d018-thumb.webp" width="64" height="64" alt="Withering Lottoman"><br>[Withering Lottoman](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:withering_lottoman) | 4 | Generated selection | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:withering_lottoman) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/14bdeb725dd554960be2f0bc-thumb.webp" width="64" height="64" alt="Zal Grocer"><br>[Zal Grocer](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:zal_grocer) | 7 | Generated selection | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:zal_grocer) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/legacy-1.12.2/7a8112d0ef1e08e732b057a3-thumb.webp" width="64" height="64" alt="Zal Herbalist"><br>[Zal Herbalist](https://herbertofury.github.io/Advent-of-Ascension/bestiary-explorer.html?v=1.12.2&entity=aoa3:zal_herbalist) | 3 | Generated selection | [Browse](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html?v=1.12.2&vendor=aoa3:zal_herbalist) |
@@ -104,7 +105,7 @@ The Toy Merchant requires **64 + 64 Circus Coins** and supplies an explicit one-
 
 ## Pictures and version-safe navigation
 
-The catalog uses 266 distinct item/metadata picture references: **249 existing atlas regions and 17 standalone source-model illustrations**. Six previously unmatched historical block models now have checked registration/localization entries in the general item index. Their trade cards link directly to those exact IDs.
+The catalog uses 292 distinct item/metadata picture references: **275 existing atlas regions and 17 standalone source-model illustrations**. Six previously unmatched historical block models now have checked registration/localization entries in the general item index. Their trade cards link directly to those exact IDs.
 
 Only the selected release’s compact data file is requested. The browser builds 24 cards at a time, caches loaded releases and ignores stale responses after a version switch. Atlas regions reuse the existing sheets; new standalone item and NPC images are lazy-loaded. No game-folder scan or background polling is performed. Vendor labels use a cached ID lookup instead of repeatedly scanning the vendor list for every card or search result. [Trade semantic and payload comparison](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/trade-browser-compaction-proof-1.12.2.json) confirms that quantities, metadata, special requirements and use-limit fields were preserved.
 
@@ -116,7 +117,7 @@ Only the selected release’s compact data file is requested. The browser builds
 - [Image and metadata routing evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/trade-icon-evidence-1.12.2.json)
 - [Fixed-list getter evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/trade-fixed-list-evidence-1.12.2.json)
 
-- [ ] Trace the Undead Herald’s dimension switch without treating every branch as simultaneous.
+- [x] Decode the Undead Herald’s dimension switch and add a realm selector that preserves the four common offers.
 - [ ] Document bankers’ dedicated behavior separately from their placeholder trade method.
 - [ ] Verify spawning, GUI behavior, special-NBT matching, list expansion, save/reload and event/modpack interactions in a running test build.
 - [x] Add the six newly illustrated block references to the general item index with exact registration/localization evidence.
@@ -124,3 +125,7 @@ Only the selected release’s compact data file is requested. The browser builds
 AoA artwork and systems are by Tslat and contributors; vanilla reference assets are by Mojang. These are static source references and documentation UI checks, not a live trading or Enderloom compatibility certification.
 
 [Compare 1.16.5 trading](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.16.5) · [Compare 1.21.1 trading](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trading-and-Traders-1.21.1) · [Weapon acquisition atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Weapon-Acquisition-1.12.2)
+
+## Undead Herald realm-specific shopping
+
+[The illustrated Herald exchange guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Undead-Herald-Banner-Exchanges-1.12.2) compares all 22 conditional banners and four common banners. Choose a Herald realm in the Trading Desk, and clear other filters to inspect its full four- or five-offer source list.

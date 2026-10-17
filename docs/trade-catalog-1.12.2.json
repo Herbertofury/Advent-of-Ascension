@@ -1,7 +1,7 @@
 {
   "version": "1.12.2",
   "release": "3.3.6",
-  "scope": "337 nonempty-output candidates from 64 literal released trader methods, cross-checked against pinned source expressions. Five banker placeholders excluded. Dimension-dependent Herald remains unsupported. IDs use the legacy namespace/field convention; atlas joins are resource references, not runtime registry certification.",
+  "scope": "363 candidate definitions across59NPC types:337 literal-pool offers plus22 dimension-conditional and4common Herald offers. A resolved Herald context contains4or5 offers, never all26. Five banker placeholders remain excluded. Static source/binary evidence; no live availability guarantee.",
   "records": [
     {
       "vendor": "aoa3:abyssal_lottoman",
@@ -12922,6 +12922,1072 @@
       "max_uses": null,
       "max_uses_rule": "5 if output stackable, otherwise 1",
       "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 2), new ItemStack(BlockRegister.DUSK_ORB, 1)));"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 171,
+      "costs": [
+        {
+          "id": "aoa3:abyss_tokens",
+          "name": "Abyss Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.ABYSS_TOKENS",
+          "inventory_id": "localization:item.AbyssTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-01.webp",
+            "x": 455,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:shadow_banner",
+        "name": "Shadow Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.SHADOW_BANNER",
+        "inventory_id": "localization:tile.ShadowBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-23.webp",
+          "x": 235,
+          "y": 1421,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.ABYSS_TOKENS, 10), new ItemStack(BlockRegister.SHADOW_BANNER, 1)));",
+      "condition_enum": "ABYSS",
+      "dimension": "ABYSS",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 209,
+      "costs": [
+        {
+          "id": "aoa3:baron_tokens",
+          "name": "Baron Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.BARON_TOKENS",
+          "inventory_id": "localization:item.BaronTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-02.webp",
+            "x": 235,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:baron_banner",
+        "name": "Baron Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.BARON_BANNER",
+        "inventory_id": "localization:tile.BaronBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-02.webp",
+          "x": 1115,
+          "y": 361,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.BARON_TOKENS, 10), new ItemStack(BlockRegister.BARON_BANNER, 1)));",
+      "condition_enum": "BARATHOS",
+      "dimension": "BARATHOS",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 247,
+      "costs": [
+        {
+          "id": "aoa3:candyland_tokens",
+          "name": "Candyland Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.CANDYLAND_TOKENS",
+          "inventory_id": "localization:item.CandylandTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-04.webp",
+            "x": 1115,
+            "y": 626,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:candy_banner",
+        "name": "Candy Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.CANDY_BANNER",
+        "inventory_id": "localization:tile.CandyBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-04.webp",
+          "x": 455,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CANDYLAND_TOKENS, 10), new ItemStack(BlockRegister.CANDY_BANNER, 1)));",
+      "condition_enum": "CANDYLAND",
+      "dimension": "CANDYLAND",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 285,
+      "costs": [
+        {
+          "id": "aoa3:celeve_tokens",
+          "name": "Celeve Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.CELEVE_TOKENS",
+          "inventory_id": "localization:item.CeleveTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-04.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:clown_banner",
+        "name": "Clown Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.CLOWN_BANNER",
+        "inventory_id": "localization:tile.ClownBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-05.webp",
+          "x": 675,
+          "y": 1156,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CELEVE_TOKENS, 10), new ItemStack(BlockRegister.CLOWN_BANNER, 1)));",
+      "condition_enum": "CELEVE",
+      "dimension": "CELEVE",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 323,
+      "costs": [
+        {
+          "id": "aoa3:creeponia_tokens",
+          "name": "Creeponia Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.CREEPONIA_TOKENS",
+          "inventory_id": "localization:item.CreeponiaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-05.webp",
+            "x": 675,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:creepy_banner",
+        "name": "Creepy Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.CREEPY_BANNER",
+        "inventory_id": "localization:tile.CreepyBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-06.webp",
+          "x": 1115,
+          "y": 626,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CREEPONIA_TOKENS, 10), new ItemStack(BlockRegister.CREEPY_BANNER, 1)));",
+      "condition_enum": "CREEPONIA",
+      "dimension": "CREEPONIA",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 361,
+      "costs": [
+        {
+          "id": "aoa3:crystevia_tokens",
+          "name": "Crystevia Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.CRYSTEVIA_TOKENS",
+          "inventory_id": "localization:item.CrysteviaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-06.webp",
+            "x": 235,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:crystal_banner",
+        "name": "Crystal Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.CRYSTAL_BANNER",
+        "inventory_id": "localization:tile.CrystalBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-06.webp",
+          "x": 235,
+          "y": 891,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.CRYSTEVIA_TOKENS, 10), new ItemStack(BlockRegister.CRYSTAL_BANNER, 1)));",
+      "condition_enum": "CRYSTEVIA",
+      "dimension": "CRYSTEVIA",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 399,
+      "costs": [
+        {
+          "id": "aoa3:deeplands_tokens",
+          "name": "Deeplands Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.DEEPLANDS_TOKENS",
+          "inventory_id": "localization:item.DeeplandsTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-06.webp",
+            "x": 895,
+            "y": 891,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:deep_banner",
+        "name": "Deep Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.DEEP_BANNER",
+        "inventory_id": "localization:tile.DeepBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-07.webp",
+          "x": 455,
+          "y": 1686,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.DEEPLANDS_TOKENS, 10), new ItemStack(BlockRegister.DEEP_BANNER, 1)));",
+      "condition_enum": "DEEPLANDS",
+      "dimension": "DEEPLANDS",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 437,
+      "costs": [
+        {
+          "id": "aoa3:dustopia_tokens",
+          "name": "Dustopia Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.DUSTOPIA_TOKENS",
+          "inventory_id": "localization:item.DustopiaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-07.webp",
+            "x": 235,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:dustopian_banner",
+        "name": "Dustopian Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.DUSTOPIAN_BANNER",
+        "inventory_id": "localization:tile.DustopianBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-08.webp",
+          "x": 15,
+          "y": 626,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.DUSTOPIA_TOKENS, 10), new ItemStack(BlockRegister.DUSTOPIAN_BANNER, 1)));",
+      "condition_enum": "DUSTOPIA",
+      "dimension": "DUSTOPIA",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 475,
+      "costs": [
+        {
+          "id": "aoa3:gardencia_tokens",
+          "name": "Gardencia Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.GARDENCIA_TOKENS",
+          "inventory_id": "localization:item.GardenciaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-09.webp",
+            "x": 15,
+            "y": 626,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:rosidian_banner",
+        "name": "Rosidian Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.ROSIDIAN_BANNER",
+        "inventory_id": "localization:tile.RosidianBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-22.webp",
+          "x": 1115,
+          "y": 891,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.GARDENCIA_TOKENS, 10), new ItemStack(BlockRegister.ROSIDIAN_BANNER, 1)));",
+      "condition_enum": "GARDENCIA",
+      "dimension": "GARDENCIA",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 513,
+      "costs": [
+        {
+          "id": "aoa3:greckon_tokens",
+          "name": "Greckon Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.GRECKON_TOKENS",
+          "inventory_id": "localization:item.GreckonTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-10.webp",
+            "x": 675,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:haunted_banner",
+        "name": "Haunted Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.HAUNTED_BANNER",
+        "inventory_id": "localization:tile.HauntedBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-13.webp",
+          "x": 15,
+          "y": 96,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.GRECKON_TOKENS, 10), new ItemStack(BlockRegister.HAUNTED_BANNER, 1)));",
+      "condition_enum": "GRECKON",
+      "dimension": "GRECKON",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 551,
+      "costs": [
+        {
+          "id": "aoa3:haven_tokens",
+          "name": "Haven Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.HAVEN_TOKENS",
+          "inventory_id": "localization:item.HavenTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-11.webp",
+            "x": 675,
+            "y": 96,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:utopian_banner",
+        "name": "Utopian Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.UTOPIAN_BANNER",
+        "inventory_id": "localization:tile.UtopianBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-25.webp",
+          "x": 15,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.HAVEN_TOKENS, 10), new ItemStack(BlockRegister.UTOPIAN_BANNER, 1)));",
+      "condition_enum": "HAVEN",
+      "dimension": "HAVEN",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 589,
+      "costs": [
+        {
+          "id": "aoa3:iromine_tokens",
+          "name": "Iromine Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.IROMINE_TOKENS",
+          "inventory_id": "localization:item.IromineTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-12.webp",
+            "x": 235,
+            "y": 1686,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:mecha_banner",
+        "name": "Mecha Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.MECHA_BANNER",
+        "inventory_id": "localization:tile.MechaBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-17.webp",
+          "x": 1115,
+          "y": 1421,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.IROMINE_TOKENS, 10), new ItemStack(BlockRegister.MECHA_BANNER, 1)));",
+      "condition_enum": "IROMINE",
+      "dimension": "IROMINE",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 627,
+      "costs": [
+        {
+          "id": "aoa3:borean_tokens",
+          "name": "Borean Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.BOREAN_TOKENS",
+          "inventory_id": "localization:item.BoreanTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-03.webp",
+            "x": 675,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:boreic_banner",
+        "name": "Boreic Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.BOREIC_BANNER",
+        "inventory_id": "localization:tile.BoreicBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-04.webp",
+          "x": 675,
+          "y": 1421,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.BOREAN_TOKENS, 10), new ItemStack(BlockRegister.BOREIC_BANNER, 1)));",
+      "condition_enum": "LBOREAN",
+      "dimension": "LBOREAN",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 665,
+      "costs": [
+        {
+          "id": "aoa3:lelyetia_tokens",
+          "name": "Lelyetia Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.LELYETIA_TOKENS",
+          "inventory_id": "localization:item.LelyetiaTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-13.webp",
+            "x": 15,
+            "y": 891,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lelyetian_banner",
+        "name": "Lelyetian Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.LELYETIAN_BANNER",
+        "inventory_id": "localization:tile.LelyetianBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-16.webp",
+          "x": 15,
+          "y": 96,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.LELYETIA_TOKENS, 10), new ItemStack(BlockRegister.LELYETIAN_BANNER, 1)));",
+      "condition_enum": "LELYETIA",
+      "dimension": "LELYETIA",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 703,
+      "costs": [
+        {
+          "id": "aoa3:lunar_tokens",
+          "name": "Lunar Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.LUNAR_TOKENS",
+          "inventory_id": "localization:item.LunarTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-14.webp",
+            "x": 1115,
+            "y": 626,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:lunar_banner",
+        "name": "Lunar Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.LUNAR_BANNER",
+        "inventory_id": "localization:tile.LunarBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-16.webp",
+          "x": 675,
+          "y": 1686,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.LUNAR_TOKENS, 10), new ItemStack(BlockRegister.LUNAR_BANNER, 1)));",
+      "condition_enum": "LUNALUS",
+      "dimension": "LUNALUS",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 741,
+      "costs": [
+        {
+          "id": "aoa3:mysterium_tokens",
+          "name": "Mysterium Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.MYSTERIUM_TOKENS",
+          "inventory_id": "localization:item.MysteriumTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-15.webp",
+            "x": 455,
+            "y": 1686,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:fungal_banner",
+        "name": "Fungal Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.FUNGAL_BANNER",
+        "inventory_id": "localization:tile.FungalBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-09.webp",
+          "x": 1115,
+          "y": 1686,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.MYSTERIUM_TOKENS, 10), new ItemStack(BlockRegister.FUNGAL_BANNER, 1)));",
+      "condition_enum": "MYSTERIUM",
+      "dimension": "MYSTERIUM",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 779,
+      "costs": [
+        {
+          "id": "aoa3:nether_tokens",
+          "name": "Nether Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.NETHER_TOKENS",
+          "inventory_id": "localization:item.NetherTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-16.webp",
+            "x": 895,
+            "y": 361,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:nether_banner",
+        "name": "Nether Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.NETHER_BANNER",
+        "inventory_id": "localization:tile.NetherBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-18.webp",
+          "x": 455,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.NETHER_TOKENS, 10), new ItemStack(BlockRegister.NETHER_BANNER, 1)));",
+      "condition_enum": "NETHER",
+      "dimension": "NETHER",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 817,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "source_symbol": "ItemRegister.SILVER_COIN",
+          "inventory_id": "localization:item.SilverCoin.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:void_banner",
+        "name": "Void Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.VOID_BANNER",
+        "inventory_id": "localization:tile.VoidBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-26.webp",
+          "x": 895,
+          "y": 96,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 10), new ItemStack(BlockRegister.VOID_BANNER, 1)));",
+      "condition_enum": "OVERWORLD",
+      "dimension": "OVERWORLD",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 855,
+      "costs": [
+        {
+          "id": "aoa3:precasian_tokens",
+          "name": "Precasian Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.PRECASIAN_TOKENS",
+          "inventory_id": "localization:item.PrecasianTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-17.webp",
+            "x": 15,
+            "y": 1421,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:ancient_banner",
+        "name": "Ancient Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.ANCIENT_BANNER",
+        "inventory_id": "localization:tile.AncientBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-01.webp",
+          "x": 15,
+          "y": 891,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.PRECASIAN_TOKENS, 10), new ItemStack(BlockRegister.ANCIENT_BANNER, 1)));",
+      "condition_enum": "PRECASIA",
+      "dimension": "PRECASIA",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 893,
+      "costs": [
+        {
+          "id": "aoa3:runandor_tokens",
+          "name": "Runandor Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.RUNANDOR_TOKENS",
+          "inventory_id": "localization:item.RunandorTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-20.webp",
+            "x": 15,
+            "y": 361,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:runic_banner",
+        "name": "Runic Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.RUNIC_BANNER",
+        "inventory_id": "localization:tile.RunicBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-23.webp",
+          "x": 235,
+          "y": 96,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.RUNANDOR_TOKENS, 10), new ItemStack(BlockRegister.RUNIC_BANNER, 1)));",
+      "condition_enum": "RUNANDOR",
+      "dimension": "RUNANDOR",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 931,
+      "costs": [
+        {
+          "id": "aoa3:shyrelands_tokens",
+          "name": "Shyrelands Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.SHYRELANDS_TOKENS",
+          "inventory_id": "localization:item.ShyrelandsTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 455,
+            "y": 891,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:shyre_banner",
+        "name": "Shyre Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.SHYRE_BANNER",
+        "inventory_id": "localization:tile.ShyreBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-23.webp",
+          "x": 675,
+          "y": 1951,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SHYRELANDS_TOKENS, 10), new ItemStack(BlockRegister.SHYRE_BANNER, 1)));",
+      "condition_enum": "SHYRELANDS",
+      "dimension": "SHYRELANDS",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 969,
+      "costs": [
+        {
+          "id": "aoa3:vox_ponds_tokens",
+          "name": "Vox Ponds Tokens",
+          "count": 10,
+          "source_symbol": "ItemRegister.VOX_PONDS_TOKENS",
+          "inventory_id": "localization:item.VoxPondsTokens.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-24.webp",
+            "x": 675,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:vox_banner",
+        "name": "Vox Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.VOX_BANNER",
+        "inventory_id": "localization:tile.VoxBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-26.webp",
+          "x": 15,
+          "y": 361,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.VOX_PONDS_TOKENS, 10), new ItemStack(BlockRegister.VOX_BANNER, 1)));",
+      "condition_enum": "VOX_PONDS",
+      "dimension": "VOX_PONDS",
+      "condition_scope": "only in the named resolved dimension enum"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 1007,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "source_symbol": "ItemRegister.SILVER_COIN",
+          "inventory_id": "localization:item.SilverCoin.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:creation_banner",
+        "name": "Creation Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.CREATION_BANNER",
+        "inventory_id": "localization:tile.CreationBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-05.webp",
+          "x": 1115,
+          "y": 1686,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 10), new ItemStack(BlockRegister.CREATION_BANNER, 1)));",
+      "condition_enum": null,
+      "dimension": null,
+      "condition_scope": "common in all contexts"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 1042,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "source_symbol": "ItemRegister.SILVER_COIN",
+          "inventory_id": "localization:item.SilverCoin.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:energy_banner",
+        "name": "Energy Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.ENERGY_BANNER",
+        "inventory_id": "localization:tile.EnergyBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-09.webp",
+          "x": 675,
+          "y": 626,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 10), new ItemStack(BlockRegister.ENERGY_BANNER, 1)));",
+      "condition_enum": null,
+      "dimension": null,
+      "condition_scope": "common in all contexts"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 1077,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "source_symbol": "ItemRegister.SILVER_COIN",
+          "inventory_id": "localization:item.SilverCoin.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:soul_banner",
+        "name": "Soul Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.SOUL_BANNER",
+        "inventory_id": "localization:tile.SoulBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-24.webp",
+          "x": 895,
+          "y": 1421,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 10), new ItemStack(BlockRegister.SOUL_BANNER, 1)));",
+      "condition_enum": null,
+      "dimension": null,
+      "condition_scope": "common in all contexts"
+    },
+    {
+      "vendor": "aoa3:undead_herald",
+      "vendor_name": "Undead Herald",
+      "source_method": "net/tslat/aoa3/entity/npcs/trader/EntityUndeadHerald.class",
+      "source_offset": 1112,
+      "costs": [
+        {
+          "id": "aoa3:silver_coin",
+          "name": "Silver Coin",
+          "count": 10,
+          "source_symbol": "ItemRegister.SILVER_COIN",
+          "inventory_id": "localization:item.SilverCoin.name",
+          "atlas": {
+            "sheet": "previews/1.12.2-item-sheet-21.webp",
+            "x": 15,
+            "y": 1156,
+            "size": 190
+          }
+        }
+      ],
+      "output": {
+        "id": "aoa3:blood_banner",
+        "name": "Blood Banner",
+        "count": 1,
+        "source_symbol": "BlockRegister.BLOOD_BANNER",
+        "inventory_id": "localization:tile.BloodBanner.name",
+        "atlas": {
+          "sheet": "previews/1.12.2-block-sheet-03.webp",
+          "x": 455,
+          "y": 1421,
+          "size": 190
+        }
+      },
+      "default_uses": 0,
+      "max_uses": null,
+      "max_uses_rule": "5 if output stackable, otherwise 1",
+      "source_expression": "newTradesList.add(new AoATraderRecipe(new ItemStack(ItemRegister.SILVER_COIN, 10), new ItemStack(BlockRegister.BLOOD_BANNER, 1)));",
+      "condition_enum": null,
+      "dimension": null,
+      "condition_scope": "common in all contexts"
     }
   ],
   "excluded_placeholders": [
@@ -13271,6 +14337,11 @@
       "path": "entity/npcs/trader/EntityZalVendor.java",
       "sha256": "12697219b36b5a6ca67dc78ae5fe4c3fc80deed395612e38235ae565b72e80a9",
       "offers": 5
+    },
+    {
+      "path": "entity/npcs/trader/EntityUndeadHerald.java",
+      "sha256": "816cc917fb96191676826d284368bd306bfbca21904b846896e8ca081a6ddbd5",
+      "offers": 26
     }
   ],
   "vanilla_symbol_aliases": {
@@ -13306,7 +14377,37 @@
       "descriptor": "(Lnet/minecraft/util/NonNullList;)V",
       "code_sha256": "b2096086429fefc7ab2fdef150a599aa82c618c63c9442d944d08389b8ba9c92",
       "status": "unsupported",
-      "reason": "Unsupported control flow/opcode 180 at 1"
+      "reason": "Unsupported control flow/opcode 180 at 1",
+      "resolution": "Resolved separately by herald-dimension-trades-1.12.2.json; generic literal parser still rejects this control flow."
     }
-  ]
+  ],
+  "herald_contexts": [
+    "ABYSS",
+    "ANCIENT_CAVERN",
+    "BARATHOS",
+    "CANDYLAND",
+    "CELEVE",
+    "CREEPONIA",
+    "CRYSTEVIA",
+    "DEEPLANDS",
+    "DUSTOPIA",
+    "GARDENCIA",
+    "GRECKON",
+    "HAVEN",
+    "IMMORTALLIS",
+    "IROMINE",
+    "LBOREAN",
+    "LELYETIA",
+    "LUNALUS",
+    "MYSTERIUM",
+    "NETHER",
+    "OVERWORLD",
+    "PRECASIA",
+    "RUNANDOR",
+    "SHYRELANDS",
+    "THE_END",
+    "VOX_PONDS",
+    "UNMAPPED"
+  ],
+  "herald_evidence": "herald-dimension-trades-1.12.2.json"
 }

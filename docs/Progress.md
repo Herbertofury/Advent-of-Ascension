@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 112 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 113 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,781 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Contextual how-to links | 559 links across 518 item cards; 947 recipe cards | [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -32,11 +32,14 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Historical weapon registration coverage | All 412 direct constructors in the checked 1.12.2 WeaponRegister method are matched to cards and portraits | [Exact census](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-weapon-census-1.12.2.json) |
 | Illustrated historical weapon tables | 412 inline source-model portraits across 13 family guides | [Historical gun table](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2) |
 | Worn armor previews | 48 ordinary set studies plus 18 special/standalone studies | [Armor Atelier](https://herbertofury.github.io/Advent-of-Ascension/armour-gallery.html) · [Special helmets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Special-Armor-and-Skill-Helmets-1.21.1) |
-| Trading | 337 offers for 1.12.2, 207 for 1.16.5 and 55 for 1.21.1; availability limits retained | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
+| Trading | 363 candidate definitions for 1.12.2, 207 for 1.16.5 and 55 for 1.21.1; Herald contexts resolve to four or five offers | [Trading Desk](https://herbertofury.github.io/Advent-of-Ascension/trade-explorer.html) |
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
-| Local documentation validation | 173 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 175 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
+
+- [Herald banner exchanges](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Undead-Herald-Banner-Exchanges-1.12.2): 22 conditional and four common offers, 26 illustrated banners and a realm-aware Trading Desk.
+- [Historical farming](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crop-Growth-Planting-and-Harvesting-1.12.2): 16 crops, 128 growth-state previews and checked planting/harvest rules. [Seed acquisition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Finding-Seeds-and-Starting-a-Farm-1.12.2) connects exact recipes, loot references, trades and callbacks while keeping Thorny Plant Seeds unresolved.
 
 - [Resolved historical declarations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Registered-Blocks-and-Items-1.12.2): 34 restored entries, six crystal-block model repairs and exact-ID aliases that preserve existing links.
 
