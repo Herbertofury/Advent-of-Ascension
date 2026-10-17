@@ -22,9 +22,9 @@
 | 1.21.1 | 3.7.16.1 | 1,532 |
 | 1.20.1 | 3.7.1 | 1,781 |
 | 1.16.5 | 3.6.11 | 2,296 |
-| 1.12.2 | 3.3.6 | 1,172 |
+| 1.12.2 | 3.3.6 | 1,228 |
 
-**6,781 definition records** does not mean 6,781 distinct crafted items. Alternate recipes, optional-mod recipes and runtime-defined serializers are included. The legacy `_factories` metadata file is excluded from the recipe count.
+**6,837 definition records** does not mean 6,837 distinct crafted items. Alternate recipes, optional-mod recipes and runtime-defined serializers are included. The legacy `_factories` metadata file is excluded from the recipe count.
 
 ## From a weapon recipe to using it
 
@@ -96,7 +96,7 @@ The source artifacts and checksums are documented in [Sources and credits](https
 
 ## Legacy metadata-aware ingredient previews
 
-The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixteen dyes, six saplings, three wool colors, charcoal, coarse dirt and dandelion. Each uses its matching official item model and texture rather than showing the default variant for every metadata value. Wildcard metadata is labeled **Any variant**, and unsupported variants keep a readable fallback. The full 6,781-card construction suite and targeted dye/name/wildcard checks passed after this update. These are UI/data tests, not a replacement for in-game crafting validation.
+The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixteen dyes, six saplings, three wool colors, charcoal, coarse dirt and dandelion. Each uses its matching official item model and texture rather than showing the default variant for every metadata value. Wildcard metadata is labeled **Any variant**, and unsupported variants keep a readable fallback. The full 6,837-card construction suite and targeted dye/name/wildcard checks passed after this update. These are UI/data tests, not a replacement for in-game crafting validation.
 
 
 ## Repair equipment
@@ -126,3 +126,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Original trophies and gold crafting
 
 [Gold Trophy recipe and elite progression guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trophies-Gold-Crafting-and-Elite-Encounters-1.21.1): nine original normal trophies of one valid entity ID, first-record preservation and the distinction between collected originals and spawn-egg decorations.
+
+## Historical furnace conversions
+
+[All 56 Java-registered furnace recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Furnace-Recipes-and-Material-Recycling-1.12.2) now have input/output pictures and exact browser links: 29 ores, four bone fragments, sixteen fish, five meats and two recycling steps. Their documentation-assigned link IDs are clearly labeled and are not original in-game recipe IDs. The previous 1,172 definitions are preserved.
