@@ -1,10 +1,37 @@
-[Home](README.md) · [Versions](Version-Matrix.md) · [Worlds](Dimensions.md) · [Systems](Systems.md) · [Progress](Progress.md)
+[Home](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Home) · [Versions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Version-Matrix) · [Worlds](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dimensions) · [Systems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Systems) · [Progress](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Progress)
 
 # Skills & player progression
 
 [![Advent GUI reference](https://static.wikia.nocookie.net/adventofascension_gamepedia/images/f/fb/Advent_GUI.png/revision/latest/scale-to-width-down/1200?cb=20230814094025)](https://adventofascension.fandom.com/wiki/Skills)
 
 *Upstream Advent GUI reference, hosted by the official community wiki. Tslat and wiki contributors credited. The image is illustrative of that source generation, not a current-build test.*
+
+<!-- checked-skill-guides-start -->
+## Choose a checked walkthrough
+
+### Historical 1.12.2 / AoA 3.3.6
+
+These guides explain the selected historical release. Read each guide’s limits before treating a retained definition as a working training action.
+
+| Topic | Walkthrough covers |
+|---|---|
+| [Extraction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extraction-Device-and-Skill-Rewards-1.12.2) | Lava device, bowl recipes, success gate, 23 loot entries |
+| [Anima](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Anima-Training-and-Fragments-1.12.2) | Plant eligibility, temporary stones, fragment growth and distinct XP formulas |
+| [Soul Tablets / Anima](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Tablets-Effects-and-Ownership-1.12.2) | 17 tablet effects, recipes, Soul costs and ownership/reload limits |
+| [Foraging and Logging](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Foraging-and-Logging-Rewards-1.12.2) | Break-action gates, 21 reward entries and the extra-log branch |
+| [Augury](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Augury-and-Ascension-Shrine-1.12.2) | Inactive released shrine distinguished from retained definitions and older source |
+| [Hauling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fishing-Hauling-and-Boxes-1.12.2) | Rod recipe, catches, box rewards and Forge fishing-hook context |
+| [Infusion](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Pixon-Harvesting-and-Stones-1.12.2) | Eight Pixons, bowl requirements, harvest XP and whole-stack stone conversion |
+| [Skill Crystals and boxes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reward-Boxes-and-Skill-Crystals-1.12.2) | 77 reward entries, lowest eligible skill selection and interactive planner |
+
+[Plan a Skill Crystal target](https://herbertofury.github.io/Advent-of-Ascension/skill-crystal-planner.html) · [Filter the historical tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html?v=1.12.2)
+
+### Modern 1.21.1
+
+Start with [modern skill training](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Training-Walkthrough-1.21.1), [ability unlocks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modern-Skill-Unlocks), and [Skill Master / Archaic Token progression](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Skill-Master-and-Archaic-Tokens-1.21.1). Historical and modern Infusion Table pages describe different release systems; choose the page matching the game version.
+
+Coverage remains open for historical skill systems without a checked training walkthrough. The source-family overview below is a declaration map, not a claim that every training action or cross-version restoration is finished.
+<!-- checked-skill-guides-end -->
 
 ## Source-observed skill families
 
@@ -35,4 +62,4 @@ A visible skill icon is not a completed progression system. Each activity and un
 
 
 ---
-Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](Sources-and-Credits.md). Source presence is not target runtime proof.
+Research snapshot: **2026-10-15**. Original documentation for the owner’s Enderloom project. Advent of Ascension is created by **Tslat** and its contributors. [Official mod/source](https://github.com/Tslat/Advent-Of-Ascension) · [Official wiki](https://adventofascension.fandom.com/wiki/Advent_of_Ascension_Wiki) · [Evidence and image credits](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sources-and-Credits). Source presence is not target runtime proof.
