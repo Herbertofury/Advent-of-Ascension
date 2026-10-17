@@ -6,6 +6,8 @@
 
 Establish shelter, food, armour and a reliable return route. The official getting-started entry points you toward ruined teleporter frames and the Corrupted Traveller deep underground. Ancient Rock can be scavenged from these structures. Treat exploration as the first objective; this guide does not invent a crafting recipe for Ancient Rock.
 
+For the Traveller food exchange, Worn Book reader and replacement Blank Realmstone, see [Books and starter recovery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Books-Lore-and-Blank-Realmstone-Recovery-1.21.1). The guide also explains optional Patchouli and language-resource requirements.
+
 ## 2. Gather the frame
 
 You need **13 Ancient Rock**, **one Power rune**, and **one each of the Space, Direction, Reality and Travel runes**. Duplicate runes cannot replace missing types.

@@ -17,7 +17,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 | What you can use | Current coverage | Open it |
 |---|---|---|
-| Illustrated walkthroughs | 123 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
+| Illustrated walkthroughs | 124 version-scoped routes | [Tutorial library](https://herbertofury.github.io/Advent-of-Ascension/tutorials.html) |
 | Item/block reference | 10,133 release-specific resource candidates, with explicit preview limits | [Item browser](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
 | Crafting reference | 6,837 recipe definitions; dynamic recipes explained separately | [Recipe browser](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html) |
 | Compact contextual guide index | 559 links across 518 item cards; 947 recipe cards, plus specialist links added directly to newer references |  [Find an item](https://herbertofury.github.io/Advent-of-Ascension/inventory-explorer.html) |
@@ -36,7 +36,8 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Modern loot | 1,315 table resources and 25 global modifier definitions | [Loot reference](https://herbertofury.github.io/Advent-of-Ascension/loot-reference.html?v=1.21.1) |
 | Version-aware fish meal planner | 113 food entries across four pinned releases; 26,103 bounded saturation cases | [Plan a meal](https://herbertofury.github.io/Advent-of-Ascension/fish-food-planner.html) |
 | Movement and void recovery | 3 utility behaviors, 4 item references, exact artifact recipe and bounded safety models | [Equipment and limitations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Movement-and-Void-Recovery-Utilities-1.21.1) |
-| Local documentation validation | 195 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Books and starter recovery | 7 declared books, 53 English entries/190 page definitions, integration and language troubleshooting | [Books and recovery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Books-Lore-and-Blank-Realmstone-Recovery-1.21.1) |
+| Local documentation validation | 197 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
