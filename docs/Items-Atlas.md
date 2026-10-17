@@ -9,7 +9,7 @@ This is a discoverability index of source-localized names, **not** a list of obt
 
 ## Prepare your armor
 
-[Armor materials and set preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1) covers 48 matching sets and 12 individual pieces, with exact item-card links, per-slot material inputs, durability reference limits and special unbreakable helmets. Worn-body previews and complete special-effect guides remain open work.
+[Armor materials and set preparation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Armor-Materials-and-Set-Preparation-1.21.1) covers 48 matching sets and 12 individual pieces, with exact item-card links, per-slot material inputs, durability reference limits and special unbreakable helmets. [Browse all 48 neutral armor-only 3D studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Worn-Armor-Gallery-1.21.1). Custom special-helmet models, animation and complete special-effect guides remain open work.
 
 ## Browse checked weapon families
 
