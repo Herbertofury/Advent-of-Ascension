@@ -1,0 +1,6565 @@
+{
+  "version": "1.12.2",
+  "release": "3.3.6",
+  "scope": "Released Tea Sink and three tea callbacks, exact crafting JSON, and64 bounded ordinary-inventory selection cases. No game tests; outer inventory eligibility and actual consumption dispatch remain runtime boundaries.",
+  "methods": [
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "cda521519acebfb57b9f5730eebbdfac93958be1335d4bd4d1bc0ac2c23a3d64",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "TeaSink"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "tea_sink"
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151575_d",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 5.0
+        },
+        {
+          "offset": 10,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/BasicNonCubeBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;FF)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "FUNCTIONAL_BLOCKS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_149647_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 87
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 42
+        },
+        {
+          "offset": 25,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "field_176227_L",
+            "Lnet/minecraft/block/state/BlockStateContainer;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/state/BlockStateContainer",
+            "func_177621_b",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "NORTH",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_180632_j",
+            "(Lnet/minecraft/block/state/IBlockState;)V"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 42
+        },
+        {
+          "offset": 46,
+          "opcode": 187,
+          "operands": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 89
+        },
+        {
+          "offset": 50,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 51,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "<init>",
+            "(Z)V"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "fullState",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "<init>",
+      "descriptor": "(Z)V",
+      "method_sha256": "579a0c05622ae7bb10b0e6f20c618412f3c5a1422b905c114ce1aac7d3648d78",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "TeaSinkFull"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "tea_sink_full"
+        },
+        {
+          "offset": 5,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/material/Material",
+            "field_151575_d",
+            "Lnet/minecraft/block/material/Material;"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 18,
+          "constant": 5.0
+        },
+        {
+          "offset": 10,
+          "opcode": 18,
+          "constant": 3.0
+        },
+        {
+          "offset": 12,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/block/BasicNonCubeBlock",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;FF)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 42
+        },
+        {
+          "offset": 16,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/CreativeTabsRegister",
+            "FUNCTIONAL_BLOCKS",
+            "Lnet/minecraft/creativetab/CreativeTabs;"
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_149647_a",
+            "(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 87
+        },
+        {
+          "offset": 23,
+          "opcode": 42
+        },
+        {
+          "offset": 24,
+          "opcode": 42
+        },
+        {
+          "offset": 25,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "field_176227_L",
+            "Lnet/minecraft/block/state/BlockStateContainer;"
+          ]
+        },
+        {
+          "offset": 28,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/block/state/BlockStateContainer",
+            "func_177621_b",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "NORTH",
+            "Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 42,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_180632_j",
+            "(Lnet/minecraft/block/state/IBlockState;)V"
+          ]
+        },
+        {
+          "offset": 45,
+          "opcode": 42
+        },
+        {
+          "offset": 46,
+          "opcode": 42
+        },
+        {
+          "offset": 47,
+          "opcode": 181,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "fullState",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "getFullSink",
+      "descriptor": "()Lnet/tslat/aoa3/block/functional/utility/TeaSink;",
+      "method_sha256": "cad31bfe4c2119521dfeaa567bd6a774bfe580a2751584896399bbaf41a8c770",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "fullState",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_180639_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z",
+      "method_sha256": "89ef6f2ed582cdb177a22d2819315bc9779a54f79b3e62ec526a2ba4b04fb090",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 154,
+          "operands": [
+            1,
+            169
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 45
+        },
+        {
+          "offset": 8,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177230_c",
+            "()Lnet/minecraft/block/Block;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "fullState",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 166,
+          "operands": [
+            1,
+            43
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CUP",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 166,
+          "operands": [
+            1,
+            140
+          ]
+        },
+        {
+          "offset": 36,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 38,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 89
+        },
+        {
+          "offset": 45,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TEA_SHREDDINGS",
+            "Lnet/tslat/aoa3/item/misc/TeaShreddings;"
+          ]
+        },
+        {
+          "offset": 48,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 51,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "func_70431_c",
+            "(Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 54,
+          "opcode": 153,
+          "operands": [
+            1,
+            119
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 58,
+          "opcode": 54,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 62,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 65,
+          "opcode": 89
+        },
+        {
+          "offset": 66,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "MYSTIC_SHROOMS",
+            "Lnet/tslat/aoa3/item/food/MysticShrooms;"
+          ]
+        },
+        {
+          "offset": 69,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 73,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 74,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 77,
+          "opcode": 153,
+          "operands": [
+            0,
+            42
+          ]
+        },
+        {
+          "offset": 80,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 82,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 85,
+          "opcode": 89
+        },
+        {
+          "offset": 86,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TEA_SHREDDINGS",
+            "Lnet/tslat/aoa3/item/misc/TeaShreddings;"
+          ]
+        },
+        {
+          "offset": 89,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 92,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 93,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 94,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 97,
+          "opcode": 87
+        },
+        {
+          "offset": 98,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 100,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 89
+        },
+        {
+          "offset": 104,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "FUNGAL_TEA",
+            "Lnet/tslat/aoa3/item/food/FungalTea;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 114,
+          "opcode": 54,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 116,
+          "opcode": 167,
+          "operands": [
+            0,
+            100
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 121,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 124,
+          "opcode": 89
+        },
+        {
+          "offset": 125,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "NATURE_MELON_SLICE",
+            "Lnet/tslat/aoa3/item/food/BasicFood;"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 132,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 133,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 136,
+          "opcode": 153,
+          "operands": [
+            0,
+            42
+          ]
+        },
+        {
+          "offset": 139,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 141,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 144,
+          "opcode": 89
+        },
+        {
+          "offset": 145,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TEA_SHREDDINGS",
+            "Lnet/tslat/aoa3/item/misc/TeaShreddings;"
+          ]
+        },
+        {
+          "offset": 148,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 151,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 152,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 153,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 156,
+          "opcode": 87
+        },
+        {
+          "offset": 157,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 159,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 162,
+          "opcode": 89
+        },
+        {
+          "offset": 163,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "NATURAL_TEA",
+            "Lnet/tslat/aoa3/item/food/NaturalTea;"
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 173,
+          "opcode": 54,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 175,
+          "opcode": 167,
+          "operands": [
+            0,
+            41
+          ]
+        },
+        {
+          "offset": 178,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 89
+        },
+        {
+          "offset": 184,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TEA_SHREDDINGS",
+            "Lnet/tslat/aoa3/item/misc/TeaShreddings;"
+          ]
+        },
+        {
+          "offset": 187,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 190,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 191,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 192,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "findInventoryItem",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z"
+          ]
+        },
+        {
+          "offset": 195,
+          "opcode": 153,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 198,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 200,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 203,
+          "opcode": 89
+        },
+        {
+          "offset": 204,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "TEA",
+            "Lnet/tslat/aoa3/item/food/Tea;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 210,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 213,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 214,
+          "opcode": 54,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 21,
+          "operands": [
+            10
+          ]
+        },
+        {
+          "offset": 218,
+          "opcode": 153,
+          "operands": [
+            0,
+            95
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 223,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 154,
+          "operands": [
+            0,
+            14
+          ]
+        },
+        {
+          "offset": 232,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 234,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 236,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 239,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 240,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 243,
+          "opcode": 43
+        },
+        {
+          "offset": 244,
+          "opcode": 1
+        },
+        {
+          "offset": 245,
+          "opcode": 44
+        },
+        {
+          "offset": 246,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 249,
+          "opcode": 135
+        },
+        {
+          "offset": 250,
+          "opcode": 44
+        },
+        {
+          "offset": 251,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 254,
+          "opcode": 135
+        },
+        {
+          "offset": 255,
+          "opcode": 44
+        },
+        {
+          "offset": 256,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 135
+        },
+        {
+          "offset": 260,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "TEA_SINK_USE",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 263,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "BLOCKS",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 266,
+          "opcode": 12
+        },
+        {
+          "offset": 267,
+          "opcode": 12
+        },
+        {
+          "offset": 268,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184148_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 271,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "rand",
+            "Ljava/util/Random;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 16,
+          "constant": 7
+        },
+        {
+          "offset": 276,
+          "opcode": 182,
+          "member": [
+            "java/util/Random",
+            "nextInt",
+            "(I)I"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 154,
+          "operands": [
+            0,
+            32
+          ]
+        },
+        {
+          "offset": 282,
+          "opcode": 43
+        },
+        {
+          "offset": 283,
+          "opcode": 44
+        },
+        {
+          "offset": 284,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "TEA_SINK",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 287,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 290,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 293,
+          "opcode": 45
+        },
+        {
+          "offset": 294,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 297,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177229_b",
+            "(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;"
+          ]
+        },
+        {
+          "offset": 302,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 307,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175656_a",
+            "(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z"
+          ]
+        },
+        {
+          "offset": 310,
+          "opcode": 87
+        },
+        {
+          "offset": 311,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 312,
+          "opcode": 172
+        },
+        {
+          "offset": 313,
+          "opcode": 167,
+          "operands": [
+            0,
+            116
+          ]
+        },
+        {
+          "offset": 316,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 318,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 320,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 323,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_77973_b",
+            "()Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 326,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Items",
+            "field_151131_as",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 329,
+          "opcode": 166,
+          "operands": [
+            0,
+            100
+          ]
+        },
+        {
+          "offset": 332,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 334,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 337,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 340,
+          "opcode": 154,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 343,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 345,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 347,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 350,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 351,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 354,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 356,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 359,
+          "opcode": 89
+        },
+        {
+          "offset": 360,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/Items",
+            "field_151133_ar",
+            "Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 363,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 366,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 369,
+          "opcode": 43
+        },
+        {
+          "offset": 370,
+          "opcode": 44
+        },
+        {
+          "offset": 371,
+          "opcode": 42
+        },
+        {
+          "offset": 372,
+          "opcode": 180,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "fullState",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 375,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 378,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 381,
+          "opcode": 45
+        },
+        {
+          "offset": 382,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 385,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177229_b",
+            "(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;"
+          ]
+        },
+        {
+          "offset": 390,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 395,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_175656_a",
+            "(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z"
+          ]
+        },
+        {
+          "offset": 398,
+          "opcode": 87
+        },
+        {
+          "offset": 399,
+          "opcode": 43
+        },
+        {
+          "offset": 400,
+          "opcode": 1
+        },
+        {
+          "offset": 401,
+          "opcode": 44
+        },
+        {
+          "offset": 402,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177958_n",
+            "()I"
+          ]
+        },
+        {
+          "offset": 405,
+          "opcode": 135
+        },
+        {
+          "offset": 406,
+          "opcode": 44
+        },
+        {
+          "offset": 407,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177956_o",
+            "()I"
+          ]
+        },
+        {
+          "offset": 410,
+          "opcode": 135
+        },
+        {
+          "offset": 411,
+          "opcode": 44
+        },
+        {
+          "offset": 412,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/math/BlockPos",
+            "func_177952_p",
+            "()I"
+          ]
+        },
+        {
+          "offset": 415,
+          "opcode": 135
+        },
+        {
+          "offset": 416,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/SoundsRegister",
+            "TEA_SINK_FILL",
+            "Lnet/minecraft/util/SoundEvent;"
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/SoundCategory",
+            "BLOCKS",
+            "Lnet/minecraft/util/SoundCategory;"
+          ]
+        },
+        {
+          "offset": 422,
+          "opcode": 12
+        },
+        {
+          "offset": 423,
+          "opcode": 12
+        },
+        {
+          "offset": 424,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/world/World",
+            "func_184148_a",
+            "(Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V"
+          ]
+        },
+        {
+          "offset": 427,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 428,
+          "opcode": 172
+        },
+        {
+          "offset": 429,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 430,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "getStateForPlacement",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;",
+      "method_sha256": "502514ffd98cd7dd3ddd4900457c17288239e424d0aa037c25183ecd46bef557",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 10,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/EntityUtil",
+            "getDirectionFacing",
+            "(Lnet/minecraft/entity/Entity;Z)Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_185473_a",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;",
+      "method_sha256": "82832ccb15948172f6addfbda0dd069bf34cda31bc23a789c2a9783b393a7d73",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            99
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "TEA_SINK",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/item/Item",
+            "func_150898_a",
+            "(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 10,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_180660_a",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+      "method_sha256": "ffce8fc5ff54a40ffb200865677c838b0aa9c64e1df900e1923e9a34a0fb1384",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "TEA_SINK",
+            "Lnet/tslat/aoa3/block/functional/utility/TeaSink;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/item/Item",
+            "func_150898_a",
+            "(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "canSilkHarvest",
+      "descriptor": "(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z",
+      "method_sha256": "42ca1f85243342bd41983ab86f2235408fa46ded7466d4525196f66b9dbb5f3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_149745_a",
+      "descriptor": "(Ljava/util/Random;)I",
+      "method_sha256": "95ef737cd8a13db65e3eb3c18e8816a5179dcbdf341309522ab00e95d5aae6d2",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 1,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_180661_e",
+      "descriptor": "()Lnet/minecraft/block/state/BlockStateContainer;",
+      "method_sha256": "ec7b26448acf8f341972da3025ffde608dc375f142315f4b52f2fcadecf1566e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            0,
+            40
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 6,
+          "opcode": 189,
+          "operands": [
+            1,
+            30
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 89
+        },
+        {
+          "offset": 10,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 11,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 83
+        },
+        {
+          "offset": 15,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/block/state/BlockStateContainer",
+            "<init>",
+            "(Lnet/minecraft/block/Block;[Lnet/minecraft/block/properties/IProperty;)V"
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_176201_c",
+      "descriptor": "(Lnet/minecraft/block/state/IBlockState;)I",
+      "method_sha256": "d0df3d37ea42dccf4008fa07d42968a3607166d876113eca9a8c78a84a941bc5",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177229_b",
+            "(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 192,
+          "operands": [
+            0,
+            52
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "func_176736_b",
+            "()I"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/block/functional/utility/TeaSink.class",
+      "class_sha256": "f0b38055bd7df06ca43f989845490c2bf3a5810980bb2945df8f7907d99e6218",
+      "name": "func_176203_a",
+      "descriptor": "(I)Lnet/minecraft/block/state/IBlockState;",
+      "method_sha256": "9cc210867f1e265b298660da68996bcb701c7bef5820b16518fafbcaccc15716",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/utility/TeaSink",
+            "func_176223_P",
+            "()Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/block/BlockHorizontal",
+            "field_185512_D",
+            "Lnet/minecraft/block/properties/PropertyDirection;"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 27
+        },
+        {
+          "offset": 8,
+          "opcode": 184,
+          "member": [
+            "net/minecraft/util/EnumFacing",
+            "func_176731_b",
+            "(I)Lnet/minecraft/util/EnumFacing;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 185,
+          "member": [
+            "net/minecraft/block/state/IBlockState",
+            "func_177226_a",
+            "(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/ItemUtil.class",
+      "class_sha256": "3ee8e32e16db575dda130782b998c12e5d16a3cd857d1604ce43d9f7fa068918",
+      "name": "givePlayerItemOrDrop",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V",
+      "method_sha256": "df5174526d6b737e507037b7b407f04ede4b72fa8d4cc2cf7f006cb6fcf15c91",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            4
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 177
+        },
+        {
+          "offset": 8,
+          "opcode": 42
+        },
+        {
+          "offset": 9,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 12,
+          "opcode": 43
+        },
+        {
+          "offset": 13,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "func_70441_a",
+            "(Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 16,
+          "opcode": 154,
+          "operands": [
+            0,
+            12
+          ]
+        },
+        {
+          "offset": 19,
+          "opcode": 42
+        },
+        {
+          "offset": 20,
+          "opcode": 43
+        },
+        {
+          "offset": 21,
+          "opcode": 19,
+          "constant": 0.5
+        },
+        {
+          "offset": 24,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70099_a",
+            "(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;"
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 87
+        },
+        {
+          "offset": 28,
+          "opcode": 42
+        },
+        {
+          "offset": 29,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71069_bz",
+            "Lnet/minecraft/inventory/Container;"
+          ]
+        },
+        {
+          "offset": 32,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/inventory/Container",
+            "func_75142_b",
+            "()V"
+          ]
+        },
+        {
+          "offset": 35,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/utils/ItemUtil.class",
+      "class_sha256": "3ee8e32e16db575dda130782b998c12e5d16a3cd857d1604ce43d9f7fa068918",
+      "name": "findInventoryItem",
+      "descriptor": "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;ZI)Z",
+      "method_sha256": "80f9bcad896c4a48aa4f2f4a102270572c5928c081563dbc95ed68d6be0613e7",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 43
+        },
+        {
+          "offset": 1,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 4,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 8,
+          "opcode": 172
+        },
+        {
+          "offset": 9,
+          "opcode": 29
+        },
+        {
+          "offset": 10,
+          "opcode": 158,
+          "operands": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset": 13,
+          "opcode": 42
+        },
+        {
+          "offset": 14,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184812_l_",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 17,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 20,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 21,
+          "opcode": 172
+        },
+        {
+          "offset": 22,
+          "opcode": 29
+        },
+        {
+          "offset": 23,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 24,
+          "opcode": 160,
+          "operands": [
+            0,
+            251
+          ]
+        },
+        {
+          "offset": 27,
+          "opcode": 42
+        },
+        {
+          "offset": 28,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumHand",
+            "MAIN_HAND",
+            "Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 31,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 34,
+          "opcode": 89
+        },
+        {
+          "offset": 35,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 43
+        },
+        {
+          "offset": 38,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 153,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 44,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 46,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 154,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 28
+        },
+        {
+          "offset": 53,
+          "opcode": 153,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 42
+        },
+        {
+          "offset": 57,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 68,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 69,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 72,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 73,
+          "opcode": 172
+        },
+        {
+          "offset": 74,
+          "opcode": 42
+        },
+        {
+          "offset": 75,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumHand",
+            "OFF_HAND",
+            "Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 78,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 81,
+          "opcode": 89
+        },
+        {
+          "offset": 82,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 84,
+          "opcode": 43
+        },
+        {
+          "offset": 85,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 88,
+          "opcode": 153,
+          "operands": [
+            0,
+            33
+          ]
+        },
+        {
+          "offset": 91,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 93,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 96,
+          "opcode": 154,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 99,
+          "opcode": 28
+        },
+        {
+          "offset": 100,
+          "opcode": 153,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 103,
+          "opcode": 42
+        },
+        {
+          "offset": 104,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 107,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 110,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 113,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 115,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 116,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 119,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 120,
+          "opcode": 172
+        },
+        {
+          "offset": 121,
+          "opcode": 42
+        },
+        {
+          "offset": 122,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 125,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_70462_a",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 128,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 131,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 133,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 135,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 140,
+          "opcode": 153,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 143,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 145,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 150,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 153,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 155,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 157,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 160,
+          "opcode": 154,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 163,
+          "opcode": 43
+        },
+        {
+          "offset": 164,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 166,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 169,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 172,
+          "opcode": 28
+        },
+        {
+          "offset": 173,
+          "opcode": 153,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 176,
+          "opcode": 42
+        },
+        {
+          "offset": 177,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 180,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 183,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 186,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 188,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 189,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 192,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 193,
+          "opcode": 172
+        },
+        {
+          "offset": 194,
+          "opcode": 167,
+          "operands": [
+            255,
+            195
+          ]
+        },
+        {
+          "offset": 197,
+          "opcode": 42
+        },
+        {
+          "offset": 198,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 201,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_70460_b",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 204,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 207,
+          "opcode": 58,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 209,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 211,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 216,
+          "opcode": 153,
+          "operands": [
+            0,
+            57
+          ]
+        },
+        {
+          "offset": 219,
+          "opcode": 25,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 221,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 226,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 229,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 231,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 233,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 236,
+          "opcode": 154,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 239,
+          "opcode": 43
+        },
+        {
+          "offset": 240,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 242,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 245,
+          "opcode": 153,
+          "operands": [
+            0,
+            25
+          ]
+        },
+        {
+          "offset": 248,
+          "opcode": 28
+        },
+        {
+          "offset": 249,
+          "opcode": 153,
+          "operands": [
+            0,
+            19
+          ]
+        },
+        {
+          "offset": 252,
+          "opcode": 42
+        },
+        {
+          "offset": 253,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 256,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 259,
+          "opcode": 154,
+          "operands": [
+            0,
+            9
+          ]
+        },
+        {
+          "offset": 262,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 264,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 265,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 268,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 269,
+          "opcode": 172
+        },
+        {
+          "offset": 270,
+          "opcode": 167,
+          "operands": [
+            255,
+            195
+          ]
+        },
+        {
+          "offset": 273,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 274,
+          "opcode": 172
+        },
+        {
+          "offset": 275,
+          "opcode": 187,
+          "operands": [
+            1,
+            223
+          ]
+        },
+        {
+          "offset": 278,
+          "opcode": 89
+        },
+        {
+          "offset": 279,
+          "opcode": 183,
+          "member": [
+            "java/util/ArrayList",
+            "<init>",
+            "()V"
+          ]
+        },
+        {
+          "offset": 282,
+          "opcode": 58,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 284,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 285,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 287,
+          "opcode": 42
+        },
+        {
+          "offset": 288,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumHand",
+            "MAIN_HAND",
+            "Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 291,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 294,
+          "opcode": 89
+        },
+        {
+          "offset": 295,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 297,
+          "opcode": 43
+        },
+        {
+          "offset": 298,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 301,
+          "opcode": 153,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 304,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 306,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 309,
+          "opcode": 154,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 312,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 314,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 316,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 319,
+          "opcode": 87
+        },
+        {
+          "offset": 320,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 322,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 324,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190916_E",
+            "()I"
+          ]
+        },
+        {
+          "offset": 327,
+          "opcode": 96
+        },
+        {
+          "offset": 328,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 330,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 332,
+          "opcode": 29
+        },
+        {
+          "offset": 333,
+          "opcode": 162,
+          "operands": [
+            0,
+            46
+          ]
+        },
+        {
+          "offset": 336,
+          "opcode": 42
+        },
+        {
+          "offset": 337,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/util/EnumHand",
+            "OFF_HAND",
+            "Lnet/minecraft/util/EnumHand;"
+          ]
+        },
+        {
+          "offset": 340,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_184586_b",
+            "(Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;"
+          ]
+        },
+        {
+          "offset": 343,
+          "opcode": 89
+        },
+        {
+          "offset": 344,
+          "opcode": 58,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 346,
+          "opcode": 43
+        },
+        {
+          "offset": 347,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 350,
+          "opcode": 153,
+          "operands": [
+            0,
+            29
+          ]
+        },
+        {
+          "offset": 353,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 355,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 358,
+          "opcode": 154,
+          "operands": [
+            0,
+            21
+          ]
+        },
+        {
+          "offset": 361,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 363,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 365,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 368,
+          "opcode": 87
+        },
+        {
+          "offset": 369,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 371,
+          "opcode": 25,
+          "operands": [
+            6
+          ]
+        },
+        {
+          "offset": 373,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190916_E",
+            "()I"
+          ]
+        },
+        {
+          "offset": 376,
+          "opcode": 96
+        },
+        {
+          "offset": 377,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 379,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 381,
+          "opcode": 29
+        },
+        {
+          "offset": 382,
+          "opcode": 162,
+          "operands": [
+            0,
+            84
+          ]
+        },
+        {
+          "offset": 385,
+          "opcode": 42
+        },
+        {
+          "offset": 386,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 389,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_70462_a",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 392,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 395,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 397,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 399,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 404,
+          "opcode": 153,
+          "operands": [
+            0,
+            62
+          ]
+        },
+        {
+          "offset": 407,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 409,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 414,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 417,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 421,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 424,
+          "opcode": 154,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 427,
+          "opcode": 43
+        },
+        {
+          "offset": 428,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 430,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 433,
+          "opcode": 153,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 436,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 438,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 440,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 443,
+          "opcode": 87
+        },
+        {
+          "offset": 444,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 446,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 448,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190916_E",
+            "()I"
+          ]
+        },
+        {
+          "offset": 451,
+          "opcode": 96
+        },
+        {
+          "offset": 452,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 454,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 456,
+          "opcode": 29
+        },
+        {
+          "offset": 457,
+          "opcode": 161,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 460,
+          "opcode": 167,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 463,
+          "opcode": 167,
+          "operands": [
+            255,
+            190
+          ]
+        },
+        {
+          "offset": 466,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 468,
+          "opcode": 29
+        },
+        {
+          "offset": 469,
+          "opcode": 162,
+          "operands": [
+            0,
+            84
+          ]
+        },
+        {
+          "offset": 472,
+          "opcode": 42
+        },
+        {
+          "offset": 473,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71071_by",
+            "Lnet/minecraft/entity/player/InventoryPlayer;"
+          ]
+        },
+        {
+          "offset": 476,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/InventoryPlayer",
+            "field_70460_b",
+            "Lnet/minecraft/util/NonNullList;"
+          ]
+        },
+        {
+          "offset": 479,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/util/NonNullList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 482,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 484,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 486,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 491,
+          "opcode": 153,
+          "operands": [
+            0,
+            62
+          ]
+        },
+        {
+          "offset": 494,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 496,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 501,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 504,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 506,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 508,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190926_b",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 511,
+          "opcode": 154,
+          "operands": [
+            0,
+            39
+          ]
+        },
+        {
+          "offset": 514,
+          "opcode": 43
+        },
+        {
+          "offset": 515,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 517,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "areStacksFunctionallyEqual",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z"
+          ]
+        },
+        {
+          "offset": 520,
+          "opcode": 153,
+          "operands": [
+            0,
+            30
+          ]
+        },
+        {
+          "offset": 523,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 525,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 527,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 530,
+          "opcode": 87
+        },
+        {
+          "offset": 531,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 533,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 535,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190916_E",
+            "()I"
+          ]
+        },
+        {
+          "offset": 538,
+          "opcode": 96
+        },
+        {
+          "offset": 539,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 541,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 543,
+          "opcode": 29
+        },
+        {
+          "offset": 544,
+          "opcode": 161,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 547,
+          "opcode": 167,
+          "operands": [
+            0,
+            6
+          ]
+        },
+        {
+          "offset": 550,
+          "opcode": 167,
+          "operands": [
+            255,
+            190
+          ]
+        },
+        {
+          "offset": 553,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 555,
+          "opcode": 29
+        },
+        {
+          "offset": 556,
+          "opcode": 162,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 559,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 560,
+          "opcode": 172
+        },
+        {
+          "offset": 561,
+          "opcode": 28
+        },
+        {
+          "offset": 562,
+          "opcode": 153,
+          "operands": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset": 565,
+          "opcode": 42
+        },
+        {
+          "offset": 566,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "field_71075_bZ",
+            "Lnet/minecraft/entity/player/PlayerCapabilities;"
+          ]
+        },
+        {
+          "offset": 569,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/entity/player/PlayerCapabilities",
+            "field_75098_d",
+            "Z"
+          ]
+        },
+        {
+          "offset": 572,
+          "opcode": 153,
+          "operands": [
+            0,
+            5
+          ]
+        },
+        {
+          "offset": 575,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 576,
+          "opcode": 172
+        },
+        {
+          "offset": 577,
+          "opcode": 25,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 579,
+          "opcode": 182,
+          "member": [
+            "java/util/ArrayList",
+            "iterator",
+            "()Ljava/util/Iterator;"
+          ]
+        },
+        {
+          "offset": 582,
+          "opcode": 58,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 584,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 586,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "hasNext",
+            "()Z"
+          ]
+        },
+        {
+          "offset": 591,
+          "opcode": 153,
+          "operands": [
+            0,
+            48
+          ]
+        },
+        {
+          "offset": 594,
+          "opcode": 25,
+          "operands": [
+            7
+          ]
+        },
+        {
+          "offset": 596,
+          "opcode": 185,
+          "member": [
+            "java/util/Iterator",
+            "next",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 601,
+          "opcode": 192,
+          "operands": [
+            0,
+            153
+          ]
+        },
+        {
+          "offset": 604,
+          "opcode": 58,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 606,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 608,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190916_E",
+            "()I"
+          ]
+        },
+        {
+          "offset": 611,
+          "opcode": 29
+        },
+        {
+          "offset": 612,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 614,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 617,
+          "opcode": 184,
+          "member": [
+            "java/lang/Math",
+            "min",
+            "(II)I"
+          ]
+        },
+        {
+          "offset": 620,
+          "opcode": 54,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 622,
+          "opcode": 25,
+          "operands": [
+            8
+          ]
+        },
+        {
+          "offset": 624,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 626,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "func_190918_g",
+            "(I)V"
+          ]
+        },
+        {
+          "offset": 629,
+          "opcode": 21,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 631,
+          "opcode": 21,
+          "operands": [
+            9
+          ]
+        },
+        {
+          "offset": 633,
+          "opcode": 100
+        },
+        {
+          "offset": 634,
+          "opcode": 54,
+          "operands": [
+            5
+          ]
+        },
+        {
+          "offset": 636,
+          "opcode": 167,
+          "operands": [
+            255,
+            204
+          ]
+        },
+        {
+          "offset": 639,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 640,
+          "opcode": 172
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/misc/TeaShreddings.class",
+      "class_sha256": "70632502cf312682cd4fddd736fb3eddcca8c8656ee77619389d8d2e7b6033c1",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "5ddc2be0ed3125ee1096d81d4953873abdd1a80284fcbfe6701231e021ba4892",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "TeaShreddings"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "tea_shreddings"
+        },
+        {
+          "offset": 5,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/misc/SimpleItem",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;)V"
+          ]
+        },
+        {
+          "offset": 8,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/BlockRegister",
+            "TEA_CROP",
+            "Lnet/tslat/aoa3/block/functional/crops/CropBlock;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/block/functional/crops/CropBlock",
+            "setCrop",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/Tea.class",
+      "class_sha256": "e0c60a6ea2b0e0ffc9339e0f3bff260d1caebd2ecd1ab9b98eb612e49bc0716c",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "fc7769eea290590c965faf5b2232a264e948650823051edcad9ae9470e74ff3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "Tea"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "tea"
+        },
+        {
+          "offset": 5,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 6,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/Tea",
+            "func_77848_i",
+            "()Lnet/minecraft/item/ItemFood;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 87
+        },
+        {
+          "offset": 16,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/Tea.class",
+      "class_sha256": "e0c60a6ea2b0e0ffc9339e0f3bff260d1caebd2ecd1ab9b98eb612e49bc0716c",
+      "name": "func_77661_b",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;",
+      "method_sha256": "42ac08703dfcf2b97e6edfe1c36d44a9b77996a1171596063cf92f3a8e2aa722",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/EnumAction",
+            "DRINK",
+            "Lnet/minecraft/item/EnumAction;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/Tea.class",
+      "class_sha256": "e0c60a6ea2b0e0ffc9339e0f3bff260d1caebd2ecd1ab9b98eb612e49bc0716c",
+      "name": "func_77849_c",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V",
+      "method_sha256": "05df4e86db7832f87c4f53af268733e75ec11ea1a15733a6892da839d6152c59",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "func_77849_c",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            0,
+            56
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 45
+        },
+        {
+          "offset": 15,
+          "opcode": 187,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 89
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76428_l",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 24,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 27,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 45
+        },
+        {
+          "offset": 34,
+          "opcode": 187,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 89
+        },
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76429_m",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 17,
+          "constant": 130
+        },
+        {
+          "offset": 44,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 45
+        },
+        {
+          "offset": 54,
+          "opcode": 187,
+          "operands": [
+            0,
+            63
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 89
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CUP",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/Tea.class",
+      "class_sha256": "e0c60a6ea2b0e0ffc9339e0f3bff260d1caebd2ecd1ab9b98eb612e49bc0716c",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "method_sha256": "a21ef1f3e673440b7224a5e6856e3f08f41d84346795ac2871b0409129638d39",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "item.Tea.desc.1"
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleString",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 87
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/FungalTea.class",
+      "class_sha256": "116b39cf929669c12d0bfce50c51ca5e8909fcc83423c4a419c1192bb83a1cef",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "fc7769eea290590c965faf5b2232a264e948650823051edcad9ae9470e74ff3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "FungalTea"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "fungal_tea"
+        },
+        {
+          "offset": 5,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 6,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/FungalTea",
+            "func_77848_i",
+            "()Lnet/minecraft/item/ItemFood;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 87
+        },
+        {
+          "offset": 16,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/FungalTea.class",
+      "class_sha256": "116b39cf929669c12d0bfce50c51ca5e8909fcc83423c4a419c1192bb83a1cef",
+      "name": "func_77661_b",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;",
+      "method_sha256": "42ac08703dfcf2b97e6edfe1c36d44a9b77996a1171596063cf92f3a8e2aa722",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/EnumAction",
+            "DRINK",
+            "Lnet/minecraft/item/EnumAction;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/FungalTea.class",
+      "class_sha256": "116b39cf929669c12d0bfce50c51ca5e8909fcc83423c4a419c1192bb83a1cef",
+      "name": "func_77849_c",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V",
+      "method_sha256": "499cb564ea25c033049731d6df539c06793cf7ac185f32f492864ff720ca6c87",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "func_77849_c",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            0,
+            55
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 45
+        },
+        {
+          "offset": 15,
+          "opcode": 187,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 89
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76428_l",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 24,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 27,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 45
+        },
+        {
+          "offset": 34,
+          "opcode": 187,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 89
+        },
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76429_m",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 43,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 44,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 45,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 46,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 49,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 52,
+          "opcode": 45
+        },
+        {
+          "offset": 53,
+          "opcode": 187,
+          "operands": [
+            0,
+            63
+          ]
+        },
+        {
+          "offset": 56,
+          "opcode": 89
+        },
+        {
+          "offset": 57,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CUP",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        },
+        {
+          "offset": 60,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 63,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 66,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/FungalTea.class",
+      "class_sha256": "116b39cf929669c12d0bfce50c51ca5e8909fcc83423c4a419c1192bb83a1cef",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "method_sha256": "a21ef1f3e673440b7224a5e6856e3f08f41d84346795ac2871b0409129638d39",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "item.FungalTea.desc.1"
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleString",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 87
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/NaturalTea.class",
+      "class_sha256": "361b7d6fea0d8e92c3a04f252a171e111633892786d7675951921542412f2c0b",
+      "name": "<init>",
+      "descriptor": "()V",
+      "method_sha256": "fc7769eea290590c965faf5b2232a264e948650823051edcad9ae9470e74ff3e",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "NaturalTea"
+        },
+        {
+          "offset": 3,
+          "opcode": 18,
+          "constant": "natural_tea"
+        },
+        {
+          "offset": 5,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 6,
+          "opcode": 18,
+          "constant": 0.5
+        },
+        {
+          "offset": 8,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "<init>",
+            "(Ljava/lang/String;Ljava/lang/String;IF)V"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 42
+        },
+        {
+          "offset": 12,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/item/food/NaturalTea",
+            "func_77848_i",
+            "()Lnet/minecraft/item/ItemFood;"
+          ]
+        },
+        {
+          "offset": 15,
+          "opcode": 87
+        },
+        {
+          "offset": 16,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/NaturalTea.class",
+      "class_sha256": "361b7d6fea0d8e92c3a04f252a171e111633892786d7675951921542412f2c0b",
+      "name": "func_77661_b",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;",
+      "method_sha256": "42ac08703dfcf2b97e6edfe1c36d44a9b77996a1171596063cf92f3a8e2aa722",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/item/EnumAction",
+            "DRINK",
+            "Lnet/minecraft/item/EnumAction;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 176
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/NaturalTea.class",
+      "class_sha256": "361b7d6fea0d8e92c3a04f252a171e111633892786d7675951921542412f2c0b",
+      "name": "func_77849_c",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V",
+      "method_sha256": "1f18a2275443ea8faf09d78fe2ecdf66d2eb3a492338f4b10cfe772787fc36e8",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 43
+        },
+        {
+          "offset": 2,
+          "opcode": 44
+        },
+        {
+          "offset": 3,
+          "opcode": 45
+        },
+        {
+          "offset": 4,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/item/food/BasicFood",
+            "func_77849_c",
+            "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V"
+          ]
+        },
+        {
+          "offset": 7,
+          "opcode": 44
+        },
+        {
+          "offset": 8,
+          "opcode": 180,
+          "member": [
+            "net/minecraft/world/World",
+            "field_72995_K",
+            "Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 154,
+          "operands": [
+            0,
+            56
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 45
+        },
+        {
+          "offset": 15,
+          "opcode": 187,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 18,
+          "opcode": 89
+        },
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76428_l",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 24,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 27,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 30,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 33,
+          "opcode": 45
+        },
+        {
+          "offset": 34,
+          "opcode": 187,
+          "operands": [
+            0,
+            43
+          ]
+        },
+        {
+          "offset": 37,
+          "opcode": 89
+        },
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76429_m",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 17,
+          "constant": 150
+        },
+        {
+          "offset": 44,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        },
+        {
+          "offset": 50,
+          "opcode": 182,
+          "member": [
+            "net/minecraft/entity/player/EntityPlayer",
+            "func_70690_d",
+            "(Lnet/minecraft/potion/PotionEffect;)V"
+          ]
+        },
+        {
+          "offset": 53,
+          "opcode": 45
+        },
+        {
+          "offset": 54,
+          "opcode": 187,
+          "operands": [
+            0,
+            63
+          ]
+        },
+        {
+          "offset": 57,
+          "opcode": 89
+        },
+        {
+          "offset": 58,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/ItemRegister",
+            "CUP",
+            "Lnet/tslat/aoa3/item/misc/SimpleItem;"
+          ]
+        },
+        {
+          "offset": 61,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/item/ItemStack",
+            "<init>",
+            "(Lnet/minecraft/item/Item;)V"
+          ]
+        },
+        {
+          "offset": 64,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/ItemUtil",
+            "givePlayerItemOrDrop",
+            "(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)V"
+          ]
+        },
+        {
+          "offset": 67,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "class_path": "net/tslat/aoa3/item/food/NaturalTea.class",
+      "class_sha256": "361b7d6fea0d8e92c3a04f252a171e111633892786d7675951921542412f2c0b",
+      "name": "func_77624_a",
+      "descriptor": "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V",
+      "method_sha256": "a21ef1f3e673440b7224a5e6856e3f08f41d84346795ac2871b0409129638d39",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 45
+        },
+        {
+          "offset": 1,
+          "opcode": 18,
+          "constant": "item.NaturalTea.desc.1"
+        },
+        {
+          "offset": 3,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/utils/StringUtil",
+            "getLocaleString",
+            "(Ljava/lang/String;)Ljava/lang/String;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 185,
+          "member": [
+            "java/util/List",
+            "add",
+            "(Ljava/lang/Object;)Z"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 87
+        },
+        {
+          "offset": 12,
+          "opcode": 177
+        }
+      ]
+    }
+  ],
+  "plank_representative": {
+    "class_path": "net/tslat/aoa3/common/registration/BlockRegister.class",
+    "class_sha256": "a7b1da703d8be061192412dafc9c1740b1200960ae02279514a23b4bdc5dbc28",
+    "method_name": "registerBlocks",
+    "method_sha256": "bde849f60532b6c417f9753a4598edd307e1024791a9651a8e4c29cba9712a61",
+    "window": [
+      {
+        "offset": 7119,
+        "opcode": 19,
+        "constant": "AchonyPlanks"
+      },
+      {
+        "offset": 7122,
+        "opcode": 19,
+        "constant": "achony_planks"
+      },
+      {
+        "offset": 7125,
+        "opcode": 178,
+        "member": [
+          "net/minecraft/block/material/Material",
+          "field_151575_d",
+          "Lnet/minecraft/block/material/Material;"
+        ]
+      },
+      {
+        "offset": 7128,
+        "opcode": 183,
+        "member": [
+          "net/tslat/aoa3/block/decoration/BasicDecorationBlock",
+          "<init>",
+          "(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/block/material/Material;)V"
+        ]
+      },
+      {
+        "offset": 7131,
+        "opcode": 19,
+        "constant": "blocks/decoration/planks/"
+      },
+      {
+        "offset": 7134,
+        "opcode": 4,
+        "constant": 1
+      },
+      {
+        "offset": 7135,
+        "opcode": 189,
+        "operands": [
+          5,
+          218
+        ]
+      },
+      {
+        "offset": 7138,
+        "opcode": 89
+      },
+      {
+        "offset": 7139,
+        "opcode": 3,
+        "constant": 0
+      },
+      {
+        "offset": 7140,
+        "opcode": 18,
+        "constant": "plankWood"
+      },
+      {
+        "offset": 7142,
+        "opcode": 83
+      },
+      {
+        "offset": 7143,
+        "opcode": 184,
+        "member": [
+          "net/tslat/aoa3/common/registration/BlockRegister",
+          "registerBlock",
+          "(Lnet/minecraftforge/registries/IForgeRegistry;Lnet/minecraft/block/Block;Ljava/lang/String;[Ljava/lang/String;)V"
+        ]
+      }
+    ],
+    "scope": "Achony Planks declaration passes plankWood to the block registration helper; live membership can be changed by a pack."
+  },
+  "effects": [
+    {
+      "item": "aoa3:tea",
+      "effect": "regeneration",
+      "duration_ticks": 50,
+      "amplifier": 1,
+      "display_level": 2,
+      "ambient": true,
+      "particles": false,
+      "window": [
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76428_l",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 24,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 27,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        }
+      ],
+      "source_path": "item/food/Tea.java",
+      "source_sha256": "38160f3740903f5a90a216d21753505dc3b30dca35c732ede14ec4364a9f7c9b"
+    },
+    {
+      "item": "aoa3:tea",
+      "effect": "resistance",
+      "duration_ticks": 130,
+      "amplifier": 0,
+      "display_level": 1,
+      "ambient": true,
+      "particles": false,
+      "window": [
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76429_m",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 17,
+          "constant": 130
+        },
+        {
+          "offset": 44,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        }
+      ],
+      "source_path": "item/food/Tea.java",
+      "source_sha256": "38160f3740903f5a90a216d21753505dc3b30dca35c732ede14ec4364a9f7c9b"
+    },
+    {
+      "item": "aoa3:fungal_tea",
+      "effect": "regeneration",
+      "duration_ticks": 75,
+      "amplifier": 3,
+      "display_level": 4,
+      "ambient": true,
+      "particles": false,
+      "window": [
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76428_l",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 75
+        },
+        {
+          "offset": 24,
+          "opcode": 6,
+          "constant": 3
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 27,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        }
+      ],
+      "source_path": "item/food/FungalTea.java",
+      "source_sha256": "dabe4dd5784179c1623ebbb94b57342e9a7e970eaa759bcac37759c7e35584d1"
+    },
+    {
+      "item": "aoa3:fungal_tea",
+      "effect": "resistance",
+      "duration_ticks": 60,
+      "amplifier": 0,
+      "display_level": 1,
+      "ambient": true,
+      "particles": false,
+      "window": [
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76429_m",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 16,
+          "constant": 60
+        },
+        {
+          "offset": 43,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 44,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 45,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 46,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        }
+      ],
+      "source_path": "item/food/FungalTea.java",
+      "source_sha256": "dabe4dd5784179c1623ebbb94b57342e9a7e970eaa759bcac37759c7e35584d1"
+    },
+    {
+      "item": "aoa3:natural_tea",
+      "effect": "regeneration",
+      "duration_ticks": 50,
+      "amplifier": 0,
+      "display_level": 1,
+      "ambient": true,
+      "particles": false,
+      "window": [
+        {
+          "offset": 19,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76428_l",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 22,
+          "opcode": 16,
+          "constant": 50
+        },
+        {
+          "offset": 24,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 25,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 26,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 27,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        }
+      ],
+      "source_path": "item/food/NaturalTea.java",
+      "source_sha256": "0feeed6079b1152f0a27a2d862c698bace9a0216a6c4e35a5bc1b4487ba8368d"
+    },
+    {
+      "item": "aoa3:natural_tea",
+      "effect": "resistance",
+      "duration_ticks": 150,
+      "amplifier": 1,
+      "display_level": 2,
+      "ambient": true,
+      "particles": false,
+      "window": [
+        {
+          "offset": 38,
+          "opcode": 178,
+          "member": [
+            "net/minecraft/init/MobEffects",
+            "field_76429_m",
+            "Lnet/minecraft/potion/Potion;"
+          ]
+        },
+        {
+          "offset": 41,
+          "opcode": 17,
+          "constant": 150
+        },
+        {
+          "offset": 44,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 45,
+          "opcode": 4,
+          "constant": 1
+        },
+        {
+          "offset": 46,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 47,
+          "opcode": 183,
+          "member": [
+            "net/minecraft/potion/PotionEffect",
+            "<init>",
+            "(Lnet/minecraft/potion/Potion;IIZZ)V"
+          ]
+        }
+      ],
+      "source_path": "item/food/NaturalTea.java",
+      "source_sha256": "0feeed6079b1152f0a27a2d862c698bace9a0216a6c4e35a5bc1b4487ba8368d"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "assets/aoa3/recipes/blocks/functional/utility/tea_sink.json",
+      "sha256": "5d37d2c658f097f54a7d737b8d78ef400ea96ef4825eac692eb1066a87299617",
+      "definition": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "AB ",
+          "AC ",
+          "AAA"
+        ],
+        "key": {
+          "A": [
+            {
+              "type": "forge:ore_dict",
+              "ore": "plankWood"
+            }
+          ],
+          "B": [
+            {
+              "item": "minecraft:iron_ingot"
+            }
+          ],
+          "C": [
+            {
+              "item": "minecraft:cauldron"
+            }
+          ]
+        },
+        "result": {
+          "item": "aoa3:tea_sink"
+        }
+      }
+    },
+    {
+      "path": "assets/aoa3/recipes/items/misc/misc/cup.json",
+      "sha256": "4d5872d0a3b70011d485d8c4d66c45c6ea43f1903c43f8fdf0a5b3885d8d0400",
+      "definition": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "A A",
+          " A "
+        ],
+        "key": {
+          "A": [
+            {
+              "item": "aoa3:ivory"
+            }
+          ]
+        },
+        "result": {
+          "item": "aoa3:cup",
+          "count": 3
+        }
+      }
+    }
+  ],
+  "selection_cases": [
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": false,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": false,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": false,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": null,
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": false,
+      "result": "tea",
+      "consume_cup": 1,
+      "consume_shreddings": 1,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": false,
+      "creative": true,
+      "result": "fungal_tea",
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": false,
+      "result": "natural_tea",
+      "consume_cup": 1,
+      "consume_shreddings": 1,
+      "consume_additive": 1
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": false,
+      "nature_melon": true,
+      "creative": true,
+      "result": "fungal_tea",
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": false,
+      "result": "fungal_tea",
+      "consume_cup": 1,
+      "consume_shreddings": 1,
+      "consume_additive": 1
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": false,
+      "creative": true,
+      "result": "fungal_tea",
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": false,
+      "result": "fungal_tea",
+      "consume_cup": 1,
+      "consume_shreddings": 1,
+      "consume_additive": 1
+    },
+    {
+      "full": true,
+      "cup": true,
+      "outer_shreddings_gate": true,
+      "mystic_shrooms": true,
+      "nature_melon": true,
+      "creative": true,
+      "result": "fungal_tea",
+      "consume_cup": 0,
+      "consume_shreddings": 0,
+      "consume_additive": 0
+    }
+  ],
+  "depletion": {
+    "next_int_bound": 7,
+    "drains_when": 0,
+    "per_success": "1/7",
+    "expected_successful_cups_under_independent_model": 7,
+    "full_after_seven": 0.3399166770891136,
+    "scope": "Independent unchanged random-draw model,not seven fixed charges or a maximum."
+  },
+  "return_container": "aoa3:cup",
+  "source_files": {
+    "block/functional/utility/TeaSink.java": "b2882deac2c49d9b07c6c11c6c71107709463c34d47dc6aaf805c2742220f54c",
+    "utils/ItemUtil.java": "89e536f2559758ec4dcc3616c9ef4707868b3412b8a16d604fcee5c7569ca5b4",
+    "item/misc/TeaShreddings.java": "fc01d093b465fe31a645085ee886ac5d77538b7483f776ca65033e765f65834a"
+  }
+}

@@ -130,3 +130,7 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 ## Historical furnace conversions
 
 [All 56 Java-registered furnace recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Furnace-Recipes-and-Material-Recycling-1.12.2) now have input/output pictures and exact browser links: 29 ores, four bone fragments, sixteen fish, five meats and two recycling steps. Their documentation-assigned link IDs are clearly labeled and are not original in-game recipe IDs. The previous 1,172 definitions are preserved.
+
+## Historical tea and Ore Dictionary ingredients
+
+[Tea Sink brewing and drink effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tea-Sink-Brewing-Priority-and-Drink-Effects-1.12.2) covers the two equipment recipes, three tea branches and survival/creative differences. The 34 Ore Dictionary ingredient occurrences in the historical recipe data now display their actual symbolic names, including plankWood, instead of an unnamed item. Membership is supplied by the active Forge environment and is not invented by this index.
