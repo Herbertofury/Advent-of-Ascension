@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "aoa-complete-wiki-checklist-1",
   "repository": "Herbertofury/Advent-of-Ascension.wiki",
-  "revision": "4775db32bd25819b8558e0bbfc310e9b398d750e",
+  "revision": "8e474ee25d8ba97cd5882963570602bf7d95fc7e",
   "pages": [
     {
       "path": "Abominator-Weapon-Profile.md",
@@ -43,6 +43,11 @@
       "path": "Animated-Weapon-Prototype-Baronator.md",
       "bytes": 7199,
       "sha256": "a5a095c9a971bbe18d6b431a97252c155baf0ff1326d11ad93987666f6d9281f"
+    },
+    {
+      "path": "Apoco-Assault-Rifle-Weapon-Profile.md",
+      "bytes": 4840,
+      "sha256": "ad1b16412e53404a78f5badbb7232c29ad2b34639237987bc5369189a63fc94b"
     },
     {
       "path": "Archergun-Ammunition-and-Special-Effects-1.12.2.md",
@@ -431,8 +436,8 @@
     },
     {
       "path": "Discharge-Shotgun-Weapon-Profile.md",
-      "bytes": 12043,
-      "sha256": "c5c4fa1793fcd949ccea2abd97c88996f2a5417309c67caf8977b36f55e3b65f"
+      "bytes": 12856,
+      "sha256": "dff26425be119185fdea97b64777e43c24e7215b223b1ce6bd29ef522153972f"
     },
     {
       "path": "Divine-Station-Weapon-Upgrades-1.20.1.md",
@@ -1316,8 +1321,8 @@
     },
     {
       "path": "Runtime-Acceptance-Checklist.md",
-      "bytes": 15874,
-      "sha256": "16928a8b16e476663e5503d7b169b18f61ac3bd2c324c94ef1044745fb7411f9"
+      "bytes": 17042,
+      "sha256": "c3b230acbb6a62d1c65b22ebdcf49b4496a37f66c9e001d39107d0a9988e3219"
     },
     {
       "path": "Saved-Skill-Master-Offers-2026-10-18.md",
@@ -1386,8 +1391,8 @@
     },
     {
       "path": "Snapshot-Whole-Programs-2026-10-18.md",
-      "bytes": 8020,
-      "sha256": "cb3927a95d80e2effb82daa4c5551e3aeac294157e23192fa0baf43fb93d5c7a"
+      "bytes": 9799,
+      "sha256": "84f019272ee95809bace1e210057837641e4b2df1c373eba3c9665b0a4777489"
     },
     {
       "path": "Sniper-Stance-Scopes-and-Inputs-1.12.2.md",
@@ -1426,8 +1431,8 @@
     },
     {
       "path": "Soul-Storm-Sculpt-Study.md",
-      "bytes": 20880,
-      "sha256": "82f346f82b495af2c7ad1045e40f597fe1ca4e2bc5f5d98cf8b541e74e71dbf7"
+      "bytes": 22168,
+      "sha256": "12442ba02442ae3f8cae01cd50c6d1dde5a7d1e437f5034cda77fe1437271e72"
     },
     {
       "path": "Soul-Storm-Sights.md",
@@ -1526,8 +1531,8 @@
     },
     {
       "path": "TaCZ-Mesh-Loader-Direct-Study.md",
-      "bytes": 17667,
-      "sha256": "ec508975211ad2df967ead0f476447cd492a3c405eede858bcc5c946fb87b766"
+      "bytes": 18555,
+      "sha256": "74f5e385b04dc53bc784ded59784a6488d0a69ee4911737dbbc7d6454960a73a"
     },
     {
       "path": "TaCZ-Native-Mesh-Route.md",
@@ -1651,8 +1656,8 @@
     },
     {
       "path": "Weapon-Completeness-Standard.md",
-      "bytes": 14337,
-      "sha256": "c20a08609bffe920d9c563f07e98186a7200699515567a13f88ce414a73c5195"
+      "bytes": 15697,
+      "sha256": "625f81c796bbc8fde3be6186224a50266aa1ec201808a8892adfb460c90b214e"
     },
     {
       "path": "Weapon-Implementation-Map.md",
@@ -1693,6 +1698,11 @@
       "path": "Weapon-Upgrade-Backlog.md",
       "bytes": 9989,
       "sha256": "845d07d63caa13da39e52ca14131d5414b122e171dbd2fff828af6c2786c62d8"
+    },
+    {
+      "path": "Weapon-Visual-Profiles.md",
+      "bytes": 3415,
+      "sha256": "b864b61153f2c954512f43ecc0dd5c656028f69d7e7a1fc446ce2c230fabe9e4"
     },
     {
       "path": "Whole-Historical-Block-Batch-2026-10-18.md",
@@ -8824,6 +8834,97 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
     },
     {
+      "id": "wiki:23dacc73e0f6146acb6ae844",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 195,
+      "text": "Compile all complete native noise/surface/lifecycle sources and preserve all existing generator registrations.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:71a6456c2fc0791a5f7167bf",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 196,
+      "text": "Pass the complete native server and muted client, all 1,176 source owners and every inherited domain.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:64c9546b6d070424898b847e",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 197,
+      "text": "Compare every position in 16 detached native column/prototype chunks: 1,048,576 cells, eight registered-codec round trips, eight seed-ownership rejections and caller-mutation isolation.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:783303a012251d50613529bd",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 198,
+      "text": "Independently verify all eight new source/class owners and exact execution/capture/workload membership; reject six generated bad-result controls.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:adffff372e5873ec1ee3ea95",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 199,
+      "text": "Finish reviewed canonical surface bindings, full native realm/biome/visual behavior, portals and complete acquisition/progression.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:7e065d8fbca5e82e27b70d5e",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 200,
+      "text": "Restore and verify the whole five-fragment mob/station/Labricon-realmstone chain, preserving newer equivalents and unique older behavior.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:9104ea8873c40bf5b0280ffe",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Native generator lifecycle — October 18 continuation"
+      ],
+      "line": 201,
+      "text": "Pass live-world, migration/multiplayer, Hari/equivalent-work performance and all remaining full-union release gates.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
       "id": "wiki:df63bd3c29c1f6508ce85b62",
       "page": "Shoe-Flinger-Weapon-Profile.md",
       "section": [
@@ -11821,8 +11922,8 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog"
     }
   ],
-  "pageCount": 342,
-  "taskCount": 771,
-  "reportedChecked": 96,
+  "pageCount": 344,
+  "taskCount": 778,
+  "reportedChecked": 100,
   "runtimeCompletionInferred": false
 }

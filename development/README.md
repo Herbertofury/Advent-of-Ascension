@@ -79,3 +79,6 @@ remains v93. The first failed client fixture is retained.
 
 
 The [quiet complete entity-dependency client/server continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md) now passes 2,800 actual-original XP boundary comparisons, all 56 particles and complete native draws, with QA master volume verified at zero. Full gameplay and missing-world gates remain open; playable v93 is unchanged.
+
+
+The [native generator continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md) now passes complete client/server with 1,048,576 detached chunk positions and registered-codec/cache ownership checks. Live realm activation, progression and the complete merge remain open.

@@ -130,3 +130,33 @@ parity. Full mob gameplay, historical Hunter UI/abilities/restrictions/sync,
 protected obstruction, live worlds/portals/progression, saves, multiplayer and
 required Hari/performance checks remain open. Current Playtest stays v93 and
 the full-merge warning remains valid.
+
+
+## Native generator lifecycle — complete mod acceptance, detached realm fixtures
+
+The complete native server and muted client pass with the four original terrain
+programs connected to a registered native chunk-generator codec. All 1,176 source
+owners (9,999,744 bytes), prior entity media, geometry, health options and every
+inherited domain remain verified. The actual client starts muted, reads master
+volume 0.0 and leaves ordinary play sound settings unchanged.
+
+The new real engine fixtures compare **1,048,576 positions** across 16 complete
+native columns/prototype chunks. Eight full registered-codec round trips preserve
+explicit inputs, eight cross-world-seed mutations are rejected, and modifying a
+caller-owned column cannot poison cached output. The independent reader checks
+every new source/class owner, exact capture/log agreement, complete workload
+membership and six generated bad-result controls.
+
+The full original Labricon surface body and all five original noise programs are
+retained. Its intentional air top/filler choices are accepted. The explicit
+fixture palette is diagnostic; **canonical surface identity, live realm
+activation, original-world equivalence and progression remain open**. No existing
+level is edited by the detached generator fixtures. Current Playtest stays v93.
+The full merged mod, required Hari acceptance and sustained FPS objective remain
+unfinished.
+
+The next connected source chain is retained as a whole: Poseido, Torano,
+Sceptron, Fade, Centurion, all five fragments, the Re-creation Station and the
+Labricon realmstone. Complete original and latest-1.1.3 source/model/renderer
+inputs are available; that availability is not native gameplay proof. Newer
+verified equivalents and all unique older behavior remain required.
