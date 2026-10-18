@@ -37,6 +37,18 @@ A prototype could attach immutable custom geometry only to our own model parts a
 5. Shader, accelerated renderer and Hari/Vulkan compatibility with identical fallback behavior and measured frame times.
 6. No mutation of another pack's shared model instance and no cross-item cosmetic state leaks.
 
+### Executed bridge prototype: immutable quad geometry
+
+The candidate now has original Java source implementing `BedrockCube`. A harness calls it through the **actual unmodified released `BedrockPart.compile` method**, rather than merely checking whether the interface exists. Java 17 and Java 21 pass the dispatch test, and the package also passes from a clean extraction.
+
+The checked path covers model-unit scaling, position/normal transforms, UV/tint/light/overlay argument order, multiple entries, defensive input copying and malformed geometry/transform rejection. Geometry stays immutable after construction. The implementation avoids allocating a Vector per vertex in its own loop; this is source-level behavior, not a measured game-speed improvement.
+
+It accepts bounded planar convex quads with normalized atlas UVs. Nonfinite, degenerate, nonconvex, nonplanar, oversized and overflow-prone input is rejected before emission. The 4,096-quad cap is a guardrail, not a proven performance target.
+
+**Still outside this test:** the full native render method, real PoseStack/buffer behavior, Forge/mixins, custom model installation, imports, resource reload, materials, hands, accelerated rendering and GPU performance. Narrow Minecraft types are harness stand-ins; real JOML math and fastutil are used. The missing unused Forge annotation warning is preserved in the result rather than hidden.
+
+[Original bridge source and reproducible runner](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/quad-mesh-bridge-v1.zip) · [Exact JVM results and source hashes](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/quad-mesh-bridge-v1-check.json). This package is not an installable mod or a completed Soul Storm export.
+
 ### Accelerated rendering cache warning
 
 The shipped Accelerated Rendering compatibility mixin calls the `BedrockCube.compile` interface while building a collected mesh and reuses its cached mesh on a later cache hit. This makes the seam interesting, but also makes **dynamic vertex/UV mutation inside a cached part unsafe to assume**. A changing flame atlas or per-frame morph must use a verified dynamic route, immutable prebuilt frame parts, or explicit cache lifecycle support. Do not rebuild meshes every frame or globally disable acceleration to hide the problem.

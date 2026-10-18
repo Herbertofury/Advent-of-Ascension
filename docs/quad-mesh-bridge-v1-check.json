@@ -1,0 +1,37 @@
+{
+  "release": "TaCZ 1.1.8-hotfix2 / Forge1.20.1",
+  "jar_sha512": "fa8b4bd4a7a0835092bccbb28a18461642d4e7a2f6fdb762ac4978d4dbc31d1f0f61c685343a61607dce3d1cd89f4314b61a9f8811960b9d0604692ac3fff96d",
+  "actual_released_classes": {
+    "com/tacz/guns/client/model/bedrock/BedrockCube.class": "67ad853166823448af8a750dc847f1b6cb7dd5e6dcabefcf7642f7455399989c",
+    "com/tacz/guns/client/model/bedrock/BedrockPart.class": "a894887ce8dda57806ba22bcd32cd2ce605ff8fd37eb848f7e31e5c981b1a2f5"
+  },
+  "source_sha256": {
+    "harness/BridgeCheck.java": "3d8a17dd82fd52ad77aa036b8583b600506a6a772a2c3bebcddc8ff9004373db",
+    "harness/com/mojang/blaze3d/vertex/PoseStack.java": "afdce4771fecf41483e974d0be63d10859a80e427172af7962f950c8e088583e",
+    "harness/com/mojang/blaze3d/vertex/VertexConsumer.java": "c0bc6e9569bbe49a1947eab5913eb14b99a6f6945919d19dcbfd1a514556826f",
+    "harness/com/mojang/math/Axis.java": "6c96e219f216b8145f784054c922de0493e820b4bef1c307e27498015ce92413",
+    "harness/net/minecraft/client/renderer/LightTexture.java": "deda9dabae27647ef67c03df0bc813436218ed7b0e1d70b754eba7aff33501ae",
+    "harness/net/minecraft/world/item/ItemDisplayContext.java": "f139324cd2ed804cca2efa1c13b7628aefe6941e145ad9fdfe677139ca5c5a70",
+    "src/aoa/armory/geometry/ImmutableQuadMesh.java": "ad70f6078ac47e2b5be4b6fba37c27bc3fe84de0e29090731f4e10f63232ed64"
+  },
+  "compiler_warnings": "warning: unknown enum constant Dist.CLIENT\n  reason: class file for net.minecraftforge.api.distmarker.Dist not found\n1 warning\n",
+  "results": [
+    {
+      "java": "openjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)",
+      "stdout": "PASS actual released BedrockPart.compile dispatch to immutable custom BedrockCube: quad vertices, model-unit scaling, transform/normal/UV/tint/light order, input-copy isolation and malformed-input gates. PoseStack/VertexConsumer and unused Minecraft types are test stand-ins; no GPU/native renderer acceptance.\n",
+      "stderr": ""
+    },
+    {
+      "java": "openjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)",
+      "stdout": "PASS actual released BedrockPart.compile dispatch to immutable custom BedrockCube: quad vertices, model-unit scaling, transform/normal/UV/tint/light order, input-copy isolation and malformed-input gates. PoseStack/VertexConsumer and unused Minecraft types are test stand-ins; no GPU/native renderer acceptance.\n",
+      "stderr": ""
+    }
+  ],
+  "limits": [
+    "Actual BedrockPart.compile dispatch only; not full render method",
+    "PoseStack/VertexConsumer and unused MC types are narrow stand-ins",
+    "No Forge boot, GPU, AR mixins, native game, resource reload, shader or performance acceptance",
+    "No native registration, model injection or asset importer in this prototype",
+    "4096-quad budget is a guardrail, not a proven frame-time limit"
+  ]
+}
