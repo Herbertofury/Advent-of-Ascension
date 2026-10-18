@@ -47,3 +47,12 @@ The Blender study currently uses three original 300-vertex flame volumes and sha
 ## Released artifact cross-check
 
 The actual `tacz-1.20.1-1.1.8-hotfix2.jar` was also inspected. Its selected classes expose the same `setFunctionalRenderer`, `delegateRender` and functional-render callback descriptors. The released functional-part bytecode likewise invokes the callback before checking the ordinary visible fallback. [Released class hashes, method instructions and manifest](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-flame-renderer-release-evidence.json) document this narrow compatibility check. This does not certify a complete adapter, shader compatibility or game execution.
+
+
+## Tested Java frame core: first integration component
+
+[Original Java source and repeatable test runner](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-sight-java-core-v1.zip) · [Actual JDK 17 test receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-sight-java-core-v1-tests.json)
+
+The renderer-independent core now resolves fifteen-frame UV timing from caller-supplied paused presentation time and explicit sight/pass inputs. It clears caller-owned output before every sample, gates Gem and shadow rendering off, requires GUI opt-in and provides a stable reduced-motion frame. Flame and Candle remain distinct resolved options with separately authored bone origins; the code does not invent attachment offsets.
+
+A full Corretto 17 compile/run passed 24 attachment/pass/GUI combinations and 100,000 time samples, plus wraparound, reduced-motion, invalid-time cleanup, instance-output isolation and repeated-time checks. It contains no player-state map or per-frame inventory scan. Tests verify the pure core only: actual pause hooks, rendering, blend/filter behavior and all native acceptance gates above remain open. This source archive is not an installable mod.
