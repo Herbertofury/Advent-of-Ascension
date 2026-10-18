@@ -14,6 +14,10 @@
 
 [Preview, source and scoped evidence](Soul-Storm-Authoring-Study): 77 cuboids, 19 bones, seven motion records, sampled moving-part and right-arm-proxy checks, plus pose-continuous bounded cosmetic response. Native Spirit behavior, complete hand rig, audio/VFX and runtime acceptance remain open.
 
+## Concept-first art direction
+
+Every weapon starts with actual original-reference and gameplay study, then high-quality generated concepts, critique, and a consistent modeling target. Preserve recognizable AoA nostalgia while radically improving silhouette, materials, motion, sound and effects. Numerical collision checks do not certify good art. The earlier Soul Storm blockout is rejected as the visual benchmark; see [Soul Storm art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) before further modeling.
+
 ## Foundation
 - [ ] Enumerate every accepted weapon by registry ID and source version; distinguish alternate variants from unique weapons.
 - [ ] Record native ammo, projectile, skill, enchantment and special-effect contracts.

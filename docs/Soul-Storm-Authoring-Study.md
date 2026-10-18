@@ -1,4 +1,6 @@
-# Soul Storm: spirit-channel authoring study
+# Soul Storm: earlier technical blockout
+
+**Visual direction superseded.** This model is not the accepted art target. Use the [concept-first Soul Storm art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) for the rebuild; retain these scoped tests as technical scaffolding.
 
 [Interactive geometry and motion preview](https://herbertofury.github.io/Advent-of-Ascension/soul-storm-lab.html) · [Original source and tests](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-authoring-study.zip) · [Weapon upgrade backlog](Weapon-Upgrade-Backlog)
 
