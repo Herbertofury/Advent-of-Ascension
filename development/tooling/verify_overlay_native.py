@@ -36,7 +36,7 @@ def cases(value,backend):
         flags=row['flags'];require(row['actualState']==[flags&1,(flags>>1)&1,(flags>>2)&1,*factors[row['blendCase']]],'Native state differs from exact case preconditions')
         require(row.get('completeDraw',row.get('completeOverlayDraw')) is True,'Native complete overlay draw missing')
     return len(rows)
-def run(server_file,client_file,hari_file,hari_capture_file,previous_file,output):
+def run(server_file,client_file,hari_file,hari_capture_file,previous_file,output,production_seed=None):
     output=Path(output);require(not output.exists(),'Preserve accepted/failed evidence; select a fresh output')
     server,client,hari,previous=map(read,[server_file,client_file,hari_file,previous_file])
     require(server['passed'] and server['nativeServerAdmissionVerified'] and client['passed'] and client['nativeClientAdmissionVerified'],'Complete accepted native server/client required')
@@ -49,6 +49,23 @@ def run(server_file,client_file,hari_file,hari_capture_file,previous_file,output
     capture=read(hari_capture_file);require(capture==hari['activeOverlayFixture'],'Native fixture and production admission differ')
     require(capture['physicalGlCalls']==0 and capture['fixtureBoundary']=='Actual Forge GUI overlay Post inside the native render pass','Native GUI boundary absent')
     native_count=cases(capture,'Hari Vulkan')
+    seed_proof=None
+    if production_seed:
+        seed=read(production_seed);require(seed['passed'] and hari.get('cleanProductionSeedVerified'),'Clean production renderer seed was not accepted')
+        require(hari.get('productionServer')==production_seed and artifact(production_seed)['sha256']==hari['productionServerSha256'],'Different production renderer seed receipt')
+        require(seed['identity']['artifact']==canonical['sha256'] and seed['identity']['target']==server['build']['primary_target'],'Different exact production mod/target')
+        require(any(row['sha256']==hari['inputs'][1]['sha256'] for row in seed['identity']['dependencies']),'Production seed lacks this exact optional renderer')
+        preparation=read(hari['preparation']);require(artifact(hari['preparation'])['sha256']==hari['preparationSha256'] and preparation['identity']==seed['identity'] and preparation['world']==hari['world'],'Different imported production world')
+        stage=read(preparation['seedStage']['path']);require(artifact(preparation['seedStage']['path'])['sha256']==preparation['seedStage']['sha256'] and stage['passed'] and stage['allOriginalSourceFilesUnchanged'] and stage['metadataChange']['exactByteInverseVerified'],'Unaccepted production seed clone')
+        require(stage['sourceWorld']==seed['worldPath'] and stage['productionServer']==artifact(production_seed),'Production clone belongs to another server')
+        expected={}
+        for row in stage['copied']:
+            check(row['before']);relative=Path(row['copy']['path']).relative_to(stage['clone']).as_posix();selected=stage['metadataChange']['current'] if relative=='level.dat' else row['copy'];check(selected);expected[relative]=(selected['sha256'],selected['bytes'])
+        installed=Path(hari['instance']['dir'])/'saves'/hari['world']['folder_name']
+        files=[p for p in installed.rglob('*') if p.is_file()];require(not any(p.is_symlink() for p in installed.rglob('*')),'Linked imported production world')
+        actual={p.relative_to(installed).as_posix():(artifact(p)['sha256'],p.stat().st_size) for p in files};require(actual==expected,'Original complete production world changed during testing')
+        require(hari['inputs'][0]['sha256']==canonical['sha256'],'Clean production test must use the exact canonical mod, not just timestamp-equivalent bytes')
+        seed_proof=dict(server=artifact(production_seed),preparation=artifact(hari['preparation']),stage=artifact(preparation['seedStage']['path']),completeWorldFiles=len(files),allOriginalSourceAndImportedWorldBytesUnchanged=True)
     gl_path=Path(client['build']['build_root'])/'run/enderloom-forge1201-overlay-render-state.json';gl_raw=gl_path.read_text(encoding='utf-8');gl=read(gl_path)
     gl_count=cases(gl,'OpenGL');stdout=Path(client['build']['stdout_path']).read_text(encoding='utf-8');require(stdout.count('ENDERLOOM_FORGE1201_OVERLAY_RENDER_STATE '+gl_raw)==1,'Native GL capture lacks its exact runtime log marker')
     old=previous['files'][0];check(old);old_names,new_names,changed,added=[],[],[],[]
@@ -72,7 +89,11 @@ def run(server_file,client_file,hari_file,hari_capture_file,previous_file,output
                 verifier=artifact(frozen),generatedFaultControls=controls,
                 qualifications=['The Hari state fixture uses a disposable development seed containing 31 GeckoLib/SmartBrainLib example registry entries absent in production; this does not certify save migration or clean production-world parity.',
                                 'Actual native GUI draws/state restoration are verified; pixel-level raster parity, representative full content, full-pack support, sustained FPS and the complete historical/latest union remain open.'])
+    report['cleanProductionSeedVerified']=bool(seed_proof)
+    if seed_proof:
+        report['cleanProductionSeed']=seed_proof
+        report['qualifications']=report['qualifications'][1:]
     with output.open('x',encoding='utf-8') as file:json.dump(report,file,indent=2)
     print(json.dumps({k:report[k] for k in ['passed','completePreviousMembersRetained','currentMembers','actualOpenGlDraws','actualVulkanDraws','performanceVerified','completeAoAPort']}))
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('server');p.add_argument('client');p.add_argument('hari');p.add_argument('hari_capture');p.add_argument('previous');p.add_argument('--output',required=True);a=p.parse_args();run(a.server,a.client,a.hari,a.hari_capture,a.previous,a.output)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('server');p.add_argument('client');p.add_argument('hari');p.add_argument('hari_capture');p.add_argument('previous');p.add_argument('--output',required=True);p.add_argument('--production-seed');a=p.parse_args();run(a.server,a.client,a.hari,a.hari_capture,a.previous,a.output,a.production_seed)

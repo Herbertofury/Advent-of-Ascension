@@ -29,11 +29,14 @@ end-of-frame draw were corrected. These failures were not promoted or hidden.
 is the user-confirmed renderer. The exact selected Hari62 SHA-256 is
 `714106dca1ed653c1cf360863a778ff5850d12960e52e3c722062b69cf8186b3`.
 The production test requires native Vulkan and its documented LWJGL stack
-setting. World rendering/movement and clean shutdown passed in the isolated
-renderer fixture. Its development seed contains 31 GeckoLib/SmartBrainLib example
-registry entries absent in production; it does not certify save migration or a
-clean Hari production-world test. The separate normal standalone production
-server save/restart and signed-in client test use a clean production seed.
+setting. World rendering, movement and clean shutdown now also pass using the exact
+canonical AoA JAR and a clean production seed. The two-mod production server
+starts, saves and restarts; the signed-in native Vulkan client passes all 24
+overlay cases and 673 render intervals with movement. All 67 original seed and
+imported-world files remain unchanged. This replaces the earlier development-seed
+qualification for this acceptance; that rejected seed's 31 absent library example
+registrations remain recorded. Existing-save migration and full gameplay parity
+are separate unverified gates.
 
 Enderloom's Windows development workflow also resolves each explicitly selected
 input through its real file handle. All bytes and file identity are checked

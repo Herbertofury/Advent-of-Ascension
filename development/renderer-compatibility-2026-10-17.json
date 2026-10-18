@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T01:49:07.390452+00:00",
+  "observedAt": "2026-10-18T02:09:26.160773+00:00",
   "completeAoAPort": false,
   "performanceVerified": false,
   "fpsGoal": 2000,
@@ -26,8 +26,8 @@
   "nativeOpenGlDraws": 24,
   "nativeHariVulkanDraws": 24,
   "cleanStandaloneProductionWorldVerified": true,
-  "cleanHariProductionWorldVerified": false,
-  "state": "Bounded renderer state and standalone production accepted; clean Hari production seed, representative features, full compatibility and equivalent-work performance remain open",
+  "cleanHariProductionWorldVerified": true,
+  "state": "Bounded renderer state, standalone production and clean Hari production accepted; representative features, full compatibility and equivalent-work performance remain open",
   "initialBlocker": "Three direct GL signatures used in seven restored-overlay state reads; whole 4190-class/six-archive rebuilt diagnostic now has zero untranslated calls",
   "launcherRepair": "91 explicit input paths are complete-byte/file-identity checked; 89 resolve to physical Windows paths so the shared native process can admit the same authorities without guessing an AppData alias",
   "failedCases": [
@@ -41,7 +41,6 @@
     }
   ],
   "qualifications": [
-    "The Hari state fixture uses a disposable development seed containing 31 GeckoLib/SmartBrainLib example registry entries absent in production; this does not certify save migration or clean production-world parity.",
     "Actual native GUI draws/state restoration are verified; pixel-level raster parity, representative full content, full-pack support, sustained FPS and the complete historical/latest union remain open."
   ],
   "localReceipts": [
@@ -104,11 +103,49 @@
       "sha256": "14252c444d360f4efb919792f90cf56f6bd9c1eb5d4404fe605b5fed2bf2ebc7",
       "bytes": 6474,
       "role": "current_playtest_promotion"
+    },
+    {
+      "file": "aoa-v87h-complete-clean-production-native-overlay-proof-20261017.json",
+      "bytes": 4887,
+      "sha256": "52813fadfa7eb97f57371fa8b2eeada748f00695193ea0bd8061fce4dd58c621",
+      "role": "independent_clean_hari_production"
+    },
+    {
+      "file": "aoa-v87h-hari-production-server-20261017.json",
+      "bytes": 7801,
+      "sha256": "edd090e2a2498c4385994cf4c705aedd1675f188d718eacd39c0bc49f4d157e6",
+      "role": "hari_production_server"
+    },
+    {
+      "file": "aoa-v87h-clean-hari-production-playtest-20261017.json",
+      "bytes": 45388,
+      "sha256": "4f884cda51af62cc21278447a65c7084468c5d4228f4f847330aa39053765913",
+      "role": "hari_production_client"
+    },
+    {
+      "file": "aoa-v87h-production-native-overlay-capture-20261017.json",
+      "bytes": 2288,
+      "sha256": "0a0984d6a719396f7af1487033713c2473a1393fff0e7f2fb413d6837f786732",
+      "role": "clean_hari_native_overlay"
+    },
+    {
+      "file": "aoa-v87h-clean-hari-world-stage-20261017.json",
+      "bytes": 48212,
+      "sha256": "4a43cc4198afe7e59a252f55f58b059b11dfbb0c99863d388197ffb153ca0461",
+      "role": "complete_production_seed"
+    },
+    {
+      "file": "aoa-v87h-clean-hari-preparation-20261017.json",
+      "bytes": 3278,
+      "sha256": "6ef616c72b891b8d7305b17e6125302393402e02b496a67567bb98ee36753261",
+      "role": "clean_hari_preparation"
     }
   ],
   "upstreamObservation": {
     "file": "aoa-upstream-freshness-0d0cb62e-75a2-4a37-9556-2550829801f7.json",
     "sha256": "ad6292a622f1dcf99a484169b37c48098fe28829f2428ea96b8bbebf58710664",
     "bytes": 4764
-  }
+  },
+  "productionWorldFilesPreserved": 67,
+  "saveMigrationVerified": false
 }
