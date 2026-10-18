@@ -84,3 +84,6 @@ The [quiet complete entity-dependency client/server continuation](SNAPSHOT-WHOLE
 The [native generator continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md) now passes complete client/server with 1,048,576 detached chunk positions and registered-codec/cache ownership checks. Live realm activation, progression and the complete merge remain open.
 
 The [connected fragment-family continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md) now passes native server/client with four complete models, 1,024 drop cases, nine station transactions, 22 screen images and verified muted audio. Natural temples, full progression, world activation and production/Hari gates remain open; playable v93 is unchanged.
+
+
+Latest scoped server continuation: [five whole native temples and complete guardian reward](FIVE-WHOLE-TEMPLES-2026-10-18.md). Client, natural survival progression and full-union release gates remain open.
