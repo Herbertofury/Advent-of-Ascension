@@ -10,6 +10,19 @@ Find a weapon you love. Keep its identity, rebuild its handling and appearance, 
 
 This must be an extensive, enjoyable system: barrels, scopes, suppressors, handling, stocks, grips, resource systems, special effects and cosmetic customization. AoA's strange weapons and dimensions should make it more imaginative than a conventional attachment menu.
 
+## First visual assembly study
+
+[Open the interactive part-fitting lab](https://herbertofury.github.io/Advent-of-Ascension/baronator-attachment-lab.html) · [Editable original source](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baronator-attachment-study.zip) · [Scoped clearance receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/baronator-attachment-clearance-qa.json)
+
+![Original authoring renders: base Baronator, prism sight layout, and prism with dual external runic housings](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/baronator-attachment-comparison.webp)
+
+This is a **visual blockout**, not functional optics, sound suppression, crafting or effect transfer. Six assemblies combine the base or prism sight with standard, upper or dual external runic-damper housings. The housings are fictional exterior game art, not real device internals. Moving modules follow their barrel; visual muzzle locators move to the selected tips. Native aiming/FOV, gameplay attributes, final materials and all runtime behavior remain open.
+
+The first sight mount intersected the roof sled. The regression caught it before publication; the revised rear-anchored mount clears its travel without shrinking the sled or hand space. The rejected mount remains a negative fixture. The scoped test checks 1,092 poses per assembly (6,552 total), plus static module bore corridors, with no reported intersections in its covered pairs. These samples are not continuous-collision or native-game certification.
+
+The live viewer's six selections, repeated switching, part counts, pause/scrub and hand-exchange inspection were checked in cloud Chrome. Compact module definitions reduce the self-contained viewer from 334,644 to 75,653 bytes; reconstructed assemblies match the full exports exactly and repeat selections reuse cached models. This is a payload improvement, not a measured Minecraft FPS claim.
+
+
 ## What the Fallout research establishes
 
 | Reference | What the author documents | Lesson for AoA |

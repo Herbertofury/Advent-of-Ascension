@@ -2,7 +2,17 @@
 
 **First original authoring milestone · not an installable or game-tested upgrade.** This is the start of the requested premium animated AoA arsenal. AoA and the Baronator identity are credited to Tslat and contributors.
 
-[Open the interactive authoring lab](https://herbertofury.github.io/Advent-of-Ascension/armory-workbench.html) · [Weapon overhaul](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Full weapon backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Download original editable prototype](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ascension-armory-authoring-prototype.zip)
+## Current inspection branches
+
+- [Connected mechanism and hand-carry study](https://herbertofury.github.io/Advent-of-Ascension/baronator-mechanism-lab.html): 132 cuboids, 41 bones and 20 exported records, with nine enabled inspection actions. Feed/bore and selected arm/carry checks are scoped authoring evidence.
+- [Modular part-fitting study](https://herbertofury.github.io/Advent-of-Ascension/baronator-attachment-lab.html): six visual combinations, from the base model to an original prism sight and dual external runic housings. No optics, suppression, crafting or stat changes are implemented. [Design, comparison image and source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage#first-visual-assembly-study).
+- The 103-cuboid firing study below is retained as an earlier milestone, including its known mechanism limitations.
+
+All branches remain authoring prototypes. Native behavior, final art, camera/hand alignment, interruption handling and performance acceptance are still open.
+
+## Historical firing prototype
+
+[Open the historical firing lab](https://herbertofury.github.io/Advent-of-Ascension/armory-workbench.html) · [Weapon overhaul](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Full weapon backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Download original editable prototype](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ascension-armory-authoring-prototype.zip)
 
 ![Original Baronator authoring model with red armor, twin muzzle channels and mechanical detail](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/armory-baronator-prototype.webp)
 
@@ -14,7 +24,7 @@ This preview is rendered from the exported model and keyframes. It is not Minecr
 
 
 
-**Mechanical plausibility remains blocked:** the relocated magazine has not yet demonstrated a connected feed route to both chambers. Clearance results do not resolve that defect. The next layout must pass the [mechanism and animation QA contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA) before visual acceptance.
+**Historical layout defect:** the 103-cuboid variant below has no demonstrated connected feed route. The newer mechanism study above addresses that layout with a connected path and scoped checks; it still must complete the [mechanism and animation QA contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA) before full acceptance.
 
 ## Actual deliverables
 
@@ -52,7 +62,7 @@ The geometry, palette and keyframes are original project work. No TaCZ default a
 
 The original magazine intersected the guard. A first fix shortened the guard and was rejected because it crowded the finger opening and left a trigger/guard collision. Both faulty layouts are retained as failing regression fixtures.
 
-The current layout restores the full trigger opening, moves the magazine forward and lower into an open structural socket, attaches the trigger into its mounting area and aligns the grip cap. Extraction is vertical. The approved alternating upper/lower heavy recoil is retained in the live viewer and editable source package. Earlier embedded milestone images above predate this layout.
+That earlier revised layout restores the full trigger opening, moves the magazine forward and lower into an open structural socket, attaches the trigger into its mounting area and aligns the grip cap. Extraction is vertical. The approved alternating upper/lower heavy recoil is retained in the live viewer and editable source package. Earlier embedded milestone images above predate this layout.
 
 The geometry gate now covers six interactions: magazine/hand area, trigger/guard, reserved finger space, magazine/lower barrel, magazine/socket and lower barrel/socket. Both variants pass every sampled clip at 240 Hz plus all keys and 110 synthetic linear recovery transitions each. The reserved finger envelope is a design allowance, not a real hand-rig certification. Exact engine transitions, hands, other mesh pairs and gameplay remain open. Known visible clipping or mesh errors block visual acceptance.
 
