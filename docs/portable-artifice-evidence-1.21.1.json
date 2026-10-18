@@ -1,0 +1,3557 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Two portable artifice tools, five AoA class selections, vanilla respawn-helper reference and48 isolated branch cases. No game execution or complete survival-route certification.",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/tool/artifice/TemporalAnvil.class",
+      "sha256": "0e86879eb6df400e05dcbbcbd708f46ed68b4840602918687b738d9d6219d37e",
+      "source": "content/item/tool/artifice/TemporalAnvil.java",
+      "source_sha256": "ac25631a220a1ef717a3a3073e4d5b402b2d176c6a9fbc343b93cbe990864b23",
+      "methods": [
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2bb400109a001e2cbb0016592a2bba00180000121cb8001eb80024b7002ab6002d572c2db600332bb40010b80037b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                30
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 44
+            },
+            {
+              "offset": 8,
+              "opcode": 187,
+              "operands": [
+                0,
+                22
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 89
+            },
+            {
+              "offset": 12,
+              "opcode": 42
+            },
+            {
+              "offset": 13,
+              "opcode": 43
+            },
+            {
+              "offset": 14,
+              "opcode": 186,
+              "operands": [
+                0,
+                24,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 18,
+              "constant": "temporal_anvil"
+            },
+            {
+              "offset": 21,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "createContainerLocaleKey",
+                "(Ljava/lang/String;)Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/network/chat/Component",
+                "translatable",
+                "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/SimpleMenuProvider",
+                "<init>",
+                "(Lnet/minecraft/world/inventory/MenuConstructor;Lnet/minecraft/network/chat/Component;)V"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "openMenu",
+                "(Lnet/minecraft/world/MenuProvider;)Ljava/util/OptionalInt;"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 87
+            },
+            {
+              "offset": 34,
+              "opcode": 44
+            },
+            {
+              "offset": 35,
+              "opcode": 45
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 43
+            },
+            {
+              "offset": 40,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "sidedSuccess",
+                "(Ljava/lang/Object;Z)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/artifice/TemporalAnvil$1.class",
+      "sha256": "285b72e97fef0e9018ef0690ab82117f2739a2e351344776e77f38166001f52c",
+      "source": "content/item/tool/artifice/TemporalAnvil.java",
+      "source_sha256": "ac25631a220a1ef717a3a3073e4d5b402b2d176c6a9fbc343b93cbe990864b23",
+      "methods": [
+        {
+          "name": "onTake",
+          "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+          "code_hex": "2a2b2cb7000db200112ab400012bb60017b8001d04bd001859032b53b600231227b60028122cb6002db60030b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/inventory/AnvilMenu",
+                "onTake",
+                "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundEvents",
+                "ANVIL_USE",
+                "Lnet/minecraft/sounds/SoundEvent;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 180,
+              "member": [
+                "net/tslat/aoa3/content/item/tool/artifice/TemporalAnvil$1",
+                "val$level",
+                "Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 43
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "at",
+                "(Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 21,
+              "opcode": 189,
+              "operands": [
+                0,
+                24
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 89
+            },
+            {
+              "offset": 25,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 26,
+              "opcode": 43
+            },
+            {
+              "offset": 27,
+              "opcode": 83
+            },
+            {
+              "offset": 28,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "onlyFor",
+                "([Lnet/minecraft/world/entity/player/Player;)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 18,
+              "constant": 0.949999988079071
+            },
+            {
+              "offset": 33,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "pitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 18,
+              "constant": 0.05000000074505806
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "varyPitch",
+                "(F)Lnet/tslat/tme/api/sound/SoundBuilder;"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/sound/SoundBuilder",
+                "play",
+                "()V"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/artifice/AnchoringCrystal.class",
+      "sha256": "ee5e2fa2875c82bd33dcd373d9d734644b1e5e8b85936a430dc18cb470ff9c25",
+      "source": "content/item/tool/artifice/AnchoringCrystal.java",
+      "source_sha256": "17270d8389be77db136c9a1305df698eb7264e83cdcab8bb2b27a38c811858f6",
+      "methods": [
+        {
+          "name": "getUseDuration",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I",
+          "code_hex": "1064ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 2,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "use",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "code_hex": "2cb600169a003c2b04bd001c5903b2001e53b800249a002b2cc1002a99002d2cc0002a3a041904b6002cc600162b04bd001c59031904b6003053b800249a000c2c2db60034b80038b02c2db6003e2c2db60034b80042b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "isDeadOrDying",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                60
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 9,
+              "opcode": 189,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 89
+            },
+            {
+              "offset": 13,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 14,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/worldgen/AoADimensions",
+                "NOWHERE",
+                "Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 83
+            },
+            {
+              "offset": 18,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/WorldUtil",
+                "isWorld",
+                "(Lnet/minecraft/world/level/Level;[Lnet/minecraft/resources/ResourceKey;)Z"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 154,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 44
+            },
+            {
+              "offset": 25,
+              "opcode": 193,
+              "operands": [
+                0,
+                42
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 153,
+              "operands": [
+                0,
+                45
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 44
+            },
+            {
+              "offset": 32,
+              "opcode": 192,
+              "operands": [
+                0,
+                42
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getRespawnPosition",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 198,
+              "operands": [
+                0,
+                22
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 43
+            },
+            {
+              "offset": 46,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 47,
+              "opcode": 189,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 89
+            },
+            {
+              "offset": 51,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 52,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getRespawnDimension",
+                "()Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 83
+            },
+            {
+              "offset": 58,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/WorldUtil",
+                "isWorld",
+                "(Lnet/minecraft/world/level/Level;[Lnet/minecraft/resources/ResourceKey;)Z"
+              ]
+            },
+            {
+              "offset": 61,
+              "opcode": 154,
+              "operands": [
+                0,
+                12
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 44
+            },
+            {
+              "offset": 65,
+              "opcode": 45
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "fail",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 176
+            },
+            {
+              "offset": 73,
+              "opcode": 44
+            },
+            {
+              "offset": 74,
+              "opcode": 45
+            },
+            {
+              "offset": 75,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "startUsingItem",
+                "(Lnet/minecraft/world/InteractionHand;)V"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 44
+            },
+            {
+              "offset": 79,
+              "opcode": 45
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "getItemInHand",
+                "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 184,
+              "member": [
+                "net/minecraft/world/InteractionResultHolder",
+                "consume",
+                "(Ljava/lang/Object;)Lnet/minecraft/world/InteractionResultHolder;"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "onUseTick",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V",
+          "code_hex": "2bb400459a0051b2004b2cb600510e2cb60057125b6a8d0eb6005c2cb6006212656a8d2cb600628db800662c08100ab8006cb80072b600782a2d2cb6007c150464100a6cb600821504ba00860000b6008a2cb6008eb1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                81
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "TRIAL_SPAWNER_DETECTED_PLAYER",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 44
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 14
+            },
+            {
+              "offset": 15,
+              "opcode": 44
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 21,
+              "opcode": 106
+            },
+            {
+              "offset": 22,
+              "opcode": 141
+            },
+            {
+              "offset": 23,
+              "opcode": 14
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 44
+            },
+            {
+              "offset": 28,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getBbWidth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 18,
+              "constant": 0.44999998807907104
+            },
+            {
+              "offset": 33,
+              "opcode": 106
+            },
+            {
+              "offset": 34,
+              "opcode": 141
+            },
+            {
+              "offset": 35,
+              "opcode": 44
+            },
+            {
+              "offset": 36,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getBbWidth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 141
+            },
+            {
+              "offset": 40,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosOnToroid",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/phys/Vec3;DD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 43,
+              "opcode": 44
+            },
+            {
+              "offset": 44,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 45,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 47,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "numberBetween",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/internal/particle/transition/OrbitPositionParticleTransition",
+                "create",
+                "(Lnet/minecraft/world/entity/Entity;I)Lnet/tslat/tme/internal/particle/transition/OrbitPositionParticleTransition;"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "addTransition",
+                "(Lnet/tslat/tme/internal/particle/transition/ParticleTransitionWorker;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 42
+            },
+            {
+              "offset": 57,
+              "opcode": 45
+            },
+            {
+              "offset": 58,
+              "opcode": 44
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/tool/artifice/AnchoringCrystal",
+                "getUseDuration",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 100
+            },
+            {
+              "offset": 65,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 67,
+              "opcode": 108
+            },
+            {
+              "offset": 68,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 186,
+              "operands": [
+                0,
+                134,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "addBulkProperty",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 81,
+              "opcode": 44
+            },
+            {
+              "offset": 82,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "finishUsingItem",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+          "code_hex": "2dc1002a9900d22dc0002a3a041904b600301904b60092b60096a600bc190404b20099b6009f3a051904190503b800a3b600a93a051905b600af2ca6009b1905b600b33a06b200b61904b800b9110096b6008212bdb600beba00c10000b6008a1904b600c41904b600c7b600ca19041905b600af1906b400ce1906b400d21906b400d5b800d81905b600de1905b600e1b600e457b2004b2db600510e2db60057125b6a8d0eb6005c2db6006212656a8d2db600628db800662d08100ab8006cb80072b600781064b60082ba00e80000b6008a2db6008e2bb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 193,
+              "operands": [
+                0,
+                42
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                210
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 45
+            },
+            {
+              "offset": 8,
+              "opcode": 192,
+              "operands": [
+                0,
+                42
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 58,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "getRespawnDimension",
+                "()Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "dimension",
+                "()Lnet/minecraft/resources/ResourceKey;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 166,
+              "operands": [
+                0,
+                188
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 32,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/level/portal/DimensionTransition",
+                "DO_NOTHING",
+                "Lnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition;"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "findRespawnPositionAndUseSpawnBlock",
+                "(ZLnet/minecraft/world/level/portal/DimensionTransition$PostDimensionTransition;)Lnet/minecraft/world/level/portal/DimensionTransition;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 40,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 42,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 45,
+              "opcode": 184,
+              "member": [
+                "net/neoforged/neoforge/event/EventHooks",
+                "firePlayerRespawnPositionEvent",
+                "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/portal/DimensionTransition;Z)Lnet/neoforged/neoforge/event/entity/player/PlayerRespawnPositionEvent;"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/event/entity/player/PlayerRespawnPositionEvent",
+                "getDimensionTransition",
+                "()Lnet/minecraft/world/level/portal/DimensionTransition;"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 58,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/portal/DimensionTransition",
+                "newLevel",
+                "()Lnet/minecraft/server/level/ServerLevel;"
+              ]
+            },
+            {
+              "offset": 58,
+              "opcode": 44
+            },
+            {
+              "offset": 59,
+              "opcode": 166,
+              "operands": [
+                0,
+                155
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/portal/DimensionTransition",
+                "pos",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "CHERRY_LEAVES",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 74,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosInEntity",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/entity/Entity;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 17,
+              "constant": 150
+            },
+            {
+              "offset": 80,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 18,
+              "constant": 15036928
+            },
+            {
+              "offset": 85,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "colourTint",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 186,
+              "operands": [
+                0,
+                193,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 93,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "addBulkProperty",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 98,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "serverLevel",
+                "()Lnet/minecraft/server/level/ServerLevel;"
+              ]
+            },
+            {
+              "offset": 101,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "blockPosition",
+                "()Lnet/minecraft/core/BlockPos;"
+              ]
+            },
+            {
+              "offset": 106,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingBlock",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V"
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 113,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/portal/DimensionTransition",
+                "newLevel",
+                "()Lnet/minecraft/server/level/ServerLevel;"
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "x",
+                "D"
+              ]
+            },
+            {
+              "offset": 121,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 123,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "y",
+                "D"
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "z",
+                "D"
+              ]
+            },
+            {
+              "offset": 131,
+              "opcode": 184,
+              "member": [
+                "java/util/Set",
+                "of",
+                "()Ljava/util/Set;"
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/portal/DimensionTransition",
+                "yRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/portal/DimensionTransition",
+                "xRot",
+                "()F"
+              ]
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/server/level/ServerPlayer",
+                "teleportTo",
+                "(Lnet/minecraft/server/level/ServerLevel;DDDLjava/util/Set;FF)Z"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 87
+            },
+            {
+              "offset": 148,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/core/particles/ParticleTypes",
+                "TRIAL_SPAWNER_DETECTED_PLAYER",
+                "Lnet/minecraft/core/particles/SimpleParticleType;"
+              ]
+            },
+            {
+              "offset": 151,
+              "opcode": 45
+            },
+            {
+              "offset": 152,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "position",
+                "()Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 155,
+              "opcode": 14
+            },
+            {
+              "offset": 156,
+              "opcode": 45
+            },
+            {
+              "offset": 157,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getBbHeight",
+                "()F"
+              ]
+            },
+            {
+              "offset": 160,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 162,
+              "opcode": 106
+            },
+            {
+              "offset": 163,
+              "opcode": 141
+            },
+            {
+              "offset": 164,
+              "opcode": 14
+            },
+            {
+              "offset": 165,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/phys/Vec3",
+                "add",
+                "(DDD)Lnet/minecraft/world/phys/Vec3;"
+              ]
+            },
+            {
+              "offset": 168,
+              "opcode": 45
+            },
+            {
+              "offset": 169,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getBbWidth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 172,
+              "opcode": 18,
+              "constant": 0.44999998807907104
+            },
+            {
+              "offset": 174,
+              "opcode": 106
+            },
+            {
+              "offset": 175,
+              "opcode": 141
+            },
+            {
+              "offset": 176,
+              "opcode": 45
+            },
+            {
+              "offset": 177,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getBbWidth",
+                "()F"
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 141
+            },
+            {
+              "offset": 181,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "forRandomPosOnToroid",
+                "(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/phys/Vec3;DD)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 184,
+              "opcode": 45
+            },
+            {
+              "offset": 185,
+              "opcode": 8,
+              "constant": 5
+            },
+            {
+              "offset": 186,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 188,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/api/util/RandomUtil",
+                "numberBetween",
+                "(II)I"
+              ]
+            },
+            {
+              "offset": 191,
+              "opcode": 184,
+              "member": [
+                "net/tslat/tme/internal/particle/transition/OrbitPositionParticleTransition",
+                "create",
+                "(Lnet/minecraft/world/entity/Entity;I)Lnet/tslat/tme/internal/particle/transition/OrbitPositionParticleTransition;"
+              ]
+            },
+            {
+              "offset": 194,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "addTransition",
+                "(Lnet/tslat/tme/internal/particle/transition/ParticleTransitionWorker;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 197,
+              "opcode": 16,
+              "constant": 100
+            },
+            {
+              "offset": 199,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "spawnNTimes",
+                "(I)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 202,
+              "opcode": 186,
+              "operands": [
+                0,
+                232,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 207,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "addBulkProperty",
+                "(Ljava/util/function/Consumer;)Lnet/tslat/tme/api/particle/ParticleBuilder;"
+              ]
+            },
+            {
+              "offset": 210,
+              "opcode": 45
+            },
+            {
+              "offset": 211,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/particle/ParticleBuilder",
+                "sendToAllPlayersTrackingEntity",
+                "(Lnet/minecraft/world/entity/Entity;)V"
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 43
+            },
+            {
+              "offset": 215,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/artifice/ArtificeItem.class",
+      "sha256": "1b59f71eafe58cd777463f070de98f191bbcf764c0bb0d21979f306d3806502d",
+      "source": "content/item/tool/artifice/ArtificeItem.java",
+      "source_sha256": "4d6baa528fc7163112adc3d37f0b8b60a6b115e9d9f33f5547dcb84d312d0859",
+      "methods": [
+        {
+          "name": "supportsEnchantment",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Holder;)Z",
+          "code_hex": "2cb20007b9000d02009a00102a2b2cb7001399000704a7000403ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoATags$Enchantments",
+                "ARTIFICE_TOOL_INCOMPATIBLE",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 185,
+              "member": [
+                "net/minecraft/core/Holder",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 154,
+              "operands": [
+                0,
+                16
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 42
+            },
+            {
+              "offset": 13,
+              "opcode": 43
+            },
+            {
+              "offset": 14,
+              "opcode": 44
+            },
+            {
+              "offset": 15,
+              "opcode": 183,
+              "member": [
+                "net/minecraft/world/item/Item",
+                "supportsEnchantment",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Holder;)Z"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 153,
+              "operands": [
+                0,
+                7
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 22,
+              "opcode": 167,
+              "operands": [
+                0,
+                4
+              ]
+            },
+            {
+              "offset": 25,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 26,
+              "opcode": 172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/common/registration/item/AoAArtificeDevices.class",
+      "sha256": "077d0a46fb16ba6727381ec51b51837c1232b741449b8974e414ccc4e89c3358",
+      "source": "common/registration/item/AoAArtificeDevices.java",
+      "source_sha256": "2784e34553b55f38dce680c41d1879255250500d07e4e38462e0aefd99c34555",
+      "methods": [
+        {
+          "name": "<clinit>",
+          "descriptor": "()V",
+          "code_hex": "1227ba00290000b8002db300331237ba00390000b8002db3003a123dba003f0000b8002db300401243ba00450000b8002db300461249ba004b0000b8002db3004c124fba00510000b8002db30052b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 18,
+              "constant": "exp_flask"
+            },
+            {
+              "offset": 2,
+              "opcode": 186,
+              "operands": [
+                0,
+                41,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "register",
+                "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "EXP_FLASK",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 18,
+              "constant": "temporal_anvil"
+            },
+            {
+              "offset": 15,
+              "opcode": 186,
+              "operands": [
+                0,
+                57,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 20,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "register",
+                "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "TEMPORAL_ANVIL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 18,
+              "constant": "stasis_capsule"
+            },
+            {
+              "offset": 28,
+              "opcode": 186,
+              "operands": [
+                0,
+                63,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "register",
+                "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "STASIS_CAPSULE",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 18,
+              "constant": "arcanum_battery"
+            },
+            {
+              "offset": 41,
+              "opcode": 186,
+              "operands": [
+                0,
+                69,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "register",
+                "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "ARCANUM_BATTERY",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 18,
+              "constant": "ammo_void_pouch"
+            },
+            {
+              "offset": 54,
+              "opcode": 186,
+              "operands": [
+                0,
+                75,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "register",
+                "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "AMMO_VOID_POUCH",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 65,
+              "opcode": 18,
+              "constant": "anchoring_crystal"
+            },
+            {
+              "offset": 67,
+              "opcode": 186,
+              "operands": [
+                0,
+                81,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 72,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "register",
+                "(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 179,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAArtificeDevices",
+                "ANCHORING_CRYSTAL",
+                "Lnet/neoforged/neoforge/registries/DeferredItem;"
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vanilla_respawn_reference": {
+    "scope": "Official unmodified Minecraft1.21.1 client distribution contains the integrated-server class. This is a vanilla helper reference, not a NeoForge-patched runtime proof.",
+    "archive": "minecraft-1.21.1-client.jar",
+    "archive_sha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99",
+    "mapping_file": "minecraft-1.21.1-client-mappings.txt",
+    "mapping_sha256": "140c47931cccc8fc9e4c22d7603e2d714d1a953a146f51ea7397d95c955536ec",
+    "mapped_class": "net.minecraft.server.level.ServerPlayer",
+    "class_path": "aqv.class",
+    "class_sha256": "dd2eda5581be45c53d2d692b7184c25f0cb4a7725b3ed84f2a558920e82fef52",
+    "methods": [
+      {
+        "mapped_name": "findRespawnPositionAndUseSpawnBlock",
+        "mapping_line": "827:841:net.minecraft.world.level.portal.DimensionTransition findRespawnPositionAndUseSpawnBlock(boolean,net.minecraft.world.level.portal.DimensionTransition$PostDimensionTransition) -> a",
+        "name": "a",
+        "descriptor": "(ZLeqc$a;)Leqc;",
+        "code_hex": "2ab605784e2ab6057b38042ab6057d36052ab401192ab60580b605833a061906c6004c2dc6004819062d170415051bb805863a071907b605899900261907b6058bc000073a08bb001f5919061908b6058db201011908b6058f0b2cb70592b02ab40119b605942a2cb80597b0bb001f592ab40119b605942a2cb7059ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 182,
+            "member": [
+              "aqv",
+              "S",
+              "()Ljd;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 78
+          },
+          {
+            "offset": 5,
+            "opcode": 42
+          },
+          {
+            "offset": 6,
+            "opcode": 182,
+            "member": [
+              "aqv",
+              "T",
+              "()F"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 56,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 42
+          },
+          {
+            "offset": 12,
+            "opcode": 182,
+            "member": [
+              "aqv",
+              "V",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 54,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 42
+          },
+          {
+            "offset": 18,
+            "opcode": 180,
+            "member": [
+              "aqv",
+              "d",
+              "Lnet/minecraft/server/MinecraftServer;"
+            ]
+          },
+          {
+            "offset": 21,
+            "opcode": 42
+          },
+          {
+            "offset": 22,
+            "opcode": 182,
+            "member": [
+              "aqv",
+              "U",
+              "()Lakq;"
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/server/MinecraftServer",
+              "a",
+              "(Lakq;)Laqu;"
+            ]
+          },
+          {
+            "offset": 28,
+            "opcode": 58,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 32,
+            "opcode": 198,
+            "operands": [
+              0,
+              76
+            ]
+          },
+          {
+            "offset": 35,
+            "opcode": 45
+          },
+          {
+            "offset": 36,
+            "opcode": 198,
+            "operands": [
+              0,
+              72
+            ]
+          },
+          {
+            "offset": 39,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 41,
+            "opcode": 45
+          },
+          {
+            "offset": 42,
+            "opcode": 23,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 44,
+            "opcode": 21,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 46,
+            "opcode": 27
+          },
+          {
+            "offset": 47,
+            "opcode": 184,
+            "member": [
+              "aqv",
+              "a",
+              "(Laqu;Ljd;FZZ)Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 50,
+            "opcode": 58,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 52,
+            "opcode": 25,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 54,
+            "opcode": 182,
+            "member": [
+              "java/util/Optional",
+              "isPresent",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 57,
+            "opcode": 153,
+            "operands": [
+              0,
+              38
+            ]
+          },
+          {
+            "offset": 60,
+            "opcode": 25,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 62,
+            "opcode": 182,
+            "member": [
+              "java/util/Optional",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 65,
+            "opcode": 192,
+            "operands": [
+              0,
+              7
+            ]
+          },
+          {
+            "offset": 68,
+            "opcode": 58,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 70,
+            "opcode": 187,
+            "operands": [
+              0,
+              31
+            ]
+          },
+          {
+            "offset": 73,
+            "opcode": 89
+          },
+          {
+            "offset": 74,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 76,
+            "opcode": 25,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 78,
+            "opcode": 182,
+            "member": [
+              "aqv$a",
+              "a",
+              "()Lexc;"
+            ]
+          },
+          {
+            "offset": 81,
+            "opcode": 178,
+            "member": [
+              "exc",
+              "b",
+              "Lexc;"
+            ]
+          },
+          {
+            "offset": 84,
+            "opcode": 25,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 182,
+            "member": [
+              "aqv$a",
+              "b",
+              "()F"
+            ]
+          },
+          {
+            "offset": 89,
+            "opcode": 11
+          },
+          {
+            "offset": 90,
+            "opcode": 44
+          },
+          {
+            "offset": 91,
+            "opcode": 183,
+            "member": [
+              "eqc",
+              "<init>",
+              "(Laqu;Lexc;Lexc;FFLeqc$a;)V"
+            ]
+          },
+          {
+            "offset": 94,
+            "opcode": 176
+          },
+          {
+            "offset": 95,
+            "opcode": 42
+          },
+          {
+            "offset": 96,
+            "opcode": 180,
+            "member": [
+              "aqv",
+              "d",
+              "Lnet/minecraft/server/MinecraftServer;"
+            ]
+          },
+          {
+            "offset": 99,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/server/MinecraftServer",
+              "I",
+              "()Laqu;"
+            ]
+          },
+          {
+            "offset": 102,
+            "opcode": 42
+          },
+          {
+            "offset": 103,
+            "opcode": 44
+          },
+          {
+            "offset": 104,
+            "opcode": 184,
+            "member": [
+              "eqc",
+              "a",
+              "(Laqu;Lbsr;Leqc$a;)Leqc;"
+            ]
+          },
+          {
+            "offset": 107,
+            "opcode": 176
+          },
+          {
+            "offset": 108,
+            "opcode": 187,
+            "operands": [
+              0,
+              31
+            ]
+          },
+          {
+            "offset": 111,
+            "opcode": 89
+          },
+          {
+            "offset": 112,
+            "opcode": 42
+          },
+          {
+            "offset": 113,
+            "opcode": 180,
+            "member": [
+              "aqv",
+              "d",
+              "Lnet/minecraft/server/MinecraftServer;"
+            ]
+          },
+          {
+            "offset": 116,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/server/MinecraftServer",
+              "I",
+              "()Laqu;"
+            ]
+          },
+          {
+            "offset": 119,
+            "opcode": 42
+          },
+          {
+            "offset": 120,
+            "opcode": 44
+          },
+          {
+            "offset": 121,
+            "opcode": 183,
+            "member": [
+              "eqc",
+              "<init>",
+              "(Laqu;Lbsr;Leqc$a;)V"
+            ]
+          },
+          {
+            "offset": 124,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "mapped_name": "findRespawnAndUseSpawnBlock",
+        "mapping_line": "857:885:java.util.Optional findRespawnAndUseSpawnBlock(net.minecraft.server.level.ServerLevel,net.minecraft.core.BlockPos,float,boolean,boolean) -> a",
+        "name": "a",
+        "descriptor": "(Laqu;Ljd;FZZ)Ljava/util/Optional;",
+        "code_hex": "2a2bb605a33a051905b605a83a061906c105aa99006b1d9a00141905b205adb605b0c005b2b605b59e00562ab805ba99004fb205c02a2bb805c33a071d9a003515049a00301907b605899900282a2b1905b205ad1905b205adb605b0c005b2b605b50464b805c7b605cac005a506b605cd5719072bba05d80000b605dcb01906c105de9900282ab805df990021b205c02a2b1905b205e3b605b0c005e524b805e82bba05ec0000b605dcb01d9a0007b805f0b019061905b605f336072a2bb601abb605a33a081908b605a81908b605f3360915079900361509990031bb000759bb00ff592bb6017c871405f4632bb601a6871405f6632bb6017f871405f463b7021f24b705fab804edb0b805f0b0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 182,
+            "member": [
+              "aqu",
+              "a_",
+              "(Ljd;)Ldtc;"
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 58,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 182,
+            "member": [
+              "dtc",
+              "b",
+              "()Ldfy;"
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 58,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 193,
+            "operands": [
+              5,
+              170
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 153,
+            "operands": [
+              0,
+              107
+            ]
+          },
+          {
+            "offset": 22,
+            "opcode": 29
+          },
+          {
+            "offset": 23,
+            "opcode": 154,
+            "operands": [
+              0,
+              20
+            ]
+          },
+          {
+            "offset": 26,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 28,
+            "opcode": 178,
+            "member": [
+              "dmh",
+              "d",
+              "Lduc;"
+            ]
+          },
+          {
+            "offset": 31,
+            "opcode": 182,
+            "member": [
+              "dtc",
+              "c",
+              "(Lduf;)Ljava/lang/Comparable;"
+            ]
+          },
+          {
+            "offset": 34,
+            "opcode": 192,
+            "operands": [
+              5,
+              178
+            ]
+          },
+          {
+            "offset": 37,
+            "opcode": 182,
+            "member": [
+              "java/lang/Integer",
+              "intValue",
+              "()I"
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 158,
+            "operands": [
+              0,
+              86
+            ]
+          },
+          {
+            "offset": 43,
+            "opcode": 42
+          },
+          {
+            "offset": 44,
+            "opcode": 184,
+            "member": [
+              "dmh",
+              "a",
+              "(Ldcw;)Z"
+            ]
+          },
+          {
+            "offset": 47,
+            "opcode": 153,
+            "operands": [
+              0,
+              79
+            ]
+          },
+          {
+            "offset": 50,
+            "opcode": 178,
+            "member": [
+              "bsx",
+              "by",
+              "Lbsx;"
+            ]
+          },
+          {
+            "offset": 53,
+            "opcode": 42
+          },
+          {
+            "offset": 54,
+            "opcode": 43
+          },
+          {
+            "offset": 55,
+            "opcode": 184,
+            "member": [
+              "dmh",
+              "a",
+              "(Lbsx;Ldcg;Ljd;)Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 58,
+            "opcode": 58,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 60,
+            "opcode": 29
+          },
+          {
+            "offset": 61,
+            "opcode": 154,
+            "operands": [
+              0,
+              53
+            ]
+          },
+          {
+            "offset": 64,
+            "opcode": 21,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 66,
+            "opcode": 154,
+            "operands": [
+              0,
+              48
+            ]
+          },
+          {
+            "offset": 69,
+            "opcode": 25,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 71,
+            "opcode": 182,
+            "member": [
+              "java/util/Optional",
+              "isPresent",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 74,
+            "opcode": 153,
+            "operands": [
+              0,
+              40
+            ]
+          },
+          {
+            "offset": 77,
+            "opcode": 42
+          },
+          {
+            "offset": 78,
+            "opcode": 43
+          },
+          {
+            "offset": 79,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 81,
+            "opcode": 178,
+            "member": [
+              "dmh",
+              "d",
+              "Lduc;"
+            ]
+          },
+          {
+            "offset": 84,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 178,
+            "member": [
+              "dmh",
+              "d",
+              "Lduc;"
+            ]
+          },
+          {
+            "offset": 89,
+            "opcode": 182,
+            "member": [
+              "dtc",
+              "c",
+              "(Lduf;)Ljava/lang/Comparable;"
+            ]
+          },
+          {
+            "offset": 92,
+            "opcode": 192,
+            "operands": [
+              5,
+              178
+            ]
+          },
+          {
+            "offset": 95,
+            "opcode": 182,
+            "member": [
+              "java/lang/Integer",
+              "intValue",
+              "()I"
+            ]
+          },
+          {
+            "offset": 98,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 99,
+            "opcode": 100
+          },
+          {
+            "offset": 100,
+            "opcode": 184,
+            "member": [
+              "java/lang/Integer",
+              "valueOf",
+              "(I)Ljava/lang/Integer;"
+            ]
+          },
+          {
+            "offset": 103,
+            "opcode": 182,
+            "member": [
+              "dtc",
+              "a",
+              "(Lduf;Ljava/lang/Comparable;)Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 106,
+            "opcode": 192,
+            "operands": [
+              5,
+              165
+            ]
+          },
+          {
+            "offset": 109,
+            "opcode": 6,
+            "constant": 3
+          },
+          {
+            "offset": 110,
+            "opcode": 182,
+            "member": [
+              "aqu",
+              "a",
+              "(Ljd;Ldtc;I)Z"
+            ]
+          },
+          {
+            "offset": 113,
+            "opcode": 87
+          },
+          {
+            "offset": 114,
+            "opcode": 25,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 116,
+            "opcode": 43
+          },
+          {
+            "offset": 117,
+            "opcode": 186,
+            "operands": [
+              5,
+              216,
+              0,
+              0
+            ]
+          },
+          {
+            "offset": 122,
+            "opcode": 182,
+            "member": [
+              "java/util/Optional",
+              "map",
+              "(Ljava/util/function/Function;)Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 125,
+            "opcode": 176
+          },
+          {
+            "offset": 126,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 128,
+            "opcode": 193,
+            "operands": [
+              5,
+              222
+            ]
+          },
+          {
+            "offset": 131,
+            "opcode": 153,
+            "operands": [
+              0,
+              40
+            ]
+          },
+          {
+            "offset": 134,
+            "opcode": 42
+          },
+          {
+            "offset": 135,
+            "opcode": 184,
+            "member": [
+              "dfr",
+              "a",
+              "(Ldcw;)Z"
+            ]
+          },
+          {
+            "offset": 138,
+            "opcode": 153,
+            "operands": [
+              0,
+              33
+            ]
+          },
+          {
+            "offset": 141,
+            "opcode": 178,
+            "member": [
+              "bsx",
+              "by",
+              "Lbsx;"
+            ]
+          },
+          {
+            "offset": 144,
+            "opcode": 42
+          },
+          {
+            "offset": 145,
+            "opcode": 43
+          },
+          {
+            "offset": 146,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 148,
+            "opcode": 178,
+            "member": [
+              "dfr",
+              "aE",
+              "Ldtw;"
+            ]
+          },
+          {
+            "offset": 151,
+            "opcode": 182,
+            "member": [
+              "dtc",
+              "c",
+              "(Lduf;)Ljava/lang/Comparable;"
+            ]
+          },
+          {
+            "offset": 154,
+            "opcode": 192,
+            "operands": [
+              5,
+              229
+            ]
+          },
+          {
+            "offset": 157,
+            "opcode": 36
+          },
+          {
+            "offset": 158,
+            "opcode": 184,
+            "member": [
+              "dfr",
+              "a",
+              "(Lbsx;Ldcg;Ljd;Lji;F)Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 161,
+            "opcode": 43
+          },
+          {
+            "offset": 162,
+            "opcode": 186,
+            "operands": [
+              5,
+              236,
+              0,
+              0
+            ]
+          },
+          {
+            "offset": 167,
+            "opcode": 182,
+            "member": [
+              "java/util/Optional",
+              "map",
+              "(Ljava/util/function/Function;)Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 170,
+            "opcode": 176
+          },
+          {
+            "offset": 171,
+            "opcode": 29
+          },
+          {
+            "offset": 172,
+            "opcode": 154,
+            "operands": [
+              0,
+              7
+            ]
+          },
+          {
+            "offset": 175,
+            "opcode": 184,
+            "member": [
+              "java/util/Optional",
+              "empty",
+              "()Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 178,
+            "opcode": 176
+          },
+          {
+            "offset": 179,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 181,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 183,
+            "opcode": 182,
+            "member": [
+              "dfy",
+              "a",
+              "(Ldtc;)Z"
+            ]
+          },
+          {
+            "offset": 186,
+            "opcode": 54,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 188,
+            "opcode": 42
+          },
+          {
+            "offset": 189,
+            "opcode": 43
+          },
+          {
+            "offset": 190,
+            "opcode": 182,
+            "member": [
+              "jd",
+              "d",
+              "()Ljd;"
+            ]
+          },
+          {
+            "offset": 193,
+            "opcode": 182,
+            "member": [
+              "aqu",
+              "a_",
+              "(Ljd;)Ldtc;"
+            ]
+          },
+          {
+            "offset": 196,
+            "opcode": 58,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 198,
+            "opcode": 25,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 200,
+            "opcode": 182,
+            "member": [
+              "dtc",
+              "b",
+              "()Ldfy;"
+            ]
+          },
+          {
+            "offset": 203,
+            "opcode": 25,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 205,
+            "opcode": 182,
+            "member": [
+              "dfy",
+              "a",
+              "(Ldtc;)Z"
+            ]
+          },
+          {
+            "offset": 208,
+            "opcode": 54,
+            "operands": [
+              9
+            ]
+          },
+          {
+            "offset": 210,
+            "opcode": 21,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 212,
+            "opcode": 153,
+            "operands": [
+              0,
+              54
+            ]
+          },
+          {
+            "offset": 215,
+            "opcode": 21,
+            "operands": [
+              9
+            ]
+          },
+          {
+            "offset": 217,
+            "opcode": 153,
+            "operands": [
+              0,
+              49
+            ]
+          },
+          {
+            "offset": 220,
+            "opcode": 187,
+            "operands": [
+              0,
+              7
+            ]
+          },
+          {
+            "offset": 223,
+            "opcode": 89
+          },
+          {
+            "offset": 224,
+            "opcode": 187,
+            "operands": [
+              0,
+              255
+            ]
+          },
+          {
+            "offset": 227,
+            "opcode": 89
+          },
+          {
+            "offset": 228,
+            "opcode": 43
+          },
+          {
+            "offset": 229,
+            "opcode": 182,
+            "member": [
+              "jd",
+              "u",
+              "()I"
+            ]
+          },
+          {
+            "offset": 232,
+            "opcode": 135
+          },
+          {
+            "offset": 233,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 236,
+            "opcode": 99
+          },
+          {
+            "offset": 237,
+            "opcode": 43
+          },
+          {
+            "offset": 238,
+            "opcode": 182,
+            "member": [
+              "jd",
+              "v",
+              "()I"
+            ]
+          },
+          {
+            "offset": 241,
+            "opcode": 135
+          },
+          {
+            "offset": 242,
+            "opcode": 20,
+            "constant": 0.1
+          },
+          {
+            "offset": 245,
+            "opcode": 99
+          },
+          {
+            "offset": 246,
+            "opcode": 43
+          },
+          {
+            "offset": 247,
+            "opcode": 182,
+            "member": [
+              "jd",
+              "w",
+              "()I"
+            ]
+          },
+          {
+            "offset": 250,
+            "opcode": 135
+          },
+          {
+            "offset": 251,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 254,
+            "opcode": 99
+          },
+          {
+            "offset": 255,
+            "opcode": 183,
+            "member": [
+              "exc",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 258,
+            "opcode": 36
+          },
+          {
+            "offset": 259,
+            "opcode": 183,
+            "member": [
+              "aqv$a",
+              "<init>",
+              "(Lexc;F)V"
+            ]
+          },
+          {
+            "offset": 262,
+            "opcode": 184,
+            "member": [
+              "java/util/Optional",
+              "of",
+              "(Ljava/lang/Object;)Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 265,
+            "opcode": 176
+          },
+          {
+            "offset": 266,
+            "opcode": 184,
+            "member": [
+              "java/util/Optional",
+              "empty",
+              "()Ljava/util/Optional;"
+            ]
+          },
+          {
+            "offset": 269,
+            "opcode": 176
+          }
+        ]
+      }
+    ]
+  },
+  "data_scan": {
+    "json_resources": 3929,
+    "item_id_references": [],
+    "scope": "Literal item IDs in shipped data JSON only;absence does not rule out code-side,trade,command or modpack acquisition."
+  },
+  "start_cases": [
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": true
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": true
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": true
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": true
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": true
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": false,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": false,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": false,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": false,
+      "same_respawn_dimension": true,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": false,
+      "allowed": false
+    },
+    {
+      "dead": true,
+      "nowhere": true,
+      "server_player": true,
+      "has_respawn_position": true,
+      "same_respawn_dimension": true,
+      "allowed": false
+    }
+  ],
+  "finish_cases": [
+    {
+      "server_player": false,
+      "same_respawn_dimension": false,
+      "transition_same_level": false,
+      "teleport_branch": false
+    },
+    {
+      "server_player": false,
+      "same_respawn_dimension": false,
+      "transition_same_level": true,
+      "teleport_branch": false
+    },
+    {
+      "server_player": false,
+      "same_respawn_dimension": true,
+      "transition_same_level": false,
+      "teleport_branch": false
+    },
+    {
+      "server_player": false,
+      "same_respawn_dimension": true,
+      "transition_same_level": true,
+      "teleport_branch": false
+    },
+    {
+      "server_player": true,
+      "same_respawn_dimension": false,
+      "transition_same_level": false,
+      "teleport_branch": false
+    },
+    {
+      "server_player": true,
+      "same_respawn_dimension": false,
+      "transition_same_level": true,
+      "teleport_branch": false
+    },
+    {
+      "server_player": true,
+      "same_respawn_dimension": true,
+      "transition_same_level": false,
+      "teleport_branch": false
+    },
+    {
+      "server_player": true,
+      "same_respawn_dimension": true,
+      "transition_same_level": true,
+      "teleport_branch": true
+    }
+  ],
+  "vanilla_anchor_decrement_cases": [
+    {
+      "forced": false,
+      "caller_boolean": false,
+      "position_found": false,
+      "decrement_branch": false
+    },
+    {
+      "forced": false,
+      "caller_boolean": false,
+      "position_found": true,
+      "decrement_branch": true
+    },
+    {
+      "forced": false,
+      "caller_boolean": true,
+      "position_found": false,
+      "decrement_branch": false
+    },
+    {
+      "forced": false,
+      "caller_boolean": true,
+      "position_found": true,
+      "decrement_branch": false
+    },
+    {
+      "forced": true,
+      "caller_boolean": false,
+      "position_found": false,
+      "decrement_branch": false
+    },
+    {
+      "forced": true,
+      "caller_boolean": false,
+      "position_found": true,
+      "decrement_branch": false
+    },
+    {
+      "forced": true,
+      "caller_boolean": true,
+      "position_found": false,
+      "decrement_branch": false
+    },
+    {
+      "forced": true,
+      "caller_boolean": true,
+      "position_found": true,
+      "decrement_branch": false
+    }
+  ],
+  "limits": [
+    "AnchoringCrystal passes true into the vanilla respawn helper;the corresponding vanilla anchor-charge decrement branch is skipped, but loader patches/events remain separate",
+    "A same-dimension respawn setting is required at start;the eventual event-adjusted transition must still target the current level",
+    "Invalid saved spawn points can invoke vanilla fallback;the crystal is not a guaranteed return to an exact bed coordinate",
+    "TemporalAnvil constructs the ordinary AnvilMenu and customizes output-take sound, not the XP formula",
+    "No world edits,teleports or menu transactions were performed"
+  ],
+  "enchantment_exclusions": {
+    "path": "data/aoa3/tags/enchantment/artifice_tool_incompatible.json",
+    "sha256": "23f72d22dc08fe8c2fed5a9bb800d6c00eadb46360fa66cc0bc87c6a3b678633",
+    "definition": {
+      "values": [
+        "minecraft:unbreaking",
+        "minecraft:mending"
+      ]
+    }
+  },
+  "registry_initialization_reference": {
+    "source": "common/registration/AoARegistries.java",
+    "sha256": "a93a8296157c3ec5b3cd9f0396c0942d1b30dad25c9803185b76ba3c70c42b3d",
+    "line": "public static final RegistryHelper<Item> ITEMS = new RegistryHelper<>(Registries.ITEM, (registryKey, modId) -> DeferredRegister.createItems(modId), AoAItems::init, AoAWeapons::init, AoATools::init, AoAArtificeDevices::init, AoAArmour::init);"
+  }
+}

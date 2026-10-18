@@ -91,3 +91,7 @@ These are proposed target-build checks, not claims that the user's private Ender
 - [1.16.5 realmstone progression](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Realmstone-Progression-Walkthrough-1.16.5)
 
 Original AoA artwork and behavior by Tslat and contributors. Static archive inspection and documentation models only; no game or mod code was executed.
+
+## Saved-spawn utility and portable repair
+
+[Temporal Anvil and Anchoring Crystal](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Portable-Artifice-Anvil-and-Respawn-1.21.1) covers the ordinary anvil-menu request and the crystal’s delayed, same-dimension saved-spawn workflow. It explains Nowhere restrictions, invalid-spawn fallback limits and why no crafting route is assumed.
