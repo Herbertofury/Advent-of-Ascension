@@ -1,0 +1,3207 @@
+{
+  "archive_sha256": "43c0884bf721f8d746b1b8d5d4e8153153ca386cdac3878db3a182e044e7af93",
+  "bytes": 61488777,
+  "file_count": 2155,
+  "displays": 57,
+  "records": [
+    {
+      "display": "assets/zeta/display/guns/ac7_display.json",
+      "model": "assets/zeta/geo_models/gun/ac7_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ac7.png",
+      "model_sha256": "de29882ed47935d33010d42293705094667f956c7be4ab81b0701c23ef22ccf4",
+      "bones": 51,
+      "cubes": 420,
+      "planes": 0,
+      "rotated_cubes": 268,
+      "uv": [
+        512,
+        512
+      ],
+      "image": [
+        1024,
+        1024
+      ],
+      "animation": "assets/zeta/animations/ac7.animation.json",
+      "clip_names": [
+        "static_idle",
+        "shoot",
+        "draw",
+        "put_away",
+        "inspect",
+        "reload_empty",
+        "reload_tactical",
+        "static_empty"
+      ],
+      "clip_count": 8,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ac7_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ac7_lod.png",
+          "exists": true
+        },
+        "bones": 32,
+        "cubes": 189
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/apw1_display.json",
+      "model": "assets/zeta/geo_models/gun/apw1_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/apw1.png",
+      "model_sha256": "ad003799a1efb41a58075012195cacdedc41db77dfefeb67ba483067c519ea48",
+      "bones": 125,
+      "cubes": 789,
+      "planes": 0,
+      "rotated_cubes": 527,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/apw1.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "bipod_draw",
+        "reload_tactical",
+        "reload_bipod_tactical",
+        "put_away",
+        "bipod_put_away",
+        "reload_empty",
+        "reload_bipod_empty",
+        "inspect",
+        "shoot",
+        "shoot_bipod",
+        "inspect_empty",
+        "bipod_start",
+        "bipod_end",
+        "bipod"
+      ],
+      "clip_count": 16,
+      "state_machine": "zeta:apw1_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/ar21_display.json",
+      "model": "assets/zeta/geo_models/gun/ar21_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ar21.png",
+      "model_sha256": "e1d815385380e5c63af9ad5903b88c3aa3c8067a5106bea133af2211fffe656d",
+      "bones": 62,
+      "cubes": 730,
+      "planes": 3,
+      "rotated_cubes": 504,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/ar21.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_auto",
+        "switch_semi",
+        "switch_auto",
+        "switch_gl",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "static_gl_idle",
+        "static_gl_bolt_caught",
+        "inspect_gl",
+        "inspect_gl_empty",
+        "reload_gl_empty",
+        "reload_gl_tactical",
+        "draw_gl",
+        "put_away_gl",
+        "shoot_gl",
+        "static_bolt_normal",
+        "shoot"
+      ],
+      "clip_count": 23,
+      "state_machine": "zeta:ar21_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ar21_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ar21_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 10
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/ar2_display.json",
+      "model": "assets/zeta/geo_models/gun/ar2_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ar2.png",
+      "model_sha256": "174b8c32c555095a96a8b0d13f3b56d99154dc8b38650cf2af0c62fc0918fd5a",
+      "bones": 110,
+      "cubes": 767,
+      "planes": 24,
+      "rotated_cubes": 520,
+      "uv": [
+        512,
+        512
+      ],
+      "image": [
+        512,
+        512
+      ],
+      "animation": "assets/zeta/animations/ar2.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "reload_tactical",
+        "inspect",
+        "inspect_empty",
+        "put_away",
+        "reload_empty",
+        "shoot",
+        "switch_semi",
+        "switch_auto",
+        "static_auto",
+        "static_semi"
+      ],
+      "clip_count": 12,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ar2_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ar2_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 13
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/ar32_display.json",
+      "model": "assets/zeta/geo_models/gun/ar32_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ar32.png",
+      "model_sha256": "83aaa0b3d77899e63f019473a645a5d0febc86786c53d954bab11c45a06e018e",
+      "bones": 47,
+      "cubes": 697,
+      "planes": 0,
+      "rotated_cubes": 468,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/ar32.animation.json",
+      "clip_names": [
+        "static_idle",
+        "VG_offset_idle",
+        "A45DFG_offset_idle",
+        "out_of_mag",
+        "reload_empty",
+        "VG_offset_reload_empty",
+        "A45DFG_offset_reload_empty",
+        "reload_follow",
+        "reload_tactical",
+        "VG_offset_reload_tactical",
+        "A45DFG_offset_reload_tactical",
+        "reload_continue",
+        "static_bolt_caught",
+        "shoot",
+        "draw",
+        "put_away",
+        "VG_offset_put_away",
+        "A45DFG_offset_put_away",
+        "put_away_out_of_mag",
+        "switch_semi",
+        "switch_auto",
+        "switch_burst",
+        "static_semi",
+        "static_auto",
+        "static_burst",
+        "inspect",
+        "VG_offset_inspect",
+        "A45DFG_offset_inspect",
+        "inspect_empty",
+        "VG_offset_inspect_empty",
+        "inspect_out_of_mag",
+        "inspect_out_of_mag_empty",
+        "A45DFG_offset_inspect_out_of_mag"
+      ],
+      "clip_count": 33,
+      "state_machine": "zeta:foxtail_kinetic_core_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ar32_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ar32_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 16
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/ar59_display.json",
+      "model": "assets/zeta/geo_models/gun/ar59_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ar59.png",
+      "model_sha256": "541718c62adfef89a79fa020db6584e292256422e4e76da98d73c608e46e0f1b",
+      "bones": 54,
+      "cubes": 915,
+      "planes": 0,
+      "rotated_cubes": 774,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/ar59.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_continue",
+        "reload_empty",
+        "reload_follow",
+        "inspect",
+        "inspect_empty",
+        "out_of_mag",
+        "inspect_out_of_mag",
+        "inspect_out_of_mag_empty",
+        "VG_offset_idle",
+        "A45DFG_offset_idle",
+        "VG_offset_reload_empty",
+        "A45DFG_offset_reload_empty",
+        "VG_offset_reload_tactical",
+        "A45DFG_offset_reload_tactical",
+        "VG_offset_put_away",
+        "A45DFG_offset_put_away",
+        "VG_offset_inspect",
+        "A45DFG_offset_inspect",
+        "shoot",
+        "VG_offset_inspect_empty",
+        "A45DFG_offset_inspect_empty"
+      ],
+      "clip_count": 26,
+      "state_machine": "zeta:foxtail_kinetic_core_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ar59_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ar59_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 12
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/ar61_display.json",
+      "model": "assets/zeta/geo_models/gun/ar61_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ar61.png",
+      "model_sha256": "6ab257dff55dfd375631034824bb644df0e79023c2f2482493f583f89f5edd8e",
+      "bones": 48,
+      "cubes": 507,
+      "planes": 0,
+      "rotated_cubes": 289,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/ar61.animation.json",
+      "clip_names": [
+        "static_idle",
+        "out_of_mag",
+        "reload_tactical",
+        "reload_empty",
+        "reload_follow",
+        "inspect_empty",
+        "inspect",
+        "put_away",
+        "draw",
+        "static_bolt_caught",
+        "shoot",
+        "inspect_out_of_mag_empty",
+        "put_away_out_of_mag"
+      ],
+      "clip_count": 13,
+      "state_machine": "zeta:foxtail_kinetic_core_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ar61_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ar61_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 14
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/arc12_display.json",
+      "model": "assets/zeta/geo_models/gun/arc12_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/arc12.png",
+      "model_sha256": "20ef0b1179b601e892a4e541da6a3bcbb1ce254bfe96591b233d8732a0db46dd",
+      "bones": 41,
+      "cubes": 624,
+      "planes": 0,
+      "rotated_cubes": 497,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/arc12.animation.json",
+      "clip_names": [
+        "shoot",
+        "static_idle",
+        "bolt",
+        "put_away",
+        "draw",
+        "static_bolt_caught",
+        "inspect",
+        "inspect_empty",
+        "random_angle",
+        "random_scale",
+        "aim"
+      ],
+      "clip_count": 11,
+      "state_machine": "zeta:arc12_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/arc12_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/arc12_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 28
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/arc3_display.json",
+      "model": "assets/zeta/geo_models/gun/arc3_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/arc3.png",
+      "model_sha256": "0dd559461aa5ce161bd15222a06f8a43bde423e917b134feaa8465c1b5cc5e24",
+      "bones": 48,
+      "cubes": 578,
+      "planes": 1,
+      "rotated_cubes": 385,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/arc3.animation.json",
+      "clip_names": [
+        "animation",
+        "static_idle",
+        "draw",
+        "put_away",
+        "inspect",
+        "shoot",
+        "charge_spin",
+        "charge_start",
+        "charge_in",
+        "charge",
+        "charging",
+        "static_idle2",
+        "offset2",
+        "expand_ending_delete",
+        "charge_out",
+        "offset",
+        "offset_invert"
+      ],
+      "clip_count": 17,
+      "state_machine": "zeta:arc3_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/arc3_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/arc3_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 35
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/br_14_display.json",
+      "model": "assets/zeta/geo_models/gun/br_14_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/br_14.png",
+      "model_sha256": "63abe768c58fcad5106ac658336e4b19974a8316d2c45deca2efac338badee1a",
+      "bones": 50,
+      "cubes": 608,
+      "planes": 0,
+      "rotated_cubes": 413,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/br_14.animation.json",
+      "clip_names": [
+        "static_idle",
+        "VG_offset_idle",
+        "out_of_mag",
+        "put_away",
+        "VG_offset_put_away",
+        "put_away_out_of_mag",
+        "draw",
+        "reload_tactical",
+        "VG_offset_reload_tactical",
+        "reload_continue",
+        "VG_offset_reload_continue",
+        "reload_empty",
+        "VG_offset_reload_empty",
+        "reload_follow",
+        "VG_offset_reload_follow",
+        "inspect",
+        "VG_offset_inspect",
+        "inspect_empty",
+        "VG_offset_inspect_empty",
+        "reload_tactical_xmag_1",
+        "VG_offset_reload_tactical_xmag_1",
+        "reload_tactical_xmag_2",
+        "reload_tactical_xmag_3",
+        "reload_continue_xmag_1",
+        "VG_offset_reload_continue_xmag_1",
+        "reload_continue_xmag_2",
+        "reload_continue_xmag_3",
+        "reload_empty_xmag_1",
+        "VG_offset_reload_empty_xmag_1",
+        "reload_empty_xmag_2",
+        "reload_empty_xmag_3",
+        "reload_follow_xmag_1",
+        "VG_offset_reload_follow_xmag_1",
+        "reload_follow_xmag_2",
+        "reload_follow_xmag_3",
+        "inspect_xmag",
+        "inspect_empty_xmag",
+        "static_semi",
+        "static_auto",
+        "switch_semi",
+        "switch_auto",
+        "shoot",
+        "inspect_out_of_mag_empty",
+        "VG_offset_inspect_out_of_mag_empty",
+        "inspect_out_of_mag",
+        "VG_offset_inspect_out_of_mag",
+        "VG_offset_reload_tactical_xmag_2",
+        "VG_offset_reload_tactical_xmag_3",
+        "VG_offset_reload_continue_xmag_2",
+        "VG_offset_reload_continue_xmag_3",
+        "VG_offset_reload_empty_xmag_2",
+        "VG_offset_reload_empty_xmag_3",
+        "VG_offset_reload_follow_xmag_2",
+        "VG_offset_reload_follow_xmag_3"
+      ],
+      "clip_count": 54,
+      "state_machine": "zeta:foxtail_kinetic_core_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/br_14_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/br_14_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 12
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/cqc30_display.json",
+      "model": "assets/zeta/geo_models/gun/cqc30_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/cqc30.png",
+      "model_sha256": "481a21b57d577c40c70d1db5d2ac9013f6dd729adb268199691f825ff5a91e1b",
+      "bones": 42,
+      "cubes": 462,
+      "planes": 0,
+      "rotated_cubes": 377,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        128,
+        128
+      ],
+      "animation": "assets/zeta/animations/cqc30.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "shoot_1",
+        "shoot_2",
+        "melee_stock",
+        "aim",
+        "aim_end",
+        "aim_start",
+        "random_layer_1",
+        "random_layer_2",
+        "hide_left_hand"
+      ],
+      "clip_count": 12,
+      "state_machine": "zeta:melee_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/cqc30_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/cqc30_lod.png",
+          "exists": true
+        },
+        "bones": 8,
+        "cubes": 7
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/crossbow_display.json",
+      "model": "assets/zeta/geo_models/gun/crossbow_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/crossbow.png",
+      "model_sha256": "2a1e9d065aab3c933ac8a9008160b8aa6c4185d56097e84be3d38cc8d7a381f9",
+      "bones": 63,
+      "cubes": 810,
+      "planes": 0,
+      "rotated_cubes": 670,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        128,
+        128
+      ],
+      "animation": "assets/zeta/animations/crossbow.animation.json",
+      "clip_names": [
+        "static_idle",
+        "shoot",
+        "reload_tactical",
+        "draw",
+        "put_away",
+        "inspect",
+        "static_bolt_caught",
+        "reload_empty",
+        "static_ammo_display",
+        "inspect_empty"
+      ],
+      "clip_count": 10,
+      "state_machine": "zeta:crossbow_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/crossbow_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/crossbow_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 20
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/dbs2_display.json",
+      "model": "assets/zeta/geo_models/gun/dbs2_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/dbs2.png",
+      "model_sha256": "1d004a7af480e286e02218e885634492bc76ccd49edc7cb097039085b5e8c62d",
+      "bones": 38,
+      "cubes": 763,
+      "planes": 0,
+      "rotated_cubes": 644,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/dbs2.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "reload_empty",
+        "reload_tactical",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "hammer"
+      ],
+      "clip_count": 9,
+      "state_machine": "zeta:dbs2_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/dbs2_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/dbs2_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 12
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/eat411_display.json",
+      "model": "assets/zeta/geo_models/gun/eat411_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/eat411.png",
+      "model_sha256": "968a0ef921d40d933c26fefc8eb4116ad8181409326f79b46ad7d5e0bee0cbf5",
+      "bones": 74,
+      "cubes": 476,
+      "planes": 0,
+      "rotated_cubes": 370,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/eat411.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "inspect_empty",
+        "inspect",
+        "shoot",
+        "draw",
+        "put_away",
+        "reload_empty"
+      ],
+      "clip_count": 8,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/eat411_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/eat411_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 20
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/flam66_display.json",
+      "model": "assets/zeta/geo_models/gun/flam66_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/flam66.png",
+      "model_sha256": "1e4f1cc6fea03415b87d9253d062b73b927cd3d596093bf1d57c78998b174b0d",
+      "bones": 30,
+      "cubes": 971,
+      "planes": 102,
+      "rotated_cubes": 771,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/flam66.animation.json",
+      "clip_names": [
+        "static_idle",
+        "charge",
+        "burning",
+        "fire_out",
+        "charge_in",
+        "charge_out",
+        "expand_progress",
+        "expand_ending",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "shoot",
+        "inspect_empty",
+        "shoot_loop",
+        "shoot_end",
+        "shoot_loop_end"
+      ],
+      "clip_count": 19,
+      "state_machine": "zeta:torcher_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/gl21_display.json",
+      "model": "assets/zeta/geo_models/gun/gl21_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/gl21.png",
+      "model_sha256": "997562f3cd183a41e0bad813a6e9cdb27f889348deae8d9f8dd519930dd1fdd0",
+      "bones": 124,
+      "cubes": 964,
+      "planes": 0,
+      "rotated_cubes": 719,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/gl21.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_ammo_display",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "static_bolt_caught",
+        "inspect",
+        "inspect_empty",
+        "shoot"
+      ],
+      "clip_count": 10,
+      "state_machine": "zeta:gl21_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/gl21_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/gl21_auto_lod.png",
+          "exists": true
+        },
+        "bones": 125,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/gl28_display.json",
+      "model": "assets/zeta/geo_models/gun/gl28_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/gl28.png",
+      "model_sha256": "e8ab433223f5ff4ee18e115bdf072071d55938b308cc8fd4b8b7972d01b782cf",
+      "bones": 34,
+      "cubes": 1095,
+      "planes": 0,
+      "rotated_cubes": 909,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/gl28.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "inspect",
+        "shoot",
+        "sound_11",
+        "sound_10",
+        "sound_9",
+        "sound_8",
+        "sound_7",
+        "sound_6",
+        "sound_5",
+        "sound_4",
+        "sound_3",
+        "sound_2",
+        "sound_1"
+      ],
+      "clip_count": 16,
+      "state_machine": "zeta:m1000_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/gp31_display.json",
+      "model": "assets/zeta/geo_models/gun/gp31_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/gp31.png",
+      "model_sha256": "bf95e5f671a584a33ff9db79cc6b2eafd2b4e771841d35684476820324781068",
+      "bones": 36,
+      "cubes": 183,
+      "planes": 0,
+      "rotated_cubes": 111,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/gp31.animation.json",
+      "clip_names": [
+        "static_idle",
+        "reload_empty",
+        "shoot",
+        "inspect",
+        "inspect_empty",
+        "melee_push"
+      ],
+      "clip_count": 6,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/gp31_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/gp31_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 9
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/gr8_display.json",
+      "model": "assets/zeta/geo_models/gun/gr8_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/gr8.png",
+      "model_sha256": "16fa08355aea96b0cea9acaad62c8f0e29978b3a331a21d255458ad1f9ed2ce0",
+      "bones": 83,
+      "cubes": 622,
+      "planes": 5,
+      "rotated_cubes": 477,
+      "uv": [
+        256,
+        256
+      ],
+      "image": [
+        512,
+        512
+      ],
+      "animation": "assets/zeta/animations/gr8.animation.json",
+      "clip_names": [
+        "static_idle",
+        "out_of_mag",
+        "shoot",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "inspect_out_of_mag",
+        "inspect_out_of_mag_empty",
+        "static_bolt_caught",
+        "put_away",
+        "put_away_out_of_mag",
+        "draw",
+        "reload_continue",
+        "reload_follow",
+        "reload_end"
+      ],
+      "clip_count": 15,
+      "state_machine": "zeta:foxtail_kinetic_core_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/las12_display.json",
+      "model": "assets/zeta/geo_models/gun/las12_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/las12.png",
+      "model_sha256": "13bc0bcefd59d760cfd6c2e8fa257ed5691ed5a7c4c228032f8889455ee78225",
+      "bones": 44,
+      "cubes": 1299,
+      "planes": 2,
+      "rotated_cubes": 1180,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/las12.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "draw",
+        "put_away",
+        "over_heat",
+        "static_over_heating",
+        "shoot",
+        "lens_lock",
+        "lens_free"
+      ],
+      "clip_count": 13,
+      "state_machine": "zeta:las_5_beam_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/las12_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/las12_lod.png",
+          "exists": true
+        },
+        "bones": 8,
+        "cubes": 44
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/las13_display.json",
+      "model": "assets/zeta/geo_models/gun/las13_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/las13.png",
+      "model_sha256": "07e18aad5d41eeb56a9a6cc9c025a7fb9c0eb32af6145d37e497e6c64c7a4d94",
+      "bones": 59,
+      "cubes": 850,
+      "planes": 6,
+      "rotated_cubes": 734,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/las13.animation.json",
+      "clip_names": [
+        "static_over_heating",
+        "over_heat",
+        "shoot",
+        "random_1_x",
+        "random_1_y",
+        "random_2_x",
+        "random_2_y",
+        "random_3_x",
+        "random_3_y",
+        "random_4_x",
+        "random_4_y",
+        "random_5_x",
+        "random_5_y",
+        "random_6_x",
+        "random_6_y",
+        "test",
+        "static_bolt_caught",
+        "draw",
+        "reload_tactical",
+        "reload_empty",
+        "static_idle",
+        "put_away",
+        "inspect",
+        "inspect_empty"
+      ],
+      "clip_count": 24,
+      "state_machine": "zeta:trident_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/las58_display.json",
+      "model": "assets/zeta/geo_models/gun/las58_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/las58.png",
+      "model_sha256": "795b411c7ecd12e7b2a6c0c91de450f654abd5e48d873d709712e38e22182d49",
+      "bones": 33,
+      "cubes": 401,
+      "planes": 0,
+      "rotated_cubes": 318,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        128,
+        128
+      ],
+      "animation": "assets/zeta/animations/las58.animation.json",
+      "clip_names": [
+        "static_idle",
+        "reload_tactical",
+        "draw",
+        "shoot",
+        "static_bolt_caught",
+        "inspect",
+        "inspect_empty",
+        "reload_empty",
+        "melee_push",
+        "run_start",
+        "run",
+        "run_hold",
+        "run_end"
+      ],
+      "clip_count": 13,
+      "state_machine": "zeta:las_5_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/las58_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/las58_auto_lod.png",
+          "exists": true
+        },
+        "bones": 34,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/las98_display.json",
+      "model": "assets/zeta/geo_models/gun/las98_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/las98.png",
+      "model_sha256": "96c1554d7faca24ff50f53a1c1f5017d2f401f3b9f59f0ddd1919b181141de7d",
+      "bones": 30,
+      "cubes": 749,
+      "planes": 0,
+      "rotated_cubes": 578,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/las98.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_empty",
+        "put_away",
+        "draw",
+        "inspect",
+        "inspect_empty",
+        "reload_tactical",
+        "reload_empty",
+        "run_start",
+        "run",
+        "run_hold",
+        "run_end",
+        "static_bolt_caught",
+        "shoot_loop",
+        "static_over_heating",
+        "over_heat",
+        "shoot",
+        "shoot_loop_end",
+        "charge_in",
+        "charge_out",
+        "expand_progress",
+        "expand_ending"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:las_5_beam_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/las98_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/las98_auto_lod.png",
+          "exists": true
+        },
+        "bones": 31,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/las_16_display.json",
+      "model": "assets/zeta/geo_models/gun/las_16_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/las_16.png",
+      "model_sha256": "0c4a0ce2e66f72bf52e9664b57951da311c73dc0c830dbf926d737956b7248ae",
+      "bones": 38,
+      "cubes": 423,
+      "planes": 0,
+      "rotated_cubes": 284,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/las_16.animation.json",
+      "clip_names": [
+        "static_over_heating",
+        "over_heat",
+        "static_idle",
+        "static_bolt_caught",
+        "shoot",
+        "inspect",
+        "inspect_empty",
+        "reload_empty",
+        "reload_tactical",
+        "put_away",
+        "charge_in",
+        "charge_out"
+      ],
+      "clip_count": 12,
+      "state_machine": "zeta:las_5_beam_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/las_16_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/las_16_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 41
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/las_5_display.json",
+      "model": "assets/zeta/geo_models/gun/las_5_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/las_5.png",
+      "model_sha256": "861a757331c644a98d991a9f0a2aa01812f73f9a1df530c90ba7571194245ea6",
+      "bones": 56,
+      "cubes": 733,
+      "planes": 0,
+      "rotated_cubes": 602,
+      "uv": [
+        256,
+        256
+      ],
+      "image": [
+        512,
+        512
+      ],
+      "animation": "assets/zeta/animations/las_5.animation.json",
+      "clip_names": [
+        "static_over_heating",
+        "over_heat",
+        "static_idle",
+        "static_bolt_caught",
+        "reload_empty",
+        "reload_tactical",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "put_away",
+        "shoot_loop",
+        "shoot_loop_end",
+        "charge_in",
+        "charge_out",
+        "expand_progress",
+        "expand_ending"
+      ],
+      "clip_count": 16,
+      "state_machine": "zeta:las_5_beam_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/las_5_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/las_5_auto_lod.png",
+          "exists": true
+        },
+        "bones": 57,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/m1000_display.json",
+      "model": "assets/zeta/geo_models/gun/m1000_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/m1000.png",
+      "model_sha256": "2f84c3d1444a92cd9f366f39f5a008b6a15bcc7fdd9d6e18d2d7075407fd3950",
+      "bones": 28,
+      "cubes": 790,
+      "planes": 0,
+      "rotated_cubes": 729,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/m1000.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "inspect",
+        "shoot",
+        "aim_start",
+        "aim",
+        "aim_end",
+        "spin",
+        "spin_shoot",
+        "spin_stop",
+        "heat",
+        "sound_1",
+        "sound_2",
+        "sound_3",
+        "sound_4",
+        "sound_5",
+        "sound_6",
+        "sound_7",
+        "sound_8",
+        "sound_9",
+        "sound_10",
+        "sound_11"
+      ],
+      "clip_count": 23,
+      "state_machine": "zeta:m1000_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/m105_display.json",
+      "model": "assets/zeta/geo_models/gun/m105_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/m105.png",
+      "model_sha256": "c9c76b96cb9ae9b598814eedd8984ee6497cfced88ffdd8b3e0ea9405980060a",
+      "bones": 80,
+      "cubes": 476,
+      "planes": 0,
+      "rotated_cubes": 331,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/m105.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_ammo_display",
+        "draw",
+        "put_away",
+        "inspect",
+        "shoot_gunparts",
+        "shoot",
+        "reload_tactical",
+        "reload_empty",
+        "inspect_empty",
+        "static_bolt_caught",
+        "sound_1",
+        "sound_2",
+        "sound_3",
+        "sound_4",
+        "sound_5",
+        "sound_6",
+        "sound_7",
+        "sound_8",
+        "sound_9",
+        "sound_10",
+        "sound_11"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:m105_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/m105_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/m105_auto_lod.png",
+          "exists": true
+        },
+        "bones": 81,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/m206_display.json",
+      "model": "assets/zeta/geo_models/gun/m206_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/m206.png",
+      "model_sha256": "57c55095a9569217618cfd10a4fef81bff7c99ff58498cfaeedd5b84f83e7bc5",
+      "bones": 70,
+      "cubes": 915,
+      "planes": 0,
+      "rotated_cubes": 667,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/m206.animation.json",
+      "clip_names": [
+        "static_idle",
+        "shoot",
+        "draw",
+        "put_away",
+        "inspect_empty",
+        "inspect",
+        "reload_empty",
+        "reload_tactical",
+        "slide",
+        "slide_idle",
+        "slide_back",
+        "static_ammo_display",
+        "static_bolt_caught",
+        "sound_1",
+        "sound_2",
+        "sound_3",
+        "sound_4",
+        "sound_5",
+        "sound_6",
+        "sound_7",
+        "sound_8",
+        "sound_9",
+        "sound_10",
+        "sound_11"
+      ],
+      "clip_count": 24,
+      "state_machine": "zeta:m206_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/m206_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/m206_auto_lod.png",
+          "exists": true
+        },
+        "bones": 71,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/mgx42_display.json",
+      "model": "assets/zeta/geo_models/gun/mgx42_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/mgx42.png",
+      "model_sha256": "4670da3578fa6ccd1c6993b893d52acbbf96039094774fc1dabe72d694b50f6b",
+      "bones": 61,
+      "cubes": 516,
+      "planes": 0,
+      "rotated_cubes": 370,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        128,
+        128
+      ],
+      "animation": "assets/zeta/animations/mgx42.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "animation",
+        "disposal",
+        "reload_empty",
+        "reload_tactical",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "sound_1",
+        "sound_2",
+        "sound_3",
+        "sound_4",
+        "sound_5",
+        "sound_6",
+        "sound_7",
+        "sound_8",
+        "sound_9",
+        "sound_10",
+        "sound_11",
+        "ammo"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:mgx42_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/mgx42_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/mgx42_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 10
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/mp98_display.json",
+      "model": "assets/zeta/geo_models/gun/mp98_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/mp98.png",
+      "model_sha256": "676fb492da166311bb93d301e3df71f7bb3ff780c989d126b4731ac435a87131",
+      "bones": 42,
+      "cubes": 653,
+      "planes": 0,
+      "rotated_cubes": 488,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/mp98.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "reload_tactical",
+        "reload_continue",
+        "reload_empty",
+        "reload_follow",
+        "bolt_test",
+        "shoot",
+        "inspect",
+        "inspect_empty",
+        "inspect_out_of_mag",
+        "inspect_out_of_mag_empty",
+        "static_auto",
+        "switch_semi",
+        "static_semi",
+        "switch_burst",
+        "static_burst",
+        "switch_auto",
+        "aim_start_t",
+        "aim_end_t",
+        "out_of_mag",
+        "put_away",
+        "draw"
+      ],
+      "clip_count": 23,
+      "state_machine": "zeta:foxtail_kinetic_core_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/mp98_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/mp98_auto_lod.png",
+          "exists": true
+        },
+        "bones": 43,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/p113_display.json",
+      "model": "assets/zeta/geo_models/gun/p113_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/p113.png",
+      "model_sha256": "a1b6ff5652c391f6eb576897a1e9c6071d83d3fab7e45d867c9367fd0d891f55",
+      "bones": 46,
+      "cubes": 341,
+      "planes": 0,
+      "rotated_cubes": 224,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/p113.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "shoot",
+        "inspect_empty",
+        "inspect",
+        "melee_push"
+      ],
+      "clip_count": 10,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/p113_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/p113_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 8
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/p35_display.json",
+      "model": "assets/zeta/geo_models/gun/p35_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/p35.png",
+      "model_sha256": "ea5e04f747875ef7141ebc297db2c7ff42ada4c88f0388ad582bcafa10a5e5b2",
+      "bones": 43,
+      "cubes": 337,
+      "planes": 2,
+      "rotated_cubes": 253,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        128,
+        128
+      ],
+      "animation": "assets/zeta/animations/p35.animation.json",
+      "clip_names": [
+        "static_idle",
+        "reload_empty",
+        "reload_tactical",
+        "draw",
+        "put_away",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "melee_push",
+        "test"
+      ],
+      "clip_count": 10,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/p35_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/p35_auto_lod.png",
+          "exists": true
+        },
+        "bones": 44,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/p4_display.json",
+      "model": "assets/zeta/geo_models/gun/p4_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/p4.png",
+      "model_sha256": "c9f9ffeafe6b57d9fffb973e7fa514af7774f8793da30c347326e44c3d144f05",
+      "bones": 54,
+      "cubes": 364,
+      "planes": 0,
+      "rotated_cubes": 231,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/p4.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "inspect_empty",
+        "inspect",
+        "reload_empty",
+        "static_bolt_caught",
+        "run_start",
+        "run",
+        "run_hold",
+        "run_end",
+        "reload_tactical",
+        "shoot",
+        "melee_push"
+      ],
+      "clip_count": 13,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/p4_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/p4_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 8
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/p92_display.json",
+      "model": "assets/zeta/geo_models/gun/p92_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/p92.png",
+      "model_sha256": "3a224dc2b74c1f9301b0317edb696c53df027aff9ca60b66343fba2e7734b012",
+      "bones": 60,
+      "cubes": 512,
+      "planes": 62,
+      "rotated_cubes": 353,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/p92.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "shoot",
+        "melee_push",
+        "static_semi",
+        "static_burst",
+        "switch_burst",
+        "switch_semi",
+        "static_over_heating",
+        "aim_start",
+        "aim_end",
+        "aiming",
+        "gunsmithlib_yaw",
+        "gunsmithlib_pitch",
+        "lock_yaw",
+        "lock_pitch",
+        "locked",
+        "over_heat"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:p92_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/p92_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/p92_auto_lod.png",
+          "exists": true
+        },
+        "bones": 61,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/plas101_display.json",
+      "model": "assets/zeta/geo_models/gun/plas101_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/plas101.png",
+      "model_sha256": "eb6cf44d5ba5bb2a4df1be1dd5910195e8e3221a4f15ae3973b8f27305a5cb99",
+      "bones": 63,
+      "cubes": 720,
+      "planes": 0,
+      "rotated_cubes": 570,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/plas101.animation.json",
+      "clip_names": [
+        "static_idle",
+        "reload_tactical",
+        "inspect",
+        "shoot",
+        "put_away",
+        "draw",
+        "static_bolt_caught",
+        "inspect_empty",
+        "reload_empty",
+        "charge_start",
+        "charge_spin",
+        "shoot_charge",
+        "charge",
+        "expand_ending",
+        "charge_in",
+        "charge_out_remove",
+        "charge_out"
+      ],
+      "clip_count": 17,
+      "state_machine": "zeta:plas101_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/plas101_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/plas101_lod.png",
+          "exists": true
+        },
+        "bones": 8,
+        "cubes": 10
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/plas45_display.json",
+      "model": "assets/zeta/geo_models/gun/plas45_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/plas45.png",
+      "model_sha256": "0b2cd8072ae99a519a52afa20443dd3fa74cbcb3cbe8812b960b5931c4b7a39a",
+      "bones": 68,
+      "cubes": 712,
+      "planes": 0,
+      "rotated_cubes": 548,
+      "uv": [
+        256,
+        256
+      ],
+      "image": [
+        512,
+        512
+      ],
+      "animation": "assets/zeta/animations/plas45.animation.json",
+      "clip_names": [
+        "charge",
+        "charge_spin",
+        "charge_start",
+        "static_idle",
+        "reload_tactical",
+        "inspect",
+        "inspect_empty",
+        "reload_empty",
+        "draw",
+        "put_away",
+        "shoot",
+        "static_bolt_caught",
+        "shoot_perfect",
+        "charge_error"
+      ],
+      "clip_count": 14,
+      "state_machine": "zeta:epoch_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/plas45_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/plas45_lod.png",
+          "exists": true
+        },
+        "bones": 50,
+        "cubes": 692
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/plas_1_display.json",
+      "model": "assets/zeta/geo_models/gun/plas_1_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/plas_1.png",
+      "model_sha256": "8ef6bdd365801c18559e701a7f0a8aa4a16566d5b0c41962489b4816c546c0a6",
+      "bones": 163,
+      "cubes": 721,
+      "planes": 0,
+      "rotated_cubes": 665,
+      "uv": [
+        512,
+        512
+      ],
+      "image": [
+        1024,
+        1024
+      ],
+      "animation": "assets/zeta/animations/plas_1.animation.json",
+      "clip_names": [
+        "static_idle",
+        "reload_tactical",
+        "inspect",
+        "draw",
+        "shoot",
+        "put_away",
+        "static_bolt_caught",
+        "inspect_empty",
+        "reload_empty"
+      ],
+      "clip_count": 9,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/plas_1_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/plas_1_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 15
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/quasar_display.json",
+      "model": "assets/zeta/geo_models/gun/quasar_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/quasar.png",
+      "model_sha256": "9ce86c9e6542e56d6b4c369b1456c93ab8ce04dec7b5c46c0c6a2482cb3c963d",
+      "bones": 50,
+      "cubes": 748,
+      "planes": 0,
+      "rotated_cubes": 621,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/quasar.animation.json",
+      "clip_names": [
+        "static_bolt_caught",
+        "inspect",
+        "inspect_empty",
+        "draw",
+        "shoot",
+        "charge",
+        "put_away",
+        "charge_in",
+        "charge_out",
+        "static_over_heating",
+        "static_idle",
+        "expand_progress",
+        "expand_ending"
+      ],
+      "clip_count": 13,
+      "state_machine": "zeta:las_5_beam_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/quasar_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/quasar_lod.png",
+          "exists": true
+        },
+        "bones": 29,
+        "cubes": 718
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/r2_display.json",
+      "model": "assets/zeta/geo_models/gun/r2_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/r2.png",
+      "model_sha256": "6ad0d091dc4f8d6072a1427e6897bdd5a2cad062eb80d25b5cf05e11c5c7c6cb",
+      "bones": 46,
+      "cubes": 761,
+      "planes": 0,
+      "rotated_cubes": 626,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/r2.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "shoot",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "reload_tactical"
+      ],
+      "clip_count": 8,
+      "state_machine": "zeta:r2_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/r2_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/r2_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 14
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/r4_display.json",
+      "model": "assets/zeta/geo_models/gun/r4_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/r4.png",
+      "model_sha256": "e80cad0412037156e32dfa7101a9d04a2c6ddb3f81190234b3fcd7c739df8517",
+      "bones": 45,
+      "cubes": 1083,
+      "planes": 68,
+      "rotated_cubes": 864,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/r4.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "shoot"
+      ],
+      "clip_count": 9,
+      "state_machine": null,
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/r6_display.json",
+      "model": "assets/zeta/geo_models/gun/r6_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/r6.png",
+      "model_sha256": "d91342b543a2338f402753ed28bc1a2abf7bd6c7703d7c4ed76d63d6cf83979c",
+      "bones": 49,
+      "cubes": 780,
+      "planes": 0,
+      "rotated_cubes": 612,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/r6.animation.json",
+      "clip_names": [
+        "static_idle",
+        "bolt",
+        "shoot_1",
+        "inspect_empty",
+        "inspect",
+        "shoot",
+        "draw",
+        "put_away",
+        "static_bolt_caught",
+        "shoot_2",
+        "reload_start",
+        "reload_start_empty",
+        "reload_loop_start",
+        "reload_loop_empty",
+        "reload_loop_end",
+        "reload_loop",
+        "reload_end_empty",
+        "reload_end"
+      ],
+      "clip_count": 18,
+      "state_machine": "zeta:r6_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/r6_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/r6_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 10
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/r72_display.json",
+      "model": "assets/zeta/geo_models/gun/r72_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/r72.png",
+      "model_sha256": "eeb4f24370f633d0b2b682a5a7bd37af60303f446070ead588ad1fc2c5426b1e",
+      "bones": 47,
+      "cubes": 833,
+      "planes": 0,
+      "rotated_cubes": 619,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/r72.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "shoot"
+      ],
+      "clip_count": 9,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/r72_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/r72_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 12
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/railgun_display.json",
+      "model": "assets/zeta/geo_models/gun/railgun_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/railgun.png",
+      "model_sha256": "b3f0ff9f7abe5ab41303deac74cc1ff3341dcba811ef79d47db6a99a7f8237bb",
+      "bones": 117,
+      "cubes": 647,
+      "planes": 0,
+      "rotated_cubes": 549,
+      "uv": [
+        512,
+        512
+      ],
+      "image": [
+        1024,
+        1024
+      ],
+      "animation": "assets/zeta/animations/railgun.animation.json",
+      "clip_names": [
+        "draw",
+        "shoot_old",
+        "put_away",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "charge",
+        "shoot",
+        "static_idle",
+        "shoot_1",
+        "charge_start",
+        "static_bolt_caught"
+      ],
+      "clip_count": 12,
+      "state_machine": "zeta:legacy_railgun_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/railgun_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/railgun_lod.png",
+          "exists": true
+        },
+        "bones": 93,
+        "cubes": 209
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/rl77_display.json",
+      "model": "assets/zeta/geo_models/gun/rl77_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/rl77.png",
+      "model_sha256": "280aac07ad8e7f21ee25d989b2bb274f9f3449ddd990e2094bc0201cb10e963e",
+      "bones": 123,
+      "cubes": 449,
+      "planes": 0,
+      "rotated_cubes": 343,
+      "uv": [
+        64,
+        64
+      ],
+      "image": [
+        128,
+        128
+      ],
+      "animation": "assets/zeta/animations/rl77.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "inspect_empty",
+        "inspect",
+        "reload_empty",
+        "shoot",
+        "draw",
+        "put_away"
+      ],
+      "clip_count": 8,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/rl77_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/rl77_auto_lod.png",
+          "exists": true
+        },
+        "bones": 124,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/s11_display.json",
+      "model": "assets/zeta/geo_models/gun/s11_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/s11.png",
+      "model_sha256": "6479b45edce1b246c5689c8d94f8cc624fe80055cea8a701af88d16553503513",
+      "bones": 54,
+      "cubes": 983,
+      "planes": 0,
+      "rotated_cubes": 793,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/s11.animation.json",
+      "clip_names": [
+        "static_idle",
+        "static_bolt_caught",
+        "reload_empty",
+        "draw",
+        "put_away",
+        "inspect",
+        "inspect_empty",
+        "shoot"
+      ],
+      "clip_count": 8,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/s11_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/s11_auto_lod.png",
+          "exists": true
+        },
+        "bones": 55,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg20_display.json",
+      "model": "assets/zeta/geo_models/gun/sg20_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg20.png",
+      "model_sha256": "22b9dd9fd1c365ecb00053f0d5e9b56818246535f2b69e4067df120e0fd1ba45",
+      "bones": 65,
+      "cubes": 585,
+      "planes": 0,
+      "rotated_cubes": 423,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg20.animation.json",
+      "clip_names": [
+        "switch_semi",
+        "switch_burst",
+        "static_semi",
+        "static_burst",
+        "static_idle",
+        "switch",
+        "ammo",
+        "draw",
+        "shoot",
+        "inspect",
+        "inspect_01",
+        "inspect_empty",
+        "put_away",
+        "bolt",
+        "reload_intro_empty",
+        "reload_intro_right",
+        "reload_loop_right",
+        "reload_end_right",
+        "reload_intro_left",
+        "reload_end_left",
+        "reload_loop_left",
+        "reload_loop_right_to_left",
+        "turn_right",
+        "turn_left",
+        "left_lever",
+        "right_lever"
+      ],
+      "clip_count": 26,
+      "state_machine": "zeta:sg20_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg20_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg20_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 12
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg225sp_display.json",
+      "model": "assets/zeta/geo_models/gun/sg225sp_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg225sp.png",
+      "model_sha256": "fdecb105c75515f204efa945315a7b2710d9ca8a0807b17cb6416c2a0e2b804f",
+      "bones": 87,
+      "cubes": 625,
+      "planes": 6,
+      "rotated_cubes": 456,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg225sp.animation.json",
+      "clip_names": [
+        "put_away",
+        "static_idle",
+        "draw",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "static_bolt_caught",
+        "static_ammo_display"
+      ],
+      "clip_count": 10,
+      "state_machine": "zeta:sg225sp_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg225sp_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg225sp_auto_lod.png",
+          "exists": true
+        },
+        "bones": 10,
+        "cubes": 52
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg451_display.json",
+      "model": "assets/zeta/geo_models/gun/sg451_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg451.png",
+      "model_sha256": "54347881d4dd33bc45ad08a1ef090901de4dbda00e5452f8811d111864d4aa65",
+      "bones": 64,
+      "cubes": 444,
+      "planes": 0,
+      "rotated_cubes": 286,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg8re.animation.json",
+      "clip_names": [
+        "static_idle",
+        "switch",
+        "ammo",
+        "draw",
+        "shoot",
+        "inspect",
+        "inspect_01",
+        "inspect_empty2",
+        "put_away",
+        "bolt",
+        "reload_intro_empty",
+        "reload_intro_right",
+        "reload_loop_right",
+        "reload_end_right",
+        "reload_intro_left",
+        "reload_end_left",
+        "reload_loop_left",
+        "reload_loop_right_to_left",
+        "turn_right",
+        "turn_left",
+        "left_lever",
+        "right_lever"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:sg8_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg451_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg451_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 13
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg8_display.json",
+      "model": "assets/zeta/geo_models/gun/sg8_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg8.png",
+      "model_sha256": "0175d7ee7a6705a65a631f8a4c9f55967f993c502b4b27243ed56f4e7612fac7",
+      "bones": 64,
+      "cubes": 364,
+      "planes": 0,
+      "rotated_cubes": 216,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg8re.animation.json",
+      "clip_names": [
+        "static_idle",
+        "switch",
+        "ammo",
+        "draw",
+        "shoot",
+        "inspect",
+        "inspect_01",
+        "inspect_empty2",
+        "put_away",
+        "bolt",
+        "reload_intro_empty",
+        "reload_intro_right",
+        "reload_loop_right",
+        "reload_end_right",
+        "reload_intro_left",
+        "reload_end_left",
+        "reload_loop_left",
+        "reload_loop_right_to_left",
+        "turn_right",
+        "turn_left",
+        "left_lever",
+        "right_lever"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:sg8_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg8_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg8_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 12
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg8p_display.json",
+      "model": "assets/zeta/geo_models/gun/sg8p_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg8p.png",
+      "model_sha256": "00414896ab85456251b15a5051e17fc40e1e1722dc6a2e03c684c44644e24aba",
+      "bones": 55,
+      "cubes": 520,
+      "planes": 0,
+      "rotated_cubes": 394,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg8p.animation.json",
+      "clip_names": [
+        "static_idle",
+        "bolt",
+        "static_bolt_caught",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "reload_tactical",
+        "put_away"
+      ],
+      "clip_count": 9,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg8p_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg8p_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 17
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg8s_display.json",
+      "model": "assets/zeta/geo_models/gun/sg8s_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg8s.png",
+      "model_sha256": "517c5b0511a328bd99a2f7bcb0d6037019ad4b92a8c7f9880b57a62363f79f2c",
+      "bones": 65,
+      "cubes": 394,
+      "planes": 0,
+      "rotated_cubes": 230,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg8re.animation.json",
+      "clip_names": [
+        "static_idle",
+        "switch",
+        "ammo",
+        "draw",
+        "shoot",
+        "inspect",
+        "inspect_01",
+        "inspect_empty2",
+        "put_away",
+        "bolt",
+        "reload_intro_empty",
+        "reload_intro_right",
+        "reload_loop_right",
+        "reload_end_right",
+        "reload_intro_left",
+        "reload_end_left",
+        "reload_loop_left",
+        "reload_loop_right_to_left",
+        "turn_right",
+        "turn_left",
+        "left_lever",
+        "right_lever"
+      ],
+      "clip_count": 22,
+      "state_machine": "zeta:sg8_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg8s_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg8s_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 14
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/sg97_display.json",
+      "model": "assets/zeta/geo_models/gun/sg97_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/sg97.png",
+      "model_sha256": "e3a5c172f22397a0ed39d78900393d57895b55942e3355579b7fc0a7aa377f83",
+      "bones": 51,
+      "cubes": 627,
+      "planes": 0,
+      "rotated_cubes": 453,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/sg97.animation.json",
+      "clip_names": [
+        "static_idle",
+        "reload_empty_all",
+        "reload_intro_empty",
+        "reload_intro",
+        "reload_loop",
+        "reload_end",
+        "bolt",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "put_away",
+        "inspect_01"
+      ],
+      "clip_count": 12,
+      "state_machine": "zeta:sg97_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/sg97_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/sg97_auto_lod.png",
+          "exists": true
+        },
+        "bones": 52,
+        "cubes": 30
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/smg32_display.json",
+      "model": "assets/zeta/geo_models/gun/smg32_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/smg32.png",
+      "model_sha256": "6f85205b4a8975513faa7c1ed3678389848cf600fbf460b0ffb4201efe14a815",
+      "bones": 50,
+      "cubes": 717,
+      "planes": 2,
+      "rotated_cubes": 538,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/smg32.animation.json",
+      "clip_names": [
+        "static_idle",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "static_auto",
+        "static_burst",
+        "static_semi",
+        "shoot",
+        "switch_auto",
+        "switch_burst",
+        "switch_semi"
+      ],
+      "clip_count": 14,
+      "state_machine": "zeta:smg32_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/smg32_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/smg32_auto_lod.png",
+          "exists": true
+        },
+        "bones": 6,
+        "cubes": 16
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/spear_display.json",
+      "model": "assets/zeta/geo_models/gun/spear_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/spear.png",
+      "model_sha256": "acb53a3e158578466539f7968fd138786af9ea51b9e6b3e59f6b4eda85df84e9",
+      "bones": 50,
+      "cubes": 701,
+      "planes": 34,
+      "rotated_cubes": 595,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/spear.animation.json",
+      "clip_names": [
+        "reload_empty",
+        "static_idle",
+        "draw",
+        "put_away",
+        "locking_progress",
+        "locked",
+        "locking_sound_1",
+        "locking_sound_2",
+        "locking_sound_3",
+        "locking_sound_4",
+        "locked_sound",
+        "nothing",
+        "inspect",
+        "inspect_empty"
+      ],
+      "clip_count": 14,
+      "state_machine": "zeta:spear_state_machine",
+      "lod": {}
+    },
+    {
+      "display": "assets/zeta/display/guns/test_railgun_display.json",
+      "model": "assets/zeta/geo_models/gun/railgun_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/railgun.png",
+      "model_sha256": "b3f0ff9f7abe5ab41303deac74cc1ff3341dcba811ef79d47db6a99a7f8237bb",
+      "bones": 117,
+      "cubes": 647,
+      "planes": 0,
+      "rotated_cubes": 549,
+      "uv": [
+        512,
+        512
+      ],
+      "image": [
+        1024,
+        1024
+      ],
+      "animation": "assets/zeta/animations/railgun.animation.json",
+      "clip_names": [
+        "draw",
+        "shoot_old",
+        "put_away",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "charge",
+        "shoot",
+        "static_idle",
+        "shoot_1",
+        "charge_start",
+        "static_bolt_caught"
+      ],
+      "clip_count": 12,
+      "state_machine": "zeta:railgun_charge_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/railgun_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/railgun_lod.png",
+          "exists": true
+        },
+        "bones": 93,
+        "cubes": 209
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/ultimatum_display.json",
+      "model": "assets/zeta/geo_models/gun/ultimatum_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/ultimatum.png",
+      "model_sha256": "8d7405fbcf5ad489f0d2ddd43abcfb98e2293c4e75fe6802bff54c86775c92ce",
+      "bones": 95,
+      "cubes": 506,
+      "planes": 0,
+      "rotated_cubes": 369,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/ultimatum.animation.json",
+      "clip_names": [
+        "reload_empty",
+        "static_idle",
+        "static_bolt_caught",
+        "draw",
+        "put_away",
+        "shoot",
+        "inspect",
+        "inspect_empty",
+        "melee_push"
+      ],
+      "clip_count": 9,
+      "state_machine": null,
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/ultimatum_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/ultimatum_auto_lod.png",
+          "exists": true
+        },
+        "bones": 7,
+        "cubes": 20
+      }
+    },
+    {
+      "display": "assets/zeta/display/guns/vg70_display.json",
+      "model": "assets/zeta/geo_models/gun/vg70_geo.json",
+      "texture": "assets/zeta/textures/gun/uv/vg70.png",
+      "model_sha256": "edbe39b10315fb838215ef86e1a6f233d37c9ba5e01defe89b6d19f6cae5ae8a",
+      "bones": 62,
+      "cubes": 537,
+      "planes": 0,
+      "rotated_cubes": 412,
+      "uv": [
+        128,
+        128
+      ],
+      "image": [
+        256,
+        256
+      ],
+      "animation": "assets/zeta/animations/vg70.animation.json",
+      "clip_names": [
+        "shoot3",
+        "shoot2",
+        "static_idle",
+        "draw",
+        "put_away",
+        "reload_tactical",
+        "reload_empty",
+        "inspect",
+        "inspect_empty",
+        "shoot",
+        "flash"
+      ],
+      "clip_count": 11,
+      "state_machine": "zeta:vg70_state_machine",
+      "lod": {
+        "model": {
+          "path": "assets/zeta/geo_models/gun/lod/vg70_auto_lod.json",
+          "exists": true
+        },
+        "texture": {
+          "path": "assets/zeta/textures/gun/lod/vg70_auto_lod.png",
+          "exists": true
+        },
+        "bones": 63,
+        "cubes": 30
+      }
+    }
+  ],
+  "missing_declared_lod_assets": [],
+  "script_hashes": {
+    "assets/tacz/scripts/foxtail_attachment_type_sheet.lua": "25394fb9ae2d4b12b97a150fc467067eca0722f97e2a2f0797c966c689aee347",
+    "assets/tacz/scripts/foxtail_simple_random_sheet.lua": "46f8f141878b3444857d193e95975d1e228ae7e48edb74acbfa557c4088d198b",
+    "assets/zeta/scripts/advanced_las_5_state_machine.lua": "f6c92ea69ed84c111a56895cf214a6a1e4bc49c0f6aeea946af57d8ba65d2ef6",
+    "assets/zeta/scripts/apw1_state_machine.lua": "3053e72f4d7ee069468e3a17db48cffa03d860a467c4fceed87a174498932efb",
+    "assets/zeta/scripts/ar21_state_machine.lua": "95c616c208476f3e2873a6d87c4986291f4a65b93b4f967f533feb81b27d4edb",
+    "assets/zeta/scripts/ar2_state_machine.lua": "3814132697f3b8f6391c5bf818d7cf964396d419a4e3257849f29ee4cc983992",
+    "assets/zeta/scripts/arc12_state_machine.lua": "1d1e6b4d2056fa11cb3e109f45ed708b3aa950a66acce33e9f6a46b4d33c12ff",
+    "assets/zeta/scripts/arc3_state_machine.lua": "6573d5f98616e0832a5c51f8c72366c014ccde90e409ef9b37cc2f3a1a03adff",
+    "assets/zeta/scripts/bayonet_state_machine.lua": "6a8b851607ea6d3abc081ca356bfe7866ea2f8f3d01a81711f83136406132fcb",
+    "assets/zeta/scripts/crossbow_state_machine.lua": "0366615afb99429a93a111c3968dfaaad1e664131383e3b39fae14f135c606e9",
+    "assets/zeta/scripts/dbs2_state_machine.lua": "320bff5ef4d0d12fb3e7e791095f276ecafa65455c9b2f80962f37808911f001",
+    "assets/zeta/scripts/epoch_state_machine.lua": "923af02809d0090a6e9a70fa4bd012a8d011a9d26570e86efcdbb7f40af800c8",
+    "assets/zeta/scripts/foxtail_attachment_type_sheet.lua": "1401d12dfa12dcf5065e8ad28cdd2aa2242b8c5efb591abe0ebf99e9f99dbf80",
+    "assets/zeta/scripts/foxtail_kinetic_core_state_machine.lua": "8a93f1953d61237c7ea39172471376981abdc8de44a79cae35f00e1b0c414138",
+    "assets/zeta/scripts/g36k_state_machine.lua": "3814132697f3b8f6391c5bf818d7cf964396d419a4e3257849f29ee4cc983992",
+    "assets/zeta/scripts/gl21_state_machine.lua": "a63e69186573ac6fe8055cba51ed3cb8d17db867c7e309c8d16ede6e29866f9d",
+    "assets/zeta/scripts/las_5_beam_state_machine.lua": "208ff3cca6b7e82b7c0e56bf19174053913fc90cbf3d64255f3a267f3676a71c",
+    "assets/zeta/scripts/las_5_state_machine.lua": "4f683aaea84b0ead3205e761e89a5bc197f45f3012fc18a026bc93f645a9e09e",
+    "assets/zeta/scripts/legacy_plas101_state_machine.lua": "9c843fa2501b1261679437b97af1d7893386bc0e9393da420712ce1c7c2500c0",
+    "assets/zeta/scripts/legacy_quasar_state_machine.lua": "896948ba0e8bc4c327ec4911bd1f71a8a256ec4144e2298ef4fdd78c19a6b629",
+    "assets/zeta/scripts/legacy_railgun_state_machine.lua": "d9795672803d8744e3ad8cbda32f53e80f9e1a691369eb80ed8d532d2083d474",
+    "assets/zeta/scripts/m1000_state_machine.lua": "23e654f3978fd15c944a054a90f2e930e69d38e0d7cc930d7650a6089fcdb606",
+    "assets/zeta/scripts/m105_state_machine.lua": "0d59769ef88abb091d88944b9b96b66cc03f2c0601f763f810b954711d58168d",
+    "assets/zeta/scripts/m206_state_machine.lua": "b26e72f08dd4721f109125ea782874d4df01d05b114a906beb45ecaef4510d25",
+    "assets/zeta/scripts/machinegun_state_machine.lua": "24172c9ebc08e10519a2f7ae4273c2b7e9baea9cf996617916c76653b22fe709",
+    "assets/zeta/scripts/melee_state_machine.lua": "082407a4c7c9f67c50e5b04e5d3cd0e8827d19a01b86c743e27f84b303ba54d5",
+    "assets/zeta/scripts/mgx42_state_machine.lua": "9e28ab7c36b662c9479eb0cecfb9b8050e237bf2d1885e11ae8e1849f2a455e9",
+    "assets/zeta/scripts/mode_manual_action_state_machine.lua": "6e9ee2901b8c41061188bc9be68d1499766a5978ba3b0ec69edbdb24a0c07a86",
+    "assets/zeta/scripts/p92_state_machine.lua": "932baf90e176347e142a969a6a99ad2057e38f69175a60c2c6a9b5fd97a62e92",
+    "assets/zeta/scripts/phased_reload_state_machine.lua": "d9848c69f6432f6e99fd049f762a03b2c44ea9122e9b036c4a2eb2c49157c540",
+    "assets/zeta/scripts/plas101_base_state_machine.lua": "3b3bacd322699e69ad1cd1a1ede0e2e09c71067d3e2bc1134a984c6617ce7e22",
+    "assets/zeta/scripts/plas101_state_machine.lua": "c43b50da24e221d6485535f48944077a3e6ed4ee1fe386890ecbe445280d9d7f",
+    "assets/zeta/scripts/pump_state_machine.lua": "665d849c3118aaee3beba72fa8e32f826e04eebf2333b7154c1cb82f20c4b2ac",
+    "assets/zeta/scripts/r2_state_machine.lua": "314b13dbbf29c105a0b045b9aab7261ae88c30eadca55525ba09ec2043fb6bcc",
+    "assets/zeta/scripts/r6_state_machine.lua": "4992bbee0451af9b208a9d74222a3f3b0421c61c654b7c7cf583481ce0970bc0",
+    "assets/zeta/scripts/railgun_base_state_machine.lua": "de33348b4d59f90f255925edf5d8a5eb76df9ae2ca324e09d2387b18d74e5262",
+    "assets/zeta/scripts/railgun_charge_state_machine.lua": "e01f60408378e74b39c38f21d2102a2435bc3e4d7cc365e36c311d470fa14d7f",
+    "assets/zeta/scripts/sg20_basic_state_machine.lua": "384f24a84411a4a74c9d56737566d96273ee0bf5801e9d97000283bb5fb84dd6",
+    "assets/zeta/scripts/sg20_state_machine.lua": "30aaae45f882da66027babaaabe7706b2ef58138d0f47a6cf84be1240f3e01ba",
+    "assets/zeta/scripts/sg225sp_state_machine.lua": "a6148ec59c902b6ecdf223c2e5e90e63be01c06115109b77cb57f005e364a07a",
+    "assets/zeta/scripts/sg8_state_machine.lua": "6e9b61f34392861436cc24c0e19470d00bf5baa2dcbaac672024f7f6d735a2e6",
+    "assets/zeta/scripts/sg97_manual_action_state_machine.lua": "7217355cd0e5f9387aa59a0065f88e813eb4522fdc44291338432c401cb155fd",
+    "assets/zeta/scripts/sg97_state_machine.lua": "f25437d42fb27c8f4ff1b0257044f29c4c80bffba728279ae6e5b1593a75adc0",
+    "assets/zeta/scripts/smg32_state_machine.lua": "bfc24dd8a5c3a32a6d7162e13ebf30eaddf25c264bdcdc7a482876bcb7372fe8",
+    "assets/zeta/scripts/spear_state_machine.lua": "9885762e23f5e9f26cd0bb43090eeb0490711f46e1565b53ec66edc16e0d42b5",
+    "assets/zeta/scripts/torcher_state_machine.lua": "9991dc46d850937d1c46fd6206ed54aa2752cc3de1806165d72f157b90343146",
+    "assets/zeta/scripts/trident_state_machine.lua": "0c547ebad09a4d1423692d71998219fa021dd91d95bbac516ceec7400a88257b",
+    "assets/zeta/scripts/vector45_state_machine.lua": "ec262d4c5b14acf161948da189219b5a53973f5a32defffddc798af25a28b4e5",
+    "assets/zeta/scripts/vg70_state_machine.lua": "520adf93b84fdc79a86d1fbc4e5ca35d1cd30d80d2f939e1e502e078361a423b",
+    "assets/zeta_g/scripts/default_grenade_state_machine.lua": "bbb435eb34f544914c9b0c7b8ab3afc914c28382d443a05b09ec2437e53d0a43",
+    "assets/zeta_g/scripts/default_melee_state_machine.lua": "4f5be3d28eac9d6df9a05b2512ab201c5c772733cd97b88d9553bd360cc65085",
+    "assets/zeta_g/scripts/stim_ex_state_machine.lua": "d6078dfac97d1fa58947a9ea11fbdf470421a29e8aa7e2cc680daab6e26cee27",
+    "data/tacz/scripts/foxtail_simple_random_sheet.lua": "46f8f141878b3444857d193e95975d1e228ae7e48edb74acbfa557c4088d198b",
+    "data/zeta/scripts/ac8_logic.lua": "4d620f04fab2e5ca44031ad54812470f592474654660fb2a74049d9adb8b68f2",
+    "data/zeta/scripts/ar21_logic.lua": "75d1dc706eceb9ab0e0d5b14558cd3591ade3e623aa457954129910de0a52072",
+    "data/zeta/scripts/ar32_logic.lua": "266b4f933c64b99609d4c624c31861988392f04957b0a47e16dcb94a83193153",
+    "data/zeta/scripts/arc12_logic.lua": "b1f11230a6aeb3b21be87875f9966e9ad63654daa5af61feedd15dfe4ac283fa",
+    "data/zeta/scripts/arc3_logic.lua": "79990baec5437c24962d0e8fcdf28ecf50a50ae4f444c3f9c1196337dc24d58a",
+    "data/zeta/scripts/cqc_30_logic.lua": "f36aa6d7c2468a4da3ad8e8aa5ab226b95b9e7906ebd5bda5f09ecedd1644725",
+    "data/zeta/scripts/dbs2_logic.lua": "a91768ffd899a3e83bcf4d7690879cb44c834d4fa804c62c1a388f9fa2c949c4",
+    "data/zeta/scripts/eat411_logic.lua": "3b4d44f0ad0b72ee8552a3a7954e6889cc7dcbb65d1a9e39ffb9e455c742a042",
+    "data/zeta/scripts/epoch_logic.lua": "c024664b269a4a21cd1fd99598cc51fbd8fab1b7ddd3f4ec387bc61038e8efa6",
+    "data/zeta/scripts/foxatl_heat.lua": "4477479c72b55a7f825ac8476642aa0b80b8675334b069cb4f2c93bd31c89cb8",
+    "data/zeta/scripts/gl21_logic.lua": "c7d0be9f936295f10db7477bf486b907494c6ae0cacaa0d7b15fae044da395d3",
+    "data/zeta/scripts/gp31_logic.lua": "225335bd584192271504e6019af513e9384333b4815ce05991b6d458fe2986f3",
+    "data/zeta/scripts/gr8_logic.lua": "a22f0121722e5ed38fb8cf1bb56284d2210b0a74410d222651147fa0069ff04b",
+    "data/zeta/scripts/las_16_logic.lua": "7436a2e2dcf90c29d9d3202eb636cb216a45fbbbbd68ad3fda9024aa6290e8f8",
+    "data/zeta/scripts/m1000_logic.lua": "e98fbfab6ed37657274e7274d4bcba798465f6e1fb535dd721002bb092589816",
+    "data/zeta/scripts/m105_reload_logic.lua": "75f65c4bba70c74399cd7660c0bd014aa9794d9138b3ed69e1d34ac14f1eef19",
+    "data/zeta/scripts/mgx42_logic.lua": "4c06aeba777113fe9950c1738bb01b137c93aacfd860dce3330c36b63047ff5f",
+    "data/zeta/scripts/p92_logic.lua": "32c18b2a1cf8900fa8858564c619a040d0c96d64ca166f9666ec5317fcabc683",
+    "data/zeta/scripts/phased_reload_mk2_logic.lua": "266b4f933c64b99609d4c624c31861988392f04957b0a47e16dcb94a83193153",
+    "data/zeta/scripts/plas101_logic.lua": "1e48d788932dc60a2c50b865ad74665ce39d84a378d257da5b7be50da941ead6",
+    "data/zeta/scripts/plas101_mk3_logic.lua": "ca55cb854f5f54f45b9a6736e6ae85f09544be1c17085c4072b7903996dad4d3",
+    "data/zeta/scripts/quasar_mk2_logic.lua": "fdab6cfd68d158af50fa98ff2d78a7d2df0e2bf5bd70d28280778c0a745d70c1",
+    "data/zeta/scripts/quasar_mk3_logic.lua": "d20f5011c852b4fab0e13df5aa8e602cfb0707eafe5c7d8ab0ccf21bfdf2aeba",
+    "data/zeta/scripts/r6_gun_logic.lua": "b76fcab4cec41313a62bd834dfe60ecc1b4556280ada802cf3b2f6863883aa2e",
+    "data/zeta/scripts/railgun_mk2_logic.lua": "06245055ad1ac0046e1112c32ceb4ddd15741f802afcadc96df5fb36332210a0",
+    "data/zeta/scripts/railgun_mk3_logic.lua": "1743635b88882d8aec7f4ae3afaabc536a057544adb17504918b4ead0de6383b",
+    "data/zeta/scripts/rl77_logic.lua": "5118b4bf512694c2f4f8e633c0743a9b9694a475a1be01f442d33c10476f0dfd",
+    "data/zeta/scripts/s11_logic.lua": "1642fc70b7bd87301078fed58dff67eb000e2ac5e8b654f49f364f115c43f14e",
+    "data/zeta/scripts/sg20_logic.lua": "d0af5e74a524dc7ddc161259c8a93543d29aad14c3e63449ed0959cf7144678c",
+    "data/zeta/scripts/sg8_logic.lua": "9db807c4e52afa9ac13b3461c7e60fe6d7712b272f49ef06c2a57333a5ed6b98",
+    "data/zeta/scripts/sg8_muzzle_logic.lua": "678c21b7562f404e543e2cc20fd6259388b6fc9a590efe1de116b4971d8d5347",
+    "data/zeta/scripts/sg97_logic.lua": "63278472729ea544956bd66388f875bc6510161b157ec70842f5915724c216c0",
+    "data/zeta/scripts/spear_logic.lua": "deabf4f1762e5ed0966104e0bea2bd43045cdce7d4dddd31c42145b8f7d20718",
+    "data/zeta/scripts/spray_and_pray_logic.lua": "c54f3f68d7c9bcd9e73b53f218960e8fa95e33fc9a59d939849099e80733bbd9",
+    "data/zeta/scripts/torcher_logic.lua": "47948af3966b6d4ddc264e89bdb1148b754662145efa025d5dc272dce59773ab",
+    "data/zeta/scripts/trident_logic.lua": "8d7daf46b4eef1d31f530c3b27e1bb2eb504f80afc408e68a92aad13de6f10b8",
+    "data/zeta/scripts/vg70_logic.lua": "9be74de1db64f517fe060cb23085501c90948e8b100beba76229dd431af61270"
+  },
+  "limits": "File census; not execution, visual quality acceptance or native compatibility testing",
+  "gun_indices": [
+    {
+      "path": "data/zeta/index/guns/ac7.json",
+      "display": "zeta:ac7_display",
+      "data": "zeta:ac7_data"
+    },
+    {
+      "path": "data/zeta/index/guns/apw1.json",
+      "display": "zeta:apw1_display",
+      "data": "zeta:apw1_data"
+    },
+    {
+      "path": "data/zeta/index/guns/ar2.json",
+      "display": "zeta:ar2_display",
+      "data": "zeta:ar2_data"
+    },
+    {
+      "path": "data/zeta/index/guns/ar21.json",
+      "display": "zeta:ar21_display",
+      "data": "zeta:ar21_data"
+    },
+    {
+      "path": "data/zeta/index/guns/ar32.json",
+      "display": "zeta:ar32_display",
+      "data": "zeta:ar32_data"
+    },
+    {
+      "path": "data/zeta/index/guns/ar59.json",
+      "display": "zeta:ar59_display",
+      "data": "zeta:ar59_data"
+    },
+    {
+      "path": "data/zeta/index/guns/ar61.json",
+      "display": "zeta:ar61_display",
+      "data": "zeta:ar61_data"
+    },
+    {
+      "path": "data/zeta/index/guns/arc12.json",
+      "display": "zeta:arc12_display",
+      "data": "zeta:arc12_data"
+    },
+    {
+      "path": "data/zeta/index/guns/arc3.json",
+      "display": "zeta:arc3_display",
+      "data": "zeta:arc3_data"
+    },
+    {
+      "path": "data/zeta/index/guns/br_14.json",
+      "display": "zeta:br_14_display",
+      "data": "zeta:br_14_data"
+    },
+    {
+      "path": "data/zeta/index/guns/cqc30.json",
+      "display": "zeta:cqc30_display",
+      "data": "zeta:cqc30_data"
+    },
+    {
+      "path": "data/zeta/index/guns/crossbow.json",
+      "display": "zeta:crossbow_display",
+      "data": "zeta:crossbow_data"
+    },
+    {
+      "path": "data/zeta/index/guns/dbs2.json",
+      "display": "zeta:dbs2_display",
+      "data": "zeta:dbs2_data"
+    },
+    {
+      "path": "data/zeta/index/guns/eat411.json",
+      "display": "zeta:eat411_display",
+      "data": "zeta:eat411_data"
+    },
+    {
+      "path": "data/zeta/index/guns/flam66.json",
+      "display": "zeta:flam66_display",
+      "data": "zeta:flam66_data"
+    },
+    {
+      "path": "data/zeta/index/guns/gl21.json",
+      "display": "zeta:gl21_display",
+      "data": "zeta:gl21_data"
+    },
+    {
+      "path": "data/zeta/index/guns/gl28.json",
+      "display": "zeta:gl28_display",
+      "data": "zeta:gl28_data"
+    },
+    {
+      "path": "data/zeta/index/guns/gp31.json",
+      "display": "zeta:gp31_display",
+      "data": "zeta:gp31_data"
+    },
+    {
+      "path": "data/zeta/index/guns/gr8.json",
+      "display": "zeta:gr8_display",
+      "data": "zeta:gr8_data"
+    },
+    {
+      "path": "data/zeta/index/guns/las12.json",
+      "display": "zeta:las12_display",
+      "data": "zeta:las12_data"
+    },
+    {
+      "path": "data/zeta/index/guns/las13.json",
+      "display": "zeta:las13_display",
+      "data": "zeta:las13_data"
+    },
+    {
+      "path": "data/zeta/index/guns/las58.json",
+      "display": "zeta:las58_display",
+      "data": "zeta:las58_data"
+    },
+    {
+      "path": "data/zeta/index/guns/las98.json",
+      "display": "zeta:las98_display",
+      "data": "zeta:las98_data"
+    },
+    {
+      "path": "data/zeta/index/guns/las_16.json",
+      "display": "zeta:las_16_display",
+      "data": "zeta:las_16_data"
+    },
+    {
+      "path": "data/zeta/index/guns/las_5.json",
+      "display": "zeta:las_5_display",
+      "data": "zeta:las_5_data"
+    },
+    {
+      "path": "data/zeta/index/guns/m1000.json",
+      "display": "zeta:m1000_display",
+      "data": "zeta:m1000_data"
+    },
+    {
+      "path": "data/zeta/index/guns/m105.json",
+      "display": "zeta:m105_display",
+      "data": "zeta:m105_data"
+    },
+    {
+      "path": "data/zeta/index/guns/m206.json",
+      "display": "zeta:m206_display",
+      "data": "zeta:m206_data"
+    },
+    {
+      "path": "data/zeta/index/guns/mgx42.json",
+      "display": "zeta:mgx42_display",
+      "data": "zeta:mgx42_data"
+    },
+    {
+      "path": "data/zeta/index/guns/mp98.json",
+      "display": "zeta:mp98_display",
+      "data": "zeta:mp98_data"
+    },
+    {
+      "path": "data/zeta/index/guns/p113.json",
+      "display": "zeta:p113_display",
+      "data": "zeta:p113_data"
+    },
+    {
+      "path": "data/zeta/index/guns/p35.json",
+      "display": "zeta:p35_display",
+      "data": "zeta:p35_data"
+    },
+    {
+      "path": "data/zeta/index/guns/p4.json",
+      "display": "zeta:p4_display",
+      "data": "zeta:p4_data"
+    },
+    {
+      "path": "data/zeta/index/guns/p92.json",
+      "display": "zeta:p92_display",
+      "data": "zeta:p92_data"
+    },
+    {
+      "path": "data/zeta/index/guns/plas101.json",
+      "display": "zeta:plas101_display",
+      "data": "zeta:plas101_data"
+    },
+    {
+      "path": "data/zeta/index/guns/plas45.json",
+      "display": "zeta:plas45_display",
+      "data": "zeta:plas45_data"
+    },
+    {
+      "path": "data/zeta/index/guns/plas_1.json",
+      "display": "zeta:plas_1_display",
+      "data": "zeta:plas_1_data"
+    },
+    {
+      "path": "data/zeta/index/guns/quasar.json",
+      "display": "zeta:quasar_display",
+      "data": "zeta:quasar_data"
+    },
+    {
+      "path": "data/zeta/index/guns/r2.json",
+      "display": "zeta:r2_display",
+      "data": "zeta:r2_data"
+    },
+    {
+      "path": "data/zeta/index/guns/r4.json",
+      "display": "zeta:r4_display",
+      "data": "zeta:r4_data"
+    },
+    {
+      "path": "data/zeta/index/guns/r6.json",
+      "display": "zeta:r6_display",
+      "data": "zeta:r6_data"
+    },
+    {
+      "path": "data/zeta/index/guns/r72.json",
+      "display": "zeta:r72_display",
+      "data": "zeta:r72_data"
+    },
+    {
+      "path": "data/zeta/index/guns/railgun.json",
+      "display": "zeta:railgun_display",
+      "data": "zeta:railgun_data"
+    },
+    {
+      "path": "data/zeta/index/guns/rl77.json",
+      "display": "zeta:rl77_display",
+      "data": "zeta:rl77_data"
+    },
+    {
+      "path": "data/zeta/index/guns/s11.json",
+      "display": "zeta:s11_display",
+      "data": "zeta:s11_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg20.json",
+      "display": "zeta:sg20_display",
+      "data": "zeta:sg20_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg225sp.json",
+      "display": "zeta:sg225sp_display",
+      "data": "zeta:sg225sp_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg451.json",
+      "display": "zeta:sg451_display",
+      "data": "zeta:sg451_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg8.json",
+      "display": "zeta:sg8_display",
+      "data": "zeta:sg8_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg8p.json",
+      "display": "zeta:sg8p_display",
+      "data": "zeta:sg8p_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg8s.json",
+      "display": "zeta:sg8s_display",
+      "data": "zeta:sg8s_data"
+    },
+    {
+      "path": "data/zeta/index/guns/sg97.json",
+      "display": "zeta:sg97_display",
+      "data": "zeta:sg97_data"
+    },
+    {
+      "path": "data/zeta/index/guns/smg32.json",
+      "display": "zeta:smg32_display",
+      "data": "zeta:smg32_data"
+    },
+    {
+      "path": "data/zeta/index/guns/spear.json",
+      "display": "zeta:spear_display",
+      "data": "zeta:spear_data"
+    },
+    {
+      "path": "data/zeta/index/guns/ultimatum.json",
+      "display": "zeta:ultimatum_display",
+      "data": "zeta:ultimatum_data"
+    },
+    {
+      "path": "data/zeta/index/guns/vg70.json",
+      "display": "zeta:vg70_display",
+      "data": "zeta:vg70_data"
+    }
+  ],
+  "declared_lod_pairs": 49,
+  "selected_gameplay_routing": [
+    {
+      "gun": "railgun",
+      "data": "data/zeta/data/guns/railgun_data.json",
+      "script": "data/zeta/scripts/railgun_mk2_logic.lua",
+      "sha256": "06245055ad1ac0046e1112c32ceb4ddd15741f802afcadc96df5fb36332210a0"
+    },
+    {
+      "gun": "quasar",
+      "data": "data/zeta/data/guns/quasar_data.json",
+      "script": "data/zeta/scripts/quasar_mk3_logic.lua",
+      "sha256": "d20f5011c852b4fab0e13df5aa8e602cfb0707eafe5c7d8ab0ccf21bfdf2aeba"
+    },
+    {
+      "gun": "plas101",
+      "data": "data/zeta/data/guns/plas101_data.json",
+      "script": "data/zeta/scripts/plas101_mk3_logic.lua",
+      "sha256": "ca55cb854f5f54f45b9a6736e6ae85f09544be1c17085c4072b7903996dad4d3"
+    }
+  ]
+}
