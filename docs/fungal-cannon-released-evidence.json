@@ -1,0 +1,2287 @@
+{
+  "target": {
+    "minecraft": "1.20.1",
+    "aoa": "3.7.1"
+  },
+  "registration": {
+    "id": "aoa3:fungal_cannon",
+    "family": "cannon",
+    "factories": [
+      {
+        "factory": "lambda$static$158",
+        "code_sha256": "43be62c6cbaeb65c97c8dccd01b623b04fe71882c327fb2a2859daa13570f892",
+        "constructor": [
+          "net/tslat/aoa3/content/item/weapon/cannon/FungalCannon",
+          "<init>",
+          "(FIIF)V"
+        ],
+        "literal_arguments": [
+          19.5,
+          850,
+          23,
+          0.20000000298023224
+        ],
+        "status": "literal inputs recovered",
+        "unresolved_instructions": []
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "classes": [
+    {
+      "class": "net/tslat/aoa3/content/item/weapon/cannon/FungalCannon.class",
+      "sha256": "b6a3153c9f4c87f344607cb18e663b4b88c51f7a690e108ccfef1d1746990794",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(FIIF)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 35
+            },
+            {
+              "offset": 2,
+              "opcode": 28
+            },
+            {
+              "offset": 3,
+              "opcode": 29
+            },
+            {
+              "offset": 4,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+                "<init>",
+                "(FIIF)V"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "getFiringSound",
+          "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ITEM_BALL_CANNON_FIRE",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 192,
+              "operands": [
+                0,
+                42
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                46
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 43
+            },
+            {
+              "offset": 5,
+              "opcode": 42
+            },
+            {
+              "offset": 6,
+              "opcode": 45
+            },
+            {
+              "offset": 7,
+              "opcode": 16,
+              "constant": 120
+            },
+            {
+              "offset": 9,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 10,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "<init>",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 193,
+              "operands": [
+                0,
+                59
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 153,
+              "operands": [
+                0,
+                27
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 9,
+              "opcode": 189,
+              "operands": [
+                0,
+                61
+              ]
+            },
+            {
+              "offset": 12,
+              "opcode": 89
+            },
+            {
+              "offset": 13,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 14,
+              "opcode": 187,
+              "operands": [
+                0,
+                61
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 89
+            },
+            {
+              "offset": 18,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "f_19613_",
+                "Lnet/minecraft/world/effect/MobEffect;"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 24,
+              "opcode": 183,
+              "member": [
+                "net/tslat/effectslib/api/util/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/world/effect/MobEffect;I)V"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 83
+            },
+            {
+              "offset": 28,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;[Lnet/tslat/effectslib/api/util/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 31,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "m_7373_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$Keys",
+                "WEAKENS_TARGETS",
+                "Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+                "BENEFICIAL",
+                "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                96
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "getFormattedItemDescriptionText",
+                "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "add",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 87
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 43
+            },
+            {
+              "offset": 22,
+              "opcode": 44
+            },
+            {
+              "offset": 23,
+              "opcode": 45
+            },
+            {
+              "offset": 24,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+                "m_7373_",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(FIIF)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 35
+            },
+            {
+              "offset": 2,
+              "opcode": 28
+            },
+            {
+              "offset": 3,
+              "opcode": 29
+            },
+            {
+              "offset": 4,
+              "opcode": 23,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+                "<init>",
+                "(FIIF)V"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "getAmmoItem",
+          "descriptor": "()Lnet/minecraft/world/item/Item;",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/item/AoAItems",
+                "CANNONBALL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 192,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "isFullAutomatic",
+          "descriptor": "()Z",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "doImpactDamage",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 43
+            },
+            {
+              "offset": 1,
+              "opcode": 198,
+              "operands": [
+                0,
+                138
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 43
+            },
+            {
+              "offset": 5,
+              "opcode": 193,
+              "operands": [
+                0,
+                47
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 153,
+              "operands": [
+                0,
+                47
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 43
+            },
+            {
+              "offset": 12,
+              "opcode": 192,
+              "operands": [
+                0,
+                47
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 141
+            },
+            {
+              "offset": 20,
+              "opcode": 15
+            },
+            {
+              "offset": 21,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/Attributes",
+                "f_22284_",
+                "Lnet/minecraft/world/entity/ai/attributes/Attribute;"
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "m_21133_",
+                "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 20,
+              "constant": 1.5
+            },
+            {
+              "offset": 32,
+              "opcode": 107
+            },
+            {
+              "offset": 33,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/ai/attributes/Attributes",
+                "f_22285_",
+                "Lnet/minecraft/world/entity/ai/attributes/Attribute;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "m_21133_",
+                "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 20,
+              "constant": 0.5
+            },
+            {
+              "offset": 44,
+              "opcode": 107
+            },
+            {
+              "offset": 45,
+              "opcode": 99
+            },
+            {
+              "offset": 46,
+              "opcode": 20,
+              "constant": 100.0
+            },
+            {
+              "offset": 49,
+              "opcode": 111
+            },
+            {
+              "offset": 50,
+              "opcode": 99
+            },
+            {
+              "offset": 51,
+              "opcode": 107
+            },
+            {
+              "offset": 52,
+              "opcode": 144
+            },
+            {
+              "offset": 53,
+              "opcode": 56,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 55,
+              "opcode": 44
+            },
+            {
+              "offset": 56,
+              "opcode": 45
+            },
+            {
+              "offset": 57,
+              "opcode": 43
+            },
+            {
+              "offset": 58,
+              "opcode": 42
+            },
+            {
+              "offset": 59,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+                "getDamage",
+                "()F"
+              ]
+            },
+            {
+              "offset": 62,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 106
+            },
+            {
+              "offset": 65,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "doHeavyGunAttack",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+              ]
+            },
+            {
+              "offset": 68,
+              "opcode": 153,
+              "operands": [
+                0,
+                71
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 43
+            },
+            {
+              "offset": 72,
+              "opcode": 193,
+              "operands": [
+                0,
+                78
+              ]
+            },
+            {
+              "offset": 75,
+              "opcode": 153,
+              "operands": [
+                0,
+                21
+              ]
+            },
+            {
+              "offset": 78,
+              "opcode": 43
+            },
+            {
+              "offset": 79,
+              "opcode": 192,
+              "operands": [
+                0,
+                78
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "m_21254_",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 85,
+              "opcode": 153,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 88,
+              "opcode": 43
+            },
+            {
+              "offset": 89,
+              "opcode": 192,
+              "operands": [
+                0,
+                78
+              ]
+            },
+            {
+              "offset": 92,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 93,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "m_36384_",
+                "(Z)V"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 43
+            },
+            {
+              "offset": 97,
+              "opcode": 193,
+              "operands": [
+                0,
+                47
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 153,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 43
+            },
+            {
+              "offset": 104,
+              "opcode": 192,
+              "operands": [
+                0,
+                47
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 58,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 25,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 111,
+              "opcode": 44
+            },
+            {
+              "offset": 112,
+              "opcode": 42
+            },
+            {
+              "offset": 113,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+                "getDamage",
+                "()F"
+              ]
+            },
+            {
+              "offset": 116,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 118,
+              "opcode": 106
+            },
+            {
+              "offset": 119,
+              "opcode": 18,
+              "constant": 10.0
+            },
+            {
+              "offset": 121,
+              "opcode": 110
+            },
+            {
+              "offset": 122,
+              "opcode": 15
+            },
+            {
+              "offset": 123,
+              "opcode": 15
+            },
+            {
+              "offset": 124,
+              "opcode": 15
+            },
+            {
+              "offset": 125,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/DamageUtil",
+                "doScaledKnockback",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;FDDD)V"
+              ]
+            },
+            {
+              "offset": 128,
+              "opcode": 42
+            },
+            {
+              "offset": 129,
+              "opcode": 43
+            },
+            {
+              "offset": 130,
+              "opcode": 44
+            },
+            {
+              "offset": 131,
+              "opcode": 45
+            },
+            {
+              "offset": 132,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 134,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 136,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+                "doImpactEffect",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V"
+              ]
+            },
+            {
+              "offset": 139,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 187,
+              "operands": [
+                0,
+                107
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 89
+            },
+            {
+              "offset": 4,
+              "opcode": 43
+            },
+            {
+              "offset": 5,
+              "opcode": 42
+            },
+            {
+              "offset": 6,
+              "opcode": 45
+            },
+            {
+              "offset": 7,
+              "opcode": 16,
+              "constant": 120
+            },
+            {
+              "offset": 9,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 10,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity",
+                "<init>",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "m_7373_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 45
+            },
+            {
+              "offset": 4,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+                "m_7373_",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 45
+            },
+            {
+              "offset": 10,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 11,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$Keys",
+                "KNOCKBACK",
+                "Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+                "ITEM_TYPE_INFO",
+                "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 18,
+              "opcode": 189,
+              "operands": [
+                0,
+                130
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "getFormattedItemDescriptionText",
+                "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "add",
+                "(ILjava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 45
+            },
+            {
+              "offset": 30,
+              "opcode": 5,
+              "constant": 2
+            },
+            {
+              "offset": 31,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$Keys",
+                "CANNON_ARMOUR_DAMAGE",
+                "Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 34,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+                "ITEM_TYPE_INFO",
+                "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 38,
+              "opcode": 189,
+              "operands": [
+                0,
+                130
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "getFormattedItemDescriptionText",
+                "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "add",
+                "(ILjava/lang/Object;)V"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity.class",
+      "sha256": "3bf81a50e1c473beaf4067e10adfa7d2de7ccc5445c41cb74ea0a97b83f444c5",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/Level;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+                "FUNGAL_BALL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                34
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+                "FUNGAL_BALL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                34
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 44
+            },
+            {
+              "offset": 12,
+              "opcode": 45
+            },
+            {
+              "offset": 13,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 15,
+              "opcode": 12
+            },
+            {
+              "offset": 16,
+              "opcode": 21,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;IFI)V"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/Level;DDD)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+                "FUNGAL_BALL",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                34
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 40
+            },
+            {
+              "offset": 12,
+              "opcode": 24,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 24,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;DDD)V"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "m_7139_",
+          "descriptor": "()F",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 18,
+              "constant": 0.10000000149011612
+            },
+            {
+              "offset": 2,
+              "opcode": 174
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/FungalBallRenderer.class",
+      "sha256": "ee39872f5b9a188fbf55405bac2b4da41061ff5b669ea17b761ac16a19f19e5c",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/resources/ResourceLocation;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/client/render/entity/projectile/TexturedProjectileRenderer",
+                "<init>",
+                "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/resources/ResourceLocation;)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "render",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 36
+            },
+            {
+              "offset": 3,
+              "opcode": 37
+            },
+            {
+              "offset": 4,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 21,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/client/render/entity/projectile/TexturedProjectileRenderer",
+                "m_7392_",
+                "(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 14,
+              "opcode": 54,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 21,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 16,
+              "constant": 8
+            },
+            {
+              "offset": 20,
+              "opcode": 162,
+              "operands": [
+                0,
+                235
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 7,
+              "constant": 4
+            },
+            {
+              "offset": 24,
+              "opcode": 184,
+              "member": [
+                "net/tslat/smartbrainlib/util/RandomUtil",
+                "randomNumberUpTo",
+                "(I)I"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 170,
+              "default_target": 249,
+              "cases": [
+                {
+                  "key": 0,
+                  "target": 56
+                },
+                {
+                  "key": 1,
+                  "target": 103
+                },
+                {
+                  "key": 2,
+                  "target": 150
+                },
+                {
+                  "key": 3,
+                  "target": 197
+                }
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 43
+            },
+            {
+              "offset": 57,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_9236_",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 60,
+              "opcode": 187,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 89
+            },
+            {
+              "offset": 64,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAParticleTypes",
+                "FLICKERING_SPARKLER",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 67,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 70,
+              "opcode": 192,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 12
+            },
+            {
+              "offset": 74,
+              "opcode": 18,
+              "constant": 3.0
+            },
+            {
+              "offset": 76,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/ColourUtil",
+                "GREEN",
+                "I"
+              ]
+            },
+            {
+              "offset": 79,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+                "<init>",
+                "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 43
+            },
+            {
+              "offset": 83,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20185_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 43
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20186_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 43
+            },
+            {
+              "offset": 91,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20189_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 94,
+              "opcode": 14
+            },
+            {
+              "offset": 95,
+              "opcode": 14
+            },
+            {
+              "offset": 96,
+              "opcode": 14
+            },
+            {
+              "offset": 97,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_7106_",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 100,
+              "opcode": 167,
+              "operands": [
+                0,
+                149
+              ]
+            },
+            {
+              "offset": 103,
+              "opcode": 43
+            },
+            {
+              "offset": 104,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_9236_",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 107,
+              "opcode": 187,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 110,
+              "opcode": 89
+            },
+            {
+              "offset": 111,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAParticleTypes",
+                "SPARKLER",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 114,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 192,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 12
+            },
+            {
+              "offset": 121,
+              "opcode": 18,
+              "constant": 3.0
+            },
+            {
+              "offset": 123,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/ColourUtil",
+                "YELLOW",
+                "I"
+              ]
+            },
+            {
+              "offset": 126,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+                "<init>",
+                "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+              ]
+            },
+            {
+              "offset": 129,
+              "opcode": 43
+            },
+            {
+              "offset": 130,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20185_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 133,
+              "opcode": 43
+            },
+            {
+              "offset": 134,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20186_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 137,
+              "opcode": 43
+            },
+            {
+              "offset": 138,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20189_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 141,
+              "opcode": 14
+            },
+            {
+              "offset": 142,
+              "opcode": 14
+            },
+            {
+              "offset": 143,
+              "opcode": 14
+            },
+            {
+              "offset": 144,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_7106_",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 147,
+              "opcode": 167,
+              "operands": [
+                0,
+                102
+              ]
+            },
+            {
+              "offset": 150,
+              "opcode": 43
+            },
+            {
+              "offset": 151,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_9236_",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 154,
+              "opcode": 187,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 157,
+              "opcode": 89
+            },
+            {
+              "offset": 158,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAParticleTypes",
+                "SPARKLER",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 161,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 164,
+              "opcode": 192,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 167,
+              "opcode": 12
+            },
+            {
+              "offset": 168,
+              "opcode": 18,
+              "constant": 3.0
+            },
+            {
+              "offset": 170,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/ColourUtil",
+                "BLUE",
+                "I"
+              ]
+            },
+            {
+              "offset": 173,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+                "<init>",
+                "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+              ]
+            },
+            {
+              "offset": 176,
+              "opcode": 43
+            },
+            {
+              "offset": 177,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20185_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 180,
+              "opcode": 43
+            },
+            {
+              "offset": 181,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20186_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 184,
+              "opcode": 43
+            },
+            {
+              "offset": 185,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20189_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 188,
+              "opcode": 14
+            },
+            {
+              "offset": 189,
+              "opcode": 14
+            },
+            {
+              "offset": 190,
+              "opcode": 14
+            },
+            {
+              "offset": 191,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_7106_",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 194,
+              "opcode": 167,
+              "operands": [
+                0,
+                55
+              ]
+            },
+            {
+              "offset": 197,
+              "opcode": 43
+            },
+            {
+              "offset": 198,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_9236_",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 201,
+              "opcode": 187,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 204,
+              "opcode": 89
+            },
+            {
+              "offset": 205,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAParticleTypes",
+                "SPARKLER",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 208,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 211,
+              "opcode": 192,
+              "operands": [
+                0,
+                58
+              ]
+            },
+            {
+              "offset": 214,
+              "opcode": 12
+            },
+            {
+              "offset": 215,
+              "opcode": 18,
+              "constant": 3.0
+            },
+            {
+              "offset": 217,
+              "opcode": 17,
+              "constant": 193
+            },
+            {
+              "offset": 220,
+              "opcode": 16,
+              "constant": 64
+            },
+            {
+              "offset": 222,
+              "opcode": 17,
+              "constant": 215
+            },
+            {
+              "offset": 225,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/ColourUtil",
+                "RGB",
+                "(III)I"
+              ]
+            },
+            {
+              "offset": 228,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+                "<init>",
+                "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+              ]
+            },
+            {
+              "offset": 231,
+              "opcode": 43
+            },
+            {
+              "offset": 232,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20185_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 235,
+              "opcode": 43
+            },
+            {
+              "offset": 236,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20186_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 239,
+              "opcode": 43
+            },
+            {
+              "offset": 240,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+                "m_20189_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 243,
+              "opcode": 14
+            },
+            {
+              "offset": 244,
+              "opcode": 14
+            },
+            {
+              "offset": 245,
+              "opcode": 14
+            },
+            {
+              "offset": 246,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_7106_",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 249,
+              "opcode": 132,
+              "operands": [
+                7,
+                1
+              ]
+            },
+            {
+              "offset": 252,
+              "opcode": 167,
+              "operands": [
+                255,
+                20
+              ]
+            },
+            {
+              "offset": 255,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "m_7392_",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 192,
+              "operands": [
+                0,
+                40
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 36
+            },
+            {
+              "offset": 6,
+              "opcode": 37
+            },
+            {
+              "offset": 7,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 21,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/client/render/entity/projectile/cannonshots/FungalBallRenderer",
+                "render",
+                "(Lnet/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipes": {
+    "data/aoa3/recipes/upgrade_kit_fungal_cannon.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:flower_cannon"
+      },
+      "result": {
+        "item": "aoa3:fungal_cannon"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:fungal_upgrade_kit"
+      }
+    }
+  },
+  "direct_loot_tables": {},
+  "runtime_tested": false,
+  "renderer_factories": [
+    {
+      "name": "lambda$static$53",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 187,
+          "operands": [
+            3,
+            245
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 89
+        },
+        {
+          "offset": 4,
+          "opcode": 42
+        },
+        {
+          "offset": 5,
+          "opcode": 19,
+          "constant": "textures/entity/projectile/cannonshots/cannonball.png"
+        },
+        {
+          "offset": 8,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/advent/AdventOfAscension",
+            "id",
+            "(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;"
+          ]
+        },
+        {
+          "offset": 11,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/client/render/entity/projectile/cannonshots/FungalBallRenderer",
+            "<init>",
+            "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/resources/ResourceLocation;)V"
+          ]
+        },
+        {
+          "offset": 14,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "original_projectile_texture": {
+    "path": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "sha256": "1dd1364d7ac67b93489d25a1ebd80fa0f7a6d34dc26482d2a855fb13f9b0607d"
+  }
+}
