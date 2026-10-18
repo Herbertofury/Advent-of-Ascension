@@ -67,4 +67,4 @@ union, acquisition and 2,000 FPS target remain open.
 [Whole historical block batch and mature registry identity resolution](WHOLE-HISTORICAL-BLOCK-BATCH-2026-10-18.md). The full union remains unfinished.
 
 
-[Whole Snapshot source recovery and four-dimension program cohort](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md). All original classes are covered and 252 complete dimension/API source files and 257 cumulative native-block source files pass target-JDK diagnostics; current v93 remains playable. This is not full merge or gameplay acceptance.
+[Whole Snapshot source recovery and four-dimension program cohort](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md). Complete source recovery, the 78-block native client/server batch and all four serial/parallel terrain programs are verified within their stated scopes. Current v93 stays playable; the full merge and world/entity/progression gates remain open.
