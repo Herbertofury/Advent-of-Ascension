@@ -1,5 +1,8 @@
 # Soul Storm: complete weapon profile
 
+> Latest sight direction: the default Soul Storm aiming sight is an animated Soul Flame. Soul Candle and Soul Gem are optional attachments; preserve the older gem concepts. [Sight specification](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights).
+
+
 **First documented lane: AoA3.7.1 / Minecraft1.20.1.** Original facts below come from the released JAR and explicitly linked source comparison. Our premium design and upgrade values are proposals; native upgraded gameplay has not been measured.
 
 [Concept art](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) · [Functional upgrade policy](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) · [Attachment gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Attachment-Concept-Gallery)

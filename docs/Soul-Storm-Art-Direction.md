@@ -1,5 +1,8 @@
 # Soul Storm: nostalgia amplified
 
+> Latest sight direction: the default Soul Storm aiming sight is an animated Soul Flame. Soul Candle and Soul Gem are optional attachments; preserve the older gem concepts. [Sight specification](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights).
+
+
 **Current gameplay direction:** original behavior is the baseline, not the ceiling. Attachments may intentionally increase damage/projectile count and change firing patterns, resources and effects. See [Functional weapon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades). Accidental duplicate callbacks remain bugs; deliberate multishot is a feature.
 
 
