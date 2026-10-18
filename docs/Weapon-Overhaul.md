@@ -8,6 +8,10 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 [Reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Implementation checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog) · [Original item atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas)
 
+## Reproduce the authoring checks
+
+[Run the 21 scoped test suites from clean source archives](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Authoring-Reproducibility). Exact input hashes and corrected Baronator fixture packaging are included. These are authoring tests, not native game or visual acceptance.
+
 ## Explore the weapon profiles
 
 | Weapon | Read the original behavior and proposed upgrade |
@@ -18,6 +22,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Abominator | [Full profile and original-inspired concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Abominator-Weapon-Profile) |
 | Soul Drainer | [Full profile and life-leech contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
 | Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile) |
+| Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) |
 
 All six have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
 

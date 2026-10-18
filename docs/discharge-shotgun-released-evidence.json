@@ -1,0 +1,67 @@
+{
+  "scope": "Static released bytecode and exact asset evidence; not game testing",
+  "release": "AoA3-1.20.1-3.7.1-all.jar",
+  "archive_sha512": "bdee7d12aab1903e1e74f377d4f0ae7ac948d791f46ec0368d191d86a3d5a03cfbd2e6d1295f1fe690f303b1fa709da89db980543e4d450fc0fdbbf6d9e694e6",
+  "classes_sha256": {
+    "net/tslat/aoa3/common/registration/item/AoAWeapons.class": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703",
+    "net/tslat/aoa3/content/item/weapon/shotgun/DischargeShotgun.class": "83ad738efacc1acbc5e6012142055f9c22332010382eb0fa235c8716edb3393e",
+    "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun.class": "5d2d3ed79056b8e42b2a6ff13fd2c7e60261d14453bf26d713dee9d857a2832c",
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "net/tslat/aoa3/content/entity/projectile/gun/DischargeShotEntity.class": "d71b4334665a04cc01627a5819eaddbd7390d5e58239398af014dac4f040fa38",
+    "net/tslat/aoa3/util/WorldUtil.class": "3cfdfe2967fa2459b1749966de55986d9ee7c21e2eb774189606ad5a5fe08fa9",
+    "net/tslat/aoa3/client/AoAEntityRendering.class": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+  },
+  "asset_sha256": {
+    "assets/aoa3/textures/item/discharge_shotgun.png": "f53e3ee38350b6786a758abd1ebe797a082bc58b0cf49abf74d9e4ad716c27f4",
+    "assets/aoa3/textures/entity/projectile/bullets/discharge_shot.png": "e505928a3b120d3f693b1c6da009adfd94dfa7bcb00c8938fcbfb05a67ce9d44"
+  },
+  "registry_constructor": {
+    "method": "AoAWeapons.lambda$static$100",
+    "arguments": [
+      0.0,
+      4,
+      160,
+      55,
+      0.0,
+      13.0
+    ],
+    "meanings": [
+      "base damage input",
+      "pellet count",
+      "durability input",
+      "firing-delay ticks",
+      "knockback input",
+      "stored recoil input"
+    ]
+  },
+  "behavior": {
+    "ammo": "DISCHARGE_CAPSULE",
+    "spawned_projectile": "DischargeShotEntity",
+    "ammo_check": "Once before pellet loop",
+    "pellet_count": 4,
+    "full_automatic": false,
+    "projectile_lifespan_input": 4,
+    "projectile_damage_multiplier_input": 1.0,
+    "piercing_input": 0,
+    "gravity_return": 0.0,
+    "entity_hit_call_order": [
+      "weapon.doImpactDamage requests explosion strength 2.5 when weapon and living owner exist",
+      "projectile.doEntityImpact requests explosion strength 1.8"
+    ],
+    "block_hit": "projectile.doBlockImpact requests explosion strength 1.8",
+    "impact_position": "WorldUtil overload uses projectile entity coordinates, not the supplied hit-vector argument",
+    "expiry": "age > lifespan is checked after superclass tick; do not call input4 an exact four-tick range guarantee",
+    "terrain": "WorldUtil consults destructive-weapon physics or mob-griefing rules; not unconditional block destruction"
+  },
+  "recoil_caution": "Stored constructor input13 is not degrees or effective camera kick. Inspected BaseGun.getRecoilModifier returns0.35; getRecoilForShot uses1 for zero base damage then multiplies by that getter.",
+  "renderer": {
+    "bootstrap_index": 107,
+    "factory": "AoAEntityRendering.lambda$static$48",
+    "class": "TexturedProjectileRenderer",
+    "texture": "textures/entity/projectile/bullets/discharge_shot.png"
+  },
+  "direct_data_json_references": [],
+  "acquisition_limit": "No direct matching data JSON reference is not proof that no code-driven or external acquisition route exists",
+  "native_upgraded_acceptance": false
+}

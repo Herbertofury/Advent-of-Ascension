@@ -1851,7 +1851,7 @@
     {
       "id": "aoa3:discharge_shotgun",
       "family": "shotgun",
-      "stage": "not_started",
+      "stage": "released_baseline_and_concept_exploration",
       "gates": {
         "mechanism": "untested",
         "spatial": "untested",
@@ -1860,13 +1860,24 @@
         "export": "untested",
         "runtime": "untested"
       },
-      "evidence": [],
+      "evidence": [
+        "discharge-shotgun-released-evidence.json"
+      ],
       "required_design_deliverables": [
         "Original version-specific profile",
         "Original projectile flight/impact capture",
         "Identity-specific alternate barrels",
         "Attachment and charm clearances",
         "Skins, decals and effect customization"
+      ],
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile",
+      "concept_art": "v1 and corrected-layout v2 published exploration; not final visual acceptance",
+      "original_in_game_capture": "not captured",
+      "known_open": [
+        "Two-stage entity-hit explosion runtime verification",
+        "Native model/animation/export",
+        "Hand, fin and capsule clearances",
+        "Native performance and compatibility acceptance"
       ]
     },
     {

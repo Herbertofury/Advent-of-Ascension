@@ -104,3 +104,8 @@ Compare original and upgraded captures using the same scene, hardware and target
 ![Proposed upgraded projectile and impact language](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-impact-concepts-v2.png)
 
 This is proposed upgraded VFX art, not an original-game capture. Compare it with the actual source assets and original impact values above. Discs, primary bullet hits and the separate Baronator grenade branch have distinct visual identities. Larger impact areas or terrain-changing behavior must correspond to a declared functional module and server rules; cosmetic debris is not proof that world blocks are destroyed.
+
+
+## Editable sculpt progress
+
+[Current sculpt, four-emitter motion and retained source iterations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sculpt-Study). Visual and native acceptance remain open; the sampled Blender animation is not gameplay footage.
