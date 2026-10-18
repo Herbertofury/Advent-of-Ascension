@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T04:11:08.510760+00:00",
+  "observedAt": "2026-10-18T04:41:50.692228+00:00",
   "candidateArtifact": {
     "sha256": "78b66fd816c7c694dafa0c185bd2aec7b3fb77ec9f358d01ca07728e08dbba00",
     "bytes": 147225930
@@ -9,9 +9,9 @@
   "inheritedArtifactMembersRetained": 24117,
   "inheritedArtifactMembersRemoved": 0,
   "nativeServerVerified": true,
-  "nativeClientVerified": false,
-  "currentPlayableChanged": false,
-  "currentPlayableSha256": "efa0ab75ec5f92d48c582597dfef42db0ebb00c4e66f8b837b5e080b336fa64e",
+  "nativeClientVerified": true,
+  "currentPlayableChanged": true,
+  "currentPlayableSha256": "78b66fd816c7c694dafa0c185bd2aec7b3fb77ec9f358d01ca07728e08dbba00",
   "nativeComponentSummary": {
     "tablets": 21,
     "resourceBoundaryCases": 32,
@@ -89,5 +89,107 @@
   ],
   "completeAoAPort": false,
   "performanceVerified": false,
-  "modifiedJarOrOriginalSourcePublished": false
+  "modifiedJarOrOriginalSourcePublished": false,
+  "ordinarySignedInProductionVerified": true,
+  "hariNativeRequiredVerified": true,
+  "actualOpenGlDraws": 24,
+  "actualVulkanDraws": 24,
+  "completeNativeClient": {
+    "originalPngs": 44,
+    "bakedModels": 40,
+    "registeredComponentRenderers": 3,
+    "allHealthModesRetained": true,
+    "overallRunPassed": true,
+    "completePixonOrigins": {
+      "completeEligibleOrigins": 2,
+      "actualSpawnDistanceRelations": 172,
+      "spawnsMatchingOriginalPlayer": 81
+    }
+  },
+  "acceptedLocalReceipts": [
+    {
+      "file": "whole-mod-modern-server-baseline-00f4ba8d-da5d-44b2-bfbf-74f7a40a1662.json",
+      "sha256": "fb05039fb11961f00f0a1b80a00e79505f1546c43a5b92dbec631b763a7da35e",
+      "bytes": 28622559,
+      "role": "native_server"
+    },
+    {
+      "file": "whole-mod-modern-client-baseline-71e8dcc3-5c95-43c6-892b-b39ea6148744.json",
+      "sha256": "820d00300c7cea5b3427c8fa6ef28db91e1b5738c45ada61e74d54ba3a3d00e5",
+      "bytes": 28130254,
+      "role": "native_client"
+    },
+    {
+      "file": "aoa-forge1201-whole-augury-tablet-component-plan-v89b-native-sdk.json",
+      "sha256": "58254cd5d3f8e16095cd8dfdb19010fc6bb68b05b0db75d384341a817ad54a97",
+      "bytes": 23982365,
+      "role": "source_plan"
+    },
+    {
+      "file": "aoa-v89d-independent-complete-native-client-server-tablet-component-proof-20261017.json",
+      "sha256": "7250511cd2761210d66d8b593ccde3ea508477ac0f0c82940fae8ca8f58294de",
+      "bytes": 17248,
+      "role": "independent_component_native"
+    },
+    {
+      "file": "aoa-v89d-complete-inherited-native-client-server-family-proof-20261017.json",
+      "sha256": "f04c06b69b5dbcb1f484b2efb04219327e762614932aa0e1175b326191967a39",
+      "bytes": 4035,
+      "role": "inherited_native_families"
+    },
+    {
+      "file": "aoa-v89d-production-instance-20261017.json",
+      "sha256": "c369b2024f1352f2ad229a200ac5d26fdb7589b080523a0b97ad5b2dbd5cb1b6",
+      "bytes": 17402,
+      "role": "production_install"
+    },
+    {
+      "file": "aoa-v89d-production-server-20261017.json",
+      "sha256": "c48805e397d8a0da6b6ce1fca280a39e4ee769645388dc3cabf65a593f4e7c06",
+      "bytes": 7339,
+      "role": "production_server"
+    },
+    {
+      "file": "aoa-v89e-production-playtest-20261017.json",
+      "sha256": "70d957aee23f64032682cd3f2324852920b942850349183e6ce4e0c190dcfc4a",
+      "bytes": 25082,
+      "role": "production_client"
+    },
+    {
+      "file": "aoa-v89e-independent-complete-production-playtest-proof-20261017.json",
+      "sha256": "de3c98e7febff8dececf759a420d052b815198c696f878b093d885c7ee256ae8",
+      "bytes": 2183,
+      "role": "independent_production"
+    },
+    {
+      "file": "aoa-v89f-complete-clean-production-native-renderer-proof-20261017.json",
+      "sha256": "662e31054698d4ccf6addc74fb2f82e0ed9a045d851b09b99362af2d1ffe96de",
+      "bytes": 5200,
+      "role": "independent_native_renderer"
+    },
+    {
+      "file": "aoa-v89f-hari-production-server-20261017.json",
+      "sha256": "ca76a5f0eebc551f00569d0f9e5cc6add7691fccf79d99927d754508643eac5c",
+      "bytes": 7815,
+      "role": "hari_production_server"
+    },
+    {
+      "file": "aoa-v89f-clean-hari-production-playtest-20261017.json",
+      "sha256": "fd2a7120f343e1d2b11af5da5a70c9c0d535a87fe04f4b31a38728fb72c16c01",
+      "bytes": 43603,
+      "role": "hari_production_client"
+    },
+    {
+      "file": "aoa-v89g-current-playtest-promotion-20261017.json",
+      "sha256": "c10f5758c918d35256122eeb3db320cbd5abab4dec68a838ff6b5a4a0f70dabb",
+      "bytes": 30791,
+      "role": "current_playtest_in_place_promotion"
+    },
+    {
+      "file": "aoa-upstream-freshness-0b48db69-6e87-485a-b4de-dd0b21a45cf1.json",
+      "sha256": "ffcb2eebcdb3d7a2eb07a6d52cf76ce551f83a67c1d7c9f6bb17259682898b1d",
+      "bytes": 4643,
+      "role": "fresh_official_source_and_provider"
+    }
+  ]
 }

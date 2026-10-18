@@ -55,3 +55,9 @@ The current playtest retains the complete Extraction/Anima foundation and all 24
 
 
 [Augury and all original tablet component progress](AUGURY-TABLETS-2026-10-17.md). Native server acceptance passes; the full client and acquisition gates remain open. The current playable release is unchanged.
+
+
+The [Augury/tablet continuation](AUGURY-TABLETS-2026-10-17.md) now passes complete
+native client/server, normal signed-in production and selected native Hari62
+renderer checks. Current Playtest is updated in place; the complete historical
+union, acquisition and 2,000 FPS target remain open.

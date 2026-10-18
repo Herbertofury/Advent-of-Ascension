@@ -34,3 +34,23 @@ tooling and factual metadata are published here; original AoA programs, art/audi
 and the modified JAR remain local.
 
 [Exact facts and local receipt identities](augury-tablets-2026-10-17.json).
+
+
+## Complete client, ordinary production and selected renderer acceptance
+
+The full native client now passes, including all 44 original PNGs, 40 baked
+models, three component renderer registrations and retained health choices. The
+complete player-origin spawn fixture preserves both eligible players and
+independently recomputes all 172 distance relations. Earlier failed runs remain
+failed history. Normal production server save/restart and signed-in client pass.
+Hari62 native Vulkan is required with no fallback; all 24 real GUI overlay state
+cases pass, alongside all 24 native OpenGL cases. These tests do not establish
+sustained 2,000 FPS, full-pack parity or complete historical gameplay.
+
+Current Playtest is updated in place to the exact 78b66fd8... artifact. Its 69
+world/config/user files, profile name/ID and launch choices remain unchanged.
+All preceding registry identities and 24,117 archive members remain, with 24,245
+complete current members, 879 source recipes and 7,713 selected resources. The
+complete current artifact inventory is independently verified member by member.
+Full survival acquisition/Foraging, skill-master trades, remaining Creation
+consumers, legacy migration and wider union gates remain open.
