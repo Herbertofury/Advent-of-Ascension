@@ -16,7 +16,7 @@
 
 ## Concept-first art direction
 
-Every weapon starts with actual original-reference and gameplay study, then high-quality generated concepts, critique, and a consistent modeling target. Preserve recognizable AoA nostalgia while radically improving silhouette, materials, motion, sound and effects. Numerical collision checks do not certify good art. The earlier Soul Storm blockout is rejected as the visual benchmark; see [Soul Storm art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) before further modeling.
+Every weapon starts with actual original-reference and gameplay study, then high-quality generated concepts, critique, and a consistent modeling target. Preserve recognizable AoA nostalgia while radically improving silhouette, materials, motion, sound and effects. Numerical collision checks do not certify good art. The earlier Soul Storm blockout is rejected as the visual benchmark; see [Soul Storm art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) before further modeling. [Baronator concept exploration](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baronator-Art-Direction) now establishes its original-red, twin-barrel visual target and heavy alternating firing feel.
 
 ## Foundation
 - [ ] Enumerate every accepted weapon by registry ID and source version; distinguish alternate variants from unique weapons.
