@@ -1,0 +1,328 @@
+{
+  "stage": "unpublished fictional mechanism blockout, unqualified",
+  "purpose": "Demonstrate a connected visible route before refining exterior art; does not certify real-world operation.",
+  "component_roles": {
+    "right_grip": [
+      {
+        "bone": "receiver",
+        "cube": 13,
+        "origin": [
+          -1,
+          -5.8,
+          10
+        ],
+        "size": [
+          2,
+          4.8,
+          2.3
+        ]
+      },
+      {
+        "bone": "receiver",
+        "cube": 14,
+        "origin": [
+          -1.2,
+          -6.2,
+          10
+        ],
+        "size": [
+          2.4,
+          0.7,
+          2.8
+        ]
+      },
+      {
+        "bone": "receiver",
+        "cube": 15,
+        "origin": [
+          -1.07,
+          -5,
+          10
+        ],
+        "size": [
+          2.14,
+          0.25,
+          2.4
+        ]
+      },
+      {
+        "bone": "receiver",
+        "cube": 16,
+        "origin": [
+          -1.07,
+          -4,
+          10
+        ],
+        "size": [
+          2.14,
+          0.25,
+          2.4
+        ]
+      },
+      {
+        "bone": "receiver",
+        "cube": 17,
+        "origin": [
+          -1.07,
+          -3,
+          10
+        ],
+        "size": [
+          2.14,
+          0.25,
+          2.4
+        ]
+      }
+    ],
+    "trigger_guard": [
+      {
+        "bone": "receiver",
+        "cube": 18,
+        "origin": [
+          -0.65,
+          -4.8,
+          6.4
+        ],
+        "size": [
+          1.3,
+          0.5,
+          4.8
+        ]
+      },
+      {
+        "bone": "receiver",
+        "cube": 19,
+        "origin": [
+          -0.65,
+          -4.8,
+          6.4
+        ],
+        "size": [
+          1.3,
+          3.6,
+          0.5
+        ]
+      }
+    ],
+    "left_support_grip": [
+      {
+        "bone": "support_grip",
+        "cube": 0,
+        "origin": [
+          -2.8,
+          -4.1,
+          -6.5
+        ],
+        "size": [
+          2,
+          1,
+          2
+        ]
+      }
+    ],
+    "magazine_grip_contact": [
+      {
+        "bone": "magazine",
+        "cube": 0,
+        "origin": [
+          -1.6,
+          -7.800000000000001,
+          2.5
+        ],
+        "size": [
+          3.2,
+          0.7,
+          3.8
+        ]
+      },
+      {
+        "bone": "magazine",
+        "cube": 1,
+        "origin": [
+          -1.5,
+          -6.6,
+          3.2
+        ],
+        "size": [
+          0.2,
+          0.45,
+          2.3
+        ]
+      },
+      {
+        "bone": "magazine",
+        "cube": 2,
+        "origin": [
+          -1.5,
+          -5.6000000000000005,
+          3.2
+        ],
+        "size": [
+          0.2,
+          0.45,
+          2.3
+        ]
+      },
+      {
+        "bone": "magazine",
+        "cube": 3,
+        "origin": [
+          -1.5,
+          -4.6000000000000005,
+          3.2
+        ],
+        "size": [
+          0.2,
+          0.45,
+          2.3
+        ]
+      },
+      {
+        "bone": "magazine",
+        "cube": 7,
+        "origin": [
+          -1.4,
+          -7.4,
+          2.7
+        ],
+        "size": [
+          0.25,
+          3.8,
+          3.4
+        ]
+      },
+      {
+        "bone": "magazine",
+        "cube": 9,
+        "origin": [
+          -1.15,
+          -7.4,
+          2.7
+        ],
+        "size": [
+          2.3,
+          3.8,
+          0.25
+        ]
+      },
+      {
+        "bone": "magazine",
+        "cube": 10,
+        "origin": [
+          -1.15,
+          -7.4,
+          5.85
+        ],
+        "size": [
+          2.3,
+          3.8,
+          0.25
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "upper": [
+      [
+        0,
+        -2.9,
+        5.1
+      ],
+      [
+        0,
+        -2.5,
+        5.1
+      ],
+      [
+        0,
+        2,
+        5.1
+      ],
+      [
+        0,
+        2,
+        2.5
+      ]
+    ],
+    "lower": [
+      [
+        0,
+        -2.9,
+        5.1
+      ],
+      [
+        0,
+        -2.5,
+        5.1
+      ],
+      [
+        0,
+        -1.8,
+        5.1
+      ],
+      [
+        0,
+        -1.8,
+        2.5
+      ]
+    ]
+  },
+  "inspection_cycle_events": {
+    "upper": {
+      "cartridge_seated": 1.8,
+      "carrier_home": 3.2,
+      "visual_discharge": 3.4,
+      "recoil_recovered": 3.65,
+      "scope": "inspection timing only, never native firing cadence or ammo logic"
+    },
+    "lower": {
+      "cartridge_seated": 1.8,
+      "carrier_home": 3.2,
+      "visual_discharge": 3.4,
+      "recoil_recovered": 3.65,
+      "scope": "inspection timing only, never native firing cadence or ammo logic"
+    }
+  },
+  "magazine_exchange_events": {
+    "carrier_parked": 0.28,
+    "hand_grasp": 0.35,
+    "withdrawal_starts": 0.4,
+    "magazine_seated": 1.45,
+    "hand_released": 1.6,
+    "carrier_home": 1.8
+  },
+  "cartridge_proxy_size": [
+    0.65,
+    0.65,
+    1
+  ],
+  "hand_envelope": {
+    "origin": [
+      -1.1,
+      -4.2,
+      7.2
+    ],
+    "size": [
+      2.2,
+      1.4,
+      1.4
+    ]
+  },
+  "cutaway_hide": [
+    "receiver",
+    "upper_shroud",
+    "vent_left",
+    "vent_right",
+    "stock",
+    "sight"
+  ],
+  "known_open": [
+    "transfer drive details, action gates and complete firing-cycle choreography",
+    "source-to-round ownership and reload state",
+    "actual AoA/TaCZ hand fit",
+    "all dynamic part contacts",
+    "native runtime",
+    "secondary grenade presentation"
+  ],
+  "geometry_sha256": "05bdc2d9b67f542e80f42550c09e74cd60eb6ac0e998e4c3b24801f4ca8c3e9e"
+}

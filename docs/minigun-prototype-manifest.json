@@ -1,0 +1,39 @@
+{
+  "weapon": "aoa3:minigun",
+  "stage": "original authoring prototype; not game-tested",
+  "bones": 20,
+  "cubes": 302,
+  "animation_records": 11,
+  "native_target": {
+    "version": "1.20.1",
+    "aoa": "3.7.1",
+    "damage_input": 0.625,
+    "shot_interval_ticks": 1,
+    "durability": 2680
+  },
+  "native_behavior_rules": [
+    "Do not add a firing delay merely to finish a cosmetic spin-up",
+    "Preserve native inventory ammunition; belt/reload clips do not consume or create items",
+    "Rotor start/stop needs phase-continuous runtime blending; these standalone clips do not prove that integration",
+    "No forced overheating or manual reload rule is implemented"
+  ],
+  "ownership": "Original geometry/palette/keyframes; AoA identity credited to Tslat and contributors",
+  "files": [
+    {
+      "path": "assets/ascension_armory/animations/minigun.animation.json",
+      "sha256": "8a925cd3bda76087620ff31e58aaabb4b64b91fcc5832756dbb375a714864e5d"
+    },
+    {
+      "path": "assets/ascension_armory/display/guns/minigun_display.json",
+      "sha256": "e60c7d9cc59a9e43660a0b87f132d55d4ebb91a3d7bd57b7f2d73269c1607f57"
+    },
+    {
+      "path": "assets/ascension_armory/geo_models/gun/minigun_geo.json",
+      "sha256": "e69eb315be63f59a1691882764ac7820bd08e803c29912091027e20bf58f406e"
+    },
+    {
+      "path": "assets/ascension_armory/textures/gun/uv/minigun.png",
+      "sha256": "d3d15152c0a78db4353c64420d632057c81d090565811e2c5ba249de8db92d0d"
+    }
+  ]
+}

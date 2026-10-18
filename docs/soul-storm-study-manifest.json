@@ -1,0 +1,28 @@
+{
+  "id": "aoa3:soul_storm",
+  "stage": "original spirit-blaster blockout; unqualified",
+  "cuboids": 77,
+  "bones": 19,
+  "animation_records": 7,
+  "native_inputs": {
+    "minecraft": "1.20.1",
+    "aoa": "3.7.1",
+    "damage_constructor_input": 1.5,
+    "durability": 3190,
+    "delay_ticks": 1,
+    "energy_cost_constructor_input": 2.0
+  },
+  "rules": [
+    "Native Spirit resource and effects remain authoritative",
+    "No magazine, bullet substitution or forced reload",
+    "Recovery clip is cosmetic and never grants Spirit",
+    "One-tick native cadence must not be gated by a 0.2 second visual envelope"
+  ],
+  "open": [
+    "Hand rig and native view fit",
+    "Complete spatial QA",
+    "Spirit resource adapter",
+    "Native first/third-person rendering",
+    "Sound/VFX and measured runtime acceptance"
+  ]
+}
