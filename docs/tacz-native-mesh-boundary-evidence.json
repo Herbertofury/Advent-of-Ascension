@@ -1,0 +1,46 @@
+{
+  "release": "TaCZ 1.1.8-hotfix2 / Forge1.20.1",
+  "jar_sha512": "fa8b4bd4a7a0835092bccbb28a18461642d4e7a2f6fdb762ac4978d4dbc31d1f0f61c685343a61607dce3d1cd89f4314b61a9f8811960b9d0604692ac3fff96d",
+  "static_class_sha256": {
+    "com/tacz/guns/client/resource/manager/GltfManager.class": "f0727e0569543ef040c3789113e722ea98169d7757ca0b83f5e3686344b75258",
+    "com/tacz/guns/client/resource/pojo/animation/gltf/RawAnimationStructure.class": "aaf58fb77741a94b4304a0dab08501048f5f80abdce65e4a4ea312c386c043ee",
+    "com/tacz/guns/client/resource/pojo/model/BonesItem.class": "a054661c2fb03428cb67f0f15182e8cb0952525febca8097c6e11949da5720ab",
+    "com/tacz/guns/client/model/bedrock/BedrockModel.class": "ab1cbaf569ce2d96a88a8a1c8057c7fc64f5faee8d045e9c81a95dea7692d533",
+    "com/tacz/guns/client/model/bedrock/BedrockPart.class": "a894887ce8dda57806ba22bcd32cd2ce605ff8fd37eb848f7e31e5c981b1a2f5",
+    "com/tacz/guns/client/resource/pojo/model/BedrockModelPOJO.class": "1dbceef680e086e9914bb2e17c407cec4e3a741fb21fc56eeebb976a0d06ba43",
+    "com/tacz/guns/api/client/event/BeforeRenderHandEvent.class": "48c9f643703fca8c3c280edc17290743983073de44aff53fea745cc6d5816be6",
+    "com/tacz/guns/client/model/bedrock/BedrockCube.class": "67ad853166823448af8a750dc847f1b6cb7dd5e6dcabefcf7642f7455399989c",
+    "com/tacz/guns/mixin/client/ar/BedrockPartMixin.class": "bfd769e2d883b96c6dc86d7f69324651777f755d6cb6be7b29b7bff82d9200e7"
+  },
+  "reference_pack_counts": {
+    "ars-audit-v2": {
+      "archive_sha256": "42bf9b52c340693c3f961b1385880e9938b5d032bd3b31eec539539b88204c7a",
+      "displays": 8,
+      "poly_mesh_bones": 0,
+      "multiple_geometry_models": 0
+    },
+    "create-audit-v2": {
+      "archive_sha256": "479f0ac05833ccec554efa1b22e6f71553c7ebe7f381310c28467a399c98b0ba",
+      "displays": 13,
+      "poly_mesh_bones": 0,
+      "multiple_geometry_models": 0
+    },
+    "helldivers-audit-v2": {
+      "archive_sha256": "43c0884bf721f8d746b1b8d5d4e8153153ca386cdac3878db3a182e044e7af93",
+      "displays": 57,
+      "poly_mesh_bones": 0,
+      "multiple_geometry_models": 0
+    }
+  },
+  "released_parser_tool_v2_sha256": "5ef2c630e3db8d20498f44af18dcc04a60e6baaf677dbbd52e366fc3555576f6",
+  "boundaries": [
+    "GltfManager is AnimationStructure loader under animations/*.gltf",
+    "RawAnimationStructure exposes accessors,animations,buffers,bufferViews,nodes; no mesh/material fields",
+    "BonesItem stores cubes; actual Gson fixture drops poly_mesh",
+    "BedrockModel constructs BedrockCubeBox or BedrockCubePerFace from cubes",
+    "BedrockModelPOJO.getGeometryModelNew selects first list element",
+    "BeforeRenderHandEvent exposes a PoseStack only in inspected API; not evidence of a complete renderer replacement API"
+  ],
+  "native_acceptance": false,
+  "candidate_extension": "BedrockCube.compile interface + public BedrockPart.cubes + named getNode. Not native-tested; AR mixin caches compiled mesh."
+}
