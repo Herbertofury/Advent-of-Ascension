@@ -121,6 +121,8 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 
 ## Divine Station weapon upgrades
 
+[All 70 illustrated 1.20.1 upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.20.1), covering 18 named kits plus Weapon Parts. This separate catalog uses released AoA3.7.1 data and checks the output-template/NBT transfer limitation. Every matching 1.20.1 recipe-browser card now links to this version-specific guide.
+
 [All 36 illustrated 1.21.1 upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1), covering 17 named kits plus Weapon Parts. Check positional inputs and the configured-output component policy before upgrading customized weapons. Active acquisition remains pack-specific.
 
 ## Original trophies and gold crafting
@@ -131,6 +133,8 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 
 [All 56 Java-registered furnace recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Furnace-Recipes-and-Material-Recycling-1.12.2) now have input/output pictures and exact browser links: 29 ores, four bone fragments, sixteen fish, five meats and two recycling steps. Their documentation-assigned link IDs are clearly labeled and are not original in-game recipe IDs. The previous 1,172 definitions are preserved.
 
+
 ## Historical tea and Ore Dictionary ingredients
 
 [Tea Sink brewing and drink effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tea-Sink-Brewing-Priority-and-Drink-Effects-1.12.2) covers the two equipment recipes, three tea branches and survival/creative differences. The 34 Ore Dictionary ingredient occurrences in the historical recipe data now display their actual symbolic names, including plankWood, instead of an unnamed item. Membership is supplied by the active Forge environment and is not invented by this index.
+

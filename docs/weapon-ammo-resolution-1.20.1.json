@@ -1,0 +1,1901 @@
+{
+  "release": "Minecraft 1.20.1 / AoA 3.7.1",
+  "scope": "Declared/inherited getAmmoItem identity for 172 conventional weapon IDs; not net consumption, exemptions, pouches, effects or gameplay acceptance. 56 blasters excluded from this item-ammo table.",
+  "jar_sha512": "bdee7d12aab1903e1e74f377d4f0ae7ac948d791f46ec0368d191d86a3d5a03cfbd2e6d1295f1fe690f303b1fa709da89db980543e4d450fc0fdbbf6d9e694e6",
+  "weapon_count": 172,
+  "ammo_counts": {
+    "aoa3:balloon": 2,
+    "aoa3:cannonball": 31,
+    "aoa3:chilli": 1,
+    "aoa3:discharge_capsule": 6,
+    "aoa3:grenade": 12,
+    "aoa3:limonite_bullet": 63,
+    "aoa3:metal_slug": 34,
+    "aoa3:spreadshot": 16,
+    "minecraft:carrot": 1,
+    "minecraft:cobblestone": 2,
+    "minecraft:leather_boots": 1,
+    "minecraft:nether_wart": 1,
+    "minecraft:wheat_seeds": 2
+  },
+  "methods": {
+    "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "5f0cdbf01528033585c958ed31a043267702b4c7a9a9b8d128db14c9ae4b185d",
+      "method_text_sha256": "81b240bfab890691a0a4c26b4ea1d6ca94128c3f1a262220ea7043a09f654184",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/AncientDischarger": {
+      "ammo_id": "aoa3:discharge_capsule",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.DISCHARGE_CAPSULE",
+      "class_sha256": "80e2d5b7ddbf74a7b1ec4f55027b01f7fdd7494942ed34f78de995d70343d7fb",
+      "method_text_sha256": "0e3076250a3c1d049c88b12ae7cea94c8c88324891d34d1215f5c9d489fe1246",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/BalloonBomber": {
+      "ammo_id": "aoa3:balloon",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.BALLOON",
+      "class_sha256": "c5093417e33cd6f6fbadaf4192e3c59623dee2f18f484e9fc9c077e73d5aa38c",
+      "method_text_sha256": "0b1adfd9ba89f1ca5db6d53367a96bda41f8f9ee0ab1b6e8589c3e7238986398",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/BlastCannon": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "ff7a1f5b5c1ec96245ec094d91eb06b96731b2f282cdabd894bc37f5d3ca9d38",
+      "method_text_sha256": "41358ca0e0154d60d282bbd77c13109f6c6c69558355b14e35db613eeb510316",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/BombLauncher": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "1f221706f07a249393070896da394815c9a6cb0d4a50f4266a73eea58dacb87f",
+      "method_text_sha256": "ecac7d9f220811bb8cf37507a11f091ffc5badc780832262976dae5b2a87489a",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/BoomBoom": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "cad305b8ba6aef46109ee577da83ee1da577d2ab1298ab61139de80cf0e64673",
+      "method_text_sha256": "41358ca0e0154d60d282bbd77c13109f6c6c69558355b14e35db613eeb510316",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/BoomCannon": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "fdf1db6da4ac5ae4e40be2f3b6dc6f4fa9a75c5a75beffc6d6d3ca4f49adf8c5",
+      "method_text_sha256": "81b240bfab890691a0a4c26b4ea1d6ca94128c3f1a262220ea7043a09f654184",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/CarrotCannon": {
+      "ammo_id": "minecraft:carrot",
+      "released_field": "net/minecraft/world/item/Items.f_42619_",
+      "class_sha256": "4bed74fc04f1bc7edf4fe2148b368baa7bd018fb9a9eeb7a943ee9a85550cc06",
+      "method_text_sha256": "dd37ee1328fe7bf717e3b0e6030a0102e1c8d1c3b39ff4a03d232c0a62ffb599",
+      "instructions": [
+        "getstatic",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/DischargeCannon": {
+      "ammo_id": "aoa3:discharge_capsule",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.DISCHARGE_CAPSULE",
+      "class_sha256": "4b0c588df4ef134c050a2efdf85dcdce9912b2a3155fa7c352622f07ac90a191",
+      "method_text_sha256": "716cc0a0b1ca0a7759ba7a154aa319d42999673a12f5f567c7317c5000394a63",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/ErebonStickler": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "d002f88256bb0d4d9f3b761781a008c0b168ef2e684386e6f989ff37bd652f5d",
+      "method_text_sha256": "a59370606347714183fdcd8e38fbcc969a5f7e3dd83035267c5e34ff87940663",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/FloroRPG": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "7e304b149f5391ef7b75afabd5e1fc5345539ea7ed1c0f538ac404dc2f4d3eaa",
+      "method_text_sha256": "41358ca0e0154d60d282bbd77c13109f6c6c69558355b14e35db613eeb510316",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/JackFunger": {
+      "ammo_id": "minecraft:cobblestone",
+      "released_field": "net/minecraft/world/level/block/Blocks.f_50652_",
+      "class_sha256": "c6d11b1d5a97499765a747725f8fb6080a9324fd7d2bd93a949da85e57828b01",
+      "method_text_sha256": "96464892a31bc8d12a49ac778f4eabe69cb52f6c6b1ccdb702dd3a6be9296280",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/JackRocker": {
+      "ammo_id": "minecraft:cobblestone",
+      "released_field": "net/minecraft/world/level/block/Blocks.f_50652_",
+      "class_sha256": "486d3d3164f73df35364b2248b25cf9071a5fbf2e3688c530cdd0c44567709f0",
+      "method_text_sha256": "96464892a31bc8d12a49ac778f4eabe69cb52f6c6b1ccdb702dd3a6be9296280",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/LuxonStickler": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "46e754cb383cdbfafa2e134b5c08ff5276ef7ee114e8e7b8f28a2de17e6e5369",
+      "method_text_sha256": "a59370606347714183fdcd8e38fbcc969a5f7e3dd83035267c5e34ff87940663",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/MissileMaker": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "5fb69a28f3402cf30cbbfcb4449206f0a84536aecd4592c1ed0ec817fb4b48f6",
+      "method_text_sha256": "ecac7d9f220811bb8cf37507a11f091ffc5badc780832262976dae5b2a87489a",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/PlutonStickler": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "4bd5bf096be666adebe51971cc39ba8c2ede7db0dda21e68583c7d1cb2d7710c",
+      "method_text_sha256": "8dfa1c6f9b0213678718eb82014db5a67ddccdaf0ba7a1b499b7934a713d9862",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/RPG": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "c6221431a14bf849482d4ae3cbb6068c5b5b51c045a21a7f6193dbf566950014",
+      "method_text_sha256": "81b240bfab890691a0a4c26b4ea1d6ca94128c3f1a262220ea7043a09f654184",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/SelyanStickler": {
+      "ammo_id": "aoa3:grenade",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAWeapons.GRENADE",
+      "class_sha256": "82ebee43e0f3793411890be63cd40e63be27aee3e8690f7df0961a4f92dd5f86",
+      "method_text_sha256": "a59370606347714183fdcd8e38fbcc969a5f7e3dd83035267c5e34ff87940663",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber": {
+      "ammo_id": "aoa3:balloon",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.BALLOON",
+      "class_sha256": "a1bc365709cda8d0f47a772a5a91ab29eecfd1edec2ef0514bcc104319d69bc4",
+      "method_text_sha256": "0b1adfd9ba89f1ca5db6d53367a96bda41f8f9ee0ab1b6e8589c3e7238986398",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/ApocoRifle": {
+      "ammo_id": "aoa3:discharge_capsule",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.DISCHARGE_CAPSULE",
+      "class_sha256": "522bc8d951706acb12fe83b4b0ad5a2589cbcaa1db5b599a0b0eee8a3cb2d56b",
+      "method_text_sha256": "0e3076250a3c1d049c88b12ae7cea94c8c88324891d34d1215f5c9d489fe1246",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/BloodIron": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "5a9d220326bfe9eb3cc8c8d870c8f9d6d693e275fa127eefb05fc1e34eae3dfd",
+      "method_text_sha256": "536b47df084ba1967edda4595be8f369f1c171bc77cbc2e8fb2b50407f4d1b97",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/ChilliChugger": {
+      "ammo_id": "aoa3:chilli",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.CHILLI",
+      "class_sha256": "8a3e8159610f158922c279739f2deb3eefccb0469ed9f04d868d5c91f2e7cb64",
+      "method_text_sha256": "63bf43c4221752488660836b33199a29a56b56a334c75840b658f17d8e3217ea",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/CoralClogger": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "7166817c69ece6a64c41720a60480eb6ddfc4eebe772a15b9bd63e82015f7bc8",
+      "method_text_sha256": "e19174f49883464dc979b5f795ecddfe5bd7fd08cc9843c647d8771e43b1f64c",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/DartGun": {
+      "ammo_id": "minecraft:wheat_seeds",
+      "released_field": "net/minecraft/world/item/Items.f_42404_",
+      "class_sha256": "c378bcebe334a7e19894bea27f6b0ef98fb199a14b488ab6571688fdd8911a14",
+      "method_text_sha256": "57eb2553985558cb6ece394aa1473eab1f3e1c366d4b8e119d6f6713e459f3ae",
+      "instructions": [
+        "getstatic",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/DischargeRifle": {
+      "ammo_id": "aoa3:discharge_capsule",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.DISCHARGE_CAPSULE",
+      "class_sha256": "2c17e9942c06f60fe2a5c2829a7f7e8f99e6a893d5ae38e8c57e435b98d0552f",
+      "method_text_sha256": "0e3076250a3c1d049c88b12ae7cea94c8c88324891d34d1215f5c9d489fe1246",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/Gardener": {
+      "ammo_id": "minecraft:wheat_seeds",
+      "released_field": "net/minecraft/world/item/Items.f_42404_",
+      "class_sha256": "f3b46d762fe20cf180633500a0f14f0110d89211246dc67d2cb8faebfadcb141",
+      "method_text_sha256": "2d8614be2ff7cfc558b8630d13523a245f12307945f9d0bdb52c65a28992e10d",
+      "instructions": [
+        "getstatic",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/GaugeRifle": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "b0c01d0d98df6ca4a118f53fc58cb1fa8d5792dde5f097fa41eb8d1c35722154",
+      "method_text_sha256": "0a56247d928e1aa076c4b6167674edca95178a703e1a98dcdaea0f61b90f0f2a",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/HeatWave": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "a482670ea9b64a387ca4177eaca12901d7ed6d0a521ddaeb3efdd8174c70bfe9",
+      "method_text_sha256": "54b07a0d4a039b9e5c4d5f24dc20063309e8c15fbcb43b31b6bd17575d7d6ee9",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/HotShot": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "20a634f13aec54e01be83ac4ffde54d8df4948afb7e9850dea736b223f4841ca",
+      "method_text_sha256": "c210a4cdad8d3a412003b58fac31c365e78a72f1a73d284cbc08905008093e62",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/LightIron": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "151263127dfcf60fddb06bbec13b8e1587e976c691e751496332252ace541af9",
+      "method_text_sha256": "536b47df084ba1967edda4595be8f369f1c171bc77cbc2e8fb2b50407f4d1b97",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/NethengeicSlugger": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "7e8def4026fcc585bd9f56c6b3ed80f131aabcfd2a17f4e535ef1073f8e8ed51",
+      "method_text_sha256": "5a79da4cada253f46c3bce0f567d4fee5a57fb7bb41ce4f6686df2517e84b389",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/PrecasianSlugger": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "33a7d772b59ddb566bb791ded4b7f0e266333201839670cbc87d9d2ae317c2d5",
+      "method_text_sha256": "5a79da4cada253f46c3bce0f567d4fee5a57fb7bb41ce4f6686df2517e84b389",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/ShoeFlinger": {
+      "ammo_id": "minecraft:leather_boots",
+      "released_field": "net/minecraft/world/item/Items.f_42463_",
+      "class_sha256": "0fab3f590883a29f6d0cee8af4f28e288c8a5aed22f62ecf0b091981ed29d220",
+      "method_text_sha256": "bb87a74327d0aab79948ded87476e9f9ec92441f768a6b22778fa9daa35788a9",
+      "instructions": [
+        "getstatic",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/WartGun": {
+      "ammo_id": "minecraft:nether_wart",
+      "released_field": "net/minecraft/world/item/Items.f_42588_",
+      "class_sha256": "f909af9d5545c7c34664c25051654a2ad3ee062e24d30f6d735bd087b73100d7",
+      "method_text_sha256": "b9fd40999323f3a21c19d5a3c01175e70081eac00c4dfa969c8d2b0b1a5e8462",
+      "instructions": [
+        "getstatic",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun": {
+      "ammo_id": "aoa3:spreadshot",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.SPREADSHOT",
+      "class_sha256": "5d2d3ed79056b8e42b2a6ff13fd2c7e60261d14453bf26d713dee9d857a2832c",
+      "method_text_sha256": "50af3fe1115a73e514d8fc596589c76929e7dfb08c99e1dc41f8dd5814802aeb",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/shotgun/DischargeShotgun": {
+      "ammo_id": "aoa3:discharge_capsule",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.DISCHARGE_CAPSULE",
+      "class_sha256": "83ad738efacc1acbc5e6012142055f9c22332010382eb0fa235c8716edb3393e",
+      "method_text_sha256": "8187f490a1e652a8cbac79fee31b4c0a72bfa2522f249fe3571475be9f1e1c3c",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/sniper/DischargeSniper": {
+      "ammo_id": "aoa3:discharge_capsule",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.DISCHARGE_CAPSULE",
+      "class_sha256": "19fe7603cc0699d47f5d033b55cddeff265d46626d79effc29dfa5da7c3add97",
+      "method_text_sha256": "25d507764414104970dd2d75f52cc52be6bcab5c4f8b48cdf71a88f30039d388",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon": {
+      "ammo_id": "aoa3:cannonball",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.CANNONBALL",
+      "class_sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e",
+      "method_text_sha256": "9df2e34d792250da690ed610c3dfa63784bfc4a7e63a54e085e6a648bc2d849b",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun": {
+      "ammo_id": "aoa3:limonite_bullet",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.LIMONITE_BULLET",
+      "class_sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+      "method_text_sha256": "c927f69c10ca774178c78b0ba5f2e7052c47a6c5b728edbb03a6212b4bce830d",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    },
+    "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper": {
+      "ammo_id": "aoa3:metal_slug",
+      "released_field": "net/tslat/aoa3/common/registration/item/AoAItems.METAL_SLUG",
+      "class_sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10",
+      "method_text_sha256": "10d635a4a04d6e492506916eaa9603bd3d27040151f37109af975fd1312a6562",
+      "instructions": [
+        "getstatic",
+        "invokevirtual",
+        "checkcast",
+        "areturn"
+      ]
+    }
+  },
+  "vanilla_named_source_comparisons": {
+    "net/minecraft/world/item/Items.f_42619_": {
+      "id": "minecraft:carrot",
+      "source_class": "CarrotCannon",
+      "source_sha256": "8cd51e4c53f4295ad3aacc14d6e8c0fdb5cf9f329e5a8d088cf9f4a24bc2ac9f",
+      "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3"
+    },
+    "net/minecraft/world/item/Items.f_42404_": {
+      "id": "minecraft:wheat_seeds",
+      "source_class": "DartGun",
+      "source_sha256": "0a0151f65f1a77d7ef3502edbd47b3bf20cfd642709652c581df4dafc56e22e9",
+      "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3"
+    },
+    "net/minecraft/world/item/Items.f_42463_": {
+      "id": "minecraft:leather_boots",
+      "source_class": "ShoeFlinger",
+      "source_sha256": "67ea980d71d616c1f9a651418e4793d6af16b5fbb0d22c6117fe0d041fe20ff1",
+      "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3"
+    },
+    "net/minecraft/world/item/Items.f_42588_": {
+      "id": "minecraft:nether_wart",
+      "source_class": "WartGun",
+      "source_sha256": "0663bfcc6463e5008cc410c2e7b33ec4ad9572cbc8b9423003182d03dd932795",
+      "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3"
+    },
+    "net/minecraft/world/level/block/Blocks.f_50652_": {
+      "id": "minecraft:cobblestone",
+      "source_class": "JackRocker",
+      "source_sha256": "41cba3e59d6d59edcce9092cea753dddeee5d6dabe48b6493fec53eb4cb5e180",
+      "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3"
+    }
+  },
+  "records": [
+    {
+      "id": "aoa3:abominator",
+      "name": "Abominator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:apoco_assault_rifle",
+      "name": "Apoco Assault Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:apoco_rifle",
+      "name": "Apoco Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:discharge_capsule",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/ApocoRifle",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:aqua_magnum",
+      "name": "Aqua Magnum",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:artifact",
+      "name": "Artifact",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:baronator",
+      "name": "Baronator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:bayonette_rifle",
+      "name": "Bayonette Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:big_top",
+      "name": "Big Top",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:blood_iron",
+      "name": "Blood Iron",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BloodIron",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:chain_wrecker",
+      "name": "Chain Wrecker",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:chilli_chugger",
+      "name": "Chilli Chugger",
+      "family": "gun",
+      "ammo_id": "aoa3:chilli",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/ChilliChugger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:clownershot",
+      "name": "Clownershot",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:construct",
+      "name": "Construct",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:coral_clogger",
+      "name": "Coral Clogger",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/CoralClogger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:core_rifle",
+      "name": "Core Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:crystal_carver",
+      "name": "Crystal Carver",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:cyclone",
+      "name": "Cyclone",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:darkener",
+      "name": "Darkener",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:dart_gun",
+      "name": "Dart Gun",
+      "family": "gun",
+      "ammo_id": "minecraft:wheat_seeds",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/DartGun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:destruction_rifle",
+      "name": "Destruction Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:discharge_rifle",
+      "name": "Discharge Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:discharge_capsule",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/DischargeRifle",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:draco",
+      "name": "Draco",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:dragilator",
+      "name": "Dragilator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:dustometer",
+      "name": "Dustometer",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:echo_gull",
+      "name": "Echo Gull",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:electinator",
+      "name": "Electinator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:flame_wrecker",
+      "name": "Flame Wrecker",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:flaming_fury",
+      "name": "Flaming Fury",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:floro_rifle",
+      "name": "Floro Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:flowers_fury",
+      "name": "Flower's Fury",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:frosticator",
+      "name": "Frosticator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:gardener",
+      "name": "Gardener",
+      "family": "gun",
+      "ammo_id": "minecraft:wheat_seeds",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/Gardener",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:gauge_rifle",
+      "name": "Gauge Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/GaugeRifle",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:germinator",
+      "name": "Germinator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:golden_fury",
+      "name": "Golden Fury",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:happy_haunter",
+      "name": "Happy Haunter",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:haunter_rifle",
+      "name": "Haunter Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:heat_wave",
+      "name": "Heat Wave",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/HeatWave",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:hiver",
+      "name": "Hiver",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:hot_shot",
+      "name": "Hot Shot",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/HotShot",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:hunters_rifle",
+      "name": "Hunter's Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:iominator",
+      "name": "Iominator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ion_revolver",
+      "name": "Ion Revolver",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:iro_rifle",
+      "name": "Iro Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:krilinator",
+      "name": "Krilinator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:light_iron",
+      "name": "Light Iron",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/LightIron",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:lunar_assault_rifle",
+      "name": "Lunar Assault Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mechanical_assault_rifle",
+      "name": "Mechanical Assault Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:megagun",
+      "name": "Megagun",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:miasma",
+      "name": "Miasma",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:minigun",
+      "name": "Minigun",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mint_magnum",
+      "name": "Mint Magnum",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mk",
+      "name": "MK",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mk_fung",
+      "name": "MK-Fung",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:nethenette_rifle",
+      "name": "Nethenette Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:nethengeic_slugger",
+      "name": "Nethengeic Slugger",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/NethengeicSlugger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:overshot",
+      "name": "Overshot",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:precasian_slugger",
+      "name": "Precasian Slugger",
+      "family": "gun",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/PrecasianSlugger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:predator",
+      "name": "Predator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:predigun",
+      "name": "Predigun",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:pulsator",
+      "name": "Pulsator",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:purity_rifle",
+      "name": "Purity Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:rocker_rifle",
+      "name": "Rocker Rifle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:roulette",
+      "name": "Roulette",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:shoe_flinger",
+      "name": "Shoe Flinger",
+      "family": "gun",
+      "ammo_id": "minecraft:leather_boots",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/ShoeFlinger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:skullette",
+      "name": "Skullette",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:skullifact",
+      "name": "Skullifact",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:spectacle",
+      "name": "Spectacle",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:spine_gun",
+      "name": "Spine Gun",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:squad_gun",
+      "name": "Squad Gun",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:stampede",
+      "name": "Stampede",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:stormer",
+      "name": "Stormer",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:sublimus",
+      "name": "Sublimus",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:tiger_tommy",
+      "name": "Tiger Tommy",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:tommy",
+      "name": "Tommy",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:vile_vanquisher",
+      "name": "Vile Vanquisher",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:wart_gun",
+      "name": "Wart Gun",
+      "family": "gun",
+      "ammo_id": "minecraft:nether_wart",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/WartGun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:wrecker",
+      "name": "Wrecker",
+      "family": "gun",
+      "ammo_id": "aoa3:limonite_bullet",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:abyssro",
+      "name": "Abyssro",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:amplifier",
+      "name": "Amplifier",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:blast_barrel",
+      "name": "Blast Barrel",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:blue_barrel",
+      "name": "Blue Barrel",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:boulder",
+      "name": "Boulder",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:brown_blaster",
+      "name": "Brown Blaster",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:demolisher",
+      "name": "Demolisher",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:destruction_shotgun",
+      "name": "Destruction Shotgun",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:discharge_shotgun",
+      "name": "Discharge Shotgun",
+      "family": "shotgun",
+      "ammo_id": "aoa3:discharge_capsule",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/DischargeShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:gimmick",
+      "name": "Gimmick",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ginger_blaster",
+      "name": "Ginger Blaster",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:long_shot",
+      "name": "Long Shot",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mechyro",
+      "name": "Mechyro",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:purity_shotgun",
+      "name": "Purity Shotgun",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:purple_punisher",
+      "name": "Purple Punisher",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:red_rocket",
+      "name": "Red Rocket",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:vivo",
+      "name": "Vivo",
+      "family": "shotgun",
+      "ammo_id": "aoa3:spreadshot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:baron_ssr",
+      "name": "Baron SSR",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:bayonette_sr",
+      "name": "Bayonette SR",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:bolt_rifle",
+      "name": "Bolt Rifle",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:camo_rifle",
+      "name": "Camo Rifle",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:clown_cracker",
+      "name": "Clown Cracker",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:clownimator",
+      "name": "Clownimator",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:crystaneer",
+      "name": "Crystaneer",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:dark_beast",
+      "name": "Dark Beast",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:deadlock",
+      "name": "Deadlock",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:decimator",
+      "name": "Decimator",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:discharge_sniper",
+      "name": "Discharge Sniper",
+      "family": "sniper",
+      "ammo_id": "aoa3:discharge_capsule",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/DischargeSniper",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:dual_sight",
+      "name": "Dual Sight",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:duster",
+      "name": "Duster",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:floro500",
+      "name": "Floro500",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:head_hunter",
+      "name": "Head Hunter",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:hive_cracker",
+      "name": "Hive Cracker",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ka_500",
+      "name": "KA-500",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mark_maker",
+      "name": "Mark Maker",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mineral",
+      "name": "Mineral",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:monster",
+      "name": "Monster",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:moon_maker",
+      "name": "Moon Maker",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:rosid_rifle",
+      "name": "Rosid Rifle",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:sabbath",
+      "name": "Sabbath",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:sludge_sniper",
+      "name": "Sludge Sniper",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:sweet_tooth",
+      "name": "Sweet Tooth",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:terminator",
+      "name": "Terminator",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:viper_1",
+      "name": "Viper-1",
+      "family": "sniper",
+      "ammo_id": "aoa3:metal_slug",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ancient_bomber",
+      "name": "Ancient Bomber",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:ancient_discharger",
+      "name": "Ancient Discharger",
+      "family": "cannon",
+      "ammo_id": "aoa3:discharge_capsule",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/AncientDischarger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:aqua_cannon",
+      "name": "Aqua Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:balloon_bomber",
+      "name": "Balloon Bomber",
+      "family": "cannon",
+      "ammo_id": "aoa3:balloon",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BalloonBomber",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:big_blast",
+      "name": "Big Blast",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:blast_cannon",
+      "name": "Blast Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BlastCannon",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:blissful_blast",
+      "name": "Blissful Blast",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:bomb_launcher",
+      "name": "Bomb Launcher",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BombLauncher",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:boom_boom",
+      "name": "Boom Boom",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BoomBoom",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:boom_cannon",
+      "name": "Boom Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BoomCannon",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:boulder_bomber",
+      "name": "Boulder Bomber",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:bozo_blaster",
+      "name": "Bozo Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:bulb_cannon",
+      "name": "Bulb Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:carrot_cannon",
+      "name": "Carrot Cannon",
+      "family": "cannon",
+      "ammo_id": "minecraft:carrot",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/CarrotCannon",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:clown_cannon",
+      "name": "Clown Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:clowno_pulse",
+      "name": "Clowno-Pulse",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:coral_cannon",
+      "name": "Coral Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:discharge_cannon",
+      "name": "Discharge Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:discharge_capsule",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/DischargeCannon",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:energy_cannon",
+      "name": "Energy Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:erebon_stickler",
+      "name": "Erebon Stickler",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/ErebonStickler",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:floro_rpg",
+      "name": "Floro RPG",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/FloroRPG",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:flower_cannon",
+      "name": "Flower Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:fungal_cannon",
+      "name": "Fungal Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ghast_blaster",
+      "name": "Ghast Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ghoul_cannon",
+      "name": "Ghoul Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:giga_cannon",
+      "name": "Giga Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:golder_bomber",
+      "name": "Golder Bomber",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:hive_blaster",
+      "name": "Hive Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:hive_howitzer",
+      "name": "Hive Howitzer",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:iro_cannon",
+      "name": "Iro Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:jack_funger",
+      "name": "Jack Funger",
+      "family": "cannon",
+      "ammo_id": "minecraft:cobblestone",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/JackFunger",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:jack_rocker",
+      "name": "Jack Rocker",
+      "family": "cannon",
+      "ammo_id": "minecraft:cobblestone",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/JackRocker",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:luxon_stickler",
+      "name": "Luxon Stickler",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/LuxonStickler",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:mecha_cannon",
+      "name": "Mecha Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:mini_cannon",
+      "name": "Mini Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:missile_maker",
+      "name": "Missile Maker",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/MissileMaker",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:moon_cannon",
+      "name": "Moon Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:pluton_stickler",
+      "name": "Pluton Stickler",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/PlutonStickler",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:predatorian_blaster",
+      "name": "Predatorian Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:pulse_cannon",
+      "name": "Pulse Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:rpg",
+      "name": "RPG",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/RPG",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:selyan_stickler",
+      "name": "Selyan Stickler",
+      "family": "cannon",
+      "ammo_id": "aoa3:grenade",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/SelyanStickler",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:shadow_blaster",
+      "name": "Shadow Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:shyre_blaster",
+      "name": "Shyre Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:smile_blaster",
+      "name": "Smile Blaster",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:super_cannon",
+      "name": "Super Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:ultra_cannon",
+      "name": "Ultra Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:vox_cannon",
+      "name": "Vox Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    },
+    {
+      "id": "aoa3:water_balloon_bomber",
+      "name": "Water-Balloon Bomber",
+      "family": "cannon",
+      "ammo_id": "aoa3:balloon",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber",
+      "inherited": false
+    },
+    {
+      "id": "aoa3:wither_cannon",
+      "name": "Wither Cannon",
+      "family": "cannon",
+      "ammo_id": "aoa3:cannonball",
+      "declared_in": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon",
+      "inherited": true
+    }
+  ]
+}
