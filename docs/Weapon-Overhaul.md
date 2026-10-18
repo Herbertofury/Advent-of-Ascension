@@ -12,6 +12,8 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 [Run the 21 scoped test suites from clean source archives](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Authoring-Reproducibility). Exact input hashes and corrected Baronator fixture packaging are included. These are authoring tests, not native game or visual acceptance.
 
+[Search all 228 first-target weapon implementations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Implementation-Map): actual class chains, declared methods and source hashes. Structural coverage is not finished model/gameplay coverage.
+
 ## Explore the weapon profiles
 
 | Weapon | Read the original behavior and proposed upgrade |
