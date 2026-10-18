@@ -1,0 +1,45 @@
+{
+  "version": "Minecraft 1.20.1 / AoA 3.7.1",
+  "id": "aoa3:gravity_blaster",
+  "jar_sha512": "bdee7d12aab1903e1e74f377d4f0ae7ac948d791f46ec0368d191d86a3d5a03cfbd2e6d1295f1fe690f303b1fa709da89db980543e4d450fc0fdbbf6d9e694e6",
+  "file_sha256": {
+    "net/tslat/aoa3/content/item/weapon/blaster/GravityBlaster.class": "2a550e5c6f334bd4161e5693f4f5245a671491cf0870107c266c7fb0abf59aca",
+    "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster.class": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+    "net/tslat/aoa3/util/EntityUtil.class": "cbe2070c465d5554d6d2e554f5fd76d3c39602b6921a61b38e29f6be4d930c91",
+    "net/tslat/aoa3/util/EntityUtil$Predicates.class": "8df7ba316c923563e410bff1bfb0facbeb9f8fbb0086ac5d88fe9b1f5a904b61",
+    "net/tslat/aoa3/util/DamageUtil.class": "99ba4610702659c1eb5127c32308717142f22bb36597eb106ad2e80788f6418f",
+    "net/tslat/aoa3/common/registration/item/AoAWeapons.class": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703",
+    "data/aoa3/recipes/infusion_gravity_blaster.json": "94f4d5f1990e44bc2cd6a8115c69b36fbeae8878bf417a0e5245f922be67b611",
+    "assets/aoa3/textures/item/gravity_blaster.png": "5a2ed3bf04493042ff5bf5c0c37c29d289517c35f11aba0ae7836df710132319"
+  },
+  "factory": {
+    "damage": 4.0,
+    "durability": 600,
+    "firing_delay_ticks": 1,
+    "base_spirit_cost": 120.0,
+    "base_charge_ticks": 1
+  },
+  "original_effect": "Hostile LivingEntity query within shooter box inflated X/Z by 2, Y by 0; push helper strength0.5 and ENERGY_ATTACK; then additive shooter push(0,2,0), hurtMarked=true.",
+  "predicate": "Released HOSTILE_MOB tests Enemy only. Named newer source adds angry NeutralMob: do not backport that interpretation silently.",
+  "comparison_source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3",
+  "helper": "Existing velocity plus unnormalized center-to-target displacement scaled by (1-min(knockback resistance,1))*0.5; full resistance returns. Different helper from VortexBlaster doScaledKnockback.",
+  "recipe": {
+    "type": "aoa3:infusion",
+    "input": "aoa3:blaster_frame",
+    "ingredients": [
+      "aoa3:floating_stone",
+      "aoa3:floating_stone",
+      "aoa3:floating_stone",
+      "aoa3:floating_stone"
+    ],
+    "result": "aoa3:gravity_blaster"
+  },
+  "native_acceptance": false,
+  "limits": [
+    "No native footage or measured jump height",
+    "No projectile spawn in weapon override; proposed rings are upgraded effects",
+    "No fall-damage immunity granted in this method",
+    "Stored delay does not establish effective firing frequency",
+    "Do not assume 1.21.1 uses identical resources/predicates"
+  ]
+}
