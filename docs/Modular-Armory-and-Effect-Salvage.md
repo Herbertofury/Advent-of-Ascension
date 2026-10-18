@@ -21,6 +21,12 @@ This must be an extensive, enjoyable system: barrels, scopes, suppressors, handl
 
 These are primary author-page reviews, not an audit of their executable plugins or an assertion that their features are vanilla Fallout 4. No Fallout assets or code are being copied. Recheck exact versions and permissions before any reuse. The [2015 Xbox presentation](https://news.xbox.com/en-us/2015/06/18/games-return-to-the-wasteland-in-style-with-fallout-4/) establishes the broad base-weapon/customization design inspiration; the community systems above supply additional, distinct ideas.
 
+## How Fallout's record structure informs the design
+
+Static inspection of [xEdit's Fallout 4 record definitions](https://github.com/TES5Edit/TES5Edit/blob/9fb016884bec138ea6c7b872cec831537d464c3e/Core/wbDefinitionsFO4.pas), pinned at `9fb016884bec138ea6c7b872cec831537d464c3e`, shows that an Object Modification record separates its attach point, parent-slot keywords, properties, target/filter keywords, included modifications and loose-mod reference. This is tool-source evidence about the data format, not execution of Fallout 4 or proof that every combination behaves correctly.
+
+For AoA, the useful architectural inference is to keep the installed module definition distinct from the inventory object representing a recovered part. Compatibility, appearance, effect behavior and crafting acquisition should also be separate data concerns. This makes reversible extraction and adapters feasible without turning every possible combination into a new hard-coded weapon item. Preserve explicit precedence and provenance; a collection of IDs alone does not establish a safe effect composition.
+
 ## Full customization scope
 
 | Area | Player choices | Required visible or gameplay feedback |
