@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "aoa-complete-wiki-checklist-1",
   "repository": "Herbertofury/Advent-of-Ascension.wiki",
-  "revision": "106ead2aa946fe50650e38b86b317a596bbf0184",
+  "revision": "624b28c3203e9703175502978fa8d8933b6aacd0",
   "pages": [
     {
       "path": "Abominator-Weapon-Profile.md",
@@ -158,6 +158,11 @@
       "path": "Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2.md",
       "bytes": 28917,
       "sha256": "cd800034e2bed7e52b2ac932dab587a166f6a893375f506da8ad36d54a69f798"
+    },
+    {
+      "path": "Blaster-Spirit-Baselines-1.20.1.md",
+      "bytes": 12336,
+      "sha256": "24f72f0827c681201663fb4e4f732de51205eaf37c10778908c4a36ce3b3e07e"
     },
     {
       "path": "Blasters-and-Spirit-1.21.1.md",
@@ -1311,8 +1316,8 @@
     },
     {
       "path": "Runtime-Acceptance-Checklist.md",
-      "bytes": 10188,
-      "sha256": "f6a66edd1ac3e4029153c03a9f161709d4f84c419b905673b9d2a66cb6565d3c"
+      "bytes": 11111,
+      "sha256": "1a3f659e82d5911ab1c47352d0c8fd9aea6b8906f7d7b06e2e1b4dd5b5f4d780"
     },
     {
       "path": "Saved-Skill-Master-Offers-2026-10-18.md",
@@ -1380,6 +1385,11 @@
       "sha256": "6e4b1dbefbba3966a55653b2f5ca0eb468b88a0929f5b456856942fb63d78a57"
     },
     {
+      "path": "Snapshot-Whole-Programs-2026-10-18.md",
+      "bytes": 3630,
+      "sha256": "9abfc2d6ee98eedfa3cb9ab5ba1f1301739c954ea96b6be75bb60fb07252c401"
+    },
+    {
       "path": "Sniper-Stance-Scopes-and-Inputs-1.12.2.md",
       "bytes": 16574,
       "sha256": "9e1d6d7423e500446bd4d23918cf945e9a1dea0258b648499b666109bbef5662"
@@ -1416,8 +1426,8 @@
     },
     {
       "path": "Soul-Storm-Sculpt-Study.md",
-      "bytes": 10324,
-      "sha256": "6decbbdb5b0812ee7e86fb7c608d951f0b7a8913ada93b08441cba5b852ec1f2"
+      "bytes": 15484,
+      "sha256": "7586c301d2c921bcb3feff1ceeceed848a79eb5c71a104a4a2f8e7a9d078d7fb"
     },
     {
       "path": "Soul-Storm-Sights.md",
@@ -1515,9 +1525,14 @@
       "sha256": "458599813ab7090f714614d7277f474bcb68d5aed93b430aaa8cb568ab7284e0"
     },
     {
+      "path": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "bytes": 13286,
+      "sha256": "f5fa49864c6a0768f721d42939a4988c6dcc44dcfef423896e04692945a330a8"
+    },
+    {
       "path": "TaCZ-Native-Mesh-Route.md",
-      "bytes": 5762,
-      "sha256": "dccb07fd0316fcc578462b861fb93786a30c11243a5b0873113abe0421debf3b"
+      "bytes": 8395,
+      "sha256": "f3b266ec7d6e9069355c606c73e58509e106d719ba10e5f2fb65bf62f72b06f0"
     },
     {
       "path": "TaCZ-Released-Parser-Check.md",
@@ -1616,8 +1631,8 @@
     },
     {
       "path": "Weapon-Ammunition-1.20.1.md",
-      "bytes": 8241,
-      "sha256": "4e41bee1499a0b45eb515c17a23639b0fedc8592f736797762fbc065fa035463"
+      "bytes": 8581,
+      "sha256": "3a04024931738cf4e47c6b3d5c00ee2502f682cdfab9f7777faee0c02c4b58ca"
     },
     {
       "path": "Weapon-Authoring-Reproducibility.md",
@@ -1631,8 +1646,8 @@
     },
     {
       "path": "Weapon-Implementation-Map.md",
-      "bytes": 4127,
-      "sha256": "11c0e54a5a6c59e3f48943f9eaeb1e2f6404b47b3b32e17cffa4cc5e9ba4c54c"
+      "bytes": 5810,
+      "sha256": "fec1430f16e99964da8fc71e165844c4f4b0a21d0149a0bc0eeda0bcba6f26ab"
     },
     {
       "path": "Weapon-Mechanism-and-Animation-QA.md",
@@ -1686,8 +1701,8 @@
     },
     {
       "path": "_Sidebar.md",
-      "bytes": 9343,
-      "sha256": "d98b33007d886947dcbe3d99f694c5f6fe94194e2ab0d111cc643b64bd53f373"
+      "bytes": 9429,
+      "sha256": "55a8ebd2157fa670af7890f855892319478575afd559395e335d759847ac6b61"
     }
   ],
   "tasks": [
@@ -8396,6 +8411,84 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
     },
     {
+      "id": "wiki:d476894e25b347227e69ace1",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Whole Snapshot program continuation · October 18"
+      ],
+      "line": 129,
+      "text": "Bind source candidates to all 4,043 original classes and retain all 9,066 original archive entries.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:23168787b626a726da8655e1",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Whole Snapshot program continuation · October 18"
+      ],
+      "line": 130,
+      "text": "Compile all 74 original terrain/structure programs and three native API adapters against the complete accepted target classpath.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:4743477c402582420996d514",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Whole Snapshot program continuation · October 18"
+      ],
+      "line": 131,
+      "text": "Account for all 49 block fields, 13 implementation owners, 52 textures and original animation metadata.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:b680643651564f2a5f9661b9",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Whole Snapshot program continuation · October 18"
+      ],
+      "line": 132,
+      "text": "Admit canonical native block bindings and complete physics/render/drop behavior.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:a74ac23386c0336a529436bf",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Whole Snapshot program continuation · October 18"
+      ],
+      "line": 133,
+      "text": "Activate and verify the entire native dimension/portal/entity/progression cohort.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:eebff170265cd7d5a99ffaab",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Whole Snapshot program continuation · October 18"
+      ],
+      "line": 134,
+      "text": "Finish the historical/latest union, migration, multiplayer, compatibility and sustained-performance gates.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
       "id": "wiki:df63bd3c29c1f6508ce85b62",
       "page": "Shoe-Flinger-Weapon-Profile.md",
       "section": [
@@ -10002,6 +10095,97 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Stasis-Capsule-Creature-Transport-1.21.1"
     },
     {
+      "id": "wiki:49463d0c036cfb3b3691e392",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 51,
+      "text": "Make one deliberately small AoA body-mesh fixture using the official Meshy/Blockbench route or a separately validated exporter; retain native cuboid hands.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
+      "id": "wiki:ada1d7f156d5518e44017423",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 52,
+      "text": "Check `model_type: mesh`, exact resource paths, pivots and UV orientation using the pinned 0.1.8 release.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
+      "id": "wiki:aa9f7df692d658203edb96db",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 53,
+      "text": "Native-test TaCZ hotfix2 with TML alone, then AR, shaders/Oculus, ModernFix and Hari/Vulkan individually before combined-pack testing.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
+      "id": "wiki:f1c1630df666de6d5faafd6c",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 54,
+      "text": "Exercise first/third-person, dropped/fixed/inventory, LOD, attachments, animated parts and interrupted inspections.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
+      "id": "wiki:1445b138ccba5f33c3010c77",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 55,
+      "text": "Verify reload cleanup and cache eviction under changing packed light; measure memory, startup, frame-time tails and upload spikes.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
+      "id": "wiki:f0e2e99c1818609b6903c670",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 56,
+      "text": "Prepare useful upstream fixes/tests for input validation, n-gon handling and documentation spelling if the maintainer wants them. Nothing has been submitted upstream by this study.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
+      "id": "wiki:58b177a226aa42754092d36a",
+      "page": "TaCZ-Mesh-Loader-Direct-Study.md",
+      "section": [
+        "TacZ Mesh Loader · existing community route for the AoA sculpt upgrade",
+        "Integration and contribution checklist"
+      ],
+      "line": 57,
+      "text": "Resolve the license metadata discrepancy before bundling third-party source: Modrinth reports GPL-3.0-or-later, the released JAR declares GPL-3.0-only, and the source build-property template says All Rights Reserved while LICENSE.txt contains GPLv3. Record the facts rather than silently choosing one label.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study"
+    },
+    {
       "id": "wiki:f582cfd077268db6f513eda4",
       "page": "Trading-and-Traders-1.12.2.md",
       "section": [
@@ -11302,8 +11486,8 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog"
     }
   ],
-  "pageCount": 337,
-  "taskCount": 733,
-  "reportedChecked": 77,
+  "pageCount": 340,
+  "taskCount": 746,
+  "reportedChecked": 80,
   "runtimeCompletionInferred": false
 }
