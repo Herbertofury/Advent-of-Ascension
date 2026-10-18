@@ -128,3 +128,8 @@ These checks supplement concept fidelity, real hand fit, native gameplay and per
 ## 10. One canonical concept, two selectable visual treatments
 
 Use a strong AAA-quality concept faithful to original identity, then personally author the model and textures for both Minecraft-fit and concept-faithful presentation. Both represent the same weapon and resolved build. See [Weapon Visual Profiles](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Visual-Profiles.md) for shared behavior, resource and QA requirements. The first Apoco concept and v1/v2 blockouts are owner-rejected history.
+
+
+## 11. Lore before canonical concept approval
+
+Every weapon needs a source-pinned origin and lore review covering upgrade lineage, environmental identity, confirmed statements, visual interpretations and unknowns. [Lore and provenance requirements](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Lore-and-Provenance.md). Both visual treatments must preserve that identity. Do not invent an official maker, material or damage effect from a visual motif.

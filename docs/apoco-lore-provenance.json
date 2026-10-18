@@ -1,0 +1,74 @@
+{
+  "weapon_id": "aoa3:apoco_assault_rifle",
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "entry_hashes": {
+    "data/aoa3/loot_tables/worlds/vox_ponds.json": "457027ff1a98b7a1691f588399a30f52e99e8bc9779b8cd9b57be4002060272a",
+    "data/aoa3/recipes/upgrade_kit_apoco_assault_rifle.json": "c3245a126f75506ad9aacd71f4f4efe1650d05db71b9765adba7630c8ee0d28e",
+    "data/aoa3/recipes/upgrade_kit_apoco_rifle.json": "92bd41d4f242cce2b9da4eb50fd53f1d21a11e79d143a598134280c158fa8632",
+    "assets/aoa3/textures/block/vox_fungi.png": "7a780c3b3dd6b8eda0b028a4242fbe5f78e69ac673b29392fd98646bae09f372",
+    "assets/aoa3/textures/block/vox_shroom.png": "cafea5d714f0ffb87d1ba34cd24e38dfdd7b904c419c828329e860961eb08542",
+    "assets/aoa3/textures/item/mechanical_assault_rifle.png": "3952c59db9336aea0ffbfbaa8f6329b57170f45ed9991dc345555fb66c812265",
+    "assets/aoa3/textures/item/apoco_assault_rifle.png": "36ee5edd397d9bcea77906bacae2430867be2772b2af8c6add4576a88d839b55",
+    "data/aoa3/recipes/shapeless_craft_mechanical_assault_rifle.json": "37106ff4ff18860532c1e9408986e3f4f8084c9ecdce2c9fe18f2cc2a716569d",
+    "data/aoa3/loot_tables/blocks/iro_crate.json": "dc09ed6131566b6e3e6514956d85e9960e68cbfd434fffca7097174b26e9092a"
+  },
+  "confirmed": [
+    {
+      "claim": "Packaged upgrade recipe: Mechanical Assault Rifle + Apoco Upgrade Kit -> Apoco Assault Rifle",
+      "entry": "data/aoa3/recipes/upgrade_kit_apoco_assault_rifle.json"
+    },
+    {
+      "claim": "Packaged Vox Ponds world loot table includes Apoco Upgrade Kit",
+      "entry": "data/aoa3/loot_tables/worlds/vox_ponds.json"
+    },
+    {
+      "claim": "Apoco Rifle is a separate item upgraded from Discharge Rifle",
+      "entry": "data/aoa3/recipes/upgrade_kit_apoco_rifle.json"
+    },
+    {
+      "claim": "Packaged Mechanical Assault Rifle recipe uses its incomplete form, Power Core and Mecha Gear",
+      "entry": "data/aoa3/recipes/shapeless_craft_mechanical_assault_rifle.json"
+    },
+    {
+      "claim": "Packaged Iro Crate loot includes the incomplete Mechanical Assault Rifle",
+      "entry": "data/aoa3/loot_tables/blocks/iro_crate.json"
+    }
+  ],
+  "documentation": [
+    {
+      "url": "https://adventofascension.fandom.com/wiki/Apoco_Upgrade_Kit",
+      "scope": "Official community documentation associates kit with Vox Ponds; verify release-dependent gameplay separately"
+    },
+    {
+      "url": "https://adventofascension.fandom.com/wiki/Vox_Ponds",
+      "scope": "World setting and environmental motifs, not a statement of weapon artist intent"
+    },
+    {
+      "url": "https://adventofascension.fandom.com/wiki/Iro_Crate",
+      "scope": "Documented association of Iro Crates with Iromine; not an inventor attribution"
+    }
+  ],
+  "inferences": [
+    {
+      "claim": "Red upper shapes may read as fungal caps",
+      "status": "visual interpretation; creator intent not established"
+    },
+    {
+      "claim": "Lower fittings may read as roots",
+      "status": "visual interpretation; creator intent not established"
+    }
+  ],
+  "unknown": [
+    "In-world maker",
+    "Explicit construction lore beyond the upgrade recipe",
+    "Direct creator explanation of each sprite motif"
+  ],
+  "design_requirements": [
+    "Preserve upgrade ancestry and environmental identity",
+    "Distinguish confirmed lore from adaptation",
+    "Do not infer poison damage from dimension theme",
+    "Apply same lore to both visual treatments"
+  ],
+  "native_dimension_availability_verified": false
+}

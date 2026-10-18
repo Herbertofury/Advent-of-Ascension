@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 3,
   "weapon_id": "aoa3:apoco_assault_rifle",
   "target": {
     "minecraft": "1.20.1",
@@ -622,5 +622,35 @@
         "model_artifact": null
       }
     }
+  },
+  "lore_provenance": {
+    "status": "in_progress",
+    "evidence": [
+      {
+        "path": "docs/apoco-lore-provenance.json",
+        "sha256": "2566c4644c300db87c4ea9b4960f69f9c76b0ab93d29cf3566dd711c79b734af"
+      }
+    ],
+    "review": "Upgrade lineage and world associations checked; creator intent for mushroom/root motifs remains unconfirmed. Concept adaptation still needs review.",
+    "claims": [
+      {
+        "classification": "confirmed",
+        "text": "Mechanical Assault Rifle plus Apoco Upgrade Kit is the packaged upgrade recipe.",
+        "source_reference": "data/aoa3/recipes/upgrade_kit_apoco_assault_rifle.json in pinned provenance report"
+      },
+      {
+        "classification": "confirmed",
+        "text": "Vox Ponds world loot includes Apoco Upgrade Kit.",
+        "source_reference": "data/aoa3/loot_tables/worlds/vox_ponds.json in pinned provenance report"
+      },
+      {
+        "classification": "inference",
+        "text": "Red shapes may be read as fungal caps and lower fittings as roots."
+      },
+      {
+        "classification": "unknown",
+        "text": "Original artist intent for those motifs and an in-world maker are not established."
+      }
+    ]
   }
 }

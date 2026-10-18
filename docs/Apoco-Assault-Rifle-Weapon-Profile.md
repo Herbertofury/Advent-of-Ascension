@@ -12,6 +12,16 @@ One canonical design will receive personally authored model/texture work in two 
 
 This is a red-and-olive conventional AoA gun, upgraded from the Mechanical Assault Rifle with an Apoco Upgrade Kit. Its TaCZ concept should feel like an imposing, tactile fantasy-industrial rifle, keeping the original color identity while improving readable construction, handling and feedback.
 
+## Origin and lore review
+
+The confirmed lineage is Mechanical Assault Rifle + Apoco Upgrade Kit; that kit is associated with Vox Ponds and appears in its packaged loot table. Its incomplete mechanical base also appears in Iro Crate loot and is completed with Power Core and Mecha Gear. The documented Iromine ancestry and Vox Ponds upgrade must both guide the design. The checked sources do not identify an in-world maker.
+
+The red forms' mushroom-like reading and the fittings' root-like reading remain visual interpretations, not confirmed creator intent. Do not silently replace those readings with generic metal housings. Any added organic growth or construction story must be labeled as our adaptation until sourced.
+
+[Verified provenance and interpretation boundaries](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Lore-and-Provenance.md) · [Pinned entry hashes](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-lore-provenance.json)
+
+The current replacement concept still needs this lore review; improved outline alone is not final acceptance.
+
 ## Exact-version original
 
 Pinned target: Minecraft 1.20.1 / AoA 3.7.1. The released class inherits BaseGun behavior, uses Limonite Bullets and creates RedBulletEntity. The released renderer registration traces through bootstrap 194 to lambda$static$84: ColouredTexturedProjectileRenderer with ColourUtil.RED and the Limonite bullet texture. This is source evidence, not a game capture.
