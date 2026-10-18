@@ -24,12 +24,22 @@ This is an inheritance-aware `getAmmoItem` audit, not a net-consumption or gamep
 
 ## The exceptions that are easy to miss
 
-- **Dart Gun and Gardener:** Wheat Seeds, not an inferred conventional bullet based on the gun family.
+- **Dart Gun and Gardener:** their getter returns Wheat Seeds, but their actual consumption override accepts the **Forge SEEDS tag**. Other tagged seeds can qualify; tag contents depend on the installed pack. The request is **1 + Greed level**, with server-side consumption. Do not treat the two Wheat Seeds entries as an exhaustive accepted-item list.
 - **Jack Rocker and Jack Funger:** Cobblestone.
 - **Shoe Flinger:** Leather Boots. Old Boot is the infusion ingredient, not this method's ammo identity.
 - **Carrot Cannon, Chilli Chugger and Wart Gun:** Carrot, Chilli and Nether Wart respectively.
 - **Discharge family variants:** the audited overrides use Discharge Capsules, including the Discharge Shotgun rather than the shared shotgun Spreadshot default.
 - **Iominator:** its base ammo is Limonite Bullet, while its projectile is ToxicBulletEntity. Ammo identity and projectile/effect identity are different contracts.
+
+## Verified special consumption paths
+
+These are additional released-bytecode observations; the 172-row base-identity dataset remains unchanged.
+
+- **Sublimus:** in daylight with sky visibility, its server-side inventory helper is called with consumption disabled. The helper still checks qualifying ammunition and quantity for non-creative players. This is an exemption from spending, not proof that an empty inventory can fire.
+- **Shoe Flinger / shared inventory helper:** the lookup includes armor slots after hands and main inventory. Its functional comparison checks item identity and damageability/damage rules, not full NBT equality. Treat worn, named, enchanted or otherwise valuable Leather Boots as potentially eligible until the exact setup is tested. Do not promise that equipment metadata is preserved by the spawned boots.
+- **Greed and split stacks:** requested cost and actual inventory deduction require separate regression tests. Multi-stack arithmetic and aliasing are under review; no native-game bug claim is made here.
+
+[Special-case evidence and class hashes](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-ammo-special-cases-1.20.1.json). Source pin used for symbol comparison: [official ItemUtil](https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/util/ItemUtil.java) and [Sublimus](https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Sublimus.java). Those source files are newer than the release; the matching branches were separately checked in the pinned 1.20.1 JAR.
 
 ## What this does not guarantee
 
@@ -56,3 +66,5 @@ Original mod, names and images: Tslat and AoA contributors; vanilla identities b
 The browser now uses page-sized thumbnail atlases at the same 96×96 display size. The default first 24 cards need a 102,234-byte atlas instead of seven full source sheets totaling 1,366,010 bytes: about 92.5% fewer image-asset bytes for that view. All full-size originals remain available through item links. This is a measured file-size comparison, not a measured startup-time or Minecraft-FPS claim.
 
 [Thumbnail provenance and size receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-ammo-thumbnail-proof.json) · [Updated audit, atlas builder and browser tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-ammo-audit-tool-v2.zip)
+
+[Version 3 browser/audit tools](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-ammo-audit-tool-v3.zip) include the special-case card notices.

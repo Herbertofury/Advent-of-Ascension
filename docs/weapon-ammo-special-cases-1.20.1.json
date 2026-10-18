@@ -1,0 +1,38 @@
+{
+  "scope": "Released AoA 3.7.1 / Minecraft 1.20.1 static consumption-path observations, not native gameplay tests",
+  "notes": {
+    "aoa3:dart_gun": "Special consumption path: accepts the Forge SEEDS item tag, not only Wheat Seeds. Requests 1 + Greed level; exact tag contents depend on the pack.",
+    "aoa3:gardener": "Special consumption path: accepts the Forge SEEDS item tag, not only Wheat Seeds. Requests 1 + Greed level; exact tag contents depend on the pack.",
+    "aoa3:sublimus": "Daylight exemption: the matching inventory check still runs, but server-side spending is disabled when it is day and the shooter can see the sky. Creative rules also apply.",
+    "aoa3:shoe_flinger": "Equipment warning: the shared lookup also checks armor slots. Its comparison does not compare full item metadata. Keep valuable Leather Boots protected until native inventory tests pass."
+  },
+  "named_source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3",
+  "named_source_limit": "Newer source is used only to identify matching symbols; released bytecode separately inspected. No claim of whole-file equivalence.",
+  "class_evidence": {
+    "DartGun": {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/DartGun.class",
+      "sha256": "c378bcebe334a7e19894bea27f6b0ef98fb199a14b488ab6571688fdd8911a14",
+      "javap_sha256": "566361b5ca6b8ab421c9b6a50fcc1603d67e2570871a892328811093291249ac"
+    },
+    "Gardener": {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Gardener.class",
+      "sha256": "f3b46d762fe20cf180633500a0f14f0110d89211246dc67d2cb8faebfadcb141",
+      "javap_sha256": "cb7a57dae874ba19ec7187f44d06ef51895cad309ce566a9cc1b97fad30bbe5f"
+    },
+    "Sublimus": {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Sublimus.class",
+      "sha256": "63d84e10743eb7f57b2ac6baa465593c90560e397d3e1ebc26596a3c5f86f873",
+      "javap_sha256": "45ef1fd1d05777055a82983dd3f74c81d25ff1d606c14733a5f61fc709d701d3"
+    },
+    "ItemUtil": {
+      "path": "net/tslat/aoa3/util/ItemUtil.class",
+      "sha256": "5f738a9925885bda6a036df3598083c67d26d6b4676168f14eec55ca9f8a42a8",
+      "javap_sha256": "3f049146b3c9c13c29c5ab5f8c2f60cb75a9ab55091ab878e157d05a968bc325"
+    }
+  },
+  "pending": [
+    "Multi-stack consumption and stack-alias regression tests",
+    "Pack-specific Forge SEEDS tag contents",
+    "Native creative, Greed, armor-slot and daylight inventory tests"
+  ]
+}
