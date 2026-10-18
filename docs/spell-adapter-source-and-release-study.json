@@ -1,0 +1,3987 @@
+{
+  "scope": "Pinned public source and official published JAR structure/member-reference inspection. No installed runtime, build or exploit testing; method references do not establish complete control-flow equivalence.",
+  "records": [
+    {
+      "name": "ArsArms",
+      "official_file": "https://www.curseforge.com/minecraft/mc-mods/arsarms/files/7949131",
+      "source": {
+        "repository": "https://github.com/mumu17-git/ArsArms",
+        "branch": "master",
+        "sha": "edb4f00cdbace81b9b7ab4867dfc6dc84664016b"
+      },
+      "jar_bytes": 100279,
+      "jar_sha256": "e85d8a8f2d6fbefaeff80d058b997893ced7311ea65d8086d6c8233c42460c62",
+      "license_metadata": "MIT",
+      "mod_metadata": [
+        {
+          "modId": "arsarms",
+          "version": "3.0.4",
+          "displayName": "ArsArms",
+          "logoFile": "logo.png",
+          "authors": "mumu17",
+          "description": ""
+        }
+      ],
+      "dependencies": {
+        "arsarms": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "tacz",
+            "mandatory": true,
+            "versionRange": "[1.1.7-hotfix2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "ars_nouveau",
+            "mandatory": true,
+            "versionRange": "[1.20.1-4.12.7,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "class_count": 9,
+      "classes": [
+        {
+          "path": "com/mumu17/arsarms/ArsArms.class",
+          "sha256": "0c189af73a7f8681fe2e440857f0a95d4e48f2c69550abb48d452ef0ff946190",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "30f657f22ff6645fa08af7c1b78f0456e1234b996b2da83427f0dda123d3e301",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModList;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "isLoaded",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModList;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "isLoaded",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModList;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "isLoaded",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingContext",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModLoadingContext;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingContext",
+                  "getActiveContainer",
+                  "()Lnet/minecraftforge/fml/ModContainer;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModContainer",
+                  "getModInfo",
+                  "()Lnet/minecraftforge/forgespi/language/IModInfo;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingStage",
+                  "CONSTRUCT",
+                  "Lnet/minecraftforge/fml/ModLoadingStage;"
+                ],
+                [
+                  "java/lang/Throwable",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingException",
+                  "<init>",
+                  "(Lnet/minecraftforge/forgespi/language/IModInfo;Lnet/minecraftforge/fml/ModLoadingStage;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingContext",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModLoadingContext;"
+                ],
+                [
+                  "net/minecraftforge/fml/config/ModConfig$Type",
+                  "COMMON",
+                  "Lnet/minecraftforge/fml/config/ModConfig$Type;"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig",
+                  "COMMON_SPEC",
+                  "Lnet/minecraftforge/common/ForgeConfigSpec;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingContext",
+                  "registerConfig",
+                  "(Lnet/minecraftforge/fml/config/ModConfig$Type;Lnet/minecraftforge/fml/config/IConfigSpec;)V"
+                ],
+                [
+                  "net/minecraftforge/common/MinecraftForge",
+                  "EVENT_BUS",
+                  "Lnet/minecraftforge/eventbus/api/IEventBus;"
+                ],
+                [
+                  "net/minecraftforge/eventbus/api/IEventBus",
+                  "register",
+                  "(Ljava/lang/Object;)V"
+                ],
+                [
+                  "com/mumu17/arsarms/register/ModNetworking",
+                  "register",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "d213ff67b17c38334b5691bc9712e83dd30182d942dc72821d694139b0289712",
+              "member_references": [
+                [
+                  "com/mojang/logging/LogUtils",
+                  "getLogger",
+                  "()Lorg/slf4j/Logger;"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArms",
+                  "LOGGER",
+                  "Lorg/slf4j/Logger;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/ArsArmsConfig$Common.class",
+          "sha256": "bb8b1e9312e8033c50b6eeaa3212ca8cb6d2514c963c2fe5223e1630afc5f8d5",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "(Lnet/minecraftforge/common/ForgeConfigSpec$Builder;)V",
+              "code_sha256": "f9155d738f8bdada706990c4c42368eedf0b9ad0e62ae061c00d47a816b4c28f",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraftforge/common/ForgeConfigSpec$Builder",
+                  "comment",
+                  "(Ljava/lang/String;)Lnet/minecraftforge/common/ForgeConfigSpec$Builder;"
+                ],
+                [
+                  "net/minecraftforge/common/ForgeConfigSpec$Builder",
+                  "define",
+                  "(Ljava/lang/String;Z)Lnet/minecraftforge/common/ForgeConfigSpec$BooleanValue;"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig$Common",
+                  "castChance",
+                  "Lnet/minecraftforge/common/ForgeConfigSpec$BooleanValue;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/ArsArmsConfig.class",
+          "sha256": "295b09c7eccbd984e007443695d661a971061522062858df26cd61caae6214e9",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "46202a05ae07ac9d2aac2ebbd079d457dde453f0987613b52558e8d5f968e0c8",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "d0432e79abf1ce1e6429987dfae2dfa408a62f76c259dccca097ca65d75b270d",
+              "member_references": [
+                [
+                  "net/minecraftforge/common/ForgeConfigSpec$Builder",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig$Common",
+                  "<init>",
+                  "(Lnet/minecraftforge/common/ForgeConfigSpec$Builder;)V"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig",
+                  "COMMON",
+                  "Lcom/mumu17/arsarms/ArsArmsConfig$Common;"
+                ],
+                [
+                  "net/minecraftforge/common/ForgeConfigSpec$Builder",
+                  "build",
+                  "()Lnet/minecraftforge/common/ForgeConfigSpec;"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig",
+                  "COMMON_SPEC",
+                  "Lnet/minecraftforge/common/ForgeConfigSpec;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick.class",
+          "sha256": "1eab3d65c0de80fb299855fcec4e3319329814fe1cd4bdfcb67607c589555b7d",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "1f87e448a6076fb1b42bbc794d42ea33424dd2e31bec76c16df992080715d230",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "onClientTick",
+              "descriptor": "(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V",
+              "code_sha256": "8b3d8fe108c5e22ebb423956e015e2635344337f26df1eadd99087c596a07ddc",
+              "member_references": [
+                [
+                  "net/minecraftforge/event/TickEvent$ClientTickEvent",
+                  "side",
+                  "Lnet/minecraftforge/fml/LogicalSide;"
+                ],
+                [
+                  "net/minecraftforge/fml/LogicalSide",
+                  "isClient",
+                  "()Z"
+                ],
+                [
+                  "net/minecraftforge/event/TickEvent$ClientTickEvent",
+                  "phase",
+                  "Lnet/minecraftforge/event/TickEvent$Phase;"
+                ],
+                [
+                  "net/minecraftforge/event/TickEvent$Phase",
+                  "END",
+                  "Lnet/minecraftforge/event/TickEvent$Phase;"
+                ],
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "net/minecraft/client/Minecraft",
+                  "m_91087_",
+                  "()Lnet/minecraft/client/Minecraft;"
+                ],
+                [
+                  "net/minecraft/client/Minecraft",
+                  "f_91074_",
+                  "Lnet/minecraft/client/player/LocalPlayer;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_150109_",
+                  "()Lnet/minecraft/world/entity/player/Inventory;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Inventory",
+                  "f_35974_",
+                  "Lnet/minecraft/core/NonNullList;"
+                ],
+                [
+                  "net/minecraft/core/NonNullList",
+                  "iterator",
+                  "()Ljava/util/Iterator;"
+                ],
+                [
+                  "java/util/Iterator",
+                  "hasNext",
+                  "()Z"
+                ],
+                [
+                  "java/util/Iterator",
+                  "next",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "isTargetItem",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "getAllEnchantments",
+                  "()Ljava/util/Map;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/setup/registry/EnchantmentRegistry",
+                  "REACTIVE_ENCHANTMENT",
+                  "Lnet/minecraftforge/registries/RegistryObject;"
+                ],
+                [
+                  "net/minecraftforge/registries/RegistryObject",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "java/util/Map",
+                  "containsKey",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "chargeManaOrCancel",
+                  "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+                ]
+              ]
+            },
+            {
+              "name": "chargeManaOrCancel",
+              "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V",
+              "code_sha256": "16b2e3f50ee314be78c0da7b613acae582375a9e3c035e6023a0c253257ad068",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/api/util/ManaUtil",
+                  "getCurrentMana",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)D"
+                ],
+                [
+                  "java/lang/Math",
+                  "min",
+                  "(II)I"
+                ],
+                [
+                  "java/lang/Math",
+                  "min",
+                  "(II)I"
+                ],
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "sendManaCountToServer",
+                  "(I)V"
+                ]
+              ]
+            },
+            {
+              "name": "sendManaCountToServer",
+              "descriptor": "(I)V",
+              "code_sha256": "7ae5fafa5a2ff11c53b0dfa979476d7e426882160f22f69964a7949eb5b58a8b",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/register/ModNetworking",
+                  "INSTANCE",
+                  "Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ],
+                [
+                  "com/mumu17/arsarms/network/RequestSyncChargedManaMessage",
+                  "<init>",
+                  "(I)V"
+                ],
+                [
+                  "net/minecraftforge/network/simple/SimpleChannel",
+                  "sendToServer",
+                  "(Ljava/lang/Object;)V"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "058cc9f17ff87ba914e18712653de4b319ab7038274177900bb9c9c590613d5e",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/event/ArsArmsBulletEvents.class",
+          "sha256": "1f7398ea6fddc433c42f0c797ea5a4d10e12c6a38b9709cd334244c0557a59e4",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "6133dbc271280e9146c7f34f3c3907dbe01b8bde973144f1b7804280860a9f63",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "onGunFire",
+              "descriptor": "(Lcom/tacz/guns/api/event/common/GunFireEvent;)V",
+              "code_sha256": "68695ff0a1444e51258ab9972a7f52c38f91968eccd4c877b7e3559e242ebc86",
+              "member_references": [
+                [
+                  "com/tacz/guns/api/event/common/GunFireEvent",
+                  "getLogicalSide",
+                  "()Lnet/minecraftforge/fml/LogicalSide;"
+                ],
+                [
+                  "net/minecraftforge/fml/LogicalSide",
+                  "isClient",
+                  "()Z"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/GunFireEvent",
+                  "getShooter",
+                  "()Lnet/minecraft/world/entity/LivingEntity;"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/GunFireEvent",
+                  "getGunItemStack",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "<init>",
+                  "(Lnet/minecraft/world/item/ItemStack;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_7500_",
+                  "()Z"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "getSpell",
+                  "()Lcom/hollingsworth/arsnouveau/api/spell/Spell;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/api/spell/Spell",
+                  "getCost",
+                  "()I"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "addMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ]
+              ]
+            },
+            {
+              "name": "onEntityHurtPre",
+              "descriptor": "(Lcom/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre;)V",
+              "code_sha256": "ea4a1e0a8c5b33860c7dc44f6f7c66702d2015273211279c3d5d59e5b04b5326",
+              "member_references": [
+                [
+                  "com/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre",
+                  "getAttacker",
+                  "()Lnet/minecraft/world/entity/LivingEntity;"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre",
+                  "getHurtEntity",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "contains",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "remove",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_21205_",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castSpell",
+                  "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+                ]
+              ]
+            },
+            {
+              "name": "onAmmoHitBlock",
+              "descriptor": "(Lcom/tacz/guns/api/event/server/AmmoHitBlockEvent;)V",
+              "code_sha256": "1bd4938ebd64e71001a00167931160f522d0fbdafe2a589e0327251ea5feb5fd",
+              "member_references": [
+                [
+                  "com/tacz/guns/api/event/server/AmmoHitBlockEvent",
+                  "getAmmo",
+                  "()Lcom/tacz/guns/entity/EntityKineticBullet;"
+                ],
+                [
+                  "com/tacz/guns/entity/EntityKineticBullet",
+                  "m_19749_",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_21205_",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "contains",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "remove",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/tacz/guns/api/event/server/AmmoHitBlockEvent",
+                  "getHitResult",
+                  "()Lnet/minecraft/world/phys/BlockHitResult;"
+                ],
+                [
+                  "net/minecraft/world/phys/BlockHitResult",
+                  "m_82450_",
+                  "()Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/entity/EntityType",
+                  "f_20529_",
+                  "Lnet/minecraft/world/entity/EntityType;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_9236_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "<init>",
+                  "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82479_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82480_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82481_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_6034_",
+                  "(DDD)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_6842_",
+                  "(Z)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_20331_",
+                  "(Z)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_20242_",
+                  "(Z)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128379_",
+                  "(Ljava/lang/String;Z)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128379_",
+                  "(Ljava/lang/String;Z)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_7378_",
+                  "(Lnet/minecraft/nbt/CompoundTag;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_9236_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/level/Level",
+                  "m_7967_",
+                  "(Lnet/minecraft/world/entity/Entity;)Z"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castSpell",
+                  "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_146870_",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "castSpell",
+              "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V",
+              "code_sha256": "99c27ff141997def1ab4af4cd0e62e6448e964b9168269486356d34b8080cfc2",
+              "member_references": [
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "f_41583_",
+                  "Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "canCastSpell",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "<init>",
+                  "(Lnet/minecraft/world/item/ItemStack;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/LivingEntity",
+                  "m_20193_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/InteractionHand",
+                  "MAIN_HAND",
+                  "Lnet/minecraft/world/InteractionHand;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "castSpell",
+                  "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/InteractionResultHolder;"
+                ]
+              ]
+            },
+            {
+              "name": "canCastSpell",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+              "code_sha256": "20a3f10d13ad734624481c2c500085e42165f9e8e86eb4985be4190b1b474b15",
+              "member_references": [
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "getAllEnchantments",
+                  "()Ljava/util/Map;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/setup/registry/EnchantmentRegistry",
+                  "REACTIVE_ENCHANTMENT",
+                  "Lnet/minecraftforge/registries/RegistryObject;"
+                ],
+                [
+                  "net/minecraftforge/registries/RegistryObject",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "java/util/Map",
+                  "containsKey",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig",
+                  "COMMON",
+                  "Lcom/mumu17/arsarms/ArsArmsConfig$Common;"
+                ],
+                [
+                  "com/mumu17/arsarms/ArsArmsConfig$Common",
+                  "castChance",
+                  "Lnet/minecraftforge/common/ForgeConfigSpec$BooleanValue;"
+                ],
+                [
+                  "net/minecraftforge/common/ForgeConfigSpec$BooleanValue",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "java/lang/Boolean",
+                  "booleanValue",
+                  "()Z"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/setup/registry/EnchantmentRegistry",
+                  "REACTIVE_ENCHANTMENT",
+                  "Lnet/minecraftforge/registries/RegistryObject;"
+                ],
+                [
+                  "net/minecraftforge/registries/RegistryObject",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "getEnchantmentLevel",
+                  "(Lnet/minecraft/world/item/enchantment/Enchantment;)I"
+                ],
+                [
+                  "java/lang/Math",
+                  "random",
+                  "()D"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "<init>",
+                  "(Lnet/minecraft/world/item/ItemStack;)V"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "getSpell",
+                  "()Lcom/hollingsworth/arsnouveau/api/spell/Spell;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/api/spell/Spell",
+                  "isValid",
+                  "()Z"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "50a969a83dc06da609d7f17ad0df9959b6faae7b8406d2257469dc5ba616c71a",
+              "member_references": [
+                [
+                  "java/util/List",
+                  "of",
+                  "()Ljava/util/List;"
+                ],
+                [
+                  "java/util/ArrayList",
+                  "<init>",
+                  "(Ljava/util/Collection;)V"
+                ],
+                [
+                  "com/mumu17/arsarms/event/ArsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/item/GunTooltipHandler.class",
+          "sha256": "9d70c764546d912596d0976218c9eb2ec7bddf905a5ea6929d2cb88b6cc74b1e",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "4b2d66c2e129bf585b84fa4abd8e46f07779ec93460c464280f9bf8c5d045471",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "onItemTooltip",
+              "descriptor": "(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V",
+              "code_sha256": "148932d89df755bab6c3c64f9cd848ea79d3c8ea77629311123d76c6fbbb25e2",
+              "member_references": [
+                [
+                  "net/minecraftforge/event/entity/player/ItemTooltipEvent",
+                  "getItemStack",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "getAllEnchantments",
+                  "()Ljava/util/Map;"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/setup/registry/EnchantmentRegistry",
+                  "REACTIVE_ENCHANTMENT",
+                  "Lnet/minecraftforge/registries/RegistryObject;"
+                ],
+                [
+                  "net/minecraftforge/registries/RegistryObject",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "java/util/Map",
+                  "containsKey",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/common/spell/casters/ReactiveCaster",
+                  "<init>",
+                  "(Lnet/minecraft/world/item/ItemStack;)V"
+                ],
+                [
+                  "net/minecraftforge/event/entity/player/ItemTooltipEvent",
+                  "getToolTip",
+                  "()Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237115_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "WHITE",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "BOLD",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_130944_",
+                  "([Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237115_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "java/lang/String",
+                  "valueOf",
+                  "(I)Ljava/lang/String;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "AQUA",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_130940_",
+                  "(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/network/RequestSyncChargedManaMessage.class",
+          "sha256": "1516d228a9f63cc2dc6ef7faad0209df298145024e26419b7880cc9c8e335b3b",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "(I)V",
+              "code_sha256": "c6df683a3cf3a5f8cfc54d247952065f35679612e53dcc6222ab7f629677d227",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "com/mumu17/arsarms/network/RequestSyncChargedManaMessage",
+                  "manaCount",
+                  "I"
+                ]
+              ]
+            },
+            {
+              "name": "encode",
+              "descriptor": "(Lcom/mumu17/arsarms/network/RequestSyncChargedManaMessage;Lnet/minecraft/network/FriendlyByteBuf;)V",
+              "code_sha256": "3b5112d7c3d73ac862de66159119818bf0c2591d68a28e467aecdfd11868ca60",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/network/RequestSyncChargedManaMessage",
+                  "manaCount",
+                  "I"
+                ],
+                [
+                  "net/minecraft/network/FriendlyByteBuf",
+                  "writeInt",
+                  "(I)Lio/netty/buffer/ByteBuf;"
+                ]
+              ]
+            },
+            {
+              "name": "decode",
+              "descriptor": "(Lnet/minecraft/network/FriendlyByteBuf;)Lcom/mumu17/arsarms/network/RequestSyncChargedManaMessage;",
+              "code_sha256": "4c56c0c290e399df940b196aaf6c4dd8ee0ae511ff2620680a9b9e1b13ee48e2",
+              "member_references": [
+                [
+                  "net/minecraft/network/FriendlyByteBuf",
+                  "readInt",
+                  "()I"
+                ],
+                [
+                  "com/mumu17/arsarms/network/RequestSyncChargedManaMessage",
+                  "<init>",
+                  "(I)V"
+                ]
+              ]
+            },
+            {
+              "name": "handle",
+              "descriptor": "(Lcom/mumu17/arsarms/network/RequestSyncChargedManaMessage;Ljava/util/function/Supplier;)V",
+              "code_sha256": "9810d4a7f73c2da1ceedf8b18ff57c231cb873592583713c9dde10c743a7289f",
+              "member_references": [
+                [
+                  "java/util/function/Supplier",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkEvent$Context",
+                  "enqueueWork",
+                  "(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture;"
+                ],
+                [
+                  "java/util/function/Supplier",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkEvent$Context",
+                  "setPacketHandled",
+                  "(Z)V"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$handle$1",
+              "descriptor": "(Ljava/util/function/Supplier;Lcom/mumu17/arsarms/network/RequestSyncChargedManaMessage;)V",
+              "code_sha256": "30d2f1dbaf86560a2cc9f5c70f20c18012baa88ddd4938ebc49fe37f98350561",
+              "member_references": [
+                [
+                  "java/util/function/Supplier",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkEvent$Context",
+                  "getSender",
+                  "()Lnet/minecraft/server/level/ServerPlayer;"
+                ],
+                [
+                  "net/minecraft/server/level/ServerPlayer",
+                  "m_150109_",
+                  "()Lnet/minecraft/world/entity/player/Inventory;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Inventory",
+                  "f_35974_",
+                  "Lnet/minecraft/core/NonNullList;"
+                ],
+                [
+                  "net/minecraft/core/NonNullList",
+                  "iterator",
+                  "()Ljava/util/Iterator;"
+                ],
+                [
+                  "java/util/Iterator",
+                  "hasNext",
+                  "()Z"
+                ],
+                [
+                  "java/util/Iterator",
+                  "next",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41619_",
+                  "()Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/mumu17/arsarms/network/RequestSyncChargedManaMessage",
+                  "manaCount",
+                  "I"
+                ],
+                [
+                  "com/hollingsworth/arsnouveau/setup/registry/CapabilityRegistry",
+                  "getMana",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraftforge/common/util/LazyOptional;"
+                ],
+                [
+                  "net/minecraftforge/common/util/LazyOptional",
+                  "ifPresent",
+                  "(Lnet/minecraftforge/common/util/NonNullConsumer;)V"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "addMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$handle$0",
+              "descriptor": "(ILcom/hollingsworth/arsnouveau/api/mana/IManaCap;)V",
+              "code_sha256": "e2ae506e2c74e8a2b78ff2428024e16b04c5b418a3a0a74c41d6ef0c02309bf7",
+              "member_references": [
+                [
+                  "com/hollingsworth/arsnouveau/api/mana/IManaCap",
+                  "removeMana",
+                  "(D)D"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/register/ModNetworking.class",
+          "sha256": "88ede317bbc582e4742e56413bf90eb6fe2ca585829d69d045123b2d14807ca6",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "9fbe1b81bb78fd501d727034054001e89f98b4ceb41748486307dbe8279ca728",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "register",
+              "descriptor": "()V",
+              "code_sha256": "241b58774535624f960df4207e7febab898b215aef444e0866998965171f1039",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/register/ModNetworking",
+                  "INSTANCE",
+                  "Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ],
+                [
+                  "net/minecraftforge/network/simple/SimpleChannel",
+                  "registerMessage",
+                  "(ILjava/lang/Class;Ljava/util/function/BiConsumer;Ljava/util/function/Function;Ljava/util/function/BiConsumer;)Lnet/minecraftforge/network/simple/IndexedMessageCodec$MessageHandler;"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$static$0",
+              "descriptor": "()Ljava/lang/String;",
+              "code_sha256": "aed7f09de38983c08565c402a248f888e7775ec7fbb0c47cc092ccd8be0ac835",
+              "member_references": []
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "f5eb03ee4f41ab4325702482e0fe1d5818af359c2a935a8d8ddf5062931c5a82",
+              "member_references": [
+                [
+                  "net/minecraft/resources/ResourceLocation",
+                  "<init>",
+                  "(Ljava/lang/String;Ljava/lang/String;)V"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkRegistry",
+                  "newSimpleChannel",
+                  "(Lnet/minecraft/resources/ResourceLocation;Ljava/util/function/Supplier;Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ],
+                [
+                  "com/mumu17/arsarms/register/ModNetworking",
+                  "INSTANCE",
+                  "Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/arsarms/util/GunTags.class",
+          "sha256": "4ceea28e057aa767c2cb0dbc4378dc9b4895a83ab9b1733c36713b0192ff6c13",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "261a2f1797eec5614a8f259eab3031a953c9369dd1f9f0c4090576e45bf24cce",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "addMana",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;I)V",
+              "code_sha256": "ea15b5fd781c5dd415480b8c3e7b58547f3151b03bf9693d19182a49e57a7931",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "setMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ]
+              ]
+            },
+            {
+              "name": "setMana",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;I)V",
+              "code_sha256": "3227f98c20c8d1f781aeb0af41bddb3762d748b79465245e826e76efcb6d3c43",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "isTargetItem",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128405_",
+                  "(Ljava/lang/String;I)V"
+                ]
+              ]
+            },
+            {
+              "name": "getMana",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+              "code_sha256": "ed6266b4ddaacb2709875982c091698d4907f1a8a8dc4a5ff3b4589f50a741af",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "containsManaTag",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128451_",
+                  "(Ljava/lang/String;)I"
+                ]
+              ]
+            },
+            {
+              "name": "containsManaTag",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+              "code_sha256": "6d9d54fb2eb70724e0a0a0ff0edc53f02689a5239613b765d4b28a5fae7dbc2c",
+              "member_references": [
+                [
+                  "com/mumu17/arsarms/util/GunTags",
+                  "isTargetItem",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128441_",
+                  "(Ljava/lang/String;)Z"
+                ]
+              ]
+            },
+            {
+              "name": "isTargetItem",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+              "code_sha256": "5151b93596e23991be2915426636be73b34c69c1e15b77eccce9f2326db0ea3d",
+              "member_references": [
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41619_",
+                  "()Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "source_files": [
+        {
+          "path": "src/main/java/com/mumu17/arsarms/ArsArms.java",
+          "sha256": "fea4865d6faa18ef8fadb21b768d6c756a9548420e15f982a2f14bceff301c51"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/ArsArmsConfig.java",
+          "sha256": "277fb7fdf0a11d8df248ef15500d4734f3b48cc749a7c90fbf8eb800cd3884ac"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/client/ChargeManaToAmmoBoxTick.java",
+          "sha256": "f861d1213141068314e0aa3c15155dacc8182bb33f56f2d25a88bb21a36778c0"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/event/ArsArmsBulletEvents.java",
+          "sha256": "8e100890a74c44fb41ac864294ed13ddaf32a52bf042b58ee4044f169a88e7f0"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/item/GunTooltipHandler.java",
+          "sha256": "d3a23cd080dbb4922544712f7479e88bc265d9ce1dfce262d6e210b037c47924"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/network/RequestSyncChargedManaMessage.java",
+          "sha256": "414d0da77163e4a79a1a31d3053a1b3dff9b2c8b27ab8d829cc5732ae7db606e"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/register/ModNetworking.java",
+          "sha256": "00e6f14cb8f9b2d7420b209c3168318d332b872f7c6ff56b55809ba3051b624e"
+        },
+        {
+          "path": "src/main/java/com/mumu17/arsarms/util/GunTags.java",
+          "sha256": "242332964bb6ecdbcc296b8daf1288989daf66612e170efec652e3e85dd7618e"
+        }
+      ]
+    },
+    {
+      "name": "IronsArms",
+      "official_file": "https://www.curseforge.com/minecraft/mc-mods/ironsarms/files/7949129",
+      "source": {
+        "repository": "https://github.com/mumu17-git/IronsArms",
+        "branch": "master",
+        "sha": "fc5c153f4939307c80b4dffda37d8725ffb61cd5"
+      },
+      "jar_bytes": 62762,
+      "jar_sha256": "9b7af657e2a09fa5099da3018de01cc8f654a49893d8e0bbfca92b634f78231e",
+      "license_metadata": "MIT",
+      "mod_metadata": [
+        {
+          "modId": "ironsarms",
+          "version": "3.0.6",
+          "displayName": "IronsArms",
+          "logoFile": "logo.png",
+          "authors": "mumu17",
+          "description": ""
+        }
+      ],
+      "dependencies": {
+        "ironsarms": [
+          {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[47,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "minecraft",
+            "mandatory": true,
+            "versionRange": "[1.20.1,1.21)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "tacz",
+            "mandatory": true,
+            "versionRange": "[1.1.7-hotfix2,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          },
+          {
+            "modId": "irons_spellbooks",
+            "mandatory": true,
+            "versionRange": "[1.20.1-3.15.6,)",
+            "ordering": "NONE",
+            "side": "BOTH"
+          }
+        ]
+      },
+      "class_count": 8,
+      "classes": [
+        {
+          "path": "com/mumu17/ironsarms/IronsArms.class",
+          "sha256": "7a9546e1acf06d9e892bf969a27b517cf4e713dfc5d40608cfd69138066053cc",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "137181274c3522ba7ee2d8b996f28e04968ec28256f9bff69acdf81ecea377e6",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModList;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "isLoaded",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModList;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "isLoaded",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModList;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModList",
+                  "isLoaded",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingContext",
+                  "get",
+                  "()Lnet/minecraftforge/fml/ModLoadingContext;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingContext",
+                  "getActiveContainer",
+                  "()Lnet/minecraftforge/fml/ModContainer;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModContainer",
+                  "getModInfo",
+                  "()Lnet/minecraftforge/forgespi/language/IModInfo;"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingStage",
+                  "CONSTRUCT",
+                  "Lnet/minecraftforge/fml/ModLoadingStage;"
+                ],
+                [
+                  "java/lang/Throwable",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraftforge/fml/ModLoadingException",
+                  "<init>",
+                  "(Lnet/minecraftforge/forgespi/language/IModInfo;Lnet/minecraftforge/fml/ModLoadingStage;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V"
+                ],
+                [
+                  "net/minecraftforge/common/MinecraftForge",
+                  "EVENT_BUS",
+                  "Lnet/minecraftforge/eventbus/api/IEventBus;"
+                ],
+                [
+                  "net/minecraftforge/eventbus/api/IEventBus",
+                  "register",
+                  "(Ljava/lang/Object;)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/register/ModNetworking",
+                  "register",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "c49a68f7ad3f5f7a19be8d807cf7095ad83f90f9bc097a1e8ba55681caaea7cb",
+              "member_references": [
+                [
+                  "com/mojang/logging/LogUtils",
+                  "getLogger",
+                  "()Lorg/slf4j/Logger;"
+                ],
+                [
+                  "com/mumu17/ironsarms/IronsArms",
+                  "LOGGER",
+                  "Lorg/slf4j/Logger;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick.class",
+          "sha256": "c78f186a4cada45b61d18b61be28ca55f33559ad7d50040ae284c46b471f074f",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "1f87e448a6076fb1b42bbc794d42ea33424dd2e31bec76c16df992080715d230",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "onClientTick",
+              "descriptor": "(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V",
+              "code_sha256": "c98a98f1f2aba81f68a69a9fe4f27184cae54db87510f759bcfac96b422f0b15",
+              "member_references": [
+                [
+                  "net/minecraftforge/event/TickEvent$ClientTickEvent",
+                  "side",
+                  "Lnet/minecraftforge/fml/LogicalSide;"
+                ],
+                [
+                  "net/minecraftforge/fml/LogicalSide",
+                  "isClient",
+                  "()Z"
+                ],
+                [
+                  "net/minecraftforge/event/TickEvent$ClientTickEvent",
+                  "phase",
+                  "Lnet/minecraftforge/event/TickEvent$Phase;"
+                ],
+                [
+                  "net/minecraftforge/event/TickEvent$Phase",
+                  "END",
+                  "Lnet/minecraftforge/event/TickEvent$Phase;"
+                ],
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ],
+                [
+                  "net/minecraft/client/Minecraft",
+                  "m_91087_",
+                  "()Lnet/minecraft/client/Minecraft;"
+                ],
+                [
+                  "net/minecraft/client/Minecraft",
+                  "f_91074_",
+                  "Lnet/minecraft/client/player/LocalPlayer;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_150109_",
+                  "()Lnet/minecraft/world/entity/player/Inventory;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Inventory",
+                  "f_35974_",
+                  "Lnet/minecraft/core/NonNullList;"
+                ],
+                [
+                  "net/minecraft/core/NonNullList",
+                  "iterator",
+                  "()Ljava/util/Iterator;"
+                ],
+                [
+                  "java/util/Iterator",
+                  "hasNext",
+                  "()Z"
+                ],
+                [
+                  "java/util/Iterator",
+                  "next",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "isTargetItem",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41783_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41783_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128441_",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "chargeManaOrCancel",
+                  "(Lnet/minecraft/world/item/ItemStack;)V"
+                ]
+              ]
+            },
+            {
+              "name": "chargeManaOrCancel",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)V",
+              "code_sha256": "5ef5a1f88bf92e61a8c495ac179228c80d35eeeaf70486bd3bc2437f74e8a363",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/player/ClientMagicData",
+                  "getPlayerMana",
+                  "()I"
+                ],
+                [
+                  "java/lang/Math",
+                  "min",
+                  "(II)I"
+                ],
+                [
+                  "java/lang/Math",
+                  "min",
+                  "(II)I"
+                ],
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "sendManaCountToServer",
+                  "(I)V"
+                ]
+              ]
+            },
+            {
+              "name": "sendManaCountToServer",
+              "descriptor": "(I)V",
+              "code_sha256": "58b2a0bbef19b695c593cb2cdd2496f31a8885a54d5bfac326a27cc728265602",
+              "member_references": [
+                [
+                  "io/redspace/ironsspellbooks/player/ClientMagicData",
+                  "setMana",
+                  "(I)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/register/ModNetworking",
+                  "INSTANCE",
+                  "Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ],
+                [
+                  "com/mumu17/ironsarms/network/RequestSyncChargedManaMessage",
+                  "<init>",
+                  "(I)V"
+                ],
+                [
+                  "net/minecraftforge/network/simple/SimpleChannel",
+                  "sendToServer",
+                  "(Ljava/lang/Object;)V"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "058cc9f17ff87ba914e18712653de4b319ab7038274177900bb9c9c590613d5e",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick",
+                  "tickCounter",
+                  "I"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/event/IronsArmsBulletEvents.class",
+          "sha256": "e212fa28a362af4a6a850dedcc490689300e81e9d41d4c5772e01e3c02cf4108",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "77be57ae11a66e5623674eab1db3eecee5031a0c27b40fec4d9bf8ed81e9acdc",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "onGunFire",
+              "descriptor": "(Lcom/tacz/guns/api/event/common/GunFireEvent;)V",
+              "code_sha256": "6287371a709be3a3a1d2555f5d315ecc13b66bf2e3de7ad0eb3039005305a84e",
+              "member_references": [
+                [
+                  "com/tacz/guns/api/event/common/GunFireEvent",
+                  "getLogicalSide",
+                  "()Lnet/minecraftforge/fml/LogicalSide;"
+                ],
+                [
+                  "net/minecraftforge/fml/LogicalSide",
+                  "isClient",
+                  "()Z"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/GunFireEvent",
+                  "getShooter",
+                  "()Lnet/minecraft/world/entity/LivingEntity;"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/GunFireEvent",
+                  "getGunItemStack",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41783_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128441_",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128469_",
+                  "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128461_",
+                  "(Ljava/lang/String;)Ljava/lang/String;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/SpellRegistry",
+                  "getSpell",
+                  "(Ljava/lang/String;)Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128451_",
+                  "(Ljava/lang/String;)I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "isSpellContainer",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "get",
+                  "(Lnet/minecraft/world/item/ItemStack;)Lio/redspace/ironsspellbooks/api/spells/ISpellContainer;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "isEmpty",
+                  "()Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "getSpellAtIndex",
+                  "(I)Lio/redspace/ironsspellbooks/api/spells/SpellData;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/SpellData",
+                  "getSpell",
+                  "()Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/SpellData",
+                  "getLevel",
+                  "()I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/SpellRegistry",
+                  "none",
+                  "()Lio/redspace/ironsspellbooks/spells/NoneSpell;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/events/ModifySpellLevelEvent",
+                  "<init>",
+                  "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;Lnet/minecraft/world/entity/LivingEntity;II)V"
+                ],
+                [
+                  "net/minecraftforge/common/MinecraftForge",
+                  "EVENT_BUS",
+                  "Lnet/minecraftforge/eventbus/api/IEventBus;"
+                ],
+                [
+                  "net/minecraftforge/eventbus/api/IEventBus",
+                  "post",
+                  "(Lnet/minecraftforge/eventbus/api/Event;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/events/ModifySpellLevelEvent",
+                  "getLevel",
+                  "()I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerMagicData",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)Lio/redspace/ironsspellbooks/api/magic/MagicData;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellResource",
+                  "()Lnet/minecraft/resources/ResourceLocation;"
+                ],
+                [
+                  "net/minecraft/resources/ResourceLocation",
+                  "toString",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerRecasts",
+                  "()Lio/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts",
+                  "hasRecastForSpell",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "checkForCalamityRing",
+                  "(Lnet/minecraft/world/entity/player/Player;)Z"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_7500_",
+                  "()Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getManaCost",
+                  "(I)I"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "addMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellId",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128359_",
+                  "(Ljava/lang/String;Ljava/lang/String;)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128405_",
+                  "(Ljava/lang/String;I)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "pendingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/Map",
+                  "put",
+                  "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ]
+              ]
+            },
+            {
+              "name": "onEntityJoin",
+              "descriptor": "(Lnet/minecraftforge/event/entity/EntityJoinLevelEvent;)V",
+              "code_sha256": "6548d1273b162bae7a23dc9bd2b4cc345473c5860c491fc37935726fd2485443",
+              "member_references": [
+                [
+                  "net/minecraftforge/event/entity/EntityJoinLevelEvent",
+                  "getLevel",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/level/Level",
+                  "f_46443_",
+                  "Z"
+                ],
+                [
+                  "net/minecraftforge/event/entity/EntityJoinLevelEvent",
+                  "getEntity",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "com/tacz/guns/entity/EntityKineticBullet",
+                  "m_19749_",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "contains",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "pendingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/Map",
+                  "get",
+                  "(Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "com/tacz/guns/entity/EntityKineticBullet",
+                  "getPersistentData",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128365_",
+                  "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+                ]
+              ]
+            },
+            {
+              "name": "onServerTick",
+              "descriptor": "(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;)V",
+              "code_sha256": "a9e3ff9b8b1b6e642332dd241ce3ec2ddf2582657d7c093d2c8c9be68eaffdeb",
+              "member_references": [
+                [
+                  "net/minecraftforge/event/TickEvent$ServerTickEvent",
+                  "phase",
+                  "Lnet/minecraftforge/event/TickEvent$Phase;"
+                ],
+                [
+                  "net/minecraftforge/event/TickEvent$Phase",
+                  "END",
+                  "Lnet/minecraftforge/event/TickEvent$Phase;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "pendingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "java/util/Map",
+                  "clear",
+                  "()V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "playersWithCastingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "java/util/Map",
+                  "forEach",
+                  "(Ljava/util/function/BiConsumer;)V"
+                ]
+              ]
+            },
+            {
+              "name": "onEntityHurtPre",
+              "descriptor": "(Lcom/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre;)V",
+              "code_sha256": "223c141aabe1ae720e02ebe322ccd9f7536a7a0973c98fedfef2bbc8617f1534",
+              "member_references": [
+                [
+                  "com/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre",
+                  "getAttacker",
+                  "()Lnet/minecraft/world/entity/LivingEntity;"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre",
+                  "getHurtEntity",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "contains",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "remove",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/world/entity/LivingEntity",
+                  "m_20182_",
+                  "()Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "com/tacz/guns/api/event/common/EntityHurtByGunEvent$Pre",
+                  "getBullet",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "processImpact",
+                  "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/Entity;)V"
+                ]
+              ]
+            },
+            {
+              "name": "onAmmoHitBlock",
+              "descriptor": "(Lcom/tacz/guns/api/event/server/AmmoHitBlockEvent;)V",
+              "code_sha256": "4e4ca1929f2a37c8465fbe9ce162d2db641a330e92a39cb353f95c137e70cc55",
+              "member_references": [
+                [
+                  "com/tacz/guns/api/event/server/AmmoHitBlockEvent",
+                  "getAmmo",
+                  "()Lcom/tacz/guns/entity/EntityKineticBullet;"
+                ],
+                [
+                  "com/tacz/guns/entity/EntityKineticBullet",
+                  "m_19749_",
+                  "()Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "contains",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/util/List",
+                  "remove",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "com/tacz/guns/api/event/server/AmmoHitBlockEvent",
+                  "getHitResult",
+                  "()Lnet/minecraft/world/phys/BlockHitResult;"
+                ],
+                [
+                  "net/minecraft/world/phys/BlockHitResult",
+                  "m_82450_",
+                  "()Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/entity/EntityType",
+                  "f_20529_",
+                  "Lnet/minecraft/world/entity/EntityType;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_9236_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "<init>",
+                  "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82479_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82480_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82481_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_6034_",
+                  "(DDD)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_6842_",
+                  "(Z)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_20331_",
+                  "(Z)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_20242_",
+                  "(Z)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128379_",
+                  "(Ljava/lang/String;Z)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128379_",
+                  "(Ljava/lang/String;Z)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_7378_",
+                  "(Lnet/minecraft/nbt/CompoundTag;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_9236_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/level/Level",
+                  "m_7967_",
+                  "(Lnet/minecraft/world/entity/Entity;)Z"
+                ],
+                [
+                  "com/tacz/guns/api/event/server/AmmoHitBlockEvent",
+                  "getAmmo",
+                  "()Lcom/tacz/guns/entity/EntityKineticBullet;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "processImpact",
+                  "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/Entity;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/decoration/ArmorStand",
+                  "m_146870_",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "processImpact",
+              "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/Entity;)V",
+              "code_sha256": "7778c39bb88dfee7477eac56ebda3be0da7366d01cf4f6000a2ac04d2baf5e63",
+              "member_references": [
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_9236_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "net/minecraft/world/level/Level",
+                  "f_46443_",
+                  "Z"
+                ],
+                [
+                  "net/minecraft/world/entity/Entity",
+                  "getPersistentData",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128441_",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraft/world/entity/Entity",
+                  "getPersistentData",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128469_",
+                  "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128461_",
+                  "(Ljava/lang/String;)Ljava/lang/String;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/SpellRegistry",
+                  "getSpell",
+                  "(Ljava/lang/String;)Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128451_",
+                  "(Ljava/lang/String;)I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/SpellRegistry",
+                  "none",
+                  "()Lio/redspace/ironsspellbooks/spells/NoneSpell;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerMagicData",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)Lio/redspace/ironsspellbooks/api/magic/MagicData;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellResource",
+                  "()Lnet/minecraft/resources/ResourceLocation;"
+                ],
+                [
+                  "net/minecraft/resources/ResourceLocation",
+                  "m_135815_",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "java/lang/String",
+                  "contains",
+                  "(Ljava/lang/CharSequence;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/spells/ender/StarfallSpell$StarfallCastData",
+                  "<init>",
+                  "(Lnet/minecraft/world/phys/Vec3;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "setAdditionalCastData",
+                  "(Lio/redspace/ironsspellbooks/api/spells/ICastData;)V"
+                ],
+                [
+                  "java/lang/String",
+                  "contains",
+                  "(Ljava/lang/CharSequence;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/spells/ender/TeleportSpell$TeleportData",
+                  "<init>",
+                  "(Lnet/minecraft/world/phys/Vec3;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "setAdditionalCastData",
+                  "(Lio/redspace/ironsspellbooks/api/spells/ICastData;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/TargetEntityCastData",
+                  "<init>",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "setAdditionalCastData",
+                  "(Lio/redspace/ironsspellbooks/api/spells/ICastData;)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20182_",
+                  "()Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146908_",
+                  "()F"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146909_",
+                  "()F"
+                ],
+                [
+                  "net/minecraft/world/entity/Entity",
+                  "m_20184_",
+                  "()Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "m_82541_",
+                  "()Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82479_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82480_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82481_",
+                  "D"
+                ],
+                [
+                  "java/lang/Math",
+                  "sqrt",
+                  "(D)D"
+                ],
+                [
+                  "java/lang/Math",
+                  "atan2",
+                  "(DD)D"
+                ],
+                [
+                  "java/lang/Math",
+                  "atan2",
+                  "(DD)D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "m_82490_",
+                  "(D)Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "m_82546_",
+                  "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82479_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82480_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82481_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_6034_",
+                  "(DDD)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146922_",
+                  "(F)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146926_",
+                  "(F)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_5616_",
+                  "(F)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getCastType",
+                  "()Lio/redspace/ironsspellbooks/api/spells/CastType;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/CastType",
+                  "CONTINUOUS",
+                  "Lio/redspace/ironsspellbooks/api/spells/CastType;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getCastTime",
+                  "(I)I"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "playersWithCastingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_20148_",
+                  "()Ljava/util/UUID;"
+                ],
+                [
+                  "java/lang/Integer",
+                  "valueOf",
+                  "(I)Ljava/lang/Integer;"
+                ],
+                [
+                  "java/util/Map",
+                  "put",
+                  "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_21205_",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "setManaFromGun",
+                  "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/CastSource",
+                  "SWORD",
+                  "Lio/redspace/ironsspellbooks/api/spells/CastSource;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellId",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "initiateCast",
+                  "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;IILio/redspace/ironsspellbooks/api/spells/CastSource;Ljava/lang/String;)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "executeSpell",
+                  "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;ILnet/minecraft/world/entity/player/Player;Lio/redspace/ironsspellbooks/api/magic/MagicData;)V"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82479_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82480_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82481_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_6034_",
+                  "(DDD)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146922_",
+                  "(F)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146926_",
+                  "(F)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_5616_",
+                  "(F)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "updateRecastSystems",
+                  "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;Lio/redspace/ironsspellbooks/api/magic/MagicData;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getCastType",
+                  "()Lio/redspace/ironsspellbooks/api/spells/CastType;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/CastType",
+                  "CONTINUOUS",
+                  "Lio/redspace/ironsspellbooks/api/spells/CastType;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "resetCastingState",
+                  "()V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "setAdditionalCastData",
+                  "(Lio/redspace/ironsspellbooks/api/spells/ICastData;)V"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82479_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82480_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/phys/Vec3",
+                  "f_82481_",
+                  "D"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_6034_",
+                  "(DDD)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146922_",
+                  "(F)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_146926_",
+                  "(F)V"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_5616_",
+                  "(F)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "updateRecastSystems",
+                  "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;Lio/redspace/ironsspellbooks/api/magic/MagicData;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getCastType",
+                  "()Lio/redspace/ironsspellbooks/api/spells/CastType;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/CastType",
+                  "CONTINUOUS",
+                  "Lio/redspace/ironsspellbooks/api/spells/CastType;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "resetCastingState",
+                  "()V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "setAdditionalCastData",
+                  "(Lio/redspace/ironsspellbooks/api/spells/ICastData;)V"
+                ]
+              ]
+            },
+            {
+              "name": "updateRecastSystems",
+              "descriptor": "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;Lio/redspace/ironsspellbooks/api/magic/MagicData;)V",
+              "code_sha256": "9590bc920bd357bc74d7699006fbe6698b4c82d6290782316559a676b5866662",
+              "member_references": [
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellResource",
+                  "()Lnet/minecraft/resources/ResourceLocation;"
+                ],
+                [
+                  "net/minecraft/resources/ResourceLocation",
+                  "toString",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerRecasts",
+                  "()Lio/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts",
+                  "hasRecastForSpell",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerRecasts",
+                  "()Lio/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts",
+                  "getRecastInstance",
+                  "(Ljava/lang/String;)Lio/redspace/ironsspellbooks/capabilities/magic/RecastInstance;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "getRemainingRecasts",
+                  "()I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "getSpellId",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "getSpellLevel",
+                  "()I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "getTicksToLive",
+                  "()I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "getCastSource",
+                  "()Lio/redspace/ironsspellbooks/api/spells/CastSource;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "getCastData",
+                  "()Lio/redspace/ironsspellbooks/api/spells/ICastDataSerializable;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastInstance",
+                  "<init>",
+                  "(Ljava/lang/String;IIILio/redspace/ironsspellbooks/api/spells/CastSource;Lio/redspace/ironsspellbooks/api/spells/ICastDataSerializable;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerRecasts",
+                  "()Lio/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts",
+                  "addRecast",
+                  "(Lio/redspace/ironsspellbooks/capabilities/magic/RecastInstance;Lio/redspace/ironsspellbooks/api/magic/MagicData;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerRecasts",
+                  "()Lio/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/RecastResult",
+                  "USED_ALL_RECASTS",
+                  "Lio/redspace/ironsspellbooks/capabilities/magic/RecastResult;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/capabilities/magic/PlayerRecasts",
+                  "removeRecast",
+                  "(Lio/redspace/ironsspellbooks/capabilities/magic/RecastInstance;Lio/redspace/ironsspellbooks/capabilities/magic/RecastResult;)V"
+                ]
+              ]
+            },
+            {
+              "name": "executeSpell",
+              "descriptor": "(Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;ILnet/minecraft/world/entity/player/Player;Lio/redspace/ironsspellbooks/api/magic/MagicData;)V",
+              "code_sha256": "87091911ce5cf6e6f2d3b04171daac082371c8286a6eaf26ad5ab6b393e32dcb",
+              "member_references": [
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_9236_",
+                  "()Lnet/minecraft/world/level/Level;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/CastSource",
+                  "SWORD",
+                  "Lio/redspace/ironsspellbooks/api/spells/CastSource;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "onCast",
+                  "(Lnet/minecraft/world/level/Level;ILnet/minecraft/world/entity/LivingEntity;Lio/redspace/ironsspellbooks/api/spells/CastSource;Lio/redspace/ironsspellbooks/api/magic/MagicData;)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/IronsArms",
+                  "LOGGER",
+                  "Lorg/slf4j/Logger;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellResource",
+                  "()Lnet/minecraft/resources/ResourceLocation;"
+                ],
+                [
+                  "net/minecraft/resources/ResourceLocation",
+                  "toString",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "org/slf4j/Logger",
+                  "error",
+                  "(Ljava/lang/String;Ljava/lang/Throwable;)V"
+                ]
+              ]
+            },
+            {
+              "name": "checkForCalamityRing",
+              "descriptor": "(Lnet/minecraft/world/entity/player/Player;)Z",
+              "code_sha256": "a45f2bf500356666303de885a0960ed313f5e3441523466da57d1395646c166c",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "calamityRingExists",
+                  "Ljava/lang/Boolean;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "initializeCalamityRingDetection",
+                  "()V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "calamityRingExists",
+                  "Ljava/lang/Boolean;"
+                ],
+                [
+                  "java/lang/Boolean",
+                  "booleanValue",
+                  "()Z"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "ringItemInstance",
+                  "Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "java/lang/Class",
+                  "forName",
+                  "(Ljava/lang/String;)Ljava/lang/Class;"
+                ],
+                [
+                  "java/lang/Class",
+                  "getMethod",
+                  "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+                ],
+                [
+                  "java/lang/reflect/Method",
+                  "invoke",
+                  "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "java/lang/Object",
+                  "getClass",
+                  "()Ljava/lang/Class;"
+                ],
+                [
+                  "java/lang/Class",
+                  "getMethod",
+                  "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "ringItemInstance",
+                  "Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "java/lang/reflect/Method",
+                  "invoke",
+                  "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "java/util/Optional",
+                  "isPresent",
+                  "()Z"
+                ]
+              ]
+            },
+            {
+              "name": "initializeCalamityRingDetection",
+              "descriptor": "()V",
+              "code_sha256": "c133e44a73e4923bc7323e9cc80e1bcd48a168bd5236a20c2ed067747cad5250",
+              "member_references": [
+                [
+                  "java/lang/Class",
+                  "forName",
+                  "(Ljava/lang/String;)Ljava/lang/Class;"
+                ],
+                [
+                  "java/lang/Class",
+                  "getDeclaredField",
+                  "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+                ],
+                [
+                  "java/lang/reflect/Field",
+                  "setAccessible",
+                  "(Z)V"
+                ],
+                [
+                  "java/lang/reflect/Field",
+                  "get",
+                  "(Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "java/lang/Object",
+                  "getClass",
+                  "()Ljava/lang/Class;"
+                ],
+                [
+                  "java/lang/Class",
+                  "getMethod",
+                  "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+                ],
+                [
+                  "java/lang/reflect/Method",
+                  "invoke",
+                  "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "ringItemInstance",
+                  "Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "java/lang/Boolean",
+                  "valueOf",
+                  "(Z)Ljava/lang/Boolean;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "calamityRingExists",
+                  "Ljava/lang/Boolean;"
+                ],
+                [
+                  "java/lang/Boolean",
+                  "valueOf",
+                  "(Z)Ljava/lang/Boolean;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "calamityRingExists",
+                  "Ljava/lang/Boolean;"
+                ]
+              ]
+            },
+            {
+              "name": "setManaFromGun",
+              "descriptor": "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V",
+              "code_sha256": "db7644f1dd472f35674bb700d6af45978088acedc364327708e9fc4e3cab586f",
+              "member_references": [
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerMagicData",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)Lio/redspace/ironsspellbooks/api/magic/MagicData;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/AttributeRegistry",
+                  "MAX_MANA",
+                  "Lnet/minecraftforge/registries/RegistryObject;"
+                ],
+                [
+                  "net/minecraftforge/registries/RegistryObject",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Player",
+                  "m_21133_",
+                  "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)D"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getMana",
+                  "()F"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "addMana",
+                  "(F)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "addMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$onServerTick$1",
+              "descriptor": "(Lnet/minecraftforge/event/TickEvent$ServerTickEvent;Ljava/util/UUID;Ljava/lang/Integer;)V",
+              "code_sha256": "9de6951df4cd8a129ee84836650640314c0acc8a1e396363cf92ae4cd55c7b55",
+              "member_references": [
+                [
+                  "java/lang/Integer",
+                  "intValue",
+                  "()I"
+                ],
+                [
+                  "net/minecraftforge/event/TickEvent$ServerTickEvent",
+                  "getServer",
+                  "()Lnet/minecraft/server/MinecraftServer;"
+                ],
+                [
+                  "net/minecraft/server/MinecraftServer",
+                  "m_129785_",
+                  "()Ljava/lang/Iterable;"
+                ],
+                [
+                  "java/lang/Iterable",
+                  "forEach",
+                  "(Ljava/util/function/Consumer;)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "playersWithCastingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "java/lang/Integer",
+                  "intValue",
+                  "()I"
+                ],
+                [
+                  "java/lang/Integer",
+                  "valueOf",
+                  "(I)Ljava/lang/Integer;"
+                ],
+                [
+                  "java/util/Map",
+                  "put",
+                  "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$onServerTick$0",
+              "descriptor": "(Ljava/util/UUID;Lnet/minecraft/server/level/ServerLevel;)V",
+              "code_sha256": "3c6d4ddde1315da521bbaeba29cdfba603aaaf217cdc3510fc644aced694c750",
+              "member_references": [
+                [
+                  "net/minecraft/server/level/ServerLevel",
+                  "m_8791_",
+                  "(Ljava/util/UUID;)Lnet/minecraft/world/entity/Entity;"
+                ],
+                [
+                  "net/minecraft/server/level/ServerPlayer",
+                  "m_21205_",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "setManaFromGun",
+                  "(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V"
+                ]
+              ]
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "b316c0e654f75cc82205b3c2095f877da135fb585c0fef1678fa1b7d7b8a901c",
+              "member_references": [
+                [
+                  "java/util/concurrent/ConcurrentHashMap",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "pendingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "calamityRingExists",
+                  "Ljava/lang/Boolean;"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "ringItemInstance",
+                  "Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "java/util/Map",
+                  "of",
+                  "()Ljava/util/Map;"
+                ],
+                [
+                  "java/util/HashMap",
+                  "<init>",
+                  "(Ljava/util/Map;)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "playersWithCastingSpells",
+                  "Ljava/util/Map;"
+                ],
+                [
+                  "java/util/List",
+                  "of",
+                  "()Ljava/util/List;"
+                ],
+                [
+                  "java/util/ArrayList",
+                  "<init>",
+                  "(Ljava/util/Collection;)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/event/IronsArmsBulletEvents",
+                  "castingPlayers",
+                  "Ljava/util/List;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/item/GunTooltipHandler.class",
+          "sha256": "66440a1e5a3a8cf53fdc1b6c4a77835f47b5035b14538ecbee1f07bd2cfe2475",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "4b2d66c2e129bf585b84fa4abd8e46f07779ec93460c464280f9bf8c5d045471",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "onItemTooltip",
+              "descriptor": "(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V",
+              "code_sha256": "9aa91904d9ce505accd264c7f24b1281bcd47cf4fb9ce2319a5da46c7b1f9dc7",
+              "member_references": [
+                [
+                  "net/minecraftforge/event/entity/player/ItemTooltipEvent",
+                  "getItemStack",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41783_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128441_",
+                  "(Ljava/lang/String;)Z"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128469_",
+                  "(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128461_",
+                  "(Ljava/lang/String;)Ljava/lang/String;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128451_",
+                  "(Ljava/lang/String;)I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/SpellRegistry",
+                  "getSpell",
+                  "(Ljava/lang/String;)Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/registry/SpellRegistry",
+                  "none",
+                  "()Lio/redspace/ironsspellbooks/spells/NoneSpell;"
+                ],
+                [
+                  "net/minecraftforge/event/entity/player/ItemTooltipEvent",
+                  "getToolTip",
+                  "()Ljava/util/List;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237115_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "WHITE",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "BOLD",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_130944_",
+                  "([Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237115_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraftforge/event/entity/player/ItemTooltipEvent",
+                  "getEntity",
+                  "()Lnet/minecraft/world/entity/player/Player;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getDisplayName",
+                  "(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "GREEN",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_130940_",
+                  "(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237115_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/lang/String",
+                  "valueOf",
+                  "(I)Ljava/lang/String;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "GOLD",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_130940_",
+                  "(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237115_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "java/lang/String",
+                  "valueOf",
+                  "(I)Ljava/lang/String;"
+                ],
+                [
+                  "net/minecraft/network/chat/Component",
+                  "m_237113_",
+                  "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/ChatFormatting",
+                  "AQUA",
+                  "Lnet/minecraft/ChatFormatting;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_130940_",
+                  "(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "net/minecraft/network/chat/MutableComponent",
+                  "m_7220_",
+                  "(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+                ],
+                [
+                  "java/util/List",
+                  "add",
+                  "(Ljava/lang/Object;)Z"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/mixin/ArcaneAnvilMenuMixin.class",
+          "sha256": "f29ad50577193dec6a5ee3bc91f7c6ada705e69df2c88cb382e85327a8ef1b33",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "(Lnet/minecraft/world/inventory/MenuType;ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V",
+              "code_sha256": "d5b83a7a6e70f2d019037dc274df4f7d39a19fc2a7b3f2d85f69f305b4bea58b",
+              "member_references": [
+                [
+                  "net/minecraft/world/inventory/ItemCombinerMenu",
+                  "<init>",
+                  "(Lnet/minecraft/world/inventory/MenuType;ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V"
+                ]
+              ]
+            },
+            {
+              "name": "onCreateResult",
+              "descriptor": "(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+              "code_sha256": "b624dd1c24334b62251091c5b81dbac119ea7c2faf9a9c9a59ddb12e4e752e57",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/mixin/ArcaneAnvilMenuMixin",
+                  "f_39769_",
+                  "Lnet/minecraft/world/Container;"
+                ],
+                [
+                  "net/minecraft/world/Container",
+                  "m_8020_",
+                  "(I)Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "com/mumu17/ironsarms/mixin/ArcaneAnvilMenuMixin",
+                  "f_39769_",
+                  "Lnet/minecraft/world/Container;"
+                ],
+                [
+                  "net/minecraft/world/Container",
+                  "m_8020_",
+                  "(I)Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "com/mumu17/ironsarms/mixin/ArcaneAnvilMenuMixin",
+                  "f_39768_",
+                  "Lnet/minecraft/world/inventory/ResultContainer;"
+                ],
+                [
+                  "net/minecraft/world/inventory/ResultContainer",
+                  "m_8020_",
+                  "(I)Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41619_",
+                  "()Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "isSpellContainer",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "get",
+                  "(Lnet/minecraft/world/item/ItemStack;)Lio/redspace/ironsspellbooks/api/spells/ISpellContainer;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "isEmpty",
+                  "()Z"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/ISpellContainer",
+                  "getSpellAtIndex",
+                  "(I)Lio/redspace/ironsspellbooks/api/spells/SpellData;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41777_",
+                  "()Lnet/minecraft/world/item/ItemStack;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/SpellData",
+                  "getSpell",
+                  "()Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+                  "getSpellId",
+                  "()Ljava/lang/String;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128359_",
+                  "(Ljava/lang/String;Ljava/lang/String;)V"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/spells/SpellData",
+                  "getLevel",
+                  "()I"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128405_",
+                  "(Ljava/lang/String;I)V"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128365_",
+                  "(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;"
+                ],
+                [
+                  "com/mumu17/ironsarms/mixin/ArcaneAnvilMenuMixin",
+                  "f_39768_",
+                  "Lnet/minecraft/world/inventory/ResultContainer;"
+                ],
+                [
+                  "net/minecraft/world/inventory/ResultContainer",
+                  "m_6836_",
+                  "(ILnet/minecraft/world/item/ItemStack;)V"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/network/RequestSyncChargedManaMessage.class",
+          "sha256": "9c209998a6d786eb5ea57065376a895a24fa220b797568ba5bf309a3e3786479",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "(I)V",
+              "code_sha256": "c6df683a3cf3a5f8cfc54d247952065f35679612e53dcc6222ab7f629677d227",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ],
+                [
+                  "com/mumu17/ironsarms/network/RequestSyncChargedManaMessage",
+                  "manaCount",
+                  "I"
+                ]
+              ]
+            },
+            {
+              "name": "encode",
+              "descriptor": "(Lcom/mumu17/ironsarms/network/RequestSyncChargedManaMessage;Lnet/minecraft/network/FriendlyByteBuf;)V",
+              "code_sha256": "5c610e64ca813709667a8a949d2ef79df77419ea12f8021ae4e2cf1fc5af1c61",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/network/RequestSyncChargedManaMessage",
+                  "manaCount",
+                  "I"
+                ],
+                [
+                  "net/minecraft/network/FriendlyByteBuf",
+                  "writeInt",
+                  "(I)Lio/netty/buffer/ByteBuf;"
+                ]
+              ]
+            },
+            {
+              "name": "decode",
+              "descriptor": "(Lnet/minecraft/network/FriendlyByteBuf;)Lcom/mumu17/ironsarms/network/RequestSyncChargedManaMessage;",
+              "code_sha256": "6bd4d905bb3f6d4fd2f6106e5c8309788e211f650455c8942ca6d736e3e24164",
+              "member_references": [
+                [
+                  "net/minecraft/network/FriendlyByteBuf",
+                  "readInt",
+                  "()I"
+                ],
+                [
+                  "com/mumu17/ironsarms/network/RequestSyncChargedManaMessage",
+                  "<init>",
+                  "(I)V"
+                ]
+              ]
+            },
+            {
+              "name": "handle",
+              "descriptor": "(Lcom/mumu17/ironsarms/network/RequestSyncChargedManaMessage;Ljava/util/function/Supplier;)V",
+              "code_sha256": "c842a495dfece34d1f7a393beaa8af409b285ca60b9efe12079dc2533283328e",
+              "member_references": [
+                [
+                  "java/util/function/Supplier",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkEvent$Context",
+                  "enqueueWork",
+                  "(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture;"
+                ],
+                [
+                  "java/util/function/Supplier",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkEvent$Context",
+                  "setPacketHandled",
+                  "(Z)V"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$handle$0",
+              "descriptor": "(Ljava/util/function/Supplier;Lcom/mumu17/ironsarms/network/RequestSyncChargedManaMessage;)V",
+              "code_sha256": "4b4ecdcd38264d5eda23a4c5d82e64a53e898ab4d2ddfde01bbc4c4d7f49cfbf",
+              "member_references": [
+                [
+                  "java/util/function/Supplier",
+                  "get",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkEvent$Context",
+                  "getSender",
+                  "()Lnet/minecraft/server/level/ServerPlayer;"
+                ],
+                [
+                  "net/minecraft/server/level/ServerPlayer",
+                  "m_150109_",
+                  "()Lnet/minecraft/world/entity/player/Inventory;"
+                ],
+                [
+                  "net/minecraft/world/entity/player/Inventory",
+                  "f_35974_",
+                  "Lnet/minecraft/core/NonNullList;"
+                ],
+                [
+                  "net/minecraft/core/NonNullList",
+                  "iterator",
+                  "()Ljava/util/Iterator;"
+                ],
+                [
+                  "java/util/Iterator",
+                  "hasNext",
+                  "()Z"
+                ],
+                [
+                  "java/util/Iterator",
+                  "next",
+                  "()Ljava/lang/Object;"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41619_",
+                  "()Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/mumu17/ironsarms/network/RequestSyncChargedManaMessage",
+                  "manaCount",
+                  "I"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "getPlayerMagicData",
+                  "(Lnet/minecraft/world/entity/LivingEntity;)Lio/redspace/ironsspellbooks/api/magic/MagicData;"
+                ],
+                [
+                  "io/redspace/ironsspellbooks/api/magic/MagicData",
+                  "addMana",
+                  "(F)V"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "addMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/register/ModNetworking.class",
+          "sha256": "c153f3972edf54c26d3cb766984ce60961af2ee5b316fdac564d9a3be3f7c70a",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "9fbe1b81bb78fd501d727034054001e89f98b4ceb41748486307dbe8279ca728",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "register",
+              "descriptor": "()V",
+              "code_sha256": "241b58774535624f960df4207e7febab898b215aef444e0866998965171f1039",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/register/ModNetworking",
+                  "INSTANCE",
+                  "Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ],
+                [
+                  "net/minecraftforge/network/simple/SimpleChannel",
+                  "registerMessage",
+                  "(ILjava/lang/Class;Ljava/util/function/BiConsumer;Ljava/util/function/Function;Ljava/util/function/BiConsumer;)Lnet/minecraftforge/network/simple/IndexedMessageCodec$MessageHandler;"
+                ]
+              ]
+            },
+            {
+              "name": "lambda$static$0",
+              "descriptor": "()Ljava/lang/String;",
+              "code_sha256": "aed7f09de38983c08565c402a248f888e7775ec7fbb0c47cc092ccd8be0ac835",
+              "member_references": []
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "code_sha256": "f5eb03ee4f41ab4325702482e0fe1d5818af359c2a935a8d8ddf5062931c5a82",
+              "member_references": [
+                [
+                  "net/minecraft/resources/ResourceLocation",
+                  "<init>",
+                  "(Ljava/lang/String;Ljava/lang/String;)V"
+                ],
+                [
+                  "net/minecraftforge/network/NetworkRegistry",
+                  "newSimpleChannel",
+                  "(Lnet/minecraft/resources/ResourceLocation;Ljava/util/function/Supplier;Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ],
+                [
+                  "com/mumu17/ironsarms/register/ModNetworking",
+                  "INSTANCE",
+                  "Lnet/minecraftforge/network/simple/SimpleChannel;"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "path": "com/mumu17/ironsarms/utils/GunTags.class",
+          "sha256": "99c02c97f9b4037b129572cfdafbe04863699032fc2aee958ef7c069809f629d",
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "()V",
+              "code_sha256": "261a2f1797eec5614a8f259eab3031a953c9369dd1f9f0c4090576e45bf24cce",
+              "member_references": [
+                [
+                  "java/lang/Object",
+                  "<init>",
+                  "()V"
+                ]
+              ]
+            },
+            {
+              "name": "addMana",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;I)V",
+              "code_sha256": "ea15b5fd781c5dd415480b8c3e7b58547f3151b03bf9693d19182a49e57a7931",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "getMana",
+                  "(Lnet/minecraft/world/item/ItemStack;)I"
+                ],
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "setMana",
+                  "(Lnet/minecraft/world/item/ItemStack;I)V"
+                ]
+              ]
+            },
+            {
+              "name": "setMana",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;I)V",
+              "code_sha256": "3227f98c20c8d1f781aeb0af41bddb3762d748b79465245e826e76efcb6d3c43",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "isTargetItem",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128405_",
+                  "(Ljava/lang/String;I)V"
+                ]
+              ]
+            },
+            {
+              "name": "getMana",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+              "code_sha256": "ed6266b4ddaacb2709875982c091698d4907f1a8a8dc4a5ff3b4589f50a741af",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "containsManaTag",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128451_",
+                  "(Ljava/lang/String;)I"
+                ]
+              ]
+            },
+            {
+              "name": "containsManaTag",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+              "code_sha256": "6d9d54fb2eb70724e0a0a0ff0edc53f02689a5239613b765d4b28a5fae7dbc2c",
+              "member_references": [
+                [
+                  "com/mumu17/ironsarms/utils/GunTags",
+                  "isTargetItem",
+                  "(Lnet/minecraft/world/item/ItemStack;)Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41784_",
+                  "()Lnet/minecraft/nbt/CompoundTag;"
+                ],
+                [
+                  "net/minecraft/nbt/CompoundTag",
+                  "m_128441_",
+                  "(Ljava/lang/String;)Z"
+                ]
+              ]
+            },
+            {
+              "name": "isTargetItem",
+              "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+              "code_sha256": "5151b93596e23991be2915426636be73b34c69c1e15b77eccce9f2326db0ea3d",
+              "member_references": [
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41619_",
+                  "()Z"
+                ],
+                [
+                  "net/minecraft/world/item/ItemStack",
+                  "m_41720_",
+                  "()Lnet/minecraft/world/item/Item;"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "source_files": [
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/IronsArms.java",
+          "sha256": "8cf669b5fe4bf84fb5d4c05a22ac5d6a2c183bdc3a5c82784607bb797d255ed3"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/client/ChargeManaToAmmoBoxTick.java",
+          "sha256": "bacc9eeafd1793fa7b7d7fff342c8b88da56efc514a01c5409cdce8a8635c8c6"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/event/IronsArmsBulletEvents.java",
+          "sha256": "c1c316770503d632363293f9ca9f6746a7125358a899893d78b8e8f48bb53e65"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/item/GunTooltipHandler.java",
+          "sha256": "d48c3fb2e123241f5401e796961475d035c0b5134643d07d47ad99839cc9065c"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/mixin/ArcaneAnvilMenuMixin.java",
+          "sha256": "dac903c4a2c3e7a5341065b592080a918cfe0067f6576fe14ee7d7d9be9fda4f"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/network/RequestSyncChargedManaMessage.java",
+          "sha256": "578d2a8af88557985dde0876a17d5feca2af36edcd748e55ccd695a4717e00b4"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/register/ModNetworking.java",
+          "sha256": "c98fc9fc955446a4a89a05e9ccf3cdc336437734e6e5ace39ed1aad9ec877d02"
+        },
+        {
+          "path": "src/main/java/com/mumu17/ironsarms/utils/GunTags.java",
+          "sha256": "23b852f57b2c96242b69ece79cac451e8f1168adce023ecca060724e4dfa56c7"
+        }
+      ]
+    }
+  ],
+  "aoa_design_requirements": [
+    "Server-authoritative charge transfer with bounded request inputs and an exact stack/slot identity",
+    "Per-projectile immutable effect provenance; never gate unrelated outstanding projectiles solely by shooter UUID",
+    "Separate cosmetic animation length from native shot cadence and resource success",
+    "Cleanup pending effects on expiry, logout, dimension/session change and cancellation",
+    "Use explicit casting context and guaranteed state restoration; avoid temporary player relocation if an API can express impact origin",
+    "Cache optional integration lookup and assembly definitions; measure actual tick cost before performance claims"
+  ]
+}
