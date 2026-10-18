@@ -2,6 +2,10 @@
 
 **Owner-selected major reference collections.** Study the entire Black Ops 6 and Black Ops 7 Mastercraft collections and the supplied COD Mobile Mythic showcase for imaginative weapon design, distinctive inspections, transformations, reload presentation, reactive materials and defeat effects. Also include relevant playful weapons from other COD titles as the reference catalogue grows. Translate those qualities into original AoA designs.
 
+## Main cross-game reference playlist
+
+[Owner-selected Mastercraft playlist](https://www.youtube.com/playlist?list=PL9faHbneiK_GdGNsksKaYo8Vm2rIcqpDJ) · [Organized 62-video index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mastercraft-Playlist-Index). The visible playlist has 63 entries with one repeated video. It broadens the reference scope across BO4, Vanguard, MW3, BO6, BO7 and other uploader-labeled titles. Titles are verified metadata; actual sequence review remains separately tracked.
+
 ## Requested showcase collections
 
 | Collection | Video | Verification status |

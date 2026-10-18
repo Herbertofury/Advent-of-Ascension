@@ -17,8 +17,9 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Minigun | [Full profile, rotary identity and native acquisition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minigun-Weapon-Profile) |
 | Abominator | [Full profile and original-inspired concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Abominator-Weapon-Profile) |
 | Soul Drainer | [Full profile and life-leech contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
+| Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile) |
 
-All five have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
+All six have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
 
 ## Build your own identity and play style
 

@@ -91,6 +91,8 @@ The [ArsArms and IronsArms source-and-release study](https://github.com/Herberto
 
 ## Mastercraft and Mythic animation collections
 
+[Main cross-game playlist](https://www.youtube.com/playlist?list=PL9faHbneiK_GdGNsksKaYo8Vm2rIcqpDJ) · [Organized reference index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mastercraft-Playlist-Index): 63 visible playlist entries, 62 unique videos, grouped by study purpose. Link metadata is verified; visual sequence review is tracked separately.
+
 Owner-selected major design references: the full BO6 and BO7 Mastercraft collections and the supplied COD Mobile Mythic showcase, plus other playful COD weapons. Study distinctive inspections, transformation reveals, reactive materials, reload presentation, tracers and defeat effects.
 
 - [BO6 Mastercraft inspections](https://www.youtube.com/watch?v=qJkyqb7ycjo)
