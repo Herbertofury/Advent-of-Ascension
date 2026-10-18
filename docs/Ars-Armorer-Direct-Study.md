@@ -61,3 +61,35 @@ The pack's resource logic repeatedly reads attachment identifiers. For our imple
 The [project license page](https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/license) identifies **Creative Commons Attribution 4.0 International**. Credit Koei, retain relevant notices and license links, and identify modifications if licensed material is reused. Check the provenance of individual assets and dependencies separately. This study publishes observations and hashes; the original AoA authoring packages do not bundle Ars Armorer models, textures, sounds or scripts.
 
 [Weapon reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Modular armory](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage) · [Weapon QA](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA)
+
+
+## Actual geometry, UV and LOD follow-up
+
+All eight main display records were resolved against the same downloaded v1.0.1 archive. The counts below include stored attachment variants and visual planes; they are not runtime draw-call or performance counts.
+
+| Model | Bones | Stored cuboids/planes | Rotated cuboids | Declared UV / PNG size |
+|---|---:|---:|---:|---|
+| auto_rifle_stream_ejector | 35 | 23 (0 planes) | 9 | [64, 64] / [128, 128] |
+| mortar_source_thrower | 28 | 69 (54 planes) | 25 | [64, 64] / [128, 128] |
+| pistol_source_ejector | 33 | 20 (0 planes) | 12 | [32, 32] / [64, 64] |
+| shotgun_jet_ejector | 36 | 24 (0 planes) | 10 | [32, 32] / [64, 64] |
+| shotgun_splash_ejector | 36 | 30 (0 planes) | 18 | [64, 64] / [128, 128] |
+| sniper_distance_ejector | 35 | 32 (0 planes) | 20 | [64, 64] / [128, 128] |
+| special_miner_drill | 19 | 24 (0 planes) | 10 | [32, 32] / [64, 64] |
+| special_source_flying_blade | 37 | 51 (0 planes) | 7 | [64, 64] / [128, 128] |
+
+Every counted cuboid uses per-face UV records. Several 128×128 PNGs accompany a 64×64 declared UV space: the source data distinguishes logical UV coordinates from image pixels. Do not normalize against the PNG dimensions alone without respecting the model UV declaration. The mortar includes 54 zero-extent visual planes; treating all zero extents as invalid solids would reject intentional presentation geometry. Collision QA must distinguish visual planes from physical obstruction volumes.
+
+Seven display records declare LOD model/texture paths absent from this archive. The flying-blade LOD is present: 6 bones and 8 cuboids, compared with the main model’s 37 bones and 51 cuboids. This is an exact-file observation, not a claim that the pack crashes; external resource packs or native fallback behavior must be assessed separately. A declared LOD entry is insufficient evidence of an operating optimization.
+
+### Apply this to the AoA upgrade
+
+- Spend detail on silhouette, material separation, per-face UV painting and purposeful movement. A larger cuboid count alone cannot meet the art target.
+- Keep decorative/translucent planes out of solid feed-path clearance checks while still checking their visual overlap, depth sorting and overdraw.
+- Validate every main and LOD reference from a clean exported pack, with attachment variants and texture dimensions explicit.
+- Design and visually compare actual simplified LOD assets before claiming distance-rendering savings. Preserve identity and readable effects.
+- Verify first-person UV orientation, crispness, hands and all attachment variants in the native renderer; a source census cannot approve them.
+
+[Machine-readable eight-model audit](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ars-armorer-model-presentation-audit.json) · [Original audit script and synthetic test](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/model-presentation-audit-tool-v1.zip)
+
+Reference art/models belong to Koei. This follow-up publishes factual counts and original tooling; it does not bundle the reference pack.
