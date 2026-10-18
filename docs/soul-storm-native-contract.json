@@ -1,0 +1,1316 @@
+{
+  "target": {
+    "minecraft": "1.20.1",
+    "aoa": "3.7.1",
+    "id": "aoa3:soul_storm"
+  },
+  "scope": "Released-class static inspection only; no native runtime validation. Obfuscated Minecraft calls need mapping-aware integration.",
+  "registry_class_sha256": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703",
+  "inputs": {
+    "damage": 1.5,
+    "durability": 3190,
+    "fire_delay_ticks": 1,
+    "energy_cost": 2.0,
+    "energy_operand_evidence": "JVM opcode 13 (fconst_2) immediately before constructor (DIIF)V"
+  },
+  "observations": [
+    "Released firing creates SoulStormEntity with constructor age input 60",
+    "Firing sound references ITEM_SPRAYER_FIRE",
+    "Released projectile float-return method m_7139_ returns approximately 0.6; matching pinned source labels this gravity",
+    "BaseBlaster references native Spirit/energy consumption; visual recovery must not create resource or introduce reload delay"
+  ],
+  "classes": [
+    {
+      "class": "net/tslat/aoa3/content/item/weapon/blaster/SoulStorm.class",
+      "sha256": "07d39d67993ec3a48f3dd346899c49a3c7e82be6bd7820cba0b862d350d72e33",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(DIIF)V",
+          "sha256": "e270786dd6498c2c01ce2ba991601bda6664f04a41d2ee815f72401e1c6e4cf8",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "<init>",
+              "(DIIF)V"
+            ]
+          ]
+        },
+        {
+          "name": "getFiringSound",
+          "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+          "sha256": "0a9e4220e797da8a88bc47c14ac425e6876375f91785c83d4bd81717e070fc56",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/common/registration/AoASounds",
+              "ITEM_SPRAYER_FIRE",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          ]
+        },
+        {
+          "name": "fireBlaster",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V",
+          "sha256": "bfc9e7787dce7a22e55d1dd713062e0977d46bd7a8526001e63e47aaa45f686c",
+          "referenced_members": [
+            [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ],
+            [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "<init>",
+              "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V"
+            ],
+            [
+              "net/minecraft/world/level/Level",
+              "m_7967_",
+              "(Lnet/minecraft/world/entity/Entity;)Z"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster.class",
+      "sha256": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(DIIF)V",
+          "sha256": "b789c3080a6d3f3e1a4b9e28561f2fcb3398d5cdf8799aa15016d393c2a4a7c6",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/Item$Properties",
+              "<init>",
+              "()V"
+            ],
+            [
+              "net/minecraft/world/item/Item$Properties",
+              "m_41503_",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;DIF)V"
+            ]
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/item/Item$Properties;DIF)V",
+          "sha256": "cebdd7fe9330513b3d1e0f8f081d17a17d7961e9a380861edf4e1906245c08b8",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;DIIF)V"
+            ]
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(DIIIF)V",
+          "sha256": "5408b847f8c133c093b2ded8a6ee6313bd920006631df6df6e57b72cc4af334b",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/Item$Properties",
+              "<init>",
+              "()V"
+            ],
+            [
+              "net/minecraft/world/item/Item$Properties",
+              "m_41503_",
+              "(I)Lnet/minecraft/world/item/Item$Properties;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;DIIF)V"
+            ]
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/item/Item$Properties;DIIF)V",
+          "sha256": "a5ec0fb22d3470d3a3efe29de5425a088e603ff5206764ffaa4442c90d0606fd",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/Item",
+              "<init>",
+              "(Lnet/minecraft/world/item/Item$Properties;)V"
+            ],
+            [
+              "com/google/common/collect/HashMultimap",
+              "create",
+              "()Lcom/google/common/collect/HashMultimap;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "attributeModifiers",
+              "Lcom/google/common/collect/Multimap;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseDmg",
+              "D"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "firingDelay",
+              "I"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "chargeTime",
+              "I"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseEnergyCost",
+              "F"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "attributeModifiers",
+              "Lcom/google/common/collect/Multimap;"
+            ],
+            [
+              "net/minecraft/world/entity/ai/attributes/Attributes",
+              "f_22283_",
+              "Lnet/minecraft/world/entity/ai/attributes/Attribute;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "f_41375_",
+              "Ljava/util/UUID;"
+            ],
+            [
+              "net/tslat/aoa3/library/constant/AttackSpeed",
+              "forAttacksPerSecond",
+              "(F)F"
+            ],
+            [
+              "net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation",
+              "ADDITION",
+              "Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;"
+            ],
+            [
+              "net/minecraft/world/entity/ai/attributes/AttributeModifier",
+              "<init>",
+              "(Ljava/util/UUID;Ljava/lang/String;DLnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;)V"
+            ],
+            [
+              "com/google/common/collect/Multimap",
+              "put",
+              "(Ljava/lang/Object;Ljava/lang/Object;)Z"
+            ]
+          ]
+        },
+        {
+          "name": "getDamage",
+          "descriptor": "()D",
+          "sha256": "ef8ea9918b950b26e447d20471308b5546b53c1da0f15843ceec27d4097ddfb2",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseDmg",
+              "D"
+            ]
+          ]
+        },
+        {
+          "name": "getFiringDelay",
+          "descriptor": "()I",
+          "sha256": "6aaefce170c771f9daaa5ab30fec40a36694bbf2c7ee917f3436ab0fdc6cad33",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "firingDelay",
+              "I"
+            ]
+          ]
+        },
+        {
+          "name": "getChargeTime",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+          "sha256": "170e2f0d8a2043e0b7fccfa9be8f17d89cfdbbee3cace7a7958a951e3629071b",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "chargeTime",
+              "I"
+            ]
+          ]
+        },
+        {
+          "name": "getBaseEnergyCost",
+          "descriptor": "()F",
+          "sha256": "cee6908cee55a3ccc0bff0dc5533d0009177c7ea7d0013638e33516ca653d31d",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseEnergyCost",
+              "F"
+            ]
+          ]
+        },
+        {
+          "name": "getFiringSound",
+          "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+          "sha256": "146cb1bd5c639e50589db67598e4a3f423eb736f7911d3b8329f72e0f5cd5fac",
+          "referenced_members": []
+        },
+        {
+          "name": "m_6832_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z",
+          "sha256": "42ca1f85243342bd41983ab86f2235408fa46ded7466d4525196f66b9dbb5f3e",
+          "referenced_members": []
+        },
+        {
+          "name": "shouldCauseReequipAnimation",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Z)Z",
+          "sha256": "27ea68a31edec97242d668a6100c0c0d5ad7d064ba3ef55d4bbbffed5c29ab11",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/ItemStack",
+              "m_41720_",
+              "()Lnet/minecraft/world/item/Item;"
+            ],
+            [
+              "net/minecraft/world/item/ItemStack",
+              "m_41720_",
+              "()Lnet/minecraft/world/item/Item;"
+            ]
+          ]
+        },
+        {
+          "name": "m_6164_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;",
+          "sha256": "a5e7349588647ee64b2ede4e5990fd12878af34e693eaf9411612de66b88f4bc",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/UseAnim",
+              "NONE",
+              "Lnet/minecraft/world/item/UseAnim;"
+            ]
+          ]
+        },
+        {
+          "name": "m_8105_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+          "sha256": "7dcbc05a7ceb42211435970aa3dc5a6d76661108c8f82c219864b3f310177a9a",
+          "referenced_members": []
+        },
+        {
+          "name": "m_7203_",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;",
+          "sha256": "3ebc92d0127ae3d33585bf6bce03bd3d67e7d1574672082e65ab123b4b3c8ed1",
+          "referenced_members": [
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_21120_",
+              "(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getWeaponHand",
+              "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/InteractionHand;"
+            ],
+            [
+              "net/tslat/aoa3/util/InteractionResults$ItemUse",
+              "denyUsage",
+              "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResultHolder;"
+            ],
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_36403_",
+              "(F)F"
+            ],
+            [
+              "net/tslat/aoa3/util/InteractionResults$ItemUse",
+              "denyUsage",
+              "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResultHolder;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getEnergyCost",
+              "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Z)F"
+            ],
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_150110_",
+              "()Lnet/minecraft/world/entity/player/Abilities;"
+            ],
+            [
+              "net/minecraft/world/entity/player/Abilities",
+              "f_35937_",
+              "Z"
+            ],
+            [
+              "net/tslat/aoa3/common/registration/custom/AoAResources",
+              "SPIRIT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/util/PlayerUtil",
+              "getResourceValue",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/tslat/aoa3/player/resource/AoAResource;)F"
+            ],
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_6672_",
+              "(Lnet/minecraft/world/InteractionHand;)V"
+            ],
+            [
+              "net/tslat/aoa3/util/InteractionResults$ItemUse",
+              "noActionTaken",
+              "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResultHolder;"
+            ],
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_150110_",
+              "()Lnet/minecraft/world/entity/player/Abilities;"
+            ],
+            [
+              "net/minecraft/world/entity/player/Abilities",
+              "f_35937_",
+              "Z"
+            ],
+            [
+              "net/tslat/aoa3/util/InteractionResults$ItemUse",
+              "denyUsage",
+              "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResultHolder;"
+            ],
+            [
+              "net/tslat/aoa3/util/InteractionResults$ItemUse",
+              "noActionTaken",
+              "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResultHolder;"
+            ]
+          ]
+        },
+        {
+          "name": "m_5929_",
+          "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V",
+          "sha256": "a43ed497f01f8e896421c045e7703b171a33b937b0bde101a9ee74290447514f",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "m_8105_",
+              "(Lnet/minecraft/world/item/ItemStack;)I"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getChargeTime",
+              "(Lnet/minecraft/world/item/ItemStack;)I"
+            ],
+            [
+              "net/minecraft/server/level/ServerPlayer",
+              "m_36335_",
+              "()Lnet/minecraft/world/item/ItemCooldowns;"
+            ],
+            [
+              "net/minecraft/world/item/ItemCooldowns",
+              "m_41521_",
+              "(Lnet/minecraft/world/item/Item;F)F"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "tryFireBlaster",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerPlayer;)Z"
+            ],
+            [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_7655_",
+              "()Lnet/minecraft/world/InteractionHand;"
+            ],
+            [
+              "net/tslat/aoa3/util/ItemUtil",
+              "damageItem",
+              "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;I)V"
+            ],
+            [
+              "net/minecraft/stats/Stats",
+              "f_12982_",
+              "Lnet/minecraft/stats/StatType;"
+            ],
+            [
+              "net/minecraft/stats/StatType",
+              "m_12902_",
+              "(Ljava/lang/Object;)Lnet/minecraft/stats/Stat;"
+            ],
+            [
+              "net/minecraft/server/level/ServerPlayer",
+              "m_36246_",
+              "(Lnet/minecraft/stats/Stat;)V"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getFiringDelay",
+              "()I"
+            ],
+            [
+              "net/minecraft/server/level/ServerPlayer",
+              "m_36335_",
+              "()Lnet/minecraft/world/item/ItemCooldowns;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getFiringDelay",
+              "()I"
+            ],
+            [
+              "net/minecraft/world/item/ItemCooldowns",
+              "m_41524_",
+              "(Lnet/minecraft/world/item/Item;I)V"
+            ],
+            [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_21253_",
+              "()V"
+            ]
+          ]
+        },
+        {
+          "name": "tryFireBlaster",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerPlayer;)Z",
+          "sha256": "981d6e29b85923cc3948ff5aa0d6d342bb98cf0689f17293aa29ec322e97d9a0",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getEnergyCost",
+              "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Z)F"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "consumeEnergy",
+              "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;F)Z"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "fireBlaster",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Z)Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doFiringEffects",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;)V"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getFiringSound",
+              "()Lnet/minecraft/sounds/SoundEvent;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getFiringSound",
+              "()Lnet/minecraft/sounds/SoundEvent;"
+            ],
+            [
+              "net/tslat/aoa3/library/builder/SoundBuilder",
+              "<init>",
+              "(Lnet/minecraft/sounds/SoundEvent;)V"
+            ],
+            [
+              "net/tslat/aoa3/library/builder/SoundBuilder",
+              "isPlayer",
+              "()Lnet/tslat/aoa3/library/builder/SoundBuilder;"
+            ],
+            [
+              "net/tslat/aoa3/library/builder/SoundBuilder",
+              "followEntity",
+              "(Lnet/minecraft/world/entity/Entity;)Lnet/tslat/aoa3/library/builder/SoundBuilder;"
+            ],
+            [
+              "net/tslat/aoa3/common/packet/packets/AoASoundBuilderPacket",
+              "<init>",
+              "(Lnet/tslat/aoa3/library/builder/SoundBuilder;)V"
+            ],
+            [
+              "net/tslat/aoa3/common/packet/AoANetworking",
+              "sendToAllPlayersTrackingEntity",
+              "(Lnet/tslat/aoa3/common/packet/packets/AoAPacket;Lnet/minecraft/world/entity/Entity;)V"
+            ],
+            [
+              "net/tslat/aoa3/common/registration/custom/AoAResources",
+              "SPIRIT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/util/PlayerUtil",
+              "notifyPlayerOfInsufficientResources",
+              "(Lnet/minecraft/server/level/ServerPlayer;Lnet/tslat/aoa3/player/resource/AoAResource;F)V"
+            ]
+          ]
+        },
+        {
+          "name": "fireBlaster",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Z)Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;",
+          "sha256": "8edea8e5d6a5fd9bb906be69389cfdae9082a0fa07c7499b543e1b76473d2756",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "fireBlaster",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getBeamDistance",
+              "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)F"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getPosAndRotForShot",
+              "(Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;Lnet/minecraft/world/entity/LivingEntity;FF)Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo",
+              "position",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo",
+              "angle",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ],
+            [
+              "net/minecraft/world/phys/Vec3",
+              "m_82490_",
+              "(D)Lnet/minecraft/world/phys/Vec3;"
+            ],
+            [
+              "net/minecraft/world/phys/Vec3",
+              "m_82549_",
+              "(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;"
+            ],
+            [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo",
+              "position",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ],
+            [
+              "net/minecraft/world/level/ClipContext$Block",
+              "OUTLINE",
+              "Lnet/minecraft/world/level/ClipContext$Block;"
+            ],
+            [
+              "net/tslat/aoa3/util/PositionAndMotionUtil",
+              "rayTrace",
+              "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;ZZLjava/util/function/Predicate;)Lnet/minecraft/world/phys/HitResult;"
+            ],
+            [
+              "net/minecraft/world/phys/HitResult",
+              "m_82450_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo",
+              "setHitPos",
+              "(Lnet/minecraft/world/phys/Vec3;)V"
+            ],
+            [
+              "net/minecraft/world/phys/HitResult",
+              "m_6662_",
+              "()Lnet/minecraft/world/phys/HitResult$Type;"
+            ],
+            [
+              "net/minecraft/world/phys/HitResult$Type",
+              "MISS",
+              "Lnet/minecraft/world/phys/HitResult$Type;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doEntityImpact",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/EntityHitResult;)Z"
+            ],
+            [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo",
+              "setEffectiveHit",
+              "(Z)V"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doBlockImpact",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/BlockHitResult;)Z"
+            ],
+            [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo",
+              "setEffectiveHit",
+              "(Z)V"
+            ]
+          ]
+        },
+        {
+          "name": "fireBlaster",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V",
+          "sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+          "referenced_members": []
+        },
+        {
+          "name": "doFiringEffects",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;)V",
+          "sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+          "referenced_members": []
+        },
+        {
+          "name": "m_142158_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+          "sha256": "4c558d0cfd1605a2190a68fcd4f25a678f99981f10ee32fd51092898c1020bb5",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getChargeProgress",
+              "(Lnet/minecraft/world/item/ItemStack;)F"
+            ],
+            [
+              "net/minecraft/util/Mth",
+              "m_14143_",
+              "(F)I"
+            ],
+            [
+              "net/minecraft/world/item/Item",
+              "m_142158_",
+              "(Lnet/minecraft/world/item/ItemStack;)I"
+            ]
+          ]
+        },
+        {
+          "name": "m_142522_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Z",
+          "sha256": "66c80f1bceca1894161b492329229f6b42f32fe8a89cbcab4654733c3e56b19a",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/Item",
+              "m_142522_",
+              "(Lnet/minecraft/world/item/ItemStack;)Z"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getChargeProgress",
+              "(Lnet/minecraft/world/item/ItemStack;)F"
+            ]
+          ]
+        },
+        {
+          "name": "m_142159_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+          "sha256": "2fc289bd5e3840ec0f1189a50c61edf0fc58845099f72f061c9b2c73a78d538f",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getChargeProgress",
+              "(Lnet/minecraft/world/item/ItemStack;)F"
+            ],
+            [
+              "net/minecraft/world/item/Item",
+              "m_142159_",
+              "(Lnet/minecraft/world/item/ItemStack;)I"
+            ]
+          ]
+        },
+        {
+          "name": "getChargeProgress",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)F",
+          "sha256": "80a0be922e1c50b2632a4726632b94d89705082b020350e9db4857a6ba8a632d",
+          "referenced_members": [
+            [
+              "net/minecraftforge/fml/loading/FMLEnvironment",
+              "dist",
+              "Lnet/minecraftforge/api/distmarker/Dist;"
+            ],
+            [
+              "net/minecraftforge/api/distmarker/Dist",
+              "CLIENT",
+              "Lnet/minecraftforge/api/distmarker/Dist;"
+            ],
+            [
+              "net/tslat/aoa3/client/ClientOperations",
+              "getPlayer",
+              "()Lnet/minecraft/world/entity/player/Player;"
+            ],
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_21211_",
+              "()Lnet/minecraft/world/item/ItemStack;"
+            ],
+            [
+              "net/minecraft/world/item/ItemStack",
+              "m_41779_",
+              "()I"
+            ],
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_21212_",
+              "()I"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getChargeTime",
+              "(Lnet/minecraft/world/item/ItemStack;)I"
+            ]
+          ]
+        },
+        {
+          "name": "getEnergyCost",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Z)F",
+          "sha256": "61f2d09de0263bdb40751a2152e41dfe5ac66c6573e46f8a6f0ddc084ca5e5e8",
+          "referenced_members": [
+            [
+              "net/minecraft/world/entity/player/Player",
+              "m_150110_",
+              "()Lnet/minecraft/world/entity/player/Abilities;"
+            ],
+            [
+              "net/minecraft/world/entity/player/Abilities",
+              "f_35937_",
+              "Z"
+            ],
+            [
+              "net/tslat/aoa3/common/registration/item/AoAEnchantments",
+              "RECHARGE",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/minecraft/world/item/ItemStack",
+              "getEnchantmentLevel",
+              "(Lnet/minecraft/world/item/enchantment/Enchantment;)I"
+            ],
+            [
+              "net/tslat/aoa3/common/registration/item/AoAEnchantments",
+              "GREED",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/minecraft/world/item/ItemStack",
+              "getEnchantmentLevel",
+              "(Lnet/minecraft/world/item/enchantment/Enchantment;)I"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseEnergyCost",
+              "F"
+            ],
+            [
+              "java/lang/Math",
+              "max",
+              "(FF)F"
+            ],
+            [
+              "net/tslat/aoa3/content/item/armour/AdventArmour$Type",
+              "GHOULISH",
+              "Lnet/tslat/aoa3/content/item/armour/AdventArmour$Type;"
+            ],
+            [
+              "net/tslat/aoa3/util/PlayerUtil",
+              "isWearingFullSet",
+              "(Lnet/minecraft/world/entity/player/Player;Lnet/tslat/aoa3/content/item/armour/AdventArmour$Type;)Z"
+            ]
+          ]
+        },
+        {
+          "name": "getBeamDistance",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)F",
+          "sha256": "1672d54a408e8131c27e2e44ef4e4dd9c321df3e6469f1189595eea3ab799e4f",
+          "referenced_members": []
+        },
+        {
+          "name": "consumeEnergy",
+          "descriptor": "(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;F)Z",
+          "sha256": "023fec785e6d63bc34a91a1dd91c7e7a661c2f557e07018166e3654b97a22251",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/common/registration/custom/AoAResources",
+              "SPIRIT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/util/PlayerUtil",
+              "consumeResource",
+              "(Lnet/minecraft/server/level/ServerPlayer;Lnet/tslat/aoa3/player/resource/AoAResource;FZ)Z"
+            ]
+          ]
+        },
+        {
+          "name": "getDefaultTooltipHideFlags",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+          "sha256": "493ce76674639829f987fc05e3f671395c4213d497dbadcdbcea25513331135e",
+          "referenced_members": [
+            [
+              "net/minecraft/world/item/ItemStack$TooltipPart",
+              "MODIFIERS",
+              "Lnet/minecraft/world/item/ItemStack$TooltipPart;"
+            ],
+            [
+              "net/minecraft/world/item/ItemStack$TooltipPart",
+              "m_41809_",
+              "()I"
+            ]
+          ]
+        },
+        {
+          "name": "getWeaponHand",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/InteractionHand;",
+          "sha256": "02dd62c5251b6d162b247baa5539d6078e4827f5d3bee0df32c30f49edf06b66",
+          "referenced_members": [
+            [
+              "net/minecraft/world/InteractionHand",
+              "MAIN_HAND",
+              "Lnet/minecraft/world/InteractionHand;"
+            ]
+          ]
+        },
+        {
+          "name": "doBlockImpact",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/LivingEntity;)V",
+          "sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+          "referenced_members": []
+        },
+        {
+          "name": "doEntityImpact",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+          "sha256": "829e12754276f9469fad0282ba6abb9d43d9ee264b60dd115245a42143373113",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseDmg",
+              "D"
+            ],
+            [
+              "net/tslat/aoa3/util/DamageUtil",
+              "doEnergyProjectileAttack",
+              "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)V"
+            ]
+          ]
+        },
+        {
+          "name": "doEntityImpact",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/EntityHitResult;)Z",
+          "sha256": "63aa4081a3616d21a61985bc320b79f1afc253ebd9193a8bb77c1c0a94436854",
+          "referenced_members": [
+            [
+              "net/minecraft/world/phys/EntityHitResult",
+              "m_82443_",
+              "()Lnet/minecraft/world/entity/Entity;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseDmg",
+              "D"
+            ],
+            [
+              "net/tslat/aoa3/util/DamageUtil",
+              "doEnergyProjectileAttack",
+              "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V"
+            ]
+          ]
+        },
+        {
+          "name": "doBlockImpact",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/BlockHitResult;)Z",
+          "sha256": "c7ed01b20c45bab3dce08235103b66dc61601aeb46ae15bc199fd7fb2c63f3ae",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V"
+            ]
+          ]
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V",
+          "sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+          "referenced_members": []
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)V",
+          "sha256": "149488d869cbef080602a371ab0d39d97af103fb726aaeb02ccd36c06f494e5d",
+          "referenced_members": []
+        },
+        {
+          "name": "m_6473_",
+          "descriptor": "()I",
+          "sha256": "f0c928136c16477825deffb5af228bb2445687e407432f0fe5e632c82a80e060",
+          "referenced_members": []
+        },
+        {
+          "name": "getAttributeModifiers",
+          "descriptor": "(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)Lcom/google/common/collect/Multimap;",
+          "sha256": "a65f3fd478cc453f1be41a86cf5a6108a1bc2ce155c784e45ff7fe25455d18d5",
+          "referenced_members": [
+            [
+              "net/minecraft/world/entity/EquipmentSlot",
+              "MAINHAND",
+              "Lnet/minecraft/world/entity/EquipmentSlot;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "attributeModifiers",
+              "Lcom/google/common/collect/Multimap;"
+            ],
+            [
+              "net/minecraft/world/item/Item",
+              "getAttributeModifiers",
+              "(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)Lcom/google/common/collect/Multimap;"
+            ]
+          ]
+        },
+        {
+          "name": "m_7373_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+          "sha256": "ed118292130c640fb30b992b20e3ac0fea3f4df4e99b52104eb2005017896820",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getDamage",
+              "()D"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$Keys",
+              "ENERGY_DAMAGE",
+              "Ljava/lang/String;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+              "ITEM_DAMAGE",
+              "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getDamage",
+              "()D"
+            ],
+            [
+              "net/tslat/aoa3/util/NumberUtil",
+              "roundToNthDecimalPlace",
+              "(FI)Ljava/lang/String;"
+            ],
+            [
+              "net/minecraft/network/chat/Component",
+              "m_237113_",
+              "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil",
+              "getFormattedItemDescriptionText",
+              "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "java/util/List",
+              "add",
+              "(ILjava/lang/Object;)V"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$Keys",
+              "BLASTER_CHARGE",
+              "Ljava/lang/String;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+              "ITEM_TYPE_INFO",
+              "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getChargeTime",
+              "(Lnet/minecraft/world/item/ItemStack;)I"
+            ],
+            [
+              "net/tslat/aoa3/util/NumberUtil",
+              "roundToNthDecimalPlace",
+              "(FI)Ljava/lang/String;"
+            ],
+            [
+              "net/minecraft/network/chat/Component",
+              "m_237113_",
+              "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil",
+              "getFormattedItemDescriptionText",
+              "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "java/util/List",
+              "add",
+              "(Ljava/lang/Object;)Z"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$Keys",
+              "BLASTER_PENETRATION",
+              "Ljava/lang/String;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+              "ITEM_TYPE_INFO",
+              "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil",
+              "getFormattedItemDescriptionText",
+              "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "java/util/List",
+              "add",
+              "(Ljava/lang/Object;)Z"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$Keys",
+              "FIRING_SPEED",
+              "Ljava/lang/String;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+              "NEUTRAL",
+              "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getFiringDelay",
+              "()I"
+            ],
+            [
+              "net/tslat/aoa3/util/NumberUtil",
+              "roundToNthDecimalPlace",
+              "(FI)Ljava/lang/String;"
+            ],
+            [
+              "net/minecraft/network/chat/Component",
+              "m_237113_",
+              "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil",
+              "getFormattedItemDescriptionText",
+              "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "java/util/List",
+              "add",
+              "(Ljava/lang/Object;)Z"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$Keys",
+              "AMMO_RESOURCE",
+              "Ljava/lang/String;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+              "ITEM_AMMO_COST",
+              "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+            ],
+            [
+              "net/minecraftforge/fml/loading/FMLEnvironment",
+              "dist",
+              "Lnet/minecraftforge/api/distmarker/Dist;"
+            ],
+            [
+              "net/minecraftforge/api/distmarker/Dist",
+              "CLIENT",
+              "Lnet/minecraftforge/api/distmarker/Dist;"
+            ],
+            [
+              "net/tslat/aoa3/client/ClientOperations",
+              "getPlayer",
+              "()Lnet/minecraft/world/entity/player/Player;"
+            ],
+            [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "getEnergyCost",
+              "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Z)F"
+            ],
+            [
+              "net/tslat/aoa3/util/NumberUtil",
+              "roundToNthDecimalPlace",
+              "(FI)Ljava/lang/String;"
+            ],
+            [
+              "net/minecraft/network/chat/Component",
+              "m_237113_",
+              "(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "net/tslat/aoa3/common/registration/custom/AoAResources",
+              "SPIRIT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/player/resource/AoAResource",
+              "getName",
+              "()Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "net/tslat/aoa3/util/LocaleUtil",
+              "getFormattedItemDescriptionText",
+              "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+            ],
+            [
+              "java/util/List",
+              "add",
+              "(Ljava/lang/Object;)Z"
+            ]
+          ]
+        },
+        {
+          "name": "lambda$fireBlaster$0",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Entity;)Z",
+          "sha256": "003b72e022cae9a95a297f8aae12cfcc630c87e7b5fa2712c8a44de4818aa03b",
+          "referenced_members": []
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity.class",
+      "sha256": "7d7239e30337221f4fb389688e555d4a4cd25781fb0341e136397a8610e3255e",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V",
+          "sha256": "c76ef6bdb87e785f59ee1fbbc66258061f0a4543f17d9024dd28e98b2bb7c573",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/Level;)V",
+          "sha256": "7ade330e2a88ef6ff1234adf6db36803201a0cc655b72b58b659c785c9710b90",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+              "SOUL_STORM_SHOT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V",
+          "sha256": "6d1a65fa531949f81d904acbe75bd1893ebd56caed469fc0201458b0041189c8",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+              "SOUL_STORM_SHOT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V"
+            ]
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/Level;DDD)V",
+          "sha256": "dfe4419d29d36f8590a8f497cf2aff30f21558ec1fa59eb86ee4c8c4191e5944",
+          "referenced_members": [
+            [
+              "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+              "SOUL_STORM_SHOT",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ],
+            [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ],
+            [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;DDD)V"
+            ]
+          ]
+        },
+        {
+          "name": "m_7139_",
+          "descriptor": "()F",
+          "sha256": "1466da5bf485e64fbe6247ab2bcbcf17b8aacaed75fe587f02d7832d25eb7583",
+          "referenced_members": []
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "native_runtime": "untested",
+    "full_inherited_projectile_behavior": "open"
+  }
+}
