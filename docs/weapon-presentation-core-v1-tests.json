@@ -1,0 +1,23 @@
+{
+  "scope": "Engine-independent Java core only; no native Minecraft/TaCZ acceptance or FPS benchmark",
+  "archive_sha256": "385efff364359058aaf257dc036b716d338182bc7d33074cb831d7b9e983dcb9",
+  "exit_code": 0,
+  "stdout": "javac 17.0.20.1\nPASS 300071 assertions; renderer-independent Java core only\nPASS 20027 assertions; cosmetic identity/window checks only, no gameplay deduplication\nPASS 69908 assertions; 400 scheduled requests at each simulated 20\u20132000 Hz cadence. No native FPS or visual-density acceptance.\nPASS 300071 assertions; renderer-independent Java core only\nPASS 20027 assertions; cosmetic identity/window checks only, no gameplay deduplication\nPASS 69908 assertions; 400 scheduled requests at each simulated 20\u20132000 Hz cadence. No native FPS or visual-density acceptance.\n",
+  "stderr": "openjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)\nopenjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)\nopenjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)\n",
+  "components": [
+    "SoulSightFrame",
+    "ImpactVisualLedger",
+    "EmissionClock"
+  ],
+  "emission_rate_fixture_per_second": 40,
+  "simulated_cadences_hz": [
+    20,
+    30,
+    60,
+    144,
+    240,
+    1000,
+    2000
+  ],
+  "native_accepted": false
+}
