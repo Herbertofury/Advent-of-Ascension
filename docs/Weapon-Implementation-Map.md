@@ -30,6 +30,13 @@ The inherited `getRecoilModifier` declaration appears in BaseGun; `getRecoilForS
 
 A base class's projectile constructor does not prove every descendant uses that path. Method names do not establish effect semantics or call ordering. This structural inventory does not finish 228 profiles, models or runtime tests, and it covers neither all historical versions nor the additional weapon families. Fully accepted native upgraded weapons remain zero.
 
-[Dataset](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/released-weapon-behavior-map-1.20.1.json) · [Original reproducible tool and test](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-behavior-map-tool-v1.zip) · [Verification receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-behavior-map-verification.json).
+[Dataset](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/released-weapon-behavior-map-1.20.1.json) · [Original reproducible tool and test](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-behavior-map-tool-v2.zip) · [Verification receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-behavior-map-verification.json).
 
 AoA source and identity: Tslat and contributors. No game JAR or decoded class files are bundled with the audit tool.
+
+
+## Literal-decoding correction
+
+The initial map copied only explicit constant fields from the earlier registry audit, which omitted implicit JVM float constants. The corrected decoder restores those values from their opcodes and includes instruction offsets. For example, Discharge Shotgun now shows `[0.0, 4, 160, 55, 0.0, 13.0]` and Hiver includes its final `1.0`. The class hashes and method maps were unaffected. Four decoder regression tests pass; the corrected 228-ID map has no unresolved literal offsets and reproduces byte-identically across two full builds.
+
+These remain pushed literals in instruction order, not an evaluated argument stack or effective gameplay statistics. The decoder follows the [Java 17 JVM instruction specification](https://docs.oracle.com/javase/specs/jvms/se17/html/jvms-6.html).
