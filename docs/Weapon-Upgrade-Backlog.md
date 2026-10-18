@@ -6,7 +6,7 @@
 
 ## Current authoring milestone · 2026-10-18
 
-[Original animated Baronator prototype and editable source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator) now exist. The public approved-firing authoring variant has 103 cuboids, 27 bones and 15 animation records; a separate mechanism lab explores feed and hand-fit repairs. These remain unqualified authoring studies, not native gameplay acceptance. The versioned ledger covers 412 legacy records, 411 modern records and 78 audited 1.20.1 guns; these are overlapping version records, not finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
+[Original animated Baronator prototype and editable source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator) now exist. The public approved-firing authoring variant has 103 cuboids, 27 bones and 15 animation records; a separate mechanism lab explores feed and hand-fit repairs. These remain unqualified authoring studies, not native gameplay acceptance. The older versioned ledger covers overlapping historical/modern records; the new first-lane production queue explicitly covers all 228 ranged registrations in AoA 3.7.1 for Minecraft 1.20.1. Neither ledger counts them as finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
 
 [Central compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Dimension mods and Extra Realmstones](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extra-Realmstones-and-Dimension-Compatibility)
 
@@ -35,7 +35,7 @@
 - [ ] Publish actual screenshots and short motion captures, not concept renders as implementation proof.
 
 ## Complete the arsenal
-- [ ] Maintain a visible per-weapon coverage ledger including unfinished entries.
+- [x] Maintain the [first-lane 228-weapon production queue](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/arsenal-production-queue.json), including unfinished entries and six separate acceptance gates. Historical-only weapons and other families remain additional coverage work.
 - [ ] Add family-appropriate reload/recharge/rearm and inspection variety.
 - [ ] Test FOV, handedness, camera-motion options and supported shader/resource-pack combinations.
 - [ ] Test dedicated/integrated multiplayer, death, drops, dimension changes and item swaps mid-reload.
@@ -60,3 +60,16 @@ See [the complete researched design and acceptance checklist](https://github.com
 - [ ] Show visible assembly, every effect, before/after handling and clear incompatibility explanations.
 - [ ] Preserve optional reload behavior and native resources; validate TaCZ and Apotheosis adapters separately.
 - [ ] Test modular combinations, animation clearance, saves, multiplayer and measured performance before marking shipped.
+
+## Minigun rotary study — 2026-10-18
+
+[Open the interactive Minigun motion lab](https://herbertofury.github.io/Advent-of-Ascension/minigun-motion-lab.html) · [Original editable source](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/minigun-motion-study.zip) · [Scoped bore evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/minigun-bore-clearance-qa.json)
+
+- Original orange/charcoal model, currently 302 cuboids, 20 bones and 11 animation records; eight records enabled for inspection.
+- Removed six solid decorative bore caps. All six visual barrel corridors pass 438 sampled barrel/angle checks; the original cap defect is retained as a negative fixture. This is not a complete spatial acceptance test.
+- Added a frame-rate-independent cosmetic rotor controller with continuous phase through start, stop and resume. Standalone tests cover timestep subdivision, invalid inputs and stationary rest.
+- Hollowed the receiver and enlarged the carry-handle opening. The side-feed route, hand fit, moving cover/vent clearance and reload ownership still need work.
+- Native one-tick firing must not wait for cosmetic spin-up. Native ammo, resource costs and item identity stay authoritative.
+- No native runtime, gameplay, performance or final artistic acceptance is claimed. The arsenal remains in active production; a published study is not a completed weapon.
+
+The [parked-rotor feed cutaway](https://herbertofury.github.io/Advent-of-Ascension/minigun-feed-lab.html) separately tests intake, cartridge rotation and chamber transfer against all exported solids at 120 Hz (661 poses). The tray stops behind the barrel opening. This remains a transfer blockout: carrier support, cyclic rotary timing, discharge/ejection and complete hand choreography are open. The [clean-extraction receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/minigun-study-reproduction.json) verifies both viewers reproduce from the original source archive.
