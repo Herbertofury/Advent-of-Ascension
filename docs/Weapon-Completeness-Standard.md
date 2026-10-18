@@ -92,3 +92,20 @@ Maintain high-detail and LOD sources separately. Benchmark startup, frame times 
 A weapon is fully accepted only when every feature has passed its concept/design, implementation and QA phases (or has an owner-approved documented omission), the canonical visual review is accepted, all six native/technical gates are passed with evidence, and its guide exposes the complete package and remaining compatibility limits. Until then, report the real milestone and open work.
 
 The machine-readable catalogue, manifest template, coverage register and validator enforce completeness bookkeeping. They never grant native or artistic acceptance by themselves.
+
+## 8. Required aesthetic and play-experience self-review
+
+At each meaningful iteration, answer these questions with evidence and specific defects, not a generic score or praise:
+
+1. Would I choose to use this weapon, and what gives it a recognizable AoA identity?
+2. Does it match the chosen concept's silhouette, proportions, negative space and material hierarchy from comparable viewpoints?
+3. Is it beautiful at normal gameplay scale as well as in a close-up render? Is any part still toy-like, weak, floating, cluttered or awkward?
+4. Do firing, recoil, impacts, sound and recovery make its intended power readable? Does feedback stay clear during rapid use?
+5. Is the animation enjoyable repeatedly, with responsive input and safe interruption? Are hand clearance and the visible resource path believable within the fictional design?
+6. Do attachments and craftable variants create distinct useful play choices, with visible and mechanical changes that agree?
+7. Are projectile, muzzle, impact and finisher effects exciting while preserving aiming clarity, accessibility and performance?
+8. What is the weakest part now, what concrete change addresses it, and what evidence would show the change worked?
+
+Record observation type: concept inspection, authoring render, offline animation, or native playtest. A render can establish an art defect; it cannot establish that a weapon is fun to play. Native play-feel remains untested until actual interaction is observed. A failed answer stays a tracked defect and prevents complete acceptance where relevant. Do not increase praise to match effort spent.
+
+For the full-set announcement, reconcile all 228 first-target IDs plus the separately inventoried historical/version-exclusive scope. Report exact version coverage, remaining unsupported combinations and evidence. Never announce every AoA weapon complete from the first-target count alone.
