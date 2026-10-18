@@ -12,6 +12,14 @@ One canonical design will receive personally authored model/texture work in two 
 
 This is a red-and-olive conventional AoA gun, upgraded from the Mechanical Assault Rifle with an Apoco Upgrade Kit. Its TaCZ concept should feel like an imposing, tactile fantasy-industrial rifle, keeping the original color identity while improving readable construction, handling and feedback.
 
+## Lore-informed concept study
+
+![Vox Ponds-inspired organic and mechanical concept candidate](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-lore-concept-v3.png)
+
+This study brings a fungal-cap reading of the scarlet forms and rootlike lower fittings into the mechanical design. These organic motifs are our artistic interpretation, not confirmed original creator intent. The earlier metal-focused sheet remains above for comparison and history. Neither candidate is an accepted model. Review original silhouette, hand space, surface complexity and both visual treatments before selecting the final canonical design.
+
+[Candidate review](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/apoco-lore-concept-v3-review.json)
+
 ## Origin and lore review
 
 The confirmed lineage is Mechanical Assault Rifle + Apoco Upgrade Kit; that kit is associated with Vox Ponds and appears in its packaged loot table. Its incomplete mechanical base also appears in Iro Crate loot and is completed with Power Core and Mecha Gear. The documented Iromine ancestry and Vox Ponds upgrade must both guide the design. The checked sources do not identify an in-world maker.
