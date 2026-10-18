@@ -63,3 +63,5 @@ renderer checks. Current Playtest is updated in place; the complete historical
 union, acquisition and 2,000 FPS target remain open.
 
 [Saved Skill Master upgrade and preserved custom trades](SAVED-MASTER-UPGRADE-2026-10-18.md). The exact current cumulative candidate passes complete native, ordinary production, required Vulkan and in-place promotion. Full historical/latest merge completion remains open.
+
+[Whole historical block batch and mature registry identity resolution](WHOLE-HISTORICAL-BLOCK-BATCH-2026-10-18.md). The full union remains unfinished.
