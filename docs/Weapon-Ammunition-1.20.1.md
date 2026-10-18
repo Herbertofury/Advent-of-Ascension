@@ -49,3 +49,10 @@ An independent reconstruction reproduced all 172 records and all 40 method findi
 - [Upgrade/salvage state ownership](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage)
 
 Original mod, names and images: Tslat and AoA contributors; vanilla identities belong to Minecraft/Mojang. No native compatibility, damage or performance acceptance is implied.
+
+
+## Lighter reference images
+
+The browser now uses page-sized thumbnail atlases at the same 96×96 display size. The default first 24 cards need a 102,234-byte atlas instead of seven full source sheets totaling 1,366,010 bytes: about 92.5% fewer image-asset bytes for that view. All full-size originals remain available through item links. This is a measured file-size comparison, not a measured startup-time or Minecraft-FPS claim.
+
+[Thumbnail provenance and size receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-ammo-thumbnail-proof.json) · [Updated audit, atlas builder and browser tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-ammo-audit-tool-v2.zip)
