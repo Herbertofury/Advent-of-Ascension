@@ -88,3 +88,10 @@ See [the complete researched design and acceptance checklist](https://github.com
 - No native runtime, gameplay, performance or final artistic acceptance is claimed. The arsenal remains in active production; a published study is not a completed weapon.
 
 The [parked-rotor feed cutaway](https://herbertofury.github.io/Advent-of-Ascension/minigun-feed-lab.html) separately tests intake, cartridge rotation and chamber transfer against all exported solids at 120 Hz (661 poses). The tray stops behind the barrel opening. This remains a transfer blockout: carrier support, cyclic rotary timing, discharge/ejection and complete hand choreography are open. The [clean-extraction receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/minigun-study-reproduction.json) verifies both viewers reproduce from the original source archive.
+
+
+## Earned and expressive customization
+
+- [ ] [Weapon charms, effect channels, stickers and emblems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Charms-and-Effect-Customization): gameplay-earned functional charms; finishers, defeat effects, projectiles, tracers and impacts; static/animated/glowing decals, custom emblems and saved layouts.
+- [ ] [Alternate barrels and skins](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Alternate-Barrels-and-Skins): identity-specific transformations for every weapon, retained concept history and actual original flight/impact footage.
+- [ ] Apply the [direct Charmsy release findings](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Charmsy-Direct-Study), with original assets and explicit AoA/TaCZ adapters.
