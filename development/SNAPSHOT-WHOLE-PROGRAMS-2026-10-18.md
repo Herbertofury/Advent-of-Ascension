@@ -160,3 +160,43 @@ Sceptron, Fade, Centurion, all five fragments, the Re-creation Station and the
 Labricon realmstone. Complete original and latest-1.1.3 source/model/renderer
 inputs are available; that availability is not native gameplay proof. Newer
 verified equivalents and all unique older behavior remain required.
+
+## Connected fragment family — native client/server continuation
+
+The whole native mod now passes with Torano, Centurion, Sceptron and Poseido,
+their four complete latest-observed 1.1.3 models (46 cuboids), exact author PNGs,
+all five fragments including the earlier Fade drop, six spawn eggs, all 22
+original MobScreen images and the original Re-creation Station conversion.
+Every previous source/resource stage and choice stays retained.
+
+The real native server passes 20 attribute cases, 1,024 complete drop sequences
+and nine inventory transactions: each missing ingredient, sneaking, offhand,
+normal inventory and full inventory. The latter preserves the output as a
+dropped item. The adapter also restores inputs if a toss hook returns no item;
+third-party veto/multiplayer coverage remains a separate open gate.
+
+The muted native client passes seven complete native GPU draws (the four new
+models plus Fade, Evercron and the banner), all 22 screen dispatch/PNG cases,
+all 56 original trail particles, every owned item/block model, the inherited
+block/resource cases and every health option. Master volume is verified 0.0
+before content is exercised; ordinary play sound settings are unchanged.
+
+All 1,199 source owners (10,045,856 bytes) and 44 original cohort media payloads
+are independently verified. Seven generated bad-result controls are rejected.
+Independent server/client products match across all 25,070 JAR members; only
+the parsed main Implementation-Timestamp value differs. The 150,673,223-byte
+server product SHA-256 is
+`f622abd27bfdbf8198864b4e164fdc1c9c64ddf4e2012cdc83716030a49c6a23`.
+Native admission includes the allocation improvement for the three providers
+whose original surface callbacks are empty; every original output position
+stays checked. No sustained-speed claim follows from build timings.
+
+This is **not complete survival progression**. The four original fragment
+temples are absent from the current native artifact and require their complete
+spawn/placement dependencies, including MegaGuardian. The original station
+placement occurs in Clunkhead Arena; its existing newer native template must
+remain canonical while restoring the unique progression. Do not add a second
+older arena or substitute an unrelated guardian. Full classic AI/global weapon
+handler equivalence, protected toss rollback, native worlds/portals, save and
+multiplayer behavior, production/Hari and equivalent-work FPS acceptance remain
+open. Current playable profiles remain v93. The full-merge warning remains valid.
