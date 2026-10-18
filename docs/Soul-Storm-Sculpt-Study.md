@@ -2,7 +2,7 @@
 
 **New authoring reconstruction · visual acceptance open · not a native TaCZ gunpack.**
 
-![Current v13 Blender authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v13-disc-preview.png)
+![Current four-emitter v14 authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-4-emitters.png)
 
 [Play the sampled four-emitter motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-motion.webp) · [Download editable sources, Blender files and retained v5–v9 iterations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-reconstruction-v5-v9.zip)
 
@@ -91,3 +91,16 @@ Passing the bounded authoring checks does not close these gates. Original AoA id
 Earlier v5–v9 source archive SHA-256: `c5e119c64ca689aee32835e24679f8e4015b257e83e51db91fc0326c81c9a2a2`.
 
 New v10–v12 source archive SHA-256: `612a0555cb840c40ce3ff4568b82ec4b17f94be776df65ae582b0548661c757d`.
+
+
+## World-LOD geometry candidate
+
+![Lower-tessellation world-LOD candidate, not native gameplay](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-world-lod-candidate.png)
+
+A separate four-emitter candidate reduces **evaluated triangles from 53,952 to 25,664 (52.4%)**. The inventory includes 185 mesh-convertible objects, including curves and hidden-by-scale VFX meshes; these are not native draw calls or an FPS benchmark. The neutral-pose evaluated meshes contain no zero-area triangles in this check.
+
+The script lowers bevel segmentation, curve bevel resolution and selected ring topology. It leaves the original high-detail source available and preserves core-surface UV topology and animation data. The reviewed image keeps the broad silhouette and layout recognizable, while grip ribs and edge highlights visibly change. Native materials, actual distance transitions, all views/motion and frame-time behavior remain acceptance gates. This candidate does not replace the first-person default or establish visual equivalence.
+
+[Small reproducible LOD script](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-world-lod-tool-v1.zip) · [Exact per-object budget comparison](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-world-lod-budget.json). It reuses the preserved v14 archive instead of adding another duplicate packed Blender backup.
+
+For native export, prioritize the [existing TML integration route and actual Meshy schema study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study). Keep independently animated or customizable attachment domains separate, and consider merging purely rigid pieces at export to control submission cost; native batching/performance has not yet been measured.
