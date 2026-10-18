@@ -1,8 +1,14 @@
 # Apoco Assault Rifle
 
-**Stage: original-release evidence and first concept candidate. Not a playable upgrade yet.**
+**Stage: original-release evidence verified; replacement AAA concept candidate. No native upgrade accepted.**
 
-![Initial Apoco concept candidate](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-assault-rifle-concept-v1.png)
+![Replacement Apoco identity-first concept candidate](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-assault-rifle-canonical-concept-v2.png)
+
+The first generic long-rifle direction was rejected by the owner. This replacement returns to the original's compact, bulky olive body, crimson upper/rear housings, narrow projecting barrel and gold lower fittings. It is a candidate, not an approved model or gameplay capture. Its generated inset is illustrative; the separately extracted icon below is the exact original.
+
+One canonical design will receive personally authored model/texture work in two selectable treatments: [Minecraft-fit and concept-faithful](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Visual-Profiles.md). The visual toggle must not change the weapon's authoritative mechanics.
+
+[Rejected first concept retained for history](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-assault-rifle-concept-v1.png)
 
 This is a red-and-olive conventional AoA gun, upgraded from the Mechanical Assault Rifle with an Apoco Upgrade Kit. Its TaCZ concept should feel like an imposing, tactile fantasy-industrial rifle, keeping the original color identity while improving readable construction, handling and feedback.
 
@@ -22,7 +28,7 @@ The released upgrade-kit recipe takes aoa3:mechanical_assault_rifle and aoa3:apo
 
 ## Proposed complete experience
 
-- A red/olive/brass canonical family with visible receiver/feed continuity and enough hand/trigger-guard space. The first concept's expanded stock and top fittings still need fidelity and aiming review.
+- A red/olive/brass canonical family with visible receiver/feed continuity and enough hand/trigger-guard space. The rejected first concept's expanded stock is removed. The replacement's compact proportions and upper housings still need orthographic fidelity and aiming review.
 - Crisp red shot feedback, short controllable tracer trails and material-aware sparks. The concept impact shower is cosmetic direction; it does not establish explosive or area damage.
 - Optional optics, handling pieces and muzzle modules with distinct silhouettes and resolved stats. Cosmetic swaps cannot secretly alter mechanics.
 - Retained-magazine service and inspect choreography with explicit hand ownership and safe interruption; the sheet is only a storyboard.

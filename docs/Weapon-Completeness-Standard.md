@@ -123,3 +123,8 @@ For the full-set announcement, reconcile all 228 first-target IDs plus the separ
 - Keep source revisions and evidence hashes aligned. A corrected authoring scene does not repair an older exported fixture automatically.
 
 These checks supplement concept fidelity, real hand fit, native gameplay and performance testing. They do not replace them.
+
+
+## 10. One canonical concept, two selectable visual treatments
+
+Use a strong AAA-quality concept faithful to original identity, then personally author the model and textures for both Minecraft-fit and concept-faithful presentation. Both represent the same weapon and resolved build. See [Weapon Visual Profiles](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Visual-Profiles.md) for shared behavior, resource and QA requirements. The first Apoco concept and v1/v2 blockouts are owner-rejected history.
