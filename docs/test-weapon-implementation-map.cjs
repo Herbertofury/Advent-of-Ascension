@@ -12,8 +12,8 @@ const box={console,URL,URLSearchParams,document:{getElementById:id=>ids.get(id),
  const delayed={...box,document:{getElementById:id=>delayedIds.get(id),createElement:tag=>new Element(tag)},location:{href:'https://example.test/weapon-implementation-map.html?q=baronator',search:'?q=baronator'},history:{replaceState(){}},fetch:async file=>{calls++;await gate;return {ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(docs,file),'utf8'))}}};
  vm.createContext(delayed);vm.runInContext(code,delayed);assert.equal(delayedIds.get('search').value,'baronator');
  delayedIds.get('search').value='vortex';delayedIds.get('search').events.input();release();await new Promise(r=>setImmediate(r));
- assert.equal(delayedIds.get('search').value,'vortex');assert.equal(delayedIds.get('cards').children.length,1);assert(delayedIds.get('cards').children[0].children.some(x=>x.tag==='a'&&x.href.endsWith('/Vortex-Blaster-Weapon-Profile')));assert.equal(calls,3);
- console.log('PASS slow-load user search survives data arrival; three initial data fetches only.');
+ assert.equal(delayedIds.get('search').value,'vortex');assert.equal(delayedIds.get('cards').children.length,1);assert(delayedIds.get('cards').children[0].children.some(x=>x.tag==='a'&&x.href.endsWith('/Vortex-Blaster-Weapon-Profile')));assert.equal(calls,4);
+ console.log('PASS slow-load user search survives data arrival; four initial data fetches only.');
 })();
 
 (async()=>{
