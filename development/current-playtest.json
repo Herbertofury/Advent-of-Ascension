@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T00:14:07.831188+00:00",
+  "observedAt": "2026-10-18T01:49:07.390452+00:00",
   "evidenceKind": "owner-local-native-and-production-acceptance",
   "publicRuntimeReproductionPerformed": false,
   "target": {
@@ -10,14 +10,14 @@
     "minecraft": "1.20.1"
   },
   "artifact": {
-    "sha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
-    "bytes": 146925257,
+    "sha256": "5df930e3b8e88c5f5f12347fe020adea72184009b944af10f9aa119f6dc07643",
+    "bytes": 146928242,
     "filename": "aoa3-3.7.1.jar"
   },
   "source": {
     "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-    "completeSourcePlanSha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
-    "completeSourceRecipes": 862,
+    "completeSourcePlanSha256": "aecd878b0d9f8cb800de9324e75fcaca34fefe5549aa8a0ae3d6abbdf859b6ac",
+    "completeSourceRecipes": 863,
     "completeResourceSelections": 7592
   },
   "nativeServerPassed": true,
@@ -28,74 +28,68 @@
   "attributeAliases": 21,
   "attributeWorldContexts": 25,
   "attributePairedCases": 525,
-  "renderIntervals": 1059,
-  "measuredMovementMetres": 2.3336111235828265,
+  "renderIntervals": 584,
+  "measuredMovementMetres": 2.1548441280441573,
   "originalWorldAndModsUnchanged": true,
   "localReceipts": [
     {
-      "file": "whole-mod-modern-server-baseline-83c7c7d0-7412-494e-afd6-f257918b3f54.json",
-      "sha256": "70971bd380af1e1f37df59d7884534503005279c1467e05b27786220cde9e3c0",
-      "bytes": 27494517,
+      "file": "whole-mod-modern-server-baseline-47b65df8-22f5-49f0-9349-6707cb4a9792.json",
+      "sha256": "5cc40158a452c97341a758725894c19ebc8397415d0db2b1c4924b54c056f330",
+      "bytes": 27533955,
       "role": "native_server"
     },
     {
-      "file": "whole-mod-modern-client-baseline-575ca1a9-3c6a-4d0b-8f4f-5ee0b9c29f26.json",
-      "sha256": "be684bc840a68a1f4fc54dccf88141748a5ecb6fc8beef5fd47385ea8e9bed26",
-      "bytes": 27029751,
+      "file": "whole-mod-modern-client-baseline-6cf89e5e-7663-4f89-b70f-3a039d757965.json",
+      "sha256": "063377da21d3adf347015d420da06bb1e534372abd3a7ff6dea476ca86d74ef4",
+      "bytes": 27094047,
       "role": "native_client"
     },
     {
-      "file": "aoa-forge1201-whole-native-extraction-anima-plan-v86m-native-sdk.json",
-      "sha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
-      "bytes": 22977970,
+      "file": "aoa-forge1201-whole-native-hari-overlay-plan-v87a-native-sdk.json",
+      "sha256": "aecd878b0d9f8cb800de9324e75fcaca34fefe5549aa8a0ae3d6abbdf859b6ac",
+      "bytes": 23005054,
       "role": "source_plan"
     },
     {
-      "file": "aoa-v86m-production-instance-20261017.json",
-      "sha256": "2f7fac926e69fb5845db381789af65aba3fc479adf5dc9bfe0cb2e029b4e5459",
-      "bytes": 2947,
+      "file": "aoa-v87a-production-instance-20261017.json",
+      "sha256": "e7d81a4d97d840ae5452e6cfa3b30ad6b8b025e4e3f16b98c9b9793b86f29bce",
+      "bytes": 2953,
       "role": "production_install"
     },
     {
-      "file": "aoa-v86m-production-server-20261017.json",
-      "sha256": "e8575f6f1ff31b3226292047ccb823bd21250aeae53bdbd722f3c30807007c48",
-      "bytes": 7341,
+      "file": "aoa-v87a-production-server-20261017.json",
+      "sha256": "10afebf9683f3c5b399ef98bec7d1cee5b0adec61c49f4e6f6a21d2230324158",
+      "bytes": 7344,
       "role": "production_server"
     },
     {
-      "file": "aoa-v86m-production-playtest-20261017.json",
-      "sha256": "9e0f4f2cd8e2d2edf6b2ef41125de66fc54a31b855e57d67ef36625897abd1b9",
-      "bytes": 26924,
+      "file": "aoa-v87a-production-playtest-20261017.json",
+      "sha256": "89d9301b3ca105a26c2241f46d70d3d2e6ef0e8fe4631d46f9a8533821c5e70d",
+      "bytes": 26565,
       "role": "production_client"
     },
     {
-      "file": "aoa-v86m-complete-independent-production-playtest-proof-20261017.json",
-      "sha256": "ffd5596923da8b3867854b3297c4a7397d138bd16430f46cad16a06f12ccc1cf",
-      "bytes": 2186,
+      "file": "aoa-v87a-complete-independent-production-playtest-proof-20261017.json",
+      "sha256": "e8411c35040ee0bfae4cfb4affb473e4a02a2f6b9d8f579dc1ae305f21a6b38e",
+      "bytes": 2183,
       "role": "independent_production"
     },
     {
-      "file": "aoa-v86m-complete-native-anima-extraction-client-server-proof-20261017.json",
-      "sha256": "01dc82f18257f06df80808b38123a64c0f8760c3b03cb989e6893f28154e90b2",
-      "bytes": 3997,
-      "role": "independent_native_families"
+      "file": "aoa-v87a-complete-inherited-native-client-server-proof-20261017.json",
+      "sha256": "b5020817c0d8c9dbaf7dcc8d9bd9feca1349c8674b8eed84e943cfd973e46792",
+      "bytes": 3993,
+      "role": "inherited_native_families"
     },
     {
-      "file": "aoa-v86m-complete-inherited-archive-member-preservation-20261017.json",
-      "sha256": "8c2ecb04dc41fc714a1ad9de83113db2a6cea9825da2ada29b4655a7fe25f601",
-      "bytes": 4362,
-      "role": "complete_inherited_members"
+      "file": "aoa-v87g-complete-native-overlay-state-proof-20261017.json",
+      "sha256": "3f71a6a60472ca37a44273830f0782c97354e6ea91ce39486d65ca232ee52a36",
+      "bytes": 4240,
+      "role": "native_renderer_state"
     },
     {
-      "file": "aoa-v86m-complete-inherited-sound-definition-preservation-20261017.json",
-      "sha256": "97449df098c40da0113062797d2d8055fa72915f6adf70132d699297b3549a88",
-      "bytes": 539,
-      "role": "complete_inherited_sounds"
-    },
-    {
-      "file": "aoa-v86m-current-playtest-promotion-20261017.json",
-      "sha256": "148747ca6489d9e9c21c8f50d8be0b17f1fee7bf6bba31bc4a9c175473b36fc5",
-      "bytes": 6473,
+      "file": "aoa-v87a-current-playtest-promotion-20261017.json",
+      "sha256": "14252c444d360f4efb919792f90cf56f6bd9c1eb5d4404fe605b5fed2bf2ebc7",
+      "bytes": 6474,
       "role": "current_playtest_promotion"
     }
   ],
@@ -113,7 +107,7 @@
     "arrowWrapperSaveCases": 2,
     "pixonInteractions": 2
   },
-  "completeArtifactMembers": 24103,
+  "completeArtifactMembers": 24106,
   "inheritedArtifactMembersRemoved": 0,
   "inheritedSoundDefinitionsRetained": 828,
   "inheritedTranslationValuesRetained": 11415,
@@ -121,18 +115,36 @@
   "nativeNewBakedModels": 5,
   "previousPlayable": {
     "artifact": {
-      "sha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
-      "bytes": 146794782,
+      "sha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
+      "bytes": 146925257,
       "filename": "aoa3-3.7.1.jar"
     },
     "source": {
       "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-      "completeSourcePlanSha256": "2bc822ff903e5dc36999cde891c1802ee74e7cf1152d3fefa8d4a8face3c40b2",
-      "completeSourceRecipes": 847,
-      "completeResourceSelections": 7573
+      "completeSourcePlanSha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
+      "completeSourceRecipes": 862,
+      "completeResourceSelections": 7592
     },
-    "evidenceCommit": "4cdde480f56141635c457849864a38637d054fa6"
+    "evidenceCommit": "007da31d5a5695d018cb9aecac404694f1c00ad2"
   },
   "fullNaturalPlaythroughVerified": false,
-  "upstreamTransitionWarningStillVisible": true
+  "upstreamTransitionWarningStillVisible": true,
+  "rendererAcceptance": {
+    "openGlOverlayDrawCases": 24,
+    "nativeHariOverlayDrawCases": 24,
+    "completeInheritedMembersRetained": 24103,
+    "addedHelperClasses": 3,
+    "renderer": {
+      "name": "HariMultiThread Ultimate",
+      "version": "2.4.11-noxviola.62-dimensions-vulkan-hybrid",
+      "sha256": "714106dca1ed653c1cf360863a778ff5850d12960e52e3c722062b69cf8186b3"
+    },
+    "fpsGoal": 2000,
+    "performanceVerified": false,
+    "fullCompatibilityVerified": false,
+    "qualifications": [
+      "The Hari state fixture uses a disposable development seed containing 31 GeckoLib/SmartBrainLib example registry entries absent in production; this does not certify save migration or clean production-world parity.",
+      "Actual native GUI draws/state restoration are verified; pixel-level raster parity, representative full content, full-pack support, sustained FPS and the complete historical/latest union remain open."
+    ]
+  }
 }

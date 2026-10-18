@@ -44,3 +44,7 @@ Keep canonical IDs and proven aliases stable. Keep existing chunks and player/en
 ## Publication scope
 
 Original maintenance tools and factual source/runtime metadata are published here. Original AoA sources, assets and the modified JAR remain local under the [upstream terms](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/LICENSE.md). No written redistribution waiver or completed public mod release is claimed. The existing player atlas and credits remain intact.
+
+## Renderer compatibility continuation
+
+The current playtest retains the complete Extraction/Anima foundation and all 24,103 preceding members. [Renderer compatibility acceptance](RENDERER-COMPATIBILITY-2026-10-17.md) records 24 actual OpenGL and 24 native Hari Vulkan overlay draws, clean standalone production checks, failed fixtures and limits. The 2,000 FPS objective and the full merge remain open.
