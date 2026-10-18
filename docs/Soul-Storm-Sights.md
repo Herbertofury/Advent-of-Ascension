@@ -31,3 +31,5 @@ The lower strip illustrates animation key poses, not an actual animation clip. T
 [Source-backed native renderer plan](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Flame-Native-Renderer-Plan) explains the actual functional-bone hook, hidden-node caveat and required runtime tests.
 
 [Original playful inspection storyboard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Inspection-Storyboard).
+
+[Original animated flame texture study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Flame-Flipbook-Study) includes editable source, fifteen rendered frames, UV tests and clean-extraction pixel reproduction; native integration remains pending.
