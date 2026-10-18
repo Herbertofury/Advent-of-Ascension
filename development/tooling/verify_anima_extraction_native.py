@@ -33,7 +33,7 @@ def check(ref):
     return actual
 
 
-def validate(capture):
+def validate(capture, extra_skills=()):
     xp, anima, extraction = [capture[key] for key in ['skillXpBoundaryInspection', 'animaInspection', 'extractionInspection']]
     for value in [xp, anima, extraction]:
         require(value['passed'] and value['synthetic'] is False and value['generatedDisposableFixtures'] is True and value['completeAoAPort'] is False,
@@ -41,7 +41,12 @@ def validate(capture):
     rows = xp['completeBoundaryCases']
     require(xp['actualAoALoginHandlerInvoked'] is True and xp['onlineForgeLoginVerified'] is False and xp['generatedPlayerAgeTicks'] == 1, 'An honestly scoped, correctly initialised post-login disposable player is required')
     skills = {row['skillClass'] for row in rows}
-    require(len(skills) == xp['completeRegisteredSkillCount'] == 12 and len(rows) == 96, 'Incomplete canonical native skill boundary cohort')
+    expected_skills = {'net.tslat.aoa3.player.skill.' + name + 'Skill' for name in
+        ['Alchemy', 'Anima', 'Artifice', 'Creation', 'Dexterity', 'Extraction', 'Farming', 'Faunamancy', 'Hauling', 'Imbuing', 'Innervation', 'Runation']}
+    require(set(extra_skills) <= {'Augury', 'Foraging'}, 'Unknown canonical skill extension')
+    expected_skills.update('net.tslat.aoa3.player.skill.' + name + 'Skill' for name in extra_skills)
+    require(skills == expected_skills and len(skills) == xp['completeRegisteredSkillCount']
+            and len(rows) == 8 * len(expected_skills), 'Incomplete canonical native skill identity/boundary cohort')
     require(len({(r['skillClass'], r['before']) for r in rows}) == len(rows), 'Duplicated skill boundary')
     for skill in skills:
         subset = [row for row in rows if row['skillClass'] == skill]
@@ -70,7 +75,7 @@ def validate(capture):
     require(len(pixons) == 2 and {r['day'] for r in pixons} == {False, True} and all(r['originalNativeHarvestUnits'] == 5 and r['luxon'] == (25 if r['day'] else 0) for r in pixons), 'Native Pixon per-unit/day gate differs')
     require(all(r['survivalMode'] and r['belowLevelRejected'] and r['actualRequiredImbuingLevel'] > 1 and r['bowlDamage'] == 5 for r in pixons), 'Pixon level gate or survival bowl wear bypassed')
     require(extraction['currentUpstreamExtractionBlocks'] == 3, 'Current upstream extraction additions not exercised')
-    return dict(completeNativeSkills=12, exactSkillThresholdCases=96, animaProgressionSyncCases=20, originalExtractionOutcomes=22,
+    return dict(completeNativeSkills=len(expected_skills), exactSkillThresholdCases=len(xp['completeBoundaryCases']), animaProgressionSyncCases=20, originalExtractionOutcomes=22,
                 extractionInventoryInteractions=46, exactDyeIdentities=16, exactRuneIdentities=14, arrowWrapperSaveCases=2, pixonInteractions=2)
 
 
@@ -141,7 +146,8 @@ def run(server_file, plan_file, output, client_file=None):
     capture_ref = check(server['capture'])
     capture = json.loads(Path(capture_ref['path']).read_text(encoding='utf-8'))
     require(capture['serverTicks'] >= 40, 'Incomplete native lifecycle')
-    summary = validate(capture)
+    extra_skills = tuple(name for name,field in [('Augury','historicalAuguryTabletFamily'),('Foraging','historicalForagingFamily')] if field in plan)
+    summary = validate(capture, extra_skills)
     mods = [ref for ref in server['build']['artifacts'] if Path(ref['path']).name == 'aoa3-3.7.1.jar']
     require(len(mods) == 1, 'One unambiguous canonical mod required')
     jar = check(mods[0])
@@ -160,13 +166,15 @@ def run(server_file, plan_file, output, client_file=None):
         fixture = copy.deepcopy({key: capture[key] for key in ['skillXpBoundaryInspection', 'animaInspection', 'extractionInspection']})
         mutate(fixture)
         rejected = False
-        try: validate(fixture)
+        try: validate(fixture, extra_skills)
         except (ValueError, KeyError): rejected = True
         require(rejected, 'Generated invalid proof accepted: ' + name)
         faults.append(dict(case=name, synthetic=True, rejected=True))
     client_result = verify_client(client_file, server_ref, jar) if client_file else None
+    frozen_verifier = Path(output).with_suffix('.verifier.py')
+    frozen_verifier.write_bytes(Path(__file__).read_bytes())
     result = dict(schema=1, passed=True, synthetic=False, server=server_ref, plan=plan_ref, nativeCapture=capture_ref,
-                  canonicalMod=jar, completeNativeSummary=summary, generatedFaults=faults, verifier=artifact(__file__),
+                  canonicalMod=jar, completeNativeSummary=summary, generatedFaults=faults, verifier=artifact(frozen_verifier),
                   completeAoAPort=False, naturalFullGameplayVerified=False, nativeClientVerified=client_result is not None,
                   client=client_result,
                   scope='Scoped actual native whole-mod and connected-family fixtures; optional client proof includes every packaged member. Every unaffected native regression remains required; the complete historical/latest union, natural full playthrough and production promotion remain separate.')

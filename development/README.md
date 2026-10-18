@@ -61,3 +61,5 @@ The [Augury/tablet continuation](AUGURY-TABLETS-2026-10-17.md) now passes comple
 native client/server, normal signed-in production and selected native Hari62
 renderer checks. Current Playtest is updated in place; the complete historical
 union, acquisition and 2,000 FPS target remain open.
+
+[Saved Skill Master upgrade and preserved custom trades](SAVED-MASTER-UPGRADE-2026-10-18.md). The exact current cumulative candidate passes complete native, ordinary production, required Vulkan and in-place promotion. Full historical/latest merge completion remains open.

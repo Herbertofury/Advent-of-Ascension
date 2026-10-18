@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "observedAt": "2026-10-18T11:47:14.859987+00:00",
+  "passed": true,
+  "evidenceKind": "owner-local-native-and-production-acceptance",
+  "publicRuntimeReproductionPerformed": false,
+  "completeAoAPort": false,
+  "artifact": {
+    "filename": "aoa3-3.7.1.jar",
+    "bytes": 147288379,
+    "sha256": "6eb6b1009bb7717b26f967d92fefe75d05ff3b139e853d9ffc9cf02acbb8ea3c"
+  },
+  "completeMembers": 24274,
+  "changedMembers": [
+    "META-INF/MANIFEST.MF",
+    "net/tslat/aoa3/content/entity/npc/trader/SkillMasterEntity.class"
+  ],
+  "precedingArtifact": {
+    "filename": "aoa3-3.7.1.jar",
+    "bytes": 147286789,
+    "sha256": "50216760f24e3c62d536d8806802724b8e84003d546c14928aeacb03f5822150"
+  },
+  "completeNativeSaveCases": [
+    {
+      "case": "original-nine",
+      "before": 9,
+      "after": 17,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "partial-thirteen",
+      "before": 13,
+      "after": 17,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "custom-extra",
+      "before": 10,
+      "after": 18,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "custom-armor-price",
+      "before": 10,
+      "after": 17,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "custom-founding-price",
+      "before": 9,
+      "after": 9,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "empty-custom-offers",
+      "before": 0,
+      "after": 0,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "future-schema",
+      "before": 9,
+      "after": 9,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "unknown-schema",
+      "before": 9,
+      "after": 9,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    },
+    {
+      "case": "already-upgraded",
+      "before": 17,
+      "after": 17,
+      "allExistingOfferTagsUnchanged": true,
+      "forgeExtensionUnchanged": true,
+      "noDuplicateRewards": true,
+      "completeReloadUnchanged": true,
+      "schemaPreserved": true
+    }
+  ],
+  "nativeClientPassed": true,
+  "nativeServerPassed": true,
+  "ordinarySignedInProductionPassed": true,
+  "openGlDrawCases": 24,
+  "requiredVulkanDrawCases": 24,
+  "currentPlaytestUpdatedInPlace": true,
+  "hariPlaytestUpdatedInPlace": true,
+  "existingCurrentProfileFilesUnchanged": 69,
+  "existingHariProfileFilesUnchanged": 598,
+  "nativeInheritedFamilies": {
+    "completeNativeSkills": 14,
+    "exactSkillThresholdCases": 112,
+    "animaProgressionSyncCases": 20,
+    "originalExtractionOutcomes": 22,
+    "extractionInventoryInteractions": 46,
+    "exactDyeIdentities": 16,
+    "exactRuneIdentities": 14,
+    "arrowWrapperSaveCases": 2,
+    "pixonInteractions": 2
+  },
+  "localReceipts": [
+    {
+      "file": "independent-master-and-inherited-native-proof.json",
+      "sha256": "59fb177181c3df35d5043d4f0dbe749cd9c8a0cb55874cb5dc6a1a3bae64a7cf",
+      "bytes": 5537
+    },
+    {
+      "file": "independent-saved-merchant-server-proof.json",
+      "sha256": "e709b305f40212da8e86a1907f35508aba4998ad66e9ff760fbde2b49aa0e913",
+      "bytes": 4778
+    },
+    {
+      "file": "complete-inherited-native-families.json",
+      "sha256": "6db70b84e9bd6d22d45165172cb37fc3d6568a2afabf0ace3b8eaa21a356e993",
+      "bytes": 3965
+    },
+    {
+      "file": "independent-production-proof.json",
+      "sha256": "02f6f91fd03ba29d66789c916791ea18758f65a301541d92b2a2b2661c5f2e61",
+      "bytes": 2171
+    },
+    {
+      "file": "independent-hari-production-proof.json",
+      "sha256": "322233a84e6b8084db184557d6ff148717e68e098b9ec5623aac51424c840cde",
+      "bytes": 3133
+    },
+    {
+      "file": "current-playtest-promotion.json",
+      "sha256": "4ce0341147e8feaa50c2914f8daf5a502fe2d0d672004685397c2c2eddd3dc08",
+      "bytes": 7000
+    },
+    {
+      "file": "hari-playtest-promotion.json",
+      "sha256": "6e9b9e7b28b0ecf44fd9c10d9d73b974ef3a3ca407457ff74d968c7ca6d8ccc9",
+      "bytes": 7154
+    },
+    {
+      "file": "whole-mod-modern-server-baseline-9bfc97b4-b809-4996-9076-47f3bc0874ca.json",
+      "sha256": "a5817d6a8647fa38c57065e6b95a43be67d18f4e6d05a74b94808685a9f20c39",
+      "bytes": 28320147
+    },
+    {
+      "file": "whole-saved-master-offer-upgrade-native-sdk-v92b.json",
+      "sha256": "4769322495c7f51bca5a69e3b2cd48c7d7f0395aa896ef32cae369284b00df2a",
+      "bytes": 23961110
+    },
+    {
+      "file": "whole-mod-modern-client-baseline-ab97e37e-2aac-4f2b-bd27-85fb8df70dbb.json",
+      "sha256": "ae7fbe947ab493a1f580a33a2fa6096a72ca821735799850d6e5b3768107bdbe",
+      "bytes": 27846792
+    },
+    {
+      "file": "aoa-upstream-freshness-291ce465-2e12-4a0f-8f7f-f1bd433d56fe.json",
+      "sha256": "b48e9b1f160f0ffd01051cd88c3e09f84a6aac87c45d7f847c90c675b643df41",
+      "bytes": 4648
+    }
+  ],
+  "upstream": {
+    "branch": "1.21",
+    "head": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+    "release": "AoA3 1.21.1-3.7.16.1"
+  },
+  "failureHistory": [
+    "Incomplete inherited material oracle in the first new test tool; complete original biome/material/terrain and live-world context restored before admission.",
+    "Intentionally empty saved offers were omitted by the inherited vanilla serializer; game code corrected and the unchanged fixture now passes.",
+    "Production-runtime clone rejected Windows namespaced path formatting; retry reverified and reused the exact unstarted B: import.",
+    "Hari profile staging initially refused missing ordinary-production evidence; no profile mutation occurred before that evidence passed."
+  ],
+  "playerTradeScreenVerified": false,
+  "naturalFullProgressionVerified": false,
+  "userWorldMigrationVerified": false,
+  "multiplayerVerified": false,
+  "fullPackCompatibilityVerified": false,
+  "performanceVerified": false,
+  "scope": "Nine controlled native saved-merchant cases, complete whole-mod client/server, inherited family fixtures, ordinary signed-in production, required Vulkan and in-place promotion. Full historical/latest union, actual player trading/natural progression, legacy restocking, arbitrary user worlds, multiplayer, compatibility and sustained performance remain open."
+}
