@@ -1,0 +1,88 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "class_sha256": {
+    "net.tslat.aoa3.content.item.weapon.cannon.CarrotCannon": "4bed74fc04f1bc7edf4fe2148b368baa7bd018fb9a9eeb7a943ee9a85550cc06",
+    "net.tslat.aoa3.content.item.weapon.cannon.BaseCannon": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e",
+    "net.tslat.aoa3.content.item.weapon.gun.BaseGun": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net.tslat.aoa3.content.entity.projectile.cannon.CarrotBallEntity": "a7d18d54a8fee913eb56a0034528e0e75dcca2bc47a1b963a7b457b6a75b9b8f",
+    "net.tslat.aoa3.client.render.entity.projectile.cannonshots.CarrotBallRenderer": "e655851773d207a92b299293f0c30dbe0818d8bef30f568d16fdc4ff75643808"
+  },
+  "asset_sha256": {
+    "assets/aoa3/textures/item/carrot_cannon.png": "fd98dd4b5bfe2378a95e57d937d9bda07d49f3872a4475660dc87348cb07c537",
+    "assets/aoa3/textures/entity/projectile/bullets/carrot_shot.png": "5545e829156ba131bc7c74987ef7b77b7586aa650e5b9cda53a74e546e57f2a0"
+  },
+  "recipe": {
+    "entry": "data/aoa3/recipes/infusion_carrot_cannon.json",
+    "sha256": "d7386d33094e2451771c633dd065493df85f8353766edd632e09416737630788",
+    "json": {
+      "type": "aoa3:infusion",
+      "ingredients": [
+        {
+          "item": "aoa3:small_orange_petal"
+        },
+        {
+          "item": "aoa3:rosid_root"
+        },
+        {
+          "tag": "forge:ingots/iron"
+        },
+        {
+          "tag": "forge:ingots/limonite"
+        },
+        {
+          "tag": "forge:ingots/limonite"
+        },
+        {
+          "tag": "forge:crops/carrot"
+        }
+      ],
+      "input": {
+        "item": "aoa3:cannon_frame"
+      },
+      "result": {
+        "item": "aoa3:carrot_cannon"
+      }
+    }
+  },
+  "ingredient_loot_references": {
+    "rosid_root": [
+      "data/aoa3/loot_tables/worlds/gardencia.json"
+    ],
+    "small_orange_petal": [
+      "data/aoa3/loot_tables/entities/carrotop.json"
+    ]
+  },
+  "baseline_inputs": {
+    "base_damage": 10,
+    "durability": 520,
+    "delay_ticks": 16,
+    "stored_recoil_input": 0.4,
+    "ammo": "minecraft:carrot",
+    "ammo_mapping_evidence": "Previously pinned named-source comparison at85d6beba07e3a09032834dcf79b5a01f411092c3 maps Items.f_42619_ to Items.CARROT",
+    "projectile": "CarrotBallEntity",
+    "projectile_age_input": 120,
+    "projectile_damage_multiplier_input": 1.0,
+    "piercing_input": 0,
+    "gravity_return": 0.1,
+    "full_automatic": false
+  },
+  "recoil_caution": "Inherited BaseGun getter returns0.35; the stored0.4 constructor input is not an effective camera-kick value. Shot calculation and client camera handling remain separate.",
+  "renderer": {
+    "class": "CarrotBallRenderer",
+    "base": "TexturedProjectileRenderer",
+    "factory": "AoAEntityRendering.lambda$static$44",
+    "texture": "textures/entity/projectile/bullets/carrot_shot.png",
+    "particle_loop_iterations": 8,
+    "particle_calls_per_loop": 2,
+    "calls_per_render_invocation": 16,
+    "particles": [
+      "SPARKLER with RGB223,153,0 at y+0.2",
+      "FLICKERING_SPARKLER with ColourUtil.YELLOW at y-0.2"
+    ],
+    "limit": "Requests per render invocation, not measured particles-per-second or a performance result. Render passes, visibility and engine behavior matter."
+  },
+  "impact": "Shared BaseCannon heavy-gun/armor-scaling/knockback path. CarrotBall has no declared custom impact override; the inspected class has no unique explosion or debuff implementation.",
+  "lore_limit": "Ingredient associations are source references, not a known maker, creator intent, or proof of active dimension availability.",
+  "native_upgraded_acceptance": false
+}
