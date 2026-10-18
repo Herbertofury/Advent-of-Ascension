@@ -12,11 +12,11 @@ In the owner's installed Enderloom, choose **Advent of Ascension · Current Play
 - [Runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist)
 - [Living upstream reconciliation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation)
 
-The complete historical/latest union, Extraction/Anima, additional deity consumers, all natural progression and travel, optional full-pack compatibility, migration and equivalent-work performance gates remain open. Twenty-five loaded-world validation contexts are not full dimension gameplay acceptance.
+The complete historical/latest union, later Anima/Soul Power/tablet/armour consumers, additional deity chains, all natural progression and travel, optional full-pack compatibility, migration and equivalent-work performance gates remain open. Twenty-five loaded-world validation contexts are not full dimension gameplay acceptance.
 
 ## Current merge implementation
 
-[2026-10-17 Extraction/Anima source, compile and native-test progress](merge-progress-2026-10-17.json). The complete server suite and independent readback have now passed; native client and normal production acceptance are pending. The original `tooling/verify_anima_extraction_native.py` verifies the scoped retained local proof, rejects incomplete proof variants and optionally compares every native client/server JAR member. It does not certify the full union. The playable artifact is unchanged until the new complete candidate passes native and production acceptance.
+[2026-10-17 Extraction/Anima source, compile and native-test progress](merge-progress-2026-10-17.json). Complete native client/server, independent every-member readback and ordinary signed-in production/server save/restart have passed. The original `tooling/verify_anima_extraction_native.py` verifies the scoped retained local proof, rejects incomplete proof variants and optionally compares every native client/server JAR member. It does not certify the full union. The accepted update is promoted as Current Playtest; the previous verified profile and worlds remain available.
 
 ## Keep the original moving forward
 

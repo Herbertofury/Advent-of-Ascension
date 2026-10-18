@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-16T07:57:32.851085+00:00",
+  "observedAt": "2026-10-18T00:14:07.831188+00:00",
   "evidenceKind": "owner-local-native-and-production-acceptance",
   "publicRuntimeReproductionPerformed": false,
   "target": {
@@ -10,15 +10,15 @@
     "minecraft": "1.20.1"
   },
   "artifact": {
-    "sha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
-    "bytes": 146794782,
+    "sha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
+    "bytes": 146925257,
     "filename": "aoa3-3.7.1.jar"
   },
   "source": {
     "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-    "completeSourcePlanSha256": "2bc822ff903e5dc36999cde891c1802ee74e7cf1152d3fefa8d4a8face3c40b2",
-    "completeSourceRecipes": 847,
-    "completeResourceSelections": 7573
+    "completeSourcePlanSha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
+    "completeSourceRecipes": 862,
+    "completeResourceSelections": 7592
   },
   "nativeServerPassed": true,
   "nativeClientPassed": true,
@@ -28,78 +28,111 @@
   "attributeAliases": 21,
   "attributeWorldContexts": 25,
   "attributePairedCases": 525,
-  "renderIntervals": 698,
-  "measuredMovementMetres": 2.333611123582828,
+  "renderIntervals": 1059,
+  "measuredMovementMetres": 2.3336111235828265,
   "originalWorldAndModsUnchanged": true,
   "localReceipts": [
     {
-      "role": "native_server",
-      "file": "whole-mod-modern-server-baseline-8597332e-d45e-435b-a706-a7cabb8be72c.json",
-      "sha256": "c02c5c0171ed92cff40fe084508bcfb3dc25dde218f12f1a7943755259438545",
-      "bytes": 27199585
+      "file": "whole-mod-modern-server-baseline-83c7c7d0-7412-494e-afd6-f257918b3f54.json",
+      "sha256": "70971bd380af1e1f37df59d7884534503005279c1467e05b27786220cde9e3c0",
+      "bytes": 27494517,
+      "role": "native_server"
     },
     {
-      "role": "native_client",
-      "file": "whole-mod-modern-client-baseline-abb395ff-2b31-45b2-ae4d-a10b305800dc.json",
-      "sha256": "da41fbb567de877286d326c1ad72e429f7881d431b4d1ce36569232287f49d6a",
-      "bytes": 26761113
+      "file": "whole-mod-modern-client-baseline-575ca1a9-3c6a-4d0b-8f4f-5ee0b9c29f26.json",
+      "sha256": "be684bc840a68a1f4fc54dccf88141748a5ecb6fc8beef5fd47385ea8e9bed26",
+      "bytes": 27029751,
+      "role": "native_client"
     },
     {
-      "role": "source_plan",
-      "file": "aoa-forge1201-whole-native-complete-entity-attribute-family-plan-v85c-native-sdk.json",
-      "sha256": "2bc822ff903e5dc36999cde891c1802ee74e7cf1152d3fefa8d4a8face3c40b2",
-      "bytes": 22156854
+      "file": "aoa-forge1201-whole-native-extraction-anima-plan-v86m-native-sdk.json",
+      "sha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
+      "bytes": 22977970,
+      "role": "source_plan"
     },
     {
-      "role": "production_install",
-      "file": "aoa-v85c-production-instance-20261016.json",
-      "sha256": "73c7f3406ba96b6ee45a2c33959a27cf8c1728f94c45bee041bbf8f86bdb7691",
-      "bytes": 2902
+      "file": "aoa-v86m-production-instance-20261017.json",
+      "sha256": "2f7fac926e69fb5845db381789af65aba3fc479adf5dc9bfe0cb2e029b4e5459",
+      "bytes": 2947,
+      "role": "production_install"
     },
     {
-      "role": "production_server",
-      "file": "aoa-v85c-production-server-20261016.json",
-      "sha256": "f874157bdd70aa6838211ed1701422d47f78b6bb554765be70fccf8f9d14ac29",
-      "bytes": 7314
+      "file": "aoa-v86m-production-server-20261017.json",
+      "sha256": "e8575f6f1ff31b3226292047ccb823bd21250aeae53bdbd722f3c30807007c48",
+      "bytes": 7341,
+      "role": "production_server"
     },
     {
-      "role": "production_client",
-      "file": "aoa-v85c-production-playtest-20261016.json",
-      "sha256": "e35fbe2b8eb2ad568dce9750fc6339d4c73d5eb693b86a161b26965f57293e98",
-      "bytes": 26229
+      "file": "aoa-v86m-production-playtest-20261017.json",
+      "sha256": "9e0f4f2cd8e2d2edf6b2ef41125de66fc54a31b855e57d67ef36625897abd1b9",
+      "bytes": 26924,
+      "role": "production_client"
     },
     {
-      "role": "independent_production",
-      "file": "aoa-v85c-complete-independent-production-playtest-proof-20261016.json",
-      "sha256": "a09f1f59625435398f17cb9d9b0f480e060cc6230296d3aa9afdf3504044fb41",
-      "bytes": 2183
+      "file": "aoa-v86m-complete-independent-production-playtest-proof-20261017.json",
+      "sha256": "ffd5596923da8b3867854b3297c4a7397d138bd16430f46cad16a06f12ccc1cf",
+      "bytes": 2186,
+      "role": "independent_production"
     },
     {
-      "role": "attributes",
-      "file": "aoa-v85c-complete-native-entity-attribute-client-proof-20261016.json",
-      "sha256": "5f6f8fd890595374aad1a59f9dc84c94c5182df463cb8881ccc2abaf5f556d01",
-      "bytes": 1985
+      "file": "aoa-v86m-complete-native-anima-extraction-client-server-proof-20261017.json",
+      "sha256": "01dc82f18257f06df80808b38123a64c0f8760c3b03cb989e6893f28154e90b2",
+      "bytes": 3997,
+      "role": "independent_native_families"
     },
     {
-      "role": "tribute",
-      "file": "aoa-v85c-complete-native-tribute-client-proof-20261016.json",
-      "sha256": "e82840f29242f91e4e1c23fce6e7b5955c942d27f3457d916f35bb64ea00c4a8",
-      "bytes": 2498
+      "file": "aoa-v86m-complete-inherited-archive-member-preservation-20261017.json",
+      "sha256": "8c2ecb04dc41fc714a1ad9de83113db2a6cea9825da2ada29b4655a7fe25f601",
+      "bytes": 4362,
+      "role": "complete_inherited_members"
     },
     {
-      "role": "tribute_server",
-      "file": "aoa-v85c-complete-native-tribute-core-server-proof-20261016.json",
-      "sha256": "7c54be4c2c12aeddf30795f4c2d8d8241976984e9db64fd2d559493d44c544e2",
-      "bytes": 2666
+      "file": "aoa-v86m-complete-inherited-sound-definition-preservation-20261017.json",
+      "sha256": "97449df098c40da0113062797d2d8055fa72915f6adf70132d699297b3549a88",
+      "bytes": 539,
+      "role": "complete_inherited_sounds"
     },
     {
-      "role": "banners",
-      "file": "aoa-v85c-complete-native-inherited-banner-client-proof-20261016.json",
-      "sha256": "d285e18f4c4651406317ee76c2cbe45041531efbb835f6a404f0cd5359572ff6",
-      "bytes": 2445
+      "file": "aoa-v86m-current-playtest-promotion-20261017.json",
+      "sha256": "148747ca6489d9e9c21c8f50d8be0b17f1fee7bf6bba31bc4a9c175473b36fc5",
+      "bytes": 6473,
+      "role": "current_playtest_promotion"
     }
   ],
   "completeAoAPort": false,
   "historicalLatestUnionVerified": false,
-  "scope": "Owner-local complete native acceptance and a short ordinary signed-in production playtest. Full gameplay parity, multiplayer, historical/latest union, optional pack compatibility, migrations and performance acceptance remain open. Original AoA code/assets and modified JAR are not redistributed here."
+  "scope": "Owner-local complete native acceptance and a short ordinary signed-in production playtest. Full gameplay parity, multiplayer, historical/latest union, optional pack compatibility, migrations and performance acceptance remain open. Original AoA code/assets and modified JAR are not redistributed here.",
+  "nativeFamiliesVerified": {
+    "completeNativeSkills": 12,
+    "exactSkillThresholdCases": 96,
+    "animaProgressionSyncCases": 20,
+    "originalExtractionOutcomes": 22,
+    "extractionInventoryInteractions": 46,
+    "exactDyeIdentities": 16,
+    "exactRuneIdentities": 14,
+    "arrowWrapperSaveCases": 2,
+    "pixonInteractions": 2
+  },
+  "completeArtifactMembers": 24103,
+  "inheritedArtifactMembersRemoved": 0,
+  "inheritedSoundDefinitionsRetained": 828,
+  "inheritedTranslationValuesRetained": 11415,
+  "nativeOriginalAnimaTextures": 3,
+  "nativeNewBakedModels": 5,
+  "previousPlayable": {
+    "artifact": {
+      "sha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
+      "bytes": 146794782,
+      "filename": "aoa3-3.7.1.jar"
+    },
+    "source": {
+      "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
+      "completeSourcePlanSha256": "2bc822ff903e5dc36999cde891c1802ee74e7cf1152d3fefa8d4a8face3c40b2",
+      "completeSourceRecipes": 847,
+      "completeResourceSelections": 7573
+    },
+    "evidenceCommit": "4cdde480f56141635c457849864a38637d054fa6"
+  },
+  "fullNaturalPlaythroughVerified": false,
+  "upstreamTransitionWarningStillVisible": true
 }

@@ -4,8 +4,8 @@
   "project": "Advent of Ascension",
   "scope": "Private whole-mod 1.20.1 / Forge 47.4.23 / Java 17 candidate; implementation and compile evidence are distinct from native gameplay acceptance.",
   "completeAoAPort": false,
-  "currentPlayableArtifactChanged": false,
-  "currentPlayableSha256": "57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8",
+  "currentPlayableArtifactChanged": true,
+  "currentPlayableSha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
   "candidateSourceOwners": 862,
   "implementedPendingRuntime": [
     "Historical 1.7.10 Anima crop/flower/vine/AoA-leaf harvest and stone pickup progression",
@@ -42,7 +42,7 @@
     "bytes": 4764
   },
   "nativeAcceptance": {
-    "state": "server_passed_client_and_production_pending",
+    "state": "native_client_server_and_production_passed",
     "previousFailedCandidate": {
       "file": "output/whole-mod-modern-server-baseline-8e142092-01c9-42db-a74e-4abd76877e1d.json",
       "sha256": "876028a916777e4e4f32b7879073e23d654aea5b4f60afff7feef64b2e68a6c9",
@@ -50,7 +50,7 @@
     },
     "observedFailure": "Empty Anima skill JSON is an intentional disable marker; registration alone did not create the player skill.",
     "correction": "Nonempty native skill configuration plus safe disabled-skill interaction guards; corrected whole candidate is undergoing native acceptance.",
-    "promoted": false,
+    "promoted": true,
     "additionalFailedCases": [
       {
         "receipt": {
@@ -111,7 +111,7 @@
       "pixonTributeCases": 2,
       "nativeArrowWrappingAndSaveCases": 2
     },
-    "scopeStatus": "Complete native server run passed, independently read back against this exact packaged mod. Client rendering and ordinary signed-in production/save/restart remain required before promotion.",
+    "scopeStatus": "Complete native client/server, independent full-JAR comparison, ordinary signed-in rendering/movement and production server save/restart passed. Promoted as Current Playtest with the previous verified profile/worlds retained. Full historical/latest union and natural full gameplay remain open.",
     "passedBeforeLaterFixtureFailure": [
       {
         "family": "skill_xp",
@@ -158,14 +158,36 @@
     "acceptedMod": {
       "sha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
       "bytes": 146925257
-    }
+    },
+    "acceptedClient": {
+      "file": "whole-mod-modern-client-baseline-575ca1a9-3c6a-4d0b-8f4f-5ee0b9c29f26.json",
+      "sha256": "be684bc840a68a1f4fc54dccf88141748a5ecb6fc8beef5fd47385ea8e9bed26",
+      "bytes": 27029751
+    },
+    "independentClientServerProof": {
+      "file": "aoa-v86m-complete-native-anima-extraction-client-server-proof-20261017.json",
+      "sha256": "01dc82f18257f06df80808b38123a64c0f8760c3b03cb989e6893f28154e90b2",
+      "bytes": 3997
+    },
+    "ordinaryProductionProof": {
+      "file": "aoa-v86m-complete-independent-production-playtest-proof-20261017.json",
+      "sha256": "ffd5596923da8b3867854b3297c4a7397d138bd16430f46cad16a06f12ccc1cf",
+      "bytes": 2186
+    },
+    "promotion": {
+      "file": "aoa-v86m-current-playtest-promotion-20261017.json",
+      "sha256": "148747ca6489d9e9c21c8f50d8be0b17f1fee7bf6bba31bc4a9c175473b36fc5",
+      "bytes": 6473
+    },
+    "completeArtifactMembers": 24103,
+    "removedInheritedMembers": 0
   },
   "stillOpen": [
     "Complete Anima Soul Power/tablet/armour consumer reconciliation",
     "Remaining deity consumers and historical dungeon progression",
     "Full historical/latest identity and feature union",
     "Natural full gameplay/travel, multiplayer, existing-save and optional-pack compatibility",
-    "Current candidate full native client/production acceptance and equivalent-work performance"
+    "Full equivalent-work performance acceptance beyond short production rendering/movement"
   ],
   "publication": "Factual metadata only; no original AoA code, assets or modified JAR are published.",
   "previousSourceSnapshot": {
