@@ -49,7 +49,7 @@
     {
       "id": "aoa3:apoco_assault_rifle",
       "family": "gun",
-      "stage": "not_started",
+      "stage": "source_profile_lore_review_and_unaccepted_authoring",
       "gates": {
         "mechanism": "untested",
         "spatial": "untested",
@@ -58,13 +58,26 @@
         "export": "untested",
         "runtime": "untested"
       },
-      "evidence": [],
+      "evidence": [
+        "apoco-lore-provenance.json",
+        "apoco-assault-rifle-feature-status.json",
+        "Apoco-Assault-Rifle-Weapon-Profile.md"
+      ],
       "required_design_deliverables": [
         "Original version-specific profile",
         "Original projectile flight/impact capture",
         "Identity-specific alternate barrels",
         "Attachment and charm clearances",
         "Skins, decals and effect customization"
+      ],
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile",
+      "visual_acceptance": "Lore-informed concept and authoring studies remain unaccepted",
+      "original_in_game_capture": "not captured",
+      "known_open": [
+        "Creator intent for mushroom/root interpretation remains unverified",
+        "Complete concept-fidelity model and texture work",
+        "Native projectile, hands, animation and gameplay integration",
+        "Native performance and compatibility acceptance"
       ]
     },
     {
@@ -1876,7 +1889,7 @@
     {
       "id": "aoa3:discharge_shotgun",
       "family": "shotgun",
-      "stage": "released_baseline_and_concept_exploration",
+      "stage": "source_profile_unaccepted_authoring_material_and_recoil_studies",
       "gates": {
         "mechanism": "untested",
         "spatial": "untested",
@@ -1886,7 +1899,9 @@
         "runtime": "untested"
       },
       "evidence": [
-        "discharge-shotgun-released-evidence.json"
+        "discharge-shotgun-released-evidence.json",
+        "Discharge-Authoring-Refinement.md",
+        "Discharge-Material-and-Recoil-Study.md"
       ],
       "required_design_deliverables": [
         "Original version-specific profile",
@@ -1903,7 +1918,8 @@
         "Native model/animation/export",
         "Hand, fin and capsule clearances",
         "Native performance and compatibility acceptance"
-      ]
+      ],
+      "visual_acceptance": "Published v15 source remains below the selected concept; native acceptance unperformed"
     },
     {
       "id": "aoa3:gimmick",
