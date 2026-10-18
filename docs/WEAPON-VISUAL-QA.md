@@ -2,6 +2,8 @@
 
 No weapon is visually accepted while a magazine, hand, bolt, barrel, moving cover or attachment visibly cuts through an unrelated solid surface. Passing JSON/schema tests is insufficient.
 
+**Scope limit:** these clearance results do not approve the weapon mechanism. The magazine-to-chamber feed and complete firing cycle remain acceptance blockers. Follow the [mechanism and animation QA contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA).
+
 ## Baronator layout correction, 2026-10-18
 
 The original magazine intersected the trigger guard. A first repair shortened the guard; that crowded the finger space and left a trigger/guard intersection. That repair is rejected. Both historical defect fixtures are retained and must fail the regression test.

@@ -12,10 +12,14 @@
 
 This preview is rendered from the exported model and keyframes. It is not Minecraft footage, a successful TaCZ load or evidence that the native grenade mechanic is wired up.
 
+
+
+**Mechanical plausibility remains blocked:** the relocated magazine has not yet demonstrated a connected feed route to both chambers. Clearance results do not resolve that defect. The next layout must pass the [mechanism and animation QA contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA) before visual acceptance.
+
 ## Actual deliverables
 
-- Original Bedrock Entity geometry: **95 cuboids across 23 bones**, with a 128×128 palette texture.
-- **12 animation records:** idle, two static mode poses, equip, holster, shoot, inspection, empty inspection, two optional reload demonstrations, vent and grenade-effect cue. Static poses are not counted as twelve distinct full-motion sequences.
+- Original Bedrock Entity geometry: **103 cuboids across 27 bones in the alternating-barrel variant**, with a 128×128 palette texture.
+- **15 animation records in the revised variant:** the original twelve records plus independent upper/lower firing and an alternating-barrage preview. The live lab defaults to the approved top/bottom firing study. Static poses and a combined preview are not separate finished gameplay actions.
 - TaCZ-style display configuration and view/hand/muzzle/shell locator names, pending in-game alignment.
 - Editable generators and a reproducible Blender authoring/rendering pipeline.
 - Static checks covering the bone hierarchy, finite geometry, texture bounds, referenced animation bones, clip timing and manifest hashes; **2,478 sampled channel frames** checked at 60Hz.
@@ -46,8 +50,10 @@ The geometry, palette and keyframes are original project work. No TaCZ default a
 
 ## Reload collision correction and acceptance gate
 
-The reported magazine/handle clipping was reproduced: the original trigger guard intersected the magazine at rest, and the reload moved the magazine toward the grip. The live authoring lab and downloadable source now use a shortened, repositioned guard and a vertical extraction/reinsertion path. The grip cap also follows the grip angle. Earlier embedded milestone images above predate this repair.
+The original magazine intersected the guard. A first fix shortened the guard and was rejected because it crowded the finger opening and left a trigger/guard collision. Both faulty layouts are retained as failing regression fixtures.
 
-The new oriented-cuboid regression must detect the retained old defect. It checks the magazine against the grip, cap/ribs, trigger guard and trigger throughout all clips at 240 Hz plus every keyframe. Both Baronator variants pass this scoped check. This does not certify every mesh pair, real first-person hands or engine transitions. Known visible clipping or mesh errors block visual acceptance.
+The current layout restores the full trigger opening, moves the magazine forward and lower into an open structural socket, attaches the trigger into its mounting area and aligns the grip cap. Extraction is vertical. The approved alternating upper/lower heavy recoil is retained in the live viewer and editable source package. Earlier embedded milestone images above predate this layout.
 
-[Read the mandatory visual QA gate](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/WEAPON-VISUAL-QA.md) · [Published collision evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/reload-clearance-qa.json)
+The geometry gate now covers six interactions: magazine/hand area, trigger/guard, reserved finger space, magazine/lower barrel, magazine/socket and lower barrel/socket. Both variants pass every sampled clip at 240 Hz plus all keys and 110 synthetic linear recovery transitions each. The reserved finger envelope is a design allowance, not a real hand-rig certification. Exact engine transitions, hands, other mesh pairs and gameplay remain open. Known visible clipping or mesh errors block visual acceptance.
+
+[Mandatory visual QA gate](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/WEAPON-VISUAL-QA.md) · [Collision evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/reload-clearance-qa.json) · [Pinned Armorer reference study](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/reference-pack-study.json)
