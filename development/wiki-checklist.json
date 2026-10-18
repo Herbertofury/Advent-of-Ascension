@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "aoa-complete-wiki-checklist-1",
   "repository": "Herbertofury/Advent-of-Ascension.wiki",
-  "revision": "1903b2b6fb33bee834237aba1fe0fb2f942ca961",
+  "revision": "b1aebb5dfe34db0b868466fa7fef5ee708853c41",
   "pages": [
     {
       "path": "Additional-Model-Mappings-1.20.1.md",
@@ -31,8 +31,8 @@
     },
     {
       "path": "Animated-Weapon-Prototype-Baronator.md",
-      "bytes": 5334,
-      "sha256": "9b005a91f56c39497911755de2d076b2b2f7c923b75b031726ba2ca62633b581"
+      "bytes": 6172,
+      "sha256": "d8179142c59b5b7f910b2990dcb6430e7d90b80c4f52bb8dba21cdff4f16d8f9"
     },
     {
       "path": "Archergun-Ammunition-and-Special-Effects-1.12.2.md",
@@ -966,8 +966,8 @@
     },
     {
       "path": "Merge-Implementation-2026-10-17.md",
-      "bytes": 4947,
-      "sha256": "3aacb00778439c377a97d788514a7f631f05b741c1f8a5d3f9c7f8522851fca7"
+      "bytes": 5222,
+      "sha256": "875a72d52656987bb6ee15258a72cecaa6807fd223a068213f2a2b38ce7d6189"
     },
     {
       "path": "Mining-and-Ore-Generation-1.21.1.md",
@@ -1085,6 +1085,11 @@
       "sha256": "60f48b49a13da744fd142a1fd6e8a9fa1e26b645c3db143e60365ebfbd3d8ff2"
     },
     {
+      "path": "Pixon-Spawning-2026-10-17.md",
+      "bytes": 4329,
+      "sha256": "83f9c2041f5f48171b35fe67d180e4a55e5e0a85aa58440efb2c67e9b286083b"
+    },
+    {
       "path": "Portable-Artifice-Anvil-and-Respawn-1.21.1.md",
       "bytes": 7689,
       "sha256": "368b6864ed5562f3583a629a3fc2ed3526dd054823e1217d14902fdc97d124a0"
@@ -1141,8 +1146,8 @@
     },
     {
       "path": "Renderer-Compatibility-2026-10-17.md",
-      "bytes": 4981,
-      "sha256": "5faca2c0e0efef60d734a512775126f15c367d893d5077b69958709fac2d8dde"
+      "bytes": 5484,
+      "sha256": "15fb0f3197540117b4318725bf0a68bba89150dfc90f12989f5eedc8f3602beb"
     },
     {
       "path": "Renderer-Gaps-1.20.1.md",
@@ -1191,8 +1196,8 @@
     },
     {
       "path": "Runtime-Acceptance-Checklist.md",
-      "bytes": 6900,
-      "sha256": "c76b7b2063f4b2e6c37aa75809c484866a4e5549cc1c3e856efce3ff703f3bf0"
+      "bytes": 7175,
+      "sha256": "2e9754548000fa4724c27dd97a1e626a334c4c27525f468f86bb59c4586cab05"
     },
     {
       "path": "Shared-Model-Variants-1.16.5.md",
@@ -1405,6 +1410,11 @@
       "sha256": "767ca100f1efdf0284ed1e43d77b46385947e4a143f63b3f6cd685a287ae5314"
     },
     {
+      "path": "Weapon-Mechanism-and-Animation-QA.md",
+      "bytes": 14139,
+      "sha256": "4e9d1caa7c56f18a492bd17730e79558738860f209a9540d2e0008157dcbc5cf"
+    },
+    {
       "path": "Weapon-Overhaul.md",
       "bytes": 6261,
       "sha256": "6a88e4bba4bd994a42169c6a2b33cb22b924ffe01055fbcc3d9ea3cb84a1afb5"
@@ -1431,8 +1441,8 @@
     },
     {
       "path": "_Sidebar.md",
-      "bytes": 8845,
-      "sha256": "354c44fe2fa4e1456e03e1c4d275584aaf881eb3cd85d64075edb1909ba42002"
+      "bytes": 8973,
+      "sha256": "b1544a9b7e3ca2c710d7a54e83927573dfdb2ae08c01319b3ead8159f4ddc45b"
     }
   ],
   "tasks": [
@@ -4856,6 +4866,162 @@
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Performance-Switches-and-Progression-Safety-1.21.1"
+    },
+    {
+      "id": "wiki:9f238a267d82cac4b7a4160f",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 54,
+      "text": "Retain all preceding 24,106 archive members and existing registry/save identities.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:0dc819f9a78931296d02f611",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 55,
+      "text": "Load all six complete current policies through the native target.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:eef25dc8754f515af44e7922",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 56,
+      "text": "Verify all eight variants and all 986 weighted tickets.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:82c86c03dc498682c634b06d",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 57,
+      "text": "Verify dimension/superflat gates and idempotent owned attachment in all 25 native contexts.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:a9106e9ce029ba8552cb861b",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 58,
+      "text": "Exercise 32 controlled native ticks on unchanged terrain and restore the original player/entity membership.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:3991c882e521bd013c7c52b0",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 59,
+      "text": "Pass full native client/server and all inherited connected-family checks.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:c8275758f5ca234f10be6014",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 60,
+      "text": "Pass normal standalone production server save/restart and signed-in rendering/movement.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:b5b90c00aadb0b61e0fa3693",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 61,
+      "text": "Pass clean Hari production server/client and all 24 actual GUI-state cases per backend.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:41c06800608eb6ba51bd4327",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 62,
+      "text": "Update Current Playtest in place and preserve all existing user files and choices.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:87bfbbe7c300b18982df5d00",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 63,
+      "text": "Verify automatic natural acquisition and complete unassisted progression.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:cb58d33eade8db6cdd50351e",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 64,
+      "text": "Reconcile the complete current magnitude, Attuning Bowl/energy-stone and visual family.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
+    },
+    {
+      "id": "wiki:68ac116c130812fadb5aa5cb",
+      "page": "Pixon-Spawning-2026-10-17.md",
+      "section": [
+        "Pixon spawning continuation · 2026-10-17",
+        "Bounded acceptance checklist"
+      ],
+      "line": 65,
+      "text": "Complete the remaining historical/latest union, migrations, multiplayer, optional compatibility and performance gates.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pixon-Spawning-2026-10-17"
     },
     {
       "id": "wiki:f6474d4eebf0320ba6305c2a",
@@ -8473,8 +8639,8 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog"
     }
   ],
-  "pageCount": 286,
-  "taskCount": 535,
-  "reportedChecked": 44,
+  "pageCount": 288,
+  "taskCount": 547,
+  "reportedChecked": 53,
   "runtimeCompletionInferred": false
 }

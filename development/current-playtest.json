@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T02:09:26.160773+00:00",
+  "observedAt": "2026-10-18T03:05:33.205640+00:00",
   "evidenceKind": "owner-local-native-and-production-acceptance",
   "publicRuntimeReproductionPerformed": false,
   "target": {
@@ -10,15 +10,15 @@
     "minecraft": "1.20.1"
   },
   "artifact": {
-    "sha256": "5df930e3b8e88c5f5f12347fe020adea72184009b944af10f9aa119f6dc07643",
-    "bytes": 146928242,
-    "filename": "aoa3-3.7.1.jar"
+    "filename": "aoa3-3.7.1.jar",
+    "sha256": "efa0ab75ec5f92d48c582597dfef42db0ebb00c4e66f8b837b5e080b336fa64e",
+    "bytes": 146949668
   },
   "source": {
     "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-    "completeSourcePlanSha256": "aecd878b0d9f8cb800de9324e75fcaca34fefe5549aa8a0ae3d6abbdf859b6ac",
-    "completeSourceRecipes": 863,
-    "completeResourceSelections": 7592
+    "completeSourcePlanSha256": "dbcf19b96451828a6f7f0ea87124d8aca7eee0f38261fbe4b86a3937d2a03f6e",
+    "completeSourceRecipes": 870,
+    "completeResourceSelections": 7598
   },
   "nativeServerPassed": true,
   "nativeClientPassed": true,
@@ -28,110 +28,98 @@
   "attributeAliases": 21,
   "attributeWorldContexts": 25,
   "attributePairedCases": 525,
-  "renderIntervals": 584,
-  "measuredMovementMetres": 2.1548441280441573,
+  "renderIntervals": 687,
+  "measuredMovementMetres": 2.154844128044159,
   "originalWorldAndModsUnchanged": true,
   "localReceipts": [
     {
-      "file": "whole-mod-modern-server-baseline-47b65df8-22f5-49f0-9349-6707cb4a9792.json",
-      "sha256": "5cc40158a452c97341a758725894c19ebc8397415d0db2b1c4924b54c056f330",
-      "bytes": 27533955,
+      "file": "whole-mod-modern-server-baseline-55cb6573-3430-48c1-a468-3722933a7960.json",
+      "sha256": "83647bb9b2f9e1d2a4d69d1c26a7bbcc71a906a2ad366b290f0ff166908498cf",
+      "bytes": 27694554,
       "role": "native_server"
     },
     {
-      "file": "whole-mod-modern-client-baseline-6cf89e5e-7663-4f89-b70f-3a039d757965.json",
-      "sha256": "063377da21d3adf347015d420da06bb1e534372abd3a7ff6dea476ca86d74ef4",
-      "bytes": 27094047,
+      "file": "whole-mod-modern-client-baseline-60ea8298-be1d-4a18-9131-b8a97dc876bb.json",
+      "sha256": "0fd980da86945a0a61cbbbc82ad34b0b4f491ace328e35a713b8badc60f0b632",
+      "bytes": 27249764,
       "role": "native_client"
     },
     {
-      "file": "aoa-forge1201-whole-native-hari-overlay-plan-v87a-native-sdk.json",
-      "sha256": "aecd878b0d9f8cb800de9324e75fcaca34fefe5549aa8a0ae3d6abbdf859b6ac",
-      "bytes": 23005054,
+      "file": "aoa-forge1201-whole-pixon-natural-spawn-plan-v88g-native-sdk.json",
+      "sha256": "dbcf19b96451828a6f7f0ea87124d8aca7eee0f38261fbe4b86a3937d2a03f6e",
+      "bytes": 23099507,
       "role": "source_plan"
     },
     {
-      "file": "aoa-v87a-production-instance-20261017.json",
-      "sha256": "e7d81a4d97d840ae5452e6cfa3b30ad6b8b025e4e3f16b98c9b9793b86f29bce",
-      "bytes": 2953,
-      "role": "production_install"
+      "file": "aoa-v88g-independent-complete-native-client-server-pixon-proof-20261017.json",
+      "sha256": "0d161bc7c30fe435c64b96e487c3bf681982028ac89508b90e302aa2a4275608",
+      "bytes": 4767,
+      "role": "independent_pixon_native"
     },
     {
-      "file": "aoa-v87a-production-server-20261017.json",
-      "sha256": "10afebf9683f3c5b399ef98bec7d1cee5b0adec61c49f4e6f6a21d2230324158",
-      "bytes": 7344,
-      "role": "production_server"
-    },
-    {
-      "file": "aoa-v87a-production-playtest-20261017.json",
-      "sha256": "89d9301b3ca105a26c2241f46d70d3d2e6ef0e8fe4631d46f9a8533821c5e70d",
-      "bytes": 26565,
-      "role": "production_client"
-    },
-    {
-      "file": "aoa-v87a-complete-independent-production-playtest-proof-20261017.json",
-      "sha256": "e8411c35040ee0bfae4cfb4affb473e4a02a2f6b9d8f579dc1ae305f21a6b38e",
-      "bytes": 2183,
-      "role": "independent_production"
-    },
-    {
-      "file": "aoa-v87a-complete-inherited-native-client-server-proof-20261017.json",
-      "sha256": "b5020817c0d8c9dbaf7dcc8d9bd9feca1349c8674b8eed84e943cfd973e46792",
+      "file": "aoa-v88g-complete-inherited-native-family-proof-20261017.json",
+      "sha256": "4b72b79a0cf15f645095d37e2fb2011877db710912cb27ac2e332053139b9b16",
       "bytes": 3993,
       "role": "inherited_native_families"
     },
     {
-      "file": "aoa-v87g-complete-native-overlay-state-proof-20261017.json",
-      "sha256": "3f71a6a60472ca37a44273830f0782c97354e6ea91ce39486d65ca232ee52a36",
-      "bytes": 4240,
-      "role": "native_renderer_state"
+      "file": "aoa-v88g-production-instance-20261017.json",
+      "sha256": "333f88ef29b81a1ee402990bff48cd8a6cb08fa02084ad577999b7133aa749da",
+      "bytes": 2947,
+      "role": "production_install"
     },
     {
-      "file": "aoa-v87a-current-playtest-promotion-20261017.json",
-      "sha256": "14252c444d360f4efb919792f90cf56f6bd9c1eb5d4404fe605b5fed2bf2ebc7",
-      "bytes": 6474,
-      "role": "current_playtest_promotion"
+      "file": "aoa-v88g-production-server-20261017.json",
+      "sha256": "f7996533cbd48a292634c10fe007f0577804fdae6c8aa791dd47b57dcaf272a3",
+      "bytes": 7341,
+      "role": "production_server"
     },
     {
-      "file": "aoa-v87h-complete-clean-production-native-overlay-proof-20261017.json",
-      "bytes": 4887,
-      "sha256": "52813fadfa7eb97f57371fa8b2eeada748f00695193ea0bd8061fce4dd58c621",
-      "role": "independent_clean_hari_production"
+      "file": "aoa-v88g-production-playtest-20261017.json",
+      "sha256": "46f9be6e6e1b3399c9b2b01ce7fea28aec5932ed04ddd4a7b94c36548c2a6635",
+      "bytes": 25423,
+      "role": "production_client"
     },
     {
-      "file": "aoa-v87h-hari-production-server-20261017.json",
-      "bytes": 7801,
-      "sha256": "edd090e2a2498c4385994cf4c705aedd1675f188d718eacd39c0bc49f4d157e6",
+      "file": "aoa-v88g-complete-independent-production-playtest-proof-20261017.json",
+      "sha256": "6b71f30e9473fecf63ab2191e783de5bd3fb39121a7dcebff97cd162c953a839",
+      "bytes": 2182,
+      "role": "independent_production"
+    },
+    {
+      "file": "aoa-v88h-complete-clean-production-native-renderer-proof-20261017.json",
+      "sha256": "e7e0f2fccaf9264f0f63747c818b5b88ceb537e7fbd1fa8bc4d8738685caff9c",
+      "bytes": 5009,
+      "role": "independent_native_renderer"
+    },
+    {
+      "file": "aoa-v88h-hari-production-server-20261017.json",
+      "sha256": "fbf70f06f120b04955ca82235265cfea31d0ee556bc9c90f2c0653c9241ba2c7",
+      "bytes": 7804,
       "role": "hari_production_server"
     },
     {
-      "file": "aoa-v87h-clean-hari-production-playtest-20261017.json",
-      "bytes": 45388,
-      "sha256": "4f884cda51af62cc21278447a65c7084468c5d4228f4f847330aa39053765913",
+      "file": "aoa-v88h-clean-hari-production-playtest-20261017.json",
+      "sha256": "dc39143d4f9c0763bc0a5d5780f6276cbf008c823a56fd1bb3852d2f9292809b",
+      "bytes": 44490,
       "role": "hari_production_client"
     },
     {
-      "file": "aoa-v87h-production-native-overlay-capture-20261017.json",
-      "bytes": 2288,
-      "sha256": "0a0984d6a719396f7af1487033713c2473a1393fff0e7f2fb413d6837f786732",
-      "role": "clean_hari_native_overlay"
+      "file": "aoa-v88g-hari62-complete-artifact-inspection-20261017.json",
+      "sha256": "1ef0fe00134a3bb18bb285e0889070343bd7e40bc6c3b1341b8736c36ac48b6b",
+      "bytes": 2977,
+      "role": "whole_hari_contract_inspection"
     },
     {
-      "file": "aoa-v87h-clean-hari-world-stage-20261017.json",
-      "bytes": 48212,
-      "sha256": "4a43cc4198afe7e59a252f55f58b059b11dfbb0c99863d388197ffb153ca0461",
-      "role": "complete_production_seed"
-    },
-    {
-      "file": "aoa-v87h-clean-hari-preparation-20261017.json",
-      "bytes": 3278,
-      "sha256": "6ef616c72b891b8d7305b17e6125302393402e02b496a67567bb98ee36753261",
-      "role": "clean_hari_preparation"
+      "file": "aoa-v88g-current-playtest-promotion-20261017.json",
+      "sha256": "f5c1429d9a0aba788aca48cda3c165c1c8be3fcdd3f121691d4996d516142299",
+      "bytes": 20300,
+      "role": "current_playtest_in_place_promotion"
     }
   ],
   "completeAoAPort": false,
   "historicalLatestUnionVerified": false,
-  "scope": "Owner-local complete native acceptance and a short ordinary signed-in production playtest. Full gameplay parity, multiplayer, historical/latest union, optional pack compatibility, migrations and performance acceptance remain open. Original AoA code/assets and modified JAR are not redistributed here.",
+  "scope": "Owner-local whole native client/server, bounded current Pixon spawning, clean signed-in production/server save/restart and 24 OpenGL/24 actual Hari Vulkan overlay cases. Current Playtest is updated in place; all existing worlds/configs and launch choices remain. Automatic full natural progression, current Pixon magnitude/siphoning/visual reconciliation, multiplayer, historical/latest union, full pack compatibility, migrations and performance remain open. Original code/assets and modified JAR remain local.",
   "nativeFamiliesVerified": {
     "completeNativeSkills": 12,
     "exactSkillThresholdCases": 96,
@@ -141,9 +129,15 @@
     "exactDyeIdentities": 16,
     "exactRuneIdentities": 14,
     "arrowWrapperSaveCases": 2,
-    "pixonInteractions": 2
+    "pixonInteractions": 2,
+    "pixonSpawnPolicies": 6,
+    "pixonVariantIdentities": 8,
+    "pixonWeightedTickets": 986,
+    "pixonDimensionContexts": 25,
+    "pixonControlledLiveTrials": 32,
+    "pixonNativeTerrainSpawns": 21
   },
-  "completeArtifactMembers": 24106,
+  "completeArtifactMembers": 24117,
   "inheritedArtifactMembersRemoved": 0,
   "inheritedSoundDefinitionsRetained": 828,
   "inheritedTranslationValuesRetained": 11415,
@@ -151,24 +145,122 @@
   "nativeNewBakedModels": 5,
   "previousPlayable": {
     "artifact": {
-      "sha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
-      "bytes": 146925257,
+      "sha256": "5df930e3b8e88c5f5f12347fe020adea72184009b944af10f9aa119f6dc07643",
+      "bytes": 146928242,
       "filename": "aoa3-3.7.1.jar"
     },
     "source": {
       "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-      "completeSourcePlanSha256": "7a90e5e00e2192df6e32f7aee6cd86cc4944ca09a2fd09318488afd1545b06fc",
-      "completeSourceRecipes": 862,
-      "completeResourceSelections": 7592
+      "completeSourcePlanSha256": "dbcf19b96451828a6f7f0ea87124d8aca7eee0f38261fbe4b86a3937d2a03f6e",
+      "completeSourceRecipes": 870,
+      "completeResourceSelections": 7598
     },
-    "evidenceCommit": "007da31d5a5695d018cb9aecac404694f1c00ad2"
+    "localReceipts": [
+      {
+        "file": "whole-mod-modern-server-baseline-47b65df8-22f5-49f0-9349-6707cb4a9792.json",
+        "sha256": "5cc40158a452c97341a758725894c19ebc8397415d0db2b1c4924b54c056f330",
+        "bytes": 27533955,
+        "role": "native_server"
+      },
+      {
+        "file": "whole-mod-modern-client-baseline-6cf89e5e-7663-4f89-b70f-3a039d757965.json",
+        "sha256": "063377da21d3adf347015d420da06bb1e534372abd3a7ff6dea476ca86d74ef4",
+        "bytes": 27094047,
+        "role": "native_client"
+      },
+      {
+        "file": "aoa-forge1201-whole-native-hari-overlay-plan-v87a-native-sdk.json",
+        "sha256": "aecd878b0d9f8cb800de9324e75fcaca34fefe5549aa8a0ae3d6abbdf859b6ac",
+        "bytes": 23005054,
+        "role": "source_plan"
+      },
+      {
+        "file": "aoa-v87a-production-instance-20261017.json",
+        "sha256": "e7d81a4d97d840ae5452e6cfa3b30ad6b8b025e4e3f16b98c9b9793b86f29bce",
+        "bytes": 2953,
+        "role": "production_install"
+      },
+      {
+        "file": "aoa-v87a-production-server-20261017.json",
+        "sha256": "10afebf9683f3c5b399ef98bec7d1cee5b0adec61c49f4e6f6a21d2230324158",
+        "bytes": 7344,
+        "role": "production_server"
+      },
+      {
+        "file": "aoa-v87a-production-playtest-20261017.json",
+        "sha256": "89d9301b3ca105a26c2241f46d70d3d2e6ef0e8fe4631d46f9a8533821c5e70d",
+        "bytes": 26565,
+        "role": "production_client"
+      },
+      {
+        "file": "aoa-v87a-complete-independent-production-playtest-proof-20261017.json",
+        "sha256": "e8411c35040ee0bfae4cfb4affb473e4a02a2f6b9d8f579dc1ae305f21a6b38e",
+        "bytes": 2183,
+        "role": "independent_production"
+      },
+      {
+        "file": "aoa-v87a-complete-inherited-native-client-server-proof-20261017.json",
+        "sha256": "b5020817c0d8c9dbaf7dcc8d9bd9feca1349c8674b8eed84e943cfd973e46792",
+        "bytes": 3993,
+        "role": "inherited_native_families"
+      },
+      {
+        "file": "aoa-v87g-complete-native-overlay-state-proof-20261017.json",
+        "sha256": "3f71a6a60472ca37a44273830f0782c97354e6ea91ce39486d65ca232ee52a36",
+        "bytes": 4240,
+        "role": "native_renderer_state"
+      },
+      {
+        "file": "aoa-v87a-current-playtest-promotion-20261017.json",
+        "sha256": "14252c444d360f4efb919792f90cf56f6bd9c1eb5d4404fe605b5fed2bf2ebc7",
+        "bytes": 6474,
+        "role": "current_playtest_promotion"
+      },
+      {
+        "file": "aoa-v87h-complete-clean-production-native-overlay-proof-20261017.json",
+        "bytes": 4887,
+        "sha256": "52813fadfa7eb97f57371fa8b2eeada748f00695193ea0bd8061fce4dd58c621",
+        "role": "independent_clean_hari_production"
+      },
+      {
+        "file": "aoa-v87h-hari-production-server-20261017.json",
+        "bytes": 7801,
+        "sha256": "edd090e2a2498c4385994cf4c705aedd1675f188d718eacd39c0bc49f4d157e6",
+        "role": "hari_production_server"
+      },
+      {
+        "file": "aoa-v87h-clean-hari-production-playtest-20261017.json",
+        "bytes": 45388,
+        "sha256": "4f884cda51af62cc21278447a65c7084468c5d4228f4f847330aa39053765913",
+        "role": "hari_production_client"
+      },
+      {
+        "file": "aoa-v87h-production-native-overlay-capture-20261017.json",
+        "bytes": 2288,
+        "sha256": "0a0984d6a719396f7af1487033713c2473a1393fff0e7f2fb413d6837f786732",
+        "role": "clean_hari_native_overlay"
+      },
+      {
+        "file": "aoa-v87h-clean-hari-world-stage-20261017.json",
+        "bytes": 48212,
+        "sha256": "4a43cc4198afe7e59a252f55f58b059b11dfbb0c99863d388197ffb153ca0461",
+        "role": "complete_production_seed"
+      },
+      {
+        "file": "aoa-v87h-clean-hari-preparation-20261017.json",
+        "bytes": 3278,
+        "sha256": "6ef616c72b891b8d7305b17e6125302393402e02b496a67567bb98ee36753261",
+        "role": "clean_hari_preparation"
+      }
+    ],
+    "evidenceCommit": "dac6b7f9d60fddd0b38768620c124af34a0fd1bc"
   },
   "fullNaturalPlaythroughVerified": false,
   "upstreamTransitionWarningStillVisible": true,
   "rendererAcceptance": {
     "openGlOverlayDrawCases": 24,
     "nativeHariOverlayDrawCases": 24,
-    "completeInheritedMembersRetained": 24103,
+    "completeInheritedMembersRetained": 24106,
     "addedHelperClasses": 3,
     "renderer": {
       "name": "HariMultiThread Ultimate",
@@ -179,10 +271,13 @@
     "performanceVerified": false,
     "fullCompatibilityVerified": false,
     "qualifications": [
-      "Actual native GUI draws/state restoration are verified; pixel-level raster parity, representative full content, full-pack support, sustained FPS and the complete historical/latest union remain open."
+      "Actual native GUI draws/state restoration, clean production rendering/movement and bounded current Pixon spawn fixtures are verified. Pixel-level raster parity, representative full content, full pack support, sustained FPS, migrations, multiplayer and the complete historical/latest union remain open."
     ],
     "cleanHariProductionWorldVerified": true,
     "productionWorldFilesPreserved": 67,
     "saveMigrationVerified": false
-  }
+  },
+  "currentProfileUpdatedInPlace": true,
+  "existingUserFilesUnchanged": 69,
+  "existingRegistryIdentityContextsUnchanged": 5
 }

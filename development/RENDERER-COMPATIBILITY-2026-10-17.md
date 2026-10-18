@@ -1,12 +1,12 @@
 # Renderer compatibility continuation · 2026-10-17
 
-The current owner-local Enderloom playtest now uses the repaired whole-mod JAR
+The renderer repair was first accepted in the whole-mod JAR
 `5df930e3b8e88c5f5f12347fe020adea72184009b944af10f9aa119f6dc07643`.
-The previous verified profile and worlds remain available. This is a tested
+That preceding renderer artifact and all worlds remain available. This is a tested
 renderer repair; the complete historical/latest AoA merge remains unfinished.
 Tslat and contributors remain credited, and vanilla hearts remain the default.
 
-All **24,103** preceding archive members remain. The new JAR has **24,106**
+At that renderer-repair milestone, all **24,103** preceding archive members remained. Its JAR has **24,106**
 members: three added state-helper classes, one repaired overlay class and a new
 build timestamp. Every other complete program and resource member is unchanged.
 All preceding Extraction, Anima, Holly Arrow, Pixon tribute and XP fixes remain.
@@ -54,3 +54,8 @@ followed by matched full-resolution frame-time testing, remain required.
 [Whole archive inventory](current-artifact-inventory.json).
 Only original maintenance tooling and factual metadata are published here;
 original AoA code/assets and the modified JAR remain local.
+
+
+## Subsequent current candidate
+
+The current Pixon spawning candidate is now `efa0ab75ec5f92d48c582597dfef42db0ebb00c4e66f8b837b5e080b336fa64e`. It retains the accepted renderer programs byte for byte and independently passes clean Hari production/server/client and 24 actual GUI-state cases per backend. [Current spawning acceptance](PIXON-SPAWNING-2026-10-17.md). The renderer repair described above is retained historical acceptance; 2,000 FPS and the complete union remain open.

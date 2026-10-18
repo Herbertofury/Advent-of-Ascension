@@ -5,8 +5,8 @@
   "scope": "Private whole-mod 1.20.1 / Forge 47.4.23 / Java 17 candidate; implementation and compile evidence are distinct from native gameplay acceptance.",
   "completeAoAPort": false,
   "currentPlayableArtifactChanged": true,
-  "currentPlayableSha256": "5df930e3b8e88c5f5f12347fe020adea72184009b944af10f9aa119f6dc07643",
-  "candidateSourceOwners": 863,
+  "currentPlayableSha256": "efa0ab75ec5f92d48c582597dfef42db0ebb00c4e66f8b837b5e080b336fa64e",
+  "candidateSourceOwners": 870,
   "implementedPendingRuntime": [
     "Historical 1.7.10 Anima crop/flower/vine/AoA-leaf harvest and stone pickup progression",
     "Functional Fragmented Anima Stone through Forge bonemeal cancellation/ALLOW",
@@ -217,10 +217,33 @@
   "previousExtractionAnimaPlayableSha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
   "rendererContinuation": {
     "file": "development/renderer-compatibility-2026-10-17.json",
-    "sha256": "743fd3b00bad1f617860bc68ac43abb4019bebf5ebd6641b305bb48cd4a7d75f",
-    "state": "Native client/server, clean standalone production and 24 OpenGL/24 qualified native Hari GUI cases passed; full merge and performance remain open",
+    "sha256": "14a9a1a6390f33963d20c597c503bf6c317b570527e0770f6f0862873d7ce40d",
+    "state": "Current Pixon candidate passes complete native client/server, standalone production, clean Hari production and 24 real GUI cases per backend; full merge, representative compatibility and performance remain open",
     "completeAoAPort": false,
     "performanceVerified": false
   },
-  "legacyFieldMeaning": "implementedPendingRuntime is retained for historical/backward-compatible intake; the listed Extraction/Anima foundation passed its bounded native scope in v86 and remains retained in v87."
+  "legacyFieldMeaning": "sourcePlan, compileEvidence, nativeAcceptance and implementedPendingRuntime describe the retained historical Extraction/Anima foundation. That bounded scope passed in v86 and remains byte-preserved in v88. currentSourcePlan/currentNativeAcceptance/currentPromotion and current-playtest.json identify the actual current artifact; older fields are not a claim of completed full gameplay.",
+  "currentSourcePlan": {
+    "file": "aoa-forge1201-whole-pixon-natural-spawn-plan-v88g-native-sdk.json",
+    "sha256": "dbcf19b96451828a6f7f0ea87124d8aca7eee0f38261fbe4b86a3937d2a03f6e",
+    "bytes": 23099507,
+    "role": "source_plan"
+  },
+  "currentNativeAcceptance": {
+    "file": "aoa-v88g-independent-complete-native-client-server-pixon-proof-20261017.json",
+    "sha256": "0d161bc7c30fe435c64b96e487c3bf681982028ac89508b90e302aa2a4275608",
+    "bytes": 4767,
+    "role": "independent_pixon_native"
+  },
+  "currentPromotion": {
+    "file": "aoa-v88g-current-playtest-promotion-20261017.json",
+    "sha256": "f5c1429d9a0aba788aca48cda3c165c1c8be3fcdd3f121691d4996d516142299",
+    "bytes": 20300,
+    "role": "current_playtest_in_place_promotion"
+  },
+  "pixonContinuation": {
+    "file": "development/pixon-spawning-2026-10-17.json",
+    "sha256": "437799e585b9f516c6b6d7b5b97fd5132569917e234fbeee376551d04f4ef627",
+    "completeAoAPort": false
+  }
 }

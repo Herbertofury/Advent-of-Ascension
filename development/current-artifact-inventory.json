@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "artifact": {
-    "sha256": "5df930e3b8e88c5f5f12347fe020adea72184009b944af10f9aa119f6dc07643",
-    "bytes": 146928242,
-    "filename": "aoa3-3.7.1.jar"
+    "filename": "aoa3-3.7.1.jar",
+    "sha256": "efa0ab75ec5f92d48c582597dfef42db0ebb00c4e66f8b837b5e080b336fa64e",
+    "bytes": 146949668
   },
   "members": [
     {
@@ -14,7 +14,7 @@
     {
       "path": "META-INF/MANIFEST.MF",
       "bytes": 282,
-      "sha256": "96a63b5e82b5f854bea79c3eccc2f021ae00517df5fc3baa203afbb6557c6cef"
+      "sha256": "eb702576f65c7dddeabe6354840adeac774503f87e36d1bdfd86f6844750b8fd"
     },
     {
       "path": "LICENSE.md",
@@ -74537,6 +74537,36 @@
       "sha256": "566dd02adc914f551867c7393145a98e25553401b082289f9f3868f58722f658"
     },
     {
+      "path": "data/aoa3/custom_spawners/t0_pixons.json",
+      "bytes": 1004,
+      "sha256": "0342c1e44f634421610bc2b0a0f8e14e698aade451a2a7e315dd880648733738"
+    },
+    {
+      "path": "data/aoa3/custom_spawners/t1_pixons.json",
+      "bytes": 1139,
+      "sha256": "b8325876af22986d59df0ea2757b2d5961f602c02c4368c092deffc26ec1c53b"
+    },
+    {
+      "path": "data/aoa3/custom_spawners/t1_pixons_precasia.json",
+      "bytes": 1061,
+      "sha256": "4eda937903403b80111b823af9fda17f2c9dd7cb68fbc2affa3feeeefed61657"
+    },
+    {
+      "path": "data/aoa3/custom_spawners/t2_pixons.json",
+      "bytes": 1156,
+      "sha256": "73ed55f00a85f0b750b5335978b6ec308c53b75a1ac8dba21c74bdeeda7cb9c7"
+    },
+    {
+      "path": "data/aoa3/custom_spawners/t3_pixons.json",
+      "bytes": 1067,
+      "sha256": "71f2c8d3ed10315e81d07b497759b8c59832d556ba35908cc2af8769ffb11376"
+    },
+    {
+      "path": "data/aoa3/custom_spawners/t4_pixons.json",
+      "bytes": 937,
+      "sha256": "fb00715e06e88ebb3e090ebbb6da82b448b7f722cbe96576565d6e8701c8913d"
+    },
+    {
       "path": "data/aoa3/damage_type/",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -108473,8 +108503,8 @@
     },
     {
       "path": "net/tslat/aoa3/common/registration/AoADatapackLoaders.class",
-      "bytes": 2226,
-      "sha256": "0b5422f51e0c5a24bdc1039b6dbc7d9c41c35ebabaed1a23752ee85cf4c370a0"
+      "bytes": 2346,
+      "sha256": "cc47be77ae34d43e73410b53d1c2a1159f8059263fc662e72e3e28af050b7ce4"
     },
     {
       "path": "net/tslat/aoa3/common/registration/AoADispensables$1.class",
@@ -118772,9 +118802,34 @@
       "sha256": "a791d921c920447ea7ad623015d80d6371fa30dcf1ca21a05413410157de586e"
     },
     {
+      "path": "net/tslat/aoa3/content/world/spawner/PixonBiomeSelection.class",
+      "bytes": 9137,
+      "sha256": "285415acea4ac30dc7f7d520b41130c59d538d0a438b7b160f03de9533760448"
+    },
+    {
+      "path": "net/tslat/aoa3/content/world/spawner/PixonSpawnSettings.class",
+      "bytes": 10565,
+      "sha256": "b8a6655986cd8520cc60f02d9875a10c80b1e3b400ec143f21bb58f4965763fd"
+    },
+    {
+      "path": "net/tslat/aoa3/content/world/spawner/PixonSpawnVariant$1.class",
+      "bytes": 1087,
+      "sha256": "1fd60314b90fec391e4fd0c1839b70512336d8e6b53638b441fd58ff4dbb9d2c"
+    },
+    {
+      "path": "net/tslat/aoa3/content/world/spawner/PixonSpawnVariant.class",
+      "bytes": 5333,
+      "sha256": "1e8b4117bc1e585a2b098e919e0b988cbd256d061d4170f7d14793c4e7a86dde"
+    },
+    {
       "path": "net/tslat/aoa3/content/world/spawner/PixonSpawner.class",
       "bytes": 11024,
       "sha256": "73b7f70f9dc7dc0ac636161f811b7be0a07333c5bcd40d79543d09423d062a41"
+    },
+    {
+      "path": "net/tslat/aoa3/content/world/spawner/PixonVariantSpawner.class",
+      "bytes": 18192,
+      "sha256": "7f031a2e21e7e8f556006261c6640aef13aa58cad4950bf92adb31501d4587f9"
     },
     {
       "path": "net/tslat/aoa3/content/world/spawner/RoamingTraderSpawner.class",
@@ -118978,8 +119033,8 @@
     },
     {
       "path": "net/tslat/aoa3/data/server/AoACustomSpawnersListener.class",
-      "bytes": 6126,
-      "sha256": "89c4c4772364561b211c20ac2226d19f851f573c736f1648d5385f1b2bdfbd00"
+      "bytes": 10489,
+      "sha256": "f1526c1ed478c2ac496d5ccfcd21930dbd2882bd05e5541b6b7cc2557b2fddce"
     },
     {
       "path": "net/tslat/aoa3/data/server/AoAHaulingFishReloadListener$1.class",
@@ -119058,8 +119113,8 @@
     },
     {
       "path": "net/tslat/aoa3/event/GlobalEvents.class",
-      "bytes": 4726,
-      "sha256": "fb3c0a00b7d553be4506b0a73f9de1f7bb8081d69a6ae32dfd538c2b2735fa83"
+      "bytes": 3788,
+      "sha256": "46f7d64dbef289b07d49d8a1408f2e5bdf59a64c0bc7c07d09a1f6e0e8693a57"
     },
     {
       "path": "net/tslat/aoa3/event/PlayerEvents.class",
@@ -120537,6 +120592,6 @@
       "sha256": "5d93c3c66ff356c0c07e2f25f7a17468d94bb766883e063f3517b24411f5e858"
     }
   ],
-  "memberCount": 24106,
+  "memberCount": 24117,
   "runtimeCertificationInferred": false
 }

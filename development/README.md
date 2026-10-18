@@ -14,6 +14,10 @@ In the owner's installed Enderloom, choose **Advent of Ascension · Current Play
 
 The complete historical/latest union, later Anima/Soul Power/tablet/armour consumers, additional deity chains, all natural progression and travel, optional full-pack compatibility, migration and equivalent-work performance gates remain open. Twenty-five loaded-world validation contexts are not full dimension gameplay acceptance.
 
+## Current Pixon spawning acceptance
+
+[Complete current spawn-policy/native/production continuation](PIXON-SPAWNING-2026-10-17.md). All six policies, 986 weighted tickets, controlled real-terrain spawning and both native backends pass. Current Playtest is updated in place, preserving every existing world/config file and launch choice. Full modern Pixon reconciliation and the whole merge remain open.
+
 ## Current merge implementation
 
 [2026-10-17 Extraction/Anima source, compile and native-test progress](merge-progress-2026-10-17.json). Complete native client/server, independent every-member readback and ordinary signed-in production/server save/restart have passed. The original `tooling/verify_anima_extraction_native.py` verifies the scoped retained local proof, rejects incomplete proof variants and optionally compares every native client/server JAR member. It does not certify the full union. The accepted update is promoted as Current Playtest; the previous verified profile and worlds remain available.
