@@ -18,7 +18,15 @@ The grenade drops more than the ordinary zero-gravity bullet path and triggers a
 - The bonus is chance-based, not a guaranteed grenade from every trigger event.
 - Bullets and grenades have different impact paths and flight behavior.
 - Ammunition, durability, recoil modifiers and target rules affect sustained use.
-- Actual target DPS, practical range, exact acquisition and full modpack interactions remain separate verification work.
+- Actual target DPS, practical range and full modpack interactions remain separate verification work.
+
+## How to obtain it in this version
+
+The released infusion_baronator recipe uses one Gun Frame as its input and one each of Grenade, an iron-ingot ingredient, a baronyte-ingot ingredient and a varsium-ingot ingredient. The three metals are tag ingredients: forge:ingots/iron, forge:ingots/baronyte and forge:ingots/varsium. Do not assume every visually similar ingot qualifies.
+
+<img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-gun_frame.png" width="48" alt="gun frame" /> <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-baronyte_ingot.png" width="48" alt="baronyte ingot" /> <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-varsium_ingot.png" width="48" alt="varsium ingot" />
+
+Use the version's infusion recipe system, not a guessed normal crafting-grid arrangement. [Released recipe evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-acquisition-evidence.json).
 
 ## Original artwork and projectile assets
 

@@ -18,7 +18,20 @@ The original one-tick delay is the firing baseline. A rotating visual barrel clu
 - Low per-projectile base input makes actual target handling especially important; raw arithmetic is not a damage benchmark.
 - Continuous use consumes ammunition and durability; resource policies and enchantments must remain visible.
 - Cosmetic rotation should remain phase-continuous during starts, stops and rapid retriggers.
-- Exact acquisition, useful range and performance in the full pack still need explicit verification.
+- Useful range and performance in the full pack still need explicit verification.
+
+## Where it comes from and original upgrade routes
+
+The released Lelyetian Tower main chest-loot table includes Minigun. Both the tower bottom and top structure NBT files reference that table. This is a chance-based loot route, not a guaranteed weapon in every chest. The table has ten base rolls and weighted entries; luck and actual loot evaluation matter, so no unconditional drop percentage is claimed here.
+
+Two native upgrade-kit recipes also use Minigun:
+
+| Input and kit | Result |
+|---|---|
+| Minigun + <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-weapon_parts.png" width="48" alt="weapon parts" /> Weapon Parts | Megagun |
+| Minigun + <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-predator_upgrade_kit.png" width="48" alt="predator upgrade kit" /> Predator Upgrade Kit | Predigun |
+
+These are original AoA upgrade recipes, distinct from our new modular attachment system. Preserve their acquisition and saved-item semantics. [Exact loot, recipe and structure-reference evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-acquisition-evidence.json).
 
 ## Original artwork and projectile
 

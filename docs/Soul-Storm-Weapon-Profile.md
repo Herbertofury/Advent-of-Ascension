@@ -18,7 +18,22 @@ It uses Spirit and has durability. The one-tick firing-delay input allows a nomi
 - **Limitation:** falling flight demands trajectory awareness; it should not be described as an unchanged long-range hitscan weapon.
 - **Resource pressure:** a base Spirit cost is paid per successful firing attempt, with enchantment/equipment modifiers in the cost path.
 - **Quirk:** the renderer adds sparkler particles during rendering. New effects should use bounded, frame-independent emission rather than copy a render-rate-dependent spawn pattern blindly.
-- **Unverified here:** actual DPS against representative targets, practical range, acquisition route for this exact build and interactions with every installed enchantment/mod. These need their own evidence.
+- **Unverified here:** actual DPS against representative targets, practical range and interactions with every installed enchantment/mod. These need their own evidence.
+
+## How to obtain it in this version
+
+The released infusion_soul_storm recipe produces Soul Storm from a Blaster Frame plus the following infusion ingredients:
+
+| Ingredient | Count |
+|---|---:|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-blaster_frame.png" width="48" alt="blaster frame" /> Blaster Frame, input item | 1 |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-ghoulasm.png" width="48" alt="ghoulasm" /> Ghoulasm | 2 |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-ghostly_powder.png" width="48" alt="ghostly powder" /> Ghostly Powder | 3 |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-icon-ghastly_ingot.png" width="48" alt="ghastly ingot" /> Ghastly ingot ingredient | 1 |
+
+The ingot uses the forge:ingots/ghastly tag, so eligibility follows that tag rather than a hard-coded icon alone. This is an infusion recipe, not an ordinary shaped crafting-grid recipe. The matching source has Infusion Table recipe handling; native crafting verification remains open.
+
+[Exact released acquisition data](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-profile-acquisition-evidence.json)
 
 ## Original art and projectile assets
 

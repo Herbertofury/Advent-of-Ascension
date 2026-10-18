@@ -1,0 +1,189 @@
+{
+  "release": "AoA3.7.1 / Minecraft1.20.1",
+  "matches": {
+    "aoa3:soul_storm": [
+      {
+        "path": "data/aoa3/recipes/infusion_soul_storm.json",
+        "data": {
+          "type": "aoa3:infusion",
+          "ingredients": [
+            {
+              "item": "aoa3:ghoulasm"
+            },
+            {
+              "item": "aoa3:ghoulasm"
+            },
+            {
+              "item": "aoa3:ghostly_powder"
+            },
+            {
+              "item": "aoa3:ghostly_powder"
+            },
+            {
+              "item": "aoa3:ghostly_powder"
+            },
+            {
+              "tag": "forge:ingots/ghastly"
+            }
+          ],
+          "input": {
+            "item": "aoa3:blaster_frame"
+          },
+          "result": {
+            "item": "aoa3:soul_storm"
+          }
+        }
+      }
+    ],
+    "aoa3:baronator": [
+      {
+        "path": "data/aoa3/recipes/infusion_baronator.json",
+        "data": {
+          "type": "aoa3:infusion",
+          "ingredients": [
+            {
+              "item": "aoa3:grenade"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:ingots/baronyte"
+            },
+            {
+              "tag": "forge:ingots/varsium"
+            }
+          ],
+          "input": {
+            "item": "aoa3:gun_frame"
+          },
+          "result": {
+            "item": "aoa3:baronator"
+          }
+        }
+      }
+    ],
+    "aoa3:minigun": [
+      {
+        "path": "data/aoa3/loot_tables/structures/lelyetia/lelyetian_tower/main.json",
+        "data": {
+          "type": "minecraft:chest",
+          "pools": [
+            {
+              "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": -1.0
+              },
+              "entries": [
+                {
+                  "type": "minecraft:empty",
+                  "quality": -1,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:minigun"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:yellow_spores",
+                  "weight": 5
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "aoa3:orange_spores",
+                  "weight": 5
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "max": 7.0,
+                        "min": 2.0
+                      },
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "aoa3:achony_log",
+                  "weight": 7
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "max": 7.0,
+                        "min": 2.0
+                      },
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "aoa3:churry_log",
+                  "weight": 7
+                },
+                {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "max": 2.0,
+                        "min": 1.0
+                      },
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "aoa3:magic_repair_dust",
+                  "weight": 2
+                }
+              ],
+              "rolls": 10.0
+            }
+          ]
+        }
+      },
+      {
+        "path": "data/aoa3/recipes/upgrade_kit_megagun.json",
+        "data": {
+          "type": "aoa3:upgrade_kit",
+          "input": {
+            "item": "aoa3:minigun"
+          },
+          "result": {
+            "item": "aoa3:megagun"
+          },
+          "upgrade_kit": {
+            "item": "aoa3:weapon_parts"
+          }
+        }
+      },
+      {
+        "path": "data/aoa3/recipes/upgrade_kit_predigun.json",
+        "data": {
+          "type": "aoa3:upgrade_kit",
+          "input": {
+            "item": "aoa3:minigun"
+          },
+          "result": {
+            "item": "aoa3:predigun"
+          },
+          "upgrade_kit": {
+            "item": "aoa3:predator_upgrade_kit"
+          }
+        }
+      }
+    ]
+  },
+  "minigun_loot_table_structure_refs": [
+    "data/aoa3/structures/lelyetia/lelyetian_tower/bottom.nbt",
+    "data/aoa3/structures/lelyetia/lelyetian_tower/top.nbt"
+  ],
+  "scope": "Released recipe and loot JSON plus exact loot-table string references in structure NBT; no native crafting/loot playtest"
+}

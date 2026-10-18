@@ -33,6 +33,16 @@ Allow previewing and mixing supported channels. A loadout can have a favorite tr
 
 ## QA and performance acceptance
 
+### Stickers, animated decals and custom emblems
+
+Owner-added requirement: static, animated and glowing stickers, plus custom sticker/emblem designs. Include placement, scale, rotation, layering, tint, opacity, glow intensity, undo/redo and reusable saved layouts. Earn designs through gameplay and combine them with skins and charms. Supply weapon-specific valid surfaces and a preview across firing, aiming and reloading; stickers must follow the correct moving part and not float between attachment swaps.
+
+Custom imports must be validated image data, with explicit size, resolution, frame-count and animation-duration limits. Never execute embedded scripts or fetch arbitrary remote images during rendering. Use stable asset hashes, cached decoded textures and a documented fallback when a multiplayer client lacks an asset. Custom artwork sharing is opt-in under server rules; hidden remote tracking URLs are not an image format.
+
+Support emissive/glowing materials without requiring each sticker to become a dynamic world light. Provide capped brightness, reduced-flash mode, distance/detail limits and a static animation fallback. Reuse texture atlases/material batches where appropriate and measure draw calls, memory and frame time. Preserve gameplay-identifying silhouettes and sights; a decal does not secretly change damage.
+
+When an attachment is removed, preserve its saved decal layout for later reinstallation rather than losing the player's design. Define precedence between skin materials, decals, charm visuals and reactive overlays, and preview conflicts clearly. Test UV seams, mirrored surfaces, normal direction, z-fighting, transparent layers, color accessibility and every animation.
+
 - Preserve original loot and kill credit; test boss phases, multipart entities, simultaneous hits, disconnects and duplicate network events.
 - Grant rewards once under the declared unlock rules; prevent duplicate claims caused by retries or reloads.
 - Charm swing must clear hands, magazines, sights and moving parts across every animation and attachment combination.
@@ -53,3 +63,11 @@ Allow previewing and mixing supported channels. A loadout can have a favorite tr
 - [ ] Run actual game tests, multiplayer tests and performance comparisons.
 
 [Alternate barrels and skins](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Alternate-Barrels-and-Skins) · [Functional upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) · [Weapon profile standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Profile-Standard)
+
+## Original concept exploration
+
+![Original charm and decal concepts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/charms-and-decals-concepts-v1.png)
+
+Six original collectible silhouettes and decal/animation/glow directions. Concept art does not prove grip clearance: the illustrated hanging pennant still needs full movement and reload clearance tests on the actual model.
+
+[Actual Charmsy release study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Charmsy-Direct-Study) records the inspected pack separately from our proposed gameplay.
