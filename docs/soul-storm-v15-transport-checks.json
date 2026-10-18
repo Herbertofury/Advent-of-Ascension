@@ -1,0 +1,62 @@
+{
+  "scope": "Exact released TML data baking, optional float32 encoding and authoring LOD; no native GPU, gameplay or performance acceptance",
+  "variants": [
+    {
+      "variant": "full",
+      "mesh_bones": 13,
+      "triangles": 44264,
+      "baked_vertices": 177056,
+      "eight_float_array_payload_bytes": 5665792,
+      "geometry_sha256": "29c5f2771e2a50f904ff9e89696bb7a70b63d7ccb973e3f078dfa3616bbd192d",
+      "preflight": {
+        "scope": "Offline schema/index/selected degeneracy gate; not native rendering or full surface QA",
+        "counts": {
+          "mesh_bones": 13,
+          "source_triangles": 44264,
+          "source_quads": 0,
+          "padded_triangles": 0,
+          "render_vertices": 177056
+        },
+        "warnings": []
+      },
+      "java17": "PASS actual TML0.1.8 constructor/baker: pivot subtraction, model-unit scaling, Y/V flips, normalized/pixel UVs, three-corner and Meshy-padded triangles, untriangulated five-corner count and bad-index rejection. No GPU/cache/render entry point executed; graphics/logging types are stand-ins.\nPASS released compileConsumer recording-sink check: positions, UVs, tint/light/overlay forwarding; fallback emits the NEGATIVE of stored baked normals. No GPU/native lighting verdict.\nNormal diagnostic: minimum length=0.9999998, faces below 0.99=0\nPASS actual released TML baker: 13 Soul Storm mesh bones, 177056 baked vertices, finite geometry/normals, bounded UVs, empty GPU caches. Static geometry only; no rendering or game acceptance.\nPASS clean isolated build; no upstream classes or dependencies redistributed\n",
+      "java21": "PASS actual TML0.1.8 constructor/baker: pivot subtraction, model-unit scaling, Y/V flips, normalized/pixel UVs, three-corner and Meshy-padded triangles, untriangulated five-corner count and bad-index rejection. No GPU/cache/render entry point executed; graphics/logging types are stand-ins.\nPASS released compileConsumer recording-sink check: positions, UVs, tint/light/overlay forwarding; fallback emits the NEGATIVE of stored baked normals. No GPU/native lighting verdict.\nNormal diagnostic: minimum length=0.9999998, faces below 0.99=0\nPASS actual released TML baker: 13 Soul Storm mesh bones, 177056 baked vertices, finite geometry/normals, bounded UVs, empty GPU caches. Static geometry only; no rendering or game acceptance.\nPASS clean isolated build; no upstream classes or dependencies redistributed\n"
+    },
+    {
+      "variant": "world_lod",
+      "mesh_bones": 13,
+      "triangles": 20584,
+      "baked_vertices": 82336,
+      "eight_float_array_payload_bytes": 2634752,
+      "geometry_sha256": "0aadcc7c1c46a987a7c1df2ecc38011e4913b2f18647e3f635582ad2e6d42a1f",
+      "preflight": {
+        "scope": "Offline schema/index/selected degeneracy gate; not native rendering or full surface QA",
+        "counts": {
+          "mesh_bones": 13,
+          "source_triangles": 20584,
+          "source_quads": 0,
+          "padded_triangles": 0,
+          "render_vertices": 82336
+        },
+        "warnings": []
+      },
+      "java17": "PASS actual TML0.1.8 constructor/baker: pivot subtraction, model-unit scaling, Y/V flips, normalized/pixel UVs, three-corner and Meshy-padded triangles, untriangulated five-corner count and bad-index rejection. No GPU/cache/render entry point executed; graphics/logging types are stand-ins.\nPASS released compileConsumer recording-sink check: positions, UVs, tint/light/overlay forwarding; fallback emits the NEGATIVE of stored baked normals. No GPU/native lighting verdict.\nNormal diagnostic: minimum length=0.9999999, faces below 0.99=0\nPASS actual released TML baker: 13 Soul Storm mesh bones, 82336 baked vertices, finite geometry/normals, bounded UVs, empty GPU caches. Static geometry only; no rendering or game acceptance.\nPASS exact released TML baker bit equivalence: 13 meshes / 658688 baked float values. No GPU or native-game execution.\nPASS clean isolated build; no upstream classes or dependencies redistributed\n",
+      "java21": "PASS actual TML0.1.8 constructor/baker: pivot subtraction, model-unit scaling, Y/V flips, normalized/pixel UVs, three-corner and Meshy-padded triangles, untriangulated five-corner count and bad-index rejection. No GPU/cache/render entry point executed; graphics/logging types are stand-ins.\nPASS released compileConsumer recording-sink check: positions, UVs, tint/light/overlay forwarding; fallback emits the NEGATIVE of stored baked normals. No GPU/native lighting verdict.\nNormal diagnostic: minimum length=0.9999999, faces below 0.99=0\nPASS actual released TML baker: 13 Soul Storm mesh bones, 82336 baked vertices, finite geometry/normals, bounded UVs, empty GPU caches. Static geometry only; no rendering or game acceptance.\nPASS exact released TML baker bit equivalence: 13 meshes / 658688 baked float values. No GPU or native-game execution.\nPASS clean isolated build; no upstream classes or dependencies redistributed\n"
+    }
+  ],
+  "float32_compaction": {
+    "source_bytes": 2258953,
+    "output_bytes": 1726063,
+    "reduction_fraction": 0.23590132242680573,
+    "verified_float32_values": 73143,
+    "source_sha256": "0aadcc7c1c46a987a7c1df2ecc38011e4913b2f18647e3f635582ad2e6d42a1f",
+    "output_sha256": "cb2d3db3bf88896e08b748db384ba29bd51dd3d3b10806c8488f01571ff6eae8",
+    "scope": "TML consumed float32 bit equivalence; not a generic double-precision JSON rewrite or FPS claim"
+  },
+  "array_payload_excludes": [
+    "Java object/array headers",
+    "JSON object graph",
+    "GPU allocations",
+    "cache entries and driver overhead"
+  ]
+}
