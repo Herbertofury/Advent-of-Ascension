@@ -56,6 +56,8 @@ The upgraded model should offer animated inspection, reactive but readable emiss
 
 ## Editable geometry and motion study
 
+[Open the interactive turntable and animation timeline](https://herbertofury.github.io/Advent-of-Ascension/iominator-workbench.html). Rotate the exported cuboids, scrub all four clips and inspect the static pose. The Canvas viewer uses flat palette colors and linear keyframes; it does not certify the native renderer.
+
 ![Actual exported cuboid geometry in a Blender authoring preview](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/iominator-authoring-v3-iominator-studio.png)
 
 [Download editable source versions 1–3](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/iominator-authoring-v1-v3.zip). The current study has 10 bones, 236 cuboids, an original 128×96 texture atlas and idle, firing, draw and inspection clips. It preserves the rear loop and broad color identity but **does not yet meet the concept's sculpting/material quality**. It is an editable blockout and motion foundation, not a finished gun or installable pack.
