@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T17:23:57.167240+00:00",
+  "observedAt": "2026-10-18T18:47:17.327202+00:00",
   "evidenceKind": "owner-local-whole-source-original-native-reference-and-target-diagnostics",
   "analysisOnly": false,
   "importedCodeOrAssetsPublished": false,
@@ -379,5 +379,57 @@
     "allFourNativeProgramOutputsDeterministicInWorkload": true,
     "everyPossibleSeedOrBranchVerified": false,
     "nativeGameWorldsActivated": false
+  },
+  "nativeEntityDependencyCohort": {
+    "verifiedServer": {
+      "name": "whole-mod-modern-server-baseline-c324a537-d8d5-4662-a446-3c6375738da4.json",
+      "bytes": 38540891,
+      "sha256": "e6f0abcf275005fa0f9be9cf312b35eadca07a65e06754ebfe8ca25c63a55223"
+    },
+    "verifiedNativeJar": {
+      "name": "aoa3-3.7.1.jar",
+      "bytes": 149429335,
+      "sha256": "f74be697dda6f70ed893c7dd6a160904785a0ac45f607ea2f5ba2d4bb18579ee"
+    },
+    "independentProof": {
+      "name": "independent-whole-native-entity-family-v95n.json",
+      "completeSourceOwners": 1165,
+      "completeSourceBytes": 9962648,
+      "completeOriginalPrograms": 28,
+      "completeOriginalMedia": 24,
+      "allSourceAndMediaBytesVerified": true,
+      "actualLogAndFullCaptureAgree": true,
+      "generatedBrokenResultControlsRejected": 5
+    },
+    "scopedNativeCallbacks": {
+      "actualAttributes": 9,
+      "normalFadeDropSeeds": 128,
+      "effect": "WITHER",
+      "effectDurationTicks": 60,
+      "effectAmplifier": 2,
+      "hunterRewardBoundaryCases": 700,
+      "projectileSaveGravityLifetimeAndImpactCases": 2
+    },
+    "newerEquivalent": {
+      "identity": "aoa3:fade",
+      "source": "Tslat 1.1.3",
+      "damageScaledSplitAndFiveNearbyFadeCapRetained": true,
+      "all78GeometryStatementsEqualAtFloat32Precision": true,
+      "fullTextureBytesEqual": true,
+      "duplicateMobCreated": false
+    },
+    "clientAcceptance": {
+      "passed": false,
+      "firstFailedNativeClientRetained": true,
+      "firstFailure": "Particle atlas belongs to ParticleEngine, not the model-manager atlas set",
+      "correction": "Registered native particle types and reload-safe SpriteSets share one exact original sheet and retain all 56 particles",
+      "correctedCandidateNativeClientStillPending": true
+    },
+    "nativeDimensionsActivated": false,
+    "fullEntityGameplayVerified": false,
+    "historicalHunterUIAbilitiesRestrictionsAndSyncComplete": false,
+    "hariForThisCohortVerified": false,
+    "completeAoAPort": false,
+    "currentPlaytestRemains": "v93"
   }
 }

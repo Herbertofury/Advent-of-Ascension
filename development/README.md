@@ -68,3 +68,11 @@ union, acquisition and 2,000 FPS target remain open.
 
 
 [Whole Snapshot source recovery and four-dimension program cohort](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md). Complete source recovery, the 78-block native client/server batch and all four serial/parallel terrain programs are verified within their stated scopes. Current v93 stays playable; the full merge and world/entity/progression gates remain open.
+
+
+The [missing entity dependency continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md)
+now passes the whole native server with 128 Fade drop seeds, 700 Hunter reward
+cases and both projectile lifecycle/impact cases. Every source owner and all
+24 restored media files are independently read back. Corrected client effects,
+full gameplay and live dimension/progression gates remain open; Current Playtest
+remains v93. The first failed client fixture is retained.

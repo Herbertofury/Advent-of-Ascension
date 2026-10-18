@@ -34,6 +34,38 @@ Current Playtest stays v93. Fade/Evercron, world/biome/portal/progression, origi
 terrain equivalence, remaining union and full release gates stay open.
 
 
+## Missing entity dependency cohort — scoped native server acceptance
+
+The complete native mod compiles, packages and passes all inherited server checks
+with the Fade/Evercron dependency cohort. Its additional actual callbacks pass:
+9 attributes, 128 Fade drop seeds, WITHER for 60 ticks at amplifier 2, 700 native
+Hunter reward-boundary cases, and projectile save/load, 0.075 gravity, original
+age-40 expiry callback and the actual impact impulse. The independent reader
+hashes every one of the 1,165 source owners, all 24 restored original media files
+in the native JAR and the complete executed/captured case domain. Five generated
+bad-result controls are rejected.
+
+The later Tslat 1.1.3 Fade's damage-scaled splitting and nearby five-Fade cap win
+over the older unbounded behavior. The texture is byte-identical and all 78
+geometry statements agree at JVM float32 precision, so one mob/model remains.
+EvercronLiving has no sound definition or payload in the complete original JAR;
+that absence is retained explicitly rather than filled with invented audio.
+
+The first native client found an actual particle-atlas API error. Its failed
+fixture stays recorded. The correction registers native particle providers and
+reload-safe SpriteSets, sharing one full original sheet while keeping all 56
+particles. The corrected client, actual native model draws, detailed visual
+behavior, wider Hunter UI/abilities/restrictions/sync, protected obstruction,
+live dimensions/progression and required Hari checks remain open. Current
+Playtest stays v93; the full-merge warning is retained.
+
+The published standalone reader uses local full native receipts and their actual
+sources/media; no original mod source, asset or JAR is published:
+
+```console
+python development/tooling/verify_snapshot_native_entities.py path/to/native-server.json output-proof.json
+```
+
 ## Original authority and whole source coverage
 
 The unchanged original Snapshot runs under Minecraft 1.7.10 / Forge
