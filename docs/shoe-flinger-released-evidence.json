@@ -1,0 +1,67 @@
+{
+  "minecraft": "1.20.1",
+  "aoa": "3.7.1",
+  "item": "aoa3:shoe_flinger",
+  "inputs": {
+    "base_damage": 6.0,
+    "durability": 1600,
+    "delay_ticks": 6,
+    "stored_recoil_argument": 1.0
+  },
+  "class_sha256": {
+    "net/tslat/aoa3/content/item/weapon/gun/ShoeFlinger.class": "0fab3f590883a29f6d0cee8af4f28e288c8a5aed22f62ecf0b091981ed29d220",
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net/tslat/aoa3/content/entity/projectile/gun/ShoeShotEntity.class": "667ec379237447e6127d948f03325b4641ccfabb4b2aab7055239eae586654f6",
+    "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "net/tslat/aoa3/client/render/entity/projectile/bullets/ShoeShotRenderer.class": "7cd355285364f3466dc35571b01e034fc352e0b932d7fe4c3d2ecd0e2fb1fab0",
+    "net/tslat/aoa3/client/AoAEntityRendering.class": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee",
+    "net/tslat/aoa3/common/registration/item/AoAWeapons.class": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703"
+  },
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "item": "aoa3:old_boot"
+      }
+    ],
+    "input": {
+      "item": "aoa3:gun_frame"
+    },
+    "result": {
+      "item": "aoa3:shoe_flinger"
+    }
+  },
+  "ammo": {
+    "released_field": "Items.f_42463_",
+    "named_source_comparison": "Items.LEATHER_BOOTS"
+  },
+  "source_comparison": {
+    "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ShoeFlinger.java",
+    "sha256": "67ea980d71d616c1f9a651418e4793d6af16b5fbb0d22c6117fe0d041fe20ff1"
+  },
+  "projectile": {
+    "class": "ShoeShotEntity",
+    "life_argument": 120,
+    "damage_multiplier": 1.0,
+    "pierce_argument": 0,
+    "gravity_return": 0.12999999523162842
+  },
+  "effect": {
+    "knockback_argument": 1.35,
+    "equip_on_empty_feet": "new default leather boots stack, not copy of consumed ammo",
+    "advancement": "aoa3:overworld/la_chancla",
+    "criterion": "shoe_flinger_boss_kill",
+    "predicate": "ServerPlayer shooter; target health == 0; target cannot change dimensions"
+  },
+  "renderer": {
+    "texture": "assets/aoa3/textures/entity/projectile/bullets/shoe_shot.png",
+    "scale": 0.5,
+    "primitive": "four-vertex textured camera-facing spinning quad"
+  },
+  "limits": [
+    "No native game capture or gameplay acceptance",
+    "No guarantee every modded boss satisfies advancement predicate",
+    "Input boot tags are not copied by the inspected equip hook",
+    "No final damage, loot recovery or performance measurement"
+  ]
+}
