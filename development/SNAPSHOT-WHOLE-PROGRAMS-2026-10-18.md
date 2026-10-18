@@ -200,3 +200,28 @@ older arena or substitute an unrelated guardian. Full classic AI/global weapon
 handler equivalence, protected toss rollback, native worlds/portals, save and
 multiplayer behavior, production/Hari and equivalent-work FPS acceptance remain
 open. Current playable profiles remain v93. The full-merge warning remains valid.
+
+## Complete five-temple program analysis — placement gate remains open
+
+The unchanged original five temple classes now execute all their helper methods
+on 35 labelled set-block fixtures: 163,870 complete ordered writes. Full traces,
+final written states and original class hashes stay retained privately. This is
+original bytecode under JDK 17 with generated boundary fixtures, **not original
+Minecraft execution or native world placement**.
+
+The five complete geometries, metadata and update-call modes match exactly. One
+shared 4,682-operation program plus explicit per-temple source-field bindings
+expands identically to all 23,410 operations. The uncompressed JSON drops from
+1,775,473 to 74,737 bytes; four generated destructive controls are rejected.
+No operation, overwrite, source identity or input authority is discarded. No
+runtime speed improvement is inferred from this representation measurement.
+
+The complete 17-unit temple/guardian/station family and five complete placement
+providers are source-accounted. MegaGuardian requires the full Krasaun's Dawn
+weapon and its eight projectile/power dependencies; those complete programs are
+retained too. The current native weapon successors need explicit semantic
+reconciliation, including their updated effects and balance. Natural placement
+conditions include biome/ground restrictions and a preceding Barathos else-if
+chain, so a bare unconditional rarity filter would be incomplete. Native field
+bindings, placement/spawning and whole survival progression remain unaccepted.
+Current playable stays v93 and the full-merge warning remains valid.
