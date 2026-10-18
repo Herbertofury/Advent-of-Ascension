@@ -42,7 +42,7 @@
     "bytes": 4764
   },
   "nativeAcceptance": {
-    "state": "in_progress",
+    "state": "server_passed_client_and_production_pending",
     "previousFailedCandidate": {
       "file": "output/whole-mod-modern-server-baseline-8e142092-01c9-42db-a74e-4abd76877e1d.json",
       "sha256": "876028a916777e4e4f32b7879073e23d654aea5b4f60afff7feef64b2e68a6c9",
@@ -87,11 +87,20 @@
         },
         "observedFailure": "The arrow fixture attempted to construct a new Item after Forge froze its registries. Skill XP and Anima fixtures passed before this failure.",
         "correction": "Use the actual registered Alacrity Bow and Mecha Crossbow; keep all ammunition/addon NBT wrapping and native save assertions."
+      },
+      {
+        "receipt": {
+          "file": "output/whole-mod-modern-server-baseline-db2a1292-251f-43b0-b03b-5af16540456f.json",
+          "sha256": "38e44d4214091ae998e22ad3c860fe3a724eaf23ac51db04eaf410b5a13dcd08",
+          "bytes": 25659970
+        },
+        "observedFailure": "Pixon fixture set a creative ability flag without satisfying the actual server game-mode or Imbuing requirement.",
+        "correction": "Use Survival: prove rejection below Imbuing 11, then five genuine harvest units at level 11, five bowl wear, day Luxon 25 and night Luxon zero. Restore complete Imbuing save state. Corrected native run passed."
       }
     ],
     "currentProbe": {
-      "file": "output/aoa-v86m-native-extraction-anima-server-probe-h-20261017.json",
-      "sha256": "832ea857906d1674508bba111196dd8edd46f458d6311f6b3d5634afcd8343ab",
+      "file": "output/aoa-v86m-native-extraction-anima-server-probe-i-20261017.json",
+      "sha256": "c9f8b815fcd51b801c54e2e9292d618a0e472332dfaa4a66087b610eb88d45e6",
       "bytes": 43806
     },
     "expectedNewScope": {
@@ -102,7 +111,7 @@
       "pixonTributeCases": 2,
       "nativeArrowWrappingAndSaveCases": 2
     },
-    "scopeStatus": "All 96 native skill threshold/save cases and 20 Anima progression/sync cases, plus actual bonemeal/pickup ownership and delay checks, passed in a run that later failed on weapon fixture setup. The complete corrected run remains in progress; no promotion.",
+    "scopeStatus": "Complete native server run passed, independently read back against this exact packaged mod. Client rendering and ordinary signed-in production/save/restart remain required before promotion.",
     "passedBeforeLaterFixtureFailure": [
       {
         "family": "skill_xp",
@@ -124,7 +133,32 @@
         "wholeRunAccepted": false,
         "progressionCases": 20
       }
-    ]
+    ],
+    "acceptedServer": {
+      "file": "output/whole-mod-modern-server-baseline-83c7c7d0-7412-494e-afd6-f257918b3f54.json",
+      "sha256": "70971bd380af1e1f37df59d7884534503005279c1467e05b27786220cde9e3c0",
+      "bytes": 27494517
+    },
+    "independentServerProof": {
+      "file": "output/aoa-v86m-complete-native-anima-extraction-server-proof-20261017.json",
+      "sha256": "28d2209ce8882959b6476faaae6a03bcf190c09299c8ef024ad1d6d0b9f565b9",
+      "bytes": 2763
+    },
+    "verifiedNativeScope": {
+      "completeNativeSkills": 12,
+      "exactSkillThresholdCases": 96,
+      "animaProgressionSyncCases": 20,
+      "originalExtractionOutcomes": 22,
+      "extractionInventoryInteractions": 46,
+      "exactDyeIdentities": 16,
+      "exactRuneIdentities": 14,
+      "arrowWrapperSaveCases": 2,
+      "pixonInteractions": 2
+    },
+    "acceptedMod": {
+      "sha256": "f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e",
+      "bytes": 146925257
+    }
   },
   "stillOpen": [
     "Complete Anima Soul Power/tablet/armour consumer reconciliation",
