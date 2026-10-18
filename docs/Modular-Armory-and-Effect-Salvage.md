@@ -111,6 +111,21 @@ The proposed architecture is an AoA assembly/effect contract above version-speci
 
 [Static-source receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/modular-armory-tacz-source-evidence.json) lists file hashes and review limits; publication of that receipt accompanies the repository documentation update.
 
+## Native AoA effects: first extraction feasibility pass
+
+Pinned 1.20 source review shows why an effect core needs a real adapter rather than copying a weapon name or rerunning its firing method. These are source observations, not transferred effects already working in-game.
+
+| Donor example | Observed behavior in the inspected source | Extraction requirement |
+|---|---|---|
+| Baronator | Successful primary fire can add a server-side chance-based grenade | Preserve its secondary-event contract; never call the donor's full firing method and accidentally consume/fire twice |
+| Frosticator | Living-target slowdown plus a blue projectile type | Separate status behavior from projectile appearance; define slowdown stacking |
+| Miasma | Living-target slowdown in this source version | Do not infer poison from its name |
+| Electinator | Nearby Enemy lookup and scaled secondary damage | Specify whose damage basis applies; bound dispatch and prevent proc recursion |
+| Golden Fury | Firing particles plus an owned harmful area-effect cloud on impact | Separate cosmetic cues from persistent entities; preserve owner and cleanup behavior |
+| Blood Iron | Metal Slug ammunition and a corresponding projectile class | Treat as a resource/projectile conversion, not a universal on-hit effect |
+
+Source: [AoA gun classes at the inspected revision](https://github.com/Tslat/Advent-Of-Ascension/tree/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun). Method-name discovery across this directory is only a starting index: inherited behavior, projectile classes, registry configuration and the actual released JAR still need reconciliation. A compatible socket is not proof that a donor effect is transferable.
+
 ## Acceptance and implementation backlog
 
 - [ ] Pin AoA/TaCZ/loader versions and inventory actual native effects/resources.

@@ -1,0 +1,924 @@
+{
+  "scope": "Static gun-class method-name inventory plus six manually reviewed classes. Regex is a discovery aid, not Java parsing or proof of all inherited/projectile behaviors. No effect extraction implemented.",
+  "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3",
+  "classes_scanned": 78,
+  "classes_with_candidate_hooks": 55,
+  "manual_reviews": 6,
+  "records": [
+    {
+      "class": "Abominator",
+      "sha256": "c9524f3e84b30fc9a33759dff759c262cd2a892ecab9d08da6ec9d6b10beb25d",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Abominator.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "ApocoAssaultRifle",
+      "sha256": "d4ad36523f093886deb7509eef7886b0b2303a1546ad980ef3d908e836595a28",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ApocoAssaultRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "class": "ApocoRifle",
+      "sha256": "5064be31a5cdaee43a9a814c224ec18e6ec66dfd3c9f6f60e82b5319dea1e8e5",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ApocoRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 35
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "class": "AquaMagnum",
+      "sha256": "f40e9f0f40269bd64960a463fbd1a699b5235509c39806e6650799a8f8b3b65c",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/AquaMagnum.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Artifact",
+      "sha256": "0d89d87ea87a4a22731ea6787ba8ec11984c42f29646ebd53f11870c54ce99ec",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Artifact.java",
+      "candidate_hooks": [
+        {
+          "method": "getFiringDelay",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "class": "Baronator",
+      "sha256": "75e7d891cce17861121fcd1dcc40e0927c658f200fe6fc1d374806db62aaaab1",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Baronator.java",
+      "candidate_hooks": [
+        {
+          "method": "fireGun",
+          "line": 36
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 50
+        }
+      ],
+      "manual_review": {
+        "observed": "Successful primary fire can also spawn a grenade through a server-side chance branch; impact damage distinguishes grenade behavior.",
+        "adapter_rule": "Extract the secondary-effect contract, never call the donor fireGun to trigger another full ammo-consuming primary shot. Preserve native chance and event provenance."
+      }
+    },
+    {
+      "class": "BayonetteRifle",
+      "sha256": "ae6bcb5366bdbf4877827234ada42029084b2994e3f3393f264cca84f9d030d1",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/BayonetteRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "hurtEnemy",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "class": "BigTop",
+      "sha256": "d091d0286ea2acbc8e00081dcacc51e48b6c07e3da3e14ebafb9e3bbe02a257c",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/BigTop.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "BloodIron",
+      "sha256": "8e6ac0324bca3db74ff547a6bd99054c68593f18d27fe27c46d7b768abed9223",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/BloodIron.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 32
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 37
+        }
+      ],
+      "manual_review": {
+        "observed": "Overrides ammunition to Metal Slug and creates MetalSlugEntity.",
+        "adapter_rule": "This is a resource/projectile pair, not a generic detachable on-hit effect; require an explicit conversion adapter."
+      }
+    },
+    {
+      "class": "ChainWrecker",
+      "sha256": "c494f82d3b29088c63108e9388595d9533388b440ff747a9771c18657229fc5a",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ChainWrecker.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "ChilliChugger",
+      "sha256": "48260a83d7d94a3b9203fe0a513e3c1a5c8dc3d10d1639e448a6ae2148b007a0",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ChilliChugger.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 45
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 50
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "class": "Clownershot",
+      "sha256": "518dfc502b58442567727287a3765315e10f87d4e19f675f45f2430a8c32ed3e",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Clownershot.java",
+      "candidate_hooks": [
+        {
+          "method": "fireGun",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "class": "Construct",
+      "sha256": "f6a446b90f9cf259a1718a431f86f15a576944846eaaadc94dd4260a48cd06fa",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Construct.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "CoralClogger",
+      "sha256": "908dd10dff3d1b5b35c5e3aa0f2d3a4d93734803510bd1f45eff66b496457201",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/CoralClogger.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 48
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 53
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "class": "CoreRifle",
+      "sha256": "c40939cd9abfa980ea855222a9632fd987d39de9e2e161154a45672b93e4fe2e",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/CoreRifle.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "CrystalCarver",
+      "sha256": "c0a5994ddffcb63e9f2fe53bfa2f4e30e88391069aa0fd2fb2a768f365e13a0b",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/CrystalCarver.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Cyclone",
+      "sha256": "1eae87bbf3a3bc6e687c13a1917ecaeecc140f5a85c3436bcb413144335ab087",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Cyclone.java",
+      "candidate_hooks": [
+        {
+          "method": "fireGun",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "class": "Darkener",
+      "sha256": "909af0a6bf1f0e0efea2503b6c15a9998430064e6b53f60ce0df884bb1f33ae4",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Darkener.java",
+      "candidate_hooks": [
+        {
+          "method": "getRecoilForShot",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "class": "DartGun",
+      "sha256": "0a0151f65f1a77d7ef3502edbd47b3bf20cfd642709652c581df4dafc56e22e9",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/DartGun.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 43
+        },
+        {
+          "method": "findAndConsumeAmmo",
+          "line": 49
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 57
+        },
+        {
+          "method": "doFiringEffects",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "class": "DestructionRifle",
+      "sha256": "83281885292562a556eedd3b07d45bfcc1c755ef4ced354aa995d6cabfb9597c",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/DestructionRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "class": "DischargeRifle",
+      "sha256": "99d695c3f4a8efba30cdadfd56513720476a085975ae0a98a587ae2ee4045042",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/DischargeRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 35
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "class": "Draco",
+      "sha256": "037340819c692eb08b219fc65252d9f5af8aece733d68b6ac5b985561b0155bf",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Draco.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactDamage",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "class": "Dragilator",
+      "sha256": "229c66c01f2636add58b3b8f78568944bfc3251918cd1bc57614a914c98e2321",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Dragilator.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 33
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "class": "Dustometer",
+      "sha256": "0179322fb6f955ac5b7263f21b7411550e3faec266ac1eb81b4715ec7c1abbc6",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Dustometer.java",
+      "candidate_hooks": [
+        {
+          "method": "fireGun",
+          "line": 35
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "class": "EchoGull",
+      "sha256": "6a9b21085ebd989afc1d0629913bda77771960c1b7eac830a017fbe1efd91ebb",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/EchoGull.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "class": "Electinator",
+      "sha256": "31576ec79b06ca1ff45ca0cb9c7086022b662d90021e706eddb4664120799a71",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Electinator.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 35
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 40
+        }
+      ],
+      "manual_review": {
+        "observed": "Impact queries nearby Enemy entities and applies damage scaled from weapon damage and projectile multiplier.",
+        "adapter_rule": "Define recipient damage basis, target eligibility, per-shot dispatch and performance bounds; avoid repeated secondary-effect recursion."
+      }
+    },
+    {
+      "class": "FlameWrecker",
+      "sha256": "ae3bca285c7aa6910ba76f0f80a2b8e7ecc1309d2da6a70b622c925908063224",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/FlameWrecker.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "class": "FlamingFury",
+      "sha256": "5a34adb6e4e2cac745096ab57f5b81981d2af53f090b3d00930782983ac66393",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/FlamingFury.java",
+      "candidate_hooks": [
+        {
+          "method": "doFiringEffects",
+          "line": 38
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "class": "FloroRifle",
+      "sha256": "80808a459e116abf79ca666c0c4b66128aa4f86bbfe78e93474c531b704f9ed3",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/FloroRifle.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "FlowersFury",
+      "sha256": "4ccde71eea36564d3a6bc605f1d172921d75c183f0043900ed4134a3be31067e",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/FlowersFury.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "class": "Frosticator",
+      "sha256": "f4a053433e9a8f4940ec74b9efaa6dc9d368c32e02c1f3d99d0d88f87645d629",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Frosticator.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 35
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 40
+        }
+      ],
+      "manual_review": {
+        "observed": "Impact applies movement slowdown to living targets; uses a blue projectile class.",
+        "adapter_rule": "Separate status effect from cosmetic/projectile identity and define merge behavior for other slowdown cores."
+      }
+    },
+    {
+      "class": "Gardener",
+      "sha256": "95055d7d626c21d93620e0f3600c6ec9aa9b0c7ba9e07cfaf8fbbbd2a6c95325",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Gardener.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 39
+        },
+        {
+          "method": "findAndConsumeAmmo",
+          "line": 45
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "class": "GaugeRifle",
+      "sha256": "e99c9dfaced516add92b17b0e6b582558f13cd7d994fae8c0dd3ab89c9148954",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/GaugeRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 32
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "class": "Germinator",
+      "sha256": "29195aaa676a928427eef93dd1c5ad4b4dcc2b2fea8d2578a1a0ec727e73a88b",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Germinator.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 35
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "class": "GoldenFury",
+      "sha256": "84a36c153d243df737a551ea4a406183c7256671e6d2ee03c96868eb71b96a39",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/GoldenFury.java",
+      "candidate_hooks": [
+        {
+          "method": "doFiringEffects",
+          "line": 37
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 46
+        }
+      ],
+      "manual_review": {
+        "observed": "Firing emits dragon-breath particles; impact spawns an owned area-effect cloud with harm.",
+        "adapter_rule": "Separate cosmetic firing feedback from persistent effect entities; retain ownership and test cleanup and dense-mob cost."
+      }
+    },
+    {
+      "class": "HappyHaunter",
+      "sha256": "9c677baf107c635db606e87dfecc0ff99e0e16eed030e2b30c9da8a583acc70b",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/HappyHaunter.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "HaunterRifle",
+      "sha256": "6ea81965c157401a39480983dbe0747996b44d2614ea82760bdc5c5988d38cb9",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/HaunterRifle.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "HeatWave",
+      "sha256": "1e4afc55b4f18dfb35916798cc23f823cf015d4755f9f2280759fe73327c61c5",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/HeatWave.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 42
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 47
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 52
+        }
+      ]
+    },
+    {
+      "class": "Hiver",
+      "sha256": "7876974179daec8c777bba722c1fb475d3a88f368a4c190c9b1b5a764730b507",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Hiver.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "HotShot",
+      "sha256": "51c1511b2a61d33a9bd38b69a19287dcfe358447c14d14f69213815cfd5b01ad",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/HotShot.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 47
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 52
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "class": "HuntersRifle",
+      "sha256": "325126d67c79367493bceb39afabb9342bd6677f16f21fb38bf865ca3b63033a",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/HuntersRifle.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Iominator",
+      "sha256": "7396065d2ebcc603f8723ef043cef3024dbdde4fe32d3f0c1f153abd95373c6e",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Iominator.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "class": "IonRevolver",
+      "sha256": "8d76ba4dc689c533eac8896a075c65d288f2ec597b213a039088dea97661c510",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/IonRevolver.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "class": "IroRifle",
+      "sha256": "120020c900e1ef83d74d6ef7cc4bd605b24c5424e61943ef7eca92ccc1337e6d",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/IroRifle.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Krilinator",
+      "sha256": "8b929de23b89c3bcfab11145cf9abc1ab20c4683b90b873a07488610e1447ce1",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Krilinator.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "class": "LightIron",
+      "sha256": "7e451fc9a8cc1eb4e29a6729e340d5dde5b75a4c411085eed551c7b7c6b82525",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/LightIron.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 32
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "class": "LunarAssaultRifle",
+      "sha256": "ffe03bd46018064070225bed4c1de02a490a12180112c9274bd906af4d44ac27",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/LunarAssaultRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "getDamage",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "class": "MK",
+      "sha256": "f36d0fc53630198aa24e1227cb86fab57331e50162a29178f5ed7fdcc54f3632",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/MK.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "MKFung",
+      "sha256": "9f5f641f9389f5471378facc3bf23565f0cd23e03bc11e97542cb443a34492a7",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/MKFung.java",
+      "candidate_hooks": [
+        {
+          "method": "createProjectileEntity",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "class": "MechanicalAssaultRifle",
+      "sha256": "aa6932684da86d6e084eae0bad877a405649b64211c1961fd7d9da6a459aed22",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/MechanicalAssaultRifle.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Megagun",
+      "sha256": "f64be0086ee84b8807b1b9e4b415f43baf5d30f55fa4c1143c06c7f4f75a6bb9",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Megagun.java",
+      "candidate_hooks": [
+        {
+          "method": "releaseUsing",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "class": "Miasma",
+      "sha256": "2a20969df930ed3b9b84d6512f60dcc2e8bd2f3f0938d686904f275f59ed8753",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Miasma.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 33
+        }
+      ],
+      "manual_review": {
+        "observed": "Impact applies movement slowdown to living targets in this pin. The name alone is not evidence for poison.",
+        "adapter_rule": "Record actual version behavior rather than inferred fantasy names."
+      }
+    },
+    {
+      "class": "Minigun",
+      "sha256": "146837a3aed83f7d62527430b8a0f8116ea3e25dc01910b006b920ebe9b0b525",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Minigun.java",
+      "candidate_hooks": [
+        {
+          "method": "releaseUsing",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "class": "MintMagnum",
+      "sha256": "8770bf9815a31afc1cf9ffcae3ff2f430643fb169b20f47db97a250084647691",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/MintMagnum.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "NethenetteRifle",
+      "sha256": "c917fd4d8ec682502bd84dbdef80a83ec27599986d40ba6bae0ee1e3cea1fa35",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/NethenetteRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "hurtEnemy",
+          "line": 40
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "class": "NethengeicSlugger",
+      "sha256": "f58e8ff2ea2b6422abf99603519a3202ab8d98d14cc2655ed912487266945d6f",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/NethengeicSlugger.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 40
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 50
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "class": "Overshot",
+      "sha256": "ca1b992b525feeec6ca4b0e295068745057d2bf87f332fd571d114f9f205a8c2",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Overshot.java",
+      "candidate_hooks": [
+        {
+          "method": "fireGun",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "class": "PrecasianSlugger",
+      "sha256": "8fccab0e74c6b981c66bec11df7ef50bdded4de9f6076ed13f90e32937a0fc59",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/PrecasianSlugger.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 40
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 50
+        },
+        {
+          "method": "doImpactDamage",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "class": "Predator",
+      "sha256": "ab12b4395e799c9673cfeec911cdf17d90a1fde333cee5b8f314f99a0408c68c",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Predator.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "class": "Predigun",
+      "sha256": "2b3c403324304e53463ffb2b97998c082f61d36576b028b2a3e667e4c1aa5d0c",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Predigun.java",
+      "candidate_hooks": [
+        {
+          "method": "releaseUsing",
+          "line": 32
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "class": "Pulsator",
+      "sha256": "73dbdaa21c0e5da699956862693550f15d54686e7cc1e6466eae91174e51a46e",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Pulsator.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "class": "PurityRifle",
+      "sha256": "806bae87dcc330fae71cc146d2fc002f0203ad3a843c2592370827701620f19a",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/PurityRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactDamage",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "class": "RockerRifle",
+      "sha256": "b07029adad3385daf9ddda6e398f16d73909dce677dbc952cb982b953fd53940",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/RockerRifle.java",
+      "candidate_hooks": [
+        {
+          "method": "getRecoilForShot",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "class": "Roulette",
+      "sha256": "e706cf46a865e76bdd4bd5512e3f1185be72f792d144a34f1f42fc83fd625710",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Roulette.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "ShoeFlinger",
+      "sha256": "67ea980d71d616c1f9a651418e4793d6af16b5fbb0d22c6117fe0d041fe20ff1",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ShoeFlinger.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 53
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 58
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "class": "Skullette",
+      "sha256": "efa61e45aaf0bac8d8e56626a7def75787523d9662fc0b86b733864945344783",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Skullette.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Skullifact",
+      "sha256": "f8ff62c869a4b0f7ab72edea9c7ed47e8d38b89d243b5a6a86641476acc0a784",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Skullifact.java",
+      "candidate_hooks": [
+        {
+          "method": "getFiringDelay",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "class": "Spectacle",
+      "sha256": "9cc80601e3b11574fa6f93b5f7b16b888ecc50844ba7d513d4e822a1838b4df0",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Spectacle.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactDamage",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "class": "SpineGun",
+      "sha256": "30de21bccb87a96801a204e5f81245aa3771a4a2c5e6878d43aea69ef565e057",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/SpineGun.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "SquadGun",
+      "sha256": "c373a236d2bdc8ca365e57962ca6637d9fdc63610992328f1b4efc568295b5bf",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/SquadGun.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Stampede",
+      "sha256": "b135c0b8b7097ae7135ef807faceee4c29d6e9b8afcc8605d7c3107f39387189",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Stampede.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Stormer",
+      "sha256": "fca8f07c0a30b48a2025f77532623ae1267223d8391a71f33ddd0284106bc6af",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Stormer.java",
+      "candidate_hooks": [
+        {
+          "method": "getFiringDelay",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "class": "Sublimus",
+      "sha256": "88d63a6748263969e2514f94a76e91751a92ce55c360e359cb908ae0b1ffd8c3",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Sublimus.java",
+      "candidate_hooks": [
+        {
+          "method": "findAndConsumeAmmo",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "class": "TigerTommy",
+      "sha256": "f35c936317ff99f0c1957297478c11f2d7ee9e308dc6256e766457cdfa508589",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/TigerTommy.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "Tommy",
+      "sha256": "77b234ca40a85aecbd9c3e665620c29ad3fbb3a6bae96ea76d5dce042361b961",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Tommy.java",
+      "candidate_hooks": []
+    },
+    {
+      "class": "VileVanquisher",
+      "sha256": "7e2d6f1a1b703bdf263509ea949def8bcec13e316107e2bde682b3d287eafefd",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/VileVanquisher.java",
+      "candidate_hooks": [
+        {
+          "method": "doImpactEffect",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "class": "WartGun",
+      "sha256": "0663bfcc6463e5008cc410c2e7b33ec4ad9572cbc8b9423003182d03dd932795",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/WartGun.java",
+      "candidate_hooks": [
+        {
+          "method": "getAmmoItem",
+          "line": 40
+        },
+        {
+          "method": "doImpactEffect",
+          "line": 45
+        },
+        {
+          "method": "createProjectileEntity",
+          "line": 51
+        },
+        {
+          "method": "doFiringEffects",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "class": "Wrecker",
+      "sha256": "aabe9213830f6ad797b61a85a16032adbee4b79690eac9f3721eb3ed6c306c3e",
+      "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/Wrecker.java",
+      "candidate_hooks": [
+        {
+          "method": "getRecoilForShot",
+          "line": 28
+        }
+      ]
+    }
+  ]
+}
