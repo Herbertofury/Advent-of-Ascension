@@ -12,7 +12,7 @@ An actual original rendered asset study for Soul Storm's default flame sight. **
 - A 1024×1024 atlas with four columns and four rows. Only cells 0–14 are used; cell 15 is deliberately empty.
 - A two-second looping animated PNG preview and an explicit fixed root anchor in the authoring camera.
 - Editable Blender source, a portable frame-regeneration script and a renderer-independent UV/time sampler.
-- Previous versions are preserved: the first shader produced an unwanted hollow outline; the second filled the silhouette; this third iteration adds internal color variation.
+- Iteration history: the first shader produced an unwanted hollow outline; the second filled the silhouette; this third iteration adds internal color variation. Only the v3 source and rendered assets are verified in the published archive. Earlier local experiments were not recovered after the workspace reset and must not be represented as archived downloads.
 
 The animated PNG is a web preview, not a promise that TaCZ will animate an APNG texture. The native candidate is the atlas plus a verified renderer/UV integration. A 1024×1024 RGBA8 base level contains 4 MiB of uncompressed texels before any mipmaps or engine overhead; share the atlas across instances rather than duplicating it per weapon.
 

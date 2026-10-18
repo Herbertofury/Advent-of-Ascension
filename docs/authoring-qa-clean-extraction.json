@@ -1,0 +1,146 @@
+{
+  "scope": "Clean-extraction Node authoring harnesses; not native Minecraft/TaCZ tests",
+  "node": "v24.19.0",
+  "inputs_sha256": {
+    "ascension-armory-authoring-prototype.zip": "59080fd2b1afabbb01c490ed6d7aeaf6acbc9b6e4153378be8973069f9fe88cb",
+    "baronator-mechanism-study-qa-v2.zip": "9e9526cbf139d67468a17d35879759f3175d22614cb2f17b45caf227bafac0dd",
+    "baronator-attachment-study.zip": "f2fe0078698db13be772c6c8903413eaa376b9149db356849ef3a2114b9d876f",
+    "minigun-motion-study.zip": "5bc87e99d621d30578668d18a8d2e2af5df3c3cd60bf31ca80568f540e62e8f7",
+    "soul-storm-authoring-study.zip": "b1a2ecf1a17a4b2f71b1c1b8bc02d70836e84ddb7dce7146411b9ab97559e1b7",
+    "inspection-customization-design-study.zip": "88e99acf9e03a42ab7f19977ff31191e30b8d646bdd6db106513add092dc4b10",
+    "soul-flame-flipbook-candidate-v3.zip": "5307cdccbdfbe41fd6474aa5ab4806787f3fe07518df0b1690111ac1afbaee68",
+    "baronator-attachment-lab.html": "805c513c7e7f56bfa060c63a980a5bf6a3e3c1805f8c0f0535d4e8151ce1ab31",
+    "minigun-motion-lab.html": "110a08e5b5bfc859aa4dbaeb90fd688312ffaf0b6cf1973d8e9603e70d8d177c",
+    "soul-storm-lab.html": "650322f64caa8ea230b304cf49fece488b821a5d07119fd4aacda1b9639d2cd2"
+  },
+  "tests": [
+    {
+      "test": "ascension-armory-authoring-prototype/test_baronator_alternation.cjs",
+      "exit_code": 0,
+      "stdout": "PASS1,000 alternating acknowledgements;duplicate/rejected/bonus/stale guards;sequence parity across missing events;bounded cache;103 cuboids including open magazine socket;upper/lower recoil recovery and flash positions. Native adapter still pending.\n",
+      "stderr": ""
+    },
+    {
+      "test": "ascension-armory-authoring-prototype/test_reload_clearance.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"Magazine, trigger, full guard opening, reserved finger envelope, lower barrel and open socket. Oriented cuboids at 240 Hz and every key, plus synthetic linear recovery blends. Not full mesh/runtime/real hand QA.\",\n  \"baseline\": {\n    \"samples\": 4118,\n    \"pairs\": 798892,\n    \"failures\": [\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 2.4,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 2.4,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 2.4,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.004166666666666667,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.5000000000000018\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.004166666666666667,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4999999999999999\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.004166666666666667,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.008333333333333333,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.4999999999999991\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.008333333333333333,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.008333333333333333,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2000000000000002\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.0125,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.5000000000000009\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.0125,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.0125,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2000000000000002\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.016666666666666666,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.016666666666666666,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.016666666666666666,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.020833333333333332,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:20\",\n        \"depth\": 0.5\n      },\n      {\n        \"group\": \"magazine/hand-area\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.020833333333333332,\n        \"left\": \"magazine:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.5\n      }\n    ],\n    \"failuresByClip\": {\n      \"static_idle\": 1734,\n      \"static_auto\": 3,\n      \"static_semi\": 3,\n      \"draw\": 447,\n      \"put_away\": 294,\n      \"shoot\": 201,\n      \"inspect\": 2328,\n      \"inspect_empty\": 2328,\n      \"reload_tactical\": 1074,\n      \"reload_empty\": 1374,\n      \"vent\": 1020,\n      \"grenade_proc\": 486\n    },\n    \"failuresByPair\": {\n      \"magazine/hand-area\": 7548,\n      \"finger-space\": 3744\n    },\n    \"groups\": [\n      \"magazine/hand-area\",\n      \"trigger/guard\",\n      \"finger-space\",\n      \"magazine/lower-barrel\",\n      \"magazine/socket\",\n      \"lower-barrel/socket\"\n    ]\n  },\n  \"crampedGuardRegression\": {\n    \"samples\": 4118,\n    \"pairs\": 798892,\n    \"failures\": [\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000006\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 2.4,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000006\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 2.4,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.004166666666666667,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000002\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.004166666666666667,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.008333333333333333,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000006\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.008333333333333333,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2000000000000002\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.0125,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000006\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.0125,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2000000000000002\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.016666666666666666,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000002\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.016666666666666666,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.020833333333333332,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.44999999999999973\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.020833333333333332,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2000000000000002\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.024999999999999998,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000015\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.024999999999999998,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.1999999999999997\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.029166666666666664,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000002\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.029166666666666664,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2000000000000004\n      },\n      {\n        \"group\": \"trigger/guard\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.03333333333333333,\n        \"left\": \"trigger:0\",\n        \"right\": \"receiver:21\",\n        \"depth\": 0.4500000000000006\n      },\n      {\n        \"group\": \"finger-space\",\n        \"clip\": \"static_idle\",\n        \"time\": 0.03333333333333333,\n        \"left\": \"reserved-index-finger-envelope\",\n        \"right\": \"magazine:0\",\n        \"depth\": 1.2\n      }\n    ],\n    \"failuresByClip\": {\n      \"static_idle\": 1156,\n      \"static_auto\": 2,\n      \"static_semi\": 2,\n      \"draw\": 298,\n      \"put_away\": 196,\n      \"shoot\": 134,\n      \"inspect\": 1552,\n      \"inspect_empty\": 1552,\n      \"reload_tactical\": 883,\n      \"reload_empty\": 1083,\n      \"vent\": 680,\n      \"grenade_proc\": 324\n    },\n    \"failuresByPair\": {\n      \"trigger/guard\": 4118,\n      \"finger-space\": 3744\n    },\n    \"groups\": [\n      \"magazine/hand-area\",\n      \"trigger/guard\",\n      \"finger-space\",\n      \"magazine/lower-barrel\",\n      \"magazine/socket\",\n      \"lower-barrel/socket\"\n    ]\n  },\n  \"variants\": {\n    \"prototype\": {\n      \"samples\": 4118,\n      \"pairs\": 1523660,\n      \"failures\": [],\n      \"failuresByClip\": {},\n      \"failuresByPair\": {},\n      \"groups\": [\n        \"magazine/hand-area\",\n        \"trigger/guard\",\n        \"finger-space\",\n        \"magazine/lower-barrel\",\n        \"magazine/socket\",\n        \"lower-barrel/socket\"\n      ],\n      \"recoverySamples\": 9508,\n      \"recoveryPairs\": 3517960\n    },\n    \"baronator-v2\": {\n      \"samples\": 4388,\n      \"pairs\": 1623560,\n      \"failures\": [],\n      \"failuresByClip\": {},\n      \"failuresByPair\": {},\n      \"groups\": [\n        \"magazine/hand-area\",\n        \"trigger/guard\",\n        \"finger-space\",\n        \"magazine/lower-barrel\",\n        \"magazine/socket\",\n        \"lower-barrel/socket\"\n      ],\n      \"recoverySamples\": 9778,\n      \"recoveryPairs\": 3617860\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-attachment-study/test_attachment_study.cjs",
+      "exit_code": 0,
+      "stdout": "{\"id\":\"standard__standard\",\"samples\":1092,\"failures\":[],\"boreFailures\":[]}\n{\"id\":\"standard__upper_damper\",\"samples\":1092,\"failures\":[],\"boreFailures\":[]}\n{\"id\":\"standard__dual_damper\",\"samples\":1092,\"failures\":[],\"boreFailures\":[]}\n{\"id\":\"prism__standard\",\"samples\":1092,\"failures\":[],\"boreFailures\":[]}\n{\"id\":\"prism__upper_damper\",\"samples\":1092,\"failures\":[],\"boreFailures\":[]}\n{\"id\":\"prism__dual_damper\",\"samples\":1092,\"failures\":[],\"boreFailures\":[]}\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-attachment-study/test_attachment_viewer.cjs",
+      "exit_code": 0,
+      "stdout": "Six compact reconstructions match exported geometry; pose evaluation does not mutate cached assembly; payload budget pass\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-mechanism-study-qa-v2/test_baronator_alternation.cjs",
+      "exit_code": 0,
+      "stdout": "PASS1,000 alternating acknowledgements;duplicate/rejected/bonus/stale guards;sequence parity across missing events;bounded cache;132 cuboids in the packaged mechanism study; separate bore and hand-envelope tests required;upper/lower recoil recovery and flash positions. Native adapter still pending.\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-mechanism-study-qa-v2/test_blocked_bore_regression.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  scope: 'Fictional game-asset bore-path regression, not firearm operation proof.',\n  oldBlockedParts: [\n    'upper:receiver:0',\n    'upper:core:0',\n    'upper:bolt:0',\n    'upper:upper_shroud:0',\n    'upper:upper_shroud:5',\n    'lower:magazine:0',\n    'lower:trigger:0',\n    'lower:grenade_breech:0',\n    'lower:receiver:21',\n    'lower:lower_shroud:0',\n    'lower:lower_shroud:5'\n  ],\n  currentBlockedParts: []\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-mechanism-study-qa-v2/test_hand_envelopes.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"Documented Steve/Alex arm-preview boxes across authored clips at 60 Hz plus keys. Named grip-part contacts only. No real renderer, finger articulation, IK, FOV or reload handoff qualification.\",\n  \"profiles\": [\n    {\n      \"profile\": \"Steve\",\n      \"samples\": 2213,\n      \"permittedGripContacts\": {\n        \"support_grip:0\": 0.5800371155218662,\n        \"receiver:13\": 2.0000000000000027,\n        \"receiver:14\": 0.7000000000000117,\n        \"receiver:15\": 0.2500000000000089,\n        \"receiver:16\": 0.2500000000000071,\n        \"receiver:17\": 0.25000000000000533,\n        \"magazine:0\": 0.7000000000000046,\n        \"magazine:1\": 0.20000000000000195,\n        \"magazine:2\": 0.20000000000000218,\n        \"magazine:3\": 0.10000000000000675,\n        \"magazine:7\": 0.25000000000000244,\n        \"magazine:10\": 0.25000000000000266\n      },\n      \"unexpectedContacts\": []\n    },\n    {\n      \"profile\": \"Alex\",\n      \"samples\": 2213,\n      \"permittedGripContacts\": {\n        \"support_grip:0\": 0.5800371155218662,\n        \"receiver:13\": 2.000000000000002,\n        \"receiver:14\": 0.7000000000000082,\n        \"receiver:15\": 0.2500000000000089,\n        \"receiver:16\": 0.2500000000000071,\n        \"receiver:17\": 0.2500000000000089,\n        \"magazine:0\": 0.506573650144944,\n        \"magazine:1\": 0.20000000000000195,\n        \"magazine:2\": 0.20000000000000218,\n        \"magazine:3\": 0.10000000000000675,\n        \"magazine:7\": 0.25000000000000244\n      },\n      \"unexpectedContacts\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-mechanism-study-qa-v2/test_mechanism_feed_paths.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"Static exported-geometry proxy sweep and endpoint/barrel-axis check for fictional game-art layout. No real-world mechanism, dynamic gate, hand rig or runtime certification.\",\n  \"samples\": 454,\n  \"checkedSolidCuboids\": 131,\n  \"failures\": []\n}\nDynamic transfer/cartridge versus all exported solids: 3412 poses []\nChamber-to-muzzle travel: 1402 positions []\n",
+      "stderr": ""
+    },
+    {
+      "test": "baronator-mechanism-study-qa-v2/test_transform_core.cjs",
+      "exit_code": 0,
+      "stdout": "Scale interpolation, zero-scale hidden geometry and visible-volume collision tests pass\n",
+      "stderr": ""
+    },
+    {
+      "test": "inspection-customization-design-study/test_customization_contract.cjs",
+      "exit_code": 0,
+      "stdout": "{\"tests\":14,\"status\":\"pass\",\"scope\":\"Standalone design validation only; no native game integration or performance acceptance\"}\n",
+      "stderr": ""
+    },
+    {
+      "test": "inspection-customization-design-study/test_inspection_timeline.cjs",
+      "exit_code": 0,
+      "stdout": "{\"status\":\"pass\",\"cadenceCases\":4,\"stallCases\":2,\"cancellationPoints\":7,\"scope\":\"Presentation timing only; native pose blending, input priority and effects cleanup require game integration\"}\n",
+      "stderr": ""
+    },
+    {
+      "test": "minigun-motion-study/test_minigun_bores.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"Sampled visual bore corridors only. Not full feed, hand, native runtime or continuous collision certification.\",\n  \"samples\": 438,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "minigun-motion-study/test_minigun_feed.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"Sampled fictional cartridge and carrier versus all exported cuboids at 120 Hz for a parked-rotor inspection. Not live cyclic feed, hand choreography, native runtime or continuous collision proof.\",\n  \"samples\": 661,\n  \"failures\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "minigun-motion-study/test_minigun_viewer.cjs",
+      "exit_code": 0,
+      "stdout": "PASS: reduced-motion idle, start, pause, resume, coast to rest, idle scheduling and disabled unfinished clips. Node DOM harness, not native gameplay.\n",
+      "stderr": ""
+    },
+    {
+      "test": "minigun-motion-study/test_rotor_motion.cjs",
+      "exit_code": 0,
+      "stdout": "PASS: exact ramp integration, timestep partition invariance, phase continuity, resume, rest and invalid-input checks. Cosmetic state only; no native runtime certification.\n",
+      "stderr": ""
+    },
+    {
+      "test": "soul-flame-flipbook-candidate-v3/test_flame_flipbook_sampler.cjs",
+      "exit_code": 0,
+      "stdout": "{\"status\":\"pass\",\"samples\":10000,\"usedFrames\":15,\"unusedAtlasCell\":15,\"scope\":\"UV/time helper only; native render blending and aim calibration untested\"}\n",
+      "stderr": ""
+    },
+    {
+      "test": "soul-storm-authoring-study/test_cosmetic_recoil.cjs",
+      "exit_code": 0,
+      "stdout": "PASS: exact damped integration partition, pose-continuous retrigger, 20Hz/20s sequence, bounded impulse spam, finite values, rest, invalid arguments. Cosmetic only. Peak 0.0990\n",
+      "stderr": ""
+    },
+    {
+      "test": "soul-storm-authoring-study/test_soul_storm.cjs",
+      "exit_code": 0,
+      "stdout": "PASS: negative obstruction fixture detected; fixture is not exported.\n{\n  \"scope\": \"Original moving core, pulse ring and emitter versus other exported solids; 120 Hz plus keys. No hands, native renderer or continuous sweep certification.\",\n  \"samples\": 1135,\n  \"failures\": [],\n  \"negative_fixture\": \"Known core-obstruction plate detected; not exported\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "soul-storm-authoring-study/test_soul_storm_hand.cjs",
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"Documented Steve/Alex right-arm box convention at 120Hz. Only named grip components allow palm contact; forearm penetration forbidden. Native renderer/FOV/skin fit untested; left-hand choreography remains open.\",\n  \"profiles\": [\n    {\n      \"width\": 4,\n      \"samples\": 1123,\n      \"gripSeen\": true,\n      \"failures\": []\n    },\n    {\n      \"width\": 3,\n      \"samples\": 1123,\n      \"gripSeen\": true,\n      \"failures\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "test": "soul-storm-authoring-study/test_soul_storm_viewer.cjs",
+      "exit_code": 0,
+      "stdout": "PASS: seven correct records, static idle, pulse retrigger, pause/resume and settled idle. Authoring harness only.\n",
+      "stderr": ""
+    },
+    {
+      "test": "soul-storm-authoring-study/test_spirit_particles.cjs",
+      "exit_code": 0,
+      "stdout": "PASS: deterministic trajectories, timestep partition, bounded pool under burst spam, limited opacity, finite expiry, clear, invalid input. Cosmetic preview only.\n",
+      "stderr": ""
+    }
+  ],
+  "passed": 21,
+  "total": 21
+}
