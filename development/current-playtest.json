@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T08:18:16.259943+00:00",
+  "observedAt": "2026-10-18T09:23:27.686613+00:00",
   "evidenceKind": "owner-local-native-and-production-acceptance",
   "publicRuntimeReproductionPerformed": false,
   "target": {
@@ -11,13 +11,13 @@
   },
   "artifact": {
     "filename": "aoa3-3.7.1.jar",
-    "sha256": "5cb2c040d40c074da11e10fc311356500d5b98652df5643ac934f46af9e225f4",
-    "bytes": 147286563
+    "bytes": 147286789,
+    "sha256": "50216760f24e3c62d536d8806802724b8e84003d546c14928aeacb03f5822150"
   },
   "source": {
     "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-    "completeSourcePlanSha256": "2a811a76c660ba60c3d5b097923dabe03b005570bc78aa28031a79caccac7871",
-    "completeSourceRecipes": 882,
+    "completeSourcePlanSha256": "14f8564c45013345c6110a75b382e8857da089d8871e7cb947e9a3cd502558da",
+    "completeSourceRecipes": 883,
     "completeResourceSelections": 7737
   },
   "nativeServerPassed": true,
@@ -25,80 +25,54 @@
   "ordinarySignedInProductionPassed": true,
   "vanillaHeartsDefault": true,
   "allHealthModesRetained": true,
-  "renderIntervals": 678,
-  "measuredMovementMetres": 2.1548441280441573,
+  "renderIntervals": 693,
+  "measuredMovementMetres": 2.1548441280441577,
   "originalWorldAndModsUnchanged": true,
   "localReceipts": [
     {
-      "file": "independent-complete-foraging-native-proof.json",
-      "bytes": 6758,
-      "sha256": "275d248b6cb5a5841e3f9eee2b8675be2df4b4b8a976e354c9854e8bd2c8ed7f",
-      "role": "native"
+      "file": "independent-master-complete-native-proof.json",
+      "sha256": "9113bc5a59294ce5d638361bc16c703a0fa6f0734b27994998acde9479464fe4",
+      "bytes": 5344
     },
     {
-      "file": "complete-inherited-native-families.json",
-      "bytes": 3971,
-      "sha256": "53fb622d88cfbd294e985c10185d87079b00d74d3f066c50aac34759ced2758e",
-      "role": "inherited"
+      "file": "whole-mod-modern-server-baseline-c1420a7b-0a71-4580-b9df-2c507e27b2b4.json",
+      "sha256": "8e40c96003b2162c02b8e59d92ef0ceba8f0dba51500670abdc554fbdd0f6b33",
+      "bytes": 28662200
+    },
+    {
+      "file": "whole-master-acquisition-native-sdk.json",
+      "sha256": "14f8564c45013345c6110a75b382e8857da089d8871e7cb947e9a3cd502558da",
+      "bytes": 23945062
+    },
+    {
+      "file": "whole-mod-modern-client-baseline-1dd990ea-b71c-40e0-ab63-6df96069a082.json",
+      "sha256": "326e49382b75e7710ea36085a93c43c526bc9d55578a0617a1098bf628b0b3e2",
+      "bytes": 28189883
     },
     {
       "file": "independent-production-proof.json",
-      "bytes": 2151,
-      "sha256": "b79bc627fb3a7b2309047629be60e3b436dffc6ce343c93959b60a36a52ec651",
-      "role": "production"
+      "sha256": "5db32826f3c773a3ff7d21f99fe4fedf2b49b26ec1c8085a35ecb4734496ab02",
+      "bytes": 2169
     },
     {
       "file": "independent-hari-production-proof.json",
-      "bytes": 3063,
-      "sha256": "8a6e93adc867b5ac464cccef25f89f87981562eb74d77dbae3016ef6c86e57a3",
-      "role": "renderer"
+      "sha256": "c6007326cb4659bd65c5ea364c90ab35a12fbc35543aa3590f54d50452ed0141",
+      "bytes": 3146
     },
     {
       "file": "current-playtest-promotion.json",
-      "bytes": 8770,
-      "sha256": "ec9e51334c397ebbd6e38cb1db35f9d68730ee2929016c620b013decfdefd382",
-      "role": "promotion"
+      "sha256": "1625b00675e121ef241054309a0bcd1a63fc899f5ef70c09ed4b9cfa2c11a90c",
+      "bytes": 6470
     },
     {
-      "file": "production-playtest.json",
-      "bytes": 26727,
-      "sha256": "2da9709b491a94f03103f7cd59e813600ae84e17a500fafbb54348a9593dfacb",
-      "role": "ordinary"
-    },
-    {
-      "file": "hari-production-playtest.json",
-      "bytes": 43657,
-      "sha256": "57736eadb7a2bbdeb7ed7ea2592d28455f7d02d67c634e9004c0999040afaa7c",
-      "role": "hari"
-    },
-    {
-      "file": "whole-mod-modern-server-baseline-4ca1bb1a-95ab-4df4-903d-266663389658.json",
-      "bytes": 28683965,
-      "sha256": "4292725bc717c49302b100f10f41fdf19eb75e8a7acc99fec7f1e88970b0701a",
-      "role": "server"
-    },
-    {
-      "file": "whole-foraging-plan-reconciled-sdk.json",
-      "bytes": 23930095,
-      "sha256": "2a811a76c660ba60c3d5b097923dabe03b005570bc78aa28031a79caccac7871",
-      "role": "plan"
-    },
-    {
-      "file": "whole-mod-modern-client-baseline-e7b436f4-9df2-4fd6-93fe-57bb8efb8fc9.json",
-      "bytes": 28183071,
-      "sha256": "1e196715fefc26860cdb8052d4ef4744f2119c740ac619d7c276335e02247f8f",
-      "role": "client"
-    },
-    {
-      "file": "aoa-upstream-freshness-4f1c8d9c-0797-4214-a361-274bd5eb92b6.json",
-      "bytes": 4766,
-      "sha256": "6cbc7e8679e475c0fd228d13adb9a8a2abca1a710ec286c231b22a93476f4aa4",
-      "role": "fresh_official_source_and_provider"
+      "file": "complete-inherited-native-families.json",
+      "sha256": "3cfd7ea17a5d26760d83a8dc9f51b5e3ea760f70249fcedd8f374a23d47ef8bc",
+      "bytes": 3990
     }
   ],
   "completeAoAPort": false,
   "historicalLatestUnionVerified": false,
-  "scope": "Cumulative whole AoA with complete classic Foraging behavior and all preceding member identities retained. Native client/server, ordinary production, clean server save/restart and required Hari Vulkan pass. Remaining natural acquisition, consumers, historical/latest reconciliation, multiplayer, migration, full pack compatibility and performance remain open. Original mod bytes remain local.",
+  "scope": "Owner-local cumulative whole native client/server, offer-level armor acquisition, all inherited source/resource members and scoped native fixtures, ordinary production, required Vulkan and in-place promotion pass. Actual player trades/natural progression, legacy restocking/experience and saved-offer upgrades, historical/latest union, multiplayer, full pack compatibility, migrations and sustained FPS remain open. Original mod bytes remain local.",
   "nativeFamiliesVerified": {
     "completeNativeSkills": 14,
     "exactSkillThresholdCases": 112,
@@ -132,7 +106,7 @@
   "rendererAcceptance": {
     "openGlOverlayDrawCases": 24,
     "nativeHariOverlayDrawCases": 24,
-    "completeInheritedMembersRetained": 24245,
+    "completeInheritedMembersRetained": 24274,
     "renderer": {
       "name": "HariMultiThread Ultimate",
       "version": "2.4.11-noxviola.62-dimensions-vulkan-hybrid",
@@ -144,10 +118,11 @@
     "cleanHariProductionWorldVerified": true,
     "productionWorldFilesPreserved": 67,
     "saveMigrationVerified": false,
-    "canonicalAoASha256": "5cb2c040d40c074da11e10fc311356500d5b98652df5643ac934f46af9e225f4",
+    "canonicalAoASha256": "50216760f24e3c62d536d8806802724b8e84003d546c14928aeacb03f5822150",
     "qualifications": [
       "Exact whole-mod native client/server and required Vulkan production rendering/movement pass. Full survival progression, multiplayer, pixel parity, later balance reconciliation, the complete historical/latest union and sustained 2,000 FPS remain unverified."
-    ]
+    ],
+    "cleanProductionSeedVerified": true
   },
   "currentProfileUpdatedInPlace": true,
   "existingUserFilesUnchanged": 69,
@@ -157,143 +132,131 @@
       "field": "rootRegistries",
       "completePriorContexts": 69,
       "completeCurrentContexts": 69,
-      "allOriginalRegistryKeysRetained": true,
-      "added": [
-        {
-          "context": "complete_builtin_root#minecraft:item",
-          "ids": [
-            "aoa3:foraging_boots",
-            "aoa3:foraging_chestplate",
-            "aoa3:foraging_helmet",
-            "aoa3:foraging_leggings"
-          ]
-        },
-        {
-          "context": "complete_builtin_root#minecraft:sound_event",
-          "ids": [
-            "aoa3:foraging_item"
-          ]
-        }
-      ]
+      "allOriginalRegistryKeysRetained": true
     },
     {
       "field": "exposedRegistries",
       "completePriorContexts": 66,
       "completeCurrentContexts": 66,
-      "allOriginalRegistryKeysRetained": true,
-      "added": [
-        {
-          "context": "net.minecraft.core.registries.BuiltInRegistries#ITEM#minecraft:item",
-          "ids": [
-            "aoa3:foraging_boots",
-            "aoa3:foraging_chestplate",
-            "aoa3:foraging_helmet",
-            "aoa3:foraging_leggings"
-          ]
-        },
-        {
-          "context": "net.minecraft.core.registries.BuiltInRegistries#SOUND_EVENT#minecraft:sound_event",
-          "ids": [
-            "aoa3:foraging_item"
-          ]
-        }
-      ]
+      "allOriginalRegistryKeysRetained": true
     },
     {
       "field": "layeredRegistries",
       "completePriorContexts": 92,
       "completeCurrentContexts": 92,
-      "allOriginalRegistryKeysRetained": true,
-      "added": [
-        {
-          "context": "complete_server_layered_access#minecraft:item",
-          "ids": [
-            "aoa3:foraging_boots",
-            "aoa3:foraging_chestplate",
-            "aoa3:foraging_helmet",
-            "aoa3:foraging_leggings"
-          ]
-        },
-        {
-          "context": "complete_server_layered_access#minecraft:sound_event",
-          "ids": [
-            "aoa3:foraging_item"
-          ]
-        }
-      ]
+      "allOriginalRegistryKeysRetained": true
     },
     {
       "field": "currentRegistries",
       "completePriorContexts": 92,
       "completeCurrentContexts": 92,
-      "allOriginalRegistryKeysRetained": true,
-      "added": [
-        {
-          "context": "current_server_access#minecraft:item",
-          "ids": [
-            "aoa3:foraging_boots",
-            "aoa3:foraging_chestplate",
-            "aoa3:foraging_helmet",
-            "aoa3:foraging_leggings"
-          ]
-        },
-        {
-          "context": "current_server_access#minecraft:sound_event",
-          "ids": [
-            "aoa3:foraging_item"
-          ]
-        }
-      ]
+      "allOriginalRegistryKeysRetained": true
     },
     {
       "field": "forgeActiveRegistries",
       "completePriorContexts": 41,
       "completeCurrentContexts": 41,
-      "allOriginalRegistryKeysRetained": true,
-      "added": [
-        {
-          "context": "complete_forge_active_registry_map#aoa3:skills",
-          "ids": [
-            "aoa3:foraging"
-          ]
-        },
-        {
-          "context": "complete_forge_active_registry_map#minecraft:item",
-          "ids": [
-            "aoa3:foraging_boots",
-            "aoa3:foraging_chestplate",
-            "aoa3:foraging_helmet",
-            "aoa3:foraging_leggings"
-          ]
-        },
-        {
-          "context": "complete_forge_active_registry_map#minecraft:sound_event",
-          "ids": [
-            "aoa3:foraging_item"
-          ]
-        }
-      ]
+      "allOriginalRegistryKeysRetained": true
     }
   ],
   "previousAccepted": {
     "artifact": {
       "filename": "aoa3-3.7.1.jar",
-      "sha256": "78b66fd816c7c694dafa0c185bd2aec7b3fb77ec9f358d01ca07728e08dbba00",
-      "bytes": 147225930
+      "sha256": "5cb2c040d40c074da11e10fc311356500d5b98652df5643ac934f46af9e225f4",
+      "bytes": 147286563
     },
     "source": {
       "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-      "completeSourcePlanSha256": "58254cd5d3f8e16095cd8dfdb19010fc6bb68b05b0db75d384341a817ad54a97",
-      "completeSourceRecipes": 879,
-      "completeResourceSelections": 7713
+      "completeSourcePlanSha256": "2a811a76c660ba60c3d5b097923dabe03b005570bc78aa28031a79caccac7871",
+      "completeSourceRecipes": 882,
+      "completeResourceSelections": 7737
     },
-    "evidenceCommit": "5643759"
+    "evidenceCommit": "425f355"
   },
   "openGates": [
-    "Later historical Foraging balance/loot-table reconciliation",
-    "Natural armor acquisition/master-trader progression",
-    "Complete survival progression, multiplayer, old saves and optional full-pack compatibility",
-    "Equivalent-work sustained performance and 2,000 FPS goal",
-    "Complete historical/latest AoA union"
-  ]
+    "Actual player trade screen, natural banker/currency encounter and complete survival progression",
+    "Historical infinite-restock/experience behavior, other master variants and latest master reconciliation",
+    "Full historical/latest union, multiplayer, migration, full-pack compatibility and sustained performance"
+  ],
+  "masterAcquisition": {
+    "schema": 1,
+    "observedAt": "2026-10-18T09:23:27.686613+00:00",
+    "evidenceKind": "owner-local-whole-native-component",
+    "publicRuntimeReproductionPerformed": false,
+    "completeAoAPort": false,
+    "candidateArtifact": {
+      "sha256": "50216760f24e3c62d536d8806802724b8e84003d546c14928aeacb03f5822150",
+      "bytes": 147286789,
+      "entries": 24274
+    },
+    "nativeServerPassed": true,
+    "nativeClientPassed": true,
+    "productionPassed": true,
+    "currentPlayableArtifactChanged": true,
+    "retainedModernOffers": 9,
+    "completeArmorPurchasesAdded": 8,
+    "actualNativeOfferPayments": 17,
+    "allCurrentPricesStocksAndXpRetained": true,
+    "nativeOfferNbtRoundtrip": true,
+    "wrongAndEmptyPaymentsRejected": true,
+    "inheritedForagingNativeCasesVerified": true,
+    "originalNpcVariantsRestored": false,
+    "naturalAcquisitionVerified": false,
+    "playerTradeScreenVerified": false,
+    "legacyInfiniteRestockParityVerified": false,
+    "fullGameplayParityVerified": false,
+    "receipts": [
+      {
+        "file": "independent-master-complete-native-proof.json",
+        "sha256": "9113bc5a59294ce5d638361bc16c703a0fa6f0734b27994998acde9479464fe4",
+        "bytes": 5344
+      },
+      {
+        "file": "whole-mod-modern-server-baseline-c1420a7b-0a71-4580-b9df-2c507e27b2b4.json",
+        "sha256": "8e40c96003b2162c02b8e59d92ef0ceba8f0dba51500670abdc554fbdd0f6b33",
+        "bytes": 28662200
+      },
+      {
+        "file": "whole-master-acquisition-native-sdk.json",
+        "sha256": "14f8564c45013345c6110a75b382e8857da089d8871e7cb947e9a3cd502558da",
+        "bytes": 23945062
+      },
+      {
+        "file": "whole-mod-modern-client-baseline-1dd990ea-b71c-40e0-ab63-6df96069a082.json",
+        "sha256": "326e49382b75e7710ea36085a93c43c526bc9d55578a0617a1098bf628b0b3e2",
+        "bytes": 28189883
+      },
+      {
+        "file": "independent-production-proof.json",
+        "sha256": "5db32826f3c773a3ff7d21f99fe4fedf2b49b26ec1c8085a35ecb4734496ab02",
+        "bytes": 2169
+      },
+      {
+        "file": "independent-hari-production-proof.json",
+        "sha256": "c6007326cb4659bd65c5ea364c90ab35a12fbc35543aa3590f54d50452ed0141",
+        "bytes": 3146
+      },
+      {
+        "file": "current-playtest-promotion.json",
+        "sha256": "1625b00675e121ef241054309a0bcd1a63fc899f5ef70c09ed4b9cfa2c11a90c",
+        "bytes": 6470
+      },
+      {
+        "file": "complete-inherited-native-families.json",
+        "sha256": "3cfd7ea17a5d26760d83a8dc9f51b5e3ea760f70249fcedd8f374a23d47ef8bc",
+        "bytes": 3990
+      }
+    ],
+    "upstreamFreshness": {
+      "file": "aoa-upstream-freshness-4f1c8d9c-0797-4214-a361-274bd5eb92b6.json",
+      "sha256": "6cbc7e8679e475c0fd228d13adb9a8a2abca1a710ec286c231b22a93476f4aa4",
+      "bytes": 4766
+    },
+    "openGates": [
+      "Actual player trade screen, natural banker/currency encounter and complete survival progression",
+      "Historical infinite-restock/experience behavior, other master variants and latest master reconciliation",
+      "Full historical/latest union, multiplayer, migration, full-pack compatibility and sustained performance"
+    ],
+    "requiredVulkanProductionPassed": true
+  }
 }
