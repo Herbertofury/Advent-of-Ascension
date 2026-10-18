@@ -141,11 +141,38 @@
     "source_license_file": "GPLv3 text"
   },
   "native_run": false,
-  "preflight_tests": 10,
+  "preflight_tests": 13,
   "limits": [
     "Static source/artifact inspection only",
     "No upstream submission",
     "No native rendering/Vulkan/performance acceptance",
     "Source head and release not proven build-identical"
-  ]
+  ],
+  "mesh_exporter_official": {
+    "url": "https://github.com/JannisX11/blockbench-plugins/blob/master/plugins/meshy/meshy.js",
+    "git_blob_sha": "255105add4c756b1b90beb58656cbc9edcfdb025",
+    "sha256": "433929ab98d0855cbfaf084338396590cc37177f977943cd28bf0e009a310611",
+    "bytes": 13624
+  },
+  "mesh_exporter_registry": {
+    "meshy": {
+      "title": "Meshy",
+      "author": "Shadowkitten47",
+      "creation_date": "2024-09-28",
+      "icon": "diamond",
+      "description": "Enables the use of a meshes in bedrock formats and to export them to Minecraft Bedrock",
+      "variant": "both",
+      "version": "1.0.5",
+      "tags": [
+        "Minecraft: Bedrock Edition",
+        "Entity Models",
+        "Mesh"
+      ],
+      "has_changelog": true,
+      "min_version": "4.10.4",
+      "repository": "https://github.com/Shadowkitten47/Meshy"
+    }
+  },
+  "preflight_revision": "v2 accepts intentional first/last repeated triangle corners; v1 too strict",
+  "editor_attempt": "Blockbench web5.2.2 failed WebGL initialization on launch and one reload; no GUI export verified"
 }

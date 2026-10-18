@@ -28,11 +28,13 @@ This is a substantially more complete integration starting point than our small 
 
 The inspected loader converts a source triangle into four submitted vertices by repeating its last corner, and otherwise uses the supplied polygon length. Its VBO path begins a QUADS buffer. Therefore an arbitrary five-or-more-corner polygon must **not** be assumed to be safely triangulated. Our preflight rejects n-gons and asks the authoring pipeline to triangulate them explicitly. This is a source-derived risk, not a claimed reproduced in-game failure.
 
-The repeated corner generated internally for a triangle is an intentional rendering representation. It must not be confused with an accidentally degenerate source triangle or a broken authored quad.
+The official Blockbench plugin catalogue currently lists **Meshy 1.0.5** by Shadowkitten47. Its actual exporter pads a triangle by repeating the **first** corner into a four-corner polygon; the TML three-corner path instead repeats the last corner internally. Both are intentional triangle representations. Preflight **v2** accepts these cases while still rejecting a collapsed first triangle, crossed quads and n-gons. The earlier v1 gate was too strict for Meshy's padded triangles and is superseded, with its archive preserved.
+
+[Official Meshy plugin source](https://github.com/JannisX11/blockbench-plugins/blob/master/plugins/meshy/meshy.js), inspected SHA-256 `433929ab98d0855cbfaf084338396590cc37177f977943cd28bf0e009a310611`. The author's separate repository head embeds version 1.0.4; use the official catalogue artifact when referring to 1.0.5.
 
 ### Pivot, axes and normals
 
-The reviewed source subtracts each bone's absolute pivot, divides model positions by 16, flips model Y and flips UV V. Its flat-shading switch is enabled in the reviewed source. A Blender export must check actual coordinate conventions and normals against these transforms; simply renaming a file is not an exporter. Smooth-looking concept surfaces must be compared in game before accepting the resulting shading.
+The reviewed source subtracts each bone's absolute pivot, divides model positions by 16, flips model Y and flips UV V. Its flat-shading switch is enabled in the reviewed source. The Meshy exporter also applies object origin/rotation and negates X before saving positions. A Blender export must check the combined coordinate conventions and normals against these transforms; simply renaming a file is not an exporter. Smooth-looking concept surfaces must be compared in game before accepting the resulting shading.
 
 ### Cache and performance
 
@@ -40,7 +42,7 @@ The reviewed VBO cache is bounded to eight packed-light entries per mesh, with e
 
 ## Original preflight tool
 
-[Download the original offline preflight and tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/tml-authoring-preflight-v1.zip). It checks the inspected indexed triangle/quad schema, unique bones, finite/representable values, positive texture dimensions, index bounds, selected degeneracy/winding cases and authoring budgets. It warns about hand-like mesh bones and nonplanar quads. Ten synthetic regression tests pass.
+[Download the original offline preflight and tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/tml-authoring-preflight-v2.zip). It checks the inspected indexed triangle/quad schema, unique bones, finite/representable values, positive texture dimensions, index bounds, selected degeneracy/winding cases and authoring budgets. It warns about hand-like mesh bones and nonplanar quads. Thirteen synthetic regression tests pass.
 
 This tool reads data only. It does not execute TML, install a mod, run a game or certify all collisions, materials or UV seams. Its stricter authoring budgets are ours, not universal claims about every valid upstream asset.
 
@@ -57,3 +59,7 @@ This tool reads data only. It does not execute TML, install a mod, run a game or
 [Evidence manifest, source/artifact hashes and exact target declarations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tml-direct-study-evidence.json).
 
 **Remaining boundary:** no native TML run, accepted Soul Storm export, hand-rig validation or measured performance result has been produced here. Credit VellEagle and the TaCZ community; this study packages only original audit tooling and findings.
+
+### Editor verification boundary
+
+The cloud Blockbench web app reported “Error creating WebGL context” on launch and one ordinary reload. No successful Blockbench GUI import/export or plugin execution is claimed. Blender/offline source and schema work can continue, but an actual editor and in-game round trip remain required.
