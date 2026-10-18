@@ -72,3 +72,17 @@ Keep the orange/graphite/steel silhouette, round side medallion and rear striped
 ![Proposed upgraded projectile and impact language](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-impact-concepts-v2.png)
 
 This is proposed upgraded VFX art, not an original-game capture. Compare it with the actual source assets and original impact values above. Discs, primary bullet hits and the separate Baronator grenade branch have distinct visual identities. Larger impact areas or terrain-changing behavior must correspond to a declared functional module and server rules; cosmetic debris is not proof that world blocks are destroyed.
+
+
+## Actual TaCZ reference: spin and inspect hooks
+
+The default pack inside [TaCZ 1.1.8-hotfix2](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero/files/9037989) contains a dedicated Minigun Lua state machine. Its selected functions were executed unchanged with the release's embedded LuaJ libraries in an explicitly mocked context on Java 17 and 21. This is deeper than reading the animation names, but still not a native game session.
+
+- The firing-spin update checks the elapsed-shot threshold only when its animation track is holding. It either starts another spin segment or requests a stop; the stop transition selects the winddown clip. Preserve the intent of finishing a rotation segment instead of snapping the rotor angle to zero.
+- The test uses a 50 ms shot interval: elapsed values 149 and 150 restart the segment; 151 requests stop. A non-holding track issues no command in the tested update. Those are exact boundary fixtures, not a claim that every configuration fires at that interval.
+- Inspect entry requests spin stop and hides the crosshair. Its exit hook restores the crosshair; shooting interruption stops the inspect animation and returns idle. The fixture checks these hook commands. It does not prove the engine always invokes exit correctly in every interruption path.
+- The released context's current timestamp calls `System.currentTimeMillis`. Do not subtract a paused game-time value from this wall-clock timestamp. Our cosmetic adapter needs an explicit clock boundary and pause/rebase tests.
+
+[Executed hook results and source hashes](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tacz-minigun-lua-hook-check.json) · [Original reproduction harness](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/tacz-minigun-lua-hook-check-tool-v1.zip)
+
+The original source script and embedded runtime are extracted locally from the pinned JAR, not redistributed in the harness. Native track interpolation, rendered phase continuity, sounds, gameplay and actual hand motion remain unvalidated. AoA's native fire/resource contract must stay separate from this presentation reference.

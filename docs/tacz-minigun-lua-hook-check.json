@@ -1,0 +1,45 @@
+{
+  "release": "TaCZ1.20.1-1.1.8-hotfix2",
+  "jar_sha512": "fa8b4bd4a7a0835092bccbb28a18461642d4e7a2f6fdb762ac4978d4dbc31d1f0f61c685343a61607dce3d1cd89f4314b61a9f8811960b9d0604692ac3fff96d",
+  "files": [
+    {
+      "path": "assets/tacz/custom/tacz_default_gun/assets/tacz/scripts/minigun_state_machine.lua",
+      "local": "minigun_state_machine.lua",
+      "sha256": "183d50577bb815c73b40b7df2d2f1a5c05550929dbb85d01089c9c4526399728"
+    },
+    {
+      "path": "META-INF/jarjar/luaj-core-3.0.8-figura.jar",
+      "local": "lib/luaj-core-3.0.8-figura.jar",
+      "sha256": "6050678ca1dad5e2a4c401cc9ce968d282d30105b2ea46f79c30abccdfa30fbe"
+    },
+    {
+      "path": "META-INF/jarjar/luaj-jse-3.0.8-figura.jar",
+      "local": "lib/luaj-jse-3.0.8-figura.jar",
+      "sha256": "1783d249b5152c6f110c1bcca5fb0d4ef0075fc291c912f6b74e2bb61472e95e"
+    },
+    {
+      "path": "com/tacz/guns/client/animation/statemachine/GunAnimationStateContext.class",
+      "local": "evidence/GunAnimationStateContext.class",
+      "sha256": "117df0ac74aa9c9f65ae128f354dd7c4e84fb9e7a6266fd537f07f93264c501b"
+    }
+  ],
+  "context_clock": "Released getCurrentTimestamp calls System.currentTimeMillis; static disassembly observation, not invocation of native context.",
+  "results": [
+    {
+      "runtime": "openjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)",
+      "stdout": "PASS actual released minigun Lua spin-state functions: hold-boundary restart, strict interval+100 threshold, stop/winddown and unknown-input guards. Mock context only; no interpolation or native game proof.\nPASS actual inspect entry/exit, shoot interruption and completed-track retreat hooks. Engine invocation order remains outside this mock-context test.\n"
+    },
+    {
+      "runtime": "openjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)",
+      "stdout": "PASS actual released minigun Lua spin-state functions: hold-boundary restart, strict interval+100 threshold, stop/winddown and unknown-input guards. Mock context only; no interpolation or native game proof.\nPASS actual inspect entry/exit, shoot interruption and completed-track retreat hooks. Engine invocation order remains outside this mock-context test.\n"
+    }
+  ],
+  "boundaries": [
+    "Only selected spin and inspect hook functions execute; mocked context and harness sentinel constants",
+    "No actual track interpolation, rendered phase continuity, sound, full state-machine runner or game session",
+    "Do not mix wall-clock millisecond timestamps with a paused game-time clock",
+    "No gameplay/ammo/fire-rate modification is made"
+  ],
+  "clean_archive_extraction": "PASS both JVMs from original harness archive with pinned local release",
+  "tool_archive_sha256": "2e40ccd911c0e5dcc4a9a423e32237864133eeb8ccd1a8f40356e4ad49214d24"
+}
