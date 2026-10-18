@@ -11,7 +11,6 @@ This brings four reusable presentation primitives into one package. It does not 
 | SoulSightFrame | Reusable atlas-frame output, explicit Flame/Candle/Gem and display-pass gates, reduced-motion frame | Actual textures, bone transforms, buffers and native game clock still need an adapter |
 | ImpactVisualLedger | Bounded cosmetic event identity with separate weapon/projectile branches, actor/weapon/world separation | Finite window; evicted events can be accepted again; never server damage validation |
 | EmissionClock | Per-emitter game-time scheduling, duplicate-timestamp suppression, visibility rebasing and bounded stall recovery | Cosmetic requests only; production visual budgets and native particle pools remain unvalidated |
-
 | FrameVisibilitySet | Pre-bound discrete frame visibility, duplicate-part validation, no-op repeated selections and explicit disposal | Native bone binding and pass ownership remain adapter responsibilities; discrete frames do not implement crossfade |
 
 ## Visibility is different from zero scale

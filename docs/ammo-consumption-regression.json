@@ -1,0 +1,35 @@
+{
+  "scope": "Standalone arithmetic fixtures and a proposed pure planner, not executed Minecraft/ItemUtil bytecode",
+  "released_class_sha256": "5f738a9925885bda6a036df3598083c67d26d6b4676168f14eec55ca9f8a42a8",
+  "source": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/util/ItemUtil.java",
+  "observations": [
+    {
+      "input_counts": [
+        1,
+        64
+      ],
+      "requested": 2,
+      "transcribed_debits": [
+        1,
+        2
+      ],
+      "total": 3
+    },
+    {
+      "input_counts": [
+        2,
+        64
+      ],
+      "requested": 3,
+      "transcribed_debits": [
+        2,
+        3
+      ],
+      "total": 5
+    }
+  ],
+  "proposed_planner_exhaustive_cases": 31104,
+  "alias_and_protected_slot_fixtures": "PASS",
+  "native_acceptance": "PENDING: reproduce exact hand/inventory state, Greed level, server authority and mod interactions in pinned game",
+  "integration_contract": "No inventory is mutated. A game adapter must revalidate eligibility, item metadata and counts under the server inventory authority before all-or-nothing spending; no atomic commit implementation is provided."
+}

@@ -187,3 +187,16 @@ The [actual Helldivers hotfix study](https://github.com/Herbertofury/Advent-of-A
 - [ ] Profile cold/warm startup, equip/change cost, allocations, frame times and server ticks.
 - [ ] Expand across the registry with pairwise and worst-case combination tests; disclose untested combinations.
 - [ ] Publish actual runtime receipts before marking any gameplay feature complete.
+
+
+## Ammo accounting regression gate
+
+The released 1.20.1 ItemUtil multi-stack deduction loop deserves a native regression test before reuse. A small behavioral transcription with eligible stack counts **1 and 64** and requested amount **2** deducts **1 + 2 = 3**; **2 and 64**, requested **3**, deducts **2 + 3 = 5**. This follows the inspected loop's use of collected total instead of a remaining requested debit. These are static-analysis-derived arithmetic fixtures, **not observed in-game losses**.
+
+The proposed pure planner passes 31,104 small exhaustive fixtures for exact cost/insufficient funds, plus identity-alias, inconsistent snapshot and protected-slot cases. It is an executable specification, not a native replacement or atomic inventory transaction. The game adapter still needs server authority, metadata/eligibility revalidation and all-or-nothing spending.
+
+- [Results and scope](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ammo-consumption-regression.json)
+- [Reproducible standalone test/planner](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/ammo-consumption-regression-tool-v1.zip)
+- [Released special consumption paths](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Ammunition-1.20.1)
+
+Required native cases include Greed with split stacks, off-hand firing with inventory aliases, protected/valuable/worn boots, creative, daylight Sublimus, and inventory changes between planning and commit. Do not consume cosmetic/clock state as ammo or promise that copied equipment metadata survives.
