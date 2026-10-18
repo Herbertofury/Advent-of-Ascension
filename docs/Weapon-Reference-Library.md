@@ -117,3 +117,13 @@ Prioritize texture assistance on an already separated, mechanically reviewed mod
 Retain the authored bone/part boundaries, then evaluate the material result against the original sprite and approved concept. Separate baked base color, roughness/metallic and emissive behavior; test a readable non-PBR fallback. Bake or explicitly implement animated effects instead of assuming a Blender shader transfers to TaCZ. Compare native import, all supported views, LOD identity and frame times before accepting a generated asset.
 
 The cloud authoring check found no NVIDIA device nodes or `nvidia-smi` executable, and no PyTorch installation. These GPU pipelines have **not been installed or run here**. CPU Blender authoring remains available. No large model download, third-party image upload or paid GPU job was started. Check the selected project, model and dependency terms before adopting a pipeline.
+
+
+## Create Armorer: actual released files
+
+[Direct Create Armorer study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Create-Armorer-Direct-Study) examines file 7598625 (v1.2.0.1-for117): 13 display records, actual geometry/animation files and four Lua scripts. It covers layered animation ownership, intentionally animated visual planes, a threshold-event boundary test and exact missing LOD references. Findings are source evidence, not native execution or performance acceptance.
+
+
+## Helldivers gunpack: actual hotfix files
+
+[Direct hotfix archive study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Helldivers-Gunpack-Direct-Study) follows actual data-to-script routing and inspects 57 displays, attachment-dependent clips and 49 resolved LOD pairs. Its Quasar script uses a magazine field to retain cooling time, making typed-state preservation essential for our upgrade/salvage integrations. No native compatibility or frame-time pass is claimed.

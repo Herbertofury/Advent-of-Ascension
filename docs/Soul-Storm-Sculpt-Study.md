@@ -2,15 +2,33 @@
 
 **New authoring reconstruction · visual acceptance open · not a native TaCZ gunpack.**
 
-![Current v9 Blender render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-preview.png)
+![Current v12 Blender authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v12-preview.png)
 
 [Play the sampled four-emitter motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-motion.webp) · [Download editable sources, Blender files and retained v5–v9 iterations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-reconstruction-v5-v9.zip)
 
-## What is built
+## Newer VFX iterations: v10–v12
+
+![Two-second v12 authoring motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v12-motion.webp)
+
+[Editable v10–v12 source archive](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-sculpt-v10-v12.zip) · [v10 procedural-core render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v10-preview.png) · [v11 volumetric experiment](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v11-preview.png)
+
+- v10 replaces the solid-looking sight with the existing 15-frame Soul Flame alpha atlas and tries a broader turbulent procedural core.
+- v11 tries volume scattering and layered filaments. It remains visually weak and is retained as an experiment, not promoted as the preferred version.
+- v12 maps a newly generated original soul-vortex VFX texture onto shallow curved, animated reservoir surfaces. This is an actual Blender mesh/material render using an editable texture, not a generated whole-weapon image presented as geometry. The default visible sight remains the Soul Flame atlas; the older solid-flame meshes are hidden history.
+
+The [original VFX texture](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-core-vfx-texture-v1.png) and exact generation prompt are preserved. Its source alpha has low nonzero values at parts of the border, so final cleanup/masking is still required; it has not passed final texture/export QA. The texture improves the reservoir detail, but the body, emitter ornament and overall material quality still need substantial refinement to reach the concept.
+
+The new motion contains thirty sampled frames over two seconds. It shows one authored four-emitter burst, a reservoir rotation and the sight cycle. It is not a native cadence, projectile or performance demonstration.
+
+[New scoped QA receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v12-qa.json): 121 sampled recoil positions stayed bounded and non-overlapping, visible meshes had no zero-area polygons or duplicate-position vertices, and 121 atlas samples reached exactly frames 0–14 without selecting unused cell 15. This does not certify all collisions, hands, shader passes or native rendering. Texture files are packed into the new Blender files for portability.
+
+## Earlier v5–v9 foundation
+
+### What was built in v9
 
 The new mesh has the circular spirit reservoir, indigo/silver/cyan palette, four hollow emitter slots, separately animated top-to-bottom recoil, flying soul-disc authoring cues and a Soul Flame sight. The main flame has a fixed-root shape-key animation. These are actual modeled/rendered objects, not a generated image presented as a working gun.
 
-Five iterations are retained in one archive. The wire-like core, broad cloud disk and pinwheel-like spiral were visually weak; later iterations add thinner core filaments, tapered armor, wrapped grip ribs and side flame tongues. These files are newly authored after the workspace reset, not recovered copies of the unavailable older sculpt drafts.
+The earlier five iterations are retained in their original archive. The wire-like core, broad cloud disk and pinwheel-like spiral were visually weak; later iterations add thinner core filaments, tapered armor, wrapped grip ribs and side flame tongues. These files are newly authored after the workspace reset, not recovered copies of the unavailable older sculpt drafts.
 
 ## Reproduce and inspect
 
@@ -29,7 +47,7 @@ The bounded QA sampled 121 times with no nonfinite emitter transforms, recoil-ra
 ## Quality gates still open
 
 - More sculpted ornamental detail and purposeful texture painting to approach the approved concept.
-- Greater apparent depth and richness in the spirit reservoir; current procedural effects remain a study.
+- Greater apparent depth and richness in the spirit reservoir, final alpha cleanup and native VFX material validation.
 - Real hands, grip clearance, aim alignment, inspection choreography and cancellation.
 - All barrel/sight/skin variants and their motion clearances.
 - A verified native export/bake/rendering path. Standard TaCZ cube JSON does not automatically consume this Blender mesh, material graph or shape keys.
@@ -39,4 +57,6 @@ Passing the bounded authoring checks does not close these gates. Original AoA id
 
 [Original behavior and upgrade direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) · [Default Soul Flame and optional sights](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights)
 
-Source archive SHA-256: `c5e119c64ca689aee32835e24679f8e4015b257e83e51db91fc0326c81c9a2a2`.
+Earlier v5–v9 source archive SHA-256: `c5e119c64ca689aee32835e24679f8e4015b257e83e51db91fc0326c81c9a2a2`.
+
+New v10–v12 source archive SHA-256: `612a0555cb840c40ce3ff4568b82ec4b17f94be776df65ae582b0548661c757d`.

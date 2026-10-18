@@ -162,6 +162,17 @@ The source discovery pass covers 78 gun classes; 55 have candidate behavior hook
 - **Scheduled and persistent effects:** Echo Gull delegates to a scheduled task; poison/flame/cloud effects create entities or queries. Their ownership, cancellation, unloading and server cost must be audited beyond the weapon method.
 - **Composition order matters:** some donors replace an incoming damage/recoil value while others multiply or add after base damage. Define that order explicitly rather than letting attachment load order decide the result.
 
+## Typed-state preservation before salvage or upgrading
+
+The [actual Helldivers hotfix study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Helldivers-Gunpack-Direct-Study) found a selected Quasar script using a magazine-ammo field to retain a cooling timestamp. Field names alone do not establish semantics. The [1.20.1 Divine Station recipe audit](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.20.1) also shows base assembly copying the output template instead of explicitly transferring the input weapon state.
+
+- Require a versioned adapter to declare each owned field: ammunition, charge, heat, cooldown clock, cosmetic choice, attachment identity or opaque extension data.
+- Preview exactly which compatible fields transfer and which cannot transfer. Do not silently refill, reset, discard or reinterpret unknown fields.
+- Preserve the unmodified source until the transfer commits; on validation failure, leave inventory and state unchanged.
+- Keep real-time versus paused-game-time policies explicit. Test backward clocks, long offline intervals, item switching and server reconnects.
+- Test named, enchanted, damaged, charged and extension-tagged inputs. Include a synthetic timestamp-in-ammo fixture to catch generic refill/copy assumptions.
+- These are required implementation/acceptance rules; no native migration adapter is certified yet.
+
 ## Acceptance and implementation backlog
 
 - [ ] Pin AoA/TaCZ/loader versions and inventory actual native effects/resources.
