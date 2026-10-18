@@ -31,6 +31,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Soul Drainer | [Full profile and life-leech contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
 | Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile) |
 | Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) |
+| Vortex Blaster | [Spirit-powered repulsion, original targeting and concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 | Shoe Flinger | [Full profile, boot ammunition and equipment conservation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shoe-Flinger-Weapon-Profile) |
 | Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Iominator-Weapon-Profile) |
 | Hive Blaster | [Full profile, renderer caveats and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile) |

@@ -1,0 +1,33 @@
+{
+  "version": "Minecraft 1.20.1 / AoA 3.7.1",
+  "id": "aoa3:vortex_blaster",
+  "jar_sha512": "bdee7d12aab1903e1e74f377d4f0ae7ac948d791f46ec0368d191d86a3d5a03cfbd2e6d1295f1fe690f303b1fa709da89db980543e4d450fc0fdbbf6d9e694e6",
+  "class_sha256": {
+    "net/tslat/aoa3/content/item/weapon/blaster/VortexBlaster.class": "f32db59329ab8fa61c5961c5aab8da1272627d614b9e10ae32650005e4871f53",
+    "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster.class": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+    "net/tslat/aoa3/util/DamageUtil.class": "99ba4610702659c1eb5127c32308717142f22bb36597eb106ad2e80788f6418f",
+    "net/tslat/aoa3/common/registration/item/AoAWeapons.class": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703"
+  },
+  "factory": {
+    "damage": 0.0,
+    "durability": 2870,
+    "firing_delay_ticks": 1,
+    "base_spirit_cost": 130.0,
+    "base_charge_ticks": 1
+  },
+  "native_acceptance": false,
+  "released_effect": "LivingEntity box query followed by scaled knockback strength7, ratios1,1,1. No projectile spawn in this fireBlaster override.",
+  "query_warning": "Direction components feed signed AABB inflation by component*7+1; not a proven ray, cone or seven-block sphere. Validate all headings and pitches in game.",
+  "source_pin_for_named_comparison": "85d6beba07e3a09032834dcf79b5a01f411092c3",
+  "recipe_scan": "No vortex_blaster string in shipped data/**/*.json. This limited negative scan does not prove unobtainability or exclude Java-coded trades/drops.",
+  "concepts": {
+    "v1": "First concept retained; trigger reach visually poor",
+    "v2": "Compact guard and trigger moved next to rear grip; native hand/animation QA still open"
+  },
+  "pending": [
+    "Acquisition/trader/loot Java call paths",
+    "Native AoA original footage and all-direction target volume",
+    "TaCZ adapter preserving spirit and knockback hooks",
+    "Native hands/animation/interruption/networking/performance"
+  ]
+}
