@@ -165,6 +165,20 @@
         "depth": 0.5
       }
     ],
+    "failuresByClip": {
+      "static_idle": 1156,
+      "static_auto": 2,
+      "static_semi": 2,
+      "draw": 298,
+      "put_away": 196,
+      "shoot": 134,
+      "inspect": 1552,
+      "inspect_empty": 1552,
+      "reload_tactical": 726,
+      "reload_empty": 926,
+      "vent": 680,
+      "grenade_proc": 324
+    },
     "obstacleCount": 8
   },
   "variants": {
@@ -172,13 +186,19 @@
       "samples": 4118,
       "pairs": 263552,
       "failures": [],
-      "obstacleCount": 8
+      "failuresByClip": {},
+      "obstacleCount": 8,
+      "recoverySamples": 9508,
+      "recoveryPairs": 608512
     },
     "baronator-v2": {
       "samples": 4388,
       "pairs": 280832,
       "failures": [],
-      "obstacleCount": 8
+      "failuresByClip": {},
+      "obstacleCount": 8,
+      "recoverySamples": 9778,
+      "recoveryPairs": 625792
     }
   }
 }

@@ -42,3 +42,12 @@ The associated source has an additional grenade branch after a successful native
 ## Tooling and provenance
 
 The geometry, palette and keyframes are original project work. No TaCZ default artwork or animation clips are included. Format/API study uses [the pinned official TaCZ source](https://github.com/MCModderAnchor/TACZ/tree/b482eff8c94a733ac8d0910193fca3893954027c); default-pack examples are references, not redistributed assets. The source archive includes generation and validation scripts, with current limitations clearly recorded.
+
+
+## Reload collision correction and acceptance gate
+
+The reported magazine/handle clipping was reproduced: the original trigger guard intersected the magazine at rest, and the reload moved the magazine toward the grip. The live authoring lab and downloadable source now use a shortened, repositioned guard and a vertical extraction/reinsertion path. The grip cap also follows the grip angle. Earlier embedded milestone images above predate this repair.
+
+The new oriented-cuboid regression must detect the retained old defect. It checks the magazine against the grip, cap/ribs, trigger guard and trigger throughout all clips at 240 Hz plus every keyframe. Both Baronator variants pass this scoped check. This does not certify every mesh pair, real first-person hands or engine transitions. Known visible clipping or mesh errors block visual acceptance.
+
+[Read the mandatory visual QA gate](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/WEAPON-VISUAL-QA.md) · [Published collision evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/reload-clearance-qa.json)

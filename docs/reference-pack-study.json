@@ -1,0 +1,296 @@
+{
+  "scope": "Read-only JSON/Lua inspection of official release archives; no execution, redistribution or gameplay certification.",
+  "releases": [
+    {
+      "file": "Create Armorer-v1.2.0.1-for117.zip",
+      "official_file_page": "https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei/files/7598625",
+      "sha256": "479f0ac05833ccec554efa1b22e6f71553c7ebe7f381310c28467a399c98b0ba",
+      "bytes": 7107566,
+      "selected_member": "assets/create_armorer/animations/rifle_assult_crane.animation.json",
+      "member_sha256": "ebc58641a971ba4ee2e1673735e7a973f779745da0f1f674ce3fe7b6e81a25da",
+      "clips": {
+        "shoot": {
+          "duration": 0.625,
+          "bones": [
+            "root",
+            "bolt",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "root": {
+              "rotation": 8,
+              "position": 6
+            },
+            "bolt": {
+              "position": 3
+            },
+            "camera": {
+              "rotation": 7
+            }
+          }
+        },
+        "reload_tactical": {
+          "duration": 2.625,
+          "bones": [
+            "right",
+            "left",
+            "constraint",
+            "root",
+            "rotate",
+            "mag",
+            "back",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "right": {
+              "rotation": 14,
+              "position": 18,
+              "scale": "constant"
+            },
+            "left": {
+              "rotation": "constant",
+              "position": "constant",
+              "scale": "constant"
+            },
+            "constraint": {
+              "rotation": "constant",
+              "position": "constant"
+            },
+            "root": {
+              "rotation": 17,
+              "position": 16
+            },
+            "rotate": {
+              "rotation": 4
+            },
+            "mag": {
+              "rotation": 4,
+              "position": 9
+            },
+            "back": {
+              "rotation": 5
+            },
+            "camera": {
+              "rotation": 20
+            }
+          }
+        },
+        "reload_empty": {
+          "duration": 2.625,
+          "bones": [
+            "right",
+            "left",
+            "constraint",
+            "root",
+            "mag",
+            "back",
+            "rotate",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "right": {
+              "rotation": 14,
+              "position": 18,
+              "scale": "constant"
+            },
+            "left": {
+              "rotation": "constant",
+              "position": "constant",
+              "scale": "constant"
+            },
+            "constraint": {
+              "rotation": "constant",
+              "position": "constant"
+            },
+            "root": {
+              "rotation": 17,
+              "position": 16
+            },
+            "mag": {
+              "rotation": 4,
+              "position": 9
+            },
+            "back": {
+              "rotation": 5
+            },
+            "rotate": {
+              "rotation": 4
+            },
+            "camera": {
+              "rotation": 20
+            }
+          }
+        }
+      }
+    },
+    {
+      "file": "Immersive Armorer-v1.2.1-for117.zip",
+      "official_file_page": "https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/files/7598069",
+      "sha256": "2f8c939fc533fc612b139d6ec74fdfb52412b83ea5da169e5a2380985af74050",
+      "bytes": 8987273,
+      "selected_member": "assets/immersive_armorer/animations/dual_barrel_cannon.animation.json",
+      "member_sha256": "2a1bdad552ebfeb3a7fd8a2793673517c94be83061d811a52081f72f4fb6de14",
+      "clips": {
+        "shoot_up": {
+          "duration": 1.25,
+          "bones": [
+            "barrel_up",
+            "shell",
+            "muzzle_flash",
+            "root",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "barrel_up": {
+              "position": 6
+            },
+            "shell": {
+              "position": "constant"
+            },
+            "muzzle_flash": {
+              "position": "constant"
+            },
+            "root": {
+              "rotation": 11,
+              "position": 12
+            },
+            "camera": {
+              "rotation": 9
+            }
+          }
+        },
+        "reload_up_and_down": {
+          "duration": 6.8833,
+          "bones": [
+            "left",
+            "right",
+            "root",
+            "barrel_down",
+            "barrel_up",
+            "mag_up",
+            "mag_down",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "left": {
+              "rotation": 45,
+              "position": 46,
+              "scale": 2
+            },
+            "right": {
+              "rotation": "constant",
+              "position": "constant",
+              "scale": "constant"
+            },
+            "root": {
+              "rotation": 53,
+              "position": 53
+            },
+            "barrel_down": {
+              "position": 8
+            },
+            "barrel_up": {
+              "position": 8
+            },
+            "mag_up": {
+              "rotation": 10,
+              "position": 10,
+              "scale": 4
+            },
+            "mag_down": {
+              "rotation": 10,
+              "position": 10,
+              "scale": 4
+            },
+            "camera": {
+              "rotation": 41
+            }
+          }
+        },
+        "reload_up": {
+          "duration": 5.5167,
+          "bones": [
+            "left",
+            "right",
+            "barrel_up",
+            "mag_up",
+            "root",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "left": {
+              "rotation": 30,
+              "position": 31,
+              "scale": 5
+            },
+            "right": {
+              "rotation": "constant",
+              "position": "constant",
+              "scale": "constant"
+            },
+            "barrel_up": {
+              "position": 7
+            },
+            "mag_up": {
+              "rotation": 12,
+              "position": 12,
+              "scale": 4
+            },
+            "root": {
+              "rotation": 46,
+              "position": 48
+            },
+            "camera": {
+              "rotation": 38
+            }
+          }
+        },
+        "shoot_down": {
+          "duration": 1.25,
+          "bones": [
+            "barrel_down",
+            "shell",
+            "muzzle_flash",
+            "root",
+            "camera"
+          ],
+          "channel_key_counts": {
+            "barrel_down": {
+              "position": 6
+            },
+            "shell": {
+              "position": 3
+            },
+            "muzzle_flash": {
+              "position": 3
+            },
+            "root": {
+              "rotation": 11,
+              "position": 12
+            },
+            "camera": {
+              "rotation": 9
+            }
+          }
+        }
+      }
+    }
+  ],
+  "findings": [
+    {
+      "reference": "Create Armorer / Crane reload_tactical",
+      "observed": "Magazine has nine position keys and four rotation keys, with an initial extraction, an off-axis handoff/hold, a staged alignment and final insertion. Matching right-hand and magazine position deltas occur during the carried portion. Root/right-hand channels include Catmull-Rom keys.",
+      "apply": "Author original contact-constrained hand choreography. Clear the socket before turning, align before inserting; evaluate the exact exported interpolation, including curve overshoot."
+    },
+    {
+      "reference": "Immersive Armorer / dual_barrel_cannon",
+      "observed": "Separate shoot_up/shoot_down clips animate their respective barrels plus shell, muzzle_flash, root and camera. Two reload variants have separate upper/lower magazines and hand tracks.",
+      "apply": "Keep independent Baronator barrel recoil and matching flash locators. Preserve the requested top/bottom alternating successful-shot sequence; do not copy the reference ammo-threshold barrel-selection logic."
+    },
+    {
+      "reference": "Immersive Armorer / dual_barrel_cannon_state_machine.lua",
+      "observed": "Base pose, bolt state, main actions, gun kick and movement occupy separate tracks. Inspect exit restores crosshair state; shoot interrupts inspection; walking/running respond to movement state.",
+      "apply": "Design layered presentation with cleanup on every exit and interruption. Validate combined poses, not only individual clips. Actual AoA/TaCZ adapter and gameplay checks remain open."
+    }
+  ]
+}

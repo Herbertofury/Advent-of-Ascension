@@ -6,7 +6,7 @@ No weapon is visually accepted while a magazine, hand, bolt, barrel, moving cove
 
 The original trigger guard extended into the magazine even in the resting pose. The reload also moved the magazine rearward toward the grip. The correction shortens/repositions the guard around the trigger and extracts/reinserts the magazine vertically. Both original and alternating-barrel variants inherit this correction.
 
-`test_reload_clearance.cjs` uses oriented-box separating axes, including individually rotated cubes and bone transforms. It tests every animation at 240 Hz plus every keyframe, against the grip, grip cap, grip ribs, trigger guard and trigger. The retained pre-fix fixture must fail; both repaired variants must pass. This is a scoped geometric regression, not whole-weapon approval. Receiver sockets and intentional assembled overlaps are not silently certified by this test.
+`test_reload_clearance.cjs` uses oriented-box separating axes, including individually rotated cubes and bone transforms. It tests every animation at 240 Hz plus every keyframe, against the grip, grip cap, grip ribs, trigger guard and trigger. The retained pre-fix fixture must fail; both repaired variants must pass. This is a scoped geometric regression, not whole-weapon approval. Receiver sockets and intentional assembled overlaps are not silently certified by this test. The local expanded test also evaluates 110 synthetic linear recovery transitions per variant from sampled reload phases into idle, draw, holster, shoot and inspect. These are authored pose-crossing tests, not an implementation or certification of the TaCZ runtime interruption controller.
 
 ## Mandatory gates before accepting a finished asset
 
