@@ -1,168 +1,360 @@
 {
-  "scope": "Magazine against grip, grip cap/ribs, trigger guard and trigger. Oriented cuboids sampled at 240 Hz and every key. Not whole-model/runtime/hand QA.",
+  "scope": "Magazine, trigger, full guard opening, reserved finger envelope, lower barrel and open socket. Oriented cuboids at 240 Hz and every key, plus synthetic linear recovery blends. Not full mesh/runtime/real hand QA.",
   "baseline": {
     "samples": 4118,
-    "pairs": 263552,
+    "pairs": 798892,
     "failures": [
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.5
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.5
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 2.4,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.5
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 2.4,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.5
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 2.4,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.004166666666666667,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.5000000000000018
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.004166666666666667,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.4999999999999999
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.004166666666666667,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.008333333333333333,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.4999999999999991
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.008333333333333333,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.5
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.008333333333333333,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2000000000000002
+      },
+      {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.0125,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.5000000000000009
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.0125,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.5
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.0125,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2000000000000002
+      },
+      {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.016666666666666666,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.5
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.016666666666666666,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.5
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.016666666666666666,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.020833333333333332,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
+        "left": "magazine:0",
+        "right": "receiver:20",
         "depth": 0.5
       },
       {
+        "group": "magazine/hand-area",
         "clip": "static_idle",
         "time": 0.020833333333333332,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
+        "left": "magazine:0",
+        "right": "receiver:21",
         "depth": 0.5
+      }
+    ],
+    "failuresByClip": {
+      "static_idle": 1734,
+      "static_auto": 3,
+      "static_semi": 3,
+      "draw": 447,
+      "put_away": 294,
+      "shoot": 201,
+      "inspect": 2328,
+      "inspect_empty": 2328,
+      "reload_tactical": 1074,
+      "reload_empty": 1374,
+      "vent": 1020,
+      "grenade_proc": 486
+    },
+    "failuresByPair": {
+      "magazine/hand-area": 7548,
+      "finger-space": 3744
+    },
+    "groups": [
+      "magazine/hand-area",
+      "trigger/guard",
+      "finger-space",
+      "magazine/lower-barrel",
+      "magazine/socket",
+      "lower-barrel/socket"
+    ]
+  },
+  "crampedGuardRegression": {
+    "samples": 4118,
+    "pairs": 798892,
+    "failures": [
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 0,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000006
       },
       {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 2.4,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000006
+      },
+      {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 2.4,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 0.004166666666666667,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000002
+      },
+      {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.004166666666666667,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 0.008333333333333333,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000006
+      },
+      {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.008333333333333333,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2000000000000002
+      },
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 0.0125,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000006
+      },
+      {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.0125,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2000000000000002
+      },
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 0.016666666666666666,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000002
+      },
+      {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.016666666666666666,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
+      },
+      {
+        "group": "trigger/guard",
+        "clip": "static_idle",
+        "time": 0.020833333333333332,
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.44999999999999973
+      },
+      {
+        "group": "finger-space",
+        "clip": "static_idle",
+        "time": 0.020833333333333332,
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2000000000000002
+      },
+      {
+        "group": "trigger/guard",
         "clip": "static_idle",
         "time": 0.024999999999999998,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
-        "depth": 0.5000000000000009
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000015
       },
       {
+        "group": "finger-space",
         "clip": "static_idle",
         "time": 0.024999999999999998,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
-        "depth": 0.5
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.1999999999999997
       },
       {
+        "group": "trigger/guard",
         "clip": "static_idle",
         "time": 0.029166666666666664,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
-        "depth": 0.5
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000002
       },
       {
+        "group": "finger-space",
         "clip": "static_idle",
         "time": 0.029166666666666664,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
-        "depth": 0.5
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2000000000000004
       },
       {
+        "group": "trigger/guard",
         "clip": "static_idle",
         "time": 0.03333333333333333,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 20,
-        "depth": 0.5000000000000009
+        "left": "trigger:0",
+        "right": "receiver:21",
+        "depth": 0.4500000000000006
       },
       {
+        "group": "finger-space",
         "clip": "static_idle",
         "time": 0.03333333333333333,
-        "magazineCube": 0,
-        "obstacle": "receiver",
-        "cube": 21,
-        "depth": 0.5
+        "left": "reserved-index-finger-envelope",
+        "right": "magazine:0",
+        "depth": 1.2
       }
     ],
     "failuresByClip": {
@@ -174,31 +366,58 @@
       "shoot": 134,
       "inspect": 1552,
       "inspect_empty": 1552,
-      "reload_tactical": 726,
-      "reload_empty": 926,
+      "reload_tactical": 883,
+      "reload_empty": 1083,
       "vent": 680,
       "grenade_proc": 324
     },
-    "obstacleCount": 8
+    "failuresByPair": {
+      "trigger/guard": 4118,
+      "finger-space": 3744
+    },
+    "groups": [
+      "magazine/hand-area",
+      "trigger/guard",
+      "finger-space",
+      "magazine/lower-barrel",
+      "magazine/socket",
+      "lower-barrel/socket"
+    ]
   },
   "variants": {
     "prototype": {
       "samples": 4118,
-      "pairs": 263552,
+      "pairs": 1523660,
       "failures": [],
       "failuresByClip": {},
-      "obstacleCount": 8,
+      "failuresByPair": {},
+      "groups": [
+        "magazine/hand-area",
+        "trigger/guard",
+        "finger-space",
+        "magazine/lower-barrel",
+        "magazine/socket",
+        "lower-barrel/socket"
+      ],
       "recoverySamples": 9508,
-      "recoveryPairs": 608512
+      "recoveryPairs": 3517960
     },
     "baronator-v2": {
       "samples": 4388,
-      "pairs": 280832,
+      "pairs": 1623560,
       "failures": [],
       "failuresByClip": {},
-      "obstacleCount": 8,
+      "failuresByPair": {},
+      "groups": [
+        "magazine/hand-area",
+        "trigger/guard",
+        "finger-space",
+        "magazine/lower-barrel",
+        "magazine/socket",
+        "lower-barrel/socket"
+      ],
       "recoverySamples": 9778,
-      "recoveryPairs": 625792
+      "recoveryPairs": 3617860
     }
   }
 }

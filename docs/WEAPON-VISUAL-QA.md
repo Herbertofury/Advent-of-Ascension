@@ -2,11 +2,15 @@
 
 No weapon is visually accepted while a magazine, hand, bolt, barrel, moving cover or attachment visibly cuts through an unrelated solid surface. Passing JSON/schema tests is insufficient.
 
-## Baronator defect and correction, 2026-10-18
+## Baronator layout correction, 2026-10-18
 
-The original trigger guard extended into the magazine even in the resting pose. The reload also moved the magazine rearward toward the grip. The correction shortens/repositions the guard around the trigger and extracts/reinserts the magazine vertically. Both original and alternating-barrel variants inherit this correction.
+The original magazine intersected the trigger guard. A first repair shortened the guard; that crowded the finger space and left a trigger/guard intersection. That repair is rejected. Both historical defect fixtures are retained and must fail the regression test.
 
-`test_reload_clearance.cjs` uses oriented-box separating axes, including individually rotated cubes and bone transforms. It tests every animation at 240 Hz plus every keyframe, against the grip, grip cap, grip ribs, trigger guard and trigger. The retained pre-fix fixture must fail; both repaired variants must pass. This is a scoped geometric regression, not whole-weapon approval. Receiver sockets and intentional assembled overlaps are not silently certified by this test. The local expanded test also evaluates 110 synthetic linear recovery transitions per variant from sampled reload phases into idle, draw, holster, shoot and inspect. These are authored pose-crossing tests, not an implementation or certification of the TaCZ runtime interruption controller.
+The revised layout restores the full 4.8-unit guard span, moves the magazine forward by 4 model units and down by 1.6, and gives it an open structural socket below the lower barrel. The trigger connects into its mounting area and the grip cap follows the grip angle. The magazine extracts vertically; the hand opening is not sacrificed. The approved alternating upper/lower recoil is retained and is the live viewer's default firing study.
+
+`test_reload_clearance.cjs` checks six interaction groups: magazine/hand area, trigger/guard, reserved finger envelope, magazine/lower barrel, magazine/socket, and lower barrel/socket. It uses oriented-box separating axes with a conservative broad-phase rejection, individually rotated cubes and bone transforms. Every clip is sampled at 240 Hz and at all keys. Both repaired variants must pass. The cramped-guard fixture must fail both trigger/guard and finger-space tests; the original fixture must fail both reloads.
+
+The reserved index-finger envelope is an explicit design allowance (2.2 × 1.4 × 1.4 model units), not a substitute for fitting real Minecraft/TaCZ hands. The test also samples 110 synthetic linear recovery transitions per variant into idle, draw, holster, shoot and inspect. Engine interruption logic, spline overshoot, real hands, every other mesh pair and gameplay remain unqualified. Receiver/socket insertion contacts must be separately justified; no blanket moving-bone exemption is acceptable.
 
 ## Mandatory gates before accepting a finished asset
 
