@@ -34,18 +34,27 @@ The current published model is an authoring study. Its feed path, real hand inte
 
 ### Inspect actual TaCZ releases
 
-Two official archives were downloaded and read as data, without executing or redistributing their assets:
+Four official release archives were downloaded and selected source files were inspected as data, without executing or redistributing their assets:
 
 - [Create Armorer 1.2.0.1 for 1.1.7](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei/files/7598625): Crane reload separates extraction, carried motion, alignment and seating. Matching hand/magazine deltas and curved keys are visible in the animation data.
 - [Immersive Armorer 1.2.1 for 1.1.7](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei/files/7598069): dual-barrel cannon separates upper/lower firing, magazine actions and motion layers. Its ammo-threshold selection is not the requested Baronator alternation policy.
 
-[Exact archive hashes and selected-member observations](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/reference-pack-study.json). Do not copy keyframes, art, sounds or scripts merely because the archive is readable. Ars Armorer and Helldivers: Escalation of Freedom remain additional study targets; a listing review alone is not a completed animation analysis.
+- [Helldivers gunpack, file 9044777](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom/files/9044777): AC7 places the supporting hand and magazine/bullet assembly beneath one carry-space bone. Empty and tactical reloads differ, with timed sound cues, separate LOD data and first/third-person firing sounds. Apply the shared-rig principle with original poses; do not copy its weapon balance or keyframes.
+- [Ars Armorer 1.0.1 for 1.1.7](https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/files/7358702): the inspected source-ejector pistol has no conventional reload clips; firing moves its core and barrel groups. Its resource-named script uses TaCZ ammo-count APIs. This does not establish a shared Ars Source or AoA Spirit backend.
+
+[Exact archive hashes and selected-member observations](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/reference-pack-study.json). Do not copy keyframes, art, sounds or scripts merely because the archive is readable. These are selected-file findings, not complete visual, gameplay or compatibility certification of those packs.
 
 ### TaCZ-specific hand and state-machine checks
 
 [TaCZ hand-position guidance](https://tacwiki.mcma.club/zh/gunpack/gun/04_hand_pos.html) gives distinct Steve and Alex arm-preview conventions and explains that the renderer replaces preview geometry in the hand-position groups with player arms. Therefore a generic finger-clearance box cannot certify actual TaCZ hand placement. Author both arm profiles around the documented locators and verify the pinned renderer's transforms.
 
 [TaCZ animation/state-machine guidance](https://tacwiki.mcma.club/zh/gunpack/gun/display/02_animation.html) distinguishes clips, optional custom state machines and third-person animation configuration. The [state-machine reference](https://tacwiki.mcma.club/zh/gunpack/gun/animation/state_machine_script) describes track allocation and entry/update/transition/exit behavior. A custom alternating weapon requires explicit lifecycle cleanup and correct layer initialization; a list of animation names alone does not provide that behavior. Match documentation against the exact source/version being targeted.
+
+## Inspect the mechanism study
+
+[Open the separate cutaway lab](https://herbertofury.github.io/Advent-of-Ascension/baronator-mechanism-lab.html) to trace intake, transfer, chamber seating and carrier return. Toggle the ghost shell and arm-fit proxies, pause and scrub the timeline. The original heavy alternating recoil is retained. The slow inspection cycle is not native firing cadence. Unreviewed reload/action sequences remain outside this study.
+
+[Download the original editable study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baronator-mechanism-study.zip). It is not an installable gunpack. Regeneration and scoped geometry tests do not certify a completed or game-tested weapon.
 
 ## Gate 1: function before silhouette approval
 
@@ -96,6 +105,8 @@ Export, re-import and compare. The authoring render must use the exported asset.
 ## Gate 6: native behavior and runtime acceptance
 
 Preserve item identity, ammo/resource costs, fire timing, durability, enchantments, native effects and save behavior. Animation events may request cosmetics; they must not become an alternate authoritative ammo ledger. Validate duplicate/out-of-order acknowledgements, low FPS, resource reload, death, travel, reconnect and multiplayer observers. For turrets, also validate the actual host type, target filtering and resource policy.
+
+Expensive geometry sweeps belong in authoring/build QA, not in every game tick. Runtime presentation should use prepared asset data, bounded effects and explicit native events; measure the resulting frame-time and startup behavior rather than assuming these offline tests imply performance parity.
 
 ## Evidence required to close a weapon
 

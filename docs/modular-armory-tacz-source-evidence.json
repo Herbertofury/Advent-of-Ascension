@@ -1,0 +1,61 @@
+{
+  "status": "static source inspection only; no runtime compatibility certification",
+  "pin": "b482eff8c94a733ac8d0910193fca3893954027c",
+  "reviewed": "2026-10-18",
+  "files": [
+    {
+      "path": "src/main/java/com/tacz/guns/api/event/common/AttachmentPropertyEvent.java",
+      "url": "https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/api/event/common/AttachmentPropertyEvent.java",
+      "sha256": "d9acf6af839f574f7ea383732d980affba431cf9cc0d35d426aa7ec07eb11ac0",
+      "bytes": 907
+    },
+    {
+      "path": "src/main/java/com/tacz/guns/api/item/attachment/AttachmentType.java",
+      "url": "https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/api/item/attachment/AttachmentType.java",
+      "sha256": "931ff9f8277f648f5c70d79d3c7c7fdeba7e878f9329d1cd4d648eabbb85a32d",
+      "bytes": 666
+    },
+    {
+      "path": "src/main/java/com/tacz/guns/client/gui/components/refit/GunAttachmentSlot.java",
+      "url": "https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/gui/components/refit/GunAttachmentSlot.java",
+      "sha256": "45fac7d1671ad176131338b3db55aaabb92812fd17404f684ca6bb9ad3ed99a0",
+      "bytes": 4287
+    },
+    {
+      "path": "src/main/java/com/tacz/guns/resource/modifier/AttachmentCacheProperty.java",
+      "url": "https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/resource/modifier/AttachmentCacheProperty.java",
+      "sha256": "45e65e3bed121ca1251a46847d18fb10a5baba3c569ff647381c87da7c8189bd",
+      "bytes": 2592
+    },
+    {
+      "path": "src/main/java/com/tacz/guns/resource/modifier/AttachmentPropertyManager.java",
+      "url": "https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/resource/modifier/AttachmentPropertyManager.java",
+      "sha256": "696fc7d62ffef8ba0f069897a68d6164e03faab4115535f9eba7ea85eca8d3f6",
+      "bytes": 5198
+    },
+    {
+      "path": "src/main/java/com/tacz/guns/resource/pojo/data/attachment/AttachmentData.java",
+      "url": "https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/resource/pojo/data/attachment/AttachmentData.java",
+      "sha256": "e53d670b5ce3ebe3c9c99a5458208c76938b9a76649ffd9ad7d7c99dfad30dd5",
+      "bytes": 1105
+    }
+  ],
+  "findings": {
+    "slots": [
+      "scope",
+      "muzzle",
+      "stock",
+      "grip",
+      "laser",
+      "extended_mag"
+    ],
+    "unsupported_as_independent_builtin_slots": [
+      "barrel",
+      "receiver",
+      "resource_conduit",
+      "effect_core"
+    ],
+    "modifiers": "AttachmentPropertyManager registers handling, silence, recoil and other modifiers; exact numerical semantics and hook call sites require integration tests.",
+    "cache": "AttachmentCacheProperty evaluates attachment data into cache values and clears temporary modifier lists. This method alone does not establish every caller or absence of repeated work."
+  }
+}

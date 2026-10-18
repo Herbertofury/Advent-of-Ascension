@@ -6,7 +6,7 @@
 
 ## Current authoring milestone · 2026-10-18
 
-[Original animated Baronator prototype and editable source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator) now exist: 23 bones, 95 cuboids and 12 animation records, with static export checks. The versioned ledger covers 412 legacy records, 411 modern records and 78 audited 1.20.1 guns; these are overlapping version records, not finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
+[Original animated Baronator prototype and editable source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator) now exist. The public approved-firing authoring variant has 103 cuboids, 27 bones and 15 animation records; a separate mechanism lab explores feed and hand-fit repairs. These remain unqualified authoring studies, not native gameplay acceptance. The versioned ledger covers 412 legacy records, 411 modern records and 78 audited 1.20.1 guns; these are overlapping version records, not finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
 
 [Central compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Dimension mods and Extra Realmstones](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extra-Realmstones-and-Dimension-Compatibility)
 
@@ -47,3 +47,16 @@
 ## Required acceptance record per weapon
 
 Registry ID and version; baseline mechanics; remodel author/license; animation state coverage; backend and dependency pins; toggle/fallback results; save and multiplayer evidence; comparison images/video; measured startup/memory/frame-time results; unresolved defects. A checked box requires a linked result, not just generated files.
+
+
+## Modular armory and effect salvage
+
+See [the complete researched design and acceptance checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage) and [conceptual physics references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Physics-and-Speculative-Technology).
+
+- [ ] Implement extensive interchangeable barrels, scopes, suppressors, stocks, grips, feeds, handling and cosmetic modules.
+- [ ] Recover specific weapon effects as reusable cores; keep detach, extract, dismantle and recycle operations distinct.
+- [ ] Add AoA-specific dimension/resource/effect mechanics with explicit native-version evidence.
+- [ ] Build server-authoritative atomic transactions with duplicate prevention, protected items and full-inventory safety.
+- [ ] Show visible assembly, every effect, before/after handling and clear incompatibility explanations.
+- [ ] Preserve optional reload behavior and native resources; validate TaCZ and Apotheosis adapters separately.
+- [ ] Test modular combinations, animation clearance, saves, multiplayer and measured performance before marking shipped.

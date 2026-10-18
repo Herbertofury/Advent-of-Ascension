@@ -1,0 +1,121 @@
+# Modular Armory & Effect Salvage
+
+> **Requested design target, not a shipped feature.** Updated 18 October 2026. Forge 1.20.1 is the first implementation target. All gameplay examples below are proposals; native AoA, TaCZ and compatibility tests are still required.
+
+[Weapon mechanism & QA](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Baronator authoring prototype](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator)
+
+## The fantasy
+
+Find a weapon you love. Keep its identity, rebuild its handling and appearance, recover a remarkable effect from another discovery, and create a personal hybrid that genuinely behaves differently. Let the bench show the result before spending anything. Exploration should keep producing useful parts and experiments instead of merely stronger numbers.
+
+This must be an extensive, enjoyable system: barrels, scopes, suppressors, handling, stocks, grips, resource systems, special effects and cosmetic customization. AoA's strange weapons and dimensions should make it more imaginative than a conventional attachment menu.
+
+## What the Fallout research establishes
+
+| Reference | What the author documents | Lesson for AoA |
+|---|---|---|
+| [Any Mod Any Weapon](https://www.nexusmods.com/fallout4/mods/4515) | Cross-weapon attachments, inherited base behavior, and warnings about broken/ugly combinations or negative attributes | Keep the experimentation; require coherent adapters, sane values and visible assembly checks |
+| [Legendary Effect Overhaul](https://www.nexusmods.com/fallout4/mods/66900) | Detaching a particular effect as a loose mod; separately scrapping items for crafting currency; additional effect slots | Separate recovering a specific effect from recycling an unwanted item. Explain every active effect |
+| [Legendary Modifier Framework](https://www.nexusmods.com/fallout4/mods/62513) | Effect swapping through attachment points and modular equipment changes | Use a small extensible interface. Its posted permissions prohibit conversion to another game; this is conceptual research only |
+| [Equipment and Crafting Overhaul Redux](https://www.nexusmods.com/fallout4/mods/67679) | Configurable workbench/equipment features, separated from LEO; some tuning tools are not balanced progression | Separate the core framework, optional adapters, survival recipes and sandbox tuning |
+
+These are primary author-page reviews, not an audit of their executable plugins or an assertion that their features are vanilla Fallout 4. No Fallout assets or code are being copied. Recheck exact versions and permissions before any reuse. The [2015 Xbox presentation](https://news.xbox.com/en-us/2015/06/18/games-return-to-the-wasteland-in-style-with-fallout-4/) establishes the broad base-weapon/customization design inspiration; the community systems above supply additional, distinct ideas.
+
+## Full customization scope
+
+| Area | Player choices | Required visible or gameplay feedback |
+|---|---|---|
+| Barrel / emitter | Length/style families, split emitters, alternate firing layouts | Changed silhouette, correct muzzle positions, supported projectile pattern and handling trade-offs |
+| Sights / scopes | Iron sights, magnification, reticles, themed lenses | Accurate aim alignment, readable zoom/FOV options, no blocked sight picture |
+| Muzzle | Suppressors, flash control, themed discharge shapers | Sound and flash changes with clear limits; suppressors do not mean absolute silence or automatically conceal magical effects |
+| Stock / shoulder support | Compact, stable, heavy, folding visual families | Handling/recovery identity, hand fit and collision-safe animation |
+| Grip / fore-end | Grip styles, support grips, weight distribution | Aim acquisition, sway and movement-handling changes; preserved finger room |
+| Feed / magazine / conduit | Appropriate magazine families or resource-channeling parts | Correct native resource, capacity, reload/recharge rules and believable transfer route |
+| Action / firing mode | Supported semi, burst, automatic, alternating or charge behavior | Clear control explanation and server-confirmed cadence; never an unsupported silent conversion |
+| Cooling / charge | Recovery, heat expression and magical charge modules | Clear readiness state and intentional trade-offs, not unlimited free output |
+| Special-effect cores | Recovered native effects and authored new effects | Trigger, chance, eligible targets, resource cost, cooldown and stacking shown |
+| Cosmetics | Material palettes, skins, decals, engraving, name, emissive accents | Preview at actual scale; cosmetics cannot secretly change combat statistics |
+| Sound / particles | Weapon-appropriate curated variants | Distinct identity, bounded particles, shake/flash reduction and distance behavior |
+| Utility | Supported illumination or information modules | Optional controls, performance budget and explicit compatibility |
+
+Handling needs more than one opaque score. Show aim time, sway, recoil recovery, movement while aiming, ready/holster time, reload or recharge time, and the practical consequence of weight. Display only attributes that the active implementation actually supports.
+
+## The bench experience
+
+1. Choose a weapon and rotate/zoom its live preview. Inspect its native identity, resource and effects.
+2. Select a visible part or a searchable slot list. Filter by owned, craftable, unlockable, compatible or adapter-required.
+3. Preview a candidate with before/after statistics, animation sample, sound sample and an explanation of conflicts.
+4. Compare a saved blueprint against the current build. Show what is missing and where its recipe or discovery comes from.
+5. Show the exact cost and outputs before committing. Commit once on the server, with an inventory revision check.
+6. Try the result in a contained practice setting. Reset the preview without spending resources; actual gameplay never awards damage or ammunition from the preview.
+
+Support keyboard/controller navigation, readable text scaling, reduced motion, color-independent conflict labels, search by effect, and favorite/protected items. Show all effects, not only the first legendary-looking line. Offer named loadout blueprints without duplicating items.
+
+## Four different salvage operations
+
+- **Detach:** keep a reusable physical part; replace the slot with its valid base/default part where appropriate.
+- **Extract effect:** recover the specific selected effect as a provenance-bearing core. Show whether the donor survives and any explicit cost; default design should favor experimentation rather than hidden destruction.
+- **Dismantle:** intentionally consume a chosen weapon for an exact list of recoverable parts/effects/materials, excluding mutually incompatible double rewards.
+- **Recycle:** turn unwanted parts or cores into crafting material, with a clear irreversible-output preview.
+
+Never silently destroy a favorite, consume a donor before checking output capacity, or award both the original effect and a duplicate recovered core. A full inventory should stop the operation safely. Dropping valuable outputs into the world is not the default fallback.
+
+## AoA-specific playstyle proposals
+
+These names are design concepts, not claims about current AoA items or mechanics.
+
+- **Dimensional attunement:** dimension-themed cores unlock new visual and behavioral families through exploration; verify the selected AoA version's actual dimensions and progression.
+- **Runic hush:** a magical discharge-dampening alternative for appropriate energy weapons. Distinguish acoustic, flash and supernatural detection channels.
+- **Spirit conduit:** preserve a weapon's real resource provider while changing its recharge/handling personality. Resource conversion requires an explicit adapter and recipe, not free ammunition.
+- **Echo chamber:** a bounded delayed secondary effect with distinct feedback; secondary effects cannot recursively trigger themselves or duplicate native bonus shots.
+- **Prismatic emitter:** an authored alternative pattern with a total per-shot effect budget and its own muzzle layout. Do not multiply every on-hit reward by an arbitrary pellet count.
+- **Boss-memory core:** a discoverable themed behavior that encourages revisiting content while preserving boss immunities and ownership rules.
+- **Baronator alternating assembly:** retain the approved upper-then-lower firing personality; evaluate compatible scopes, handling modules and effect cores around that signature. A native bonus projectile is not another barrel-parity event.
+- **Living or supernatural finish:** optional material/animation personality without misrepresenting a cosmetic as a functional upgrade.
+
+Example experiments: a quiet runic exploration build; a heavy alternating Baronator with recovery-focused handling; a resource-efficient precision emitter; or a deliberately extravagant sandbox hybrid. These are test concepts, not advertised working builds.
+
+## Freedom without broken combinations
+
+Provide survival progression and an optional server-configurable sandbox mode. Survival uses discovered parts, reusable cores, meaningful unlocks and explicit costs. Sandbox can relax balance and unlock restrictions. Neither mode relaxes item safety, bounded effect execution, invalid numbers, missing resources, or known visual clipping.
+
+Separate physical compatibility from effect compatibility. A scope needs a mount, sight alignment and hand clearance; an effect needs an eligible event and resource policy. Where a visually strange combination can be made coherent, author an adapter. Otherwise explain the incompatibility and preserve the player's item. Never make an invisible attachment continue granting a hidden effect by accident.
+
+## Implementation contract
+
+- Keep base item identity, schema version, assembly revision and namespaced component IDs.
+- Represent sockets and capabilities as data; store transforms and attachment envelopes in model-space game units.
+- Keep native AoA effects, enchantments, Apotheosis affixes, projectile conversion and cosmetics as separate layers with explicit precedence.
+- Resolve compositions at equip/change/reload time and cache them. No per-frame registry scans or runtime geometry QA.
+- Dispatch gameplay from authoritative events with provenance, duplicate suppression and bounded secondary-event budgets.
+- Revalidate player access, recipe, inventory revision, resources, capacity and server rules at commit. Use atomic input/output mutation and idempotent requests.
+- Preserve unknown component IDs as inert data if a supporting mod disappears. Explain the missing adapter; do not erase the weapon.
+- Version migrations must preserve the original item and effects. Test round trips and interrupted operations.
+- Optional TaCZ, Apotheosis, magic-provider and turret adapters must declare supported versions. A native AoA model replacement alone does not make a TaCZ turret weapon.
+
+## Pinned TaCZ integration feasibility
+
+Static inspection of TaCZ commit `b482eff8c94a733ac8d0910193fca3893954027c` confirms a useful foundation, with important gaps:
+
+- [`AttachmentType`](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/api/item/attachment/AttachmentType.java) names scope, muzzle, stock, grip, laser and extended-magazine slots. Independent barrel, receiver, resource-conduit and effect-core slots are **not** present in this enum. Our broader system therefore needs its own assembly layer and adapter, rather than a promise that a stock gunpack JSON can already do everything.
+- [`AttachmentPropertyManager`](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/resource/modifier/AttachmentPropertyManager.java) registers aim, recoil, silence, weight, movement and other game modifiers. It provides property-change event/caching integration points; this is a candidate bridge to validate, not an implemented AoA bridge.
+- [`AttachmentCacheProperty`](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/resource/modifier/AttachmentCacheProperty.java) aggregates attachment properties into cached values and clears temporary modifier lists. Reuse compatible mechanisms and profile the actual call sites instead of adding another repeated scan.
+
+The proposed architecture is an AoA assembly/effect contract above version-specific rendering and gameplay adapters. Preserve the native item and resource contract; expose supported TaCZ slots through that adapter and resolve authored composite models for additional parts. Do not patch the enum blindly or assume third-party packs accept new slots. Verify licenses, APIs, load order and save behavior before implementation.
+
+[Static-source receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/modular-armory-tacz-source-evidence.json) lists file hashes and review limits; publication of that receipt accompanies the repository documentation update.
+
+## Acceptance and implementation backlog
+
+- [ ] Pin AoA/TaCZ/loader versions and inventory actual native effects/resources.
+- [ ] Define typed part sockets, effect composition, schema migrations and adapter interfaces.
+- [ ] Implement one end-to-end assembly: swap a scope and handling part with coherent geometry and statistics.
+- [ ] Add one extractable effect with exact-output preview, provenance and atomic transfer.
+- [ ] Test stale requests, duplicate packets, full inventory, two users, disconnects and save/reload.
+- [ ] Validate empty/tactical reload or resource recharge with all supported attachment envelopes.
+- [ ] Prove no native effect is lost, applied twice or recursively amplified.
+- [ ] Add accessible live assembly preview, comparison, blueprints and protected-item controls.
+- [ ] Add survival unlocks and separate sandbox rules, then playtest discovery and experimentation.
+- [ ] Profile cold/warm startup, equip/change cost, allocations, frame times and server ticks.
+- [ ] Expand across the registry with pairwise and worst-case combination tests; disclose untested combinations.
+- [ ] Publish actual runtime receipts before marking any gameplay feature complete.
