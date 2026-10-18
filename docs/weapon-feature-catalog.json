@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "title": "Complete AoA weapon feature contract",
+  "policy": "Every row is required for every weapon. Concepts, implementation and QA are separate. Not-applicable requires an explicit reason and owner approval; it is never an automatic omission.",
+  "features": [
+    {
+      "id": "baseline_identity",
+      "title": "Original identity and exact-version behavior",
+      "requirements": "Registry ID, palette, silhouette, stats, resource, projectile, progression, original in-flight/impact evidence; distinguish extracted assets from captures."
+    },
+    {
+      "id": "concept_fidelity",
+      "title": "Canonical concept and visual fidelity",
+      "requirements": "Approved target, orthographic proportions, hero view, paired concept/model views, explicit visual review; alternate designs never silently replace the canonical one."
+    },
+    {
+      "id": "mechanism_and_hand_fit",
+      "title": "Mechanism, grip and hand space",
+      "requirements": "Readable fictional supply-to-emitter path; comfortable grip; Steve/Alex hands where supported; trigger/guard, magazine, feed and moving-part clearances."
+    },
+    {
+      "id": "textures_materials_uv",
+      "title": "Textures, materials and UVs",
+      "requirements": "Original purposeful pixel/material detail informed by actual reference pack atlases; UV density, seams, padding, shading, wear, emissive masks and LOD texture variants."
+    },
+    {
+      "id": "projectiles",
+      "title": "Projectile designs and behavior",
+      "requirements": "Concept art for flight silhouette, count, motion, damage and resource implications; original vs upgraded values; valid entity lifecycle."
+    },
+    {
+      "id": "tracers_and_trails",
+      "title": "Tracers and trails",
+      "requirements": "Color, shape, width, timing, range, taper, persistence, customization and pooled lifetime; original vs upgraded flight comparison."
+    },
+    {
+      "id": "muzzle_feedback",
+      "title": "Muzzle flash and firing feedback",
+      "requirements": "Flash, smoke, sparks, local glow, recoil and audio synchronization; distinct emitters and confirmed-shot ownership; no blocked muzzle."
+    },
+    {
+      "id": "impacts",
+      "title": "Impacts and surface responses",
+      "requirements": "Entity, armor, terrain and fluid responses; direct vs area effects; impact art, timing, sounds and damage boundaries."
+    },
+    {
+      "id": "decals",
+      "title": "Impact decals and world marks",
+      "requirements": "Bullet marks, scorch marks, magical imprints, surface alignment, persistence, pooling and protected-world behavior; no destructive cosmetic block edits."
+    },
+    {
+      "id": "death_finishers",
+      "title": "Death, kill and finisher effects",
+      "requirements": "Concept storyboard and selectable effects; actual confirmed death trigger, boss/immune cases, multiplayer ownership, cleanup and reduced-effect option."
+    },
+    {
+      "id": "crafting_progression",
+      "title": "Craftables, recipes and progression",
+      "requirements": "Every craftable weapon/component/variant, ingredient images, recipes, source/loot/unlocks, progression balance, optional dependencies and discoverable guide links."
+    },
+    {
+      "id": "functional_variants",
+      "title": "Functional variants and alternate builds",
+      "requirements": "Concept and implementation for native-preserving default and distinct craftable alternates; clear names, behavior/stat/resource differences, no false equivalence."
+    },
+    {
+      "id": "barrels_and_converters",
+      "title": "Barrels and energy converters",
+      "requirements": "Identity-specific ballistic, disc, beam, arc, scatter or other meaningful options; visible assembly matches actual projectile/count/cost/cadence."
+    },
+    {
+      "id": "sights_and_aim",
+      "title": "Sights, scopes and aiming",
+      "requirements": "Sight choices, reticle art, alignment, aim transition and visibility; Soul Storm anchored flame-to-crosshair transformation; optional candle/gem preserved."
+    },
+    {
+      "id": "handling_and_muzzles",
+      "title": "Handling and muzzle attachments",
+      "requirements": "Grips, stocks, receivers, suppressors, brakes, stabilizers and appropriate equivalents; visible/socket fit, effects, balance and animation interaction."
+    },
+    {
+      "id": "feed_and_resource_modules",
+      "title": "Feed, magazines and resource modules",
+      "requirements": "Compatible ammo/energy chambers, visible loading story, optional reloads, native mana/Spirit/resource policies and no silent ammo conversion."
+    },
+    {
+      "id": "effect_salvage",
+      "title": "Effect extraction and recombination",
+      "requirements": "Dismantling, retained effects, donor provenance, transfer rules, stacking/conflicts, previews, balance, costs and save migration."
+    },
+    {
+      "id": "skins_mastercraft",
+      "title": "Skins and mastercraft variants",
+      "requirements": "Original skins, materials and reactive cosmetic states inspired by reference principles; skin-specific inspect/animation clearance, no unlicensed asset copying."
+    },
+    {
+      "id": "charms",
+      "title": "Earned functional charms",
+      "requirements": "Charm concepts, attachment sockets, unlock achievements/boss rewards, motion, clipping, declared gameplay modifiers and balance."
+    },
+    {
+      "id": "stickers_emblems",
+      "title": "Stickers and emblems",
+      "requirements": "Static, animated, glowing and custom designs; placement zones, layering, UV restrictions, readability, performance and customization persistence."
+    },
+    {
+      "id": "custom_effect_channels",
+      "title": "Selectable effect channels",
+      "requirements": "Independently configurable projectile, tracer, muzzle, impact, decal and death/finisher looks; compatible combinations and transparent gameplay implications."
+    },
+    {
+      "id": "animation_locomotion",
+      "title": "Idle, equip and movement animation",
+      "requirements": "Idle, draw, holster, walk/run/sprint, crouch and other supported movement transitions; first/third person and held/dropped/GUI presentation."
+    },
+    {
+      "id": "animation_fire_charge",
+      "title": "Fire, charge and recovery animation",
+      "requirements": "Per-emitter fire, charge, recoil, cooling/recovery, resource recovery, dry/blocked input, aim and rapid-repeat behavior."
+    },
+    {
+      "id": "animation_reload",
+      "title": "Reload or resource-service animation",
+      "requirements": "Tactical/empty reload where appropriate, resource-specific recovery/venting, hand/prop ownership, interruptions and optional-reload behavior."
+    },
+    {
+      "id": "animation_inspect",
+      "title": "Inspect and special choreography",
+      "requirements": "Distinct memorable inspection, mastercraft interactions, state-dependent details, short/reduced-motion option and safe cancellation."
+    },
+    {
+      "id": "audio",
+      "title": "Audio package",
+      "requirements": "Fire layers, charge/loops, handling, reload/resource service, inspect, flight, impacts, finishers, distance and underwater/environment behavior; provenance."
+    },
+    {
+      "id": "ui_build_feedback",
+      "title": "UI, tooltips and effective build feedback",
+      "requirements": "Resolved stats, resource costs, attachment/effect compatibility, craftable previews, original vs new values, exact icons and clear limitations."
+    },
+    {
+      "id": "native_network_saves",
+      "title": "Native gameplay, multiplayer and saves",
+      "requirements": "Pinned stack integration, authoritative shots/resources, event deduplication, equip/world/session transitions, saves/migration and rollback."
+    },
+    {
+      "id": "compatibility",
+      "title": "Compatibility matrix",
+      "requirements": "Relevant requested mods and exact versions, optional dependency boundaries, creative/survival and server/client checks; untested stays untested."
+    },
+    {
+      "id": "performance_accessibility",
+      "title": "Performance and accessibility",
+      "requirements": "Startup/asset costs, frame times and lows, bounded caches/particles/lights, LODs, no repeated scans, reduced motion/flash/shake and readable reticles."
+    },
+    {
+      "id": "documentation_evidence",
+      "title": "Documentation and acceptance evidence",
+      "requirements": "Complete weapon page, versioned sources, concept/model/effect comparisons, recipes/unlocks, hashes, reproducible QA, known failures and native footage labels."
+    }
+  ]
+}
