@@ -1,0 +1,641 @@
+{
+  "schema": 1,
+  "weapon_id": "aoa3:soul_storm",
+  "target": {
+    "minecraft": "1.20.1",
+    "aoa": "3.7.1",
+    "tacz": "1.1.8-hotfix2"
+  },
+  "canonical_concept": {
+    "status": "in_progress",
+    "artifacts": [
+      {
+        "path": "docs/soul-storm-anchored-flame-focus-concept-v1.png",
+        "sha256": "c2626f57d8c66b9a4e8bdad4dba805e7d2f6535083d9bdd27b6171bf9949e54e"
+      }
+    ],
+    "review": "Visual target identified; model fidelity remains unaccepted."
+  },
+  "features": {
+    "baseline_identity": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "concept_fidelity": {
+      "disposition": "required",
+      "concept": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-anchored-flame-focus-concept-v1.png",
+            "sha256": "c2626f57d8c66b9a4e8bdad4dba805e7d2f6535083d9bdd27b6171bf9949e54e"
+          }
+        ],
+        "notes": "Visual target retained; no model-fidelity acceptance."
+      },
+      "implementation": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          }
+        ],
+        "notes": "Authoring prototype only; this package does not establish full native implementation."
+      },
+      "qa": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          }
+        ],
+        "notes": "Explicit negative visual review retained in source package; do not pass."
+      },
+      "omission": null
+    },
+    "mechanism_and_hand_fit": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          }
+        ],
+        "notes": "Authoring prototype only; this package does not establish full native implementation."
+      },
+      "qa": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          }
+        ],
+        "notes": "Scoped triangle-area tests exist. Hands, continuous collisions and mechanism continuity remain open."
+      },
+      "omission": null
+    },
+    "textures_materials_uv": {
+      "disposition": "required",
+      "concept": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/TaCZ-Texture-Direct-Study.md",
+            "sha256": "dc583f31ea613ee1e5d82ce704ae5400604c9e8bedc382e5a06cacd4a19f29c8"
+          },
+          {
+            "path": "docs/tacz-texture-study.json",
+            "sha256": "0ff6da5f68538f4c81eb86babf110afe0c3621713b63432de0e41e0574ee95b6"
+          }
+        ],
+        "notes": "Actual pack-file study informs original texture work; final atlas and native treatment remain open."
+      },
+      "implementation": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          }
+        ],
+        "notes": "Authoring prototype only; this package does not establish full native implementation."
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "projectiles": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "tracers_and_trails": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "muzzle_feedback": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "impacts": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "decals": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "death_finishers": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "crafting_progression": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "functional_variants": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "barrels_and_converters": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "sights_and_aim": {
+      "disposition": "required",
+      "concept": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-anchored-flame-focus-concept-v1.png",
+            "sha256": "c2626f57d8c66b9a4e8bdad4dba805e7d2f6535083d9bdd27b6171bf9949e54e"
+          }
+        ],
+        "notes": "Rooted flame morph target; Candle/Gem alternatives still require complete coverage."
+      },
+      "implementation": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          },
+          {
+            "path": "docs/weapon-presentation-core-v3.zip",
+            "sha256": "0b7a80213a688ee6f5cb60810451f24e2058e8b3e0c78093ef797a43c8a9ef34"
+          }
+        ],
+        "notes": "Authoring morph plus engine-independent frame math; no native aim/shader binding."
+      },
+      "qa": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          },
+          {
+            "path": "docs/weapon-presentation-core-v3.zip",
+            "sha256": "0b7a80213a688ee6f5cb60810451f24e2058e8b3e0c78093ef797a43c8a9ef34"
+          }
+        ],
+        "notes": "101 authoring focus samples and pure JVM layout tests; no native alignment acceptance."
+      },
+      "omission": null
+    },
+    "handling_and_muzzles": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "feed_and_resource_modules": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "effect_salvage": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "skins_mastercraft": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "charms": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "stickers_emblems": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "custom_effect_channels": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "animation_locomotion": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "animation_fire_charge": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/soul-storm-sculpt-v16-source.zip",
+            "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+          },
+          {
+            "path": "docs/soul-storm-recoil-transport-v1.zip",
+            "sha256": "631e3347b714c8fad628dc912cf4f99ee8117a2d7a48a7ee1bb015c9c035be86"
+          }
+        ],
+        "notes": "Prior recoil transport is separate evidence and needs reconciliation with this geometry revision."
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "animation_reload": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "animation_inspect": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "audio": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "ui_build_feedback": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "native_network_saves": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "compatibility": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "performance_accessibility": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    },
+    "documentation_evidence": {
+      "disposition": "required",
+      "concept": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "implementation": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "qa": {
+        "status": "not_started",
+        "evidence": []
+      },
+      "omission": null
+    }
+  },
+  "acceptance_gates": {
+    "mechanism": {
+      "status": "not_started",
+      "evidence": []
+    },
+    "spatial": {
+      "status": "in_progress",
+      "evidence": [
+        {
+          "path": "docs/soul-storm-sculpt-v16-source.zip",
+          "sha256": "62c5312d0b55211b86f1f0a9602a36aa5e3d16387951b070316ed80e7c78b862"
+        }
+      ],
+      "notes": "Only the scoped geometric tests documented in this exact source revision apply."
+    },
+    "animation": {
+      "status": "not_started",
+      "evidence": []
+    },
+    "feedback": {
+      "status": "not_started",
+      "evidence": []
+    },
+    "export": {
+      "status": "not_started",
+      "evidence": []
+    },
+    "runtime": {
+      "status": "not_started",
+      "evidence": []
+    }
+  },
+  "visual_fidelity_review": {
+    "status": "not_started",
+    "concept_artifact": null,
+    "model_artifact": null,
+    "reviewer": null,
+    "notes": []
+  },
+  "fully_accepted": false,
+  "reviewed_revision": "published sculpt v16",
+  "review_notes": "Every unstarted row is deliberately retained. This manifest is an honest partial reconciliation, not a full-weapon completion claim."
+}
