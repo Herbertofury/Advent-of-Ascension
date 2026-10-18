@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-18T07:25:55.134806+00:00",
-  "evidenceKind": "owner-local-whole-native-server-component",
+  "observedAt": "2026-10-18T08:18:16.259943+00:00",
+  "evidenceKind": "owner-local-whole-native-client-server-and-production-component",
   "completeAoAPort": false,
   "publicRuntimeReproductionPerformed": false,
   "target": {
@@ -18,9 +18,10 @@
   "completeSourceRecipes": 882,
   "completeResourceSelections": 7737,
   "nativeServerPassed": true,
-  "nativeClientPassed": false,
-  "productionPassed": false,
-  "currentPlayableArtifactChanged": false,
+  "nativeClientPassed": true,
+  "productionPassed": true,
+  "requiredVulkanProductionPassed": true,
+  "currentPlayableArtifactChanged": true,
   "previousPlayableSha256": "78b66fd816c7c694dafa0c185bd2aec7b3fb77ec9f358d01ca07728e08dbba00",
   "verified": {
     "originalLootOutcomes": 21,
@@ -33,36 +34,90 @@
     "fakePlayersExcluded": true,
     "unrelatedBlocksUnchanged": true,
     "allPreviousArchiveMembersRetained": 24245,
-    "currentArchiveMembers": 24274
+    "currentArchiveMembers": 24274,
+    "originalMedia": 8,
+    "nativeArmorModels": 4,
+    "nativeHudAndSkillPageDrawCases": 16,
+    "completeEligibleStones": 20
   },
   "receipts": [
     {
+      "file": "independent-complete-foraging-native-proof.json",
+      "bytes": 6758,
+      "sha256": "275d248b6cb5a5841e3f9eee2b8675be2df4b4b8a976e354c9854e8bd2c8ed7f",
+      "role": "native"
+    },
+    {
+      "file": "complete-inherited-native-families.json",
+      "bytes": 3971,
+      "sha256": "53fb622d88cfbd294e985c10185d87079b00d74d3f066c50aac34759ced2758e",
+      "role": "inherited"
+    },
+    {
+      "file": "independent-production-proof.json",
+      "bytes": 2151,
+      "sha256": "b79bc627fb3a7b2309047629be60e3b436dffc6ce343c93959b60a36a52ec651",
+      "role": "production"
+    },
+    {
+      "file": "independent-hari-production-proof.json",
+      "bytes": 3063,
+      "sha256": "8a6e93adc867b5ac464cccef25f89f87981562eb74d77dbae3016ef6c86e57a3",
+      "role": "renderer"
+    },
+    {
+      "file": "current-playtest-promotion.json",
+      "bytes": 8770,
+      "sha256": "ec9e51334c397ebbd6e38cb1db35f9d68730ee2929016c620b013decfdefd382",
+      "role": "promotion"
+    },
+    {
+      "file": "production-playtest.json",
+      "bytes": 26727,
+      "sha256": "2da9709b491a94f03103f7cd59e813600ae84e17a500fafbb54348a9593dfacb",
+      "role": "ordinary"
+    },
+    {
+      "file": "hari-production-playtest.json",
+      "bytes": 43657,
+      "sha256": "57736eadb7a2bbdeb7ed7ea2592d28455f7d02d67c634e9004c0999040afaa7c",
+      "role": "hari"
+    },
+    {
       "file": "whole-mod-modern-server-baseline-4ca1bb1a-95ab-4df4-903d-266663389658.json",
+      "bytes": 28683965,
       "sha256": "4292725bc717c49302b100f10f41fdf19eb75e8a7acc99fec7f1e88970b0701a",
-      "bytes": 28683965
+      "role": "server"
     },
     {
       "file": "whole-foraging-plan-reconciled-sdk.json",
+      "bytes": 23930095,
       "sha256": "2a811a76c660ba60c3d5b097923dabe03b005570bc78aa28031a79caccac7871",
-      "bytes": 23930095
+      "role": "plan"
     },
     {
-      "file": "independent-foraging-server-proof.json",
-      "sha256": "c77419c2264d966ffb5cede07f7afe03d47f266d10a56a122c0eb072c529d421",
-      "bytes": 5708
+      "file": "whole-mod-modern-client-baseline-e7b436f4-9df2-4fd6-93fe-57bb8efb8fc9.json",
+      "bytes": 28183071,
+      "sha256": "1e196715fefc26860cdb8052d4ef4744f2119c740ac619d7c276335e02247f8f",
+      "role": "client"
+    },
+    {
+      "file": "aoa-upstream-freshness-4f1c8d9c-0797-4214-a361-274bd5eb92b6.json",
+      "bytes": 4766,
+      "sha256": "6cbc7e8679e475c0fd228d13adb9a8a2abca1a710ec286c231b22a93476f4aa4",
+      "role": "fresh_official_source_and_provider"
     }
   ],
   "upstreamFreshness": {
-    "file": "aoa-upstream-freshness-33f2155c-2030-4fe6-a967-6a8c695e8faa.json",
-    "sha256": "9aa69cba9100dbb5e5a44043c18db62b0863629acbd0d199a7fa7d1f13422500",
-    "bytes": 4764
+    "file": "aoa-upstream-freshness-4f1c8d9c-0797-4214-a361-274bd5eb92b6.json",
+    "bytes": 4766,
+    "sha256": "6cbc7e8679e475c0fd228d13adb9a8a2abca1a710ec286c231b22a93476f4aa4"
   },
   "openGates": [
-    "Complete native client and every stone/media/HUD case",
-    "Ordinary signed-in production and fresh Hari acceptance for this exact candidate",
-    "Latest historical Foraging balance/loot-table reconciliation",
+    "Later historical Foraging balance/loot-table reconciliation",
     "Natural armor acquisition/master-trader progression",
-    "Multiplayer, old saves, optional full-pack compatibility and sustained performance",
+    "Complete survival progression, multiplayer, old saves and optional full-pack compatibility",
+    "Equivalent-work sustained performance and 2,000 FPS goal",
     "Complete historical/latest AoA union"
   ]
 }
