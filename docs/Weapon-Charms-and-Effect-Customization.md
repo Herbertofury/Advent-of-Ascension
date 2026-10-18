@@ -71,3 +71,12 @@ When an attachment is removed, preserve its saved decal layout for later reinsta
 Six original collectible silhouettes and decal/animation/glow directions. Concept art does not prove grip clearance: the illustrated hanging pennant still needs full movement and reload clearance tests on the actual model.
 
 [Actual Charmsy release study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Charmsy-Direct-Study) records the inspected pack separately from our proposed gameplay.
+
+
+## Branch-aware cosmetic event identity
+
+An original [Java 17 presentation helper](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/impact-visual-ledger-v1.zip) now distinguishes world generation, actor, weapon instance, burst, pellet, impact ordinal and the weapon/projectile impact branch. [Pure-core test receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/impact-visual-ledger-v1-tests.json).
+
+This matters for Discharge Shotgun's two-stage entity-hit path: a burst-only duplicate key could suppress distinct intended effects. The tests preserve eight branch events across four pellets, reject repeated keys and exercise separate actors/weapons, bounded eviction and world resets.
+
+This is a **finite cosmetic dispatch window**, not server damage validation or permanent replay prevention. Old keys can be accepted after eviction. Invoke it once at the logical branch-event boundary and fan out to the configured effects afterward; do not call it independently for each particle, camera or shader pass. Native hook placement, trusted event IDs, views, late packets, settings and frame-time behavior still require integration tests.
