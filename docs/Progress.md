@@ -2,13 +2,33 @@
 
 # Progress · what is proven and what remains
 
-**Updated: 2026-10-17 UTC. A private owner-local playable candidate has scoped native/production acceptance; the complete historical/latest merge remains unfinished. No fabricated completion percentage.**
+**Updated: 2026-10-18 UTC. A private owner-local playable candidate has scoped native/production acceptance; the complete historical/latest merge remains unfinished. No fabricated completion percentage.**
+
+<!-- owner-published-playtest-status-start -->
+## Latest owner-published playable update · 2026-10-18
+
+The owner's report observed at **2026-10-18T00:14:07.831188+00:00** promotes the scoped Extraction/Anima playable update. It reports native client/server and ordinary signed-in production acceptance on **Minecraft 1.20.1 / Forge 47.4.23 / Java 17**. Vanilla hearts remain default and all health modes are retained.
+
+**Current reported JAR:** `f7a6a96be9632f21f172187e66a2285d9362afed6afd772d5c09a942ae84aa3e` · **146,925,257 bytes**. This supersedes the earlier foundation hash preserved below. The modified JAR remains local; this is not a new public mod download.
+
+Reported scope includes 12 skills / 96 exact-threshold cases, 20 Anima progression/sync cases, 22 original Extraction outcomes and 46 actual inventory/device interactions. The plan reports 862 source recipes, 7,592 resource selections and 24,103 artifact members, with no inherited members removed.
+
+**Verification boundary:** these are the owner's published local acceptance results. The documentation work here did not independently rerun the private build. The reported 1,059 render intervals and 2.33 metres of movement are a short production observation, not a full playthrough or a performance benchmark. Full historical/latest union, natural progression, multiplayer, optional-pack compatibility, migration and equivalent-work performance remain open.
+
+[Exact pinned owner report](https://github.com/Herbertofury/Advent-of-Ascension/blob/ca2d39601659b1345e56d17e471f539d61832dbb/development/current-playtest.json) · [Living current-playtest facts](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/development/current-playtest.json) · [Extraction/Anima implementation report](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Merge-Implementation-2026-10-17) · [Runtime acceptance scope](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist)
+<!-- owner-published-playtest-status-end -->
+
+<details><summary>Earlier foundation receipt · retained verbatim, superseded by the report above</summary>
+
+The older wording below is historical. Its live links can point to newer facts; the reported current artifact above takes precedence.
 
 ## Current owner-local playable candidate · 2026-10-16
 
 The owner's Desktop Enderloom worktree has now been inspected directly and reconciled with exact local runtime receipts. **Advent of Ascension · Current Playtest** runs on Minecraft 1.20.1 / Forge 47.4.23 / Java 17. Native client/server and ordinary signed-in production rendering/movement plus server save/restart pass. Vanilla hearts remain default. [Current evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/development/current-playtest.json) · [Full runtime checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist) · [Upstream reconciliation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Upstream-Reconciliation).
 
 The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bca8`, 146,794,782 bytes. The native-client JAR differs only in its manifest build timestamp; all program/resource members match. Full historical/latest parity, remaining Extraction/Anima/deity consumers, all progression, optional compatibility, multiplayer, save migration and performance acceptance remain open. The modified JAR and original AoA files are local, not a new public mod download. Earlier documentation-only observations below are retained as history and are superseded by this section where they describe missing local access.
+
+</details>
 
 <!-- current-documentation-status-start -->
 ## Current documentation at a glance
@@ -46,7 +66,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 | Interactive block models | 1,026 JSON-element item-model references; 17,537 quads in 33 on-demand chunks; 183 explicit exclusions | [Explore block models](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Block-Model-Coverage-1.21.1) |
 | Interactive workstations | 7 static item meshes, 240 quads and 14 source textures; orbit controls and keyboard views | [Inspect in 3D](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Interactive-Workstation-Models-1.21.1) |
 | Reading routes | 4 release-specific six-stop routes; browser-local reading checklists | [Choose a route](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Reading-Routes-and-Local-Checklists) |
-| Local documentation validation | 226 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
+| Local documentation validation | 227 checks passing; not Minecraft game tests | [Test receipt](https://herbertofury.github.io/Advent-of-Ascension/documentation-regression-suite.json) |
 
 ### Recent useful additions
 
@@ -96,7 +116,7 @@ The exact JAR is `57fd3b10d979e7567dc404b25a90eb38bf8ff6c9ac58b348ba712fa6bd48bc
 
 ### What still prevents a “complete AoA” claim
 
-1. Full historical/latest content parity and the remaining Extraction/Anima/deity consumers, as scoped by the owner-local runtime receipts.
+1. Full historical/latest content parity, later Anima and Soul Power/tablet/armour consumers, and remaining deity/dungeon chains, as scoped by the owner-published acceptance report.
 2. Authentic 1.7.10 visual coverage and the explicit 1.20.1 renderer/placeholder gaps. Historical reference images are not repaired modern runtime models.
 3. Unresolved acquisition and activation routes, including modern Petal progression and the inspected Rosidian/Spaceking summon paths.
 4. Target-build acceptance for the recorded source findings, including equipment transitions, storage/delivery, multiplayer, saves, compatibility and measured performance.
