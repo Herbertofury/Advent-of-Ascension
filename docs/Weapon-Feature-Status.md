@@ -2,8 +2,8 @@
 
 The [complete weapon standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard) applies all 31 feature groups to every weapon. Each row has independent concept, implementation and QA states. These first reconciled manifests cover exact published prototype revisions; later local experiments do not silently change their claims.
 
-- [Soul Storm, published v16 authoring study](soul-storm-feature-status.json)
-- [Discharge Shotgun, published v3 authoring study](discharge-shotgun-feature-status.json)
+- [Soul Storm, published v19 authoring study](soul-storm-feature-status.json)
+- [Discharge Shotgun, published v7 authoring study](discharge-shotgun-feature-status.json)
 
 Both manifests explicitly reject full acceptance. Discharge's selected concept is approved; its model, animation, effects and gameplay are not thereby approved. Soul Storm has source-level sight and recoil work, but native integration and full visual quality remain open. Other feature rows remain visible even where not started.
 

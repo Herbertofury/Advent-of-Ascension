@@ -55,8 +55,8 @@
         "status": "in_progress",
         "evidence": [
           {
-            "path": "docs/discharge-sculpt-v3-source.zip",
-            "sha256": "b8682463252732cc5d7f7128f56d4b3cb9c04457713362e78d1a81d9dbe230d1"
+            "path": "docs/aoa-authoring-corrections-v19-v7.zip",
+            "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
           }
         ],
         "notes": "Authoring prototype only; this package does not establish full native implementation."
@@ -65,8 +65,8 @@
         "status": "in_progress",
         "evidence": [
           {
-            "path": "docs/discharge-sculpt-v3-source.zip",
-            "sha256": "b8682463252732cc5d7f7128f56d4b3cb9c04457713362e78d1a81d9dbe230d1"
+            "path": "docs/aoa-authoring-corrections-v19-v7.zip",
+            "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
           }
         ],
         "notes": "Explicit negative visual review retained in source package; do not pass."
@@ -83,8 +83,8 @@
         "status": "in_progress",
         "evidence": [
           {
-            "path": "docs/discharge-sculpt-v3-source.zip",
-            "sha256": "b8682463252732cc5d7f7128f56d4b3cb9c04457713362e78d1a81d9dbe230d1"
+            "path": "docs/aoa-authoring-corrections-v19-v7.zip",
+            "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
           }
         ],
         "notes": "Authoring prototype only; this package does not establish full native implementation."
@@ -93,8 +93,8 @@
         "status": "in_progress",
         "evidence": [
           {
-            "path": "docs/discharge-sculpt-v3-source.zip",
-            "sha256": "b8682463252732cc5d7f7128f56d4b3cb9c04457713362e78d1a81d9dbe230d1"
+            "path": "docs/aoa-authoring-corrections-v19-v7.zip",
+            "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
           }
         ],
         "notes": "Scoped triangle-area tests exist. Hands, continuous collisions and mechanism continuity remain open."
@@ -121,15 +121,21 @@
         "status": "in_progress",
         "evidence": [
           {
-            "path": "docs/discharge-sculpt-v3-source.zip",
-            "sha256": "b8682463252732cc5d7f7128f56d4b3cb9c04457713362e78d1a81d9dbe230d1"
+            "path": "docs/discharge-atlas-part-study-v11.zip",
+            "sha256": "e36398b2cca840815bc37e7cf751bf64848ebcb5bd2c52da16396bc8cdae1126"
           }
         ],
-        "notes": "Authoring prototype only; this package does not establish full native implementation."
+        "notes": "Opaque source-to-atlas reconstruction and143 retained authoring parts are tested. Final texture art, native materials, mip/seam behavior and complete animation are not accepted."
       },
       "qa": {
-        "status": "not_started",
-        "evidence": []
+        "status": "in_progress",
+        "evidence": [
+          {
+            "path": "docs/discharge-atlas-part-study-v11.zip",
+            "sha256": "e36398b2cca840815bc37e7cf751bf64848ebcb5bd2c52da16396bc8cdae1126"
+          }
+        ],
+        "notes": "Opaque source-to-atlas reconstruction and143 retained authoring parts are tested. Final texture art, native materials, mip/seam behavior and complete animation are not accepted."
       },
       "omission": null
     },
@@ -600,8 +606,8 @@
       "status": "in_progress",
       "evidence": [
         {
-          "path": "docs/discharge-sculpt-v3-source.zip",
-          "sha256": "b8682463252732cc5d7f7128f56d4b3cb9c04457713362e78d1a81d9dbe230d1"
+          "path": "docs/aoa-authoring-corrections-v19-v7.zip",
+          "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
         }
       ],
       "notes": "Only the scoped geometric tests documented in this exact source revision apply."
@@ -631,6 +637,6 @@
     "notes": []
   },
   "fully_accepted": false,
-  "reviewed_revision": "published sculpt v3",
-  "review_notes": "Every unstarted row is deliberately retained. This manifest is an honest partial reconciliation, not a full-weapon completion claim."
+  "reviewed_revision": "published sculpt v7",
+  "review_notes": "Updated to the exact published corrected prototype. Winding, duplicate and thickness checks are additional scoped gates, not full visual/native acceptance. All unstarted feature rows remain visible."
 }

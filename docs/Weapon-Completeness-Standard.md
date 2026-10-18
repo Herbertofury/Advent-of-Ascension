@@ -109,3 +109,17 @@ At each meaningful iteration, answer these questions with evidence and specific 
 Record observation type: concept inspection, authoring render, offline animation, or native playtest. A render can establish an art defect; it cannot establish that a weapon is fun to play. Native play-feel remains untested until actual interaction is observed. A failed answer stays a tracked defect and prevents complete acceptance where relevant. Do not increase praise to match effort spent.
 
 For the full-set announcement, reconcile all 228 first-target IDs plus the separately inventoried historical/version-exclusive scope. Report exact version coverage, remaining unsupported combinations and evidence. Never announce every AoA weapon complete from the first-target count alone.
+
+## 9. Source-to-export regressions that must be caught
+
+- Measure the actual authoring FPS, frame hold and atlas sequence. Do not assume a default scene rate. Test the presentation sampler against the recorded timing data.
+- Evaluate modifiers, curves and transforms before geometry checks. Triangle area and unit-normal length do not prove outward winding. Check intended closed-solid orientation and review open surfaces/culling separately.
+- Detect exact duplicated surfaces; review intended overlays instead of blindly deleting them. Stress-test the actual thin-part constructors so new inlays and indicators do not repeat old bevel-collapse defects.
+- Compare authoring and exported material appearance using matched camera, lighting, sample count and seed. Preserve procedural coordinate meaning, raw color and emission intensity. A diffuse BSDF contribution is not automatically the intended raw metallic color.
+- Preserve per-part ownership through UV packing/baking. Verify positions, UVs, material mapping, corner-normal error and controlled owner motion. A merged still image cannot pass animation ownership.
+- Turn critical measured limits into failing tests. Logging a large normal error while returning success is not a pass.
+- Prioritize texel density where detail needs it before increasing every texture. Report local error regions, memory assumptions and native limits; background-heavy image averages can hide defects.
+- Fail unsupported material/alpha/rig cases explicitly. Do not silently apply an opaque-material pipeline to transparent flame or mixed shaders.
+- Keep source revisions and evidence hashes aligned. A corrected authoring scene does not repair an older exported fixture automatically.
+
+These checks supplement concept fidelity, real hand fit, native gameplay and performance testing. They do not replace them.
