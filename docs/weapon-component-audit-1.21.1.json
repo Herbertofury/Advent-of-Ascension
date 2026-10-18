@@ -1,0 +1,72 @@
+{
+  "scope": "Released AoA1.21.1-3.7.16.1 class fingerprints and five codec-key observations. Does not execute codecs, serialize a live item or prove native integration.",
+  "jar_sha512": "f95109a9072946e36451daa4c25a588feeda02cf1b24ab810d2176a0635f5cfb5c9408e0345c725a96c4fe70f97251ac55aed25687ed3f4daf12082317ca0f57",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "classes": {
+    "GunStats": {
+      "path": "net/tslat/aoa3/content/item/datacomponent/GunStats.class",
+      "sha256": "9919f481442917af23c3c24053cd8ff99bb10ab6f9cf22f53bffa749720be319",
+      "serialized_keys_observed": [
+        "damage",
+        "ticks_between_shots",
+        "recoil_modifier",
+        "unholster_time_modifier",
+        "ammo",
+        "full_auto"
+      ]
+    },
+    "BlasterStats": {
+      "path": "net/tslat/aoa3/content/item/datacomponent/BlasterStats.class",
+      "sha256": "dbf77d85ce708e2caa3641e947546d60da9fb643adac4a09f59ac5859defa035",
+      "serialized_keys_observed": [
+        "damage",
+        "ticks_between_shots",
+        "spirit_cost",
+        "charge_up_ticks",
+        "beam_distance"
+      ]
+    },
+    "ShotgunStats": {
+      "path": "net/tslat/aoa3/content/item/datacomponent/ShotgunStats.class",
+      "sha256": "07c9c6fc688ece5719f2418872b63deb2dcb34b2a2e173f4aff90e044d72981c",
+      "serialized_keys_observed": [
+        "pellets",
+        "pellet_spread",
+        "knockback_modifier"
+      ]
+    },
+    "SniperScope": {
+      "path": "net/tslat/aoa3/content/item/datacomponent/SniperScope.class",
+      "sha256": "168234fc04a194de6a0601c52716b25b10eda267a86d6df5ae52138f5635b73c",
+      "serialized_keys_observed": [
+        "scope",
+        "zoomStrength"
+      ]
+    },
+    "ItemUseSound": {
+      "path": "net/tslat/aoa3/content/item/datacomponent/ItemUseSound.class",
+      "sha256": "2a878e28bb23702c8815b1044fc217f12cc88323af06e58a8f7821efedcfd314",
+      "serialized_keys_observed": [
+        "sound",
+        "pitch"
+      ]
+    },
+    "AoADataComponents": {
+      "path": "net/tslat/aoa3/common/registration/item/AoADataComponents.class",
+      "sha256": "f088104a13ea0c8fb5d01918874e8ad5d34bda5c419c941fd6d14fca552bbfe5"
+    },
+    "AoAGun": {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/AoAGun.class",
+      "sha256": "6857cafb0e999dde234d86a9a80095415d752a4a003113ebe82e32ca6d49bc3a"
+    },
+    "AoABlaster": {
+      "path": "net/tslat/aoa3/content/item/weapon/blaster/AoABlaster.class",
+      "sha256": "7ab814a208034a363998c81bc33b578d4e5283266714fd7f8a2f283dfdafa064"
+    },
+    "AmmoVoidPouchComponent": {
+      "path": "net/tslat/aoa3/library/object/container/AmmoVoidPouchComponent.class",
+      "sha256": "62c4953d043e5a1d8cbde57fd8c6aa971a143087c1fbdda223d7326f0f420233"
+    }
+  },
+  "native_acceptance": false
+}

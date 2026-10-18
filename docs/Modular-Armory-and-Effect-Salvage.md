@@ -200,3 +200,8 @@ The proposed pure planner passes 31,104 small exhaustive fixtures for exact cost
 - [Released special consumption paths](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Ammunition-1.20.1)
 
 Required native cases include Greed with split stacks, off-hand firing with inventory aliases, protected/valuable/worn boots, creative, daylight Sublimus, and inventory changes between planning and commit. Do not consume cosmetic/clock state as ammo or promise that copied equipment metadata survives.
+
+
+## Reuse version-specific native capabilities
+
+[Versioned weapon adapters](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Versioned-Weapon-Adapters) records the refreshed 1.21.1 component schema, released class/key checks, ammo-pouch metadata boundaries and an integration order. Preserve 1.20.1 as the first target; newer components are a separate native adapter, not a reason to overlay a duplicate shadow-stat system.
