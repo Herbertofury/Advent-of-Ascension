@@ -1,0 +1,1099 @@
+{
+  "official_gallery": "https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/gallery",
+  "official_file": "https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/files/7358702",
+  "license_observed": "Creative Commons Attribution 4.0 International",
+  "license_page": "https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/license",
+  "archive_sha256": "42bf9b52c340693c3f961b1385880e9938b5d032bd3b31eec539539b88204c7a",
+  "scope": "Four official gallery images visually inspected; all eight weapon display/animation records, all attachment index/data records and selected logic/state-machine sections read statically. No pack runtime, sound listening or full animation playback claimed.",
+  "guns": [
+    {
+      "display": "assets/ars_armorer/display/guns/auto_rifle_stream_ejector_display.json",
+      "sha256": "19e4a13dadae123ae16bb070131dd741f3dab5126f4669c1e7e502949101febc",
+      "model": "ars_armorer:gun/auto_rifle_stream_ejector_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/auto_rifle_stream_ejector_lod",
+        "texture": "ars_armorer:gun/lod/auto_rifle_stream_ejector_lod"
+      },
+      "state_machine": "ars_armorer:normal_ars_state_machine",
+      "animation": "assets/ars_armorer/animations/auto_rifle_stream_ejector.animation.json",
+      "animation_sha256": "f77c1eadc425f1ed32a173caf907c3bd4b38322cde7d2edaa633ea5ac78e2da1",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": null,
+          "bones": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.4167,
+          "bones": [
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.8125,
+          "bones": [
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "left",
+            "right",
+            "camera"
+          ]
+        },
+        {
+          "name": "idle",
+          "duration": 7.25,
+          "bones": [
+            "root",
+            "core",
+            "barrel_root"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 0.8333,
+          "bones": [
+            "bolt2",
+            "charger",
+            "camera",
+            "core_root",
+            "grip_root",
+            "barrel_root"
+          ]
+        },
+        {
+          "name": "inspect",
+          "duration": 6.1042,
+          "bones": [
+            "left",
+            "right",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "barrel_back",
+            "root",
+            "camera"
+          ]
+        },
+        {
+          "name": "inspect_empty",
+          "duration": 6.1042,
+          "bones": [
+            "left",
+            "right",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "barrel_back",
+            "root",
+            "camera"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/mortar_source_thrower_display.json",
+      "sha256": "565adc388b186cecec8d8f56237ae066ef3932a0368018ccbc02b506162e3e3a",
+      "model": "ars_armorer:gun/mortar_source_thrower_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/mortar_source_thrower_lod",
+        "texture": "ars_armorer:gun/lod/mortar_source_thrower_lod"
+      },
+      "state_machine": "ars_armorer:mortar_state_machine",
+      "animation": "assets/ars_armorer/animations/mortar_source_thrower.animation.json",
+      "animation_sha256": "70152eaf4893ef2d5a8479f84762474fd717518e378f13c3a81cba53dcffcb68",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": null,
+          "bones": [
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 1.25,
+          "bones": [
+            "root",
+            "camera"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 1.0833,
+          "bones": [
+            "root",
+            "right",
+            "left",
+            "camera",
+            "means_illuminated"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.6667,
+          "bones": [
+            "root",
+            "right",
+            "left",
+            "means_illuminated"
+          ]
+        },
+        {
+          "name": "inspect",
+          "duration": 5.6667,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "camera",
+            "means_illuminated"
+          ]
+        },
+        {
+          "name": "inspect_empty",
+          "duration": 5.6667,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "camera",
+            "means_illuminated"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/pistol_source_ejector_display.json",
+      "sha256": "aa742105ab5fd626775b6bb9228bd0b7a44ecb13dd4dd53a59e3b70acbfadae3",
+      "model": "ars_armorer:gun/pistol_source_ejector_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/pistol_source_ejector_lod",
+        "texture": "ars_armorer:gun/lod/pistol_source_ejector_lod"
+      },
+      "state_machine": "ars_armorer:normal_ars_state_machine",
+      "animation": "assets/ars_armorer/animations/pistol_source_ejector.animation.json",
+      "animation_sha256": "2640ef9513765df80dd23ba3cfe41d5f8bee26986292a0c20dda28f394ba6fea",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": null,
+          "bones": [
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 1.125,
+          "bones": [
+            "root",
+            "core",
+            "barrel_up",
+            "barrel_down",
+            "camera"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.75,
+          "bones": [
+            "root",
+            "right",
+            "left",
+            "camera",
+            "core",
+            "barrel_up",
+            "barrel_down",
+            "barrel"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.5,
+          "bones": [
+            "root",
+            "camera",
+            "mana_illuminated"
+          ]
+        },
+        {
+          "name": "inspect",
+          "duration": 2.25,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "core",
+            "barrel_up",
+            "barrel_down",
+            "camera",
+            "barrel"
+          ]
+        },
+        {
+          "name": "inspect_empty",
+          "duration": 2.25,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "core",
+            "barrel_up",
+            "barrel_down",
+            "camera",
+            "barrel"
+          ]
+        },
+        {
+          "name": "idle",
+          "duration": 7.25,
+          "bones": [
+            "root",
+            "core",
+            "barrel_up",
+            "barrel_down"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/shotgun_jet_ejector_display.json",
+      "sha256": "7bcae8e74613b476527928e06399b17575bc741ae1833646b3cc5ef81d58c222",
+      "model": "ars_armorer:gun/shotgun_jet_ejector_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/shotgun_jet_ejector_lod",
+        "texture": "ars_armorer:gun/lod/shotgun_jet_ejector_lod"
+      },
+      "state_machine": "ars_armorer:normal_ars_state_machine",
+      "animation": "assets/ars_armorer/animations/shotgun_jet_ejector.animation.json",
+      "animation_sha256": "ba355f8a96c72e7969b36cce90112fc8e00aad3f0ce261d5d52ae1ed75c033a8",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": 6,
+          "bones": [
+            "barrel",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "inspect",
+          "duration": 3.5417,
+          "bones": [
+            "left",
+            "right",
+            "camera",
+            "inspect_rotate",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "inspect_empty",
+          "duration": 3.5417,
+          "bones": [
+            "left",
+            "right",
+            "camera",
+            "inspect_rotate",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.4583,
+          "bones": [
+            "camera",
+            "left",
+            "right",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.7917,
+          "bones": [
+            "camera",
+            "left",
+            "right",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "idle",
+          "duration": 7.25,
+          "bones": [
+            "core",
+            "barrel",
+            "root"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 0.7833,
+          "bones": [
+            "core",
+            "barrel",
+            "camera",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/shotgun_splash_ejector_display.json",
+      "sha256": "4e61ba932ffd33213e7dad9873d79a725c37900da8999a7f2af52eba2a6f83c8",
+      "model": "ars_armorer:gun/shotgun_splash_ejector_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/shotgun_splash_ejector_lod",
+        "texture": "ars_armorer:gun/lod/shotgun_splash_ejector_lod"
+      },
+      "state_machine": "ars_armorer:normal_ars_state_machine",
+      "animation": "assets/ars_armorer/animations/shotgun_splash_ejector.animation.json",
+      "animation_sha256": "9b62e39177d253993541da7ed64e0118ceb1d5b7fad1c2a5ccaa03c3dee00ee5",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": 6,
+          "bones": [
+            "barrel",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "inspect",
+          "duration": 3.5417,
+          "bones": [
+            "left",
+            "right",
+            "camera",
+            "inspect_rotate",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "inspect_empty",
+          "duration": 3.5417,
+          "bones": [
+            "left",
+            "right",
+            "camera",
+            "inspect_rotate",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.4583,
+          "bones": [
+            "camera",
+            "left",
+            "right",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.7917,
+          "bones": [
+            "camera",
+            "left",
+            "right",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        },
+        {
+          "name": "idle",
+          "duration": 7.25,
+          "bones": [
+            "core",
+            "barrel",
+            "root"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 0.7833,
+          "bones": [
+            "core",
+            "barrel",
+            "camera",
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "hand_root"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/sniper_distance_ejector_display.json",
+      "sha256": "de1501d8ed0b9ffd2dae1e80b4dc3437cbe4cbd839c17072169ac59df47d6a39",
+      "model": "ars_armorer:gun/sniper_distance_ejector_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/sniper_distance_ejector_lod",
+        "texture": "ars_armorer:gun/lod/sniper_distance_ejector_lod"
+      },
+      "state_machine": "ars_armorer:normal_ars_state_machine",
+      "animation": "assets/ars_armorer/animations/sniper_distance_ejector.animation.json",
+      "animation_sha256": "ad01857de74b0616dceaa1ab06d97c302d1df8439e22c5e90911195f53947866",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": null,
+          "bones": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.8125,
+          "bones": [
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "left",
+            "right",
+            "camera"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.4167,
+          "bones": [
+            "core_root",
+            "grip_root",
+            "barrel_root",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "name": "idle",
+          "duration": 7.25,
+          "bones": [
+            "root",
+            "core",
+            "barrel_root"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 0.8333,
+          "bones": [
+            "bolt2",
+            "charger",
+            "camera",
+            "core_root",
+            "grip_root",
+            "barrel_root"
+          ]
+        },
+        {
+          "name": "inspect",
+          "duration": 6.1042,
+          "bones": [
+            "camera",
+            "root",
+            "core_root",
+            "grip_root",
+            "right",
+            "barrel_root",
+            "barrel_back",
+            "left"
+          ]
+        },
+        {
+          "name": "inspect_empty",
+          "duration": 6.1042,
+          "bones": [
+            "camera",
+            "root",
+            "core_root",
+            "grip_root",
+            "right",
+            "barrel_root",
+            "barrel_back",
+            "left"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/special_miner_drill_display.json",
+      "sha256": "5c5bb12b190adf501091985ed8002a2b351579d306ae835bcb98af59fb94a376",
+      "model": "ars_armorer:gun/special_miner_drill_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/special_miner_drill_lod",
+        "texture": "ars_armorer:gun/lod/special_miner_drill_lod"
+      },
+      "state_machine": "ars_armorer:drill_state_machine",
+      "animation": "assets/ars_armorer/animations/special_miner_drill.animation.json",
+      "animation_sha256": "1ec6fd06eb93974c3ac3fe6e11e44fd961468c2021534e64efb3690ffb69d73e",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": null,
+          "bones": [
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.375,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "camera"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.75,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "camera"
+          ]
+        },
+        {
+          "name": "shoot",
+          "duration": 0.8333,
+          "bones": [
+            "root",
+            "camera"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    },
+    {
+      "display": "assets/ars_armorer/display/guns/special_source_flying_blade_display.json",
+      "sha256": "4dce905ceee5b004d37babcc0607b3fdc618d6983b41e7c7b38e6e2cb3b8a8b8",
+      "model": "ars_armorer:gun/special_source_flying_blade_geo",
+      "lod": {
+        "model": "ars_armorer:gun/lod/special_source_flying_blade_lod_geo",
+        "texture": "ars_armorer:gun/lod/special_source_flying_blade_lod_uv"
+      },
+      "state_machine": "ars_armorer:blade_state_machine",
+      "animation": "assets/ars_armorer/animations/special_source_flying_blade.animation.json",
+      "animation_sha256": "c0d8fc19f81aed143b9f0b42008bc28e0bf07f85ad9d67031a33ed819b6f1376",
+      "clips": [
+        {
+          "name": "static_idle",
+          "duration": null,
+          "bones": [
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "draw",
+          "duration": 0.8333,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "blades",
+            "camera"
+          ]
+        },
+        {
+          "name": "put_away",
+          "duration": 0.5,
+          "bones": [
+            "right",
+            "left",
+            "root",
+            "blades",
+            "camera"
+          ]
+        },
+        {
+          "name": "shoot_1",
+          "duration": 0.5,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_1",
+            "blade_1_illuminated",
+            "camera"
+          ]
+        },
+        {
+          "name": "shoot_2",
+          "duration": 0.5,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_2",
+            "camera",
+            "blade_2_illuminated"
+          ]
+        },
+        {
+          "name": "shoot_3",
+          "duration": 0.5,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_3",
+            "camera",
+            "blade_3_illuminated"
+          ]
+        },
+        {
+          "name": "shoot_4",
+          "duration": 0.5,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_4",
+            "camera",
+            "blade_4_illuminated"
+          ]
+        },
+        {
+          "name": "shoot_5",
+          "duration": 0.5,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_5",
+            "camera",
+            "blade_5_illuminated"
+          ]
+        },
+        {
+          "name": "shoot_6",
+          "duration": 0.5,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_6",
+            "camera",
+            "blade_6_illuminated"
+          ]
+        },
+        {
+          "name": "ammo_display",
+          "duration": 1.75,
+          "bones": [
+            "blade_1",
+            "blade_2",
+            "blade_3",
+            "blade_4",
+            "blade_5",
+            "blade_6"
+          ]
+        },
+        {
+          "name": "idle",
+          "duration": 4,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blade_1",
+            "blade_2",
+            "blade_3",
+            "blade_4",
+            "blade_5",
+            "blade_6"
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "duration": 1,
+          "bones": [
+            "core",
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "walk_backward",
+          "duration": 1,
+          "bones": [
+            "core",
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "walk_sideway",
+          "duration": 1,
+          "bones": [
+            "core",
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "walk_aiming",
+          "duration": 1,
+          "bones": [
+            "core",
+            "right",
+            "left"
+          ]
+        },
+        {
+          "name": "run_start",
+          "duration": 0.25,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blades"
+          ]
+        },
+        {
+          "name": "run",
+          "duration": 0.7917,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blades"
+          ]
+        },
+        {
+          "name": "run_hold",
+          "duration": null,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blades"
+          ]
+        },
+        {
+          "name": "run_end",
+          "duration": 0.25,
+          "bones": [
+            "core",
+            "right",
+            "left",
+            "blades"
+          ]
+        }
+      ],
+      "conventional_reload_clips": [],
+      "third_person_sound_keys": [
+        "shoot_3p",
+        "silence_3p"
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "id": "mana_mag_1",
+      "backend_slot": "extended_mag",
+      "index_sha256": "e19b563c649537310836afa83b53edd24aada255df64a85b2a65fe6b166e5052"
+    },
+    {
+      "id": "mana_mag_2",
+      "backend_slot": "extended_mag",
+      "index_sha256": "22e5d2ce546121b4dee2cc734983c7a6122149008cf28c950112e341d4711122"
+    },
+    {
+      "id": "mana_mag_3",
+      "backend_slot": "extended_mag",
+      "index_sha256": "7cc6123d566f5dc826963e4422dfe0605051998d1c9a0b968c3bb215b0dd2f29"
+    },
+    {
+      "id": "mod_conflux_accelerator",
+      "backend_slot": "stock",
+      "index_sha256": "7e8cb61651bf4839c6d8b84d1d94e1914802ea80bc3e9b7071dbfa50121f03f8"
+    },
+    {
+      "id": "mod_high_damage",
+      "backend_slot": "stock",
+      "index_sha256": "8290019a3bd1bfa84e8a47ea236e32d0d755af7b2a484169d8c604155fc7b20d"
+    },
+    {
+      "id": "mod_instant_renewal",
+      "backend_slot": "stock",
+      "index_sha256": "4e37c984f913eb4b5e71d4755136de0ee3815c0d75f54d0d42fb2b015b44c110"
+    },
+    {
+      "id": "mod_low_consume",
+      "backend_slot": "stock",
+      "index_sha256": "fe677d5ea7420bc97f3adc50b656820194c08af3929ede17139a5fadbc093e98"
+    },
+    {
+      "id": "mod_low_damage",
+      "backend_slot": "stock",
+      "index_sha256": "6f34ed5d27ed3343ee09c7c04d3b71b567aac078f4ba56b5cc6fe24ec7b7f9bd"
+    },
+    {
+      "id": "mod_proficient_utilization",
+      "backend_slot": "stock",
+      "index_sha256": "d95ec33c1e5c61263afe697aa1a633b75cc033f66191a5cd6e31ce324518db16"
+    },
+    {
+      "id": "mod_rapid_regeneration",
+      "backend_slot": "stock",
+      "index_sha256": "ad806fb5807824f69032db376fac21cd028186a12e87ffc30ce01a1c35cda5dd"
+    },
+    {
+      "id": "spell_crit",
+      "backend_slot": "grip",
+      "index_sha256": "fe34a93178c10590f1ca50bab37a703dcc2e2e862465c68aa429716aa8616068"
+    },
+    {
+      "id": "spell_crit_p",
+      "backend_slot": "grip",
+      "index_sha256": "95d7c50263376ebee542545d41fe632e2b4c5fe1826e0365fddf46f275cad1e4"
+    },
+    {
+      "id": "spell_crit_pp",
+      "backend_slot": "grip",
+      "index_sha256": "706dece8ee6f5665bc70df0df6ce6f1cb9ea7dea58bc53569996d9f7880361e3"
+    },
+    {
+      "id": "spell_damage",
+      "backend_slot": "grip",
+      "index_sha256": "81c3594cb132b346802b3afc587467550eb8ec5ff825a0dac2d46fdd507b8048"
+    },
+    {
+      "id": "spell_damage_p",
+      "backend_slot": "grip",
+      "index_sha256": "3c46e452f2964469456d198ceb8ec7100fd7034136d3effa15f5208f2eabbc88"
+    },
+    {
+      "id": "spell_damage_pp",
+      "backend_slot": "grip",
+      "index_sha256": "24c091899013887c57eefca0d006b98327b5c532444e9467bc1e09ecdd03a2fb"
+    },
+    {
+      "id": "spell_explode",
+      "backend_slot": "grip",
+      "index_sha256": "0984eb3002984c8af1c47d0fa83fc95f583eed4f2cc29ecf6413ce81878b436d"
+    },
+    {
+      "id": "spell_explode_p",
+      "backend_slot": "grip",
+      "index_sha256": "622a1c8181ddde46c82d3c3ad53eab444eba3329224f317dde65db41b5836348"
+    },
+    {
+      "id": "spell_ignite",
+      "backend_slot": "grip",
+      "index_sha256": "2677343dd7786dd4c8794176ad192399e3da8d63a54ed2eadc3d7b76ece65f0e"
+    },
+    {
+      "id": "spell_ignite_p",
+      "backend_slot": "grip",
+      "index_sha256": "a28ef71e96fc83ce1c5f8a6bc08aaebfeeb4c26a1abd72a4c37dc2a159da1b44"
+    },
+    {
+      "id": "spell_penetrate",
+      "backend_slot": "grip",
+      "index_sha256": "4a89050203a51670ecc3a81f6afa772d73900069eb54a40b91af2a38ce11942b"
+    },
+    {
+      "id": "spell_penetrate_incendiary",
+      "backend_slot": "grip",
+      "index_sha256": "cbf8b6fe965595e28a8bb561e598d2fb9f41bf83400f939d537cad381faa853d"
+    },
+    {
+      "id": "spell_penetrate_incendiary_p",
+      "backend_slot": "grip",
+      "index_sha256": "e80744d39edf982546cdcc4ede90861892510844bc650a8d47feb7d6549ada01"
+    },
+    {
+      "id": "spell_penetrate_incendiary_pp",
+      "backend_slot": "grip",
+      "index_sha256": "c7d7f9a46478006ccedb447035ce60b579eebb35fa8e7b7ddb024fcec67a308e"
+    },
+    {
+      "id": "spell_penetrate_p",
+      "backend_slot": "grip",
+      "index_sha256": "36bd48b8212cfcff53d3d0d0433a0121c7c3bb4ff46f08e0c215af05805f2c7d"
+    },
+    {
+      "id": "spell_penetrate_pp",
+      "backend_slot": "grip",
+      "index_sha256": "2e3fe8bf32e6e708d19d8e8cfb20fe64945f98e857a79324fe1854b74226eca8"
+    },
+    {
+      "id": "spell_suppression",
+      "backend_slot": "grip",
+      "index_sha256": "ba5ec89395c78fe02fb9fbff5a167b7edce0f71f08ad608c907930cdb49ac699"
+    },
+    {
+      "id": "spell_suppression_p",
+      "backend_slot": "grip",
+      "index_sha256": "4ed6f3dbf454f135b4a9d52b0381d57c414a6899bd30f53ba83ebcab1a356c00"
+    },
+    {
+      "id": "trigger_close_range_rounds",
+      "backend_slot": "muzzle",
+      "index_sha256": "0c66cd721e1e144b1e512118498261161309197ab789eff2101c10556141e677"
+    },
+    {
+      "id": "trigger_double_fire",
+      "backend_slot": "muzzle",
+      "index_sha256": "2c73977e995e32b034e0564613ac9b81d9a104e732f5f7a7edb85e7359c0738b"
+    },
+    {
+      "id": "trigger_high_speed",
+      "backend_slot": "muzzle",
+      "index_sha256": "74daf451b839193dd4995e3e28af90d35e2044cefc6f7e0fc06e1866ad946b89"
+    },
+    {
+      "id": "trigger_horizontal_spread",
+      "backend_slot": "muzzle",
+      "index_sha256": "cb1cc6fa52dfe28b727569deeac795f37292ae565c6e3e0c664a8922ff77e73e"
+    },
+    {
+      "id": "trigger_reckless_rounds",
+      "backend_slot": "muzzle",
+      "index_sha256": "4354c96acabcfd58d3f27c7ff0bf5803f9328a42e8500c1ddab7bab8165f3831"
+    },
+    {
+      "id": "trigger_slow_speed",
+      "backend_slot": "muzzle",
+      "index_sha256": "3a6beb8ee700fca6827545f6b2531f87c0627105b7444279c67c243feac5c817"
+    },
+    {
+      "id": "trigger_sniper_rounds",
+      "backend_slot": "muzzle",
+      "index_sha256": "9695b4de6b6435fd5d78c89fa0b16bfbab3a1f84ff5c31d6bfc20f418c4759d3"
+    },
+    {
+      "id": "trigger_vertical_spread",
+      "backend_slot": "muzzle",
+      "index_sha256": "74f304b2cdbf81b411749a3cb2d0dd9f523a6e8c83ce9bc9bbb44b104fe959cc"
+    }
+  ],
+  "slot_counts": {
+    "extended_mag": 3,
+    "stock": 7,
+    "grip": 18,
+    "muzzle": 8
+  },
+  "scripts": [
+    {
+      "path": "assets/ars_armorer/scripts/blade_state_machine.lua",
+      "sha256": "05f240dc03e4c5ed48dae6a46139b8a74a6b7a553fd88dd2337ef5eddd5f1461",
+      "bytes": 13765
+    },
+    {
+      "path": "assets/ars_armorer/scripts/drill_state_machine.lua",
+      "sha256": "c045c84f86b0fcb344fc21c0962b71111e6434f7c97c25af5e3d923901e71a24",
+      "bytes": 12084
+    },
+    {
+      "path": "assets/ars_armorer/scripts/mortar_state_machine.lua",
+      "sha256": "2b6c444a6038eaaca9f5772cb15c4a660eea4faa29a3e184add73001cb329780",
+      "bytes": 13701
+    },
+    {
+      "path": "assets/ars_armorer/scripts/normal_ars_state_machine.lua",
+      "sha256": "8431fa4c9919f01f1b95a5deed9c088579bfda18c51110f19a9a43c86f2da0fd",
+      "bytes": 16274
+    },
+    {
+      "path": "data/ars_armorer/scripts/drill_logic.lua",
+      "sha256": "7607c22fda2a46bb3d5b0059a0f1640c93fb8781f785e1e918780873cd879d63",
+      "bytes": 2039
+    },
+    {
+      "path": "data/ars_armorer/scripts/normal_ars_logic.lua",
+      "sha256": "a6921b6ce1a35410a099d197cb0c7473dd444ffa0a2732bf919db137fd5e86be",
+      "bytes": 12509
+    }
+  ],
+  "interpretation": [
+    "Semantic roles map onto existing TaCZ attachment slots: effects to grip, modifiers to stock, delivery triggers to muzzle, capacity to extended_mag.",
+    "Normal logic explicitly disables manual reload and models a rechargeable reserve using TaCZ magazine APIs; this is not proof of an Ars Source or AoA Spirit bridge.",
+    "Double-fire and spread modifiers alter delivery as well as costs; they need explicit resource and successful-shot semantics in AoA.",
+    "All eight display resources name LODs; presence is not a measured performance result.",
+    "Flying-blade presentation has six named blade groups and distinct actions; do not infer melee or homing behavior from appearance."
+  ]
+}

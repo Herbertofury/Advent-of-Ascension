@@ -81,3 +81,7 @@ These three owner-selected references complement one another: a visual gunpack a
 TaCZ code and visual assets have different licenses (GPL-3.0 code; CC BY-NC-ND 4.0 assets on its project page). Point Blank lists All Rights Reserved. Superb Warfare separates GPL code from reserved assets. Aplok lists CC BY-NC-ND 4.0. Check the exact file and license before reuse, modification or redistribution; gunpack permissions do not automatically grant rights to the franchise they depict.
 
 Prefer original AoA-faithful models and animations, properly licensed dependencies, and upstream contributions for reusable tooling fixes. Record provenance per asset. Do not bundle third-party models, sounds, textures or extracted game assets merely because they are linked here.
+
+## Ars Armorer: direct follow-up study
+
+The owner-selected [four-image gallery](https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/gallery) has now been inspected directly, alongside all eight weapon display/animation definitions and 36 attachment definitions in the pinned pack. Read the [detailed findings and AoA application checklist](Ars-Armorer-Direct-Study): semantic effect/delivery/modifier/capacity slots, rechargeable reserve handling, unconventional magical silhouettes, distinct blade groups and LOD authoring. Static inspection does not certify runtime behavior.
