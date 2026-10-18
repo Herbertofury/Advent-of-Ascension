@@ -76,3 +76,6 @@ cases and both projectile lifecycle/impact cases. Every source owner and all
 24 restored media files are independently read back. Corrected client effects,
 full gameplay and live dimension/progression gates remain open; Current Playtest
 remains v93. The first failed client fixture is retained.
+
+
+The [quiet complete entity-dependency client/server continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.md) now passes 2,800 actual-original XP boundary comparisons, all 56 particles and complete native draws, with QA master volume verified at zero. Full gameplay and missing-world gates remain open; playable v93 is unchanged.

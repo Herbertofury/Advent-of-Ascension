@@ -91,3 +91,42 @@ source recovery without altering its authorities:
 ```console
 python development/tooling/verify_complete_reconstruction.py path/to/snapshot-work --verify-only
 ```
+
+
+## Original callback correction and quiet complete client admission
+
+The next complete native mod candidate passes both native server and client.
+The unchanged original Snapshot runtime supplies **2,800 Hunter reward cases**
+across 100 levels, four initial XP states and seven amounts. This found an exact
+XP threshold bug missed by the earlier 700 zero-start cases. Actual target XP
+bits, default eye heights, pressure-plate behavior and Evercron's authored 3.7
+AI speed match those original callbacks. Fade's classic EntityMob AI receives
+native goal adapters; full AI behavior equivalence remains unverified.
+
+The independent reader now hashes all **1,168 source owners**, 9,967,249 source
+bytes and all 24 restored media files in the JAR; seven generated bad-result
+controls are rejected. Every inherited complete domain remains admitted.
+The corrected client exercises all **56 original trail particles** and real GPU
+draws of the complete Fade (312 vertices), Evercron (408) and banner (120).
+All 2,892 owned item models and 1,425 blocks pass the missing-model audit.
+The source-bound asset checklist now follows the additive locale/sound history,
+preserving all original JSON members, 20 block scenarios and 108 asset members.
+The earlier atlas and stale-locale failures remain recorded. All four health
+options pass and vanilla HEARTS remains the default.
+
+Every new QA client starts muted before Minecraft initializes audio and reads
+back the actual native master volume as **0.0**. Acceptance checks retain that
+executed proof and final settings. Sound callbacks/assets are still exercised;
+ordinary play sound settings are unchanged. Generated bad-case checks reject
+unmuted volume, absent/duplicate records and disabled sound callbacks. The Rust
+QA default source changes are not claimed installed in the ordinary app yet.
+
+The complete five-member original noise family also passes **350 complete array
+comparisons / 176,000 doubles**, bit for bit against the observed original
+runtime binary under target JDK 17, including reused nonzero arrays and eight
+workers. An injected one-bit regression is rejected. This is numerical source
+projection evidence, not native missing-world activation or original-world
+parity. Full mob gameplay, historical Hunter UI/abilities/restrictions/sync,
+protected obstruction, live worlds/portals/progression, saves, multiplayer and
+required Hari/performance checks remain open. Current Playtest stays v93 and
+the full-merge warning remains valid.
