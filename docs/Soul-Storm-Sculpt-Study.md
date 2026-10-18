@@ -6,6 +6,25 @@
 
 [Play the sampled four-emitter motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-motion.webp) · [Download editable sources, Blender files and retained v5–v9 iterations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-reconstruction-v5-v9.zip)
 
+## v14: modular four, five and six emitter layouts
+
+![Six-emitter Soul Storm authored burst](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-motion.webp)
+
+The requested emitter-count upgrade now has **three editable authoring variants**. The compact emitter bodies retain horizontal plasma-disc apertures, top-to-bottom recoil and the default animated Soul Flame sight. A shared Spirit distribution bus feeds telescoping energy couplers so the moving assemblies have a visible connection to the reservoir. Rod/sleeve overlap is intentional at that joint.
+
+| Four emitters | Five emitters | Six emitters |
+|---|---|---|
+| ![Four](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-4-emitters.png) | ![Five](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-5-emitters.png) | ![Six](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-6-emitters.png) |
+
+**What is checked:** 121 / 125 / 149 recoil samples respectively; selected emitter-envelope spacing; horizontal disc aperture clearances; 968 / 1,250 / 1,788 sampled energy-connection checks; all 15 flame-atlas cells; finite poses; zero-area mesh faces; and packed textures. The six-emitter scene also passes from a clean extraction of the published source archive. The strict runner makes Blender Python failures return a failing exit code rather than accepting stale receipts.
+
+**What remains open:** actual hands and aim, continuous whole-weapon collisions, richer ornament/materials, atmospheric trails, alpha cleanup, native mesh/export/shader performance, and in-game gameplay. The preview's cadence is a display fixture. Extra emitters do not yet implement a damage multiplier: the authoritative gameplay adapter must define volley, resource cost and cadence together and show those effective values to the player.
+
+[Editable v14 source and packed six-emitter Blender scene](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-sculpt-v14.zip) · [Per-variant scoped QA](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-qa.json)
+
+Archive SHA-256: `65a996ac906c51c79cd81044d219bd92553fae731b035a3a99e43531ed816b0e`. Four/five scenes regenerate from the shared builder. Earlier concept art and v5–v13 source archives remain preserved. This is an authoring milestone, not a native TaCZ acceptance claim.
+
+
 ## v13: disc orientation and aperture clearance
 
 ![Horizontal disc emission authoring preview](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v13-motion.webp)
