@@ -101,3 +101,19 @@ Owner-selected major design references: the full BO6 and BO7 Mastercraft collect
 - [Verified official examples, AoA storyboard proposals and review ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mastercraft-and-Mythic-Animation-References)
 
 Video pages are verified; detailed frame review remains pending because playback buffered. Do not equate a dated showcase title with a permanently complete catalogue or copy protected game assets.
+
+
+## Geometry and texture-generation tools to evaluate
+
+The current hand-authored sculptures need stronger material painting and ornamental detail. Image-to-3D tools are candidates for assisting that work, not evidence that an animated weapon is finished.
+
+- [Microsoft TRELLIS.2](https://github.com/microsoft/TRELLIS.2) provides image-to-3D and shape-conditioned PBR texturing examples. Its official setup specifies Linux and an NVIDIA GPU with at least 24 GB VRAM. The sample GLB export is opaque by default even when texture alpha exists, so transparency must be deliberately configured. Its published timings are H100 measurements, not a promise for this project or the user's computer.
+- [Tencent Hunyuan3D 2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) separates shape generation and PBR painting. Its official repository lists 10 GB VRAM for shape, 21 GB for texturing and 29 GB for the combined workload. [The painting documentation](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/hy3dpaint/README.md) describes conditioning textures on an existing mesh and reference image.
+
+### Proposed use for this armory
+
+Prioritize texture assistance on an already separated, mechanically reviewed model. One-shot image reconstruction can be useful for visual exploration, but its output still needs inspection for fused moving parts, filled muzzle openings, invented back surfaces, UV seams and over-dense geometry. These are risks to test, not claims about a particular output that has not been generated.
+
+Retain the authored bone/part boundaries, then evaluate the material result against the original sprite and approved concept. Separate baked base color, roughness/metallic and emissive behavior; test a readable non-PBR fallback. Bake or explicitly implement animated effects instead of assuming a Blender shader transfers to TaCZ. Compare native import, all supported views, LOD identity and frame times before accepting a generated asset.
+
+The cloud authoring check found no NVIDIA device nodes or `nvidia-smi` executable, and no PyTorch installation. These GPU pipelines have **not been installed or run here**. CPU Blender authoring remains available. No large model download, third-party image upload or paid GPU job was started. Check the selected project, model and dependency terms before adopting a pipeline.
