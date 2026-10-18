@@ -2,13 +2,17 @@
 
 > **Requested design target, not a shipped feature.** Updated 18 October 2026. Forge 1.20.1 is the first implementation target. All gameplay examples below are proposals; native AoA, TaCZ and compatibility tests are still required.
 
-[Weapon mechanism & QA](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Baronator authoring prototype](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator)
+[Weapon mechanism & QA](Weapon-Mechanism-and-Animation-QA) · [Compatibility targets](Compatibility-Targets) · [Baronator authoring prototype](Animated-Weapon-Prototype-Baronator)
 
 ## The fantasy
 
 Find a weapon you love. Keep its identity, rebuild its handling and appearance, recover a remarkable effect from another discovery, and create a personal hybrid that genuinely behaves differently. Let the bench show the result before spending anything. Exploration should keep producing useful parts and experiments instead of merely stronger numbers.
 
 This must be an extensive, enjoyable system: barrels, scopes, suppressors, handling, stocks, grips, resource systems, special effects and cosmetic customization. AoA's strange weapons and dimensions should make it more imaginative than a conventional attachment menu.
+
+## Concept-first attachment playground
+
+[Explore the 24 initial attachment concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Attachment-Concept-Gallery): Soul Storm modules, Baronator upgrades and cross-weapon effect/cosmetic collectibles, including imagined assembled loadouts. These establish art targets, not working modules or qualified fits.
 
 ## First visual assembly study
 
