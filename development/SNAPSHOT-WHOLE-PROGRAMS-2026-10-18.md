@@ -1,64 +1,67 @@
-# Whole Snapshot reconstruction and dimension program continuation
+# Whole Snapshot native reference and four-dimension continuation
 
-The complete Nevermine 2.5 Snapshot archive now has source candidates for **all
-4,043 original classes**, with every one of its **9,066 physical archive entries**
-retained unchanged. The selected source archive contains 3,952 complete Java
-files: 3,405 preferred primary candidates and 547 independent recoveries. The
-primary provider's timeouts/failure observations remain visible. Candidate
-coverage is complete; original-source fidelity and behavior equivalence are not
-therefore proven.
+All **4,043 original Snapshot classes** remain covered by **3,952 complete source
+candidates**, with all 9,066 physical archive entries retained. The primary
+decompiler's failures remain recorded; source availability does not establish
+original-source fidelity or semantic equivalence.
 
-The 354 Snapshot class entries absent from the Tslat 1.1.3 class set are covered
-by 347 complete source candidates. A class-name difference is **not** a missing
-gameplay feature count or an automatic canonical-identity decision.
+The entire **Ethereus, Everland, Playtopia and Labricon** cohort now contains 249
+complete original terrain/structure programs and three native API adapters. All
+252 source files compile together against the complete 123-entry accepted native
+classpath. Their 79 block dependencies span 23 original implementation owners
+and 89 original textures; none of those textures is missing. The newer canonical
+Army Block stays singular. Its Labricon activation context still needs review.
 
-## Whole missing dimension cohort
+## Original runtime evidence
 
-Ethereus, Everland and Playtopia are registered in the original Snapshot and
-absent from the current playable candidate. Their complete 74 terrain/structure
-programs are projected together, preserving every original body through recorded
-inverse API edits. Three explicit native adapters retain actual block placement,
-metadata, notification flags and native feature entry points. Missing canonical
-block bindings fail explicitly instead of substituting air.
+The unchanged Snapshot runs under its actual Minecraft 1.7.10 / Forge
+10.13.4.1614-1.7.10 / Java 8 server. All **29 registered worlds load**, the server
+runs 200 ticks and closes cleanly. Three original terrain fixtures cover every
+block/metadata position in their chunks: 196,608 positions. This is not all-world
+gameplay or converted-target equivalence.
 
-The first target-JDK diagnostic rejected the missing six-argument block-placement
-adapter. The corrected candidate retains the original vine facing bits and
-notification flags, verified against pinned official FML mappings and original
-1.7.10 server class bytes. All **77 source files compile** against all **123
-accepted native Forge classpath entries**, emitting 77 classes. This is diagnostic
-compilation with annotation processing disabled, not a full native mod build or
-runtime acceptance.
+A read-only observer retained 3,705 class definitions as actually loaded after
+Forge transformations. That is an observed server SDK, not all original classes
+or the client SDK. All 79 block dependencies also have real original property
+observations and **790 normal drop API queries**, with no query failures. Further
+queries preserve native material identities, map colors, actual virtual sounds,
+tool requirements and silk eligibility. The original registry's 832 global
+entity-name entries are not a count of 832 distinct AoA mobs.
 
-The complete dependency pass accounts for **49 original block fields**, **13
-original implementation owners**, all **52 exact original textures**, and the
-animated Ghostine Stone metadata. No required original texture is missing. Equal
-texture bytes alone never establish canonical identity; this pass found no exact
-texture-byte counterpart in the current candidate.
+## Native block/resource candidate
 
-## Acceptance still required
+All **78 new block definitions and registrations** form one cumulative candidate,
+with the existing Army Block retained. All **257 changed source files compile**
+against the complete native classpath, emitting 266 classes. This is a diagnostic
+with annotation processing disabled, not a full mod build or native gameplay.
 
-- Canonical block identities and complete native physics/drops/render behavior.
-- Seeded isolated random-state ownership for parallel native chunk generation.
-- Native biomes, dimension lifecycle, portals, entities and progression.
-- Vine canopy/neighbor states and complete terrain/structure behavior comparisons.
-- Native client/server, ordinary production, save/migration, multiplayer and
-  equivalent-work performance checks for the activated whole cohort.
+All **333 resource members** resolve through actual native model/texture parents,
+covering 149 declared model-state combinations and 171 reachable models. The 91
+PNG/animation path projections preserve their complete original bytes. Three
+generated broken controls are rejected. No native model bake is claimed yet.
 
-**Current Playtest remains the verified v93 artifact.** These inactive program
-projections are not advertised as playable dimensions. The full historical/latest
-union, transition warning, optional full-pack compatibility and sustained 2,000
-FPS objectives remain open.
+Native callbacks cover metadata, axis/bark variants, shearing, grass spreading,
+normal drops, source-bound physical properties, fluid levels and spawner data.
+Fade and Evercron remain explicit missing entity-program dependencies. Their
+spawners/altar cannot be advertised as playable by substituting another mob.
 
-Original source, resource and mod-JAR bytes remain local under the original
-terms. This publication contains factual metadata and our original reader tool.
-See `snapshot-whole-programs-2026-10-18.json` for exact local receipt identities.
+## Acceptance still open
 
-The standalone reader can recheck a locally retained complete analysis without
-modifying its authorities:
+- Complete native build, model baking and original/target callback comparisons.
+- Fade/Evercron programs, complete terrain RNG ownership, biomes, dimension
+  lifecycle, portals, progression and canonical Army Block activation context.
+- Ancient Cavern/Immortallis reconciliation and the remaining historical/latest union.
+- Production, multiplayer, save migration, optional compatibility and sustained
+  equivalent-work performance.
+
+**Current Playtest stays on verified v93.** The new candidate is not a playable
+v94 release. The full-merge warning and sustained 2,000 FPS objective remain open.
+Original programs, textures and JARs remain local; this publication contains our
+tooling and factual evidence. Exact local receipt identities are in
+`snapshot-whole-programs-2026-10-18.json`.
+
+The standalone source reader remains available:
 
 ```console
 python development/tooling/verify_complete_reconstruction.py path/to/snapshot-work --verify-only
 ```
-
-It rechecks all source/class/resource lineage and rejects four generated broken
-controls. Its success does not certify semantic equivalence or game behavior.
