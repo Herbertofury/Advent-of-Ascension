@@ -4,6 +4,12 @@
 
 [Design](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [References](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library)
 
+## Current authoring milestone · 2026-10-18
+
+[Original animated Baronator prototype and editable source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator) now exist: 23 bones, 95 cuboids and 12 animation records, with static export checks. The versioned ledger covers 412 legacy records, 411 modern records and 78 audited 1.20.1 guns; these are overlapping version records, not finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
+
+[Central compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Dimension mods and Extra Realmstones](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extra-Realmstones-and-Dimension-Compatibility)
+
 ## Foundation
 - [ ] Enumerate every accepted weapon by registry ID and source version; distinguish alternate variants from unique weapons.
 - [ ] Record native ammo, projectile, skill, enchantment and special-effect contracts.

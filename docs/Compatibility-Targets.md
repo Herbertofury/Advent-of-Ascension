@@ -14,6 +14,10 @@
 | **Curios** | Already named in the owner's published runtime acceptance checklist | Target recorded; slot, modifier and lifecycle qualification open | Equip/unequip, death, reconnect and removal remain safe |
 | **Ars Nouveau + ArsArms** | Owner-selected magic-through-firearms research / optional integration candidate | Study target, not an approved mandatory dependency or working AoA bridge | Matching release, exact mana contract and server-authoritative spell behavior demonstrated |
 | **Iron's Spells 'n Spellbooks + IronsArms** | Owner-selected magic-through-firearms research / optional integration candidate | Study target, not an approved mandatory dependency or working AoA bridge | Matching release, spell storage, resource accounting and persistence demonstrated |
+| **Butchery** | Explicit owner target; AoA creature processing and rewards | Requested; mob mappings and loot/skill interactions unqualified | No lost progression drops or duplicated carcass/reward paths |
+| **Alex's Mobs** | Explicit owner target; creature behavior, combat and progression | Requested; exact release and Citadel pairing unqualified | Native AI, tame/owner state, drops and AoA rewards remain correct |
+| **Farmer's Delight** | Explicit owner target; AoA ingredients, crops and cooking | Requested; recipe/tag and workstation integration unqualified | Correct ingredients, yields, containers and effects without recipe loops |
+| **Kaleidoscope Cookery** | Explicit owner target; complementary food and cooking integrations | Requested; exact release APIs/data and recipe mappings unqualified | Compatible recipes and food effects without duplication or silent overrides |
 | **Other Noxviola-pack mods** | Existing pack-level acceptance requirement | Exact pack manifest and release matrix still required | Every detected integration gets a named row and an evidence record before support is claimed |
 
 The first implementation lane is the actual **Minecraft 1.20.1 / Forge target build**. Record exact dependency versions and hashes before testing. A modern upstream branch, a historical AoA source reference or a successful launch with another loader does not certify this build. Later versions require their own matrix.
@@ -76,6 +80,51 @@ The current original geometry/keyframe prototype is an authoring milestone, not 
 ArsArms and IronsArms are **optional investigation lanes**. Their existence does not establish a working AoA resource adapter. Keep the originating mod's mana/Spirit costs distinct, and record which pool pays for each action. Test interruption, failed casts, Creative mode, full inventories and reconnects for duplication or loss.
 
 The Create Armorer, Ars Armorer and Helldivers TaCZ packs remain [visual/animation reference projects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library). A reference pack is not automatically an AoA runtime dependency, nor permission to redistribute its models, textures, animations or sounds. Keep code and art licensing separate.
+
+## Creatures, harvesting and cooking
+
+### Butchery
+
+[Owner-selected project](https://www.curseforge.com/minecraft/mc-mods/butchery). This is the separate jmods **Butchery mod**, not merely AoA's historical Butchery skill. Its project page offers a mob-addition datapack route and notes a Farmer's Delight food option; inspect those existing extension points before writing a duplicate integration.
+
+- [ ] Pin the target release and inspect its supported mob/tag/datapack mechanism.
+- [ ] Define appropriate processing outputs for each supported AoA creature; exclude unsuitable entities rather than assigning generic meat to everything.
+- [ ] Keep ordinary loot, carcass conversion, trophy/progression items and AoA skill rewards consistent; explicitly prevent duplicate drops or lost quest/boss rewards.
+- [ ] Test all processing stages, tool costs, full inventories and interruption/reload behavior.
+- [ ] Test the combined Butchery + Alex's Mobs + Farmer's Delight configuration and any existing addon before claiming our adapter is necessary or complete.
+
+### Alex's Mobs
+
+[Owner-selected project](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs). The project declares Citadel as required; pin the matching dependency rather than treating it as interchangeable with another animation library.
+
+- [ ] Qualify AoA projectile, melee, status and summon interactions with representative aquatic, flying, multipart and unusual creatures present in the selected release.
+- [ ] Preserve taming, owner attribution, mounts, alliances and special creature behavior.
+- [ ] Define AoA skill/kill/drop eligibility deliberately and award each event once; do not broadly tag all new mobs as equivalent progression targets.
+- [ ] Verify spawn rules and dimension/biome tags without replacing another mod's natural spawn configuration.
+- [ ] Audit existing Butchery integration and avoid duplicate corpse or loot processing.
+
+### Farmer's Delight
+
+[Owner-selected project](https://www.curseforge.com/minecraft/mc-mods/farmers-delight).
+
+- [ ] Map appropriate AoA crops, fish, meats and ingredients into exact supported tags and workstation recipes.
+- [ ] Add deliberate cutting-board, cooking-pot and skillet routes where the pinned API/data permits, with clear yields and tool costs.
+- [ ] Preserve food effects, nutrition, saturation, containers/remainders and custom stack data.
+- [ ] Check cooking/cutting and other cross-mod conversions for duplication loops and progression shortcuts.
+- [ ] Validate crop/soil interactions and AoA skill XP without double rewards from automation or repeated callbacks.
+- [ ] Show the actual cross-mod recipes and ingredient images in the wiki and supported in-game recipe browser.
+
+### Kaleidoscope Cookery
+
+[Owner-selected project](https://modrinth.com/mod/kaleidoscope-cookery). The listing includes1.20.1 and1.21–1.21.1 across multiple platforms; the adapter still needs an exact loader/release pin.
+
+- [ ] Inspect the selected release's ingredient, recipe, workstation and food-effect contracts before defining mappings.
+- [ ] Add appropriate AoA ingredients and dishes with distinct presentation and documented acquisition.
+- [ ] Preserve containers, quantities, effects and stack data through preparation and consumption.
+- [ ] Qualify coexistence with Farmer's Delight and Butchery; avoid silent recipe replacement, overlapping conversion exploits or double nutrition/XP effects.
+- [ ] Test optional-mod absence and resource reload, and publish exact illustrated recipes once implemented.
+
+All four remain targets until their pairwise and combined-pack tests pass. Shared food tags are not blanket proof of complete compatibility.
 
 ## Shared acceptance matrix
 

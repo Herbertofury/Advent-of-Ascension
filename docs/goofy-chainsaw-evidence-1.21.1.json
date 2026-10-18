@@ -1,0 +1,8260 @@
+{
+  "version": "1.21.1",
+  "release": "3.7.16.1",
+  "source_pin": "7919b5fe48599e6105c5740937ce36c36ef21d16",
+  "scope": "Three Goofy tool callbacks,Chainsaw hooks,two tier builder selections,exact tier assignment segments,bundled effect helper and vanilla inventory callback reference. No game execution.",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/tool/pickaxe/GoofyPickaxe.class",
+      "sha256": "4e45d7b8280b9762ae1fef39a73c11b92b6005d3733ea61d31921850c6f7370d",
+      "source": "content/item/tool/pickaxe/GoofyPickaxe.java",
+      "source_sha256": "00f84d74e171aad57bbef6dc7e33523cceb68da4fd6d4a941c8edae543e1c941",
+      "methods": [
+        {
+          "name": "inventoryTick",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V",
+          "code_hex": "2cb400079a00562bb6000d99004f150599000a10783606a7001715041009a2000b1100c83606a7000811011836062cb600131506857109949a00222b2bb600170464b6001b2dc1001f9900112dc0001f3a071907b40021b60025b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                86
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "isDamaged",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 153,
+              "operands": [
+                0,
+                79
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 21,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 16,
+              "constant": 120
+            },
+            {
+              "offset": 21,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 167,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 16,
+              "constant": 9
+            },
+            {
+              "offset": 30,
+              "opcode": 162,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 36,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 167,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 17,
+              "constant": 280
+            },
+            {
+              "offset": 44,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 44
+            },
+            {
+              "offset": 47,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getGameTime",
+                "()J"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 21,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 133
+            },
+            {
+              "offset": 53,
+              "opcode": 113
+            },
+            {
+              "offset": 54,
+              "opcode": 9
+            },
+            {
+              "offset": 55,
+              "opcode": 148
+            },
+            {
+              "offset": 56,
+              "opcode": 154,
+              "operands": [
+                0,
+                34
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 43
+            },
+            {
+              "offset": 60,
+              "opcode": 43
+            },
+            {
+              "offset": 61,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getDamageValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 65,
+              "opcode": 100
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "setDamageValue",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 45
+            },
+            {
+              "offset": 70,
+              "opcode": 193,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 153,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 45
+            },
+            {
+              "offset": 77,
+              "opcode": 192,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "inventoryMenu",
+                "Lnet/minecraft/world/inventory/InventoryMenu;"
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/inventory/InventoryMenu",
+                "broadcastChanges",
+                "()V"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/axe/GoofyAxe.class",
+      "sha256": "988df0191cf96f1833edcdcc319646ef5baebc558504cb2401dc790899560b9f",
+      "source": "content/item/tool/axe/GoofyAxe.java",
+      "source_sha256": "3de261a102687fb3d5b448cd42d65efaaa7f826ceda8abefb6f944ec2d559ed5",
+      "methods": [
+        {
+          "name": "inventoryTick",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V",
+          "code_hex": "2cb400079a00562bb6000d99004f150599000a10783606a7001715041009a2000b1100c83606a7000811011836062cb600131506857109949a00222b2bb600170464b6001b2dc1001f9900112dc0001f3a071907b40021b60025b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                86
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "isDamaged",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 153,
+              "operands": [
+                0,
+                79
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 21,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 16,
+              "constant": 120
+            },
+            {
+              "offset": 21,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 167,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 16,
+              "constant": 9
+            },
+            {
+              "offset": 30,
+              "opcode": 162,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 36,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 167,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 17,
+              "constant": 280
+            },
+            {
+              "offset": 44,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 44
+            },
+            {
+              "offset": 47,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getGameTime",
+                "()J"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 21,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 133
+            },
+            {
+              "offset": 53,
+              "opcode": 113
+            },
+            {
+              "offset": 54,
+              "opcode": 9
+            },
+            {
+              "offset": 55,
+              "opcode": 148
+            },
+            {
+              "offset": 56,
+              "opcode": 154,
+              "operands": [
+                0,
+                34
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 43
+            },
+            {
+              "offset": 60,
+              "opcode": 43
+            },
+            {
+              "offset": 61,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getDamageValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 65,
+              "opcode": 100
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "setDamageValue",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 45
+            },
+            {
+              "offset": 70,
+              "opcode": 193,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 153,
+              "operands": [
+                0,
+                17
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 45
+            },
+            {
+              "offset": 77,
+              "opcode": 192,
+              "operands": [
+                0,
+                31
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 58,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 25,
+              "operands": [
+                7
+              ]
+            },
+            {
+              "offset": 84,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "inventoryMenu",
+                "Lnet/minecraft/world/inventory/InventoryMenu;"
+              ]
+            },
+            {
+              "offset": 87,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/inventory/InventoryMenu",
+                "broadcastChanges",
+                "()V"
+              ]
+            },
+            {
+              "offset": 90,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/shovel/GoofyShovel.class",
+      "sha256": "e4d65b456e321a0d1314a5487ce6a3d621bfab75c27396257a3de27d4a4da266",
+      "source": "content/item/tool/shovel/GoofyShovel.java",
+      "source_sha256": "220850eea239d913e98caa41d37aded0acdbaf47c59d2fbc4b49af8adf5f7f2e",
+      "methods": [
+        {
+          "name": "inventoryTick",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V",
+          "code_hex": "2cb400139a00522bb6001999004b150599000a10783606a7001715041009a2000b1100c83606a7000811011836062cb6001f1506857109949a001e2b2bb600230464b600272dc1002b99000d2dc0002bb4002db60031b1",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 154,
+              "operands": [
+                0,
+                82
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "isDamaged",
+                "()Z"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 153,
+              "operands": [
+                0,
+                75
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 21,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 153,
+              "operands": [
+                0,
+                10
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 16,
+              "constant": 120
+            },
+            {
+              "offset": 21,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 167,
+              "operands": [
+                0,
+                23
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 28,
+              "opcode": 16,
+              "constant": 9
+            },
+            {
+              "offset": 30,
+              "opcode": 162,
+              "operands": [
+                0,
+                11
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 17,
+              "constant": 200
+            },
+            {
+              "offset": 36,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 167,
+              "operands": [
+                0,
+                8
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 17,
+              "constant": 280
+            },
+            {
+              "offset": 44,
+              "opcode": 54,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 46,
+              "opcode": 44
+            },
+            {
+              "offset": 47,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "getGameTime",
+                "()J"
+              ]
+            },
+            {
+              "offset": 50,
+              "opcode": 21,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 52,
+              "opcode": 133
+            },
+            {
+              "offset": 53,
+              "opcode": 113
+            },
+            {
+              "offset": 54,
+              "opcode": 9
+            },
+            {
+              "offset": 55,
+              "opcode": 148
+            },
+            {
+              "offset": 56,
+              "opcode": 154,
+              "operands": [
+                0,
+                30
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 43
+            },
+            {
+              "offset": 60,
+              "opcode": 43
+            },
+            {
+              "offset": 61,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "getDamageValue",
+                "()I"
+              ]
+            },
+            {
+              "offset": 64,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 65,
+              "opcode": 100
+            },
+            {
+              "offset": 66,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/item/ItemStack",
+                "setDamageValue",
+                "(I)V"
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 45
+            },
+            {
+              "offset": 70,
+              "opcode": 193,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 153,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 76,
+              "opcode": 45
+            },
+            {
+              "offset": 77,
+              "opcode": 192,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 80,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/entity/player/Player",
+                "inventoryMenu",
+                "Lnet/minecraft/world/inventory/InventoryMenu;"
+              ]
+            },
+            {
+              "offset": 83,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/inventory/InventoryMenu",
+                "broadcastChanges",
+                "()V"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/tool/axe/Chainsaw.class",
+      "sha256": "26c278ef9b0526bfdc4b2958df85fe3721e5bff6089abe3acbd2a35b3d358377",
+      "source": "content/item/tool/axe/Chainsaw.java",
+      "source_sha256": "9f648a04322dfc11b28c5e6a3c92dbc034fbd63c98274c556d85922948566f0b",
+      "methods": [
+        {
+          "name": "onEntitySwing",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Z",
+          "code_hex": "04ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "mineBlock",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z",
+          "code_hex": "1905b60007b4000d9a00651905b60007011905b600131905b600171905b6001ab2001db60023c00029b2002b0c0cb600312db60035c1003b9a000d2db2003db6004399002b1905190504bd00475903bb004759b20049100ab7004f101eb60052b60055b60059b6005c53b8005f2a2b2c2d19041905b70065ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 2,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 8,
+              "opcode": 154,
+              "operands": [
+                0,
+                101
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 13,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 1
+            },
+            {
+              "offset": 17,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getX",
+                "()D"
+              ]
+            },
+            {
+              "offset": 22,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getY",
+                "()D"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getZ",
+                "()D"
+              ]
+            },
+            {
+              "offset": 32,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ITEM_CHAINSAW_USE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 35,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 38,
+              "opcode": 192,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "PLAYERS",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 12
+            },
+            {
+              "offset": 45,
+              "opcode": 12
+            },
+            {
+              "offset": 46,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "playSound",
+                "(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+              ]
+            },
+            {
+              "offset": 49,
+              "opcode": 45
+            },
+            {
+              "offset": 50,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/state/BlockState",
+                "getBlock",
+                "()Lnet/minecraft/world/level/block/Block;"
+              ]
+            },
+            {
+              "offset": 53,
+              "opcode": 193,
+              "operands": [
+                0,
+                59
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 154,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 45
+            },
+            {
+              "offset": 60,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/tags/BlockTags",
+                "LOGS",
+                "Lnet/minecraft/tags/TagKey;"
+              ]
+            },
+            {
+              "offset": 63,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/block/state/BlockState",
+                "is",
+                "(Lnet/minecraft/tags/TagKey;)Z"
+              ]
+            },
+            {
+              "offset": 66,
+              "opcode": 153,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 69,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 71,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 73,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 74,
+              "opcode": 189,
+              "operands": [
+                0,
+                71
+              ]
+            },
+            {
+              "offset": 77,
+              "opcode": 89
+            },
+            {
+              "offset": 78,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 79,
+              "opcode": 187,
+              "operands": [
+                0,
+                71
+              ]
+            },
+            {
+              "offset": 82,
+              "opcode": 89
+            },
+            {
+              "offset": 83,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/effect/MobEffects",
+                "DIG_SPEED",
+                "Lnet/minecraft/core/Holder;"
+              ]
+            },
+            {
+              "offset": 86,
+              "opcode": 16,
+              "constant": 10
+            },
+            {
+              "offset": 88,
+              "opcode": 183,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "<init>",
+                "(Lnet/minecraft/core/Holder;I)V"
+              ]
+            },
+            {
+              "offset": 91,
+              "opcode": 16,
+              "constant": 30
+            },
+            {
+              "offset": 93,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "level",
+                "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 96,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "isAmbient",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 99,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "hideParticles",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 102,
+              "opcode": 182,
+              "member": [
+                "net/tslat/tme/api/object/builder/EffectBuilder",
+                "hideEffectIcon",
+                "()Lnet/tslat/tme/api/object/builder/EffectBuilder;"
+              ]
+            },
+            {
+              "offset": 105,
+              "opcode": 83
+            },
+            {
+              "offset": 106,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "applyPotions",
+                "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;[Lnet/tslat/tme/api/object/builder/EffectBuilder;)V"
+              ]
+            },
+            {
+              "offset": 109,
+              "opcode": 42
+            },
+            {
+              "offset": 110,
+              "opcode": 43
+            },
+            {
+              "offset": 111,
+              "opcode": 44
+            },
+            {
+              "offset": 112,
+              "opcode": 45
+            },
+            {
+              "offset": 113,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 115,
+              "opcode": 25,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 117,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/tool/axe/BaseAxe",
+                "mineBlock",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z"
+              ]
+            },
+            {
+              "offset": 120,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "hurtEnemy",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+          "code_hex": "2db60007b4000d9a00342db60007012db600132db600172db6001ab2001db60023c00029b2002b0c0cb600312db60007c000692b2db2006bb8007104ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 180,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "isClientSide",
+                "Z"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 154,
+              "operands": [
+                0,
+                52
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 45
+            },
+            {
+              "offset": 11,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 1
+            },
+            {
+              "offset": 15,
+              "opcode": 45
+            },
+            {
+              "offset": 16,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getX",
+                "()D"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 45
+            },
+            {
+              "offset": 20,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getY",
+                "()D"
+              ]
+            },
+            {
+              "offset": 23,
+              "opcode": 45
+            },
+            {
+              "offset": 24,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "getZ",
+                "()D"
+              ]
+            },
+            {
+              "offset": 27,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ITEM_CHAINSAW_USE",
+                "Lnet/neoforged/neoforge/registries/DeferredHolder;"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 182,
+              "member": [
+                "net/neoforged/neoforge/registries/DeferredHolder",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 192,
+              "operands": [
+                0,
+                41
+              ]
+            },
+            {
+              "offset": 36,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/sounds/SoundSource",
+                "PLAYERS",
+                "Lnet/minecraft/sounds/SoundSource;"
+              ]
+            },
+            {
+              "offset": 39,
+              "opcode": 12
+            },
+            {
+              "offset": 40,
+              "opcode": 12
+            },
+            {
+              "offset": 41,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "playSound",
+                "(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+              ]
+            },
+            {
+              "offset": 44,
+              "opcode": 45
+            },
+            {
+              "offset": 45,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "level",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 48,
+              "opcode": 192,
+              "operands": [
+                0,
+                105
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 43
+            },
+            {
+              "offset": 52,
+              "opcode": 45
+            },
+            {
+              "offset": 53,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/entity/EquipmentSlot",
+                "MAINHAND",
+                "Lnet/minecraft/world/entity/EquipmentSlot;"
+              ]
+            },
+            {
+              "offset": 56,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/ItemUtil",
+                "damageItemForUser",
+                "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)V"
+              ]
+            },
+            {
+              "offset": 59,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 60,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "canDisableShield",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+          "code_hex": "03ac",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 172
+            }
+          ]
+        },
+        {
+          "name": "getUseAnimation",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;",
+          "code_hex": "b20077b0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 178,
+              "member": [
+                "net/minecraft/world/item/UseAnim",
+                "NONE",
+                "Lnet/minecraft/world/item/UseAnim;"
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/library/builder/item/ToolTierBuilder$DamageBonus.class",
+      "sha256": "3d722499a27720f9290fbf83e7d904ea20fbf219d320579173dfc05d4faa2d3d",
+      "source": "library/builder/item/ToolTierBuilder.java",
+      "source_sha256": "53f00a6c2944f7727f780871cbd7991e1f6e6a06f2242d5d76120ad2e461df90",
+      "methods": [
+        {
+          "name": "damage",
+          "descriptor": "(F)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$EnchantmentValue;",
+          "code_hex": "2a230c66b500072ac0000db0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 35
+            },
+            {
+              "offset": 2,
+              "opcode": 12
+            },
+            {
+              "offset": 3,
+              "opcode": 102
+            },
+            {
+              "offset": 4,
+              "opcode": 181,
+              "member": [
+                "net/tslat/aoa3/library/builder/item/ToolTierBuilder$DamageBonus",
+                "damageBonus",
+                "F"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 42
+            },
+            {
+              "offset": 8,
+              "opcode": 192,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "net/tslat/aoa3/library/builder/item/ToolTierBuilder$RepairIngredient.class",
+      "sha256": "8994da4ee8cd88e502f4046ee344ba12f436098b4b6274421cbff41b21e97663",
+      "source": "library/builder/item/ToolTierBuilder.java",
+      "source_sha256": "53f00a6c2944f7727f780871cbd7991e1f6e6a06f2242d5d76120ad2e461df90",
+      "methods": [
+        {
+          "name": "noRepair",
+          "descriptor": "()Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$BlockHarvestBlacklist;",
+          "code_hex": "2aba00170000b6000bb0",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 186,
+              "operands": [
+                0,
+                23,
+                0,
+                0
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/library/builder/item/ToolTierBuilder$RepairIngredient",
+                "repairsWith",
+                "(Ljava/util/function/Supplier;)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$BlockHarvestBlacklist;"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 176
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tier_assignments": {
+    "path": "net/tslat/aoa3/common/registration/item/AoAItemStats.class",
+    "sha256": "24ac3db88ba8a59db0e70ccaf8598fe79dba830ca3909dde756d07d2e2e5ed8a",
+    "clinit_code_sha256": "a2e0de3662ba8e8c93ac48c64278dea889d3d7f8b23b5457518e0edb21ad30c6",
+    "segments": {
+      "GOOFY": [
+        {
+          "offset": 271,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder",
+            "tool",
+            "()Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$HarvestSpeed;"
+          ]
+        },
+        {
+          "offset": 274,
+          "opcode": 18,
+          "constant": 8.0
+        },
+        {
+          "offset": 276,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$HarvestSpeed",
+            "baseSpeed",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$Durability;"
+          ]
+        },
+        {
+          "offset": 279,
+          "opcode": 17,
+          "constant": 1500
+        },
+        {
+          "offset": 282,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$Durability",
+            "durability",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$DamageBonus;"
+          ]
+        },
+        {
+          "offset": 285,
+          "opcode": 11
+        },
+        {
+          "offset": 286,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$DamageBonus",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$EnchantmentValue;"
+          ]
+        },
+        {
+          "offset": 289,
+          "opcode": 16,
+          "constant": 15
+        },
+        {
+          "offset": 291,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$EnchantmentValue",
+            "enchantValue",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$RepairIngredient;"
+          ]
+        },
+        {
+          "offset": 294,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$RepairIngredient",
+            "noRepair",
+            "()Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$BlockHarvestBlacklist;"
+          ]
+        },
+        {
+          "offset": 297,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoATags$Blocks",
+            "INCORRECT_FOR_GOOFY_TOOL",
+            "Lnet/minecraft/tags/TagKey;"
+          ]
+        },
+        {
+          "offset": 300,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$BlockHarvestBlacklist",
+            "doesntHarvestBlocks",
+            "(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/item/Tier;"
+          ]
+        },
+        {
+          "offset": 303,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItemStats",
+            "GOOFY",
+            "Lnet/minecraft/world/item/Tier;"
+          ]
+        }
+      ],
+      "CHAINSAW": [
+        {
+          "offset": 416,
+          "opcode": 184,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder",
+            "tool",
+            "()Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$HarvestSpeed;"
+          ]
+        },
+        {
+          "offset": 419,
+          "opcode": 18,
+          "constant": 18.0
+        },
+        {
+          "offset": 421,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$HarvestSpeed",
+            "baseSpeed",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$Durability;"
+          ]
+        },
+        {
+          "offset": 424,
+          "opcode": 17,
+          "constant": 2500
+        },
+        {
+          "offset": 427,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$Durability",
+            "durability",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$DamageBonus;"
+          ]
+        },
+        {
+          "offset": 430,
+          "opcode": 19,
+          "constant": 9.0
+        },
+        {
+          "offset": 433,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$DamageBonus",
+            "damage",
+            "(F)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$EnchantmentValue;"
+          ]
+        },
+        {
+          "offset": 436,
+          "opcode": 3,
+          "constant": 0
+        },
+        {
+          "offset": 437,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$EnchantmentValue",
+            "enchantValue",
+            "(I)Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$RepairIngredient;"
+          ]
+        },
+        {
+          "offset": 440,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$RepairIngredient",
+            "noRepair",
+            "()Lnet/tslat/aoa3/library/builder/item/ToolTierBuilder$BlockHarvestBlacklist;"
+          ]
+        },
+        {
+          "offset": 443,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoATags$Blocks",
+            "INCORRECT_FOR_CHAINSAW_TOOL",
+            "Lnet/minecraft/tags/TagKey;"
+          ]
+        },
+        {
+          "offset": 446,
+          "opcode": 182,
+          "member": [
+            "net/tslat/aoa3/library/builder/item/ToolTierBuilder$BlockHarvestBlacklist",
+            "doesntHarvestBlocks",
+            "(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/item/Tier;"
+          ]
+        },
+        {
+          "offset": 449,
+          "opcode": 179,
+          "member": [
+            "net/tslat/aoa3/common/registration/item/AoAItemStats",
+            "CHAINSAW",
+            "Lnet/minecraft/world/item/Tier;"
+          ]
+        }
+      ]
+    },
+    "source_sha256": "d87b219667cdb73e423422fc20ebc5eccac8ae292093f18f37a4611a1876264e"
+  },
+  "effect_builder": {
+    "archive": "META-INF/jarjar/TslatModdingExtensions-neoforge-1.21.1-1.0.0.jar",
+    "archive_sha256": "8e21421ae839605cdafd2c43aa169baf073890d1939c80696d71077037c81c5b",
+    "path": "net/tslat/tme/api/object/builder/EffectBuilder.class",
+    "sha256": "dc19d1bf022deb2b206a9e70609c1c9cfb95ab9823371f5f1b3388cd7984d4db",
+    "methods": [
+      {
+        "name": "level",
+        "descriptor": "(I)Lnet/tslat/tme/api/object/builder/EffectBuilder;",
+        "code_hex": "2a1b04110100b80027b5000e2ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 27
+          },
+          {
+            "offset": 2,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 3,
+            "opcode": 17,
+            "constant": 256
+          },
+          {
+            "offset": 6,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "clamp",
+              "(III)I"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 181,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "level",
+              "I"
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 42
+          },
+          {
+            "offset": 13,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "isAmbient",
+        "descriptor": "()Lnet/tslat/tme/api/object/builder/EffectBuilder;",
+        "code_hex": "2a04b500122ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 2,
+            "opcode": 181,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "ambient",
+              "Z"
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 42
+          },
+          {
+            "offset": 6,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "hideParticles",
+        "descriptor": "()Lnet/tslat/tme/api/object/builder/EffectBuilder;",
+        "code_hex": "2a03b500162ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 2,
+            "opcode": 181,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "showParticles",
+              "Z"
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 42
+          },
+          {
+            "offset": 6,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "hideEffectIcon",
+        "descriptor": "()Lnet/tslat/tme/api/object/builder/EffectBuilder;",
+        "code_hex": "2a03b500192ab0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 2,
+            "opcode": 181,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "showIcon",
+              "Z"
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 42
+          },
+          {
+            "offset": 6,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "build",
+        "descriptor": "()Lnet/minecraft/world/effect/MobEffectInstance;",
+        "code_hex": "bb0001592ab400202ab400242ab4000e04642ab400122ab400162ab40019b7002d4c2ab4001cc6000b2b2ab4001cb800302bb0",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              0,
+              1
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 42
+          },
+          {
+            "offset": 5,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "effect",
+              "Lnet/minecraft/core/Holder;"
+            ]
+          },
+          {
+            "offset": 8,
+            "opcode": 42
+          },
+          {
+            "offset": 9,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "duration",
+              "I"
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 42
+          },
+          {
+            "offset": 13,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "level",
+              "I"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 17,
+            "opcode": 100
+          },
+          {
+            "offset": 18,
+            "opcode": 42
+          },
+          {
+            "offset": 19,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "ambient",
+              "Z"
+            ]
+          },
+          {
+            "offset": 22,
+            "opcode": 42
+          },
+          {
+            "offset": 23,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "showParticles",
+              "Z"
+            ]
+          },
+          {
+            "offset": 26,
+            "opcode": 42
+          },
+          {
+            "offset": 27,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "showIcon",
+              "Z"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/effect/MobEffectInstance",
+              "<init>",
+              "(Lnet/minecraft/core/Holder;IIZZZ)V"
+            ]
+          },
+          {
+            "offset": 33,
+            "opcode": 76
+          },
+          {
+            "offset": 34,
+            "opcode": 42
+          },
+          {
+            "offset": 35,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "extraData",
+              "Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 198,
+            "operands": [
+              0,
+              11
+            ]
+          },
+          {
+            "offset": 41,
+            "opcode": 43
+          },
+          {
+            "offset": 42,
+            "opcode": 42
+          },
+          {
+            "offset": 43,
+            "opcode": 180,
+            "member": [
+              "net/tslat/tme/api/object/builder/EffectBuilder",
+              "extraData",
+              "Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 46,
+            "opcode": 184,
+            "member": [
+              "net/tslat/tme/api/mobeffect/ExtendedMobEffect",
+              "setExtraDataFor",
+              "(Lnet/minecraft/world/effect/MobEffectInstance;Ljava/lang/Object;)V"
+            ]
+          },
+          {
+            "offset": 49,
+            "opcode": 43
+          },
+          {
+            "offset": 50,
+            "opcode": 176
+          }
+        ]
+      }
+    ]
+  },
+  "vanilla_inventory_reference": {
+    "scope": "Unmodified vanilla callback reference only;target loader/offhand behavior not certified.",
+    "class_path": "cmw.class",
+    "sha256": "761e98523a2ce63c75c1edc1f1f0c13cf2502174d9967434424450e79bc8084c",
+    "mapping_sha256": "140c47931cccc8fc9e4c22d7603e2d714d1a953a146f51ea7397d95c955536ec",
+    "mapping_line": "239:246:void tick() -> j",
+    "name": "j",
+    "descriptor": "()V",
+    "code_hex": "2ab4004ab900cb01004c2bb900d001009900522bb900d40100c000394d033e1d2cb6006da2003b2c1db60059c00034b6005e9a00272c1db60059c000342ab4004cb600d82ab4004c1d2ab400521da0000704a7000403b600dd840301a7ffc3a7ffabb1",
+    "instructions": [
+      {
+        "offset": 0,
+        "opcode": 42
+      },
+      {
+        "offset": 1,
+        "opcode": 180,
+        "member": [
+          "cmw",
+          "n",
+          "Ljava/util/List;"
+        ]
+      },
+      {
+        "offset": 4,
+        "opcode": 185,
+        "member": [
+          "java/util/List",
+          "iterator",
+          "()Ljava/util/Iterator;"
+        ]
+      },
+      {
+        "offset": 9,
+        "opcode": 76
+      },
+      {
+        "offset": 10,
+        "opcode": 43
+      },
+      {
+        "offset": 11,
+        "opcode": 185,
+        "member": [
+          "java/util/Iterator",
+          "hasNext",
+          "()Z"
+        ]
+      },
+      {
+        "offset": 16,
+        "opcode": 153,
+        "operands": [
+          0,
+          82
+        ]
+      },
+      {
+        "offset": 19,
+        "opcode": 43
+      },
+      {
+        "offset": 20,
+        "opcode": 185,
+        "member": [
+          "java/util/Iterator",
+          "next",
+          "()Ljava/lang/Object;"
+        ]
+      },
+      {
+        "offset": 25,
+        "opcode": 192,
+        "operands": [
+          0,
+          57
+        ]
+      },
+      {
+        "offset": 28,
+        "opcode": 77
+      },
+      {
+        "offset": 29,
+        "opcode": 3,
+        "constant": 0
+      },
+      {
+        "offset": 30,
+        "opcode": 62
+      },
+      {
+        "offset": 31,
+        "opcode": 29
+      },
+      {
+        "offset": 32,
+        "opcode": 44
+      },
+      {
+        "offset": 33,
+        "opcode": 182,
+        "member": [
+          "jv",
+          "size",
+          "()I"
+        ]
+      },
+      {
+        "offset": 36,
+        "opcode": 162,
+        "operands": [
+          0,
+          59
+        ]
+      },
+      {
+        "offset": 39,
+        "opcode": 44
+      },
+      {
+        "offset": 40,
+        "opcode": 29
+      },
+      {
+        "offset": 41,
+        "opcode": 182,
+        "member": [
+          "jv",
+          "get",
+          "(I)Ljava/lang/Object;"
+        ]
+      },
+      {
+        "offset": 44,
+        "opcode": 192,
+        "operands": [
+          0,
+          52
+        ]
+      },
+      {
+        "offset": 47,
+        "opcode": 182,
+        "member": [
+          "cuq",
+          "e",
+          "()Z"
+        ]
+      },
+      {
+        "offset": 50,
+        "opcode": 154,
+        "operands": [
+          0,
+          39
+        ]
+      },
+      {
+        "offset": 53,
+        "opcode": 44
+      },
+      {
+        "offset": 54,
+        "opcode": 29
+      },
+      {
+        "offset": 55,
+        "opcode": 182,
+        "member": [
+          "jv",
+          "get",
+          "(I)Ljava/lang/Object;"
+        ]
+      },
+      {
+        "offset": 58,
+        "opcode": 192,
+        "operands": [
+          0,
+          52
+        ]
+      },
+      {
+        "offset": 61,
+        "opcode": 42
+      },
+      {
+        "offset": 62,
+        "opcode": 180,
+        "member": [
+          "cmw",
+          "l",
+          "Lcmx;"
+        ]
+      },
+      {
+        "offset": 65,
+        "opcode": 182,
+        "member": [
+          "cmx",
+          "dO",
+          "()Ldcw;"
+        ]
+      },
+      {
+        "offset": 68,
+        "opcode": 42
+      },
+      {
+        "offset": 69,
+        "opcode": 180,
+        "member": [
+          "cmw",
+          "l",
+          "Lcmx;"
+        ]
+      },
+      {
+        "offset": 72,
+        "opcode": 29
+      },
+      {
+        "offset": 73,
+        "opcode": 42
+      },
+      {
+        "offset": 74,
+        "opcode": 180,
+        "member": [
+          "cmw",
+          "k",
+          "I"
+        ]
+      },
+      {
+        "offset": 77,
+        "opcode": 29
+      },
+      {
+        "offset": 78,
+        "opcode": 160,
+        "operands": [
+          0,
+          7
+        ]
+      },
+      {
+        "offset": 81,
+        "opcode": 4,
+        "constant": 1
+      },
+      {
+        "offset": 82,
+        "opcode": 167,
+        "operands": [
+          0,
+          4
+        ]
+      },
+      {
+        "offset": 85,
+        "opcode": 3,
+        "constant": 0
+      },
+      {
+        "offset": 86,
+        "opcode": 182,
+        "member": [
+          "cuq",
+          "a",
+          "(Ldcw;Lbsr;IZ)V"
+        ]
+      },
+      {
+        "offset": 89,
+        "opcode": 132,
+        "operands": [
+          3,
+          1
+        ]
+      },
+      {
+        "offset": 92,
+        "opcode": 167,
+        "operands": [
+          255,
+          195
+        ]
+      },
+      {
+        "offset": 95,
+        "opcode": 167,
+        "operands": [
+          255,
+          171
+        ]
+      },
+      {
+        "offset": 98,
+        "opcode": 177
+      }
+    ]
+  },
+  "resource_references": [
+    {
+      "path": "data/c/tags/item/hidden_from_recipe_viewers.json",
+      "sha256": "cd6b8e6011a97d6bc32be6888f17e7f6e00a6413a72e3cc8872275ffaaba7f62",
+      "definition": {
+        "values": [
+          "aoa3:lunar_chestplate",
+          "aoa3:darkwash_brick_slab",
+          "aoa3:bloodstone_bricks",
+          "aoa3:artifact",
+          "aoa3:mecha_blaster",
+          "aoa3:black_mysterium_brick_slab",
+          "aoa3:stormer",
+          "aoa3:toxic_lump",
+          "aoa3:alacrity_leggings",
+          "aoa3:core_rifle",
+          "aoa3:coral_brick_wall",
+          "aoa3:whitewash_brick_slab",
+          "aoa3:vile_vanquisher",
+          "aoa3:discharge_sniper",
+          "aoa3:moon_cannon",
+          "aoa3:orbocron",
+          "aoa3:creepoid_greataxe",
+          "aoa3:ghoulish_chestplate",
+          "aoa3:ghastly_boots",
+          "aoa3:pulsator",
+          "aoa3:luna_blaster",
+          "aoa3:ornamyte_axe",
+          "aoa3:bayonette_sr",
+          "aoa3:hunters_rifle",
+          "aoa3:speed_helmet",
+          "aoa3:purity_boots",
+          "aoa3:revolution",
+          "aoa3:battleborn_leggings",
+          "aoa3:skeletal_brick_wall",
+          "aoa3:aquatic_staff",
+          "aoa3:dual_sight",
+          "aoa3:soulfire_bow",
+          "aoa3:explosive_gems",
+          "aoa3:miasma",
+          "aoa3:blue_crystal",
+          "aoa3:gold_bringer",
+          "aoa3:gravity_blaster",
+          "aoa3:mechyro",
+          "aoa3:floating_stone",
+          "aoa3:carrot_cannon",
+          "aoa3:sticky_slime",
+          "aoa3:purity_leggings",
+          "aoa3:skeletal_brick_stairs",
+          "aoa3:purity_chestplate",
+          "aoa3:vivo",
+          "aoa3:purity_shotgun",
+          "aoa3:weaken_helmet",
+          "aoa3:hardened_confetti_ball",
+          "aoa3:nightmare_leggings",
+          "aoa3:crystallite_brick_stairs",
+          "aoa3:coral_bricks",
+          "aoa3:weaken_chestplate",
+          "aoa3:alacrity_boots",
+          "aoa3:supremacy_sword",
+          "aoa3:skullo_blaster",
+          "aoa3:shadow_blaster",
+          "aoa3:terminator",
+          "aoa3:goofy_greatblade",
+          "aoa3:battleborn_helmet",
+          "aoa3:apoco_assault_rifle",
+          "aoa3:spectral_crossbow",
+          "aoa3:screamer_bow",
+          "aoa3:purple_gemstones",
+          "aoa3:chilli_chugger",
+          "aoa3:predatorian_blaster",
+          "aoa3:green_mysterium_brick_wall",
+          "aoa3:rosidian_chestplate",
+          "aoa3:fungal_helmet",
+          "aoa3:ornamyte_pickaxe",
+          "aoa3:darkly_powder",
+          "aoa3:knight_chestplate",
+          "aoa3:poison_helmet",
+          "aoa3:flame_wrecker",
+          "aoa3:doom_bringer",
+          "aoa3:goofy_axe",
+          "aoa3:bloodstone_brick_wall",
+          "aoa3:mecha_gear",
+          "aoa3:ka_500",
+          "aoa3:darkwash_bricks",
+          "aoa3:ghastly_leggings",
+          "aoa3:elecanyte_chestplate",
+          "aoa3:yellow_gemstones",
+          "aoa3:coralstone_maul",
+          "aoa3:iro_miner",
+          "aoa3:black_mysterium_brick_wall",
+          "aoa3:whitewash_brick_stairs",
+          "aoa3:chroma_goggles",
+          "aoa3:mineral",
+          "aoa3:knight_helmet",
+          "aoa3:orange_spores",
+          "aoa3:long_shot",
+          "aoa3:speed_boots",
+          "aoa3:illusion_revolver",
+          "aoa3:decimator",
+          "aoa3:nightmare_bow",
+          "aoa3:soul_drainer",
+          "aoa3:iominator",
+          "aoa3:small_purple_petal",
+          "aoa3:jack_rocker",
+          "aoa3:destruction_shotgun",
+          "aoa3:toxic_terrorizer",
+          "aoa3:mercurial_boots",
+          "aoa3:power_staff",
+          "aoa3:predator",
+          "aoa3:oceanus_helmet",
+          "aoa3:subterranean_helmet",
+          "aoa3:crystallite_brick_wall",
+          "aoa3:speed_chestplate",
+          "aoa3:blast_cannon",
+          "aoa3:big_top",
+          "aoa3:subterranean_chestplate",
+          "aoa3:ghoulish_boots",
+          "aoa3:lyonic_helmet",
+          "aoa3:mark_maker",
+          "aoa3:odious",
+          "aoa3:boreic_leggings",
+          "aoa3:rosidian_bow",
+          "aoa3:lunar_crossbow",
+          "aoa3:skullifact",
+          "aoa3:nightmare_helmet",
+          "aoa3:sharpshot_helmet",
+          "aoa3:magnet_shard",
+          "aoa3:bloodstone_brick_slab",
+          "aoa3:nightmare_boots",
+          "aoa3:show_staff",
+          "aoa3:yellow_spores",
+          "aoa3:viper_1",
+          "aoa3:spine_gun",
+          "aoa3:spectral_bow",
+          "aoa3:red_druse",
+          "aoa3:ghastly_chestplate",
+          "aoa3:nightmare_chestplate",
+          "aoa3:speed_leggings",
+          "aoa3:crystik_staff",
+          "aoa3:discharge_rifle",
+          "aoa3:yellow_druse",
+          "aoa3:lunar_leggings",
+          "aoa3:elecanyte_boots",
+          "aoa3:battleborn_boots",
+          "aoa3:crystallis_helmet",
+          "aoa3:weaken_leggings",
+          "aoa3:mercurial_leggings",
+          "aoa3:skeletal_brick_slab",
+          "aoa3:sealord_helmet",
+          "aoa3:bubble_horn",
+          "aoa3:mind_blaster",
+          "aoa3:battleborn_chestplate",
+          "aoa3:sublimus",
+          "aoa3:crystaneer",
+          "aoa3:unstable_gunpowder",
+          "aoa3:elecanyte_helmet",
+          "aoa3:lelyetian_ranseur",
+          "aoa3:bloodstone",
+          "aoa3:black_mysterium_brick_stairs",
+          "aoa3:rockbone_helmet",
+          "aoa3:purple_crystal",
+          "aoa3:missile_maker",
+          "aoa3:purity_rifle",
+          "aoa3:lyonic_boots",
+          "aoa3:shroomic_bardiche",
+          "aoa3:subterranean_boots",
+          "aoa3:blue_druse",
+          "aoa3:ghastly_helmet",
+          "aoa3:clowno_pulse",
+          "aoa3:krilinator",
+          "aoa3:small_blue_petal",
+          "aoa3:ornamyte",
+          "aoa3:haunted_bow",
+          "aoa3:lunar_boots",
+          "aoa3:whitewash_brick_wall",
+          "aoa3:underworld_glaive",
+          "aoa3:fungal_cannon",
+          "aoa3:small_red_petal",
+          "aoa3:ghoul_cannon",
+          "aoa3:floro500",
+          "aoa3:moonlight_staff",
+          "aoa3:crystallite_brick_slab",
+          "aoa3:moon_maker",
+          "aoa3:rockbone_boots",
+          "aoa3:coral_greatblade",
+          "aoa3:green_druse",
+          "aoa3:mercurial_helmet",
+          "aoa3:sky_staff",
+          "aoa3:whimsy_winder",
+          "aoa3:hell_horn",
+          "aoa3:ornamyte_shovel",
+          "aoa3:mushroom_spores",
+          "aoa3:mecha_staff",
+          "aoa3:atomizer",
+          "aoa3:lyonic_leggings",
+          "aoa3:gas_blaster",
+          "aoa3:phantasm",
+          "aoa3:shadow_sword",
+          "aoa3:primordial_skull",
+          "aoa3:chain_wrecker",
+          "aoa3:jewelyte",
+          "aoa3:goofy_pickaxe",
+          "aoa3:orbulon",
+          "aoa3:mecha_crossbow",
+          "aoa3:energy_cannon",
+          "aoa3:alacrity_helmet",
+          "aoa3:firestorm_staff",
+          "aoa3:dustometer",
+          "aoa3:yellow_crystal",
+          "aoa3:black_mysterium_bricks",
+          "aoa3:skeletal_bricks",
+          "aoa3:green_crystal",
+          "aoa3:flower_cannon",
+          "aoa3:dense_rock",
+          "aoa3:construct",
+          "aoa3:destruction_rifle",
+          "aoa3:clownimator",
+          "aoa3:nightmare_flakes",
+          "aoa3:baronator",
+          "aoa3:poison_plunger",
+          "aoa3:face_mask",
+          "aoa3:exoplate_helmet",
+          "aoa3:rockbone_leggings",
+          "aoa3:coral_brick_stairs",
+          "aoa3:pulse_cannon",
+          "aoa3:exoplate_boots",
+          "aoa3:mercurial_chestplate",
+          "aoa3:ancient_bomber",
+          "aoa3:white_druse",
+          "aoa3:sabbath",
+          "aoa3:weaken_boots",
+          "aoa3:ghoulish_helmet",
+          "aoa3:sharpshot_leggings",
+          "aoa3:light_blaster",
+          "aoa3:bozo_blaster",
+          "aoa3:mechanical_assault_rifle",
+          "aoa3:smile_blaster",
+          "aoa3:rosidian_helmet",
+          "aoa3:seaocron",
+          "aoa3:darkly_guster",
+          "aoa3:rejuvenation_staff",
+          "aoa3:rosidian_leggings",
+          "aoa3:small_green_petal",
+          "aoa3:red_gemstones",
+          "aoa3:rosidian_boots",
+          "aoa3:poison_leggings",
+          "aoa3:haunted_idol",
+          "aoa3:green_mysterium_bricks",
+          "aoa3:blood_drainer",
+          "aoa3:whitewash_bricks",
+          "aoa3:boreic_chestplate",
+          "aoa3:elecanyte_leggings",
+          "aoa3:viral_crossbow",
+          "aoa3:abyssro",
+          "aoa3:darkwash_brick_stairs",
+          "aoa3:small_orange_petal",
+          "aoa3:green_gemstones",
+          "aoa3:boreic_boots",
+          "aoa3:boreic_helmet",
+          "aoa3:rainbow_druse",
+          "aoa3:squad_gun",
+          "aoa3:rockbone_chestplate",
+          "aoa3:crystal_carver",
+          "aoa3:blue_gemstones",
+          "aoa3:bloodstone_brick_stairs",
+          "aoa3:crystallis_leggings",
+          "aoa3:mecha_bow",
+          "aoa3:runic_greatblade",
+          "aoa3:bloodfury",
+          "aoa3:boulder",
+          "aoa3:lunar_helmet",
+          "aoa3:lyonic_staff",
+          "aoa3:lunar_bow",
+          "aoa3:speed_bow",
+          "aoa3:crystallis_chestplate",
+          "aoa3:rosidian_staff",
+          "aoa3:mecha_cannon",
+          "aoa3:ghast_blaster",
+          "aoa3:ion_blaster",
+          "aoa3:crystallis_boots",
+          "aoa3:surge_staff",
+          "aoa3:knight_leggings",
+          "aoa3:party_popper",
+          "aoa3:zhinx_dust",
+          "aoa3:goofy_shovel",
+          "aoa3:jack_funger",
+          "aoa3:subterranean_leggings",
+          "aoa3:bomb_launcher",
+          "aoa3:fungal_boots",
+          "aoa3:purple_druse",
+          "aoa3:hive_cracker",
+          "aoa3:shroom_stone",
+          "aoa3:alacrity_chestplate",
+          "aoa3:poison_boots",
+          "aoa3:ghoul_gasser",
+          "aoa3:clown_cracker",
+          "aoa3:gemenyte",
+          "aoa3:fungal_leggings",
+          "aoa3:crystallite",
+          "aoa3:toxin_bow",
+          "aoa3:eradicator",
+          "aoa3:exoplate_leggings",
+          "aoa3:ghoulasm",
+          "aoa3:exoplate_chestplate",
+          "aoa3:green_mysterium_brick_slab",
+          "aoa3:boom_boom",
+          "aoa3:red_crystal",
+          "aoa3:darkwash_brick_wall",
+          "aoa3:boom_cannon",
+          "aoa3:hiver",
+          "aoa3:coral_brick_slab",
+          "aoa3:petals",
+          "aoa3:white_crystal",
+          "aoa3:hive_blaster",
+          "aoa3:white_gemstones",
+          "aoa3:purity_helmet",
+          "aoa3:confetti_pile",
+          "aoa3:rosid_root",
+          "aoa3:urka_hide",
+          "aoa3:green_mysterium_brick_stairs",
+          "aoa3:runic_energy",
+          "aoa3:coral_stone",
+          "aoa3:sludge_sniper",
+          "aoa3:apoco_rifle",
+          "aoa3:sharpshot_chestplate",
+          "aoa3:knight_boots",
+          "aoa3:poison_chestplate",
+          "aoa3:shyrelands_realmstone",
+          "aoa3:ghoulish_leggings",
+          "aoa3:lyonic_chestplate",
+          "aoa3:whitewashing_solution",
+          "aoa3:boulder_dash",
+          "aoa3:soul_storm",
+          "aoa3:weaken_bow",
+          "aoa3:shyregem",
+          "aoa3:horizon_maul",
+          "aoa3:ion_revolver",
+          "aoa3:sharpshot_boots",
+          "aoa3:crystallite_bricks",
+          "aoa3:underworld_staff",
+          "aoa3:abominator",
+          "aoa3:fungal_chestplate"
+        ]
+      }
+    },
+    {
+      "path": "data/c/tags/item/tools/melee_weapon.json",
+      "sha256": "d8848facfe8b551f4838c0929bc90c9d118fc8b01b1a01fad5773f2c59fb5ed0",
+      "definition": {
+        "values": [
+          "aoa3:baron_sword",
+          "aoa3:bloodfury",
+          "aoa3:bloodstone_sword",
+          "aoa3:candlefire_sword",
+          "aoa3:caramel_carver",
+          "aoa3:coralstorm_sword",
+          "aoa3:creepified_sword",
+          "aoa3:crystallite_sword",
+          "aoa3:emberstone_sword",
+          "aoa3:explochron_sword",
+          "aoa3:fireborne_sword",
+          "aoa3:guardians_sword",
+          "aoa3:harvester_sword",
+          "aoa3:holy_sword",
+          "aoa3:illusion_sword",
+          "aoa3:jade_sword",
+          "aoa3:legbone_sword",
+          "aoa3:lights_way",
+          "aoa3:limonite_sword",
+          "aoa3:nethengeic_sword",
+          "aoa3:primal_sword",
+          "aoa3:rockbasher_sword",
+          "aoa3:rock_pick_sword",
+          "aoa3:rosidian_sword",
+          "aoa3:runic_sword",
+          "aoa3:shadow_sword",
+          "aoa3:shroomus_sword",
+          "aoa3:skeletal_sword",
+          "aoa3:supremacy_sword",
+          "aoa3:sweet_sword",
+          "aoa3:troll_basher_axe",
+          "aoa3:ultraflame",
+          "aoa3:void_sword",
+          "aoa3:faunamancers_blade",
+          "aoa3:baron_greatblade",
+          "aoa3:bloodlurker",
+          "aoa3:candy_blade",
+          "aoa3:coral_greatblade",
+          "aoa3:cotton_crusher",
+          "aoa3:creepoid_greataxe",
+          "aoa3:crystal_greatblade",
+          "aoa3:erebon_scythe",
+          "aoa3:gods_greatblade",
+          "aoa3:goofy_greatblade",
+          "aoa3:haunted_greatblade",
+          "aoa3:knights_guard",
+          "aoa3:lelyetian_ranseur",
+          "aoa3:lunar_greatblade",
+          "aoa3:luxon_scythe",
+          "aoa3:lyonic_bardiche",
+          "aoa3:millennium_greatblade",
+          "aoa3:noxious_partizan",
+          "aoa3:pluton_scythe",
+          "aoa3:primordial_glaive",
+          "aoa3:rosidian_greatblade",
+          "aoa3:royal_greatblade",
+          "aoa3:runic_greatblade",
+          "aoa3:selyan_scythe",
+          "aoa3:shroomic_bardiche",
+          "aoa3:shyre_sword",
+          "aoa3:subterranean_greatblade",
+          "aoa3:tidal_greatblade",
+          "aoa3:underworld_glaive",
+          "aoa3:coralstone_maul",
+          "aoa3:crystal_maul",
+          "aoa3:electron_maul",
+          "aoa3:horizon_maul",
+          "aoa3:vulcammer_maul",
+          "aoa3:emberstone_axe",
+          "aoa3:energistic_axe",
+          "aoa3:goofy_axe",
+          "aoa3:jade_axe",
+          "aoa3:limonite_axe",
+          "aoa3:occult_axe",
+          "aoa3:ornamyte_axe",
+          "aoa3:skeletal_axe",
+          "aoa3:soulstone_axe",
+          "aoa3:chainsaw"
+        ]
+      }
+    },
+    {
+      "path": "data/c/tags/item/tools/mining_tool.json",
+      "sha256": "d0c78553387dce1407fe7f4a3814c934f8e71b717045ec387480818afab79cda",
+      "definition": {
+        "values": [
+          "aoa3:emberstone_pickaxe",
+          "aoa3:energistic_pickaxe",
+          "aoa3:gemcracker",
+          "aoa3:goofy_pickaxe",
+          "aoa3:jade_pickaxe",
+          "aoa3:limonite_pickaxe",
+          "aoa3:occult_pickaxe",
+          "aoa3:ornamyte_pickaxe",
+          "aoa3:pickmax",
+          "aoa3:skeletal_pickaxe",
+          "aoa3:soulstone_pickaxe"
+        ]
+      }
+    },
+    {
+      "path": "data/minecraft/tags/item/axes.json",
+      "sha256": "f8481dba19adb256448fb872ba4f8ee8fb805fd76acab9a75e3e5ddf58d55f89",
+      "definition": {
+        "values": [
+          "aoa3:troll_basher_axe",
+          "aoa3:emberstone_axe",
+          "aoa3:energistic_axe",
+          "aoa3:goofy_axe",
+          "aoa3:jade_axe",
+          "aoa3:limonite_axe",
+          "aoa3:occult_axe",
+          "aoa3:ornamyte_axe",
+          "aoa3:skeletal_axe",
+          "aoa3:soulstone_axe",
+          "aoa3:chainsaw"
+        ]
+      }
+    },
+    {
+      "path": "data/minecraft/tags/item/enchantable/durability.json",
+      "sha256": "5dbd724d0935275e2ef1b122b529330201c33f40b9e8c4a3d6a2aeba136fa6c2",
+      "definition": {
+        "values": [
+          "aoa3:old_boot",
+          "aoa3:nethengeic_callstone",
+          "aoa3:troll_idol",
+          "aoa3:bone_horn",
+          "aoa3:mega_rune_stone",
+          "aoa3:change_focus",
+          "aoa3:control_focus",
+          "aoa3:damage_focus",
+          "aoa3:durability_focus",
+          "aoa3:elemental_focus",
+          "aoa3:life_focus",
+          "aoa3:luck_focus",
+          "aoa3:magic_focus",
+          "aoa3:power_focus",
+          "aoa3:precision_focus",
+          "aoa3:resource_focus",
+          "aoa3:speed_focus",
+          "aoa3:baron_sword",
+          "aoa3:bloodfury",
+          "aoa3:bloodstone_sword",
+          "aoa3:candlefire_sword",
+          "aoa3:caramel_carver",
+          "aoa3:coralstorm_sword",
+          "aoa3:creepified_sword",
+          "aoa3:crystallite_sword",
+          "aoa3:emberstone_sword",
+          "aoa3:explochron_sword",
+          "aoa3:fireborne_sword",
+          "aoa3:guardians_sword",
+          "aoa3:harvester_sword",
+          "aoa3:holy_sword",
+          "aoa3:illusion_sword",
+          "aoa3:jade_sword",
+          "aoa3:legbone_sword",
+          "aoa3:lights_way",
+          "aoa3:limonite_sword",
+          "aoa3:nethengeic_sword",
+          "aoa3:primal_sword",
+          "aoa3:rockbasher_sword",
+          "aoa3:rock_pick_sword",
+          "aoa3:rosidian_sword",
+          "aoa3:runic_sword",
+          "aoa3:shadow_sword",
+          "aoa3:shroomus_sword",
+          "aoa3:skeletal_sword",
+          "aoa3:supremacy_sword",
+          "aoa3:sweet_sword",
+          "aoa3:troll_basher_axe",
+          "aoa3:ultraflame",
+          "aoa3:void_sword",
+          "aoa3:faunamancers_blade",
+          "aoa3:baron_greatblade",
+          "aoa3:bloodlurker",
+          "aoa3:candy_blade",
+          "aoa3:coral_greatblade",
+          "aoa3:cotton_crusher",
+          "aoa3:creepoid_greataxe",
+          "aoa3:crystal_greatblade",
+          "aoa3:erebon_scythe",
+          "aoa3:gods_greatblade",
+          "aoa3:goofy_greatblade",
+          "aoa3:haunted_greatblade",
+          "aoa3:knights_guard",
+          "aoa3:lelyetian_ranseur",
+          "aoa3:lunar_greatblade",
+          "aoa3:luxon_scythe",
+          "aoa3:lyonic_bardiche",
+          "aoa3:millennium_greatblade",
+          "aoa3:noxious_partizan",
+          "aoa3:pluton_scythe",
+          "aoa3:primordial_glaive",
+          "aoa3:rosidian_greatblade",
+          "aoa3:royal_greatblade",
+          "aoa3:runic_greatblade",
+          "aoa3:selyan_scythe",
+          "aoa3:shroomic_bardiche",
+          "aoa3:shyre_sword",
+          "aoa3:subterranean_greatblade",
+          "aoa3:tidal_greatblade",
+          "aoa3:underworld_glaive",
+          "aoa3:coralstone_maul",
+          "aoa3:crystal_maul",
+          "aoa3:electron_maul",
+          "aoa3:horizon_maul",
+          "aoa3:vulcammer_maul",
+          "aoa3:abominator",
+          "aoa3:apoco_assault_rifle",
+          "aoa3:apoco_rifle",
+          "aoa3:aqua_magnum",
+          "aoa3:artifact",
+          "aoa3:baronator",
+          "aoa3:bayonette_rifle",
+          "aoa3:big_top",
+          "aoa3:blood_iron",
+          "aoa3:chain_wrecker",
+          "aoa3:chilli_chugger",
+          "aoa3:clownershot",
+          "aoa3:construct",
+          "aoa3:coral_clogger",
+          "aoa3:core_rifle",
+          "aoa3:crystal_carver",
+          "aoa3:cyclone",
+          "aoa3:darkener",
+          "aoa3:dart_gun",
+          "aoa3:destruction_rifle",
+          "aoa3:discharge_rifle",
+          "aoa3:draco",
+          "aoa3:dragilator",
+          "aoa3:dustometer",
+          "aoa3:echo_gull",
+          "aoa3:electinator",
+          "aoa3:flame_wrecker",
+          "aoa3:flaming_fury",
+          "aoa3:floro_rifle",
+          "aoa3:flowers_fury",
+          "aoa3:frosticator",
+          "aoa3:gardener",
+          "aoa3:gauge_rifle",
+          "aoa3:germinator",
+          "aoa3:golden_fury",
+          "aoa3:happy_haunter",
+          "aoa3:haunter_rifle",
+          "aoa3:heat_wave",
+          "aoa3:hiver",
+          "aoa3:hot_shot",
+          "aoa3:hunters_rifle",
+          "aoa3:iominator",
+          "aoa3:ion_revolver",
+          "aoa3:iro_rifle",
+          "aoa3:krilinator",
+          "aoa3:light_iron",
+          "aoa3:lunar_assault_rifle",
+          "aoa3:mechanical_assault_rifle",
+          "aoa3:megagun",
+          "aoa3:miasma",
+          "aoa3:minigun",
+          "aoa3:mint_magnum",
+          "aoa3:mk",
+          "aoa3:mk_fung",
+          "aoa3:nethenette_rifle",
+          "aoa3:nethengeic_slugger",
+          "aoa3:overshot",
+          "aoa3:precasian_slugger",
+          "aoa3:predator",
+          "aoa3:predigun",
+          "aoa3:pulsator",
+          "aoa3:purity_rifle",
+          "aoa3:rocker_rifle",
+          "aoa3:roulette",
+          "aoa3:shoe_flinger",
+          "aoa3:skullette",
+          "aoa3:skullifact",
+          "aoa3:spectacle",
+          "aoa3:spine_gun",
+          "aoa3:squad_gun",
+          "aoa3:stampede",
+          "aoa3:stormer",
+          "aoa3:sublimus",
+          "aoa3:tiger_tommy",
+          "aoa3:tommy",
+          "aoa3:vile_vanquisher",
+          "aoa3:wart_gun",
+          "aoa3:wrecker",
+          "aoa3:abyssro",
+          "aoa3:amplifier",
+          "aoa3:blast_barrel",
+          "aoa3:blue_barrel",
+          "aoa3:boulder",
+          "aoa3:brown_blaster",
+          "aoa3:demolisher",
+          "aoa3:destruction_shotgun",
+          "aoa3:discharge_shotgun",
+          "aoa3:gimmick",
+          "aoa3:ginger_blaster",
+          "aoa3:long_shot",
+          "aoa3:mechyro",
+          "aoa3:purity_shotgun",
+          "aoa3:purple_punisher",
+          "aoa3:red_rocket",
+          "aoa3:vivo",
+          "aoa3:baron_ssr",
+          "aoa3:bayonette_sr",
+          "aoa3:bolt_rifle",
+          "aoa3:camo_rifle",
+          "aoa3:clown_cracker",
+          "aoa3:clownimator",
+          "aoa3:crystaneer",
+          "aoa3:dark_beast",
+          "aoa3:deadlock",
+          "aoa3:decimator",
+          "aoa3:discharge_sniper",
+          "aoa3:dual_sight",
+          "aoa3:duster",
+          "aoa3:floro500",
+          "aoa3:head_hunter",
+          "aoa3:hive_cracker",
+          "aoa3:ka_500",
+          "aoa3:mark_maker",
+          "aoa3:mineral",
+          "aoa3:monster",
+          "aoa3:moon_maker",
+          "aoa3:rosid_rifle",
+          "aoa3:sabbath",
+          "aoa3:sludge_sniper",
+          "aoa3:sweet_tooth",
+          "aoa3:terminator",
+          "aoa3:viper_1",
+          "aoa3:ancient_bomber",
+          "aoa3:ancient_discharger",
+          "aoa3:aqua_cannon",
+          "aoa3:balloon_bomber",
+          "aoa3:big_blast",
+          "aoa3:blast_cannon",
+          "aoa3:blissful_blast",
+          "aoa3:bomb_launcher",
+          "aoa3:boom_boom",
+          "aoa3:boom_cannon",
+          "aoa3:boulder_bomber",
+          "aoa3:bozo_blaster",
+          "aoa3:bulb_cannon",
+          "aoa3:carrot_cannon",
+          "aoa3:clown_cannon",
+          "aoa3:clowno_pulse",
+          "aoa3:coral_cannon",
+          "aoa3:discharge_cannon",
+          "aoa3:energy_cannon",
+          "aoa3:erebon_stickler",
+          "aoa3:floro_rpg",
+          "aoa3:flower_cannon",
+          "aoa3:fungal_cannon",
+          "aoa3:ghast_blaster",
+          "aoa3:ghoul_cannon",
+          "aoa3:giga_cannon",
+          "aoa3:golder_bomber",
+          "aoa3:hive_blaster",
+          "aoa3:hive_howitzer",
+          "aoa3:iro_cannon",
+          "aoa3:jack_funger",
+          "aoa3:jack_rocker",
+          "aoa3:luxon_stickler",
+          "aoa3:mecha_cannon",
+          "aoa3:mini_cannon",
+          "aoa3:missile_maker",
+          "aoa3:moon_cannon",
+          "aoa3:pluton_stickler",
+          "aoa3:predatorian_blaster",
+          "aoa3:pulse_cannon",
+          "aoa3:rpg",
+          "aoa3:selyan_stickler",
+          "aoa3:shadow_blaster",
+          "aoa3:shyre_blaster",
+          "aoa3:smile_blaster",
+          "aoa3:super_cannon",
+          "aoa3:ultra_cannon",
+          "aoa3:vox_cannon",
+          "aoa3:water_balloon_bomber",
+          "aoa3:wither_cannon",
+          "aoa3:vulcane",
+          "aoa3:battle_vulcane",
+          "aoa3:equality_vulcane",
+          "aoa3:fire_vulcane",
+          "aoa3:impairment_vulcane",
+          "aoa3:poison_vulcane",
+          "aoa3:power_vulcane",
+          "aoa3:wither_vulcane",
+          "aoa3:alacrity_bow",
+          "aoa3:ancient_bow",
+          "aoa3:atlantic_bow",
+          "aoa3:baron_bow",
+          "aoa3:boreic_bow",
+          "aoa3:daybreaker_bow",
+          "aoa3:deep_bow",
+          "aoa3:explosive_bow",
+          "aoa3:haunted_bow",
+          "aoa3:ice_bow",
+          "aoa3:infernal_bow",
+          "aoa3:justice_bow",
+          "aoa3:lunar_bow",
+          "aoa3:mecha_bow",
+          "aoa3:nightmare_bow",
+          "aoa3:poison_bow",
+          "aoa3:predatious_bow",
+          "aoa3:primordial_bow",
+          "aoa3:rosidian_bow",
+          "aoa3:runic_bow",
+          "aoa3:screamer_bow",
+          "aoa3:shyregem_bow",
+          "aoa3:skeletal_bow",
+          "aoa3:skydriver_bow",
+          "aoa3:slingshot",
+          "aoa3:soulfire_bow",
+          "aoa3:spectral_bow",
+          "aoa3:speed_bow",
+          "aoa3:sunshine_bow",
+          "aoa3:toxin_bow",
+          "aoa3:void_bow",
+          "aoa3:weaken_bow",
+          "aoa3:wither_bow",
+          "aoa3:coral_crossbow",
+          "aoa3:lunar_crossbow",
+          "aoa3:mecha_crossbow",
+          "aoa3:pyro_crossbow",
+          "aoa3:rosidian_crossbow",
+          "aoa3:skeletal_crossbow",
+          "aoa3:spectral_crossbow",
+          "aoa3:trolls_crossbow",
+          "aoa3:viral_crossbow",
+          "aoa3:amber_staff",
+          "aoa3:aquatic_staff",
+          "aoa3:atlantic_staff",
+          "aoa3:baron_staff",
+          "aoa3:candy_staff",
+          "aoa3:celestial_staff",
+          "aoa3:concussion_staff",
+          "aoa3:coral_staff",
+          "aoa3:crystal_staff",
+          "aoa3:crystik_staff",
+          "aoa3:cryston_staff",
+          "aoa3:destruction_staff",
+          "aoa3:ember_staff",
+          "aoa3:everfight_staff",
+          "aoa3:evermight_staff",
+          "aoa3:fire_staff",
+          "aoa3:firefly_staff",
+          "aoa3:firestorm_staff",
+          "aoa3:fungal_staff",
+          "aoa3:ghoul_staff",
+          "aoa3:haunters_staff",
+          "aoa3:hive_staff",
+          "aoa3:joker_staff",
+          "aoa3:lightning_staff",
+          "aoa3:lightshine",
+          "aoa3:lunar_staff",
+          "aoa3:lyonic_staff",
+          "aoa3:mecha_staff",
+          "aoa3:meteor_staff",
+          "aoa3:moonlight_staff",
+          "aoa3:nature_staff",
+          "aoa3:nightmare_staff",
+          "aoa3:noxious_staff",
+          "aoa3:phantom_staff",
+          "aoa3:poison_staff",
+          "aoa3:power_staff",
+          "aoa3:primordial_staff",
+          "aoa3:reef_staff",
+          "aoa3:rejuvenation_staff",
+          "aoa3:rosidian_staff",
+          "aoa3:runic_staff",
+          "aoa3:shadowlord_staff",
+          "aoa3:show_staff",
+          "aoa3:shyre_staff",
+          "aoa3:sky_staff",
+          "aoa3:striker_staff",
+          "aoa3:sun_staff",
+          "aoa3:surge_staff",
+          "aoa3:tangle_staff",
+          "aoa3:ultimatum_staff",
+          "aoa3:underworld_staff",
+          "aoa3:warlock_staff",
+          "aoa3:water_staff",
+          "aoa3:web_staff",
+          "aoa3:wind_staff",
+          "aoa3:wither_staff",
+          "aoa3:wizards_staff",
+          "aoa3:apoco_shower",
+          "aoa3:atomizer",
+          "aoa3:beamer",
+          "aoa3:blast_chiller",
+          "aoa3:blood_drainer",
+          "aoa3:bone_blaster",
+          "aoa3:bubble_horn",
+          "aoa3:colour_cannon",
+          "aoa3:confetti_cannon",
+          "aoa3:confetti_cluster",
+          "aoa3:dark_destroyer",
+          "aoa3:darkly_guster",
+          "aoa3:death_ray",
+          "aoa3:doom_bringer",
+          "aoa3:eradicator",
+          "aoa3:experiment_w_801",
+          "aoa3:flowercorne",
+          "aoa3:fragment",
+          "aoa3:froster",
+          "aoa3:gas_blaster",
+          "aoa3:ghoul_gasser",
+          "aoa3:gold_bringer",
+          "aoa3:gravity_blaster",
+          "aoa3:hell_horn",
+          "aoa3:illusion_revolver",
+          "aoa3:illusion_smg",
+          "aoa3:ion_blaster",
+          "aoa3:iro_miner",
+          "aoa3:laser_blaster",
+          "aoa3:light_blaster",
+          "aoa3:light_spark",
+          "aoa3:luna_blaster",
+          "aoa3:mecha_blaster",
+          "aoa3:mind_blaster",
+          "aoa3:moon_destroyer",
+          "aoa3:moon_shiner",
+          "aoa3:odious",
+          "aoa3:orbocron",
+          "aoa3:paralyzer",
+          "aoa3:party_popper",
+          "aoa3:poison_plunger",
+          "aoa3:power_ray",
+          "aoa3:proton",
+          "aoa3:reefer",
+          "aoa3:revolution",
+          "aoa3:seaocron",
+          "aoa3:skullo_blaster",
+          "aoa3:soul_drainer",
+          "aoa3:soul_spark",
+          "aoa3:soul_storm",
+          "aoa3:spirit_shower",
+          "aoa3:swarmotron",
+          "aoa3:toxic_terrorizer",
+          "aoa3:vortex_blaster",
+          "aoa3:whimsy_winder",
+          "aoa3:withers_wrath",
+          "aoa3:emberstone_pickaxe",
+          "aoa3:energistic_pickaxe",
+          "aoa3:gemcracker",
+          "aoa3:goofy_pickaxe",
+          "aoa3:jade_pickaxe",
+          "aoa3:limonite_pickaxe",
+          "aoa3:occult_pickaxe",
+          "aoa3:ornamyte_pickaxe",
+          "aoa3:pickmax",
+          "aoa3:skeletal_pickaxe",
+          "aoa3:soulstone_pickaxe",
+          "aoa3:emberstone_shovel",
+          "aoa3:energistic_shovel",
+          "aoa3:goofy_shovel",
+          "aoa3:jade_shovel",
+          "aoa3:limonite_shovel",
+          "aoa3:occult_shovel",
+          "aoa3:ornamyte_shovel",
+          "aoa3:skeletal_shovel",
+          "aoa3:soulstone_shovel",
+          "aoa3:emberstone_axe",
+          "aoa3:energistic_axe",
+          "aoa3:goofy_axe",
+          "aoa3:jade_axe",
+          "aoa3:limonite_axe",
+          "aoa3:occult_axe",
+          "aoa3:ornamyte_axe",
+          "aoa3:skeletal_axe",
+          "aoa3:soulstone_axe",
+          "aoa3:chainsaw",
+          "aoa3:dryads_blessing",
+          "aoa3:limonite_hoe",
+          "aoa3:jade_hoe",
+          "aoa3:emberstone_hoe",
+          "aoa3:hauling_rod",
+          "aoa3:thermally_insulated_rod",
+          "aoa3:light_rod",
+          "aoa3:golden_rod",
+          "aoa3:fishing_cage",
+          "aoa3:gravitator",
+          "aoa3:distorting_artifact",
+          "aoa3:achelos_helmet",
+          "aoa3:oceanus_helmet",
+          "aoa3:sealord_helmet",
+          "aoa3:face_mask",
+          "aoa3:chroma_goggles",
+          "aoa3:alacrity_helmet",
+          "aoa3:alacrity_chestplate",
+          "aoa3:alacrity_leggings",
+          "aoa3:alacrity_boots",
+          "aoa3:archaic_helmet",
+          "aoa3:archaic_chestplate",
+          "aoa3:archaic_leggings",
+          "aoa3:archaic_boots",
+          "aoa3:baron_helmet",
+          "aoa3:baron_chestplate",
+          "aoa3:baron_leggings",
+          "aoa3:baron_boots",
+          "aoa3:battleborn_helmet",
+          "aoa3:battleborn_chestplate",
+          "aoa3:battleborn_leggings",
+          "aoa3:battleborn_boots",
+          "aoa3:biogenic_helmet",
+          "aoa3:biogenic_chestplate",
+          "aoa3:biogenic_leggings",
+          "aoa3:biogenic_boots",
+          "aoa3:boreic_helmet",
+          "aoa3:boreic_chestplate",
+          "aoa3:boreic_leggings",
+          "aoa3:boreic_boots",
+          "aoa3:candy_helmet",
+          "aoa3:candy_chestplate",
+          "aoa3:candy_leggings",
+          "aoa3:candy_boots",
+          "aoa3:commander_helmet",
+          "aoa3:commander_chestplate",
+          "aoa3:commander_leggings",
+          "aoa3:commander_boots",
+          "aoa3:crystallis_helmet",
+          "aoa3:crystallis_chestplate",
+          "aoa3:crystallis_leggings",
+          "aoa3:crystallis_boots",
+          "aoa3:elecanyte_helmet",
+          "aoa3:elecanyte_chestplate",
+          "aoa3:elecanyte_leggings",
+          "aoa3:elecanyte_boots",
+          "aoa3:embrodium_helmet",
+          "aoa3:embrodium_chestplate",
+          "aoa3:embrodium_leggings",
+          "aoa3:embrodium_boots",
+          "aoa3:exoplate_helmet",
+          "aoa3:exoplate_chestplate",
+          "aoa3:exoplate_leggings",
+          "aoa3:exoplate_boots",
+          "aoa3:explosive_helmet",
+          "aoa3:explosive_chestplate",
+          "aoa3:explosive_leggings",
+          "aoa3:explosive_boots",
+          "aoa3:fungal_helmet",
+          "aoa3:fungal_chestplate",
+          "aoa3:fungal_leggings",
+          "aoa3:fungal_boots",
+          "aoa3:ghastly_helmet",
+          "aoa3:ghastly_chestplate",
+          "aoa3:ghastly_leggings",
+          "aoa3:ghastly_boots",
+          "aoa3:ghoulish_helmet",
+          "aoa3:ghoulish_chestplate",
+          "aoa3:ghoulish_leggings",
+          "aoa3:ghoulish_boots",
+          "aoa3:hazmat_helmet",
+          "aoa3:hazmat_chestplate",
+          "aoa3:hazmat_leggings",
+          "aoa3:hazmat_boots",
+          "aoa3:hydrangic_helmet",
+          "aoa3:hydrangic_chestplate",
+          "aoa3:hydrangic_leggings",
+          "aoa3:hydrangic_boots",
+          "aoa3:hydroplate_helmet",
+          "aoa3:hydroplate_chestplate",
+          "aoa3:hydroplate_leggings",
+          "aoa3:hydroplate_boots",
+          "aoa3:ice_helmet",
+          "aoa3:ice_chestplate",
+          "aoa3:ice_leggings",
+          "aoa3:ice_boots",
+          "aoa3:infernal_helmet",
+          "aoa3:infernal_chestplate",
+          "aoa3:infernal_leggings",
+          "aoa3:infernal_boots",
+          "aoa3:knight_helmet",
+          "aoa3:knight_chestplate",
+          "aoa3:knight_leggings",
+          "aoa3:knight_boots",
+          "aoa3:lunar_helmet",
+          "aoa3:lunar_chestplate",
+          "aoa3:lunar_leggings",
+          "aoa3:lunar_boots",
+          "aoa3:lyndamyte_helmet",
+          "aoa3:lyndamyte_chestplate",
+          "aoa3:lyndamyte_leggings",
+          "aoa3:lyndamyte_boots",
+          "aoa3:lyonic_helmet",
+          "aoa3:lyonic_chestplate",
+          "aoa3:lyonic_leggings",
+          "aoa3:lyonic_boots",
+          "aoa3:mercurial_helmet",
+          "aoa3:mercurial_chestplate",
+          "aoa3:mercurial_leggings",
+          "aoa3:mercurial_boots",
+          "aoa3:necro_helmet",
+          "aoa3:necro_chestplate",
+          "aoa3:necro_leggings",
+          "aoa3:necro_boots",
+          "aoa3:nethengeic_helmet",
+          "aoa3:nethengeic_chestplate",
+          "aoa3:nethengeic_leggings",
+          "aoa3:nethengeic_boots",
+          "aoa3:nightmare_helmet",
+          "aoa3:nightmare_chestplate",
+          "aoa3:nightmare_leggings",
+          "aoa3:nightmare_boots",
+          "aoa3:omni_helmet",
+          "aoa3:omni_chestplate",
+          "aoa3:omni_leggings",
+          "aoa3:omni_boots",
+          "aoa3:phantasm_helmet",
+          "aoa3:phantasm_chestplate",
+          "aoa3:phantasm_leggings",
+          "aoa3:phantasm_boots",
+          "aoa3:poison_helmet",
+          "aoa3:poison_chestplate",
+          "aoa3:poison_leggings",
+          "aoa3:poison_boots",
+          "aoa3:predatious_helmet",
+          "aoa3:predatious_chestplate",
+          "aoa3:predatious_leggings",
+          "aoa3:predatious_boots",
+          "aoa3:primordial_helmet",
+          "aoa3:primordial_chestplate",
+          "aoa3:primordial_leggings",
+          "aoa3:primordial_boots",
+          "aoa3:purity_helmet",
+          "aoa3:purity_chestplate",
+          "aoa3:purity_leggings",
+          "aoa3:purity_boots",
+          "aoa3:rockbone_helmet",
+          "aoa3:rockbone_chestplate",
+          "aoa3:rockbone_leggings",
+          "aoa3:rockbone_boots",
+          "aoa3:rosidian_helmet",
+          "aoa3:rosidian_chestplate",
+          "aoa3:rosidian_leggings",
+          "aoa3:rosidian_boots",
+          "aoa3:runic_helmet",
+          "aoa3:runic_chestplate",
+          "aoa3:runic_leggings",
+          "aoa3:runic_boots",
+          "aoa3:sharpshot_helmet",
+          "aoa3:sharpshot_chestplate",
+          "aoa3:sharpshot_leggings",
+          "aoa3:sharpshot_boots",
+          "aoa3:skeletal_helmet",
+          "aoa3:skeletal_chestplate",
+          "aoa3:skeletal_leggings",
+          "aoa3:skeletal_boots",
+          "aoa3:spaceking_helmet",
+          "aoa3:spaceking_chestplate",
+          "aoa3:spaceking_leggings",
+          "aoa3:spaceking_boots",
+          "aoa3:speed_helmet",
+          "aoa3:speed_chestplate",
+          "aoa3:speed_leggings",
+          "aoa3:speed_boots",
+          "aoa3:subterranean_helmet",
+          "aoa3:subterranean_chestplate",
+          "aoa3:subterranean_leggings",
+          "aoa3:subterranean_boots",
+          "aoa3:utopian_helmet",
+          "aoa3:utopian_chestplate",
+          "aoa3:utopian_leggings",
+          "aoa3:utopian_boots",
+          "aoa3:void_helmet",
+          "aoa3:void_chestplate",
+          "aoa3:void_leggings",
+          "aoa3:void_boots",
+          "aoa3:weaken_helmet",
+          "aoa3:weaken_chestplate",
+          "aoa3:weaken_leggings",
+          "aoa3:weaken_boots",
+          "aoa3:wither_helmet",
+          "aoa3:wither_chestplate",
+          "aoa3:wither_leggings",
+          "aoa3:wither_boots",
+          "aoa3:zargonite_helmet",
+          "aoa3:zargonite_chestplate",
+          "aoa3:zargonite_leggings",
+          "aoa3:zargonite_boots",
+          "aoa3:helm_of_the_dextrous",
+          "aoa3:helm_of_the_dryad",
+          "aoa3:helm_of_the_ritualist",
+          "aoa3:helm_of_the_trawler",
+          "aoa3:helm_of_the_treasurer",
+          "aoa3:helm_of_the_warrior"
+        ]
+      }
+    },
+    {
+      "path": "data/minecraft/tags/item/pickaxes.json",
+      "sha256": "42edbf600829d9560e8f276708246fcba78dd242f7566dacd35335efd58f5e67",
+      "definition": {
+        "values": [
+          "aoa3:rock_pick_sword",
+          "aoa3:emberstone_pickaxe",
+          "aoa3:energistic_pickaxe",
+          "aoa3:gemcracker",
+          "aoa3:goofy_pickaxe",
+          "aoa3:jade_pickaxe",
+          "aoa3:limonite_pickaxe",
+          "aoa3:occult_pickaxe",
+          "aoa3:ornamyte_pickaxe",
+          "aoa3:pickmax",
+          "aoa3:skeletal_pickaxe",
+          "aoa3:soulstone_pickaxe"
+        ]
+      }
+    },
+    {
+      "path": "data/minecraft/tags/item/shovels.json",
+      "sha256": "05214826009b0812ccc578af2209d3a9d0f13205d4bd0a4051e3ed9e11bbabb6",
+      "definition": {
+        "values": [
+          "aoa3:emberstone_shovel",
+          "aoa3:energistic_shovel",
+          "aoa3:goofy_shovel",
+          "aoa3:jade_shovel",
+          "aoa3:limonite_shovel",
+          "aoa3:occult_shovel",
+          "aoa3:ornamyte_shovel",
+          "aoa3:skeletal_shovel",
+          "aoa3:soulstone_shovel"
+        ]
+      }
+    }
+  ],
+  "recipe_reference_paths": [],
+  "repair_cases": [
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 280,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 280,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 280,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 280,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 280,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 280,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": false,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": true,
+      "damage_after": 0,
+      "broadcast": true
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 0,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 0,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 200,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": false,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 280,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 0,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 8,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 0,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 119,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 120,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 199,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 200,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 279,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 280,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": false,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    },
+    {
+      "client": true,
+      "damage": 1,
+      "selected": true,
+      "slot": 9,
+      "world_tick": 840,
+      "player": true,
+      "period": 120,
+      "repairs": false,
+      "damage_after": 1,
+      "broadcast": false
+    }
+  ],
+  "limits": [
+    "World-time modulo boundaries are not a fresh per-item countdown",
+    "The callback slot is not automatically a global inventory slot;vanilla uses per-compartment indices",
+    "EffectBuilder level30 produces amplifier29,not amplifier30;actual effect admission/modifiers remain separate",
+    "The selected Chainsaw method requests a short mining effect and does not implement a whole-tree traversal",
+    "No survival acquisition,offhand loader behavior or final mining/combat performance is certified"
+  ]
+}

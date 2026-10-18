@@ -1,8 +1,11 @@
 # Special pickaxes: charging, drops and mining safety
 
-**Minecraft 1.21.1 · AoA 3.7.16.1.** Choose the effect you need, then check acquisition separately. Eight special implementations remain in the inspected archive; this scan found shipped output recipes for four of them. A retained class or item picture does not prove a complete survival route.
+**Minecraft 1.21.1 · AoA 3.7.16.1.** Choose the effect you need, then check acquisition separately. This guide covers eight selected special implementations in the inspected archive; this scan found shipped output recipes for four of them. A retained class or item picture does not prove a complete survival route.
 
 ![Eight special pickaxes and their distinct effects](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/special-pickaxe-overview-1.21.1.webp)
+
+
+For the separately retained Goofy Pickaxe, Axe and Shovel, see [Goofy tools and Chainsaw behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Goofy-Tools-and-Chainsaw-1.21.1).
 
 ## Recipes and availability
 

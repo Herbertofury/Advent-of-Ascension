@@ -34,8 +34,24 @@ The roster combines the predecessor's listed integrations with the owner's reque
 | DivineRPG | Predecessor | One qualified adapter record per dimension; retain progression ordering |
 | Eternal Tales | Predecessor | Audit each destination and reward mapping against its exact release |
 | Aerial Hell | Predecessor / version-gated | Verify destination, entry and safe-return contracts before enabling |
+| [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) | Popular-dimension priority | Preserve the Otherside entry/unlock contract; distinguish release branches and matching loaders |
+| [The Lost Cities](https://www.curseforge.com/minecraft/mc-mods/the-lost-cities) | Worldgen / configured-dimension target | Detect the actual world profile; do not invent a separate destination when it modifies the Overworld |
+| [RFTools Dimensions](https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions) | Dynamic-dimension target | Preserve dimension identity, ownership and power/availability rules; handle removed or unavailable generated worlds |
+| [Tropicraft](https://www.curseforge.com/minecraft/mc-mods/tropicraft) | Established dimension target | Pin the matching release and retain native entry ritual, return and environmental rules |
+
 
 This is the initial audit queue, not a permanent limit. Add other popular installed dimensions after checking the actual pack manifest and supported release. Dimension-overhaul mods which modify the existing Nether or End should be tested against those same world keys rather than receiving invented extra dimensions.
+
+## First static inspection of the predecessor
+
+The downloaded 2.1 archive is 3,508,818 bytes, SHA256 `364c1792fcce6f9f7d50cd028e73d304d6eb7a4947657d04e97ca130483f5177`. Static inspection found 55 classes, 424 data JSON files, 120 recipes and 24 realmstone-named recipe resources. No mod code was executed.
+
+- The global loot-modifier index uses `replace: false` and contains 91 entries, all with matching files in the archive. Preserve the additive design; file presence does not certify loot behavior.
+- Forty-three recipes reference external item namespaces without a detected `forge:mod_loaded` condition. This is an absent-dependency qualification target, not a proven crash. In contrast, the Twilight Forest realmstone recipe explicitly has such a condition, while the inspected Everbright realmstone recipe does not.
+- The End teleporter's `findSuitablePortalLocation` override returns the fixed BlockPos(100,50,0), without inspecting its world/entity arguments. Audit the inherited placement logic before porting it. This method alone does not prove that blocks are overwritten or arrivals are unsafe.
+- The archive metadata names Minecraft1.16.5 and the AoA3.6 family. Rebuilding for the owner's1.20.1 implementation requires actual API adaptation, not renaming the JAR.
+
+The next inspection should trace optional registration, inherited portal placement and return-context persistence, then turn each confirmed gap into an adapter test.
 
 ## What makes this better than a collection of teleport items
 

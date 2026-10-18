@@ -2,7 +2,7 @@
 
 **First original authoring milestone · not an installable or game-tested upgrade.** This is the start of the requested premium animated AoA arsenal. AoA and the Baronator identity are credited to Tslat and contributors.
 
-[Weapon overhaul](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Full weapon backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Download original editable prototype](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ascension-armory-authoring-prototype.zip)
+[Open the interactive authoring lab](https://herbertofury.github.io/Advent-of-Ascension/armory-workbench.html) · [Weapon overhaul](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Full weapon backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Download original editable prototype](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ascension-armory-authoring-prototype.zip)
 
 ![Original Baronator authoring model with red armor, twin muzzle channels and mechanical detail](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/previews/armory-baronator-prototype.webp)
 
