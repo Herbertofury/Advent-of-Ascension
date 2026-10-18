@@ -1,0 +1,26 @@
+{
+  "status": "PASS bounded checks only",
+  "bones": 10,
+  "cubes": 236,
+  "clips": [
+    "static_idle",
+    "shoot",
+    "inspect",
+    "draw"
+  ],
+  "checks": [
+    "unique parent-first bones",
+    "positive finite cubes",
+    "UV tile bounds",
+    "finite in-range animation keys",
+    "trigger disjoint from two guard bars using oriented-box SAT",
+    "neutral final poses"
+  ],
+  "not_tested": [
+    "Native TaCZ parsing/rendering",
+    "Actual hand models and wrist envelopes",
+    "All mesh collisions or moving attachment combinations",
+    "Gameplay/ammunition integration",
+    "Visual quality acceptance and performance"
+  ]
+}
