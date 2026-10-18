@@ -87,3 +87,7 @@ The [connected fragment-family continuation](SNAPSHOT-WHOLE-PROGRAMS-2026-10-18.
 
 
 Latest scoped server continuation: [five whole native temples and complete guardian reward](FIVE-WHOLE-TEMPLES-2026-10-18.md). Client, natural survival progression and full-union release gates remain open.
+
+## Complete shared projectile saves
+
+[237 native guns/blasters and 270 projectile save round trips](PROJECTILE-SAVE-FAMILY-2026-10-18.md), with retained failures and eleven generated rejection controls. Current-cohort client/Hari, natural progression and the full union remain open.

@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "aoa-complete-wiki-checklist-1",
   "repository": "Herbertofury/Advent-of-Ascension.wiki",
-  "revision": "a4bf1463b7f661195842d5506a3760b3ec865512",
+  "revision": "b812d9158c058eb98daf43c253591dc3c8e125e9",
   "pages": [
     {
       "path": "Abominator-Weapon-Profile.md",
@@ -436,8 +436,8 @@
     },
     {
       "path": "Discharge-Shotgun-Weapon-Profile.md",
-      "bytes": 14699,
-      "sha256": "a3ee02aa6230c1cc141f8ccfbbf2dacac99e3d7cb66305370ff4205e88593d0e"
+      "bytes": 17811,
+      "sha256": "31f015d034f0f2a9003b6a7d852c17a854cea2a598e4ac37688b08d66049e926"
     },
     {
       "path": "Divine-Station-Weapon-Upgrades-1.20.1.md",
@@ -1250,6 +1250,11 @@
       "sha256": "e2eb048d5ad9ead8602beb625015b52516c8bbf27c14e1b39300c0158df06dfc"
     },
     {
+      "path": "Projectile-Save-Family-2026-10-18.md",
+      "bytes": 1753,
+      "sha256": "fd00198ba10da705380d7eacc6e0fef03d2ca56e376f804a464af314ded4341b"
+    },
+    {
       "path": "Reading-Routes-and-Local-Checklists.md",
       "bytes": 4921,
       "sha256": "e5f3aebb13a755e1da770a6899e6a58578f9c58184e9c4ec4e6e8d2d4b8a2c6d"
@@ -1326,8 +1331,8 @@
     },
     {
       "path": "Runtime-Acceptance-Checklist.md",
-      "bytes": 21103,
-      "sha256": "079f51476e3d523095d09d9f5c6d608f93bc0d7188e975224f55092db9a5e909"
+      "bytes": 21999,
+      "sha256": "2dc85f17b8c6cdad15a6be71f2e674ab2287b58649ed0e580dc1665ba9fe0988"
     },
     {
       "path": "Saved-Skill-Master-Offers-2026-10-18.md",
@@ -1671,8 +1676,8 @@
     },
     {
       "path": "Weapon-Lore-and-Provenance.md",
-      "bytes": 4029,
-      "sha256": "b62f8e937368a42c4530856ddb897a76618fe2e1a3d0385ed44dd89783fe8d66"
+      "bytes": 5071,
+      "sha256": "fdf516c25b5d0b5620186d5435bba24676b709c91d2dc5439270abdefaead483"
     },
     {
       "path": "Weapon-Mechanism-and-Animation-QA.md",
@@ -4129,7 +4134,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 108,
+      "line": 128,
       "text": "Capture original flight, entity impact and block impact in the exact release.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4142,7 +4147,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 109,
+      "line": 129,
       "text": "Test both entity-hit explosion stages, final damage, immunity behavior and environmental rules.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4155,7 +4160,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 110,
+      "line": 130,
       "text": "Test single ammo check versus the four-projectile burst and all relevant enchantments.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4168,7 +4173,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 111,
+      "line": 131,
       "text": "Build the model, capsules, fins, comfortable hands and interruption-safe animations.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4181,7 +4186,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 112,
+      "line": 132,
       "text": "Make every functional module's appearance agree with its declared projectile/resource behavior.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4194,7 +4199,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 113,
+      "line": 133,
       "text": "Validate native export, multiplayer, saved builds, combat-mod compatibility and measured frame/tick costs.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -9182,15 +9187,15 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
     },
     {
-      "id": "wiki:37ba4d30db791461acb91ad9",
+      "id": "wiki:235d6da7331bb392ca037340",
       "page": "Runtime-Acceptance-Checklist.md",
       "section": [
         "Runtime acceptance checklist",
         "Five complete native temples and guardian reward — October 18"
       ],
       "line": 238,
-      "text": "Verify shared projectile context saves across the full native gun/blaster family, including registry identity, lifetime, piercing and unknown NBT.",
-      "sourceReportedChecked": false,
+      "text": "Verify shared projectile context saves across all 237 registered native guns/blasters: 252 factory plus 18 volley projectile round trips, preserving registry identity, age/lifetime, piercing context, motion and unknown NBT. This does not certify every subclass-private field.",
+      "sourceReportedChecked": true,
       "acceptance": "source-checklist-only",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
     },
@@ -9216,6 +9221,71 @@
       ],
       "line": 240,
       "text": "Complete native realms/portals, original AI, migration/multiplayer, optional compatibility, equivalent-work performance and the entire historical/latest union.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:ad400e6e3462dc79abe9ac5b",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Complete projectile base saves — October 18"
+      ],
+      "line": 246,
+      "text": "Pass the complete v96i native compile, packaging and server with all inherited temple/guardian/reward checks.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:821bb6ccd28a2189eeb7efa4",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Complete projectile base saves — October 18"
+      ],
+      "line": 247,
+      "text": "Exercise all 237 registered guns/blasters and 270 real projectile save/load/save cases.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:732ca60608fd7337d12ade2c",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Complete projectile base saves — October 18"
+      ],
+      "line": 248,
+      "text": "Correct the observed native motion-load loss only for validated own-context saves; retain the failed v96h record.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:0a70d7391adc1ea25dd45580",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Complete projectile base saves — October 18"
+      ],
+      "line": 249,
+      "text": "Independently reject all eleven generated corrupt-result controls with the exact frozen verifier.",
+      "sourceReportedChecked": true,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
+    },
+    {
+      "id": "wiki:cb1a1580f9d9c3ec82a9f22a",
+      "page": "Runtime-Acceptance-Checklist.md",
+      "section": [
+        "Runtime acceptance checklist",
+        "Complete projectile base saves — October 18"
+      ],
+      "line": 250,
+      "text": "Verify current native client/Hari, natural acquisition, subclass-private consumers, player travel, multiplayer/migration and full-union gameplay.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Runtime-Acceptance-Checklist"
@@ -12218,8 +12288,8 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog"
     }
   ],
-  "pageCount": 346,
-  "taskCount": 800,
-  "reportedChecked": 114,
+  "pageCount": 347,
+  "taskCount": 805,
+  "reportedChecked": 119,
   "runtimeCompletionInferred": false
 }
