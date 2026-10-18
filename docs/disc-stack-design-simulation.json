@@ -1,0 +1,31 @@
+{
+  "scope": "Standalone20TPS design simulation, not native game results; one-second arithmetic fixtures",
+  "cases": [
+    {
+      "emitters": 4,
+      "discs": 20,
+      "rawDamageInput": 30,
+      "spiritSpent": 40
+    },
+    {
+      "emitters": 5,
+      "discs": 25,
+      "rawDamageInput": 37.5,
+      "spiritSpent": 50
+    },
+    {
+      "emitters": 6,
+      "discs": 30,
+      "rawDamageInput": 45,
+      "spiritSpent": 60
+    },
+    {
+      "emitters": 8,
+      "discs": 40,
+      "rawDamageInput": 60,
+      "spiritSpent": 80
+    }
+  ],
+  "tests": "count, top-to-bottom order, damage upgrades, explicit resource policy, no unfunded backlog, partial funding, invalid values",
+  "nativeTested": false
+}

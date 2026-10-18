@@ -1,5 +1,8 @@
 # Soul Storm: nostalgia amplified
 
+**Current gameplay direction:** original behavior is the baseline, not the ceiling. Attachments may intentionally increase damage/projectile count and change firing patterns, resources and effects. See [Functional weapon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades). Accidental duplicate callbacks remain bugs; deliberate multishot is a feature.
+
+
 **Concept art first.** Preserve the AoA weapon's recognizable identity, then earn the upgrade through outstanding silhouette, materials, animation, sound and effects. These images are design references, not in-game screenshots or completed models.
 
 ## Original identity
@@ -29,11 +32,15 @@ The first generated development sheet had an inconsistent top view and straight-
 - **Effects:** discrete Spirit projectiles with short wispy trails, not a continuous laser. Avoid opaque smoke, excessive bloom and full-screen flashing. Provide reduced-effects and camera-motion options.
 - **Audio:** preserve the recognizable sprayer-like identity while developing layered original feedback. No imported commercial-game audio is assumed.
 
+## Plasma soul discs and functional stack upgrades
+
+The owner requests alternating top-to-bottom plasma-disc emitters and expandable four/five/six/higher stacks. These may genuinely increase output and damage. [Full weapon profile and original/new comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) separates native values from proposed upgraded builds. Original sprite inspection shows five bright horizontal emitter bands.
+
 ## Gameplay fidelity is part of the art brief
 
 Released AoA3.7.1 / Minecraft1.20.1 inspection records one-tick firing delay, energy-cost input2.0, SoulStormEntity with age input60, and ITEM_SPRAYER_FIRE. The projectile class returns approximately0.6 for the method corresponding to gravity in the matching source. These observations constrain the adapter; they are not native runtime certification.
 
-Keep native Spirit payment, projectile behavior and firing admission. Do not add conventional bullets, a cartridge magazine, forced reload, an animation-imposed firing delay, or a straight laser substitution. VFX should follow the actual projectile trajectory rather than changing it to fit the picture.
+Keep original-mode Spirit payment, projectile behavior and firing admission; upgraded builds may deliberately change them through explicit components. Do not add conventional bullets, a cartridge magazine, forced reload, an animation-imposed firing delay, or a straight laser substitution. VFX should follow the build’s actual projectile trajectory. A flight-changing upgrade may intentionally change that trajectory, with its behavior and values documented.
 
 [Native contract evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-native-contract.json)
 
@@ -53,4 +60,4 @@ The earlier square cage, floating cube, slab-like emitter and thin crest failed 
 - [ ] Author original materials, sound and bounded VFX; measure cost instead of promising zero overhead.
 - [ ] Match the native behavior and complete real-game first/third-person, multiplayer, save and performance tests.
 
-[Earlier technical study and scoped QA](Soul-Storm-Authoring-Study) · [Arsenal backlog](Weapon-Upgrade-Backlog)
+[Earlier technical study and scoped QA](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Authoring-Study) · [Arsenal backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog)

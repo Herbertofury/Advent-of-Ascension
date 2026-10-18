@@ -1,22 +1,29 @@
 # Ascension Armory — implementation checklist
 
+**Current gameplay direction:** original behavior is the baseline, not the ceiling. Attachments may intentionally increase damage/projectile count and change firing patterns, resources and effects. See [Functional weapon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades). Accidental duplicate callbacks remain bugs; deliberate multishot is a feature.
+
+
 **Status: requested design goal; no upgrade build certified.**
 
 [Design](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [References](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library)
 
 ## Current authoring milestone · 2026-10-18
 
-[Original animated Baronator prototype and editable source](Animated-Weapon-Prototype-Baronator) now exist. The public approved-firing authoring variant has 103 cuboids, 27 bones and 15 animation records; a separate mechanism lab explores feed and hand-fit repairs. These remain unqualified authoring studies, not native gameplay acceptance. The older versioned ledger covers overlapping historical/modern records; the new first-lane production queue explicitly covers all 228 ranged registrations in AoA 3.7.1 for Minecraft 1.20.1. Neither ledger counts them as finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
+[Original animated Baronator prototype and editable source](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator) now exist. The public approved-firing authoring variant has 103 cuboids, 27 bones and 15 animation records; a separate mechanism lab explores feed and hand-fit repairs. These remain unqualified authoring studies, not native gameplay acceptance. The older versioned ledger covers overlapping historical/modern records; the new first-lane production queue explicitly covers all 228 ranged registrations in AoA 3.7.1 for Minecraft 1.20.1. Neither ledger counts them as finished upgrades. Native AoA/TaCZ integration, hand animation, sound, multiplayer and performance acceptance remain open.
 
-[Central compatibility targets](Compatibility-Targets) · [Dimension mods and Extra Realmstones](Extra-Realmstones-and-Dimension-Compatibility)
+[Central compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Dimension mods and Extra Realmstones](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Extra-Realmstones-and-Dimension-Compatibility)
 
 ## Soul Storm: original spirit-channel study
 
-[Preview, source and scoped evidence](Soul-Storm-Authoring-Study): 77 cuboids, 19 bones, seven motion records, sampled moving-part and right-arm-proxy checks, plus pose-continuous bounded cosmetic response. Native Spirit behavior, complete hand rig, audio/VFX and runtime acceptance remain open.
+[Preview, source and scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Authoring-Study): 77 cuboids, 19 bones, seven motion records, sampled moving-part and right-arm-proxy checks, plus pose-continuous bounded cosmetic response. Native Spirit behavior, complete hand rig, audio/VFX and runtime acceptance remain open.
 
 ## Concept-first art direction
 
 Every weapon starts with actual original-reference and gameplay study, then high-quality generated concepts, critique, and a consistent modeling target. Preserve recognizable AoA nostalgia while radically improving silhouette, materials, motion, sound and effects. Numerical collision checks do not certify good art. The earlier Soul Storm blockout is rejected as the visual benchmark; see [Soul Storm art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) before further modeling. [Baronator concept exploration](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baronator-Art-Direction) now establishes its original-red, twin-barrel visual target and heavy alternating firing feel.
+
+## Complete per-weapon descriptions and comparisons
+
+Every weapon needs the [complete profile standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Profile-Standard): what it is, how it fires, projectile/impact behavior, resource use, strengths and quirks, plus original-versus-proposed-versus-measured values and art. Start with [Soul Storm’s full source-grounded profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile).
 
 ## Foundation
 - [ ] Enumerate every accepted weapon by registry ID and source version; distinguish alternate variants from unique weapons.
@@ -59,7 +66,7 @@ Registry ID and version; baseline mechanics; remodel author/license; animation s
 
 ## Modular armory and effect salvage
 
-See [the complete researched design and acceptance checklist](Modular-Armory-and-Effect-Salvage) and [conceptual physics references](Weapon-Physics-and-Speculative-Technology).
+See [the complete researched design and acceptance checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage) and [conceptual physics references](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Physics-and-Speculative-Technology).
 
 - [ ] Implement extensive interchangeable barrels, scopes, suppressors, stocks, grips, feeds, handling and cosmetic modules.
 - [ ] Recover specific weapon effects as reusable cores; keep detach, extract, dismantle and recycle operations distinct.

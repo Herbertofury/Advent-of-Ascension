@@ -1,0 +1,5795 @@
+[
+  {
+    "class": "net/tslat/aoa3/client/render/entity/projectile/blasters/SoulStormRenderer.class",
+    "sha256": "69fe9894a090a0383378939780d32710db4ab44f6669c3bc1e03bd33813cb232",
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/client/render/entity/projectile/ParticleProjectileRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)V"
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "addParticles",
+        "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity;F)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 1,
+            "opcode": 62
+          },
+          {
+            "offset": 2,
+            "opcode": 29
+          },
+          {
+            "offset": 3,
+            "opcode": 16,
+            "constant": 6
+          },
+          {
+            "offset": 5,
+            "opcode": 162,
+            "operands": [
+              0,
+              99
+            ]
+          },
+          {
+            "offset": 8,
+            "opcode": 43
+          },
+          {
+            "offset": 9,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 187,
+            "operands": [
+              0,
+              13
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 89
+          },
+          {
+            "offset": 16,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAParticleTypes",
+              "SPARKLER",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 22,
+            "opcode": 192,
+            "operands": [
+              0,
+              46
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 18,
+            "constant": 0.25
+          },
+          {
+            "offset": 27,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 29,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/util/ColourUtil",
+              "CYAN",
+              "I"
+            ]
+          },
+          {
+            "offset": 32,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+              "<init>",
+              "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+            ]
+          },
+          {
+            "offset": 35,
+            "opcode": 43
+          },
+          {
+            "offset": 36,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 39,
+            "opcode": 43
+          },
+          {
+            "offset": 40,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 43,
+            "opcode": 43
+          },
+          {
+            "offset": 44,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 47,
+            "opcode": 14
+          },
+          {
+            "offset": 48,
+            "opcode": 14
+          },
+          {
+            "offset": 49,
+            "opcode": 14
+          },
+          {
+            "offset": 50,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "m_7106_",
+              "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+            ]
+          },
+          {
+            "offset": 53,
+            "opcode": 43
+          },
+          {
+            "offset": 54,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 57,
+            "opcode": 187,
+            "operands": [
+              0,
+              13
+            ]
+          },
+          {
+            "offset": 60,
+            "opcode": 89
+          },
+          {
+            "offset": 61,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/common/registration/AoAParticleTypes",
+              "SPARKLER",
+              "Lnet/minecraftforge/registries/RegistryObject;"
+            ]
+          },
+          {
+            "offset": 64,
+            "opcode": 182,
+            "member": [
+              "net/minecraftforge/registries/RegistryObject",
+              "get",
+              "()Ljava/lang/Object;"
+            ]
+          },
+          {
+            "offset": 67,
+            "opcode": 192,
+            "operands": [
+              0,
+              46
+            ]
+          },
+          {
+            "offset": 70,
+            "opcode": 18,
+            "constant": 0.25
+          },
+          {
+            "offset": 72,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 74,
+            "opcode": 178,
+            "member": [
+              "net/tslat/aoa3/util/ColourUtil",
+              "BLUE",
+              "I"
+            ]
+          },
+          {
+            "offset": 77,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+              "<init>",
+              "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+            ]
+          },
+          {
+            "offset": 80,
+            "opcode": 43
+          },
+          {
+            "offset": 81,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 84,
+            "opcode": 43
+          },
+          {
+            "offset": 85,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 88,
+            "opcode": 43
+          },
+          {
+            "offset": 89,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 92,
+            "opcode": 14
+          },
+          {
+            "offset": 93,
+            "opcode": 14
+          },
+          {
+            "offset": 94,
+            "opcode": 14
+          },
+          {
+            "offset": 95,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "m_7106_",
+              "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+            ]
+          },
+          {
+            "offset": 98,
+            "opcode": 132,
+            "operands": [
+              3,
+              1
+            ]
+          },
+          {
+            "offset": 101,
+            "opcode": 167,
+            "operands": [
+              255,
+              157
+            ]
+          },
+          {
+            "offset": 104,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "addParticles",
+        "descriptor": "(Lnet/minecraft/world/entity/Entity;F)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 192,
+            "operands": [
+              0,
+              28
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 36
+          },
+          {
+            "offset": 6,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/client/render/entity/projectile/blasters/SoulStormRenderer",
+              "addParticles",
+              "(Lnet/tslat/aoa3/content/entity/projectile/blaster/SoulStormEntity;F)V"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 177
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "net/tslat/aoa3/client/render/entity/projectile/ParticleProjectileRenderer.class",
+    "sha256": "66310b7c0749c4c4be7b0653463617a2bc32a08433df5269f62178291248155d",
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/client/renderer/entity/EntityRenderer",
+              "<init>",
+              "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)V"
+            ]
+          },
+          {
+            "offset": 5,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "m_7392_",
+        "descriptor": "(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 37
+          },
+          {
+            "offset": 3,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/client/render/entity/projectile/ParticleProjectileRenderer",
+              "addParticles",
+              "(Lnet/minecraft/world/entity/Entity;F)V"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 42
+          },
+          {
+            "offset": 7,
+            "opcode": 43
+          },
+          {
+            "offset": 8,
+            "opcode": 36
+          },
+          {
+            "offset": 9,
+            "opcode": 37
+          },
+          {
+            "offset": 10,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 21,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/client/renderer/entity/EntityRenderer",
+              "m_7392_",
+              "(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "m_5478_",
+        "descriptor": "(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 1
+          },
+          {
+            "offset": 1,
+            "opcode": 176
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster.class",
+    "sha256": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+    "methods": [
+      {
+        "name": "doBlockImpact",
+        "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/LivingEntity;)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "doEntityImpact",
+        "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 45
+          },
+          {
+            "offset": 1,
+            "opcode": 45
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 42
+          },
+          {
+            "offset": 4,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseDmg",
+              "D"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 144
+          },
+          {
+            "offset": 8,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/DamageUtil",
+              "doEnergyProjectileAttack",
+              "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 153,
+            "operands": [
+              0,
+              12
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 42
+          },
+          {
+            "offset": 15,
+            "opcode": 43
+          },
+          {
+            "offset": 16,
+            "opcode": 44
+          },
+          {
+            "offset": 17,
+            "opcode": 45
+          },
+          {
+            "offset": 18,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)V"
+            ]
+          },
+          {
+            "offset": 21,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 22,
+            "opcode": 172
+          },
+          {
+            "offset": 23,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 24,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "doEntityImpact",
+        "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/EntityHitResult;)Z",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 44
+          },
+          {
+            "offset": 1,
+            "opcode": 44
+          },
+          {
+            "offset": 2,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/EntityHitResult",
+              "m_82443_",
+              "()Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 42
+          },
+          {
+            "offset": 8,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "baseDmg",
+              "D"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 144
+          },
+          {
+            "offset": 12,
+            "opcode": 184,
+            "member": [
+              "net/tslat/aoa3/util/DamageUtil",
+              "doEnergyProjectileAttack",
+              "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)Z"
+            ]
+          },
+          {
+            "offset": 15,
+            "opcode": 153,
+            "operands": [
+              0,
+              17
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 42
+          },
+          {
+            "offset": 19,
+            "opcode": 43
+          },
+          {
+            "offset": 20,
+            "opcode": 44
+          },
+          {
+            "offset": 21,
+            "opcode": 45
+          },
+          {
+            "offset": 22,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 24,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 26,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 27,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 31,
+            "opcode": 172
+          },
+          {
+            "offset": 32,
+            "opcode": 42
+          },
+          {
+            "offset": 33,
+            "opcode": 43
+          },
+          {
+            "offset": 34,
+            "opcode": 44
+          },
+          {
+            "offset": 35,
+            "opcode": 45
+          },
+          {
+            "offset": 36,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 41,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V"
+            ]
+          },
+          {
+            "offset": 44,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 45,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "doBlockImpact",
+        "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/BlockHitResult;)Z",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 45
+          },
+          {
+            "offset": 4,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 8,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 9,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+              "doImpactEffect",
+              "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V"
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 13,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "doImpactEffect",
+        "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon$ShotInfo;Lnet/minecraft/world/phys/HitResult;Z)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "doImpactEffect",
+        "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 177
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot.class",
+    "sha256": "95b7a630b3b94e33766290b1c8be3301a4d5a4b1a42ddb5687dac1a8050cc17c",
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 42
+          },
+          {
+            "offset": 7,
+            "opcode": 1
+          },
+          {
+            "offset": 8,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 42
+          },
+          {
+            "offset": 12,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 13,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;DDDDDD)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 42
+          },
+          {
+            "offset": 10,
+            "opcode": 1
+          },
+          {
+            "offset": 11,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 42
+          },
+          {
+            "offset": 15,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 16,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 42
+          },
+          {
+            "offset": 20,
+            "opcode": 16,
+            "constant": 60
+          },
+          {
+            "offset": 22,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "lifespan",
+              "I"
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 42
+          },
+          {
+            "offset": 26,
+            "opcode": 45
+          },
+          {
+            "offset": 27,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 42
+          },
+          {
+            "offset": 31,
+            "opcode": 44
+          },
+          {
+            "offset": 32,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_5602_",
+              "(Lnet/minecraft/world/entity/Entity;)V"
+            ]
+          },
+          {
+            "offset": 35,
+            "opcode": 42
+          },
+          {
+            "offset": 36,
+            "opcode": 24,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 24,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 24,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 42,
+            "opcode": 11
+          },
+          {
+            "offset": 43,
+            "opcode": 18,
+            "constant": 360.0
+          },
+          {
+            "offset": 45,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_7678_",
+              "(DDDFF)V"
+            ]
+          },
+          {
+            "offset": 48,
+            "opcode": 42
+          },
+          {
+            "offset": 49,
+            "opcode": 187,
+            "operands": [
+              0,
+              69
+            ]
+          },
+          {
+            "offset": 52,
+            "opcode": 89
+          },
+          {
+            "offset": 53,
+            "opcode": 24,
+            "operands": [
+              10
+            ]
+          },
+          {
+            "offset": 55,
+            "opcode": 24,
+            "operands": [
+              12
+            ]
+          },
+          {
+            "offset": 57,
+            "opcode": 24,
+            "operands": [
+              14
+            ]
+          },
+          {
+            "offset": 59,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 62,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20256_",
+              "(Lnet/minecraft/world/phys/Vec3;)V"
+            ]
+          },
+          {
+            "offset": 65,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/Entity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;DDDF)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/Entity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 42
+          },
+          {
+            "offset": 10,
+            "opcode": 1
+          },
+          {
+            "offset": 11,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 42
+          },
+          {
+            "offset": 15,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 16,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 42
+          },
+          {
+            "offset": 20,
+            "opcode": 16,
+            "constant": 120
+          },
+          {
+            "offset": 22,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "lifespan",
+              "I"
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 42
+          },
+          {
+            "offset": 26,
+            "opcode": 45
+          },
+          {
+            "offset": 27,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 42
+          },
+          {
+            "offset": 31,
+            "opcode": 44
+          },
+          {
+            "offset": 32,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_5602_",
+              "(Lnet/minecraft/world/entity/Entity;)V"
+            ]
+          },
+          {
+            "offset": 35,
+            "opcode": 42
+          },
+          {
+            "offset": 36,
+            "opcode": 24,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 24,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 24,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 42,
+            "opcode": 11
+          },
+          {
+            "offset": 43,
+            "opcode": 18,
+            "constant": 360.0
+          },
+          {
+            "offset": 45,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_7678_",
+              "(DDDFF)V"
+            ]
+          },
+          {
+            "offset": 48,
+            "opcode": 42
+          },
+          {
+            "offset": 49,
+            "opcode": 187,
+            "operands": [
+              0,
+              69
+            ]
+          },
+          {
+            "offset": 52,
+            "opcode": 89
+          },
+          {
+            "offset": 53,
+            "opcode": 42
+          },
+          {
+            "offset": 54,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "f_19796_",
+              "Lnet/minecraft/util/RandomSource;"
+            ]
+          },
+          {
+            "offset": 57,
+            "opcode": 185,
+            "member": [
+              "net/minecraft/util/RandomSource",
+              "m_188583_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 62,
+            "opcode": 20,
+            "constant": 33.0
+          },
+          {
+            "offset": 65,
+            "opcode": 111
+          },
+          {
+            "offset": 66,
+            "opcode": 20,
+            "constant": 0.03
+          },
+          {
+            "offset": 69,
+            "opcode": 99
+          },
+          {
+            "offset": 70,
+            "opcode": 23,
+            "operands": [
+              10
+            ]
+          },
+          {
+            "offset": 72,
+            "opcode": 118
+          },
+          {
+            "offset": 73,
+            "opcode": 141
+          },
+          {
+            "offset": 74,
+            "opcode": 42
+          },
+          {
+            "offset": 75,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "f_19796_",
+              "Lnet/minecraft/util/RandomSource;"
+            ]
+          },
+          {
+            "offset": 78,
+            "opcode": 185,
+            "member": [
+              "net/minecraft/util/RandomSource",
+              "m_188583_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 83,
+            "opcode": 20,
+            "constant": 33.0
+          },
+          {
+            "offset": 86,
+            "opcode": 111
+          },
+          {
+            "offset": 87,
+            "opcode": 20,
+            "constant": 0.03
+          },
+          {
+            "offset": 90,
+            "opcode": 99
+          },
+          {
+            "offset": 91,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 94,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20256_",
+              "(Lnet/minecraft/world/phys/Vec3;)V"
+            ]
+          },
+          {
+            "offset": 97,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;IFFF)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 42
+          },
+          {
+            "offset": 10,
+            "opcode": 1
+          },
+          {
+            "offset": 11,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 42
+          },
+          {
+            "offset": 15,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 16,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 42
+          },
+          {
+            "offset": 20,
+            "opcode": 21,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 22,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "lifespan",
+              "I"
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 42
+          },
+          {
+            "offset": 26,
+            "opcode": 45
+          },
+          {
+            "offset": 27,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 42
+          },
+          {
+            "offset": 31,
+            "opcode": 44
+          },
+          {
+            "offset": 32,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_5602_",
+              "(Lnet/minecraft/world/entity/Entity;)V"
+            ]
+          },
+          {
+            "offset": 35,
+            "opcode": 42
+          },
+          {
+            "offset": 36,
+            "opcode": 44
+          },
+          {
+            "offset": 37,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 44
+          },
+          {
+            "offset": 41,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 44,
+            "opcode": 44
+          },
+          {
+            "offset": 45,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20192_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 48,
+            "opcode": 141
+          },
+          {
+            "offset": 49,
+            "opcode": 99
+          },
+          {
+            "offset": 50,
+            "opcode": 44
+          },
+          {
+            "offset": 51,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 54,
+            "opcode": 44
+          },
+          {
+            "offset": 55,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 58,
+            "opcode": 44
+          },
+          {
+            "offset": 59,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 62,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_7678_",
+              "(DDDFF)V"
+            ]
+          },
+          {
+            "offset": 65,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 66,
+            "opcode": 54,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 68,
+            "opcode": 44
+          },
+          {
+            "offset": 69,
+            "opcode": 193,
+            "operands": [
+              0,
+              129
+            ]
+          },
+          {
+            "offset": 72,
+            "opcode": 153,
+            "operands": [
+              0,
+              45
+            ]
+          },
+          {
+            "offset": 75,
+            "opcode": 45
+          },
+          {
+            "offset": 76,
+            "opcode": 44
+          },
+          {
+            "offset": 77,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon",
+              "getWeaponHand",
+              "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/InteractionHand;"
+            ]
+          },
+          {
+            "offset": 82,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/InteractionHand",
+              "MAIN_HAND",
+              "Lnet/minecraft/world/InteractionHand;"
+            ]
+          },
+          {
+            "offset": 85,
+            "opcode": 166,
+            "operands": [
+              0,
+              19
+            ]
+          },
+          {
+            "offset": 88,
+            "opcode": 44
+          },
+          {
+            "offset": 89,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_5737_",
+              "()Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 92,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/entity/HumanoidArm",
+              "LEFT",
+              "Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 95,
+            "opcode": 166,
+            "operands": [
+              0,
+              22
+            ]
+          },
+          {
+            "offset": 98,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 99,
+            "opcode": 54,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 101,
+            "opcode": 167,
+            "operands": [
+              0,
+              16
+            ]
+          },
+          {
+            "offset": 104,
+            "opcode": 44
+          },
+          {
+            "offset": 105,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_5737_",
+              "()Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 108,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/entity/HumanoidArm",
+              "RIGHT",
+              "Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 111,
+            "opcode": 166,
+            "operands": [
+              0,
+              6
+            ]
+          },
+          {
+            "offset": 114,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 115,
+            "opcode": 54,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 117,
+            "opcode": 42
+          },
+          {
+            "offset": 118,
+            "opcode": 42
+          },
+          {
+            "offset": 119,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 122,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 124,
+            "opcode": 110
+          },
+          {
+            "offset": 125,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 127,
+            "opcode": 106
+          },
+          {
+            "offset": 128,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 131,
+            "opcode": 118
+          },
+          {
+            "offset": 132,
+            "opcode": 42
+          },
+          {
+            "offset": 133,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 136,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 138,
+            "opcode": 110
+          },
+          {
+            "offset": 139,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 141,
+            "opcode": 106
+          },
+          {
+            "offset": 142,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 145,
+            "opcode": 106
+          },
+          {
+            "offset": 146,
+            "opcode": 141
+          },
+          {
+            "offset": 147,
+            "opcode": 23,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 149,
+            "opcode": 141
+          },
+          {
+            "offset": 150,
+            "opcode": 99
+          },
+          {
+            "offset": 151,
+            "opcode": 42
+          },
+          {
+            "offset": 152,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 155,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 157,
+            "opcode": 110
+          },
+          {
+            "offset": 158,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 160,
+            "opcode": 106
+          },
+          {
+            "offset": 161,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 164,
+            "opcode": 118
+          },
+          {
+            "offset": 165,
+            "opcode": 141
+          },
+          {
+            "offset": 166,
+            "opcode": 23,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 168,
+            "opcode": 141
+          },
+          {
+            "offset": 169,
+            "opcode": 99
+          },
+          {
+            "offset": 170,
+            "opcode": 42
+          },
+          {
+            "offset": 171,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 174,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 176,
+            "opcode": 110
+          },
+          {
+            "offset": 177,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 179,
+            "opcode": 106
+          },
+          {
+            "offset": 180,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 183,
+            "opcode": 42
+          },
+          {
+            "offset": 184,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 187,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 189,
+            "opcode": 110
+          },
+          {
+            "offset": 190,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 192,
+            "opcode": 106
+          },
+          {
+            "offset": 193,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 196,
+            "opcode": 106
+          },
+          {
+            "offset": 197,
+            "opcode": 141
+          },
+          {
+            "offset": 198,
+            "opcode": 23,
+            "operands": [
+              7
+            ]
+          },
+          {
+            "offset": 200,
+            "opcode": 141
+          },
+          {
+            "offset": 201,
+            "opcode": 99
+          },
+          {
+            "offset": 202,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 204,
+            "opcode": 12
+          },
+          {
+            "offset": 205,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6686_",
+              "(DDDFF)V"
+            ]
+          },
+          {
+            "offset": 208,
+            "opcode": 21,
+            "operands": [
+              8
+            ]
+          },
+          {
+            "offset": 210,
+            "opcode": 153,
+            "operands": [
+              0,
+              98
+            ]
+          },
+          {
+            "offset": 213,
+            "opcode": 42
+          },
+          {
+            "offset": 214,
+            "opcode": 42
+          },
+          {
+            "offset": 215,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 218,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 221,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 224,
+            "opcode": 107
+          },
+          {
+            "offset": 225,
+            "opcode": 42
+          },
+          {
+            "offset": 226,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 229,
+            "opcode": 99
+          },
+          {
+            "offset": 230,
+            "opcode": 42
+          },
+          {
+            "offset": 231,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 234,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 236,
+            "opcode": 110
+          },
+          {
+            "offset": 237,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 239,
+            "opcode": 106
+          },
+          {
+            "offset": 240,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 243,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 245,
+            "opcode": 106
+          },
+          {
+            "offset": 246,
+            "opcode": 141
+          },
+          {
+            "offset": 247,
+            "opcode": 103
+          },
+          {
+            "offset": 248,
+            "opcode": 42
+          },
+          {
+            "offset": 249,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 252,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 255,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 258,
+            "opcode": 107
+          },
+          {
+            "offset": 259,
+            "opcode": 42
+          },
+          {
+            "offset": 260,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 263,
+            "opcode": 99
+          },
+          {
+            "offset": 264,
+            "opcode": 20,
+            "constant": 0.3
+          },
+          {
+            "offset": 267,
+            "opcode": 103
+          },
+          {
+            "offset": 268,
+            "opcode": 42
+          },
+          {
+            "offset": 269,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 272,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 275,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 278,
+            "opcode": 107
+          },
+          {
+            "offset": 279,
+            "opcode": 42
+          },
+          {
+            "offset": 280,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 283,
+            "opcode": 99
+          },
+          {
+            "offset": 284,
+            "opcode": 42
+          },
+          {
+            "offset": 285,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 288,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 290,
+            "opcode": 110
+          },
+          {
+            "offset": 291,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 293,
+            "opcode": 106
+          },
+          {
+            "offset": 294,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 297,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 299,
+            "opcode": 106
+          },
+          {
+            "offset": 300,
+            "opcode": 141
+          },
+          {
+            "offset": 301,
+            "opcode": 99
+          },
+          {
+            "offset": 302,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6034_",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 305,
+            "opcode": 167,
+            "operands": [
+              0,
+              95
+            ]
+          },
+          {
+            "offset": 308,
+            "opcode": 42
+          },
+          {
+            "offset": 309,
+            "opcode": 42
+          },
+          {
+            "offset": 310,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 313,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 316,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 319,
+            "opcode": 107
+          },
+          {
+            "offset": 320,
+            "opcode": 42
+          },
+          {
+            "offset": 321,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 324,
+            "opcode": 99
+          },
+          {
+            "offset": 325,
+            "opcode": 42
+          },
+          {
+            "offset": 326,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 329,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 331,
+            "opcode": 110
+          },
+          {
+            "offset": 332,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 334,
+            "opcode": 106
+          },
+          {
+            "offset": 335,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 338,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 340,
+            "opcode": 106
+          },
+          {
+            "offset": 341,
+            "opcode": 141
+          },
+          {
+            "offset": 342,
+            "opcode": 99
+          },
+          {
+            "offset": 343,
+            "opcode": 42
+          },
+          {
+            "offset": 344,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 347,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 350,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 353,
+            "opcode": 107
+          },
+          {
+            "offset": 354,
+            "opcode": 42
+          },
+          {
+            "offset": 355,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 358,
+            "opcode": 99
+          },
+          {
+            "offset": 359,
+            "opcode": 20,
+            "constant": 0.3
+          },
+          {
+            "offset": 362,
+            "opcode": 103
+          },
+          {
+            "offset": 363,
+            "opcode": 42
+          },
+          {
+            "offset": 364,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 367,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 370,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 373,
+            "opcode": 107
+          },
+          {
+            "offset": 374,
+            "opcode": 42
+          },
+          {
+            "offset": 375,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 378,
+            "opcode": 99
+          },
+          {
+            "offset": 379,
+            "opcode": 42
+          },
+          {
+            "offset": 380,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 383,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 385,
+            "opcode": 110
+          },
+          {
+            "offset": 386,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 388,
+            "opcode": 106
+          },
+          {
+            "offset": 389,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 392,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 394,
+            "opcode": 106
+          },
+          {
+            "offset": 395,
+            "opcode": 141
+          },
+          {
+            "offset": 396,
+            "opcode": 103
+          },
+          {
+            "offset": 397,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6034_",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 400,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          },
+          {
+            "offset": 9,
+            "opcode": 42
+          },
+          {
+            "offset": 10,
+            "opcode": 1
+          },
+          {
+            "offset": 11,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 42
+          },
+          {
+            "offset": 15,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 16,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 19,
+            "opcode": 42
+          },
+          {
+            "offset": 20,
+            "opcode": 21,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 22,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "lifespan",
+              "I"
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 42
+          },
+          {
+            "offset": 26,
+            "opcode": 45
+          },
+          {
+            "offset": 27,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 42
+          },
+          {
+            "offset": 31,
+            "opcode": 44
+          },
+          {
+            "offset": 32,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_5602_",
+              "(Lnet/minecraft/world/entity/Entity;)V"
+            ]
+          },
+          {
+            "offset": 35,
+            "opcode": 42
+          },
+          {
+            "offset": 36,
+            "opcode": 44
+          },
+          {
+            "offset": 37,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 44
+          },
+          {
+            "offset": 41,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 44,
+            "opcode": 44
+          },
+          {
+            "offset": 45,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20192_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 48,
+            "opcode": 141
+          },
+          {
+            "offset": 49,
+            "opcode": 99
+          },
+          {
+            "offset": 50,
+            "opcode": 44
+          },
+          {
+            "offset": 51,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 54,
+            "opcode": 44
+          },
+          {
+            "offset": 55,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 58,
+            "opcode": 44
+          },
+          {
+            "offset": 59,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 62,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_7678_",
+              "(DDDFF)V"
+            ]
+          },
+          {
+            "offset": 65,
+            "opcode": 44
+          },
+          {
+            "offset": 66,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_5737_",
+              "()Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 69,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/entity/HumanoidArm",
+              "RIGHT",
+              "Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 72,
+            "opcode": 166,
+            "operands": [
+              0,
+              7
+            ]
+          },
+          {
+            "offset": 75,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 76,
+            "opcode": 167,
+            "operands": [
+              0,
+              4
+            ]
+          },
+          {
+            "offset": 79,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 80,
+            "opcode": 54,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 82,
+            "opcode": 44
+          },
+          {
+            "offset": 83,
+            "opcode": 193,
+            "operands": [
+              0,
+              129
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 153,
+            "operands": [
+              0,
+              45
+            ]
+          },
+          {
+            "offset": 89,
+            "opcode": 45
+          },
+          {
+            "offset": 90,
+            "opcode": 44
+          },
+          {
+            "offset": 91,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon",
+              "getWeaponHand",
+              "(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/InteractionHand;"
+            ]
+          },
+          {
+            "offset": 96,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/InteractionHand",
+              "MAIN_HAND",
+              "Lnet/minecraft/world/InteractionHand;"
+            ]
+          },
+          {
+            "offset": 99,
+            "opcode": 166,
+            "operands": [
+              0,
+              19
+            ]
+          },
+          {
+            "offset": 102,
+            "opcode": 44
+          },
+          {
+            "offset": 103,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_5737_",
+              "()Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 106,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/entity/HumanoidArm",
+              "LEFT",
+              "Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 109,
+            "opcode": 166,
+            "operands": [
+              0,
+              22
+            ]
+          },
+          {
+            "offset": 112,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 113,
+            "opcode": 54,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 115,
+            "opcode": 167,
+            "operands": [
+              0,
+              16
+            ]
+          },
+          {
+            "offset": 118,
+            "opcode": 44
+          },
+          {
+            "offset": 119,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/LivingEntity",
+              "m_5737_",
+              "()Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 122,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/entity/HumanoidArm",
+              "RIGHT",
+              "Lnet/minecraft/world/entity/HumanoidArm;"
+            ]
+          },
+          {
+            "offset": 125,
+            "opcode": 166,
+            "operands": [
+              0,
+              6
+            ]
+          },
+          {
+            "offset": 128,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 129,
+            "opcode": 54,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 131,
+            "opcode": 42
+          },
+          {
+            "offset": 132,
+            "opcode": 42
+          },
+          {
+            "offset": 133,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 136,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 138,
+            "opcode": 110
+          },
+          {
+            "offset": 139,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 141,
+            "opcode": 106
+          },
+          {
+            "offset": 142,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 145,
+            "opcode": 118
+          },
+          {
+            "offset": 146,
+            "opcode": 42
+          },
+          {
+            "offset": 147,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 150,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 152,
+            "opcode": 110
+          },
+          {
+            "offset": 153,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 155,
+            "opcode": 106
+          },
+          {
+            "offset": 156,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 159,
+            "opcode": 106
+          },
+          {
+            "offset": 160,
+            "opcode": 141
+          },
+          {
+            "offset": 161,
+            "opcode": 42
+          },
+          {
+            "offset": 162,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 165,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 167,
+            "opcode": 110
+          },
+          {
+            "offset": 168,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 170,
+            "opcode": 106
+          },
+          {
+            "offset": 171,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 174,
+            "opcode": 118
+          },
+          {
+            "offset": 175,
+            "opcode": 141
+          },
+          {
+            "offset": 176,
+            "opcode": 42
+          },
+          {
+            "offset": 177,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 180,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 182,
+            "opcode": 110
+          },
+          {
+            "offset": 183,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 185,
+            "opcode": 106
+          },
+          {
+            "offset": 186,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 189,
+            "opcode": 42
+          },
+          {
+            "offset": 190,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146909_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 193,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 195,
+            "opcode": 110
+          },
+          {
+            "offset": 196,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 198,
+            "opcode": 106
+          },
+          {
+            "offset": 199,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 202,
+            "opcode": 106
+          },
+          {
+            "offset": 203,
+            "opcode": 141
+          },
+          {
+            "offset": 204,
+            "opcode": 18,
+            "constant": 3.0
+          },
+          {
+            "offset": 206,
+            "opcode": 12
+          },
+          {
+            "offset": 207,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6686_",
+              "(DDDFF)V"
+            ]
+          },
+          {
+            "offset": 210,
+            "opcode": 21,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 212,
+            "opcode": 153,
+            "operands": [
+              0,
+              98
+            ]
+          },
+          {
+            "offset": 215,
+            "opcode": 42
+          },
+          {
+            "offset": 216,
+            "opcode": 42
+          },
+          {
+            "offset": 217,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 220,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 223,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 226,
+            "opcode": 107
+          },
+          {
+            "offset": 227,
+            "opcode": 42
+          },
+          {
+            "offset": 228,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 231,
+            "opcode": 99
+          },
+          {
+            "offset": 232,
+            "opcode": 42
+          },
+          {
+            "offset": 233,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 236,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 238,
+            "opcode": 110
+          },
+          {
+            "offset": 239,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 241,
+            "opcode": 106
+          },
+          {
+            "offset": 242,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 245,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 247,
+            "opcode": 106
+          },
+          {
+            "offset": 248,
+            "opcode": 141
+          },
+          {
+            "offset": 249,
+            "opcode": 103
+          },
+          {
+            "offset": 250,
+            "opcode": 42
+          },
+          {
+            "offset": 251,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 254,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 257,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 260,
+            "opcode": 107
+          },
+          {
+            "offset": 261,
+            "opcode": 42
+          },
+          {
+            "offset": 262,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 265,
+            "opcode": 99
+          },
+          {
+            "offset": 266,
+            "opcode": 20,
+            "constant": 0.3
+          },
+          {
+            "offset": 269,
+            "opcode": 103
+          },
+          {
+            "offset": 270,
+            "opcode": 42
+          },
+          {
+            "offset": 271,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 274,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 277,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 280,
+            "opcode": 107
+          },
+          {
+            "offset": 281,
+            "opcode": 42
+          },
+          {
+            "offset": 282,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 285,
+            "opcode": 99
+          },
+          {
+            "offset": 286,
+            "opcode": 42
+          },
+          {
+            "offset": 287,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 290,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 292,
+            "opcode": 110
+          },
+          {
+            "offset": 293,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 295,
+            "opcode": 106
+          },
+          {
+            "offset": 296,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 299,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 301,
+            "opcode": 106
+          },
+          {
+            "offset": 302,
+            "opcode": 141
+          },
+          {
+            "offset": 303,
+            "opcode": 99
+          },
+          {
+            "offset": 304,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6034_",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 307,
+            "opcode": 167,
+            "operands": [
+              0,
+              95
+            ]
+          },
+          {
+            "offset": 310,
+            "opcode": 42
+          },
+          {
+            "offset": 311,
+            "opcode": 42
+          },
+          {
+            "offset": 312,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 315,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 318,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 321,
+            "opcode": 107
+          },
+          {
+            "offset": 322,
+            "opcode": 42
+          },
+          {
+            "offset": 323,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 326,
+            "opcode": 99
+          },
+          {
+            "offset": 327,
+            "opcode": 42
+          },
+          {
+            "offset": 328,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 331,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 333,
+            "opcode": 110
+          },
+          {
+            "offset": 334,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 336,
+            "opcode": 106
+          },
+          {
+            "offset": 337,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14089_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 340,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 342,
+            "opcode": 106
+          },
+          {
+            "offset": 343,
+            "opcode": 141
+          },
+          {
+            "offset": 344,
+            "opcode": 99
+          },
+          {
+            "offset": 345,
+            "opcode": 42
+          },
+          {
+            "offset": 346,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 349,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 352,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 355,
+            "opcode": 107
+          },
+          {
+            "offset": 356,
+            "opcode": 42
+          },
+          {
+            "offset": 357,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 360,
+            "opcode": 99
+          },
+          {
+            "offset": 361,
+            "opcode": 20,
+            "constant": 0.3
+          },
+          {
+            "offset": 364,
+            "opcode": 103
+          },
+          {
+            "offset": 365,
+            "opcode": 42
+          },
+          {
+            "offset": 366,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 369,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 372,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 375,
+            "opcode": 107
+          },
+          {
+            "offset": 376,
+            "opcode": 42
+          },
+          {
+            "offset": 377,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 380,
+            "opcode": 99
+          },
+          {
+            "offset": 381,
+            "opcode": 42
+          },
+          {
+            "offset": 382,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146908_",
+              "()F"
+            ]
+          },
+          {
+            "offset": 385,
+            "opcode": 18,
+            "constant": 180.0
+          },
+          {
+            "offset": 387,
+            "opcode": 110
+          },
+          {
+            "offset": 388,
+            "opcode": 18,
+            "constant": 3.1415927410125732
+          },
+          {
+            "offset": 390,
+            "opcode": 106
+          },
+          {
+            "offset": 391,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/util/Mth",
+              "m_14031_",
+              "(F)F"
+            ]
+          },
+          {
+            "offset": 394,
+            "opcode": 18,
+            "constant": 0.4000000059604645
+          },
+          {
+            "offset": 396,
+            "opcode": 106
+          },
+          {
+            "offset": 397,
+            "opcode": 141
+          },
+          {
+            "offset": 398,
+            "opcode": 103
+          },
+          {
+            "offset": 399,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6034_",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 402,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;DDD)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 43
+          },
+          {
+            "offset": 2,
+            "opcode": 44
+          },
+          {
+            "offset": 3,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "<init>",
+              "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+            ]
+          },
+          {
+            "offset": 6,
+            "opcode": 42
+          },
+          {
+            "offset": 7,
+            "opcode": 1
+          },
+          {
+            "offset": 8,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 42
+          },
+          {
+            "offset": 12,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 13,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "m_19749_",
+        "descriptor": "()Lnet/minecraft/world/entity/Entity;",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 198,
+            "operands": [
+              0,
+              18
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 42
+          },
+          {
+            "offset": 8,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/Entity",
+              "m_6084_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 153,
+            "operands": [
+              0,
+              8
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 42
+          },
+          {
+            "offset": 18,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 21,
+            "opcode": 176
+          },
+          {
+            "offset": 22,
+            "opcode": 42
+          },
+          {
+            "offset": 23,
+            "opcode": 42
+          },
+          {
+            "offset": 24,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "m_19749_",
+              "()Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 27,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 42
+          },
+          {
+            "offset": 31,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "cachedOwner",
+              "Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 34,
+            "opcode": 176
+          }
+        ]
+      },
+      {
+        "name": "m_6532_",
+        "descriptor": "(Lnet/minecraft/world/phys/HitResult;)V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "f_46443_",
+              "Z"
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 154,
+            "operands": [
+              0,
+              96
+            ]
+          },
+          {
+            "offset": 10,
+            "opcode": 42
+          },
+          {
+            "offset": 11,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 198,
+            "operands": [
+              0,
+              85
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 42
+          },
+          {
+            "offset": 18,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6084_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 21,
+            "opcode": 153,
+            "operands": [
+              0,
+              78
+            ]
+          },
+          {
+            "offset": 24,
+            "opcode": 42
+          },
+          {
+            "offset": 25,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_19749_",
+              "()Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 28,
+            "opcode": 77
+          },
+          {
+            "offset": 29,
+            "opcode": 44
+          },
+          {
+            "offset": 30,
+            "opcode": 193,
+            "operands": [
+              0,
+              50
+            ]
+          },
+          {
+            "offset": 33,
+            "opcode": 153,
+            "operands": [
+              0,
+              66
+            ]
+          },
+          {
+            "offset": 36,
+            "opcode": 43
+          },
+          {
+            "offset": 37,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_6662_",
+              "()Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 40,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/phys/HitResult$Type",
+              "BLOCK",
+              "Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 43,
+            "opcode": 166,
+            "operands": [
+              0,
+              24
+            ]
+          },
+          {
+            "offset": 46,
+            "opcode": 42
+          },
+          {
+            "offset": 47,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 50,
+            "opcode": 42
+          },
+          {
+            "offset": 51,
+            "opcode": 43
+          },
+          {
+            "offset": 52,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_82450_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 55,
+            "opcode": 44
+          },
+          {
+            "offset": 56,
+            "opcode": 192,
+            "operands": [
+              0,
+              50
+            ]
+          },
+          {
+            "offset": 59,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon",
+              "doBlockImpact",
+              "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/LivingEntity;)V"
+            ]
+          },
+          {
+            "offset": 64,
+            "opcode": 167,
+            "operands": [
+              0,
+              35
+            ]
+          },
+          {
+            "offset": 67,
+            "opcode": 43
+          },
+          {
+            "offset": 68,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_6662_",
+              "()Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 71,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/phys/HitResult$Type",
+              "ENTITY",
+              "Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 74,
+            "opcode": 166,
+            "operands": [
+              0,
+              25
+            ]
+          },
+          {
+            "offset": 77,
+            "opcode": 42
+          },
+          {
+            "offset": 78,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "weapon",
+              "Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;"
+            ]
+          },
+          {
+            "offset": 81,
+            "opcode": 42
+          },
+          {
+            "offset": 82,
+            "opcode": 43
+          },
+          {
+            "offset": 83,
+            "opcode": 192,
+            "operands": [
+              0,
+              249
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/EntityHitResult",
+              "m_82443_",
+              "()Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 89,
+            "opcode": 44
+          },
+          {
+            "offset": 90,
+            "opcode": 192,
+            "operands": [
+              0,
+              50
+            ]
+          },
+          {
+            "offset": 93,
+            "opcode": 185,
+            "member": [
+              "net/tslat/aoa3/content/item/EnergyProjectileWeapon",
+              "doEntityImpact",
+              "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z"
+            ]
+          },
+          {
+            "offset": 98,
+            "opcode": 87
+          },
+          {
+            "offset": 99,
+            "opcode": 42
+          },
+          {
+            "offset": 100,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146870_",
+              "()V"
+            ]
+          },
+          {
+            "offset": 103,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "m_8097_",
+        "descriptor": "()V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "m_6128_",
+        "descriptor": "()Z",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 1,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "m_8119_",
+        "descriptor": "()V",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6084_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 154,
+            "operands": [
+              0,
+              4
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 177
+          },
+          {
+            "offset": 8,
+            "opcode": 42
+          },
+          {
+            "offset": 9,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20184_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 12,
+            "opcode": 76
+          },
+          {
+            "offset": 13,
+            "opcode": 187,
+            "operands": [
+              0,
+              69
+            ]
+          },
+          {
+            "offset": 16,
+            "opcode": 89
+          },
+          {
+            "offset": 17,
+            "opcode": 42
+          },
+          {
+            "offset": 18,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 21,
+            "opcode": 43
+          },
+          {
+            "offset": 22,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 25,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 28,
+            "opcode": 107
+          },
+          {
+            "offset": 29,
+            "opcode": 103
+          },
+          {
+            "offset": 30,
+            "opcode": 42
+          },
+          {
+            "offset": 31,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 34,
+            "opcode": 43
+          },
+          {
+            "offset": 35,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 38,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 41,
+            "opcode": 107
+          },
+          {
+            "offset": 42,
+            "opcode": 103
+          },
+          {
+            "offset": 43,
+            "opcode": 42
+          },
+          {
+            "offset": 44,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 47,
+            "opcode": 43
+          },
+          {
+            "offset": 48,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 51,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 54,
+            "opcode": 107
+          },
+          {
+            "offset": 55,
+            "opcode": 103
+          },
+          {
+            "offset": 56,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 59,
+            "opcode": 77
+          },
+          {
+            "offset": 60,
+            "opcode": 187,
+            "operands": [
+              0,
+              69
+            ]
+          },
+          {
+            "offset": 63,
+            "opcode": 89
+          },
+          {
+            "offset": 64,
+            "opcode": 42
+          },
+          {
+            "offset": 65,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 68,
+            "opcode": 43
+          },
+          {
+            "offset": 69,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 72,
+            "opcode": 99
+          },
+          {
+            "offset": 73,
+            "opcode": 42
+          },
+          {
+            "offset": 74,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 77,
+            "opcode": 43
+          },
+          {
+            "offset": 78,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 81,
+            "opcode": 99
+          },
+          {
+            "offset": 82,
+            "opcode": 42
+          },
+          {
+            "offset": 83,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 86,
+            "opcode": 43
+          },
+          {
+            "offset": 87,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 90,
+            "opcode": 99
+          },
+          {
+            "offset": 91,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 94,
+            "opcode": 78
+          },
+          {
+            "offset": 95,
+            "opcode": 42
+          },
+          {
+            "offset": 96,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 99,
+            "opcode": 187,
+            "operands": [
+              0,
+              14
+            ]
+          },
+          {
+            "offset": 102,
+            "opcode": 89
+          },
+          {
+            "offset": 103,
+            "opcode": 44
+          },
+          {
+            "offset": 104,
+            "opcode": 45
+          },
+          {
+            "offset": 105,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/level/ClipContext$Block",
+              "OUTLINE",
+              "Lnet/minecraft/world/level/ClipContext$Block;"
+            ]
+          },
+          {
+            "offset": 108,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/level/ClipContext$Fluid",
+              "ANY",
+              "Lnet/minecraft/world/level/ClipContext$Fluid;"
+            ]
+          },
+          {
+            "offset": 111,
+            "opcode": 1
+          },
+          {
+            "offset": 112,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/level/ClipContext",
+              "<init>",
+              "(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;Lnet/minecraft/world/level/ClipContext$Fluid;Lnet/minecraft/world/entity/Entity;)V"
+            ]
+          },
+          {
+            "offset": 115,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "m_45547_",
+              "(Lnet/minecraft/world/level/ClipContext;)Lnet/minecraft/world/phys/BlockHitResult;"
+            ]
+          },
+          {
+            "offset": 118,
+            "opcode": 58,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 120,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 122,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_6662_",
+              "()Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 125,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/phys/HitResult$Type",
+              "MISS",
+              "Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 128,
+            "opcode": 165,
+            "operands": [
+              0,
+              38
+            ]
+          },
+          {
+            "offset": 131,
+            "opcode": 187,
+            "operands": [
+              0,
+              69
+            ]
+          },
+          {
+            "offset": 134,
+            "opcode": 89
+          },
+          {
+            "offset": 135,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 137,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_82450_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 140,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "f_82479_",
+              "D"
+            ]
+          },
+          {
+            "offset": 143,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 145,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_82450_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 148,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "f_82480_",
+              "D"
+            ]
+          },
+          {
+            "offset": 151,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 153,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_82450_",
+              "()Lnet/minecraft/world/phys/Vec3;"
+            ]
+          },
+          {
+            "offset": 156,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "f_82481_",
+              "D"
+            ]
+          },
+          {
+            "offset": 159,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 162,
+            "opcode": 78
+          },
+          {
+            "offset": 163,
+            "opcode": 167,
+            "operands": [
+              0,
+              38
+            ]
+          },
+          {
+            "offset": 166,
+            "opcode": 187,
+            "operands": [
+              0,
+              69
+            ]
+          },
+          {
+            "offset": 169,
+            "opcode": 89
+          },
+          {
+            "offset": 170,
+            "opcode": 42
+          },
+          {
+            "offset": 171,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 174,
+            "opcode": 43
+          },
+          {
+            "offset": 175,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 178,
+            "opcode": 99
+          },
+          {
+            "offset": 179,
+            "opcode": 42
+          },
+          {
+            "offset": 180,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 183,
+            "opcode": 43
+          },
+          {
+            "offset": 184,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 187,
+            "opcode": 99
+          },
+          {
+            "offset": 188,
+            "opcode": 42
+          },
+          {
+            "offset": 189,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 192,
+            "opcode": 43
+          },
+          {
+            "offset": 193,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 196,
+            "opcode": 99
+          },
+          {
+            "offset": 197,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "<init>",
+              "(DDD)V"
+            ]
+          },
+          {
+            "offset": 200,
+            "opcode": 78
+          },
+          {
+            "offset": 201,
+            "opcode": 42
+          },
+          {
+            "offset": 202,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_19749_",
+              "()Lnet/minecraft/world/entity/Entity;"
+            ]
+          },
+          {
+            "offset": 205,
+            "opcode": 58,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 207,
+            "opcode": 42
+          },
+          {
+            "offset": 208,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 211,
+            "opcode": 42
+          },
+          {
+            "offset": 212,
+            "opcode": 44
+          },
+          {
+            "offset": 213,
+            "opcode": 45
+          },
+          {
+            "offset": 214,
+            "opcode": 42
+          },
+          {
+            "offset": 215,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20191_",
+              "()Lnet/minecraft/world/phys/AABB;"
+            ]
+          },
+          {
+            "offset": 218,
+            "opcode": 43
+          },
+          {
+            "offset": 219,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7096_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 222,
+            "opcode": 43
+          },
+          {
+            "offset": 223,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7098_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 226,
+            "opcode": 43
+          },
+          {
+            "offset": 227,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/Vec3",
+              "m_7094_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 230,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/AABB",
+              "m_82363_",
+              "(DDD)Lnet/minecraft/world/phys/AABB;"
+            ]
+          },
+          {
+            "offset": 233,
+            "opcode": 20,
+            "constant": 0.5
+          },
+          {
+            "offset": 236,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/AABB",
+              "m_82400_",
+              "(D)Lnet/minecraft/world/phys/AABB;"
+            ]
+          },
+          {
+            "offset": 239,
+            "opcode": 25,
+            "operands": [
+              5
+            ]
+          },
+          {
+            "offset": 241,
+            "opcode": 186,
+            "operands": [
+              1,
+              70,
+              0,
+              0
+            ]
+          },
+          {
+            "offset": 246,
+            "opcode": 184,
+            "member": [
+              "net/minecraft/world/entity/projectile/ProjectileUtil",
+              "m_37304_",
+              "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Lnet/minecraft/world/phys/EntityHitResult;"
+            ]
+          },
+          {
+            "offset": 249,
+            "opcode": 58,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 251,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 253,
+            "opcode": 198,
+            "operands": [
+              0,
+              7
+            ]
+          },
+          {
+            "offset": 256,
+            "opcode": 25,
+            "operands": [
+              6
+            ]
+          },
+          {
+            "offset": 258,
+            "opcode": 58,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 260,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 262,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/phys/HitResult",
+              "m_6662_",
+              "()Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 265,
+            "opcode": 178,
+            "member": [
+              "net/minecraft/world/phys/HitResult$Type",
+              "MISS",
+              "Lnet/minecraft/world/phys/HitResult$Type;"
+            ]
+          },
+          {
+            "offset": 268,
+            "opcode": 165,
+            "operands": [
+              0,
+              18
+            ]
+          },
+          {
+            "offset": 271,
+            "opcode": 42
+          },
+          {
+            "offset": 272,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 274,
+            "opcode": 184,
+            "member": [
+              "net/minecraftforge/event/ForgeEventFactory",
+              "onProjectileImpact",
+              "(Lnet/minecraft/world/entity/projectile/Projectile;Lnet/minecraft/world/phys/HitResult;)Z"
+            ]
+          },
+          {
+            "offset": 277,
+            "opcode": 154,
+            "operands": [
+              0,
+              9
+            ]
+          },
+          {
+            "offset": 280,
+            "opcode": 42
+          },
+          {
+            "offset": 281,
+            "opcode": 25,
+            "operands": [
+              4
+            ]
+          },
+          {
+            "offset": 283,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_6532_",
+              "(Lnet/minecraft/world/phys/HitResult;)V"
+            ]
+          },
+          {
+            "offset": 286,
+            "opcode": 42
+          },
+          {
+            "offset": 287,
+            "opcode": 42
+          },
+          {
+            "offset": 288,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20185_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 291,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "f_19790_",
+              "D"
+            ]
+          },
+          {
+            "offset": 294,
+            "opcode": 42
+          },
+          {
+            "offset": 295,
+            "opcode": 42
+          },
+          {
+            "offset": 296,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20186_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 299,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "f_19791_",
+              "D"
+            ]
+          },
+          {
+            "offset": 302,
+            "opcode": 42
+          },
+          {
+            "offset": 303,
+            "opcode": 42
+          },
+          {
+            "offset": 304,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_20189_",
+              "()D"
+            ]
+          },
+          {
+            "offset": 307,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "f_19792_",
+              "D"
+            ]
+          },
+          {
+            "offset": 310,
+            "opcode": 42
+          },
+          {
+            "offset": 311,
+            "opcode": 183,
+            "member": [
+              "net/minecraft/world/entity/projectile/ThrowableProjectile",
+              "m_8119_",
+              "()V"
+            ]
+          },
+          {
+            "offset": 314,
+            "opcode": 42
+          },
+          {
+            "offset": 315,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_9236_",
+              "()Lnet/minecraft/world/level/Level;"
+            ]
+          },
+          {
+            "offset": 318,
+            "opcode": 180,
+            "member": [
+              "net/minecraft/world/level/Level",
+              "f_46443_",
+              "Z"
+            ]
+          },
+          {
+            "offset": 321,
+            "opcode": 154,
+            "operands": [
+              0,
+              31
+            ]
+          },
+          {
+            "offset": 324,
+            "opcode": 42
+          },
+          {
+            "offset": 325,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 328,
+            "opcode": 42
+          },
+          {
+            "offset": 329,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "lifespan",
+              "I"
+            ]
+          },
+          {
+            "offset": 332,
+            "opcode": 164,
+            "operands": [
+              0,
+              10
+            ]
+          },
+          {
+            "offset": 335,
+            "opcode": 42
+          },
+          {
+            "offset": 336,
+            "opcode": 182,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "m_146870_",
+              "()V"
+            ]
+          },
+          {
+            "offset": 339,
+            "opcode": 167,
+            "operands": [
+              0,
+              13
+            ]
+          },
+          {
+            "offset": 342,
+            "opcode": 42
+          },
+          {
+            "offset": 343,
+            "opcode": 89
+          },
+          {
+            "offset": 344,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 347,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 348,
+            "opcode": 96
+          },
+          {
+            "offset": 349,
+            "opcode": 181,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 352,
+            "opcode": 177
+          }
+        ]
+      },
+      {
+        "name": "m_7139_",
+        "descriptor": "()F",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 11
+          },
+          {
+            "offset": 1,
+            "opcode": 174
+          }
+        ]
+      },
+      {
+        "name": "getAge",
+        "descriptor": "()I",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 42
+          },
+          {
+            "offset": 1,
+            "opcode": 180,
+            "member": [
+              "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+              "age",
+              "I"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 172
+          }
+        ]
+      },
+      {
+        "name": "lambda$tick$0",
+        "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 43
+          },
+          {
+            "offset": 1,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/Entity",
+              "m_6084_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 4,
+            "opcode": 153,
+            "operands": [
+              0,
+              26
+            ]
+          },
+          {
+            "offset": 7,
+            "opcode": 43
+          },
+          {
+            "offset": 8,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/Entity",
+              "m_6087_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 11,
+            "opcode": 153,
+            "operands": [
+              0,
+              19
+            ]
+          },
+          {
+            "offset": 14,
+            "opcode": 43
+          },
+          {
+            "offset": 15,
+            "opcode": 182,
+            "member": [
+              "net/minecraft/world/entity/Entity",
+              "m_5833_",
+              "()Z"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 154,
+            "operands": [
+              0,
+              12
+            ]
+          },
+          {
+            "offset": 21,
+            "opcode": 43
+          },
+          {
+            "offset": 22,
+            "opcode": 42
+          },
+          {
+            "offset": 23,
+            "opcode": 165,
+            "operands": [
+              0,
+              7
+            ]
+          },
+          {
+            "offset": 26,
+            "opcode": 4,
+            "constant": 1
+          },
+          {
+            "offset": 27,
+            "opcode": 167,
+            "operands": [
+              0,
+              4
+            ]
+          },
+          {
+            "offset": 30,
+            "opcode": 3,
+            "constant": 0
+          },
+          {
+            "offset": 31,
+            "opcode": 172
+          }
+        ]
+      }
+    ]
+  }
+]

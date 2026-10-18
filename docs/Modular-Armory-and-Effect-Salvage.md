@@ -1,8 +1,11 @@
 # Modular Armory & Effect Salvage
 
+**Current gameplay direction:** original behavior is the baseline, not the ceiling. Attachments may intentionally increase damage/projectile count and change firing patterns, resources and effects. See [Functional weapon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades). Accidental duplicate callbacks remain bugs; deliberate multishot is a feature.
+
+
 > **Requested design target, not a shipped feature.** Updated 18 October 2026. Forge 1.20.1 is the first implementation target. All gameplay examples below are proposals; native AoA, TaCZ and compatibility tests are still required.
 
-[Weapon mechanism & QA](Weapon-Mechanism-and-Animation-QA) · [Compatibility targets](Compatibility-Targets) · [Baronator authoring prototype](Animated-Weapon-Prototype-Baronator)
+[Weapon mechanism & QA](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Mechanism-and-Animation-QA) · [Compatibility targets](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Compatibility-Targets) · [Baronator authoring prototype](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Animated-Weapon-Prototype-Baronator)
 
 ## The fantasy
 

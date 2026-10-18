@@ -1,8 +1,11 @@
 # Attachment playground
 
-**24 initial concept directions, not implemented modules or an exhaustive catalogue.** Build a collection worth experimenting with: recognizable AoA weapons, memorable parts, expressive effects and coherent assembled silhouettes. Concept art comes before modeling; every combination still needs real fit, gameplay and performance qualification.
+**Current gameplay direction:** original behavior is the baseline, not the ceiling. Attachments may intentionally increase damage/projectile count and change firing patterns, resources and effects. See [Functional weapon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades). Accidental duplicate callbacks remain bugs; deliberate multishot is a feature.
 
-[Modular armory and effect salvage](Modular-Armory-and-Effect-Salvage) · [Soul Storm art direction](Soul-Storm-Art-Direction) · [Baronator art direction](Baronator-Art-Direction)
+
+**32 initial concept directions, not implemented modules or an exhaustive catalogue.** Build a collection worth experimenting with: recognizable AoA weapons, memorable parts, expressive effects and coherent assembled silhouettes. Concept art comes before modeling; every combination still needs real fit, gameplay and performance qualification.
+
+[Modular armory and effect salvage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage) · [Soul Storm art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) · [Baronator art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baronator-Art-Direction)
 
 ## Soul Storm: magical modularity
 
@@ -10,7 +13,7 @@
 
 | Concept | Intended role | Design gate |
 |---|---|---|
-| Prism Crown | Spectral discharge-shaping emitter | Keep the base identity and an explicit projectile/effect budget; no arbitrary damage multiplication |
+| Prism Crown | Spectral discharge-shaping emitter | Keep the base identity and an explicit projectile/effect budget; declared intentional damage/projectile multipliers |
 | Echo Halo | Supported arcane emitter ring | Real support and collision-free articulation; no floating disconnected shell |
 | Wisp Lens | Compact magical optic | Clear sight picture, aligned view and room around crest/hand |
 | Runic Damper | Fictional sound/flash-softening muzzle appearance | Define what is quieter; no absolute silence or invisible magical attack claim |
@@ -54,6 +57,12 @@ Fortress and Quiet Crimson communicate different play styles. The concept's brac
 | Realm Inlays | Color panels and small charms | Preview palette/identity changes; bounded secondary motion and safe missing-asset fallback |
 
 The bench is concept art, not an existing user interface. Extraction, salvage currency, compatible socket selection and final installation must be separate, reversible and server-authoritative operations.
+
+## Minigun: industrial modularity
+
+![Minigun attachment exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/minigun-attachment-concepts-v1.png)
+
+Rotary Shroud, Thermal Mantle, Survey Optic, Gyro Grip, Carry Harness, Reserve Drum, Tracer Prism and Salvager Badge extend the collection with eight orange/graphite/steel concepts. [Minigun art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minigun-Art-Direction) records roles and fit gates. Cosmetic thermal/rotor presentation must not add unrequested overheating, spin-up delay, forced reload or extra native shots.
 
 ## Expanding the collection
 
