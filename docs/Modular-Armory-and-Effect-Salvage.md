@@ -123,8 +123,24 @@ Pinned 1.20 source review shows why an effect core needs a real adapter rather t
 | Electinator | Nearby Enemy lookup and scaled secondary damage | Specify whose damage basis applies; bound dispatch and prevent proc recursion |
 | Golden Fury | Firing particles plus an owned harmful area-effect cloud on impact | Separate cosmetic cues from persistent entities; preserve owner and cleanup behavior |
 | Blood Iron | Metal Slug ammunition and a corresponding projectile class | Treat as a resource/projectile conversion, not a universal on-hit effect |
+| Gardener / Dart Gun | Seed-tag resource lookup and SeedDart projectile; Dart Gun also changes firing feedback | Preserve resource tags and cost conditions; do not replace these with a generic ammo-consumption path |
+| Sublimus | Environment-dependent resource-consumption branch | Distinguish possessing ammo from consuming it; reconcile the released helper signature |
+| Lunar Assault Rifle | Damage getter samples a random value | Preserve native evaluation timing; do not cache one random roll as a permanent assembled statistic |
+| Clownershot / Overshot | A successful base shot requests another ammo-consuming projectile | Preserve that second resource requirement and partial-ammo behavior; it is not the same contract as Baronator's bonus grenade |
+
+**Version boundary caught during review:** the inspected source snapshot contains NeoForge imports, while the released 1.20.1 target uses Forge references. Twelve selected released classes were therefore inspected read-only as well. The seed-resource and random-damage call sites are present, but helper signatures can differ. These are architectural/behavior references, not source files to paste into a Forge adapter unchanged. Inherited behavior, mappings and full runtime equivalence remain separate gates.
 
 Source: [AoA gun classes at the inspected revision](https://github.com/Tslat/Advent-Of-Ascension/tree/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun). Method-name discovery across this directory is only a starting index: inherited behavior, projectile classes, registry configuration and the actual released JAR still need reconciliation. A compatible socket is not proof that a donor effect is transferable.
+
+### Broader source inventory and extraction pitfalls
+
+The source discovery pass covers 78 gun classes; 55 have candidate behavior hooks in the deliberately limited method-name scan. All 55 candidate classes now have a manual source note and adapter warning in the [effect-source audit](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-effect-extraction-source-audit.json). This does not complete projectile/helper/inherited behavior or other weapon families.
+
+- **Material conservation:** Shoe Flinger consumes boots and can equip boots onto a target. Transferring the item-producing behavior to a cheap-ammo weapon without an explicit resource rule would create an unintended item factory. Recovery cores must specify material-producing costs and donor-specific advancement eligibility separately.
+- **Unfinished source is not a working effect:** Flowers Fury's candidate summon body is commented out as a TODO in this snapshot. It cannot be marketed as a functioning extracted summon without restoration and testing.
+- **Changing state is not a cached statistic:** food-dependent recoil, crouch replacement, randomized cadence/damage and environment-dependent consumption need the correct native evaluation timing. Preview ranges and conditions without spending gameplay RNG.
+- **Scheduled and persistent effects:** Echo Gull delegates to a scheduled task; poison/flame/cloud effects create entities or queries. Their ownership, cancellation, unloading and server cost must be audited beyond the weapon method.
+- **Composition order matters:** some donors replace an incoming damage/recoil value while others multiply or add after base damage. Define that order explicitly rather than letting attachment load order decide the result.
 
 ## Acceptance and implementation backlog
 

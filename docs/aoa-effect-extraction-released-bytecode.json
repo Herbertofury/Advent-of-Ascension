@@ -1,0 +1,388 @@
+{
+  "scope": "Read-only selected-method reference inventory from the released 1.20.1 AoA 3.7.1 JAR. No Java execution, copied bytecode payload, or full semantic equivalence claim. Source snapshot includes newer loader/API imports and cannot be compiled directly as the target adapter.",
+  "minecraft": "1.20.1",
+  "aoa": "3.7.1",
+  "records": [
+    {
+      "class": "Baronator",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Baronator.class",
+      "sha256": "0ec21adc6f5aa8e613bda94189eeaae4ec52dd30bbffdf1a9404507c3c6b1431",
+      "methods": [
+        {
+          "name": "fireGun",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Z",
+          "instruction_count": 51,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/BaseGun | fireGun | (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Z",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/level/Level | f_46443_ | Z",
+            "net/tslat/smartbrainlib/util/RandomUtil | oneInNChance | (I)Z",
+            "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity | <init> | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V",
+            "net/minecraft/world/level/Level | m_7967_ | (Lnet/minecraft/world/entity/Entity;)Z",
+            "net/minecraft/world/entity/LivingEntity | m_20185_ | ()D",
+            "net/minecraft/world/entity/LivingEntity | m_20186_ | ()D",
+            "net/minecraft/world/entity/LivingEntity | m_20189_ | ()D",
+            "net/tslat/aoa3/common/registration/AoASounds | ITEM_GUN_AIR_CANNON_FIRE | Lnet/minecraftforge/registries/RegistryObject;",
+            "net/minecraftforge/registries/RegistryObject | get | ()Ljava/lang/Object;",
+            "net/minecraft/sounds/SoundSource | PLAYERS | Lnet/minecraft/sounds/SoundSource;",
+            "net/tslat/aoa3/content/item/weapon/gun/Baronator | getFiringSoundPitchAdjust | ()F",
+            "net/tslat/smartbrainlib/util/RandomUtil | randomScaledGaussianValue | (D)D",
+            "net/minecraft/world/level/Level | m_6263_ | (Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        },
+        {
+          "name": "doImpactDamage",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instruction_count": 11,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/BaseGun | doImpactDamage | (Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        }
+      ]
+    },
+    {
+      "class": "Frosticator",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Frosticator.class",
+      "sha256": "34a6504d0715866c931a089af4c6dbb69ede9a343d63e2262f99eace457dbfa0",
+      "methods": [
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 9,
+          "named_references": [
+            "net/tslat/aoa3/content/entity/projectile/gun/BlueBulletEntity | <init> | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instruction_count": 18,
+          "named_references": [
+            "net/minecraft/world/effect/MobEffects | f_19597_ | Lnet/minecraft/world/effect/MobEffect;",
+            "net/tslat/effectslib/api/util/EffectBuilder | <init> | (Lnet/minecraft/world/effect/MobEffect;I)V",
+            "net/tslat/effectslib/api/util/EffectBuilder | level | (I)Lnet/tslat/effectslib/api/util/EffectBuilder;",
+            "net/tslat/aoa3/util/EntityUtil | applyPotions | (Lnet/minecraft/world/entity/Entity;[Lnet/tslat/effectslib/api/util/EffectBuilder;)V"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    },
+    {
+      "class": "Miasma",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Miasma.class",
+      "sha256": "9d288301b22b40e5702143fa69ebae135a1ffc72443d5d5799fed6bf697b29d4",
+      "methods": [
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instruction_count": 16,
+          "named_references": [
+            "net/minecraft/world/effect/MobEffects | f_19597_ | Lnet/minecraft/world/effect/MobEffect;",
+            "net/tslat/effectslib/api/util/EffectBuilder | <init> | (Lnet/minecraft/world/effect/MobEffect;I)V",
+            "net/tslat/aoa3/util/EntityUtil | applyPotions | (Lnet/minecraft/world/entity/Entity;[Lnet/tslat/effectslib/api/util/EffectBuilder;)V"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    },
+    {
+      "class": "Electinator",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Electinator.class",
+      "sha256": "de5d810afad1923405acb57cccab9548226c2ad767f32e7e9f5a3f7c694dd5f8",
+      "methods": [
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 9,
+          "named_references": [
+            "net/tslat/aoa3/content/entity/projectile/gun/YellowBulletEntity | <init> | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instruction_count": 27,
+          "named_references": [
+            "net/tslat/smartbrainlib/util/EntityRetrievalUtil | getEntities | (Lnet/minecraft/world/entity/Entity;DLjava/util/function/Predicate;)Ljava/util/List;",
+            "java/util/List | iterator | ()Ljava/util/Iterator;",
+            "java/util/Iterator | hasNext | ()Z",
+            "java/util/Iterator | next | ()Ljava/lang/Object;",
+            "net/tslat/aoa3/content/item/weapon/gun/Electinator | getDamage | ()F",
+            "net/minecraft/world/entity/Entity | m_20182_ | ()Lnet/minecraft/world/phys/Vec3;",
+            "net/tslat/aoa3/util/DamageUtil | doMiscEnergyAttack | (Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;FLnet/minecraft/world/phys/Vec3;)Z"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    },
+    {
+      "class": "GoldenFury",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/GoldenFury.class",
+      "sha256": "5b7ddfbfd3bcf52aced06139d6c39255f1b46e4838ea7c689bfcfd3b6c1a9155",
+      "methods": [
+        {
+          "name": "doFiringEffects",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)V",
+          "instruction_count": 41,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/BaseGun | doFiringEffects | (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)V",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/core/particles/ParticleTypes | f_123799_ | Lnet/minecraft/core/particles/SimpleParticleType;",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20185_ | ()D",
+            "net/tslat/smartbrainlib/util/RandomUtil | randomScaledGaussianValue | (D)D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20186_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20189_ | ()D",
+            "net/minecraft/server/level/ServerLevel | m_8767_ | (Lnet/minecraft/core/particles/ParticleOptions;DDDIDDDD)I"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+          "instruction_count": 63,
+          "named_references": [
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/entity/Entity | m_20185_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20185_ | ()D",
+            "net/minecraft/world/entity/Entity | m_20186_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20186_ | ()D",
+            "net/minecraft/world/entity/Entity | m_20189_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20189_ | ()D",
+            "net/minecraft/world/entity/AreaEffectCloud | <init> | (Lnet/minecraft/world/level/Level;DDD)V",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19718_ | (Lnet/minecraft/world/entity/LivingEntity;)V",
+            "net/minecraft/core/particles/ParticleTypes | f_123799_ | Lnet/minecraft/core/particles/SimpleParticleType;",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19724_ | (Lnet/minecraft/core/particles/ParticleOptions;)V",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19712_ | (F)V",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19734_ | (I)V",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19743_ | ()F",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19748_ | ()I",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19738_ | (F)V",
+            "net/minecraft/world/effect/MobEffects | f_19602_ | Lnet/minecraft/world/effect/MobEffect;",
+            "net/minecraft/world/effect/MobEffectInstance | <init> | (Lnet/minecraft/world/effect/MobEffect;II)V",
+            "net/minecraft/world/entity/AreaEffectCloud | m_19716_ | (Lnet/minecraft/world/effect/MobEffectInstance;)V",
+            "net/minecraft/world/level/Level | m_7967_ | (Lnet/minecraft/world/entity/Entity;)Z"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    },
+    {
+      "class": "BloodIron",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BloodIron.class",
+      "sha256": "5a9d220326bfe9eb3cc8c8d870c8f9d6d693e275fa127eefb05fc1e34eae3dfd",
+      "methods": [
+        {
+          "name": "getAmmoItem",
+          "descriptor": "()Lnet/minecraft/world/item/Item;",
+          "instruction_count": 4,
+          "named_references": [
+            "net/tslat/aoa3/common/registration/item/AoAItems | METAL_SLUG | Lnet/minecraftforge/registries/RegistryObject;",
+            "net/minecraftforge/registries/RegistryObject | get | ()Ljava/lang/Object;"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        },
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 9,
+          "named_references": [
+            "net/tslat/aoa3/content/entity/projectile/gun/MetalSlugEntity | <init> | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        }
+      ]
+    },
+    {
+      "class": "Gardener",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Gardener.class",
+      "sha256": "f3b46d762fe20cf180633500a0f14f0110d89211246dc67d2cb8faebfadcb141",
+      "methods": [
+        {
+          "name": "getAmmoItem",
+          "descriptor": "()Lnet/minecraft/world/item/Item;",
+          "instruction_count": 2,
+          "named_references": [
+            "net/minecraft/world/item/Items | f_42404_ | Lnet/minecraft/world/item/Item;"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        },
+        {
+          "name": "findAndConsumeAmmo",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 31,
+          "named_references": [
+            "net/minecraft/world/entity/LivingEntity | m_6095_ | ()Lnet/minecraft/world/entity/EntityType;",
+            "net/minecraft/world/entity/EntityType | f_20532_ | Lnet/minecraft/world/entity/EntityType;",
+            "net/minecraftforge/common/Tags$Items | SEEDS | Lnet/minecraft/tags/TagKey;",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/level/Level | m_5776_ | ()Z",
+            "net/tslat/aoa3/common/registration/item/AoAEnchantments | GREED | Lnet/minecraftforge/registries/RegistryObject;",
+            "net/minecraftforge/registries/RegistryObject | get | ()Ljava/lang/Object;",
+            "net/minecraft/world/item/enchantment/EnchantmentHelper | m_44843_ | (Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I",
+            "net/tslat/aoa3/util/ItemUtil | findItemByTag | (Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/tags/TagKey;ZI)Z",
+            "net/tslat/aoa3/content/item/weapon/gun/Gardener | createProjectileEntity | (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        },
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 9,
+          "named_references": [
+            "net/tslat/aoa3/content/entity/projectile/gun/SeedDartEntity | <init> | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        }
+      ]
+    },
+    {
+      "class": "DartGun",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/DartGun.class",
+      "sha256": "c378bcebe334a7e19894bea27f6b0ef98fb199a14b488ab6571688fdd8911a14",
+      "methods": [
+        {
+          "name": "getAmmoItem",
+          "descriptor": "()Lnet/minecraft/world/item/Item;",
+          "instruction_count": 2,
+          "named_references": [
+            "net/minecraft/world/item/Items | f_42404_ | Lnet/minecraft/world/item/Item;"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        },
+        {
+          "name": "findAndConsumeAmmo",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 31,
+          "named_references": [
+            "net/minecraft/world/entity/LivingEntity | m_6095_ | ()Lnet/minecraft/world/entity/EntityType;",
+            "net/minecraft/world/entity/EntityType | f_20532_ | Lnet/minecraft/world/entity/EntityType;",
+            "net/minecraftforge/common/Tags$Items | SEEDS | Lnet/minecraft/tags/TagKey;",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/level/Level | m_5776_ | ()Z",
+            "net/tslat/aoa3/common/registration/item/AoAEnchantments | GREED | Lnet/minecraftforge/registries/RegistryObject;",
+            "net/minecraftforge/registries/RegistryObject | get | ()Ljava/lang/Object;",
+            "net/minecraft/world/item/enchantment/EnchantmentHelper | m_44843_ | (Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I",
+            "net/tslat/aoa3/util/ItemUtil | findItemByTag | (Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/tags/TagKey;ZI)Z",
+            "net/tslat/aoa3/content/item/weapon/gun/DartGun | createProjectileEntity | (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        },
+        {
+          "name": "createProjectileEntity",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 9,
+          "named_references": [
+            "net/tslat/aoa3/content/entity/projectile/gun/SeedDartEntity | <init> | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        },
+        {
+          "name": "doFiringEffects",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)V",
+          "instruction_count": 7,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/DartGun | doFiringSound | (Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)V"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        }
+      ]
+    },
+    {
+      "class": "Sublimus",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Sublimus.class",
+      "sha256": "63d84e10743eb7f57b2ac6baa465593c90560e397d3e1ebc26596a3c5f86f873",
+      "methods": [
+        {
+          "name": "findAndConsumeAmmo",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+          "instruction_count": 45,
+          "named_references": [
+            "net/minecraft/world/entity/LivingEntity | m_6095_ | ()Lnet/minecraft/world/entity/EntityType;",
+            "net/minecraft/world/entity/EntityType | f_20532_ | Lnet/minecraft/world/entity/EntityType;",
+            "net/tslat/aoa3/content/item/weapon/gun/Sublimus | getAmmoItem | ()Lnet/minecraft/world/item/Item;",
+            "net/minecraft/world/item/ItemStack | <init> | (Lnet/minecraft/world/level/ItemLike;)V",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/level/Level | m_5776_ | ()Z",
+            "net/minecraft/world/level/Level | m_46461_ | ()Z",
+            "net/minecraft/world/entity/LivingEntity | m_20183_ | ()Lnet/minecraft/core/BlockPos;",
+            "net/minecraft/world/level/Level | m_45527_ | (Lnet/minecraft/core/BlockPos;)Z",
+            "net/tslat/aoa3/common/registration/item/AoAEnchantments | GREED | Lnet/minecraftforge/registries/RegistryObject;",
+            "net/minecraftforge/registries/RegistryObject | get | ()Ljava/lang/Object;",
+            "net/minecraft/world/item/enchantment/EnchantmentHelper | m_44843_ | (Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I",
+            "net/tslat/aoa3/util/ItemUtil | findInventoryItem | (Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;ZI)Z",
+            "net/tslat/aoa3/content/item/weapon/gun/Sublimus | createProjectileEntity | (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    },
+    {
+      "class": "LunarAssaultRifle",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/LunarAssaultRifle.class",
+      "sha256": "a21c2c4d29a5b440c43a7c5f5117796ae364000d1b840b531dc16a869a48c956",
+      "methods": [
+        {
+          "name": "getDamage",
+          "descriptor": "()F",
+          "instruction_count": 7,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/LunarAssaultRifle | baseDmg | D",
+            "net/tslat/aoa3/content/item/weapon/gun/LunarAssaultRifle | maxDmg | D",
+            "net/tslat/smartbrainlib/util/RandomUtil | randomValueBetween | (DD)D"
+          ],
+          "obfuscated_minecraft_members_remain": false
+        }
+      ]
+    },
+    {
+      "class": "Clownershot",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Clownershot.class",
+      "sha256": "fbaf9ed8dcdd7c0d6b78ad6c3aa344fbea2e4de4da40eb92ea08cf4b062502c5",
+      "methods": [
+        {
+          "name": "fireGun",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Z",
+          "instruction_count": 34,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/BaseGun | fireGun | (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Z",
+            "net/tslat/aoa3/content/item/weapon/gun/Clownershot | findAndConsumeAmmo | (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20185_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20186_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20189_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_6021_ | (DDD)V",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/level/Level | m_7967_ | (Lnet/minecraft/world/entity/Entity;)Z"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    },
+    {
+      "class": "Overshot",
+      "path": "net/tslat/aoa3/content/item/weapon/gun/Overshot.class",
+      "sha256": "b1ec88ebb423b4c42ec3a8d48738bfa049e5ba3bc46d3f769f52b299be8534b0",
+      "methods": [
+        {
+          "name": "fireGun",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Z",
+          "instruction_count": 34,
+          "named_references": [
+            "net/tslat/aoa3/content/item/weapon/gun/BaseGun | fireGun | (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Z",
+            "net/tslat/aoa3/content/item/weapon/gun/Overshot | findAndConsumeAmmo | (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20185_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20186_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_20189_ | ()D",
+            "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet | m_6021_ | (DDD)V",
+            "net/minecraft/world/entity/LivingEntity | m_9236_ | ()Lnet/minecraft/world/level/Level;",
+            "net/minecraft/world/level/Level | m_7967_ | (Lnet/minecraft/world/entity/Entity;)Z"
+          ],
+          "obfuscated_minecraft_members_remain": true
+        }
+      ]
+    }
+  ]
+}

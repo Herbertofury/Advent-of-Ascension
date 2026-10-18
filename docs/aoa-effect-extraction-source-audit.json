@@ -1,9 +1,9 @@
 {
-  "scope": "Static gun-class method-name inventory plus six manually reviewed classes. Regex is a discovery aid, not Java parsing or proof of all inherited/projectile behaviors. No effect extraction implemented.",
+  "scope": "Static gun-class method-name inventory plus selected manually reviewed classes. Regex is a discovery aid, not Java parsing or proof of all inherited/projectile behaviors. No effect extraction implemented.",
   "source_pin": "85d6beba07e3a09032834dcf79b5a01f411092c3",
   "classes_scanned": 78,
   "classes_with_candidate_hooks": 55,
-  "manual_reviews": 6,
+  "manual_reviews": 55,
   "records": [
     {
       "class": "Abominator",
@@ -20,7 +20,11 @@
           "method": "createProjectileEntity",
           "line": 25
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Selects a RedBullet projectile class.",
+        "adapter_rule": "Inspect projectile behavior before assuming this is only a cosmetic change."
+      }
     },
     {
       "class": "ApocoRifle",
@@ -35,7 +39,11 @@
           "method": "createProjectileEntity",
           "line": 40
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Discharge Capsule ammunition paired with DischargeShot.",
+        "adapter_rule": "Preserve resource/projectile pairing and inspect projectile-specific behavior."
+      }
     },
     {
       "class": "AquaMagnum",
@@ -52,7 +60,11 @@
           "method": "getFiringDelay",
           "line": 27
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Firing-delay getter samples an added random delay.",
+        "adapter_rule": "Do not freeze the sampled delay in an assembly cache; preserve native evaluation timing."
+      }
     },
     {
       "class": "Baronator",
@@ -82,7 +94,11 @@
           "method": "hurtEnemy",
           "line": 37
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Nonautomatic use and melee-hit durability consumption.",
+        "adapter_rule": "Separate melee lifecycle and durability from ranged on-hit effects; preserve equipment break handling."
+      }
     },
     {
       "class": "BigTop",
@@ -132,7 +148,11 @@
           "method": "doImpactDamage",
           "line": 55
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Chilli ammunition, ChilliShot projectile and living/multipart ignition before base damage.",
+        "adapter_rule": "Treat resource/projectile/impact as separate but coordinated adapter components."
+      }
     },
     {
       "class": "Clownershot",
@@ -143,7 +163,11 @@
           "method": "fireGun",
           "line": 30
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "After successful base firing it calls findAndConsumeAmmo again for an additional projectile.",
+        "adapter_rule": "This additional shot is resource-dependent, unlike Baronator bonus grenade. Preserve cost semantics and partial-ammo behavior."
+      }
     },
     {
       "class": "Construct",
@@ -168,7 +192,11 @@
           "method": "doImpactDamage",
           "line": 58
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug pairing; after base damage, living targets receive knockback and slowdown.",
+        "adapter_rule": "Preserve post-damage order and target survival/eligibility behavior."
+      }
     },
     {
       "class": "CoreRifle",
@@ -191,7 +219,11 @@
           "method": "fireGun",
           "line": 31
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "A successful base shot can spawn an additional Limonite projectile through a chance branch.",
+        "adapter_rule": "Distinguish this extra spawn from ammo-consuming extra-shot donors and verify projectile constructor semantics."
+      }
     },
     {
       "class": "Darkener",
@@ -202,7 +234,11 @@
           "method": "getRecoilForShot",
           "line": 28
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Player food level scales recoil; non-player use falls back to the base implementation.",
+        "adapter_rule": "Resolve changing player state at the correct event; do not permanently cache a hungry-state modifier."
+      }
     },
     {
       "class": "DartGun",
@@ -225,7 +261,11 @@
           "method": "doFiringEffects",
           "line": 62
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Seed-tag supply, SeedDart projectile, nonautomatic use and a sound-only firing-effect override.",
+        "adapter_rule": "Keep resource, projectile, firing mode and cosmetic feedback separate; no automatic addition of the base muzzle/recoil effect."
+      }
     },
     {
       "class": "DestructionRifle",
@@ -236,7 +276,11 @@
           "method": "doImpactEffect",
           "line": 31
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Impact delegates an explosion to WorldUtil.",
+        "adapter_rule": "Inspect the helper and world/protection policy before defining a transferable explosion; bound secondary dispatch."
+      }
     },
     {
       "class": "DischargeRifle",
@@ -251,7 +295,11 @@
           "method": "createProjectileEntity",
           "line": 40
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Discharge Capsule ammunition and DischargeShot projectile.",
+        "adapter_rule": "Require a resource conversion adapter, not a free transplanted projectile."
+      }
     },
     {
       "class": "Draco",
@@ -262,7 +310,11 @@
           "method": "doImpactDamage",
           "line": 31
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Impact passes a water-eye condition multiplier to the base method instead of forwarding the incoming multiplier.",
+        "adapter_rule": "Resolve replacement-versus-multiplication precedence explicitly; do not silently discard other transplanted modifiers."
+      }
     },
     {
       "class": "Dragilator",
@@ -277,7 +329,11 @@
           "method": "doImpactDamage",
           "line": 38
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Red projectile and living/multipart ignition before base impact damage.",
+        "adapter_rule": "Preserve projectile identity and before-damage ordering separately."
+      }
     },
     {
       "class": "Dustometer",
@@ -292,7 +348,11 @@
           "method": "doImpactDamage",
           "line": 49
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Post-success grenade chance and grenade-specific impact handling, similar to Baronator with different chance.",
+        "adapter_rule": "Preserve donor probability and bonus-event identity, not a fixed every-N-shots pattern."
+      }
     },
     {
       "class": "EchoGull",
@@ -303,7 +363,11 @@
           "method": "doImpactEffect",
           "line": 35
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Collects nearby hostile entities into a distance-ordered list, then schedules an EchoGullTask.",
+        "adapter_rule": "Inspect the scheduled task, cleanup and list ordering; do not claim the whole effect from this method alone."
+      }
     },
     {
       "class": "Electinator",
@@ -333,7 +397,11 @@
           "method": "createProjectileEntity",
           "line": 25
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Creates a FireBullet projectile.",
+        "adapter_rule": "Inspect the projectile class for fire behavior and side effects."
+      }
     },
     {
       "class": "FlamingFury",
@@ -348,7 +416,11 @@
           "method": "doImpactEffect",
           "line": 48
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Custom firing sound/particles and an owned harmful area cloud on impact.",
+        "adapter_rule": "Do not merge cosmetic and gameplay events or accidentally add base firing effects twice."
+      }
     },
     {
       "class": "FloroRifle",
@@ -365,7 +437,11 @@
           "method": "doImpactEffect",
           "line": 32
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "The hostile-target/chance branch contains a commented-out Rosid spawn TODO.",
+        "adapter_rule": "Do not advertise this source stub as a working transferable summon; requires restoration and separate acceptance."
+      }
     },
     {
       "class": "Frosticator",
@@ -403,7 +479,11 @@
           "method": "createProjectileEntity",
           "line": 53
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Custom seed-tag resource lookup and a SeedDart projectile.",
+        "adapter_rule": "Preserve accepted item tags, enchantment-dependent resource cost and player/non-player branches; do not substitute the generic ammo path."
+      }
     },
     {
       "class": "GaugeRifle",
@@ -418,7 +498,11 @@
           "method": "createProjectileEntity",
           "line": 37
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug ammunition and MetalSlugEntity with a distinct constructor argument.",
+        "adapter_rule": "Resolve constructor semantics rather than assuming equivalence to other Metal Slug weapons."
+      }
     },
     {
       "class": "Germinator",
@@ -433,7 +517,11 @@
           "method": "doImpactEffect",
           "line": 40
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Green projectile and living-target poison effect.",
+        "adapter_rule": "Separate projectile appearance, status eligibility and merge policy."
+      }
     },
     {
       "class": "GoldenFury",
@@ -483,7 +571,11 @@
           "method": "doImpactEffect",
           "line": 52
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug/HotShot pairing; impact creates a flame cloud and separately ignites nearby hostile living entities.",
+        "adapter_rule": "Separate cosmetic cloud from the actual ignition query; preserve ownership and target filtering."
+      }
     },
     {
       "class": "Hiver",
@@ -508,7 +600,11 @@
           "method": "doImpactEffect",
           "line": 57
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug/HotShot pairing, flame cloud and separate nearby hostile ignition query.",
+        "adapter_rule": "Preserve resource and target semantics; bound repeated area queries."
+      }
     },
     {
       "class": "HuntersRifle",
@@ -525,7 +621,11 @@
           "method": "createProjectileEntity",
           "line": 25
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Creates a ToxicBullet projectile.",
+        "adapter_rule": "Inspect projectile behavior; the class name alone is not a complete poison contract."
+      }
     },
     {
       "class": "IonRevolver",
@@ -536,7 +636,11 @@
           "method": "doImpactEffect",
           "line": 41
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Nonautomatic mode with living-target scaled knockback.",
+        "adapter_rule": "Respect recipient knockback resistance and distinguish mode from on-hit behavior."
+      }
     },
     {
       "class": "IroRifle",
@@ -553,7 +657,11 @@
           "method": "doImpactEffect",
           "line": 33
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Living-target poison with parameters different from Germinator.",
+        "adapter_rule": "Retain donor parameters and define same-status stacking explicitly."
+      }
     },
     {
       "class": "LightIron",
@@ -568,7 +676,11 @@
           "method": "createProjectileEntity",
           "line": 37
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug supply with LightIronShot projectile.",
+        "adapter_rule": "Preserve resource choice and inspect projectile behavior independently."
+      }
     },
     {
       "class": "LunarAssaultRifle",
@@ -579,7 +691,11 @@
           "method": "getDamage",
           "line": 33
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "getDamage samples between stored bounds on each call.",
+        "adapter_rule": "Do not cache a random roll as a permanent assembled statistic; preserve native evaluation timing without accidental extra rolls."
+      }
     },
     {
       "class": "MK",
@@ -596,7 +712,11 @@
           "method": "createProjectileEntity",
           "line": 25
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Creates a ShroomBullet projectile.",
+        "adapter_rule": "Inspect its lifecycle and inherited effects before extraction."
+      }
     },
     {
       "class": "MechanicalAssaultRifle",
@@ -613,7 +733,11 @@
           "method": "releaseUsing",
           "line": 31
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Release and firing audio use SoundBuilder with following/variation behavior.",
+        "adapter_rule": "Keep audio ownership and cancellation; verify target-version sound APIs."
+      }
     },
     {
       "class": "Miasma",
@@ -639,7 +763,11 @@
           "method": "releaseUsing",
           "line": 31
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Release plays winddown audio; firing sound has custom handling.",
+        "adapter_rule": "This is a presentation lifecycle, not evidence of an extra gameplay effect."
+      }
     },
     {
       "class": "MintMagnum",
@@ -660,7 +788,11 @@
           "method": "createProjectileEntity",
           "line": 47
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Nonautomatic use, melee durability handling and FireBullet projectile.",
+        "adapter_rule": "Separate melee durability, fire-mode and projectile adapters."
+      }
     },
     {
       "class": "NethengeicSlugger",
@@ -679,7 +811,11 @@
           "method": "doImpactDamage",
           "line": 55
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug pairing with nonautomatic use and target ignition before base impact damage.",
+        "adapter_rule": "Verify multipart targets and fire immunity; do not duplicate base damage."
+      }
     },
     {
       "class": "Overshot",
@@ -690,7 +826,11 @@
           "method": "fireGun",
           "line": 30
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "After successful base firing it requests another ammo-consuming projectile.",
+        "adapter_rule": "Preserve the secondary cost and success branch; do not convert it into an unconditional free effect."
+      }
     },
     {
       "class": "PrecasianSlugger",
@@ -709,7 +849,11 @@
           "method": "doImpactDamage",
           "line": 55
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Metal Slug projectile/ammunition with nonautomatic use and living/multipart-target ignition before base impact damage.",
+        "adapter_rule": "Preserve resource pairing, multipart eligibility and before-damage ordering."
+      }
     },
     {
       "class": "Predator",
@@ -720,7 +864,11 @@
           "method": "doImpactEffect",
           "line": 37
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Nearby live-Enemy search and chance-based lightning selection with a different chance from Pulsator.",
+        "adapter_rule": "Keep donor chance and target conditions distinct; do not collapse similar-looking effects into one default."
+      }
     },
     {
       "class": "Predigun",
@@ -735,7 +883,11 @@
           "method": "createProjectileEntity",
           "line": 42
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Winddown/firing sound lifecycle plus BoneBullet projectile.",
+        "adapter_rule": "Separate sound personality from projectile behavior and inspect the projectile class."
+      }
     },
     {
       "class": "Pulsator",
@@ -746,7 +898,11 @@
           "method": "doImpactEffect",
           "line": 37
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Server-side nearby live-Enemy search and chance-based lightning selection.",
+        "adapter_rule": "Preserve eligibility, selection timing and lightning helper semantics; no recursive lightning proc chain."
+      }
     },
     {
       "class": "PurityRifle",
@@ -757,7 +913,11 @@
           "method": "doImpactDamage",
           "line": 32
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Impact damage is multiplied for each harmful effect on the shooter.",
+        "adapter_rule": "Keep the shooter condition and effect multiplicity; cache definitions, not changing player state."
+      }
     },
     {
       "class": "RockerRifle",
@@ -768,7 +928,11 @@
           "method": "getRecoilForShot",
           "line": 27
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Crouching replaces recoil with a constant; otherwise delegates to base recoil.",
+        "adapter_rule": "Define replacement precedence with handling modules; avoid double application."
+      }
     },
     {
       "class": "Roulette",
@@ -793,7 +957,11 @@
           "method": "doImpactEffect",
           "line": 63
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Consumes leather boots, applies knockback, conditionally grants an advancement and equips boots on a target with an empty feet slot.",
+        "adapter_rule": "Item-producing effects must conserve resource cost; separate donor-specific advancement eligibility from transferable gameplay."
+      }
     },
     {
       "class": "Skullette",
@@ -810,7 +978,11 @@
           "method": "getFiringDelay",
           "line": 27
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Firing-delay getter adds a random delay.",
+        "adapter_rule": "Show a range in preview; avoid consuming gameplay RNG merely to render UI."
+      }
     },
     {
       "class": "Spectacle",
@@ -821,7 +993,11 @@
           "method": "doImpactDamage",
           "line": 36
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Chance-based multiplier alteration before base impact damage.",
+        "adapter_rule": "Use the authoritative native RNG event; avoid duplicate rolls on cosmetic replay."
+      }
     },
     {
       "class": "SpineGun",
@@ -850,7 +1026,11 @@
           "method": "getFiringDelay",
           "line": 27
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Firing-delay getter adds a random delay.",
+        "adapter_rule": "Preserve source timing and random semantics; no fixed-rate claim."
+      }
     },
     {
       "class": "Sublimus",
@@ -861,7 +1041,11 @@
           "method": "findAndConsumeAmmo",
           "line": 35
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Ammo lookup/consumption depends on day/sky and server conditions. Source and released helper signatures differ.",
+        "adapter_rule": "Verify presence-versus-consumption semantics and exact target helper API; never treat daylight as permission to invent ammunition."
+      }
     },
     {
       "class": "TigerTommy",
@@ -884,7 +1068,11 @@
           "method": "doImpactEffect",
           "line": 34
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "A dead-or-zero-health target condition creates an expanding poison cloud; this method does not explicitly set cloud owner.",
+        "adapter_rule": "Review kill timing and attribution before transfer; document any deliberate fix instead of claiming unchanged semantics."
+      }
     },
     {
       "class": "WartGun",
@@ -907,7 +1095,11 @@
           "method": "doFiringEffects",
           "line": 63
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Nether Wart supply, WartDart projectile, living-target ignition and sound-only firing feedback.",
+        "adapter_rule": "Preserve resource consumption and do not add base firing effects unintentionally."
+      }
     },
     {
       "class": "Wrecker",
@@ -918,7 +1110,11 @@
           "method": "getRecoilForShot",
           "line": 28
         }
-      ]
+      ],
+      "manual_review": {
+        "observed": "Player food level scales recoil with a non-player fallback.",
+        "adapter_rule": "Keep actor-dependent behavior and base recoil contribution explicit."
+      }
     }
   ]
 }
