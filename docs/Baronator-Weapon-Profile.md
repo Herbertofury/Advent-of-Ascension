@@ -56,3 +56,9 @@ The requested visual rhythm is upper barrel, then lower, with independent heavy 
 Preserve the original compact red identity while improving material separation, comfortable hand space, sound, flash and impact readability. Test each optional scope, shroud, damper, brace and effect core through actual animations and gameplay.
 
 [Released baseline audit](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baronator-minigun-baseline-audit.json) · [Weapon profile requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Profile-Standard)
+
+## Upgraded impact concept comparison
+
+![Proposed upgraded projectile and impact language](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-impact-concepts-v2.png)
+
+This is proposed upgraded VFX art, not an original-game capture. Compare it with the actual source assets and original impact values above. Discs, primary bullet hits and the separate Baronator grenade branch have distinct visual identities. Larger impact areas or terrain-changing behavior must correspond to a declared functional module and server rules; cosmetic debris is not proof that world blocks are destroyed.

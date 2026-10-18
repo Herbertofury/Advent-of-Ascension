@@ -80,3 +80,9 @@ A disc needs a readable rim and thin body in flight, a coherent arc, and an impa
 Compare original and upgraded captures using the same scene, hardware and target. Record actual firing count, damage events, resource spending, impact distribution, frame-time lows and server tick cost. Use source-derived visualizations until game capture is available, labeled honestly.
 
 [Native contract receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-native-contract.json) · [Original particle assets and renderer inputs](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-original-projectile-assets.json) · [Released projectile/impact audit](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-released-projectile-impact-audit.json)
+
+## Upgraded impact concept comparison
+
+![Proposed upgraded projectile and impact language](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-impact-concepts-v2.png)
+
+This is proposed upgraded VFX art, not an original-game capture. Compare it with the actual source assets and original impact values above. Discs, primary bullet hits and the separate Baronator grenade branch have distinct visual identities. Larger impact areas or terrain-changing behavior must correspond to a declared functional module and server rules; cosmetic debris is not proof that world blocks are destroyed.

@@ -53,3 +53,9 @@ Keep the orange/graphite/steel silhouette, round side medallion and rear striped
 [Eight Minigun attachment concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minigun-Art-Direction) include a shroud, thermal mantle, optic, support grip, carrying frame, reserve drum, tracer module and cosmetic badge. Their generated shapes are not yet qualified physical fits.
 
 [Released baseline audit](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/baronator-minigun-baseline-audit.json) · [Weapon profile requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Profile-Standard)
+
+## Upgraded impact concept comparison
+
+![Proposed upgraded projectile and impact language](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-impact-concepts-v2.png)
+
+This is proposed upgraded VFX art, not an original-game capture. Compare it with the actual source assets and original impact values above. Discs, primary bullet hits and the separate Baronator grenade branch have distinct visual identities. Larger impact areas or terrain-changing behavior must correspond to a declared functional module and server rules; cosmetic debris is not proof that world blocks are destroyed.
