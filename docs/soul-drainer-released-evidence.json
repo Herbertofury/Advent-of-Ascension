@@ -1,0 +1,812 @@
+{
+  "target": "AoA3.7.1 Minecraft1.20.1",
+  "registration": {
+    "id": "aoa3:soul_drainer",
+    "family": "blaster",
+    "factories": [
+      {
+        "factory": "lambda$static$340",
+        "code_sha256": "25eb5bca6a8eca6b86343671c939663efc8fc36eb008e67e815a0082d9f9c596",
+        "constructor": [
+          "net/tslat/aoa3/content/item/weapon/blaster/SoulDrainer",
+          "<init>",
+          "(DIIF)V"
+        ],
+        "literal_arguments": [
+          0.20000000298023224,
+          3770,
+          1,
+          2.0
+        ],
+        "status": "literal inputs recovered",
+        "unresolved_instructions": []
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "classes": [
+    {
+      "class": "net/tslat/aoa3/content/item/weapon/blaster/SoulDrainer.class",
+      "sha256": "daedbfcc124b628eebe6d1b3e028f16b50048d5d9e703bbf77989c6d7e6321e3",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(DIIF)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 39
+            },
+            {
+              "offset": 2,
+              "opcode": 29
+            },
+            {
+              "offset": 3,
+              "opcode": 21,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 23,
+              "operands": [
+                5
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+                "<init>",
+                "(DIIF)V"
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "getFiringSound",
+          "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoASounds",
+                "ITEM_DRAIN_GUN_FIRE",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 3,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 192,
+              "operands": [
+                0,
+                43
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 176
+            }
+          ]
+        },
+        {
+          "name": "fireBlaster",
+          "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 44
+            },
+            {
+              "offset": 1,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/entity/LivingEntity",
+                "m_9236_",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 187,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 89
+            },
+            {
+              "offset": 8,
+              "opcode": 44
+            },
+            {
+              "offset": 9,
+              "opcode": 42
+            },
+            {
+              "offset": 10,
+              "opcode": 4,
+              "constant": 1
+            },
+            {
+              "offset": 11,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity",
+                "<init>",
+                "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_7967_",
+                "(Lnet/minecraft/world/entity/Entity;)Z"
+              ]
+            },
+            {
+              "offset": 17,
+              "opcode": 87
+            },
+            {
+              "offset": 18,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "doImpactEffect",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 18,
+              "constant": 0.5
+            },
+            {
+              "offset": 3,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/EntityUtil",
+                "healEntity",
+                "(Lnet/minecraft/world/entity/LivingEntity;F)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "m_7373_",
+          "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 45
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$Keys",
+                "LEECHES_HEALTH",
+                "Ljava/lang/String;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil$ItemDescriptionType",
+                "BENEFICIAL",
+                "Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 8,
+              "opcode": 189,
+              "operands": [
+                0,
+                94
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 184,
+              "member": [
+                "net/tslat/aoa3/util/LocaleUtil",
+                "getFormattedItemDescriptionText",
+                "(Ljava/lang/String;Lnet/tslat/aoa3/util/LocaleUtil$ItemDescriptionType;[Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 185,
+              "member": [
+                "java/util/List",
+                "add",
+                "(Ljava/lang/Object;)Z"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 87
+            },
+            {
+              "offset": 20,
+              "opcode": 42
+            },
+            {
+              "offset": 21,
+              "opcode": 43
+            },
+            {
+              "offset": 22,
+              "opcode": 44
+            },
+            {
+              "offset": 23,
+              "opcode": 45
+            },
+            {
+              "offset": 24,
+              "opcode": 25,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 26,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster",
+                "m_7373_",
+                "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+              ]
+            },
+            {
+              "offset": 29,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity.class",
+      "sha256": "7aaf7ce08318673bf5761373b25600b3fb628a16592675feb3dfdf3046ac3cc7",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 44
+            },
+            {
+              "offset": 3,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+              ]
+            },
+            {
+              "offset": 6,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/Level;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+                "SOUL_DRAINER_SHOT",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                32
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V"
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+                "SOUL_DRAINER_SHOT",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                32
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 44
+            },
+            {
+              "offset": 12,
+              "opcode": 29
+            },
+            {
+              "offset": 13,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/EnergyProjectileWeapon;I)V"
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/Level;DDD)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/entity/AoAProjectiles",
+                "SOUL_DRAINER_SHOT",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 4,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 192,
+              "operands": [
+                0,
+                32
+              ]
+            },
+            {
+              "offset": 10,
+              "opcode": 43
+            },
+            {
+              "offset": 11,
+              "opcode": 40
+            },
+            {
+              "offset": 12,
+              "opcode": 24,
+              "operands": [
+                4
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 24,
+              "operands": [
+                6
+              ]
+            },
+            {
+              "offset": 16,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/staff/BaseEnergyShot",
+                "<init>",
+                "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;DDD)V"
+              ]
+            },
+            {
+              "offset": 19,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "net/tslat/aoa3/client/render/entity/projectile/blasters/SoulDrainerRenderer.class",
+      "sha256": "5feef31209fcab36f08b2b8434668b5ed254d378590e141d917918a4a508a5fb",
+      "methods": [
+        {
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/client/render/entity/projectile/ParticleProjectileRenderer",
+                "<init>",
+                "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)V"
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "addParticles",
+          "descriptor": "(Lnet/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity;F)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 3,
+              "constant": 0
+            },
+            {
+              "offset": 1,
+              "opcode": 62
+            },
+            {
+              "offset": 2,
+              "opcode": 29
+            },
+            {
+              "offset": 3,
+              "opcode": 6,
+              "constant": 3
+            },
+            {
+              "offset": 4,
+              "opcode": 162,
+              "operands": [
+                0,
+                53
+              ]
+            },
+            {
+              "offset": 7,
+              "opcode": 43
+            },
+            {
+              "offset": 8,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity",
+                "m_9236_",
+                "()Lnet/minecraft/world/level/Level;"
+              ]
+            },
+            {
+              "offset": 11,
+              "opcode": 187,
+              "operands": [
+                0,
+                13
+              ]
+            },
+            {
+              "offset": 14,
+              "opcode": 89
+            },
+            {
+              "offset": 15,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/common/registration/AoAParticleTypes",
+                "FLICKERING_SPARKLER",
+                "Lnet/minecraftforge/registries/RegistryObject;"
+              ]
+            },
+            {
+              "offset": 18,
+              "opcode": 182,
+              "member": [
+                "net/minecraftforge/registries/RegistryObject",
+                "get",
+                "()Ljava/lang/Object;"
+              ]
+            },
+            {
+              "offset": 21,
+              "opcode": 192,
+              "operands": [
+                0,
+                46
+              ]
+            },
+            {
+              "offset": 24,
+              "opcode": 12
+            },
+            {
+              "offset": 25,
+              "opcode": 18,
+              "constant": 3.0
+            },
+            {
+              "offset": 27,
+              "opcode": 178,
+              "member": [
+                "net/tslat/aoa3/util/ColourUtil",
+                "RED",
+                "I"
+              ]
+            },
+            {
+              "offset": 30,
+              "opcode": 183,
+              "member": [
+                "net/tslat/aoa3/common/particletype/CustomisableParticleType$Data",
+                "<init>",
+                "(Lnet/minecraft/core/particles/ParticleType;FFI)V"
+              ]
+            },
+            {
+              "offset": 33,
+              "opcode": 43
+            },
+            {
+              "offset": 34,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity",
+                "m_20185_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 37,
+              "opcode": 43
+            },
+            {
+              "offset": 38,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity",
+                "m_20186_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 41,
+              "opcode": 43
+            },
+            {
+              "offset": 42,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity",
+                "m_20189_",
+                "()D"
+              ]
+            },
+            {
+              "offset": 45,
+              "opcode": 14
+            },
+            {
+              "offset": 46,
+              "opcode": 14
+            },
+            {
+              "offset": 47,
+              "opcode": 14
+            },
+            {
+              "offset": 48,
+              "opcode": 182,
+              "member": [
+                "net/minecraft/world/level/Level",
+                "m_7106_",
+                "(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V"
+              ]
+            },
+            {
+              "offset": 51,
+              "opcode": 132,
+              "operands": [
+                3,
+                1
+              ]
+            },
+            {
+              "offset": 54,
+              "opcode": 167,
+              "operands": [
+                255,
+                204
+              ]
+            },
+            {
+              "offset": 57,
+              "opcode": 177
+            }
+          ]
+        },
+        {
+          "name": "addParticles",
+          "descriptor": "(Lnet/minecraft/world/entity/Entity;F)V",
+          "instructions": [
+            {
+              "offset": 0,
+              "opcode": 42
+            },
+            {
+              "offset": 1,
+              "opcode": 43
+            },
+            {
+              "offset": 2,
+              "opcode": 192,
+              "operands": [
+                0,
+                28
+              ]
+            },
+            {
+              "offset": 5,
+              "opcode": 36
+            },
+            {
+              "offset": 6,
+              "opcode": 182,
+              "member": [
+                "net/tslat/aoa3/client/render/entity/projectile/blasters/SoulDrainerRenderer",
+                "addParticles",
+                "(Lnet/tslat/aoa3/content/entity/projectile/blaster/SoulDrainerShotEntity;F)V"
+              ]
+            },
+            {
+              "offset": 9,
+              "opcode": 177
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipes": {
+    "data/aoa3/recipes/upgrade_kit_soul_drainer.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:blood_drainer"
+      },
+      "result": {
+        "item": "aoa3:soul_drainer"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:fungal_upgrade_kit"
+      }
+    }
+  },
+  "runtime_tested": false
+}

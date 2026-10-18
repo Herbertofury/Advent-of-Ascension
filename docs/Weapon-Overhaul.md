@@ -8,6 +8,22 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 [Reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Implementation checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog) · [Original item atlas](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Items-Atlas)
 
+## Explore the weapon profiles
+
+| Weapon | Read the original behavior and proposed upgrade |
+|---|---|
+| Soul Storm | [Full profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) · [Soul Flame default sight](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights) |
+| Baronator | [Full profile, alternating barrels and bonus grenade distinction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baronator-Weapon-Profile) |
+| Minigun | [Full profile, rotary identity and native acquisition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minigun-Weapon-Profile) |
+| Abominator | [Full profile and original-inspired concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Abominator-Weapon-Profile) |
+| Soul Drainer | [Full profile and life-leech contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
+
+All five have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
+
+## Build your own identity and play style
+
+[Functional upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) may deliberately multiply projectiles, increase damage and change behavior through declared parts. The original is the baseline, not the ceiling. [Alternate barrels and skins](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Alternate-Barrels-and-Skins) keep each weapon distinctive. [Earned charms, effects, stickers and emblems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Charms-and-Effect-Customization) add boss/achievement progression, functional charm bonuses, custom finishers, projectile/tracer/impact styles and static, animated or glowing decals. Preserve previous concept versions and distinguish proposals from measured native results.
+
 ## Choose your presentation
 
 | Control | Required behavior |
