@@ -2,11 +2,23 @@
 
 **New authoring reconstruction · visual acceptance open · not a native TaCZ gunpack.**
 
-![Current v12 Blender authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v12-preview.png)
+![Current v13 Blender authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v13-disc-preview.png)
 
 [Play the sampled four-emitter motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-motion.webp) · [Download editable sources, Blender files and retained v5–v9 iterations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-reconstruction-v5-v9.zip)
 
-## Newer VFX iterations: v10–v12
+## v13: disc orientation and aperture clearance
+
+![Horizontal disc emission authoring preview](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v13-motion.webp)
+
+The earlier projectile cue used a near-vertical ring/flattened sphere. V13 places an actual circular UV-mapped plasma face in the **horizontal XY plane**, travelling along +X through the thin horizontal emitter slot. Its original VFX texture rotates, and the edge uses an emissive procedural material rather than a lit solid rim. All four emitter cues retain top-to-bottom order. These are proposed upgraded visuals, not original AoA game footage.
+
+The static cross-section check measures both the face and rim against the slot: minimum side clearance is approximately **0.025 authoring units**, and vertical clearance approximately **0.0277 units** for the sampled rim vertices. The face has more clearance. These numbers validate only this bounded authoring envelope; they are not real-world measurements, a full continuous collision proof or native game acceptance.
+
+[Editable v13 Blender/source package](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-sculpt-v13.zip) · [Exact scoped QA](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v13-qa.json) · [Idle render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v13-preview.png)
+
+The body/ornament, atmospheric trails, actual hands and native shader/export work remain open. Earlier versions are preserved below. Archive SHA-256: `ae288978ec15895cb4cd0675aba51f7fe0095e17e9a2f8e1929d09ff9ba7369f`.
+
+## Earlier VFX iterations: v10–v12
 
 ![Two-second v12 authoring motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v12-motion.webp)
 
