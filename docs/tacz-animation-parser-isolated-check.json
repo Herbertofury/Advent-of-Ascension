@@ -1,0 +1,123 @@
+{
+  "scope": "Isolated upstream numeric animation parsing only; GsonHelper, GunMod logger and ResourceLocation are explicit test stand-ins. No sound/runtime/interpolation acceptance.",
+  "source_pin": "b482eff8c94a733ac8d0910193fca3893954027c",
+  "files": [
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/ascension-armory-authoring-prototype/baronator-v2/assets/ascension_armory/animations/baronator.animation.json",
+      "sha256": "77f99e16ff3c03ba0c37ed29b33c8fd739bb6f28384b475d7fc322f292d2bebe"
+    },
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/ascension-armory-authoring-prototype/prototype/assets/ascension_armory/animations/baronator.animation.json",
+      "sha256": "fdb3fefdbdb8ab14afa68d4becc8a4c44b0c597bcc3bb76eeb7474b627efcf4b"
+    },
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/baronator-attachment-study/baronator-mechanism-study/assets/ascension_armory/animations/baronator.animation.json",
+      "sha256": "bffcae48499524074c8d0625e0c949a2ce14596b1f95389ec6506e43c7774980"
+    },
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/baronator-mechanism-study/baronator-mechanism-study/assets/ascension_armory/animations/baronator.animation.json",
+      "sha256": "bffcae48499524074c8d0625e0c949a2ce14596b1f95389ec6506e43c7774980"
+    },
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/minigun-motion-study/minigun-feed-study/assets/ascension_armory/animations/minigun.animation.json",
+      "sha256": "db27020e00237a84617d167e640d71a74e8bede71fe6009a01a6a98867504cf7"
+    },
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/minigun-motion-study/minigun-prototype/assets/ascension_armory/animations/minigun.animation.json",
+      "sha256": "8a925cd3bda76087620ff31e58aaabb4b64b91fcc5832756dbb375a714864e5d"
+    },
+    {
+      "path": "aoa-tacz-workbench/recovered-studies/soul-storm-authoring-study/soul-storm-study/assets/ascension_armory/animations/soul_storm.animation.json",
+      "sha256": "8f3835f037c4e2524c4c7549da01b0cd99633f82c9b23892f65e6630540a6dbc"
+    },
+    {
+      "path": "aoa-tacz-workbench/iominator-authoring-v3/assets/ascension_armory/animations/iominator.animation.json",
+      "sha256": "66597f2e965639be7fb0390109aa2129e4a9ad3d3ec49451ce1be9b2345eba9b"
+    }
+  ],
+  "unique_input_hashes": 7,
+  "runs": [
+    {
+      "java": "openjdk version \"17.0.20.1\" 2026-08-18 LTS",
+      "result": "PARSED baronator.animation.json clips=15\nPARSED baronator.animation.json clips=12\nPARSED baronator.animation.json clips=20\nPARSED baronator.animation.json clips=20\nPARSED minigun.animation.json clips=12\nPARSED minigun.animation.json clips=11\nPARSED soul_storm.animation.json clips=7\nPARSED iominator.animation.json clips=4\nPASS isolated upstream animation parser: 8 files, 101 clips, 1162 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n"
+    },
+    {
+      "java": "openjdk version \"21.0.12.1\" 2026-08-18",
+      "result": "PARSED baronator.animation.json clips=15\nPARSED baronator.animation.json clips=12\nPARSED baronator.animation.json clips=20\nPARSED baronator.animation.json clips=20\nPARSED minigun.animation.json clips=12\nPARSED minigun.animation.json clips=11\nPARSED soul_storm.animation.json clips=7\nPARSED iominator.animation.json clips=4\nPASS isolated upstream animation parser: 8 files, 101 clips, 1162 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n"
+    }
+  ],
+  "dependency_manifest": {
+    "source_pin": "b482eff8c94a733ac8d0910193fca3893954027c",
+    "downloads": [
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/AnimationBone.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/AnimationBone.java",
+        "sha256": "60acd10d94b45ad1aac1d6673fdc1e72090b5d26a8c20bf80fce2b1920108ba8"
+      },
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/AnimationKeyframes.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/AnimationKeyframes.java",
+        "sha256": "0de612cc2fc83a535ffed59a75d7bb824b065b523ca91234068d74d0b91cdc03"
+      },
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/BedrockAnimation.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/BedrockAnimation.java",
+        "sha256": "b0da6e8a99d475662617efe38e946092ca156ffd75824374dcedaa2d1d37b3ca"
+      },
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/BedrockAnimationFile.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/BedrockAnimationFile.java",
+        "sha256": "c39aaa41696aa2af741792c5e6958902bc981bf4c3c9fbf1740f7e5aaf166b9d"
+      },
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/SoundEffectKeyframes.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/pojo/animation/bedrock/SoundEffectKeyframes.java",
+        "sha256": "1790f84d45e8b40a3d7f52c22ae01b8496aab3736c0cb176adc89cb035becacc"
+      },
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/serialize/AnimationKeyframesSerializer.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/serialize/AnimationKeyframesSerializer.java",
+        "sha256": "f80d48fe54ddf9854e4604d5cec591b39d91b10686c78beb81b9cfaf0d908c8b"
+      },
+      {
+        "path": "src/main/java/com/tacz/guns/client/resource/serialize/Vector3fSerializer.java",
+        "url": "https://raw.githubusercontent.com/MCModderAnchor/TACZ/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/resource/serialize/Vector3fSerializer.java",
+        "sha256": "d3580355b760d82eb0f873fa0e95d4c0148b054f92aa24c3f549d86400f76830"
+      },
+      {
+        "path": "lib/gson-2.10.jar",
+        "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.10/gson-2.10.jar",
+        "sha256": "0cdd163ce3598a20fc04eee71b140b24f6f2a3b35f0a499dbbdd9852e83fbfaf"
+      },
+      {
+        "path": "lib/jsr305-3.0.2.jar",
+        "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+        "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+      },
+      {
+        "path": "lib/joml-1.10.5.jar",
+        "url": "https://libraries.minecraft.net/org/joml/joml/1.10.5/joml-1.10.5.jar",
+        "sha256": "cac9f22f83a7aa33eebda73c16ff5261e3cb4911b6bafcf4c79ea486099d0c9a"
+      },
+      {
+        "path": "lib/fastutil-8.5.9.jar",
+        "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar",
+        "sha256": "9578bf2a1700cf20d21746a2ee89e57ba1abbd37fa9feda68ff5e9a28473a7f9"
+      }
+    ],
+    "input_hashes": {
+      "01-baronator.animation.json": "77f99e16ff3c03ba0c37ed29b33c8fd739bb6f28384b475d7fc322f292d2bebe",
+      "02-baronator.animation.json": "fdb3fefdbdb8ab14afa68d4becc8a4c44b0c597bcc3bb76eeb7474b627efcf4b",
+      "03-baronator.animation.json": "bffcae48499524074c8d0625e0c949a2ce14596b1f95389ec6506e43c7774980",
+      "04-baronator.animation.json": "bffcae48499524074c8d0625e0c949a2ce14596b1f95389ec6506e43c7774980",
+      "05-minigun.animation.json": "db27020e00237a84617d167e640d71a74e8bede71fe6009a01a6a98867504cf7",
+      "06-minigun.animation.json": "8a925cd3bda76087620ff31e58aaabb4b64b91fcc5832756dbb375a714864e5d",
+      "07-soul_storm.animation.json": "8f3835f037c4e2524c4c7549da01b0cd99633f82c9b23892f65e6630540a6dbc",
+      "08-iominator.animation.json": "66597f2e965639be7fb0390109aa2129e4a9ad3d3ec49451ce1be9b2345eba9b"
+    }
+  },
+  "clean_archive_fetch_compile_test": {
+    "status": "pass",
+    "log": "PARSED 01-baronator.animation.json clips=15\nPARSED 02-baronator.animation.json clips=12\nPARSED 03-baronator.animation.json clips=20\nPARSED 04-baronator.animation.json clips=20\nPARSED 05-minigun.animation.json clips=12\nPARSED 06-minigun.animation.json clips=11\nPARSED 07-soul_storm.animation.json clips=7\nPARSED 08-iominator.animation.json clips=4\nPASS isolated upstream animation parser: 8 files, 101 clips, 1162 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n\n"
+  }
+}

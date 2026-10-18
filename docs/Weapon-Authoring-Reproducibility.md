@@ -31,6 +31,10 @@ The original Baronator mechanism archive contained an alternation test targeting
 
 The viewer suites also depended on sibling HTML files. The runner now stages those exact published files explicitly rather than relying on an old workspace layout.
 
+## Additional upstream-parser check
+
+[Isolated TaCZ model parsing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Isolated-Model-Parser-Check) now exercises the pinned upstream model POJOs and CubesItem deserializer against eight authoring files (seven distinct hashes). It passes on Java17 and Java21, including a clean extraction/fetch/compile run. Its Direction enum is an explicit harness stand-in; it does not launch the client, renderer or game and does not close native acceptance.
+
 ## Still required in game
 
 Native export/load, real hand/skin/FOV combinations, attachment-switch transitions, actual translucent rendering and aim readability, shader/Vulkan compatibility, multiplayer, persistence and measured frame times. None of those gates is passed by this source-only receipt.

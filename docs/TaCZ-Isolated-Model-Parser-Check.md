@@ -27,3 +27,14 @@ The source's face accessor also remaps some direction names. Exporters should fo
 Gson/Guava versions were resolved from the official Minecraft1.20.1 library manifest. The dependency/source files are not redistributed inside the harness archive; respect their respective licenses. Our fixture JSONs and original test code are included.
 
 [Detailed receipts, source URLs, dependency hashes and input hashes](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tacz-model-parser-isolated-check.json) · [Other clean-extraction authoring checks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Authoring-Reproducibility)
+
+
+## Numeric animation follow-up
+
+The isolated study now also uses the pinned upstream AnimationKeyframes serializer against eight authoring animation files (seven distinct hashes). The inspected files contain 101 clips and 1,162 parsed keyframes across historical variants; these totals are not unique finished animations for 101 weapons. They pass on Java17 and Java21 without unsupported-expression diagnostics.
+
+This second harness has explicit stand-ins for numeric GsonHelper conversion, diagnostic logging and an unused ResourceLocation type. It rejects sound-effect records instead of claiming to validate them. Actual interpolation, animation/state-machine blending, audio, hands and gameplay remain outside scope.
+
+A useful source-level boundary is now tested: the pinned serializer does not evaluate Molang-style strings. A standalone expression yields an empty channel; a string inside a vector becomes zero with a diagnostic. Our authored numeric assets must not silently rely on such strings for procedural motion. Dynamic Soul Flame frame selection therefore still needs the explicit native adapter described in its plan; a generic exported expression is not proof that it will animate.
+
+[Animation parsing receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tacz-animation-parser-isolated-check.json) · [Numeric animation harness and original fixtures](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/tacz-animation-parser-check-tool-v1.zip)
