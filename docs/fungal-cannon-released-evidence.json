@@ -2283,5 +2283,14 @@
   "original_projectile_texture": {
     "path": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
     "sha256": "1dd1364d7ac67b93489d25a1ebd80fa0f7a6d34dc26482d2a855fb13f9b0607d"
+  },
+  "constructor_parameter_correction": {
+    "class": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class",
+    "sha256": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;IFI)V",
+    "assignment": "fload6 -> dmgMulti:F",
+    "value": 1.0,
+    "correct_label": "damage multiplier input",
+    "incorrect_previous_profile_label": "launch-speed argument"
   }
 }

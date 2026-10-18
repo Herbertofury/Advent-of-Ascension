@@ -3195,7 +3195,7 @@
     {
       "id": "aoa3:hive_blaster",
       "family": "cannon",
-      "stage": "not_started",
+      "stage": "released_baseline_and_concept_exploration",
       "gates": {
         "mechanism": "untested",
         "spatial": "untested",
@@ -3204,13 +3204,24 @@
         "export": "untested",
         "runtime": "untested"
       },
-      "evidence": [],
+      "evidence": [
+        "hive-blaster-released-evidence.json"
+      ],
       "required_design_deliverables": [
         "Original version-specific profile",
         "Original projectile flight/impact capture",
         "Identity-specific alternate barrels",
         "Attachment and charm clearances",
         "Skins, decals and effect customization"
+      ],
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile",
+      "concept_art": "v1 and corrected-caption v2; not final visual acceptance",
+      "original_in_game_capture": "not captured",
+      "known_open": [
+        "Native model, breech and hand clearances",
+        "Render-rate-independent replacement effects with visual/performance verification",
+        "Swarm/resin features are new module proposals",
+        "Native runtime, networking and compatibility acceptance"
       ]
     },
     {

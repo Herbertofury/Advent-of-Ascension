@@ -20,7 +20,7 @@ The shared cannon code adjusts its raw damage multiplier using the target's armo
 | Ammunition | Native `CANNONBALL` item through BaseCannon |
 | Automatic mode | BaseCannon returns false for full automatic |
 | Projectile | `FungalBallEntity`, maximum-age input 120, piercing input 0 |
-| Projectile launch-speed argument | 1.0 in its inherited constructor call |
+| Projectile damage-multiplier input | 1.0 in its inherited constructor call; not launch speed |
 | Gravity return | approximately 0.1 |
 | Impact effect | Weakness builder with duration input 200 ticks |
 | Firing sound | `ITEM_BALL_CANNON_FIRE` |
@@ -29,7 +29,9 @@ At a nominal 20 ticks per second, 200 ticks corresponds to ten seconds, but actu
 
 ## Actual projectile versus proposed upgrade
 
-![Released cannonball texture used by Fungal Ball](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/fungal-cannon-original-projectile.png)
+![Nearest-neighbor enlargement of the released cannonball texture](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/cannonball-texture-preview-1.20.1.png)
+
+[Unmodified projectile texture](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/fungal-cannon-original-projectile.png).
 
 The released renderer factory selects the ordinary cannonball texture shown above. Its custom renderer adds randomized green flickering, yellow, blue or purple sparkler requests across eight loop iterations. The generated mushroom-textured projectile and blooming mushroom-like impact below are proposed new presentation, not the original appearance. A cosmetic bloom must not create real blocks, mobs or extra damaging projectiles unless an installed functional module explicitly declares that behavior.
 
@@ -64,3 +66,8 @@ An optional inspection could have the three caps respond to each other with a bo
 - [ ] Verify networking, saves, reload/resource options and measured frame/tick performance.
 
 [Released class, renderer and recipe evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/fungal-cannon-released-evidence.json) · [Functional upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) · [Customization](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Charms-and-Effect-Customization)
+
+
+### Constructor-parameter correction
+
+The inherited constructor’s `1.0` was previously mislabeled as a launch-speed argument. The released BaseBullet constructor assigns that float to `dmgMulti`; it is a damage multiplier. No projectile speed is inferred from this value.
