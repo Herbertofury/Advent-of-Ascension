@@ -191,8 +191,8 @@ Native admission includes the allocation improvement for the three providers
 whose original surface callbacks are empty; every original output position
 stays checked. No sustained-speed claim follows from build timings.
 
-This is **not complete survival progression**. The four original fragment
-temples are absent from the current native artifact and require their complete
+This is **not complete survival progression**. All five original fragment
+temples (including the Abyss/Fade temple) are absent from the current native artifact and require their complete
 spawn/placement dependencies, including MegaGuardian. The original station
 placement occurs in Clunkhead Arena; its existing newer native template must
 remain canonical while restoring the unique progression. Do not add a second
