@@ -1,0 +1,151 @@
+{
+  "source_repository": "https://github.com/VellEagle/TacZMeshLoader",
+  "source_commit": "a3faaaf45ed956351278a5b6f86b4140f48439ea",
+  "source_files": {
+    "gradle.properties": "390b9212e9552346e95d9ec0aa22d9119a4bbe3e5a38a80fc70f7d031991ecd0",
+    "CREDITS.txt": "7be4dedbc5b2f09361820e04758c01ff10fc70cb693117e112d683466a8a7fba",
+    "LICENSE.txt": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+    "README.txt": "a57fbf6a97775ceee096147a3c93166746dcdc95adc88b571fa827fc9c3940f3",
+    "changelog.txt": "ace409a20346ecff5decae87c77d1e7225256f88ce2c66aa4e912585fe3bfe28",
+    "build.gradle": "5e1df06c0dc556b46dfde8ce287b7d09c877a535bb064a9540aa063e5e597378",
+    "src/main/resources/tmllogo.png": "d592769cc160d67b65587b123755a901cbbee184c8ece9391c151a790116a484",
+    "src/main/resources/pack.mcmeta": "69e4b682449054686cb0e5918f13501cd53ea33477d306d9d27f82f0fd9da3f1",
+    "src/main/resources/taczmeshloader.mixins.json": "85bfe57df5a625d2ed75467d8c686260448d9c28e8c690249ecc03a753f2a5e0",
+    "src/main/java/com/example/taczmeshloader/TacZMeshLoaderMod.java": "af1a482a294b1a1708678701fa4705f60c25bd3379dcf0dced18160bdc1aeb40",
+    "src/main/java/com/example/taczmeshloader/api/IPolyMeshBone.java": "3fc6f45252073eb66a22631c4d6f37611d9cab9ee8caecf8a384cdb01fbc53c0",
+    "src/main/java/com/example/taczmeshloader/tacz/TaczPolyMeshGunModel.java": "a5d8c015762767db030a9ce99a0df7036c842628651b8162ceebff6ec38258e0",
+    "src/main/java/com/example/taczmeshloader/tacz/TaczPolyMeshBlockModel.java": "689af81458d9d5953579f76df9fbaf5a500300568ebd933904d2d47331e21b56",
+    "src/main/java/com/example/taczmeshloader/tacz/TaczPolyMeshAttachmentModel.java": "6dd73615b03aa1531ca1631a95dfceb196c76f2e15fbec0cc1510a92a49cf8b8",
+    "src/main/java/com/example/taczmeshloader/tacz/TaczMeshyIntegration.java": "4be8f264a230a32ac726efd442845bb3433768bc9f14656a0a7678cb717ac65f",
+    "src/main/java/com/example/taczmeshloader/tacz/TaczPolyMeshAmmoModel.java": "53b247fb17f3e64a35a640d20fe756cb80298213d80f9ef7ab243e8867d79390",
+    "src/main/java/com/example/taczmeshloader/render/ScreenRenderTracker.java": "3ec5596f0a0283a9786c6b53e48d8d4cad0aa654983d80f80d81e7568fce5f32",
+    "src/main/java/com/example/taczmeshloader/render/MeshyRenderTypes.java": "a7e8c9b11f093cb1f7db0c28bf6fbd2370e39e80fffa153ea30c0434b94f8ab4",
+    "src/main/java/com/example/taczmeshloader/render/ShaderStateTracker.java": "c9ef79f157a984ea108928705e7a2f4ba2b97abdb14ee596e160895a6b001335",
+    "src/main/java/com/example/taczmeshloader/render/MeshyBatchFlushHandler.java": "a2eb04185430741389ef4e941ed54eefee1943d0db53c87c181ac224b3ba7b6e",
+    "src/main/java/com/example/taczmeshloader/lrtactical/LrPolyMeshInjector.java": "f4fd6271812188a610396c366d6cb363ce6c3783feede27949a3df5d3fad224e",
+    "src/main/java/com/example/taczmeshloader/lrtactical/LrPolyMeshModel.java": "74bc819da93513a6dd4791659536b25f235f6a76463abf000341aada12dd5697",
+    "src/main/java/com/example/taczmeshloader/mixin/BedrockAttachmentModelMixin.java": "3e27cc02e2029f07bf27395c6c1eb9e7cacb75dee0bd910c68e6f54aa1a66246",
+    "src/main/java/com/example/taczmeshloader/mixin/ClientAttachmentIndexMixin.java": "7db0b0ece33a08ade163be7b4df65d11724ad11145369dd9ddf19d5168ca44f8",
+    "src/main/java/com/example/taczmeshloader/mixin/GunDisplayInstanceMixin.java": "97eb00cd0a1ac86dc917ea7ac0d8ed6af7686ca0acc91de8613ad3d8defe14fe",
+    "src/main/java/com/example/taczmeshloader/mixin/ClientBlockIndexMixin.java": "be458d8eb935c66ddd42246542ac4a28537ef0aee2624adc36dcba6ea5a0381e",
+    "src/main/java/com/example/taczmeshloader/mixin/ClientAmmoIndexMixin.java": "7ee1553d510c7f5e6a0c3e050266f45022845a4dfaa14981474a7cfc06d52053",
+    "src/main/java/com/example/taczmeshloader/core/PolyFace.java": "1841596e538a8aa7eb307e14ccb9dc9455862eda079e29c02934708fc0f2699d",
+    "src/main/java/com/example/taczmeshloader/core/PolyMeshModel.java": "42e829ea2a3fb9ad0964b6d07a780c760c1db22d68b8dd4458c9bc1d9fad7c72",
+    "src/main/java/com/example/taczmeshloader/core/PolyMesh.java": "d38e5b86e87e580bfa0eae208ced2d009af386136f7d3731543f15a746852c92",
+    "src/main/java/com/example/taczmeshloader/compat/ar/ARCompatImpl.java": "f425b5b25da663beef4fdd9f0938ddabf48ceb0bf2390f9cbf7c7638e72d6c2e",
+    "src/main/java/com/example/taczmeshloader/compat/ar/PolyMeshAcceleratedRenderer.java": "5f03c5bf4a5f0ac769d31cffdfacfaa327fe5e5818b3a69a5829f13ba07a7194",
+    "src/main/java/com/example/taczmeshloader/compat/ar/ARCompat.java": "aa87219048784ee526a2d62db1e72c37f3547fe53361b07c764ba5e91503f925",
+    "src/main/java/com/example/taczmeshloader/mixin/lrtactical/LrDisplayInstanceMixin.java": "27c87a7d62f0e650876a73893d615629aad3c57be9a6ec5d36b298825e3c0aca",
+    "src/main/resources/META-INF/mods.toml": "bb7524cb0e87e6c7d8abbf8b217f1eb0ad4895ae446a379e3f14e21dd387a44d",
+    "src/main/resources/assets/taczmeshloader/icon.png": "9891de5b583edc73fe7b08ba92b3eecc914dfca0468720fcd5dd762580e72cb0"
+  },
+  "release": {
+    "version": "0.1.8",
+    "id": "PGQI9VTN",
+    "published": "2026-09-30T02:31:28.914592Z",
+    "minecraft": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "file": {
+      "id": "sAgKJOUI",
+      "hashes": {
+        "sha1": "61bd854139b282b56a857d611287ed7ee76cd2d3",
+        "sha512": "4f60b62fb401d09ad3c37e8e2aa686ad6dffdcac0a97cac93df9ad190d34cb0728fe4c2127fff344be1a7116d19a10da944897401588256e564f152a8dd6c89d"
+      },
+      "url": "https://cdn.modrinth.com/data/SnuAzTh0/versions/PGQI9VTN/tacz-mesh-loader-forge-1.20.1-0.1.8.jar",
+      "filename": "tacz-mesh-loader-forge-1.20.1-0.1.8.jar",
+      "primary": true,
+      "size": 204663,
+      "file_type": null
+    }
+  },
+  "reviewed_release_classes": {
+    "com/example/taczmeshloader/core/PolyMesh.class": "a08866ba326d81e6c39bddd310c66254c13fed9f59cb1a386026abce375123fa",
+    "com/example/taczmeshloader/core/PolyMeshModel.class": "2223b43ea090b5370855272e8f8648c21269ff667c04c69dc9821028e1dc1727",
+    "com/example/taczmeshloader/tacz/TaczPolyMeshGunModel.class": "75cc8ae79306bff7b4eab19f8833c60dd6e07143b4d95bae30c2ab4dffcf38ae",
+    "com/example/taczmeshloader/mixin/GunDisplayInstanceMixin.class": "a6b3bfbb2f33cb7b5c24b7a695029b42a0d496c9fd9681ef1eaf14b346516227",
+    "com/example/taczmeshloader/compat/ar/PolyMeshAcceleratedRenderer.class": "554098e53eda8f89129f5b0237f9c14664f48c56e7e2ff6ecf3a17728a9cb55a"
+  },
+  "tacz_hotfix2_target_declarations": [
+    {
+      "target": "com.tacz.guns.client.resource.GunDisplayInstance",
+      "method": "checkTextureAndModel",
+      "declarations": [
+        "private void checkTextureAndModel(com.tacz.guns.client.resource.pojo.display.gun.GunDisplay);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.GunDisplayInstance",
+      "method": "checkLod",
+      "declarations": [
+        "private void checkLod(com.tacz.guns.client.resource.pojo.display.gun.GunDisplay);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.index.ClientAmmoIndex",
+      "method": "checkTextureAndModel",
+      "declarations": [
+        "private static void checkTextureAndModel(com.tacz.guns.client.resource.pojo.display.ammo.AmmoDisplay, com.tacz.guns.client.resource.index.ClientAmmoIndex);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.index.ClientAmmoIndex",
+      "method": "checkAmmoEntity",
+      "declarations": [
+        "private static void checkAmmoEntity(com.tacz.guns.client.resource.pojo.display.ammo.AmmoDisplay, com.tacz.guns.client.resource.index.ClientAmmoIndex);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.index.ClientAmmoIndex",
+      "method": "checkShell",
+      "declarations": [
+        "private static void checkShell(com.tacz.guns.client.resource.pojo.display.ammo.AmmoDisplay, com.tacz.guns.client.resource.index.ClientAmmoIndex);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.index.ClientAttachmentIndex",
+      "method": "checkTextureAndModel",
+      "declarations": [
+        "private static void checkTextureAndModel(com.tacz.guns.client.resource.pojo.display.attachment.AttachmentDisplay, com.tacz.guns.client.resource.index.ClientAttachmentIndex);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.index.ClientAttachmentIndex",
+      "method": "checkLod",
+      "declarations": [
+        "private static void checkLod(com.tacz.guns.client.resource.pojo.display.attachment.AttachmentDisplay, com.tacz.guns.client.resource.index.ClientAttachmentIndex);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.resource.index.ClientBlockIndex",
+      "method": "checkModel",
+      "declarations": [
+        "private static void checkModel(com.tacz.guns.client.resource.pojo.display.block.BlockDisplay, com.tacz.guns.client.resource.index.ClientBlockIndex);"
+      ]
+    },
+    {
+      "target": "com.tacz.guns.client.model.BedrockAttachmentModel",
+      "method": "renderTempPart",
+      "declarations": [
+        "private void renderTempPart(com.mojang.blaze3d.vertex.PoseStack, net.minecraft.world.item.ItemDisplayContext, net.minecraft.client.renderer.RenderType, int, int, java.util.List<com.tacz.guns.client.model.bedrock.BedrockPart>);"
+      ]
+    }
+  ],
+  "license_metadata": {
+    "modrinth": "GPL-3.0-or-later",
+    "released_jar": "GPL-3.0-only",
+    "source_build_property": "All Rights Reserved",
+    "source_license_file": "GPLv3 text"
+  },
+  "native_run": false,
+  "preflight_tests": 10,
+  "limits": [
+    "Static source/artifact inspection only",
+    "No upstream submission",
+    "No native rendering/Vulkan/performance acceptance",
+    "Source head and release not proven build-identical"
+  ]
+}

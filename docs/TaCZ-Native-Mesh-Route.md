@@ -4,6 +4,13 @@
 
 The Soul Storm Blender studies are valuable editable source, but a `.blend` or glTF export is not automatically a TaCZ gun model. This page records the actual boundary and the routes worth testing before more sculpting is mistaken for finished implementation.
 
+## Existing community route comes first
+
+[The direct TacZ Mesh Loader study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study) now pins the actual Forge 1.20.1 **TML 0.1.8** artifact and its source. It already supplies polygon-mesh integration, LOD handling and optional accelerated rendering. Prioritize evaluating and improving that existing project before building a parallel renderer. Keep the original bridge prototype below as a diagnostic and possible targeted contribution.
+
+The base-parser findings below concern TaCZ **without** the additional loader. They do not mean TML's extended polygon path is unavailable. Native compatibility, hand rig, shaders and Hari/Vulkan remain unverified. The direct study includes source-derived validation gates and a license-metadata discrepancy that must not be silently ignored.
+
+
 ## What the released files show
 
 - `GltfManager` loads `AnimationStructure` from `animations/*.gltf`. The associated raw structure contains accessors, animations, buffers, buffer views and nodes. This inspected path is for animation, not proof of arbitrary glTF mesh/material import.
