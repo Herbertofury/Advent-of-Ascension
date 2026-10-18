@@ -1,0 +1,168 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "archive_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "recipe": {
+    "path": "data/aoa3/recipes/infusion_soul_storm.json",
+    "sha256": "fbb2bb74de16cf861891cb97f7bdfb0ceba0b06bd2ca0b2d3927cef22b272f27",
+    "data": {
+      "type": "aoa3:infusion",
+      "ingredients": [
+        {
+          "item": "aoa3:ghoulasm"
+        },
+        {
+          "item": "aoa3:ghoulasm"
+        },
+        {
+          "item": "aoa3:ghostly_powder"
+        },
+        {
+          "item": "aoa3:ghostly_powder"
+        },
+        {
+          "item": "aoa3:ghostly_powder"
+        },
+        {
+          "tag": "forge:ingots/ghastly"
+        }
+      ],
+      "input": {
+        "item": "aoa3:blaster_frame"
+      },
+      "result": {
+        "item": "aoa3:soul_storm"
+      }
+    }
+  },
+  "ingredient_loot_references": [
+    {
+      "entry": "data/aoa3/loot_tables/entities/apparition.json",
+      "sha256": "a2f9d41e41af19f045dd47500b876318ac6821a3657377cb1129d6e8c00e7004",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:ghostly_powder",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "entry": "data/aoa3/loot_tables/entities/banshee.json",
+      "sha256": "87876520c7201d3d385e8ccec8bac9b8c2288099debc9a4dd518f8e19db9bd8f",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "aoa3:ghostly_powder",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "entry": "data/aoa3/loot_tables/entities/corrupted_traveller.json",
+      "sha256": "fee153b9f4a0d16806520ca3f5ce1ee74fb067d1aea4c44ec4bf8a8c1d5125bf",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "aoa3:ghostly_powder",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entry": "data/aoa3/loot_tables/entities/ghost.json",
+      "sha256": "2b886c37e38af7d08ae51865885fc6abb84dae819e70e5ad1a4edba1be8cafcd",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "aoa3:ghostly_powder",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "entry": "data/aoa3/loot_tables/entities/lunarcher.json",
+      "sha256": "a2f9d41e41af19f045dd47500b876318ac6821a3657377cb1129d6e8c00e7004",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:ghostly_powder",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "entry": "data/aoa3/loot_tables/entities/spectral_wizard.json",
+      "sha256": "6b8ec183d187ee460cf3f84c3b3509f4eb071dd1f6662f30e051131b01d2e9a1",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aoa3:ghostly_powder",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "entry": "data/aoa3/loot_tables/worlds/greckon.json",
+      "sha256": "db3782b2a2b0c54179be3e44cc37b2307a9d9e6aa8d16f9cca8eb568133efa47",
+      "item_entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "aoa3:ghoulasm",
+          "weight": 20
+        }
+      ]
+    }
+  ],
+  "confirmed": [
+    "Infusion recipe uses Blaster Frame, two Ghoulasm entries, three Ghostly Powder entries and Ghastly ingot tag",
+    "Ghoulasm is referenced in the packaged Greckon world loot table",
+    "Ghostly Powder is referenced in several spectral creature loot tables"
+  ],
+  "unknown": [
+    "Original in-world maker",
+    "Explicit original artist explanation for each visual motif",
+    "Whether all historical world tables are reachable in the pinned game"
+  ],
+  "proposed_design_direction": "Preserve spectral/haunted material identity in authored housing, soul flame sight and effects; do not turn it into a generic ammunition rifle. New plasma-disc appearance remains an adaptation, not evidence of original impact behavior.",
+  "native_tested": false
+}

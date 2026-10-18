@@ -715,9 +715,34 @@
     }
   },
   "lore_provenance": {
-    "status": "not_started",
-    "evidence": [],
+    "status": "in_progress",
+    "evidence": [
+      {
+        "kind": "source",
+        "path": "soul-storm-lore-provenance.json",
+        "sha256": "d7fb2f2632f84c72928881fe1ebf20755c1831881180cb4cecb131806281a47c"
+      }
+    ],
     "review": null,
-    "claims": []
+    "claims": [
+      {
+        "classification": "confirmed",
+        "text": "Pinned infusion recipe uses Blaster Frame, Ghoulasm, Ghostly Powder and Ghastly ingot tag.",
+        "source_reference": "data/aoa3/recipes/infusion_soul_storm.json in pinned archive; evidence JSON provides exact hash."
+      },
+      {
+        "classification": "confirmed",
+        "text": "Ghoulasm appears in packaged Greckon world loot.",
+        "source_reference": "data/aoa3/loot_tables/worlds/greckon.json in pinned archive."
+      },
+      {
+        "classification": "unknown",
+        "text": "Original maker and exact artist intent are not established."
+      },
+      {
+        "classification": "proposed",
+        "text": "The flame sight and plasma-disc visual treatment are project adaptations."
+      }
+    ]
   }
 }
