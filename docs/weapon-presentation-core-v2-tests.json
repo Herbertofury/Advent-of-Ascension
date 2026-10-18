@@ -1,0 +1,51 @@
+{
+  "scope": "Engine-independent Java presentation core v2; not a mod, native adapter or FPS benchmark",
+  "compiler_target": 17,
+  "result": "pass on actual Java17 and21; same compiled classes",
+  "test_log": "javac 17.0.20.1\nopenjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)\nopenjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)\nPASS 300071 assertions; renderer-independent Java core only\nPASS 20027 assertions; cosmetic identity/window checks only, no gameplay deduplication\nPASS 69908 assertions; 400 scheduled requests at each simulated 20\u20132000 Hz cadence. No native FPS or visual-density acceptance.\nPASS FrameVisibilitySet 150118 assertions; visibility writes bounded by frame changes. Not native/render performance acceptance.\nopenjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)\nPASS 300071 assertions; renderer-independent Java core only\nPASS 20027 assertions; cosmetic identity/window checks only, no gameplay deduplication\nPASS 69908 assertions; 400 scheduled requests at each simulated 20\u20132000 Hz cadence. No native FPS or visual-density acceptance.\nPASS FrameVisibilitySet 150118 assertions; visibility writes bounded by frame changes. Not native/render performance acceptance.\n",
+  "sources": [
+    {
+      "path": "src/main/java/dev/herbertofury/armory/presentation/EmissionClock.java",
+      "sha256": "76b95ae13a438bc100ed5e33b91a09b924d5ac601b6fcf84504132ca7e192f33"
+    },
+    {
+      "path": "src/main/java/dev/herbertofury/armory/presentation/FrameVisibilitySet.java",
+      "sha256": "9f8a815572f8c451b302129e79404c4998f171c4260903971d553dd62adeef11"
+    },
+    {
+      "path": "src/main/java/dev/herbertofury/armory/presentation/ImpactVisualLedger.java",
+      "sha256": "5cb3d82cce8b0b981d73f370944be81c6a2578a874a6b330c7dbc6979ca13f5e"
+    },
+    {
+      "path": "src/main/java/dev/herbertofury/armory/presentation/SoulSightFrame.java",
+      "sha256": "c839188aa99c1216b09925aa40833375d6346c784c6c3c50953fa8cb036dbc65"
+    },
+    {
+      "path": "src/test/java/dev/herbertofury/armory/presentation/EmissionClockTest.java",
+      "sha256": "d8e0263f9ea4a12d3ef6822d4f08bb488f559686ab018f43aea09275f53f6c03"
+    },
+    {
+      "path": "src/test/java/dev/herbertofury/armory/presentation/FrameVisibilitySetTest.java",
+      "sha256": "73f8905ca8b8917fe913cb19dfba976d65f174e8e73c4236fb6fae25e8d8d3a6"
+    },
+    {
+      "path": "src/test/java/dev/herbertofury/armory/presentation/ImpactVisualLedgerTest.java",
+      "sha256": "21c54039d95ba5e9d3bc45ec8d1f205f343691ce84e98a556feedfcd2120d221"
+    },
+    {
+      "path": "src/test/java/dev/herbertofury/armory/presentation/SoulSightFrameTest.java",
+      "sha256": "ef5311c9263d22179139f56b1942304175e8e3162ff3573f16fa4301c5395744"
+    }
+  ],
+  "upstream_reference": {
+    "pin": "b482eff8c94a733ac8d0910193fca3893954027c",
+    "BedrockPart_sha256": "312b920bcfd134f61bd16e271b26ee84f121d1a9b7343d034a3b27baaeb992e3",
+    "finding": "The inspected render path gates on visible and compiles nonempty parts; zero scale alone is not a visibility early-out."
+  },
+  "archive_sha256": "5e8749c01c6b01aa08ea92e61ba171b85c4a22690443c29181b40f487527b16c",
+  "archive_bytes": 12730,
+  "clean_extraction_test": {
+    "status": "pass",
+    "log": "javac 17.0.20.1\nPASS 300071 assertions; renderer-independent Java core only\nPASS 20027 assertions; cosmetic identity/window checks only, no gameplay deduplication\nPASS 69908 assertions; 400 scheduled requests at each simulated 20\u20132000 Hz cadence. No native FPS or visual-density acceptance.\nPASS FrameVisibilitySet 150118 assertions; visibility writes bounded by frame changes. Not native/render performance acceptance.\nPASS 300071 assertions; renderer-independent Java core only\nPASS 20027 assertions; cosmetic identity/window checks only, no gameplay deduplication\nPASS 69908 assertions; 400 scheduled requests at each simulated 20\u20132000 Hz cadence. No native FPS or visual-density acceptance.\nPASS FrameVisibilitySet 150118 assertions; visibility writes bounded by frame changes. Not native/render performance acceptance.\n\nopenjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)\nopenjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)\nopenjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)\n"
+  }
+}

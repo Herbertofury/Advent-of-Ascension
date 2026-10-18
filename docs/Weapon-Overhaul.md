@@ -18,6 +18,8 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 [Illustrated Divine Station upgrades for 1.20.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.20.1): all 70 shipped routes, exact ingredients, source sprites and customization-preservation caveats.
 
+[Ammunition Desk for 1.20.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Ammunition-1.20.1): illustrated lookup for 172 conventional weapon IDs and 13 base ammo identities, resolved through inherited methods. Net consumption and effects remain separate contracts.
+
 ## Explore the weapon profiles
 
 | Weapon | Read the original behavior and proposed upgrade |
