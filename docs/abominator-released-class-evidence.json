@@ -1,0 +1,153 @@
+{
+  "class": "net/tslat/aoa3/content/item/weapon/gun/Abominator.class",
+  "sha256": "dda442f0a8949aa4916819dda24ce14bae2b2432c586384df2373ded9fc97e89",
+  "super_class": "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+  "methods": [
+    {
+      "name": "<init>",
+      "descriptor": "(FIIF)V",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 42
+        },
+        {
+          "offset": 1,
+          "opcode": 35
+        },
+        {
+          "offset": 2,
+          "opcode": 28
+        },
+        {
+          "offset": 3,
+          "opcode": 29
+        },
+        {
+          "offset": 4,
+          "opcode": 23,
+          "operands": [
+            4
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 183,
+          "member": [
+            "net/tslat/aoa3/content/item/weapon/gun/BaseGun",
+            "<init>",
+            "(FIIF)V"
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 177
+        }
+      ]
+    },
+    {
+      "name": "getFiringSound",
+      "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+      "instructions": [
+        {
+          "offset": 0,
+          "opcode": 178,
+          "member": [
+            "net/tslat/aoa3/common/registration/AoASounds",
+            "ITEM_GUN_GENERIC_FIRE_1",
+            "Lnet/minecraftforge/registries/RegistryObject;"
+          ]
+        },
+        {
+          "offset": 3,
+          "opcode": 182,
+          "member": [
+            "net/minecraftforge/registries/RegistryObject",
+            "get",
+            "()Ljava/lang/Object;"
+          ]
+        },
+        {
+          "offset": 6,
+          "opcode": 192,
+          "operands": [
+            0,
+            34
+          ]
+        },
+        {
+          "offset": 9,
+          "opcode": 176
+        }
+      ]
+    }
+  ],
+  "runtime_tested": false,
+  "registration": {
+    "id": "aoa3:abominator",
+    "family": "gun",
+    "factories": [
+      {
+        "factory": "lambda$static$14",
+        "code_sha256": "5f9829d469fd64e41aa4e0f0f70fdc52234ee09e0206fe5a4248f18a7363141e",
+        "constructor": [
+          "net/tslat/aoa3/content/item/weapon/gun/Abominator",
+          "<init>",
+          "(FIIF)V"
+        ],
+        "literal_arguments": [
+          2.625,
+          4720,
+          3,
+          0.800000011920929
+        ],
+        "status": "literal inputs recovered",
+        "unresolved_instructions": []
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "recipes": {
+    "data/aoa3/recipes/infusion_abominator.json": {
+      "type": "aoa3:infusion",
+      "ingredients": [
+        {
+          "item": "aoa3:ghoulasm"
+        },
+        {
+          "tag": "forge:ingots/ghastly"
+        },
+        {
+          "tag": "forge:ingots/ghastly"
+        },
+        {
+          "tag": "forge:ingots/ghoulish"
+        },
+        {
+          "tag": "forge:ingots/ghoulish"
+        },
+        {
+          "tag": "forge:ingots/iron"
+        }
+      ],
+      "input": {
+        "item": "aoa3:gun_frame"
+      },
+      "result": {
+        "item": "aoa3:abominator"
+      }
+    },
+    "data/aoa3/recipes/upgrade_kit_iominator.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:abominator"
+      },
+      "result": {
+        "item": "aoa3:iominator"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:ancient_upgrade_kit"
+      }
+    }
+  }
+}
