@@ -10,9 +10,13 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 ## Reproduce the authoring checks
 
-[Run the 21 scoped test suites from clean source archives](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Authoring-Reproducibility). Exact input hashes and corrected Baronator fixture packaging are included. These are authoring tests, not native game or visual acceptance.
+[Run the 21 scoped test suites from clean source archives](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Authoring-Reproducibility). Includes exact input hashes and the corrected Baronator fixture packaging. These are authoring checks, not native game or visual-quality acceptance.
 
 [Search all 228 first-target weapon implementations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Implementation-Map): actual class chains, declared methods and source hashes. Structural coverage is not finished model/gameplay coverage.
+
+[Reusable Java presentation core](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Presentation-Core): sight timing, branch-aware cosmetic events and bounded game-time emission. Pure-core tests pass; native integration and visual acceptance remain open.
+
+[Illustrated Divine Station upgrades for 1.20.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.20.1): all 70 shipped routes, exact ingredients, source sprites and customization-preservation caveats.
 
 ## Explore the weapon profiles
 
@@ -25,6 +29,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Soul Drainer | [Full profile and life-leech contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
 | Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile) |
 | Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) |
+| Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Iominator-Weapon-Profile) |
 | Hive Blaster | [Full profile, renderer caveats and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile) |
 
 The weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.

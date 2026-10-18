@@ -1,0 +1,55 @@
+{
+  "minecraft": "1.20.1",
+  "aoa": "3.7.1",
+  "item": "aoa3:iominator",
+  "inputs": {
+    "base_damage": 2.875,
+    "durability": 6000,
+    "delay_ticks": 3,
+    "recoil_argument": 0.949999988079071
+  },
+  "class_sha256": {
+    "net/tslat/aoa3/content/item/weapon/gun/Iominator.class": "387abede3de893ab537c915faf77ad82dfec29db76ff3a0f42de9218372cfb38",
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net/tslat/aoa3/content/entity/projectile/gun/ToxicBulletEntity.class": "f6d80bf5db516b3fbf326c01b1fb7007c579b832c27bd008f0f3a8bb587fa938",
+    "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "net/tslat/aoa3/client/render/entity/projectile/bullets/ToxicBulletRenderer.class": "03724d25c2f730c9e3c62bb910889816cf2e8dbf69b23ac3a77fabe62a227464",
+    "net/tslat/aoa3/client/AoAEntityRendering.class": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee",
+    "net/tslat/aoa3/common/registration/item/AoAWeapons.class": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703"
+  },
+  "recipe": {
+    "type": "aoa3:upgrade_kit",
+    "input": {
+      "item": "aoa3:abominator"
+    },
+    "result": {
+      "item": "aoa3:iominator"
+    },
+    "upgrade_kit": {
+      "item": "aoa3:ancient_upgrade_kit"
+    }
+  },
+  "projectile": {
+    "class": "ToxicBulletEntity",
+    "lifespan_input": 120,
+    "damage_multiplier_input": 1.0,
+    "pierce_input": 0,
+    "class_local_impact_overrides": false
+  },
+  "renderer": {
+    "factory": "lambda$static$100",
+    "bootstrap": 231,
+    "texture": "assets/aoa3/textures/entity/projectile/bullets/limonite_bullet.png",
+    "particles_per_render_call": 8,
+    "type": "FLICKERING_SPARKLER",
+    "colour": "ColourUtil.GREEN",
+    "scale": 1.0,
+    "age_modifier": 3.0
+  },
+  "limitations": [
+    "No native gameplay executed",
+    "Class name Toxic is not evidence of a poison status effect",
+    "Exact in-game flight and impact footage missing",
+    "No effective DPS or performance measurement"
+  ]
+}
