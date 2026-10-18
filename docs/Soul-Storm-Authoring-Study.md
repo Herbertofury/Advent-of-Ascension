@@ -18,6 +18,7 @@ The redesign uses a visible suspended spirit core, a clear channel and open reso
 
 - Static inspection pose, turning spirit core, fire pulse, draw, put-away, inspect and cosmetic recovery clips.
 - A separate original damped cosmetic response retains its current pose on rapid retrigger instead of snapping back to the first frame. The response is bounded and never authorizes a shot, resource payment or damage.
+- Optional cosmetic spirit wisps use a fixed 24-slot pool, finite lifetimes and limited opacity. They are disabled by default and do not flash the screen. This is preview feedback, not an installed native particle implementation.
 - The preview sleeps when static or settled, pauses correctly and respects reduced-motion startup. It uses a flat-color authoring renderer; it does not represent Minecraft lighting or final effects.
 
 ## What the tests actually establish
@@ -27,6 +28,7 @@ The redesign uses a visible suspended spirit core, a clear channel and open reso
 | Moving core, ring and emitter against exported solids | 1,135 sampled poses, zero detected penetrations | 120 Hz plus authored keys; not continuous collision proof |
 | Right-arm proxy clearance | 1,123 poses each for Steve-width and Alex-width boxes | Named palm/grip contact allowed; actual hands, skin, FOV and left-hand choreography unqualified |
 | Cosmetic response | Partition-consistent damped integration; pose-continuous retrigger; bounded 20 Hz sequence and impulse spam; settles at rest | Original response model, not native recoil/gameplay |
+| Cosmetic wisps | Deterministic trajectories, partition consistency, bounded burst spam, expiry and clear tests pass | Fixed preview pool; native resource/shader integration open |
 | Viewer controls | Seven records, static idle, pulse, retrigger, pause/resume and settled rendering verified in Node harness | Real browser review separate; no native game certification |
 | Source archive | Clean extraction regenerates the viewer byte-for-byte and reruns scoped tests | Requires Python/Pillow and Node; not a mod installer |
 
