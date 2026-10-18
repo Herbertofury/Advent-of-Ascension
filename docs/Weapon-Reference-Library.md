@@ -8,25 +8,25 @@
 
 ## AoA originals to preserve during an overhaul
 
-[Buy historical weapons: 29 trader offers, input quantities and cannon upgrades](Buying-Weapons-and-Trader-Upgrades-1.12.2)
+[Buy historical weapons: 29 trader offers, input quantities and cannon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Buying-Weapons-and-Trader-Upgrades-1.12.2)
 
-[Acquisition atlas for all 412 historical weapons](Historical-Weapon-Acquisition-1.12.2): exact recipes, direct loot-table references, trader candidates and clearly marked unresolved routes.
+[Acquisition atlas for all 412 historical weapons](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Weapon-Acquisition-1.12.2): exact recipes, direct loot-table references, trader candidates and clearly marked unresolved routes.
 
 Before redesigning a weapon, compare its original appearance and release-specific resource behavior. These illustrated **1.12.2 / AoA 3.3.6** tables now place a checked source-model portrait beside every listed weapon name:
 
-- [36 swords: material and attack inputs](Sword-Materials-and-Attack-Inputs-1.12.2)
-- [29 greatblades: inputs and variable damage branches](Greatblade-Inputs-and-Damage-Branches-1.12.2)
-- [5 mauls: reach and knockback inputs](Maul-Inputs-Reach-and-Knockback-1.12.2)
-- [78 guns: constructor inputs and recoil](Gun-Constructor-Inputs-and-Recoil-1.12.2)
-- [17 shotguns: pellets, spread and special effects](Shotgun-Pellets-Spread-and-Special-Effects-1.12.2)
-- [27 snipers: stance, scopes and inputs](Sniper-Stance-Scopes-and-Inputs-1.12.2)
-- [50 cannons: ammunition and armor scaling](Cannon-Ammunition-and-Armor-Scaling-1.12.2)
-- [33 bows: draw timing and ammunition](Bow-Draw-Timing-and-Ammunition-1.12.2)
-- [9 archerguns: trajectories and effects](Archergun-Ammunition-and-Special-Effects-1.12.2)
-- [7 throwables: payment, impacts and Runic Bombs](Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2)
-- [8 vulcanes: stored revenge targets and effects](Vulcanes-Revenge-Targets-and-Effects-1.12.2)
-- [56 blasters: Energy, timing and Spark exceptions](Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2)
-- [57 staves: rune costs and hand safety](Staff-Runes-Casting-and-Hand-Safety-1.12.2), with [29 custom casting requirements](Staff-Casting-Requirements-and-Troubleshooting-1.12.2)
+- [36 swords: material and attack inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sword-Materials-and-Attack-Inputs-1.12.2)
+- [29 greatblades: inputs and variable damage branches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Greatblade-Inputs-and-Damage-Branches-1.12.2)
+- [5 mauls: reach and knockback inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Maul-Inputs-Reach-and-Knockback-1.12.2)
+- [78 guns: constructor inputs and recoil](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2)
+- [17 shotguns: pellets, spread and special effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Pellets-Spread-and-Special-Effects-1.12.2)
+- [27 snipers: stance, scopes and inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sniper-Stance-Scopes-and-Inputs-1.12.2)
+- [50 cannons: ammunition and armor scaling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Ammunition-and-Armor-Scaling-1.12.2)
+- [33 bows: draw timing and ammunition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-Draw-Timing-and-Ammunition-1.12.2)
+- [9 archerguns: trajectories and effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Archergun-Ammunition-and-Special-Effects-1.12.2)
+- [7 throwables: payment, impacts and Runic Bombs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2)
+- [8 vulcanes: stored revenge targets and effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vulcanes-Revenge-Targets-and-Effects-1.12.2)
+- [56 blasters: Energy, timing and Spark exceptions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2)
+- [57 staves: rune costs and hand safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2), with [29 custom casting requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Casting-Requirements-and-Troubleshooting-1.12.2)
 
 These 412 portraits preserve existing source-model atlas pixels. They cover all 412 direct weapon constructors in the checked 1.12.2 WeaponRegister method, with [exact identity and family evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-weapon-census-1.12.2.json). This does not certify every effect, runtime-injected addon item, new animated remodel or in-game renderer. Keep version differences explicit and retain optional reloading rather than imposing magazines on rune/resource weapons.
 

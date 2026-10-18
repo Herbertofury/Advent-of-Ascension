@@ -1,0 +1,20 @@
+{
+  "sha256": "88e99acf9e03a42ab7f19977ff31191e30b8d646bdd6db106513add092dc4b10",
+  "bytes": 4726,
+  "tests": {
+    "test_customization_contract.cjs": {
+      "tests": 14,
+      "status": "pass",
+      "scope": "Standalone design validation only; no native game integration or performance acceptance"
+    },
+    "test_inspection_timeline.cjs": {
+      "status": "pass",
+      "cadenceCases": 4,
+      "stallCases": 2,
+      "cancellationPoints": 7,
+      "scope": "Presentation timing only; native pose blending, input priority and effects cleanup require game integration"
+    }
+  },
+  "native_runtime_tested": false,
+  "clean_extraction_retest": "pass"
+}

@@ -27,3 +27,7 @@ These are required designs, not completed native attachments. Earlier gem-forwar
 ![Soul Flame default; Soul Candle and Soul Gem optional](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sight-concepts-v1.png)
 
 The lower strip illustrates animation key poses, not an actual animation clip. The first-person vignette is generated concept art, not in-game capture or proof of aim alignment.
+
+[Source-backed native renderer plan](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Flame-Native-Renderer-Plan) explains the actual functional-bone hook, hidden-node caveat and required runtime tests.
+
+[Original playful inspection storyboard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Inspection-Storyboard).

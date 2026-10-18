@@ -7,7 +7,7 @@
 | Collection | Video | Verification status |
 |---|---|---|
 | Black Ops 6 Mastercraft inspections | [Dan Allen Gaming showcase](https://www.youtube.com/watch?v=qJkyqb7ycjo) | Page/title and 10:04 duration verified in browser; frame-by-frame inspection pending because playback buffered |
-| COD Mobile Mythic inspections, reloads and kill effects | [26-weapon showcase supplied by the owner](https://www.youtube.com/watch?v=pdK11eIggOI) | Correct separate video/title and 14:32 duration verified; visual sequence review pending |
+| COD Mobile Mythic inspections, reloads and kill effects | [BULLSSYY’s 26-weapon showcase](https://www.youtube.com/watch?v=pdK11eIggOI) | Separate video/title, BULLSSYY channel, 1 February 2025 publication and 14:32 duration verified; visual sequence review pending |
 
 The first video's publication date is 8 August 2025 according to its indexed metadata. “All” in a showcase title is scoped to that video's coverage, not proof that it includes every later release. The full BO6 reference goal therefore includes reconciling the video against later official releases. Do not invent timestamps, weapon names or observed animation actions when footage has not actually played.
 
