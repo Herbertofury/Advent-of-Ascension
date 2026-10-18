@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "observedAt": "2026-10-18T14:48:53.864226+00:00",
+  "evidenceKind": "owner-local-whole-source-and-target-jdk-diagnostic",
+  "analysisOnly": true,
+  "importedCodeOrAssetsPublished": false,
+  "originalArtifact": {
+    "bytes": 74099070,
+    "sha256": "5f2d29610d94aa083a74c34ed6a82cdbe25afa1b134cee6449c6595a50dbfbc6"
+  },
+  "sourceRecovery": {
+    "originalPhysicalEntries": 9066,
+    "originalClasses": 4043,
+    "selectedWholeSourceFiles": 3952,
+    "selectedProviders": {
+      "vineflower": 3405,
+      "cfr": 547
+    },
+    "primaryFailuresRetained": true,
+    "snapshotOnlyOriginalClasses": 354,
+    "snapshotOnlyWholeSourceFiles": 347
+  },
+  "sourceArchive": {
+    "bytes": 5718875,
+    "sha256": "40bd6b23659a6f2f04e181a2fc16261fd9987820dd266c46e8efc25679d8a5e7"
+  },
+  "generatedBrokenControls": [
+    {
+      "control": "missing-original-class",
+      "generatedFault": true,
+      "rejected": true,
+      "reason": "Empty or repeated source class ownership"
+    },
+    {
+      "control": "unproved-runtime-claim",
+      "generatedFault": true,
+      "rejected": true,
+      "reason": "Source recovery cannot certify compilation or behavior"
+    },
+    {
+      "control": "missing-selected-source",
+      "generatedFault": true,
+      "rejected": true,
+      "reason": "Missing, duplicated or changed selected source: version-0/java/net/nevermine/assist/AddBusses.java"
+    },
+    {
+      "control": "changed-selected-source",
+      "generatedFault": true,
+      "rejected": true,
+      "reason": "Missing, duplicated or changed selected source: version-0/java/net/nevermine/assist/AddBusses.java"
+    }
+  ],
+  "target": {
+    "java": 17,
+    "loader": "forge",
+    "loader_version": "47.4.23",
+    "minecraft": "1.20.1"
+  },
+  "targetJdkDiagnostic": {
+    "passed": true,
+    "completeSourceFiles": 77,
+    "nativeClasspathEntries": 123,
+    "emittedClassFiles": 77,
+    "compilerMs": 4413.7069999706,
+    "wholeNativeBuildVerified": false,
+    "nativeGameplayVerified": false,
+    "firstFailure": "Missing original six-argument setBlock adapter. Retained; fixed with explicit original vine metadata and flags, without deleting statements."
+  },
+  "completeProgramCohort": {
+    "dimensions": [
+      "Ethereus",
+      "Everland",
+      "Playtopia"
+    ],
+    "originalTerrainAndStructurePrograms": 74,
+    "nativeApiAdapters": 3,
+    "requiredOriginalBlockFields": 49,
+    "originalBlockImplementationOwners": 13,
+    "exactOriginalTextures": 52,
+    "missingExactOriginalTextures": 0,
+    "originalAnimationMetadataRetained": true,
+    "nativeDimensionsRegistered": false,
+    "blockBindingsAdmitted": false
+  },
+  "localReceipts": [
+    {
+      "file": "independent-complete-snapshot-source-candidates.json",
+      "bytes": 2322,
+      "sha256": "6030802dee4ffbab0f3509cae4e1c592a716921b219cc4547275824a3d51f709"
+    },
+    {
+      "file": "normal-bounded-whole-reconstruction-receipt.json",
+      "bytes": 2588,
+      "sha256": "d937bb22c5a8f593cc50b42589c892a48d7cea79fec60420e52cda34b3d9947d"
+    },
+    {
+      "file": "complete-target-jdk-dimension-program-diagnostic.json",
+      "bytes": 11052332,
+      "sha256": "d795416cb4272b3e1b7a3745240932fe8600cfb1ad79777402f8e31f2bae49e9"
+    },
+    {
+      "file": "complete-target-jdk-dimension-program-diagnostic-v94b.json",
+      "bytes": 11062246,
+      "sha256": "07e7a81ee53c10cf382a377c8b53ad01de0ce3e4cc259fb80dd4f13d11bf573a"
+    },
+    {
+      "file": "complete-snapshot-dimension-programs-plan-v94b.json",
+      "bytes": 27708654,
+      "sha256": "25d4ed272d141c0ee07fe1d8ecdad309d8cd09b09e5797a4ea638fcec1495ff3"
+    },
+    {
+      "file": "complete-snapshot-dimension-block-reconciliation.json",
+      "bytes": 102577,
+      "sha256": "9b325b00553cdf425e437beb2da2e09cf5749c661d9f618a02a3f8184c2942de"
+    }
+  ],
+  "currentPlayableUnchanged": {
+    "filename": "aoa3-3.7.1.jar",
+    "bytes": 147303713,
+    "sha256": "a85b1b8a08e15acced88f5d310670d23b1ae3103c4908ee098b03cd3c7ee6099",
+    "acceptance": "Existing v93 native/client/server/production proof remains authoritative"
+  },
+  "originalSourceFidelityVerified": false,
+  "semanticEquivalenceVerified": false,
+  "completeAoAPort": false,
+  "releaseReady": false,
+  "sustained2000FpsVerified": false,
+  "openGates": [
+    "Canonical bindings and complete block/asset/behavior reconciliation for all 49 original fields",
+    "Seeded isolated RNG ownership for native parallel chunk generation; original RNG programs are retained in this candidate",
+    "Native biome/dimension/portal/progression and entity dependencies",
+    "Native vine canopy/neighbor-state and metadata behavior differential acceptance",
+    "Complete terrain, structure and behavior differential acceptance before activation"
+  ],
+  "scope": "Complete original source availability and lineage plus target-JDK diagnostic compilation for a whole missing dimension cohort. This is not native gameplay acceptance, a playable v94 release, or full AoA merge completion."
+}
