@@ -1,0 +1,49 @@
+{
+  "release": "TaCZ 1.1.8-hotfix2 / Forge1.20.1",
+  "jar_sha512": "fa8b4bd4a7a0835092bccbb28a18461642d4e7a2f6fdb762ac4978d4dbc31d1f0f61c685343a61607dce3d1cd89f4314b61a9f8811960b9d0604692ac3fff96d",
+  "released_class_count": 18,
+  "model_files": 8,
+  "unique_model_hashes": 7,
+  "animation_files": 8,
+  "unique_animation_hashes": 7,
+  "results": [
+    {
+      "java": "openjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)",
+      "check": "ModelParserCheck",
+      "stdout": "PARSED 01-baronator_geo.json bones=27 cubes=103\nPARSED 02-baronator_geo.json bones=24 cubes=103\nPARSED 03-baronator_geo.json bones=41 cubes=132\nPARSED 04-baronator_geo.json bones=41 cubes=132\nPARSED 05-minigun_geo.json bones=27 cubes=300\nPARSED 06-minigun_geo.json bones=20 cubes=302\nPARSED 07-soul_storm_geo.json bones=19 cubes=77\nPARSED 08-iominator_geo.json bones=10 cubes=236\nPASS six-direction getFace mapping fixture; not world-space orientation proof.\nPASS isolated released TaCZ POJO bytecode: 8 models, 1385 cuboids, mirror fixture. Direction is a harness stand-in; no native renderer/game acceptance.\n",
+      "stderr": ""
+    },
+    {
+      "java": "openjdk version \"17.0.20.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS)\nOpenJDK 64-Bit Server VM Corretto-17.0.20.12.1 (build 17.0.20.1+12-LTS, mixed mode, sharing)",
+      "check": "AnimationParserCheck",
+      "stdout": "PARSED 01-baronator.animation.json clips=15\nPARSED 02-baronator.animation.json clips=12\nPARSED 03-baronator.animation.json clips=20\nPARSED 04-baronator.animation.json clips=20\nPARSED 05-minigun.animation.json clips=12\nPARSED 06-minigun.animation.json clips=11\nPARSED 07-soul_storm.animation.json clips=7\nPARSED 08-iominator.animation.json clips=4\nPASS isolated released TaCZ animation bytecode: 8 files, 101 clips, 1162 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n",
+      "stderr": ""
+    },
+    {
+      "java": "openjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)",
+      "check": "ModelParserCheck",
+      "stdout": "PARSED 01-baronator_geo.json bones=27 cubes=103\nPARSED 02-baronator_geo.json bones=24 cubes=103\nPARSED 03-baronator_geo.json bones=41 cubes=132\nPARSED 04-baronator_geo.json bones=41 cubes=132\nPARSED 05-minigun_geo.json bones=27 cubes=300\nPARSED 06-minigun_geo.json bones=20 cubes=302\nPARSED 07-soul_storm_geo.json bones=19 cubes=77\nPARSED 08-iominator_geo.json bones=10 cubes=236\nPASS six-direction getFace mapping fixture; not world-space orientation proof.\nPASS isolated released TaCZ POJO bytecode: 8 models, 1385 cuboids, mirror fixture. Direction is a harness stand-in; no native renderer/game acceptance.\n",
+      "stderr": ""
+    },
+    {
+      "java": "openjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)",
+      "check": "AnimationParserCheck",
+      "stdout": "PARSED 01-baronator.animation.json clips=15\nPARSED 02-baronator.animation.json clips=12\nPARSED 03-baronator.animation.json clips=20\nPARSED 04-baronator.animation.json clips=20\nPARSED 05-minigun.animation.json clips=12\nPARSED 06-minigun.animation.json clips=11\nPARSED 07-soul_storm.animation.json clips=7\nPARSED 08-iominator.animation.json clips=4\nPASS isolated released TaCZ animation bytecode: 8 files, 101 clips, 1162 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n",
+      "stderr": ""
+    }
+  ],
+  "stand_ins": [
+    "Direction: six-value enum",
+    "GsonHelper.m_13888_: numeric conversion only",
+    "GunMod and narrow Logger: diagnostic sink only",
+    "ResourceLocation: unused POJO type placeholder"
+  ],
+  "limits": [
+    "No Forge/Minecraft boot or mod entrypoint",
+    "No real renderer, interpolation, sound effects, hand rig, gameplay or performance acceptance",
+    "Eight historical JSON variants represent four weapon identities; not eight completed weapons",
+    "Soul Storm v13 Blender mesh is not one of these TaCZ JSON inputs"
+  ],
+  "clean_archive_extraction": "PASS: clean source/fixture extraction, hash-validated dependency cache, both JVMs",
+  "archive_sha256": "b8d3aa1c7493271c728779f87e93c0c3cbb0c783fac2dc38c473e46a2a7a2865"
+}

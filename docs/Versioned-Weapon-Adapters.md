@@ -4,7 +4,7 @@
 
 ## Execution-time upstream refresh
 
-Checked 18 October 2026: official AoA default branch `1.21` at `7919b5fe48599e6105c5740937ce36c36ef21d16`; all 46 files under its changelog directory were retrieved and hashed. The official Modrinth production release is **3.7.16.1 for Minecraft 1.21.1**, published 6 January 2026. The latest TaCZ GitHub release returned by its latest endpoint is **1.1.8-hotfix**, published 25 May 2026. These are separate upstreams, not a statement that both work together on 1.21.1.
+Checked 18 October 2026: official AoA default branch `1.21` at `7919b5fe48599e6105c5740937ce36c36ef21d16`; all 46 files under its changelog directory were retrieved and hashed. The official Modrinth production release is **3.7.16.1 for Minecraft 1.21.1**, published 6 January 2026. The latest TaCZ GitHub release returned by its latest endpoint is **1.1.8-hotfix**, published 25 May 2026. The official production listing is newer: **TaCZ 1.1.8-hotfix2 for Forge 1.20.1**, published 2 October 2026 ([file 9037989](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero/files/9037989)). Its changelog includes a backported vulnerability fix. GitHub latest-release metadata alone is insufficient for a production pin. These are separate upstreams, not a statement that both work together on 1.21.1.
 
 [Official AoA repository](https://github.com/Tslat/Advent-Of-Ascension) · [AoA release](https://modrinth.com/mod/adventofascension/version/vIo8vp51) · [TaCZ hotfix](https://github.com/MCModderAnchor/TACZ/releases/tag/1.1.8-hotfix) · [Refresh receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-upstream-refresh-20261018.json)
 
@@ -64,3 +64,5 @@ Read the implementation boundaries before making an editor:
 The newer AoA hotfix specifically lists scope customization, semi-auto and Ammo Void Pouch fixes. The TaCZ hotfix also lists a held-trigger charging fix and an ammo-box consumption fix. Include these as regression targets rather than assuming a compatibility layer inherits the fixes automatically. [AoA changelog](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/changelogs/3.7.16.1.md) · [TaCZ changelog](https://github.com/MCModderAnchor/TACZ/releases/tag/1.1.8-hotfix)
 
 Original upstream source remains with its authors. This page publishes factual schema observations and original integration planning, not a redistribution of their source or game JARs.
+
+[Actual released TaCZ model/animation parser checks](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Released-Parser-Check) now exercise the hotfix2 class bytes with explicit isolated-harness boundaries.

@@ -38,3 +38,8 @@ This second harness has explicit stand-ins for numeric GsonHelper conversion, di
 A useful source-level boundary is now tested: the pinned serializer does not evaluate Molang-style strings. A standalone expression yields an empty channel; a string inside a vector becomes zero with a diagnostic. Our authored numeric assets must not silently rely on such strings for procedural motion. Dynamic Soul Flame frame selection therefore still needs the explicit native adapter described in its plan; a generic exported expression is not proof that it will animate.
 
 [Animation parsing receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tacz-animation-parser-isolated-check.json) · [Numeric animation harness and original fixtures](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/tacz-animation-parser-check-tool-v1.zip)
+
+
+## Newer check against released bytecode
+
+[Actual TaCZ 1.1.8-hotfix2 parser study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Released-Parser-Check) uses 18 unchanged class files from the official released JAR. The earlier source-compiled studies remain valid historical evidence. Both approaches retain explicit stand-ins and do not certify a native game.
