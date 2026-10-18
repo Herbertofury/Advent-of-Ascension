@@ -1,15 +1,20 @@
 # Mastercraft and Mythic weapon animation references
 
-**Owner-selected major reference collections.** Study the entire Black Ops 6 Mastercraft collection and the supplied COD Mobile Mythic showcase for imaginative weapon design, distinctive inspections, transformations, reload presentation, reactive materials and defeat effects. Also include relevant playful weapons from other COD titles as the reference catalogue grows. Translate those qualities into original AoA designs.
+**Owner-selected major reference collections.** Study the entire Black Ops 6 and Black Ops 7 Mastercraft collections and the supplied COD Mobile Mythic showcase for imaginative weapon design, distinctive inspections, transformations, reload presentation, reactive materials and defeat effects. Also include relevant playful weapons from other COD titles as the reference catalogue grows. Translate those qualities into original AoA designs.
 
-## The two requested showcases
+## Requested showcase collections
 
 | Collection | Video | Verification status |
 |---|---|---|
 | Black Ops 6 Mastercraft inspections | [Dan Allen Gaming showcase](https://www.youtube.com/watch?v=qJkyqb7ycjo) | Page/title and 10:04 duration verified in browser; frame-by-frame inspection pending because playback buffered |
+| Black Ops 7 Mastercraft weapons | [Showcase matching the requested title](https://www.youtube.com/watch?v=9UCxE7kgzvE) | Located by title; full visual review and later-release reconciliation pending |
 | COD Mobile Mythic inspections, reloads and kill effects | [BULLSSYY’s 26-weapon showcase](https://www.youtube.com/watch?v=pdK11eIggOI) | Separate video/title, BULLSSYY channel, 1 February 2025 publication and 14:32 duration verified; visual sequence review pending |
 
 The first video's publication date is 8 August 2025 according to its indexed metadata. “All” in a showcase title is scoped to that video's coverage, not proof that it includes every later release. The full BO6 reference goal therefore includes reconciling the video against later official releases. Do not invent timestamps, weapon names or observed animation actions when footage has not actually played.
+
+## Black Ops 7: full collection goal
+
+Include all BO7 Mastercraft weapons, inspections, transformations, reactive presentation, tracers and defeat effects. The [official Vault Edition page](https://www.callofduty.com/en/blackops7/vault-edition) identifies a five-weapon starting collection; that is not the whole later catalogue. The [official Season 3 announcement](https://www.callofduty.com/blog/2026/03/call-of-duty-black-ops-7-warzone-season-03-announcement.html?pubDate=20260328) names the Maglev Mastercraft, and [Season 4](https://www.callofduty.com/uk/en/blog/2026/06/call-of-duty-black-ops-7-warzone-season-04-announcement.html) names Cardiac Arrest. Track seasonal additions separately before claiming exhaustive coverage.
 
 ## Officially documented examples to investigate
 
@@ -47,6 +52,7 @@ These are our design proposals, not descriptions of the COD videos.
 
 ## Complete-reference ledger still to build
 
+- [ ] Catalogue every BO7 Mastercraft, including later seasonal releases, with verified sources and inspection timestamps.
 - [ ] Catalogue every BO6 Mastercraft with base weapon, blueprint name and release source.
 - [ ] Record verified timestamped inspection beats from the supplied BO6 video.
 - [ ] Catalogue the 26 weapons covered by the supplied COD Mobile video, with verified inspection/reload/defeat-effect timestamps.

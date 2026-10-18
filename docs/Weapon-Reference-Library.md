@@ -91,9 +91,10 @@ The [ArsArms and IronsArms source-and-release study](https://github.com/Herberto
 
 ## Mastercraft and Mythic animation collections
 
-Owner-selected major design references: the full BO6 Mastercraft collection and the supplied COD Mobile Mythic showcase, plus other playful COD weapons. Study distinctive inspections, transformation reveals, reactive materials, reload presentation, tracers and defeat effects.
+Owner-selected major design references: the full BO6 and BO7 Mastercraft collections and the supplied COD Mobile Mythic showcase, plus other playful COD weapons. Study distinctive inspections, transformation reveals, reactive materials, reload presentation, tracers and defeat effects.
 
 - [BO6 Mastercraft inspections](https://www.youtube.com/watch?v=qJkyqb7ycjo)
+- [BO7 Mastercraft weapons: matching-title showcase](https://www.youtube.com/watch?v=9UCxE7kgzvE)
 - [COD Mobile Mythic inspections, reloads and kill effects](https://www.youtube.com/watch?v=pdK11eIggOI)
 - [Verified official examples, AoA storyboard proposals and review ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mastercraft-and-Mythic-Animation-References)
 
