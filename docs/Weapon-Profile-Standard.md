@@ -21,3 +21,18 @@ Keep separate columns for original released-file values, proposed upgraded value
 ## Acceptance evidence
 
 Pin source and released artifacts. Describe exactly what was inspected. Link concept art, original authoring files, scoped geometry/animation tests and actual runtime evidence when available. No numeric QA pass can substitute for visual quality, and no concept image certifies a completed mod.
+
+
+## Trace effective behavior, not only constructor numbers
+
+For each profile, distinguish (1) a registration/constructor input, (2) the value or action reached through inherited and overridden methods, and (3) measured behavior in the actual game. Record the call chain and its conditions before presenting a value as gameplay truth.
+
+The released Discharge Shotgun is a useful regression case:
+
+- Its zero base-damage input does not mean zero damage: the impact path requests explosions.
+- With the normal weapon/living-owner conditions, the entity-hit handler calls the weapon impact method and then the projectile impact method. Their separate strength inputs must not be summed into a fictitious radius or guaranteed damage result. Block-hit behavior differs.
+- A stored recoil input of 13 is not an effective camera angle. The inspected inherited recoil getter returns 0.35 and its shot calculation has a zero-base-damage branch.
+- A lifespan input of 4 is not sufficient to claim an exact four-tick travel time: inspect the comparison, increment order and superclass tick before stating a bound. Actual distance additionally needs movement and collision verification.
+- A resource or LOD name in a display file does not prove the referenced asset exists or is selected at runtime. Resolve it from the actual pack and record fallback/override uncertainty.
+
+Add these distinctions to automated source checks where possible, preserve the original call ordering in compatibility mode, and require native regression tests before changing gameplay. [Discharge Shotgun evidence and profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile).
