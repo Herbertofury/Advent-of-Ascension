@@ -52,3 +52,6 @@ Original maintenance tools and factual source/runtime metadata are published her
 ## Renderer compatibility continuation
 
 The current playtest retains the complete Extraction/Anima foundation and all 24,103 preceding members. [Renderer compatibility acceptance](RENDERER-COMPATIBILITY-2026-10-17.md) records 24 actual OpenGL and 24 native Hari Vulkan overlay draws, clean standalone production checks, failed fixtures and limits. The 2,000 FPS objective and the full merge remain open.
+
+
+[Augury and all original tablet component progress](AUGURY-TABLETS-2026-10-17.md). Native server acceptance passes; the full client and acquisition gates remain open. The current playable release is unchanged.
