@@ -1,0 +1,55 @@
+{
+  "release": "AoA3.7.1 / Minecraft1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "item": "aoa3:apoco_rifle",
+  "distinct_from": "aoa3:apoco_assault_rifle",
+  "class_sha256": {
+    "net.tslat.aoa3.common.registration.item.AoAWeapons": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703",
+    "net.tslat.aoa3.content.item.weapon.gun.ApocoRifle": "522bc8d951706acb12fe83b4b0ad5a2589cbcaa1db5b599a0b0eee8a3cb2d56b",
+    "net.tslat.aoa3.content.item.weapon.gun.BaseGun": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net.tslat.aoa3.content.entity.projectile.gun.BaseBullet": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "net.tslat.aoa3.content.entity.projectile.gun.DischargeShotEntity": "d71b4334665a04cc01627a5819eaddbd7390d5e58239398af014dac4f040fa38"
+  },
+  "asset_sha256": {
+    "assets/aoa3/textures/item/apoco_rifle.png": "532380bae8511c2e6fa716f10c60d1823020cc6e0efd6fc9ea65ef9707fc5a86",
+    "assets/aoa3/textures/entity/projectile/bullets/discharge_shot.png": "e505928a3b120d3f693b1c6da009adfd94dfa7bcb00c8938fcbfb05a67ce9d44"
+  },
+  "inputs": {
+    "damage": 2.5,
+    "durability": 5960,
+    "delay_ticks": 6,
+    "nominal_seconds_at_20tps": 0.3,
+    "stored_recoil": 1,
+    "inherited_recoil_getter": 0.35,
+    "full_automatic": true,
+    "ammo": "aoa3:discharge_capsule",
+    "projectile": "DischargeShotEntity",
+    "projectile_age_parameter": 120,
+    "piercing_parameter": 0,
+    "projectile_multiplier": 1,
+    "projectile_gravity": 0,
+    "sound": "ITEM_GUN_PLASMA_GUN_FIRE"
+  },
+  "impact": "Shared gun direct-hit path then DischargeShotEntity explosion helper strength input1.8. No ApocoRifle custom impact override; do not copy DischargeShotgun extra2.5 explosion. Final damage and world-rule behavior require native tests.",
+  "recipe": {
+    "entry": "data/aoa3/recipes/upgrade_kit_apoco_rifle.json",
+    "sha256": "92bd41d4f242cce2b9da4eb50fd53f1d21a11e79d143a598134280c158fa8632",
+    "json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:discharge_rifle"
+      },
+      "result": {
+        "item": "aoa3:apoco_rifle"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:apoco_upgrade_kit"
+      }
+    }
+  },
+  "kit_loot_references": [
+    "data/aoa3/loot_tables/worlds/vox_ponds.json"
+  ],
+  "lore_limit": "Packaged Vox Ponds loot-table association is not proof of current obtainability, active dimension, a named maker, or official mushroom/root construction lore.",
+  "native_accepted": false
+}
