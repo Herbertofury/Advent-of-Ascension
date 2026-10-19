@@ -48,6 +48,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Clowno-Pulse | [Three red crowns, playful inspect concept and shooter-centered defensive pulse](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clowno-Pulse-Weapon-Profile) |
 | Crystaneer | [Jewel-cluster sniper with original scope overlay, illustrated conditional loot and inspect concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crystaneer-Weapon-Profile) |
 | Dark Beast | [Fork-jawed dark Metal Slug sniper, pictured Darkly upgrade and revised material/inspection proposals](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dark-Beast-Weapon-Profile) |
+| Deadlock | [Crimson stepped sniper, pictured infusion and directional target-movement rule](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Deadlock-Weapon-Profile) |
 | Decimator | [Cream-gray sniper, maximum-health threshold below 50, five-slot infusion and pictured Clownimator progression](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Decimator-Weapon-Profile) |
 | Destruction Shotgun | [Three pellets share one boosted-shot roll; infusion and Purity upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Destruction-Shotgun-Weapon-Profile) |
 | Discharge Shotgun | [Owner-selected scattercaster target with original four-projectile behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) |
@@ -89,7 +90,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Vivo | [Compact three-pellet shotgun with gold accents, Lyon infusion and a higher-pitched firing identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vivo-Weapon-Profile) |
 | Vortex Blaster | [Spirit-powered repulsion and readable vortex-focused feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 
-The gallery currently contains **59 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
+The gallery currently contains **60 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
 
 ## Build your own identity and play style
 

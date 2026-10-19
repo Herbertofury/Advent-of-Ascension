@@ -1,0 +1,70 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:deadlock",
+    "name": "Deadlock",
+    "family": "sniper",
+    "stored_base_damage": 25.5,
+    "durability": 120,
+    "stored_delay_ticks": 90,
+    "stored_recoil_modifier": 0.09000000357627869,
+    "class_sha256": "c3b3207d9a68d47f6c951574d1b9fcb209c21dc83bdac4ad69944162eda29879",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/Deadlock",
+    "flags": []
+  },
+  "scope": "SCOPE_3",
+  "ammo": "aoa3:metal_slug",
+  "sound": "ITEM_GUN_SNIPER_METALLIC_FIRE_LONG",
+  "conditional_damage": {
+    "factor": "1 + min(0.5, abs(target.deltaMovement.x * target.deltaMovement.z * 50))",
+    "target_velocity_not_shooter": true,
+    "uses_vertical_velocity": false,
+    "direction_invariant": false,
+    "native_damage_measured": false
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/Deadlock.class",
+      "sha256": "c3b3207d9a68d47f6c951574d1b9fcb209c21dc83bdac4ad69944162eda29879"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "tag": "minecraft:coals"
+      },
+      {
+        "tag": "forge:dusts/redstone"
+      },
+      {
+        "tag": "forge:dusts/redstone"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:gunpowder"
+      }
+    ],
+    "input": {
+      "item": "aoa3:sniper_frame"
+    },
+    "result": {
+      "item": "aoa3:deadlock"
+    }
+  },
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/Deadlock.java",
+  "source_sha256": "4914512278fa237d8e1bb144fd5e82e8ee8c92c65c457f3214e6dbe4f48343ad",
+  "native_tested": false,
+  "concept_accepted": false
+}
