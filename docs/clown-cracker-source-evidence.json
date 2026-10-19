@@ -1,0 +1,95 @@
+{
+  "release": "AoA3.7.1 / Minecraft1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:clown_cracker",
+    "name": "Clown Cracker",
+    "family": "sniper",
+    "stored_base_damage": 33.5,
+    "durability": 305,
+    "stored_delay_ticks": 84,
+    "stored_recoil_modifier": 0.05000000074505806,
+    "class_sha256": "f92d3a29c8cf2e8b42b906fd61576c292c4d0cbc522f5476e13f33211b20acd4",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/ClownCracker",
+    "flags": []
+  },
+  "hive_cracker_comparison": {
+    "id": "aoa3:hive_cracker",
+    "name": "Hive Cracker",
+    "family": "sniper",
+    "stored_base_damage": 44.0,
+    "durability": 555,
+    "stored_delay_ticks": 84,
+    "stored_recoil_modifier": 0.03500000014901161,
+    "class_sha256": "e815c10996723cff45ea37e020668389d2807891ddf0e0e70c45807ebdd8ad21",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/HiveCracker",
+    "flags": []
+  },
+  "ammo": "aoa3:metal_slug",
+  "scope": "SCOPE_4",
+  "firing_sound": "ITEM_GUN_RIFLE_MEDIUM_FIRE_LONG",
+  "declared_methods": [
+    "constructor",
+    "getFiringSound",
+    "getScopeTexture"
+  ],
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/infusion_clown_cracker.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:confetti_pile"
+          },
+          {
+            "item": "aoa3:confetti_pile"
+          },
+          {
+            "item": "minecraft:paper"
+          },
+          {
+            "tag": "forge:gems/diamond"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:ingots/limonite"
+          },
+          {
+            "tag": "forge:ingots/limonite"
+          }
+        ],
+        "input": {
+          "item": "aoa3:sniper_frame"
+        },
+        "result": {
+          "item": "aoa3:clown_cracker"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_hive_cracker.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:clown_cracker"
+        },
+        "result": {
+          "item": "aoa3:hive_cracker"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:lelyetian_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "native_tested": false,
+  "concept_qa": {
+    "color_identity": "Mustard gold, pale front with red/green accents, dark rear and blue sight accent retained",
+    "inspect_confetti": "Explicit optional cosmetic proposal; not original ammo or impact behavior",
+    "hand_clearance": "Not certified by painted storyboard",
+    "remaining": "Full effect/attachment concepts, native geometry, textures and animation validation"
+  }
+}

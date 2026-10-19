@@ -42,6 +42,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
 | Predatorian Blaster | [Bone cannon concept, withering source contract and Ghast upgrade lineage](Predatorian-Blaster-Weapon-Profile) |
 | Gimmick | [Ten-pellet scattergun, colorful silhouette and optional inspection](Gimmick-Weapon-Profile) |
+| Clown Cracker | [Carnival-colored sniper, infusion and optional inspection concepts](Clown-Cracker-Weapon-Profile) |
 | Hive Cracker | [Lelyetian sniper upgrade, amber materials and proposed inspect](Hive-Cracker-Weapon-Profile) |
 | Crystaneer | [Jewel-cluster sniper, actual scope and illustrated conditional reward pool](Crystaneer-Weapon-Profile) |
 | Purple Punisher | [Haunted upgrade, original two-pellet behavior and inspect concepts](Purple-Punisher-Weapon-Profile) |
