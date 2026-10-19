@@ -22,6 +22,8 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 ## Explore the weapon profiles
 
+[Browse the illustrated concept collection](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?revision=b8da49a): compare released sprites with proposed upgrades, filter by family and open each source-backed profile. Concepts are not native acceptance.
+
 | Weapon | Read the original behavior and proposed upgrade |
 |---|---|
 | Soul Storm | [Full profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) · [Soul Flame default sight](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights) |
