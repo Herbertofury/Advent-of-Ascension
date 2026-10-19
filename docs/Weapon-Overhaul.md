@@ -38,6 +38,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](Fungal-Cannon-Weapon-Profile) |
 | Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](Discharge-Shotgun-Weapon-Profile) |
 | Vortex Blaster | [Spirit-powered repulsion, original targeting and concepts](Vortex-Blaster-Weapon-Profile) |
+| Ghast Blaster | [Dark purple cannon, shadow projectile, conditional withering and infusion lineage](Ghast-Blaster-Weapon-Profile) |
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
 | Shoe Flinger | [Full profile, boot ammunition and equipment conservation](Shoe-Flinger-Weapon-Profile) |
 | Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](Iominator-Weapon-Profile) |
