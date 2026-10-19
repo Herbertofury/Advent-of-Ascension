@@ -1,0 +1,162 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:aqua_cannon",
+    "field": "AQUA_CANNON",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/AquaCannon"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$138",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "a283eac6d79af975735f9480a0e50c282c16cda789f7db7dff258fedc3c3493e",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              167
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 14.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 300
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 35
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.20999999344348907
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/AquaCannon",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/AquaCannon.class",
+        "sha256": "b4b9019e3773ae54186bbbbfdbd4b007b648f32f2da823d7032b86194c9c989b",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "421a6fd2d5bd90ee7eb200375b3afd96118b6fbb131aaf7243c2a2a0547ad7b2"
+          },
+          {
+            "name": "doImpactDamage",
+            "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+            "code_sha256": "bcfdf6947ac107fa26ae4695cc118be6ded2a4cf9f1a9994686d889458472e24"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "d2404920ba04e190b6d63564dfc467211ac63a03a8f1128205941d97a6a93869"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "8fce37072c50bd4a8464755500b5da7eec21fdca481da830d1b90b72024de877"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 14.0,
+    "durability": 300,
+    "delay_ticks": 35,
+    "recoil": 0.20999999344348907
+  },
+  "ammo": "aoa3:cannonball",
+  "projectile": {
+    "class": "HeavyBlueCannonballEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1.0,
+    "gravity": 0.1,
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "texture_sha256": "1dd1364d7ac67b93489d25a1ebd80fa0f7a6d34dc26482d2a855fb13f9b0607d",
+    "renderer_sparkler_requests_per_render_invocation": 8,
+    "particle_colour": "ColourUtil.BLUE",
+    "native_captured": false
+  },
+  "healing": {
+    "requested_amount": 2.0,
+    "recipient": "shooter",
+    "gate": "target instanceof LivingEntity; helper requires shooter alive and 0 < health < maxHealth",
+    "after_super_damage_call": true,
+    "subclass_checks_damage_success": false,
+    "guaranteed_healing": false
+  },
+  "data_json_references": [],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/AquaCannon.class",
+      "sha256": "b4b9019e3773ae54186bbbbfdbd4b007b648f32f2da823d7032b86194c9c989b"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity.class",
+      "sha256": "0ebc919983f22c95655259095d0a01a7c6a9cff703c5f388ea0874871da06ced"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class",
+      "sha256": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/HeavyBlueCannonballRenderer.class",
+      "sha256": "34174f0d776644818c595044f5137d27f91dde0ad492e4c8675f7f043af9b2db"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    },
+    {
+      "path": "net/tslat/aoa3/util/EntityUtil.class",
+      "sha256": "cbe2070c465d5554d6d2e554f5fd76d3c39602b6921a61b38e29f6be4d930c91"
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "AquaCannon-upstream.java": "25936997a8c4c2e277016cd1e1562214bd39eb3e52b71a625db669756055aa59",
+    "HeavyBlueCannonballEntity-upstream.java": "a0237e4275f736d17d0e1b983c7d8a53a167404c02fd032b2759c13b7ef06703",
+    "BaseCannon-upstream.java": "b63ee349657e13266da0b711f4127a408bd22024ee110f3148e27058e03bc703",
+    "BaseBullet-upstream.java": "98d2ac62394ba49f8328065ec5b77bd3baccd45e4e5c17452a7de8c6801433b5",
+    "EntityUtil-upstream.java": "09d9d9bed2a6571cb65558aefae73e930477ef396acec4ac44719951130c6041"
+  },
+  "native_tested": false,
+  "final_art_accepted": false
+}
