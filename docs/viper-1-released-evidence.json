@@ -1,0 +1,81 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:viper_1",
+    "name": "Viper-1",
+    "family": "sniper",
+    "stored_base_damage": 30.0,
+    "durability": 185,
+    "stored_delay_ticks": 89,
+    "stored_recoil_modifier": 0.05999999865889549,
+    "class_sha256": "10caf3207575d62b878bfe00309a0d24953d16d8b3988db04100d046f2a428b9",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/Viper1",
+    "flags": []
+  },
+  "scope": "SCOPE_2",
+  "ammo": "aoa3:metal_slug",
+  "sound": "ITEM_GUN_SNIPER_METALLIC_FIRE_LONG",
+  "effect": {
+    "name": "POISON",
+    "duration_ticks": 60,
+    "builder_level": 2,
+    "minecraft_amplifier": 1,
+    "target_gate": "LivingEntity",
+    "application_guaranteed": false
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/Viper1.class",
+      "sha256": "10caf3207575d62b878bfe00309a0d24953d16d8b3988db04100d046f2a428b9"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "bundled_library": {
+    "path": "META-INF/jarjar/TslatEffectsLib-neoforge-1.20.1-1.7.jar",
+    "sha256": "6950533da72960fe03ce928ca076d0a7911cf95793a6e1b7005533faec6e0356",
+    "class": "net/tslat/effectslib/api/util/EffectBuilder.class",
+    "class_sha256": "617cd109fbace4664b139e7330a1e61cd36a9535c1f645703f7f407bc24757b4",
+    "semantics": "EffectBuilder level 2 becomes Minecraft amplifier 1"
+  },
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "item": "aoa3:dense_rock"
+      },
+      {
+        "item": "aoa3:dense_rock"
+      },
+      {
+        "item": "aoa3:jungle_thorns"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:gunpowder"
+      }
+    ],
+    "input": {
+      "item": "aoa3:sniper_frame"
+    },
+    "result": {
+      "item": "aoa3:viper_1"
+    }
+  },
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/Viper1.java",
+  "source_sha256": "2de5cc327a6a13a803067724cea3faa2a468e59804806fd12c5604325e7d4447",
+  "native_tested": false,
+  "concept_accepted": false
+}
