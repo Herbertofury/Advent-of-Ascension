@@ -22,7 +22,7 @@ The plain rear surface now has paired swept silver braces, layered upper plates,
 
 The scoped test preserves 164 existing mesh definitions/transforms/material-slot names and checks fourteen new closed solids for positive volume and nondegenerate evaluated triangles. It does not cover every intersection, hands, curves, driver state or native animation. The earlier trigger and guard were not resized to conceal clearance problems. All native, hand-fit, material-export and performance gates remain open.
 
-[Small reproducible v32 patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-rear-contour-v32-patch.zip) · [Scoped geometry results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-rear-v32-geometry.json). Apply to the exact v31 scene linked below. The patch generates a separate scene and rejects an unexpected source hash.
+[Small reproducible v32 patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-rear-contour-v32-r2-patch.zip) · [Scoped geometry results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-rear-v32-r2-geometry.json). Apply to the exact v31 scene linked below. The patch generates a separate scene and rejects an unexpected source hash. The r2 patch explicitly parents every new part to Discharge_Root; 21 root-transform samples check 10,752 vertex positions (maximum error approximately 7.18e-7 scene units). This prevents detached cosmetic parts during whole-weapon transforms; native animation and hand-fit remain untested.
 
 ## Previous v31 authoring views
 
