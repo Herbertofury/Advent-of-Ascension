@@ -2,9 +2,83 @@
 
 **New authoring reconstruction · visual acceptance open · not a native TaCZ gunpack.**
 
-![Current four-emitter v14 authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-4-emitters.png)
+## v22: open crown and physically supported flame holder
 
-[Play the sampled four-emitter motion](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-motion.webp) · [Download editable sources, Blender files and retained v5–v9 iterations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-reconstruction-v5-v9.zip)
+![Current v22 authoring prototype, not native gameplay](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v22-prototype.png)
+
+The solid top slab is replaced by tapered armor around an exposed conduit. The contained energy has blue/cyan variation instead of flat white tubes. Front/rear inspection caught a remaining gap below the flame holder: rooting the flame image had not physically attached its base. A new saddle now joins the holder to both armor hoops. All seven review views are retained.
+
+The source remains unaccepted: the stack is still boxy, energy too tube-like, underside/rear detailing sparse, and native texture/shader/hand/gameplay work unfinished. The 101-frame check covers 5,097,360 active triangle samples without collapse; neutral winding and duplicate-surface checks pass within their stated scope. These checks do not prove continuous collision, native rendering or fun.
+
+[Editable v22 source and evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v22-authoring-study.zip). The separate v19 hardware-only export does not include these later changes. Earlier sources and concepts remain preserved below.
+
+## Earlier v19: open energy channels, fitted grip and orientation repairs
+
+![Earlier v19 authoring prototype, not native gameplay](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v19-prototype.png)
+
+The v19 source adds a fitted faceted heel, a swept lower receiver/guard and real side-wall openings exposing the contained energy. Runes move onto the front armor rather than floating across the new windows. It still lacks the concept’s full surface treatment and living-plasma richness; artistic acceptance remains open.
+
+A deeper audit found 36 inward-facing closed parts in the prior source. v19 corrects their winding while preserving unoriented faces, UVs, material assignments and transforms. The current closed-volume audit has no negative closed volumes. The 101-frame active-geometry check covers 5,000,400 triangle samples with no degeneracy. Open surfaces, native culling, hand fit and continuous collision remain separate gates. Earlier exports need rebuilding from corrected sources before release.
+
+The actual scene runs at 60 authoring fps and holds each atlas cell for four frames: 15 cells/second, not the earlier assumed six. The [presentation-core timing correction](Weapon-Presentation-Core) is tested against the inspected timing receipt; this is not native game-clock integration.
+
+[Earlier v19 editable source and correction tools](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-authoring-corrections-v19-v7.zip) · [Surface QA findings and limits](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Surface-QA.md)
+
+[Earlier v15 hero retained](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-hero.png)
+
+[Earlier v9 sampled motion (historical)](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v9-motion.webp) · [Download editable sources, Blender files and retained v5–v9 iterations](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-reconstruction-v5-v9.zip)
+
+
+
+## v16: rooted flame, focus morph and grip correction
+
+![Unaccepted v16 authoring prototype](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v16-prototype.png)
+
+The grip is now continuous and curved; emitter proportions are rebalanced. A rooted sixteen-frame flame replaces the weak leaf-like plane. Four geometric filaments morph toward a focused reticle. A softly cleared center is an authoring experiment, not verified native aim alignment.
+
+QA caught and corrected integer-valued focus snapping and a collapsing intermediate ribbon. Final focus sampling covers 101 frames and 21 distinct values, with a 0.5 midpoint. The whole active scene check covers 4,552,768 triangle samples without active degeneracy. It separately records 776 object/frame instances of explicitly zero-scale inactive authoring projectiles; those are not treated as valid native visibility.
+
+**Still rejected for complete visual/native acceptance:** planar launcher surfaces, insufficient grip/material detail, missing finished UV textures and untested native effects/play feel. The sixteen-frame atlas needs an explicit adapter rather than the older fifteen-frame helper. Blender shader and shape-key behavior is not proof of native support.
+
+[Editable v16 scene, scripts, atlas and scoped QA](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-sculpt-v16-source.zip) · [Actual reference-pack texture study](TaCZ-Texture-Direct-Study) · [Complete weapon standard](Weapon-Completeness-Standard)
+
+## v15: sculpted clasps, inscriptions and open muzzle glow
+
+The four-emitter candidate gains sculpted silver/indigo core clasps, branching cyan inscriptions, layered metal inlays, an open glowing muzzle border and a heel crest. The Soul Flame remains the default sight. This is an actual modeled/rendered revision toward the retained concept, not a generated concept passed off as finished geometry. It is still short of final artistic/native acceptance.
+
+The first muzzle glow placement was buried in the housing, so it was moved onto the visible border without filling the disc aperture. Final scoped QA checks **73 added objects / 1,704 triangles**, **69,696 sampled moving-decoration vs stationary-saddle AABB pairs**, and **16 glow-border aperture checks** with no recorded violations. New triangles pass the neutral-pose transformed-space degeneracy check. Seated decorative contact, full hand fit and continuous whole-weapon collision are separate open gates.
+
+[Reproducible v15 refinement and QA scripts](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-sculpt-v15-source.zip) · [Exact scoped receipt](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-qa.json)
+
+### Six-view inspection
+
+These inspection renders add camera-facing light; they do not represent native shading. Top/bottom framing was corrected after the first camera cropped the body. The angle-dependent flame card remains an open native-presentation issue.
+
+| Front | Rear |
+|---|---|
+| ![Front](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-front.png) | ![Rear](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-rear.png) |
+| Left | Right |
+| ![Left](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-left.png) | ![Right](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-right.png) |
+| Top | Bottom |
+| ![Top](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-top.png) | ![Bottom](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v15-bottom.png) |
+
+## Targeted full-detail geometry correction
+
+The original four/five/six-emitter source variants now have a separate **targeted correction** for the objects that failed world-space triangle QA. It does not reduce bevel segmentation or decimate the full-detail geometry. The unchanged original files remain available.
+
+| Emitters | Corrected objects | Collapsed triangles before → after | Evaluated triangles retained |
+|---|---:|---:|---:|
+| Four | 9 | 264 → 0 | 53,952 |
+| Five | 11 | 328 → 0 | 61,304 |
+| Six | 13 | 408 → 0 | 68,656 |
+
+All three variants pass **17 sampled scene frames**, with animation and core-UV digests unchanged. Intentionally zero-scaled projectile cues are counted separately. This is a sampled geometry fix, not continuous collision, hand, native visual or gameplay acceptance. The reviewed previews preserve the broad source design; further artistic polish remains open.
+
+| Four emitters | Five emitters | Six emitters |
+|---|---|---|
+| ![Corrected four](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-clearance-4.png) | ![Corrected five](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-clearance-5.png) | ![Corrected six](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-clearance-6.png) |
+
+[Small reproducible targeted correction](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-targeted-clearance-v1.zip) · [Complete scoped receipts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-targeted-clearance-qa.json). This reuses v14 rather than distributing another set of packed-scene backups.
 
 ## v14: modular four, five and six emitter layouts
 
@@ -16,7 +90,7 @@ The requested emitter-count upgrade now has **three editable authoring variants*
 |---|---|---|
 | ![Four](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-4-emitters.png) | ![Five](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-5-emitters.png) | ![Six](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-sculpt-v14-6-emitters.png) |
 
-**What is checked:** 121 / 125 / 149 recoil samples respectively; selected emitter-envelope spacing; horizontal disc aperture clearances; 968 / 1,250 / 1,788 sampled energy-connection checks; all 15 flame-atlas cells; finite poses; zero-area mesh faces; and packed textures. The six-emitter scene also passes from a clean extraction of the published source archive. The strict runner makes Blender Python failures return a failing exit code rather than accepting stale receipts.
+**What is checked:** 121 / 125 / 149 recoil samples respectively; selected emitter-envelope spacing; horizontal disc aperture clearances; 968 / 1,250 / 1,788 sampled energy-connection checks; all 15 flame-atlas cells; finite poses; local-space zero-area mesh faces; and packed textures. See the later world-space correction below. The six-emitter scene also passes from a clean extraction of the published source archive. The strict runner makes Blender Python failures return a failing exit code rather than accepting stale receipts.
 
 **What remains open:** actual hands and aim, continuous whole-weapon collisions, richer ornament/materials, atmospheric trails, alpha cleanup, native mesh/export/shader performance, and in-game gameplay. The preview's cadence is a display fixture. Extra emitters do not yet implement a damage multiplier: the authoritative gameplay adapter must define volley, resource cost and cadence together and show those effective values to the player.
 
@@ -97,10 +171,34 @@ New v10–v12 source archive SHA-256: `612a0555cb840c40ce3ff4568b82ec4b17f94be77
 
 ![Lower-tessellation world-LOD candidate, not native gameplay](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-world-lod-candidate.png)
 
-A separate four-emitter candidate reduces **evaluated triangles from 53,952 to 25,664 (52.4%)**. The inventory includes 185 mesh-convertible objects, including curves and hidden-by-scale VFX meshes; these are not native draw calls or an FPS benchmark. The neutral-pose evaluated meshes contain no zero-area triangles in this check.
+A separate four-emitter candidate reduces **evaluated triangles from 53,952 to 25,664 (52.4%)**. The inventory includes 185 mesh-convertible objects, including curves and hidden-by-scale VFX meshes; these are not native draw calls or an FPS benchmark. The original v1 check covered local evaluated areas only; the stronger world-space correction below supersedes that geometry gate.
 
 The script lowers bevel segmentation, curve bevel resolution and selected ring topology. It leaves the original high-detail source available and preserves core-surface UV topology and animation data. The reviewed image keeps the broad silhouette and layout recognizable, while grip ribs and edge highlights visibly change. Native materials, actual distance transitions, all views/motion and frame-time behavior remain acceptance gates. This candidate does not replace the first-person default or establish visual equivalence.
 
 [Small reproducible LOD script](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-world-lod-tool-v1.zip) · [Exact per-object budget comparison](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-world-lod-budget.json). It reuses the preserved v14 archive instead of adding another duplicate packed Blender backup.
 
 For native export, prioritize the [existing TML integration route and actual Meshy schema study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study). Keep independently animated or customizable attachment domains separate, and consider merging purely rigid pieces at export to control submission cost; native batching/performance has not yet been measured.
+
+
+### v2: corrected world-space bevel degeneracy
+
+![Corrected four-emitter world-LOD authoring candidate](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-world-lod-candidate-v2.png)
+
+Export validation caught **264 collapsed world-space triangles in the original v14 body and 144 in the v1 reduced candidate**, despite their local-space area checks. The collapsed triangles were concentrated on eight thin cyan rune pieces and the touch inset. The LOD v2 script applies a conservative width cap to 71 bevel modifiers overall while retaining raw piece dimensions; the exact changes are listed in its report. The corrected v2 candidate has **zero collapsed body triangles at the checked neutral pose**. Its 5,376 intentionally zero-scaled projectile-cue triangles are tracked separately, not passed as valid body surfaces. This is not all-pose collision acceptance.
+
+The 53,952 → 25,664 inventory reduction, animation digest and core UV digest remain unchanged. The reviewed v2 render retains the broad layout; native rendering, first-person visual acceptance, actual hands and performance remain open. Earlier v1 files are preserved as history and superseded for export.
+
+[Reproducible v2 correction](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-world-lod-tool-v2.zip) · [Per-object v2 evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-world-lod-budget-v2.json)
+
+
+## Opaque grip texture and export study, v25
+
+![Actual GLB-reimported grip close-up, not native gameplay](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-grip-v25-reimport.png)
+
+The grip now has a separate **UV-mapped opaque material study**: dark indigo base color, tangent normal detail and five gently diagonal wraps. Six static grip pieces are combined into one material domain; the original v22 whole-weapon source remains preserved. The exported grip contains **1,176 triangles, one material and two embedded 1024px PNG maps**.
+
+The exported GLB was actually imported back into Blender. Its world-space triangle multiset agrees at the recorded 0.0001-unit rounding; the supported-subset preflight reports no degenerate or collapsed-UV triangles. A same-camera render comparison records mean absolute RGB difference of approximately **0.000008871** against the pre-export baked-material view. That full-frame measurement includes non-grip pixels and sampling noise; it is neither an artistic score nor native renderer proof.
+
+**Visual review remains open:** the grip still reads smoother and more rubber-like than the concept's richer hand wrapping. Heel detailing, surrounding ornament, actual player hands, native normal-map conventions and performance remain unfinished. This opaque-grip test does not validate the transparent Soul Flame or the complete weapon's materials.
+
+[Editable GLB, bake scripts and scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-grip-texture-study-v25.zip) · [Machine-readable review](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-grip-v25-evidence.json). Regeneration reuses the existing v22 source archive rather than duplicating another complete packed weapon scene. The GLB alone is not an installable TaCZ pack.

@@ -1,0 +1,141 @@
+{
+  "manifest.json": {
+    "source_objects": [
+      "V16 continuous curved grip",
+      "V16 flush grip wrap",
+      "V16 flush grip wrap.001",
+      "V16 flush grip wrap.002",
+      "V16 flush grip wrap.003",
+      "V16 flush grip wrap.004"
+    ],
+    "merged_domain": "V25 leather grip baked material domain",
+    "unchanged_geometry_intent": false,
+    "geometry_change": "Five wrap bands now follow a gentle diagonal across the curved grip; grip core, collar, heel, guard and all other weapon parts unchanged",
+    "maps": [
+      {
+        "kind": "basecolor",
+        "file": "grip-basecolor.png",
+        "sha256": "90ad346aebea024202ef134bdb8642d94d3e5275686c986303f6b50cdb2f024c"
+      },
+      {
+        "kind": "normal",
+        "file": "grip-normal.png",
+        "sha256": "d8ee306d0586d96167e1675e3cf00aeca02f001b7f5b2c0bfd2188edfaa51fb3"
+      }
+    ],
+    "native_accepted": false,
+    "limits": [
+      "Bake seam and map roundtrip review pending",
+      "No native normal-map pipeline approval",
+      "No new hand-fit or gameplay acceptance"
+    ]
+  },
+  "export-qa.json": {
+    "scope": "Static grip material-domain export only; not a complete weapon, native TaCZ gun or hand-fit approval",
+    "triangles": 1176,
+    "degenerate_triangles": 0,
+    "uv_loops": 2112,
+    "native_accepted": false,
+    "glb_sha256": "0f1beea3125593462708797eb358b827b83704c6b4407c376b983355658f945e",
+    "glb_bytes": 2518928
+  },
+  "glb-roundtrip-qa.json": {
+    "status": "PASS",
+    "glb_sha256": "0f1beea3125593462708797eb358b827b83704c6b4407c376b983355658f945e",
+    "meshes": 1,
+    "materials": 1,
+    "embedded_png_images": 2,
+    "normal_texture_present": true,
+    "roundtrip_world_triangles": 1176,
+    "coordinate_rounding": 0.0001,
+    "scope": "Blender glTF reimport only; no TaCZ or TML native material convention acceptance",
+    "native_accepted": false
+  },
+  "glb-roundtrip-image-review.json": {
+    "scope": "Same-camera Blender render after actual GLB reimport; not a native TaCZ rendering test",
+    "rgb_mae": 8.871012792581419e-06,
+    "rgb_p99": 0.0
+  },
+  "glb-preflight.json": {
+    "default_scene_reachable_nodes": 1,
+    "file_sha256": "0f1beea3125593462708797eb358b827b83704c6b4407c376b983355658f945e",
+    "checked_subset_pass": true,
+    "issues": [],
+    "triangles": 1176,
+    "meshes": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "vertices": 988,
+        "topology": {
+          "duplicate_index_triangles": 0,
+          "indexed_boundary_edges": 728,
+          "indexed_nonmanifold_edges": 0,
+          "boundary": "Index-space diagnostic; UV/material splits can duplicate geometric vertices. Does not prove watertightness or self-intersection freedom."
+        },
+        "collapsed_uv_triangles": 0,
+        "triangles": 1176,
+        "degenerate_triangles": 0,
+        "normal_unit_error_max": 9.450181215342468e-08,
+        "bounds": [
+          [
+            -4.059999942779541,
+            -1.6200000047683716,
+            -0.49744999408721924
+          ],
+          [
+            -2.6500000953674316,
+            0.11999999731779099,
+            0.49744999408721924
+          ]
+        ],
+        "material": 0
+      }
+    ],
+    "images": [
+      {
+        "mime": "image/png",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1388565
+      },
+      {
+        "mime": "image/png",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1090031
+      }
+    ],
+    "animations": 0,
+    "double_sided_materials": 1,
+    "native_accepted": false,
+    "limits": [
+      "Static supported-subset preflight only",
+      "Node transforms are validated structurally, not applied to geometry metrics",
+      "No moving-part ownership, hand fit, visual fidelity, topology, native material or gameplay acceptance"
+    ]
+  },
+  "visual-review.json": {
+    "accepted": false,
+    "observation_type": "Blender authoring and GLB reimport close-ups",
+    "improvements": [
+      "Diagonal wrapping follows curved grip more closely than former level bands",
+      "A real UV-mapped basecolor/normal pair now reproduces the opaque grip material through GLB export/reimport"
+    ],
+    "remaining": [
+      "Surface still reads smooth/rubber-like rather than rich hand-wrapped leather from concept",
+      "Heel crest and surrounding ornament remain simplified",
+      "Full weapon silhouette and all native hand/aim/animation tests remain unaccepted"
+    ],
+    "views": [
+      "grip-procedural-close.png",
+      "grip-baked-close.png",
+      "grip-glb-reimport-close.png"
+    ],
+    "native_acceptance": false
+  }
+}
