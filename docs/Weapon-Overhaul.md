@@ -150,3 +150,7 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ## Monster: amber fork-jaw sniper
 
 [Monster weapon profile](Monster-Weapon-Profile) retains the orange/charcoal forked silhouette and documents the pictured Darkly upgrade. Historical Graw loot evidence is kept separate from the unresolved current acquisition route.
+
+## Floro500: magenta-green botanical sniper
+
+[Floro500 weapon profile](Floro500-Weapon-Profile) documents the KA-500 + Floro kit upgrade, original Metal Slug behavior, source-color identity and proposed finish/inspection art. Historical kit-drop associations remain version-scoped.

@@ -1,0 +1,84 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:floro500",
+    "name": "Floro500",
+    "family": "sniper",
+    "stored_base_damage": 37.0,
+    "durability": 550,
+    "stored_delay_ticks": 70,
+    "stored_recoil_modifier": 0.041999999433755875,
+    "class_sha256": "a11945877e3fabd634491b21c8fc5c53eaaa19cd5008e610e83cc98436af47e6",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/Floro500",
+    "flags": []
+  },
+  "ka500_comparison": {
+    "id": "aoa3:ka_500",
+    "name": "KA-500",
+    "family": "sniper",
+    "stored_base_damage": 30.0,
+    "durability": 360,
+    "stored_delay_ticks": 70,
+    "stored_recoil_modifier": 0.05999999865889549,
+    "class_sha256": "9f52c9b9549c8d7496cea065fe81a30041f7cd42b3811592881bec04cc527f7a",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/Ka500",
+    "flags": []
+  },
+  "ammo": "aoa3:metal_slug",
+  "scope": "SCOPE_2",
+  "firing_sound": "ITEM_GUN_RIFLE_MEDIUM_FIRE_LONG",
+  "declared_methods": [
+    "constructor",
+    "getFiringSound",
+    "getScopeTexture"
+  ],
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_floro500.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:ka_500"
+        },
+        "result": {
+          "item": "aoa3:floro500"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:floro_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "historical_kit_drop_index": {
+    "release": "AoA 3.3.6 / Minecraft 1.12.2",
+    "record": {
+      "id": "aoa3:floro_upgrade_kit",
+      "name": "Floro Upgrade Kit",
+      "entities": [
+        "aoa3:archvine",
+        "aoa3:broccohead",
+        "aoa3:carrotop",
+        "aoa3:corny",
+        "aoa3:daysee",
+        "aoa3:flowerface",
+        "aoa3:pod_plant",
+        "aoa3:squasher",
+        "aoa3:sunny",
+        "aoa3:vine_wizard",
+        "aoa3:vinocorne"
+      ],
+      "icon": {
+        "name": "Floro Upgrade Kit",
+        "sheet": "previews/1.12.2-item-sheet-08.webp",
+        "x": 455,
+        "y": 1686,
+        "w": 190,
+        "h": 190,
+        "sheet_width": 1320
+      }
+    },
+    "scope": "Historical kit source associations only; not current drop chance or lore authorship"
+  },
+  "native_tested": false
+}
