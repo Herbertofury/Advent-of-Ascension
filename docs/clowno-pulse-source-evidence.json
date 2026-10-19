@@ -1,0 +1,41 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 35.5,
+    "durability": 845,
+    "delay_ticks": 42,
+    "constructor_recoil": 0.09,
+    "base_ammo": "aoa3:cannonball",
+    "inherited_projectile": "CannonballEntity",
+    "age_parameter": 120,
+    "piercing_parameter": 0,
+    "hostile_query_AABB_inflation": 2.5,
+    "push_helper_input": 0.75
+  },
+  "recipes": {
+    "data/aoa3/recipes/upgrade_kit_clowno_pulse.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:pulse_cannon"
+      },
+      "result": {
+        "item": "aoa3:clowno_pulse"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:clown_upgrade_kit"
+      }
+    }
+  },
+  "source_tooltip": "Pushes away all nearby enemies when firing",
+  "effect_boundary": "Firing-time shooter-centered hostile query; AABB inflation and push helper input are not measured radius/displacement",
+  "native_accepted": false,
+  "art_accepted": false,
+  "javap_evidence_sha256": {
+    "ClownoPulse.javap.txt": "be82c27bdf1a8b7b362dc0c73ff36afe6704820875c8b221823ea5e4ce7f8033"
+  },
+  "concept_review": {
+    "v1": "Rejected labels: source sprite inset is generated sketch; pulse panel visually origin ambiguous",
+    "v2": "Corrected sketch caption and mannequin-centered pulse; concept candidate only, hand/guard fit and final proportions remain open"
+  }
+}
