@@ -169,3 +169,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Moon Maker: actual projectile and render-loop evidence
 
 [Moon Maker source profile and concept](Moon-Maker-Weapon-Profile) preserves its magenta/green identity, shows the extracted Metal Slug texture and documents its pink-sparkler renderer. Offhand attribution and render-rate emission are explicit native regression targets. No native acceptance is promoted.
+
+
+### Sludge Sniper: preserving actual debuff levels
+
+[Source profile, seven-slot infusion and concept](Sludge-Sniper-Weapon-Profile) preserves the green/olive identity and audits Slowness II plus Poison I against the released class, named source and bundled EffectsLib level conversion. Decorative vapor and impact mist remain presentation proposals. Native acceptance remains open.

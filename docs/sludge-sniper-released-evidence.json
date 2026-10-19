@@ -1,0 +1,104 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 37,
+    "durability": 350,
+    "delay_ticks": 87,
+    "recoil": 0.05000000074505806,
+    "ammo": "aoa3:metal_slug",
+    "scope": "SCOPE_2",
+    "sound": "ITEM_GUN_SNIPER_METALLIC_FIRE_LONG"
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/SludgeSniper.class",
+      "sha256": "b5da52359daec4eefedaf882d2ac1de6bdf89a681e9d096ec11862057ea1393b"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "effects": {
+    "target_gate": "LivingEntity",
+    "duration_ticks_each": 100,
+    "first_srg_effect": "f_19597_",
+    "first_builder_level": 2,
+    "first_minecraft_amplifier": 1,
+    "second_srg_effect": "f_19614_",
+    "second_default_builder_level": 1,
+    "second_minecraft_amplifier": 0,
+    "tooltip_keys": [
+      "SLOWS_TARGETS",
+      "POISONS_TARGETS"
+    ],
+    "mapping_status": "Names cross-checked against official 1.20 source; file last changed in Update to 3.7.1 commit 0be2106bebb3851c5ba2cc9974e57936a867244d",
+    "first_named_effect": "MOVEMENT_SLOWDOWN",
+    "second_named_effect": "POISON"
+  },
+  "bundled_library": {
+    "path": "META-INF/jarjar/TslatEffectsLib-neoforge-1.20.1-1.7.jar",
+    "sha256": "6950533da72960fe03ce928ca076d0a7911cf95793a6e1b7005533faec6e0356",
+    "class": "net/tslat/effectslib/api/util/EffectBuilder.class",
+    "class_sha256": "617cd109fbace4664b139e7330a1e61cd36a9535c1f645703f7f407bc24757b4",
+    "semantics": "level defaults to 1; build subtracts 1 before Minecraft amplifier argument"
+  },
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/infusion_sludge_sniper.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:toxic_lump"
+          },
+          {
+            "item": "aoa3:toxic_lump"
+          },
+          {
+            "item": "aoa3:sticky_slime"
+          },
+          {
+            "item": "minecraft:lily_pad"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:gunpowder"
+          },
+          {
+            "tag": "forge:gems/jade"
+          }
+        ],
+        "input": {
+          "item": "aoa3:sniper_frame"
+        },
+        "result": {
+          "item": "aoa3:sludge_sniper"
+        }
+      }
+    }
+  ],
+  "native_tested": false,
+  "concept": {
+    "path": "concept-v1.png",
+    "status": "partial exploration",
+    "open_art_issues": [
+      "Trigger guard/hand clearance and optic sight-line need explicit review",
+      "Environmental and organic materials are design proposals, not verified canonical origin",
+      "Tracer, impact mist and sludge channels are proposed cosmetics, not new ammunition or fluid gameplay"
+    ]
+  },
+  "named_source": {
+    "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/sniper/SludgeSniper.java",
+    "file_last_change": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+    "checked": "2026-10-19",
+    "sha256": "7fc8e54cd65ee874c64f88078b56a91a83384dbdc2ee66ece715b21053f1a90a"
+  }
+}
