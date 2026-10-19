@@ -1,0 +1,114 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 32.5,
+    "durability": 460,
+    "delay_ticks": 77,
+    "recoil": 0.05000000074505806,
+    "ammo": "aoa3:metal_slug",
+    "scope": "Inherited SCOPE_1"
+  },
+  "effect": {
+    "recipient": "shooter",
+    "named_effect": "MOVEMENT_SPEED",
+    "srg_field": "f_19596_",
+    "duration_ticks": 80,
+    "builder_level": 3,
+    "minecraft_amplifier": 2,
+    "trigger": "BaseGun impact hook only after a successful attack return; no reward for merely firing",
+    "native_tested": false
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/SweetTooth.class",
+      "sha256": "392dbf8414f7c422064aca73bdb2f8e927f0d700df840c8380403a25b0c0449a"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "named_source": {
+    "url": "https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/sniper/SweetTooth.java",
+    "file_last_change": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+    "sha256": "cadea653c46ddc3ce02738599cd1f05b40b1d337048184d42b86af898d487703"
+  },
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/infusion_sweet_tooth.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:candy_corn"
+          },
+          {
+            "item": "aoa3:candy_corn"
+          },
+          {
+            "item": "aoa3:candy_cane"
+          },
+          {
+            "item": "aoa3:chocolate_block"
+          },
+          {
+            "item": "aoa3:gingerbread_cookie"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          }
+        ],
+        "input": {
+          "item": "aoa3:sniper_frame"
+        },
+        "result": {
+          "item": "aoa3:sweet_tooth"
+        }
+      }
+    }
+  ],
+  "bundled_effect_library_evidence": "sludge-sniper-released-evidence.json",
+  "native_tested": false,
+  "concept_reviews": [
+    {
+      "revision": 1,
+      "accepted": false,
+      "issues": [
+        "Excess front peppermint collar",
+        "Oversized underbody slab",
+        "Hand clearance unresolved"
+      ]
+    },
+    {
+      "revision": 2,
+      "accepted": false,
+      "issues": [
+        "Pistol grip placed in front of trigger",
+        "Inspection inset retains older collar layout"
+      ]
+    },
+    {
+      "revision": 3,
+      "accepted": false,
+      "improvements": [
+        "Hero and side view rear grip correctly behind trigger",
+        "Single front peppermint collar",
+        "Open guard with visible space"
+      ],
+      "remaining": [
+        "Native hand fit and scale",
+        "Optic alignment",
+        "Inspection inset still retains older double-collar detail",
+        "Complete attachments and effects boards"
+      ]
+    }
+  ]
+}

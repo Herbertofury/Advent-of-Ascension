@@ -174,3 +174,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Sludge Sniper: preserving actual debuff levels
 
 [Source profile, seven-slot infusion and concept](Sludge-Sniper-Weapon-Profile) preserves the green/olive identity and audits Slowness II plus Poison I against the released class, named source and bundled EffectsLib level conversion. Decorative vapor and impact mist remain presentation proposals. Native acceptance remains open.
+
+
+### Sweet Tooth: candy identity and shooter-only speed reward
+
+[Source profile, infusion recipe and revised concepts](Sweet-Tooth-Weapon-Profile) documents Speed III on a successful hit, preserves earlier rejected grip layouts and separates the cosmetic inspection flourish from server-authoritative rewards. Native acceptance remains open.
