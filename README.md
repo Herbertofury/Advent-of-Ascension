@@ -74,3 +74,7 @@ Every accepted weapon should have a reversible premium 3D presentation option, w
 [Design contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Unchecked implementation backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog)
 
 [Verified complete natural temple generation and scoped muted Hari smoke](development/NATURAL-TEMPLE-GENERATION-2026-10-18.md). The full merge remains unfinished.
+
+[Verified four-world native restoration, realmstone access and intact temple spacing](development/FOUR-RESTORED-WORLDS-2026-10-18.md). Current full-merge acceptance remains open.
+
+[Native arena station, provider effects and the complete 60-cage failure](development/NATIVE-ARENA-AND-FOG-2026-10-18.md)
