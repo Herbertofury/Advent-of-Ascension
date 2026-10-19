@@ -18,11 +18,13 @@ def artifact(path):
 
 def check_capture(result,expected):
     require(result['adapter']=='complete-native-restored-portals-1' and result['passed'] and not result['synthetic'] and result['controlledPrebuiltFrames'],'Actual native complete portal cohort required')
-    rows=result['canonicalPortals'];require(len(rows)==22 and len({r['portal'] for r in rows})==22,'All 22 distinct canonical portal owners required')
+    count=len(expected);require(count in [22,26],'Review complete canonical portal cohort')
+    rows=result['canonicalPortals'];require(len(rows)==count and len({r['portal'] for r in rows})==count,'All distinct canonical portal owners required')
     require({r['portal']:r['destination'] for r in rows}==expected,'Canonical portal/dimension identity changed')
-    require(result['actualNativeEntityRoundTrips']==21 and result['nativePortalConfigurationRestored'],'Full native travel/config restoration required')
+    require(result['actualNativeEntityRoundTrips']==count-1 and result['nativePortalConfigurationRestored'],'Full native travel/config restoration required')
     for row in rows:
-        require(row['nativeTeleporter'].startswith('net.tslat.aoa3.content.world.teleporter.specific.'),'Native teleporter substituted')
+        restored=row['portal'] in ['aoa3:'+realm+'_portal' for realm in ['ethereus','everland','playtopia','labricon']]
+        require(row['nativeTeleporter']=='net.tslat.aoa3.content.world.gen.compat.snapshot1710.nativeapi.SnapshotRealmFamily$1' if restored else row['nativeTeleporter'].startswith('net.tslat.aoa3.content.world.teleporter.specific.'),'Native teleporter substituted')
         if row['portal']=='aoa3:nowhere_portal':
             require(row['nativeFixedLobbyRoutingVerified'] and row['genericPortalCacheNotUsed'] and row['specializedPlayerOnlyEntryPreserved'],'Specialized Nowhere lobby/player-only behavior changed')
         else:
@@ -41,6 +43,9 @@ def main():
     require(Path(recorded['path']).samefile(a.plan) and (recorded['sha256'],recorded['bytes'])==(actual['sha256'],actual['bytes']),'Native server was not built from this complete plan')
     capture=read(server['capture']['path']);result=capture['restoredPortalInspection']
     expected={r['blockKey']:r['targetWorld'] for r in plan['completeCanonicalPortalAccess']['allCanonicalPortals']};require(len(expected)==22,'Full source-bound canonical portal census required')
+    if plan.get('snapshotFourWorldActivation'):
+        require(plan['snapshotFourWorldActivation']['realms']==['ethereus','everland','playtopia','labricon'] and plan['snapshotFourWorldActivation']['nativePortalCount']==26,'Complete reviewed four-world cohort required')
+        expected.update({'aoa3:'+realm+'_portal':'aoa3:'+realm for realm in plan['snapshotFourWorldActivation']['realms']})
     check_capture(result,expected)
     raw_file=Path(server['build']['build_root'])/'run/enderloom-forge1201-restored-portals.json';require(read(raw_file)==result,'Full server capture and native portal record differ')
     raw=raw_file.read_text(encoding='utf-8');log=Path(server['build']['stdout_path']).read_text(encoding='utf-8',errors='strict')
@@ -63,8 +68,8 @@ def main():
         except AssertionError:rejected=True
         require(rejected,'Generated broken result accepted: '+fault);faults.append(dict(fault=fault,generated=True,rejected=True))
     out=Path(a.output);frozen=Path(str(out)+'.verifier.py');require(not out.exists() and not frozen.exists(),'Preserve previous verification');frozen.write_bytes(Path(__file__).read_bytes())
-    out.write_text(json.dumps(dict(passed=True,synthetic=False,scope='Controlled native entity portal travel; player UI, natural acquisition and multiplayer remain separate',plan=artifact(a.plan),server=artifact(a.server),capture=artifact(raw_file),verifier=artifact(frozen),canonicalPortals=22,actualNativeEntityRoundTrips=21,specializedNowhereLobbyRetained=True,generatedFaults=faults,completeAoAPort=False),indent=2),encoding='utf-8')
-    print(json.dumps(dict(passed=True,canonicalPortals=22,actualNativeEntityRoundTrips=21,generatedFaults=len(faults),output=str(out))))
+    out.write_text(json.dumps(dict(passed=True,synthetic=False,scope='Controlled native entity portal travel; player UI, natural acquisition and multiplayer remain separate',plan=artifact(a.plan),server=artifact(a.server),capture=artifact(raw_file),verifier=artifact(frozen),canonicalPortals=len(expected),actualNativeEntityRoundTrips=len(expected)-1,specializedNowhereLobbyRetained=True,generatedFaults=faults,completeAoAPort=False),indent=2),encoding='utf-8')
+    print(json.dumps(dict(passed=True,canonicalPortals=len(expected),actualNativeEntityRoundTrips=len(expected)-1,generatedFaults=len(faults),output=str(out))))
 
 
 if __name__=='__main__':main()
