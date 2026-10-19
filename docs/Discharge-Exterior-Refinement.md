@@ -1,5 +1,7 @@
 # Discharge exterior refinement: muzzle, grip and capacitors
 
+[Automatic 3D trial review: why the six-port generated mesh was rejected](Concept-to-Mesh-Discharge-Study). The separately authored model below remains the working source.
+
 **Editable Blender authoring study. Not a finished TaCZ pack, native game capture or accepted weapon.**
 
 The owner's [canonical concept A](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-shotgun-owner-target-v1.png) remains the visual target. The [source weapon profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) defines the gameplay baseline. Three visible muzzle channels in this artwork do not change the original four-projectile firing behavior.

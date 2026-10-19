@@ -1,5 +1,57 @@
 # Discharge concept-to-mesh study
 
+**Current decision: generated mesh rejected as the canonical upgrade.** Keep the owner-selected three-port concept and the separately authored model. A successful generation process does not establish art or native-game acceptance.
+
+[Current editable Discharge work](Discharge-Exterior-Refinement) · [Original weapon behavior](Discharge-Shotgun-Weapon-Profile) · [Full quality standard](Weapon-Completeness-Standard)
+
+## Local CPU follow-up · 2026-10-19
+
+A separate local `trellis.cpp` run completed at 1024 resolution using q8 models, eight CPU threads, 12 steps, a 120,000-face target and a 2048 texture atlas. It produced an actual GLB, which was imported and rendered from six views.
+
+![Generated Discharge mesh, rejected as the canonical weapon](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-cpu-mesh-oblique.png)
+
+The obvious concept mismatch is the **six muzzle openings in two columns**, whereas the selected design requires three. Soft/fused forms, invented hidden-side details and orange/gray surface drift also remain. A nice-looking oblique render cannot waive those defects.
+
+### Trial input and limits
+
+![Isolated image-to-3D trial input, not a replacement canonical concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-cpu-input-reference.png)
+
+This isolated trial reference is a generation input. It does not replace the original concept sheet or authorize invented geometry on unseen sides. Each generated surface must still be checked against the actual design.
+
+### Numeric evidence
+
+| Check | Observed result | Meaning |
+|---|---:|---|
+| Process result | Exit 0; 7,431.85 seconds | Generation completed; about 124 minutes on this CPU setup |
+| Peak process RSS | 3,513,608 KiB | Process memory observation, not a Minecraft memory/FPS result |
+| Output triangles | 115,136 | Actual output, below the requested target |
+| Texture atlas | 2048 × 2048 | Does not guarantee appropriate materials or texel usage |
+| Strict UV preflight | 4 collapsed/near-zero-area UV faces | Fails the checked export subset |
+| Position-welded boundary edges | 0 | Does not alone establish a manifold mesh |
+| Position-welded non-manifold edges | 144 | Topology still fails manifold acceptance |
+| Native acceptance | None | No game installation, animation binding or performance certification |
+
+The many index-based components/boundaries include UV-seam splits. They must not be reported as thousands of detached physical pieces. Position-welded analysis is a separate diagnostic and still finds non-manifold edges.
+
+![Six actual generated-mesh inspection views](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-cpu-mesh-six-views.jpg)
+
+## What happens next
+
+1. Keep the generated result as an experimental reference, without replacing the authored Discharge model.
+2. Preserve three cosmetic muzzle ports and the original four-projectile gameplay distinction.
+3. Author separate moving components and deliberate negative spaces; check the actual hand and full animation paths.
+4. Repair/export UVs only after concept fidelity is correct. A clean UV report cannot repair the wrong silhouette or invented ports.
+5. Verify original identity, attachments, materials, effects, sound and gameplay in the target runtime before accepting a release.
+
+[Machine-readable result and rejection reasons](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-cpu-mesh-review.json)
+
+<details>
+<summary>Earlier hosted-service and visual-hull experiments, preserved as historical context</summary>
+
+The following record describes earlier attempts. Its model version references are historical; current authored work is linked above.
+
+# Discharge concept-to-mesh study
+
 Status: **reference studies only; no finished weapon accepted**. The first-target arsenal still contains 228 IDs, with historical/version-exclusive weapons additional scope. A good silhouette or valid mesh is not a complete weapon.
 
 ## What was actually attempted
@@ -35,3 +87,6 @@ The 256-grid study has 64,611 vertices and 128,974 triangles. Local checks found
 The research bundle contains the original reconstruction scripts, exact trial settings, preview provenance, numeric reports and rejected visual-review decisions. It does not bundle third-party program code or imply that a hosted preview is a native Minecraft render.
 
 The canonical authored Discharge v7 remains separately preserved. Neither that model nor this reference hull has final visual or native gameplay acceptance.
+
+
+</details>
