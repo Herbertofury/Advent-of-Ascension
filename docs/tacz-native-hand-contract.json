@@ -1,0 +1,60 @@
+{
+  "release": "TaCZ1.20.1-1.1.8-hotfix2",
+  "jar_sha512": "fa8b4bd4a7a0835092bccbb28a18461642d4e7a2f6fdb762ac4978d4dbc31d1f0f61c685343a61607dce3d1cd89f4314b61a9f8811960b9d0604692ac3fff96d",
+  "class_sha256": {
+    "com.tacz.guns.client.model.BedrockGunModel": "51617205fabf64f8aaa675a082c51d3791233ef783071249fecf48b5360838e9",
+    "com.tacz.guns.client.model.BedrockAnimatedModel": "4c7bdc5557ea0ae6662dc0b1cff3f0d9bbd12964ea2e4066547df87d27cdbee6",
+    "com.tacz.guns.client.model.FunctionalBedrockPart": "20cb8344eaa43af82af856176a8f6c4b872e180adda18074104b860922b53541",
+    "com.tacz.guns.client.model.functional.RightHandRender": "eb294cbe1d2660fdc018433316663b22fe3ff44da61505dad809003987d75d67",
+    "com.tacz.guns.util.RenderHelper": "129054bda31d8003300073dde1909d48e2f97afe555ad61758a795275811604e"
+  },
+  "example_model": {
+    "path": "assets/tacz/custom/tacz_default_gun/assets/tacz/geo_models/gun/ak47_geo.json",
+    "sha256": "e92b98aaf49b6cda4dc44bf386643d6b8d2789d2a9c96b01a2b4538dd231c3c3",
+    "anchors": {
+      "lefthand_pos": {
+        "pivot": [
+          0,
+          8,
+          0
+        ],
+        "parent": "lefthand",
+        "example_cube_sizes": [
+          [
+            3,
+            12,
+            4
+          ]
+        ]
+      },
+      "righthand_pos": {
+        "pivot": [
+          0,
+          8,
+          0
+        ],
+        "parent": "righthand",
+        "example_cube_sizes": [
+          [
+            3,
+            12,
+            4
+          ]
+        ]
+      }
+    }
+  },
+  "findings": [
+    "Model registers functional renderers at lefthand_pos and righthand_pos",
+    "RightHandRender captures transformed matrices and delegates to RenderHelper.renderFirstPersonArm",
+    "RenderHelper obtains PlayerRenderer from the current entity renderer dispatcher",
+    "A non-null functional renderer branch skips the normal cube compilation path",
+    "Example JSON cubes are not proof of final rendered arm dimensions"
+  ],
+  "qa_requirement": [
+    "Use actual native player arm/skin variants and the complete transform chain",
+    "Do not shrink a proxy to make hand clearance pass",
+    "Capture both main hands, first/third person and animated intersections"
+  ],
+  "native_hand_fit_accepted": false
+}
