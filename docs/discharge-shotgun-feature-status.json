@@ -57,9 +57,24 @@
           {
             "path": "docs/aoa-authoring-corrections-v19-v7.zip",
             "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-capacitor-canopy-v34-patch.zip",
+            "sha256": "f384fb6dcc999fb067f1fbd82571085018dccefce263e7a7015330b9bb4e8311"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-capacitor-canopy-v34-evidence.json",
+            "sha256": "81e9ab2047a438bd31e5a56e2d3a45c209477723d1dc1085a6a1a47dccc41078"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-rear-contour-v32-r3-patch.zip",
+            "sha256": "c1f34bc62692fd9aca25cd6028b0e1b63e8c6926b2c6c91714cb817d63b8b3b2"
           }
         ],
-        "notes": "Authoring prototype only; this package does not establish full native implementation."
+        "notes": "Corrected v32-r3 root-owned exterior and v34 canopy study; source geometry and sampled surface checks are limited evidence. Actual hands, final concept fidelity and native qualification remain open."
       },
       "qa": {
         "status": "in_progress",
@@ -67,9 +82,24 @@
           {
             "path": "docs/aoa-authoring-corrections-v19-v7.zip",
             "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-capacitor-canopy-v34-patch.zip",
+            "sha256": "f384fb6dcc999fb067f1fbd82571085018dccefce263e7a7015330b9bb4e8311"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-capacitor-canopy-v34-evidence.json",
+            "sha256": "81e9ab2047a438bd31e5a56e2d3a45c209477723d1dc1085a6a1a47dccc41078"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-rear-contour-v32-r3-patch.zip",
+            "sha256": "c1f34bc62692fd9aca25cd6028b0e1b63e8c6926b2c6c91714cb817d63b8b3b2"
           }
         ],
-        "notes": "Explicit negative visual review retained in source package; do not pass."
+        "notes": "Corrected v32-r3 root-owned exterior and v34 canopy study; source geometry and sampled surface checks are limited evidence. Actual hands, final concept fidelity and native qualification remain open."
       },
       "omission": null
     },
@@ -85,9 +115,24 @@
           {
             "path": "docs/aoa-authoring-corrections-v19-v7.zip",
             "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-capacitor-canopy-v34-patch.zip",
+            "sha256": "f384fb6dcc999fb067f1fbd82571085018dccefce263e7a7015330b9bb4e8311"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-capacitor-canopy-v34-evidence.json",
+            "sha256": "81e9ab2047a438bd31e5a56e2d3a45c209477723d1dc1085a6a1a47dccc41078"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-rear-contour-v32-r3-patch.zip",
+            "sha256": "c1f34bc62692fd9aca25cd6028b0e1b63e8c6926b2c6c91714cb817d63b8b3b2"
           }
         ],
-        "notes": "Authoring prototype only; this package does not establish full native implementation."
+        "notes": "Corrected v32-r3 root-owned exterior and v34 canopy study; source geometry and sampled surface checks are limited evidence. Actual hands, final concept fidelity and native qualification remain open."
       },
       "qa": {
         "status": "in_progress",
@@ -95,9 +140,24 @@
           {
             "path": "docs/aoa-authoring-corrections-v19-v7.zip",
             "sha256": "89eb435658a89741133bfa1d8ac153753da030843955a5551fd510f11f1c663e"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-capacitor-canopy-v34-patch.zip",
+            "sha256": "f384fb6dcc999fb067f1fbd82571085018dccefce263e7a7015330b9bb4e8311"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-capacitor-canopy-v34-evidence.json",
+            "sha256": "81e9ab2047a438bd31e5a56e2d3a45c209477723d1dc1085a6a1a47dccc41078"
+          },
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-rear-contour-v32-r3-patch.zip",
+            "sha256": "c1f34bc62692fd9aca25cd6028b0e1b63e8c6926b2c6c91714cb817d63b8b3b2"
           }
         ],
-        "notes": "Scoped triangle-area tests exist. Hands, continuous collisions and mechanism continuity remain open."
+        "notes": "Corrected v32-r3 root-owned exterior and v34 canopy study; source geometry and sampled surface checks are limited evidence. Actual hands, final concept fidelity and native qualification remain open."
       },
       "omission": null
     },
@@ -454,17 +514,52 @@
     "animation_fire_charge": {
       "disposition": "required",
       "concept": {
-        "status": "not_started",
-        "evidence": []
+        "status": "in_progress",
+        "evidence": [
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-combined-authoring-v33-patch.zip",
+            "sha256": "069c074a66a6c94b74dbcc95aee21972852776daa9a4c0131b8e279821bbae9f"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-combined-v33-evidence.json",
+            "sha256": "6ea7d4c0a018a94c7b58da73859978edbad115e35f36f36d480f6639d55b3f66"
+          }
+        ],
+        "notes": "Three-channel cosmetic recoil now exists as a Blender fixture with sampled owned-part/surface checks and isolated released-parser acceptance. No native playback, binding, charging behavior, hands or full animation acceptance."
       },
       "implementation": {
-        "status": "not_started",
-        "evidence": [],
-        "notes": "Published v3 is a static modeled study; do not infer an animation from it."
+        "status": "in_progress",
+        "evidence": [
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-combined-authoring-v33-patch.zip",
+            "sha256": "069c074a66a6c94b74dbcc95aee21972852776daa9a4c0131b8e279821bbae9f"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-combined-v33-evidence.json",
+            "sha256": "6ea7d4c0a018a94c7b58da73859978edbad115e35f36f36d480f6639d55b3f66"
+          }
+        ],
+        "notes": "Three-channel cosmetic recoil now exists as a Blender fixture with sampled owned-part/surface checks and isolated released-parser acceptance. No native playback, binding, charging behavior, hands or full animation acceptance."
       },
       "qa": {
-        "status": "not_started",
-        "evidence": []
+        "status": "in_progress",
+        "evidence": [
+          {
+            "kind": "authoring_source",
+            "path": "docs/discharge-combined-authoring-v33-patch.zip",
+            "sha256": "069c074a66a6c94b74dbcc95aee21972852776daa9a4c0131b8e279821bbae9f"
+          },
+          {
+            "kind": "offline_test_report",
+            "path": "docs/discharge-combined-v33-evidence.json",
+            "sha256": "6ea7d4c0a018a94c7b58da73859978edbad115e35f36f36d480f6639d55b3f66"
+          }
+        ],
+        "notes": "Three-channel cosmetic recoil now exists as a Blender fixture with sampled owned-part/surface checks and isolated released-parser acceptance. No native playback, binding, charging behavior, hands or full animation acceptance."
       },
       "omission": null
     },
@@ -613,8 +708,20 @@
       "notes": "Only the scoped geometric tests documented in this exact source revision apply."
     },
     "animation": {
-      "status": "not_started",
-      "evidence": []
+      "status": "in_progress",
+      "evidence": [
+        {
+          "kind": "authoring_source",
+          "path": "docs/discharge-combined-authoring-v33-patch.zip",
+          "sha256": "069c074a66a6c94b74dbcc95aee21972852776daa9a4c0131b8e279821bbae9f"
+        },
+        {
+          "kind": "offline_test_report",
+          "path": "docs/discharge-combined-v33-evidence.json",
+          "sha256": "6ea7d4c0a018a94c7b58da73859978edbad115e35f36f36d480f6639d55b3f66"
+        }
+      ],
+      "notes": "Fire/recoil fixture only; all other required animation states and native qualification remain open."
     },
     "feedback": {
       "status": "not_started",
@@ -637,8 +744,8 @@
     "notes": []
   },
   "fully_accepted": false,
-  "reviewed_revision": "published sculpt v7",
-  "review_notes": "Updated to the exact published corrected prototype. Winding, duplicate and thickness checks are additional scoped gates, not full visual/native acceptance. All unstarted feature rows remain visible.",
+  "reviewed_revision": "Published v34 capacitor canopy, v32-r3 root/scale correction and v33 combined recoil",
+  "review_notes": "Reconciled actual published authoring progress rather than leaving the fire-animation row at the old static-v3 state. Texture studies remain separately versioned; do not assume old baked maps fit current geometry. Native and final-art acceptance remain open.",
   "visual_profiles": {
     "minecraft_fit": {
       "concept": {
