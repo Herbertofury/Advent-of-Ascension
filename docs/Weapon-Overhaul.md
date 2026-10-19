@@ -206,3 +206,7 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Mineral: preserve the rose-colored Rocky upgrade
 
 [Source profile, illustrated Divine recipe and concept](Mineral-Weapon-Profile) retains the compact rose/silver/red silhouette and Metal Slug baseline. Optional lattice and red-dust effects are visual proposals, not inferred mining or loot mechanics.
+
+### Camo Rifle: source study while artwork is pending
+
+[Camouflage contract and pictured infusion](Camo-Rifle-Mechanics-Study) documents the server-only selected-slot, shift-held invisibility refresh. This source-only page is not counted as an illustrated upgrade concept and does not certify native behavior.
