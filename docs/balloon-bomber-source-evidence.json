@@ -1,0 +1,33 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 12.5,
+    "durability": 505,
+    "delay_ticks": 24,
+    "constructor_recoil": 0.22,
+    "ammo": "aoa3:balloon",
+    "projectile_age_parameter": 120,
+    "piercing_parameter": 0,
+    "gravity_return": 0.1,
+    "explosion_strength_input": 1.5
+  },
+  "upgrade_recipe": {
+    "type": "aoa3:upgrade_kit",
+    "input": {
+      "item": "aoa3:balloon_bomber"
+    },
+    "result": {
+      "item": "aoa3:water_balloon_bomber"
+    },
+    "upgrade_kit": {
+      "item": "aoa3:seaside_upgrade_kit"
+    }
+  },
+  "boundaries": [
+    "Explosion helper strength is not a radius or final damage guarantee",
+    "No active acquisition route established by this profile",
+    "No native runtime or visual acceptance"
+  ],
+  "native_accepted": false
+}
