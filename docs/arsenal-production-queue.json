@@ -2932,7 +2932,7 @@
     {
       "id": "aoa3:carrot_cannon",
       "family": "cannon",
-      "stage": "not_started",
+      "stage": "released_baseline_and_unaccepted_concept_exploration",
       "gates": {
         "mechanism": "untested",
         "spatial": "untested",
@@ -2941,13 +2941,24 @@
         "export": "untested",
         "runtime": "untested"
       },
-      "evidence": [],
+      "evidence": [
+        "carrot-cannon-released-evidence.json",
+        "Carrot-Cannon-Weapon-Profile.md"
+      ],
       "required_design_deliverables": [
         "Original version-specific profile",
         "Original projectile flight/impact capture",
         "Identity-specific alternate barrels",
         "Attachment and charm clearances",
         "Skins, decals and effect customization"
+      ],
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile",
+      "concept_art": "published exploration; not final visual acceptance",
+      "original_in_game_capture": "not captured",
+      "known_open": [
+        "Editable separated model, hand fit and animation authoring",
+        "Native projectile, impact and game-time particle verification",
+        "Texture, export, native runtime and performance acceptance"
       ]
     },
     {
