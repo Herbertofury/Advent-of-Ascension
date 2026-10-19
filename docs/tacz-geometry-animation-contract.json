@@ -1,0 +1,43 @@
+{
+  "release": "TaCZ1.20.1-1.1.8-hotfix2",
+  "artifact_sha512": "fa8b4bd4a7a0835092bccbb28a18461642d4e7a2f6fdb762ac4978d4dbc31d1f0f61c685343a61607dce3d1cd89f4314b61a9f8811960b9d0604692ac3fff96d",
+  "class_sha256": {
+    "com.tacz.guns.client.resource.pojo.model.BonesItem": "a054661c2fb03428cb67f0f15182e8cb0952525febca8097c6e11949da5720ab",
+    "com.tacz.guns.client.resource.pojo.model.CubesItem": "cb6b90eccb09568e145a0160a166a0775108305e794e6e099812fdb41f7ea0b2",
+    "com.tacz.guns.client.resource.manager.GltfManager": "f0727e0569543ef040c3789113e722ea98169d7757ca0b83f5e3686344b75258",
+    "com.tacz.guns.client.resource.pojo.animation.gltf.RawAnimationStructure": "aaf58fb77741a94b4304a0dab08501048f5f80abdce65e4a4ea312c386c043ee"
+  },
+  "fields": {
+    "com.tacz.guns.client.resource.pojo.model.BonesItem": [
+      "java.util.List<com.tacz.guns.client.resource.pojo.model.CubesItem> cubes",
+      "java.lang.String name",
+      "java.util.List<java.lang.Float> pivot",
+      "java.util.List<java.lang.Float> rotation",
+      "java.lang.String parent",
+      "boolean mirror"
+    ],
+    "com.tacz.guns.client.resource.pojo.model.CubesItem": [
+      "java.util.List<java.lang.Float> uv",
+      "com.tacz.guns.client.resource.pojo.model.FaceUVsItem faceUv",
+      "boolean mirror",
+      "boolean hasMirror",
+      "float inflate",
+      "java.util.List<java.lang.Float> size",
+      "java.util.List<java.lang.Float> origin",
+      "java.util.List<java.lang.Float> rotation",
+      "java.util.List<java.lang.Float> pivot"
+    ],
+    "com.tacz.guns.client.resource.manager.GltfManager": [],
+    "com.tacz.guns.client.resource.pojo.animation.gltf.RawAnimationStructure": [
+      "java.util.List<com.tacz.guns.client.resource.pojo.animation.gltf.Accessor> accessors",
+      "java.util.List<com.tacz.guns.client.resource.pojo.animation.gltf.Animation> animations",
+      "java.util.List<com.tacz.guns.client.resource.pojo.animation.gltf.Buffer> buffers",
+      "java.util.List<com.tacz.guns.client.resource.pojo.animation.gltf.BufferView> bufferViews",
+      "java.util.List<com.tacz.guns.client.resource.pojo.animation.gltf.Node> nodes"
+    ]
+  },
+  "gltf_loader_path": "animations/*.gltf",
+  "scope": "Selected released data types and loader contract; not a global proof that every third-party renderer lacks triangle support",
+  "conclusion": "The inspected glTF loader is animation-only. A triangle/PBR GLB cannot be declared a ready stock TaCZ gun merely by parsing or renaming it.",
+  "native_accepted": false
+}

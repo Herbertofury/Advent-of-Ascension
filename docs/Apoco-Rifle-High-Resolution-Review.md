@@ -44,6 +44,12 @@ The non-destructive repair uses a fresh mesh surface and UV atlas, then transfer
 
 This fixes a narrow geometry problem. The wrong emitter, missing lime details, fused mechanisms and local material blemishes remain. It is a better repair reference, not a completed weapon.
 
+## Downloadable authoring reference
+
+[Download the repaired, explicitly unaccepted GLB](apoco-rifle-1024-reference-unaccepted.glb) (approximately 9.8 MiB). It has no native animation or game integration. The muzzle orientation and visual issues described above remain. It is supplied for continued editing and reproducibility, not installation as a TaCZ gunpack.
+
+[Read the pinned TaCZ geometry-versus-animation contract](TaCZ-Geometry-and-Animation-Contract.md) before choosing a native export backend.
+
 ## Next acceptance work
 
 1. Rebuild the emitter with an explicit forward direction and inspect it from the firing axis.
