@@ -134,3 +134,7 @@ No-loss performance and compatibility are acceptance targets requiring measureme
 One traceable record per accepted weapon and source version: registry ID, original behavior, model/texture ownership, animations, backend/version support, fallback, conversion policy, screenshots, multiplayer tests and performance evidence. An unchecked or unsupported weapon remains visible in the coverage ledger.
 
 [Reproducible Predatorian and Pulse source checks](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/predatorian-pulse-source-study.zip) verify narrow pinned bytecode markers and recipe structure; they do not certify gameplay or final art.
+
+## Baron SSR: original identity and historical acquisition
+
+[Baron SSR weapon profile](Baron-SSR-Weapon-Profile) preserves the red-brown/dark silhouette, Metal Slug sniper behavior and version-specific Baroness loot evidence. Its new material, inspection and VFX sheet remains a partial concept study with native acceptance open.
