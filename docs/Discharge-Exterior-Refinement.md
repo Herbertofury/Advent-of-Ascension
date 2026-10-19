@@ -48,3 +48,23 @@ The decorative recesses are shallow modeled features; they do not establish func
 [Download the compact authoring-study archive](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-exterior-authoring-study-v31.zip). It contains the editable Blender scene, the scoped geometry-check script, recorded results and limits. Open with Blender 4.3.2 or a separately validated compatible version. This archive is not installable as a Minecraft mod.
 
 [Machine-readable review](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-exterior-v31-evidence.json) · [Original concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-shotgun-owner-target-v1.png) · [Weapon completeness requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard)
+
+
+## Recoil ownership and collision review, v4
+
+The current exterior now has a separate **unaccepted recoil authoring study**. A deeper surface-sweep check caught problems that the earlier transform and parser tests could not detect: v2 had 101 sampled new intersections, including a moving throat entering the receiver and muzzle liners crossing horizontal trim.
+
+The correction assigns the two associated horizontal trim pieces to each moving channel and recesses the receiver nose to make space for the stroke. It does not shrink the player's hands, trigger or guard. The resulting six-piece channel ownership keeps the housing, liner, light outline, throat and trim together. Three cosmetic channels do not change the original four-projectile gameplay burst.
+
+![Sampled recoil poses, authoring scene only](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-recoil-v4-contact-sheet.jpg)
+
+| Scoped check | Recorded outcome | Still not established |
+|---|---|---|
+| Owner transforms | 340 frames, 6,120 part samples; no owner-follow error or inactive-channel drift | Native interpolation and bone binding |
+| Surface sweep | 110,556 pair samples at quarter-frame intervals; zero baseline or newly detected triangle intersections against other visible parts | Full solid containment, every possible pose, hands, attachments or minimum clearance tolerance |
+| Static area | 172 visible objects, 71,756 triangles; no degenerate triangle under the test threshold | Complete topology, UV, material or LOD acceptance |
+| Released TaCZ parser | Three position clips, 111 keys parse using released classes on both tested Java runtimes | Actual game integration, glow playback, sounds or gameplay |
+
+Same-owner part pairs are excluded from the surface sweep. The checks deliberately expose their limits; a passing row is not a native release approval. Material-glow keys are not included in the exported position clips. Full-body/camera recoil, reload/inspect states, networking and performance remain separate work.
+
+[Download editable recoil study and reproducible Blender checks](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-recoil-authoring-v4.zip) · [Scoped results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-recoil-v4-evidence.json). Earlier exterior and concept studies remain preserved above.
