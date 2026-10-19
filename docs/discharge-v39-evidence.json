@@ -1,0 +1,163 @@
+{
+  "scope": "Partial authoring/transport study; not final-art or native acceptance",
+  "native_accepted": false,
+  "final_art_accepted": false,
+  "visual_review": {
+    "scope": "Matched Blender renders; scoped visual/data review only, not native acceptance or final concept fidelity",
+    "whole_source_vs_baked_mae": 0.0029511098295527363,
+    "whole_baked_vs_grouped_mae": 0.0002966218121235422,
+    "grip_baked_vs_glb_mae": 0.00016977700884275278,
+    "four_maps_same_2048_resolution": true,
+    "extra_detail_atlas_required": false,
+    "native_accepted": false,
+    "final_art_accepted": false,
+    "remaining": [
+      "Target concept sculpting and ornament fidelity",
+      "Native shading and handedness",
+      "Hand clearance throughout animation",
+      "Lower mip and moving-camera aliasing",
+      "LOD and frame-time budgets"
+    ]
+  },
+  "clean_package": {
+    "zip_bytes": 18708350,
+    "reproduced_exports": [
+      {
+        "file": "discharge_grouped_compact.geo.json",
+        "sha256": "2a6a4e55d1a5928bde3b6becebaf284fe6e82d4e47411fc1bdf10a7d215f1abf",
+        "byte_identical": true
+      },
+      {
+        "file": "discharge_recoil.animation.json",
+        "sha256": "5a7137ac686877493b24d34bcd3113b122035feca1419b7270ffa104d2e641ea",
+        "byte_identical": true
+      },
+      {
+        "file": "discharge-static-preview.glb",
+        "sha256": "8c8ba61d3f8475c554325a6dc111abb97ec06f0b656c36e81e758944eae648e0",
+        "byte_identical": true
+      }
+    ],
+    "scope": "Clean extraction and exports from packed grouped scene; not a source UV/bake rebuild or native-game test",
+    "native_accepted": false
+  },
+  "grouping": {
+    "input_parts": 186,
+    "output_groups": 7,
+    "material_slots_per_group": [
+      9,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3
+    ],
+    "frames": 340,
+    "substeps_per_frame": 4,
+    "vertex_samples": 54261280,
+    "maximum_world_position_error": 8.331559205813685e-08,
+    "maximum_uv_error": 0.0,
+    "maximum_normal_vector_error": 0.000592709529070114,
+    "native_accepted": false,
+    "scope": "Authoring mesh grouping at the stated frame/subframe samples; native draw calls, continuous interpolation, alternate clips, shader bindings and performance untested"
+  },
+  "uv_continuous": {
+    "triangles": 78020,
+    "candidate_pairs": 2002271,
+    "tested_bbox_pairs": 236028,
+    "positive_intersections": 0,
+    "area_tolerance": 1e-14,
+    "overlaps": [],
+    "scope": "2D convex triangle intersection, not shader sampling or mip proof"
+  },
+  "uv_raster": {
+    "scope": "2048x2048 texel-center triangle-interior sampling, excluding shared edges; not continuous UV or mip-padding proof",
+    "parts": 186,
+    "triangle_count": 78020,
+    "degenerate_uv_triangles": [],
+    "triangles_without_texel_center": 42362,
+    "overlap_texel_centers": 0,
+    "covered_texel_centers": 743573,
+    "parts_without_centers": [],
+    "native_accepted": false
+  },
+  "grip_density": [
+    {
+      "part": "V36 conforming textured inlay",
+      "texel_area": 146499.62995151186,
+      "bounds_pixels": [
+        289.33386611938477,
+        506.3341941833496
+      ]
+    },
+    {
+      "part": "V36 conforming textured inlay.001",
+      "texel_area": 146499.51913391438,
+      "bounds_pixels": [
+        506.3341369628906,
+        289.3336944580078
+      ]
+    }
+  ],
+  "compact_transport": {
+    "source_bytes": 17537932,
+    "output_bytes": 12898214,
+    "reduction_fraction": 0.26455331221491796,
+    "verified_float32_values": 637407,
+    "source_sha256": "f32adced8ab226348b7ed6cf8e7a926af18bade9c8a6b756edc7a3af8f87f697",
+    "output_sha256": "2a6a4e55d1a5928bde3b6becebaf284fe6e82d4e47411fc1bdf10a7d215f1abf",
+    "scope": "TML consumed float32 bit equivalence; not a generic double-precision JSON rewrite or FPS claim"
+  },
+  "released_baker": {
+    "17": "PASS actual TML0.1.8 constructor/baker: pivot subtraction, model-unit scaling, Y/V flips, normalized/pixel UVs, three-corner and Meshy-padded triangles, untriangulated five-corner count and bad-index rejection. No GPU/cache/render entry point executed; graphics/logging types are stand-ins.\nPASS released compileConsumer recording-sink check: positions, UVs, tint/light/overlay forwarding; fallback emits the NEGATIVE of stored baked normals. No GPU/native lighting verdict.\nNormal diagnostic: minimum length=3.1709927E-8, faces below 0.99=8\nPASS actual released TML baker: 7 mesh bones, 312080 baked vertices, finite geometry/normals, bounded UVs, empty GPU caches. Static geometry only; no rendering or game acceptance.\nPASS exact released TML baker bit equivalence: 7 meshes / 2496640 baked float values. No GPU or native-game execution.\nPASS clean isolated build; no upstream classes or dependencies redistributed\n",
+    "21": "PASS actual TML0.1.8 constructor/baker: pivot subtraction, model-unit scaling, Y/V flips, normalized/pixel UVs, three-corner and Meshy-padded triangles, untriangulated five-corner count and bad-index rejection. No GPU/cache/render entry point executed; graphics/logging types are stand-ins.\nPASS released compileConsumer recording-sink check: positions, UVs, tint/light/overlay forwarding; fallback emits the NEGATIVE of stored baked normals. No GPU/native lighting verdict.\nNormal diagnostic: minimum length=3.1709927E-8, faces below 0.99=8\nPASS actual released TML baker: 7 mesh bones, 312080 baked vertices, finite geometry/normals, bounded UVs, empty GPU caches. Static geometry only; no rendering or game acceptance.\nPASS exact released TML baker bit equivalence: 7 meshes / 2496640 baked float values. No GPU or native-game execution.\nPASS clean isolated build; no upstream classes or dependencies redistributed\n"
+  },
+  "normal_candidate": {
+    "geometry_sha256": "2a6a4e55d1a5928bde3b6becebaf284fe6e82d4e47411fc1bdf10a7d215f1abf",
+    "geometry_file": "discharge_grouped_compact.geo.json",
+    "scope": "Actual upstream source versus local opt-in patch compiled with explicit fail-closed rendering stand-ins; no native Minecraft execution",
+    "default_arrays_bit_identical": true,
+    "results": [
+      {
+        "mode": "baseline",
+        "runtime": "17",
+        "stdout": "DEFAULT_ARRAY_DIGEST 7cefd1262a79fa0ad65d99e16e6e5b3a5cc5aa63986fb8cee7f6c2764b139673 values=2496640\n"
+      },
+      {
+        "mode": "baseline",
+        "runtime": "21",
+        "stdout": "DEFAULT_ARRAY_DIGEST 7cefd1262a79fa0ad65d99e16e6e5b3a5cc5aa63986fb8cee7f6c2764b139673 values=2496640\n"
+      },
+      {
+        "mode": "candidate",
+        "runtime": "17",
+        "stdout": "PASS authored, default-flat, missing/zero/nonfinite/out-of-range normals, large finite normalization, invalid-mode rejection and no GPU cache tests\nDEFAULT_ARRAY_DIGEST 7cefd1262a79fa0ad65d99e16e6e5b3a5cc5aa63986fb8cee7f6c2764b139673 values=2496640\nPASS full authored-normal fixture: 312080 expanded corners, max component error=2.9802245005150496E-8. Source-build data test only; no GPU lighting or animation acceptance.\n"
+      },
+      {
+        "mode": "candidate",
+        "runtime": "21",
+        "stdout": "PASS authored, default-flat, missing/zero/nonfinite/out-of-range normals, large finite normalization, invalid-mode rejection and no GPU cache tests\nDEFAULT_ARRAY_DIGEST 7cefd1262a79fa0ad65d99e16e6e5b3a5cc5aa63986fb8cee7f6c2764b139673 values=2496640\nPASS full authored-normal fixture: 312080 expanded corners, max component error=2.9802245005150496E-8. Source-build data test only; no GPU lighting or animation acceptance.\n"
+      }
+    ],
+    "native_tested": false
+  },
+  "animation_parser": {
+    "release": "TaCZ 1.1.8-hotfix2 / Forge1.20.1",
+    "verified_released_class_count": 18,
+    "animation_sha256": "5a7137ac686877493b24d34bcd3113b122035feca1419b7270ffa104d2e641ea",
+    "runs": [
+      {
+        "runtime_version": "openjdk version \"17.0.20.1\" 2026-08-18 LTS",
+        "stdout": "PARSED discharge_recoil.animation.json clips=3\nPASS isolated released TaCZ animation bytecode: 1 files, 3 clips, 222 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n",
+        "stderr": ""
+      },
+      {
+        "runtime_version": "openjdk version \"21.0.12.1\" 2026-08-18",
+        "stdout": "PARSED discharge_recoil.animation.json clips=3\nPASS isolated released TaCZ animation bytecode: 1 files, 3 clips, 222 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n",
+        "stderr": ""
+      }
+    ],
+    "scope": "Actual released animation parser classes with documented narrow helper stand-ins. No native interpolation, bone binding, hands, sound, gameplay or performance acceptance."
+  }
+}

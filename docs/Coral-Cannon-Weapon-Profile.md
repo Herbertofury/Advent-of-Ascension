@@ -40,6 +40,12 @@ The shared Heavy Blue renderer uses the ordinary dark cannonball texture plus bl
 
 Proposed effects keep the discrete dark core readable: a short blue muzzle glint, restrained trailing motes, and a compact impact sparkle. A healing cue should indicate actual health gained, rather than promise healing on every impact. A death effect must require a confirmed kill. Optional coral shards, reef-ring impacts and pearlescent tracers are customization proposals, not original behavior.
 
+## Optional attachment and effects board
+
+![Optional Coral Cannon sights, grip, charm and cosmetic feedback](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/coral-cannon-attachments-effects-concept-v1.png)
+
+This board explores the pearl sight, smoother reef grip, tide charm, blue wake, reef impact and recovery cue. All are proposals. The decorated projectile, splash-like trail and shard burst are new cosmetic variants, not evidence of original projectile geometry or area damage. Charm motion must stay clear of the trigger and hand throughout every animation; the pictured mount needs that clearance test. Recovery feedback must use actual health gained. Reduce particle density and bloom for readability, and expose accessibility controls.
+
 ## Crafting, provenance and lore
 
 No direct `aoa3:coral_cannon` reference was found in the inspected release's data JSON files. That does not prove the item is unobtainable: code-defined acquisition, older versions and external data require separate investigation. No recipe or origin dimension is invented here. Historical acquisition belongs in a clearly versioned section once verified.

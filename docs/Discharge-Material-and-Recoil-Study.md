@@ -61,7 +61,7 @@ A future native adapter must resolve matching bones once per asset generation, s
 [Source, maps, editable scenes and tests](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-material-recoil-study-v1.zip) · [Required v15 authoring source](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-authoring-refinement-v15.zip) · [Released parser harness](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/tacz-released-parser-check-tool-v2.zip) · [Confirmed-shot presentation component](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Confirmed-Shot-Presentation)
 
 
-## Current v35: mapped textures and seven motion groups
+## Earlier v35: mapped textures and seven motion groups
 
 **Partial authoring/export study. Native weapon and final-art acceptance remain open.**
 
@@ -89,3 +89,35 @@ The released TML data baker parses the geometry on Java 17/21, but its flat-norm
 The static GLB roundtrip closely matches the reviewed authoring image; it is not the Minecraft renderer. The normal bake changes some procedural shading, and the chamber pattern is frozen at one source frame. Native animated energy, sound, hands, confirmed-shot event binding, complete movement/reload/inspection states and measured performance are not supplied by this study.
 
 The source concept remains more sculpted and ornamented than the current model. Grip contours, receiver detail, crown and lower-rail shapes, metal ornamentation, final surface art, variants and the full effects package remain explicit work. Seven groups and smaller JSON do not establish an FPS improvement or final fidelity.
+
+
+## Current v39: corrected grip detail in one atlas
+
+**Authoring/export progress only. Final concept fidelity and native acceptance remain open.**
+
+![Unified atlas and refined chamber collars](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-unified-atlas-v39.png)
+
+![Corrected grip pattern after GLB roundtrip](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-grip-unified-v39.png)
+
+[Editable scene and reproducible export package](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-unified-atlas-v39-study.zip) · [Static GLB](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-static-preview-v39.glb) · [Scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-v39-evidence.json).
+
+The first v37 grip bake blurred its fine pattern into waves and failed visual QA. A dedicated grip atlas corrected that, but added two images. v39 instead keeps continuous grip UV charts and allocates more useful texels within the original four 2048² maps. It incorporates the refined grip and v38 chamber collars. No extra detail atlas or second UV set is needed in this authoring export.
+
+| Check | v39 result |
+|---|---|
+| Geometry | 78,020 authoring triangles, 186 parts grouped into seven meshes |
+| Grouping samples | 54,261,280 vertex samples at quarter-frame steps |
+| Maximum sampled world-position error | 8.34e−8 scene units |
+| UV/material preservation | Exact grouped UVs and material ownership; normal-vector error below 0.001 |
+| Atlas geometry checks | No degenerate UV triangles or positive-area overlaps under documented tolerances |
+| Texture caveat | Tiny triangles without a texel-center sample remain; these checks do not certify every mip level |
+| Static GLB | 7,848,188 bytes, seven meshes, 21 primitives, 12 materials and four images |
+| Transport | 17,537,932 → 12,898,214 bytes, 26.46% less JSON |
+| Released baker equivalence | 2,496,640 float values bit-identical on Java 17 and 21 |
+| Clean package check | Geometry, animation JSON and GLB regenerate byte-identically from the packed grouped scene |
+
+Matched Blender renders were visually reviewed. Whole-frame source-versus-baked mean absolute RGB difference was about 0.00295 on a 0–1 scale; grip baked-versus-GLB difference was about 0.000170. These are controlled render comparisons, not perceptual proof, native screenshots or performance results.
+
+The stock released TML baker still reports eight short flat normals. The separately proposed authored-normal path passes the explicit v39 fixture for all 312,080 expanded corners, but remains a source-only experiment. Native material routing, fallback/VBO lighting parity, animated energy, hands, LODs and frame-time measurements are unresolved.
+
+The package reproduces exports from its included baked scene. It does not claim to reproduce UV preparation and the full bake from scratch. The existing v35 inspection page remains labeled v35; it must not be mistaken for this newer model. Most importantly, the target concept is still more sculpted and ornate: this improved texture/export result does not close the final-art gate.
