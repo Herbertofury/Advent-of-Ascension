@@ -29,3 +29,7 @@ The high-fidelity authoring GLB is a reference asset until the second path is im
 Retain editable source geometry, texture channels, original-to-concept comparisons and explicit moving-part ownership. Test transforms and native hands separately. Keep server-side shots, ammunition, effects and progression authoritative; renderer choice must not duplicate or replace them.
 
 A clean mesh diagnostic is valuable, but it is neither a gameplay integration test nor a native frame-time measurement.
+
+## Evaluate the existing community mesh route first
+
+[The direct TaCZ Mesh Loader study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Mesh-Loader-Direct-Study) already examines the Forge 1.20.1 TML 0.1.8 polygon-mesh extension and its released data baker. That existing project is the first candidate for high-fidelity integration. The stock TaCZ limitation above must not be misread as a claim that no mesh extension exists. The bounded baker checks do not certify native materials, actual hand rendering, shaders, Hari/Vulkan, performance or license compatibility. Resolve the study’s license-metadata discrepancy before redistribution or contribution decisions.
