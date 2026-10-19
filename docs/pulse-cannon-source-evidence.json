@@ -1,0 +1,65 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 26,
+    "durability": 510,
+    "delay_ticks": 42,
+    "constructor_recoil": 0.15,
+    "base_ammo": "aoa3:cannonball",
+    "inherited_projectile": "CannonballEntity",
+    "age_parameter": 120,
+    "piercing_parameter": 0,
+    "hostile_query_AABB_inflation": 2.5,
+    "push_helper_input": 0.75
+  },
+  "recipes": {
+    "data/aoa3/recipes/infusion_pulse_cannon.json": {
+      "type": "aoa3:infusion",
+      "ingredients": [
+        {
+          "item": "aoa3:purple_druse"
+        },
+        {
+          "item": "aoa3:red_druse"
+        },
+        {
+          "item": "aoa3:power_core"
+        },
+        {
+          "item": "aoa3:unstable_gunpowder"
+        },
+        {
+          "tag": "forge:ingots/iron"
+        },
+        {
+          "tag": "forge:ingots/iron"
+        }
+      ],
+      "input": {
+        "item": "aoa3:cannon_frame"
+      },
+      "result": {
+        "item": "aoa3:pulse_cannon"
+      }
+    },
+    "data/aoa3/recipes/upgrade_kit_clowno_pulse.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:pulse_cannon"
+      },
+      "result": {
+        "item": "aoa3:clowno_pulse"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:clown_upgrade_kit"
+      }
+    }
+  },
+  "effect_boundary": "Pulse triggers in firing-effects hook around shooter; AABB query is not a spherical radius; helper input is not measured displacement.",
+  "native_accepted": false,
+  "art_accepted": false,
+  "javap_evidence_sha256": {
+    "PulseCannon.javap.txt": "d8678cbc65e522ad1d0d6be7ec287392ffffbaee978fb3703860550a33fabeab"
+  }
+}
