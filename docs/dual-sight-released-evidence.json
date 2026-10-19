@@ -1,0 +1,141 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:dual_sight",
+    "field": "DUAL_SIGHT",
+    "family": "sniper",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/sniper/DualSight"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$120",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "24fc986453079c12c0f665fd22ec53ed3a48482114a18c8ac7215639679b70d5",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              254
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 38.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 350
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 91
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.041999999433755875
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/sniper/DualSight",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/sniper/DualSight.class",
+        "sha256": "0ab18e558069d815846e2676dd9cc15cace4bb76b97aedad16006a47d655bf63",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "befcaa8b99642cac1a739b879bbea02437f17ba28d665fed49f83478f718d18e"
+          },
+          {
+            "name": "getScopeTexture",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/resources/ResourceLocation;",
+            "code_sha256": "696b5dbfb16f6ae9378047570c5fb15ed0b3d37b1ea4c29d808b5a4d25133475"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 38.5,
+    "durability": 350,
+    "delay_ticks": 91,
+    "recoil": 0.041999999433755875
+  },
+  "scope": "SCOPE_4",
+  "ammo": "aoa3:metal_slug",
+  "sound": "ITEM_GUN_SNIPER_MEDIUM_FIRE_LONG",
+  "special_impact_override": false,
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "item": "aoa3:blue_druse"
+      },
+      {
+        "item": "aoa3:blue_druse"
+      },
+      {
+        "item": "aoa3:dense_rock"
+      },
+      {
+        "tag": "forge:gems/quartz"
+      },
+      {
+        "tag": "forge:gems/quartz"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      }
+    ],
+    "input": {
+      "item": "aoa3:sniper_frame"
+    },
+    "result": {
+      "item": "aoa3:dual_sight"
+    }
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/DualSight.class",
+      "sha256": "0ab18e558069d815846e2676dd9cc15cace4bb76b97aedad16006a47d655bf63"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/DualSight.java",
+  "source_sha256": "6c04bdbeeda008a048026b5f33fc21d9e4157e99af9eaf1a1ab05aa59ae5105d",
+  "native_tested": false,
+  "final_art_accepted": false
+}

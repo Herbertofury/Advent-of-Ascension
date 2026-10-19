@@ -32,3 +32,17 @@ V22: 74,132 evaluated triangles, zero degenerate triangles. Surface projection f
 Still required: significant concept-fidelity sculpting, less slab-like receiver transitions, comfortable native hands, swept animation clearances, export/material conversion, game integration, full weapon features and measured performance. Earlier export and recoil evidence does not automatically transfer to these new scenes.
 
 Original AoA identity remains credited to Tslat and contributors. No original game code or concept artwork is included in this source archive.
+
+## Current v36: grip contours below the guard return
+
+![Revised grip authoring close-up](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-grip-closeup-v36.png)
+
+[Matched before view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-grip-before-v36.png) · [Whole-weapon authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-grip-hero-v36.png) · [Editable source and rebuild](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-grip-v36-study.zip) · [Scoped QA](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-grip-v36-qa.json).
+
+This refinement places the three finger contours below the existing guard return and improves the patterned inlays, fitted edging and small branching crest. An earlier trial left the return floating at a contour; it was rejected. The published revision retains the original trigger and guard instead of shrinking either to conceal a collision.
+
+The rebuild starts from the bundled authored v34 scene. It preserves 292 earlier mesh/curve objects’ geometry and transforms, hiding superseded surfaces. The new grip is a closed positive-volume 4,700-triangle authoring mesh with zero degenerate triangles. A point-in-mesh test confirms the guard’s return endpoint sits inside the grip. A clean package rebuild reproduced those reported checks.
+
+**This is limited static authoring QA.** The single-point seating test does not prove full guard containment, hand fit, moving clearance or native performance. The full concept still calls for more sculpted, integrated detailing, and the current model remains below that target.
+
+The v35 mapped textures, grouped GLB and animation transport remain a separate export study. They have not been regenerated for this v36 geometry. Do not combine their acceptance evidence or label this archive a playable gunpack.
