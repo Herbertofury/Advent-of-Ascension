@@ -30,6 +30,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Weapon | Read the original behavior and proposed upgrade |
 |---|---|
 | Soul Storm | [Full profile](Soul-Storm-Weapon-Profile) · [Soul Flame default sight](Soul-Storm-Sights) |
+| Balloon Bomber | [Carnival concept, Balloon ammunition, impact behavior and inspection storyboard](Balloon-Bomber-Weapon-Profile) |
 | Baronator | [Full profile, alternating barrels and bonus grenade distinction](Baronator-Weapon-Profile) |
 | Minigun | [Full profile, rotary identity and native acquisition](Minigun-Weapon-Profile) |
 | Abominator | [Full profile and original-inspired concept](Abominator-Weapon-Profile) |
