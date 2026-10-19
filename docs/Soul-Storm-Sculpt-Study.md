@@ -53,7 +53,7 @@ The original Lua presenter reuses four tracks and has no per-frame polling callb
 
 The unchanged Java core and the Lua presenter now run together in an isolated bridge fixture: 29 assertions on Java17 and Java21 cover ordinal gaps, duplicate/stale events, wrong weapon/session, rejected attempts and unsupported variants. The core retains replay/configuration authority; Lua consumes only its resolved zero-based emitter index. Five/six-emitter configurations need matching native assets and presenter support, with safe fallback meanwhile.
 
-The presenter does not consume ammo, spawn projectiles or schedule gameplay. Prediction reconciliation, actual native event/bone binding, arms, materials and multiplayer remain open. The existing recoil packet lacks sufficient identity fields to be treated as a complete shot event; see the source findings in the linked core page.
+The presenter does not consume ammo, spawn projectiles or schedule gameplay. Prediction reconciliation, actual native event/bone binding, arms, materials and multiplayer remain open. Soul Storm uses the separate BaseBlaster energy/charge path, so a BaseGun-only or recoil-packet hook would miss its native firing. The all-228-item source audit and packet identity limitations are documented in the linked core page.
 
 [Current R3 presenter, clips and tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31-r3.zip) · [R3 evidence and regression](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-v31-r3-evidence.json)
 

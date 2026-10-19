@@ -51,3 +51,25 @@ Do not identify a weapon by recoil amplitude or by whichever item is held when t
 The [Soul Storm R3 presenter](Soul-Storm-Sculpt-Study#v31-recoil-transport-bounded-tracks-and-matched-glow-ownership) takes this core's resolved `emitterIndex`. Its earlier local arrival counter was rejected after an ordinal-gap test. The existing core passed its unchanged 80,031-assertion suite on Java17/21, and the combined Java-to-Lua mock-context bridge passes 29 assertions on each runtime. This remains isolated logic evidence, not a native packet or renderer test.
 
 [Existing original core source](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/confirmed-shot-presentation-source.zip) · [R3 combined source/tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31-r3.zip)
+
+
+## Coverage audit: all 228 first-target firearms
+
+The pinned registry is split into **172 conventional guns/shotguns/snipers/cannons and 56 Spirit blasters**. A hash-checked audit of 227 constructor/base classes covered all 228 item registrations. The earlier conventional-only scan was not treated as a complete-arsenal result.
+
+| Released use-tick owner | Registered items | Adapter implication |
+|---|---:|---|
+| `BaseGun` | 172 | Observe its successful virtual `fireGun` branch without replacing subclass behavior. |
+| `BaseBlaster` | 54 | Separate energy/charge path; use its accepted `tryFireBlaster` result as a candidate event boundary. |
+| `LightSpark` | 1 | Overrides use-tick, but still calls inherited `tryFireBlaster`. |
+| `SoulSpark` | 1 | Overrides use-tick, but still calls inherited `tryFireBlaster`. |
+
+**Soul Storm is in the BaseBlaster family.** A BaseGun-only hook or recoil-packet listener would not cover its native firing path.
+
+The blaster helper can return success even when `fireBlaster` returns a null `ShotInfo`; the optional `doFiringEffects` callback is skipped in that case. Therefore a firing-effects callback alone is also an incomplete success signal. Keep charge, Spirit consumption, effects, sound and subclass behavior with the original implementation.
+
+This suggests two source-audited event boundaries, rather than separate scans of every weapon every frame. It does not establish a working Mixin or a native compatibility/performance result. Validate actual runtime transformations, hand/instance identity, prediction and observer routing. Do not replace the special LightSpark/SoulSpark use-tick implementations with a generic version.
+
+[Per-item class-chain coverage](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/native-shot-entrypoint-coverage.json) · [Packet and branch evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/native-shot-event-evidence.json)
+
+[Reproducible class-audit scripts and source-derived registry inputs](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/native-shot-entrypoint-audit.zip). A clean output-directory run reproduced the 228-item result and passed eight source-contract tests.

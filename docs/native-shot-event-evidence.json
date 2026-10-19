@@ -10,8 +10,24 @@
     "GunRecoilPacket serializes only recoilAmount float and firingTime int",
     "Packet has no weapon-instance ID, hand, configuration revision or shot ordinal",
     "The inspected doRecoil path sends to the firing player, not an identified observer/tracking broadcast",
-    "The client packet handler calls ClientOperations.addRecoil; treating this as a complete animation identity event is unsafe after swaps/offhand changes"
+    "The client packet handler calls ClientOperations.addRecoil; treating this as a complete animation identity event is unsafe after swaps/offhand changes",
+    "Soul Storm belongs to BaseBlaster path, not BaseGun recoil path",
+    "BaseBlaster.tryFireBlaster can return true when fireBlaster returns null ShotInfo; doFiringEffects is therefore not a universal success signal",
+    "LightSpark and SoulSpark override use-tick but still call the inherited common tryFireBlaster gate"
   ],
-  "proposal": "Preserve existing server firing and resource semantics. Bind the existing ConfirmedShotPresentation core to a genuinely authoritative identity-bearing event; do not reconstruct identity from recoil amplitude or the currently held item. Prediction and observer routing remain separate native work.",
-  "native_tested": false
+  "proposal": "Two distinct source-audited adapter candidates: successful virtual fireGun branch inside the shared BaseGun use-tick path, and successful return from BaseBlaster.tryFireBlaster. Preserve original logic and validate actual runtime mixins/prediction/identity/observer routing before acceptance.",
+  "native_tested": false,
+  "registry_audit": {
+    "items": 228,
+    "classes": 227,
+    "conventional_basegun_items": 172,
+    "blaster_items": 56,
+    "direct_baseblaster_use_tick": 54,
+    "special_use_tick": [
+      "LightSpark",
+      "SoulSpark"
+    ],
+    "special_ticks_call_common_tryFireBlaster": true,
+    "all_registered_class_hashes_verified": true
+  }
 }
