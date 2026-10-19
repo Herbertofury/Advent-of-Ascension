@@ -96,3 +96,13 @@ A later rendered combined scene exposed oversized cosmetic fasteners in r2. Pare
 ## Combined motion review
 
 [The v33 combined exterior/recoil study](Discharge-Material-and-Recoil-Study) uses the corrected root-owned rear parts with the three-channel cosmetic animation, clean rebuild checks and sampled moving-surface comparisons. It remains below native and final-art acceptance.
+
+## V34: curved capacitor canopies
+
+![Current curved-sheet capacitor study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-capacitor-canopy-v34.png)
+
+Two small curved armor sheets replace the visible thin cross-ribs, giving the paired capacitor structures a more coherent folded-shell silhouette. The original ribs are retained hidden. This is an incremental shape study; the complete weapon still needs substantially stronger concept fidelity and final texture work.
+
+The two added closed solids have 348 evaluated triangles each. The inherited recoil sweep reports 119,880 moving-versus-other surface comparisons without baseline/new intersections in this scene. Those checks do not establish hands, containment, continuous collision or native rendering.
+
+[Reproducible v34 canopy patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-capacitor-canopy-v34-patch.zip) · [Scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-capacitor-canopy-v34-evidence.json). Apply to the generated v33 scene with its manifest. Native and final-art acceptance remain open.
