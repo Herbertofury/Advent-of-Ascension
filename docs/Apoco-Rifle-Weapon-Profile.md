@@ -82,3 +82,7 @@ World damage must respect the existing permission/game-rule path. Decorative deb
 [Read-only audit, concept prompts and review notes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/apoco-rifle-source-and-concept-study-v1.zip) · [Full weapon requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard).
 
 Original AoA identity and assets: Tslat and contributors. New concepts: original project explorations generated with the built-in image tool. No native upgraded weapon acceptance is implied.
+
+## Higher-resolution trial and exported-mesh QA
+
+[Read the completed 1024 trial and repair review](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Apoco-Rifle-High-Resolution-Review.md). Six actual offline views exposed a wrong muzzle direction and missing lime details. The generated mesh had 225 non-manifold edges; a scoped repair and three small export-hole caps produced zero boundary/non-manifold edges under the recorded diagnostic. Art, moving-part, hand, material and native acceptance remain open. Higher resolution alone did not solve concept fidelity.
