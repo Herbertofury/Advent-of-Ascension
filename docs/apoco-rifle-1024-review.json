@@ -1,0 +1,202 @@
+{
+  "process": {
+    "completed_utc": "2026-10-19T05:37:20.246844+00:00",
+    "exit_code": 0,
+    "elapsed_seconds": 6718.1939975050045,
+    "max_rss_kib": 4251232,
+    "command": [
+      "stdbuf",
+      "-oL",
+      "-eL",
+      "/workspace/scratch/c648c483d888/aoa-tacz-workbench/trellis-cpp-research/build/trellis-cli",
+      "/workspace/scratch/c648c483d888/aoa-tacz-workbench/trellis-cpp-research/apoco-rifle-input.png",
+      "/workspace/scratch/c648c483d888/aoa-tacz-workbench/trellis-cpp-research/apoco-trial-1024/apoco-rifle-reference.glb",
+      "--models",
+      "/workspace/scratch/c648c483d888/aoa-tacz-workbench/trellis-cpp-research/models-q8-1024",
+      "--gpu",
+      "-1",
+      "--backend",
+      "CPU",
+      "--threads",
+      "8",
+      "--res",
+      "1024",
+      "--steps",
+      "12",
+      "--faces",
+      "120000",
+      "--atlas",
+      "2048",
+      "--webp",
+      "off",
+      "--dump-bg",
+      "--verbose"
+    ],
+    "native_acceptance": false
+  },
+  "generated_preflight": {
+    "default_scene_reachable_nodes": 1,
+    "file_sha256": "ea26cc0183b6f41c4962f92482add5983ea9ad509442d30cafb4b60cbc9170d8",
+    "checked_subset_pass": true,
+    "issues": [],
+    "triangles": 118026,
+    "meshes": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "vertices": 91086,
+        "topology": {
+          "duplicate_index_triangles": 0,
+          "indexed_boundary_edges": 58668,
+          "indexed_nonmanifold_edges": 0,
+          "boundary": "Index-space diagnostic; UV/material splits can duplicate geometric vertices. Does not prove watertightness or self-intersection freedom."
+        },
+        "collapsed_uv_triangles": 0,
+        "triangles": 118026,
+        "degenerate_triangles": 0,
+        "normal_unit_error_max": 1.4158268268893437e-07,
+        "bounds": [
+          [
+            -0.5017579793930054,
+            -0.17095847427845,
+            -0.07943344116210938
+          ],
+          [
+            0.5006365180015564,
+            0.17397591471672058,
+            0.07982264459133148
+          ]
+        ],
+        "material": 0
+      }
+    ],
+    "images": [
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 8716689
+      },
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 7969766
+      }
+    ],
+    "animations": 0,
+    "double_sided_materials": 0,
+    "native_accepted": false,
+    "limits": [
+      "Static supported-subset preflight only",
+      "Node transforms are validated structurally, not applied to geometry metrics",
+      "No moving-part ownership, hand fit, visual fidelity, topology, native material or gameplay acceptance"
+    ]
+  },
+  "generated_welded_topology": {
+    "nonmanifold_edges": 225,
+    "boundary_edges": 0
+  },
+  "repair_export": {
+    "intermediate_triangles": 119997,
+    "intermediate_boundary_edges": 9,
+    "final_capped_triangles": 120000,
+    "final_boundary_edges": 0,
+    "final_nonmanifold_edges": 0
+  },
+  "cap_receipt": {
+    "input_sha256": "33ee7a0ffd77b79d028c15f7e6613f2dce14ed622a7d9727ad7e32a37971bd2e",
+    "output_sha256": "a70a1bc2d89a4448da6f5b4e4f52f7eae32795e790224b41e31b01ca3d493ac6",
+    "caps": [
+      {
+        "positions": [
+          [
+            -0.4329451322555542,
+            -0.009537972509860992,
+            -0.012964628636837006
+          ],
+          [
+            -0.43128108978271484,
+            -0.011854339390993118,
+            -0.011803311295807362
+          ],
+          [
+            -0.43193167448043823,
+            -0.01018957793712616,
+            -0.01249217614531517
+          ]
+        ],
+        "geometry_area": 6.823642593190016e-07,
+        "uv_area": 1.5953034449012193e-08,
+        "uv_perimeter_squared": 3.5530430864127993e-07
+      },
+      {
+        "positions": [
+          [
+            0.16501297056674957,
+            0.10588044673204422,
+            0.018360642716288567
+          ],
+          [
+            0.16520625352859497,
+            0.10515258461236954,
+            0.0185541994869709
+          ],
+          [
+            0.1649049073457718,
+            0.10596700012683868,
+            0.018002577126026154
+          ]
+        ],
+        "geometry_area": 1.281007087072794e-07,
+        "uv_area": 3.2365505830966868e-09,
+        "uv_perimeter_squared": 4.57399735864783e-08
+      },
+      {
+        "positions": [
+          [
+            0.16439025104045868,
+            0.11098182201385498,
+            -0.014272398315370083
+          ],
+          [
+            0.16425518691539764,
+            0.11161749809980392,
+            -0.013978688977658749
+          ],
+          [
+            0.16452932357788086,
+            0.11047546565532684,
+            -0.014377201907336712
+          ]
+        ],
+        "geometry_area": 4.431002409432949e-08,
+        "uv_area": 1.1223519891245815e-09,
+        "uv_perimeter_squared": 5.8980376138606516e-08
+      }
+    ],
+    "native_accepted": false,
+    "scope": "Only three isolated triangular export holes; material channels unchanged; visual review required"
+  },
+  "native_accepted": false,
+  "art_accepted": false,
+  "visual_defects": [
+    "Generated front-facing emitter is incorrectly two side-facing red discs",
+    "Concept lime energy details missing",
+    "Fine rootwork fused and softened",
+    "Moving parts fused; no animation ownership",
+    "Rebaked repair has local texture blemishes; material work remains"
+  ],
+  "reviewed_views": [
+    "front",
+    "rear",
+    "oblique",
+    "left_end",
+    "right_end",
+    "top"
+  ]
+}
