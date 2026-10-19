@@ -10,7 +10,7 @@ The owner's [canonical concept A](https://raw.githubusercontent.com/Herbertofury
 
 ![Current v32 oblique authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-oblique.png)
 
-![Current v32 side authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-side.png)
+![Current v32 side authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-r3-side.png)
 
 The plain rear surface now has paired swept silver braces, layered upper plates, dark insets and restrained red accents. These are decorative exterior parts; they do not establish a new mechanism. The overall receiver, grip and top construction still need substantially more refinement toward concept A. **This is not final art acceptance.**
 
@@ -22,7 +22,7 @@ The plain rear surface now has paired swept silver braces, layered upper plates,
 
 The scoped test preserves 164 existing mesh definitions/transforms/material-slot names and checks fourteen new closed solids for positive volume and nondegenerate evaluated triangles. It does not cover every intersection, hands, curves, driver state or native animation. The earlier trigger and guard were not resized to conceal clearance problems. All native, hand-fit, material-export and performance gates remain open.
 
-[Small reproducible v32 patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-rear-contour-v32-r2-patch.zip) · [Scoped geometry results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-rear-v32-r2-geometry.json). Apply to the exact v31 scene linked below. The patch generates a separate scene and rejects an unexpected source hash. The r2 patch explicitly parents every new part to Discharge_Root; 21 root-transform samples check 10,752 vertex positions (maximum error approximately 7.18e-7 scene units). This prevents detached cosmetic parts during whole-weapon transforms; native animation and hand-fit remain untested.
+[Small reproducible v32 patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-rear-contour-v32-r3-patch.zip) · [Scoped geometry results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-rear-v32-r3-geometry.json). Apply to the exact v31 scene linked below. The patch generates a separate scene and rejects an unexpected source hash. The corrected r3 patch explicitly parents every new part to Discharge_Root; 21 root-transform samples check 10,752 vertex positions (maximum error approximately 7.18e-7 scene units). This prevents detached cosmetic parts during whole-weapon transforms; native animation and hand-fit remain untested.
 
 ## Previous v31 authoring views
 
@@ -88,3 +88,7 @@ The correction assigns the two associated horizontal trim pieces to each moving 
 Same-owner part pairs are excluded from the surface sweep. The checks deliberately expose their limits; a passing row is not a native release approval. Material-glow keys are not included in the exported position clips. Full-body/camera recoil, reload/inspect states, networking and performance remain separate work.
 
 [Download editable recoil study and reproducible Blender checks](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-recoil-authoring-v4.zip) · [Scoped results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-recoil-v4-evidence.json). Earlier exterior and concept studies remain preserved above.
+
+### R3 visual regression correction
+
+A later rendered combined scene exposed oversized cosmetic fasteners in r2. Parenting had captured a stale world matrix immediately after scale assignment. R3 updates the dependency graph first and adds six explicit dimension checks. All 512 added vertices match the pre-parenting v1 positions with zero observed drift, and the corrected side scene was rendered again. Use the r3 patch above; r2 is superseded. This is why positive-volume and transform-following tests alone do not constitute visual QA.
