@@ -1,0 +1,219 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:flower_cannon",
+    "field": "FLOWER_CANNON",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/FlowerCannon"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$157",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "0df0e00af5d09ee21d1fce306f0d50d4dc4a0c7a9bda542d9e240b704f286c4c",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              79
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 14.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 510
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 23
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.20999999344348907
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/FlowerCannon",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/FlowerCannon.class",
+        "sha256": "738a2c4bf9c223027e1fddb0ca2e7f300ccb3ea74f397b432e141ce0f21d163e",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "e90f054c16f48dd32fa9aea97822604d7f1e6d9a29a4dd427dff02cb7d92f21d"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "ce8ef83f30b0154ace387d2626037d1fd776684cf07a3e24ebb45e9564a0c1c0"
+          },
+          {
+            "name": "doImpactEffect",
+            "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+            "code_sha256": "b04c38393022aa3c5669e97addfd5280dafbf4f92abd1ac95d6c9d9bbf9937f8"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "8398e421431931390c6e5935084346702014c05c3d0bc1439c51824de54d9992"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 14.5,
+    "durability": 510,
+    "firing_delay_ticks": 23,
+    "recoil": 0.20999999344348907
+  },
+  "ammo": "aoa3:cannonball",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/FlowerCannon.class",
+      "sha256": "738a2c4bf9c223027e1fddb0ca2e7f300ccb3ea74f397b432e141ce0f21d163e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/FlowerBallEntity.class",
+      "sha256": "65d20c58ae2b9f0b55ade86f318031d694a0f6c9c62e6ac7760ae048e2210cf2"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/FlowerBallRenderer.class",
+      "sha256": "790129f172021f504354872b0b4aa79b96c845f57a277e6073d8c2389b19c96a"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    }
+  ],
+  "effect": {
+    "name": "Weakness",
+    "level": 1,
+    "amplifier": 0,
+    "duration_ticks": 200,
+    "nominal_seconds_at_20tps": 10,
+    "requires_shared_heavy_attack_success": true,
+    "requires_living_target": true,
+    "guaranteed_application": false
+  },
+  "bundled_library": {
+    "path": "META-INF/jarjar/TslatEffectsLib-neoforge-1.20.1-1.7.jar",
+    "sha256": "6950533da72960fe03ce928ca076d0a7911cf95793a6e1b7005533faec6e0356",
+    "class": "net/tslat/effectslib/api/util/EffectBuilder.class",
+    "class_sha256": "617cd109fbace4664b139e7330a1e61cd36a9535c1f645703f7f407bc24757b4",
+    "semantics": "level defaults to 1; build subtracts 1 before Minecraft amplifier argument"
+  },
+  "projectile": {
+    "class": "FlowerBallEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1,
+    "gravity": 0.1,
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "particle": "FLICKERING_SPARKLER",
+    "colour": "GREEN",
+    "requests_per_render_invocation": 8,
+    "vertical_offset": 0.3
+  },
+  "data_references": [
+    {
+      "path": "data/aoa3/recipes/infusion_flower_cannon.json",
+      "sha256": "c77c1e6651d2ade4177596d02b11a59b0562dce2076a0b23172dfd11552eb710",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:small_green_petal"
+          },
+          {
+            "item": "aoa3:rosid_root"
+          },
+          {
+            "item": "aoa3:sticky_slime"
+          },
+          {
+            "item": "minecraft:dandelion"
+          },
+          {
+            "tag": "forge:ingots/limonite"
+          },
+          {
+            "tag": "forge:ingots/limonite"
+          },
+          {
+            "tag": "forge:gems/jade"
+          }
+        ],
+        "input": {
+          "item": "aoa3:cannon_frame"
+        },
+        "result": {
+          "item": "aoa3:flower_cannon"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_fungal_cannon.json",
+      "sha256": "6329df5283808b0ae73dfc21f838fed4fb80e603fbf0a979762bf384a528fbee",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:flower_cannon"
+        },
+        "result": {
+          "item": "aoa3:fungal_cannon"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:fungal_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "FlowerBallEntity-upstream.java": "395a4d82ccdb96d474fa5935f9c1352e849b366024da5faacf96e66062ea588e",
+    "BaseCannon-upstream.java": "b63ee349657e13266da0b711f4127a408bd22024ee110f3148e27058e03bc703",
+    "EntityUtil-upstream.java": "09d9d9bed2a6571cb65558aefae73e930477ef396acec4ac44719951130c6041",
+    "FlowerCannon-upstream.java": "1d1917624399e58b410ca93d89dcc9dc7068c47ce20d37d80b0c04364d6d5e7a"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "concept_qa": {
+    "v1": "Guard too far forward for rear grip; retained as rejected ergonomic arrangement",
+    "v2": "Guard moved beside grip; final hand rig, scale, leaf clearance and all animations remain open"
+  }
+}
