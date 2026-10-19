@@ -138,3 +138,7 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ## Baron SSR: original identity and historical acquisition
 
 [Baron SSR weapon profile](Baron-SSR-Weapon-Profile) preserves the red-brown/dark silhouette, Metal Slug sniper behavior and version-specific Baroness loot evidence. Its new material, inspection and VFX sheet remains a partial concept study with native acceptance open.
+
+## Dark Beast: compact dark sniper upgrade
+
+[Dark Beast weapon profile](Dark-Beast-Weapon-Profile) documents its Monster + Darkly kit lineage, heavy Metal Slug sniper behavior and revised compact concept. The overlong first concept is retained as a rejected canonical direction.

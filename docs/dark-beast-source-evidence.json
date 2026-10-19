@@ -1,0 +1,54 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:dark_beast",
+    "name": "Dark Beast",
+    "family": "sniper",
+    "stored_base_damage": 50.5,
+    "durability": 560,
+    "stored_delay_ticks": 96,
+    "stored_recoil_modifier": 0.03500000014901161,
+    "class_sha256": "8de3fc04ffa8d57c4d2a455a619b161799d89d07661de7ed8ce4f182fbcf50ba",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/DarkBeast",
+    "flags": []
+  },
+  "monster_comparison": {
+    "id": "aoa3:monster",
+    "name": "Monster",
+    "family": "sniper",
+    "stored_base_damage": 38.0,
+    "durability": 250,
+    "stored_delay_ticks": 96,
+    "stored_recoil_modifier": 0.05000000074505806,
+    "class_sha256": "5d1a5f411058fb9bd177d1fddc32e42547fb42ae28c6d2efb8b46d18b3fab637",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/Monster",
+    "flags": []
+  },
+  "ammo": "aoa3:metal_slug",
+  "scope": "SCOPE_3",
+  "firing_sound": "ITEM_GUN_SNIPER_HEAVY_FIRE_LONG",
+  "declared_methods": [
+    "constructor",
+    "getFiringSound",
+    "getScopeTexture"
+  ],
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_dark_beast.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:monster"
+        },
+        "result": {
+          "item": "aoa3:dark_beast"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:darkly_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "native_tested": false
+}
