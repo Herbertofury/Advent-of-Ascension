@@ -179,3 +179,15 @@ Every weapon needs a source-pinned origin and lore review covering upgrade linea
 ## Verify the actual geometry backend
 
 [The pinned TaCZ geometry and glTF-animation contract](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/TaCZ-Geometry-and-Animation-Contract.md) is mandatory context for export QA. The inspected glTF manager loads animation data; its existence does not prove support for arbitrary triangle/PBR GLB meshes. A reference GLB remains an authoring asset until a real supported geometry path renders it in-game with correct hands, materials, animation and measured performance. Do not mark a gun ready by renaming files or passing only JSON/format checks.
+
+
+## Source art and moving-assembly checks
+
+[Updated reusable guidance package v4](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v4.zip) preserves the v3 lore, dual-visual-treatment and 31-feature contracts. Its 19 synthetic validator cases still pass. The focused addition addresses observed production defects:
+
+- Generated recipe icons and sprite lookalikes must not masquerade as extracted source evidence.
+- Exact resource-ID and registry-class review prevents Boulder/Boulder Dash/Boulder Bomber confusion and guessed-subclass errors.
+- Shot-level boosted decisions must remain shared across the actual pellet loop.
+- A parser or transform pass cannot substitute for moving-mesh clearance checks. Recoil trim ownership, receiver stroke space, baseline contacts and sampling limits must be reviewed separately.
+
+The [Discharge recoil review](Discharge-Exterior-Refinement) is a concrete example: a deeper surface check found clipping despite earlier parser/transform success. The corrected sampled result remains authoring evidence, with native hands and gameplay still open. This package is published project guidance; it does not claim installation into a personal skill directory or acceptance of any weapon.
