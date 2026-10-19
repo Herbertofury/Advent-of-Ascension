@@ -1,0 +1,177 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:bayonette_sr",
+    "field": "BAYONETTE_SR",
+    "family": "sniper",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/sniper/BayonetteSR"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$110",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "4ecfebe836de5d7df22e2ee9288a8ec7fe0004ffdf30a21d8564e1905e8dd8cf",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              42
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 33.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 300
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 86
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.05999999865889549
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/sniper/BayonetteSR",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/sniper/BayonetteSR.class",
+        "sha256": "1336e82edde3b9f07dff0b2176f6e9dbb9d8f3655c41f078de08827e01fdcdd0",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "8a06bdbf948e3fc67b9f52ef4def59d9a06f9986b17fa637689807922b33a58c"
+          },
+          {
+            "name": "m_7579_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+            "code_sha256": "ba5807ba1ddb52c931cd2a50f90e9ecd72e68ecb9a9cf4055a52e5341bf60da9"
+          },
+          {
+            "name": "getAttributeModifiers",
+            "descriptor": "(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)Lcom/google/common/collect/Multimap;",
+            "code_sha256": "45b92a2df6af5e4bbf501a3609b000bd112ef05f345ffc6b4290288dc0b8bdf4"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "a03d653ea456794d159df01f0253e16b198ba1ae43bcd1280f0083b82d2dcfc7"
+          },
+          {
+            "name": "lambda$hurtEnemy$0",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)V",
+            "code_sha256": "4eb0099d832ff82a952c4f0ffb72dd6fd9d0d0c36f9b480482f487f200868fff"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 33.0,
+    "durability": 300,
+    "delay_ticks": 86,
+    "recoil": 0.05999999865889549
+  },
+  "scope": "SCOPE_1 inherited",
+  "ammo": "aoa3:metal_slug",
+  "sound": "ITEM_GUN_SNIPER_MEDIUM_FIRE_LONG",
+  "melee": {
+    "slot": "MAINHAND",
+    "attribute": "ATTACK_DAMAGE",
+    "operation": "ADDITION",
+    "modifier": 9,
+    "tooltip_literal": 10,
+    "hurtEnemy_durability_request": 1,
+    "break_event": "MAINHAND",
+    "guaranteed_final_damage": false
+  },
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "item": "aoa3:mushroom_spores"
+      },
+      {
+        "item": "minecraft:iron_sword"
+      },
+      {
+        "tag": "forge:ingots/mystite"
+      },
+      {
+        "tag": "forge:ingots/mystite"
+      },
+      {
+        "tag": "forge:gems/amethyst"
+      },
+      {
+        "tag": "forge:gunpowder"
+      }
+    ],
+    "input": {
+      "item": "aoa3:sniper_frame"
+    },
+    "result": {
+      "item": "aoa3:bayonette_sr"
+    }
+  },
+  "mystite_tag": {
+    "values": [
+      "aoa3:mystite_ingot"
+    ]
+  },
+  "amethyst_tag": {
+    "values": [
+      "minecraft:amethyst_shard"
+    ]
+  },
+  "amethyst_tag_source": "https://github.com/MinecraftForge/MinecraftForge/blob/1.20.1/src/generated/resources/data/forge/tags/items/gems/amethyst.json",
+  "amethyst_tag_sha256": "f4bfb666f63d04244aa678a82f3ec4ee311079b15e29c1ee1e794c2578479b1c",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BayonetteSR.class",
+      "sha256": "1336e82edde3b9f07dff0b2176f6e9dbb9d8f3655c41f078de08827e01fdcdd0"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/BayonetteSR.java",
+  "source_sha256": "926f6414ad05220063cd55f419523783ce0528fdb73dcec2f2738872d30d2bf9",
+  "native_tested": false,
+  "final_art_accepted": false
+}
