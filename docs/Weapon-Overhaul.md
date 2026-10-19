@@ -76,6 +76,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Purple Punisher | [Two-pellet Haunted upgrade of Red Rocket with violet material and inspection concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purple-Punisher-Weapon-Profile) |
 | Red Rocket | [Crimson two-pellet shotgun, five-slot infusion and verified Haunted upgrade lineage; no baseline rocket behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Red-Rocket-Weapon-Profile) |
 | Rosid Rifle | [Botanical sniper identity; friendly-Rosid tooltip differs from empty inspected impact hook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rosid-Rifle-Weapon-Profile) |
+| Sabbath | [Violet-teal sniper, Wither I impact request, six-slot infusion and corrected smooth-guard concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sabbath-Weapon-Profile) |
 | Shoe Flinger | [Boot ammunition, playful launch effects and equipment conservation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shoe-Flinger-Weapon-Profile) |
 | Sludge Sniper | [Green-olive Metal Slug sniper with seven-slot infusion and verified Slowness II / Poison I source semantics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sludge-Sniper-Weapon-Profile) |
 | Soul Drainer | [Life-leech identity with an unmistakable soul-energy presentation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
@@ -86,7 +87,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Vivo | [Compact three-pellet shotgun with gold accents, Lyon infusion and a higher-pitched firing identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vivo-Weapon-Profile) |
 | Vortex Blaster | [Spirit-powered repulsion and readable vortex-focused feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 
-The gallery currently contains **56 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
+The gallery currently contains **57 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
 
 ## Build your own identity and play style
 
