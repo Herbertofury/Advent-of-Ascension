@@ -1,0 +1,85 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 33.0,
+    "durability": 180,
+    "delay_ticks": 95,
+    "recoil": 0.05000000074505806,
+    "ammo": "aoa3:metal_slug",
+    "scope": "SCOPE_2",
+    "sound": "ITEM_GUN_SNIPER_HEAVY_FIRE_LONG"
+  },
+  "conditional_damage": {
+    "target_type": "LivingEntity",
+    "attribute": "getMaxHealth()",
+    "comparison": "strictly less than",
+    "threshold": 50.0,
+    "bullet_multiplier_factor": 1.15,
+    "final_damage_measured": false
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/Decimator.class",
+      "sha256": "9993fe2934c210217d3856ceb0dd369b35d2f3afbb741b679f60bccc179a81de"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/infusion_decimator.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:orange_spores"
+          },
+          {
+            "item": "aoa3:zhinx_dust"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:gunpowder"
+          }
+        ],
+        "input": {
+          "item": "aoa3:sniper_frame"
+        },
+        "result": {
+          "item": "aoa3:decimator"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_clownimator.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:decimator"
+        },
+        "result": {
+          "item": "aoa3:clownimator"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:clown_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/Decimator.java",
+  "source_sha256": "8ec6f05656801f53bcd4be1e26df3767373a23fe0bb5f19395ce87fc2ea37d7b",
+  "native_tested": false,
+  "concept_accepted": false
+}
