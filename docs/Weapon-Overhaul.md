@@ -36,6 +36,8 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Shoe Flinger | [Full profile, boot ammunition and equipment conservation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shoe-Flinger-Weapon-Profile) |
 | Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Iominator-Weapon-Profile) |
 | Hive Blaster | [Full profile, renderer caveats and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile) |
+| Apoco Assault Rifle | [Source-pinned upgrade lineage, Vox Ponds kit association and concept review](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile) |
+| Carrot Cannon | [Carrot ammunition, botanical material provenance, concepts and unaccepted authoring](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
 
 The weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
 
