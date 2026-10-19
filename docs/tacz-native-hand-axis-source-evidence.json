@@ -1,0 +1,38 @@
+{
+  "upstream_commit": "b482eff8c94a733ac8d0910193fca3893954027c",
+  "declared_version": "1.1.8-hotfix2",
+  "source_url": "https://github.com/MCModderAnchor/TACZ/tree/b482eff8c94a733ac8d0910193fca3893954027c",
+  "hands": [
+    {
+      "hand": "Left",
+      "path": "src/main/java/com/tacz/guns/client/model/functional/LeftHandRender.java",
+      "source_sha256": "c1f99990b45a3232c94f77bda519f2d54d53bf6821dcb5d5362cdd57c8bc36b3",
+      "axis": "positive Z",
+      "degrees": 180,
+      "order": "Apply to current pose before capturing normal/pose matrices and delegating actual player-arm rendering"
+    },
+    {
+      "hand": "Right",
+      "path": "src/main/java/com/tacz/guns/client/model/functional/RightHandRender.java",
+      "source_sha256": "5145c8b9f6bfb467b0ff88a2f3a5bbf883379a4ba6187ad85fa8b51d3a1805d8",
+      "axis": "positive Z",
+      "degrees": 180,
+      "order": "Apply to current pose before capturing normal/pose matrices and delegating actual player-arm rendering"
+    }
+  ],
+  "math_fixtures": {
+    "status": "PASS",
+    "checks": [
+      "nonorigin parent transform retained",
+      "positive Z half turn",
+      "wrong Y rejected",
+      "wrong premultiplication rejected",
+      "missing parent rejected",
+      "double half-turn identity",
+      "proper rotation determinant"
+    ]
+  },
+  "boundary": "Official source evidence plus synthetic math only; not a native Minecraft/PoseStack runtime test or proof of final hand fit",
+  "native_accepted": false,
+  "mapping_download_note": "Official Forge MCP artifact request returned HTTP403; no retry or alternate artifact route used. Axis finding comes from independently accessible official TaCZ source declaring the matching release version."
+}

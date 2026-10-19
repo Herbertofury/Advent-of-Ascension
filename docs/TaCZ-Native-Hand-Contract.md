@@ -22,7 +22,7 @@ This is why shrinking a proxy, trigger or guard until a simple box test passes i
 5. Measure grip, trigger/guard and forearm clearance using the evaluated poses. Do not hide an intersection by reducing hand size or suppressing the relevant geometry.
 6. Keep offline proxy results labeled as proxy results until native captures match.
 
-The inspected bytecode contains a 180-degree transform on an obfuscated axis field. The audit records that behavior without guessing the axis mapping. The native adapter must resolve and test the exact coordinate convention.
+The inspected bytecode contains a 180-degree transform on an obfuscated axis field. A subsequent official-source check at commit `b482eff8c94a733ac8d0910193fca3893954027c`, declaring version 1.1.8-hotfix2, explicitly uses **positive Z** for both hand renderers. This clarifies the source convention; full parent transforms and actual native behavior still require testing. It is not permission to rotate an isolated proxy and call hand fit complete.
 
 ## Evidence and reproduction
 
@@ -33,3 +33,9 @@ The script verifies the supplied release hash, relevant class markers and exampl
 Source artifact: [official TaCZ release](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero/files/9037989).
 
 [Weapon completeness standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard) · [Weapon overview](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul).
+
+## Positive-Z source clarification and transform regressions
+
+The pinned official [right-hand renderer](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/model/functional/RightHandRender.java#L28) and [left-hand renderer](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/model/functional/LeftHandRender.java#L28) apply the positive-Z half-turn before capturing the normal and pose matrices and delegating the actual player-arm rendering.
+
+[Source hashes and seven math checks](tacz-native-hand-axis-source-evidence.json) · [Original audit tool](tacz-native-hand-axis-source-tools.zip). Synthetic fixtures distinguish the intended axis from a Y-axis turn, retain a nonorigin parent transform, and reject reversed multiplication order or omitted parents. They do not execute Minecraft PoseStack, certify a source-to-binary rebuild, or substitute for real arm/skin/FOV animation captures.
