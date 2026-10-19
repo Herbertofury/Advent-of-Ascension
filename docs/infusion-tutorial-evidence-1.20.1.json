@@ -1,0 +1,79 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "bundled_infusion_recipe_count": 353,
+  "station": {
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {
+        "tag": "minecraft:wool"
+      },
+      "B": {
+        "item": "aoa3:ancient_rock"
+      },
+      "C": {
+        "tag": "aoa3:infusion_stone"
+      },
+      "D": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "pattern": [
+      "AAA",
+      "BCB",
+      "DDD"
+    ],
+    "result": {
+      "item": "aoa3:infusion_table"
+    }
+  },
+  "ginger_blaster": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "item": "aoa3:sour_gummy"
+      },
+      {
+        "item": "aoa3:sour_gummy"
+      },
+      {
+        "item": "aoa3:spreadshot"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:gingerbread"
+      }
+    ],
+    "input": {
+      "item": "aoa3:shotgun_frame"
+    },
+    "result": {
+      "item": "aoa3:ginger_blaster"
+    }
+  },
+  "infusion_stone_tag": {
+    "values": [
+      "aoa3:ambient_infusion_stone",
+      "aoa3:blooming_infusion_stone",
+      "aoa3:glaring_infusion_stone",
+      "aoa3:gleaming_infusion_stone",
+      "aoa3:glistening_infusion_stone",
+      "aoa3:glowing_infusion_stone",
+      "aoa3:radiant_infusion_stone",
+      "aoa3:shining_infusion_stone"
+    ]
+  },
+  "gingerbread_tag": {
+    "values": [
+      "aoa3:gingerbread_cookie",
+      "aoa3:gingerbread_wing"
+    ]
+  },
+  "evidence_scope": "Recipe JSON plus javap review of released container, recipe factory, matcher and result slot. Images reuse existing source-derived documentation icons. No native game test.",
+  "native_tested": false
+}
