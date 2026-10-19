@@ -102,85 +102,11 @@
     "boundary_edges": 0
   },
   "repair_export": {
-    "intermediate_triangles": 119997,
-    "intermediate_boundary_edges": 9,
-    "final_capped_triangles": 120000,
-    "final_boundary_edges": 0,
-    "final_nonmanifold_edges": 0
-  },
-  "cap_receipt": {
-    "input_sha256": "33ee7a0ffd77b79d028c15f7e6613f2dce14ed622a7d9727ad7e32a37971bd2e",
-    "output_sha256": "a70a1bc2d89a4448da6f5b4e4f52f7eae32795e790224b41e31b01ca3d493ac6",
-    "caps": [
-      {
-        "positions": [
-          [
-            -0.4329451322555542,
-            -0.009537972509860992,
-            -0.012964628636837006
-          ],
-          [
-            -0.43128108978271484,
-            -0.011854339390993118,
-            -0.011803311295807362
-          ],
-          [
-            -0.43193167448043823,
-            -0.01018957793712616,
-            -0.01249217614531517
-          ]
-        ],
-        "geometry_area": 6.823642593190016e-07,
-        "uv_area": 1.5953034449012193e-08,
-        "uv_perimeter_squared": 3.5530430864127993e-07
-      },
-      {
-        "positions": [
-          [
-            0.16501297056674957,
-            0.10588044673204422,
-            0.018360642716288567
-          ],
-          [
-            0.16520625352859497,
-            0.10515258461236954,
-            0.0185541994869709
-          ],
-          [
-            0.1649049073457718,
-            0.10596700012683868,
-            0.018002577126026154
-          ]
-        ],
-        "geometry_area": 1.281007087072794e-07,
-        "uv_area": 3.2365505830966868e-09,
-        "uv_perimeter_squared": 4.57399735864783e-08
-      },
-      {
-        "positions": [
-          [
-            0.16439025104045868,
-            0.11098182201385498,
-            -0.014272398315370083
-          ],
-          [
-            0.16425518691539764,
-            0.11161749809980392,
-            -0.013978688977658749
-          ],
-          [
-            0.16452932357788086,
-            0.11047546565532684,
-            -0.014377201907336712
-          ]
-        ],
-        "geometry_area": 4.431002409432949e-08,
-        "uv_area": 1.1223519891245815e-09,
-        "uv_perimeter_squared": 5.8980376138606516e-08
-      }
-    ],
-    "native_accepted": false,
-    "scope": "Only three isolated triangular export holes; material channels unchanged; visual review required"
+    "triangles": 119994,
+    "removed_isolated_triangles": 3,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "native_accepted": false
   },
   "native_accepted": false,
   "art_accepted": false,
@@ -198,5 +124,295 @@
     "left_end",
     "right_end",
     "top"
-  ]
+  ],
+  "rejected_cap_attempt": {
+    "receipt": {
+      "input_sha256": "33ee7a0ffd77b79d028c15f7e6613f2dce14ed622a7d9727ad7e32a37971bd2e",
+      "output_sha256": "a70a1bc2d89a4448da6f5b4e4f52f7eae32795e790224b41e31b01ca3d493ac6",
+      "caps": [
+        {
+          "positions": [
+            [
+              -0.4329451322555542,
+              -0.009537972509860992,
+              -0.012964628636837006
+            ],
+            [
+              -0.43128108978271484,
+              -0.011854339390993118,
+              -0.011803311295807362
+            ],
+            [
+              -0.43193167448043823,
+              -0.01018957793712616,
+              -0.01249217614531517
+            ]
+          ],
+          "geometry_area": 6.823642593190016e-07,
+          "uv_area": 1.5953034449012193e-08,
+          "uv_perimeter_squared": 3.5530430864127993e-07
+        },
+        {
+          "positions": [
+            [
+              0.16501297056674957,
+              0.10588044673204422,
+              0.018360642716288567
+            ],
+            [
+              0.16520625352859497,
+              0.10515258461236954,
+              0.0185541994869709
+            ],
+            [
+              0.1649049073457718,
+              0.10596700012683868,
+              0.018002577126026154
+            ]
+          ],
+          "geometry_area": 1.281007087072794e-07,
+          "uv_area": 3.2365505830966868e-09,
+          "uv_perimeter_squared": 4.57399735864783e-08
+        },
+        {
+          "positions": [
+            [
+              0.16439025104045868,
+              0.11098182201385498,
+              -0.014272398315370083
+            ],
+            [
+              0.16425518691539764,
+              0.11161749809980392,
+              -0.013978688977658749
+            ],
+            [
+              0.16452932357788086,
+              0.11047546565532684,
+              -0.014377201907336712
+            ]
+          ],
+          "geometry_area": 4.431002409432949e-08,
+          "uv_area": 1.1223519891245815e-09,
+          "uv_perimeter_squared": 5.8980376138606516e-08
+        }
+      ],
+      "native_accepted": false,
+      "scope": "Only three isolated triangular export holes; material channels unchanged; visual review required"
+    },
+    "reason": "Three duplicate indexed triangles; narrow welded edge counts were misleading",
+    "accepted": false
+  },
+  "isolated_removal_receipt": {
+    "input_sha256": "33ee7a0ffd77b79d028c15f7e6613f2dce14ed622a7d9727ad7e32a37971bd2e",
+    "output_sha256": "13ba7be08601408d3e6c7785a486bfbc89157f92bec199f6c0cc43038fe0c73e",
+    "removed_isolated_faces": [
+      {
+        "face": 12804,
+        "area": 6.823643161624204e-07,
+        "positions": [
+          [
+            -0.43128108978271484,
+            -0.011854339390993118,
+            -0.011803311295807362
+          ],
+          [
+            -0.4329451322555542,
+            -0.009537972509860992,
+            -0.012964628636837006
+          ],
+          [
+            -0.43193167448043823,
+            -0.01018957793712616,
+            -0.01249217614531517
+          ]
+        ]
+      },
+      {
+        "face": 35071,
+        "area": 1.281007087072794e-07,
+        "positions": [
+          [
+            0.16520625352859497,
+            0.10515258461236954,
+            0.0185541994869709
+          ],
+          [
+            0.16501297056674957,
+            0.10588044673204422,
+            0.018360642716288567
+          ],
+          [
+            0.1649049073457718,
+            0.10596700012683868,
+            0.018002577126026154
+          ]
+        ]
+      },
+      {
+        "face": 112696,
+        "area": 4.431002409432949e-08,
+        "positions": [
+          [
+            0.16425518691539764,
+            0.11161749809980392,
+            -0.013978688977658749
+          ],
+          [
+            0.16439025104045868,
+            0.11098182201385498,
+            -0.014272398315370083
+          ],
+          [
+            0.16452932357788086,
+            0.11047546565532684,
+            -0.014377201907336712
+          ]
+        ]
+      }
+    ],
+    "triangles_before": 119997,
+    "triangles_after": 119994,
+    "native_accepted": false,
+    "scope": "Only three tiny vertex-disconnected single-triangle components removed; original attribute and embedded texture buffers preserved; round-trip and visual gates still required"
+  },
+  "corrected_preflight": {
+    "default_scene_reachable_nodes": 1,
+    "file_sha256": "13ba7be08601408d3e6c7785a486bfbc89157f92bec199f6c0cc43038fe0c73e",
+    "checked_subset_pass": true,
+    "issues": [],
+    "triangles": 119994,
+    "meshes": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "vertices": 103909,
+        "topology": {
+          "duplicate_index_triangles": 0,
+          "indexed_boundary_edges": 76330,
+          "indexed_nonmanifold_edges": 0,
+          "boundary": "Index-space diagnostic; UV/material splits can duplicate geometric vertices. Does not prove watertightness or self-intersection freedom."
+        },
+        "collapsed_uv_triangles": 0,
+        "triangles": 119994,
+        "degenerate_triangles": 0,
+        "normal_unit_error_max": 1.386602346276078e-07,
+        "bounds": [
+          [
+            -0.5017086267471313,
+            -0.17093028128147125,
+            -0.07942375540733337
+          ],
+          [
+            0.5005875825881958,
+            0.1739620417356491,
+            0.07980094105005264
+          ]
+        ],
+        "material": 0
+      }
+    ],
+    "images": [
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1911913
+      },
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2136224
+      }
+    ],
+    "animations": 0,
+    "double_sided_materials": 0,
+    "native_accepted": false,
+    "limits": [
+      "Static supported-subset preflight only",
+      "Node transforms are validated structurally, not applied to geometry metrics",
+      "No moving-part ownership, hand fit, visual fidelity, topology, native material or gameplay acceptance"
+    ]
+  },
+  "blender_roundtrip": {
+    "reports": [
+      {
+        "imported_faces": 119994,
+        "welded_faces": 119994,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      }
+    ],
+    "native_accepted": false,
+    "scope": "Blender import plus exact-position topology check; reexport requires independent parser check"
+  },
+  "reexport_preflight": {
+    "default_scene_reachable_nodes": 1,
+    "file_sha256": "cbf6bcfb00b2d2f652be6607372b8f9bbea7f8e69f14b41baa1b06a33be9a499",
+    "checked_subset_pass": true,
+    "issues": [],
+    "triangles": 119994,
+    "meshes": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "vertices": 104115,
+        "topology": {
+          "duplicate_index_triangles": 0,
+          "indexed_boundary_edges": 76330,
+          "indexed_nonmanifold_edges": 0,
+          "boundary": "Index-space diagnostic; UV/material splits can duplicate geometric vertices. Does not prove watertightness or self-intersection freedom."
+        },
+        "collapsed_uv_triangles": 0,
+        "triangles": 119994,
+        "degenerate_triangles": 0,
+        "normal_unit_error_max": 1.42549377191159e-07,
+        "bounds": [
+          [
+            -0.5017086267471313,
+            -0.17093028128147125,
+            -0.07942375540733337
+          ],
+          [
+            0.5005875825881958,
+            0.1739620417356491,
+            0.07980094105005264
+          ]
+        ],
+        "material": 0
+      }
+    ],
+    "images": [
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1911913
+      },
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2136224
+      }
+    ],
+    "animations": 0,
+    "double_sided_materials": 0,
+    "native_accepted": false,
+    "limits": [
+      "Static supported-subset preflight only",
+      "Node transforms are validated structurally, not applied to geometry metrics",
+      "No moving-part ownership, hand fit, visual fidelity, topology, native material or gameplay acceptance"
+    ]
+  }
 }

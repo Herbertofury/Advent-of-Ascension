@@ -175,3 +175,7 @@ Every weapon needs a source-pinned origin and lore review covering upgrade linea
 ## Whole-arsenal scope reconciliation
 
 [What every weapon finished means](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Completion-Scope.md) reconciles the 228 first-target firearm registrations with the broader 412-registration historical census. Three class/family-matched rename candidates explain raw-ID differences; they are not automatically new weapons or verified save migrations. Later/earlier versions and other families still require reconciliation. Fully accepted native upgrades remain zero.
+
+## Verify the actual geometry backend
+
+[The pinned TaCZ geometry and glTF-animation contract](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/TaCZ-Geometry-and-Animation-Contract.md) is mandatory context for export QA. The inspected glTF manager loads animation data; its existence does not prove support for arbitrary triangle/PBR GLB meshes. A reference GLB remains an authoring asset until a real supported geometry path renders it in-game with correct hands, materials, animation and measured performance. Do not mark a gun ready by renaming files or passing only JSON/format checks.

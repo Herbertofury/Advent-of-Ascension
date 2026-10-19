@@ -30,17 +30,19 @@ Generator: [trellis.cpp](https://github.com/pwilkin/trellis.cpp), source pin `8e
 | Generated export | 118,026 triangles; one mesh/primitive |
 | Strict supported-subset preflight | No reported structural, degenerate-triangle or collapsed-UV issues |
 | Exact-position welded diagnostic | 225 non-manifold edges, zero boundary edges; not watertight |
-| Static repair after re-UV and unlit PBR transfer | Initial export lost three faces, leaving nine boundary edges |
-| Explicit three-hole cap repair | 120,000 triangles; zero boundary/non-manifold edges under the exact-position diagnostic |
+| Static repair after re-UV and unlit PBR transfer | Export contained three tiny isolated single-triangle components, contributing nine boundary edges |
+| Rejected cap attempt | 120,000 triangles; three duplicate indexed faces. Narrow edge counts hid the defect. |
+| Corrected isolated-component removal | 119,994 triangles; no duplicate/degenerate/collapsed-UV issues; zero exact-position boundary/non-manifold edges |
+| Blender import and reexport | 119,994 faces survive import; exact-position topology remains closed; reexport independently checked |
 | Native or visual acceptance | Not passed |
 
 The final topology diagnostic does not establish self-intersection freedom, correct hand fit, moving-part clearance, animation, material fidelity or native performance. The earlier 512 run used different settings and thread count; these timings are not a controlled speed comparison.
 
 ## What the repair changes
 
-![Actual repaired static reference, still below the visual target](apoco-rifle-1024-repaired.png)
+![Earlier capped repair render, retained for visual history and not proof of corrected geometry](apoco-rifle-1024-repaired.png)
 
-The non-destructive repair uses a fresh mesh surface and UV atlas, then transfers base color, roughness and metallic channels without baking lighting into them. Export inspection found three tiny triangular openings that the Blender-side manifold check had missed. They were explicitly capped with winding and UV checks, and the exported file was inspected again.
+The non-destructive repair uses a fresh mesh surface and UV atlas, then transfers base color, roughness and metallic channels without baking lighting into them. Correction: the initial export had three isolated tiny triangles, not holes in the main surface. The earlier cap attempt duplicated those triangles and falsely appeared closed under edge counts alone. Blender import discarded the duplicate caps. That attempt is rejected. The corrected downloadable file removes only those three verified vertex-disconnected triangles, preserving the attribute and embedded texture buffers. Independent preflight, exact-position diagnostics and a Blender import/reexport check now agree on 119,994 faces. The preflight now fails its gate and command exit status whenever diagnostic issues are present; 43 synthetic regressions pass.
 
 This fixes a narrow geometry problem. The wrong emitter, missing lime details, fused mechanisms and local material blemishes remain. It is a better repair reference, not a completed weapon.
 
