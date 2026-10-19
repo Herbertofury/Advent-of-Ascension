@@ -1,0 +1,37 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 23.5,
+    "durability": 845,
+    "delay_ticks": 28,
+    "constructor_recoil": 0.175,
+    "base_ammo": "aoa3:cannonball",
+    "projectile": "HeavyBoneCannonballEntity",
+    "age_parameter": 120,
+    "piercing_parameter": 0,
+    "effect_duration_input": 100,
+    "effect_builder_level_argument": 2
+  },
+  "recipes": {
+    "data/aoa3/recipes/upgrade_kit_predatorian_blaster.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:ghast_blaster"
+      },
+      "result": {
+        "item": "aoa3:predatorian_blaster"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:predator_upgrade_kit"
+      }
+    }
+  },
+  "native_accepted": false,
+  "art_accepted": false,
+  "javap_evidence_sha256": {
+    "HeavyBoneCannonballEntity.javap.txt": "f9431f7f4cd6d0a04f502e8ec7520cacfe9633fdee885fd92d99097ecf28f166",
+    "PredatorianBlaster.javap.txt": "0688db40ee7cbb2b82b2f881819d49c646695abba65dac431adbbe949132e72c",
+    "BaseCannon.javap.txt": "f38f23a897473172b9dc724ebc613152cb8c9d95b9fa9049c0fca32fc8d0b8f7"
+  }
+}
