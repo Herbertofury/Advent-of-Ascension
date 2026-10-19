@@ -1,0 +1,180 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:bulb_cannon",
+    "field": "BULB_CANNON",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/BulbCannon"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$148",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "98edbb5c2f4c41149f3e1c3dd333565fa203c3365823f8a7a41471af38ed7756",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              121
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 25.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 860
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 30
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.15000000596046448
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/BulbCannon",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/BulbCannon.class",
+        "sha256": "4f3d058d26ad365423769487506776c338d3dfc1c30f4d81b25eabb1b42b59d5",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "e90f054c16f48dd32fa9aea97822604d7f1e6d9a29a4dd427dff02cb7d92f21d"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "ce8ef83f30b0154ace387d2626037d1fd776684cf07a3e24ebb45e9564a0c1c0"
+          },
+          {
+            "name": "doImpactEffect",
+            "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+            "code_sha256": "415152e0102d5a83cec48dcae8e92d1bbdbdd8c62a84face5acae78a4a2d22ce"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "8398e421431931390c6e5935084346702014c05c3d0bc1439c51824de54d9992"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 25.0,
+    "durability": 860,
+    "firing_delay_ticks": 30,
+    "recoil": 0.15000000596046448
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BulbCannon.class",
+      "sha256": "4f3d058d26ad365423769487506776c338d3dfc1c30f4d81b25eabb1b42b59d5"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity.class",
+      "sha256": "56874116ce7ac5f1fbe36ac8c31147c2c1ba326dbda69c162b95a2532035126c"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/HeavyWitherBallRenderer.class",
+      "sha256": "15f269f7c27c63381f872d2b5173ff67577b7d67790a3bb08ae94bcd7aad4e3e"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    }
+  ],
+  "bundled_library": {
+    "path": "META-INF/jarjar/TslatEffectsLib-neoforge-1.20.1-1.7.jar",
+    "sha256": "6950533da72960fe03ce928ca076d0a7911cf95793a6e1b7005533faec6e0356",
+    "class": "net/tslat/effectslib/api/util/EffectBuilder.class",
+    "class_sha256": "617cd109fbace4664b139e7330a1e61cd36a9535c1f645703f7f407bc24757b4",
+    "semantics": "level defaults to 1; build subtracts 1 before Minecraft amplifier argument"
+  },
+  "effect": {
+    "name": "Wither",
+    "level": 1,
+    "amplifier": 0,
+    "duration_ticks": 160,
+    "nominal_seconds_at_20tps": 8,
+    "requires_shared_heavy_attack_success": true,
+    "requires_living_target": true,
+    "guaranteed_application": false
+  },
+  "projectile": {
+    "class": "HeavyWitherBallEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1.0,
+    "gravity": 0.1,
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "renderer_requests_per_render_invocation": 8,
+    "particle": "FLICKERING_SPARKLER",
+    "colour": "BLACK"
+  },
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_bulb_cannon.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:wither_cannon"
+        },
+        "result": {
+          "item": "aoa3:bulb_cannon"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:abyssal_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "BaseCannon-upstream.java": "b63ee349657e13266da0b711f4127a408bd22024ee110f3148e27058e03bc703",
+    "BulbCannon-upstream.java": "c5207a5a54d8578aa3b95ff7ad8ea99271c0990312a7a9c2096f0f16b6f7fdc5",
+    "EntityUtil-upstream.java": "09d9d9bed2a6571cb65558aefae73e930477ef396acec4ac44719951130c6041",
+    "HeavyWitherBallEntity-upstream.java": "f7282bb839f33619074fa20cd2a97d4bad7204d369ce3ad7da7d7c83bf8f83b5"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "concept_review": {
+    "v1": "Rejected misleading second trigger-like underside ornament and restricted rear grip",
+    "v2": "Single-trigger visual revision; final hand-clearance and mesh checks remain open"
+  }
+}

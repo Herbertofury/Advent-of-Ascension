@@ -1,0 +1,295 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "tables": [
+    {
+      "path": "data/minecraft/loot_tables/entities/wither.json",
+      "sha256": "d7798efdc818342ed7f13486e8b04b79778c225366771dadefe59ebb906c8d4c",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 16.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 10.0,
+                      "min": 4.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "aoa3:wither_rune",
+                "weight": 30
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 24.0,
+                      "min": 8.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 13.0,
+                      "min": 5.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "minecraft:coal",
+                "weight": 35
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "minecraft:wither_skeleton_skull",
+                "weight": 16
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 12.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 6.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "minecraft:glowstone",
+                "weight": 24
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 12.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5.0,
+                      "min": 2.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "minecraft:quartz",
+                "weight": 19
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "minecraft:netherite_scrap",
+                "weight": 10
+              }
+            ],
+            "name": "loot",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:wither_bow",
+                "weight": 26
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:wither_cannon",
+                "weight": 23
+              }
+            ],
+            "name": "weapons",
+            "rolls": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/aoa3/loot_tables/worlds/abyss.json",
+      "sha256": "75e1483950f796829d3de8853f3a279716aa549a42f157382c96d47373f609ca",
+      "data": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 200
+              },
+              {
+                "type": "minecraft:loot_table",
+                "name": "aoa3:misc/rare_table"
+              }
+            ],
+            "name": "rare_table",
+            "rolls": 1.0
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 300
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 3.0,
+                      "min": 1.0
+                    },
+                    "function": "minecraft:set_count"
+                  },
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 2.0,
+                      "min": -1.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "aoa3:copper_coin",
+                "weight": 100
+              }
+            ],
+            "name": "supplies",
+            "rolls": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          {
+            "bonus_rolls": {
+              "type": "minecraft:uniform",
+              "max": 0.0,
+              "min": 0.0
+            },
+            "entries": [
+              {
+                "type": "minecraft:empty",
+                "weight": 180
+              },
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "function": "minecraft:looting_enchant"
+                  }
+                ],
+                "name": "aoa3:nightmare_flakes",
+                "weight": 20
+              },
+              {
+                "type": "minecraft:item",
+                "name": "aoa3:abyssal_upgrade_kit"
+              }
+            ],
+            "name": "dimension_specific_loot",
+            "rolls": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Released table content only; runtime override priority and invocation frequency not tested"
+}
