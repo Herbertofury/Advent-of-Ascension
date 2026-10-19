@@ -1,0 +1,57 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 18.5,
+    "durability": 610,
+    "delay_ticks": 25,
+    "constructor_recoil_input": 0.21,
+    "base_ammo": "aoa3:cannonball",
+    "full_automatic": false,
+    "projectile_age_parameter": 120,
+    "piercing_parameter": 0,
+    "heavy_damage_factor": 0.75,
+    "energy_damage_factor": 0.25
+  },
+  "recipes": {
+    "data/aoa3/recipes/infusion_energy_cannon.json": {
+      "type": "aoa3:infusion",
+      "ingredients": [
+        {
+          "item": "aoa3:runic_energy"
+        },
+        {
+          "item": "aoa3:runic_energy"
+        },
+        {
+          "item": "aoa3:power_core"
+        },
+        {
+          "tag": "forge:ingots/elecanium"
+        },
+        {
+          "tag": "forge:ingots/elecanium"
+        }
+      ],
+      "input": {
+        "item": "aoa3:cannon_frame"
+      },
+      "result": {
+        "item": "aoa3:energy_cannon"
+      }
+    },
+    "data/aoa3/recipes/upgrade_kit_moon_cannon.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:energy_cannon"
+      },
+      "result": {
+        "item": "aoa3:moon_cannon"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:lunar_upgrade_kit"
+      }
+    }
+  },
+  "native_accepted": false
+}
