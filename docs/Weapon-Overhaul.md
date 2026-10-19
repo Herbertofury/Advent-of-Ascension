@@ -88,13 +88,14 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Sweet Tooth | [Chocolate, peppermint and icing sniper; pictured infusion and shooter-only Speed III successful-hit audit; grip revisions retained](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sweet-Tooth-Weapon-Profile) |
 | Terminator | [Charcoal/silver sniper, SCOPE_3, eight-slot infusion and Mineral upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Terminator-Weapon-Profile) |
 | Vivo | [Compact three-pellet shotgun with gold accents, Lyon infusion and a higher-pitched firing identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vivo-Weapon-Profile) |
+| Duster | [Dark-brown/teal identity, inherited scope and six-slot infusion](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Duster-Weapon-Profile) |
 | Bolt Rifle | [Ochre/charcoal sniper, inherited scope and seven-slot infusion](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bolt-Rifle-Weapon-Profile) |
 | Dual Sight | [Cyan/blue scope identity, six-slot infusion and revised guard concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dual-Sight-Weapon-Profile) |
 | Head Hunter | [Brown/cobalt sniper, precise hit-band and cooldown source contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Head-Hunter-Weapon-Profile) |
 | Viper-1 | [Warm brown-black sniper, pictured infusion and Poison II source contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Viper-1-Weapon-Profile) |
 | Vortex Blaster | [Spirit-powered repulsion and readable vortex-focused feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 
-The gallery currently contains **64 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
+The gallery currently contains **65 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
 
 ## Build your own identity and play style
 

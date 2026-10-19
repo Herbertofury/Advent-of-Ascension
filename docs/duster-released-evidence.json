@@ -1,0 +1,157 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:duster",
+    "field": "DUSTER",
+    "family": "sniper",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/sniper/Duster"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$121",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "3a589088dc1ad7cbc30f4c23fa4d6a411b72c255b0084e9d707a96692b18ea88",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              250
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 21.0
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 170
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 60
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.09000000357627869
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/sniper/Duster",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/sniper/Duster.class",
+        "sha256": "0ca93ef05bf9e75e13e351b5e895c648c208ab40971fa9d8a7b2b10c85827ee2",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "befcaa8b99642cac1a739b879bbea02437f17ba28d665fed49f83478f718d18e"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 21.0,
+    "durability": 170,
+    "delay_ticks": 60,
+    "recoil": 0.09000000357627869
+  },
+  "scope": "SCOPE_1 inherited",
+  "ammo": "aoa3:metal_slug",
+  "sound": "ITEM_GUN_SNIPER_METALLIC_FIRE_LONG",
+  "custom_impact_override": false,
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:leather"
+      },
+      {
+        "tag": "forge:leather"
+      },
+      {
+        "tag": "forge:gunpowder"
+      },
+      {
+        "tag": "minecraft:planks"
+      }
+    ],
+    "input": {
+      "item": "aoa3:sniper_frame"
+    },
+    "result": {
+      "item": "aoa3:duster"
+    }
+  },
+  "planks_tag_example": "aoa3:baobab_planks",
+  "planks_tag": {
+    "values": [
+      "aoa3:achony_planks",
+      "aoa3:baobab_planks",
+      "aoa3:bloodwood_planks",
+      "aoa3:churry_planks",
+      "aoa3:creep_planks",
+      "aoa3:dawnwood_planks",
+      "aoa3:hauntedwood_planks",
+      "aoa3:irowood_planks",
+      "aoa3:lucalus_planks",
+      "aoa3:lunide_planks",
+      "aoa3:runic_planks",
+      "aoa3:shadow_planks",
+      "aoa3:shyre_planks",
+      "aoa3:stranglewood_planks",
+      "aoa3:toxicwood_planks"
+    ]
+  },
+  "leather_icon_source": "Published 1.20.1 loot model supplement",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/Duster.class",
+      "sha256": "0ca93ef05bf9e75e13e351b5e895c648c208ab40971fa9d8a7b2b10c85827ee2"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/Duster.java",
+  "source_sha256": "9e3392fa1d3ccd3eb0ba9f97aef544e3681bdca8e9e562f405f17bca90ef9fc8",
+  "native_tested": false,
+  "final_art_accepted": false
+}
