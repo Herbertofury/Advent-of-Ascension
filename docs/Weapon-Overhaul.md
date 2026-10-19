@@ -164,3 +164,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Mark Maker: crimson upgrade lineage
 
 [Source profile, concept and illustrated recipes](Mark-Maker-Weapon-Profile) follows KA-500 → Mark Maker → Moon Maker. The crimson cosmetic impact is a proposal; no enemy-marking or explosion behavior is inferred from the name. Native acceptance remains open.
+
+
+### Moon Maker: actual projectile and render-loop evidence
+
+[Moon Maker source profile and concept](Moon-Maker-Weapon-Profile) preserves its magenta/green identity, shows the extracted Metal Slug texture and documents its pink-sparkler renderer. Offhand attribution and render-rate emission are explicit native regression targets. No native acceptance is promoted.

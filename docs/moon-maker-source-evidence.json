@@ -1,0 +1,74 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 38.5,
+    "durability": 570,
+    "delay_ticks": 70,
+    "recoil": 0.05000000074505806,
+    "ammo": "aoa3:metal_slug",
+    "scope": "SCOPE_2"
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/MoonMaker.class",
+      "sha256": "d48656cfa7b21bbdc9823663f53b76467255496efc79a53b96e3655e1e1179a0"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/gun/MoonMakerEntity.class",
+      "sha256": "19ba823674657e0ab6e0c5ff2d1d64ce484401939107e1fea39495ddada5210b"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/bullets/MoonMakerRenderer.class",
+      "sha256": "c2776c0c8ae4967c40071a389992e591b397220badd9c53e5c02842040b313ff"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class",
+      "sha256": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57"
+    }
+  ],
+  "projectile": {
+    "class": "MoonMakerEntity",
+    "constructor_damage_multiplier": 1,
+    "constructor_pierce_count": 0,
+    "launch_speed_parameter": 20,
+    "inherited_lifespan": 60,
+    "constructor_hand": "MAIN_HAND",
+    "notes": "Override receives hand but uses a constructor that stores MAIN_HAND; offhand behavior requires a native regression test, not an automatic diagnosis."
+  },
+  "renderer": {
+    "texture": "assets/aoa3/textures/entity/projectile/bullets/metal_slug.png",
+    "texture_sha256": "dea957886a6e601e4ff4bc3ab454021db956400a69d6453ef1941bfbfb6e43a5",
+    "sparkler_iterations_per_render": 8,
+    "rgb": [
+      255,
+      105,
+      180
+    ],
+    "scale": 1,
+    "age_modifier": 3,
+    "warning": "render invocation is not game tick; age modifier is not a fixed lifetime"
+  },
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_moon_maker.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:mark_maker"
+        },
+        "result": {
+          "item": "aoa3:moon_maker"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:lunar_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "native_tested": false
+}
