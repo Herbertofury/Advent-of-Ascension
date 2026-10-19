@@ -243,3 +243,9 @@ Nine tests cover preservation, replacement receipts, missing metadata, idempoten
 Existing Soul Storm and Discharge Shotgun review files were present but not linked from the coverage index. The discovery pass now resolves actual per-weapon manifests by registry ID and target, preserves every review state and rejects conflicting or duplicate records. Sabbath’s new concept/effects record is also linked; implementation and native QA remain open.
 
 [Discovery tool and seven preservation tests](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/weapon-manifest-discovery-tools.zip) · [Exact pointer changes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-manifest-discovery-receipt.json). Run this after regenerating coverage, alongside the profile-link refresh. A visible record is not a completed weapon.
+
+## 15. Rebuild from current reviews, not an old archive
+
+The v8 builder now reads the docs-side coverage register first, uses the bundled copy only as a fallback, merges missing owner-direction defaults without overwriting newer overrides, and runs both profile and feature-manifest discovery. Three end-to-end regressions exercise newer review preservation, unknown override fields and conflicting manifest rejection.
+
+[Reusable v8 skill and build/check tools](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/aoa-weapon-completeness-standard-v8.zip). Nineteen preservation/discovery tests plus nineteen synthetic evidence-validator cases pass; no independent agent behavioral evaluation or native weapon acceptance is claimed. The skill also records the Discharge stale-transform scale bug and requires actual rebuilt visual/size review alongside parent-following tests.
