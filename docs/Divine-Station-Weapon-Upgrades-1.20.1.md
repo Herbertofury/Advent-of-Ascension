@@ -178,3 +178,7 @@ Each row shows the released input sprite + required ingredient → output sprite
 ### Remaining acceptance work
 
 Test an unmodified weapon, named/enhanced weapon, attachment-bearing weapon, damaged weapon and unknown extension tags. Check ordinary take and quick-move, multiplayer synchronization, recipe-book restrictions, cancellation and crafting-event integrations. Document allowed transfers and unsupported fields before promoting an upgrade bridge to playable status.
+
+## Every bundled upgrade, pictured
+
+[Divine Station illustrated upgrade atlas](Divine-Station-Upgrade-Atlas) covers all 70 bundled upgrade-kit recipes, organized by 19 kit families, with exact base item, kit and output sprites. First frames are used for animated textures; diagrams are not native screenshots.

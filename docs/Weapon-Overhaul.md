@@ -142,3 +142,7 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ## Dark Beast: compact dark sniper upgrade
 
 [Dark Beast weapon profile](Dark-Beast-Weapon-Profile) documents its Monster + Darkly kit lineage, heavy Metal Slug sniper behavior and revised compact concept. The overlong first concept is retained as a rejected canonical direction.
+
+## Every bundled upgrade, pictured
+
+[Divine Station illustrated upgrade atlas](Divine-Station-Upgrade-Atlas) covers all 70 bundled upgrade-kit recipes, organized by 19 kit families, with exact base item, kit and output sprites. First frames are used for animated textures; diagrams are not native screenshots.
