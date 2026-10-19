@@ -47,11 +47,11 @@ Four position-only recoil clips now have synchronized solid and illuminated trac
 
 The released TaCZ 1.1.8-hotfix2 animation parser accepted all **four clips / eight tracks / 328 keys** on Java 17 and 21 with documented helper stand-ins. Sampled linear approximation error stayed below 0.005 model units. Eight contract tests check malformed or inconsistent track data.
 
-An original Lua presentation adapter reuses **four tracks**, keeps state per instance, ignores duplicate/out-of-order confirmed-event sequences, and attempts cleanup of all tracks even when one stop fails. Its 10,000-event mock-context fixture passed 20,022 assertions with one initial track allocation. There is no per-frame polling callback. This is a bounded-allocation design check, **not a Minecraft FPS result**.
+An original Lua presentation adapter reuses **four tracks**, keeps state per instance, ignores duplicate/out-of-order confirmed-event sequences, and attempts cleanup of all tracks even when one stop fails. Its 10,000-event mock-context fixture passed 20,024 assertions with one initial track allocation. Invalid or duplicate native track IDs are rejected during initialization. There is no per-frame polling callback. This is a bounded-allocation design check, **not a Minecraft FPS result**.
 
 The adapter does not consume ammunition, spawn projectiles or schedule gameplay. The actual confirmed-shot callback bridge, native bone binding, arms, effects, interruption and multiplayer remain open. Clip timing must not silently replace the source weapon’s fire interval.
 
-[Original adapter, clips and scoped tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31.zip) · [Machine-readable evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-v31-evidence.json)
+[Original adapter, clips and scoped tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31-r2.zip) · [Machine-readable evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-v31-r2-evidence.json)
 
 <details>
 <summary>Earlier authoring studies and preserved evidence (through v25)</summary>
