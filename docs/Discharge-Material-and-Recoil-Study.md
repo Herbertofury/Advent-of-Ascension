@@ -59,3 +59,33 @@ A future native adapter must resolve matching bones once per asset generation, s
 
 
 [Source, maps, editable scenes and tests](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-material-recoil-study-v1.zip) · [Required v15 authoring source](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-authoring-refinement-v15.zip) · [Released parser harness](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/tacz-released-parser-check-tool-v2.zip) · [Confirmed-shot presentation component](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Confirmed-Shot-Presentation)
+
+
+## Current v35: mapped textures and seven motion groups
+
+**Partial authoring/export study. Native weapon and final-art acceptance remain open.**
+
+![Current grouped normal-mapped Discharge authoring render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-grouped-normal-v35.png)
+
+[Open the optional static 3D inspection page](https://herbertofury.github.io/Advent-of-Ascension/discharge-preview-v35.html) · [Editable Blender/transport package](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-texture-grouped-v35-study.zip) · [Detailed evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-v35-evidence.json).
+
+The revised atlas supplies color, emission, roughness and tangent-space normal maps. The earlier bake was rejected for overlapping/collapsed UV faces and a corner-normal mismatch. Triangulation, unwrapping and isolated sliver repairs now pass the documented UV tests. Small islands, mip behavior and final texture detail still need attention; passing overlap checks does not finish the artwork.
+
+| Bounded check | Result |
+|---|---|
+| Revised atlas | 75,188 triangles; zero degenerate UV triangles and sampled overlaps |
+| Continuous UV triangle intersections | Zero positive intersections above 1e-14 UV-area tolerance |
+| Grouping | 186 authoring parts → seven equal-motion groups |
+| Quarter-frame position checks | 52,346,400 vertex samples; maximum error about 1.09e-7 scene units |
+| Preserved attributes | Exact UVs and material assignments; normal-vector error below 0.001 |
+| Static GLB | Seven meshes, 21 primitives, four images; no animation export |
+| Translation clips | Three clips, two moving groups each, 222 total keys |
+| Compact transport JSON | 17,180,376 → 12,608,390 bytes; consumed float32 arrays unchanged |
+
+### Lighting and runtime are still gates
+
+The released TML data baker parses the geometry on Java 17/21, but its flat-normal diagnostic finds **eight faces with normal length below 0.99**. This is an unresolved lighting concern, not an accepted result. The separately proposed authored-normal mode preserves all 300,752 expanded corners in isolated source tests and leaves default arrays unchanged. Stock TML does not implement that opt-in proposal. Native fallback/VBO parity, material maps and shader integration still need real game tests.
+
+The static GLB roundtrip closely matches the reviewed authoring image; it is not the Minecraft renderer. The normal bake changes some procedural shading, and the chamber pattern is frozen at one source frame. Native animated energy, sound, hands, confirmed-shot event binding, complete movement/reload/inspection states and measured performance are not supplied by this study.
+
+The source concept remains more sculpted and ornamented than the current model. Grip contours, receiver detail, crown and lower-rail shapes, metal ornamentation, final surface art, variants and the full effects package remain explicit work. Seven groups and smaller JSON do not establish an FPS improvement or final fidelity.
