@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const elements=new Map(),queue=new Map(),fetches=[];let clock=0,id=0,drawn=0;
-const context2d={drawImage(){},getImageData(){return {data:new Uint8ClampedArray([100,120,80,255])};},fillRect(){},beginPath(){},moveTo(){},lineTo(){},closePath(){},fill(){drawn++;},stroke(){}};
+const context2d={createImageData(w,h){return {width:w,height:h,data:new Uint8ClampedArray(w*h*4)};},putImageData(){drawn++;},drawImage(){},getImageData(){return {data:new Uint8ClampedArray([100,120,80,255])};},fillRect(){},beginPath(){},moveTo(){},lineTo(){},closePath(){},fill(){drawn++;},stroke(){}};
 function element(name){if(!elements.has(name))elements.set(name,{id:name,hidden:name==='viewer',disabled:true,checked:false,value:'0',dataset:{},clientWidth:800,clientHeight:480,width:800,height:480,textContent:'',events:{},addEventListener(type,fn){this.events[type]=fn;},getContext(type){return type==='webgl'?null:context2d;},setPointerCapture(){}});return elements.get(name);}
 const ready=['recoil','reset','zoom-in','zoom-out','timeline','motion'].map(element);
 const document={hidden:false,events:{},getElementById:element,querySelectorAll(){return ready;},createElement(){return {width:1,height:1,getContext(){return context2d;}};},addEventListener(type,fn){this.events[type]=fn;}};
@@ -22,5 +22,5 @@ function frame(t){clock=t;const entry=queue.entries().next().value;if(entry){que
  emit('viewer','keydown',{key:'ArrowLeft',preventDefault(){}});frame(1400);assert.equal(queue.size,0);
  element('motion').checked=true;clock=1500;emit('recoil','click');document.hidden=true;document.events.visibilitychange();assert.equal(queue.size,0);assert.match(element('status').textContent,/paused while hidden/);document.hidden=false;document.events.visibilitychange();frame(1600);assert.equal(queue.size,0);
  assert.equal(fetches.length,3);
- console.log(JSON.stringify({status:'PASS',scenarios:12,softwareFacesDrawn:drawn,dynamicAssetLoads:fetches.length,scope:'Simulated DOM/Canvas2D control-flow fixture; real browser, pixels and WebGL remain separate checks'}));
+ console.log(JSON.stringify({status:'PASS',scenarios:12,softwareFramesDrawn:drawn,dynamicAssetLoads:fetches.length,scope:'Simulated DOM/Canvas2D control-flow fixture; real browser, pixels and WebGL remain separate checks'}));
 })().catch(error=>{console.error(error);process.exitCode=1;});
