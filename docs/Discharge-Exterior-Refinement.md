@@ -122,3 +122,18 @@ Four small layered cosmetic shells replace the visible simple dark collars aroun
 Apply the patch to the exact generated scene in the [v36 grip package](Discharge-Grip-and-Surface-Study). The source hash is checked before applying it; the archive avoids another full source-scene copy. A clean rebuild reproduced the static results: 313 earlier geometry objects retain their geometry/transforms; each of the four new 1,344-triangle shells is closed, positive-volume and free of degenerate triangles.
 
 These checks do not prove full collision, swept animation, hand fit, native rendering or performance. V38 is a separate procedural source study; the v37 texture bake targets the earlier v36 geometry, so its atlas/exports do not automatically cover these new collars.
+
+
+## Lower-rail silhouette and paint study
+
+![Three rounded lower openings and revised paint response](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rail-paint-v42.png)
+
+The concept's lower rail has three prominent openings. The older authoring model used five staircase cuts. This candidate replaces those with three rounded rectangular openings, retains the red seam, and preserves the prior geometry as hidden alternatives. A first semicircular version was revised because it drifted from the concept's shape language.
+
+The white armor previously behaved mostly like exposed metal. The new material separates low-metallic paint from sparse exposed-metal patches, reduces the noisy bump response and adds a restrained clear coat. The crimson enamel also receives a lower metallic value. This is an authoring material proposal; the native renderer does not automatically inherit these Blender nodes.
+
+[Small combined rail-and-paint patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-rail-paint-v42-patch.zip) · [Scoped checks](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-rail-paint-v42-evidence.json).
+
+The patch requires the exact v38 chamber-study source named in its README and refuses another starting hash. Its two stages were rebuilt in a clean output directory. Four new rail/trim parts have no nonmanifold edges or degenerate triangles in the evaluated checks. The material stage preserves all 321 geometry objects and their transforms. Neither check proves complete assembly clearance, hand fit or native rendering.
+
+The v40 fine-line ornament experiment was left out because it did not meaningfully close the concept-fidelity gap. More sculpted receiver details, ornament, crown shape and effects remain work. This candidate is separate from the [v39 mapped export](Discharge-Material-and-Recoil-Study): it needs a new bake/export and shader review before that evidence can apply. It is not a finished weapon or an FPS result.
