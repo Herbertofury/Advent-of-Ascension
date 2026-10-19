@@ -146,3 +146,7 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ## Every bundled upgrade, pictured
 
 [Divine Station illustrated upgrade atlas](Divine-Station-Upgrade-Atlas) covers all 70 bundled upgrade-kit recipes, organized by 19 kit families, with exact base item, kit and output sprites. First frames are used for animated textures; diagrams are not native screenshots.
+
+## Monster: amber fork-jaw sniper
+
+[Monster weapon profile](Monster-Weapon-Profile) retains the orange/charcoal forked silhouette and documents the pictured Darkly upgrade. Historical Graw loot evidence is kept separate from the unresolved current acquisition route.
