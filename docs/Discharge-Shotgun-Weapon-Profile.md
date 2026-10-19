@@ -84,7 +84,7 @@ A scan of this release's `data/aoa3` JSON files found no direct `aoa3:discharge_
 
 ## Current exterior refinement
 
-[Inspect the latest muzzle, grip and capacitor study](Discharge-Exterior-Refinement), including three actual authoring views and a compact editable Blender scene. The scoped geometry checks pass for the recorded scene, while rear-receiver design, final concept fidelity, moving hands, materials/export and native gameplay remain unaccepted. Three visible channels do not change the original four-projectile behavior.
+[Inspect the muzzle, grip, capacitor and layered rear-receiver studies](Discharge-Exterior-Refinement), including three actual authoring views and a compact editable Blender scene. The scoped geometry checks pass for the recorded scene, while rear-receiver design, final concept fidelity, moving hands, materials/export and native gameplay remain unaccepted. Three visible channels do not change the original four-projectile behavior.
 
 ## Earlier grip and surface refinement
 

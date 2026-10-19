@@ -6,7 +6,25 @@
 
 The owner's [canonical concept A](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-shotgun-owner-target-v1.png) remains the visual target. The [source weapon profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) defines the gameplay baseline. Three visible muzzle channels in this artwork do not change the original four-projectile firing behavior.
 
-## Current authoring views
+## V32: layered rear-receiver study
+
+![Current v32 oblique authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-oblique.png)
+
+![Current v32 side authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-side.png)
+
+The plain rear surface now has paired swept silver braces, layered upper plates, dark insets and restrained red accents. These are decorative exterior parts; they do not establish a new mechanism. The overall receiver, grip and top construction still need substantially more refinement toward concept A. **This is not final art acceptance.**
+
+<details><summary>Compare the preceding v31 scene from the same review camera</summary>
+
+![Controlled v31 comparison view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v31-comparison.png)
+
+</details>
+
+The scoped test preserves 164 existing mesh definitions/transforms/material-slot names and checks fourteen new closed solids for positive volume and nondegenerate evaluated triangles. It does not cover every intersection, hands, curves, driver state or native animation. The earlier trigger and guard were not resized to conceal clearance problems. All native, hand-fit, material-export and performance gates remain open.
+
+[Small reproducible v32 patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-rear-contour-v32-patch.zip) · [Scoped geometry results](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-rear-v32-geometry.json). Apply to the exact v31 scene linked below. The patch generates a separate scene and rejects an unexpected source hash.
+
+## Previous v31 authoring views
 
 ![Discharge current exterior study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-exterior-v31-oblique.png)
 
