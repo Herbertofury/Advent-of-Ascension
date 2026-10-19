@@ -82,10 +82,11 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Soul Storm | [Five-emitter Soul Flame sight study; the default upgrade has four emitters, with five/six as options](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) |
 | Spirit Shower | [Three descending Spirit projectiles, source-linked loot and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
 | Sweet Tooth | [Chocolate, peppermint and icing sniper; pictured infusion and shooter-only Speed III successful-hit audit; grip revisions retained](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sweet-Tooth-Weapon-Profile) |
+| Terminator | [Charcoal/silver sniper, SCOPE_3, eight-slot infusion and Mineral upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Terminator-Weapon-Profile) |
 | Vivo | [Compact three-pellet shotgun with gold accents, Lyon infusion and a higher-pitched firing identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vivo-Weapon-Profile) |
 | Vortex Blaster | [Spirit-powered repulsion and readable vortex-focused feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 
-The gallery currently contains **55 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
+The gallery currently contains **56 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
 
 ## Build your own identity and play style
 
