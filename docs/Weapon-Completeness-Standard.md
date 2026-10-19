@@ -191,3 +191,18 @@ Every weapon needs a source-pinned origin and lore review covering upgrade linea
 - A parser or transform pass cannot substitute for moving-mesh clearance checks. Recoil trim ownership, receiver stroke space, baseline contacts and sampling limits must be reviewed separately.
 
 The [Discharge recoil review](Discharge-Exterior-Refinement) is a concrete example: a deeper surface check found clipping despite earlier parser/transform success. The corrected sampled result remains authoring evidence, with native hands and gameplay still open. This package is published project guidance; it does not claim installation into a personal skill directory or acceptance of any weapon.
+
+## Native event identity and truthful concept captions
+
+[Reusable guidance package v5](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v5.zip) retains the 31-feature schema and all 19 synthetic validator cases unchanged. The new focused guidance covers failures found during source audits and actual concept production:
+
+- Distinguish the conventional gun path from the energy/blaster branch before binding presentation. Soul Storm is a blaster; an arbitrary recoil/effect callback is not enough to identify a successful shot.
+- Reuse the confirmed-shot core's resolved emitter index. An arrival counter fails when shot ordinals have gaps.
+- Keep reward eligibility, pool chance, roll count and relative weights separate. Crystaneer's illustrated loot guide demonstrates those boundaries.
+- Inspect generated image text before publishing. A painted inspect vignette cannot be labeled in-game, and invented material names cannot become official lore.
+- Names and recipe ingredients do not prove projectile behavior: Red Rocket remains a shotgun in original mode; Clown Cracker's Confetti Piles do not replace Metal Slug ammo.
+- A noisier material is not automatically an art improvement. Preserve rejected candidates and promote only demonstrated improvements.
+
+[All 228-item native event-source audit](Confirmed-Shot-Presentation) · [Conditional loot example](Crystaneer-Weapon-Profile) · [Corrected image-label example](Hive-Cracker-Weapon-Profile)
+
+The package passes skill structure validation and the existing 19-case evidence validator. Its guidance additions have not received independent behavioral evaluation or native testing. It remains project guidance, not an installed personal skill or weapon acceptance.
