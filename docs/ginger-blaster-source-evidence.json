@@ -1,0 +1,96 @@
+{
+  "release": "AoA3-1.20.1-3.7.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:ginger_blaster",
+    "name": "Ginger Blaster",
+    "family": "shotgun",
+    "stored_base_damage": 7.0,
+    "durability": 720,
+    "stored_delay_ticks": 60,
+    "stored_recoil_modifier": 0.75,
+    "class_sha256": "41ee68a8e2ce4c421b203ff16e69d00d37f9a080436de4153ed1b4137de1c6f7",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/shotgun/GingerBlaster",
+    "flags": [],
+    "stored_pellets": 5,
+    "stored_knockback_factor": 0.4000000059604645
+  },
+  "ammo": "aoa3:spreadshot",
+  "loop_projectile": "LimoniteBulletEntity",
+  "full_automatic": false,
+  "only_custom_method_beyond_constructor": "getFiringSound -> ITEM_GUN_SHOTGUN_HEAVY_FIRE_LONG",
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/infusion_ginger_blaster.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:sour_gummy"
+          },
+          {
+            "item": "aoa3:spreadshot"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:gingerbread"
+          }
+        ],
+        "input": {
+          "item": "aoa3:shotgun_frame"
+        },
+        "result": {
+          "item": "aoa3:ginger_blaster"
+        }
+      }
+    }
+  ],
+  "gingerbread_tag": {
+    "values": [
+      "aoa3:gingerbread_cookie",
+      "aoa3:gingerbread_wing"
+    ]
+  },
+  "native_accepted": false,
+  "art_accepted": false,
+  "concept_limits": [
+    "Hero/inspect/charm concept only; projectile/impact/finisher boards remain open",
+    "Minecraft-fit illustration is not an implemented texture pack",
+    "Control/hand fit, hatch mechanics and clearances remain unaccepted"
+  ],
+  "sprites": [
+    {
+      "source": "assets/aoa3/textures/item/sour_gummy.png",
+      "sha256": "8a5ac2a6e39b2bbd213d68090b75f919e6eb62aae8e78013c3132bfdd2833ef4",
+      "preview": "recipe-sour-gummy-sprite.png",
+      "processing": "nearest-neighbor enlargement only"
+    },
+    {
+      "source": "assets/aoa3/textures/item/spreadshot.png",
+      "sha256": "fb2fd43ee183793202fee8db0730ea2839e90a51c3d9f5d81e92c3aca60c82c4",
+      "preview": "recipe-spreadshot-sprite.png",
+      "processing": "nearest-neighbor enlargement only"
+    },
+    {
+      "source": "assets/aoa3/textures/item/gingerbread_cookie.png",
+      "sha256": "9f8af77e7574b4056484578f1149070901a0fe96f1f701ec04c4c90d1e4d3f11",
+      "preview": "recipe-gingerbread-cookie-sprite.png",
+      "processing": "nearest-neighbor enlargement only"
+    },
+    {
+      "source": "assets/aoa3/textures/item/gingerbread_wing.png",
+      "sha256": "d7c7269c3d6b25abaf76ecd9297c2d7e221e0b81151b6545c440b623923793d6",
+      "preview": "recipe-gingerbread-wing-sprite.png",
+      "processing": "nearest-neighbor enlargement only"
+    }
+  ],
+  "source_disassembly_sha256": "25a932081904c578a453ebff3cf8f58b243747a5f508cf52616f416ed709fb99"
+}
