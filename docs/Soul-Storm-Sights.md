@@ -20,7 +20,7 @@ Keep wisps out of the target sightline, budget alpha overdraw and avoid attachin
 
 These are required designs, not completed native attachments. Earlier gem-forward illustrations are preserved as optional Soul Gem studies. New default renders should show the animated-flame concept explicitly.
 
-[Soul Storm profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) · [Art direction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) · [Alternate barrels](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Alternate-Barrels-and-Skins)
+[Soul Storm profile](Soul-Storm-Weapon-Profile) · [Art direction](Soul-Storm-Art-Direction) · [Alternate barrels](Alternate-Barrels-and-Skins)
 
 ## Sight concept sheet
 
@@ -28,11 +28,15 @@ These are required designs, not completed native attachments. Earlier gem-forwar
 
 The lower strip illustrates animation key poses, not an actual animation clip. The first-person vignette is generated concept art, not in-game capture or proof of aim alignment.
 
-[Source-backed native renderer plan](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Flame-Native-Renderer-Plan) explains the actual functional-bone hook, hidden-node caveat and required runtime tests.
+[Source-backed native renderer plan](Soul-Flame-Native-Renderer-Plan) explains the actual functional-bone hook, hidden-node caveat and required runtime tests.
 
-[Original playful inspection storyboard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Inspection-Storyboard).
+[Original playful inspection storyboard](Soul-Storm-Inspection-Storyboard).
 
-[Original animated flame texture study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Flame-Flipbook-Study) includes editable source, fifteen rendered frames, UV tests and clean-extraction pixel reproduction; native integration remains pending.
+[Original animated flame texture study](Soul-Flame-Flipbook-Study) includes editable source, fifteen rendered frames, UV tests and clean-extraction pixel reproduction; native integration remains pending.
 
 
 [Controlled aiming-transition correction](Soul-Storm-Aiming-Flame-Readability) follows the flame mask through 101 sampled frames and preserves relaxed/full-focus renders. [Coordinated effect storyboard](Soul-Storm-Effects-Storyboard) covers the wider proposed feedback; both retain native acceptance gates.
+
+## Editable optional-sight study
+
+[Flame, Candle and Gem workshop](Soul-Storm-Optional-Sight-Workshop) includes the source patch, closeups, clean rebuild and preservation evidence. These authoring variants still require artistic and native acceptance.

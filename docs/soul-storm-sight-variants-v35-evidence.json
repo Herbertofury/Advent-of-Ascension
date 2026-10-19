@@ -1,0 +1,226 @@
+{
+  "status": "Authoring prototype; not installable or native accepted",
+  "source_sha256": "cd578269eecf4d8e760cde3cdca55c9ee0f2e1f74f700745a381c01acf09ba14",
+  "created_objects": 20,
+  "clean_extraction": {
+    "build_exit_success": true,
+    "tests": [
+      "check_variants",
+      "check_solids",
+      "check_preservation"
+    ],
+    "reports": {
+      "variant-qa.json": {
+        "mask_center_samples": 404,
+        "maximum_world_center_error": 6.743495761743046e-07,
+        "gem_focus_alpha_samples": 101,
+        "visibility_modes": [
+          {
+            "mode": 0,
+            "visible_optional": [],
+            "original_flame_visible": true
+          },
+          {
+            "mode": 1,
+            "visible_optional": [
+              "V35 candle V16 rooted fire layer",
+              "V35 candle V16 rooted fire layer.001",
+              "V35 soul candle body",
+              "V35 candle silver foot",
+              "V35 candle wick",
+              "V35 wax drip 0",
+              "V35 wax drip 1",
+              "V35 wax drip 2",
+              "V35 wax drip 3",
+              "V35 wax drip 4",
+              "V35 candle soul tear 0",
+              "V35 candle soul tear 1",
+              "V35 candle soul tear 2"
+            ],
+            "original_flame_visible": false
+          },
+          {
+            "mode": 2,
+            "visible_optional": [
+              "V35 soul gem",
+              "V35 soul gem inner heart",
+              "V35 gem silver setting",
+              "V35 projected gem aim tick 0",
+              "V35 projected gem aim tick 1",
+              "V35 projected gem aim tick 2",
+              "V35 projected gem aim tick 3"
+            ],
+            "original_flame_visible": false
+          },
+          {
+            "mode": 99,
+            "visible_optional": [],
+            "original_flame_visible": true
+          },
+          {
+            "mode": -1,
+            "visible_optional": [],
+            "original_flame_visible": true
+          }
+        ],
+        "native_accepted": false,
+        "art_accepted": false
+      },
+      "solid-qa.json": {
+        "solids": [
+          {
+            "name": "V35 candle silver foot",
+            "signed_volume": 0.006874225916552054,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 candle soul tear 0",
+            "signed_volume": 2.536095744977253,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 candle soul tear 1",
+            "signed_volume": 2.536095744977253,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 candle soul tear 2",
+            "signed_volume": 2.536095744977253,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 candle wick",
+            "signed_volume": 3.592087364061888e-05,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 gem silver setting",
+            "signed_volume": 0.008082992035896061,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 soul candle body",
+            "signed_volume": 0.023825610162077696,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 soul gem",
+            "signed_volume": 0.024218314586761353,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 soul gem inner heart",
+            "signed_volume": 0.0018142548879722916,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 wax drip 0",
+            "signed_volume": 3.847758599569134,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 wax drip 1",
+            "signed_volume": 3.847758599569134,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 wax drip 2",
+            "signed_volume": 3.847758599569135,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 wax drip 3",
+            "signed_volume": 3.8477585995691346,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "V35 wax drip 4",
+            "signed_volume": 3.847758599569134,
+            "nonmanifold_edges": 0
+          }
+        ],
+        "scope": "Closed positive-volume optional solids; not a collision or native export certification",
+        "excluded": "Two deliberately flat flame cards and four projected aiming planes",
+        "native_accepted": false
+      },
+      "preservation-qa.json": {
+        "passed": true,
+        "reference": {
+          "raw": "a870d2a7cfba8e5166a16f531f68f302ea343d483ceb3d6997033571e9d7d0e0",
+          "evaluated_motion_and_visibility": "9421e5884b9526a2ad0f17bae6ba7adaa343c6b600519a6ce836a9d6a190645c",
+          "mesh_objects": 438,
+          "frames": 101
+        },
+        "candidate": {
+          "raw": "a870d2a7cfba8e5166a16f531f68f302ea343d483ceb3d6997033571e9d7d0e0",
+          "evaluated_motion_and_visibility": "9421e5884b9526a2ad0f17bae6ba7adaa343c6b600519a6ce836a9d6a190645c",
+          "mesh_objects": 438,
+          "frames": 101
+        },
+        "scope": "Existing meshes, UVs, shape keys, ownership and sampled geometry/render visibility in default mode; new optional meshes excluded",
+        "native_accepted": false
+      }
+    }
+  },
+  "controlled_render_checks": {
+    "default-pixel-qa.json": {
+      "same_pixels": true,
+      "max_rgb_difference": 0,
+      "mean_rgb_difference": 0.0,
+      "camera": "same controlled authoring oblique view",
+      "frame": 25,
+      "scope": "Default flame mode versus v34 reference; not native game test"
+    },
+    "aim-marker-qa.json": {
+      "scope": "Contrasting marker visibility in controlled authoring camera only",
+      "samples": [
+        {
+          "image": "candle-transition",
+          "center_rgb": [
+            147.38888888888889,
+            73.52777777777777,
+            130.80555555555554
+          ],
+          "red_minus_green": 73.86111111111111
+        },
+        {
+          "image": "candle-focused",
+          "center_rgb": [
+            147.80555555555554,
+            70.75,
+            128.72222222222223
+          ],
+          "red_minus_green": 77.05555555555554
+        },
+        {
+          "image": "gem-transition",
+          "center_rgb": [
+            147.83333333333334,
+            69.88888888888889,
+            128.08333333333334
+          ],
+          "red_minus_green": 77.94444444444446
+        },
+        {
+          "image": "gem-focused",
+          "center_rgb": [
+            147.80555555555554,
+            70.72222222222223,
+            128.69444444444446
+          ],
+          "red_minus_green": 77.08333333333331
+        }
+      ],
+      "native_accepted": false
+    }
+  },
+  "art_accepted": false,
+  "native_accepted": false,
+  "known_limits": [
+    "Individual closeups use different framing",
+    "No denoiser available; 256 samples",
+    "Manifold solids do not prove no intersection",
+    "Material/export, first-person camera, hands and performance untested"
+  ],
+  "package_sha256": "2b53b578f50a59a26c46ad5abd1562d9b66f14773b9b2562238d2e929441c017"
+}
