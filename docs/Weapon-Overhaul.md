@@ -40,6 +40,8 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Vortex Blaster | [Spirit-powered repulsion, original targeting and concepts](Vortex-Blaster-Weapon-Profile) |
 | Ghast Blaster | [Dark purple cannon, shadow projectile, conditional withering and infusion lineage](Ghast-Blaster-Weapon-Profile) |
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
+| Predatorian Blaster | [Bone cannon concept, withering source contract and Ghast upgrade lineage](Predatorian-Blaster-Weapon-Profile) |
+| Pulse Cannon | [Rectangular cannon concept with separate shooter-centered repulsion](Pulse-Cannon-Weapon-Profile) |
 | Rosid Rifle | [Botanical sniper concept, Metal Slugs and tooltip-versus-impact-hook discrepancy](Rosid-Rifle-Weapon-Profile) |
 | Shoe Flinger | [Full profile, boot ammunition and equipment conservation](Shoe-Flinger-Weapon-Profile) |
 | Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](Iominator-Weapon-Profile) |
@@ -52,7 +54,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Spirit Shower | [Three-path Spirit attack, Jawe loot-table evidence and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
 | Carrot Cannon | [Carrot ammunition, botanical material provenance, concepts and unaccepted authoring](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
 
-The weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
+The 24 weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
 
 ## Build your own identity and play style
 
@@ -110,3 +112,5 @@ No-loss performance and compatibility are acceptance targets requiring measureme
 ## Definition of complete
 
 One traceable record per accepted weapon and source version: registry ID, original behavior, model/texture ownership, animations, backend/version support, fallback, conversion policy, screenshots, multiplayer tests and performance evidence. An unchecked or unsupported weapon remains visible in the coverage ledger.
+
+[Reproducible Predatorian and Pulse source checks](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/predatorian-pulse-source-study.zip) verify narrow pinned bytecode markers and recipe structure; they do not certify gameplay or final art.
