@@ -48,6 +48,26 @@ The inward-facing spikes and hooks should not pass hand-clearance QA. Retained f
 
 </details>
 
+## Optional modules and feedback storyboard
+
+![Sabbath module and effects concepts, revised labels and charm placement](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sabbath-modules-fx-v2.png)
+
+The standard shroud preserves original rules. **Spectral Lance** and **Wraith Orbit** are proposed gameplay conversions, not cosmetic equivalents: a beam and orbiting discs require their own server-authoritative hit rules, bounded lifetime/range, ammunition/resource policy, cadence, damage and Wither application limits. No untested damage or free-resource bonus is implied.
+
+The board also explores an exterior skull charm, alternate optic casing, static/glowing emblem, muzzle flash, flight trail, impact ring, temporary terrain mark and confirmed-kill motes. Original flight/impact capture remains explicitly pending. The terrain mark is a temporary overlay, never a changed block; the finisher requires a confirmed death event and expires. Native materials, animation, collision and performance remain open.
+
+V2 moves the charm outside the guard and corrects V1’s misleading cosmetic-module labels. Its full swing envelope, actual hands and aim/inspect poses still need geometry tests. A gameplay-affecting charm would need a separate declared bonus; this illustrated charm is currently a cosmetic proposal.
+
+<details><summary>Retained V1 board: rejected labels and charm placement</summary>
+
+![Earlier module board with labels and charm placement requiring correction](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sabbath-modules-fx-v1.png)
+
+V1 called beam/disc conversions cosmetic and placed a charm across control-space. Those are not accepted design targets.
+
+</details>
+
+[Feature-by-feature status](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/sabbath-feature-status.json) records concept work separately from implementation and native QA.
+
 ## Complete feature plan
 
 - **Shape and materials:** preserve the original color/silhouette hierarchy in Minecraft-fit and premium modes; readable purple/teal channels, bounded glow, texture/UV/normal review.

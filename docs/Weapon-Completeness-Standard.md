@@ -237,3 +237,9 @@ Use refresh_coverage.py with explicit --queue, --coverage, --output and --receip
 Nine tests cover preservation, replacement receipts, missing metadata, idempotence and rejected inconsistent inputs. The full builder output is compared with the helper's expected result. This repairs discoverability only; a linked profile is not proof that any feature or native gate has passed.
 
 [Reusable skill package v7](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v7.zip) includes the corrected builder and link-refresh helper. [Refresh receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-profile-refresh-receipt.json).
+
+## 14. Discover existing feature reviews without changing their status
+
+Existing Soul Storm and Discharge Shotgun review files were present but not linked from the coverage index. The discovery pass now resolves actual per-weapon manifests by registry ID and target, preserves every review state and rejects conflicting or duplicate records. Sabbath’s new concept/effects record is also linked; implementation and native QA remain open.
+
+[Discovery tool and seven preservation tests](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/weapon-manifest-discovery-tools.zip) · [Exact pointer changes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-manifest-discovery-receipt.json). Run this after regenerating coverage, alongside the profile-link refresh. A visible record is not a completed weapon.
