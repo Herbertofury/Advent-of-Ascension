@@ -1,0 +1,89 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "ammo": "aoa3:metal_slug",
+  "firing_sound": "ITEM_GUN_RIFLE_MEDIUM_FIRE_LONG",
+  "baseline": {
+    "id": "aoa3:ka_500",
+    "name": "KA-500",
+    "family": "sniper",
+    "stored_base_damage": 30.0,
+    "durability": 360,
+    "stored_delay_ticks": 70,
+    "stored_recoil_modifier": 0.05999999865889549,
+    "class_sha256": "9f52c9b9549c8d7496cea065fe81a30041f7cd42b3811592881bec04cc527f7a",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/Ka500",
+    "flags": []
+  },
+  "scope": "SCOPE_4",
+  "declared_methods": [
+    "constructor",
+    "getFiringSound",
+    "getScopeTexture"
+  ],
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/infusion_ka_500.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:small_orange_petal"
+          },
+          {
+            "tag": "forge:gems/quartz"
+          },
+          {
+            "tag": "forge:ingots/skeletal"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:gunpowder"
+          }
+        ],
+        "input": {
+          "item": "aoa3:sniper_frame"
+        },
+        "result": {
+          "item": "aoa3:ka_500"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_floro500.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:ka_500"
+        },
+        "result": {
+          "item": "aoa3:floro500"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:floro_upgrade_kit"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_mark_maker.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:ka_500"
+        },
+        "result": {
+          "item": "aoa3:mark_maker"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:weapon_parts"
+        }
+      }
+    }
+  ],
+  "native_tested": false
+}

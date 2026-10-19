@@ -154,3 +154,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ## Floro500: magenta-green botanical sniper
 
 [Floro500 weapon profile](Floro500-Weapon-Profile) documents the KA-500 + Floro kit upgrade, original Metal Slug behavior, source-color identity and proposed finish/inspection art. Historical kit-drop associations remain version-scoped.
+
+
+### KA-500: cyan-orange sniper and two upgrade routes
+
+[Source profile, pictured infusion and concept](KA-500-Weapon-Profile) covers the Metal Slug baseline, SCOPE_4, Floro500 and Mark Maker recipes, and a compact cosmetic direction. Native gameplay and full-feature acceptance remain open.
