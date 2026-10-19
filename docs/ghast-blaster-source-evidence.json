@@ -1,0 +1,67 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 20,
+    "durability": 600,
+    "delay_ticks": 28,
+    "constructor_recoil": 0.2,
+    "base_ammo": "aoa3:cannonball",
+    "projectile": "HeavyShadowballEntity",
+    "age_parameter": 120,
+    "piercing_parameter": 0,
+    "gravity_return": 0.1,
+    "effect_duration_input": 100,
+    "effect_builder_level_argument": 2
+  },
+  "effect_boundary": "Withers-targets tooltip; raw EffectBuilder level argument recorded without assuming amplifier semantics",
+  "impact_boundary": "BaseCannon calls impact effect after accepted heavy hit; living target restriction in GhastBlaster",
+  "recipes": {
+    "data/aoa3/recipes/infusion_ghast_blaster.json": {
+      "type": "aoa3:infusion",
+      "ingredients": [
+        {
+          "item": "aoa3:ghoulasm"
+        },
+        {
+          "item": "aoa3:wither_rune"
+        },
+        {
+          "item": "aoa3:unstable_gunpowder"
+        },
+        {
+          "tag": "forge:ingots/ghastly"
+        },
+        {
+          "tag": "forge:ingots/ghastly"
+        },
+        {
+          "tag": "forge:ingots/iron"
+        }
+      ],
+      "input": {
+        "item": "aoa3:cannon_frame"
+      },
+      "result": {
+        "item": "aoa3:ghast_blaster"
+      }
+    },
+    "data/aoa3/recipes/upgrade_kit_predatorian_blaster.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:ghast_blaster"
+      },
+      "result": {
+        "item": "aoa3:predatorian_blaster"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:predator_upgrade_kit"
+      }
+    }
+  },
+  "native_accepted": false,
+  "javap_evidence_sha256": {
+    "GhastBlaster.javap.txt": "b3efaa04520ab4e743ef6c96f00624983cd2bc351a932e53c6c12a48b62f960a",
+    "HeavyShadowballEntity.javap.txt": "84b8091cf8812466d9f1d8b132dedd0ac00b9bc5edc055ae5a2d64d76b377ec1"
+  }
+}
