@@ -91,3 +91,7 @@ Latest scoped server continuation: [five whole native temples and complete guard
 ## Complete shared projectile saves
 
 [237 native guns/blasters and 270 projectile save round trips](PROJECTILE-SAVE-FAMILY-2026-10-18.md), with retained failures and eleven generated rejection controls. Current-cohort client/Hari, natural progression and the full union remain open.
+
+## Exact cage art and complete canonical portal cohort
+
+[Whole native server/client, six original cage textures and all 22 canonical portals](CAGE-ART-CANONICAL-PORTALS-2026-10-18.md). Natural acquisition and current Hari remain separate; current playable is unchanged.
