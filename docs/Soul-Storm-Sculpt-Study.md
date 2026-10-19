@@ -267,3 +267,29 @@ The exported GLB was actually imported back into Blender. Its world-space triang
 ## Authored shading through the mesh loader
 
 [Mesh normal fidelity and optional source candidate](Mesh-Normal-Fidelity-and-Opt-In) documents a released-loader flat-shading limitation, measured authored-normal differences and a default-preserving opt-in patch tested offline. This does not approve the texture bake or establish native rendering compatibility.
+
+## v33: reproducible 2K metal texture transfer
+
+This checkpoint bakes the three metal materials into shared base-color and roughness maps while retaining the v31 geometry and moving-part ownership. It is an editable authoring study, not a complete gunpack or final artistic/native acceptance.
+
+![Soul Storm 2K metal authoring review, not an in-game capture](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-metal-study-v33-hero.png)
+
+### QA that changed the result
+
+The initial UV projection had sampled self-overlap. Repairing exact evaluated triangles removed the overlap without moving vertices; the corner-normal change stayed below 0.039 degrees. Direct 2K bakes still broke narrow bright borders. Extra padding alone did not solve that, so a 4K authoring master was tested and then scaled to 2K in Blender.
+
+The final 2K derivative keeps the largest connected >32-RGB comparison region at six pixels, compared with 64 for the rejected padded direct-2K bake. Its foreground mean absolute RGB8 error is 1.265968 and p95 is 6 in matched 40-sample authoring renders. Small sampling/specular differences remain. This is bounded texture-transfer evidence, not a claim of perfect native appearance.
+
+Ten sampled animation times cover 140,600 evaluated metal vertices with zero measured position error; parent ownership is retained. The two matched comparison images can be regenerated from the packed scene and its retained procedural nodes, and reproduced pixel-for-pixel. The 4K masters and previous authoring sources remain intact.
+
+![Full side-view authoring review](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-metal-study-v33-side.png)
+
+![Front-view authoring review with four visual emitter channels](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-metal-study-v33-front.png)
+
+### Budget and remaining gates
+
+The delivered maps are 2048×2048. Assuming two separate RGBA8 textures, that is 32 MiB at base level, approximately 42.7 MiB with full mip chains; the same 4K assumption is four times larger. Actual native formats, compression and residency are unmeasured. Do not treat this estimate as an FPS benchmark or native texture budget approval.
+
+The metal-only export is byte-identical to the geometry fixture in the [normal-fidelity study](Mesh-Normal-Fidelity-and-Opt-In). Native smooth normals, roughness/PBR binding, flame/effect materials, distant mips, hands, gameplay and equivalent-work performance remain open. Broad proportions, surface storytelling and final artistic polish still need improvement.
+
+[Editable packed Blender scene, maps and reproduction scripts](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-metal-texture-study-v33.zip) · [Detailed texture-transfer evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-metal-texture-study-v33-evidence.json)

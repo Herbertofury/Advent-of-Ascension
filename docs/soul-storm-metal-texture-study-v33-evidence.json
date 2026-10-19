@@ -1,0 +1,106 @@
+{
+  "scope": "Bounded 2K authoring texture transfer; not final art/native acceptance",
+  "review": {
+    "status": "accepted for bounded texture-transfer review only",
+    "overall_art_accepted": false,
+    "native_accepted": false,
+    "source_4k_master_unchanged": true,
+    "source_geometry": "v31 retained",
+    "maps": [
+      2048,
+      2048
+    ],
+    "parts": 136,
+    "sampled_vertex_error": 0,
+    "largest_connected_rgb_outlier_region": 6,
+    "comparison_scope": "40-sample authoring renders; no final artistic or native shader acceptance",
+    "estimated_two_rgba8_base_level_mib": 32,
+    "estimated_two_rgba8_full_mip_chain_mib": 42.6666666667,
+    "memory_estimate_scope": "Assumes two separate RGBA8 GPU textures; actual native format/compression/residency unmeasured",
+    "remaining": [
+      "Full visual redesign/texture polish",
+      "Native PBR and effect bindings",
+      "Mipmap and distant-view tests",
+      "Real hand rigs and gameplay",
+      "Performance/compatibility qualification"
+    ]
+  },
+  "ownership": {
+    "status": "PASS",
+    "frames": [
+      0,
+      0.5,
+      2.5,
+      5,
+      7.5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "parts": 136,
+    "vertex_samples": 140600,
+    "maximum_coordinate_error": 0.0,
+    "parent_ownership_preserved": true,
+    "file_images": [
+      {
+        "image": "grip-basecolor.png",
+        "packed": true
+      },
+      {
+        "image": "grip-normal.png",
+        "packed": true
+      },
+      {
+        "image": "Soul Storm v33 metal basecolor",
+        "packed": true
+      },
+      {
+        "image": "Soul Storm v33 metal roughness",
+        "packed": true
+      },
+      {
+        "image": "soul-flame-atlas-candidate-v3.png",
+        "packed": true
+      },
+      {
+        "image": "soul-flame-atlas-v4-padded.png",
+        "packed": true
+      },
+      {
+        "image": "soul-storm-core-vfx-texture-v1.png",
+        "packed": true
+      }
+    ],
+    "native_accepted": false,
+    "limits": [
+      "Sampled evaluated vertex/parent equivalence only",
+      "No collision, native shader, arm-fit or gameplay proof"
+    ]
+  },
+  "roundtrip": {
+    "scope": "Matched 40-sample authoring renders; RGB diagnostics, not native/perceptual acceptance",
+    "foreground_pixels": 207303,
+    "foreground_mean_absolute_rgb8": 1.2659681721923948,
+    "foreground_p95_absolute_rgb8": 6.0,
+    "max_rgb8": 187.0,
+    "pixels_over_32": 839,
+    "largest_connected_outlier_region": 6,
+    "native_accepted": false
+  },
+  "scene_sha256": "cd578269eecf4d8e760cde3cdca55c9ee0f2e1f74f700745a381c01acf09ba14",
+  "archive_sha256": "b157a348b9a9b47d74d4c33b40500d5024f47b9c7c203cbdf2499747edcdb567",
+  "archive_bytes": 14929915,
+  "native_accepted": false,
+  "matched_render_reproduction": {
+    "procedural": {
+      "same_pixels": true,
+      "max_difference": 0
+    },
+    "baked": {
+      "same_pixels": true,
+      "max_difference": 0
+    }
+  }
+}
