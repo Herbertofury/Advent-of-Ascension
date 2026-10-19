@@ -110,3 +110,15 @@ The two added closed solids have 348 evaluated triangles each. The inherited rec
 ## V36: grip follow-through
 
 [The current grip and surface study](Discharge-Grip-and-Surface-Study) places the finger contours below the retained guard return, adds finer patterned inlays and includes a reproducible source archive. Its static seating and preservation checks are separate from the v35 texture/export evidence. Native hand fit, swept clearances and full concept fidelity remain open.
+
+## V38: layered chamber collars
+
+![Layered chamber collar authoring close-up](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-chamber-closeup-v38.png)
+
+Four small layered cosmetic shells replace the visible simple dark collars around the two side chambers. The prior objects are retained hidden. Radial smoothing with sharp profile transitions corrects the first pass’s faceted ring shading. This adds local material/shape definition; it does not make the full model match the selected concept yet.
+
+[Whole-weapon render](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-hero-v38.png) · [Small reproducible patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-chamber-v38-patch.zip) · [Scoped static QA](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-chamber-v38-qa.json).
+
+Apply the patch to the exact generated scene in the [v36 grip package](Discharge-Grip-and-Surface-Study). The source hash is checked before applying it; the archive avoids another full source-scene copy. A clean rebuild reproduced the static results: 313 earlier geometry objects retain their geometry/transforms; each of the four new 1,344-triangle shells is closed, positive-volume and free of degenerate triangles.
+
+These checks do not prove full collision, swept animation, hand fit, native rendering or performance. V38 is a separate procedural source study; the v37 texture bake targets the earlier v36 geometry, so its atlas/exports do not automatically cover these new collars.
