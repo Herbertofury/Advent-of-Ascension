@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "id": "aoa3:blue_barrel",
+    "name": "Blue Barrel",
+    "family": "shotgun",
+    "stored_base_damage": 14.5,
+    "durability": 1120,
+    "stored_delay_ticks": 54,
+    "stored_recoil_modifier": 0.4000000059604645,
+    "class_sha256": "5d2d3ed79056b8e42b2a6ff13fd2c7e60261d14453bf26d713dee9d857a2832c",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+    "flags": [],
+    "stored_pellets": 3,
+    "stored_knockback_factor": 0.4000000059604645
+  },
+  "registered_class": "BaseShotgun, not a unique BlueBarrel subclass",
+  "recipe": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_blue_barrel.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:brown_blaster"
+        },
+        "result": {
+          "item": "aoa3:blue_barrel"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:seaside_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "canonical_association": "Seaside Upgrade Kit transforms Brown Blaster into Blue Barrel; aquatic magical effects are not established by this recipe",
+  "native_tested": false
+}
