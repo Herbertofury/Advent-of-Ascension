@@ -1,0 +1,42 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "inputs": {
+    "registered_damage": 21,
+    "durability": 855,
+    "delay_ticks": 25,
+    "constructor_recoil_input": 0.18,
+    "projectile_age_parameter": 120,
+    "piercing_parameter": 0,
+    "base_ammo": "aoa3:cannonball",
+    "full_automatic": false,
+    "heavy_damage_factor": 0.75,
+    "energy_damage_factor": 0.25
+  },
+  "recipe": {
+    "type": "aoa3:upgrade_kit",
+    "input": {
+      "item": "aoa3:energy_cannon"
+    },
+    "result": {
+      "item": "aoa3:moon_cannon"
+    },
+    "upgrade_kit": {
+      "item": "aoa3:lunar_upgrade_kit"
+    }
+  },
+  "evidence_sha256": {
+    "MoonCannon.javap.txt": "6f5e303a60c28aa28b551370bb9472398ce3fdb7e6aa11369ae552c57e1c40a9",
+    "MoonShotEntity.javap.txt": "d9a5511ca8ea89fc63a5da3fd87b4b88876f76e0801f2422e7d6f5f18602d8da",
+    "BaseCannon.javap.txt": "f38f23a897473172b9dc724ebc613152cb8c9d95b9fa9049c0fca32fc8d0b8f7",
+    "AoAWeapons.javap.txt": "0a05974b9be21dd349e1cca961d8e725b83be44cfed83d9e2208cf14476196d8"
+  },
+  "boundaries": [
+    "Damage factors are source inputs, not guaranteed final health loss",
+    "Living target attribute scaling and damage helpers alter outcome",
+    "Energy branch is attempted even when heavy branch fails",
+    "No asserted maker or biome lore",
+    "Concept impact is proposed cosmetic, not proof of original explosion"
+  ],
+  "native_accepted": false
+}
