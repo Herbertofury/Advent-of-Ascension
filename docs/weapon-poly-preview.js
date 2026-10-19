@@ -194,8 +194,8 @@ if(typeof document!=='undefined') (async function boot() {
   new ResizeObserver(requestDraw).observe(canvas);
   try {
     gl=canvas.getContext('webgl',{alpha:false,antialias:true});software=!gl;
-    const responses=await Promise.all([software?'carrot-cannon-study.software.geo.json':'carrot-cannon-study.geo.json','carrot-cannon-study.animation.json'].map(async url=>{const r=await fetch(url);if(!r.ok)throw Error('Model resource unavailable');return r.json();}));
-    model=ArmoryPreview.compile(...responses);if(model.triangles!==(software?6111:49616)||model.meshes.length!==3)throw Error('Unexpected study revision');
+    const responses=await Promise.all([software?'carrot-cannon-study.software-v2.geo.json':'carrot-cannon-study.geo.json','carrot-cannon-study.animation.json'].map(async url=>{const r=await fetch(url);if(!r.ok)throw Error('Model resource unavailable');return r.json();}));
+    model=ArmoryPreview.compile(...responses);if(model.triangles!==(software?15443:49616)||model.meshes.length!==3)throw Error('Unexpected study revision');
     image=await new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>reject(Error('Texture unavailable'));img.src='carrot-cannon-study-basecolor.png';});if(software)setupSoftware();else setupGpu();
   } catch(error){fallback.hidden=false;canvas.hidden=true;setStatus(error.message+'. Static authoring image shown; 3D controls unavailable.');}
 })();

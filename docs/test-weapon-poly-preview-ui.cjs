@@ -11,8 +11,8 @@ const emit=(name,type,event={})=>element(name).events[type](event);
 function frame(t){clock=t;const entry=queue.entries().next().value;if(entry){queue.delete(entry[0]);entry[1](t);}}
 (async()=>{
  await new Promise(resolve=>setImmediate(resolve));
- assert.match(element('status').textContent,/6,111 triangles.*software/);assert.equal(element('viewer').hidden,false);assert.equal(element('fallback').hidden,true);assert.ok(drawn>0);assert.equal(queue.size,0);assert.ok(ready.every(x=>!x.disabled));
- assert.deepEqual(fetches,['carrot-cannon-study.software.geo.json','carrot-cannon-study.animation.json','carrot-cannon-study-basecolor.png']);
+ assert.match(element('status').textContent,/15,443 triangles.*software/);assert.equal(element('viewer').hidden,false);assert.equal(element('fallback').hidden,true);assert.ok(drawn>0);assert.equal(queue.size,0);assert.ok(ready.every(x=>!x.disabled));
+ assert.deepEqual(fetches,['carrot-cannon-study.software-v2.geo.json','carrot-cannon-study.animation.json','carrot-cannon-study-basecolor.png']);
  emit('recoil','click');assert.equal(queue.size,1);frame(80);assert.equal(element('clip-time').textContent,'0.080 s');assert.equal(queue.size,1);
  clock=100;emit('recoil','click');emit('recoil','click');assert.equal(queue.size,1);frame(900);assert.equal(element('clip-time').textContent,'0.800 s');assert.equal(queue.size,0);assert.match(element('status').textContent,/ready pose restored/);
  element('timeline').value='.03';emit('timeline','input');frame(1000);assert.equal(element('clip-time').textContent,'0.030 s');
