@@ -42,6 +42,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
 | Predatorian Blaster | [Bone cannon concept, withering source contract and Ghast upgrade lineage](Predatorian-Blaster-Weapon-Profile) |
 | Gimmick | [Ten-pellet scattergun, colorful silhouette and optional inspection](Gimmick-Weapon-Profile) |
+| Purple Punisher | [Haunted upgrade, original two-pellet behavior and inspect concepts](Purple-Punisher-Weapon-Profile) |
 | Red Rocket | [Crimson two-pellet identity, five-slot infusion and Haunted upgrade](Red-Rocket-Weapon-Profile) |
 | Brown Blaster | [Original three-pellet family, infusion and Seaside upgrade comparison](Brown-Blaster-Weapon-Profile) |
 | Blast Barrel | [Three-pellet explosive-hit source and historical Dawnlight Dungeon association](Blast-Barrel-Weapon-Profile) |
