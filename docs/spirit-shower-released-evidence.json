@@ -1,0 +1,55 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "class_sha256": {
+    "net.tslat.aoa3.common.registration.item.AoAWeapons": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703",
+    "net.tslat.aoa3.content.item.weapon.blaster.SpiritShower": "543ce11f4ff09ff2f7e8e0d97d92c6641fc74d95b8be945a7da8c9150cc10a37",
+    "net.tslat.aoa3.content.item.weapon.blaster.ApocoShower": "07da7cb0e1e6a47d6d9c46b9c9d79e6eb72560d180c568ba114bbfdc96598b7d",
+    "net.tslat.aoa3.content.item.weapon.blaster.BaseBlaster": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+    "net.tslat.aoa3.content.entity.projectile.blaster.ShowerShotEntity": "5b056068857d6072eb78c502fe7c7a582b5281cb0841a59b13e648c90cd7df2e",
+    "net.tslat.aoa3.content.entity.projectile.blaster.WeightedShowerShotEntity": "324e03571b769a478fa89e96e7bab50173b8d9949f7f414ed68e43682c694bc0",
+    "net.tslat.aoa3.content.entity.projectile.blaster.HeavyShowerShotEntity": "457197bb9edd23ef0bb764824965bd834a023d99ef7495c2eb430bf244f085da",
+    "net.tslat.aoa3.client.render.entity.projectile.blasters.ShowerShotRenderer": "a8ed652590b09ddab05f4f0dc09d0c9b1ffddbdee1d99e35afd9ba614d933968"
+  },
+  "sprite_sha256": "42461453d17e1cf79585d5d066439ab7ff1b6a43cbd3d4e9e1ef171ec1cf2b78",
+  "inputs": {
+    "base_direct_damage": 0,
+    "durability": 2870,
+    "delay_ticks": 10,
+    "base_spirit_cost": 100,
+    "spawn_attempts": 3,
+    "projectile_age_parameter_each": 60,
+    "gravity_returns": {
+      "ShowerShotEntity": 0.05,
+      "WeightedShowerShotEntity": 0.1,
+      "HeavyShowerShotEntity": 0.2
+    },
+    "explosion_strength_input": 2.5
+  },
+  "upgrade": {
+    "recipe": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:spirit_shower"
+      },
+      "result": {
+        "item": "aoa3:apoco_shower"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:apoco_upgrade_kit"
+      }
+    },
+    "effect": "Apoco Shower retains inspected three-path attack and explosion inputs; registered durability becomes3760 and base Spirit cost80"
+  },
+  "acquisition": {
+    "table": "data/aoa3/loot_tables/entities/jawe.json",
+    "sha256": "6b05685e72931bb9513c844ca0106f1644b6539922c12427dddecbd2717b03cd",
+    "selected_entry_weight": 4,
+    "pool_total_weight": 162,
+    "base_single_roll_fraction": "4/162 = 2/81",
+    "boundary": "Packaged loot-table calculation only. Does not establish active spawning or guaranteed obtainable content in this release."
+  },
+  "entity_impact_boundary": "Explosion effect is conditional on inherited energy attack helper accepting the zero direct-damage attack; requires native tests.",
+  "lore_boundary": "Jawe loot association verified; no asserted maker, dimension, or material lore.",
+  "native_accepted": false
+}
