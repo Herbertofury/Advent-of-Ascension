@@ -1,0 +1,66 @@
+{
+  "scope": "Combined corrected exterior/recoil authoring only",
+  "native_accepted": false,
+  "art_accepted": false,
+  "recoil": {
+    "source_sha256": "1853da8e64efaf34a2f691cc90a6ce0547f80c297c38ee0547b1d97ca1f341e3",
+    "frames_sampled": 340,
+    "part_transform_samples": 6120,
+    "maximum_owner_follow_error": 0,
+    "maximum_inactive_translation": 0,
+    "recoil_x_range": [
+      -0.07500000298023224,
+      0.00800000037997961
+    ],
+    "errors": [],
+    "scope": "Integer-frame authoring transform/glow checks only; not continuous collision, native interpolation or gameplay QA"
+  },
+  "surface_sweep": {
+    "scope": "Quarter-frame triangle surface intersections against other visible scene meshes; excludes same-owner parts. Does not detect complete containment, hands, native interpolation or establish clearance tolerance. Existing baseline intersections tracked separately.",
+    "pair_samples": 119880,
+    "baseline_intersecting_pairs": [],
+    "new_intersections": [],
+    "native_accepted": false
+  },
+  "geometry": {
+    "source_sha256": "1853da8e64efaf34a2f691cc90a6ce0547f80c297c38ee0547b1d97ca1f341e3",
+    "visible_objects": 186,
+    "triangles": 74588,
+    "degenerate_triangles": [],
+    "scope": "Static evaluated world-space triangle area only; no hand or collision or native acceptance",
+    "native_acceptance": false
+  },
+  "export": {
+    "source_sha256": "1853da8e64efaf34a2f691cc90a6ce0547f80c297c38ee0547b1d97ca1f341e3",
+    "clips": 3,
+    "keys_per_clip": 37,
+    "sampled_points_per_clip": 361,
+    "maximum_linear_sample_error_model_units": 0.003076225519180298,
+    "axis_mapping": "Blender -X becomes model +Z at 4 model units per Blender unit",
+    "native_parser_tested": false,
+    "native_game_tested": false,
+    "limits": [
+      "Geometry must export matching bone names and coordinate frame",
+      "Material/glow keyframes are not carried in these position-only clips",
+      "These are presentation clips, not a firing scheduler or gameplay behavior"
+    ]
+  },
+  "parser": {
+    "release": "TaCZ 1.1.8-hotfix2 / Forge1.20.1",
+    "verified_released_class_count": 18,
+    "animation_sha256": "ec6da7a176388f7080e5669351a13ac2fd7127c8f83d92a4d91f2bf61b139dfb",
+    "runs": [
+      {
+        "runtime_version": "openjdk version \"17.0.20.1\" 2026-08-18 LTS",
+        "stdout": "PARSED discharge_recoil.animation.json clips=3\nPASS isolated released TaCZ animation bytecode: 1 files, 3 clips, 111 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n",
+        "stderr": ""
+      },
+      {
+        "runtime_version": "openjdk version \"21.0.12.1\" 2026-08-18",
+        "stdout": "PARSED discharge_recoil.animation.json clips=3\nPASS isolated released TaCZ animation bytecode: 1 files, 3 clips, 111 keyframes. Explicit helpers are stand-ins; no native interpolation/sound/game acceptance.\n",
+        "stderr": ""
+      }
+    ],
+    "scope": "Actual released animation parser classes with documented narrow helper stand-ins. No native interpolation, bone binding, hands, sound, gameplay or performance acceptance."
+  }
+}

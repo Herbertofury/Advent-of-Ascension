@@ -92,3 +92,7 @@ Same-owner part pairs are excluded from the surface sweep. The checks deliberate
 ### R3 visual regression correction
 
 A later rendered combined scene exposed oversized cosmetic fasteners in r2. Parenting had captured a stale world matrix immediately after scale assignment. R3 updates the dependency graph first and adds six explicit dimension checks. All 512 added vertices match the pre-parenting v1 positions with zero observed drift, and the corrected side scene was rendered again. Use the r3 patch above; r2 is superseded. This is why positive-volume and transform-following tests alone do not constitute visual QA.
+
+## Combined motion review
+
+[The v33 combined exterior/recoil study](Discharge-Material-and-Recoil-Study) uses the corrected root-owned rear parts with the three-channel cosmetic animation, clean rebuild checks and sampled moving-surface comparisons. It remains below native and final-art acceptance.

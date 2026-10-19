@@ -3,6 +3,29 @@
 **Unaccepted export/animation studies. No playable gunpack or native performance claim.**
 
 
+## V33: corrected exterior and recoil together
+
+![Combined exterior at the top-channel recoil sample](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-combined-v33-003.png)
+
+This combines the corrected v32-r3 rear contours with the existing three-channel recoil fixture. The decorative parts follow the weapon root, their intended scale is retained, and the original four-projectile gameplay burst remains a separate contract.
+
+<details><summary>Middle and lower channel samples</summary>
+
+![Middle-channel sample](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-combined-v33-168.png)
+
+![Lower-channel sample](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-combined-v33-333.png)
+
+</details>
+
+- 340 integer-frame checks cover 6,120 owned-part transforms, with zero observed owner-follow or inactive-motion error.
+- 119,880 quarter-frame moving-versus-other triangle-surface comparisons report no baseline or new intersections in this scene. Same-owner pieces, containment, actual hands, attachments and continuous/native interpolation remain outside this result.
+- Three position clips contain 111 keys total; exported JSON is byte-identical to the data accepted by the isolated released TaCZ parser on Java 17/21. Bone binding, material glow, gameplay and actual playback remain untested.
+- A clean extraction rebuilt the combined scene, reproduced all four scoped check reports apart from scene-file hashes, and produced byte-identical animation JSON.
+
+[Small v33 build/check patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-combined-authoring-v33-patch.zip) · [Detailed evidence and limits](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-combined-v33-evidence.json). Build from the exact v31 input archive listed in the patch README. The patch includes the corrected root-ownership stage, avoiding another full-scene backup.
+
+**Still unaccepted:** final concept fidelity, exportable textures, player hands, full animation/effect set, native TaCZ/TML binding, multiplayer, optional integrations and measured performance. These authoring checks do not close those gates.
+
 # Discharge v15 material export study
 
 This export is tied to the published v15 source, not the later receiver study. It is unaccepted for native use.
