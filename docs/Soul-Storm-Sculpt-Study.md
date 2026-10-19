@@ -47,11 +47,16 @@ Four position-only recoil clips now have synchronized solid and illuminated trac
 
 The released TaCZ 1.1.8-hotfix2 animation parser accepted all **four clips / eight tracks / 328 keys** on Java 17 and 21 with documented helper stand-ins. Sampled linear approximation error stayed below 0.005 model units. Eight contract tests check malformed or inconsistent track data.
 
-An original Lua presentation adapter reuses **four tracks**, keeps state per instance, ignores duplicate/out-of-order confirmed-event sequences, and attempts cleanup of all tracks even when one stop fails. Its 10,000-event mock-context fixture passed 20,024 assertions with one initial track allocation. Invalid or duplicate native track IDs are rejected during initialization. There is no per-frame polling callback. This is a bounded-allocation design check, **not a Minecraft FPS result**.
+The **R3 presenter consumes the existing [confirmed-shot core](Confirmed-Shot-Presentation)** instead of maintaining a second lane counter. A regression check caught the earlier R1/R2 defect: ordinals 1 and 5 should both select the top emitter, but counting arrivals selected the second lane. Those earlier adapters are superseded and retained only as history.
 
-The adapter does not consume ammunition, spawn projectiles or schedule gameplay. The actual confirmed-shot callback bridge, native bone binding, arms, effects, interruption and multiplayer remain open. Clip timing must not silently replace the source weapon’s fire interval.
+The original Lua presenter reuses four tracks and has no per-frame polling callback. Its 10,000-presentation mock-context fixture passes 20,029 assertions. Invalid or duplicate native track IDs are rejected; cleanup attempts all tracks and can retry only failed stops. These are bounded-state design checks, **not a Minecraft FPS result**.
 
-[Original adapter, clips and scoped tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31-r2.zip) · [Machine-readable evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-v31-r2-evidence.json)
+The unchanged Java core and the Lua presenter now run together in an isolated bridge fixture: 29 assertions on Java17 and Java21 cover ordinal gaps, duplicate/stale events, wrong weapon/session, rejected attempts and unsupported variants. The core retains replay/configuration authority; Lua consumes only its resolved zero-based emitter index. Five/six-emitter configurations need matching native assets and presenter support, with safe fallback meanwhile.
+
+The presenter does not consume ammo, spawn projectiles or schedule gameplay. Prediction reconciliation, actual native event/bone binding, arms, materials and multiplayer remain open. The existing recoil packet lacks sufficient identity fields to be treated as a complete shot event; see the source findings in the linked core page.
+
+[Current R3 presenter, clips and tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31-r3.zip) · [R3 evidence and regression](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-v31-r3-evidence.json)
+
 
 <details>
 <summary>Earlier authoring studies and preserved evidence (through v25)</summary>

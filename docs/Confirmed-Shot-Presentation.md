@@ -36,3 +36,18 @@ The same Java 17-targeted class files ran successfully under Java 17 and Java 21
 A development test caught that blindly rebinding a stale snapshot could replay old effects. Binding now preserves its high-water mark and rejects old/mismatched configurations; those cases are regression tests.
 
 Run run_checks.py with --jdk17 pointing to a JDK 17 directory and --java21 to the second Java executable. No Minecraft classes are mocked or invoked: these are tests of the original presentation-state code only. Native animations, sound, particles, prediction and gameplay are untested.
+
+
+## Released AoA event-source audit
+
+In the inspected AoA3.7.1 gun use-tick path, successful virtual `fireGun` return handling precedes the server-player recoil call. But `GunRecoilPacket` serializes **only a recoil float and firing-time integer**. It contains no weapon-instance identity, hand, configuration revision or shot ordinal. The inspected path sends it to the firing player, and its client handler calls `ClientOperations.addRecoil`.
+
+Do not identify a weapon by recoil amplitude or by whichever item is held when that packet arrives. Rapid swaps, offhand use and observer rendering make that unsafe. A genuinely authoritative identity-bearing native event remains required, without replacing the original firing/resource path. Third-person tracking and responsive prediction need explicit integration tests.
+
+[Released-class evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/native-shot-event-evidence.json)
+
+## Consume this core rather than duplicating its counter
+
+The [Soul Storm R3 presenter](Soul-Storm-Sculpt-Study#v31-recoil-transport-bounded-tracks-and-matched-glow-ownership) takes this core's resolved `emitterIndex`. Its earlier local arrival counter was rejected after an ordinal-gap test. The existing core passed its unchanged 80,031-assertion suite on Java17/21, and the combined Java-to-Lua mock-context bridge passes 29 assertions on each runtime. This remains isolated logic evidence, not a native packet or renderer test.
+
+[Existing original core source](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/confirmed-shot-presentation-source.zip) · [R3 combined source/tests](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-recoil-transport-v31-r3.zip)

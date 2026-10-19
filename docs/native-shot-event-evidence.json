@@ -1,0 +1,17 @@
+{
+  "release": "AoA3.7.1 / Minecraft1.20.1",
+  "class_hashes": {
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net/tslat/aoa3/common/packet/packets/GunRecoilPacket.class": "8b8874198d74ca04e164ce2e2e3fdfbcb299add4993da984c3f75f19bbd2f58f"
+  },
+  "findings": [
+    "Shared BaseGun use-tick method calls virtual fireGun and only enters success handling when it returns true",
+    "Successful server-player path invokes doRecoil after damage/stat/cooldown handling",
+    "GunRecoilPacket serializes only recoilAmount float and firingTime int",
+    "Packet has no weapon-instance ID, hand, configuration revision or shot ordinal",
+    "The inspected doRecoil path sends to the firing player, not an identified observer/tracking broadcast",
+    "The client packet handler calls ClientOperations.addRecoil; treating this as a complete animation identity event is unsafe after swaps/offhand changes"
+  ],
+  "proposal": "Preserve existing server firing and resource semantics. Bind the existing ConfirmedShotPresentation core to a genuinely authoritative identity-bearing event; do not reconstruct identity from recoil amplitude or the currently held item. Prediction and observer routing remain separate native work.",
+  "native_tested": false
+}
