@@ -1,0 +1,159 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:bolt_rifle",
+    "field": "BOLT_RIFLE",
+    "family": "sniper",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/sniper/BoltRifle"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$111",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "9a4e0c6dd802526e18ae5d3418391554d4591827901ce974f16d2930ebb12c72",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              6,
+              38
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 30.0
+          },
+          {
+            "offset": 7,
+            "opcode": 16,
+            "constant": 100
+          },
+          {
+            "offset": 9,
+            "opcode": 16,
+            "constant": 100
+          },
+          {
+            "offset": 11,
+            "opcode": 19,
+            "constant": 0.05999999865889549
+          },
+          {
+            "offset": 14,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/sniper/BoltRifle",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 17,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/sniper/BoltRifle.class",
+        "sha256": "dc534f96832ccb14312299f788e292148bc673509ea009731a5a3be14fe9726a",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "befcaa8b99642cac1a739b879bbea02437f17ba28d665fed49f83478f718d18e"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 30.0,
+    "durability": 100,
+    "delay_ticks": 100,
+    "recoil": 0.05999999865889549
+  },
+  "scope": "SCOPE_1 inherited",
+  "ammo": "aoa3:metal_slug",
+  "sound": "ITEM_GUN_SNIPER_METALLIC_FIRE_LONG",
+  "custom_impact_override": false,
+  "recipe": {
+    "type": "aoa3:infusion",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "tag": "forge:gems/diamond"
+      },
+      {
+        "tag": "forge:gunpowder"
+      },
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "tag": "minecraft:planks"
+      }
+    ],
+    "input": {
+      "item": "aoa3:sniper_frame"
+    },
+    "result": {
+      "item": "aoa3:bolt_rifle"
+    }
+  },
+  "planks_tag_example": "aoa3:baobab_planks",
+  "planks_tag": {
+    "values": [
+      "aoa3:achony_planks",
+      "aoa3:baobab_planks",
+      "aoa3:bloodwood_planks",
+      "aoa3:churry_planks",
+      "aoa3:creep_planks",
+      "aoa3:dawnwood_planks",
+      "aoa3:hauntedwood_planks",
+      "aoa3:irowood_planks",
+      "aoa3:lucalus_planks",
+      "aoa3:lunide_planks",
+      "aoa3:runic_planks",
+      "aoa3:shadow_planks",
+      "aoa3:shyre_planks",
+      "aoa3:stranglewood_planks",
+      "aoa3:toxicwood_planks"
+    ]
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BoltRifle.class",
+      "sha256": "dc534f96832ccb14312299f788e292148bc673509ea009731a5a3be14fe9726a"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/BoltRifle.java",
+  "source_sha256": "76373856c7918ef89b5d5c448fe76456d35ae1cbde9d053848ac8e62c893f01a",
+  "native_tested": false,
+  "final_art_accepted": false
+}

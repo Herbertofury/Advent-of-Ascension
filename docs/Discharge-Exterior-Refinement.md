@@ -106,3 +106,7 @@ Two small curved armor sheets replace the visible thin cross-ribs, giving the pa
 The two added closed solids have 348 evaluated triangles each. The inherited recoil sweep reports 119,880 moving-versus-other surface comparisons without baseline/new intersections in this scene. Those checks do not establish hands, containment, continuous collision or native rendering.
 
 [Reproducible v34 canopy patch](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-capacitor-canopy-v34-patch.zip) · [Scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-capacitor-canopy-v34-evidence.json). Apply to the generated v33 scene with its manifest. Native and final-art acceptance remain open.
+
+## V36: grip follow-through
+
+[The current grip and surface study](Discharge-Grip-and-Surface-Study) places the finger contours below the retained guard return, adds finer patterned inlays and includes a reproducible source archive. Its static seating and preservation checks are separate from the v35 texture/export evidence. Native hand fit, swept clearances and full concept fidelity remain open.
