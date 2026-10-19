@@ -159,3 +159,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### KA-500: cyan-orange sniper and two upgrade routes
 
 [Source profile, pictured infusion and concept](KA-500-Weapon-Profile) covers the Metal Slug baseline, SCOPE_4, Floro500 and Mark Maker recipes, and a compact cosmetic direction. Native gameplay and full-feature acceptance remain open.
+
+
+### Mark Maker: crimson upgrade lineage
+
+[Source profile, concept and illustrated recipes](Mark-Maker-Weapon-Profile) follows KA-500 → Mark Maker → Moon Maker. The crimson cosmetic impact is a proposal; no enemy-marking or explosion behavior is inferred from the name. Native acceptance remains open.

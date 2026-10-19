@@ -1,0 +1,107 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "registry_sha256": "743ec7aca0e80d4362201b47c693fca0ddf986a426803e763e2d97d1a30c4703",
+  "baseline": {
+    "id": "aoa3:mark_maker",
+    "stored_base_damage": 36.5,
+    "durability": 530,
+    "stored_delay_ticks": 70,
+    "stored_recoil_modifier": 0.05000000074505806,
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/sniper/MarkMaker",
+    "class_sha256": "c23eba55d8180ef9529da25b020089bc8bfef51e83f1305ec9300308ab531400"
+  },
+  "factory": {
+    "name": "lambda$static$126",
+    "descriptor": "()Lnet/minecraft/world/item/Item;",
+    "code_sha256": "7d995e23e1c2ac7e58f2be3249b17f0cdbf4bfda0c6a9125c3fd68e410c95ec8",
+    "instructions": [
+      {
+        "offset": 0,
+        "opcode": 187,
+        "operands": [
+          5,
+          227
+        ]
+      },
+      {
+        "offset": 3,
+        "opcode": 89
+      },
+      {
+        "offset": 4,
+        "opcode": 19,
+        "constant": 36.5
+      },
+      {
+        "offset": 7,
+        "opcode": 17,
+        "constant": 530
+      },
+      {
+        "offset": 10,
+        "opcode": 16,
+        "constant": 70
+      },
+      {
+        "offset": 12,
+        "opcode": 19,
+        "constant": 0.05000000074505806
+      },
+      {
+        "offset": 15,
+        "opcode": 183,
+        "member": [
+          "net/tslat/aoa3/content/item/weapon/sniper/MarkMaker",
+          "<init>",
+          "(FIIF)V"
+        ]
+      },
+      {
+        "offset": 18,
+        "opcode": 176
+      }
+    ]
+  },
+  "ammo": "aoa3:metal_slug",
+  "scope": "SCOPE_4",
+  "firing_sound": "ITEM_GUN_RIFLE_MEDIUM_FIRE_LONG",
+  "declared_methods": [
+    "constructor",
+    "getFiringSound",
+    "getScopeTexture"
+  ],
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_mark_maker.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:ka_500"
+        },
+        "result": {
+          "item": "aoa3:mark_maker"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:weapon_parts"
+        }
+      }
+    },
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_moon_maker.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:mark_maker"
+        },
+        "result": {
+          "item": "aoa3:moon_maker"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:lunar_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "native_tested": false
+}
