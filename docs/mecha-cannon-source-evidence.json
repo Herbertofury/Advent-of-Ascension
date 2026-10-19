@@ -1,0 +1,154 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:mecha_cannon",
+    "name": "Mecha Cannon",
+    "family": "cannon",
+    "stored_base_damage": 26.5,
+    "durability": 525,
+    "stored_delay_ticks": 42,
+    "stored_recoil_modifier": 0.15000000596046448,
+    "class_sha256": "40a2ef7a5db350a0f4a02cc86dc58b01b45f07ffb9162271532ce0d814628f00",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/cannon/MechaCannon",
+    "flags": []
+  },
+  "ammo": "aoa3:cannonball",
+  "full_automatic": false,
+  "projectile": {
+    "class": "OrangeCannonballEntity",
+    "age_input": 120,
+    "piercing_input": 0,
+    "constructor_damage_multiplier": 1,
+    "gravity_method_return": 0.1,
+    "native_trajectory_measured": false
+  },
+  "firing_sound": "ITEM_MECHA_CANNON_FIRE",
+  "impact": "Inherited BaseCannon heavy-attack path; no unique explosion method in inspected MechaCannon/OrangeCannonball classes",
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/shapeless_craft_mecha_cannon.json",
+      "data": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "equipment",
+        "ingredients": [
+          {
+            "item": "aoa3:incomplete_mecha_cannon"
+          },
+          {
+            "item": "aoa3:power_core"
+          },
+          {
+            "item": "aoa3:mecha_gear"
+          }
+        ],
+        "result": {
+          "item": "aoa3:mecha_cannon"
+        }
+      }
+    }
+  ],
+  "disassembly_sha256": {
+    "MechaCannon.javap.txt": "93d2dc6fded1f2a30b50f11907d4fc1802c0fff074ddddf47dda4e7a9c3fee1d",
+    "OrangeCannonballEntity.javap.txt": "a6a871e227fa8b8f0122bfc83f8f7dccde1eaec9f2cff08fdc7df2f01a0bee88",
+    "BaseCannon.javap.txt": "f38f23a897473172b9dc724ebc613152cb8c9d95b9fa9049c0fca32fc8d0b8f7"
+  },
+  "art_accepted": false,
+  "native_accepted": false,
+  "concept_review": [
+    "v1 missing clear trigger guard and wall excavation rejected",
+    "v2 separates flight/impact and restores intact wall and open trigger guard",
+    "True hand fit, support hand, animations and source-fidelity review pending"
+  ],
+  "recipe_sprite": {
+    "source": "assets/aoa3/textures/item/incomplete_mecha_cannon.png",
+    "sha256": "80bf4a484825198ce83daf4d2e132b5040aafbe5756759a4865c10f2c68bbb70",
+    "processing": "nearest-neighbor enlargement only"
+  },
+  "crate_evidence": {
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:incomplete_mechanical_assault_rifle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:incomplete_mecha_bow"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:incomplete_mechyro"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:incomplete_mecha_crossbow"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:incomplete_mecha_cannon"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:incomplete_mecha_staff"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "max": 0.0,
+          "min": 0.0
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "aoa3:iro_crate"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }
+}
