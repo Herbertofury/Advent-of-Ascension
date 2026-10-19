@@ -61,3 +61,6 @@ Keep this draft for comparison. Do not use its persistent final rune or damaged 
 - [ ] Performance, multiplayer, shader and optional-mod qualification
 
 This sheet advances six design channels. It does not complete the entire weapon or its full feedback package.
+
+
+[Bounded cosmetic lifetime candidate](Bounded-Cosmetic-Lifetimes) adds isolated expiry/pressure tests to the existing presentation core. It does not yet own native resources or establish a performance gain.
