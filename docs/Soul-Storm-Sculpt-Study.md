@@ -228,3 +228,12 @@ The aperture field is an authoring-only transparent/emissive surface, not a phys
 The emitter stack remains too boxy, the underside/rear too plain and the grip still reads rubber-like in some lighting. The circular core dominates the silhouette. These are open art defects, not waived QA gates. Actual arm fit, native animation/export, source projectile captures, multiplayer and measured performance remain unaccepted.
 
 [Editable scene and scoped check scripts](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-authoring-study-v31.zip) · [Evidence and limitations](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-v31-evidence.json)
+
+
+### Inspect the v31 firing cycle
+
+[Watch the 3.05-second slowed authoring clip](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-v31-motion.mp4). It shows the four top-to-bottom cosmetic lanes, recoil recovery and authored disc presentation. This is Blender footage, not a native game test or a claim about released firing cadence.
+
+![Sampled stages of the authored cycle](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-v31-motion-review.jpg)
+
+[Video scope and render receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-v31-motion-evidence.json). The clip is linked rather than automatically playing on the wiki.

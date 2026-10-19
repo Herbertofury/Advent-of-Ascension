@@ -1,0 +1,57 @@
+{
+  "baseline": {
+    "id": "aoa3:long_shot",
+    "name": "Long Shot",
+    "family": "shotgun",
+    "stored_base_damage": 15.5,
+    "durability": 730,
+    "stored_delay_ticks": 54,
+    "stored_recoil_modifier": 0.30000001192092896,
+    "class_sha256": "2be25a9f7393cfbecf937a9951d65e07e15cc954457564a2bcd09c28a7163107",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/shotgun/LongShot",
+    "flags": [],
+    "stored_pellets": 2,
+    "stored_knockback_factor": 0.20000000298023224
+  },
+  "source_tooltip": "Has longer range than other Shotguns",
+  "subclass_findings": [
+    "Custom fireGun loop uses LimoniteBulletEntity with lifespan constructor input 6; ordinary BaseShotgun passes 4",
+    "BaseBullet constructor assigns the relevant integer to lifespan; do not convert this alone to a guaranteed distance",
+    "Offsets use RandomUtil.randomValueBetween(-0.5,0.5) times spread factor; preserve this code path rather than silently replacing it with the ordinary shotgun loop"
+  ],
+  "recipe": [
+    {
+      "path": "data/aoa3/recipes/infusion_long_shot.json",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:power_core"
+          },
+          {
+            "item": "aoa3:small_blue_petal"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          },
+          {
+            "tag": "forge:gunpowder"
+          }
+        ],
+        "input": {
+          "item": "aoa3:shotgun_frame"
+        },
+        "result": {
+          "item": "aoa3:long_shot"
+        }
+      }
+    }
+  ],
+  "native_tested": false
+}
