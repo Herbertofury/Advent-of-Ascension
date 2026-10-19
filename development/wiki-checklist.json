@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "aoa-complete-wiki-checklist-1",
   "repository": "Herbertofury/Advent-of-Ascension.wiki",
-  "revision": "3bfa850ef0210aa3f0129764f3052a63ff7fd825",
+  "revision": "c4816f3ce714b9104db74299da05302d4e3f6361",
   "pages": [
     {
       "path": "Abominator-Weapon-Profile.md",
@@ -33,6 +33,11 @@
       "path": "Ammunition-and-Void-Pouch-1.21.1.md",
       "bytes": 9356,
       "sha256": "9108fae3bc0fc6648bf95ee19865fe5a1c814d7e40fec2af2b6ecb3b6d73a1ac"
+    },
+    {
+      "path": "Amplifier-Weapon-Profile.md",
+      "bytes": 7036,
+      "sha256": "9a9b8ce7476577781c1d8b28bca478d96545768b9e950fd5658e874d4a811348"
     },
     {
       "path": "Ancient-Cavern-and-Deity-Shrines-1.12.2.md",
@@ -465,14 +470,24 @@
       "sha256": "d7d74b6e21088010d1cd419ea82022b08f3a38d1528c13f1134f30dcd57aeecf"
     },
     {
+      "path": "Destruction-Shotgun-Weapon-Profile.md",
+      "bytes": 6865,
+      "sha256": "68f625aa4e3cb11b9b5c4e2b3b5eb121dc065510c8197c0d4dcbb5e33c179fa7"
+    },
+    {
       "path": "Dimensions.md",
       "bytes": 46573,
       "sha256": "6dfb3a79acf676ddb931aa5d5122b834878ec37e0b98a9b819ed04c6cff4aaba"
     },
     {
+      "path": "Discharge-Exterior-Refinement.md",
+      "bytes": 6991,
+      "sha256": "3d1011e2dfb0c057d0f988653ea2c8efd96fdbffa47f6b52320a45297ae39c5e"
+    },
+    {
       "path": "Discharge-Shotgun-Weapon-Profile.md",
-      "bytes": 19662,
-      "sha256": "7d498549f6d0157d5b21650b6c3da3fb9ef7bf118fda5b43f0d139a2afd4575b"
+      "bytes": 20112,
+      "sha256": "63720c94be6af7b5c8d4514dd83a9cf6fd6ed8355f1fb1f49a9b284547407cd2"
     },
     {
       "path": "Divine-Station-Weapon-Upgrades-1.20.1.md",
@@ -1345,6 +1360,11 @@
       "sha256": "8c9581f242ae4869cff877b1520883bfe3278936d2c064927bd9e08f28f268dd"
     },
     {
+      "path": "Purity-Shotgun-Weapon-Profile.md",
+      "bytes": 7492,
+      "sha256": "2ac7bfc716a8df35dea78d2323a86e90356a29531a0fb069264137ced75a48c0"
+    },
+    {
       "path": "Reading-Routes-and-Local-Checklists.md",
       "bytes": 4921,
       "sha256": "e5f3aebb13a755e1da770a6899e6a58578f9c58184e9c4ec4e6e8d2d4b8a2c6d"
@@ -1786,8 +1806,8 @@
     },
     {
       "path": "Weapon-Overhaul.md",
-      "bytes": 13039,
-      "sha256": "6a4683cf668d99c4cd053c812090af603598ff70ed18f226373a837464624bf4"
+      "bytes": 13374,
+      "sha256": "d655096e9589349fee60a6443b28aad7a7398c2e0d677254de77e01d2b28d515"
     },
     {
       "path": "Weapon-Physics-and-Speculative-Technology.md",
@@ -4468,7 +4488,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 98,
+      "line": 102,
       "text": "Capture original flight, entity impact and block impact in the exact release.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4481,7 +4501,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 99,
+      "line": 103,
       "text": "Test both entity-hit explosion stages, final damage, immunity behavior and environmental rules.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4494,7 +4514,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 100,
+      "line": 104,
       "text": "Test single ammo check versus the four-projectile burst and all relevant enchantments.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4507,7 +4527,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 101,
+      "line": 105,
       "text": "Build the model, capsules, fins, comfortable hands and interruption-safe animations.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4520,7 +4540,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 102,
+      "line": 106,
       "text": "Make every functional module's appearance agree with its declared projectile/resource behavior.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -4533,7 +4553,7 @@
         "Discharge Shotgun — a close-range explosive scattercaster",
         "Acceptance checklist"
       ],
-      "line": 103,
+      "line": 107,
       "text": "Validate native export, multiplayer, saved builds, combat-mod compatibility and measured frame/tick costs.",
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
@@ -7640,6 +7660,97 @@
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pulse-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:2f285f0c69b3f1b8c865dcb9",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 71,
+      "text": "Actual original projectile flight and impact captured in the pinned game build.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
+    },
+    {
+      "id": "wiki:d1fcc6ffa477b9d2b0151f87",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 72,
+      "text": "Source roll frequency and shared-pellet behavior verified in-game.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
+    },
+    {
+      "id": "wiki:c002d90f334c5e2e63ab9e3e",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 73,
+      "text": "Concept-to-model silhouette, blue/cyan palette and material comparison approved.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
+    },
+    {
+      "id": "wiki:4a62ab55589f115d89fcc4e9",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 74,
+      "text": "Hand reach, trigger guard, complete animation sweeps and attachment clearance pass.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
+    },
+    {
+      "id": "wiki:9cd08ace2ab772ecb2804fb3",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 75,
+      "text": "First-/third-person, interrupted inspect/reload and multiplayer behavior pass.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
+    },
+    {
+      "id": "wiki:308dcc04f86d148c8525ca05",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 76,
+      "text": "Both visual treatments and all customization/effect families have explicit implementation status.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
+    },
+    {
+      "id": "wiki:18d60038b2d0fad55cbd77c7",
+      "page": "Purity-Shotgun-Weapon-Profile.md",
+      "section": [
+        "Purity Shotgun: the blue-armored upgrade",
+        "Required acceptance evidence"
+      ],
+      "line": 77,
+      "text": "Native TaCZ export, integration and representative performance measurements pass.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile"
     },
     {
       "id": "wiki:2ea77da7cab5751a2b0f7af7",
@@ -13480,8 +13591,8 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog"
     }
   ],
-  "pageCount": 367,
-  "taskCount": 889,
+  "pageCount": 371,
+  "taskCount": 896,
   "reportedChecked": 144,
   "runtimeCompletionInferred": false
 }
