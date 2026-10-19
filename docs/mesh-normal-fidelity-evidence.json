@@ -1,0 +1,952 @@
+{
+  "released_diagnostics": {
+    "scope": "Actual released data-baker and original diagnostic harness; not native rendering acceptance",
+    "upstream_commit": "a3faaaf45ed956351278a5b6f86b4140f48439ea",
+    "source_file_sha256": "d38e5b86e87e580bfa0eae208ced2d009af386136f7d3731543f15a746852c92",
+    "upstream_source": "https://github.com/VellEagle/TacZMeshLoader/blob/a3faaaf45ed956351278a5b6f86b4140f48439ea/src/main/java/com/example/taczmeshloader/core/PolyMesh.java",
+    "official_version_page": "https://modrinth.com/mod/tacz-mesh-loader/versions",
+    "runs": [
+      {
+        "runtime": "17",
+        "measurements": {
+          "scope": "Authored normals compared to actual baked arrays using input Y-normal inversion; no GPU/native visual acceptance",
+          "p95_degrees": 22.255622972553077,
+          "flat_control_max_degrees": 0.019716861376957422,
+          "over_5_degrees": 48716,
+          "median_degrees": 14.954607847402302,
+          "over_20_degrees": 8758,
+          "corners": 82416,
+          "max_degrees": 82.22698864473796
+        },
+        "negative_control_passed": true,
+        "clean_isolated_build": true
+      },
+      {
+        "runtime": "21",
+        "measurements": {
+          "corners": 82416,
+          "max_degrees": 82.22698864473796,
+          "scope": "Authored normals compared to actual baked arrays using input Y-normal inversion; no GPU/native visual acceptance",
+          "p95_degrees": 22.255622972553077,
+          "flat_control_max_degrees": 0.019716861376957422,
+          "over_5_degrees": 48716,
+          "median_degrees": 14.954607847402302,
+          "over_20_degrees": 8758
+        },
+        "negative_control_passed": true,
+        "clean_isolated_build": true
+      }
+    ],
+    "native_tested": false
+  },
+  "candidate": {
+    "scope": "Actual upstream source versus local opt-in patch compiled with explicit fail-closed rendering stand-ins; no native Minecraft execution",
+    "default_arrays_bit_identical": true,
+    "results": [
+      {
+        "mode": "baseline",
+        "runtime": "17",
+        "stdout": "DEFAULT_ARRAY_DIGEST ee92d4aac36d98f79dbc67da03b98f9ebe06f1cd33d90c8124eac94965bee29e values=879104\n"
+      },
+      {
+        "mode": "baseline",
+        "runtime": "21",
+        "stdout": "DEFAULT_ARRAY_DIGEST ee92d4aac36d98f79dbc67da03b98f9ebe06f1cd33d90c8124eac94965bee29e values=879104\n"
+      },
+      {
+        "mode": "candidate",
+        "runtime": "17",
+        "stdout": "PASS authored, default-flat, missing/zero/nonfinite/out-of-range normals, large finite normalization, invalid-mode rejection and no GPU cache tests\nDEFAULT_ARRAY_DIGEST ee92d4aac36d98f79dbc67da03b98f9ebe06f1cd33d90c8124eac94965bee29e values=879104\nPASS full authored-normal fixture: 109888 expanded corners, max component error=2.9801498047099528E-8. Source-build data test only; no GPU lighting or animation acceptance.\n"
+      },
+      {
+        "mode": "candidate",
+        "runtime": "21",
+        "stdout": "PASS authored, default-flat, missing/zero/nonfinite/out-of-range normals, large finite normalization, invalid-mode rejection and no GPU cache tests\nDEFAULT_ARRAY_DIGEST ee92d4aac36d98f79dbc67da03b98f9ebe06f1cd33d90c8124eac94965bee29e values=879104\nPASS full authored-normal fixture: 109888 expanded corners, max component error=2.9801498047099528E-8. Source-build data test only; no GPU lighting or animation acceptance.\n"
+      }
+    ],
+    "native_tested": false
+  },
+  "fixture": {
+    "scope": "Static metal-only normalized-UV transport, not full weapon or native material acceptance",
+    "source_sha256": "c5bf9cd339d36595178865ee56c291e1e832df9b535006740a0b79f9dc01c4fa",
+    "parts": 136,
+    "mesh_bones": 5,
+    "triangles": 27472,
+    "expected_baked_vertices": 109888,
+    "objects": [
+      {
+        "source_object": "V33 metal Blade silver inlay",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 380
+      },
+      {
+        "source_object": "V33 metal Blade silver inlay.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 380
+      },
+      {
+        "source_object": "V33 metal Blade silver inlay.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 380
+      },
+      {
+        "source_object": "V33 metal Blade silver inlay.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 380
+      },
+      {
+        "source_object": "V33 metal Core armor hoop",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 1280
+      },
+      {
+        "source_object": "V33 metal Core armor hoop.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 1280
+      },
+      {
+        "source_object": "V33 metal Core silver rim",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 1280
+      },
+      {
+        "source_object": "V33 metal Core silver rim.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 1280
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.001",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.002",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.003",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.004",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.005",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.006",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter aperture lip.007",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.001",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.002",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.003",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.004",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.005",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.006",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter external silver rim.007",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter spine inset.001",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter spine inset.002",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Emitter spine inset.003",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.004",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.005",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.006",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Fixed telescoping sleeve.007",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Rear energy coupler",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Rear energy coupler.001",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Rear energy coupler.002",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Rear energy coupler.003",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Sculpted silver crescent",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Sculpted silver crescent.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Sculpted silver crescent.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Sculpted silver crescent.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Spirit distribution manifold",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Spirit distribution manifold.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 188
+      },
+      {
+        "source_object": "V33 metal Tapered armor blade",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 540
+      },
+      {
+        "source_object": "V33 metal Tapered armor blade.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 540
+      },
+      {
+        "source_object": "V33 metal Tapered armor blade.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 540
+      },
+      {
+        "source_object": "V33 metal Tapered armor blade.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 540
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell.001",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell.002",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell.003",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell.005",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell.006",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal Tapered emitter shell.007",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 252
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.004",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.005",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.006",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 clasp indigo inset.007",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.004",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.005",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.006",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V15 sculpted silver clasp.007",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 20
+      },
+      {
+        "source_object": "V33 metal V16 circular brazier lip",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 640
+      },
+      {
+        "source_object": "V33 metal V16 grip root collar",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 92
+      },
+      {
+        "source_object": "V33 metal V16 rounded brazier base",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 156
+      },
+      {
+        "source_object": "V33 metal V16 tapered brazier prong",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V16 tapered brazier prong.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V16 tapered brazier prong.002",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V16 tapered brazier prong.003",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 12
+      },
+      {
+        "source_object": "V33 metal V17 curved open grip guard",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 256
+      },
+      {
+        "source_object": "V33 metal V17 faceted fitted heel armor",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 44
+      },
+      {
+        "source_object": "V33 metal V17 heel silver perimeter",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 192
+      },
+      {
+        "source_object": "V33 metal V17 heel silver perimeter.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 192
+      },
+      {
+        "source_object": "V33 metal V17 receiver wing silver edge",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 176
+      },
+      {
+        "source_object": "V33 metal V17 receiver wing silver edge.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 176
+      },
+      {
+        "source_object": "V33 metal V17 swept lower receiver wing",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 40
+      },
+      {
+        "source_object": "V33 metal V17 swept lower receiver wing.001",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 40
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.001",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.002",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.003",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.004",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.005",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.006",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.007",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.008",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.009",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.010",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.011",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.012",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.013",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.014",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 chamber edge.015",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.001",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.002",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.003",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.004",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.005",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.006",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 front engraved armor.007",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.001",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.002",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.003",
+        "bone": "emitter_2_top_to_bottom_metal",
+        "source_parent": "Emitter_2_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.004",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.005",
+        "bone": "emitter_3_top_to_bottom_metal",
+        "source_parent": "Emitter_3_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.006",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V18 rear channel collar.007",
+        "bone": "emitter_4_top_to_bottom_metal",
+        "source_parent": "Emitter_4_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V20 crown silver edge -1",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V20 crown silver edge 1",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V20 curved clamp -1",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 164
+      },
+      {
+        "source_object": "V33 metal V20 curved clamp 1",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 164
+      },
+      {
+        "source_object": "V33 metal V20 nose crown",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V20 rear crown collar",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 108
+      },
+      {
+        "source_object": "V33 metal V20 tapered crown rail -1",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 164
+      },
+      {
+        "source_object": "V33 metal V20 tapered crown rail 1",
+        "bone": "emitter_1_top_to_bottom_metal",
+        "source_parent": "Emitter_1_top_to_bottom",
+        "triangles": 164
+      },
+      {
+        "source_object": "V33 metal V22 brazier physical saddle bridge",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 204
+      },
+      {
+        "source_object": "V33 metal V26 inset indigo saddle -1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 300
+      },
+      {
+        "source_object": "V33 metal V26 inset indigo saddle 1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 300
+      },
+      {
+        "source_object": "V33 metal V26 sculpted saddle silver -1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 300
+      },
+      {
+        "source_object": "V33 metal V26 sculpted saddle silver 1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 300
+      },
+      {
+        "source_object": "V33 metal V31 heel dark inset -1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 360
+      },
+      {
+        "source_object": "V33 metal V31 heel dark inset 1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 360
+      },
+      {
+        "source_object": "V33 metal V31 heel silver oval setting -1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 360
+      },
+      {
+        "source_object": "V33 metal V31 heel silver oval setting 1",
+        "bone": "body_metal",
+        "source_parent": "SoulStorm_Root",
+        "triangles": 360
+      }
+    ],
+    "excluded_visible_meshes": [
+      "Animated soul vortex surface",
+      "Animated soul vortex surface.001",
+      "Core luminous seal",
+      "Core luminous seal.001",
+      "Horizontal soul-disc face 1",
+      "Horizontal soul-disc face 2",
+      "Horizontal soul-disc face 3",
+      "Horizontal soul-disc face 4",
+      "Manifold energy seam",
+      "Manifold energy seam.001",
+      "Soul disc edge",
+      "Soul disc edge.001",
+      "Soul disc edge.002",
+      "Soul disc edge.003",
+      "V15 clasp spirit jewel",
+      "V15 clasp spirit jewel.001",
+      "V15 clasp spirit jewel.002",
+      "V15 clasp spirit jewel.003",
+      "V15 clasp spirit jewel.004",
+      "V15 clasp spirit jewel.005",
+      "V15 clasp spirit jewel.006",
+      "V15 clasp spirit jewel.007",
+      "V16 flame reticle filament",
+      "V16 flame reticle filament.001",
+      "V16 flame reticle filament.002",
+      "V16 flame reticle filament.003",
+      "V16 rooted fire layer",
+      "V16 rooted fire layer.001",
+      "V20 crown conductor",
+      "V25 leather grip baked material domain",
+      "V26 four-prong spirit crest -1",
+      "V26 four-prong spirit crest 1",
+      "V28 clear center ring",
+      "V29 render-only aperture field 0",
+      "V29 render-only aperture field 1",
+      "V29 render-only aperture field 2",
+      "V29 render-only aperture field 3",
+      "V31 heel soul cabochon -1",
+      "V31 heel soul cabochon 1"
+    ],
+    "axis_mapping": [
+      "-Y",
+      "Z",
+      "-X"
+    ],
+    "scale": 4.0,
+    "uv_policy": "Exact authored loop UVs, no material swatch substitution",
+    "native_accepted": false,
+    "limits": [
+      "No grip, animated effects, projectile cues, gun data or native hand anchors",
+      "Roughness map not a proven native material binding",
+      "Released baker flat-normal behavior and fallback/VBO parity require native rendering review",
+      "Zero pivots and owner grouping alone do not establish animation binding",
+      "UV padding and authoring bake visual review remain separate gates"
+    ]
+  },
+  "native_accepted": false
+}

@@ -263,3 +263,7 @@ The exported GLB was actually imported back into Blender. Its world-space triang
 [Editable GLB, bake scripts and scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-grip-texture-study-v25.zip) · [Machine-readable review](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-grip-v25-evidence.json). Regeneration reuses the existing v22 source archive rather than duplicating another complete packed weapon scene. The GLB alone is not an installable TaCZ pack.
 
 </details>
+
+## Authored shading through the mesh loader
+
+[Mesh normal fidelity and optional source candidate](Mesh-Normal-Fidelity-and-Opt-In) documents a released-loader flat-shading limitation, measured authored-normal differences and a default-preserving opt-in patch tested offline. This does not approve the texture bake or establish native rendering compatibility.
