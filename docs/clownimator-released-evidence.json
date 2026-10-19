@@ -1,0 +1,54 @@
+{
+  "release": "AoA3.7.1 / Minecraft1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 49.5,
+    "durability": 545,
+    "delay_ticks": 95,
+    "recoil": 0.03500000014901161,
+    "ammo": "aoa3:metal_slug",
+    "scope": "SCOPE_3",
+    "sound": "ITEM_GUN_SNIPER_MEDIUM_FIRE_LONG"
+  },
+  "conditional_damage": {
+    "target_type": "LivingEntity",
+    "attribute": "getMaxHealth()",
+    "comparison": "strictly less than",
+    "threshold": 75.0,
+    "bullet_multiplier_factor": 1.15,
+    "final_damage_measured": false
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/Clownimator.class",
+      "sha256": "b79a4042370e98cca26591c79d396ff6e2b6af55ce945d96e43c438dc819d45b"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "recipe": {
+    "path": "data/aoa3/recipes/upgrade_kit_clownimator.json",
+    "data": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:decimator"
+      },
+      "result": {
+        "item": "aoa3:clownimator"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:clown_upgrade_kit"
+      }
+    }
+  },
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/Clownimator.java",
+  "source_sha256": "a123506bb41a90b518e1df1e490362bbc93ec3f5d238a0c3c920bd6474acea8f",
+  "native_tested": false,
+  "concept_accepted": false
+}
