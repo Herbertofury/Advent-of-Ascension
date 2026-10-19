@@ -1,0 +1,64 @@
+{
+  "release": "AoA3-1.20.1-3.7.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:boulder",
+    "name": "Boulder",
+    "family": "shotgun",
+    "stored_base_damage": 11.5,
+    "durability": 1080,
+    "stored_delay_ticks": 58,
+    "stored_recoil_modifier": 0.5,
+    "class_sha256": "5d2d3ed79056b8e42b2a6ff13fd2c7e60261d14453bf26d713dee9d857a2832c",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+    "flags": [],
+    "stored_pellets": 4,
+    "stored_knockback_factor": 0.4000000059604645
+  },
+  "implementation": "Direct BaseShotgun registration; no Boulder subclass",
+  "ammo": "aoa3:spreadshot",
+  "full_automatic": false,
+  "loop_projectile": "LimoniteBulletEntity",
+  "age_input": 4,
+  "damage_multiplier_input": 1.0,
+  "piercing_input": 0,
+  "sound_selector": "ITEM_GUN_SHOTGUN_MEDIUM_FIRE_LONG",
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_boulder.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:demolisher"
+        },
+        "result": {
+          "item": "aoa3:boulder"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:rocky_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "source_disassembly_sha256": "11fdcccfb6bf79b46600f106296c81ec6e33b901eee40470502f9bde648ba506",
+  "native_accepted": false,
+  "art_accepted": false,
+  "concept_review": [
+    "v1 oversized rock projectiles and rough palm surface rejected",
+    "v2 four small pellet markers, more comfortable red grip; all native and art acceptance gates remain open"
+  ],
+  "sprites": [
+    {
+      "source": "assets/aoa3/textures/item/rocky_upgrade_kit.png",
+      "sha256": "dd55663aafec3f4a427b630165890a371d91792099ee178c8304dc8048069291",
+      "preview": "recipe-rocky-upgrade-kit-sprite.png",
+      "processing": "nearest-neighbor enlargement only"
+    },
+    {
+      "source": "assets/aoa3/textures/item/demolisher.png",
+      "sha256": "15a4c9c8a9959a252effff3b33c56dab19e33ad26b975c1e371fbe18483d0892",
+      "preview": "recipe-demolisher-sprite.png",
+      "processing": "nearest-neighbor enlargement only"
+    }
+  ]
+}
