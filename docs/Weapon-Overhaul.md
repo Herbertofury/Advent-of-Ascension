@@ -44,6 +44,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Apoco Assault Rifle | [Source-pinned upgrade lineage, Vox Ponds kit association and concept review](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile) |
 | Apoco Rifle | [Distinct Discharge Rifle upgrade, explosive capsule behavior and refined concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) |
 | Apoco Shower | [Spirit-powered three-path discharge, conditional impacts and front-shroud concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Shower-Weapon-Profile) |
+| Moon Cannon | [Forked magenta identity, heavy/energy damage split and Lunar kit lineage](Moon-Cannon-Weapon-Profile) |
 | Spirit Shower | [Three-path Spirit attack, Jawe loot-table evidence and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
 | Carrot Cannon | [Carrot ammunition, botanical material provenance, concepts and unaccepted authoring](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
 
