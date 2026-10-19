@@ -39,7 +39,7 @@ The exact `data/aoa3/recipes/upgrade_kit_blue_barrel.json` definition has:
 | Result | Blue Barrel |
 | Serializer | `aoa3:upgrade_kit` |
 
-This is an upgrade-kit recipe, **not** an ordinary shaped grid or the Infusion Table recipe used by Vivo and Ginger Blaster. Follow the matching release's upgrade-kit interaction. Arbitrary attachment, custom-name or enchantment preservation must be checked in that path before upgrading a valuable customized item.
+This is an upgrade-kit recipe, **not** an ordinary shaped grid or the Infusion Table recipe used by Vivo and Ginger Blaster. Use the **Divine Station**: Brown Blaster in the left input, Seaside Upgrade Kit in the middle, then inspect the right-hand output. [Illustrated 1.20.1 Divine Station guide](Divine-Station-Weapon-Upgrades-1.20.1) explains slot indexing, source availability and data-transfer limitations. Arbitrary attachment, custom-name or enchantment preservation must be checked in that path before upgrading a valuable customized item.
 
 [Inspect the released recipe](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.20.1&q=upgrade_kit_blue_barrel)
 
