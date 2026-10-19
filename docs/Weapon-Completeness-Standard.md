@@ -120,6 +120,7 @@ For the full-set announcement, reconcile all 228 first-target IDs plus the separ
 - Turn critical measured limits into failing tests. Logging a large normal error while returning success is not a pass.
 - Prioritize texel density where detail needs it before increasing every texture. Report local error regions, memory assumptions and native limits; background-heavy image averages can hide defects.
 - Fail unsupported material/alpha/rig cases explicitly. Do not silently apply an opaque-material pipeline to transparent flame or mixed shaders.
+- Compare the original pre-rig world pose with the evaluated parented neutral pose. A return-to-ready test can pass when the initial rig is already wrong. Include nonorigin parent transforms and a negative control; visually inspect missing or displaced parts. See [rig-parenting regression and limits](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Rig-Parenting-QA.md).
 - Keep source revisions and evidence hashes aligned. A corrected authoring scene does not repair an older exported fixture automatically.
 
 These checks supplement concept fidelity, real hand fit, native gameplay and performance testing. They do not replace them.
