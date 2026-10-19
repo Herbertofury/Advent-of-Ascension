@@ -35,6 +35,20 @@ Preserve the low dark upper barrel, ochre/orange mechanical body, dark brown low
 
 Do not infer an official maker or complete dimension-progression story from an Iro Crate filename alone. Exact biome/spawn access and ingredient acquisition still need version-specific world testing.
 
+### Actual recipe-item images
+
+These are the released item textures enlarged with nearest-neighbor sampling. They are not generated ingredient illustrations or 3D game captures.
+
+| Incomplete Mechyro ×1 | Power Core ×1 | Mecha Gear ×1 | Result: Mechyro ×1 |
+|---|---|---|---|
+| ![Incomplete Mechyro](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/recipe-incomplete-mechyro-sprite.png) | ![Power Core](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/recipe-power-core-sprite.png) | ![Mecha Gear](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/recipe-mecha-gear-sprite.png) | ![Mechyro](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/mechyro-original.png) |
+
+Shapeless: no particular slot arrangement is required. The upgrade uses the actual Abyssal Upgrade Kit pictured below; the recipe type is AoA's upgrade-kit system, so it is not presented as another standard shapeless crafting recipe.
+
+![Abyssal Upgrade Kit](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/recipe-abyssal-upgrade-kit-sprite.png)
+
+[Exact sprite provenance](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/mechyro-recipe-sprite-evidence.json)
+
 ## Source-inspired concept
 
 ![Mechyro concept candidate, revised grip and two-pellet wording](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/mechyro-concept-v2.png)
