@@ -12,7 +12,7 @@ The source PNG is not corrupt. The comparison deliberately shows an incorrect RG
 
 ## What was checked
 
-The current 54-file gallery sprite inventory was inspected. Forty-five files contain more than one RGB color among fully transparent pixels. This measures stored pixel data; it does **not** prove that 45 concepts are wrong or that every viewer discards transparency. Browser rendering normally honors the PNG alpha.
+A 54-file snapshot of the gallery sprite inventory was inspected. Forty-five files contain more than one RGB color among fully transparent pixels. This measures stored pixel data; it does **not** prove that 45 concepts are wrong or that every viewer discards transparency. Browser rendering normally honors the PNG alpha.
 
 Three synthetic tests verify that changing hidden RGB cannot alter the composited result, opaque source colors are preserved, and partial-alpha blending has the expected result. Original file hashes and alpha counts are recorded in the [audit](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/sprite-alpha-audit.json).
 

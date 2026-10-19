@@ -1,0 +1,59 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 58.5,
+    "durability": 560,
+    "delay_ticks": 112,
+    "recoil": 0.03500000014901161,
+    "ammo": "aoa3:metal_slug",
+    "scope": "Inherited SCOPE_1",
+    "sound": "ITEM_GUN_SNIPER_METALLIC_FIRE_LONG",
+    "sound_pitch_adjust_input": 0.1
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/Mineral.class",
+      "sha256": "c9fb514ae78563206a09b2cda5f2fc29d19dc7a315675bbb02df3349535ab7d1"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "declared_behavior": "Constructor and sound/pitch overrides only; no weapon-specific impact, ammunition or projectile-creation override",
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_mineral.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:terminator"
+        },
+        "result": {
+          "item": "aoa3:mineral"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:rocky_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "concept": {
+    "revision": 1,
+    "accepted": false,
+    "source_reference": "Original PNG alpha composited on a neutral background before nearest-neighbor enlargement",
+    "direction": "Preserve rose/burgundy, gray central receiver and red sight accents; optional lattice is new decorative proposal",
+    "open": [
+      "Exact concept/model geometry",
+      "Native hands, sight alignment and attachment clearances",
+      "Projectile/impact/finisher and full animation concepts",
+      "Two authored texture treatments and performance"
+    ]
+  },
+  "native_tested": false
+}

@@ -226,3 +226,14 @@ Evidence: Soul-Storm-Optional-Sight-Workshop, Sludge-Sniper-Weapon-Profile and S
 - Honor source PNG alpha before judging silhouette or passing a flattened reference to art/model tools. Discarding alpha can expose hidden RGB as false geometry; render a neutral-background reference while preserving the original texture. The Discharge Sniper example demonstrates this failure mode.
 
 [Sprite transparency audit and reference workflow](Sprite-Transparency-and-Visual-References).
+
+
+## 13. Refresh profile discovery without resetting review state
+
+The earlier coverage builder merged saved rows after deriving existing_profile from the queue. Saved null links overwrote newly discovered profiles: the feature register still exposed only 13 references while the armory had more than 50. Refresh derived links after preserving previous review metadata.
+
+Use refresh_coverage.py with explicit --queue, --coverage, --output and --receipt paths, or build_standard.py --docs. The helper rejects duplicate IDs, inventory/family drift and invalid profile URLs. Missing queue metadata does not erase an older reference. It changes only existing_profile, retaining manifests, statuses, overrides and unknown extension data. Replaced links remain in its receipt.
+
+Nine tests cover preservation, replacement receipts, missing metadata, idempotence and rejected inconsistent inputs. The full builder output is compared with the helper's expected result. This repairs discoverability only; a linked profile is not proof that any feature or native gate has passed.
+
+[Reusable skill package v7](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v7.zip) includes the corrected builder and link-refresh helper. [Refresh receipt](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-profile-refresh-receipt.json).

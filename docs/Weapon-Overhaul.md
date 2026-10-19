@@ -184,3 +184,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Discharge Sniper: capsule and explosion contract
 
 [Source profile, Divine recipe and concept](Discharge-Sniper-Weapon-Profile) distinguishes Discharge Capsules from Metal Slugs, documents conditional terrain interaction, and flags the empty particle-renderer hook and offhand constructor for native tests. New glowing-flight art remains a proposal.
+
+
+### Mineral: preserve the rose-colored Rocky upgrade
+
+[Source profile, illustrated Divine recipe and concept](Mineral-Weapon-Profile) retains the compact rose/silver/red silhouette and Metal Slug baseline. Optional lattice and red-dust effects are visual proposals, not inferred mining or loot mechanics.
