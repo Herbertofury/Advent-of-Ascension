@@ -41,6 +41,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Ghast Blaster | [Dark purple cannon, shadow projectile, conditional withering and infusion lineage](Ghast-Blaster-Weapon-Profile) |
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
 | Predatorian Blaster | [Bone cannon concept, withering source contract and Ghast upgrade lineage](Predatorian-Blaster-Weapon-Profile) |
+| Gimmick | [Ten-pellet scattergun, colorful silhouette and optional inspection](Gimmick-Weapon-Profile) |
 | Abyssro | [Compact two-pellet shotgun and Abyss-associated upgrade lineage](Abyssro-Weapon-Profile) |
 | Clowno-Pulse | [Three-crown concept, Pulse upgrade and defensive firing pulse](Clowno-Pulse-Weapon-Profile) |
 | Pulse Cannon | [Rectangular cannon concept with separate shooter-centered repulsion](Pulse-Cannon-Weapon-Profile) |
@@ -56,7 +57,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Spirit Shower | [Three-path Spirit attack, Jawe loot-table evidence and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
 | Carrot Cannon | [Carrot ammunition, botanical material provenance, concepts and unaccepted authoring](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
 
-The 26 weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
+The 27 weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
 
 ## Build your own identity and play style
 
