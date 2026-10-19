@@ -1,0 +1,11 @@
+# Five complete natural temples — October 18, 2026
+
+The v96k3b complete native server and muted client pass with 1,212 complete source recipes and all inherited source. Each of the five temples now reaches the actual native chunk-generation pipeline: all 23,410 final blocks and 60 real spawner tiles are verified. No manual placement substitutes for natural generation. Both products contain 25,129 members; independent comparison permits only the parsed main build timestamp. The frozen verifier rejects ten generated corrupt-result controls and also binds the integrated-client capture and actual native master volume zero. [Scoped counts and hashes](natural-temple-generation-2026-10-18.json).
+
+The source-bound one-in-750 rarity and Barathos's short-circuit branches remain, using explicit native world/chunk/salt scheduling. This is not original whole-decoration random-stream equivalence. Haven uses its complete undecorated native surface program and actual canonical grass. Borean retains its newer submerged world and roof: the temple needs a solid floor and nineteen clear water/air cells below the exact canonical logical ceiling, rather than the roof height. Geometry and existing piece/save identities remain. New generation applies to new chunks.
+
+The failed Borean candidate and the later complete-generation diagnostic failure remain recorded. That diagnostic formerly assumed every placement used a spacing grid. Its corrected version retains every existing grid/guardian-region job and adds the independently verified rare temple starts. No other unknown placement policy is silently accepted.
+
+A separate **v96j2** ordinary production/Hari smoke also passes: actual native Vulkan, all 24 GUI state cases, movement, actual master volume zero before content, and preserved source-profile preferences. This does not certify v96k3b on Hari or demonstrate 2000 FPS.
+
+The four missing historical realms and the 19 observed null realmstone references are the next connected candidate; their source compile passes, but their native/gameplay acceptance is not claimed here. Active-player encounters, underwater fights, station acquisition, full survival, player travel/UI, migration, multiplayer, optional compatibility, performance and the full historical/latest union remain open. Current playable remains v93 and the full-merge warning remains valid.

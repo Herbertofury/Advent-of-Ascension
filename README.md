@@ -68,3 +68,5 @@ This owner-maintained repository is independent of upstream. It contains origina
 Every accepted weapon should have a reversible premium 3D presentation option, with polished animations and appropriate reload/recharge mechanics. Preserve original AoA behavior and require measured compatibility/performance evidence.
 
 [Design contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul) · [Reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) · [Unchecked implementation backlog](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog)
+
+[Verified complete natural temple generation and scoped muted Hari smoke](development/NATURAL-TEMPLE-GENERATION-2026-10-18.md). The full merge remains unfinished.
