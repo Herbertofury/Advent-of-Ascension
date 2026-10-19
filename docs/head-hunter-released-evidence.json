@@ -1,0 +1,137 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "registry": {
+    "id": "aoa3:head_hunter",
+    "field": "HEAD_HUNTER",
+    "family": "sniper",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/sniper/HeadHunter"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$123",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "ec9083c99400760a1a63c6320193e93eb4edd18b003e1f333a9103c526b6c2a5",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              240
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 41.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 380
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 92
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.03500000014901161
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/sniper/HeadHunter",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/sniper/HeadHunter.class",
+        "sha256": "85dd5723f2d2a3ca1d8ab04a9f660a64452ee43a31daf2a407b13e61eed74b54",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "421a6fd2d5bd90ee7eb200375b3afd96118b6fbb131aaf7243c2a2a0547ad7b2"
+          },
+          {
+            "name": "doImpactEffect",
+            "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+            "code_sha256": "953217762fb771639e2bb9f76c1fbd74da47a21ffbcbbeae461073da61faa27f"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "779e858069947b84f6305a1a21a8e96bdd727b2d8f6184388c1003f246e983b9"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 41.5,
+    "durability": 380,
+    "delay_ticks": 92,
+    "recoil": 0.03500000014901161
+  },
+  "scope": "SCOPE_1 inherited",
+  "ammo": "aoa3:metal_slug",
+  "head_band": {
+    "minimum": "boundingBox.minY + eyeHeight - bbHeight * 0.105f",
+    "maximum": "minimum + bbHeight * 0.225f",
+    "comparison": "strictly inside, excluding both endpoints"
+  },
+  "effect": {
+    "server_only": true,
+    "target": "LivingEntity",
+    "impact_required": true,
+    "particle_calls": 5,
+    "particles_per_call": 3,
+    "sound": "EXPERIENCE_ORB_PICKUP at shooter position, volume 1, pitch 1.5",
+    "cooldown_gate": "Shooter is Player and still holds this item type in either hand at impact",
+    "cooldown_ticks": "int(getFiringDelay() / 2f)",
+    "base_cooldown_example": 46,
+    "extra_damage_in_this_hook": false
+  },
+  "data_json_references": [
+    "data/aoa3/advancements/completionist/skeet.json"
+  ],
+  "acquisition_status": "No direct item-ID recipe or loot JSON in inspected release; code/trade/historical acquisition not established",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/HeadHunter.class",
+      "sha256": "85dd5723f2d2a3ca1d8ab04a9f660a64452ee43a31daf2a407b13e61eed74b54"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/BaseSniper.class",
+      "sha256": "042fcb83dfaa232336a93e602bbadc015861935f266cf4010273f37ddecebb10"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class",
+      "sha256": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d"
+    }
+  ],
+  "source_url": "https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/sniper/HeadHunter.java",
+  "source_sha256": "01a3f1cc12810cba6638b2663a2e6b178b2559adfd61b77b1f713aad577d3a4a",
+  "native_tested": false,
+  "concept_accepted": false
+}
