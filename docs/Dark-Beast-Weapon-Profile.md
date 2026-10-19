@@ -19,9 +19,11 @@ These are stored values, not guaranteed final damage or measured recoil. The nom
 
 ![Actual released Dark Beast inventory sprite](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-original-preview.png)
 
-Retain the dense charcoal/black body, substantial angular lower grip, compact dark front, squared rear and raised sight with its small red accent. The sprite is dark; readability should come from controlled surface separation and restrained rim highlights rather than turning the entire weapon into a glowing red object. Obsidian-like surface treatments in the concept are artistic proposals, not confirmed construction lore.
+Retain the dense charcoal/black body, substantial angular lower grip, distinctive open forked front, squared rear and raised sight with its small red accent. The sprite is dark; readability should come from controlled surface separation and restrained rim highlights rather than turning the entire weapon into a glowing red object. Obsidian-like surface treatments in the concept are artistic proposals, not confirmed construction lore.
 
 ## Divine Station upgrade
+
+![Released Monster and Darkly Upgrade Kit sprites produce Dark Beast; documentation diagram, not a game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-upgrade-board.webp)
 
 Put **Monster** in the left input and a **Darkly Upgrade Kit** in the middle; the output is **Dark Beast**. This is the exact bundled `data/aoa3/recipes/upgrade_kit_dark_beast.json` recipe.
 
@@ -31,11 +33,11 @@ The recipe establishes an upgrade relationship. It does not prove that arbitrary
 
 ## Revised concept and retained history
 
-![Revised compact Dark Beast hero, material modes, effect proposals and inspection poses](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v2.png)
+![Revised compact Dark Beast hero, material modes, effect proposals and inspection poses](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v3.png)
 
-The revision removes the first draft's long spear-like lower extension and shortens the front. It keeps the dark layered body and red optic accent. Muzzle, tracer and stone-chip panels are proposed cosmetics; the original Metal Slug behavior is not replaced by a magic beam merely because the art uses a red highlight.
+The third revision restores the original open forked jaw while keeping a compact front. The second revision had closed too much of that defining negative space. It keeps the dark layered body and red optic accent; two visible arms do not imply two gameplay projectiles. Muzzle, tracer and stone-chip panels are proposed cosmetics; the original Metal Slug behavior is not replaced by a magic beam merely because the art uses a red highlight.
 
-[Preserved first exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v1.png): its overlong front and lower spear drifted from the original, so it is not the canonical model target. Retaining it is not acceptance. The revision still needs real model, rigged-hand and silhouette comparison at gameplay distance.
+[Preserved first exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v1.png): its exaggerated front proportions were not chosen as the canonical target. [Second exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v2.png) shortened the front but lost the original open jaw, which the third revision restores. Retaining it is not acceptance. The revision still needs real model, rigged-hand and silhouette comparison at gameplay distance.
 
 The two material examples are design directions, not finished atlases. Inspection poses are painted storyboards, not executed animation. A textured surface alone does not prove normal-map quality, UV coverage or mip stability.
 
