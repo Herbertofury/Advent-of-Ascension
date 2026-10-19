@@ -1,0 +1,93 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "damage": 10.0,
+    "durability": 540,
+    "delay_ticks": 24,
+    "recoil": 0.4000000059604645,
+    "ammo": "aoa3:discharge_capsule",
+    "scope": "Inherited SCOPE_1",
+    "sound": "ITEM_GUN_PLASMA_GUN_FIRE"
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/sniper/DischargeSniper.class",
+      "sha256": "19fe7603cc0699d47f5d033b55cddeff265d46626d79effc29dfa5da7c3add97"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/gun/DischargeSlugEntity.class",
+      "sha256": "0e5f57007fdfeb02589a87f0bec5327c9b5e2a70f8a1a0df537ed524a61208cd"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/bullets/DischargeSlugRenderer.class",
+      "sha256": "0a10a2daadf708c032ef5876fdd5f1afc40019a401c50376aa4a2566dc73ab7d"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/ParticleProjectileRenderer.class",
+      "sha256": "66310b7c0749c4c4be7b0653463617a2bc32a08433df5269f62178291248155d"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class",
+      "sha256": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57"
+    },
+    {
+      "path": "net/tslat/aoa3/util/WorldUtil.class",
+      "sha256": "3cfdfe2967fa2459b1749966de55986d9ee7c21e2eb774189606ad5a5fe08fa9"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    }
+  ],
+  "projectile": {
+    "class": "DischargeSlugEntity",
+    "constructor_pierce_argument": 0,
+    "constructor_damage_multiplier": 1,
+    "launch_speed_parameter": 20,
+    "constructor_hand": "MAIN_HAND via inherited constructor",
+    "entity_and_block_impact": "explode",
+    "explosion_strength_parameter": 1.8,
+    "explosion_position": "Projectile entity coordinates in selected WorldUtil overload; Vec3 argument not forwarded",
+    "destruction_policy": "Player owner: checkDestructiveWeaponPhysics; other living actor: Forge mob-griefing event; fallback: destructive-weapon-physics rule; chooses MOB or NONE interaction; fire flag false"
+  },
+  "renderer": {
+    "registered_provider": "DischargeSlugRenderer",
+    "provider_bootstrap_index": 108,
+    "own_addParticles": "empty return",
+    "base_render": "Calls addParticles then EntityRenderer superclass; texture getter returns null",
+    "native_visibility": "Unverified; no original glowing red orb established by this renderer inspection"
+  },
+  "recipes": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_discharge_sniper.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:discharge_rifle"
+        },
+        "result": {
+          "item": "aoa3:discharge_sniper"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:weapon_parts"
+        }
+      }
+    }
+  ],
+  "concept": {
+    "revision": 2,
+    "accepted": false,
+    "corrections": [
+      "Embedded description explicitly labels proposed visual treatment",
+      "Destructive impact study explicitly game-rule dependent"
+    ],
+    "open": [
+      "Native hand fit, trigger guard and optic clearance",
+      "All attachment and inspection boards",
+      "Exact original flight/impact captures",
+      "Material, animation and performance acceptance"
+    ]
+  },
+  "native_tested": false
+}

@@ -222,3 +222,7 @@ Apply these checks when revising illustrated weapon sheets or publishing Blender
 Evidence: Soul-Storm-Optional-Sight-Workshop, Sludge-Sniper-Weapon-Profile and Sweet-Tooth-Weapon-Profile. These examples guide scoped review; they do not certify native gameplay.
 
 [Updated reusable skill package v6](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v6.zip). This focused instruction update retains the existing 31 feature groups and validator; no independent agent evaluation was run.
+
+- Honor source PNG alpha before judging silhouette or passing a flattened reference to art/model tools. Discarding alpha can expose hidden RGB as false geometry; render a neutral-background reference while preserving the original texture. The Discharge Sniper example demonstrates this failure mode.
+
+[Sprite transparency audit and reference workflow](Sprite-Transparency-and-Visual-References).

@@ -179,3 +179,8 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Sweet Tooth: candy identity and shooter-only speed reward
 
 [Source profile, infusion recipe and revised concepts](Sweet-Tooth-Weapon-Profile) documents Speed III on a successful hit, preserves earlier rejected grip layouts and separates the cosmetic inspection flourish from server-authoritative rewards. Native acceptance remains open.
+
+
+### Discharge Sniper: capsule and explosion contract
+
+[Source profile, Divine recipe and concept](Discharge-Sniper-Weapon-Profile) distinguishes Discharge Capsules from Metal Slugs, documents conditional terrain interaction, and flags the empty particle-renderer hook and offhand constructor for native tests. New glowing-flight art remains a proposal.
