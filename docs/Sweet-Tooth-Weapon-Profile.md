@@ -34,11 +34,11 @@ Use **Sniper Frame** as the base input with seven ingredients: Candy Corn twice,
 
 ## Revised premium concept
 
-![Sweet Tooth revision three concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sweet-tooth-concept-v3.png)
+![Sweet Tooth revision four concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sweet-tooth-concept-v4.png)
 
 The proposed chocolate enamel, frosted ceramic, amber accents and glossy icing preserve the original color zones. The hero and side views now put the rear grip behind the trigger, with an open guard. A single peppermint muzzle collar and rear peppermint grip preserve the two main accent zones.
 
-**This remains a partial, unaccepted art study.** The inspection inset still contains an older double-collar detail and must be reconciled before using it as a modeling reference. Native hands, actual scale, optic alignment, all moving-part clearances and matching opposite-side construction have not passed QA. The painted texture is a reference, not a finished UV map.
+**This remains a partial, unaccepted art study.** Revision four reconciles the inspection inset to the single front collar in the hero and side views. That visual correction does not establish exact 3D proportions or a validated inspection animation. Native hands, actual scale, optic alignment, all moving-part clearances and matching opposite-side construction have not passed QA. The painted texture is a reference, not a finished UV map.
 
 <details><summary>Earlier concepts retained, with their rejected details</summary>
 
@@ -49,6 +49,10 @@ Revision one introduced an oversized underbody slab and extra front peppermint c
 ![Second Sweet Tooth exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sweet-tooth-concept-v2.png)
 
 Revision two opened the guard but put the pistol grip on the wrong side of the trigger. Revision three corrects that arrangement in the main and side views. Neither earlier version is discarded or presented as accepted.
+
+![Third Sweet Tooth exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sweet-tooth-concept-v3.png)
+
+Revision three corrected the main grip layout but retained an obsolete inspection-inset collar. Revision four corrects that view inconsistency.
 
 </details>
 

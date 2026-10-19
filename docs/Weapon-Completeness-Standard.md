@@ -206,3 +206,19 @@ The [Discharge recoil review](Discharge-Exterior-Refinement) is a concrete examp
 [All 228-item native event-source audit](Confirmed-Shot-Presentation) · [Conditional loot example](Crystaneer-Weapon-Profile) · [Corrected image-label example](Hive-Cracker-Weapon-Profile)
 
 The package passes skill structure validation and the existing 19-case evidence validator. Its guidance additions have not received independent behavioral evaluation or native testing. It remains project guidance, not an installed personal skill or weapon acceptance.
+
+
+## 12. Concept-view consistency and reproducible authoring
+
+Apply these checks when revising illustrated weapon sheets or publishing Blender-generated sources:
+
+- Check the same prop revision in the hero, side and inspection views. Sweet Tooth's revised hero retained an obsolete doubled collar in its inspection inset; a corrected hero alone did not close the sheet review. Keep old revisions labeled and correct the affected image itself.
+- Review hand use in the actual facing direction. In a left-facing conventional prop, a rear shooting grip belongs behind its trigger toward the stock, not in front toward the muzzle. Do not accept an open guard as sufficient if the grip arrangement still prevents a natural reach. Fantasy alternate controls need their own intentional usability explanation.
+- Generated labels such as “silhouette match” or a definitive origin sentence require their own evidence. Sludge Sniper's labels were changed to “design study” and “proposed art direction”; a separate caption does not make an unsupported image label valid.
+- Require a clean archive extraction and a failing process exit on authoring-script errors. Use Blender's --python-exit-code option. The optional-sight scene saved before a later manifest-writing error; its existence was not evidence of a successful build. Preserve geometry checks separately from packaging checks.
+- Scripted custom-property changes may leave stale evaluated visibility until the dependency graph is tagged. Test the exact helper used to switch variants, including viewport and render visibility, rather than testing only manually scrubbed frames.
+- Audit bundled helper-library semantics before naming effect levels. EffectsLib 1.7's builder subtracts one from its level before constructing Minecraft's amplifier: builder level 3 is Speed III. Sweet Tooth also buffs the shooter after successful attack, not the target or every cosmetic shot. Keep these facts pinned to the inspected release.
+
+Evidence: Soul-Storm-Optional-Sight-Workshop, Sludge-Sniper-Weapon-Profile and Sweet-Tooth-Weapon-Profile. These examples guide scoped review; they do not certify native gameplay.
+
+[Updated reusable skill package v6](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v6.zip). This focused instruction update retains the existing 31 feature groups and validator; no independent agent evaluation was run.

@@ -36,13 +36,21 @@ The exact bundled recipe is preserved in the evidence file. Tag icons show examp
 
 ## Premium concept and its limits
 
-![Sludge Sniper proposed premium design and cosmetic studies](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sludge-sniper-concept-v1.png)
+![Sludge Sniper proposed premium design and cosmetic studies](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sludge-sniper-concept-v2.png)
 
-Mossy dark ceramic panels, pitted metal, botanical relief and sealed green channels reinterpret the original color regions. The painted description of a swamp/industrial design is **new art direction, not canonical lore**. Preserve the original sprite alongside this proposal.
+Mossy dark ceramic panels, pitted metal, botanical relief and sealed green channels reinterpret the original color regions. The revised board explicitly labels these materials as **proposed art direction, not canonical lore**. Preserve the original sprite alongside this proposal.
 
-The muzzle vapor, green tracer and mist at the stone test block are cosmetic proposals. They do not turn Metal Slugs into a new resource or give block hits the living-target debuffs. The small side-view caption “silhouette match” is an artistic goal, not a geometric validation result. The oversized optic housing, sight line, grip clearance and separation of the trigger/guard still need explicit model QA.
+The muzzle vapor, green tracer and mist at the stone test block are cosmetic proposals. They do not turn Metal Slugs into a new resource or give block hits the living-target debuffs. The side-view label now reads “design study”; no geometric match is claimed. The oversized optic housing, sight line, grip clearance and separation of the trigger/guard still need explicit model QA.
 
 This board is partial concept coverage. It is not a UV texture, rig, native gunpack or proof that the full feature set is finished.
+
+<details><summary>Earlier caption revision retained</summary>
+
+![Earlier Sludge Sniper concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/sludge-sniper-concept-v1.png)
+
+The earlier sheet used “silhouette match” without geometric validation and an overly definitive swamp-origin sentence. Revision two corrects those labels in the artwork itself. Neither revision is native or artistic acceptance.
+
+</details>
 
 ## Complete customization and animation plan
 
