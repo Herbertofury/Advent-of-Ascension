@@ -1,5 +1,7 @@
 ![The Ascension Armory](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-upgrade-banner.svg)
 
+**Mandatory for every weapon:** [Complete feature, concept-fidelity and QA standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard). All 31 feature groups require separate concept/design, implementation and QA status; no silent omissions or concept-mismatch passes.
+
 # Every weapon, elevated
 
 **Owner-approved project goal · implementation pending · no runtime performance claim.**
@@ -10,44 +12,46 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 ## Reproduce the authoring checks
 
-[Run the 21 scoped test suites from clean source archives](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Authoring-Reproducibility). Includes exact input hashes and the corrected Baronator fixture packaging. These are authoring checks, not native game or visual-quality acceptance.
+[Run the 21 scoped test suites from clean source archives](Weapon-Authoring-Reproducibility). Includes exact input hashes and the corrected Baronator fixture packaging. These are authoring checks, not native game or visual-quality acceptance.
 
-[Search all 228 first-target weapon implementations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Implementation-Map): actual class chains, declared methods and source hashes. Structural coverage is not finished model/gameplay coverage.
+[Search all 228 first-target weapon implementations](Weapon-Implementation-Map): actual class chains, declared methods and source hashes. Structural coverage is not finished model/gameplay coverage.
 
-[Reusable Java presentation core](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Presentation-Core): sight timing, branch-aware cosmetic events and bounded game-time emission. Pure-core tests pass; native integration and visual acceptance remain open.
+[Reusable Java presentation core](Weapon-Presentation-Core): sight timing, branch-aware cosmetic events and bounded game-time emission. Pure-core tests pass; native integration and visual acceptance remain open.
 
-[Illustrated Divine Station upgrades for 1.20.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.20.1): all 70 shipped routes, exact ingredients, source sprites and customization-preservation caveats.
+[Illustrated Divine Station upgrades for 1.20.1](Divine-Station-Weapon-Upgrades-1.20.1): all 70 shipped routes, exact ingredients, source sprites and customization-preservation caveats.
 
-[Ammunition Desk for 1.20.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Ammunition-1.20.1): illustrated lookup for 172 conventional weapon IDs and 13 base ammo identities, resolved through inherited methods. Net consumption and effects remain separate contracts.
+[Ammunition Desk for 1.20.1](Weapon-Ammunition-1.20.1): illustrated lookup for 172 conventional weapon IDs and 13 base ammo identities, resolved through inherited methods. Net consumption and effects remain separate contracts.
 
 ## Explore the weapon profiles
 
-[Browse the illustrated concept collection](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?revision=b8da49a): compare released sprites with proposed upgrades, filter by family and open each source-backed profile. Concepts are not native acceptance.
+[Browse the illustrated Ascension Armory](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?revision=fae99f4): searchable concept cards beside the actual released sprites, full-size artwork, source profiles and available interactive authoring studies. The gallery explicitly distinguishes design coverage from native weapon acceptance.
+
 
 | Weapon | Read the original behavior and proposed upgrade |
 |---|---|
-| Soul Storm | [Full profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) · [Soul Flame default sight](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights) |
-| Baronator | [Full profile, alternating barrels and bonus grenade distinction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baronator-Weapon-Profile) |
-| Minigun | [Full profile, rotary identity and native acquisition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minigun-Weapon-Profile) |
-| Abominator | [Full profile and original-inspired concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Abominator-Weapon-Profile) |
-| Soul Drainer | [Full profile and life-leech contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
-| Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile) |
-| Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) |
-| Vortex Blaster | [Spirit-powered repulsion, original targeting and concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
+| Soul Storm | [Full profile](Soul-Storm-Weapon-Profile) · [Soul Flame default sight](Soul-Storm-Sights) |
+| Baronator | [Full profile, alternating barrels and bonus grenade distinction](Baronator-Weapon-Profile) |
+| Minigun | [Full profile, rotary identity and native acquisition](Minigun-Weapon-Profile) |
+| Abominator | [Full profile and original-inspired concept](Abominator-Weapon-Profile) |
+| Soul Drainer | [Full profile and life-leech contract](Soul-Drainer-Weapon-Profile) |
+| Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](Fungal-Cannon-Weapon-Profile) |
+| Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](Discharge-Shotgun-Weapon-Profile) |
+| Vortex Blaster | [Spirit-powered repulsion, original targeting and concepts](Vortex-Blaster-Weapon-Profile) |
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
-| Shoe Flinger | [Full profile, boot ammunition and equipment conservation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shoe-Flinger-Weapon-Profile) |
-| Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Iominator-Weapon-Profile) |
-| Hive Blaster | [Full profile, renderer caveats and upgrade concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile) |
+| Shoe Flinger | [Full profile, boot ammunition and equipment conservation](Shoe-Flinger-Weapon-Profile) |
+| Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](Iominator-Weapon-Profile) |
+| Hive Blaster | [Full profile, renderer caveats and upgrade concepts](Hive-Blaster-Weapon-Profile) |
 | Apoco Assault Rifle | [Source-pinned upgrade lineage, Vox Ponds kit association and concept review](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile) |
 | Apoco Rifle | [Distinct Discharge Rifle upgrade, explosive capsule behavior and refined concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) |
 | Apoco Shower | [Spirit-powered three-path discharge, conditional impacts and front-shroud concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Shower-Weapon-Profile) |
+| Spirit Shower | [Three-path Spirit attack, Jawe loot-table evidence and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
 | Carrot Cannon | [Carrot ammunition, botanical material provenance, concepts and unaccepted authoring](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
 
 The weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
 
 ## Build your own identity and play style
 
-[Functional upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) may deliberately multiply projectiles, increase damage and change behavior through declared parts. The original is the baseline, not the ceiling. [Alternate barrels and skins](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Alternate-Barrels-and-Skins) keep each weapon distinctive. [Earned charms, effects, stickers and emblems](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Charms-and-Effect-Customization) add boss/achievement progression, functional charm bonuses, custom finishers, projectile/tracer/impact styles and static, animated or glowing decals. Preserve previous concept versions and distinguish proposals from measured native results.
+[Functional upgrades](Functional-Weapon-Upgrades) may deliberately multiply projectiles, increase damage and change behavior through declared parts. The original is the baseline, not the ceiling. [Alternate barrels and skins](Alternate-Barrels-and-Skins) keep each weapon distinctive. [Earned charms, effects, stickers and emblems](Weapon-Charms-and-Effect-Customization) add boss/achievement progression, functional charm bonuses, custom finishers, projectile/tracer/impact styles and static, animated or glowing decals. Preserve previous concept versions and distinguish proposals from measured native results.
 
 ## Choose your presentation
 
