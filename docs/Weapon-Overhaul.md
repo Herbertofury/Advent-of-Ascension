@@ -42,6 +42,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
 | Predatorian Blaster | [Bone cannon concept, withering source contract and Ghast upgrade lineage](Predatorian-Blaster-Weapon-Profile) |
 | Gimmick | [Ten-pellet scattergun, colorful silhouette and optional inspection](Gimmick-Weapon-Profile) |
+| Purity Shotgun | [Blue-armored upgrade, shared boost and illustrated kit recipe](Purity-Shotgun-Weapon-Profile) |
 | Destruction Shotgun | [Three-pellet shared boosted-shot roll and infusion](Destruction-Shotgun-Weapon-Profile) |
 | Amplifier | [Five-pellet shotgun, explosive-hit gate and infusion recipe](Amplifier-Weapon-Profile) |
 | Mecha Cannon | [Orange cannonball and mechanical crafting lineage](Mecha-Cannon-Weapon-Profile) |
