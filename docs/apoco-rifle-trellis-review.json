@@ -1,0 +1,39 @@
+{
+  "status": "completed_reference_trial_not_accepted_weapon",
+  "elapsed_seconds": 4351.149854222,
+  "max_rss_kib": 1890452,
+  "glb_sha256": "7b61d81c576e7040f1ff53c0b69dcd1e44f2bddcb66ad753d917a48c73922180",
+  "triangles": 56328,
+  "vertices_with_uv_splits": 40579,
+  "exact_position_vertices": 28107,
+  "welded_nonmanifold_edges": 50,
+  "welded_boundary_edges": 0,
+  "preflight": "Supported-subset structural pass, no detected degenerate or collapsed-UV triangles",
+  "visual_review": {
+    "views": 6,
+    "positive": [
+      "recognizable overall refined concept silhouette",
+      "rear grip and trigger opening represented",
+      "red shell and ivory bands represented"
+    ],
+    "blocking": [
+      "fine rootwork and cutouts softened/fused",
+      "lime emissive detail lost in generated base color",
+      "emitter becomes an inert dark cap",
+      "single fused mesh has no moving-part ownership",
+      "exact-position welding reveals50nonmanifold edges",
+      "hands and native cameras untested"
+    ]
+  },
+  "projection_experiment": {
+    "status": "rejected_for_final_texturing",
+    "reason": "Source projection restores colors but visibly doubles/stretches details against changed geometry; retains concept baked lighting and mirrors unverified opposite side"
+  },
+  "next": [
+    "Use generated shape only as an authoring reference",
+    "Retopologize/separate shell, emitter, frame, trigger and attachment ownership",
+    "Author fitted UV/materials and seated emissive components",
+    "Recheck all model and gameplay acceptance gates"
+  ],
+  "native_accepted": false
+}
