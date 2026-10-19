@@ -1,0 +1,130 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "baseline": {
+    "id": "aoa3:abyssro",
+    "name": "Abyssro",
+    "family": "shotgun",
+    "stored_base_damage": 18.5,
+    "durability": 1100,
+    "stored_delay_ticks": 46,
+    "stored_recoil_modifier": 0.20000000298023224,
+    "class_sha256": "5d2d3ed79056b8e42b2a6ff13fd2c7e60261d14453bf26d713dee9d857a2832c",
+    "constructor_class": "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+    "flags": [],
+    "stored_pellets": 2,
+    "stored_knockback_factor": 0.30000001192092896
+  },
+  "factory": {
+    "id": "aoa3:abyssro",
+    "family": "shotgun",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun"
+    ],
+    "factory_literal_constants": [
+      {
+        "factory": "lambda$static$92",
+        "literal_constants": [
+          18.5,
+          2,
+          1100,
+          46,
+          0.30000001192092896,
+          0.20000000298023224
+        ],
+        "literal_instructions": [
+          {
+            "offset": 4,
+            "opcode": 19,
+            "value": 18.5
+          },
+          {
+            "offset": 7,
+            "opcode": 5,
+            "value": 2
+          },
+          {
+            "offset": 8,
+            "opcode": 17,
+            "value": 1100
+          },
+          {
+            "offset": 11,
+            "opcode": 16,
+            "value": 46
+          },
+          {
+            "offset": 13,
+            "opcode": 19,
+            "value": 0.30000001192092896
+          },
+          {
+            "offset": 16,
+            "opcode": 19,
+            "value": 0.20000000298023224
+          }
+        ],
+        "unresolved_literal_offsets": []
+      }
+    ],
+    "class_chain": [
+      "net/tslat/aoa3/content/item/weapon/shotgun/BaseShotgun",
+      "net/tslat/aoa3/content/item/weapon/gun/BaseGun"
+    ],
+    "status": "structural source map only; effective behavior requires method/call-chain review"
+  },
+  "origin": {
+    "id": "aoa3:abyssro",
+    "packaged_recipes": [
+      {
+        "entry": "data/aoa3/recipes/upgrade_kit_abyssro.json",
+        "sha256": "7d985c1451c1e8fdef490923e99d0727808b1eee4cd074cbe710a12d88595a0e",
+        "type": "aoa3:upgrade_kit",
+        "input_item_references": [
+          "aoa3:abyssal_upgrade_kit",
+          "aoa3:mechyro"
+        ],
+        "input_tag_references": [],
+        "upgrade_kit": "aoa3:abyssal_upgrade_kit",
+        "upgrade_input": "aoa3:mechyro"
+      }
+    ],
+    "direct_loot_references": [],
+    "upgrade_kit_loot_associations": {
+      "aoa3:abyssal_upgrade_kit": [
+        {
+          "entry": "data/aoa3/loot_tables/worlds/abyss.json",
+          "sha256": "75e1483950f796829d3de8853f3a279716aa549a42f157382c96d47373f609ca",
+          "world_id_from_path": "abyss"
+        }
+      ]
+    },
+    "lore_review": "not_completed",
+    "warning": "References are not a maker attribution, creator-intent statement or proof that the entry is active in this release. Ingredient alternatives and consumption rules need full recipe review."
+  },
+  "fire_path": {
+    "ammo": "aoa3:spreadshot",
+    "spawn_loop_projectile": "LimoniteBulletEntity",
+    "spawn_loop_age_input": 4,
+    "pellet_count": 2,
+    "auxiliary_createProjectileEntity": "MetalSlugEntity; not automatically the loop-spawned pellet",
+    "spread_expression": "0.1 * pelletCount * (1 - 0.15 * FORM level)",
+    "native_accepted": false
+  },
+  "recipes": {
+    "data/aoa3/recipes/upgrade_kit_abyssro.json": {
+      "type": "aoa3:upgrade_kit",
+      "input": {
+        "item": "aoa3:mechyro"
+      },
+      "result": {
+        "item": "aoa3:abyssro"
+      },
+      "upgrade_kit": {
+        "item": "aoa3:abyssal_upgrade_kit"
+      }
+    }
+  },
+  "class_inspection_sha256": "11fdcccfb6bf79b46600f106296c81ec6e33b901eee40470502f9bde648ba506",
+  "art_accepted": false
+}
