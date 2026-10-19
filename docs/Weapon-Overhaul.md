@@ -20,6 +20,8 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 [Illustrated Divine Station upgrades for 1.20.1](Divine-Station-Weapon-Upgrades-1.20.1): all 70 shipped routes, exact ingredients, source sprites and customization-preservation caveats.
 
+[Cannon progression and recipes for 1.20.1](Cannon-Progression-and-Recipes-1.20.1): all 50 cannons, illustrated recipe links, station selection and acquisition gaps.
+
 [Ammunition Desk for 1.20.1](Weapon-Ammunition-1.20.1): illustrated lookup for 172 conventional weapon IDs and 13 base ammo identities, resolved through inherited methods. Net consumption and effects remain separate contracts.
 
 ## Explore the weapon profiles

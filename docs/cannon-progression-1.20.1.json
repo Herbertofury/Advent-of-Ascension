@@ -1,0 +1,2285 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry_cannons": 50,
+  "output_recipes": 32,
+  "types": {
+    "aoa3:upgrade_kit": 15,
+    "aoa3:infusion": 16,
+    "minecraft:crafting_shapeless": 1
+  },
+  "without_direct_recipe": 18,
+  "records": [
+    {
+      "id": "aoa3:ancient_bomber",
+      "name": "Ancient Bomber",
+      "icon": "cannon-guide-ancient_bomber.png",
+      "icon_source": "assets/aoa3/textures/item/ancient_bomber.png",
+      "icon_sha256": "3ae75890aaba61f9f05a607a137d6686219566702e22a76401a5435ed8676327",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_ancient_bomber",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_ancient_bomber.json",
+          "source_sha256": "3004a9d53bc9b62a2d77b596a4991d18e7341ee8ed65690733c7c17d6257799d",
+          "output": {
+            "id": "aoa3:ancient_bomber",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:boom_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:ancient_upgrade_kit"
+            }
+          },
+          "display_name": "Ancient Bomber",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:boom_cannon"
+            },
+            "result": {
+              "item": "aoa3:ancient_bomber"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:ancient_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:ancient_discharger",
+      "name": "Ancient Discharger",
+      "icon": "cannon-guide-ancient_discharger.png",
+      "icon_source": "assets/aoa3/textures/item/ancient_discharger.png",
+      "icon_sha256": "9415763105dcc2ff10b7717b0d080ead98223d9227ea55d7b1e82f87999fa790",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_ancient_discharger",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_ancient_discharger.json",
+          "source_sha256": "3cfa8e0b2343f4722184bf268f5cf941fd44728d428cbbd7ac17a9ac727a0e9d",
+          "output": {
+            "id": "aoa3:ancient_discharger",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:discharge_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:ancient_upgrade_kit"
+            }
+          },
+          "display_name": "Ancient Discharger",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:discharge_cannon"
+            },
+            "result": {
+              "item": "aoa3:ancient_discharger"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:ancient_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:aqua_cannon",
+      "name": "Aqua Cannon",
+      "icon": "aqua-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/aqua_cannon.png",
+      "icon_sha256": "6c85165070937390e68c341258717038f53320726daf21aad03e5b5ef153f5a6",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Aqua-Cannon-Weapon-Profile",
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:balloon_bomber",
+      "name": "Balloon Bomber",
+      "icon": "balloon-bomber-original.png",
+      "icon_source": "assets/aoa3/textures/item/balloon_bomber.png",
+      "icon_sha256": "37f1e9055a4c13a0fbea9b6818431e879da18d4da50ca3d7ceb79a1c7ec54dc3",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Balloon-Bomber-Weapon-Profile",
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:big_blast",
+      "name": "Big Blast",
+      "icon": "cannon-guide-big_blast.png",
+      "icon_source": "assets/aoa3/textures/item/big_blast.png",
+      "icon_sha256": "3a68f1976d7e4f36ab6677b944e8b5d22264004187af8e8e8ef5abc05b5244b5",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:blast_cannon",
+      "name": "Blast Cannon",
+      "icon": "cannon-guide-blast_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/blast_cannon.png",
+      "icon_sha256": "bb74ea071e57756918e8815ddd1cf7ff322e04b8b87648ed021f3a11ea17b869",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_blast_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_blast_cannon.json",
+          "source_sha256": "46fd61afab6940d707afe60f2c8a123ff9fca7f3e6b2ec5a8257fbfe4c2df51b",
+          "output": {
+            "id": "aoa3:blast_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:purple_druse"
+            },
+            {
+              "item": "aoa3:purple_druse"
+            },
+            {
+              "item": "aoa3:enchanted_gunpowder"
+            },
+            {
+              "item": "aoa3:sticky_slime"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:gems/lapis"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Blast Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:purple_druse"
+              },
+              {
+                "item": "aoa3:purple_druse"
+              },
+              {
+                "item": "aoa3:enchanted_gunpowder"
+              },
+              {
+                "item": "aoa3:sticky_slime"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:gems/lapis"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:blast_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:blissful_blast",
+      "name": "Blissful Blast",
+      "icon": "cannon-guide-blissful_blast.png",
+      "icon_source": "assets/aoa3/textures/item/blissful_blast.png",
+      "icon_sha256": "892da945d2dc29d3f88aaecad3d6329588f38d47bdce7b27ca9b751af6cad30f",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_blissful_blast",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_blissful_blast.json",
+          "source_sha256": "c14b5c43f31ae4f117900b8107514aee5ea6390f23e5cd286a9696937f83f875",
+          "output": {
+            "id": "aoa3:blissful_blast",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:big_blast"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:smiley_upgrade_kit"
+            }
+          },
+          "display_name": "Blissful Blast",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:big_blast"
+            },
+            "result": {
+              "item": "aoa3:blissful_blast"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:smiley_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:bomb_launcher",
+      "name": "Bomb Launcher",
+      "icon": "cannon-guide-bomb_launcher.png",
+      "icon_source": "assets/aoa3/textures/item/bomb_launcher.png",
+      "icon_sha256": "8c727eaec9e0924a0f7addc341191ac53e04d81b98c3994e1893bc88893fb8f1",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_bomb_launcher",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_bomb_launcher.json",
+          "source_sha256": "68f0d8d7c4cecf05ff72a0e223ec7c58f8c63022469035787409100860b0f8b0",
+          "output": {
+            "id": "aoa3:bomb_launcher",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:blast_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:weapon_parts"
+            }
+          },
+          "display_name": "Bomb Launcher",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:blast_cannon"
+            },
+            "result": {
+              "item": "aoa3:bomb_launcher"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:weapon_parts"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:boom_boom",
+      "name": "Boom Boom",
+      "icon": "cannon-guide-boom_boom.png",
+      "icon_source": "assets/aoa3/textures/item/boom_boom.png",
+      "icon_sha256": "7c1777c91ee73d399c03d81b4311a532d348c7cbcba6c046dfabeaf02f538222",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_boom_boom",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_boom_boom.json",
+          "source_sha256": "bdb127aa4a5b04ed5adb0460566532946914ede401b6e8e158ad3d9ae4b28096",
+          "output": {
+            "id": "aoa3:boom_boom",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:unstable_gunpowder"
+            },
+            {
+              "item": "aoa3:unstable_gunpowder"
+            },
+            {
+              "item": "aoa3:ornamyte"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:gems/gemenyte"
+            },
+            {
+              "tag": "forge:gems/jewelyte"
+            },
+            {
+              "tag": "forge:gems/jewelyte"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Boom Boom",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:unstable_gunpowder"
+              },
+              {
+                "item": "aoa3:unstable_gunpowder"
+              },
+              {
+                "item": "aoa3:ornamyte"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:gems/gemenyte"
+              },
+              {
+                "tag": "forge:gems/jewelyte"
+              },
+              {
+                "tag": "forge:gems/jewelyte"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:boom_boom"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:boom_cannon",
+      "name": "Boom Cannon",
+      "icon": "cannon-guide-boom_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/boom_cannon.png",
+      "icon_sha256": "afcb7c4eb793b2cb1fed1bf26264b3e2bb043da930d1f3b8d2b04eebc8f71aa3",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_boom_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_boom_cannon.json",
+          "source_sha256": "5cbec2807be36f66e9416ad6a9e42a0b44f66ce772b45b83c2b1c47ac3e9379b",
+          "output": {
+            "id": "aoa3:boom_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:unstable_gunpowder"
+            },
+            {
+              "item": "aoa3:grenade"
+            },
+            {
+              "tag": "forge:ingots/lyon"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Boom Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:unstable_gunpowder"
+              },
+              {
+                "item": "aoa3:grenade"
+              },
+              {
+                "tag": "forge:ingots/lyon"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:boom_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:boulder_bomber",
+      "name": "Boulder Bomber",
+      "icon": "cannon-guide-boulder_bomber.png",
+      "icon_source": "assets/aoa3/textures/item/boulder_bomber.png",
+      "icon_sha256": "11273cb11477b4cb597dc35505578116f30f47c505f08dc1845de69cd2fdf9fd",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:bozo_blaster",
+      "name": "Bozo Blaster",
+      "icon": "cannon-guide-bozo_blaster.png",
+      "icon_source": "assets/aoa3/textures/item/bozo_blaster.png",
+      "icon_sha256": "596f4ec05fdd33ebeae553d5e2d652f6c0e6b7a0bd7ff2e212510aff91074f24",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_bozo_blaster",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_bozo_blaster.json",
+          "source_sha256": "e8c61139d87abeebcf07b5a0b612c81ab9cbfde8359592f3a2966235b2c15a24",
+          "output": {
+            "id": "aoa3:bozo_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:confetti_pile"
+            },
+            {
+              "item": "aoa3:hardened_confetti_ball"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:gems/lapis"
+            },
+            {
+              "tag": "forge:gunpowder"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Bozo Blaster",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:confetti_pile"
+              },
+              {
+                "item": "aoa3:hardened_confetti_ball"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:gems/lapis"
+              },
+              {
+                "tag": "forge:gunpowder"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:bozo_blaster"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:bulb_cannon",
+      "name": "Bulb Cannon",
+      "icon": "bulb-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/bulb_cannon.png",
+      "icon_sha256": "89b9931d812996e339a1866e07db67f9bcc0da55deb502ff0742d46a77d0ac57",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bulb-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_bulb_cannon",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_bulb_cannon.json",
+          "source_sha256": "f086e4e0f8ee431c04a9be1015cdc7dcccec6b37a324432d9662e03e91820604",
+          "output": {
+            "id": "aoa3:bulb_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:wither_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:abyssal_upgrade_kit"
+            }
+          },
+          "display_name": "Bulb Cannon",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:wither_cannon"
+            },
+            "result": {
+              "item": "aoa3:bulb_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:abyssal_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:carrot_cannon",
+      "name": "Carrot Cannon",
+      "icon": "carrot-cannon-original-sprite.png",
+      "icon_source": "assets/aoa3/textures/item/carrot_cannon.png",
+      "icon_sha256": "fd98dd4b5bfe2378a95e57d937d9bda07d49f3872a4475660dc87348cb07c537",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_carrot_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_carrot_cannon.json",
+          "source_sha256": "d7386d33094e2451771c633dd065493df85f8353766edd632e09416737630788",
+          "output": {
+            "id": "aoa3:carrot_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:small_orange_petal"
+            },
+            {
+              "item": "aoa3:rosid_root"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:crops/carrot"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Carrot Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:small_orange_petal"
+              },
+              {
+                "item": "aoa3:rosid_root"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:crops/carrot"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:carrot_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:clown_cannon",
+      "name": "Clown Cannon",
+      "icon": "cannon-guide-clown_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/clown_cannon.png",
+      "icon_sha256": "e09915ab25ad9bb86d9165e353fb4b26bd997d9433f994a0d1b9a9feb9cfa3e3",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:clowno_pulse",
+      "name": "Clowno-Pulse",
+      "icon": "clowno-pulse-original.png",
+      "icon_source": "assets/aoa3/textures/item/clowno_pulse.png",
+      "icon_sha256": "4ac2428a7d989690857eef62ab07154006996adb825e53f7079bc1cff471861a",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clowno-Pulse-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_clowno_pulse",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_clowno_pulse.json",
+          "source_sha256": "6e91df7de7f676ad9e98aacffe38158829abdde2542aaeb1e75a56f057d39c07",
+          "output": {
+            "id": "aoa3:clowno_pulse",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:pulse_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:clown_upgrade_kit"
+            }
+          },
+          "display_name": "Clowno-Pulse",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:pulse_cannon"
+            },
+            "result": {
+              "item": "aoa3:clowno_pulse"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:clown_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:coral_cannon",
+      "name": "Coral Cannon",
+      "icon": "coral-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/coral_cannon.png",
+      "icon_sha256": "521cb19f8e3d5da6a9397a1cd25dba720eeabe588361a6db951973531436a401",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Coral-Cannon-Weapon-Profile",
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:discharge_cannon",
+      "name": "Discharge Cannon",
+      "icon": "cannon-guide-discharge_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/discharge_cannon.png",
+      "icon_sha256": "c68a05147f5eab3483108aca0a3fff1657deea24c474feea47010e669fc73e57",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:energy_cannon",
+      "name": "Energy Cannon",
+      "icon": "energy-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/energy_cannon.png",
+      "icon_sha256": "273f8ec8eaf915aedf116554e55331cd81a24f9da8729ec9d1bc55e199dfa384",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Energy-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_energy_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_energy_cannon.json",
+          "source_sha256": "6df32298bbffddf32719663df4b70162cd9c477ef5fd1b1685b7c2927653f4cc",
+          "output": {
+            "id": "aoa3:energy_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:runic_energy"
+            },
+            {
+              "item": "aoa3:runic_energy"
+            },
+            {
+              "item": "aoa3:power_core"
+            },
+            {
+              "tag": "forge:ingots/elecanium"
+            },
+            {
+              "tag": "forge:ingots/elecanium"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Energy Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:runic_energy"
+              },
+              {
+                "item": "aoa3:runic_energy"
+              },
+              {
+                "item": "aoa3:power_core"
+              },
+              {
+                "tag": "forge:ingots/elecanium"
+              },
+              {
+                "tag": "forge:ingots/elecanium"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:energy_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:erebon_stickler",
+      "name": "Erebon Stickler",
+      "icon": "cannon-guide-erebon_stickler.png",
+      "icon_source": "assets/aoa3/textures/item/erebon_stickler.png",
+      "icon_sha256": "5b64f1c4b1ddb773a18563dcb14f0428e4f4c9f69b98c333b0630940f2b41e28",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:floro_rpg",
+      "name": "Floro RPG",
+      "icon": "cannon-guide-floro_rpg.png",
+      "icon_source": "assets/aoa3/textures/item/floro_rpg.png",
+      "icon_sha256": "bfcbcdcdb040fc28db2a43abfe0cfb011cbbc1524a042e0236ca54322cdae616",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_floro_rpg",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_floro_rpg.json",
+          "source_sha256": "2a3628c5f8173addd699f0f721d31519a935ee0578466613ae807846e79d566a",
+          "output": {
+            "id": "aoa3:floro_rpg",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:rpg"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:floro_upgrade_kit"
+            }
+          },
+          "display_name": "Floro RPG",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:rpg"
+            },
+            "result": {
+              "item": "aoa3:floro_rpg"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:floro_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:flower_cannon",
+      "name": "Flower Cannon",
+      "icon": "cannon-guide-flower_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/flower_cannon.png",
+      "icon_sha256": "c7ae1b560d9865d439e53cb66893c18dc39048dd310aa9cd8e4f3e19d803aa9e",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_flower_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_flower_cannon.json",
+          "source_sha256": "c77c1e6651d2ade4177596d02b11a59b0562dce2076a0b23172dfd11552eb710",
+          "output": {
+            "id": "aoa3:flower_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:small_green_petal"
+            },
+            {
+              "item": "aoa3:rosid_root"
+            },
+            {
+              "item": "aoa3:sticky_slime"
+            },
+            {
+              "item": "minecraft:dandelion"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:gems/jade"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Flower Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:small_green_petal"
+              },
+              {
+                "item": "aoa3:rosid_root"
+              },
+              {
+                "item": "aoa3:sticky_slime"
+              },
+              {
+                "item": "minecraft:dandelion"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:gems/jade"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:flower_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:fungal_cannon",
+      "name": "Fungal Cannon",
+      "icon": "fungal-cannon-original-sprite.png",
+      "icon_source": "assets/aoa3/textures/item/fungal_cannon.png",
+      "icon_sha256": "657134be61c80054516ac650670a5034708c749a1b10d2a24d5b7e41c7d82247",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_fungal_cannon",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_fungal_cannon.json",
+          "source_sha256": "6329df5283808b0ae73dfc21f838fed4fb80e603fbf0a979762bf384a528fbee",
+          "output": {
+            "id": "aoa3:fungal_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:flower_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:fungal_upgrade_kit"
+            }
+          },
+          "display_name": "Fungal Cannon",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:flower_cannon"
+            },
+            "result": {
+              "item": "aoa3:fungal_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:fungal_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:ghast_blaster",
+      "name": "Ghast Blaster",
+      "icon": "ghast-blaster-original.png",
+      "icon_source": "assets/aoa3/textures/item/ghast_blaster.png",
+      "icon_sha256": "934e672a72c1f88f70430176d1b242c588fcbb65b4096030ff3a0baf0deb0219",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghast-Blaster-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_ghast_blaster",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_ghast_blaster.json",
+          "source_sha256": "3592af6ae069b7f84c558f3bb4b09b98258d06f1e4d8427d76c5144e5e560c0b",
+          "output": {
+            "id": "aoa3:ghast_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:ghoulasm"
+            },
+            {
+              "item": "aoa3:wither_rune"
+            },
+            {
+              "item": "aoa3:unstable_gunpowder"
+            },
+            {
+              "tag": "forge:ingots/ghastly"
+            },
+            {
+              "tag": "forge:ingots/ghastly"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Ghast Blaster",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:ghoulasm"
+              },
+              {
+                "item": "aoa3:wither_rune"
+              },
+              {
+                "item": "aoa3:unstable_gunpowder"
+              },
+              {
+                "tag": "forge:ingots/ghastly"
+              },
+              {
+                "tag": "forge:ingots/ghastly"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:ghast_blaster"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:ghoul_cannon",
+      "name": "Ghoul Cannon",
+      "icon": "cannon-guide-ghoul_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/ghoul_cannon.png",
+      "icon_sha256": "a93f4a7f87d00383e2f2ddfa02412d80c0471da88801df1b5fea1ee2cf974221",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_ghoul_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_ghoul_cannon.json",
+          "source_sha256": "7bc6bdcf3fafa0cccea5ddf7e347033bceafb10745624ea64b8cf53652edeb62",
+          "output": {
+            "id": "aoa3:ghoul_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:ghoulasm"
+            },
+            {
+              "item": "aoa3:ghoulasm"
+            },
+            {
+              "tag": "forge:ingots/ghoulish"
+            },
+            {
+              "tag": "forge:ingots/ghoulish"
+            },
+            {
+              "tag": "forge:gunpowder"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Ghoul Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:ghoulasm"
+              },
+              {
+                "item": "aoa3:ghoulasm"
+              },
+              {
+                "tag": "forge:ingots/ghoulish"
+              },
+              {
+                "tag": "forge:ingots/ghoulish"
+              },
+              {
+                "tag": "forge:gunpowder"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:ghoul_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:giga_cannon",
+      "name": "Giga Cannon",
+      "icon": "cannon-guide-giga_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/giga_cannon.png",
+      "icon_sha256": "7dabbaf64437bf2622c0cc44e60c67ab9dd40e03f0b9235eeb8d7deaee3912c5",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:golder_bomber",
+      "name": "Golder Bomber",
+      "icon": "cannon-guide-golder_bomber.png",
+      "icon_source": "assets/aoa3/textures/item/golder_bomber.png",
+      "icon_sha256": "6d9c18e68eebbde87561f6c02ae4ce74ee790602567379f3fae1f85f0e8715c9",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_golder_bomber",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_golder_bomber.json",
+          "source_sha256": "e461260c3f49987ee5a59ceb9ea0014f26e4799d6498c66bd7d43f1ced92c061",
+          "output": {
+            "id": "aoa3:golder_bomber",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:boulder_bomber"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:golden_upgrade_kit"
+            }
+          },
+          "display_name": "Golder Bomber",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:boulder_bomber"
+            },
+            "result": {
+              "item": "aoa3:golder_bomber"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:golden_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:hive_blaster",
+      "name": "Hive Blaster",
+      "icon": "hive-blaster-original-sprite.png",
+      "icon_source": "assets/aoa3/textures/item/hive_blaster.png",
+      "icon_sha256": "0af4640c5a16accb8679c5e81f42b4841947abce654ca61d247b7ccf34492b62",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_hive_blaster",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_hive_blaster.json",
+          "source_sha256": "8da92a28d74b13bf6d39eaab1215cd32080308352652b5832c97751ddd92ebf9",
+          "output": {
+            "id": "aoa3:hive_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:shadow_blaster"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:lelyetian_upgrade_kit"
+            }
+          },
+          "display_name": "Hive Blaster",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:shadow_blaster"
+            },
+            "result": {
+              "item": "aoa3:hive_blaster"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:lelyetian_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:hive_howitzer",
+      "name": "Hive Howitzer",
+      "icon": "cannon-guide-hive_howitzer.png",
+      "icon_source": "assets/aoa3/textures/item/hive_howitzer.png",
+      "icon_sha256": "355b8a6d01f269c8fbd08afa0566ac12c2b7cca5c7d4a4bb7c539ad0a291a408",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_hive_howitzer",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_hive_howitzer.json",
+          "source_sha256": "4703cc2217af518b3fb50f006b702cd186db3c320b618eb99d225dfb012418cd",
+          "output": {
+            "id": "aoa3:hive_howitzer",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:hive_chunk"
+            },
+            {
+              "item": "aoa3:hive_chunk"
+            },
+            {
+              "item": "aoa3:hive_chunk"
+            },
+            {
+              "tag": "forge:ingots/varsium"
+            },
+            {
+              "tag": "forge:ingots/baronyte"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Hive Howitzer",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:hive_chunk"
+              },
+              {
+                "item": "aoa3:hive_chunk"
+              },
+              {
+                "item": "aoa3:hive_chunk"
+              },
+              {
+                "tag": "forge:ingots/varsium"
+              },
+              {
+                "tag": "forge:ingots/baronyte"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:hive_howitzer"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:iro_cannon",
+      "name": "Iro Cannon",
+      "icon": "cannon-guide-iro_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/iro_cannon.png",
+      "icon_sha256": "de87f3fee6816f3116a583c52c8fe1237b7e96c6b7704e2d65bc363241ed94ba",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:jack_funger",
+      "name": "Jack Funger",
+      "icon": "cannon-guide-jack_funger.png",
+      "icon_source": "assets/aoa3/textures/item/jack_funger.png",
+      "icon_sha256": "e8929d8771bba7d0578317557a4ede8e46ce2f8595076eb8829358ecdc9ba560",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_jack_funger",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_jack_funger.json",
+          "source_sha256": "a742c5664f5889cd7e3260dc8dbe87f90187722b48e2e51ef7682bcb3c07b97f",
+          "output": {
+            "id": "aoa3:jack_funger",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:jack_rocker"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:fungal_upgrade_kit"
+            }
+          },
+          "display_name": "Jack Funger",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:jack_rocker"
+            },
+            "result": {
+              "item": "aoa3:jack_funger"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:fungal_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:jack_rocker",
+      "name": "Jack Rocker",
+      "icon": "cannon-guide-jack_rocker.png",
+      "icon_source": "assets/aoa3/textures/item/jack_rocker.png",
+      "icon_sha256": "92b0424e81753585921a68c33c16c3fe413882c85f45caaa94dfbc66244603c9",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_jack_rocker",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_jack_rocker.json",
+          "source_sha256": "fa2246fdbb234ea6fec014e373446462748f9413196ff2c4fb90c40d6637a2aa",
+          "output": {
+            "id": "aoa3:jack_rocker",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "minecraft:cobblestone"
+            },
+            {
+              "item": "aoa3:dense_rock"
+            },
+            {
+              "item": "minecraft:clay_ball"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:gunpowder"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Jack Rocker",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "minecraft:cobblestone"
+              },
+              {
+                "item": "aoa3:dense_rock"
+              },
+              {
+                "item": "minecraft:clay_ball"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:gunpowder"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:jack_rocker"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:luxon_stickler",
+      "name": "Luxon Stickler",
+      "icon": "cannon-guide-luxon_stickler.png",
+      "icon_source": "assets/aoa3/textures/item/luxon_stickler.png",
+      "icon_sha256": "0c970ba2c0d6928dfab4f6ee1beb946170566bcce26b47e682f5a3818ea89b10",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:mecha_cannon",
+      "name": "Mecha Cannon",
+      "icon": "mecha-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/mecha_cannon.png",
+      "icon_sha256": "f5c663b54cdef122ad8e66953cde464771ed1489f411db5f8e96b10eb6c71602",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mecha-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:shapeless_craft_mecha_cannon",
+          "type": "minecraft:crafting_shapeless",
+          "source_path": "data/aoa3/recipes/shapeless_craft_mecha_cannon.json",
+          "source_sha256": "16ff0250f9a1a7b55410b4458c7e45eddcce3c62e92901d9178578511e138b93",
+          "output": {
+            "id": "aoa3:mecha_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:incomplete_mecha_cannon"
+            },
+            {
+              "item": "aoa3:power_core"
+            },
+            {
+              "item": "aoa3:mecha_gear"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {},
+          "display_name": "Mecha Cannon",
+          "raw": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "equipment",
+            "ingredients": [
+              {
+                "item": "aoa3:incomplete_mecha_cannon"
+              },
+              {
+                "item": "aoa3:power_core"
+              },
+              {
+                "item": "aoa3:mecha_gear"
+              }
+            ],
+            "result": {
+              "item": "aoa3:mecha_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:mini_cannon",
+      "name": "Mini Cannon",
+      "icon": "cannon-guide-mini_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/mini_cannon.png",
+      "icon_sha256": "c90248f039efd957ca1f4dd86c48b058b91abaae668312995131902eb25f52b5",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": [
+        {
+          "path": "data/aoa3/loot_tables/structures/precasia/precasian_lotto_hovel/main.json",
+          "sha256": "dcfdfe828574d72cc70d85ef7b2a211e7c1e855475cf50913642e2d6b0ead424"
+        }
+      ]
+    },
+    {
+      "id": "aoa3:missile_maker",
+      "name": "Missile Maker",
+      "icon": "cannon-guide-missile_maker.png",
+      "icon_source": "assets/aoa3/textures/item/missile_maker.png",
+      "icon_sha256": "f4014cedf5c286037ca3c1197994584d481d25786c7a5fe3967b6ac134c04e67",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_missile_maker",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_missile_maker.json",
+          "source_sha256": "118941c68db4cf84c6fcc3a2b32027a053efba939708d37f9333bc55991c12b2",
+          "output": {
+            "id": "aoa3:missile_maker",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:power_core"
+            },
+            {
+              "item": "aoa3:enchanted_gunpowder"
+            },
+            {
+              "item": "aoa3:unstable_gunpowder"
+            },
+            {
+              "tag": "forge:ingots/lyon"
+            },
+            {
+              "tag": "forge:ingots/lyon"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Missile Maker",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:power_core"
+              },
+              {
+                "item": "aoa3:enchanted_gunpowder"
+              },
+              {
+                "item": "aoa3:unstable_gunpowder"
+              },
+              {
+                "tag": "forge:ingots/lyon"
+              },
+              {
+                "tag": "forge:ingots/lyon"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:missile_maker"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:moon_cannon",
+      "name": "Moon Cannon",
+      "icon": "moon-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/moon_cannon.png",
+      "icon_sha256": "81554689a5ec570da34a4958e370213f4f7334c06993371e256845d8e45d89fc",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Moon-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_moon_cannon",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_moon_cannon.json",
+          "source_sha256": "aa1bbcba47cea78dd5331780e60aab11223fd40b3421ce94b696da6dfb4dbf3e",
+          "output": {
+            "id": "aoa3:moon_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:energy_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:lunar_upgrade_kit"
+            }
+          },
+          "display_name": "Moon Cannon",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:energy_cannon"
+            },
+            "result": {
+              "item": "aoa3:moon_cannon"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:lunar_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:pluton_stickler",
+      "name": "Pluton Stickler",
+      "icon": "cannon-guide-pluton_stickler.png",
+      "icon_source": "assets/aoa3/textures/item/pluton_stickler.png",
+      "icon_sha256": "c84ccaca819c47fc811d6dfdef48a94ff1f018c03a0143df260435cec343c465",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:predatorian_blaster",
+      "name": "Predatorian Blaster",
+      "icon": "predatorian-blaster-original.png",
+      "icon_source": "assets/aoa3/textures/item/predatorian_blaster.png",
+      "icon_sha256": "a0b277869255be6fcd4936fe71e808b83906c1a38c41b9c6bad9962ed956920f",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Predatorian-Blaster-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_predatorian_blaster",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_predatorian_blaster.json",
+          "source_sha256": "2a5100e59f6cb5ccc92d0a2cd0b5c6e5bc90558af15885473ccfb51fe7659c92",
+          "output": {
+            "id": "aoa3:predatorian_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:ghast_blaster"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:predator_upgrade_kit"
+            }
+          },
+          "display_name": "Predatorian Blaster",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:ghast_blaster"
+            },
+            "result": {
+              "item": "aoa3:predatorian_blaster"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:predator_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:pulse_cannon",
+      "name": "Pulse Cannon",
+      "icon": "pulse-cannon-original.png",
+      "icon_source": "assets/aoa3/textures/item/pulse_cannon.png",
+      "icon_sha256": "9652efc645b8a0bf13cd81e68a6ae83ff2c7f2827b092e8e0cfe4be5250a18bd",
+      "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pulse-Cannon-Weapon-Profile",
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_pulse_cannon",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_pulse_cannon.json",
+          "source_sha256": "8a4c416920b6d88944ede8b8b0943411c16d3382deda1f4091a8f30815a0039c",
+          "output": {
+            "id": "aoa3:pulse_cannon",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:purple_druse"
+            },
+            {
+              "item": "aoa3:red_druse"
+            },
+            {
+              "item": "aoa3:power_core"
+            },
+            {
+              "item": "aoa3:unstable_gunpowder"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Pulse Cannon",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:purple_druse"
+              },
+              {
+                "item": "aoa3:red_druse"
+              },
+              {
+                "item": "aoa3:power_core"
+              },
+              {
+                "item": "aoa3:unstable_gunpowder"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:pulse_cannon"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:rpg",
+      "name": "RPG",
+      "icon": "cannon-guide-rpg.png",
+      "icon_source": "assets/aoa3/textures/item/rpg.png",
+      "icon_sha256": "e29b001f1e4813536ef0a97a7b86fb92730fa39b07ed4b06fe1f53e29b0a917c",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_rpg",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_rpg.json",
+          "source_sha256": "feb299ffa8c328161279c3bff72ab9e5876e3788ecfc7761fcd5a9a320b7a969",
+          "output": {
+            "id": "aoa3:rpg",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:void_scales"
+            },
+            {
+              "item": "minecraft:tnt"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:ingots/limonite"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "RPG",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:void_scales"
+              },
+              {
+                "item": "minecraft:tnt"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:ingots/limonite"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:rpg"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:selyan_stickler",
+      "name": "Selyan Stickler",
+      "icon": "cannon-guide-selyan_stickler.png",
+      "icon_source": "assets/aoa3/textures/item/selyan_stickler.png",
+      "icon_sha256": "b71d6e0bbe8e6bd8378c20128be6de0a6dc71b9603b5665bcad29dc66de84f75",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:shadow_blaster",
+      "name": "Shadow Blaster",
+      "icon": "cannon-guide-shadow_blaster.png",
+      "icon_source": "assets/aoa3/textures/item/shadow_blaster.png",
+      "icon_sha256": "2c6eb98e31d222f28700f49fa85b7931dd10da3c98a6fde50cc7d1ea97aac1cd",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_shadow_blaster",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_shadow_blaster.json",
+          "source_sha256": "eaadea65b6a310b9bc006ddfcf0b4c93357ff83120214079f71e042d751228e5",
+          "output": {
+            "id": "aoa3:shadow_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "item": "aoa3:nightmare_flakes"
+            },
+            {
+              "item": "aoa3:nightmare_flakes"
+            },
+            {
+              "tag": "forge:gems/bloodstone"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            },
+            {
+              "tag": "forge:ingots/iron"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Shadow Blaster",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "item": "aoa3:nightmare_flakes"
+              },
+              {
+                "item": "aoa3:nightmare_flakes"
+              },
+              {
+                "tag": "forge:gems/bloodstone"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              },
+              {
+                "tag": "forge:ingots/iron"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:shadow_blaster"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:shyre_blaster",
+      "name": "Shyre Blaster",
+      "icon": "cannon-guide-shyre_blaster.png",
+      "icon_source": "assets/aoa3/textures/item/shyre_blaster.png",
+      "icon_sha256": "6eefcab3a55b202d24a2e7ba38968e31ddf8b764edb84c942ef85efcca914035",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:infusion_shyre_blaster",
+          "type": "aoa3:infusion",
+          "source_path": "data/aoa3/recipes/infusion_shyre_blaster.json",
+          "source_sha256": "b856d3ef3ee64a90bcfaf25a7419aa7ac2e237f7e163ff98196affff5d6feb31",
+          "output": {
+            "id": "aoa3:shyre_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": [
+            {
+              "tag": "forge:ingots/shyrestone"
+            },
+            {
+              "tag": "forge:ingots/shyrestone"
+            },
+            {
+              "tag": "forge:gems/shyregem"
+            },
+            {
+              "tag": "forge:gems/shyregem"
+            },
+            {
+              "tag": "forge:gunpowder"
+            }
+          ],
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:cannon_frame"
+            }
+          },
+          "display_name": "Shyre Blaster",
+          "raw": {
+            "type": "aoa3:infusion",
+            "ingredients": [
+              {
+                "tag": "forge:ingots/shyrestone"
+              },
+              {
+                "tag": "forge:ingots/shyrestone"
+              },
+              {
+                "tag": "forge:gems/shyregem"
+              },
+              {
+                "tag": "forge:gems/shyregem"
+              },
+              {
+                "tag": "forge:gunpowder"
+              }
+            ],
+            "input": {
+              "item": "aoa3:cannon_frame"
+            },
+            "result": {
+              "item": "aoa3:shyre_blaster"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:smile_blaster",
+      "name": "Smile Blaster",
+      "icon": "cannon-guide-smile_blaster.png",
+      "icon_source": "assets/aoa3/textures/item/smile_blaster.png",
+      "icon_sha256": "04476eebcfe2ef15562389596bb3081a2cda8d701b06402b1737aec41631554c",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_smile_blaster",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_smile_blaster.json",
+          "source_sha256": "9b805765f7d41080841c61531dbdbd1c9030d054d1c7d2ad830b30cfba3f17ed",
+          "output": {
+            "id": "aoa3:smile_blaster",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:shadow_blaster"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:smiley_upgrade_kit"
+            }
+          },
+          "display_name": "Smile Blaster",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:shadow_blaster"
+            },
+            "result": {
+              "item": "aoa3:smile_blaster"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:smiley_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:super_cannon",
+      "name": "Super Cannon",
+      "icon": "cannon-guide-super_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/super_cannon.png",
+      "icon_sha256": "861b5f1ee83b6804dfa5cddab563f69ebe106d8902c9238f99e4ecfcee7ebd33",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:ultra_cannon",
+      "name": "Ultra Cannon",
+      "icon": "cannon-guide-ultra_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/ultra_cannon.png",
+      "icon_sha256": "99446cae4d8c794898d4cf86762638128f2d0a62da2b1c06f7e5fc8db90af0c6",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:vox_cannon",
+      "name": "Vox Cannon",
+      "icon": "cannon-guide-vox_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/vox_cannon.png",
+      "icon_sha256": "4759cad27044a8cd7f1d83dbaff61ac4ee313bd55d9e40475c3a60cfc3c520a9",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": [
+        {
+          "path": "data/aoa3/loot_tables/entities/nightwing.json",
+          "sha256": "10be608cf36f4f8c6b6ee5118ce76fbab3c436ab40dd2132ecbb45626f337785"
+        }
+      ]
+    },
+    {
+      "id": "aoa3:water_balloon_bomber",
+      "name": "Water-Balloon Bomber",
+      "icon": "cannon-guide-water_balloon_bomber.png",
+      "icon_source": "assets/aoa3/textures/item/water_balloon_bomber.png",
+      "icon_sha256": "0517b5365dce4bd9b707c7049d4b0324bb818aae6b0a188cb8ce2524ca78a009",
+      "profile": null,
+      "recipes": [
+        {
+          "version": "1.20.1",
+          "release": "3.7.1",
+          "recipe_id": "aoa3:upgrade_kit_water_balloon_bomber",
+          "type": "aoa3:upgrade_kit",
+          "source_path": "data/aoa3/recipes/upgrade_kit_water_balloon_bomber.json",
+          "source_sha256": "dad7fd73ee3fefb86c084b706fe922256013424fde5fe1c71d732ee547c9e6c2",
+          "output": {
+            "id": "aoa3:water_balloon_bomber",
+            "count": 1
+          },
+          "layout": null,
+          "symbols": null,
+          "ingredients": null,
+          "conditions": [],
+          "mechanics": {
+            "input": {
+              "item": "aoa3:balloon_bomber"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:seaside_upgrade_kit"
+            }
+          },
+          "display_name": "Water-Balloon Bomber",
+          "raw": {
+            "type": "aoa3:upgrade_kit",
+            "input": {
+              "item": "aoa3:balloon_bomber"
+            },
+            "result": {
+              "item": "aoa3:water_balloon_bomber"
+            },
+            "upgrade_kit": {
+              "item": "aoa3:seaside_upgrade_kit"
+            }
+          }
+        }
+      ],
+      "loot_table_references": []
+    },
+    {
+      "id": "aoa3:wither_cannon",
+      "name": "Wither Cannon",
+      "icon": "cannon-guide-wither_cannon.png",
+      "icon_source": "assets/aoa3/textures/item/wither_cannon.png",
+      "icon_sha256": "5c9e085be2c9a9781e7112b1fb2bbf7ea41663a3c228fd4deb1c9ad0157c4797",
+      "profile": null,
+      "recipes": [],
+      "loot_table_references": [
+        {
+          "path": "data/minecraft/loot_tables/entities/wither.json",
+          "sha256": "d7798efdc818342ed7f13486e8b04b79778c225366771dadefe59ebb906c8d4c"
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/recipe/UpgradeKitRecipe.class",
+      "sha256": "0661caac92f193487234c8bb3f6603bfc19fdd3f895f973f146e98eaaf5da58e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/recipe/InfusionRecipe.class",
+      "sha256": "715316357adc7e293f2f4c56bb875ff89780fc5519f2b5af7400f3d051ac5e09"
+    },
+    {
+      "path": "net/tslat/aoa3/common/container/DivineStationContainer.class",
+      "sha256": "0f8940c0ec8fa1ca56638322e7cb2e1ca0b05fd233bd7a4a549275fd214c7997"
+    },
+    {
+      "path": "net/tslat/aoa3/common/container/InfusionTableContainer.class",
+      "sha256": "021237e0b8ec2ffcafbcf9dcc2d877615298486a92563116b38f8769f61dff02"
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "CustomResultSlot.java": "b8852876f7722a2c31c3861ab11cd00e839a8f4d77b571c37a0c2042d4bbbb1e",
+    "DivineStationContainer.java": "d5a68c1927fa721d2fb4531ea0b16987d9b8656253470fe3f17b7f368960d512",
+    "InfusionTableContainer.java": "b4bd97a7780001ca1beada25ffbdb1686a7f11a6374ff9ae93fc35c143988ee3",
+    "InfusionRecipe.java": "2762cf951bedd9700b485130f1a1e4b1650682e03ff8906e846a3b1593b4087a",
+    "UpgradeKitRecipe.java": "bd62c16fb0a7dbda749d0f8ee153b3f0beb2006620415bc0a0a0e3ea8299fa3b"
+  },
+  "scope": "Bundled recipe/output and direct named loot references. Missing recipes do not establish unobtainability; native effective datapack and caller behavior untested",
+  "native_tested": false
+}
