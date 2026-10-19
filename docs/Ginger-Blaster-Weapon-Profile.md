@@ -29,6 +29,8 @@ Keep the caramel-brown front and grip, dark gray structural middle, and angular 
 
 ## Infusion tutorial with source textures
 
+[Follow the illustrated 1.20.1 workstation and slot walkthrough](Infusion-Table-Crafting-1.20.1). Put the two Sour Gummies in separate ingredient slots; one stack of two does not replace them.
+
 Use a **Shotgun Frame** as the infusion input, with:
 
 - Sour Gummy ×2

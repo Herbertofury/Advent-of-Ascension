@@ -1,6 +1,8 @@
 # Crafting and recipes
 
-[Make frames before Infusion: Frame Bench workflow and eight armor-set shopping lists](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Frame-Bench-and-Armor-Infusion-1.21.1)
+[1.20.1 Infusion Table walkthrough: station recipe, separate ingredient slots and Ginger Blaster](Infusion-Table-Crafting-1.20.1)
+
+[Make frames before Infusion: Frame Bench workflow and eight armor-set shopping lists](Frame-Bench-and-Armor-Infusion-1.21.1)
 
 **See the ingredients, keep the version straight.** Recipes are extracted from official AoA release artifacts and paired with rendered item/block previews. This reference preserves conditional integration recipes and custom serializer fields instead of pretending every recipe is a crafting-table grid.
 
@@ -33,15 +35,15 @@ In the [Recipe Observatory](https://herbertofury.github.io/Advent-of-Ascension/r
 - **256 recipe cards cover 255 weapon outputs across all 13 historical weapon families.** Alternate Grenade recipes remain separate cards.
 - Infusion and upgrade recipes keep their existing workstation instructions alongside the weapon usage link.
 - These usage links apply to **1.12.2 / AoA 3.3.6**. Selecting another release never substitutes a historical weapon guide for that release's behavior.
-- A missing recipe does **not** mean a weapon is unobtainable. Drops, trades and other acquisition paths are separate evidence; the [weapon reference library](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Reference-Library) also includes weapons without a matching recipe definition.
+- A missing recipe does **not** mean a weapon is unobtainable. Drops, trades and other acquisition paths are separate evidence; the [weapon reference library](Weapon-Reference-Library) also includes weapons without a matching recipe definition.
 
 All previous recipe-guide links are retained. The browser uses a compact inline lookup, with no additional network request or inventory scan for these links.
 
-[Weapons without a recipe: checked historical trader purchases and upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Buying-Weapons-and-Trader-Upgrades-1.12.2) cover 29 offers, including 18 weapon IDs absent from the recipe-output and creature-loot indexes.
+[Weapons without a recipe: checked historical trader purchases and upgrades](Buying-Weapons-and-Trader-Upgrades-1.12.2) cover 29 offers, including 18 weapon IDs absent from the recipe-output and creature-loot indexes.
 
 ## Illustrated walkthroughs
 
-- [Historical Infusion crafting and enchanting · 1.12.2](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infusion-Table-Crafting-and-Enchanting-1.12.2): 386 definitions, separate base slot, 37 enchantment families and checked XP defaults.
+- [Historical Infusion crafting and enchanting · 1.12.2](Infusion-Table-Crafting-and-Enchanting-1.12.2): 386 definitions, separate base slot, 37 enchantment families and checked XP defaults.
 
 - [Imbuing Chamber enchanting · 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Imbuing-Chamber-Enchanting-1.21.1): Power Stones, focus combinations, skill requirements, durability and immediate target insertion.
 
@@ -101,40 +103,40 @@ The 1.12.2 recipe explorer distinguishes 28 explicit vanilla item variants: sixt
 
 ## Repair equipment
 
-[Illustrated Mending Table walkthrough](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mending-Table-and-Repair-Materials-1.21.1): station recipe, Repair Dust versus Compound, timed Solution conversion and the released stale-preview precaution.
+[Illustrated Mending Table walkthrough](Mending-Table-and-Repair-Materials-1.21.1): station recipe, Repair Dust versus Compound, timed Solution conversion and the released stale-preview precaution.
 
 ## Modern rune inputs and station limits
 
-[Illustrated 1.21.1 rune-production guide](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rune-Production-and-Current-Limits-1.21.1): two stonecutting recipes, fourteen rune references, whole-stack post behavior and Randomizer equipment-condition pitfalls. Station survival acquisition remains unverified; do not substitute the historical Runation route.
+[Illustrated 1.21.1 rune-production guide](Rune-Production-and-Current-Limits-1.21.1): two stonecutting recipes, fourteen rune references, whole-stack post behavior and Randomizer equipment-condition pitfalls. Station survival acquisition remains unverified; do not substitute the historical Runation route.
 
 ## Cooking with Ashfern
 
-[Illustrated Ashfern cooking guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ashfern-Cooking-and-Food-Preparation-1.21.1): two occupied input slots, 25 checked AoA food routes, six outputs and the difference between an edible input and an edible result. Includes twenty named fish previews and recipe-matching troubleshooting.
+[Illustrated Ashfern cooking guide for 1.21.1](Ashfern-Cooking-and-Food-Preparation-1.21.1): two occupied input slots, 25 checked AoA food routes, six outputs and the difference between an edible input and an edible result. Includes twenty named fish previews and recipe-matching troubleshooting.
 
 ## Tea Sink brewing
 
-[Tea Sink recipes and ingredient-priority guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tea-Sink-Brewing-and-Ingredient-Priority-1.21.1): craft the sink and Cups, harvest Tea Shreddings, manage automatic additive selection and avoid the released melon-return branch. Creative selection is checked separately.
+[Tea Sink recipes and ingredient-priority guide for 1.21.1](Tea-Sink-Brewing-and-Ingredient-Priority-1.21.1): craft the sink and Cups, harvest Tea Shreddings, manage automatic additive selection and avoid the released melon-return branch. Creative selection is checked separately.
 
 ## Infused Press storage and piston control
 
-[Infused Press operating reference for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Infused-Press-Compression-and-Piston-Control-1.21.1): nine-stack matching, downward piston layout, one-tier decompression, comparator limitations and high-tier serialization checks. Station acquisition and actual piston timing remain separately unverified.
+[Infused Press operating reference for 1.21.1](Infused-Press-Compression-and-Piston-Control-1.21.1): nine-stack matching, downward piston layout, one-tier decompression, comparator limitations and high-tier serialization checks. Station acquisition and actual piston timing remain separately unverified.
 
 ## Divine Station weapon upgrades
 
-[All 70 illustrated 1.20.1 upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.20.1), covering 18 named kits plus Weapon Parts. This separate catalog uses released AoA3.7.1 data and checks the output-template/NBT transfer limitation. Every matching 1.20.1 recipe-browser card now links to this version-specific guide.
+[All 70 illustrated 1.20.1 upgrade routes](Divine-Station-Weapon-Upgrades-1.20.1), covering 18 named kits plus Weapon Parts. This separate catalog uses released AoA3.7.1 data and checks the output-template/NBT transfer limitation. Every matching 1.20.1 recipe-browser card now links to this version-specific guide.
 
-[All 36 illustrated 1.21.1 upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Divine-Station-Weapon-Upgrades-1.21.1), covering 17 named kits plus Weapon Parts. Check positional inputs and the configured-output component policy before upgrading customized weapons. Active acquisition remains pack-specific.
+[All 36 illustrated 1.21.1 upgrade routes](Divine-Station-Weapon-Upgrades-1.21.1), covering 17 named kits plus Weapon Parts. Check positional inputs and the configured-output component policy before upgrading customized weapons. Active acquisition remains pack-specific.
 
 ## Original trophies and gold crafting
 
-[Gold Trophy recipe and elite progression guide for 1.21.1](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Trophies-Gold-Crafting-and-Elite-Encounters-1.21.1): nine original normal trophies of one valid entity ID, first-record preservation and the distinction between collected originals and spawn-egg decorations.
+[Gold Trophy recipe and elite progression guide for 1.21.1](Trophies-Gold-Crafting-and-Elite-Encounters-1.21.1): nine original normal trophies of one valid entity ID, first-record preservation and the distinction between collected originals and spawn-egg decorations.
 
 ## Historical furnace conversions
 
-[All 56 Java-registered furnace recipes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Furnace-Recipes-and-Material-Recycling-1.12.2) now have input/output pictures and exact browser links: 29 ores, four bone fragments, sixteen fish, five meats and two recycling steps. Their documentation-assigned link IDs are clearly labeled and are not original in-game recipe IDs. The previous 1,172 definitions are preserved.
+[All 56 Java-registered furnace recipes](Furnace-Recipes-and-Material-Recycling-1.12.2) now have input/output pictures and exact browser links: 29 ores, four bone fragments, sixteen fish, five meats and two recycling steps. Their documentation-assigned link IDs are clearly labeled and are not original in-game recipe IDs. The previous 1,172 definitions are preserved.
 
 
 ## Historical tea and Ore Dictionary ingredients
 
-[Tea Sink brewing and drink effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Tea-Sink-Brewing-Priority-and-Drink-Effects-1.12.2) covers the two equipment recipes, three tea branches and survival/creative differences. The 34 Ore Dictionary ingredient occurrences in the historical recipe data now display their actual symbolic names, including plankWood, instead of an unnamed item. Membership is supplied by the active Forge environment and is not invented by this index.
+[Tea Sink brewing and drink effects](Tea-Sink-Brewing-Priority-and-Drink-Effects-1.12.2) covers the two equipment recipes, three tea branches and survival/creative differences. The 34 Ore Dictionary ingredient occurrences in the historical recipe data now display their actual symbolic names, including plankWood, instead of an unnamed item. Membership is supplied by the active Forge environment and is not invented by this index.
 
