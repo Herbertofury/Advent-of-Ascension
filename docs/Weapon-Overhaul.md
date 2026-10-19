@@ -29,52 +29,63 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 
 | Weapon | Read the original behavior and proposed upgrade |
 |---|---|
-| Soul Storm | [Full profile](Soul-Storm-Weapon-Profile) · [Soul Flame default sight](Soul-Storm-Sights) |
-| Balloon Bomber | [Carnival concept, Balloon ammunition, impact behavior and inspection storyboard](Balloon-Bomber-Weapon-Profile) |
-| Baronator | [Full profile, alternating barrels and bonus grenade distinction](Baronator-Weapon-Profile) |
-| Minigun | [Full profile, rotary identity and native acquisition](Minigun-Weapon-Profile) |
-| Abominator | [Full profile and original-inspired concept](Abominator-Weapon-Profile) |
-| Soul Drainer | [Full profile and life-leech contract](Soul-Drainer-Weapon-Profile) |
-| Fungal Cannon | [Full profile, native weakening effect and original projectile comparison](Fungal-Cannon-Weapon-Profile) |
-| Discharge Shotgun | [Full profile, two-stage impact and upgrade concepts](Discharge-Shotgun-Weapon-Profile) |
-| Vortex Blaster | [Spirit-powered repulsion, original targeting and concepts](Vortex-Blaster-Weapon-Profile) |
-| Ghast Blaster | [Dark purple cannon, shadow projectile, conditional withering and infusion lineage](Ghast-Blaster-Weapon-Profile) |
-| Gravity Blaster | [Self-launch, nearby hostile control, infusion and upgrade concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
-| Predatorian Blaster | [Bone cannon concept, withering source contract and Ghast upgrade lineage](Predatorian-Blaster-Weapon-Profile) |
-| Gimmick | [Ten-pellet scattergun, colorful silhouette and optional inspection](Gimmick-Weapon-Profile) |
-| Clown Cracker | [Carnival-colored sniper, infusion and optional inspection concepts](Clown-Cracker-Weapon-Profile) |
-| Hive Cracker | [Lelyetian sniper upgrade, amber materials and proposed inspect](Hive-Cracker-Weapon-Profile) |
-| Crystaneer | [Jewel-cluster sniper, actual scope and illustrated conditional reward pool](Crystaneer-Weapon-Profile) |
-| Purple Punisher | [Haunted upgrade, original two-pellet behavior and inspect concepts](Purple-Punisher-Weapon-Profile) |
-| Red Rocket | [Crimson two-pellet identity, five-slot infusion and Haunted upgrade](Red-Rocket-Weapon-Profile) |
-| Brown Blaster | [Original three-pellet family, infusion and Seaside upgrade comparison](Brown-Blaster-Weapon-Profile) |
-| Blast Barrel | [Three-pellet explosive-hit source and historical Dawnlight Dungeon association](Blast-Barrel-Weapon-Profile) |
-| Long Shot | [Two-pellet extended-range source path, infusion and blue-petal concept](Long-Shot-Weapon-Profile) |
-| Blue Barrel | [Three-pellet Seaside upgrade, cobalt material study and rear-charm proposal](Blue-Barrel-Weapon-Profile) |
-| Vivo | [Compact gold-and-charcoal shotgun, Lyon infusion and three-pellet source behavior](Vivo-Weapon-Profile) |
-| Ginger Blaster | [Five-pellet source, illustrated infusion and partial confection concept](Ginger-Blaster-Weapon-Profile) |
-| Boulder | [Four pellets, gray/crimson identity and Rocky upgrade recipe](Boulder-Weapon-Profile) |
-| Purity Shotgun | [Blue-armored upgrade, shared boost and illustrated kit recipe](Purity-Shotgun-Weapon-Profile) |
-| Destruction Shotgun | [Three-pellet shared boosted-shot roll and infusion](Destruction-Shotgun-Weapon-Profile) |
-| Amplifier | [Five-pellet shotgun, explosive-hit gate and infusion recipe](Amplifier-Weapon-Profile) |
-| Mecha Cannon | [Orange cannonball and mechanical crafting lineage](Mecha-Cannon-Weapon-Profile) |
-| Mechyro | [Mechanical two-pellet shotgun, crafting and Abyssro upgrade lineage](Mechyro-Weapon-Profile) |
-| Abyssro | [Compact two-pellet shotgun and Abyss-associated upgrade lineage](Abyssro-Weapon-Profile) |
-| Clowno-Pulse | [Three-crown concept, Pulse upgrade and defensive firing pulse](Clowno-Pulse-Weapon-Profile) |
-| Pulse Cannon | [Rectangular cannon concept with separate shooter-centered repulsion](Pulse-Cannon-Weapon-Profile) |
-| Rosid Rifle | [Botanical sniper concept, Metal Slugs and tooltip-versus-impact-hook discrepancy](Rosid-Rifle-Weapon-Profile) |
-| Shoe Flinger | [Full profile, boot ammunition and equipment conservation](Shoe-Flinger-Weapon-Profile) |
-| Iominator | [Full profile, green-spark projectile and Ancient Kit upgrade](Iominator-Weapon-Profile) |
-| Hive Blaster | [Full profile, renderer caveats and upgrade concepts](Hive-Blaster-Weapon-Profile) |
-| Apoco Assault Rifle | [Source-pinned upgrade lineage, Vox Ponds kit association and concept review](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile) |
-| Apoco Rifle | [Distinct Discharge Rifle upgrade, explosive capsule behavior and refined concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) |
-| Apoco Shower | [Spirit-powered three-path discharge, conditional impacts and front-shroud concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Shower-Weapon-Profile) |
-| Energy Cannon | [Blue forked cannon, illustrated infusion recipe and Lunar upgrade](Energy-Cannon-Weapon-Profile) |
-| Moon Cannon | [Forked magenta identity, heavy/energy damage split and Lunar kit lineage](Moon-Cannon-Weapon-Profile) |
-| Spirit Shower | [Three-path Spirit attack, Jawe loot-table evidence and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
-| Carrot Cannon | [Carrot ammunition, botanical material provenance, concepts and unaccepted authoring](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
+| Abominator | [Original-inspired heavy weapon and alternate barrel exploration](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Abominator-Weapon-Profile) |
+| Abyssro | [Compact two-pellet Spreadshot identity and Abyss-associated Mechyro upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Abyssro-Weapon-Profile) |
+| Amplifier | [Five-pellet shotgun, successful-hit explosion hook and infusion recipe](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Amplifier-Weapon-Profile) |
+| Apoco Assault Rifle | [Vox Ponds-associated upgrade lineage; organic styling remains interpretation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile) |
+| Apoco Rifle | [Explosive Discharge Capsule identity with a refined organic shell](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) |
+| Apoco Shower | [Spirit-powered three-path discharge and pale front-shroud concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Shower-Weapon-Profile) |
+| Balloon Bomber | [Red-gold carnival cannon, Balloon ammunition and playful inspection storyboard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Balloon-Bomber-Weapon-Profile) |
+| Baron SSR | [Red-brown Metal Slug sniper with historical Baroness loot evidence and restrained material/inspect concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baron-SSR-Weapon-Profile) |
+| Baronator | [Alternating upper/lower barrel presentation; preserve the grenade distinction](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Baronator-Weapon-Profile) |
+| Blast Barrel | [Three-pellet explosive-hit shotgun with a historical Dawnlight Dungeon association and controlled amber concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blast-Barrel-Weapon-Profile) |
+| Blue Barrel | [Three-pellet Seaside upgrade of Brown Blaster, cobalt material study and rear-mounted charm proposal](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blue-Barrel-Weapon-Profile) |
+| Boulder | [Four-pellet Spreadshot identity, stepped stone-like silhouette and Demolisher upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Boulder-Weapon-Profile) |
+| Brown Blaster | [Three-pellet shotgun with illustrated infusion workflow and verified Seaside upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Brown-Blaster-Weapon-Profile) |
+| Carrot Cannon | [Carrot ammunition, botanical shape and rootwork design](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Carrot-Cannon-Weapon-Profile) |
+| Clown Cracker | [Carnival-colored Metal Slug sniper, seven-slot infusion and optional confetti inspect concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cracker-Weapon-Profile) |
+| Clowno-Pulse | [Three red crowns, playful inspect concept and shooter-centered defensive pulse](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clowno-Pulse-Weapon-Profile) |
+| Crystaneer | [Jewel-cluster sniper with original scope overlay, illustrated conditional loot and inspect concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Crystaneer-Weapon-Profile) |
+| Dark Beast | [Fork-jawed dark Metal Slug sniper, pictured Darkly upgrade and revised material/inspection proposals](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Dark-Beast-Weapon-Profile) |
+| Destruction Shotgun | [Three pellets share one boosted-shot roll; infusion and Purity upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Destruction-Shotgun-Weapon-Profile) |
+| Discharge Shotgun | [Owner-selected scattercaster target with original four-projectile behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) |
+| Discharge Sniper | [Crimson capsule-powered sniper; pictured Divine upgrade, conditional explosion policy and unresolved original flight visuals](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Sniper-Weapon-Profile) |
+| Energy Cannon | [Blue split-jaw cannon, illustrated infusion recipe and mixed damage identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Energy-Cannon-Weapon-Profile) |
+| Floro500 | [Magenta-green Metal Slug sniper with pictured Floro upgrade, finish variants and cosmetic petal inspection](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Floro500-Weapon-Profile) |
+| Fungal Cannon | [Fungal silhouette and the original weakening-effect contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile) |
+| Ghast Blaster | [Dark purple cannon, heavy shadow projectile and conditional withering effect](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghast-Blaster-Weapon-Profile) |
+| Gimmick | [Colorful ten-pellet Spreadshot weapon; expressive eye inspection is a new optional proposal](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gimmick-Weapon-Profile) |
+| Ginger Blaster | [Five-pellet source behavior, illustrated infusion and partial confection-themed concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ginger-Blaster-Weapon-Profile) |
+| Gravity Blaster | [Self-launch and hostile-control identity with gravity-focused upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gravity-Blaster-Weapon-Profile) |
+| Hive Blaster | [Hive-inspired forms with original projectile and renderer caveats](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Blaster-Weapon-Profile) |
+| Hive Cracker | [Amber Lelyetian sniper upgrade with Metal Slug behavior and clearly labelled inspect concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Hive-Cracker-Weapon-Profile) |
+| Iominator | [Original green-spark identity; alternate feed-layout studies stay separate](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Iominator-Weapon-Profile) |
+| KA-500 | [Cyan-orange Metal Slug sniper with pictured infusion recipe and Floro500 / Mark Maker upgrade routes](https://github.com/Herbertofury/Advent-of-Ascension/wiki/KA-500-Weapon-Profile) |
+| Long Shot | [Two-pellet shotgun with source-backed longer projectile lifetime and blue-petal concept details](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Long-Shot-Weapon-Profile) |
+| Mark Maker | [Crimson Metal Slug sniper with pictured KA-500 and Moon Maker upgrade lineage, cosmetic inspect and impact proposals](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mark-Maker-Weapon-Profile) |
+| Mecha Cannon | [Orange cannonball, mechanical shapeless crafting and proposed inspect gearing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mecha-Cannon-Weapon-Profile) |
+| Mechyro | [Mechanical two-pellet shotgun, shapeless assembly and Abyssro upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mechyro-Weapon-Profile) |
+| Mineral | [Compact rose/silver Metal Slug sniper, pictured Terminator + Rocky Kit upgrade and optional cosmetic lattice study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mineral-Weapon-Profile) |
+| Minigun | [Rotary weapon identity, purposeful moving parts and attachment studies](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minigun-Weapon-Profile) |
+| Monster | [Amber fork-jaw Metal Slug sniper, pictured Darkly upgrade and version-specific Graw loot evidence](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Monster-Weapon-Profile) |
+| Moon Cannon | [Forked magenta cannon with mixed heavy/energy damage and Lunar kit lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Moon-Cannon-Weapon-Profile) |
+| Moon Maker | [Magenta Lunar upgrade, actual Metal Slug texture and pink sparkler renderer audit with offhand regression target](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Moon-Maker-Weapon-Profile) |
+| Predatorian Blaster | [Compact bone cannon concept, paired yellow nodes and Ghast Blaster upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Predatorian-Blaster-Weapon-Profile) |
+| Pulse Cannon | [Rectangular magenta cannon and a separate shooter-centered hostile repulsion pulse](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Pulse-Cannon-Weapon-Profile) |
+| Purity Shotgun | [Blue-armored Destruction upgrade, three pellets and a shared boosted-shot roll](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purity-Shotgun-Weapon-Profile) |
+| Purple Punisher | [Two-pellet Haunted upgrade of Red Rocket with violet material and inspection concepts](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Purple-Punisher-Weapon-Profile) |
+| Red Rocket | [Crimson two-pellet shotgun, five-slot infusion and verified Haunted upgrade lineage; no baseline rocket behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Red-Rocket-Weapon-Profile) |
+| Rosid Rifle | [Botanical sniper identity; friendly-Rosid tooltip differs from empty inspected impact hook](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Rosid-Rifle-Weapon-Profile) |
+| Shoe Flinger | [Boot ammunition, playful launch effects and equipment conservation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shoe-Flinger-Weapon-Profile) |
+| Sludge Sniper | [Green-olive Metal Slug sniper with seven-slot infusion and verified Slowness II / Poison I source semantics](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sludge-Sniper-Weapon-Profile) |
+| Soul Drainer | [Life-leech identity with an unmistakable soul-energy presentation](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Drainer-Weapon-Profile) |
+| Soul Storm | [Five-emitter Soul Flame sight study; the default upgrade has four emitters, with five/six as options](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Weapon-Profile) |
+| Spirit Shower | [Three descending Spirit projectiles, source-linked loot and Apoco upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spirit-Shower-Weapon-Profile) |
+| Sweet Tooth | [Chocolate, peppermint and icing sniper; pictured infusion and shooter-only Speed III successful-hit audit; grip revisions retained](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sweet-Tooth-Weapon-Profile) |
+| Vivo | [Compact three-pellet shotgun with gold accents, Lyon infusion and a higher-pitched firing identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vivo-Weapon-Profile) |
+| Vortex Blaster | [Spirit-powered repulsion and readable vortex-focused feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 
-The 31 weapons listed above have published concepts and source-backed profiles; none is a fully accepted native upgraded weapon. The first-release production inventory contains 228 gun/shotgun/sniper/cannon/blaster registrations; other families and historical releases are additional scope.
+The gallery currently contains **55 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
 
 ## Build your own identity and play style
 
