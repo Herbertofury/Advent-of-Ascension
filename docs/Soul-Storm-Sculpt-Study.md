@@ -293,3 +293,8 @@ The delivered maps are 2048×2048. Assuming two separate RGBA8 textures, that is
 The metal-only export is byte-identical to the geometry fixture in the [normal-fidelity study](Mesh-Normal-Fidelity-and-Opt-In). Native smooth normals, roughness/PBR binding, flame/effect materials, distant mips, hands, gameplay and equivalent-work performance remain open. Broad proportions, surface storytelling and final artistic polish still need improvement.
 
 [Editable packed Blender scene, maps and reproduction scripts](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-metal-texture-study-v33.zip) · [Detailed texture-transfer evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-metal-texture-study-v33-evidence.json)
+
+
+## Aiming transition: centered flame aperture
+
+The [v34 aiming-readability study](Soul-Storm-Aiming-Flame-Readability) corrects the authoring flame mask during intermediate focus. It preserves idle and full-focus pixels, exact geometry and 101 sampled motion frames. The small reproducible patch uses the existing v33-R6 scene. Native aiming, hand fit and performance gates remain open.
