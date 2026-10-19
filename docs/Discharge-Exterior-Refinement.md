@@ -6,11 +6,26 @@
 
 The owner's [canonical concept A](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-shotgun-owner-target-v1.png) remains the visual target. The [source weapon profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile) defines the gameplay baseline. Three visible muzzle channels in this artwork do not change the original four-projectile firing behavior.
 
+
+## Current consolidated build and visible crest
+
+![Current authoring candidate with seated visible crest](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-consolidated-v44.png)
+
+[One consolidated source pipeline](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-consolidated-v44-pipeline.zip) · [Verified published starting archive](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/discharge-grip-v36-study.zip) · [Scoped evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-consolidated-v44-evidence.json).
+
+Use the pipeline with `output/discharge-grip-study.blend` from the starting archive. It rebuilds collars, the lower rail, paint materials and the crest automatically in one output folder. The required starting bytes were checked inside the published ZIP. This replaces the need to locate intermediate checkpoints manually; prefer it over the earlier v42 standalone generated-scene hash workflow, whose whole-file hash can be too strict after rebuilding in another location.
+
+The prior crest was covered by later armor at the declared test landmarks. An initial move made it oversized and misaligned; the revised star and red gem are smaller, centered and seated on the visible plate. Eight declared rays across both side views now hit the crest instead of covering armor. Corner normals were correctly transformed after nonuniform scaling. This is a bounded visibility/normal check, not an all-view or native lighting guarantee.
+
+The guarded clean build matched the reviewed scene's geometry, normals, UVs, transforms, visibility, material-node inputs/links/ramps and action keys. It preserves 325 stored geometry objects, 17 materials and seven stored actions, including retained authoring alternatives. These are not GPU draw-call counts or seven completed animation states. Wrong input bytes, altered stage scripts, an unsupported Blender version and nonempty output directories are rejected. Four focused guard tests pass.
+
+The pipeline was executed on cloud Linux with Blender 4.3.2. Other platforms still need their execution check. It does not supply a fresh atlas, TaCZ export or in-game validation. The broader concept-fidelity gap, full effects, hand/assembly clearance, LODs and measured frame time remain open.
+
 ## V32: layered rear-receiver study
 
-![Current v32 oblique authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-oblique.png)
+![Earlier v32 oblique authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-oblique.png)
 
-![Current v32 side authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-r3-side.png)
+![Earlier v32 side authoring view](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-rear-v32-r3-side.png)
 
 The plain rear surface now has paired swept silver braces, layered upper plates, dark insets and restrained red accents. These are decorative exterior parts; they do not establish a new mechanism. The overall receiver, grip and top construction still need substantially more refinement toward concept A. **This is not final art acceptance.**
 
