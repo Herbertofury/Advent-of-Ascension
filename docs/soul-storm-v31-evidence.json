@@ -1,0 +1,99 @@
+{
+  "revision": "v31",
+  "native_accepted": false,
+  "art_accepted": false,
+  "source_scene_sha256": "0dac39376be68dad794bdc2eab63ca25030c14296cf4fef1014e7b6ddc7fa19d",
+  "active_geometry": {
+    "frame_samples": 101,
+    "triangle_samples": 5258960,
+    "degenerate_active_frames": []
+  },
+  "saddle_surface_check": {
+    "pairs": 132660,
+    "intersections": [],
+    "flame_anchor_max_error": 3.371747880871523e-07,
+    "limits": "Six new saddle solids and half-frame mechanical emitter/saddle surface checks; plasma materials excluded. Does not prove solid containment, native hand fit or arbitrary attachments."
+  },
+  "packed_and_winding": {
+    "active_meshes": 166,
+    "closed_meshes": 149,
+    "negative_volume_meshes": [],
+    "file_images": [
+      {
+        "name": "grip-basecolor.png",
+        "source": "FILE",
+        "packed": true,
+        "filepath": "/workspace/scratch/c648c483d888/aoa-tacz-workbench/soul-storm-grip-texture-v25/grip-basecolor.png"
+      },
+      {
+        "name": "grip-normal.png",
+        "source": "FILE",
+        "packed": true,
+        "filepath": "/workspace/scratch/c648c483d888/aoa-tacz-workbench/soul-storm-grip-texture-v25/grip-normal.png"
+      },
+      {
+        "name": "soul-flame-atlas-candidate-v3.png",
+        "source": "FILE",
+        "packed": true,
+        "filepath": "//../soul-storm-sculpt-v14/soul-flame-atlas-candidate-v3.png"
+      },
+      {
+        "name": "soul-flame-atlas-v4-padded.png",
+        "source": "FILE",
+        "packed": true,
+        "filepath": "/workspace/scratch/c648c483d888/aoa-tacz-workbench/soul-storm-design-v16/soul-flame-atlas-v4-padded.png"
+      },
+      {
+        "name": "soul-storm-core-vfx-texture-v1.png",
+        "source": "FILE",
+        "packed": true,
+        "filepath": "//../soul-storm-sculpt-v14/soul-storm-core-vfx-texture-v1.png"
+      }
+    ],
+    "missing_packed_images": [],
+    "native_accepted": false,
+    "scope": "Frame-zero mesh winding and packed image availability; not continuous collision or hand-fit proof"
+  },
+  "visual_review": {
+    "native_accepted": false,
+    "art_accepted": false,
+    "reviewed": [
+      "hero",
+      "muzzle close",
+      "front",
+      "rear",
+      "left",
+      "right",
+      "top",
+      "bottom",
+      "focused sight"
+    ],
+    "improvements": [
+      "Actual slot opening enlarged, not merely brighter exterior paint",
+      "Flame anchored at sight cradle; more readable relaxed silhouette",
+      "Focused sight has four tapered prongs and open center",
+      "Saddle adds restrained crest rather than replacing original circular core identity"
+    ],
+    "remaining": [
+      "Emitter stack still too boxy relative to concept",
+      "Large circular core dominates grip proportions",
+      "Plain underside and rear need purposeful detail",
+      "Grip leather still reads rubber-like in hero light",
+      "Focused fire remains billboard-based authoring effect; native material/aim alignment unproven",
+      "No full arm rig or playable acceptance"
+    ]
+  },
+  "changes": [
+    "Baked leather material retained from v25",
+    "Broader six-solid saddle with four-prong crest",
+    "Anchored relaxed flame and broader four-prong focused sight with open central ring",
+    "Actual disc channel widened to .22 authoring units; render-only field .20 high",
+    "Symmetric oval heel settings; grip/trigger/guard sizes unchanged"
+  ],
+  "remaining": [
+    "Unaccepted boxy emitter stack and plain underside/rear",
+    "Native effects/export and actual hand fit",
+    "Original projectile/impact capture",
+    "Full gameplay, multiplayer, save and frame-time tests"
+  ]
+}
