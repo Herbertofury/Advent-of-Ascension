@@ -1,0 +1,20 @@
+{
+  "scope": "Headless scheduling only; not Minecraft integration, visual parity, native timing or FPS proof",
+  "checks_per_runtime": 5961,
+  "test_count_includes_per_call_assertions": true,
+  "runs": [
+    {
+      "runtime": "openjdk version \"17.0.20.1\" 2026-08-18 LTS",
+      "output": "PASS 5961 headless scheduling checks; no Minecraft, GPU, visuals or FPS acceptance"
+    },
+    {
+      "runtime": "openjdk version \"21.0.12.1\" 2026-08-18",
+      "output": "PASS 5961 headless scheduling checks; no Minecraft, GPU, visuals or FPS acceptance"
+    }
+  ],
+  "source_sha256": {
+    "ParticleEmissionClockTest.java": "33f033b2005914ab51954a4b051a185b9665905c5a23b7bfafa8cbbc35cfd001",
+    "ParticleEmissionClock.java": "7abf8d13b27efd7b7f8d55e0e7424d5d272654387baec4c400c666dee1811134"
+  },
+  "enabled_in_mod": false
+}

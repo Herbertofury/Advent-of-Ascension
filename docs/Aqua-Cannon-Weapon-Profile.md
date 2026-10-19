@@ -43,6 +43,8 @@ The inspected renderer contains a loop requesting **eight sparkler particles per
 
 The upgrade should separate time-based emission from drawing, calibrate the desired appearance against a chosen reference capture, and measure costs with many visible projectiles. Preserve the dark projectile core and readable blue trail. A stable emission budget is a proposed optimization, not an already tested FPS improvement or proof of identical visuals at every original frame rate.
 
+[A small time-based emission prototype and native acceptance plan](Particle-Emission-and-Frame-Time) now accompany this finding. The headless scheduler is not installed in the mod and does not establish visual or FPS parity.
+
 ## Acquisition is version-specific
 
 No direct Aqua Cannon recipe/loot item reference was found in this inspected 1.20.1 data-JSON set. That does not prove the item is unobtainable through every code, trade or modded route.
