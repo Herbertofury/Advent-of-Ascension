@@ -77,6 +77,10 @@ An intentional omission requires a reason and explicit owner approval. Never def
 
 Check keyframes, dense samples, extrema, transitions and known-bad regression fixtures. Sampled AABB clearance is only that; it is not continuous triangle collision proof. Inspect moving parts at normal and slow speed. Keep authored defaults, optional variants and all supported attachment combinations identifiable; disclose which combinations were actually exercised.
 
+### Native hand geometry is the reference
+
+[Released TaCZ hand-render contract](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/TaCZ-Native-Hand-Contract.md): the functional hand nodes delegate to the current player renderer. Example authoring cubes do not prove the final rendered arm dimensions. Test actual wide/slim variants, both main hands, the complete transform chain and first/third-person animation. Never shrink a proxy, hand or trigger simply to turn a clearance failure into a pass.
+
 ## 5. Performance without hiding losses
 
 Maintain high-detail and LOD sources separately. Benchmark startup, frame times and lows, memory and effects costs in comparable native scenes. Do not call fewer triangles or smaller JSON an FPS result. Preserve resource/animation/visual correctness while optimizing. Exact float32 export equivalence is useful evidence, but it is not native rendering or loading acceptance.
@@ -92,6 +96,17 @@ Maintain high-detail and LOD sources separately. Benchmark startup, frame times 
 A weapon is fully accepted only when every feature has passed its concept/design, implementation and QA phases (or has an owner-approved documented omission), the canonical visual review is accepted, all six native/technical gates are passed with evidence, and its guide exposes the complete package and remaining compatibility limits. Until then, report the real milestone and open work.
 
 The machine-readable catalogue, manifest template, coverage register and validator enforce completeness bookkeeping. They never grant native or artistic acceptance by themselves.
+
+
+## Reusable checklist and tools
+
+- [Full skill/checklist/template/validator package](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard.zip)
+- [31-feature catalogue](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-feature-catalog.json)
+- [Per-weapon manifest template](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-feature-manifest-template.json)
+- [Contract assigned to all 228 first-target IDs](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-feature-coverage.json)
+
+Ten structural/evidence regression cases pass, including missing features, unapproved omissions, false completion, absent visual comparison, wrong hashes and missing native evidence. These tools enforce bookkeeping; they cannot certify artistic quality or gameplay. Existing work must be reconciled per feature, not erased or automatically promoted. The package is reusable project guidance; publication does not claim replacement of an installed personal skill.
+
 
 ## 8. Required aesthetic and play-experience self-review
 
@@ -110,6 +125,16 @@ Record observation type: concept inspection, authoring render, offline animation
 
 For the full-set announcement, reconcile all 228 first-target IDs plus the separately inventoried historical/version-exclusive scope. Report exact version coverage, remaining unsupported combinations and evidence. Never announce every AoA weapon complete from the first-target count alone.
 
+
+## Reviewed per-weapon feature manifests
+
+- [Soul Storm: published v19 feature status](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/soul-storm-feature-status.json)
+- [Discharge Shotgun: published v7 feature status](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-shotgun-feature-status.json)
+- [Scope and reproduction notes](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Feature-Status.md)
+
+All 31 rows remain visible in each manifest. Evidence points to exact files by SHA-256. Both are incomplete and fail the release-complete gate as intended; source studies, concept approval and scoped tests are not complete gameplay acceptance.
+
+
 ## 9. Source-to-export regressions that must be caught
 
 - Measure the actual authoring FPS, frame hold and atlas sequence. Do not assume a default scene rate. Test the presentation sampler against the recorded timing data.
@@ -126,11 +151,27 @@ For the full-set announcement, reconcile all 228 first-target IDs plus the separ
 These checks supplement concept fidelity, real hand fit, native gameplay and performance testing. They do not replace them.
 
 
+## Released firing-source coverage
+
+[Projectile/firing declaration study](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Projectile-Provenance.md) indexes the pinned classes for all 228 first-target registrations, including inherited overloads. This is source navigation, not 228 completed upgrades. A firing method name or projectile class name cannot establish all behavior; actual dispatch, impact/resource logic and native tests remain required.
+
+[Apoco Assault Rifle](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Assault-Rifle-Weapon-Profile) now has an exact-release baseline and first concept candidate, with its full feature review still open.
+
+
 ## 10. One canonical concept, two selectable visual treatments
 
-Use a strong AAA-quality concept faithful to original identity, then personally author the model and textures for both Minecraft-fit and concept-faithful presentation. Both represent the same weapon and resolved build. See [Weapon Visual Profiles](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Visual-Profiles.md) for shared behavior, resource and QA requirements. The first Apoco concept and v1/v2 blockouts are owner-rejected history.
+Start with one AAA-quality canonical concept faithful to original AoA silhouette and identity, then personally author the model and textures for both [Minecraft-fit and concept-faithful presentation](Weapon-Visual-Profiles). Both represent the same weapon and resolved build. Later attachments and craftable variants still receive their own derived art and QA.
+
+The initial Apoco generic long-rifle concept and v1/v2 blockouts are owner-rejected history. The replacement candidate preserves the compact identity; it is not native acceptance. Color resemblance alone cannot pass the visual gate.
 
 
 ## 11. Lore before canonical concept approval
 
 Every weapon needs a source-pinned origin and lore review covering upgrade lineage, environmental identity, confirmed statements, visual interpretations and unknowns. [Lore and provenance requirements](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Lore-and-Provenance.md). Both visual treatments must preserve that identity. Do not invent an official maker, material or damage effect from a visual motif.
+
+[Lore-aware validator and checklist v3](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/aoa-weapon-completeness-standard-v3.zip): 19 synthetic evidence regressions pass; unknown lore stays unknown and cannot silently become a confirmed claim. No weapon receives native or artistic acceptance from these checks.
+
+
+## Whole-arsenal scope reconciliation
+
+[What every weapon finished means](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Weapon-Completion-Scope.md) reconciles the 228 first-target firearm registrations with the broader 412-registration historical census. Three class/family-matched rename candidates explain raw-ID differences; they are not automatically new weapons or verified save migrations. Later/earlier versions and other families still require reconciliation. Fully accepted native upgrades remain zero.
