@@ -82,7 +82,11 @@ The generated sprite inset is a reconstruction; the separate original above is t
 
 A scan of this release's `data/aoa3` JSON files found no direct `aoa3:discharge_shotgun` reference. This does not prove there is no code-driven, creative, external-pack or other acquisition route. Do not invent a crafting recipe or label a historical route as current without verifying it.
 
-## Current grip and surface refinement
+## Current exterior refinement
+
+[Inspect the latest muzzle, grip and capacitor study](Discharge-Exterior-Refinement), including three actual authoring views and a compact editable Blender scene. The scoped geometry checks pass for the recorded scene, while rear-receiver design, final concept fidelity, moving hands, materials/export and native gameplay remain unaccepted. Three visible channels do not change the original four-projectile behavior.
+
+## Earlier grip and surface refinement
 
 ![Unaccepted Discharge authoring study with contoured grip](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-surface-study-v22.png)
 
