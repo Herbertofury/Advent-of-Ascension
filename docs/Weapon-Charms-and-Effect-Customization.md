@@ -62,7 +62,7 @@ When an attachment is removed, preserve its saved decal layout for later reinsta
 - [ ] Add original charm and effect concept sheets while retaining every previous iteration.
 - [ ] Run actual game tests, multiplayer tests and performance comparisons.
 
-[Alternate barrels and skins](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Alternate-Barrels-and-Skins) · [Functional upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) · [Weapon profile standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Profile-Standard)
+[Alternate barrels and skins](Alternate-Barrels-and-Skins) · [Functional upgrades](Functional-Weapon-Upgrades) · [Weapon profile standard](Weapon-Profile-Standard)
 
 ## Original concept exploration
 
@@ -70,7 +70,7 @@ When an attachment is removed, preserve its saved decal layout for later reinsta
 
 Six original collectible silhouettes and decal/animation/glow directions. Concept art does not prove grip clearance: the illustrated hanging pennant still needs full movement and reload clearance tests on the actual model.
 
-[Actual Charmsy release study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Charmsy-Direct-Study) records the inspected pack separately from our proposed gameplay.
+[Actual Charmsy release study](Charmsy-Direct-Study) records the inspected pack separately from our proposed gameplay.
 
 
 ## Branch-aware cosmetic event identity
@@ -80,3 +80,25 @@ An original [Java 17 presentation helper](https://raw.githubusercontent.com/Herb
 This matters for Discharge Shotgun's two-stage entity-hit path: a burst-only duplicate key could suppress distinct intended effects. The tests preserve eight branch events across four pellets, reject repeated keys and exercise separate actors/weapons, bounded eviction and world resets.
 
 This is a **finite cosmetic dispatch window**, not server damage validation or permanent replay prevention. Old keys can be accepted after eviction. Invoke it once at the logical branch-event boundary and fan out to the configured effects afterward; do not call it independently for each particle, camera or shader pass. Native hook placement, trusted event IDs, views, late packets, settings and frame-time behavior still require integration tests.
+
+
+## Second original collectible sheet
+
+![Six original Ascension charm proposals](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ascension-charms-concepts-v2.png)
+
+These six additional designs expand the collection without replacing the earlier sheet. They are original proposals, not released AoA items or republished Charmsy assets. The chain rings and decorative silhouettes still require actual mesh, socket and animation-clearance tests.
+
+| Charm | Suggested role | Unlock direction, still to specify |
+|---|---|---|
+| Soul Lantern | Bounded Spirit-cost efficiency on eligible weapons; maintain a nonzero resource floor | Spirit-weapon mastery |
+| Storm Seal | Modest focus-settle improvement where the weapon has an explicit focus system | Accuracy/focus challenge |
+| Crimson Capacitor | Supported post-burst recovery improvement; preserve Discharge's distinct impact branches | Discharge mastery |
+| Boulder Knot | Grounded handling stability with a declared mobility tradeoff | Grounded heavy-weapon challenge |
+| Mycelium Medallion | Limited collection convenience for eligible owned ammunition pickups | Exploration/collection achievement |
+| Clockwork Core | Supported equip/recovery benefit; reload benefit only in actual magazine modes | Mechanical-weapon mastery |
+
+These are candidate mechanics, not balanced numbers or implemented perks. Match unlocks to real version-specific achievements/encounters before release; the artwork does not authorize inventing canonical boss drops. Soul Lantern is also a visual alternative to the earlier Ghastly Lantern idea; settle stable identities before implementing duplicate collectible entries.
+
+The menu must show the exact resulting bonus, eligible modes, stacking rule and any tradeoff. Test duplicate reward events, equip/unequip, swapping variants, full inventories, resource floors and save/reload. A no-swing/reduced-effects option must preserve the same earned gameplay benefit.
+
+[Machine-readable design proposals](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/earned-charms-design-v2.json). All native gameplay and artistic acceptance gates remain open.
