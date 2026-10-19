@@ -62,6 +62,14 @@ The refined concept retains the red, ivory, olive and lime identity, while makin
 
 World damage must respect the existing permission/game-rule path. Decorative debris must not destroy blocks, and repeated render passes must not multiply trail emissions.
 
+## Actual generated mesh review
+
+[Six rendered views and the complete first reconstruction review](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Apoco-Rifle-Generated-Mesh-Review.md) show the exported 56,328-triangle reference. Its broad silhouette is closer to the concept, but it loses fine rootwork and lime details, remains a fused mesh and has 50 non-manifold edges after exact-position welding. It is not an accepted weapon. Concept-projected colors were also tested and rejected because they visibly misalign.
+
+![Actual generated Apoco Rifle reference, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-rifle-trellis-rear.png)
+
+[Subsequent geometry and UV repair](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Apoco-Rifle-Mesh-Repair.md) removes the detected non-manifold edges and collapsed UVs while preserving the generated reference silhouette. Final concept fidelity, part ownership and native acceptance remain open.
+
 ## Completion gates
 
 - [ ] Native baseline capture: firing cadence, direct hit, explosion, ammo, flight and block/entity impacts.

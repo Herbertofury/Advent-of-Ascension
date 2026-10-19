@@ -1,0 +1,101 @@
+{
+  "scope": "Matched offline renderer comparison to the rejected generated reference, not to concept or native gameplay",
+  "original_glb_sha256": "7b61d81c576e7040f1ff53c0b69dcd1e44f2bddcb66ad753d917a48c73922180",
+  "repaired_preflight": {
+    "default_scene_reachable_nodes": 1,
+    "file_sha256": "e0ec75c63ad928dc0030c965e0da67680b4d21fb70e27c72351d4ee57e723edd",
+    "checked_subset_pass": true,
+    "issues": [],
+    "triangles": 60000,
+    "meshes": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "vertices": 45427,
+        "topology": {
+          "duplicate_index_triangles": 0,
+          "indexed_boundary_edges": 27510,
+          "indexed_nonmanifold_edges": 0,
+          "boundary": "Index-space diagnostic; UV/material splits can duplicate geometric vertices. Does not prove watertightness or self-intersection freedom."
+        },
+        "collapsed_uv_triangles": 0,
+        "triangles": 60000,
+        "degenerate_triangles": 0,
+        "normal_unit_error_max": 1.456374632002877e-07,
+        "bounds": [
+          [
+            -0.5015031099319458,
+            -0.18376100063323975,
+            -0.09868798404932022
+          ],
+          [
+            0.4973818063735962,
+            0.18558122217655182,
+            0.0988081693649292
+          ]
+        ],
+        "material": 0
+      }
+    ],
+    "images": [
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 3061837
+      },
+      {
+        "mime": "image/png",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2531411
+      }
+    ],
+    "animations": 0,
+    "double_sided_materials": 0,
+    "native_accepted": false,
+    "limits": [
+      "Static supported-subset preflight only",
+      "Node transforms are validated structurally, not applied to geometry metrics",
+      "No moving-part ownership, hand fit, visual fidelity, topology, native material or gameplay acceptance"
+    ]
+  },
+  "views": [
+    {
+      "view": "front",
+      "silhouette_iou": 0.998786204787323,
+      "rgb_mae_shared_foreground": 0.010358029413343912
+    },
+    {
+      "view": "rear",
+      "silhouette_iou": 0.9987152852401079,
+      "rgb_mae_shared_foreground": 0.010952585093028393
+    },
+    {
+      "view": "oblique",
+      "silhouette_iou": 0.9990048059371578,
+      "rgb_mae_shared_foreground": 0.010502124979706241
+    },
+    {
+      "view": "top",
+      "silhouette_iou": 0.999453985257602,
+      "rgb_mae_shared_foreground": 0.012363091240823475
+    },
+    {
+      "view": "left_end",
+      "silhouette_iou": 0.9994126160386099,
+      "rgb_mae_shared_foreground": 0.011464326806731628
+    },
+    {
+      "view": "right_end",
+      "silhouette_iou": 0.9993711414387558,
+      "rgb_mae_shared_foreground": 0.010289920839005698
+    }
+  ],
+  "visual_review": "All six inspected. Broad silhouette and material appearance largely retained; original missing details and single fused construction remain unacceptable for final weapon.",
+  "native_accepted": false
+}
