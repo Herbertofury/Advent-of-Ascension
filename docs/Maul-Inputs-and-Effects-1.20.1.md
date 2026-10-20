@@ -17,7 +17,7 @@ Damage and knockback here are attribute additions, not guaranteed final damage o
 ## Shared input and ownership contract
 
 - Main-hand defaults add attack damage, attack speed, knockback and +0.5 entity reach. The reach addition is not block reach and is not a measured total interaction distance.
-- Left-click captures the player attack-strength scale into the NORTH volatile-capability slot and reapplies knockback scaled by that value. It returns false, leaving normal attack processing in place.
+- Left-click captures the player attack-strength scale through the NORTH capability access and reapplies knockback scaled by that value. It returns false, leaving normal attack processing in place.
 - On the hurt-enemy path, the captured cooldown is passed to the specialized effect, the original durability helper runs, and the full base knockback modifier is restored. A cosmetic renderer must not duplicate these calls.
 - The class reports BLOCK as its use animation, but that enum alone does not implement a shield-like right-click block action. No such active-use implementation is declared by these inspected maul classes.
 - Shield-disable eligibility returns true. This is not evidence that every target shield is disabled regardless of the surrounding combat rules.
@@ -39,15 +39,19 @@ Levitation is requested for 35 ticks with amplifier 0 only for a living target, 
 
 ### Electron Maul
 
-Electron uses a separate unkeyed volatile capability for a spirit-derived knockback multiplier; do not confuse it with the NORTH attack-cooldown slot. Every 10 world ticks, its selected-item branch can refresh the multiplier to 1 + currentSpirit / maxSpirit. Its main-hand attribute query uses base knockback times that stored multiplier, with zero falling back to one.
+Correction from the first native-server fixture: the provider ignores the direction parameter and returns the same capability object for NORTH and unkeyed access. Electron does not have an independent spirit-multiplier slot. Every 10 world ticks, its selected-item branch can refresh the multiplier to 1 + currentSpirit / maxSpirit. Its main-hand attribute query uses base knockback times that stored multiplier, with zero falling back to one.
 
-The special effect tests the stored multiplier against >0.75, not the attackCooldown argument and not “more than 75% spirit.” It requests lightning with both boolean flags false. The inspected lightning helper sets visual-only for non-destructive lightning and disables fire for the false fire flag; do not invent extra lightning damage from the visual.
+The special effect tests the shared stored value against >0.75 rather than using its attackCooldown argument directly. The inherited left-click hook writes captured attack strength into that same value, while periodic inventory updates can write the spirit-derived multiplier. Therefore the normal left-click-to-hurt path can make this a captured-charge threshold; it is not safe to describe it as an independent spirit test or as “more than 75% spirit.” It requests lightning with both boolean flags false. The inspected lightning helper sets visual-only for non-destructive lightning and disables fire for the false fire flag; do not invent extra lightning damage from the visual.
 
 For a server-player attacker, the effect requests consumption of the current spirit amount. There are direct server-level/server-player casts in the lightning branch before the later guarded spirit-consumption branch. Non-player, stale-capability, hand-switch and client/server routing must be tested rather than assumed safe. Do not alter gameplay while adding cosmetic motion.
 
 ### Vulcammer Maul
 
 Its explosion branch requires captured attackCooldown >0.85, not >=0.85. The requested explosion is at the midpoint between attacker and target, with power input 2. The destructive-weapon-physics rule selects BLOCK versus NONE interaction and the helper boolean. When world damage is disabled, the additional loop sets hostile living entities within the target bounding box inflated by 2 on fire for 3 seconds. This region is not a spherical radius guarantee, and the helper power is not a fixed measured damage radius.
+
+## Retained native fixture correction
+
+The first combined AoA + TaCZ native server run passed four fixtures and rejected the Electron independence assumption: writing 0.25 through NORTH changed the unkeyed attribute result from 5.0 to 0.625. Inspection of the actual capability provider confirmed that it returns one implContainer regardless of direction. The failed fixture is retained. The corrected native run passed all five required server fixtures: all five registered maul attribute/durability inputs; Crystal at zero captured charge; Horizon near-full versus exact-full charge and invulnerability; Electron capability identity plus its actual inherited left-click hook using a Forge fake player; and Vulcammer at 0.85 versus 1.0 in the default non-destructive rule branch. The Electron fixture verified that the original left-click hook overwrites the shared value with captured attack strength. This does not certify ordinary client input or multiplayer behavior.
 
 ## Native acceptance still required
 
