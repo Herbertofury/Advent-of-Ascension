@@ -12,7 +12,7 @@ Despite the name, the pinned release inherits **Cannonball ammunition**. It is n
 
 ## Premium redesign concept
 
-![Energy Cannon concept, grip study, removable shroud and proposed projectile](energy-cannon-concept-v1.png)
+![Energy Cannon concept, grip study, removable shroud and proposed projectile](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/energy-cannon-concept-v1.png)
 
 **Design study, not an accepted playable asset.** The detachable shroud and cyan projectile/impact are proposed visual work. They do not demonstrate original flight, terrain destruction, area damage, correct hand fit or actual native animation. The opposite-side view and grip detail must be reconciled into one coherent model.
 

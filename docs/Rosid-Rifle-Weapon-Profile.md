@@ -4,7 +4,7 @@
 
 ![Actual released Rosid Rifle sprite](rosid-rifle-original.png)
 
-![Rosid Rifle proposed premium concept](rosid-rifle-concept-v1.png)
+![Rosid Rifle proposed premium concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/rosid-rifle-concept-v1.png)
 
 **Concept art, not an implemented or accepted native weapon.** The separately displayed original PNG is extracted from the pinned release; the small inset inside generated art is illustrative. The flower, optic, attachments and tracer are proposals. Real hand space, moving-part ownership and matching opposite-side construction remain to be resolved.
 

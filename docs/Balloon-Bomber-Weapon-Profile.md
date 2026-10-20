@@ -10,7 +10,7 @@ A red-and-gold carnival cannon that uses **Balloon ammunition**. Its released to
 
 ## Carnival mastercraft concept
 
-![Balloon Bomber premium concept, proposed inspection sequence and cosmetic effects](balloon-bomber-concept-v1.png)
+![Balloon Bomber premium concept, proposed inspection sequence and cosmetic effects](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/balloon-bomber-concept-v1.png)
 
 **Concept storyboard only; no native animation is implemented or accepted by this image.** The lacquered crimson body, gold stars, bell charm, balloon inflation inspection and ribbon/confetti effects are proposed presentation work. The illustrated inspection changes the muzzle silhouette between panels: resolve that inconsistency into one explicit mechanical/animation design before modeling. Do not let a pretty sheet bypass continuity QA.
 

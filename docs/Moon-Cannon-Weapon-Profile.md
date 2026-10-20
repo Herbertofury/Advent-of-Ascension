@@ -10,7 +10,7 @@ The Moon Cannon is an energy-assisted cannon with a distinctive forked magenta m
 
 ## Premium concept study
 
-![Moon Cannon premium concept and proposed attachment study](moon-cannon-concept-v1.png)
+![Moon Cannon premium concept and proposed attachment study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/moon-cannon-concept-v1.png)
 
 **Concept art only. Native upgraded weapon acceptance remains open.** The crescent attachment and ion impact panel are proposed upgrades/cosmetics. They do not establish original area damage, terrain destruction, or an implemented attachment. Generated side views require reconciliation before modeling; the depicted grip and trigger are not hand-clearance proof.
 

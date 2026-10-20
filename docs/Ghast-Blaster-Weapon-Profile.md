@@ -10,7 +10,7 @@ The original is a dark purple cannon with gray muzzle bands and swept black uppe
 
 ## Premium concept
 
-![Ghast Blaster concept and proposed effects](ghast-blaster-concept-v2.png)
+![Ghast Blaster concept and proposed effects](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ghast-blaster-concept-v2.png)
 
 **All panels are concept art.** The projectile, impact, spectral lens and vented muzzle are proposed presentation studies, not game captures or implemented features. Opposite-side construction, support grip, trigger clearance and the two dorsal fins must resolve consistently in the actual model.
 
