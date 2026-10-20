@@ -65,6 +65,17 @@ The displayed tag items are examples. The bundled Shyrestone and Shyregem tags c
 
 [Reproducible Blender source, scoped checks and inspection clip](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Shyre-Authoring-Study.md). The v8 cosmetic study rebuilds from a clean folder. Its 31 visible evaluated meshes pass the scoped topology checks; a known-bad six-object regression control fails as expected. The crystal and two orbit curves pass a conservative clearance envelope against the checked static prop over frames 1–70. Hands, native transformations, complete weapon actions and artistic acceptance remain open. The clip is labeled Blender authoring footage.
 
+## Combined AoA and TaCZ checkpoint (2026-10-20)
+
+The original development study now runs in Minecraft 1.20.1 / Forge 47.4.28 with AoA 3.7.1, TaCZ 1.1.8-hotfix2 and TML 0.1.8 together. This is a bounded development checkpoint, **not final art or full weapon acceptance**.
+
+- The pinned, non-cancellable firing-return observer leaves original AoA resource costs, projectiles and return values untouched. A successful main-hand Shyre return can send an owning-client cosmetic signal; it does not add a client firing request.
+- In the recorded three-shot on/off/on presentation comparison, each successful shot produced a same-owner/tick cannonball join and consumed one cannonball plus one durability. The cosmetic handler activated for the enabled cases, not the disabled one. Initial empty-ammo attempts returned false without an accepted cosmetic signal. Manual F8 preview was not used as firing evidence.
+- The real model now has reshaped armor, enlarged layered ornamentation, cut-diamond inlays and fitted stone sections. The current 2048-pixel atlas includes an original painted-gold material baked onto the geometry. It rendered in the combined-mod client with actual player arms. The support-hand candidate was adjusted after the changed armor introduced a new proxy intersection.
+- Dedicated-server, multiplayer observers, final applied damage, complete animation-frame and hand-fit review, optional shader compatibility, progression, save migration, performance and final artistic acceptance remain open. Blender lighting is not native material parity.
+
+[Original source, editable Blender assets and test notes: v7 review checkpoint](https://github.com/Herbertofury/Advent-of-Ascension/commit/ad2e8281eb3bcd7ce22274d4f9d9bda6bf8e2d79). Earlier authoring studies remain historical evidence, not a declaration that the latest model is finished.
+
 ## Full production gates
 
 - [ ] Build the actual canonical model and compare it against the original sprite and selected concept from all relevant views.
