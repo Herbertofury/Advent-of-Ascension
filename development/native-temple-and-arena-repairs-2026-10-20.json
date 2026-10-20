@@ -113,5 +113,59 @@
       "bytes": 2412,
       "sha256": "de4d43e251f1e31a2ab5070a926fff547f98f73f8e0be315b4bfb3bd317337c9"
     }
-  ]
+  ],
+  "connectedPlayerFollowUp": {
+    "receipt": {
+      "file": "whole-mod-modern-client-baseline-cfd030dc-7055-4bcc-b161-543291746614.json",
+      "bytes": 38149425,
+      "sha256": "02925889e041af64b58e0de279dbf9c4c29f6594a6367a4a7fbe99a27ac4cdd6"
+    },
+    "passed": false,
+    "completeCages": 60,
+    "activatedCages": 56,
+    "admittedMobs": 112,
+    "failedHavenCages": 4,
+    "actualSavedWorldOccupancy": {
+      "file": "actual-sceptron-occupancy-v96r2.json",
+      "bytes": 6634,
+      "sha256": "b62a57a19d4f0aab15c3d8e306efbc6d7a9118c34773a00b06f623597c6d1c8e"
+    },
+    "nativeMasterVolume": 0,
+    "productionPromoted": false
+  },
+  "nativeTreeFollowUp": {
+    "receipt": {
+      "file": "whole-mod-modern-server-baseline-9a16623a-f6c2-4d4a-b91a-92cdac88fe88.json",
+      "bytes": 38731696,
+      "sha256": "25027e6b1ff8cf33a5019ebaacbed1d2a448b9f0edb2e7cbe45d83e5f999ce9b"
+    },
+    "passed": false,
+    "actualMissingBlock": {
+      "dimension": "aoa3:greckon",
+      "position": [
+        22319,
+        55,
+        -15996
+      ],
+      "expected": "aoa3:lab_brick",
+      "actual": "minecraft:cave_air"
+    }
+  },
+  "nativeLakeCandidate": {
+    "sourcePlan": {
+      "file": "complete-native-temple-lakes-sdk-plan-v96t1.json",
+      "bytes": 36036307,
+      "sha256": "14247ea3fd6c2ae053d2f203cae0da4b1fd0224e7dc646cbd1c02532675aa91d"
+    },
+    "compiler": {
+      "file": "temple-lake-compiler-v96t1.json",
+      "bytes": 11488560,
+      "sha256": "8d6c7b8ba0ee149f3b9f7ec580f59a24f8a480bfddaf18c340450e1e99b8349b"
+    },
+    "diagnosticCompilerPassed": true,
+    "changedCompleteSources": 6,
+    "nativeServerVerified": false,
+    "nativeClientVerified": false,
+    "productionPromoted": false
+  }
 }
