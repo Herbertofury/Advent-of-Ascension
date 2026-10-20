@@ -1,0 +1,182 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:ancient_bomber",
+    "field": "ANCIENT_BOMBER",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$136",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "5de79133c3579f33671a237be04308e6ee8115b5c7fe6aa7cfa3db38ed718ef4",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              176
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 23.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 855
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 28
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.17499999701976776
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber.class",
+        "sha256": "5f0cdbf01528033585c958ed31a043267702b4c7a9a9b8d128db14c9ae4b185d",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "befcaa8b99642cac1a739b879bbea02437f17ba28d665fed49f83478f718d18e"
+          },
+          {
+            "name": "getAmmoItem",
+            "descriptor": "()Lnet/minecraft/world/item/Item;",
+            "code_sha256": "0ca43e95398b5e8914ffb76ac75379a9d36c78d058c52f874f4db926d6bd4beb"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "0bb9f721d22eb28ce1a6c0b02c23d5dac3c0996c83d816f35eb0c2890e9316be"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 23.5,
+    "durability": 855,
+    "firing_delay_ticks": 28,
+    "recoil": 0.17499999701976776
+  },
+  "ammo": "aoa3:grenade",
+  "projectile": {
+    "class": "GrenadeEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1,
+    "gravity": 0.075,
+    "impact": "Server-side ShrapnelExplosion on block or entity impact",
+    "expiry": "BaseBullet discards after its age limit; this is not a timed-fuse claim",
+    "renderer": "ModelledProjectileRenderer",
+    "model": "GrenadeModel",
+    "texture": "assets/aoa3/textures/entity/projectile/thrown/grenade.png",
+    "visual": "Four source boxes with a moving rotation animation; texture preview is an atlas, not in-game footage"
+  },
+  "explosion": {
+    "source": "AoAExplosions.GRENADE",
+    "radius": 3,
+    "penetration": 7,
+    "base_damage": 5,
+    "blocks_drop_chance": 0.1,
+    "damage_warning": "Stored weapon damage 23.5 is not a verified 23.5-point blast. ShrapnelExplosion uses explosion base damage with its own distance/ray-hit calculations; final combat damage remains untested.",
+    "terrain": "Player-owned explosion checks AoA destructive weapon physics; other owners consult Forge mob-griefing event. Do not assume guaranteed terrain destruction.",
+    "owner": "Default affected-entity predicate excludes direct and indirect exploders; event/compatibility behavior remains untested."
+  },
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber.class",
+      "sha256": "5f0cdbf01528033585c958ed31a043267702b4c7a9a9b8d128db14c9ae4b185d"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity.class",
+      "sha256": "b4d231b1164ec6997e42b9b914cf68d4096e543d9957b3e610f6aad2e45fd6da"
+    },
+    {
+      "path": "net/tslat/aoa3/client/model/entity/projectile/thrown/GrenadeModel.class",
+      "sha256": "665284a7395527bd8e46a42c890c44b75585f62dccd5b5be4b4ca1b8618b244a"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/ModelledProjectileRenderer.class",
+      "sha256": "b777793497266b658365cc89feeb556eac2b2793856562b2950e9cd2d11faae6"
+    },
+    {
+      "path": "net/tslat/aoa3/library/object/explosion/ExtendedExplosion.class",
+      "sha256": "0fcafebde7a4316d536f6ba5314ba60a13592f904131ea140089bdad75ee4cdc"
+    },
+    {
+      "path": "net/tslat/aoa3/library/object/explosion/ShrapnelExplosion.class",
+      "sha256": "f0adc5987d234e0130701b838442196672fe0b8374ae50d50f2e9f72c4747390"
+    },
+    {
+      "path": "net/tslat/aoa3/common/registration/AoAExplosions.class",
+      "sha256": "0647cfdaf667da840819efcf00241ab174b79c1e005aae94dcf33b5af2d0928d"
+    }
+  ],
+  "data_references": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_ancient_bomber.json",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:boom_cannon"
+        },
+        "result": {
+          "item": "aoa3:ancient_bomber"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:ancient_upgrade_kit"
+        }
+      },
+      "sha256": "3004a9d53bc9b62a2d77b596a4991d18e7341ee8ed65690733c7c17d6257799d"
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "GrenadeModel-upstream.java": "4563d8ee5e45646ec0afb256027a0ce43c8c6c72428d9f0ff612c3a1858aab2f",
+    "GrenadeEntity-upstream.java": "dfcc6241bd9f663ec06e735f489db4c1bd9ec0d042d066f853bb3226df145836",
+    "ShrapnelExplosion-upstream.java": "2bacdc89ea1bdff72aed70b6c04859c64e70e9b79b513b181636af0153aba842",
+    "ExplosionInfo-upstream.java": "7945dc9dc9468ca8229760b64d21a47d4c7c4e33184430d85011e1f4f536154b",
+    "ModelledProjectileRenderer-upstream.java": "c529465a530f672b39dae64887fc541769c4a54d2d73074cc85f9408c318c213",
+    "AncientBomber-upstream.java": "6b95a111789160419971bef2dc7a5d5d77052b8eaf482a88c7f3d1a6fd56a41a",
+    "AoAEntityRendering-upstream.java": "8a91728ed4da03cebba072fcfe19e49741babfc5374cdc072180692370dee712",
+    "AoAExplosions-upstream.java": "3fca6d90353c7d9a81f3b5818bba3abeefd99dfc0ce0c88fe418f2708d8f335d",
+    "ExtendedExplosion-upstream.java": "ea3ce8ab351d8506d3b8c5f3eafb51e1dec7df40326afd51778298c9838eff55"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "lore": "No verified maker or dimensional origin established by this study. Ancient Upgrade Kit recipe is provenance of acquisition, not proof of lore."
+}
