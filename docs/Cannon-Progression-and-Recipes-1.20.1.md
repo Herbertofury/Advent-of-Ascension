@@ -4,6 +4,8 @@
 
 This family-specific index complements the [complete Divine Station upgrade guide](Divine-Station-Weapon-Upgrades-1.20.1), which covers all 70 weapon routes and shared customization caveats.
 
+[Compare all 50 cannon projectile classes and gravity methods](Cannon-Projectile-Behavior-1.20.1) before porting their movement or effects.
+
 ## Start with the correct station
 
 ### Infusion Table: frame plus ingredient slots

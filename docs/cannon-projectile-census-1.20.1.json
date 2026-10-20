@@ -1,0 +1,843 @@
+{
+  "release": "AoA3-1.20.1-3.7.1",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "base_bullet": {
+    "class": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+    "sha256": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: fconst_0\n       1: freturn\n\n"
+  },
+  "weapons": [
+    {
+      "id": "aoa3:ancient_bomber",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/AncientBomber",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #47                 // class net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #50                 // Method net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "5f0cdbf01528033585c958ed31a043267702b4c7a9a9b8d128db14c9ae4b185d"
+    },
+    {
+      "id": "aoa3:ancient_discharger",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/AncientDischarger",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/TriDischargeShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #58                 // class net/tslat/aoa3/content/entity/projectile/cannon/TriDischargeShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #61                 // Method net/tslat/aoa3/content/entity/projectile/cannon/TriDischargeShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "80e2d5b7ddbf74a7b1ec4f55027b01f7fdd7494942ed34f78de995d70343d7fb"
+    },
+    {
+      "id": "aoa3:aqua_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/AquaCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #64                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #67                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "b4b9019e3773ae54186bbbbfdbd4b007b648f32f2da823d7032b86194c9c989b"
+    },
+    {
+      "id": "aoa3:balloon_bomber",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BalloonBomber",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/BalloonBombEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #58                 // class net/tslat/aoa3/content/entity/projectile/cannon/BalloonBombEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #61                 // Method net/tslat/aoa3/content/entity/projectile/cannon/BalloonBombEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "c5093417e33cd6f6fbadaf4192e3c59623dee2f18f484e9fc9c077e73d5aa38c"
+    },
+    {
+      "id": "aoa3:big_blast",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BigBlast",
+      "factory_inherited_from_BaseCannon": true,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #107                // class net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #110                // Method net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "86f0dcf850dba6435a423f67cc1aad4b9b3010eee9bea749983a1710afb980a6"
+    },
+    {
+      "id": "aoa3:blast_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BlastCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/StickyCoolBombEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #58                 // class net/tslat/aoa3/content/entity/projectile/cannon/StickyCoolBombEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #61                 // Method net/tslat/aoa3/content/entity/projectile/cannon/StickyCoolBombEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "ff7a1f5b5c1ec96245ec094d91eb06b96731b2f282cdabd894bc37f5d3ca9d38"
+    },
+    {
+      "id": "aoa3:blissful_blast",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BlissfulBlast",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/SmileyCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/SmileyCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/SmileyCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "2653ac58440dee39b38ca53864d8c01382d19001c197dbd6812baf4296d655fd"
+    },
+    {
+      "id": "aoa3:bomb_launcher",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BombLauncher",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/StickyRedBombEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #52                 // class net/tslat/aoa3/content/entity/projectile/cannon/StickyRedBombEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #55                 // Method net/tslat/aoa3/content/entity/projectile/cannon/StickyRedBombEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "1f221706f07a249393070896da394815c9a6cb0d4a50f4266a73eea58dacb87f"
+    },
+    {
+      "id": "aoa3:boom_boom",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BoomBoom",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/VolatileCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #58                 // class net/tslat/aoa3/content/entity/projectile/cannon/VolatileCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #61                 // Method net/tslat/aoa3/content/entity/projectile/cannon/VolatileCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "cad305b8ba6aef46109ee577da83ee1da577d2ab1298ab61139de80cf0e64673"
+    },
+    {
+      "id": "aoa3:boom_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BoomCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #47                 // class net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #50                 // Method net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "fdf1db6da4ac5ae4e40be2f3b6dc6f4fa9a75c5a75beffc6d6d3ca4f49adf8c5"
+    },
+    {
+      "id": "aoa3:boulder_bomber",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BoulderBomber",
+      "factory_inherited_from_BaseCannon": true,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #107                // class net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #110                // Method net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "bb9d1f0dbb8fb4952729af4f1ad5446202f3f1dd5dfcb98b384dd4c597c3c55c"
+    },
+    {
+      "id": "aoa3:bozo_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BozoBlaster",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/BozoBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/BozoBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/BozoBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "1de19a1934a0c618c189cd5f0833d9b93865716ae94e3c90e2e95128ce2f0fdc"
+    },
+    {
+      "id": "aoa3:bulb_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/BulbCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "4f3d058d26ad365423769487506776c338d3dfc1c30f4d81b25eabb1b42b59d5"
+    },
+    {
+      "id": "aoa3:carrot_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/CarrotCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/CarrotBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/CarrotBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/CarrotBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "4bed74fc04f1bc7edf4fe2148b368baa7bd018fb9a9eeb7a943ee9a85550cc06"
+    },
+    {
+      "id": "aoa3:clown_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/ClownCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/ClownBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #43                 // class net/tslat/aoa3/content/entity/projectile/cannon/ClownBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #46                 // Method net/tslat/aoa3/content/entity/projectile/cannon/ClownBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "6c19bf565dd7d5c47932c73d49a362dfdf7c1e60d459fc778716f60613c7eda4"
+    },
+    {
+      "id": "aoa3:clowno_pulse",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/ClownoPulse",
+      "factory_inherited_from_BaseCannon": true,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #107                // class net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #110                // Method net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "9b2b7ef0d9f387f40fe089cf00ac047c751760ccf9648a1b30100298e3e7a3f9"
+    },
+    {
+      "id": "aoa3:coral_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/CoralCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #64                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #67                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "76681c29d9dbea30e743f8955703419f596ce89a9092afb87857b8cf341c99f4"
+    },
+    {
+      "id": "aoa3:discharge_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/DischargeCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/gun/DischargeShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #52                 // class net/tslat/aoa3/content/entity/projectile/gun/DischargeShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #55                 // Method net/tslat/aoa3/content/entity/projectile/gun/DischargeShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "4b0c588df4ef134c050a2efdf85dcdce9912b2a3155fa7c352622f07ac90a191"
+    },
+    {
+      "id": "aoa3:energy_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/EnergyCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/EnergyShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #43                 // class net/tslat/aoa3/content/entity/projectile/cannon/EnergyShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #46                 // Method net/tslat/aoa3/content/entity/projectile/cannon/EnergyShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "7b859bfde61f7759b80a8ae1499d759e5b595e0eee7256751e7dd9c9a3b93696"
+    },
+    {
+      "id": "aoa3:erebon_stickler",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/ErebonStickler",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/ErebonSticklerShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #61                 // class net/tslat/aoa3/content/entity/projectile/cannon/ErebonSticklerShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #64                 // Method net/tslat/aoa3/content/entity/projectile/cannon/ErebonSticklerShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "d002f88256bb0d4d9f3b761781a008c0b168ef2e684386e6f989ff37bd652f5d"
+    },
+    {
+      "id": "aoa3:floro_rpg",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/FloroRPG",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/FloroRPGEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #58                 // class net/tslat/aoa3/content/entity/projectile/cannon/FloroRPGEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #61                 // Method net/tslat/aoa3/content/entity/projectile/cannon/FloroRPGEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "7e304b149f5391ef7b75afabd5e1fc5345539ea7ed1c0f538ac404dc2f4d3eaa"
+    },
+    {
+      "id": "aoa3:flower_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/FlowerCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/FlowerBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/FlowerBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/FlowerBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "738a2c4bf9c223027e1fddb0ca2e7f300ccb3ea74f397b432e141ce0f21d163e"
+    },
+    {
+      "id": "aoa3:fungal_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/FungalCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "b6a3153c9f4c87f344607cb18e663b4b88c51f7a690e108ccfef1d1746990794"
+    },
+    {
+      "id": "aoa3:ghast_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/GhastBlaster",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "a5704f6c6cb9207d2bc8decd82f477100ad3a8cab593530e8f20ad73e4f44445"
+    },
+    {
+      "id": "aoa3:ghoul_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/GhoulCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/GhoulBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/GhoulBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/GhoulBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "b70d9730e2c39d647a9e3e7e52f0ddfb725b48880f482871f695187fda32efb4"
+    },
+    {
+      "id": "aoa3:giga_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/GigaCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/GigaGreenBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #43                 // class net/tslat/aoa3/content/entity/projectile/cannon/GigaGreenBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #46                 // Method net/tslat/aoa3/content/entity/projectile/cannon/GigaGreenBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "f06231d9c6d0a5672481699be2e676e6352530ac5f95c3a513815b22c417cfe1"
+    },
+    {
+      "id": "aoa3:golder_bomber",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/GolderBomber",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/GoldenCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #43                 // class net/tslat/aoa3/content/entity/projectile/cannon/GoldenCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: fconst_0\n      11: fconst_0\n      12: fconst_0\n      13: invokespecial #46                 // Method net/tslat/aoa3/content/entity/projectile/cannon/GoldenCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;IIFFF)V\n      16: areturn\n\n",
+      "weapon_class_sha256": "4dd223ca722c8e7fd82151c808ef01b8de2bf75ec4e845ec13e1571a04dd50d5"
+    },
+    {
+      "id": "aoa3:hive_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/HiveBlaster",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HiveBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/HiveBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HiveBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "cfbfb025ba1438f19c39ebaacd3cba203020a1bbf3d9b1a00b669f606fac6403"
+    },
+    {
+      "id": "aoa3:hive_howitzer",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/HiveHowitzer",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyRedCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyRedCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyRedCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "57425a126105903987116ace43c4e83e649833586c89eae8ed2b94c2a79791f5"
+    },
+    {
+      "id": "aoa3:iro_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/IroCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #43                 // class net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: bipush        100\n      11: invokespecial #46                 // Method net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      14: areturn\n\n",
+      "weapon_class_sha256": "d9f598aca3c53be90b21cf3647415def9e78126d3cd7d1cf61b570369daef46a"
+    },
+    {
+      "id": "aoa3:jack_funger",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/JackFunger",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/FungalRockFragmentEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #57                 // class net/tslat/aoa3/content/entity/projectile/cannon/FungalRockFragmentEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #60                 // Method net/tslat/aoa3/content/entity/projectile/cannon/FungalRockFragmentEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "c6d11b1d5a97499765a747725f8fb6080a9324fd7d2bd93a949da85e57828b01"
+    },
+    {
+      "id": "aoa3:jack_rocker",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/JackRocker",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/RockFragmentEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #57                 // class net/tslat/aoa3/content/entity/projectile/cannon/RockFragmentEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #60                 // Method net/tslat/aoa3/content/entity/projectile/cannon/RockFragmentEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "486d3d3164f73df35364b2248b25cf9071a5fbf2e3688c530cdd0c44567709f0"
+    },
+    {
+      "id": "aoa3:luxon_stickler",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/LuxonStickler",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/LuxonSticklerShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #61                 // class net/tslat/aoa3/content/entity/projectile/cannon/LuxonSticklerShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #64                 // Method net/tslat/aoa3/content/entity/projectile/cannon/LuxonSticklerShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "46e754cb383cdbfafa2e134b5c08ff5276ef7ee114e8e7b8f28a2de17e6e5369"
+    },
+    {
+      "id": "aoa3:mecha_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/MechaCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "40a2ef7a5db350a0f4a02cc86dc58b01b45f07ffb9162271532ce0d814628f00"
+    },
+    {
+      "id": "aoa3:mini_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/MiniCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/MiniGreenBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/MiniGreenBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/MiniGreenBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "0f86f661e14af8831a5fe15f94178493cb2f2ded73fabde0474ac1a941eeb0c4"
+    },
+    {
+      "id": "aoa3:missile_maker",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/MissileMaker",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/MultiplyingGrenadeEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #52                 // class net/tslat/aoa3/content/entity/projectile/cannon/MultiplyingGrenadeEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #55                 // Method net/tslat/aoa3/content/entity/projectile/cannon/MultiplyingGrenadeEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "5fb69a28f3402cf30cbbfcb4449206f0a84536aecd4592c1ed0ec817fb4b48f6"
+    },
+    {
+      "id": "aoa3:moon_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/MoonCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/MoonShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #43                 // class net/tslat/aoa3/content/entity/projectile/cannon/MoonShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #46                 // Method net/tslat/aoa3/content/entity/projectile/cannon/MoonShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "345b9a2b4aa01a0c488b70fe8bc07fe908f15318e7588e24d5aadfa938d8e626"
+    },
+    {
+      "id": "aoa3:pluton_stickler",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/PlutonStickler",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/PlutonSticklerShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #55                 // class net/tslat/aoa3/content/entity/projectile/cannon/PlutonSticklerShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #58                 // Method net/tslat/aoa3/content/entity/projectile/cannon/PlutonSticklerShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "4bd5bf096be666adebe51971cc39ba8c2ede7db0dda21e68583c7d1cb2d7710c"
+    },
+    {
+      "id": "aoa3:predatorian_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/PredatorianBlaster",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBoneCannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyBoneCannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyBoneCannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "d22432e53e4fc19846ce8716feeb064978d950f659e3e99ab488e607f73e76b1"
+    },
+    {
+      "id": "aoa3:pulse_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/PulseCannon",
+      "factory_inherited_from_BaseCannon": true,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #107                // class net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #110                // Method net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "c49f775081d2a0b3d28299dee641c611c1b6a6d43000434d4ba85b8a9eaf11ff"
+    },
+    {
+      "id": "aoa3:rpg",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/RPG",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/RPGEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #47                 // class net/tslat/aoa3/content/entity/projectile/cannon/RPGEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #50                 // Method net/tslat/aoa3/content/entity/projectile/cannon/RPGEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "c6221431a14bf849482d4ae3cbb6068c5b5b51c045a21a7f6193dbf566950014"
+    },
+    {
+      "id": "aoa3:selyan_stickler",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/SelyanStickler",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/SelyanSticklerShotEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #61                 // class net/tslat/aoa3/content/entity/projectile/cannon/SelyanSticklerShotEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #64                 // Method net/tslat/aoa3/content/entity/projectile/cannon/SelyanSticklerShotEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "82ebee43e0f3793411890be63cd40e63be27aee3e8690f7df0961a4f92dd5f86"
+    },
+    {
+      "id": "aoa3:shadow_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/ShadowBlaster",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "48946d32a638dba29d2d3e64a099e4cc42269697704cb62f2df0071e588348e7"
+    },
+    {
+      "id": "aoa3:shyre_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/ShyreBlaster",
+      "factory_inherited_from_BaseCannon": true,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #107                // class net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #110                // Method net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "8a044288976dbd7c3ddff3c01e10f4278843dc5608324fac1ed157cac5cdf2e6"
+    },
+    {
+      "id": "aoa3:smile_blaster",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/SmileBlaster",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/SmileBlasterEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/SmileBlasterEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/SmileBlasterEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "70adbba75d16dc786182f6f4cbc80920683326cfe4a8e25740ebe2c84d7f516c"
+    },
+    {
+      "id": "aoa3:super_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/SuperCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/SuperGreenBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/SuperGreenBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/SuperGreenBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "c0fcb45578ec358172864731a750f27b3c1eb9f7fed5354bb36769ab3aa89ded"
+    },
+    {
+      "id": "aoa3:ultra_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/UltraCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/UltraGreenBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #38                 // class net/tslat/aoa3/content/entity/projectile/cannon/UltraGreenBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #41                 // Method net/tslat/aoa3/content/entity/projectile/cannon/UltraGreenBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n}",
+      "weapon_class_sha256": "488dac1a0b8ba8de7bd69f909c61af78c319f0e7de1c2ce4b5d9e1cb0502028a"
+    },
+    {
+      "id": "aoa3:vox_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/VoxCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/VoxCannonEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #52                 // class net/tslat/aoa3/content/entity/projectile/cannon/VoxCannonEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #55                 // Method net/tslat/aoa3/content/entity/projectile/cannon/VoxCannonEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "b7cf1ba1dde6e0ff16dd51b0a785cd3ed84fba3b223d95d7a5b593a8c144a718"
+    },
+    {
+      "id": "aoa3:water_balloon_bomber",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/WaterBalloonBombEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #58                 // class net/tslat/aoa3/content/entity/projectile/cannon/WaterBalloonBombEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #61                 // Method net/tslat/aoa3/content/entity/projectile/cannon/WaterBalloonBombEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "a1bc365709cda8d0f47a772a5a91ab29eecfd1edec2ef0514bcc104319d69bc4"
+    },
+    {
+      "id": "aoa3:wither_cannon",
+      "weapon_class": "net/tslat/aoa3/content/item/weapon/cannon/WitherCannon",
+      "factory_inherited_from_BaseCannon": false,
+      "projectile_classes": [
+        "net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity"
+      ],
+      "factory_disassembly": "  public net.tslat.aoa3.content.entity.projectile.gun.BaseBullet createProjectileEntity(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand);\n    Code:\n       0: new           #46                 // class net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity\n       3: dup\n       4: aload_1\n       5: aload_0\n       6: aload_3\n       7: bipush        120\n       9: iconst_0\n      10: invokespecial #49                 // Method net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/item/weapon/gun/BaseGun;Lnet/minecraft/world/InteractionHand;II)V\n      13: areturn\n\n",
+      "weapon_class_sha256": "722e61998ece44cc009d079a971f720390c1d8aa305b9488af998e5c18e4d363"
+    }
+  ],
+  "projectiles": {
+    "net/tslat/aoa3/content/entity/projectile/cannon/BalloonBombEntity": {
+      "class_sha256": "920ed1ca57f2a471b10946d783a9ce49f4bc4f45e74b5ece1ffdee37730a56db",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/BalloonBombEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #60                 // float 0.1f\n       2: freturn\n\n",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/BozoBallEntity": {
+      "class_sha256": "a5efc8cba3206b58fc07a6a6a9a905d28c147579ed9bf03c33f8838605b1efcb",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/BozoBallEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity": {
+      "class_sha256": "0d601e6915441e5234a5572b78e688bee415164276c92e22f9b21d98dcef78af",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/CarrotBallEntity": {
+      "class_sha256": "a7d18d54a8fee913eb56a0034528e0e75dcca2bc47a1b963a7b457b6a75b9b8f",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/CarrotBallEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/ClownBallEntity": {
+      "class_sha256": "e5e1409e361d30f2ad2d36a36b7a062232abf8cf5d6d7cb85ab036c15ebe96f7",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/ClownBallEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/EnergyShotEntity": {
+      "class_sha256": "b83c62ad53b1bd894fc8eef7e4a23e1789ee7033a316e377e755556a7e4a13cb",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/ErebonSticklerShotEntity": {
+      "class_sha256": "b7399e9fb00a1f10cd5b747e8d4763a6d9e9c8a30750025d9151c3c48adcc87e",
+      "direct_gravity_return": 0.015,
+      "resolved_gravity_return": 0.015,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/ErebonSticklerShotEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.015f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/FloroRPGEntity": {
+      "class_sha256": "5c6cfce31490d590c66d850a644c6aaab8d8c49cc4c827ce16533019a9b6ac77",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/FlowerBallEntity": {
+      "class_sha256": "65d20c58ae2b9f0b55ade86f318031d694a0f6c9c62e6ac7760ae048e2210cf2",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/FlowerBallEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity": {
+      "class_sha256": "3bf81a50e1c473beaf4067e10adfa7d2de7ccc5445c41cb74ea0a97b83f444c5",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/FungalBallEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/FungalRockFragmentEntity": {
+      "class_sha256": "f9cd5cd258a27c7e90eee2913ec66ad82afed069b60f764e791a8f574a94a70c",
+      "direct_gravity_return": 0.06,
+      "resolved_gravity_return": 0.06,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/FungalRockFragmentEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #146                // float 0.06f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/GhoulBallEntity": {
+      "class_sha256": "6aa9f240b8d967a18c91fb24a08da1bb0152ed307f9ea2e82dfa21afcc56e9a9",
+      "direct_gravity_return": 0.05,
+      "resolved_gravity_return": 0.05,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/GhoulBallEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.05f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/GigaGreenBallEntity": {
+      "class_sha256": "700eb9e4dde1bde8fc578aa3fd4c165061edd5a405b6ad314941215b8d51c5b9",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/GoldenCannonballEntity": {
+      "class_sha256": "0b6211eb6b5ff6128b3f19fc279657c08e6f8531de4003ece9f6620d060b8820",
+      "direct_gravity_return": 0.05,
+      "resolved_gravity_return": 0.05,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/GoldenCannonballEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #62                 // float 0.05f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity": {
+      "class_sha256": "0ebc919983f22c95655259095d0a01a7c6a9cff703c5f388ea0874871da06ced",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBlueCannonballEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBoneCannonballEntity": {
+      "class_sha256": "702f78d8f3010b4e130275960457ec805d7b59fe9ca98071c56118af4f7428e2",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyBoneCannonballEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/HeavyRedCannonballEntity": {
+      "class_sha256": "92e841e748b4272d295d043ffa6b3f1a381a328c00912a8bed047933283ed12d",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyRedCannonballEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity": {
+      "class_sha256": "9dd57a0046a0a7916b025db191e358f219eb3b85cb2c49b5f81c6355086ad039",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyShadowballEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity": {
+      "class_sha256": "56874116ce7ac5f1fbe36ac8c31147c2c1ba326dbda69c162b95a2532035126c",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/HeavyWitherBallEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/HiveBallEntity": {
+      "class_sha256": "906ae04353179e7775c451e18d33ead8d0b55452af0823c7fa90cb3363784886",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/HiveBallEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/LuxonSticklerShotEntity": {
+      "class_sha256": "df41e08ef1dd2c94bd36b80bbc09692690b9a16a8ad6cfe2e02abb013109059b",
+      "direct_gravity_return": 0.015,
+      "resolved_gravity_return": 0.015,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/LuxonSticklerShotEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.015f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/MiniGreenBallEntity": {
+      "class_sha256": "5840cfd1eb3848af528fe487246c7a679dac832e69dcba0085088a11a34e4e9c",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/MoonShotEntity": {
+      "class_sha256": "ef4302695ac462fba4e7e3972e77ac0b014bfa645f044874dc752453a44fd7db",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/MultiplyingGrenadeEntity": {
+      "class_sha256": "2791df5b89d3e69e245bc3f380058c87859c557611f956bb58b02b75b9ee09c3",
+      "direct_gravity_return": 0.075,
+      "resolved_gravity_return": 0.075,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/MultiplyingGrenadeEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #67                 // float 0.075f\n       2: freturn\n\n",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity": {
+      "class_sha256": "932a25dc90be61f2acc774e29297370c139b87bdbd678d6d7990dfcd00102622",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/OrangeCannonballEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/PlutonSticklerShotEntity": {
+      "class_sha256": "562dd28f4e912b27f073050e4af295a4ef3a27ee23ee695ce166d3a24ef5d359",
+      "direct_gravity_return": 0.015,
+      "resolved_gravity_return": 0.015,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/PlutonSticklerShotEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.015f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/RPGEntity": {
+      "class_sha256": "728468ed4fbb35e2a86d835c66320ee42d6fdf6d49127f93c3186deba9f7fc07",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/RockFragmentEntity": {
+      "class_sha256": "f6c8b5322293ca3acf960f75e82132c351976c91838a67e01f4d802637bdff36",
+      "direct_gravity_return": 0.06,
+      "resolved_gravity_return": 0.06,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/RockFragmentEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #127                // float 0.06f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/SelyanSticklerShotEntity": {
+      "class_sha256": "8e4c48a2d74496af619a37779ee9a31446b367f2a39fcc20e521537d84689f13",
+      "direct_gravity_return": 0.015,
+      "resolved_gravity_return": 0.015,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/SelyanSticklerShotEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.015f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/SmileBlasterEntity": {
+      "class_sha256": "044d1a2c2dd59246800e92fc4f2b0f5ab0d5c5b60bb69248e5121c5b62c2d22b",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/SmileBlasterEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #58                 // float 0.1f\n       2: freturn\n}",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/SmileyCannonballEntity": {
+      "class_sha256": "3cbe446464afba127d4e3afea26c93040849473b3fcd30cd52964be7003cdb96",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/StickyCoolBombEntity": {
+      "class_sha256": "d21bb7185f10611268a65e339f5fa808c94f8d46ea95152ac580fefdf7fdf6de",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/StickyRedBombEntity": {
+      "class_sha256": "cfcc09e09467b74581f5df1bfc57fc0cc19d92012a1ff411ce68e73f641442b9",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/SuperGreenBallEntity": {
+      "class_sha256": "b05b96f897f9edae87525715a066d780efa3a48a0fb68a0574f1eb020be6991d",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/TriDischargeShotEntity": {
+      "class_sha256": "7109a32b6362eb432a497a5ce57767c290d11eed831b7f9df8f0f8e1cbbd7283",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/UltraGreenBallEntity": {
+      "class_sha256": "3eaeee34dfcd5576c15cf505589589ff5e04b2926587489eafc92b03f72e6a13",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/VolatileCannonballEntity": {
+      "class_sha256": "4e6417b87859f0faba5a45dd57237434979a2b18aac337e3bf5cd79094426ad0",
+      "direct_gravity_return": 0.05,
+      "resolved_gravity_return": 0.05,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/VolatileCannonballEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #60                 // float 0.05f\n       2: freturn\n\n",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/VoxCannonEntity": {
+      "class_sha256": "75036998af700d51039afa269ace99a75b641a9caf28f20f46c2f85797481cbd",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/cannon/WaterBalloonBombEntity": {
+      "class_sha256": "ca3aa6f4076e9fc71e68ca516df5d5d070aebcfa8ca83e77893465994c87919c",
+      "direct_gravity_return": 0.1,
+      "resolved_gravity_return": 0.1,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/cannon/WaterBalloonBombEntity",
+      "gravity_disassembly": "  protected float m_7139_();\n    Code:\n       0: ldc           #60                 // float 0.1f\n       2: freturn\n\n",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/gun/DischargeShotEntity": {
+      "class_sha256": "d71b4334665a04cc01627a5819eaddbd7390d5e58239398af014dac4f040fa38",
+      "direct_gravity_return": null,
+      "resolved_gravity_return": 0.0,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet",
+      "gravity_disassembly": null,
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    },
+    "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity": {
+      "class_sha256": "b4d231b1164ec6997e42b9b914cf68d4096e543d9957b3e610f6aad2e45fd6da",
+      "direct_gravity_return": 0.075,
+      "resolved_gravity_return": 0.075,
+      "gravity_owner": "net/tslat/aoa3/content/entity/projectile/thrown/GrenadeEntity",
+      "gravity_disassembly": "  public float m_7139_();\n    Code:\n       0: ldc           #63                 // float 0.075f\n       2: freturn\n\n",
+      "scope": "Simple direct return or verified direct BaseBullet inheritance; not a complete runtime trajectory"
+    }
+  },
+  "native_tested": false,
+  "scope": "Released class factory references and direct gravity overrides, not runtime trajectories or effective damage"
+}
