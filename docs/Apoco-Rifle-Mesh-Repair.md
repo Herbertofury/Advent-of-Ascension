@@ -30,7 +30,7 @@ All six views were inspected. No result is promoted solely because an aggregate 
 ## Files and next checks
 
 - [Exact comparison and structural receipt](apoco-rifle-repaired-comparison.json).
-- [Repair source, input concept and reproduction instructions](apoco-rifle-repair-workflow-v1.zip). No weights or proprietary game files are bundled.
+- [Repair source, input concept and reproduction instructions](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-rifle-repair-workflow-v1.zip). No weights or proprietary game files are bundled.
 - [Original generated-mesh review](Apoco-Rifle-Generated-Mesh-Review.md).
 
 A higher-resolution reconstruction is being evaluated separately. Its result will not replace this evidence or count as a completed weapon without the same review.

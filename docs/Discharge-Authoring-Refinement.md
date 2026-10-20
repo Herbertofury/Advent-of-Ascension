@@ -39,4 +39,4 @@ The receiver's top/underside and rear assembly remain too plain relative to the 
 The original Discharge baseline is four projectiles per burst using Discharge Capsules. Three visible channels are a visual design, not permission to change that behavior. Cosmetic chamber energy is not a new mana requirement.
 
 
-[Editable source and scoped checks](discharge-authoring-refinement-v15.zip) · [Owner target and original behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile)
+[Editable source and scoped checks](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-authoring-refinement-v15.zip) · [Owner target and original behavior](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Discharge-Shotgun-Weapon-Profile)

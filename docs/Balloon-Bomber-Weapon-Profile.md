@@ -16,7 +16,7 @@ A red-and-gold carnival cannon that uses **Balloon ammunition**. Its released to
 
 ## Released behavior
 
-Pinned **AoA 3.7.1 / Minecraft 1.20.1**. [Evidence](balloon-bomber-source-evidence.json) · [Reproducible selected source checks](cannon-profile-source-checks-v1.zip)
+Pinned **AoA 3.7.1 / Minecraft 1.20.1**. [Evidence](balloon-bomber-source-evidence.json) · [Reproducible selected source checks](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/cannon-profile-source-checks-v1.zip)
 
 | Property | Inspected value |
 |---|---|

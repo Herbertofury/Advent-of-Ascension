@@ -26,7 +26,7 @@ The inspected bytecode contains a 180-degree transform on an obfuscated axis fie
 
 ## Evidence and reproduction
 
-[Hash-pinned evidence](tacz-native-hand-contract.json) · [Original audit script](tacz-native-hand-contract-tools.zip).
+[Hash-pinned evidence](tacz-native-hand-contract.json) · [Original audit script](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tacz-native-hand-contract-tools.zip).
 
 The script verifies the supplied release hash, relevant class markers and example anchor dimensions without executing game classes. Control-flow interpretation was also reviewed directly. It is not a complete renderer simulator or a native client test. The archive contains no TaCZ gamepack assets or classes.
 
@@ -38,4 +38,4 @@ Source artifact: [official TaCZ release](https://www.curseforge.com/minecraft/mc
 
 The pinned official [right-hand renderer](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/model/functional/RightHandRender.java#L28) and [left-hand renderer](https://github.com/MCModderAnchor/TACZ/blob/b482eff8c94a733ac8d0910193fca3893954027c/src/main/java/com/tacz/guns/client/model/functional/LeftHandRender.java#L28) apply the positive-Z half-turn before capturing the normal and pose matrices and delegating the actual player-arm rendering.
 
-[Source hashes and seven math checks](tacz-native-hand-axis-source-evidence.json) · [Original audit tool](tacz-native-hand-axis-source-tools.zip). Synthetic fixtures distinguish the intended axis from a Y-axis turn, retain a nonorigin parent transform, and reject reversed multiplication order or omitted parents. They do not execute Minecraft PoseStack, certify a source-to-binary rebuild, or substitute for real arm/skin/FOV animation captures.
+[Source hashes and seven math checks](tacz-native-hand-axis-source-evidence.json) · [Original audit tool](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/tacz-native-hand-axis-source-tools.zip). Synthetic fixtures distinguish the intended axis from a Y-axis turn, retain a nonorigin parent transform, and reject reversed multiplication order or omitted parents. They do not execute Minecraft PoseStack, certify a source-to-binary rebuild, or substitute for real arm/skin/FOV animation captures.

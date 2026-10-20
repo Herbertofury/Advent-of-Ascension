@@ -2,7 +2,7 @@
 
 **Static authoring progress only. Final art, hands, animation and native gameplay remain unaccepted.**
 
-[Original profile and concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) · [Corrected reference geometry](Apoco-Rifle-High-Resolution-Review.md) · [Evidence](apoco-forward-emitter-study.json) · [Authoring scripts](apoco-forward-emitter-tools.zip)
+[Original profile and concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) · [Corrected reference geometry](Apoco-Rifle-High-Resolution-Review.md) · [Evidence](apoco-forward-emitter-study.json) · [Authoring scripts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-forward-emitter-tools.zip)
 
 ## What changed
 

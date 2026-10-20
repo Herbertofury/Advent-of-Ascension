@@ -49,7 +49,7 @@ No hand-fit, rig, reload/charge interruption, native material, multiplayer, game
 - Runtime: [trellis.cpp at 8e4ce11](https://github.com/pwilkin/trellis.cpp/tree/8e4ce11a77d35c3e3a4b3f84a29d92bf5491e64e).
 - Quantized model source: [pinned ilintar/trellis2-gguf revision](https://huggingface.co/ilintar/trellis2-gguf/tree/a57397bd3d351599d9729fc144b3f87c3f87d65b). The model card refers to upstream licensing; this review does not redistribute model weights or establish a blanket license for the entire toolchain.
 - Trial: Q8, CPU, four threads, resolution512,12steps,60,000 face target,2048 atlas, WebP off. Files were checked against pinned size/hash before execution.
-- [Structured review](apoco-rifle-trellis-review.json) and [original review tools/receipts](apoco-rifle-trellis-review-tools-v1.zip). The bundle does not contain weights, proprietary game files or a playable weapon.
+- [Structured review](apoco-rifle-trellis-review.json) and [original review tools/receipts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-rifle-trellis-review-tools-v1.zip). The bundle does not contain weights, proprietary game files or a playable weapon.
 - GLB SHA256: `7b61d81c576e7040f1ff53c0b69dcd1e44f2bddcb66ad753d917a48c73922180`.
 
 [Apoco Rifle behavior and concept](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) · [Full acceptance standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard).

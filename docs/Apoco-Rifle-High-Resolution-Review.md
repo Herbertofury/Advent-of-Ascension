@@ -1,6 +1,6 @@
 # Apoco Rifle: higher-resolution generation and repair review
 
-[Weapon profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) · [Earlier generated reference](Apoco-Rifle-Generated-Mesh-Review.md) · [Evidence](apoco-rifle-1024-review.json) · [Own review tools](apoco-rifle-1024-review-tools.zip)
+[Weapon profile](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Apoco-Rifle-Weapon-Profile) · [Earlier generated reference](Apoco-Rifle-Generated-Mesh-Review.md) · [Evidence](apoco-rifle-1024-review.json) · [Own review tools](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-rifle-1024-review-tools.zip)
 
 ## Result
 
