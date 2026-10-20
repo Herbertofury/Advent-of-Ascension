@@ -249,3 +249,11 @@ Existing Soul Storm and Discharge Shotgun review files were present but not link
 The v8 builder now reads the docs-side coverage register first, uses the bundled copy only as a fallback, merges missing owner-direction defaults without overwriting newer overrides, and runs both profile and feature-manifest discovery. Three end-to-end regressions exercise newer review preservation, unknown override fields and conflicting manifest rejection.
 
 [Reusable v8 skill and build/check tools](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/aoa-weapon-completeness-standard-v8.zip). Nineteen preservation/discovery tests plus nineteen synthetic evidence-validator cases pass; no independent agent behavioral evaluation or native weapon acceptance is claimed. The skill also records the Discharge stale-transform scale bug and requires actual rebuilt visual/size review alongside parent-following tests.
+
+## 16. Current package: inheritance, precision and reproducibility
+
+The [canonical reusable package](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/aoa-weapon-completeness-standard.zip) now contains the current preservation-aware tools and source register, plus the observed projectile-inheritance, thin-triangle precision and portable build-chain checks. Older versioned packages remain historical references. This refresh changes guidance and discovered evidence links, not weapon acceptance.
+
+Do not copy a neighboring weapon’s gravity: Ghoul Cannon’s 0.05 differs from Flower Cannon’s 0.1, and inherited methods matter. Test numerical geometry checks against unchanged source before interpreting small discrepancies as real deformation. Package from an obtainable pinned source and reproduce intermediates within the build rather than requiring an unavailable intermediate file hash.
+
+The skill structure validates; nineteen preservation/discovery tests and nineteen synthetic evidence cases pass. These tests do not certify beauty, native performance or completed gameplay.
