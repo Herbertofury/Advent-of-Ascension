@@ -69,6 +69,23 @@ The inspected downward search uses a literal **Y=0** bound rather than the dimen
 
 Test both hands, player and non-player owners, empty/solid impacts, entities, ultrawarm worlds, destructive physics on/off, claimed areas, negative heights, save/reload and multiplayer. The rendered concept is not evidence for any of those cases.
 
+## Newer source is a different behavior contract
+
+A separate comparison against the refreshed official **1.21 branch**, pinned to **7919b5fe48599e6105c5740937ce36c36ef21d16**, finds a different implementation. WaterBalloonBombEntity now uses a server-side explosion builder and shot context. The water-balloon explosion definition supplies radius 2, entity-damage input 4, block-damage input 3 and block-drop-chance input 0.1, with a cannon-dependent damage function. These are different API parameters; do not equate them directly with the older strength input of 1.5 or advertise a measured buff.
+
+After the newer explosion, its callback checks server side, non-ultrawarm dimension and destructive weapon physics. If the explosion-position block is air, it places water **there**, then schedules a callback after **20 ticks** that sets the same position to air. The older downward placement search and this newer temporary-water behavior are not interchangeable.
+
+**Preservation and safety requirements:**
+
+- Keep the selected release's behavior explicit. Importing a newer renderer must not silently change persistent water into temporary water, change impact location or alter damage/economy.
+- Test a player or another mod replacing that temporary water before cleanup. The inspected scheduled callback does not itself check whether the block is still the water it placed. This is a source-level overwrite risk to investigate, not a reproduced loss report.
+- Any new cleanup implementation should verify its own effect/state ownership before removing anything, and handle overlapping effects, chunk/dimension unloading and save/reload. A cosmetic effect must never delete a later player block.
+- Audit protection hooks at the actual destination in both versions. Validate fluid spreading and its cleanup policy rather than assuming one removed source block restores the entire world.
+
+[Version-comparison evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/water-balloon-version-comparison.json) · [Newer projectile source](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/content/entity/projectile/cannon/WaterBalloonBombEntity.java) · [Newer explosion definitions](https://github.com/Tslat/Advent-Of-Ascension/blob/7919b5fe48599e6105c5740937ce36c36ef21d16/source/common/registration/AoAExplosions.java)
+
+This comparison is source analysis only. Neither version has been natively exercised by this study, and no automatic semantic merge is approved by these facts.
+
 ## Full production gates
 
 - [ ] Match mesh silhouette and both material modes to the original and approved concept from both sides and first-person views.
