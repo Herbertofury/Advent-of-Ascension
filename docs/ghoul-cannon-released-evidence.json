@@ -1,0 +1,180 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:ghoul_cannon",
+    "field": "GHOUL_CANNON",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/GhoulCannon"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$160",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "8338ab425904eff397fe57c6133cf88692fee080557273a7107e8212a472def7",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              66
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 25.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 590
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 34
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.15000000596046448
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/GhoulCannon",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/GhoulCannon.class",
+        "sha256": "b70d9730e2c39d647a9e3e7e52f0ddfb725b48880f482871f695187fda32efb4",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "befcaa8b99642cac1a739b879bbea02437f17ba28d665fed49f83478f718d18e"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "07576accac8d654785ae0764de70ff1226eebf38be693bb6521280521ba4764c"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 25.5,
+    "durability": 590,
+    "firing_delay_ticks": 34,
+    "recoil": 0.15000000596046448
+  },
+  "ammo": "aoa3:cannonball",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/GhoulCannon.class",
+      "sha256": "b70d9730e2c39d647a9e3e7e52f0ddfb725b48880f482871f695187fda32efb4"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/GhoulBallEntity.class",
+      "sha256": "6aa9f240b8d967a18c91fb24a08da1bb0152ed307f9ea2e82dfa21afcc56e9a9"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/GhoulBallRenderer.class",
+      "sha256": "076a6ac4df341b59808edc7a13d3d52cd4d610343e579916f726b774bebee2d8"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    }
+  ],
+  "effect": {
+    "dedicated_on_hit_override": false,
+    "note": "GhoulCannon declares firing sound and projectile factory; no dedicated status-effect override is present. Shared cannon behavior still applies."
+  },
+  "projectile": {
+    "class": "GhoulBallEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1,
+    "gravity": 0.05,
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "particle": "SPARKLER",
+    "colour_rgb": [
+      193,
+      64,
+      215
+    ],
+    "requests_per_render_invocation": 3,
+    "vertical_offset": 0
+  },
+  "data_references": [
+    {
+      "path": "data/aoa3/recipes/infusion_ghoul_cannon.json",
+      "sha256": "7bc6bdcf3fafa0cccea5ddf7e347033bceafb10745624ea64b8cf53652edeb62",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "item": "aoa3:ghoulasm"
+          },
+          {
+            "item": "aoa3:ghoulasm"
+          },
+          {
+            "tag": "forge:ingots/ghoulish"
+          },
+          {
+            "tag": "forge:ingots/ghoulish"
+          },
+          {
+            "tag": "forge:gunpowder"
+          },
+          {
+            "tag": "forge:ingots/iron"
+          }
+        ],
+        "input": {
+          "item": "aoa3:cannon_frame"
+        },
+        "result": {
+          "item": "aoa3:ghoul_cannon"
+        }
+      }
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "GhoulCannon-upstream.java": "5bfb09edf78f43e38f99f6710001a576eec269f8dd82ed6c7274b3cc840651ab",
+    "BaseCannon-upstream.java": "b63ee349657e13266da0b711f4127a408bd22024ee110f3148e27058e03bc703",
+    "EntityUtil-upstream.java": "09d9d9bed2a6571cb65558aefae73e930477ef396acec4ac44719951130c6041",
+    "GhoulBallEntity-upstream.java": "7a88479c83d377188c65277cf6a6b3c43cddaad74cc1e0a13c2c89a799fb74d1"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "concept_qa": {
+    "v1": "Original violet/black hollow-sided silhouette and grey rear trim retained. Detailed and world-fit treatments are concept proposals only. Grip/hand fit, moving clearances, final mesh and both in-game texture modes remain open; particle vignette is not original capture."
+  }
+}
