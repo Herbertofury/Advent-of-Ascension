@@ -1,0 +1,188 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:water_balloon_bomber",
+    "field": "WATER_BALLOON_BOMBER",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$184",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "5cece6c227171de4da2cc12dff33ad009e1f357506f2c96195ab6e4088f04188",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              212
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 20.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 855
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 24
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.20000000298023224
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber.class",
+        "sha256": "a1bc365709cda8d0f47a772a5a91ab29eecfd1edec2ef0514bcc104319d69bc4",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "01b1f59dacf8d6ed8f075eb5b94f9a1620aa210bd1f82bffbd83f2164e180380"
+          },
+          {
+            "name": "getAmmoItem",
+            "descriptor": "()Lnet/minecraft/world/item/Item;",
+            "code_sha256": "345b9218b5a059ee768c869d0ac94db7dbadbe0767cf07c97ee0c205113be829"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "2ded4a9173b0ef090b279d10dc75cce96e69c58455b9abd31565e59cc13206aa"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "fb5d6174641866bed87c60cc7dd723160117b2ac694e09d6d139e034c463fc01"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 20.5,
+    "durability": 855,
+    "firing_delay_ticks": 24,
+    "recoil": 0.20000000298023224
+  },
+  "ammo": "aoa3:balloon",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/WaterBalloonBomber.class",
+      "sha256": "a1bc365709cda8d0f47a772a5a91ab29eecfd1edec2ef0514bcc104319d69bc4"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/WaterBalloonBombEntity.class",
+      "sha256": "ca3aa6f4076e9fc71e68ca516df5d5d070aebcfa8ca83e77893465994c87919c"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/WaterBalloonBombRenderer.class",
+      "sha256": "3abaadefa56fdcf2b79ce72dc9631dcf1a508da73186adfba2f99cda65857658"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    },
+    {
+      "path": "net/tslat/aoa3/util/WorldUtil.class",
+      "sha256": "3cfdfe2967fa2459b1749966de55986d9ee7c21e2eb774189606ad5a5fe08fa9"
+    }
+  ],
+  "projectile": {
+    "class": "WaterBalloonBombEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1,
+    "gravity": 0.1,
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/balloon_bomb.png",
+    "particle": "SPARKLER",
+    "colour": "ColourUtil.CYAN",
+    "requests_per_render_invocation": 8,
+    "vertical_offset": 0
+  },
+  "impact": {
+    "block_and_entity_call_explode": true,
+    "explosion_strength_input": 1.5,
+    "water_placement_gates": [
+      "server side",
+      "destructive weapon physics enabled",
+      "projectile block is empty",
+      "dimension is not ultraWarm",
+      "canPlaceBlock at projectile position",
+      "downward replacement scan finds support above Y=0"
+    ],
+    "placement": "water at blockPosition().below(i - 1)",
+    "limits": [
+      "Uses literal Y=0 bound, not dimension minimum",
+      "permission check occurs at projectile position before resolving lower placement target",
+      "explosion helper has separate owner/game-rule terrain interaction logic",
+      "No native tests performed"
+    ]
+  },
+  "data_references": [
+    {
+      "path": "data/aoa3/recipes/upgrade_kit_water_balloon_bomber.json",
+      "sha256": "dad7fd73ee3fefb86c084b706fe922256013424fde5fe1c71d732ee547c9e6c2",
+      "data": {
+        "type": "aoa3:upgrade_kit",
+        "input": {
+          "item": "aoa3:balloon_bomber"
+        },
+        "result": {
+          "item": "aoa3:water_balloon_bomber"
+        },
+        "upgrade_kit": {
+          "item": "aoa3:seaside_upgrade_kit"
+        }
+      }
+    }
+  ],
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "WaterBalloonBomber-upstream.java": "4032be8f3d1f78187145b6bdb696352eae6957958dcb6c0db672e5e3be9162fe",
+    "WaterBalloonBombEntity-upstream.java": "e51eec182fdea43ea0585596c3aa621ed43564b43b18d0631bf3db530f1b1dc2",
+    "WaterBalloonBombRenderer-upstream.java": "01d19bf622eabe3ad905d2fddf437571abef671c7d0a6ac2164c6030b221e96c",
+    "WorldUtil-upstream.java": "5b4837607f61a03be7dfdae38c772a0bda18cca68699baf1757336ebefa53867"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "concept_qa": {
+    "v1": "Preserves lime bands, teal barrel and two cyan domes. Premium/world-fit treatments, bubble inspection, splash and cosmetic accessories are proposals. Hand/guard fit, mesh, animations and all effects remain unqualified."
+  }
+}
