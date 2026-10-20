@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "scope": "Owned source adapters and insertion only; requires the exact licensed pre-existing full lake source and complete AoA target project. This is not a stand-alone complete port.",
+  "sourcePlan": {
+    "file": "complete-native-temple-lakes-sdk-plan-v96t3.json",
+    "bytes": 36037501,
+    "sha256": "10647c4c011b656772c1f064c8da304e9b53fcbb5c17101bba103ab6d29e9253"
+  },
+  "ownedCompleteSources": [
+    {
+      "path": "src/main/java/net/tslat/aoa3/content/world/genold/feature/features/trees/RunicArenaTreeProtection.java",
+      "file": "RunicArenaTreeProtection.java",
+      "sha256": "edf8fe60fa68bee114ec75306c1962775c11034e8c9732924f30040f2cf781ce",
+      "bytes": 3688
+    },
+    {
+      "path": "src/main/java/net/tslat/aoa3/content/world/genold/feature/features/trees/SnapshotVegetationRegion.java",
+      "file": "SnapshotVegetationRegion.java",
+      "sha256": "69a8568112a5fe861d64338a598e0d620ad509c4351d03bd91eb2072e235d640",
+      "bytes": 417
+    },
+    {
+      "path": "src/main/java/net/tslat/aoa3/content/world/genold/feature/features/trees/SnapshotVegetationBounds.java",
+      "file": "SnapshotVegetationBounds.java",
+      "sha256": "758122b0040567b05b8ed1d52115158095052803daa875e07d3c38ab89ca9a27",
+      "bytes": 2884
+    },
+    {
+      "path": "src/main/java/net/tslat/aoa3/mixin/common/patch/SnapshotVegetationRegionMixin.java",
+      "file": "SnapshotVegetationRegionMixin.java",
+      "sha256": "324969a1bf20fb12ead5c18efec412e9e1351de83a487820e6513465eef94bfa",
+      "bytes": 1326
+    },
+    {
+      "path": "src/main/java/net/tslat/aoa3/mixin/common/patch/SnapshotTempleTreeFeatureMixin.java",
+      "file": "SnapshotTempleTreeFeatureMixin.java",
+      "sha256": "b94e7da2c987efbf7f2bf9964cad533d3d9c15ca3a098309cbeff8caf8f6811d",
+      "bytes": 1516
+    }
+  ],
+  "lakeInsertion": {
+    "path": "src/main/java/net/tslat/aoa3/content/world/gen/feature/features/BiomeFriendlyLake.java",
+    "priorSha256": "4cfc0d4d926b63f7f153551138712de6f4f463359edd8cafb36c5d930a6244f6",
+    "outputSha256": "7c776768f31c83b66f77dbd7835deae9e93910806cb8ffab3a81cac183e4d1c5",
+    "edit": {
+      "startByte": 1636,
+      "endByte": 1636,
+      "beforeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replacement": "\n                // Like the existing village exclusion, reject an overlapping\n                // natural lake as a whole, before any carving or fluid writes.\n                // Keep every original algorithm/configuration outside bounds;\n                // explicit ServerLevel placement remains the player's choice.\n                if (reader instanceof net.tslat.aoa3.content.world.genold.feature.features.trees.SnapshotVegetationRegion protectedRegion\n                    && protectedRegion.aoa3$intersectsProtectedFeature(new net.minecraft.world.level.levelgen.structure.BoundingBox(\n                        pos.getX(),pos.getY(),pos.getZ(),pos.getX()+15,pos.getY()+7,pos.getZ()+15))) return false;\n"
+    }
+  },
+  "nativeServer": {
+    "file": "whole-mod-modern-server-baseline-399dc22f-4be3-4bcd-ac70-028e0355db02.json",
+    "bytes": 40549408,
+    "sha256": "36ae8c2338563f09e38a1b0c5e57c9d0cdbf228f5f144250de1223286677591d"
+  },
+  "nativeServerVerified": true,
+  "nativeClientVerified": false,
+  "productionPromoted": false,
+  "existingChunksRewritten": false,
+  "completeAoAPort": false
+}
