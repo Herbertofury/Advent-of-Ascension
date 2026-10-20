@@ -1,0 +1,185 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:shyre_blaster",
+    "field": "SHYRE_BLASTER",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/ShyreBlaster"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$179",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "554f8b196df3ef62fe8380aa1b842ee0628962e4eca2fa67022293eeeea62282",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              4,
+              235
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 25.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 850
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 30
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.15000000596046448
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/ShyreBlaster",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/ShyreBlaster.class",
+        "sha256": "8a044288976dbd7c3ddff3c01e10f4278843dc5608324fac1ed157cac5cdf2e6",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "befcaa8b99642cac1a739b879bbea02437f17ba28d665fed49f83478f718d18e"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 25.5,
+    "durability": 850,
+    "firing_delay_ticks": 30,
+    "recoil": 0.15000000596046448
+  },
+  "ammo": "aoa3:cannonball",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/ShyreBlaster.class",
+      "sha256": "8a044288976dbd7c3ddff3c01e10f4278843dc5608324fac1ed157cac5cdf2e6"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/CannonballEntity.class",
+      "sha256": "0d601e6915441e5234a5572b78e688bee415164276c92e22f9b21d98dcef78af"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class",
+      "sha256": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/TexturedProjectileRenderer.class",
+      "sha256": "51df26b6806b8d90c3c57ce2221d232eb26b5a7aadf16735cf2d776e3636a7c5"
+    }
+  ],
+  "dedicated_weapon_overrides": [
+    "getFiringSound"
+  ],
+  "projectile": {
+    "class": "CannonballEntity",
+    "factory_owner": "BaseCannon",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1,
+    "gravity": 0,
+    "gravity_owner": "BaseBullet",
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "renderer": "TexturedProjectileRenderer",
+    "dedicated_particle_emission_in_renderer": false
+  },
+  "data_references": [
+    {
+      "path": "data/aoa3/recipes/infusion_shyre_blaster.json",
+      "sha256": "b856d3ef3ee64a90bcfaf25a7419aa7ac2e237f7e163ff98196affff5d6feb31",
+      "data": {
+        "type": "aoa3:infusion",
+        "ingredients": [
+          {
+            "tag": "forge:ingots/shyrestone"
+          },
+          {
+            "tag": "forge:ingots/shyrestone"
+          },
+          {
+            "tag": "forge:gems/shyregem"
+          },
+          {
+            "tag": "forge:gems/shyregem"
+          },
+          {
+            "tag": "forge:gunpowder"
+          }
+        ],
+        "input": {
+          "item": "aoa3:cannon_frame"
+        },
+        "result": {
+          "item": "aoa3:shyre_blaster"
+        }
+      }
+    }
+  ],
+  "ingredient_tags": {
+    "ingots/shyrestone": {
+      "values": [
+        "aoa3:shyrestone_ingot"
+      ]
+    },
+    "gems/shyregem": {
+      "values": [
+        "aoa3:shyregem"
+      ]
+    }
+  },
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "TexturedProjectileRenderer-upstream.java": "a16664898352aef8e4665ce1fffe3035bbd2eb7d55e27ce78208b864584958a9",
+    "BaseCannon-upstream.java": "b63ee349657e13266da0b711f4127a408bd22024ee110f3148e27058e03bc703",
+    "BaseBullet-upstream.java": "98d2ac62394ba49f8328065ec5b77bd3baccd45e4e5c17452a7de8c6801433b5",
+    "CannonballEntity-upstream.java": "b8de30c8b8af25fab605612b5d24400f6b37640cfa20739eb685262527c72d88",
+    "AoAEntityRendering-upstream.java": "8a91728ed4da03cebba072fcfe19e49741babfc5374cdc072180692370dee712",
+    "ShyreBlaster-upstream.java": "aa4252b041997ee80be2f0915a250f3a9ccf50c785a268907c37eef7154141f5"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "concept_qa": {
+    "v1": "Gold ribs, cyan bands, grey collar and hollow rear loop retained. Hand fit, all-view model fidelity, variants and exported textures remain unqualified. The cyan wake, damage vignette, floating gem and attachments are proposed art, not original capture or implemented mechanics."
+  }
+}
