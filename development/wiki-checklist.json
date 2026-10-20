@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "aoa-complete-wiki-checklist-1",
   "repository": "Herbertofury/Advent-of-Ascension.wiki",
-  "revision": "c2d5bf5748b2370995eda2aff3ad6ae1d7af5603",
+  "revision": "e10ea0c7d454150d9ce297f73b2e7cfa5b266d69",
   "pages": [
     {
       "path": "Abominator-Weapon-Profile.md",
@@ -451,8 +451,13 @@
     },
     {
       "path": "Cannon-Progression-and-Recipes-1.20.1.md",
-      "bytes": 24778,
-      "sha256": "29bc0dbaf9e467ced556a431ce67b444847ccab1d0b0fa74a0f91a626f2f7703"
+      "bytes": 25007,
+      "sha256": "0f7df681294b70de37e37a262a4ce47b0d0fc56d79fc54a6898c599f843c89d0"
+    },
+    {
+      "path": "Cannon-Projectile-Behavior-1.20.1.md",
+      "bytes": 14594,
+      "sha256": "a6db9939cec71cf4a41509a329a23db1c090ce71dacc2cfdf3ab3f8923497093"
     },
     {
       "path": "Carrot-Cannon-Weapon-Profile.md",
@@ -463,6 +468,11 @@
       "path": "Charmsy-Direct-Study.md",
       "bytes": 2979,
       "sha256": "bbfcd9750527b8fea58879aebe4e7f12377e576b46eb49e4ea5d76daeeaf11e1"
+    },
+    {
+      "path": "Clown-Cannon-Weapon-Profile.md",
+      "bytes": 7515,
+      "sha256": "8bda46bf9dff60ef44609bde3aceb7045059e005083b538842dde4d2f7a725a0"
     },
     {
       "path": "Clown-Cracker-Weapon-Profile.md",
@@ -478,11 +488,6 @@
       "path": "Clowno-Pulse-Weapon-Profile.md",
       "bytes": 5840,
       "sha256": "9fad8a1c5c04022dfbb7104c91a0f94660c92e49b86b5b2d89f3078d1677b934"
-    },
-    {
-      "path": "Clown‐Cannon‐Weapon‐Profile.md",
-      "bytes": 7230,
-      "sha256": "8282ae96a8eb0ffa80dad4e381dbf9600030867fcf102ac8df9d4c31c2adeb81"
     },
     {
       "path": "Compatibility-Targets.md",
@@ -993,6 +998,11 @@
       "path": "Ghast-Blaster-Weapon-Profile.md",
       "bytes": 3846,
       "sha256": "c2f0b6407b4b7faec5667b753bd1ef2233436bf6d9b7b49bc977eaf0c5bda6bc"
+    },
+    {
+      "path": "Ghoul-Cannon-Weapon-Profile.md",
+      "bytes": 7072,
+      "sha256": "34c8b2c2be5f1bb73eae79d3f09fabbbbdf8cf9ca3ac3270b09216cba898e129"
     },
     {
       "path": "Gimmick-Weapon-Profile.md",
@@ -2151,8 +2161,8 @@
     },
     {
       "path": "Weapon-Completeness-Standard.md",
-      "bytes": 27587,
-      "sha256": "526eb4785b89cd559615b2a3394a7716aae493a54baf6dddb7d58901b0346a0b"
+      "bytes": 28703,
+      "sha256": "caf85dcc563ba7afc4b43308f00cd9093f7c87238564893e431120f1ac884f13"
     },
     {
       "path": "Weapon-Implementation-Map.md",
@@ -2171,8 +2181,8 @@
     },
     {
       "path": "Weapon-Overhaul.md",
-      "bytes": 27062,
-      "sha256": "4c7e24e1d54475f7c4e7468ee1b20d5933045384dd9e49051a49dce8e7f09bb6"
+      "bytes": 27654,
+      "sha256": "e730d5059145324bf34f4dc4f590fd2793ce5531ded1d51fec1e9e3d58ca6be2"
     },
     {
       "path": "Weapon-Physics-and-Speculative-Technology.md",
@@ -4484,6 +4494,188 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Camo-Rifle-Mechanics-Study"
     },
     {
+      "id": "wiki:b7fd531f87c81bfa239760cd",
+      "page": "Cannon-Projectile-Behavior-1.20.1.md",
+      "section": [
+        "Cannon Projectile Behavior · 1.20.1",
+        "Upgrade regression requirements"
+      ],
+      "line": 87,
+      "text": "Match each original projectile class and inherited method before choosing an upgraded visual.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Projectile-Behavior-1.20.1"
+    },
+    {
+      "id": "wiki:ee2d0709055b20e51d4209fd",
+      "page": "Cannon-Projectile-Behavior-1.20.1.md",
+      "section": [
+        "Cannon Projectile Behavior · 1.20.1",
+        "Upgrade regression requirements"
+      ],
+      "line": 88,
+      "text": "Capture original travel, fall, impacts and lifetime in the target release; separate native footage from concept art.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Projectile-Behavior-1.20.1"
+    },
+    {
+      "id": "wiki:fd41c476c2ef5adabef9dbf2",
+      "page": "Cannon-Projectile-Behavior-1.20.1.md",
+      "section": [
+        "Cannon Projectile Behavior · 1.20.1",
+        "Upgrade regression requirements"
+      ],
+      "line": 89,
+      "text": "Preserve collision/hitbox and damage semantics unless a gameplay-bearing attachment explicitly changes them.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Projectile-Behavior-1.20.1"
+    },
+    {
+      "id": "wiki:8d018e85cfb7b12bf4cc8de4",
+      "page": "Cannon-Projectile-Behavior-1.20.1.md",
+      "section": [
+        "Cannon Projectile Behavior · 1.20.1",
+        "Upgrade regression requirements"
+      ],
+      "line": 90,
+      "text": "Check velocity, drag, per-tick custom movement, lifetime, piercing, split/spawn behavior and server ownership; this gravity table alone is insufficient.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Projectile-Behavior-1.20.1"
+    },
+    {
+      "id": "wiki:d4a857adc1ddea3fd466dd61",
+      "page": "Cannon-Projectile-Behavior-1.20.1.md",
+      "section": [
+        "Cannon Projectile Behavior · 1.20.1",
+        "Upgrade regression requirements"
+      ],
+      "line": 91,
+      "text": "Use time-based visual particle budgets while retaining original effect identity, rather than coupling emissions to render frequency.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Projectile-Behavior-1.20.1"
+    },
+    {
+      "id": "wiki:588af0c40279650d9108cab3",
+      "page": "Cannon-Projectile-Behavior-1.20.1.md",
+      "section": [
+        "Cannon Projectile Behavior · 1.20.1",
+        "Upgrade regression requirements"
+      ],
+      "line": 92,
+      "text": "Test multiplayer, low/high frame rates, slow server ticks, unloaded chunks and relevant compatibility targets.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Projectile-Behavior-1.20.1"
+    },
+    {
+      "id": "wiki:b4ab128874ccde7dd35b1642",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 66,
+      "text": "Fit the hand rig comfortably; validate finger, grip and guard clearance in idle, fire, aim, inspect and optional reload states.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:73c21dc0054cd8475f5b5e6c",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 67,
+      "text": "Build a faithful mesh and two texture treatments; compare matched views with the concept and original sprite.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:15b99d2e5bfc3862474a5638",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 68,
+      "text": "Author equip, idle, fire/recover, aim transition, inspect and optional reload animations, including interruption handling.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:6a0c815871ed78179ae80e1b",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 69,
+      "text": "Provide projectile, muzzle, tracer, impact, decal and optional defeat-effect concepts with explicit original-versus-proposed labels.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:76ec40821bc1c0a42f82464b",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 70,
+      "text": "Preserve non-reloading gameplay where the chosen resource system calls for it; never force a magazine system onto every AoA weapon.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:bf4ff76394452a1fec030549",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 71,
+      "text": "Verify exact acquisition routes and gameplay progression rather than inventing a drop table.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:166103fb7c3cecdb1b6a0e53",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 72,
+      "text": "Capture original projectile flight/impact in game and qualify upgraded behavior in the actual target modpack.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:bafe732aed6b5dd78669855e",
+      "page": "Clown-Cannon-Weapon-Profile.md",
+      "section": [
+        "Clown Cannon · a sinister green carnival cannon",
+        "Animation and quality gates"
+      ],
+      "line": 73,
+      "text": "Test server-authoritative chance/effect behavior, immunity, multiplayer synchronization, frame-rate-independent particles and performance budgets.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile"
+    },
+    {
       "id": "wiki:dbf1c59711886529e5d3ed1f",
       "page": "Clown-Cracker-Weapon-Profile.md",
       "section": [
@@ -4625,110 +4817,6 @@
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clownimator-Weapon-Profile"
-    },
-    {
-      "id": "wiki:f4c1ef8efed9aa9afa0e190a",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 66,
-      "text": "Fit the hand rig comfortably; validate finger, grip and guard clearance in idle, fire, aim, inspect and optional reload states.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:8bdb220ae27e27cd53d975f0",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 67,
-      "text": "Build a faithful mesh and two texture treatments; compare matched views with the concept and original sprite.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:516cad946090606b233ad441",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 68,
-      "text": "Author equip, idle, fire/recover, aim transition, inspect and optional reload animations, including interruption handling.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:25fc288927b31fd05b155d7c",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 69,
-      "text": "Provide projectile, muzzle, tracer, impact, decal and optional defeat-effect concepts with explicit original-versus-proposed labels.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:57ff9eb1e06452ab8cef5cbb",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 70,
-      "text": "Preserve non-reloading gameplay where the chosen resource system calls for it; never force a magazine system onto every AoA weapon.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:7a05f6e905b682c6b343ddb4",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 71,
-      "text": "Verify exact acquisition routes and gameplay progression rather than inventing a drop table.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:c02b46bd2a4c01926847aa07",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 72,
-      "text": "Capture original projectile flight/impact in game and qualify upgraded behavior in the actual target modpack.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
-    },
-    {
-      "id": "wiki:1a78d0b386ab3441e9b3ac2c",
-      "page": "Clown‐Cannon‐Weapon‐Profile.md",
-      "section": [
-        "Clown Cannon · a sinister green carnival cannon",
-        "Animation and quality gates"
-      ],
-      "line": 73,
-      "text": "Test server-authoritative chance/effect behavior, immunity, multiplayer synchronization, frame-rate-independent particles and performance budgets.",
-      "sourceReportedChecked": false,
-      "acceptance": "source-checklist-only",
-      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown‐Cannon‐Weapon‐Profile"
     },
     {
       "id": "wiki:de9ba9720681412360aebbc3",
@@ -7835,6 +7923,110 @@
       "sourceReportedChecked": false,
       "acceptance": "source-checklist-only",
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Fungal-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:b54ae695ece9c88c11861db3",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 65,
+      "text": "Build and compare the actual mesh against the released sprite and concept, including both side views and first-person framing.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:5698568b4615e86e318fa63a",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 66,
+      "text": "Validate a comfortable full-hand grip, trigger interaction and all moving clearances; the concept alone does not pass ergonomic QA.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:939b064f46a979be6a61da8a",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 67,
+      "text": "Author equip, idle, aim, fire/recover, inspection and appropriate optional reload/recharge animations, including interruption cases.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:efef156bc20d9afb72fa7c16",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 68,
+      "text": "Produce muzzle, projectile, tracer, impact, decal and defeat-effect boards with original-versus-proposed labels.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:3dff74e00396b4b4843106b0",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 69,
+      "text": "Build optional craftable variants and balanced attachment stats, plus reversible skins, charms and sticker placement.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:55d906529f604acfd922b50c",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 70,
+      "text": "Preserve resource-system behavior; reloading remains optional where appropriate rather than mandatory across every AoA weapon.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:19c951a5663fb52ace98f8a4",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 71,
+      "text": "Capture original flight and impact in the target release and verify the recipe in native gameplay.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
+    },
+    {
+      "id": "wiki:b7eeef2b345dcc73b83d035d",
+      "page": "Ghoul-Cannon-Weapon-Profile.md",
+      "section": [
+        "Ghoul Cannon · violet shell, heavy shot",
+        "Full production gates"
+      ],
+      "line": 72,
+      "text": "Qualify export, hands, animation, multiplayer authority, compatibility and performance before marking a playable upgrade ready.",
+      "sourceReportedChecked": false,
+      "acceptance": "source-checklist-only",
+      "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ghoul-Cannon-Weapon-Profile"
     },
     {
       "id": "wiki:5e270a092d9d0535a0f6acb8",
@@ -17388,8 +17580,8 @@
       "url": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Upgrade-Backlog"
     }
   ],
-  "pageCount": 444,
-  "taskCount": 1160,
+  "pageCount": 446,
+  "taskCount": 1174,
   "reportedChecked": 144,
   "runtimeCompletionInferred": false
 }
