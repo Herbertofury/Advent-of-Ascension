@@ -11,7 +11,7 @@ Discharge Sniper extends BaseSniper but overrides its ammunition with **Discharg
 | Damage constructor input | 10 |
 | Durability | 540 |
 | Firing delay | 24 ticks, nominally 1.2 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.4 |
+| Stored recoil constructor input | Approximately 0.4 |
 | Projectile constructor damage multiplier | 1 |
 | Pierce argument | 0 |
 | Launch-speed parameter | 20 |
@@ -83,3 +83,7 @@ Revision one used an overly definitive long-range/energy description and did not
 [Released evidence and exact recipe](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/discharge-sniper-released-evidence.json) · [Separate shotgun profile](Discharge-Shotgun-Weapon-Profile) · [Weapon overhaul](Weapon-Overhaul)
 
 Original AoA identity, assets and behavior are credited to Tslat and contributors. Source analysis, generated concepts and new implementation proposals remain distinct. Native acceptance stays zero.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

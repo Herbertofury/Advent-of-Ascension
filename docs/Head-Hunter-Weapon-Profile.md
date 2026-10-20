@@ -11,7 +11,7 @@ Head Hunter is a **Metal Slug sniper** using the inherited **SCOPE_1** overlay. 
 | Damage input | 41.5 |
 | Durability | 380 |
 | Firing delay | 92 ticks; nominally 4.6 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.035 |
+| Stored recoil constructor input | Approximately 0.035 |
 | Ammunition | Metal Slug |
 | Scope | SCOPE_1, inherited |
 | Firing sound | Medium sniper, long variant |
@@ -64,3 +64,7 @@ The concept interprets the brown sections as layered warm panels with graphite f
 [Weapon overhaul](Weapon-Overhaul) · [Completeness standard](Weapon-Completeness-Standard)
 
 Original AoA identity/assets: Tslat and contributors. Proposed visuals and mechanics remain distinct from released behavior.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

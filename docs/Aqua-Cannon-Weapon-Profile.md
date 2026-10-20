@@ -13,7 +13,7 @@ This is not percentage life steal. The subclass does not check whether the prece
 | Damage input | 14 |
 | Durability | 300 |
 | Firing delay | 35 ticks; nominally 1.75 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.21 |
+| Stored recoil constructor input | Approximately 0.21 |
 | Ammunition | Cannonball |
 | Projectile maximum-age argument | 120 ticks |
 | Piercing argument | 0 |
@@ -87,3 +87,7 @@ The concept’s heavier collar count, hand reach, opposite-side continuity and t
 [Armory](Weapon-Overhaul) · [Completeness standard](Weapon-Completeness-Standard)
 
 Original AoA identity/assets: Tslat and contributors. New concepts and optimizations remain separate from released behavior.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

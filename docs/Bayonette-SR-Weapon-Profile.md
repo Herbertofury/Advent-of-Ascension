@@ -11,7 +11,7 @@ Bayonette SR is a **Metal Slug sniper** with inherited **SCOPE_1**, plus a main-
 | Ranged damage input | 33 |
 | Durability | 300 |
 | Firing delay | 86 ticks; nominally 4.3 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.06 |
+| Stored recoil constructor input | Approximately 0.06 |
 | Ammunition | Metal Slug |
 | Scope | SCOPE_1, inherited |
 | Firing sound | Medium sniper, long variant |
@@ -59,3 +59,7 @@ The concept retains a distinct pale lower-front blade, teal shell, purple framin
 [Armory](Weapon-Overhaul) · [Completeness standard](Weapon-Completeness-Standard)
 
 Original AoA identity/assets: Tslat and contributors. New art and mechanics remain separate from released facts.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

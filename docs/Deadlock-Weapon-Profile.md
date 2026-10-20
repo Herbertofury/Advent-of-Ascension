@@ -15,7 +15,7 @@ This is **not a general speed measurement**. Movement along only X or only Z get
 | Damage | 25.5 |
 | Durability | 120 |
 | Delay | 90 ticks, nominally 4.5 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.09 |
+| Stored recoil constructor input | Approximately 0.09 |
 | Ammunition | Metal Slug |
 | Scope | SCOPE_3 |
 | Sound | Metallic sniper, long variant |
@@ -74,3 +74,7 @@ Layered red enamel and charcoal framing translate the original stepped shapes in
 [Armory](Weapon-Overhaul) · [Weapon completeness standard](Weapon-Completeness-Standard)
 
 Original identity/assets belong to Tslat and contributors. New art and implementation proposals are distinct from released mechanics.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

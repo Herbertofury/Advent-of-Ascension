@@ -11,7 +11,7 @@ Dark Beast inherits **BaseSniper**, using Metal Slug ammunition and non-automati
 | Damage | 38 | 50.5 |
 | Durability | 250 | 560 |
 | Delay | 96 ticks | 96 ticks |
-| Recoil | Approximately 0.05 | Approximately 0.035 |
+| Stored recoil constructor input | Approximately 0.05 | Approximately 0.035 |
 
 These are stored values, not guaranteed final damage or measured recoil. The nominal delay is 4.8 seconds at 20 TPS. The checked upgrade keeps that input cadence while increasing damage/durability and lowering recoil input.
 
@@ -62,3 +62,7 @@ The two material examples are design directions, not finished atlases. Inspectio
 - [ ] Native gameplay, export, multiplayer, persistence and performance qualification
 
 [Released source and recipe evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/dark-beast-source-evidence.json) · [Complete feature standard](Weapon-Completeness-Standard) · [Armory gallery](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html)
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

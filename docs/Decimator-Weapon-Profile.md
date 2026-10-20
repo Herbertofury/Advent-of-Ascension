@@ -13,7 +13,7 @@ The condition uses maximum health, not current injury, percentage health or an a
 | Damage | 33 |
 | Durability | 180 |
 | Delay | 95 ticks, nominally 4.75 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.05 |
+| Stored recoil constructor input | Approximately 0.05 |
 | Ammunition | Metal Slug |
 | Scope | SCOPE_2 |
 | Sound | Heavy sniper, long variant |
@@ -71,3 +71,7 @@ The cream ceramic, brushed framing and small optic-inspection light are proposed
 [Armory](Weapon-Overhaul) · [Weapon completeness standard](Weapon-Completeness-Standard)
 
 Original identity/assets belong to Tslat and contributors. New art and implementation proposals remain separate from released mechanics.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

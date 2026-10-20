@@ -71,3 +71,7 @@ The brighter boosted-shot panel is proposed feedback for the existing shared rol
 Original in-game projectile and impact capture; one-roll-per-shot and shared-pellet outcome tests; ammo, enchantment, immunity and final-damage checks; normal/slim hand and swept attachment clearance; full animation/material/export implementation; native TaCZ/TML, multiplayer, save/load, progression and compatibility testing. Static concepts and source contracts do not pass native gates.
 
 [Exact-release evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/destruction-shotgun-source-evidence.json) · [Baseline inventory](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/conventional-weapon-baselines-1.20.1.json) · [Complete weapon requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard)
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

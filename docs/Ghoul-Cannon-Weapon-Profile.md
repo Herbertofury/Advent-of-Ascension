@@ -21,7 +21,7 @@ The pictured incisions, vapor, surface weathering and glowing cavity treatment a
 | Damage | 25.5 |
 | Durability | 590 |
 | Firing delay | 34 ticks |
-| Recoil | approximately 0.15 |
+| Stored recoil constructor input | approximately 0.15 |
 | Ammo | Cannonball |
 | Automatic fire | No, inherited BaseCannon behavior |
 
@@ -76,3 +76,7 @@ The displayed tag items are examples. Ghoulish ingot's bundled tag explicitly co
 [Structured class and recipe evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ghoul-cannon-released-evidence.json) · [Pinned GhoulCannon source](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/cannon/GhoulCannon.java) · [Pinned projectile source](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/entity/projectile/cannon/GhoulBallEntity.java)
 
 Source research, concept quality, exported assets and native acceptance remain separate checks.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

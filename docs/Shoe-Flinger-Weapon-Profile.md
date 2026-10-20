@@ -77,3 +77,7 @@ Do not claim equipped boots are guaranteed loot: death drops, equipment rules an
 [Released evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/shoe-flinger-released-evidence.json) · [Audit tool and exact concept prompts](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/shoe-flinger-audit-tool-v1.zip) · [Pinned named-source comparison](https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/gun/ShoeFlinger.java) · [Modular armory and effect salvage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Modular-Armory-and-Effect-Salvage)
 
 Original mod/art: Tslat and AoA contributors. New concept art is a proposed interpretation, not extracted native geometry.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

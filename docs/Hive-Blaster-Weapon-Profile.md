@@ -75,3 +75,7 @@ The concept shows proposed projectiles and impacts. It is not a native screensho
 [Audit tool and original concept prompts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-blaster-audit-tool-v1.zip) · [Released class/renderer/recipe evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-blaster-released-evidence.json) · [Weapon research standard](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Profile-Standard) · [Customization](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Charms-and-Effect-Customization)
 
 Original AoA assets and identity: Tslat and contributors. New concept exploration was generated with the built-in image tool.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

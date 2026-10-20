@@ -21,7 +21,7 @@ Its bundled upgrade is **Balloon Bomber + Seaside Upgrade Kit**. This establishe
 | Damage parameter | 20.5 |
 | Durability | 855 |
 | Firing delay | 24 ticks |
-| Recoil | approximately 0.20 |
+| Stored recoil constructor input | approximately 0.20 |
 | Ammunition | Balloon |
 | Firing sound | BALL_CANNON_FIRE |
 
@@ -101,3 +101,7 @@ This comparison is source analysis only. Neither version has been natively exerc
 [Structured registration, class and recipe evidence](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/water-balloon-bomber-released-evidence.json) · [Pinned weapon source](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/cannon/WaterBalloonBomber.java) · [Pinned projectile source](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/entity/projectile/cannon/WaterBalloonBombEntity.java) · [Pinned renderer](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/client/render/entity/projectile/cannonshots/WaterBalloonBombRenderer.java)
 
 Original AoA identity belongs to Tslat and contributors. Concept art is an authored upgrade exploration. No upgraded native weapon acceptance is promoted here.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

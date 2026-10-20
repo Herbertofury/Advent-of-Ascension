@@ -23,7 +23,7 @@ AncientBomber extends BaseCannon but overrides its ammunition and projectile fac
 | Weapon damage parameter | 23.5 |
 | Durability | 855 |
 | Firing delay | 28 ticks |
-| Recoil | Approximately 0.175 |
+| Stored recoil constructor input | Approximately 0.175 |
 | Ammo item | Grenade |
 | Projectile | GrenadeEntity |
 | Projectile gravity return | 0.075 |
@@ -83,3 +83,7 @@ The pictured diagram is reconstructed from bundled data and item icons. Datapack
 [Released class hashes and structured facts](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/ancient-bomber-released-evidence.json) · [Pinned weapon source](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/item/weapon/cannon/AncientBomber.java) · [Grenade behavior](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/entity/projectile/thrown/GrenadeEntity.java) · [Explosion implementation](https://github.com/Tslat/Advent-Of-Ascension/blob/0be2106bebb3851c5ba2cc9974e57936a867244d/source/library/object/explosion/ShrapnelExplosion.java)
 
 Original AoA assets and identity are credited to Tslat and contributors. Generated concept art and new customization ideas are separate. No native upgraded weapon acceptance is promoted by this page.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

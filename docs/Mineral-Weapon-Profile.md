@@ -13,7 +13,7 @@ The name and rocky styling do not establish mining, bonus ores, gem ammunition, 
 | Damage | 58.5 |
 | Durability | 560 |
 | Firing delay | 112 ticks, nominally 5.6 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.035 |
+| Stored recoil constructor input | Approximately 0.035 |
 | Ammunition | Metal Slug |
 | Scope | Inherited SCOPE_1 |
 | Sound pitch-adjust input | 0.1 |
@@ -59,3 +59,7 @@ The rear grip sits behind the trigger and the guard is visibly open, but actual 
 [Released evidence and exact recipe](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/mineral-released-evidence.json) · [Sprite reference QA](Sprite-Transparency-and-Visual-References) · [Weapon overhaul](Weapon-Overhaul)
 
 Original AoA identity and assets are credited to Tslat and contributors. Generated concepts and integration proposals remain separate. No native acceptance is promoted.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

@@ -62,3 +62,7 @@ Full orthographic/model sheets; projectile/impact and finisher storyboards; ever
 [Exact evidence and first-pass feature status](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/apoco-assault-rifle-study-v1.zip)
 
 Original AoA identity/assets: Tslat and contributors. Concept candidate: generated project artwork, not a native game screenshot. No final visual or gameplay acceptance.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

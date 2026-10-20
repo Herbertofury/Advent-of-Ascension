@@ -13,7 +13,7 @@ The bundled EffectsLib takes builder level 3 and converts it to Minecraft amplif
 | Damage | 32.5 |
 | Durability | 460 |
 | Firing delay | 77 ticks, nominally 3.85 seconds at 20 TPS |
-| Recoil modifier | Approximately 0.05 |
+| Stored recoil constructor input | Approximately 0.05 |
 | Ammunition | Metal Slug |
 | Scope | Inherited SCOPE_1 |
 | Sound | Medium rifle, long report |
@@ -78,3 +78,7 @@ Revision three corrected the main grip layout but retained an obsolete inspectio
 [Released evidence and recipe](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/sweet-tooth-released-evidence.json) · [Official named source](https://github.com/Tslat/Advent-Of-Ascension/blob/85d6beba07e3a09032834dcf79b5a01f411092c3/source/content/item/weapon/sniper/SweetTooth.java) · [Bundled effect-level audit](Sludge-Sniper-Weapon-Profile) · [Weapon overhaul](Weapon-Overhaul)
 
 Original AoA assets and behavior are credited to Tslat and contributors. Generated art, tests and proposed integration work are separate. No native acceptance is promoted.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

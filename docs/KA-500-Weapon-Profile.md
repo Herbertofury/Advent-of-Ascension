@@ -11,7 +11,7 @@ The KA-500 inherits BaseSniper: a non-automatic Metal Slug weapon. Its subclass 
 | Damage | 30 |
 | Durability | 360 |
 | Delay | 70 ticks |
-| Recoil modifier | Approximately 0.06 |
+| Stored recoil constructor input | Approximately 0.06 |
 
 These are stored inputs, not guaranteed final damage or physical measurements. At 20 TPS, the nominal delay is 3.5 seconds; lag and runtime conditions can alter observed timing.
 
@@ -78,3 +78,7 @@ The first concept still needs a dedicated silhouette comparison: its enlarged op
 - [ ] Native gameplay, multiplayer, compatibility and performance qualification
 
 [Source evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/ka500-source-evidence.json) · [Complete weapon standard](Weapon-Completeness-Standard) · [Concept gallery](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html)
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

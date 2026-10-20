@@ -66,3 +66,7 @@ No direct `aoa3:coral_cannon` reference was found in the inspected release's dat
 - [ ] Particle budgets, texture memory, LODs and frame-time measurements
 
 Any beam, spread or chain-lightning variant would be a new gameplay mode. Its visible barrel, firing behavior, ammunition/resource use and damage must agree; it must not silently replace the original single-projectile baseline.
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).

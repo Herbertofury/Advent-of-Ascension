@@ -64,3 +64,7 @@ The first concept placed the trigger too far from the grip and showed four visib
 Original in-game flight, entity and block impact captures; actual explosion count and immunity behavior; resource/enchantment tests; concept-to-mesh fidelity; comfortable normal/slim hands and swept attachment clearance; complete animation and effect implementation; UV/material/export validation; native TaCZ/TML integration; multiplayer, save/load, progression, compatibility and measured performance. All native gates remain untested.
 
 [Exact-release evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/amplifier-source-evidence.json) · [Weapon baselines](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/conventional-weapon-baselines-1.20.1.json) · [Complete feature requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Completeness-Standard)
+
+## Recoil interpretation
+
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
