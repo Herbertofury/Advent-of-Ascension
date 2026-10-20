@@ -34,3 +34,13 @@ Only the useful current source and checks are packaged. Earlier local studies re
 [Download the 21 KB original authoring source and regression checks](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/shyre-authoring-study-v8.zip). The archive was rebuilt from a clean folder. Its known-bad v4 control was rejected on exactly six objects.
 
 [View the labeled Blender inspection clip](shyre-inspect-study-v8.mp4).
+
+## Portable material and web-export study
+
+[Open the current authoring preview](https://herbertofury.github.io/Advent-of-Ascension/shyre-authoring-preview.html) · [Download reproducible v11 source and checks](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/shyre-authoring-export-source-v11.zip).
+
+The v11 study adds stepped medallion trim, diamond inlay seats and a reverse crown seam caught by opposite-side review. A 1024-pixel static-body atlas retains base color and tangent-space normals. A diffuse-only albedo bake was rejected because it darkened metallic gold; the corrected bake uses the actual base-color input through emission. The clean rebuild produces byte-identical base-color and normal images.
+
+The web GLB contains 51 meshes, two embedded images and one cosmetic inspection action. Exact bake triangles, UVs and corner normals are retained, with explicit tangents. The official Khronos validator reports zero errors, warnings, informational notices or hints. The separate export contract rejects missing tangents and verifies the single crystal owner with two orbit children. UV checks cover 12,900 triangles without positive-area overlaps above 1e-10.
+
+These are scoped format and authoring checks. The cloud review browser cannot create a WebGL context, so its 3D rendering is not visually accepted. The page provides a rendered v11 still and a clearly labeled earlier v8 inspection video when WebGL is unavailable. Full native, artistic and hand-animation gates remain open.
