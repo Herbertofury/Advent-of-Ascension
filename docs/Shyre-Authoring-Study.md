@@ -48,3 +48,9 @@ These are scoped format and authoring checks. The cloud review browser cannot cr
 ### Inspection hierarchy export correction
 
 A CPU import-and-render check caught invisible orbit children despite a valid GLB. The zero-scale rest pose had led to erroneous exported child locals. The exporter now checks the authored identity-local hierarchy and retains those child locals while preserving the parent animation. The corrected imported inspection pose visibly includes both orbits, and a zero-scale-child regression is rejected. This is scoped authoring/export evidence; browser WebGL and native testing remain open.
+
+### Fewer web-preview objects without dropping triangles
+
+The current preview batches only the static body: 51 meshes become 4, and 69 primitives become 16. All 12,900 static triangles remain, with unchanged UV values and a fixed 1e-6 world-attribute tolerance. Material definitions, embedded image bytes and the inspection actors/animation data are retained. A deliberately altered UV fixture fails. The original editable scene and component export remain available in the source workflow.
+
+The GLB is about 2.1% smaller locally; gzip-9 comparison is about 1.4% smaller. These measurements do not establish browser FPS, HTTP transfer speed or native game performance. The source archive includes the batching routine and independent comparison checks.
