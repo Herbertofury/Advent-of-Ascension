@@ -2,7 +2,7 @@
 
 [Weapon overhaul](Weapon-Overhaul) · [Concept gallery](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html) · [All 50 cannons and recipe routes](Cannon-Progression-and-Recipes-1.20.1)
 
-![Clown Cannon concept, proposed upgraded art](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/clown-cannon-concept-v1.png)
+![Clown Cannon concept, proposed upgraded art](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/clown-cannon-concept-v2.png)
 
 **Status:** released-source profile and first concept exploration. No accepted upgraded mesh, animation set or native playable release. This page covers **AoA 3.7.1 for Minecraft 1.20.1**; do not silently transfer its numbers to other releases.
 
@@ -10,7 +10,7 @@
 
 ![Actual released item sprite, nearest-neighbour enlargement](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/clown-cannon-original-preview.png)
 
-The actual sprite has a broad flared muzzle, dark charcoal body, grey framing and bright green segmented accents. The concept keeps that palette and overall silhouette, then proposes sculpted metalwork, star engraving and glowing inlays. Those added details are design proposals, not established canonical lore. The small generated sprite inset on the concept sheet is an interpretation; the extracted image above is the authoritative asset.
+The actual sprite has a broad flared muzzle, dark charcoal body, grey framing and bright green segmented accents. The concept keeps that palette and overall silhouette, then proposes sculpted metalwork, star engraving and glowing inlays. Those added details are design proposals, not established canonical lore. The small generated sprite inset is labeled “SPRITE-INSPIRED STUDY”; the extracted image above is the authoritative asset. The [earlier concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/clown-cannon-concept-v1.png) is retained for history but its “ORIGINAL SPRITE” inset label was misleading and failed provenance QA. Revision 2 fixes that label within the image itself.
 
 The weapon's play identity is a deliberate cannon shot with a chance to severely slow a living target. It is not established here as a confetti blaster, area explosion or poison weapon merely because of its name or green color.
 
