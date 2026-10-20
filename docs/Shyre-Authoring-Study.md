@@ -44,3 +44,7 @@ The v11 study adds stepped medallion trim, diamond inlay seats and a reverse cro
 The web GLB contains 51 meshes, two embedded images and one cosmetic inspection action. Exact bake triangles, UVs and corner normals are retained, with explicit tangents. The official Khronos validator reports zero errors, warnings, informational notices or hints. The separate export contract rejects missing tangents and verifies the single crystal owner with two orbit children. UV checks cover 12,900 triangles without positive-area overlaps above 1e-10.
 
 These are scoped format and authoring checks. The cloud review browser cannot create a WebGL context, so its 3D rendering is not visually accepted. The page provides a rendered v11 still and a clearly labeled earlier v8 inspection video when WebGL is unavailable. Full native, artistic and hand-animation gates remain open.
+
+### Inspection hierarchy export correction
+
+A CPU import-and-render check caught invisible orbit children despite a valid GLB. The zero-scale rest pose had led to erroneous exported child locals. The exporter now checks the authored identity-local hierarchy and retains those child locals while preserving the parent animation. The corrected imported inspection pose visibly includes both orbits, and a zero-scale-child regression is rejected. This is scoped authoring/export evidence; browser WebGL and native testing remain open.
