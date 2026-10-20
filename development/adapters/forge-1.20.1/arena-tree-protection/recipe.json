@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "target": {
+    "java": 17,
+    "loader": "forge",
+    "loader_version": "47.4.23",
+    "minecraft": "1.20.1"
+  },
+  "requiresOriginalSourceArchiveSha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
+  "originalSourcePath": "Advent-Of-Ascension-0be2106bebb3851c5ba2cc9974e57936a867244d/source/content/world/genold/feature/features/trees/RunicTreeFeature.java",
+  "baseSha256": "e5588146352038f0d5c15a11f5ad461ed65eeaa3ec705c72e0b69190c1f3ec01",
+  "resultSha256": "7ff6d159791ce301eb08fa00d532f3fd7a0c523d4b35000dfa6dc4ca87bc1326",
+  "insertionOnlyEdits": [
+    {
+      "startByte": 951,
+      "endByte": 951,
+      "beforeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replacement": "\t\tRunicArenaTreeProtection.Frame protection = RunicArenaTreeProtection.enter(reader, isWorldGen);\n\t\ttry {\n"
+    },
+    {
+      "startByte": 1616,
+      "endByte": 1616,
+      "beforeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replacement": "\n\t\t} finally { protection.close(); }\n"
+    },
+    {
+      "startByte": 1620,
+      "endByte": 1620,
+      "beforeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replacement": "\n    @Override\n    protected void placeBlock(WorldGenLevel reader, BlockPos pos, BlockState state, boolean overwriteBlocks) {\n        if (!RunicArenaTreeProtection.protects(reader, pos)) super.placeBlock(reader, pos, state, overwriteBlocks);\n    }\n"
+    },
+    {
+      "startByte": 7554,
+      "endByte": 7554,
+      "beforeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "replacement": "!RunicArenaTreeProtection.protects(reader, testPos) && "
+    }
+  ],
+  "originalSourcePayloadIncluded": false,
+  "originalTreeVariantsAndRandomCallsRetained": true,
+  "nativeVerified": false,
+  "completeAoAPort": false
+}

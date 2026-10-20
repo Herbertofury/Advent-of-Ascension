@@ -78,3 +78,5 @@ Every accepted weapon should have a reversible premium 3D presentation option, w
 [Verified four-world native restoration, realmstone access and intact temple spacing](development/FOUR-RESTORED-WORLDS-2026-10-18.md). Current full-merge acceptance remains open.
 
 [Native arena station, provider effects and the complete 60-cage failure](development/NATIVE-ARENA-AND-FOG-2026-10-18.md)
+
+[Natural encounter repairs and shared complete-read validation](development/NATIVE-TEMPLE-AND-ARENA-REPAIRS-2026-10-20.md)
