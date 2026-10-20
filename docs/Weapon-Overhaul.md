@@ -223,3 +223,7 @@ One traceable record per accepted weapon and source version: registry ID, origin
 ### Camo Rifle: source study while artwork is pending
 
 [Camouflage contract and pictured infusion](Camo-Rifle-Mechanics-Study) documents the server-only selected-slot, shift-held invisibility refresh. This source-only page is not counted as an illustrated upgrade concept and does not certify native behavior.
+
+### Share an exact concept or filtered collection
+
+The armory now provides a permanent link inside each concept view and a link for the current search/family filters. Opening a valid weapon link restores that concept directly; unknown or unpublished IDs do not invent a profile. Slow-loading data must preserve any search or reset you make while it arrives. The collection still fetches its catalogue once and loads images lazily.
