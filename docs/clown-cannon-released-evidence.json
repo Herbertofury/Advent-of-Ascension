@@ -1,0 +1,183 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "registry": {
+    "id": "aoa3:clown_cannon",
+    "field": "CLOWN_CANNON",
+    "family": "cannon",
+    "constructor_classes": [
+      "net/tslat/aoa3/content/item/weapon/cannon/ClownCannon"
+    ],
+    "factories": [
+      {
+        "name": "lambda$static$150",
+        "descriptor": "()Lnet/minecraft/world/item/Item;",
+        "code_sha256": "16bf379d83b687af95151e83dcf7a05e232f7cfda5cc2eaf9cbecdac89138946",
+        "instructions": [
+          {
+            "offset": 0,
+            "opcode": 187,
+            "operands": [
+              5,
+              112
+            ]
+          },
+          {
+            "offset": 3,
+            "opcode": 89
+          },
+          {
+            "offset": 4,
+            "opcode": 19,
+            "constant": 22.5
+          },
+          {
+            "offset": 7,
+            "opcode": 17,
+            "constant": 570
+          },
+          {
+            "offset": 10,
+            "opcode": 16,
+            "constant": 32
+          },
+          {
+            "offset": 12,
+            "opcode": 19,
+            "constant": 0.18000000715255737
+          },
+          {
+            "offset": 15,
+            "opcode": 183,
+            "member": [
+              "net/tslat/aoa3/content/item/weapon/cannon/ClownCannon",
+              "<init>",
+              "(FIIF)V"
+            ]
+          },
+          {
+            "offset": 18,
+            "opcode": 176
+          }
+        ]
+      }
+    ],
+    "behavior_inspection_targets": [
+      {
+        "path": "net/tslat/aoa3/content/item/weapon/cannon/ClownCannon.class",
+        "sha256": "6c19bf565dd7d5c47932c73d49a362dfdf7c1e60d459fc778716f60613c7eda4",
+        "declared_methods": [
+          {
+            "name": "getFiringSound",
+            "descriptor": "()Lnet/minecraft/sounds/SoundEvent;",
+            "code_sha256": "421a6fd2d5bd90ee7eb200375b3afd96118b6fbb131aaf7243c2a2a0547ad7b2"
+          },
+          {
+            "name": "createProjectileEntity",
+            "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;",
+            "code_sha256": "7425e52670634f810f370ac9edc1a10fba0d88c6c45711a00b5f51c50b91ec36"
+          },
+          {
+            "name": "doImpactEffect",
+            "descriptor": "(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;Lnet/tslat/aoa3/content/entity/projectile/gun/BaseBullet;Lnet/minecraft/world/phys/Vec3;F)V",
+            "code_sha256": "044b5af0b47b60ea1da704ade5f8fd50897be8a144b51e1e87aebdd4c67fd6f0"
+          },
+          {
+            "name": "m_7373_",
+            "descriptor": "(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V",
+            "code_sha256": "9a57b79af220cf8842ba49500a7ddfe47d6c38a384b33caba817edd72d477aa2"
+          }
+        ]
+      }
+    ],
+    "native_behavior_verified": false
+  },
+  "stored_inputs": {
+    "damage": 22.5,
+    "durability": 570,
+    "firing_delay_ticks": 32,
+    "recoil": 0.18000000715255737
+  },
+  "ammo": "aoa3:cannonball",
+  "classes": [
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/ClownCannon.class",
+      "sha256": "6c19bf565dd7d5c47932c73d49a362dfdf7c1e60d459fc778716f60613c7eda4"
+    },
+    {
+      "path": "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class",
+      "sha256": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e"
+    },
+    {
+      "path": "net/tslat/aoa3/content/entity/projectile/cannon/ClownBallEntity.class",
+      "sha256": "e5e1409e361d30f2ad2d36a36b7a062232abf8cf5d6d7cb85ab036c15ebe96f7"
+    },
+    {
+      "path": "net/tslat/aoa3/client/render/entity/projectile/cannonshots/ClownBallRenderer.class",
+      "sha256": "d96160d8c7d893be90e2867decb6437dba5a0cfc9c4cf23f4b29ec61a973ee7b"
+    },
+    {
+      "path": "net/tslat/aoa3/client/AoAEntityRendering.class",
+      "sha256": "dbd127e0650f9c43d91593bdbf95af7a6d561cbde708a2cbb27bbc875eb7b1ee"
+    }
+  ],
+  "effect": {
+    "name": "Movement Slowness",
+    "builder_level": 100,
+    "minecraft_amplifier": 99,
+    "duration_ticks": 30,
+    "nominal_seconds_at_20tps": 1.5,
+    "chance_call": "RandomUtil.oneInNChance(5)",
+    "requires_shared_heavy_attack_success": true,
+    "requires_living_target": true,
+    "guaranteed_application": false,
+    "note": "Tooltip calls this stun; source requests extreme movement slowdown, not a general AI/action disable."
+  },
+  "bundled_library": {
+    "path": "META-INF/jarjar/TslatEffectsLib-neoforge-1.20.1-1.7.jar",
+    "sha256": "6950533da72960fe03ce928ca076d0a7911cf95793a6e1b7005533faec6e0356",
+    "class": "net/tslat/effectslib/api/util/EffectBuilder.class",
+    "class_sha256": "617cd109fbace4664b139e7330a1e61cd36a9535c1f645703f7f407bc24757b4",
+    "semantics": "level defaults to 1; build subtracts 1 before Minecraft amplifier argument"
+  },
+  "random_library": {
+    "path": "META-INF/jarjar/SmartBrainLib-neoforge-1.20.1-1.13.jar",
+    "sha256": "831c6aa93653626dbc6652d63e947fa5860ddbf7186e50637b8e0b2d9fec4bfa",
+    "class": "net/tslat/smartbrainlib/util/RandomUtil$EasyRandom.class",
+    "class_sha256": "6d79a5994ae740a6181335314c7f4e297d20d5105cfa4f3d92ecd3574c57d937"
+  },
+  "projectile": {
+    "class": "ClownBallEntity",
+    "max_age": 120,
+    "piercing_value": 0,
+    "damage_multiplier": 1,
+    "gravity": 0.1,
+    "texture": "assets/aoa3/textures/entity/projectile/cannonshots/cannonball.png",
+    "particles": [
+      {
+        "type": "FLICKERING_SPARKLER",
+        "colour": "GREEN",
+        "requests_per_render_invocation": 3
+      },
+      {
+        "type": "SPARKLER",
+        "colour": "WHITE",
+        "requests_per_render_invocation": 3
+      }
+    ],
+    "vertical_offset": 0
+  },
+  "data_references": [],
+  "acquisition_scope": "No explicit namespaced ID references in bundled data JSON. Does not rule out code-based or external acquisition.",
+  "named_source_pin": "0be2106bebb3851c5ba2cc9974e57936a867244d",
+  "named_sources": {
+    "BaseCannon-upstream.java": "b63ee349657e13266da0b711f4127a408bd22024ee110f3148e27058e03bc703",
+    "ClownCannon-upstream.java": "97d25da4bc7c6dc81e0f2c4bc21a2d4fed3100386683269f407413230b4304f3",
+    "ClownBallEntity-upstream.java": "31efde1bd6374050f064f20aee2395a51c317309943c1a41b43723f0af814c82",
+    "EntityUtil-upstream.java": "09d9d9bed2a6571cb65558aefae73e930477ef396acec4ac44719951130c6041"
+  },
+  "native_tested": false,
+  "final_art_accepted": false,
+  "concept_qa": {
+    "v1": "Black/grey/lime palette and flared muzzle retained. Generated original-sprite inset is an interpretation; separate extracted PNG is authoritative. Proposed sparkling orb, crystal strips and stars are art directions, not verified original lore. Hand fit, grip/guard clearance, animations and final mesh remain open."
+  }
+}

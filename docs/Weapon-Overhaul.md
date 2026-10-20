@@ -91,6 +91,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Terminator | [Charcoal/silver sniper, SCOPE_3, eight-slot infusion and Mineral upgrade lineage](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Terminator-Weapon-Profile) |
 | Vivo | [Compact three-pellet shotgun with gold accents, Lyon infusion and a higher-pitched firing identity](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vivo-Weapon-Profile) |
 | Flower Cannon | [Yellow-green identity, Weakness gating and pictured infusion](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Flower-Cannon-Weapon-Profile) |
+| Clown Cannon | [Original silhouette, random slowdown and green-white projectile feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Clown-Cannon-Weapon-Profile) |
 | Bulb Cannon | [Crimson-charcoal design, Wither gating and Abyssal upgrade](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bulb-Cannon-Weapon-Profile) |
 | Coral Cannon | [Orange/cobalt/magenta identity, healing and cadence comparison](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Coral-Cannon-Weapon-Profile) |
 | Aqua Cannon | [Cobalt identity, healing/particle source study and historical restoration](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Aqua-Cannon-Weapon-Profile) |
@@ -102,7 +103,7 @@ Every accepted AoA weapon should offer an optional premium, fully animated 3D re
 | Viper-1 | [Warm brown-black sniper, pictured infusion and Poison II source contract](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Viper-1-Weapon-Profile) |
 | Vortex Blaster | [Spirit-powered repulsion and readable vortex-focused feedback](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vortex-Blaster-Weapon-Profile) |
 
-The gallery currently contains **70 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
+The gallery currently contains **71 published concept/source profiles out of 228 first-target firearm registrations**. No upgraded weapon has passed full native acceptance. Other families and historical releases remain additional scope.
 
 ## Build your own identity and play style
 
