@@ -61,6 +61,10 @@ The displayed tag items are examples. The bundled Shyrestone and Shyregem tags c
 - **Inspection:** a brief suspended-gem flourish inside the rear loop, then an unambiguous return to idle. Keep firing state and resources authoritative throughout interruption and weapon swaps.
 - **Optional loading:** retain the original Cannonball contract by default; a more elaborate prop must not impose unrequested reload delays or grant free ammunition through animation events.
 
+## Editable authoring progress
+
+[Reproducible Blender source, scoped checks and inspection clip](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Shyre-Authoring-Study.md). The v8 cosmetic study rebuilds from a clean folder. Its 31 visible evaluated meshes pass the scoped topology checks; a known-bad six-object regression control fails as expected. The crystal and two orbit curves pass a conservative clearance envelope against the checked static prop over frames 1–70. Hands, native transformations, complete weapon actions and artistic acceptance remain open. The clip is labeled Blender authoring footage.
+
 ## Full production gates
 
 - [ ] Build the actual canonical model and compare it against the original sprite and selected concept from all relevant views.
