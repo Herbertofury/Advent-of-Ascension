@@ -250,6 +250,8 @@ The v8 builder now reads the docs-side coverage register first, uses the bundled
 
 [Reusable v8 skill and build/check tools](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/aoa-weapon-completeness-standard-v8.zip). Nineteen preservation/discovery tests plus nineteen synthetic evidence-validator cases pass; no independent agent behavioral evaluation or native weapon acceptance is claimed. The skill also records the Discharge stale-transform scale bug and requires actual rebuilt visual/size review alongside parent-following tests.
 
+A later crown-profile trial also exposed Blender object-transform decomposition: assigning an arbitrary affine shear to matrix_world did not retain the intended matrix. Its verification failed before promotion. For that specific study, a scoped local geometry/path deformation with inverse-transpose custom-normal handling preserved object transforms and parents; all 325 geometry objects were checked, with only 18 intended components changed. Do not generalize a successful static deformation into validated animation or export. Check hierarchy order, evaluated geometry and the resulting render.
+
 ## 16. Current package: inheritance, precision and reproducibility
 
 The [canonical reusable package](https://github.com/Herbertofury/Advent-of-Ascension/raw/refs/heads/main/docs/aoa-weapon-completeness-standard.zip) now contains the current preservation-aware tools and source register, plus the observed projectile-inheritance, thin-triangle precision and portable build-chain checks. Older versioned packages remain historical references. This refresh changes guidance and discovered evidence links, not weapon acceptance.
@@ -257,3 +259,18 @@ The [canonical reusable package](https://github.com/Herbertofury/Advent-of-Ascen
 Do not copy a neighboring weapon’s gravity: Ghoul Cannon’s 0.05 differs from Flower Cannon’s 0.1, and inherited methods matter. Test numerical geometry checks against unchanged source before interpreting small discrepancies as real deformation. Package from an obtainable pinned source and reproduce intermediates within the build rather than requiring an unavailable intermediate file hash.
 
 The skill structure validates; nineteen preservation/discovery tests and nineteen synthetic evidence cases pass. These tests do not certify beauty, native performance or completed gameplay.
+
+
+## 17. Version-specific fluid effects and delayed world cleanup
+
+Water Balloon Bomber demonstrates why newer source is not an automatic semantic replacement. The inspected 1.20.1 implementation searches downward for water placement using a literal Y=0 boundary. The refreshed 1.21 source instead places temporary water at the explosion position and schedules a write of air after 20 ticks. Preserve the selected version contract and explicitly decide any migration; visual improvements must not silently change persistent fluids, placement or damage.
+
+Before adopting a delayed world edit, test another player/mod replacing the block before cleanup, overlapping effects, protected destinations, fluid propagation and chunk/dimension unload or reload. Removal must be conditioned on ownership of the still-current effect, not merely a coordinate remembered earlier. Matching block type alone may miss a replacement with an identical state. The observed newer callback has no same-state/ownership condition of its own; this is a source-level risk to test, not a reproduced native loss report or a completed fix.
+
+Evidence: Water-Balloon-Bomber-Weapon-Profile and its separately pinned version-comparison record. Check the actual destination, not only the original impact position. Keep negative-height behavior explicit instead of assuming every dimension starts at zero.
+
+## 18. Keep authoring downloads available without bloating the website
+
+For this repository's Jekyll deployment, packaged authoring ZIPs are retained in the repository and listed in docs/_config.yml exclusions. Known download links point to repository-hosted files. Interactive models, artwork and data remain in the site. When adding an archive, review its deployment routing and update the exclusion list if appropriate; do not delete source archives or original concept versions to make the site smaller.
+
+Validate changed links and preserved bytes, then check the actual deployment and a representative download. The October 20 delivery change excluded 141 intact archives totaling 197,031,164 bytes; the observed Pages artifact fell from an earlier 888 MB to 706 MB. These are delivery measurements, not native FPS or page-load benchmark claims. GitHub Pages currently limits published site size to 1 GB; keep headroom for the remaining arsenal rather than duplicating every downloadable source bundle into the site.
