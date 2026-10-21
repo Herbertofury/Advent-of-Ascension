@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "observedAt": "2026-10-21T08:07:15.384304+00:00",
+  "observedAt": "2026-10-21T20:39:23.992936+00:00",
   "evidenceKind": "owner-local-native-and-production-acceptance",
   "publicRuntimeReproductionPerformed": false,
   "target": {
@@ -10,15 +10,16 @@
     "minecraft": "1.20.1"
   },
   "artifact": {
-    "filename": "aoa3-3.7.1.jar",
-    "bytes": 152694607,
-    "sha256": "fce5448e430e982063cf7ff03ad43e185222d42639f22ca191489fbcf8fbb39a"
+    "bytes": 152723909,
+    "sha256": "08a4f1dfb345f7b3608277f0f1ec3fcb67c90d1759adcaf6bd4da753cd9a46d7",
+    "filename": "aoa3-3.7.1.jar"
   },
   "source": {
     "primarySha256": "86bc124bcf29e309a5686661de653e2a401bbbbd3678ea3b19efe3bee905266d",
-    "completeSourcePlanSha256": "5b6709cd8a6921a0edf759ca421a0b4a8b4f46f412d898920fa9bd6f649b3240",
-    "completeSourceRecipes": 1264,
-    "completeJavaUnits": 3033
+    "completeSourcePlanSha256": "207d0b167527fc2a15a39468c9e258e1e5f687ca42ec2bec99c0a79ad4edc559",
+    "completeSourceRecipes": 1277,
+    "completeJavaUnits": 3073,
+    "javaUnitCountScope": "Distinct actual files in the admitted main source-set Java directories"
   },
   "nativeServerPassed": true,
   "nativeClientPassed": true,
@@ -28,24 +29,34 @@
   "originalWorldAndModsUnchanged": true,
   "localReceipts": [
     {
-      "file": "qualified-playable-cohort-v99x.json",
-      "bytes": 8824,
-      "sha256": "15ad563e657c34072dbe15d352cb1bbfea043730a4aad85f8bfa2301b0bec5a5"
+      "file": "qualified-playable-cohort-v104s.json",
+      "bytes": 9926,
+      "sha256": "c9273d480c3a45b8612105ed98ca9c0ecbcd7f155b77f41753c77ced74b508c1"
     },
     {
-      "file": "current-playtest-installation-v99x.json",
-      "bytes": 30567,
-      "sha256": "6e7fb35b7955d5d3b4c16e86a3e6f33b5d8f39e36306be0278f38e254f802ffc"
+      "file": "current-playtest-installation-v104s.json",
+      "bytes": 30565,
+      "sha256": "60150d50670f9dd46bba968cfde753e44087dbd56f9e30ee986e690c9b8f3972"
     },
     {
-      "file": "hari-playtest-installation-v99x.json",
-      "bytes": 293021,
-      "sha256": "3a307f15d591dcf647314a83fe43ba2c3f9575c2e1085d2bf91c469d4ac04cc3"
+      "file": "hari-playtest-installation-v104s.json",
+      "bytes": 293019,
+      "sha256": "a2ccf91a9226ca92d6d40489139180dc4416d3fc3dc95f424c50b972aeb9d886"
+    },
+    {
+      "file": "visited-dimension-production-terrain-v104e.json",
+      "bytes": 352079,
+      "sha256": "21ef6b32b4d6a4ae20a4dabe869115d42c3150145694b3d335a77f9754a3f85f"
+    },
+    {
+      "file": "source-bound-complete-client-scenarios-v104m.json",
+      "bytes": 2160,
+      "sha256": "a7ed0067b588cc5b06f23c09819ec6762126ea04133a2ff0aedcbfd12a8483c5"
     }
   ],
   "completeAoAPort": false,
   "historicalLatestUnionVerified": false,
-  "scope": "Qualified cumulative whole-source dungeon build; all 28 remote dimensions, required Hari Vulkan, inventory restart and the actual 2025-chunk prior save. Both existing playable profiles updated in place. Full historical/latest union, Hunter/natural survival, optional full-pack and sustained performance remain open.",
+  "scope": "Qualified cumulative Hunter-policy and dungeon build, installed in the two existing owner playtest profiles. Complete inherited families, all 28 remote dimensions, actual visited terrain, required Hari Vulkan, inventory restart and the selected 2025-chunk prior save. Full historical/latest union, full Hunter family, natural survival, broader optional compatibility and sustained performance remain open.",
   "nativeFamiliesVerified": {
     "completeNativeSkills": 14,
     "exactSkillThresholdCases": 112,
@@ -566,17 +577,39 @@
     "scope": "Whole historical block batch, exact full-member retention, native/client models, mature-baseline registered identity resolution, inherited fixture families, ordinary production, required Vulkan and in-place promotion. The complete historical/latest union, full progression, multiplayer, arbitrary migrations and sustained FPS remain open."
   },
   "existingHariUserFilesUnchanged": 732,
-  "completeArchiveMembers": 25404,
+  "completeArchiveMembers": 25416,
   "actualRemoteDimensions": 28,
   "observedInventoryPreservedAcrossDedicatedRestart": true,
   "actualPriorSaveOpenedUnderVulkan": true,
   "completePriorSavedChunksRead": 2025,
   "originalPriorSaveBytesUnchanged": true,
-  "newBackupCopiesCreated": 0,
+  "newBackupCopiesCreated": false,
   "previousAcceptedProduct": {
     "filename": "aoa3-3.7.1.jar",
-    "bytes": 151058907,
-    "sha256": "f4a741a2b1468c27cb1ca9d5831d10ab9d38772485fbea5ba88c808fa9ac54e1"
+    "bytes": 152694607,
+    "sha256": "fce5448e430e982063cf7ff03ad43e185222d42639f22ca191489fbcf8fbb39a"
   },
-  "dungeonQualification": "dungeon-playable-qualification-2026-10-21.json"
+  "dungeonQualification": "dungeon-playable-qualification-2026-10-21.json",
+  "hunterPolicyCore": {
+    "nativeModernAndHistoricalPoliciesVerified": true,
+    "modernXpThresholdLevels": 1000,
+    "modernSaveSyncCases": 4000,
+    "laterRegisteredRewardOwners": 57,
+    "unresolvedLaterActorCount": 14,
+    "completeHunterFamilyVerified": false
+  },
+  "visitedProductionTerrain": {
+    "completeDimensions": 28,
+    "nearbyFullChunks": 252,
+    "separateNativeFullChunks": 56,
+    "everyVisitedAreaContainsGeneratedNonAirTerrainOrIntendedStructures": true,
+    "completeBiomeOreAndStructureParityVerified": false
+  },
+  "naturalCageWorkload": {
+    "completeCages": 60,
+    "actualMobsThisRun": 117,
+    "underwaterSaveChoiceCases": 72,
+    "completeOriginalCageArtOwners": 6,
+    "nativeSpawnRulesUnchanged": true
+  }
 }
