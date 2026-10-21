@@ -10,8 +10,8 @@ The earlier build failed an observer that incorrectly imposed the historical cap
 
 - [x] Normal whole-source compile and dedicated-server admission for the policy core.
 - [x] Complete current and historical progression/gate/reward checks and independent damaged-report controls.
-- [ ] Native rendered-client and production/Hari qualification of this candidate.
+- [x] Native rendered-client and production/Hari qualification of this exact candidate; real multiplayer and the 2,025-chunk prior save also pass.
 - [ ] Restore fourteen missing later Hunter actors and connected original-only identities, armor, acquisition and natural survival.
 - [ ] Complete Hunter-family and full living-superset AoA acceptance.
 
-The qualified cumulative dungeon playtest remains installed while the new client's rendering checks run. The full-merge warning remains valid. [Scoped evidence](hunter-policy-native-admission-2026-10-21.json). Only our adapters, observers and factual progress are published here.
+The qualified cumulative dungeon playtest remains installed while the candidate completes its remaining whole-cohort promotion checks. Native client, production, required Vulkan, multiplayer transport and the selected prior-save checks now pass; see [current playability and terrain evidence](PLAYABILITY-AND-TERRAIN-2026-10-21.md). The full-merge warning remains valid. [Scoped evidence](hunter-policy-native-admission-2026-10-21.json). Only our adapters, observers and factual progress are published here.
