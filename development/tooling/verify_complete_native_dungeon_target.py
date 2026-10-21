@@ -61,6 +61,17 @@ def verify(native,trace,programs,palette,protected,original_worlds,bosses,access
     assert [r['colour'] for r in actual_traits['automaton']['completeColourSaveCases']]==[1,2,3,4,5] and all(r['nativeSaveReload'] for r in actual_traits['automaton']['completeColourSaveCases'])
     assert {(r['item'],r['exactNativePortal']) for r in native['realmstoneBindings']}=={(r+'_realmstone',r+'_portal') for r in ('ancient_cavern','immortallis')}
     return dict(completeOriginalWrites=writes,completeNativeCells=len(seen),completeCages=cages,completeMerchantOffers=26,completeProgressionCases=12,completeOriginalCreatureAttributes=35,completeNativeColourSaves=5,protectedNativeCells=protection,observedFluidCallbackDifferences=fluids)
+def buybacks(native,policy):
+    expected=policy['completeOriginalOffers'];assert len(expected)==19 and len({r['targetStone']for r in expected})==19
+    rows=native['completeRealmshifterBuybackCases'];assert len(rows)==21
+    for want,row in zip(expected,rows[:19]):
+        assert (row['stone'],row['currency'],row['amount'])==(want['targetStone'],want['targetCurrency'],want['amount'])
+        assert want['stoneCount']==1 and want['direction']=='stone-for-currency'
+        assert row['nativePaymentConsumed']and row['wrongPaymentPreserved']and row['exactNativePortal']
+    saved,old=rows[-2:];assert saved['case']=='native-save-reload-and-repeated-access'and saved['completeOffers']==22 and saved['completeNbtUnchanged']and saved['preservedOfferNbt']
+    assert old['case']=='native-old-save-missing-entire-buyback-family'and old['retainedNativeOffers']==3 and old['appendedOriginalBuybacks']==19 and old['completeNativeOfferNbtRetained']
+    return dict(completeOriginalRealmshifterBuybacks=19,completeNativeRealmshifterCases=21,existingNativeOfferNbtRetained=True)
+
 def run(plan_file,capture_file,program_file,world_file,boss_file,access_file,output):
     plan,native,programs,world,boss,access=map(read,(plan_file,capture_file,program_file,world_file,boss_file,access_file));assert world['passed'] and boss['passed'] and access['passed'];check(world['dungeonWorldCapture']);check(boss['capture']);check(access['capture']);check(native['completeNativeCellTrace'])
     with zipfile.ZipFile(native['completeNativeCellTrace']['path']) as z:
@@ -83,6 +94,18 @@ def run(plan_file,capture_file,program_file,world_file,boss_file,access_file,out
         try:verify(data,rows,*arguments)
         except (AssertionError,KeyError,ValueError):faults.append(dict(name=name,generatedFault=True,rejected=True))
         else:raise AssertionError('Generated fault accepted: '+name)
+    if plan.get('completeRealmshifterBuybacks'):
+        result.update(buybacks(native,plan['completeRealmshifterBuybacks']))
+        for name in ('missing-buyback','wrong-currency','wrong-price','consumed-wrong-payment','lost-old-offer-nbt'):
+            bad=copy.deepcopy(native);rows=bad['completeRealmshifterBuybackCases']
+            if name=='missing-buyback':rows.pop(0)
+            elif name=='wrong-currency':rows[0]['currency']='aoa3:copper_coin'
+            elif name=='wrong-price':rows[0]['amount']+=1
+            elif name=='consumed-wrong-payment':rows[0]['wrongPaymentPreserved']=False
+            else:rows[-1]['completeNativeOfferNbtRetained']=False
+            try:buybacks(bad,plan['completeRealmshifterBuybacks'])
+            except (AssertionError,KeyError,ValueError):faults.append(dict(name=name,generatedFault=True,rejected=True))
+            else:raise AssertionError('Generated buyback fault admitted: '+name)
     out=Path(output);assert not out.exists();frozen=out.with_suffix('.producer.py');frozen.write_bytes(Path(__file__).read_bytes());record=dict(passed=True,synthetic=False,generatedFaults=faults,completeAoAPort=False,fullSurvivalVerified=False,producer=ref(frozen),inputs=[ref(p) for p in (plan_file,capture_file,program_file,world_file,boss_file,access_file)],nativeTrace=native['completeNativeCellTrace'],**result);out.write_text(json.dumps(record,indent=2),encoding='utf-8');print(json.dumps(dict(passed=True,output=str(out),faultsRejected=len(faults),**result)))
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)

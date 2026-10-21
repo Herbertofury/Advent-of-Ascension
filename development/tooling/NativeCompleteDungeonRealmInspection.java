@@ -72,6 +72,28 @@ public final class NativeCompleteDungeonRealmInspection {
         check(before.equals(after),"Saved Realmshifter uses/prices/custom payout or offers were rebuilt");
         check(call(restored,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0])==reloaded,"Repeated complete-offer access replaced native list");
         cases.add(row("case","native-save-reload-and-repeated-access","completeOffers",((List<?>)reloaded).size(),"completeNbtUnchanged",true,"modifiedPayout",editedAmount,"preservedOfferNbt",after.toString()));
+        // An existing world's merchant has no historical buybacks yet. Feed
+        // that actual old Offers payload to native entity loading, retaining
+        // its newer/custom trades rather than discarding the whole merchant.
+        Object legacy=c("net.minecraft.world.item.trading.MerchantOffers").getConstructor().newInstance();
+        @SuppressWarnings("unchecked") List<Object> legacyList=(List<Object>)legacy;
+        Set<Object> restoredStones=new HashSet<Object>();
+        for(String name:stones)restoredStones.add(registered("ITEM","aoa3:"+name+"_realmstone"));
+        List<Object> retainedOfferTags=new ArrayList<Object>();
+        for(Object offer:(List<?>)reloaded){
+            Object buy=call(offer,"net.minecraft.world.item.trading.MerchantOffer","getBaseCostA",new Class<?>[0]);
+            if(restoredStones.contains(call(buy,"net.minecraft.world.item.ItemStack","getItem",new Class<?>[0])))continue;
+            legacyList.add(offer);retainedOfferTags.add(call(offer,"net.minecraft.world.item.trading.MerchantOffer","createTag",new Class<?>[0]));
+        }
+        check(legacyList.size()>=3,"Legacy fixture lost the existing newer/custom trades");
+        Object legacyTag=call(tag,"net.minecraft.nbt.CompoundTag","copy",new Class<?>[0]);
+        call(legacyTag,"net.minecraft.nbt.CompoundTag","put",new Class<?>[]{String.class,c("net.minecraft.nbt.Tag")},"Offers",call(legacy,"net.minecraft.world.item.trading.MerchantOffers","createTag",new Class<?>[0]));
+        Object upgraded=actor(world,"realmshifter");
+        call(upgraded,"net.minecraft.world.entity.Entity","load",new Class<?>[]{nbt},legacyTag);
+        List<?> upgradedOffers=(List<?>)call(upgraded,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0]);
+        check(upgradedOffers.size()==legacyList.size()+19,"Saved merchant did not acquire all nineteen missing buybacks exactly once");
+        for(int i=0;i<retainedOfferTags.size();i++)check(retainedOfferTags.get(i).equals(call(upgradedOffers.get(i),"net.minecraft.world.item.trading.MerchantOffer","createTag",new Class<?>[0])),"Saved newer/custom offer changed during buyback upgrade");
+        cases.add(row("case","native-old-save-missing-entire-buyback-family","retainedNativeOffers",legacyList.size(),"appendedOriginalBuybacks",19,"completeNativeOfferNbtRetained",true));
         return cases;
     }
     private static Map<String,Object> artifact(Path p)throws Exception{

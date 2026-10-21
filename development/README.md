@@ -4,6 +4,8 @@ Advent of Ascension is created by Tslat and contributors. This is the owner's En
 
 ## Current usable candidate
 
+The October 21 cumulative dungeon build is qualified and promoted in place to both existing playtest profiles. [Current product, exact acceptance and remaining gates](dungeon-playable-qualification-2026-10-21.json) · [Dungeon details](TWO-DUNGEON-COHORT-2026-10-20.md#qualified-playable-dungeon-update--october-21).
+
 In the owner's installed Enderloom, choose **Advent of Ascension · Current Playtest**. The verified target is Minecraft 1.20.1 / Forge 47.4.23 / Java 17. Native client/server acceptance and ordinary signed-in rendering, movement, server save/restart pass. Vanilla hearts are the default, with all optional modes retained. The JAR is local, not a public download here.
 
 - [Current native/production facts and exact local receipt hashes](current-playtest.json)

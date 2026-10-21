@@ -30,12 +30,14 @@ def run(previous, failed_client, output):
     assert len(set(renames.values()))==len(renames) and not set(renames.values()).intersection(selected)
     references={'aoa3:'+old.removeprefix('assets/aoa3/textures/').removesuffix('.png'):'aoa3:'+new.removeprefix('assets/aoa3/textures/').removesuffix('.png')for old,new in renames.items()}
     repairs=[]
+    image_bytes={}
     for old,new in renames.items():
         group,index,row=selected[old]
         raw=member(row)
         updated=copy.deepcopy(row)
         updated['resourcePath']=new
         group[index]=updated
+        image_bytes[new]=raw
         repairs.append(dict(before=copy.deepcopy(row),after=copy.deepcopy(updated),bytes=len(raw),originalArtBytesUnchanged=True))
     changed={}
     def project(value):
@@ -58,10 +60,16 @@ def run(previous, failed_client, output):
     owner.mkdir()
     donor_file=owner/'complete-native-resource-path-repairs.zip'
     with zipfile.ZipFile(donor_file,'x',zipfile.ZIP_DEFLATED,compresslevel=9)as z:
+        for name,raw in image_bytes.items():z.writestr(name,raw)
         for name,(_,raw)in changed.items():z.writestr(name,raw)
         for name,raw in eggs.items():z.writestr(name,raw)
-        z.writestr('complete-original-art-path-projection.json',json.dumps(repairs,indent=2).encode('utf-8'))
+        z.writestr('complete-original-art-path-projection.json',json.dumps([dict(original=r['before'],targetPath=r['after']['resourcePath'],bytes=r['bytes'],originalArtBytesUnchanged=True)for r in repairs],indent=2).encode('utf-8'))
     donor=base.artifact(donor_file)
+    for repair in repairs:
+        name=repair['before']['resourcePath']
+        group,index,_=selected[name]
+        group[index].update(donorSha256=donor['sha256'],donorEntry=repair['after']['resourcePath'])
+        repair['after']=copy.deepcopy(group[index])
     replacements=[]
     for name,(old,raw)in changed.items():
         group,index,_=selected[name]
@@ -76,6 +84,7 @@ def run(previous, failed_client, output):
     plan['sourceInputs'].append(dict(label='Exact target-native resource path corrections and complete boss egg models',artifact=donor))
     frozen=owner/Path(__file__).name
     frozen.write_bytes(Path(__file__).read_bytes())
+    plan['resourcePathAdapterUpdates']=plan.get('resourcePathAdapterUpdates',[])+[dict(previous=r['before'],next=r['after'],reason='Exact lowercase target-native texture path through a byte-identical projection archive; original authority/member and all image bytes remain retained',authorities=[base.artifact(frozen),donor,donors[r['before']['donorSha256']],base.artifact(failed_client)])for r in repairs]
     plan['additionalAuthorities']+=[base.artifact(p)for p in [previous,failed_client,frozen]]+[donor]
     plan['nativeResourcePathRepairs']=dict(retainedFailedClient=base.artifact(failed_client),completeArtPathRepairs=repairs,completeModelTextureReferenceRepairs=replacements,spawnEggModels=sorted(eggs),originalArtBytesUnchanged=True,registryIdentitiesUnchanged=True,nativeClientVerified=False,completeAoAPort=False)
     assert not any(r['resourcePath']!=r['resourcePath'].lower()for g in groups for r in g if r['resourcePath'].startswith(('assets/','data/')))
