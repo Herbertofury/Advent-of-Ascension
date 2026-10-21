@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
-  "revision": "20261021-revisions-1954",
+  "revision": "20261021-shared-melee-2056",
   "inventory_count": 434,
   "first_target_count": 411,
   "native_accepted": 0,
-  "concept_count": 345,
+  "concept_count": 351,
   "status_counts": {
     "EXISTING_CANDIDATE_INDEXED_ART_REVIEW_OPEN": 79,
     "BLOCKED_IMAGE_GENERATION": 75,
     "CONCEPT_CANDIDATE_CREATED": 266,
-    "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW": 6,
+    "SHARED_VISUAL_CONCEPT_CANDIDATE": 6,
     "REJECTED_EXISTING_CONCEPT_CORRECTION_BLOCKED": 1,
     "RELATED_CANDIDATE_NEEDS_HISTORICAL_REVIEW": 1,
     "DEFERRED_RELATED_IMAGE_SERVICE_BLOCK": 6
@@ -2498,8 +2498,8 @@
       "lanes": [
         "1.21.1"
       ],
-      "status": "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW",
-      "brief": "Existing first-target candidate may inform this identical source sprite; not a newly generated sheet, canonical art approval, behavior equivalence or tested save migration.",
+      "status": "SHARED_VISUAL_CONCEPT_CANDIDATE",
+      "brief": "Compact double-lobed green head and pale outer rims replace the erroneous long blade; separate green lower fixture and silver collars are restored. Exact edge thickness and lower-fixture proportions remain under review. One shared visual candidate for Creepoid Greatblade / Creepoid Greataxe.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -2513,9 +2513,15 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "creepoid-greatblade-concept-v1.png"
-      ]
+      "previous_concepts": [
+        {
+          "file": "creepoid-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "concept": "creepoid-shared-visual-concept-v3.png",
+      "thumbnail": "concept-thumb-creepoid-shared-2056.webp",
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:creepoid_greatblade",
@@ -2528,11 +2534,11 @@
         "1.20.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Broad rounded green upper blade and pale center panel retained. Added thick dark curled guard, oversized lower jewel and prolonged body amplify source; original contour, ratios and source details require correction.",
+      "brief": "Compact double-lobed green head and pale outer rims replace the erroneous long blade; separate green lower fixture and silver collars are restored. Exact edge thickness and lower-fixture proportions remain under review. One shared visual candidate for Creepoid Greatblade / Creepoid Greataxe.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "creepoid-greatblade-concept-v1.png",
-      "thumbnail": "concept-thumb-creepoid_greatblade.webp",
+      "concept": "creepoid-shared-visual-concept-v3.png",
+      "thumbnail": "concept-thumb-creepoid-shared-2056.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-06.webp",
@@ -2543,7 +2549,14 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "creepoid-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:crystal_carver",
@@ -6294,11 +6307,11 @@
         "1.20.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Gold irregular blade and darker segmented edges retained. Excessive repeated notches, broad ornate lower blade and added pommel amplify source; source contour and precise detail counts require correction.",
+      "brief": "Gold asymmetric hooked head, small square orange inset and branched bronze collar sit above a slender long shaft. Fine notch counts and collar proportions remain under review. One shared visual candidate for Lelyetian Greatblade / Lelyetian Ranseur.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "lelyetian-greatblade-concept-v1.png",
-      "thumbnail": "concept-thumb-lelyetian_greatblade.webp",
+      "concept": "lelyetian-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-lelyetian-shared-2056.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-14.webp",
@@ -6309,7 +6322,14 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "lelyetian-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:lelyetian_ranseur",
@@ -6320,8 +6340,8 @@
       "lanes": [
         "1.21.1"
       ],
-      "status": "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW",
-      "brief": "Existing first-target candidate may inform this identical source sprite; not a newly generated sheet, canonical art approval, behavior equivalence or tested save migration.",
+      "status": "SHARED_VISUAL_CONCEPT_CANDIDATE",
+      "brief": "Gold asymmetric hooked head, small square orange inset and branched bronze collar sit above a slender long shaft. Fine notch counts and collar proportions remain under review. One shared visual candidate for Lelyetian Greatblade / Lelyetian Ranseur.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -6335,9 +6355,15 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "lelyetian-greatblade-concept-v1.png"
-      ]
+      "previous_concepts": [
+        {
+          "file": "lelyetian-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "concept": "lelyetian-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-lelyetian-shared-2056.webp",
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:light_blaster",
@@ -6836,8 +6862,8 @@
       "lanes": [
         "1.21.1"
       ],
-      "status": "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW",
-      "brief": "Existing first-target candidate may inform this identical source sprite; not a newly generated sheet, canonical art approval, behavior equivalence or tested save migration.",
+      "status": "SHARED_VISUAL_CONCEPT_CANDIDATE",
+      "brief": "Gold-edged dark crescent and small opposite projections retain the long slender polearm identity. Precise opening shape and projection sizes remain under review. One shared visual candidate for Lyonic Greatblade / Lyonic Bardiche.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -6851,9 +6877,15 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "lyonic-greatblade-concept-v1.png"
-      ]
+      "previous_concepts": [
+        {
+          "file": "lyonic-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "concept": "lyonic-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-lyonic-shared-2056.webp",
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:lyonic_greatblade",
@@ -6866,11 +6898,11 @@
         "1.20.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Dark blade interior, angular gold border and pale diagonal accents retained. Blade widened and elongated with simplified three-mark center; exact source contour, markings and grip ratio need reconciliation.",
+      "brief": "Gold-edged dark crescent and small opposite projections retain the long slender polearm identity. Precise opening shape and projection sizes remain under review. One shared visual candidate for Lyonic Greatblade / Lyonic Bardiche.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "lyonic-greatblade-concept-v1.png",
-      "thumbnail": "concept-thumb-lyonic_greatblade.webp",
+      "concept": "lyonic-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-lyonic-shared-2056.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-16.webp",
@@ -6881,7 +6913,14 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "lyonic-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:lyonic_staff",
@@ -7877,11 +7916,11 @@
         "1.20.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Olive jagged upper blade and long dark lower region retained. Head broadened into ornate branches and lower shaft interpreted as long handle; exact source structure, branch count and added gems require correction.",
+      "brief": "Crooked olive-lime upper head and sparse green neck lobes sit above the long narrow dark shaft. Exact bud count, neck ornaments and end-cap size remain under review. One shared visual candidate for Noxious Greatblade / Noxious Partizan.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "noxious-greatblade-concept-v1.png",
-      "thumbnail": "concept-thumb-noxious_greatblade.webp",
+      "concept": "noxious-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-noxious-shared-2056.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-18.webp",
@@ -7892,7 +7931,14 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "noxious-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:noxious_partizan",
@@ -7903,8 +7949,8 @@
       "lanes": [
         "1.21.1"
       ],
-      "status": "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW",
-      "brief": "Existing first-target candidate may inform this identical source sprite; not a newly generated sheet, canonical art approval, behavior equivalence or tested save migration.",
+      "status": "SHARED_VISUAL_CONCEPT_CANDIDATE",
+      "brief": "Crooked olive-lime upper head and sparse green neck lobes sit above the long narrow dark shaft. Exact bud count, neck ornaments and end-cap size remain under review. One shared visual candidate for Noxious Greatblade / Noxious Partizan.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -7918,9 +7964,15 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "noxious-greatblade-concept-v1.png"
-      ]
+      "previous_concepts": [
+        {
+          "file": "noxious-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "concept": "noxious-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-noxious-shared-2056.webp",
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:noxious_staff",
@@ -9852,8 +9904,8 @@
       "lanes": [
         "1.21.1"
       ],
-      "status": "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW",
-      "brief": "Existing first-target candidate may inform this identical source sprite; not a newly generated sheet, canonical art approval, behavior equivalence or tested save migration.",
+      "status": "SHARED_VISUAL_CONCEPT_CANDIDATE",
+      "brief": "Red spotted mushroom cap, cobalt-blue spotted crescent, ivory spur and slender pale-olive shaft replace the prior gem-like interpretation. Fine spur and shaft proportions remain under review. One shared visual candidate for Shroomic Greatblade / Shroomic Bardiche.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -9867,9 +9919,15 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "shroomic-greatblade-concept-v1.png"
-      ]
+      "previous_concepts": [
+        {
+          "file": "shroomic-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "concept": "shroomic-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-shroomic-shared-2056.webp",
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:shroomic_greatblade",
@@ -9882,11 +9940,11 @@
         "1.20.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Pale asymmetric blade and cyan curved side region retained. Added cyan gems and ornate lower fixtures amplify source; original upper blade outline, width and grip proportions need correction.",
+      "brief": "Red spotted mushroom cap, cobalt-blue spotted crescent, ivory spur and slender pale-olive shaft replace the prior gem-like interpretation. Fine spur and shaft proportions remain under review. One shared visual candidate for Shroomic Greatblade / Shroomic Bardiche.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "shroomic-greatblade-concept-v1.png",
-      "thumbnail": "concept-thumb-shroomic_greatblade.webp",
+      "concept": "shroomic-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-shroomic-shared-2056.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-23.webp",
@@ -9897,7 +9955,14 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "shroomic-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:shroomus_sword",
@@ -11498,8 +11563,8 @@
       "lanes": [
         "1.21.1"
       ],
-      "status": "SHARED_VISUAL_CANDIDATE_NEEDS_VERSION_REVIEW",
-      "brief": "Existing first-target candidate may inform this identical source sprite; not a newly generated sheet, canonical art approval, behavior equivalence or tested save migration.",
+      "status": "SHARED_VISUAL_CONCEPT_CANDIDATE",
+      "brief": "Compact charcoal crescent with red perimeter and pale angular flecks retains the long dark grip and small red end fixtures. Exact fleck count and collar size remain under review. One shared visual candidate for Underworld Greatblade / Underworld Glaive.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -11513,9 +11578,15 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "underworld-greatblade-concept-v1.png"
-      ]
+      "previous_concepts": [
+        {
+          "file": "underworld-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "concept": "underworld-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-underworld-shared-2056.webp",
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:underworld_greatblade",
@@ -11528,11 +11599,11 @@
         "1.20.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Broad charcoal irregular blade, red perimeter and pale small center marks retained. Blade extended and added gray motifs differ from source; original compact contour, mark count and grip ratio require correction.",
+      "brief": "Compact charcoal crescent with red perimeter and pale angular flecks retains the long dark grip and small red end fixtures. Exact fleck count and collar size remain under review. One shared visual candidate for Underworld Greatblade / Underworld Glaive.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "underworld-greatblade-concept-v1.png",
-      "thumbnail": "concept-thumb-underworld_greatblade.webp",
+      "concept": "underworld-shared-visual-concept-v2.png",
+      "thumbnail": "concept-thumb-underworld-shared-2056.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-26.webp",
@@ -11543,7 +11614,14 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "underworld-greatblade-concept-v1.png",
+          "label": "Earlier shared visual study; superseded silhouette"
+        }
+      ],
+      "review_note": "Selected shared visual candidate. Released texture pixels, model shape and display transforms match across 1.20.1 and 1.21.1. This does not establish gameplay equivalence, save migration, final art approval or native acceptance."
     },
     {
       "id": "aoa3:underworld_staff",

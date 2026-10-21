@@ -1,9 +1,9 @@
 {
-  "revision": "20261021-revisions-1954",
+  "revision": "20261021-shared-melee-2056",
   "raw_release_union_ids": 434,
   "first_target_ids": 411,
-  "selected_concept_entries": 345,
-  "related_reference_entries": 7,
+  "selected_concept_entries": 351,
+  "related_reference_entries": 1,
   "native_upgrades_accepted": 0,
   "art_accepted": false,
   "scope": "Concept publication only. Full-resolution image bytes are preserved. Smaller WebP images are UI thumbnails. Released reference previews reuse the existing published atlas.",
@@ -4447,6 +4447,78 @@
       "sha256": "a41376c4860f51d25624361c197cdf5ed5e6b151eef1d1425ab0dd8f00cfbac8",
       "bytes": 33376,
       "kind": "lossy UI thumbnail"
+    },
+    {
+      "file": "creepoid-shared-visual-concept-v3.png",
+      "sha256": "d196fe43a1e56b35a67a885b97b44a7260662a66061a2cdaa5e293a95bf8a04f",
+      "bytes": 1995712,
+      "kind": "full-resolution concept"
+    },
+    {
+      "file": "concept-thumb-creepoid-shared-2056.webp",
+      "sha256": "cad9fc3960c6b7d79a257150eba4f9de196ef6c0c41949fbf6db6f31439cef85",
+      "bytes": 38784,
+      "kind": "lossy UI thumbnail"
+    },
+    {
+      "file": "lelyetian-shared-visual-concept-v2.png",
+      "sha256": "4cc1bf500686a6b67e338546042c6d16384fb764ed73c5581c6c3b767422df6a",
+      "bytes": 1729838,
+      "kind": "full-resolution concept"
+    },
+    {
+      "file": "concept-thumb-lelyetian-shared-2056.webp",
+      "sha256": "192cbda2107415a74385eeac2e04ad594e85b0287a97743b36a65bca251f1d71",
+      "bytes": 27478,
+      "kind": "lossy UI thumbnail"
+    },
+    {
+      "file": "lyonic-shared-visual-concept-v2.png",
+      "sha256": "b3d52c21c4f4cc91b2177c74231bd382f4c2bc122fbbccd2bf9033a532c1a27c",
+      "bytes": 1812997,
+      "kind": "full-resolution concept"
+    },
+    {
+      "file": "concept-thumb-lyonic-shared-2056.webp",
+      "sha256": "d47e556a2b462af75905bbcb864aa6483efca7460441277fa73403c27d8aa14f",
+      "bytes": 28646,
+      "kind": "lossy UI thumbnail"
+    },
+    {
+      "file": "noxious-shared-visual-concept-v2.png",
+      "sha256": "be76a959966fb5cee894283c62f11127731b626128cab827dcd4a444bed36306",
+      "bytes": 1727593,
+      "kind": "full-resolution concept"
+    },
+    {
+      "file": "concept-thumb-noxious-shared-2056.webp",
+      "sha256": "d358a8ebf7367bd27dc58360666116c47c6f3fc6a49d3e2ab81646820a62d2e8",
+      "bytes": 24266,
+      "kind": "lossy UI thumbnail"
+    },
+    {
+      "file": "shroomic-shared-visual-concept-v2.png",
+      "sha256": "3a1651b13433e523992048593cee2c5f2d50d0466540f3bea0ee7251720345e1",
+      "bytes": 1846518,
+      "kind": "full-resolution concept"
+    },
+    {
+      "file": "concept-thumb-shroomic-shared-2056.webp",
+      "sha256": "519fcfb72ce5675d253a2e074e8b38642c7820f1b50ef6238e8f683095a06067",
+      "bytes": 31204,
+      "kind": "lossy UI thumbnail"
+    },
+    {
+      "file": "underworld-shared-visual-concept-v2.png",
+      "sha256": "6dedfa3feb4e91fe5ddcdb0d8a160b9e25ffeb1cc4beeeda1618a34bc4745977",
+      "bytes": 1893943,
+      "kind": "full-resolution concept"
+    },
+    {
+      "file": "concept-thumb-underworld-shared-2056.webp",
+      "sha256": "1023b6dd24b7285e46b51c9076445ec9cbb0b96d95f54191851c11d54c0f8d74",
+      "bytes": 28612,
+      "kind": "lossy UI thumbnail"
     }
   ],
   "revision_changes": [
@@ -4574,7 +4646,80 @@
       "id": "aoa3:bayonette_sr",
       "previous": "bayonette-sr-concept-v1.png",
       "current": "bayonette-sr-scifi-concept-v2.png"
+    },
+    {
+      "id": "aoa3:creepoid_greatblade",
+      "previous": "creepoid-greatblade-concept-v1.png",
+      "current": "creepoid-shared-visual-concept-v3.png",
+      "shared_visual_partner": "aoa3:creepoid_greataxe"
+    },
+    {
+      "id": "aoa3:creepoid_greataxe",
+      "previous": null,
+      "current": "creepoid-shared-visual-concept-v3.png",
+      "shared_visual_partner": "aoa3:creepoid_greatblade"
+    },
+    {
+      "id": "aoa3:lelyetian_greatblade",
+      "previous": "lelyetian-greatblade-concept-v1.png",
+      "current": "lelyetian-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:lelyetian_ranseur"
+    },
+    {
+      "id": "aoa3:lelyetian_ranseur",
+      "previous": null,
+      "current": "lelyetian-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:lelyetian_greatblade"
+    },
+    {
+      "id": "aoa3:lyonic_greatblade",
+      "previous": "lyonic-greatblade-concept-v1.png",
+      "current": "lyonic-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:lyonic_bardiche"
+    },
+    {
+      "id": "aoa3:lyonic_bardiche",
+      "previous": null,
+      "current": "lyonic-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:lyonic_greatblade"
+    },
+    {
+      "id": "aoa3:noxious_greatblade",
+      "previous": "noxious-greatblade-concept-v1.png",
+      "current": "noxious-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:noxious_partizan"
+    },
+    {
+      "id": "aoa3:noxious_partizan",
+      "previous": null,
+      "current": "noxious-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:noxious_greatblade"
+    },
+    {
+      "id": "aoa3:shroomic_greatblade",
+      "previous": "shroomic-greatblade-concept-v1.png",
+      "current": "shroomic-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:shroomic_bardiche"
+    },
+    {
+      "id": "aoa3:shroomic_bardiche",
+      "previous": null,
+      "current": "shroomic-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:shroomic_greatblade"
+    },
+    {
+      "id": "aoa3:underworld_greatblade",
+      "previous": "underworld-greatblade-concept-v1.png",
+      "current": "underworld-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:underworld_glaive"
+    },
+    {
+      "id": "aoa3:underworld_glaive",
+      "previous": null,
+      "current": "underworld-shared-visual-concept-v2.png",
+      "shared_visual_partner": "aoa3:underworld_greatblade"
     }
   ],
-  "variant_entries": 5
+  "variant_entries": 5,
+  "unique_selected_art_files": 344
 }
