@@ -109,8 +109,36 @@ public final class NativeCompleteDungeonRealmInspection {
             Object trader=actor(dungeon,key);List<?> list=(List<?>)call(trader,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0]);check(list.size()==(key.equals("dungeon_keeper")?11:15),"Incomplete dungeon merchant offers");Object tag=call(trader,"net.minecraft.world.entity.Entity","saveWithoutId",new Class<?>[]{c("net.minecraft.nbt.CompoundTag")},c("net.minecraft.nbt.CompoundTag").getConstructor().newInstance());Object restored=actor(dungeon,key);call(restored,"net.minecraft.world.entity.Entity","load",new Class<?>[]{c("net.minecraft.nbt.CompoundTag")},tag);List<?> reloaded=(List<?>)call(restored,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0]);check(reloaded.size()==list.size(),"Merchant save lost offers");offers.add(row("id",key,"completeOffers",tag.toString(),"saveReloadOffers",reloaded.size()));
         }
         check(failures.isEmpty(),"Native complete dungeon placement differs: "+failures.subList(0,Math.min(failures.size(),20)));
+        List<Object> bossTraits=new ArrayList<Object>();String[] bossKeys={"coniferon","goldorth","horon","penumbra"};
+        double[][] originalTraits={{4000,25,52,.3,.8},{3000,17,52,1,.10000000149011612},{3000,24,52,.3,.8},{3000,15,16,0,.5}};String[] attributeKeys={"MAX_HEALTH","ATTACK_DAMAGE","FOLLOW_RANGE","KNOCKBACK_RESISTANCE","MOVEMENT_SPEED"};
+        for(int i=0;i<bossKeys.length;i++){
+            Object boss=actor(levels.get("ancient_cavern"),bossKeys[i]);List<Object> attributes=new ArrayList<Object>();
+            for(int a=0;a<attributeKeys.length;a++){
+                Object definition=field("net.minecraft.world.entity.ai.attributes.Attributes",attributeKeys[a]);double actual=((Number)call(boss,"net.minecraft.world.entity.LivingEntity","getAttributeValue",new Class<?>[]{c("net.minecraft.world.entity.ai.attributes.Attribute")},definition)).doubleValue();
+                check(Double.doubleToRawLongBits(actual)==Double.doubleToRawLongBits(originalTraits[i][a]),"Original exact boss attribute changed: "+bossKeys[i]+" "+attributeKeys[a]+" "+actual);attributes.add(row("attribute",attributeKeys[a],"actual",actual));
+            }
+            check(((Number)call(boss,"net.minecraft.world.entity.LivingEntity","getHealth",new Class<?>[0])).doubleValue()==originalTraits[i][0],"Boss initial health differs from its full original max");bossTraits.add(row("id",bossKeys[i],"attributes",attributes,"completeNativeNbt",call(boss,"net.minecraft.world.entity.Entity","saveWithoutId",new Class<?>[]{c("net.minecraft.nbt.CompoundTag")},c("net.minecraft.nbt.CompoundTag").getConstructor().newInstance()).toString()));
+        }
+        List<Object> accessTraits=new ArrayList<Object>();
+        String[] accessKeys={"automaton","death_hunter","hellspot"};double[][] accessAttributes={{80,10,52,1,1},{200,6,52,.1,.8},{50,4,52,.1,.8}};
+        for(int i=0;i<accessKeys.length;i++){
+            Object creature=actor(levels.get("ancient_cavern"),accessKeys[i]);List<Object> values=new ArrayList<Object>();
+            for(int a=0;a<attributeKeys.length;a++){
+                Object definition=field("net.minecraft.world.entity.ai.attributes.Attributes",attributeKeys[a]);double actual=((Number)call(creature,"net.minecraft.world.entity.LivingEntity","getAttributeValue",new Class<?>[]{c("net.minecraft.world.entity.ai.attributes.Attribute")},definition)).doubleValue();
+                check(Double.doubleToRawLongBits(actual)==Double.doubleToRawLongBits(accessAttributes[i][a]),"Original dungeon access attribute changed: "+accessKeys[i]+" "+attributeKeys[a]);values.add(row("attribute",attributeKeys[a],"actual",actual));
+            }
+            List<Object> variants=new ArrayList<Object>();
+            if(accessKeys[i].equals("automaton"))for(int colour=1;colour<=5;colour++){
+                call(creature,"net.tslat.aoa3.content.entity.cavern.DungeonAutomaton","setColour",new Class<?>[]{int.class},colour);Object tag=call(creature,"net.minecraft.world.entity.Entity","saveWithoutId",new Class<?>[]{c("net.minecraft.nbt.CompoundTag")},c("net.minecraft.nbt.CompoundTag").getConstructor().newInstance()),restored=actor(levels.get("ancient_cavern"),"automaton");
+                call(restored,"net.minecraft.world.entity.Entity","load",new Class<?>[]{c("net.minecraft.nbt.CompoundTag")},tag);check(((Number)call(restored,"net.tslat.aoa3.content.entity.cavern.DungeonAutomaton","colour",new Class<?>[0])).intValue()==colour,"Original Automaton colour lost at save/reload");variants.add(row("colour",colour,"nativeSaveReload",true));
+            }
+            accessTraits.add(row("id",accessKeys[i],"attributes",values,"completeColourSaveCases",variants));
+        }
+        List<Object> realmstones=new ArrayList<Object>();for(String realm:Arrays.asList("ancient_cavern","immortallis")){
+            Object stone=registered("ITEM","aoa3:"+realm+"_realmstone");check(c("net.tslat.aoa3.content.item.misc.Realmstone").isInstance(stone),"Dungeon key does not use complete native portal activation");Object registeredBlock=call(stone,"net.tslat.aoa3.content.item.misc.Realmstone","getPortalBlock",new Class<?>[0]);Object block=registeredBlock.getClass().getMethod("get").invoke(registeredBlock);check(block==registered("BLOCK","aoa3:"+realm+"_portal"),"Dungeon realmstone points to wrong native portal");realmstones.add(row("item",realm+"_realmstone","exactNativePortal",realm+"_portal"));
+        }
         List<Object> stages=progression(dungeon);
-        String text=NativeCompleteHistoricalEquipmentInspection.json(row("passed",true,"syntheticWorld",false,"actualNativeServer",true,"generatedFixture",true,"progressionPlayer","actual Forge FakePlayer; no connected client/survival claim","fullSurvivalVerified",false,"completeAoAPort",false,"completeCells",total,"completeCages",cages,"protectedCells",protectedCount,"worlds",worlds,"completeNativeCellTrace",artifact(trace),"merchantOffers",offers,"completeProgressionCases",stages,"nativePlacementFailures",failures));
+        String text=NativeCompleteHistoricalEquipmentInspection.json(row("passed",true,"syntheticWorld",false,"actualNativeServer",true,"generatedFixture",true,"progressionPlayer","actual Forge FakePlayer; no connected client/survival claim","fullSurvivalVerified",false,"completeAoAPort",false,"completeCells",total,"completeCages",cages,"protectedCells",protectedCount,"worlds",worlds,"completeNativeCellTrace",artifact(trace),"merchantOffers",offers,"completeBossTraits",bossTraits,"completeAccessTraits",accessTraits,"realmstoneBindings",realmstones,"completeProgressionCases",stages,"nativePlacementFailures",failures));
         Files.write(Paths.get("enderloom-complete-dungeon-native.json"),text.getBytes(StandardCharsets.UTF_8),StandardOpenOption.CREATE_NEW);System.out.println("ENDERLOOM_COMPLETE_DUNGEON_NATIVE "+text);return text;
     }
 }

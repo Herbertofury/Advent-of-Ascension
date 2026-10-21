@@ -23,3 +23,10 @@ The `adapters/forge-1.20.1/complete-dungeons` directory contains our native life
 - [ ] Finish all remaining historical/latest reconciliation and equivalent-work performance gates.
 
 The full-merge warning remains valid. No 2,000 FPS claim or complete survival-playthrough claim is made.
+
+
+## Connected access dependencies
+
+The [access-cohort record](dungeon-access-cohort-2026-10-20.json) retains subsequent original-runtime observations and the target compiler result: 44 changed Java owners, 71 classes, complete Automaton/Death Hunter models (46 cuboids), five Automaton skins, seventeen original media files and both native realmstones. The source adapters add the original access drops, cavern tribute links and world-owned Death Day state. Original media and decompiled models remain separate local authorities. Original Realmshifter buybacks remain an explicit open integration.
+
+The whole target JAR starts with both new dimensions, then an inherited portal harness stops on its outdated 26-portal assumption. The successor checks exact membership of all 28 portals, preserves every original round trip and checks the dungeon fixed lobbies. Full native server, muted client, connected survival, Hari/Vulkan, multiplayer and existing-save qualification remain pending. The accepted playable product is unchanged and the full-merge warning remains valid.

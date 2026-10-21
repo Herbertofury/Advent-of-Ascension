@@ -34,9 +34,9 @@ import net.tslat.aoa3.util.PlayerUtil;
  */
 public final class CavernDeityBoss extends Monster implements RangedAttackMob {
     public enum Kind {
-        CONIFERON(4F,5.5F,4000,25,52,.3,.8F,"selyan",1.5F,-56,18,-52),
+        CONIFERON(4F,5.5F,4000,25,52,.3,.8,"selyan",1.5F,-56,18,-52),
         GOLDORTH(2.2F,2.9F,3000,17,52,1,.10000000149011612,"pluton",1.2F,97,18,88),
-        HORON(1.8F,2.3F,3000,24,52,.3,.8F,"luxon",1.2F,95,18,-51),
+        HORON(1.8F,2.3F,3000,24,52,.3,.8,"luxon",1.2F,95,18,-51),
         PENUMBRA(1.5F,3F,3000,15,16,0,.5,"erebon",1.5F,-51,18,92);
         public final float width,height,scale;public final double health,damage,range,resistance,speed;public final String deity;public final int x,y,z;
         Kind(float width,float height,double health,double damage,double range,double resistance,double speed,String deity,float scale,int x,int y,int z){this.width=width;this.height=height;this.health=health;this.damage=damage;this.range=range;this.resistance=resistance;this.speed=speed;this.deity=deity;this.scale=scale;this.x=x;this.y=y;this.z=z;}
