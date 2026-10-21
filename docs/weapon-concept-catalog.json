@@ -1,17 +1,16 @@
 {
   "schema_version": 2,
-  "revision": "20261021-shared-melee-2056",
+  "revision": "20261021-historical-experiment-2104",
   "inventory_count": 434,
   "first_target_count": 411,
   "native_accepted": 0,
-  "concept_count": 351,
+  "concept_count": 352,
   "status_counts": {
     "EXISTING_CANDIDATE_INDEXED_ART_REVIEW_OPEN": 79,
     "BLOCKED_IMAGE_GENERATION": 75,
-    "CONCEPT_CANDIDATE_CREATED": 266,
+    "CONCEPT_CANDIDATE_CREATED": 267,
     "SHARED_VISUAL_CONCEPT_CANDIDATE": 6,
     "REJECTED_EXISTING_CONCEPT_CORRECTION_BLOCKED": 1,
-    "RELATED_CANDIDATE_NEEDS_HISTORICAL_REVIEW": 1,
     "DEFERRED_RELATED_IMAGE_SERVICE_BLOCK": 6
   },
   "scope": "434 raw release-union identities, not 434 distinct accepted designs. Generated concept candidates remain unaccepted. Released reference previews stay in the existing atlas; no standalone source extracts are uploaded.",
@@ -3891,8 +3890,8 @@
       "lanes": [
         "1.12.2"
       ],
-      "status": "RELATED_CANDIDATE_NEEDS_HISTORICAL_REVIEW",
-      "brief": "Related first-target Experiment W-801 concept is available. Matching class basename and visually similar portrait do not certify exact historical-art equivalence; keep this review open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Dedicated historical 1.12.2 candidate restores the twin yellow front prongs, cyan front insets, raised pale rear tab, cyan end-cap and distinct lower fixtures. Exact loop proportions and hand fit remain under review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -3906,9 +3905,9 @@
         "width": 1320,
         "height": 2220
       },
-      "related_concepts": [
-        "experiment-w-801-concept-v1.png"
-      ]
+      "concept": "experiment-w801-historical-concept-v1.png",
+      "thumbnail": "concept-thumb-experiment-w801-historical.webp",
+      "review_note": "Historical visual candidate only. This does not establish equivalence or save migration to the later aoa3:experiment_w_801 identity. Final art and native acceptance remain open."
     },
     {
       "id": "aoa3:explochron_sword",
