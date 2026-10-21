@@ -22,7 +22,10 @@ def run(a):
     actual=read(parent['capture']['path']);assert actual['passed']and actual['originalRuntime']and not actual['synthetic']
     cases=actual['completeOriginalExperienceCases'];gates=actual['completeNativeGateCases'];assert len(cases)==3200 and len(gates)==3700 and len(actual['completeRegisteredHunterEntities'])==48
     out=Path(a.output).absolute();root=Path(os.environ['ENDERLOOM_DEVELOPMENT_ROOT']).absolute();assert out.is_relative_to(root)and not out.exists();work=out.with_suffix('.runtime');assert not work.exists();work.mkdir();(work/'classes').mkdir()
-    source=Path(__file__).with_name('java')/'HunterProgression.java';frozen=work/source.name;frozen.write_bytes(source.read_bytes())
+    source=Path(a.source)if a.source else Path(__file__).with_name('java')/'HunterProgression.java'
+    if not a.source and not source.is_file():source=Path(__file__).with_name('HunterProgression.java')
+    assert source.is_file(),'Select the own HunterProgression.java policy with --source'
+    frozen=work/source.name;frozen.write_bytes(source.read_bytes())
     rows=['\t'.join(map(str,(r['initialLevel'],bits(r['initialXp']),bits(r['award']),r['actualLevel'],bits(r['actualXp']),bits(r['originalThreshold']))))for r in cases]
     (work/'actual-original-xp.tsv').write_text('\n'.join(rows)+'\n',encoding='utf-8')
     rows=['\t'.join(map(str,(r['level'],r['required'],int(r['actualSurvivalAllowed']),int(r['actualCreativeAllowed']))))for r in gates]
@@ -51,4 +54,5 @@ public class VerifyHunter{
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('original','jdk','output'):p.add_argument(name)
+    p.add_argument('--source',help='Explicit own policy source; supports both Enderloom and the public audit-tool layout')
     run(p.parse_args())
