@@ -28,6 +28,52 @@ public final class NativeCompleteDungeonRealmInspection {
         Optional<?> result=(Optional<?>)call(registry(owner),"net.minecraft.core.Registry","getOptional",new Class<?>[]{c("net.minecraft.resources.ResourceLocation")},id);check(result.isPresent(),"Missing exact native dungeon dependency "+name);return result.get();
     }
     private static Object actor(Object world,String name)throws Exception{return call(registered("ENTITY_TYPE","aoa3:"+name),"net.minecraft.world.entity.EntityType","create",new Class<?>[]{c("net.minecraft.world.level.Level")},world);}
+    private static List<Object> realmshifterBuybacks(Object world)throws Exception {
+        try{c("net.tslat.aoa3.content.entity.mob.historical.restored.RealmstoneBuybacks");}
+        catch(ClassNotFoundException notInEarlierCandidate){return Collections.emptyList();}
+        String[] stones={"abyss","ancient_cavern","barathos","lborean","celeve","crystevia","deeplands","dustopia","gardencia","haven","iromine","lelyetia","mysterium","precasia","vox_ponds","candyland","creeponia","immortallis","shyrelands"};
+        int[] amounts={6,9,8,7,4,6,9,6,2,1,4,3,1,2,4,5,6,6,9};
+        Class<?> stack=c("net.minecraft.world.item.ItemStack"),itemLike=c("net.minecraft.world.level.ItemLike"),offerType=c("net.minecraft.world.item.trading.MerchantOffer"),nbt=c("net.minecraft.nbt.CompoundTag");
+        Object trader=actor(world,"realmshifter");
+        @SuppressWarnings("unchecked") List<Object> offers=(List<Object>)call(trader,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0]);
+        List<Object> cases=new ArrayList<Object>();
+        for(int i=0;i<stones.length;i++) {
+            Object stone=registered("ITEM","aoa3:"+stones[i]+"_realmstone"),coin=registered("ITEM","aoa3:"+(i==6||i==10?"copper_coin":"silver_coin"));
+            List<Object> matching=new ArrayList<Object>();
+            for(Object offer:offers) {
+                Object buy=call(offer,"net.minecraft.world.item.trading.MerchantOffer","getBaseCostA",new Class<?>[0]),sell=call(offer,"net.minecraft.world.item.trading.MerchantOffer","getResult",new Class<?>[0]),second=call(offer,"net.minecraft.world.item.trading.MerchantOffer","getCostB",new Class<?>[0]);
+                if(call(buy,"net.minecraft.world.item.ItemStack","getItem",new Class<?>[0])==stone&&call(sell,"net.minecraft.world.item.ItemStack","getItem",new Class<?>[0])==coin&&(Boolean)call(second,"net.minecraft.world.item.ItemStack","isEmpty",new Class<?>[0]))matching.add(offer);
+            }
+            check(matching.size()==1,"Missing or duplicated whole original buyback: "+stones[i]);
+            Object offer=matching.get(0),buy=call(offer,"net.minecraft.world.item.trading.MerchantOffer","getBaseCostA",new Class<?>[0]),sell=call(offer,"net.minecraft.world.item.trading.MerchantOffer","getResult",new Class<?>[0]);
+            check(number(buy,"getCount")==1&&number(sell,"getCount")==amounts[i],"Original buyback direction/quantity differs: "+stones[i]);
+            Object payment=stack.getConstructor(itemLike,int.class).newInstance(stone,1),empty=field("net.minecraft.world.item.ItemStack","EMPTY"),wrong=stack.getConstructor(itemLike,int.class).newInstance(registered("ITEM","minecraft:dirt"),1);
+            check(!(Boolean)call(offer,"net.minecraft.world.item.trading.MerchantOffer","take",new Class<?>[]{stack,stack},wrong,empty)&&number(wrong,"getCount")==1,"Wrong buyback payment consumed");
+            check((Boolean)call(offer,"net.minecraft.world.item.trading.MerchantOffer","take",new Class<?>[]{stack,stack},payment,empty)&&(Boolean)call(payment,"net.minecraft.world.item.ItemStack","isEmpty",new Class<?>[0]),"Native buyback failed to consume exactly one stone");
+            Object portalHolder=call(stone,"net.tslat.aoa3.content.item.misc.Realmstone","getPortalBlock",new Class<?>[0]);
+            check(portalHolder.getClass().getMethod("get").invoke(portalHolder)==registered("BLOCK","aoa3:"+stones[i]+"_portal"),"Historical buyback uses the wrong destination stone");
+            cases.add(row("stone","aoa3:"+stones[i]+"_realmstone","currency",i==6||i==10?"aoa3:copper_coin":"aoa3:silver_coin","amount",amounts[i],"nativePaymentConsumed",true,"wrongPaymentPreserved",true,"exactNativePortal",true));
+        }
+        // Exercise real saved-offer migration rather than rebuilding a pristine
+        // merchant and declaring its defaults to be save compatibility.
+        Object changed=offers.get(offers.size()-1);
+        call(changed,"net.minecraft.world.item.trading.MerchantOffer","increaseUses",new Class<?>[0]);
+        call(changed,"net.minecraft.world.item.trading.MerchantOffer","addToSpecialPriceDiff",new Class<?>[]{int.class},2);
+        Object changedResult=call(changed,"net.minecraft.world.item.trading.MerchantOffer","getResult",new Class<?>[0]);
+        int editedAmount=number(changedResult,"getCount")+1;
+        call(changedResult,"net.minecraft.world.item.ItemStack","setCount",new Class<?>[]{int.class},editedAmount);
+        Object custom=offerType.getConstructor(stack,stack,int.class,int.class,float.class).newInstance(stack.getConstructor(itemLike,int.class).newInstance(registered("ITEM","minecraft:diamond"),2),stack.getConstructor(itemLike,int.class).newInstance(registered("ITEM","minecraft:emerald"),3),17,4,0.03f);
+        offers.add(custom);
+        Object before=call(offers,"net.minecraft.world.item.trading.MerchantOffers","createTag",new Class<?>[0]);
+        Object tag=call(trader,"net.minecraft.world.entity.Entity","saveWithoutId",new Class<?>[]{nbt},nbt.getConstructor().newInstance()),restored=actor(world,"realmshifter");
+        call(restored,"net.minecraft.world.entity.Entity","load",new Class<?>[]{nbt},tag);
+        Object reloaded=call(restored,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0]);
+        Object after=call(reloaded,"net.minecraft.world.item.trading.MerchantOffers","createTag",new Class<?>[0]);
+        check(before.equals(after),"Saved Realmshifter uses/prices/custom payout or offers were rebuilt");
+        check(call(restored,"net.minecraft.world.entity.npc.AbstractVillager","getOffers",new Class<?>[0])==reloaded,"Repeated complete-offer access replaced native list");
+        cases.add(row("case","native-save-reload-and-repeated-access","completeOffers",((List<?>)reloaded).size(),"completeNbtUnchanged",true,"modifiedPayout",editedAmount,"preservedOfferNbt",after.toString()));
+        return cases;
+    }
     private static Map<String,Object> artifact(Path p)throws Exception{
         MessageDigest digest=MessageDigest.getInstance("SHA-256");try(InputStream in=Files.newInputStream(p)){byte[] b=new byte[65536];int n;while((n=in.read(b))!=-1)digest.update(b,0,n);}StringBuilder hash=new StringBuilder();for(byte b:digest.digest())hash.append(String.format("%02x",b&255));return row("path",p.toAbsolutePath().toString(),"sha256",hash.toString(),"bytes",Files.size(p));
     }
@@ -43,6 +89,14 @@ public final class NativeCompleteDungeonRealmInspection {
     private static List<Object> progression(Object world)throws Exception{
         Object identity=c("com.mojang.authlib.GameProfile").getConstructor(UUID.class,String.class).newInstance(UUID.randomUUID(),"[EnderloomDungeon]");
         Object player=call(null,"net.minecraftforge.common.util.FakePlayerFactory","get",new Class<?>[]{c("net.minecraft.server.level.ServerLevel"),c("com.mojang.authlib.GameProfile")},world,identity),inventory=call(player,"net.minecraft.world.entity.player.Player","getInventory",new Class<?>[0]);
+        // Forge's FakePlayerNetHandler deliberately makes both teleport
+        // overloads no-ops. Exercise the real native teleport implementation
+        // using a detached Connection instead; no client/socket is connected
+        // and no expected coordinate is injected into the fixture.
+        Object server=call(world,"net.minecraft.server.level.ServerLevel","getServer",new Class<?>[0]);
+        Object flow=Enum.valueOf((Class)c("net.minecraft.network.protocol.PacketFlow"),"SERVERBOUND"),connection=c("net.minecraft.network.Connection").getConstructor(c("net.minecraft.network.protocol.PacketFlow")).newInstance(flow);
+        Object listener=c("net.minecraft.server.network.ServerGamePacketListenerImpl").getConstructor(c("net.minecraft.server.MinecraftServer"),c("net.minecraft.network.Connection"),c("net.minecraft.server.level.ServerPlayer")).newInstance(server,connection,player);
+        c("net.minecraft.server.level.ServerPlayer").getField("connection").set(player,listener);
         Object tribute=call(null,"net.tslat.aoa3.event.TributeEvents","tribute",new Class<?>[]{c("net.minecraft.server.level.ServerPlayer")},player);check(tribute!=null,"Native dungeon player resource unavailable");
         Class<?> deity=c("net.tslat.aoa3.player.resource.TributeResource$Deities"),playerType=c("net.minecraft.server.level.ServerPlayer");List<Object> rows=new ArrayList<Object>();
         int[][] expected={{28,20,2},{67,21,2},{81,21,2},{122,21,2},{141,24,2},{168,24,7},{189,20,2},{233,21,3},{0,20,0}};
@@ -52,7 +106,7 @@ public final class NativeCompleteDungeonRealmInspection {
             if(stage==1||stage==3||stage==5||stage==7||stage==9){int coin=(stage-1)/2;inventorySet(inventory,0,call(null,FAMILY+"ImmortallisProgression","token",new Class<?>[]{int.class},coin));}
             else{Object selected=Enum.valueOf((Class)deity,stage==2||stage==6?"Pluton":"Erebon");call(tribute,"net.tslat.aoa3.player.resource.TributeResource","setTribute",new Class<?>[]{deity,int.class},selected,stage<=4?100:200);}
             check((Boolean)call(null,FAMILY+"ImmortallisProgression","activate",new Class<?>[]{playerType,int.class},player,stage),"Native dungeon stage did not activate "+stage);
-            for(int axis=0;axis<3;axis++)check(((Number)call(player,"net.minecraft.world.entity.Entity","get"+new String[]{"X","Y","Z"}[axis],new Class<?>[0])).doubleValue()==expected[stage-1][axis],"Native dungeon stage destination changed "+stage);
+            for(int axis=0;axis<3;axis++){double actual=((Number)call(player,"net.minecraft.world.entity.Entity","get"+new String[]{"X","Y","Z"}[axis],new Class<?>[0])).doubleValue();check(actual==expected[stage-1][axis],"Native dungeon stage destination changed "+stage+" axis="+axis+" actual="+actual+" expected="+expected[stage-1][axis]);}
             rows.add(row("stage",stage,"missingPrerequisiteRejected",true,"actualDestination",Arrays.asList(expected[stage-1][0],expected[stage-1][1],expected[stage-1][2]),"actualInventory",call(inventory,"net.minecraft.world.entity.player.Inventory","save",new Class<?>[]{c("net.minecraft.nbt.ListTag")},c("net.minecraft.nbt.ListTag").getConstructor().newInstance()).toString()));
         }
         call(inventory,"net.minecraft.world.entity.player.Inventory","clearContent",new Class<?>[0]);
@@ -138,7 +192,9 @@ public final class NativeCompleteDungeonRealmInspection {
             Object stone=registered("ITEM","aoa3:"+realm+"_realmstone");check(c("net.tslat.aoa3.content.item.misc.Realmstone").isInstance(stone),"Dungeon key does not use complete native portal activation");Object registeredBlock=call(stone,"net.tslat.aoa3.content.item.misc.Realmstone","getPortalBlock",new Class<?>[0]);Object block=registeredBlock.getClass().getMethod("get").invoke(registeredBlock);check(block==registered("BLOCK","aoa3:"+realm+"_portal"),"Dungeon realmstone points to wrong native portal");realmstones.add(row("item",realm+"_realmstone","exactNativePortal",realm+"_portal"));
         }
         List<Object> stages=progression(dungeon);
-        String text=NativeCompleteHistoricalEquipmentInspection.json(row("passed",true,"syntheticWorld",false,"actualNativeServer",true,"generatedFixture",true,"progressionPlayer","actual Forge FakePlayer; no connected client/survival claim","fullSurvivalVerified",false,"completeAoAPort",false,"completeCells",total,"completeCages",cages,"protectedCells",protectedCount,"worlds",worlds,"completeNativeCellTrace",artifact(trace),"merchantOffers",offers,"completeBossTraits",bossTraits,"completeAccessTraits",accessTraits,"realmstoneBindings",realmstones,"completeProgressionCases",stages,"nativePlacementFailures",failures));
+        List<Object> buybackCases=realmshifterBuybacks(dungeon);
+        String text=NativeCompleteHistoricalEquipmentInspection.json(row("passed",true,"syntheticWorld",false,"actualNativeServer",true,"generatedFixture",true,"progressionPlayer","Forge FakePlayer with actual native ServerGamePacketListenerImpl and detached packet Connection; no connected client/survival claim","fullSurvivalVerified",false,"completeAoAPort",false,"completeCells",total,"completeCages",cages,"protectedCells",protectedCount,"worlds",worlds,"completeNativeCellTrace",artifact(trace),"merchantOffers",offers,"completeBossTraits",bossTraits,"completeAccessTraits",accessTraits,"realmstoneBindings",realmstones,"completeProgressionCases",stages,"nativePlacementFailures",failures));
+        text=text.substring(0,text.length()-1)+",\"completeRealmshifterBuybackCases\":"+NativeCompleteHistoricalEquipmentInspection.json(buybackCases)+"}";
         Files.write(Paths.get("enderloom-complete-dungeon-native.json"),text.getBytes(StandardCharsets.UTF_8),StandardOpenOption.CREATE_NEW);System.out.println("ENDERLOOM_COMPLETE_DUNGEON_NATIVE "+text);return text;
     }
 }
