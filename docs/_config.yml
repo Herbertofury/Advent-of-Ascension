@@ -1,225 +1,490 @@
-# Authoring archives remain downloadable from the repository.
-# Keep interactive models, images and data in the published site.
+# Full-resolution concept artwork stays downloadable from the repository raw URLs.
+# The public gallery deploys lightweight thumbnails and existing released-reference previews.
 exclude:
-  - "ammo-consumption-regression-tool-v1.zip"
-  - "aoa-authoring-corrections-v19-v7.zip"
-  - "aoa-presentation-core-v5.zip"
-  - "aoa-weapon-completeness-standard-v2.zip"
-  - "aoa-weapon-completeness-standard-v3.zip"
-  - "aoa-weapon-completeness-standard-v4.zip"
-  - "aoa-weapon-completeness-standard-v5.zip"
-  - "aoa-weapon-completeness-standard-v6.zip"
-  - "aoa-weapon-completeness-standard-v7.zip"
-  - "aoa-weapon-completeness-standard-v8.zip"
-  - "aoa-weapon-completeness-standard.zip"
-  - "apoco-assault-rifle-redesign-notes-v2.zip"
-  - "apoco-assault-rifle-study-v1.zip"
-  - "apoco-forward-emitter-tools.zip"
-  - "apoco-rifle-1024-review-tools.zip"
-  - "apoco-rifle-repair-workflow-v1.zip"
-  - "apoco-rifle-source-and-concept-study-v1.zip"
-  - "apoco-rifle-trellis-review-tools-v1.zip"
-  - "apoco-shower-source-and-concept-study-v1.zip"
-  - "ascension-armory-authoring-prototype.zip"
-  - "atlas-mip-ownership-study.zip"
-  - "authoring-qa-runner-v1.zip"
-  - "baronator-attachment-study.zip"
-  - "baronator-mechanism-study-qa-v2.zip"
-  - "baronator-mechanism-study.zip"
-  - "blaster-baseline-audit-v1.zip"
-  - "cannon-profile-source-checks-v1.zip"
-  - "cannon-projectile-census-tools.zip"
-  - "carrot-cannon-audit-v1.zip"
-  - "carrot-cannon-authoring-study-v1.zip"
-  - "carrot-cannon-texture-transport-v1.zip"
-  - "confirmed-emitter-sequence-v1.zip"
-  - "confirmed-shot-presentation-source.zip"
-  - "conventional-baseline-audit-v1.zip"
-  - "create-armorer-audit-tool-v1.zip"
-  - "discharge-atlas-part-study-v11.zip"
-  - "discharge-authoring-refinement-v15.zip"
-  - "discharge-capacitor-canopy-v34-patch.zip"
-  - "discharge-chamber-v38-patch.zip"
-  - "discharge-combined-authoring-v33-patch.zip"
-  - "discharge-concept-mesh-study.zip"
-  - "discharge-consolidated-v44-pipeline.zip"
-  - "discharge-exterior-authoring-study-v31.zip"
-  - "discharge-grip-and-surface-study-v1.zip"
-  - "discharge-grip-v36-study.zip"
-  - "discharge-material-recoil-study-v1.zip"
-  - "discharge-rail-paint-v42-patch.zip"
-  - "discharge-rear-contour-v32-patch.zip"
-  - "discharge-rear-contour-v32-r2-patch.zip"
-  - "discharge-rear-contour-v32-r3-patch.zip"
-  - "discharge-recoil-authoring-v4.zip"
-  - "discharge-sculpt-v3-source.zip"
-  - "discharge-shotgun-audit-tool-v1.zip"
-  - "discharge-texture-grouped-v35-study.zip"
-  - "discharge-unified-atlas-v39-study.zip"
-  - "divine-upgrade-atlas-tools.zip"
-  - "gravity-blaster-study-tool-v1.zip"
-  - "helldivers-audit-tool-v1.zip"
-  - "hive-blaster-audit-tool-v1.zip"
-  - "impact-visual-ledger-v1.zip"
-  - "inspection-customization-design-study.zip"
-  - "iominator-audit-tool-v1.zip"
-  - "iominator-authoring-v1-v3.zip"
-  - "iominator-viewer-source-v1.zip"
-  - "local-cpu-weapon-reconstruction-study.zip"
-  - "minigun-motion-study.zip"
-  - "model-presentation-audit-tool-v1.zip"
-  - "native-shot-entrypoint-audit.zip"
-  - "particle-emission-clock-prototype.zip"
-  - "predatorian-pulse-source-study.zip"
-  - "projectile-trail-clock-v1.zip"
-  - "quad-mesh-bridge-v1.zip"
-  - "shoe-flinger-audit-tool-v1.zip"
-  - "soul-flame-flipbook-candidate-v3.zip"
-  - "soul-sight-java-core-v1.zip"
-  - "soul-storm-aim-mask-v34-patch.zip"
-  - "soul-storm-authoring-study-v31.zip"
-  - "soul-storm-authoring-study.zip"
-  - "soul-storm-grip-texture-study-v25.zip"
-  - "soul-storm-metal-texture-study-v33.zip"
-  - "soul-storm-recoil-transport-v1.zip"
-  - "soul-storm-recoil-transport-v31-r2.zip"
-  - "soul-storm-recoil-transport-v31-r3.zip"
-  - "soul-storm-recoil-transport-v31.zip"
-  - "soul-storm-sculpt-reconstruction-v5-v9.zip"
-  - "soul-storm-sculpt-v10-v12.zip"
-  - "soul-storm-sculpt-v13.zip"
-  - "soul-storm-sculpt-v14.zip"
-  - "soul-storm-sculpt-v15-source.zip"
-  - "soul-storm-sculpt-v16-source.zip"
-  - "soul-storm-sight-variants-v35-patch.zip"
-  - "soul-storm-stack-studies-v1.zip"
-  - "soul-storm-targeted-clearance-v1.zip"
-  - "soul-storm-tml-transport-v1.zip"
-  - "soul-storm-v15-transport.zip"
-  - "soul-storm-v19-hardware-transport.zip"
-  - "soul-storm-v22-authoring-study.zip"
-  - "soul-storm-world-lod-tool-v1.zip"
-  - "soul-storm-world-lod-tool-v2.zip"
-  - "spirit-shower-source-study-v1.zip"
-  - "sprite-alpha-review-tools.zip"
-  - "tacz-animation-parser-check-tool-v1.zip"
-  - "tacz-geometry-contract-tools.zip"
-  - "tacz-hand-anchor-study.zip"
-  - "tacz-minigun-lua-hook-check-tool-v1.zip"
-  - "tacz-model-parser-check-tool-v1.zip"
-  - "tacz-native-hand-axis-source-tools.zip"
-  - "tacz-native-hand-contract-tools.zip"
-  - "tacz-presentation-audit-tool-v2.zip"
-  - "tacz-released-parser-check-tool-v1.zip"
-  - "tacz-released-parser-check-tool-v2.zip"
-  - "tacz-texture-study-tools.zip"
-  - "tml-authoring-preflight-v1.zip"
-  - "tml-authoring-preflight-v2.zip"
-  - "tml-float32-export-v1.zip"
-  - "tml-normal-fidelity-candidate-v1.zip"
-  - "tml-released-baker-v1.zip"
-  - "tml-released-baker-v2.zip"
-  - "tml-released-baker-v3.zip"
-  - "tutorial-navigation-check-tool-v1.zip"
-  - "upgrade-kit-study-1.20.1.zip"
-  - "vortex-blaster-study-tool-v1.zip"
-  - "weapon-ammo-audit-tool-v1.zip"
-  - "weapon-ammo-audit-tool-v2.zip"
-  - "weapon-ammo-audit-tool-v3.zip"
-  - "weapon-art-version-study.zip"
-  - "weapon-behavior-map-tool-v1.zip"
-  - "weapon-behavior-map-tool-v2.zip"
-  - "weapon-behavior-map-tool-v3.zip"
-  - "weapon-component-audit-tool-v1.zip"
-  - "weapon-concept-gallery-tools-v1.zip"
-  - "weapon-manifest-discovery-tools.zip"
-  - "weapon-origin-data-index-tools.zip"
-  - "weapon-presentation-core-v1.zip"
-  - "weapon-presentation-core-v2.zip"
-  - "weapon-presentation-core-v3.zip"
-  - "weapon-presentation-core-v4.zip"
-  - "weapon-projectile-provenance-tools.zip"
-  - "weapon-rig-parenting-qa-v1.zip"
-  - "weapon-scope-reconciliation-tools.zip"
-  - "weapon-texture-owner-isolation-study.zip"
-
-# Full-resolution concepts use repository URLs; local thumbnails remain in Pages.
-  - "abominator-concept-exploration-v1.png"
-  - "abyssro-concept-v2.png"
-  - "amplifier-concept-v2.png"
-  - "apoco-lore-concept-v3.png"
-  - "apoco-rifle-concept-v2.png"
-  - "apoco-shower-concept-v1.png"
-  - "aqua-cannon-concept-v1.png"
-  - "balloon-bomber-concept-v1.png"
-  - "baron-ssr-concept-v1.png"
-  - "baronator-concept-exploration-v1.png"
-  - "bayonette-sr-concept-v1.png"
-  - "blast-barrel-concept-v2.png"
-  - "blue-barrel-concept-v2.png"
-  - "bolt-rifle-concept-v1.png"
-  - "boulder-concept-v2.png"
-  - "brown-blaster-concept-v1.png"
-  - "bulb-cannon-concept-v2.png"
-  - "carrot-cannon-concept-v1.png"
-  - "clown-cannon-concept-v2.png"
-  - "clown-cracker-concept-v1.png"
-  - "clownimator-concept-v2.png"
-  - "clowno-pulse-concept-v2.png"
-  - "coral-cannon-concept-v1.png"
-  - "crystaneer-concept-v1.png"
-  - "dark-beast-concept-v3.png"
-  - "deadlock-concept-v1.png"
-  - "decimator-concept-v1.png"
-  - "destruction-shotgun-concept-v2.png"
-  - "discharge-shotgun-owner-target-v1.png"
-  - "discharge-sniper-concept-v2.png"
-  - "dual-sight-concept-v2.png"
-  - "duster-concept-v1.png"
-  - "energy-cannon-concept-v1.png"
-  - "floro500-concept-v2.png"
-  - "flower-cannon-concept-v2.png"
-  - "fungal-cannon-concept-exploration-v1.png"
-  - "ghast-blaster-concept-v2.png"
-  - "ghoul-cannon-concept-v1.png"
-  - "gimmick-concept-v1.png"
-  - "ginger-blaster-concept-v1.png"
-  - "gravity-blaster-concept-v1.png"
-  - "head-hunter-concept-v1.png"
-  - "hive-blaster-concept-exploration-v2.png"
-  - "hive-cracker-concept-v2.png"
-  - "iominator-concept-exploration-v2.png"
-  - "ka500-concept-v1.png"
-  - "long-shot-concept-v1.png"
-  - "mark-maker-concept-v1.png"
-  - "mecha-cannon-concept-v2.png"
-  - "mechyro-concept-v2.png"
-  - "mineral-concept-v1.png"
-  - "minigun-concept-exploration-v2.png"
-  - "monster-concept-v1.png"
-  - "moon-cannon-concept-v1.png"
-  - "moon-maker-concept-v1.png"
-  - "predatorian-blaster-concept-v1.png"
-  - "pulse-cannon-concept-v1.png"
-  - "purity-shotgun-concept-v2.png"
-  - "purple-punisher-concept-v1.png"
-  - "red-rocket-concept-v1.png"
-  - "rosid-rifle-concept-v1.png"
-  - "sabbath-concept-v2.png"
-  - "shoe-flinger-concept-exploration-v2.png"
-  - "shyre-blaster-concept-v1.png"
-  - "sludge-sniper-concept-v2.png"
-  - "soul-drainer-concept-exploration-v1.png"
-  - "soul-storm-anchored-flame-focus-concept-v1.png"
-  - "spirit-shower-concept-v1.png"
-  - "sweet-tooth-concept-v4.png"
-  - "terminator-concept-v1.png"
-  - "viper-1-concept-v1.png"
-  - "vivo-concept-v1.png"
-  - "vortex-blaster-concept-v2.png"
-  - "water-balloon-bomber-concept-v1.png"
-
-  - "shyre-authoring-study-v8.zip"
-
-  - "shyre-authoring-export-source-v11.zip"
-  - "ancient-bomber-concept-v1.png"
+- ammo-consumption-regression-tool-v1.zip
+- aoa-authoring-corrections-v19-v7.zip
+- aoa-presentation-core-v5.zip
+- aoa-weapon-completeness-standard-v2.zip
+- aoa-weapon-completeness-standard-v3.zip
+- aoa-weapon-completeness-standard-v4.zip
+- aoa-weapon-completeness-standard-v5.zip
+- aoa-weapon-completeness-standard-v6.zip
+- aoa-weapon-completeness-standard-v7.zip
+- aoa-weapon-completeness-standard-v8.zip
+- aoa-weapon-completeness-standard.zip
+- apoco-assault-rifle-redesign-notes-v2.zip
+- apoco-assault-rifle-study-v1.zip
+- apoco-forward-emitter-tools.zip
+- apoco-rifle-1024-review-tools.zip
+- apoco-rifle-repair-workflow-v1.zip
+- apoco-rifle-source-and-concept-study-v1.zip
+- apoco-rifle-trellis-review-tools-v1.zip
+- apoco-shower-source-and-concept-study-v1.zip
+- ascension-armory-authoring-prototype.zip
+- atlas-mip-ownership-study.zip
+- authoring-qa-runner-v1.zip
+- baronator-attachment-study.zip
+- baronator-mechanism-study-qa-v2.zip
+- baronator-mechanism-study.zip
+- blaster-baseline-audit-v1.zip
+- cannon-profile-source-checks-v1.zip
+- cannon-projectile-census-tools.zip
+- carrot-cannon-audit-v1.zip
+- carrot-cannon-authoring-study-v1.zip
+- carrot-cannon-texture-transport-v1.zip
+- confirmed-emitter-sequence-v1.zip
+- confirmed-shot-presentation-source.zip
+- conventional-baseline-audit-v1.zip
+- create-armorer-audit-tool-v1.zip
+- discharge-atlas-part-study-v11.zip
+- discharge-authoring-refinement-v15.zip
+- discharge-capacitor-canopy-v34-patch.zip
+- discharge-chamber-v38-patch.zip
+- discharge-combined-authoring-v33-patch.zip
+- discharge-concept-mesh-study.zip
+- discharge-consolidated-v44-pipeline.zip
+- discharge-exterior-authoring-study-v31.zip
+- discharge-grip-and-surface-study-v1.zip
+- discharge-grip-v36-study.zip
+- discharge-material-recoil-study-v1.zip
+- discharge-rail-paint-v42-patch.zip
+- discharge-rear-contour-v32-patch.zip
+- discharge-rear-contour-v32-r2-patch.zip
+- discharge-rear-contour-v32-r3-patch.zip
+- discharge-recoil-authoring-v4.zip
+- discharge-sculpt-v3-source.zip
+- discharge-shotgun-audit-tool-v1.zip
+- discharge-texture-grouped-v35-study.zip
+- discharge-unified-atlas-v39-study.zip
+- divine-upgrade-atlas-tools.zip
+- gravity-blaster-study-tool-v1.zip
+- helldivers-audit-tool-v1.zip
+- hive-blaster-audit-tool-v1.zip
+- impact-visual-ledger-v1.zip
+- inspection-customization-design-study.zip
+- iominator-audit-tool-v1.zip
+- iominator-authoring-v1-v3.zip
+- iominator-viewer-source-v1.zip
+- local-cpu-weapon-reconstruction-study.zip
+- minigun-motion-study.zip
+- model-presentation-audit-tool-v1.zip
+- native-shot-entrypoint-audit.zip
+- particle-emission-clock-prototype.zip
+- predatorian-pulse-source-study.zip
+- projectile-trail-clock-v1.zip
+- quad-mesh-bridge-v1.zip
+- shoe-flinger-audit-tool-v1.zip
+- soul-flame-flipbook-candidate-v3.zip
+- soul-sight-java-core-v1.zip
+- soul-storm-aim-mask-v34-patch.zip
+- soul-storm-authoring-study-v31.zip
+- soul-storm-authoring-study.zip
+- soul-storm-grip-texture-study-v25.zip
+- soul-storm-metal-texture-study-v33.zip
+- soul-storm-recoil-transport-v1.zip
+- soul-storm-recoil-transport-v31-r2.zip
+- soul-storm-recoil-transport-v31-r3.zip
+- soul-storm-recoil-transport-v31.zip
+- soul-storm-sculpt-reconstruction-v5-v9.zip
+- soul-storm-sculpt-v10-v12.zip
+- soul-storm-sculpt-v13.zip
+- soul-storm-sculpt-v14.zip
+- soul-storm-sculpt-v15-source.zip
+- soul-storm-sculpt-v16-source.zip
+- soul-storm-sight-variants-v35-patch.zip
+- soul-storm-stack-studies-v1.zip
+- soul-storm-targeted-clearance-v1.zip
+- soul-storm-tml-transport-v1.zip
+- soul-storm-v15-transport.zip
+- soul-storm-v19-hardware-transport.zip
+- soul-storm-v22-authoring-study.zip
+- soul-storm-world-lod-tool-v1.zip
+- soul-storm-world-lod-tool-v2.zip
+- spirit-shower-source-study-v1.zip
+- sprite-alpha-review-tools.zip
+- tacz-animation-parser-check-tool-v1.zip
+- tacz-geometry-contract-tools.zip
+- tacz-hand-anchor-study.zip
+- tacz-minigun-lua-hook-check-tool-v1.zip
+- tacz-model-parser-check-tool-v1.zip
+- tacz-native-hand-axis-source-tools.zip
+- tacz-native-hand-contract-tools.zip
+- tacz-presentation-audit-tool-v2.zip
+- tacz-released-parser-check-tool-v1.zip
+- tacz-released-parser-check-tool-v2.zip
+- tacz-texture-study-tools.zip
+- tml-authoring-preflight-v1.zip
+- tml-authoring-preflight-v2.zip
+- tml-float32-export-v1.zip
+- tml-normal-fidelity-candidate-v1.zip
+- tml-released-baker-v1.zip
+- tml-released-baker-v2.zip
+- tml-released-baker-v3.zip
+- tutorial-navigation-check-tool-v1.zip
+- upgrade-kit-study-1.20.1.zip
+- vortex-blaster-study-tool-v1.zip
+- weapon-ammo-audit-tool-v1.zip
+- weapon-ammo-audit-tool-v2.zip
+- weapon-ammo-audit-tool-v3.zip
+- weapon-art-version-study.zip
+- weapon-behavior-map-tool-v1.zip
+- weapon-behavior-map-tool-v2.zip
+- weapon-behavior-map-tool-v3.zip
+- weapon-component-audit-tool-v1.zip
+- weapon-concept-gallery-tools-v1.zip
+- weapon-manifest-discovery-tools.zip
+- weapon-origin-data-index-tools.zip
+- weapon-presentation-core-v1.zip
+- weapon-presentation-core-v2.zip
+- weapon-presentation-core-v3.zip
+- weapon-presentation-core-v4.zip
+- weapon-projectile-provenance-tools.zip
+- weapon-rig-parenting-qa-v1.zip
+- weapon-scope-reconciliation-tools.zip
+- weapon-texture-owner-isolation-study.zip
+- abominator-concept-exploration-v1.png
+- abyssro-concept-v2.png
+- amplifier-concept-v2.png
+- apoco-lore-concept-v3.png
+- apoco-rifle-concept-v2.png
+- apoco-shower-concept-v1.png
+- aqua-cannon-concept-v1.png
+- balloon-bomber-concept-v1.png
+- baron-ssr-concept-v1.png
+- baronator-concept-exploration-v1.png
+- bayonette-sr-concept-v1.png
+- blast-barrel-concept-v2.png
+- blue-barrel-concept-v2.png
+- bolt-rifle-concept-v1.png
+- boulder-concept-v2.png
+- brown-blaster-concept-v1.png
+- bulb-cannon-concept-v2.png
+- carrot-cannon-concept-v1.png
+- clown-cannon-concept-v2.png
+- clown-cracker-concept-v1.png
+- clownimator-concept-v2.png
+- clowno-pulse-concept-v2.png
+- coral-cannon-concept-v1.png
+- crystaneer-concept-v1.png
+- dark-beast-concept-v3.png
+- deadlock-concept-v1.png
+- decimator-concept-v1.png
+- destruction-shotgun-concept-v2.png
+- discharge-shotgun-owner-target-v1.png
+- discharge-sniper-concept-v2.png
+- dual-sight-concept-v2.png
+- duster-concept-v1.png
+- energy-cannon-concept-v1.png
+- floro500-concept-v2.png
+- flower-cannon-concept-v2.png
+- fungal-cannon-concept-exploration-v1.png
+- ghast-blaster-concept-v2.png
+- ghoul-cannon-concept-v1.png
+- gimmick-concept-v1.png
+- ginger-blaster-concept-v1.png
+- gravity-blaster-concept-v1.png
+- head-hunter-concept-v1.png
+- hive-blaster-concept-exploration-v2.png
+- hive-cracker-concept-v2.png
+- iominator-concept-exploration-v2.png
+- ka500-concept-v1.png
+- long-shot-concept-v1.png
+- mark-maker-concept-v1.png
+- mecha-cannon-concept-v2.png
+- mechyro-concept-v2.png
+- mineral-concept-v1.png
+- minigun-concept-exploration-v2.png
+- monster-concept-v1.png
+- moon-cannon-concept-v1.png
+- moon-maker-concept-v1.png
+- predatorian-blaster-concept-v1.png
+- pulse-cannon-concept-v1.png
+- purity-shotgun-concept-v2.png
+- purple-punisher-concept-v1.png
+- red-rocket-concept-v1.png
+- rosid-rifle-concept-v1.png
+- sabbath-concept-v2.png
+- shoe-flinger-concept-exploration-v2.png
+- shyre-blaster-concept-v1.png
+- sludge-sniper-concept-v2.png
+- soul-drainer-concept-exploration-v1.png
+- soul-storm-anchored-flame-focus-concept-v1.png
+- spirit-shower-concept-v1.png
+- sweet-tooth-concept-v4.png
+- terminator-concept-v1.png
+- viper-1-concept-v1.png
+- vivo-concept-v1.png
+- vortex-blaster-concept-v2.png
+- water-balloon-bomber-concept-v1.png
+- shyre-authoring-study-v8.zip
+- shyre-authoring-export-source-v11.zip
+- ancient-bomber-concept-v1.png
+- amber-staff-concept-v1.png
+- amethyst-sword-concept-v1.png
+- aqua-magnum-concept-v1.png
+- aquatic-staff-concept-v1.png
+- artifact-concept-v1.png
+- atlantic-staff-concept-v1.png
+- atomizer-concept-v1.png
+- baron-greatblade-concept-v1.png
+- baron-staff-concept-v1.png
+- baron-sword-concept-v1.png
+- battle-vulcane-concept-v1.png
+- bayonette-rifle-concept-v1.png
+- beamer-concept-v1.png
+- big-blast-concept-v1.png
+- big-top-concept-v1.png
+- blast-cannon-concept-v1.png
+- blast-chiller-concept-v1.png
+- blissful-blast-concept-v1.png
+- blood-drainer-concept-v1.png
+- blood-iron-concept-v1.png
+- bloodfury-concept-v1.png
+- bloodlurker-concept-v1.png
+- bone-blaster-concept-v1.png
+- boom-boom-concept-v1.png
+- boom-cannon-concept-v1.png
+- boulder-bomber-concept-v1.png
+- bozo-blaster-concept-v1.png
+- bubble-horn-concept-v1.png
+- candlefire-sword-concept-v1.png
+- candy-blade-concept-v1.png
+- candy-staff-concept-v1.png
+- caramel-carver-concept-v1.png
+- celestial-staff-concept-v1.png
+- chain-wrecker-concept-v1.png
+- chakram-concept-v1.png
+- chilli-chugger-concept-v1.png
+- clownershot-concept-v1.png
+- colour-cannon-concept-v1.png
+- concept-v1.png
+- concept-v4.png
+- concussion-staff-concept-v1.png
+- confetti-cannon-concept-v1.png
+- confetti-cluster-concept-v1.png
+- construct-concept-v1.png
+- coral-archergun-concept-v1.png
+- coral-clogger-concept-v1.png
+- coral-crossbow-concept-v1.png
+- coral-greatblade-concept-v1.png
+- coral-staff-concept-v1.png
+- coralstone-canonical-concept-v1.png
+- coralstorm-sword-concept-v1.png
+- cotton-crusher-concept-v1.png
+- creepified-sword-concept-v1.png
+- creepoid-greatblade-concept-v1.png
+- crystal-carver-concept-v1.png
+- crystal-maul-concept-v1.png
+- crystal-staff-concept-v1.png
+- crystallite-sword-concept-v1.png
+- crystik-staff-concept-v1.png
+- cryston-staff-concept-v1.png
+- cyclone-concept-v1.png
+- darkener-concept-v1.png
+- darkly-guster-concept-v1.png
+- dart-gun-concept-v1.png
+- death-ray-concept-v1.png
+- deep-bow-concept-v1.png
+- destruction-staff-concept-v1.png
+- discharge-cannon-concept-v1.png
+- discharge-rifle-concept-v1.png
+- doom-bringer-concept-v1.png
+- draco-concept-v1.png
+- dragilator-concept-v1.png
+- dustometer-concept-v1.png
+- echo-gull-concept-v1.png
+- electinator-concept-v1.png
+- electron-maul-concept-v1.png
+- ember-staff-concept-v1.png
+- emberstone-sword-concept-v1.png
+- equality-vulcane-concept-v1.png
+- eradicator-concept-v1.png
+- erebon-scythe-concept-v1.png
+- erebon-stickler-concept-v1.png
+- everfight-staff-concept-v1.png
+- evermight-staff-concept-v1.png
+- experiment-w-801-concept-v1.png
+- explochron-sword-concept-v1.png
+- faunamancers-blade-concept-v1.png
+- fire-staff-concept-v1.png
+- fire-vulcane-concept-v1.png
+- firefly-staff-concept-v1.png
+- firestorm-staff-concept-v1.png
+- flame-wrecker-concept-v1.png
+- flaming-fury-concept-v1.png
+- floro-rifle-concept-v1.png
+- floro-rpg-concept-v1.png
+- flowercorne-concept-v1.png
+- flowers-fury-concept-v1.png
+- fragment-concept-v1.png
+- froster-concept-v1.png
+- frosticator-concept-v1.png
+- fungal-staff-concept-v1.png
+- gardener-concept-v1.png
+- gas-blaster-concept-v1.png
+- gauge-rifle-concept-v1.png
+- germinator-concept-v1.png
+- ghoul-gasser-concept-v1.png
+- ghoul-staff-concept-v1.png
+- giga-cannon-concept-v1.png
+- gods-greatblade-concept-v1.png
+- gold-bringer-concept-v1.png
+- golden-fury-concept-v1.png
+- golder-bomber-concept-v1.png
+- goo-ball-concept-v1.png
+- guardians-sword-concept-v1.png
+- happy-haunter-concept-v1.png
+- hardened-parapiranha-concept-v1.png
+- haunted-bow-concept-v1.png
+- haunted-greatblade-concept-v1.png
+- haunter-rifle-concept-v1.png
+- haunters-staff-concept-v1.png
+- heat-wave-concept-v1.png
+- hell-horn-concept-v1.png
+- hellfire-concept-v1.png
+- hive-howitzer-concept-v1.png
+- hive-staff-concept-v1.png
+- hiver-concept-v1.png
+- holy-sword-concept-v1.png
+- horizon-maul-concept-v1.png
+- hot-shot-concept-v1.png
+- hunters-rifle-concept-v1.png
+- illusion-revolver-concept-v1.png
+- illusion-sword-concept-v1.png
+- impairment-vulcane-concept-v1.png
+- ion-blaster-concept-v1.png
+- ion-revolver-concept-v1.png
+- iro-cannon-concept-v1.png
+- iro-miner-concept-v1.png
+- jack-funger-concept-v1.png
+- joker-staff-concept-v1.png
+- kaiyu-staff-concept-v1.png
+- knights-guard-concept-v1.png
+- krilinator-concept-v1.png
+- laser-blaster-concept-v1.png
+- lelyetian-greatblade-concept-v1.png
+- light-blaster-concept-v1.png
+- light-iron-concept-v1.png
+- light-spark-concept-v1.png
+- lightning-staff-concept-v1.png
+- lights-way-concept-v1.png
+- lightshine-concept-v1.png
+- limonite-sword-concept-v1.png
+- luna-blaster-concept-v1.png
+- lunar-archergun-concept-v1.png
+- lunar-bow-concept-v1.png
+- lunar-crossbow-concept-v1.png
+- lunar-greatblade-concept-v1.png
+- lunar-staff-concept-v1.png
+- luxon-scythe-concept-v1.png
+- luxon-stickler-concept-v1.png
+- lyonic-greatblade-concept-v1.png
+- lyonic-staff-concept-v1.png
+- mecha-blaster-concept-v1.png
+- mecha-bow-concept-v1.png
+- mecha-staff-concept-v1.png
+- megagun-concept-v1.png
+- meteor-staff-concept-v1.png
+- miasma-concept-v1.png
+- mind-blaster-concept-v1.png
+- mini-cannon-concept-v1.png
+- mint-magnum-concept-v1.png
+- mk-fung-concept-v1.png
+- moon-destroyer-concept-v1.png
+- moon-shiner-concept-v1.png
+- moonlight-staff-concept-v1.png
+- nature-staff-concept-v1.png
+- nethenette-rifle-concept-v1.png
+- nethengeic-slugger-concept-v1.png
+- nethengeic-sword-concept-v1.png
+- nightmare-bow-concept-v1.png
+- nightmare-staff-concept-v1.png
+- noxious-greatblade-concept-v1.png
+- noxious-staff-concept-v1.png
+- odious-concept-v1.png
+- orbocron-concept-v1.png
+- overshot-concept-v1.png
+- paralyzer-concept-v1.png
+- party-popper-concept-v1.png
+- phantom-staff-concept-v1.png
+- pluton-scythe-concept-v1.png
+- pluton-stickler-concept-v1.png
+- poison-plunger-concept-v1.png
+- poison-staff-concept-v1.png
+- poison-vulcane-concept-v1.png
+- power-ray-concept-v1.png
+- power-staff-concept-v1.png
+- power-vulcane-concept-v1.png
+- precasian-slugger-concept-v1.png
+- predator-concept-v1.png
+- predigun-concept-v1.png
+- primordial-bow-concept-v1.png
+- primordial-staff-concept-v1.png
+- pulsator-concept-v1.png
+- reef-staff-concept-v1.png
+- reefer-concept-v1.png
+- rejuvenation-staff-concept-v1.png
+- revolution-concept-v1.png
+- rockbasher-sword-concept-v1.png
+- rosidian-archergun-concept-v1.png
+- rosidian-bow-concept-v1.png
+- rosidian-crossbow-concept-v1.png
+- rosidian-greatblade-concept-v1.png
+- rosidian-staff-concept-v1.png
+- rosidian-sword-concept-v1.png
+- rosite-sword-concept-v1.png
+- runic-bomb-concept-v1.png
+- runic-bow-concept-v1.png
+- runic-staff-concept-v1.png
+- runic-sword-concept-v1.png
+- sapphire-sword-concept-v1.png
+- screamer-bow-concept-v1.png
+- seaocron-concept-v1.png
+- selyan-scythe-concept-v1.png
+- selyan-stickler-concept-v1.png
+- shadow-blaster-concept-v1.png
+- shadowlord-staff-concept-v1.png
+- show-staff-concept-v1.png
+- shroomic-greatblade-concept-v1.png
+- shroomus-sword-concept-v1.png
+- shyre-staff-concept-v1.png
+- shyre-sword-concept-v1.png
+- shyregem-bow-concept-v1.png
+- skeletal-archergun-concept-v1.png
+- skeletal-crossbow-concept-v1.png
+- skeletal-sword-concept-v1.png
+- skullette-concept-v1.png
+- skullifact-concept-v1.png
+- skullo-blaster-concept-v1.png
+- sky-staff-concept-v1.png
+- skydriver-bow-concept-v1.png
+- slice-star-concept-v1.png
+- smile-blaster-concept-v1.png
+- soul-spark-concept-v1.png
+- soulfire-bow-concept-v1.png
+- stormer-concept-v1.png
+- striker-staff-concept-v1.png
+- sun-staff-concept-v1.png
+- sunshine-bow-concept-v1.png
+- supremacy-sword-concept-v1.png
+- surge-staff-concept-v1.png
+- swarmotron-concept-v1.png
+- sweet-sword-concept-v1.png
+- tangle-staff-concept-v1.png
+- ultimatum-staff-concept-v1.png
+- ultraflame-concept-v1.png
+- underworld-greatblade-concept-v1.png
+- underworld-staff-concept-v1.png
+- vox-cannon-concept-v1.png
+- vulcammer-maul-concept-v1.png
+- vulcane-concept-v1.png
+- warlock-staff-concept-v1.png
+- wart-gun-concept-v1.png
+- water-staff-concept-v1.png
+- web-staff-concept-v1.png
+- whimsy-winder-concept-v1.png
+- wind-staff-concept-v1.png
+- wither-staff-concept-v1.png
+- wither-vulcane-concept-v1.png
+- withers-wrath-concept-v1.png
+- wizards-staff-concept-v1.png
