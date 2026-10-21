@@ -95,3 +95,8 @@ Latest scoped server continuation: [five whole native temples and complete guard
 ## Exact cage art and complete canonical portal cohort
 
 [Whole native server/client, six original cage textures and all 22 canonical portals](CAGE-ART-CANONICAL-PORTALS-2026-10-18.md). Natural acquisition and current Hari remain separate; current playable is unchanged.
+
+
+## Complete connected dungeon candidate
+
+[Ancient Cavern / Immortallis, full original-world census and retained startup failure](TWO-DUNGEON-COHORT-2026-10-20.md). The corrected candidate awaits whole native qualification; accepted playable v96v2 is unchanged.
