@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "canonicalProject": "Advent of Ascension",
+  "target": {
+    "minecraft": "1.20.1",
+    "loader": "Forge",
+    "loaderVersion": "47.4.23",
+    "java": 17
+  },
+  "processor": "aoa3:template_entity_data",
+  "sourceImport": "net.tslat.aoa3.content.world.gen.structure.processor.TemplateEntityDataProcessor",
+  "registration": "register(\"template_entity_data\", TemplateEntityDataProcessor.CODEC)",
+  "featureComposition": {
+    "owner": "StructureFeatureConfig.getPlacementSettings",
+    "appendAfterOriginalProcessors": true,
+    "requireSpawnEntities": true,
+    "exactTemplateIdentities": true,
+    "preserveAllOriginalRandomAndPlacementChoices": true
+  },
+  "jigsawComposition": {
+    "mode": "append inline processor after all original processors",
+    "pools": [
+      "data/aoa3/worldgen/template_pool/lunalus/zal_ship/front.json",
+      "data/aoa3/worldgen/template_pool/lunalus/zal_ship/main_pool.json",
+      "data/aoa3/worldgen/template_pool/nowhere/boss/arena/structure/city/starts.json"
+    ],
+    "preserveOriginalFieldsWeightsAndOrder": true
+  },
+  "originalTemplateNbtRewritten": false,
+  "existingChunksModified": false,
+  "originalSourceAssetsIncluded": false
+}
