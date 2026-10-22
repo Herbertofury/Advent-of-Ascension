@@ -372,3 +372,10 @@ These concepts preserve earlier artwork in history. All proposed motions, hand p
 ### Preserve mechanics beneath the new artwork
 
 [Release-specific source-contract notes for Gas Blaster, Germinator, Golder Bomber, Luxon Stickler and Bozo Blaster](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Recent-Concept-Source-Contracts.md) distinguish visual proposals from original healing, ammunition, projectile and firing-mode behavior. The notes include exact artifact hashes and explicit unverified limits. Do not turn drum appearance into a new ammo type or a decorative breath sight into a second attack.
+
+
+## Grounded archergun design language
+
+[Shared visual logic, material inspiration and proposed future lore](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Archergun-Design-Language.md) treats archerguns as assisted arrow platforms, with readable limbs, flexible string, supported arrows and clear hand zones. Real material and launch principles are separated from speculative compact technology; this is not a real weapon blueprint or a claim of universal superiority.
+
+Viral Archergun’s corrected direction is bat/dragon wing limbs, a bat–snake–dragon head with a projecting arrow guide, and a white braided string instead of the old rigid pale frame. Its newly requested render remains unfinished. Do not represent the older gallery image as satisfying these corrections. The owner explicitly preserves the current Spectral, Mecha, Rosidian and Coral Archergun designs. Viral alone is the current redesign target. Shared lore must not reshape or replace those four artworks, merge release identities or imply identical mechanics.

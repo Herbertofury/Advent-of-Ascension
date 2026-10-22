@@ -38,9 +38,11 @@ Manufacturer information documents high-strength fiber options and the dependenc
 
 [NAVAIR’s electromagnetic launch overview](https://www.navair.navy.mil/product/Electromagnetic-Aircraft-Launch-System-EMALS) is evidence that the broad launch principle exists, not evidence for the proposed handheld hybrid.
 
-## Reusable visual rules, not forced identical mechanics
+## Preserve the four current designs
 
-Rosidian may express the paired limbs as floral curves; Viral as wings; Coral as coral branches. Preserve each source identity and resource behavior. Every family member needs its own reference review, visible arrow seating, string continuity, hand-clearance review and native tests. A shared aesthetic does not prove shared release-specific mechanics.
+The owner explicitly keeps the current Spectral Archergun, Mecha Archergun, Rosidian Archergun and Coral Archergun designs. The shared explanation does not authorize reshaping, replacing or reinterpreting those four selected artworks. Viral alone is the current redesign target. Retain Rosidian’s rose treatment and Coral’s selected interaction design.
+
+Shared lore may explain their broad family relationship without forcing identical visible mechanisms or claiming identical release-specific behavior. Any later design changes to these four require a new owner request. Design preservation does not mark them as native-tested or technically validated.
 
 ## Required next art
 
