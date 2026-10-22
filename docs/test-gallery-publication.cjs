@@ -1,7 +1,7 @@
 'use strict';
 const fsPub=require('node:fs');const pathPub=require('node:path');const assertPub=require('node:assert/strict');
 const rootPub=__dirname;const catalogPub=JSON.parse(fsPub.readFileSync(pathPub.join(rootPub,'weapon-concept-catalog.json'),'utf8'));
-const requiredPub=new Set(['weapon-concepts.html','weapon-concept-gallery.js','weapon-concept-catalog.json','weapon-concept-publication.json']);
+const requiredPub=new Set(['weapon-concepts.html','weapon-concept-gallery.js','weapon-concept-catalog.json','weapon-concept-publication.json','weapon-dimension-associations.json']);
 for(const w of catalogPub.weapons){if(w.thumbnail)requiredPub.add(w.thumbnail);if(w.original&&w.original.sheet)requiredPub.add(w.original.sheet);}
 let inExcludePub=false;const excludesPub=[];
 for(const line of fsPub.readFileSync(pathPub.join(rootPub,'_config.yml'),'utf8').split(/\r?\n/)){
