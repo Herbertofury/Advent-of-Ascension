@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "revision": "20261022-wart-and-pepper-art-1104-customization",
+  "revision": "20261022-light-crystal-motion-proof-1116-customization",
   "scope": "All 434 audited raw release-union IDs; 411 first-target identities. Registry identities are not deduplicated by shared art.",
   "base_catalog": "weapon-concept-catalog.json",
-  "base_catalog_sha256": "49a6cbc1801ab057cbbd805d5513f99163ea11f3230dc099ad2d5970839719df",
+  "base_catalog_sha256": "c2fda97e5b8ce4a3fd97ec82283e48afebd3214e62924955539fb79f9d71f600",
   "feature_catalog": "weapon-feature-catalog.json",
   "required_features": [
     "baseline_identity",
@@ -19849,7 +19849,8 @@
         "sights_scopes": {
           "status": "partial_candidate",
           "files": [
-            "light-blaster-crystal-sight-study-v2.png"
+            "light-blaster-crystal-sight-study-v2.png",
+            "light-blaster-crystal-geometry-focus-v1.png"
           ],
           "owner_approved_omission": null
         },
@@ -19904,8 +19905,10 @@
           "owner_approved_omission": null
         },
         "motion_inspect_reload": {
-          "status": "requires_reconciliation",
-          "files": [],
+          "status": "partial_candidate",
+          "files": [
+            "light-blaster-crystal-geometry-focus-v1.png"
+          ],
           "owner_approved_omission": null
         },
         "builds_crafting_ui": {
