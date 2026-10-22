@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "revision": "20261022-customization-coverage-0444",
+  "revision": "20261022-customization-coverage-0452",
   "scope": "All 434 audited raw release-union IDs; 411 first-target identities. Registry identities are not deduplicated by shared art.",
   "base_catalog": "weapon-concept-catalog.json",
-  "base_catalog_sha256": "07b4d2231ae77bfce0188cbba4c5cc6351df89bc541b8f767cc4cdeec7aaf4fc",
+  "base_catalog_sha256": "d7058597d1e32a9fbf4f75e6ef22752c861fe7b6a9957db65e7a4a5820e3d271",
   "feature_catalog": "weapon-feature-catalog.json",
   "required_features": [
     "baseline_identity",
@@ -4821,8 +4821,11 @@
           "owner_approved_omission": null
         },
         "projectiles_tracers": {
-          "status": "requires_reconciliation",
-          "files": [],
+          "status": "partial_candidate",
+          "files": [
+            "bubble-horn-trumpet-playing-study-v1.png",
+            "bubble-horn-musical-projectiles-study-v1.png"
+          ],
           "owner_approved_omission": null
         },
         "muzzle_charge_feedback": {
@@ -4831,8 +4834,10 @@
           "owner_approved_omission": null
         },
         "impacts_world_decals": {
-          "status": "requires_reconciliation",
-          "files": [],
+          "status": "partial_candidate",
+          "files": [
+            "bubble-horn-musical-projectiles-study-v1.png"
+          ],
           "owner_approved_omission": null
         },
         "death_finishers": {
@@ -4841,13 +4846,17 @@
           "owner_approved_omission": null
         },
         "motion_inspect_reload": {
-          "status": "requires_reconciliation",
-          "files": [],
+          "status": "partial_candidate",
+          "files": [
+            "bubble-horn-trumpet-playing-study-v1.png"
+          ],
           "owner_approved_omission": null
         },
         "builds_crafting_ui": {
-          "status": "requires_reconciliation",
-          "files": [],
+          "status": "partial_candidate",
+          "files": [
+            "bubble-horn-trumpet-playing-study-v1.png"
+          ],
           "owner_approved_omission": null
         },
         "audio_accessibility": {
