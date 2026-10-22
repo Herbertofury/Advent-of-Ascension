@@ -326,7 +326,7 @@ Their intended presentation includes a supported crawl during inspection, a move
 - [Ghoul Gasser](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Aghoul_gasser): sculpted graphite/violet body, two upper vapor reservoirs and three forward purple lights; optional gas-formed sight must keep the reservoirs in their fore-and-aft arrangement and the aiming center clear.
 - [Gold Bringer](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Agold_bringer): reflective metallic gold and controlled glints, plus a proposed optional coin-formed sight. The coin-sight image remains unfinished; no new currency reward is implied.
 - [Golden Fury](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Agolden_fury): a readable sculpted dragon head, barrel through the mouth, golden fire and a proposed optional golden-flame sight.
-- [Golder Bomber](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Agolder_bomber): requested living-dinosaur treatment and dorsal-spike sight remain unfinished. The older artwork is retained, not represented as the completed new request.
+- [Golder Bomber](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Agolder_bomber): new living-dinosaur concept retains the compact layered silhouette, gold glints and rear dorsal spikes that articulate into a sight crown on focus. The older concept is preserved in history; the new sheet is static art, not a tested animation.
 
 All gold-family materials should read as reflective gold rather than flat yellow. White sparkles in the source references are glints, not added physical poles or crosses. Static artwork does not establish animated glints, native effects, accurate hand placement or sight alignment.
 
@@ -357,3 +357,13 @@ This uses a neutral mount, not the full Light Blaster. Eight is a prototype coun
 ### Clown flags: three inline paired apertures
 
 [Editable paired-flag geometry study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/clown-split-flag-geometry-study.zip) preserves three poles along the barrel direction and two flag halves per pole. The focused apertures align on one viewing axis, with pole tips below the openings. This is a neutral reference rail and a simple authored morph, not finished cloth physics or integrated weapon animation. The earlier focused appearance does not validate the superseded side transition.
+
+## New floral, salamander, drum and horn concepts
+
+- [Germinator](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Agerminator): living green dragon salamander, emerald/silver/black chassis and dragon-eye side feature. A separate idle/inspect/focus/aim storyboard shows magical poison breath forming a thin open sight aperture, without opaque vapor obscuring the center. This is visual direction, not a new source-behavior claim.
+- [Rosidian Archergun](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Arosidian_archergun): green/gold floral treatment, distinct forward crescent brace, visible arrow guide and rear trigger grip. The optional rear rose sight blooms around an open aperture on focus; the front brace is not the sight. This remains a historical 1.12.2 identity, not an assumed 1.20.1 registration.
+- [Gas Blaster](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Agas_blaster): corrected drum magazine hangs beneath the forward body in place of the earlier front grip, NOT on the muzzle. The separate gas canister stays near the stock. The mistaken muzzle-drum draft was not selected for the public gallery.
+- [Luxon Stickler](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Aluxon_stickler): distinct cylindrical drum magazine, cyan/silver body and dorsal cyan segments.
+- [Bozo Blaster](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Abozo_blaster): the blue squeezable clown-horn bulb is the front support-hand grip, separate from the rear trigger grip. Brass bell and blue/gold circus identity remain recognizable.
+
+These concepts preserve earlier artwork in history. All proposed motions, hand placements, resource behavior and attachment clearances still require implementation and tests with AoA and TaCZ together. The Monster profile also includes a separate jaw/eye expression storyboard; it is not proof of an in-game animation.
