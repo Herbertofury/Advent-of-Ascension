@@ -367,3 +367,8 @@ This uses a neutral mount, not the full Light Blaster. Eight is a prototype coun
 - [Bozo Blaster](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Abozo_blaster): the blue squeezable clown-horn bulb is the front support-hand grip, separate from the rear trigger grip. Brass bell and blue/gold circus identity remain recognizable.
 
 These concepts preserve earlier artwork in history. All proposed motions, hand placements, resource behavior and attachment clearances still require implementation and tests with AoA and TaCZ together. The Monster profile also includes a separate jaw/eye expression storyboard; it is not proof of an in-game animation.
+
+
+### Preserve mechanics beneath the new artwork
+
+[Release-specific source-contract notes for Gas Blaster, Germinator, Golder Bomber, Luxon Stickler and Bozo Blaster](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Recent-Concept-Source-Contracts.md) distinguish visual proposals from original healing, ammunition, projectile and firing-mode behavior. The notes include exact artifact hashes and explicit unverified limits. Do not turn drum appearance into a new ammo type or a decorative breath sight into a second attack.
