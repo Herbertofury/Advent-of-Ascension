@@ -1,0 +1,47 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "id": "aoa3:predigun",
+  "scope": "Own factual artifact inspection report, not original class/source redistribution or native acceptance",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "entries": {
+    "net/tslat/aoa3/content/item/weapon/gun/Predigun.class": "7ec30a81fb4bc7f5a2e2c5f93b7bba89b54062155d46d57f0b8581533b4f5d04",
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net/tslat/aoa3/content/entity/projectile/gun/BoneBulletEntity.class": "7cf89f025e4e4922da798748ffe801883c9a63a29baaabf3f47cd7520b82829e",
+    "net/tslat/aoa3/content/entity/projectile/gun/BaseBullet.class": "d334472ac8d148ee94630d76b88488f7b9bb76df6dbe83866676a060537ffb57",
+    "data/aoa3/recipes/upgrade_kit_predigun.json": "c33bac96ff871a14fd958aa33e1cc37b3848a246998292f0be219d938f144cda"
+  },
+  "observations": {
+    "superclass": "BaseGun",
+    "projectile_class": "BoneBulletEntity",
+    "ammo_method_owner": "BaseGun",
+    "ammo_registry_field": "AoAItems.LIMONITE_BULLET",
+    "automatic_method_owner": "BaseGun",
+    "fully_automatic": true,
+    "stored_constructor_inputs": {
+      "base_damage": 1.0,
+      "durability": 6120,
+      "delay_ticks": 1,
+      "recoil_input": 1.0
+    },
+    "inherited_recoil_modifier_getter": 0.35,
+    "firing_sound_field": "ITEM_GUN_MINIGUN_AUTOMATIC_FIRE",
+    "firing_sound_pitch_adjust": 1.1,
+    "release_sound_field": "ITEM_GUN_MINIGUN_WINDDOWN",
+    "projectile_constructor_fields": {
+      "lifespan": 120,
+      "pierceCount": 0
+    },
+    "upgrade": {
+      "input": "aoa3:minigun",
+      "kit": "aoa3:predator_upgrade_kit",
+      "result": "aoa3:predigun"
+    }
+  },
+  "limits": [
+    "Inventory ammo item is not inferred from projectile class or concept belt.",
+    "Final damage, effective cadence, actual recoil, resource exceptions and projectile rendering require native checks.",
+    "Visual belt, sight and hand clearance are not validated by this inspection.",
+    "Barathos kit-table association does not prove active availability."
+  ],
+  "native_accepted": false
+}
