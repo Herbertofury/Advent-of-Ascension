@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "revision": "20261022-new-concepts-0137",
+  "revision": "20261022-new-concepts-0150",
   "inventory_count": 434,
   "first_target_count": 411,
   "native_accepted": 0,
-  "concept_count": 363,
+  "concept_count": 371,
   "status_counts": {
     "EXISTING_CANDIDATE_INDEXED_ART_REVIEW_OPEN": 79,
-    "CONCEPT_CANDIDATE_CREATED": 278,
-    "BLOCKED_IMAGE_GENERATION": 64,
+    "CONCEPT_CANDIDATE_CREATED": 285,
+    "BLOCKED_IMAGE_GENERATION": 57,
+    "REJECTED_CONCEPT_REDESIGN_PENDING": 1,
     "SHARED_VISUAL_CONCEPT_CANDIDATE": 6,
-    "REJECTED_EXISTING_CONCEPT_CORRECTION_BLOCKED": 1,
     "DEFERRED_RELATED_IMAGE_SERVICE_BLOCK": 6
   },
   "scope": "434 raw release-union identities, not 434 distinct accepted designs. Generated concept candidates remain unaccepted. Released reference previews stay in the existing atlas; no standalone source extracts are uploaded.",
@@ -1589,7 +1589,7 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Dark green camouflage, short grey front barrel and blue-ended raised optic preserve the compact source identity. Lower support and grip proportions still require native hand-fit review.",
+      "brief": "New sculpted sci-fi surfaces replace the rejected voxel-like first study. Dark olive camouflage, blue-ended optic and silver front barrel retain source identity. Exact silhouette and native hand fit remain open.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -1603,8 +1603,14 @@
         "width": 1320,
         "height": 2220
       },
-      "concept": "camo-rifle-concept-v1.png",
-      "thumbnail": "concept-thumb-camo_rifle-0119.webp"
+      "concept": "camo-rifle-scifi-concept-v2.png",
+      "thumbnail": "concept-thumb-camo_rifle-0150.webp",
+      "previous_concepts": [
+        {
+          "file": "camo-rifle-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:candlefire_sword",
@@ -2446,8 +2452,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Monochrome slender rifle with checker-pattern front, compact body and separate squared rear plate. Exact lower-grip shape and front proportions remain under review.",
+      "status": "REJECTED_CONCEPT_REDESIGN_PENDING",
+      "brief": "Owner rejected the block-like first concept. A new sculpted sci-fi revision is still pending; this sheet is retained for review, not as the design target.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -2462,7 +2468,8 @@
         "height": 2220
       },
       "concept": "core-rifle-concept-v1.png",
-      "thumbnail": "concept-thumb-core_rifle-0137.webp"
+      "thumbnail": "concept-thumb-core_rifle-0137.webp",
+      "review_note": "Rejected earlier candidate, retained for transparency. Replacement is pending. Not approved art or native implementation."
     },
     {
       "id": "aoa3:cotton_crusher",
@@ -2905,7 +2912,7 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Compact charcoal shroud, pale rectangular accents and rounded rear assembly retain the original heavy silhouette. Exact front opening and holding contacts remain under review.",
+      "brief": "New swept graphite and obsidian-ceramic surfaces replace the rejected block-like first study. Rounded rear housing and pale accent grouping retain identity. Native holding and final art acceptance remain open.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -2919,8 +2926,14 @@
         "width": 1320,
         "height": 2220
       },
-      "concept": "dark-destroyer-concept-v1.png",
-      "thumbnail": "concept-thumb-dark_destroyer-0137.webp"
+      "concept": "dark-destroyer-scifi-concept-v2.png",
+      "thumbnail": "concept-thumb-dark_destroyer-0150.webp",
+      "previous_concepts": [
+        {
+          "file": "dark-destroyer-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:darkener",
@@ -3171,8 +3184,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "REJECTED_EXISTING_CONCEPT_CORRECTION_BLOCKED",
-      "brief": "Only existing draft is explicitly unaccepted; earlier corrective image attempt blocked. Retain draft without treating it as a usable target.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Compact silver-charcoal barrel and warm brown lower fore-end/rear grip restore the original silhouette. Earlier rejected local draft is not a modeling target. Native hold and source proportions remain open.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -3185,7 +3198,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "demolisher-source-faithful-concept-v3.png",
+      "thumbnail": "concept-thumb-demolisher-0150.webp"
     },
     {
       "id": "aoa3:destruction_rifle",
@@ -3198,8 +3213,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Compact silver/black body retains the vivid red open lower loop and rear accents. Fine proportions and grip clearance remain subject to review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -3212,7 +3227,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "destruction-rifle-concept-v1.png",
+      "thumbnail": "concept-thumb-destruction_rifle-0150.webp"
     },
     {
       "id": "aoa3:destruction_shotgun",
@@ -4001,8 +4018,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Black limb with separated amber and gold accents preserves the source palette. No explosion behavior is inferred from this visual sheet.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -4015,7 +4032,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "explosive-bow-concept-v1.png",
+      "thumbnail": "concept-thumb-explosive_bow-0150.webp"
     },
     {
       "id": "aoa3:faunamancers_blade",
@@ -4085,8 +4104,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Narrow orange-gold blade and dark warm guard preserve the source identity. Glow and sparks are visual proposals; guard and pommel proportions need review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -4099,7 +4118,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "fireborne-sword-concept-v1.png",
+      "thumbnail": "concept-thumb-fireborne_sword-0150.webp"
     },
     {
       "id": "aoa3:firefly_staff",
@@ -5017,8 +5038,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Twisting red/green blade bands and yellow lower fixture preserve the distinctive source design. Grip interpretation and exact twist spacing remain open.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -5031,7 +5052,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "goofy-greatblade-concept-v1.png",
+      "thumbnail": "concept-thumb-goofy_greatblade-0150.webp"
     },
     {
       "id": "aoa3:gravity_blaster",
@@ -5073,8 +5096,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Simple dark-grey oval with pale central face and horizontal red band retains the original inventory identity. Exterior visual concept only; no technical mechanism or gameplay change.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -5087,7 +5110,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "grenade-concept-v1.png",
+      "thumbnail": "concept-thumb-grenade-0150.webp"
     },
     {
       "id": "aoa3:guardians_sword",
@@ -5186,8 +5211,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Dark narrow blade, grey segmentation and pale guard tips preserve the restrained source identity. Guard size and grip proportions remain under review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -5200,7 +5225,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "harvester-sword-concept-v1.png",
+      "thumbnail": "concept-thumb-harvester_sword-0150.webp"
     },
     {
       "id": "aoa3:haunted_bow",
@@ -5718,8 +5745,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Thin dark limb, spaced cyan-white ice clusters and pale string preserve the original arrangement. Exact cluster counts and exaggerated facet scale need review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -5732,7 +5759,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "ice-bow-concept-v1.png",
+      "thumbnail": "concept-thumb-ice_bow-0150.webp"
     },
     {
       "id": "aoa3:illusion_revolver",
