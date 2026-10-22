@@ -37,7 +37,7 @@ Abominator now has its corrected visible magazine, plus separate magazine, sight
 
 Darkly Guster has corrected rear-swept bat wings, an explicit wing-to-sight study, playful flight-inspect choreography, proposed follower modes and per-shot propeller-gust effects. These are proposed game features, not existing source mechanics or implemented multiplayer behavior.
 
-Bubble Horn has a new brass/cyan hero concept and a separate optional musical-bubble sight: form on focus, hold a readable center, pop on focus loss. Its previous design is retained as an alternate.
+Bubble Horn has a new brass/cyan hero concept and a separate optional musical-bubble sight: form on focus, hold a readable center, pop on focus loss. Its previous design is retained as an alternate. The separately earned mouthpiece is a functional upgrade: actual trumpet-playing, much higher damage, more bubbles per shot and faster projectile motion, while original mode and the Spirit resource family remain distinct. Exact values and unlock route are not final.
 
 Hiver and Hive Cracker have bee charge/action and optional bee/honey sight studies. Eradicator has a separate green-ooze spike sight study. None of these isolated studies completes the whole weapon package.
 

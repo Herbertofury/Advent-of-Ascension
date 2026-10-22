@@ -1,0 +1,21 @@
+{
+  "release": "AoA3 3.7.1 for Minecraft 1.20.1",
+  "artifact": "AoA3-1.20.1-3.7.1-all.jar",
+  "artifact_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "method": "Read-only inspection of released class bytecode; no native gameplay test",
+  "class_sha256": {
+    "net/tslat/aoa3/content/item/weapon/blaster/BubbleHorn.class": "b70737c6d84484ae4672da970350100d39056f7e6625f4d0ac3b9a69e643b525",
+    "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster.class": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+    "net/tslat/aoa3/content/entity/projectile/blaster/BubbleShotEntity.class": "7260b5c5e2a741177c8e4485349d53c923b9c46c6a3436f12bd78a225e339762"
+  },
+  "verified_findings": [
+    "BaseBlaster firing wrapper calls the three-argument fireBlaster hook. BubbleHorn overrides that hook and creates BubbleShotEntity.",
+    "BaseBlaster.consumeEnergy uses AoAResources.SPIRIT. This is not a conventional bullet-magazine baseline.",
+    "BubbleHorn.getFiringSound returns ITEM_BUBBLE_GUN_FIRE.",
+    "BubbleHorn exposes the SLOWS_TARGETS tooltip and an entity-impact potion hook. Exact effect mapping and native behavior still require the release-specific test.",
+    "BubbleShotEntity has a BUBBLE_SHOT_POP sound reference and an age-100 removal branch. These observations do not prove the new proposed effects have been implemented."
+  ],
+  "design_consequence": "Preserve released Spirit resource family and original mode. Owner explicitly requested an earned functional mouthpiece with much higher damage, projectile count and speed on 2026-10-22T05:09Z. Do not confuse the original bubble projectile with newly proposed musical presentation or infer final multipliers.",
+  "native_acceptance": false,
+  "owner_direction_message": "Sentinel_f49c7900bba0819194c4925872a03452"
+}
