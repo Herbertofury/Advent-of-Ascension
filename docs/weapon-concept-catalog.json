@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
-  "revision": "20261021-historical-experiment-2104",
+  "revision": "20261022-new-concepts-0119",
   "inventory_count": 434,
   "first_target_count": 411,
   "native_accepted": 0,
-  "concept_count": 352,
+  "concept_count": 358,
   "status_counts": {
     "EXISTING_CANDIDATE_INDEXED_ART_REVIEW_OPEN": 79,
-    "BLOCKED_IMAGE_GENERATION": 75,
-    "CONCEPT_CANDIDATE_CREATED": 267,
+    "CONCEPT_CANDIDATE_CREATED": 273,
+    "BLOCKED_IMAGE_GENERATION": 69,
     "SHARED_VISUAL_CONCEPT_CANDIDATE": 6,
     "REJECTED_EXISTING_CONCEPT_CORRECTION_BLOCKED": 1,
     "DEFERRED_RELATED_IMAGE_SERVICE_BLOCK": 6
@@ -84,8 +84,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Teal curved limb and lime-green segmented accents follow the source. Sculpted leafy contours and exact limb thickness remain subject to fidelity review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -98,7 +98,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "alacrity-bow-concept-v1.png",
+      "thumbnail": "concept-thumb-alacrity_bow-0119.webp"
     },
     {
       "id": "aoa3:amber_staff",
@@ -224,8 +226,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Dark violet limb, orange branching clusters and bright yellow insets retain the source palette and asymmetric outline. Exact fork counts and grip space remain under review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -238,7 +240,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "ancient-bow-concept-v1.png",
+      "thumbnail": "concept-thumb-ancient_bow-0119.webp"
     },
     {
       "id": "aoa3:ancient_discharger",
@@ -483,8 +487,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Deep-blue spine and turquoise spiral preserve the distinctive source identity. Waterlike materials and decorative droplets are visual proposals, not new gameplay effects.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -497,7 +501,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "atlantic-bow-concept-v1.png",
+      "thumbnail": "concept-thumb-atlantic_bow-0119.webp"
     },
     {
       "id": "aoa3:atlantic_staff",
@@ -597,8 +603,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "White and pink edging surrounds a red asymmetric bow core. Sculpted edge shapes, grip and exact source proportions remain under review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -611,7 +617,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "baron-bow-concept-v1.png",
+      "thumbnail": "concept-thumb-baron_bow-0119.webp"
     },
     {
       "id": "aoa3:baron_greatblade",
@@ -863,11 +871,11 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Restrained monochrome silhouette and large rear loop preserved across views without inventing a glowing core. Premium metal wear is finer than ideal gameplay texture and must be reduced in later material authoring. No native hand fit or combat behavior is claimed.",
+      "brief": "New silver/graphite sci-fi treatment preserves the compact thick barrel, flared front rim and large empty rear loop. Previous concept preserved; exact proportions and native holding remain open.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "big-blast-concept-v1.png",
-      "thumbnail": "concept-thumb-big_blast.webp",
+      "concept": "big-blast-scifi-concept-v2.png",
+      "thumbnail": "concept-thumb-big_blast-0119.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-02.webp",
@@ -878,7 +886,13 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "big-blast-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:big_top",
@@ -1170,8 +1184,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Crimson mineral blade, dark base segmentation and red guard tips retain the original palette. Guard and pommel size need final fidelity and hand-fit review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -1184,7 +1198,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "bloodstone-sword-concept-v1.png",
+      "thumbnail": "concept-thumb-bloodstone_sword-0119.webp"
     },
     {
       "id": "aoa3:blue_barrel",
@@ -1570,8 +1586,8 @@
         "1.20.1",
         "1.21.1"
       ],
-      "status": "BLOCKED_IMAGE_GENERATION",
-      "brief": "Individual concept review remains open.",
+      "status": "CONCEPT_CANDIDATE_CREATED",
+      "brief": "Dark green camouflage, short grey front barrel and blue-ended raised optic preserve the compact source identity. Lower support and grip proportions still require native hand-fit review.",
       "native_accepted": false,
       "art_accepted": false,
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
@@ -1584,7 +1600,9 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "concept": "camo-rifle-concept-v1.png",
+      "thumbnail": "concept-thumb-camo_rifle-0119.webp"
     },
     {
       "id": "aoa3:candlefire_sword",
@@ -1773,11 +1791,11 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Bronze/dark linked exterior language preserved without dangling-chain invention. Front opening count and exact source proportions must be reconciled before treating this as a final modeling target; no original firing behavior is inferred from the sheet.",
+      "brief": "New bronze/graphite candidate shows mounted scope, separate front sight, central drum and deployed/folded support. These are concept attachment states, not implemented features. Earlier concept preserved; native clearance and source proportions remain open.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "chain-wrecker-concept-v1.png",
-      "thumbnail": "concept-thumb-chain_wrecker.webp",
+      "concept": "chain-wrecker-scifi-concept-v2.png",
+      "thumbnail": "concept-thumb-chain_wrecker-0119.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-04.webp",
@@ -1788,7 +1806,13 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "chain-wrecker-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:chakram",
@@ -2184,11 +2208,11 @@
         "1.12.2"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Historical archergun candidate preserves turquoise and magenta color blocking and the open forward crescent rather than substituting the later crossbow. Still unapproved: oversized crescent and butt, invented dark crevices and rough mineral treatment, unresolved holding/contact areas, and no separate world-fit panel. Reverse geometry consistency remains unproven.",
+      "brief": "Historical archergun retains turquoise body, open magenta forward crescent, separated upper coral buds and rear fork. Smooth coral and marine ceramic replace rough rock interpretation. Exact proportions and hand fit remain open; not the later crossbow. Requested arrow-loading channel, trigger and aligned coral-sight revision remains pending.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "coral-archergun-concept-v1.png",
-      "thumbnail": "concept-thumb-coral_archergun.webp",
+      "concept": "coral-archergun-concept-v2.png",
+      "thumbnail": "concept-thumb-coral_archergun-0119.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.12.2-item-sheet-05.webp",
@@ -2199,7 +2223,13 @@
         "label": "Historical 1.12.2 source-model portrait; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "coral-archergun-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:coral_cannon",
@@ -2799,11 +2829,11 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Pale framing and central crimson accent retained in a compact source-led form. Red luminous material is visual proposal only; side and main views need exact receiver/hand-clearance reconciliation before implementation. No wind mechanic inferred.",
+      "brief": "New compact red/silver sci-fi treatment retains the open forward arch, crimson central lobes, short muzzle and hollow rear stock. Earlier concept preserved. No wind mechanic or native implementation is inferred.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "cyclone-concept-v1.png",
-      "thumbnail": "concept-thumb-cyclone.webp",
+      "concept": "cyclone-scifi-concept-v2.png",
+      "thumbnail": "concept-thumb-cyclone-0119.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-06.webp",
@@ -2814,7 +2844,13 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "cyclone-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:dark_beast",
@@ -3575,11 +3611,11 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Yellow/charcoal/pale-metal source palette and low segmented silhouette retained. Main and side broadly align; exact rear loop and accent spacing need later source and hand-fit checks. No electricity effect or resource behavior inferred.",
+      "brief": "New yellow/graphite sci-fi candidate shows fine cyan-white electricity between upper visual nodes. Electrical VFX are a design proposal; exact source proportions and native effects remain open.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "electinator-concept-v1.png",
-      "thumbnail": "concept-thumb-electinator.webp",
+      "concept": "electinator-electric-concept-v2.png",
+      "thumbnail": "concept-thumb-electinator-0119.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-08.webp",
@@ -3590,7 +3626,13 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "electinator-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:electron_maul",
@@ -4148,11 +4190,11 @@
         "1.21.1"
       ],
       "status": "CONCEPT_CANDIDATE_CREATED",
-      "brief": "Actual violet/charcoal source palette retained despite the name. Main and side show coherent raised mineral-like forms; exact lower protrusion and grip clearance remain later gates. No fire behavior inferred.",
+      "brief": "New charcoal dragon-head design uses purple flames and a proposed optional dragon-eye flame aperture sight. Idle and aimed panels are concept states, not implemented optics or flame animation. Previous concept preserved; source proportions and native sight alignment remain open.",
       "native_accepted": false,
       "art_accepted": false,
-      "concept": "flaming-fury-concept-v1.png",
-      "thumbnail": "concept-thumb-flaming_fury.webp",
+      "concept": "flaming-fury-dragon-concept-v2.png",
+      "thumbnail": "concept-thumb-flaming_fury-0119.webp",
       "profile": "https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Overhaul",
       "original": {
         "sheet": "previews/1.20.1-item-sheet-09.webp",
@@ -4163,7 +4205,13 @@
         "label": "Released 1.20.1 source-model preview; not a native screenshot",
         "width": 1320,
         "height": 2220
-      }
+      },
+      "previous_concepts": [
+        {
+          "file": "flaming-fury-concept-v1.png",
+          "label": "Old concept; preserved before the new sci-fi/source-faithful revision"
+        }
+      ]
     },
     {
       "id": "aoa3:floro_rifle",
