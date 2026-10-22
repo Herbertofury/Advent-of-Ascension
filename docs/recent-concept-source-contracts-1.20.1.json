@@ -1,0 +1,58 @@
+{
+  "release": "AoA 3.7.1 / Minecraft 1.20.1",
+  "scope": "Own factual source inspection notes; no redistributed classfiles or decompiled source. Not native acceptance.",
+  "jar_sha256": "f417ecb337d4a3b2aebec559a9262d8a86cc93ee7910f4eea64108bff063193a",
+  "entry_sha256": {
+    "net/tslat/aoa3/content/item/weapon/gun/Germinator.class": "0f02b16215b1727829c6fcc7ff674a111ff417a3ac1fe40c9fe208aac01713ca",
+    "net/tslat/aoa3/content/item/weapon/blaster/GasBlaster.class": "780346eb4903da8ecf4a9fdeb11f1c6e0c8849d59fbfdb550bd356e057327581",
+    "net/tslat/aoa3/content/item/weapon/cannon/BozoBlaster.class": "1de19a1934a0c618c189cd5f0833d9b93865716ae94e3c90e2e95128ce2f0fdc",
+    "net/tslat/aoa3/content/item/weapon/cannon/GolderBomber.class": "4dd223ca722c8e7fd82151c808ef01b8de2bf75ec4e845ec13e1571a04dd50d5",
+    "net/tslat/aoa3/content/item/weapon/cannon/LuxonStickler.class": "46e754cb383cdbfafa2e134b5c08ff5276ef7ee114e8e7b8f28a2de17e6e5369",
+    "net/tslat/aoa3/content/item/weapon/cannon/BaseCannon.class": "f00a399ce0a1b2a25dc1bfe19e99dd3595b5daa52e5b6c7e085988d8ee36446e",
+    "net/tslat/aoa3/content/item/weapon/blaster/BaseBlaster.class": "7d8497f1c9ad711543e16ac1158d625bd2996bb8508e52fd1600a8b8d14c801c",
+    "net/tslat/aoa3/content/item/weapon/gun/BaseGun.class": "9c3f2444223a746df989486a87c78755417f4c5d3bafdd96fd9ac490ea70624d",
+    "net/tslat/aoa3/util/EntityUtil.class": "cbe2070c465d5554d6d2e554f5fd76d3c39602b6921a61b38e29f6be4d930c91",
+    "assets/aoa3/lang/en_us.json": "e5075ef2140617297ceb2a76bda28cd4b02d56c1c995c1b51837cea65f340d1e"
+  },
+  "observations": {
+    "aoa3:gas_blaster": {
+      "base": "BaseBlaster",
+      "projectile": "ToxicShotEntity",
+      "special_impact_branch": "Player OR tame animal owned by shooter receives EntityUtil.healEntity(target, 0.05f); branch returns true instead of inherited impact. No team check appears in this method.",
+      "healing_limit": "Absolute float passed through to heal, not a percentage. Overall net rate and cancellation remain untested.",
+      "visual_contract": "Underbody drum and rear canister do not authorize converting spirit resource to conventional ammunition."
+    },
+    "aoa3:germinator": {
+      "base": "BaseGun",
+      "projectile": "GreenBulletEntity",
+      "ammo_getter": "Inherited BaseGun Limonite Bullet",
+      "automatic": "Inherited true",
+      "impact": "Living-target effect builder uses the poison field, constructor integer50 and level(2). Do not interpret units or effective duration without EffectsLib path review.",
+      "visual_contract": "Salamander breath sight is cosmetic proposal, not a second damage stream."
+    },
+    "aoa3:golder_bomber": {
+      "base": "BaseCannon",
+      "ammo_getter": "Inherited Cannonball",
+      "automatic": "Inherited false",
+      "projectile": "GoldenCannonballEntity",
+      "extra_projectile": "After inherited fire succeeds, server-side branch creates an additional GoldenCannonballEntity with positional constructor float0.325. Native projectile count, collision and resource capture remain required."
+    },
+    "aoa3:luxon_stickler": {
+      "base": "BaseCannon",
+      "ammo_getter": "Explicit AoAWeapons.GRENADE override",
+      "automatic": "Inherited false",
+      "projectile": "LuxonSticklerShotEntity",
+      "impact": "Calls inherited impact damage, then creates LuxonSticklerStuckEntity for a living target, then discards original projectile. Stuck-entity lifetime and effects not fully reviewed here.",
+      "visual_contract": "Drum appearance must not silently switch inventory ammo to Cannonball."
+    },
+    "aoa3:bozo_blaster": {
+      "base": "BaseCannon",
+      "ammo_getter": "Inherited Cannonball",
+      "automatic": "Inherited false",
+      "projectile": "BozoBallEntity",
+      "sound": "ITEM_CLOWNER_FIRE",
+      "visual_contract": "Front horn support grip remains visual proposal; do not copy Bubble Horn earned blow-mode buffs automatically."
+    }
+  },
+  "native_accepted": false
+}
