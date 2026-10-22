@@ -40,13 +40,13 @@ Manufacturer information documents high-strength fiber options and the dependenc
 
 ## Preserve the four current designs
 
-The owner explicitly keeps the current Spectral Archergun, Mecha Archergun, Rosidian Archergun and Coral Archergun designs. The shared explanation does not authorize reshaping, replacing or reinterpreting those four selected artworks. Viral alone is the current redesign target. Retain Rosidian’s rose treatment and Coral’s selected interaction design.
+The owner explicitly keeps the current Spectral Archergun, Mecha Archergun, Rosidian Archergun and Coral Archergun designs. The shared explanation does not authorize reshaping, replacing or reinterpreting those four selected artworks. Viral and the subsequently requested Pyro are the current redesign targets. Retain Rosidian’s rose treatment and Coral’s selected interaction design.
 
 Shared lore may explain their broad family relationship without forcing identical visible mechanisms or claiming identical release-specific behavior. Any later design changes to these four require a new owner request. Design preservation does not mark them as native-tested or technically validated.
 
 ## Required next art
 
-1. Viral hero and consistent side view with corrected wings, head and flexible string.
+1. Viral hero and consistent side view with corrected wings, head and flexible string. Pyro has a new ember-themed draft, but its string continuity still requires correction; do not treat it as mechanically validated.
 2. Separate nontechnical presentation storyboard: seated arrow, draw pose, release impression, return. No floating arrow or implausible collision.
 3. Attachment sheets only after the host silhouette is settled.
 4. Native acceptance requires AoA and TaCZ together, not a painted diagram.
