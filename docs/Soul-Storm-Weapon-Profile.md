@@ -1,11 +1,25 @@
 # Soul Storm: complete weapon profile
 
-> Latest sight direction: the default Soul Storm aiming sight is an animated Soul Flame. Soul Candle and Soul Gem are optional attachments; preserve the older gem concepts. [Sight specification](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sights).
+> Latest sight direction: the default Soul Storm aiming sight is an animated Soul Flame. Soul Candle and Soul Gem are optional attachments; preserve the older gem concepts. [Sight specification](Soul-Storm-Sights).
 
 
 **First documented lane: AoA3.7.1 / Minecraft1.20.1.** Original facts below come from the released JAR and explicitly linked source comparison. Our premium design and upgrade values are proposals; native upgraded gameplay has not been measured.
 
-[Concept art](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Art-Direction) · [Functional upgrade policy](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Functional-Weapon-Upgrades) · [Attachment gallery](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Attachment-Concept-Gallery)
+[Concept art](Soul-Storm-Art-Direction) · [Functional upgrade policy](Functional-Weapon-Upgrades) · [Attachment gallery](Attachment-Concept-Gallery)
+
+## Current selected concept · 22 October 2026
+
+![Soul Storm selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-anchored-flame-focus-concept-v1.png)
+
+Five-emitter Soul Flame sight study; the default upgrade has four emitters, with five/six as options Final art review remains open.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Asoul_storm). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
+## Lore and material provenance
+
+The pinned infusion recipe uses a Blaster Frame, two Ghoulasm entries, three Ghostly Powder entries and the Ghastly ingot tag. Ghoulasm appears in the packaged Greckon world loot table; spectral creature tables reference Ghostly Powder. Preserve this haunted material identity in both visual treatments. Original maker and artist intent remain unknown, and retained world data is not proof of current dimension availability.
+
+The soul-flame sight and plasma-disc treatment are our adaptations. They must not erase the original Spirit resource or be misrepresented as original projectile visuals. [Recipe, ingredient provenance and evidence boundaries](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Soul-Storm-Lore-and-Materials.md).
 
 ## What the original weapon is and does
 
@@ -79,6 +93,22 @@ The particle ageModifier is **not** a fixed3-tick lifetime. The inspected partic
 
 Generated concept views are illustrative; count, spacing and fit must be verified against the real mesh. The firing panels are sequence composites, not proof that all slots fire simultaneously. A volley attachment may deliberately introduce simultaneous fire as a separate declared mode.
 
+## Five- and six-emitter authored variants
+
+These are actual editable authoring models, still unaccepted as finished or playable weapons. The four-emitter base remains separate.
+
+![Five-emitter authoring study, unaccepted](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-5-stack-unaccepted.png)
+
+![Six-emitter authoring study with physical sight riser, unaccepted](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/soul-storm-6-stack-unaccepted.png)
+
+The taller front supports and rear manifold match the selected count. A physical riser raises the six-stack brazier, rooted fire and reticle together after review found only 0.005 authoring units of lower-reticle clearance. The corrected bound is 0.225; native first-person aim and hand fit remain untested.
+
+Independent recoil clips preserve each variant’s vertical offsets. Scoped checks cover 105/126 moving-emitter poses against the lower wing. Actual released parser classes accept eleven clips/462 keys on Java 17 and 21, and matching hardware bone contracts are checked. This does not implement damage/resource upgrades or certify native playback.
+
+The exported hardware fixtures deliberately omit vortex, plasma, fire and reticle effects shown in the authoring renders. Final materials, effects, animation integration, complete collision checks and native performance remain open.
+
+[Editable scenes, generators, clips, matching hardware files and exact evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/Soul-Storm-Stack-Studies.md).
+
 ## Example numerical test fixture, not final balance
 
 This makes the upgrade intention concrete without pretending it is already implemented. Assume five pulses per emitter per second,1.5 damage per disc,2 Spirit per disc, every scheduled disc admitted,20TPS, no target mitigation or missed shots:
@@ -108,4 +138,4 @@ This is proposed upgraded VFX art, not an original-game capture. Compare it with
 
 ## Editable sculpt progress
 
-[Current sculpt, four-emitter motion and retained source iterations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Soul-Storm-Sculpt-Study). Visual and native acceptance remain open; the sampled Blender animation is not gameplay footage.
+[Current sculpt, four-emitter motion and retained source iterations](Soul-Storm-Sculpt-Study). Visual and native acceptance remain open; the sampled Blender animation is not gameplay footage.

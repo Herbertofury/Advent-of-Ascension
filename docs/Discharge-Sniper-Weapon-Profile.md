@@ -2,6 +2,14 @@
 
 **AoA 3.7.1 / Minecraft 1.20.1 · source profile and partial concept study · native upgrade unaccepted.**
 
+## Current selected concept · 22 October 2026
+
+![Discharge Sniper selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-sniper-concept-v3.png)
+
+Slim red forward barrel, pale muzzle ring, lower red element and tall sight bridge distinguish the sniper in the Discharge family. Rear proportions, scope readability and hand fit still require review; no gameplay changes are inferred.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Adischarge_sniper). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
 ## The original is not a generic Metal Slug sniper
 
 Discharge Sniper extends BaseSniper but overrides its ammunition with **Discharge Capsule** and creates **DischargeSlugEntity**. It inherits SCOPE_1 and uses the plasma-gun firing sound. Do not copy a conventional sniper's resource contract or the separate Discharge Shotgun's projectile arrangement into this weapon.
@@ -46,7 +54,7 @@ The registered provider is DischargeSlugRenderer, confirmed through AoAEntityRen
 
 This inspection does not establish the bright red orb shown in the new concept as original in-game footage. A native capture and broader entity/particle tracing are still needed before declaring the original invisible or its visual behavior broken. Keep the new flight design explicitly separate from the extracted-source facts.
 
-## Proposed premium design
+## Earlier preserved art: Proposed premium design
 
 ![Discharge Sniper corrected concept labels and conditional impact study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/discharge-sniper-concept-v2.png)
 
@@ -86,4 +94,4 @@ Original AoA identity, assets and behavior are credited to Tslat and contributor
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).

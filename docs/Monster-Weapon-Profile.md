@@ -2,6 +2,14 @@
 
 **AoA 3.7.1 / Minecraft 1.20.1 · source profile and partial concept study · native upgrade unaccepted.**
 
+## Current selected concept · 22 October 2026
+
+![Monster selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/monster-dragon-mouth-concept-v2.png)
+
+Amber/black dragon-mouth study preserves the open forked jaw silhouette with a visible barrel between the teeth and amber upper eye motif. Exact jaw proportions, native hand fit and sight alignment remain open. Earlier concept is preserved.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Amonster). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
 ## Original role
 
 Monster inherits **BaseSniper**, using Metal Slug ammunition and non-automatic firing. Its subclass selects the heavy-sniper/long firing sound and **SCOPE_2** overlay. It does not declare a custom impact effect. Orange armor and an open jaw do not establish fire damage, a bite attack or two gameplay projectiles.
@@ -39,7 +47,7 @@ Do not assume arbitrary custom item data survives the original recipe. Define pr
 
 [Station tutorial](Divine-Station-Weapon-Upgrades-1.20.1) · [All Darkly upgrades, pictured](Divine-Upgrades-Darkly) · [All 70 upgrade recipes](Divine-Station-Upgrade-Atlas)
 
-## Premium concept and open design work
+## Earlier preserved art: Premium concept and open design work
 
 ![Monster hero, material modes, proposed muzzle/tracer/impact presentation and inspection storyboard](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/monster-concept-v1.png)
 
@@ -72,4 +80,4 @@ The jaw tips and optic are visually emphasized; actual model proportions, sight 
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).

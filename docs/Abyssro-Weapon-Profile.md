@@ -2,6 +2,18 @@
 
 **AoA 3.7.1 / Minecraft 1.20.1. Source-backed identity and revised concept candidate; no accepted native upgrade.**
 
+## Current selected concept · 22 October 2026
+
+![Abyssro selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/abyssro-eyes-pump-concept-v3.png)
+
+New crimson/graphite sci-fi study adds the requested drum, pump fore-end and eye motifs. Eye-sight panels propose iris opening into a clear aperture. The prior concept remains an alternate. Static concept only; no native animation, feeding or hand-fit acceptance.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Aabyssro). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
+Dedicated supplemental studies (partial design candidates, not implemented features):
+
+- [Eye watch, dilation, clear magical zoom view and blink return; static animation intent](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/abyssro-living-eye-sight-study-v1.png).
+
 ## What it does
 
 Abyssro is registered directly as a configured **BaseShotgun**, not a separate Abyssro-specific class. Its baseline uses **Spreadshot ammunition and two pellets**. The inspected firing loop creates LimoniteBulletEntity instances, while the auxiliary projectile-factory method returns a MetalSlugEntity for the shared ammo/effects path. Looking only at that factory would misidentify the actual loop-spawned projectiles.
@@ -35,7 +47,7 @@ The source has a compact dark upper barrel, pale upper/lower structural pieces, 
 
 The source-linked [origin index](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-origin-data-index-1.20.1.json) and [weapon baseline](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/conventional-weapon-baselines-1.20.1.json) retain exact-version evidence. Do not carry this recipe or behavior into another AoA release without reconciliation.
 
-## Revised concept
+## Earlier preserved art: concept
 
 ![Abyssro concept candidate with two-pellet effect and two visual treatments](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/abyssro-concept-v2.png)
 
@@ -69,4 +81,4 @@ Original AoA identity and assets: Tslat and contributors. New concept generated 
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).

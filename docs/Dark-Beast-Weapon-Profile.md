@@ -31,15 +31,25 @@ The recipe establishes an upgrade relationship. It does not prove that arbitrary
 
 [Illustrated Divine Station workflow](Divine-Station-Weapon-Upgrades-1.20.1) · [Exact recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.20.1&q=upgrade_kit_dark_beast)
 
-## Revised concept and retained history
+## Monster-family main concept and retained alternate
 
-![Revised compact Dark Beast hero, material modes, effect proposals and inspection poses](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v3.png)
+![Dark Beast new Monster-family main concept: long angular open jaws, distinct barrel through the mouth, charcoal armor and red eye](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-monster-family-concept-v5.png)
 
-The third revision restores the original open forked jaw while keeping a compact front. The second revision had closed too much of that defining negative space. It keeps the dark layered body and red optic accent; two visible arms do not imply two gameplay projectiles. Muzzle, tracer and stone-chip panels are proposed cosmetics; the original Metal Slug behavior is not replaced by a magic beam merely because the art uses a red highlight.
+The owner's new main direction follows Monster's long angular dragon-jaw design in charcoal and smoky gunmetal, with a raised red eye and a clearly distinct barrel through the mouth. The shared family silhouette supports their documented upgrade relationship, but does not merge their item identities, source statistics or gameplay behavior. The red accent is not permission to replace Metal Slug ammunition with a beam or add an impact effect.
 
-[Preserved first exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v1.png): its exaggerated front proportions were not chosen as the canonical target. [Second exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v2.png) shortened the front but lost the original open jaw, which the third revision restores. Retaining it is not acceptance. The revision still needs real model, rigged-hand and silhouette comparison at gameplay distance.
+[Compare the new main with the released reference](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Adark_beast).
 
-The two material examples are design directions, not finished atlases. Inspection poses are painted storyboards, not executed animation. A textured surface alone does not prove normal-map quality, UV coverage or mip stability.
+### Owner-preserved organic dragon-head alternate
+
+![Preserved Dark Beast organic dragon-mouth alternate, formerly the selected main](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-dragon-mouth-concept-v4.png)
+
+This earlier design remains an explicit alternate, not a deleted or overwritten image. Its [living-jaw motion study](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-living-jaw-study-v1.png) applies to that alternate, not to the new Monster-family main. Tooth continuity, animated clearances and hand fit remain unverified.
+
+### Earlier explorations
+
+[First exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v1.png) · [Second exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v2.png) · [Third exploration](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/dark-beast-concept-v3.png).
+
+These are retained design history, not accepted native assets. Painted material modes, effects and inspect poses do not prove UV quality, model proportions, animation, sight alignment or TaCZ/AoA compatibility. All acceptance gates below remain open.
 
 ## Full feature plan
 
@@ -65,4 +75,4 @@ The two material examples are design directions, not finished atlases. Inspectio
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).

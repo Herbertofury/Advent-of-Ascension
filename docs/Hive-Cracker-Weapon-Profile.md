@@ -2,6 +2,23 @@
 
 **AoA 3.7.1 / Minecraft 1.20.1 · source profile and partial concept study · native upgrade unaccepted.**
 
+## Current selected concept · 22 October 2026
+
+![Hive Cracker selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-cracker-dimensional-concept-v3.png)
+
+Otherworldly amber hive-cell, hooked antenna forms and charcoal structure develop the original orange/yellow identity. Previous sheet remains a past concept. Crest size, rear silhouette and native readability need further review; no new attack behavior is claimed. Separate action study proposes visible bees moving during charge/fire and two optional sights: a bee-formed aperture or a honey aperture rapidly assembled by bees on aim. Static state panels only; no native animation is implemented. Additional Moonlit Hive craftable variant proposed with soul-blue bees and optional swarm or honey sights. Existing base remains available; recipe and native behavior are not implemented.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Ahive_cracker). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
+Dedicated supplemental studies (partial design candidates, not implemented features):
+
+- [Separate action study: visible hive bees, swarm sight and honey-built sight](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-cracker-bee-action-sights-study-v1.png).
+- [Shared hive-family charm concepts; fit and animation unverified](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-family-charms-study-v1.png).
+- [Shared Moonlit swarm and honey sight animation directions; individual host fit unverified](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/moonlit-hive-soul-bee-sights-study-v1.png).
+- [Shared soul bees inside chambers: rest, charge, release and recovery; effects are proposals](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/moonlit-hive-living-chambers-study-v1.png).
+- [Shared soul-campfire-inspired crafting proposal, illustrated with Hiver; use matching input weapon, preserve saved data](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/moonlit-hive-crafting-study-v1.png).
+- [Optional amber and additional Moonlit confirmed-defeat effects: honeycomb motes or bee-shaped particles with off option; no extra entities, damage or loot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-amber-moonlit-defeat-effects-study-v1.png).
+
 ## Released role
 
 Hive Cracker inherits **BaseSniper** and uses Metal Slug ammunition. The inspected subclass declares its constructor, medium-rifle/long firing-sound selection and SCOPE_4 texture selection. It does not declare a unique impact hook. The name is not evidence that it launches bees, creates a swarm or deals honey damage; it is also distinct from Hive Blaster.
@@ -29,7 +46,7 @@ The recipe does not establish a particular kit drop location. Base assembly prod
 
 [Illustrated Divine Station workflow](Divine-Station-Weapon-Upgrades-1.20.1) · [Exact recipe explorer](https://herbertofury.github.io/Advent-of-Ascension/recipe-explorer.html?v=1.20.1&q=upgrade_kit_hive_cracker)
 
-## Premium concept and QA correction
+## Earlier preserved art: Premium concept and QA correction
 
 ![Hive Cracker hero, side profile, material details, two proposed texture treatments and inspect vignette](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/hive-cracker-concept-v2.png)
 
@@ -65,4 +82,4 @@ The proposed grip/control geometry and protruding upper details require actual h
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).

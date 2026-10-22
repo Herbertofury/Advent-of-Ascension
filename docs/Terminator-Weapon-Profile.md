@@ -2,6 +2,18 @@
 
 **AoA 3.7.1 / Minecraft 1.20.1 · released-source profile and partial concept study. Native upgrade acceptance remains open.**
 
+## Current selected concept · 22 October 2026
+
+![Terminator selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/terminator-scifi-concept-v2.png)
+
+New charcoal/silver sniper candidate retains the low shroud and raised red-accent sight. Small red status lens and NO FATE / T-800 engraving are decorative film nods. Exact stock proportions, hand fit and native performance remain open.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Aterminator). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
+Dedicated supplemental studies (partial design candidates, not implemented features):
+
+- [Optional movie-nod trinkets, finishes and engravings; corrected single rear charm keeps forward contact area uncluttered; native fit unverified](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/terminator-cinematic-cosmetics-study-v2.png).
+
 ## What it does
 
 Terminator is a slow **Metal Slug sniper** with an explicit **SCOPE_3** texture override. Its weapon class declares sound, pitch adjustment and scope, but no special impact or projectile-creation override. Do not invent explosive rounds, armor piercing or automatic target execution from its name.
@@ -37,7 +49,7 @@ The released infusion uses **Sniper Frame** plus eight ingredient slots: Darkly 
 
 [1.20.1 Infusion Table walkthrough](Infusion-Table-Crafting-1.20.1). [Current Divine upgrade atlas](Divine-Station-Upgrade-Atlas) · [Mineral profile](Mineral-Weapon-Profile).
 
-## Proposed premium art
+## Earlier preserved art: Proposed premium art
 
 ![Terminator concept with matching side view, proposed optic shell and material studies](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/terminator-concept-v1.png)
 
@@ -69,4 +81,4 @@ AoA original identity and assets: Tslat and contributors. Proposed upgrade art a
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).

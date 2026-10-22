@@ -2,6 +2,14 @@
 
 **AoA 3.7.1 / Minecraft 1.20.1 · source profile and partial concept. Native and final-art acceptance remain open.**
 
+## Current selected concept · 22 October 2026
+
+![Bayonette SR selected concept candidate, not an in-game screenshot](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/bayonette-sr-scifi-concept-v2.png)
+
+Fresh jade-violet sci-fi candidate preserves the raised scope bridge, rounded violet housing and distinct lower silver blade. Earlier design remains an alternate. Blade proportions, hand fit and native behavior are unverified.
+
+[Original-versus-concept comparison and preserved alternatives](https://herbertofury.github.io/Advent-of-Ascension/weapon-concepts.html?weapon=aoa3%3Abayonette_sr). Earlier art below is preserved history or a separately labelled variant, not a replacement for this selected main. Original source behavior and all native acceptance gates remain unchanged.
+
 ## Original behavior: ranged and melee are separate
 
 Bayonette SR is a **Metal Slug sniper** with inherited **SCOPE_1**, plus a main-hand melee attribute modifier. Its ranged damage input is **33**. The melee modifier is **+9 attack damage**, using an additive modifier in the main-hand equipment slot; the tooltip prints **10 attack damage**. Do not add nine to every bullet or claim a guaranteed ten damage after armor, attack strength, effects and other modifiers.
@@ -31,7 +39,7 @@ Preserve the stepped teal body panels, violet upper/rear shapes and optic, pale 
 
 Infuse **Sniper Frame** with Mushroom Spores, an Iron Sword, **two separate Mystite-ingot-tag ingredients**, one amethyst-gem-tag ingredient and one gunpowder-tag ingredient. Preserve all six occupied slots. Mystite Ingot is verified in AoA’s ingredient tag; Amethyst Shard is the example in [Forge’s 1.20.1 amethyst tag](https://github.com/MinecraftForge/MinecraftForge/blob/1.20.1/src/generated/resources/data/forge/tags/items/gems/amethyst.json). Loaded datapacks may change tag membership. The diagram is reconstructed, not a native capture. [Infusion Table guide](Infusion-Table-Crafting-1.20.1).
 
-## Premium visual study
+## Earlier preserved art: Premium visual study
 
 ![Bayonette SR jade-violet concept](https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/bayonette-sr-concept-v1.png)
 
@@ -62,4 +70,4 @@ Original AoA identity/assets: Tslat and contributors. New art and mechanics rema
 
 ## Recoil interpretation
 
-For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Effective-Recoil-Routing-1.20.1).
+For this pinned 1.20.1 release, the stored constructor recoil input is not the inherited modifier getter: the inspected `BaseGun.getRecoilModifier()` returns approximately 0.35. The per-shot method and later client application determine the actual recoil path. Do not infer a stronger or weaker measured kick from the constructor column alone. This clarification does not change the original values, weapon balance or acceptance state. [Resolved method routing](Effective-Recoil-Routing-1.20.1).
