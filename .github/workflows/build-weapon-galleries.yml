@@ -1,0 +1,119 @@
+name: Build illustrated weapon Wiki galleries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-weapon-galleries.yml'
+      - 'docs/weapon-inspirations/*.py'
+      - 'docs/weapon-inspirations/*-overrides.json'
+      - 'docs/weapon-inspirations/gaming-additions.tsv'
+permissions:
+  contents: write
+concurrency:
+  group: illustrated-weapon-galleries
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Open scoped source worktree
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$WIKI_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/weapon-inspirations/\n/docs/Historical-and-Experimental-Gun-Inspirations.md\n/docs/Video-Game-Weapon-Inspirations.md\n' > .git/info/sparse-checkout
+          git checkout main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Import existing catalog and check research routes
+        run: |
+          cd source
+          python3 - <<'PY'
+          import urllib.request, urllib.error, json, csv, io, pathlib, concurrent.futures
+          root = pathlib.Path('docs/weapon-inspirations'); root.mkdir(parents=True, exist_ok=True)
+          def fetch(url):
+              try:
+                  request=urllib.request.Request(url, headers={'User-Agent':'AoA-Inspiration-Research/1.0 (public visual reference catalog)'})
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      body=response.read()
+                      return {'status':response.status,'type':response.headers.get('Content-Type'),'bytes':len(body),'body':body}
+              except Exception as exc:
+                  return {'error':str(exc)}
+          path=root/'gaming-source.json'
+          if not path.exists():
+              result=fetch('https://docs.google.com/spreadsheets/d/1lO2pXnEYm46S70PBFDwNrKOvkfPCl0EXWqmI2a-zHro/gviz/tq?tqx=out:csv&gid=62000')
+              if result.get('status')==200 and 'text/csv' in (result.get('type') or ''):
+                  records=list(csv.DictReader(io.StringIO(result['body'].decode('utf-8-sig'))))
+                  records=[r for r in records if r.get('id')]
+                  assert len(records)>=538, len(records)
+                  path.write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
+                  print('Imported gaming records:',len(records))
+              else:
+                  print('Existing catalog export not publicly readable:', {k:v for k,v in result.items() if k!='body'})
+          checks={
+              'wikipedia':'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=640&titles=Degtyaryov_machine_gun',
+              'forgottenweapons':'https://www.forgottenweapons.com/?s=DP28',
+              'youtube':'https://www.youtube.com/results?search_query=DP28+Forgotten+Weapons',
+              'duckduckgo':'https://www.google.com/search?q=DP28+Forgotten+Weapons+youtube',
+              'wikigg':'https://enterthegungeon.wiki.gg/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=480&titles=Gunderfury'
+          }
+          report={}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+              for name,result in zip(checks,pool.map(fetch,checks.values())):
+                  body=result.pop('body',b'')
+                  report[name]=result
+                  if body: (root/('probe-'+name+'.txt')).write_text(body.decode('utf-8',errors='replace')[:150000],encoding='utf-8')
+          (root/'network-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Build galleries when renderer exists
+        run: |
+          cd source
+          if [ -f docs/weapon-inspirations/build_galleries.py ]; then
+            python3 -m pip install --quiet requests beautifulsoup4 pillow
+            python3 docs/weapon-inspirations/build_galleries.py
+          fi
+      - name: Save coherent research and gallery checkpoint
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/weapon-inspirations
+          for page in docs/Historical-and-Experimental-Gun-Inspirations.md docs/Video-Game-Weapon-Inspirations.md; do
+            if [ -f "$page" ]; then git add "$page"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Checkpoint illustrated weapon research and media provenance'
+            git pull --rebase origin main
+            git push origin main
+          fi
+          git rev-parse HEAD
+      - name: Publish built galleries to actual Wiki
+        if: hashFiles('source/docs/weapon-inspirations/build_galleries.py') != ''
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          python3 source/docs/weapon-inspirations/build_galleries.py --publish-only wiki
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish illustrated gaming and historical inspiration galleries"
+            git push origin HEAD
+          fi
+          echo "WIKI_COMMIT=$(git rev-parse HEAD)"
