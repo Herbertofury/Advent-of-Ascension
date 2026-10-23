@@ -1583,6 +1583,129 @@ Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/GP
 [Video: GP-31 Grenade Pistol Stress Test &amp; BREAKDOWN in Helldivers 2](https://www.youtube.com/watch?v=RtMsA13KSFA). Evidence: Item title and game context matched.
 [Reference](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol): GP-31 Grenade Pistol.
 
+<a id="ref-xg-08bfa31f7ddb"></a>
+## Vengeance Launcher (Warhammer 40,000: Boltgun)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0UuAhCXSECc).
+[Video: Warhammer 40K Boltgun #10- Vengeance launcher](https://www.youtube.com/watch?v=0UuAhCXSECc). Evidence: Item title and game context matched.
+
+<a id="ref-xg-8cb1aca283c6"></a>
+## Grav-Cannon (Warhammer 40,000: Boltgun)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=VtSn5CKvS7M).
+[Video: Boltgun: Cleaning Nurgle&#x27;s minions with a Grav Cannon (Powerwash crossover spoilers?)](https://www.youtube.com/watch?v=VtSn5CKvS7M). Evidence: Item title and game context matched.
+
+<a id="ref-xg-c4bf6e7e1325"></a>
+## Neo-Volkite Pistol (Warhammer 40,000: Space Marine 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=pMr7hniGD_g).
+[Video: New Neo-Volkite Pistol Space marine 2 High level PvP Gameplay Assault Class](https://www.youtube.com/watch?v=pMr7hniGD_g). Evidence: Item title and game context matched.
+
+<a id="ref-xg-9841a10d6256"></a>
+## Multi-Melta (Warhammer 40,000: Space Marine 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=iKhYBTaEKlM).
+[Video: BEST HEAVY WEAPON? Multi-Melta Gameplay - Warhammer 40k: Space Marine 2 (4K)](https://www.youtube.com/watch?v=iKhYBTaEKlM). Evidence: Item title and game context matched.
+
+<a id="ref-xg-b1cea30deaf7"></a>
+## Anguish (Remnant II)
+
+Image: Named weapon reference image. [Source](https://remnant.wiki/wiki/Anguish).
+[Video: Remnant II ANGUISH BUILD SHOWCASE](https://www.youtube.com/watch?v=_scEIHp3CwE). Evidence: Item title and game context matched.
+[Reference](https://remnant.wiki/wiki/Anguish): Anguish.
+
+<a id="ref-xg-4f746595794f"></a>
+## Ruin (Remnant: From the Ashes)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O1llE6p0IEw).
+[Video: REMNANT: FROM THE ASHES - Ruin Rifle (How to Get It)](https://www.youtube.com/watch?v=O1llE6p0IEw). Evidence: Item title and game context matched.
+
+<a id="ref-xg-4ecf8c3d52c7"></a>
+## Eye of the Storm (Remnant: From the Ashes)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JGOa9hz4GEQ).
+[Video: Remnant From The Ashes - How To Get Eye Of the Storm (Mystical Gun)](https://www.youtube.com/watch?v=JGOa9hz4GEQ). Evidence: Item title and game context matched.
+
+<a id="ref-xg-dc98890c3257"></a>
+## Ricochet Rifle (Remnant: From the Ashes)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=NBdpmcdbToc).
+[Video: Remnant From The Ashes - How To Get Ricochet Rifle (Bouncing Gun)](https://www.youtube.com/watch?v=NBdpmcdbToc). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6cca2bc6792a"></a>
+## Defiler (Remnant: From the Ashes)
+
+Image: Named weapon reference image. [Source](https://remnant.wiki/wiki/Defiler).
+[Video: Defiler Pistol Weapon Overview &#124; Remnant: From The Ashes](https://www.youtube.com/watch?v=76f6pz8lVMo). Evidence: Item title and game context matched.
+[Reference](https://remnant.wiki/wiki/Defiler): Defiler.
+
+<a id="ref-xg-b1e9d5669b27"></a>
+## Particle Accelerator (Remnant: From the Ashes)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=GbgF06dsHVw).
+[Video: REMNANT: FROM THE ASHES - World Breaker &amp; Particle Accelerator (Claviger Normal &amp; Alt Kill Guide)](https://www.youtube.com/watch?v=GbgF06dsHVw). Evidence: Item title and game context matched.
+
+<a id="ref-xg-433b5e2554bb"></a>
+## Pride of the Iskal (Remnant: From the Ashes)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=cGoO-zETrRs).
+[Video: Remnant From the Ashes - Iskal Queen -  Pride of the Iskal (Solo Normal)](https://www.youtube.com/watch?v=cGoO-zETrRs). Evidence: Item title and game context matched.
+
+<a id="ref-xg-ce0d837d9245"></a>
+## Fusion Rifle (Remnant: From the Ashes)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0dnGCIs80CI).
+[Video: Remnant: From the Ashes - The Fusion Rifle is Amazing (PS4 Pro Gameplay)](https://www.youtube.com/watch?v=0dnGCIs80CI). Evidence: Item title and game context matched.
+
+<a id="ref-xg-f5180d51df7a"></a>
+## Dragonchaser (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Dragonchaser).
+[Video: GUNFIRE REBORN ALL WEAPON CHALLENGE: THE DRAGONCHASER](https://www.youtube.com/watch?v=23a3r3gc02E). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Dragonchaser): Dragonchaser.
+
+<a id="ref-xg-0233c0d8e5e6"></a>
+## Porcupine (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Porcupine).
+[Video: GUNFIRE REBORN ALL WEAPON CHALLENGE: BEST PORCUPINE RUN EVER](https://www.youtube.com/watch?v=-qGQwf-A5eM). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Porcupine): Porcupine.
+
+<a id="ref-xg-03fff50f2001"></a>
+## Deafening Mortar (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Deafening_Mortar).
+[Video: Qian Sui + Deafening Mortar = OP [Gunfire Reborn V1.0 Gameplay and Thoughts]](https://www.youtube.com/watch?v=u2DJvMx-6Ys). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Deafening_Mortar): Deafening Mortar.
+
+<a id="ref-xg-ffea0ca5a022"></a>
+## Star Devourer (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Star_Devourer).
+[Video: GUNFIRE REBORN ALL WEAPON CHALLENGE: STAR DEVOURER AUTO CRIT IS THE BEST INSCRIPTION IN THE GAME](https://www.youtube.com/watch?v=DJAtbuPeXdQ). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Star_Devourer): Star Devourer.
+
+<a id="ref-xg-74133a31b521"></a>
+## Hexagon (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Hexagon).
+[Video: The MOST BROKEN Weapon Ever In Gunfire Reborn (Hexagon Showcase)](https://www.youtube.com/watch?v=Rz2L9LQmXHg). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Hexagon): Hexagon.
+
+<a id="ref-xg-386bc108b33b"></a>
+## Cloud Weaver (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Cloud_Weaver).
+[Video: Gunfire Reborn: NEW Magic, Telekinetic, Controllable Spikes! (Cloud Weaver Showcase)](https://www.youtube.com/watch?v=WwvW6YjVW8M). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Cloud_Weaver): Cloud Weaver.
+
+<a id="ref-xg-309ec8592cb1"></a>
+## Sunder (Gunfire Reborn)
+
+Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Sunder).
+[Video: GUNFIRE REBORN ALL WEAPON CHALLENGE: THE SUNDER](https://www.youtube.com/watch?v=MeayMFjERXk). Evidence: Item title and game context matched.
+[Reference](https://gunfirereborn.fandom.com/wiki/Sunder): Sunder.
+
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
 
