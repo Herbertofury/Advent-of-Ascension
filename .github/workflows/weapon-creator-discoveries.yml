@@ -1,0 +1,99 @@
+name: Weapon creator discoveries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/weapon-creator-discoveries.yml'
+      - 'docs/minecraft-gun-mods/creator-discoveries/stage.txt'
+permissions:
+  contents: write
+concurrency:
+  group: weapon-creator-discoveries
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Resume scoped source on a review branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/creator-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/weapon_inspiration_navigation.py\n/docs/weapon-inspirations/*.py\n/docs/weapon-inspirations/*.module\n/docs/weapon-inspirations/*.delta\n/docs/weapon-inspirations/*.audit\n/docs/Minecraft-Gun*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/.github/workflows/\n' > .git/info/sparse-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin weapon-inspiration-cleanup >/dev/null 2>&1; then
+            git fetch --depth 100 origin refs/heads/weapon-inspiration-cleanup:refs/remotes/origin/weapon-inspiration-cleanup refs/heads/main:refs/remotes/origin/main
+            git checkout -B weapon-inspiration-cleanup origin/weapon-inspiration-cleanup
+            git merge origin/main --no-edit
+          else
+            git checkout -b weapon-inspiration-cleanup origin/main
+          fi
+      - name: Fetch only unresolved public creator evidence
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          python3 source/docs/minecraft-gun-mods/creator-discoveries/collect_creator.py
+      - name: Apply catalog and permanent publisher fixes when staged
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/creator-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki-preview
+          if [ -f source/docs/minecraft-gun-mods/creator-discoveries/build_update.py ]; then
+            python3 source/docs/minecraft-gun-mods/creator-discoveries/build_update.py --wiki wiki-preview
+          else
+            python3 source/docs/weapon_inspiration_navigation.py wiki-preview --report source/docs/minecraft-gun-mods/creator-discoveries/qa/navigation-proof.json
+          fi
+      - name: Checkpoint source before browser gates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/creator-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/creator-discoveries ':!docs/minecraft-gun-mods/creator-discoveries/cache' ':!docs/minecraft-gun-mods/creator-discoveries/__pycache__'
+          if [ -f docs/minecraft-gun-mods/creator-discoveries/build_update.py ]; then
+            git add docs/minecraft-gun-mods/catalog.json docs/minecraft-gun-mods/catalog.js docs/minecraft-gun-mods/app.js docs/minecraft-gun-mods/app.css docs/minecraft-gun-mods/index.html docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/wiki-manifest.json
+            git add docs/minecraft-gun-mods/tacz/*.json docs/minecraft-gun-mods/tacz/*.js docs/minecraft-gun-mods/tacz/*.css docs/minecraft-gun-mods/tacz/*.html docs/minecraft-gun-mods/tacz/*.py
+            git add docs/Minecraft-Gun*.md docs/TaCZ-Gunpack*.md docs/Weapon-Inspirations.md docs/Weapon-Reference-Library.md docs/weapon_inspiration_navigation.py
+            git add .github/workflows docs/weapon-inspirations
+          fi
+          if ! git diff --cached --quiet; then git commit -m 'Qualify creator-hosted gun discoveries and consolidate weapon navigation'; fi
+          git push origin HEAD:weapon-inspiration-cleanup
+          git rev-parse HEAD > docs/minecraft-gun-mods/creator-discoveries/qa/source-commit.txt
+      - name: Verify changed workflows and both real-data explorers
+        run: |
+          set -euo pipefail
+          if [ -f source/docs/minecraft-gun-mods/creator-discoveries/test_update.py ]; then
+            if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+            python3 source/docs/minecraft-gun-mods/creator-discoveries/test_update.py --wiki wiki-preview
+            python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/atlas
+            python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/tacz
+          fi
+      - name: Preserve source evidence and visual acceptance
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: creator-discoveries-update
+          path: |
+            source/docs/minecraft-gun-mods/creator-discoveries/
+            source/docs/minecraft-gun-mods/catalog.json
+            source/docs/minecraft-gun-mods/tacz/catalog.json
+            source/docs/Minecraft-Gunpack-Creator-Discoveries.md
+            wiki-preview/_Sidebar.md
+            wiki-preview/Weapon-Inspirations.md
+            !source/docs/minecraft-gun-mods/creator-discoveries/cache/**
+            !source/docs/minecraft-gun-mods/creator-discoveries/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
