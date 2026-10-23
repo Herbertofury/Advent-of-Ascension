@@ -1,0 +1,90 @@
+name: Release Minecraft Gun Atlas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/minecraft-gun-release.yml']
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: minecraft-gun-atlas-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RELEASE_TAG: minecraft-gun-atlas-v1.0.0
+    steps:
+      - name: Restore only the exact fully verified published artifact
+        run: |
+          set -euo pipefail
+          mkdir -p release readback
+          gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts/12491062456/zip" > release/Minecraft-Gun-Atlas.zip
+          echo '3ad15e7bd0c65f534e4e20657f49ea9adcacb3fea18724383efd74f5015c0f05  release/Minecraft-Gun-Atlas.zip' | sha256sum --check
+          python3 - <<'PY'
+          import hashlib,json,zipfile,urllib.request
+          from pathlib import Path
+          path=Path('release/Minecraft-Gun-Atlas.zip')
+          with zipfile.ZipFile(path) as archive:
+              assert archive.testzip() is None
+              def read(name):return json.loads(archive.read('minecraft-gun-mods/'+name))
+              data=read('catalog.json');browser=read('qa/live-explorer/browser-report.json');offline=read('qa/offline/report.json');wiki=read('qa/live/publication.json')
+              assert len(data['items'])==2362 and len({x['id'] for x in data['items']})==2362
+              assert browser['passed'] and len(browser['checks'])==57 and all(x['passed'] for x in browser['checks'])
+              assert offline['passed'] and len(offline['checks'])==7 and all(x['passed'] for x in offline['checks'])
+              assert not wiki['errors'] and all(x['matchesSource'] for x in wiki['wikiPages'])
+              assert sum(x['decoded'] for x in wiki['browserPages'])==2340
+              assert all(not x['missing'] and not x['missingProjectLinks'] and x['decoded']==x['expectedImages'] for x in wiki['browserPages'])
+              files=len([x for x in archive.infolist() if not x.is_dir()])
+          url='https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/catalog.json'
+          with urllib.request.urlopen(url,timeout=60) as response:live=json.load(response)
+          assert live['build']['dataHash']==data['build']['dataHash']
+          receipt={'title':'Minecraft Gun Atlas','projectCount':2362,'sourceCommit':'f031efe71f836756f991450672745c5de5438b48','sourceArtifactId':12491062456,'publicationRunId':39929530800,'dataHash':data['build']['dataHash'],'liveDataHashMatches':True,'liveBrowserChecksPassed':57,'offlineChecksPassed':7,'wikiPagesVerified':len(wiki['wikiPages']),'wikiImagesDecoded':2340,'releaseFileCount':files,'releaseBytes':path.stat().st_size,'releaseSha256':hashlib.sha256(path.read_bytes()).hexdigest(),'scope':'Source-verified research records, not an in-game compatibility certification or a claim that every record is a standalone mod.'}
+          Path('release/RELEASE-VERIFICATION.json').write_text(json.dumps(receipt,indent=2))
+          Path('release/SHA256SUMS.txt').write_text(receipt['releaseSha256']+'  Minecraft-Gun-Atlas.zip\n')
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Publish a durable release without replacing another project release
+        run: |
+          set -euo pipefail
+          cat > release/START-HERE.md <<'MD'
+          # Minecraft Gun Atlas
+
+          [Open the live explorer](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/) | [Weapon Inspirations](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Inspirations) | [Illustrated Minecraft research](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Minecraft-Gun-Mod-Inspirations)
+
+          This release contains the complete portable explorer, its source, archived creator media, exact release evidence, illustrated Wiki pages and verification reports. Extract Minecraft-Gun-Atlas.zip and open minecraft-gun-mods/index.html. No installation or local server is required.
+
+          Browse 2,362 research records with search, exact version/loader filters, ecosystem/type/theme filters, cards/table/gallery views, favorites, private notes, saved views, comparison and collection backup/import. Favorites and notes are stored in your browser; export a collection to move it to another browser or device. Local-file and live-site storage are separate.
+
+          The collection includes 35 editorial study anchors, 10 recovered earlier picks, 2,340 projects with archived creator media, and 204 projects with creator-linked direct videos. It distinguishes standalone gun mods, content packs, integrations, artillery, Bedrock add-ons, server plugins, datapacks and older references. Research ordering is not an in-game benchmark. Source metadata was checked October 23, 2026.
+
+          All 57 actual live-browser checks and 7 no-network offline checks passed. All 26 Wiki pages matched their source and all 2,340 available embedded project images decoded. Existing weapon galleries were preserved. SHA256SUMS.txt and RELEASE-VERIFICATION.json identify the exact archive and tested dataset.
+
+          The discovery ledger records public-source coverage and remaining provider gaps. This is extensive research, not a provable census of all unlisted projects. Individual Minecraft runtime testing and full playback of every linked video are not claimed.
+          MD
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release download "$RELEASE_TAG" --pattern Minecraft-Gun-Atlas.zip --dir readback
+            echo '3ad15e7bd0c65f534e4e20657f49ea9adcacb3fea18724383efd74f5015c0f05  readback/Minecraft-Gun-Atlas.zip' | sha256sum --check
+          else
+            gh release create "$RELEASE_TAG" --target f031efe71f836756f991450672745c5de5438b48 --title 'Minecraft Gun Atlas' --notes-file release/START-HERE.md --latest=false release/Minecraft-Gun-Atlas.zip release/SHA256SUMS.txt release/RELEASE-VERIFICATION.json release/START-HERE.md
+            gh release download "$RELEASE_TAG" --pattern Minecraft-Gun-Atlas.zip --dir readback
+            echo '3ad15e7bd0c65f534e4e20657f49ea9adcacb3fea18724383efd74f5015c0f05  readback/Minecraft-Gun-Atlas.zip' | sha256sum --check
+          fi
+          gh release view "$RELEASE_TAG" --json url,tagName,assets > release/REMOTE-RELEASE.json
+          cat release/REMOTE-RELEASE.json
+      - name: Preserve release readback evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-atlas-release-receipt
+          path: |
+            release/REMOTE-RELEASE.json
+            release/RELEASE-VERIFICATION.json
+            release/SHA256SUMS.txt
+            release/START-HERE.md
+          retention-days: 30
+          if-no-files-found: error
