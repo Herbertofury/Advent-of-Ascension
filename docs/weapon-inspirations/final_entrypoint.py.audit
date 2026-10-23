@@ -52,8 +52,86 @@ def native_check():
   browser.close()
  print(json.dumps(reports,indent=2),flush=True)
 
+ORIGINAL_SOURCES=p.sources_page
+
+def sources_with_notes(entries,media):
+ ORIGINAL_SOURCES(entries,media)
+ path=g.DOCS/'Weapon-Inspiration-Media-Sources.md';body=path.read_text()
+ for e in entries:
+  record=media[e['id']]
+  if record.get('source_note'):
+   note=record['source_note']
+   links=' '.join('[Source naming evidence]('+u+').' for u in record.get('additional_sources',[]) if u)
+   marker='<a id="ref-'+e['id']+'"></a>'
+   body=body.replace(marker,marker+'\n\n'+note+' '+links+'\n')
+ path.write_text(body,encoding='utf-8')
+p.sources_page=sources_with_notes
+
+def collect_review_candidates():
+ from PIL import Image,ImageDraw,ImageFont
+ from bs4 import BeautifulSoup
+ from urllib.parse import urljoin
+ import concurrent.futures,io,re
+ qa=ROOT/'qa'/'last-media';qa.mkdir(parents=True,exist_ok=True)
+ urls=[]
+ for label,vid in [('black-hole','dt9rWEi51TA'),('de-animator','YCWYINZIEIg'),('monkey-gun','O9944b7GjLg')]:
+  for n in (1,3):urls.append((label+'-'+str(n),'https://i.ytimg.com/vi/'+vid+'/maxres'+str(n)+'.jpg'))
+ pages={'dead-wrangler':'https://www.callofduty.com/my/en/store/bundles/5880','winterizer':'https://ratchet-galaxy.com/en/games/ps3/ratchet-and-clank-into-the-nexus/inventory/weapons/winterizer'}
+ evidence={}
+ for label,url in pages.items():
+  r=g.fetch(url)
+  if not r['ok']:evidence[label]={'status':r.get('status'),'url':url};continue
+  (qa/(label+'.html')).write_text(r['body'],encoding='utf-8')
+  soup=BeautifulSoup(r['body'],'html.parser')
+  media=[]
+  for im in soup.select('img,video,source'):
+   u=im.get('src') or im.get('data-src') or im.get('poster')
+   if not u:continue
+   u=urljoin(url,u)
+   media.append({'tag':im.name,'url':u,'alt':im.get('alt'),'parent':str(im.parent)[:4000]})
+   if im.name=='img' and ((label=='winterizer' and re.search('winter|blizz',u,re.I)) or ('enduro.callofduty.com' in u and im.get('alt')=='Bundle')):
+    urls.append((label+'-'+str(len(media)),u))
+  evidence[label]={'url':url,'media':media}
+ def one(item):
+  label,url=item;r=g.fetch(url,binary=True)
+  if not r['ok']:return None
+  try:
+   im=Image.open(io.BytesIO(r['body'])).convert('RGB');im.thumbnail((480,290));im.save(qa/(label+'.jpg'))
+   return label,url,im
+  except Exception:return None
+ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+  pictures=[x for x in pool.map(one,dict(urls).items()) if x]
+ if pictures:
+  out=Image.new('RGB',(1440,340*((len(pictures)+2)//3)),'white');draw=ImageDraw.Draw(out);font=ImageFont.load_default(size=18)
+  for i,(label,url,im) in enumerate(pictures):
+   x=(i%3)*480;y=(i//3)*340;out.paste(im,(x,y));draw.text((x+5,y+296),label,font=font,fill='black')
+  out.save(qa/'choices.jpg',quality=90)
+ g.save(qa/'sources.json',evidence)
+ g.save(qa/'image-options.json',[{'label':a,'url':b} for a,b,c in pictures])
+
+def finish_known_delta():
+ c=g.load(ROOT/'catalog.json',{});m=g.load(ROOT/'media.json',{});idx={e['id']:e for e in c['historical']+c['gaming']}
+ key='g-d34df9b0ab37'
+ source='https://blog.playstation.com/2013/10/31/new-ratchet-clank-into-the-nexus-trailer-unveiled-before-the-nexus-app-detailed/'
+ v=p.public_video(idx[key],'https://www.youtube.com/watch?v=DBx7g6pmwPE','Official weapons collection showcase; developer explicitly identifies Winterizer',source)
+ assert v,'Official Winterizer video metadata unavailable'
+ m[key]['video']=v
+ fixes={key:('https://www.gamespot.com/wp-content/uploads/original/mig/1/3/5/7/2051357-722615_20130820_004.jpg','https://www.gamespot.com/reviews/ratchet-clank-into-the-nexus-review/1900-6415538/'), 'g-5cc9fd742cb3':('https://www.imfdb.org/images/thumb/f/f8/Sw_rail_gun_equipped.jpg/600px-Sw_rail_gun_equipped.jpg','https://www.imfdb.org/wiki/Shadow_Warrior')}
+ for key,(url,source) in fixes.items():
+  im=p.image_url(idx[key],url,source,'Named weapon gameplay screenshot; source caption checked')
+  assert im,'Expected source image unavailable: '+key
+  m[key]['image']=im;m[key]['complete']=bool(m[key].get('video'))
+ entry=idx['efdee63eed52']
+ entry['hook']='Reactive M10 Breacher shotgun blueprint from the Dead Wrangler bundle, with distinctive animated detailing and tracer effects'
+ entry['source']='https://www.callofduty.com/my/en/store/bundles/5880'
+ d.TARGETS={}
+ d.write_all(c,m)
+ collect_review_candidates()
+
+
 def main():
  if len(sys.argv)>1 and sys.argv[1]=='--native-check':native_check();return
+ if len(sys.argv)==1:finish_known_delta();return
  d.main()
  if len(sys.argv)>1 and sys.argv[1]=='--verify-live':
   c=g.load(ROOT/'coverage.json',{})
