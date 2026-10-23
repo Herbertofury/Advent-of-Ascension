@@ -1747,6 +1747,8 @@ Image type: Catalog weapon reference image. [Image source](https://www.callofdut
 <a id="ref-2baf63b01c4c"></a>
 ## Felyne-themed Equipment (Monster Hunter)
 
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=Mu-9hyleXqM).
+[Video: ICEBORN Palico Armor &amp; Weapon Review - Adorable! &#124; Monster Hunter World](https://www.youtube.com/watch?v=Mu-9hyleXqM). Match: Felyne/Palico equipment collection review.
 
 <a id="ref-84185452ca2f"></a>
 ## Dirty Harry (Sunset Overdrive)
@@ -2904,7 +2906,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-b2ee8705214d"></a>
 ## Gold AKM sound effect (THE FINALS)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=lYp-ramEC0M).
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=lYp-ramEC0M).
 [Video: The Finals - 20 kill win with the Gold AKM](https://www.youtube.com/watch?v=lYp-ramEC0M). Match: Item-specific title and context checked.
 
 <a id="ref-c489aa3c77a2"></a>
@@ -3204,7 +3206,7 @@ Image type: Catalog weapon reference image. [Image source](https://callofduty.fa
 <a id="ref-efdee63eed52"></a>
 ## De-animator (Call of Duty: Black Ops 7)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=YCWYINZIEIg).
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=YCWYINZIEIg).
 [Video: Dead Wrangler Reactive Tracer Pack Zombies Store Preview (4K HDR) &#124; BO7 Wonder Weapon Bundle](https://www.youtube.com/watch?v=YCWYINZIEIg). Match: Named bundle collection showcase; publisher/source identifies this weapon.
 
 <a id="ref-d752f68db253"></a>
@@ -3358,8 +3360,13 @@ Image type: Catalog weapon reference image. [Image source](https://callofduty.fa
 [Video: Sinister Solstice Windchill Raygun Weapon Inspect &#124; Call Of Duty Black Ops 7](https://www.youtube.com/watch?v=NAjLee25MuY). Match: Item title matched.
 
 <a id="ref-4d77da11ed4d"></a>
+
+The earlier official Season 03 announcement calls this Razor 9mm reward Auric; the later Battle Pass article calls the base reward Tribulation and its variants Voltrix/Malison. The original catalog name is retained with this explicit source-name discrepancy. [Earlier publisher naming](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-warzone-season-03-announcement). [Later publisher naming](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-season-03-battle-pass-blackcell-store-bundles).
+
 ## Auric (Call of Duty: Black Ops 7)
 
+Image type: Weapon image from named creator/publisher source. [Image source](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-season-03-battle-pass-blackcell-store-bundles).
+[Video: Season 03 BlackCell Battle Pass Upgrade &#124; Call of Duty: Warzone &amp; Black Ops 7](https://www.youtube.com/watch?v=1FFpjZoguYo). Match: Official Season 03 BlackCell collection showcase; publisher identifies the Razor 9mm Mastercraft.
 
 <a id="ref-b1e0dbf8a835"></a>
 ## Vindex (Call of Duty: Black Ops 7)
@@ -3856,7 +3863,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-7d6051ff3283"></a>
 ## Astolfo Gun (Garry's Mod)
 
-[Video: Existing collection / context video](https://www.moddb.com/mods/astolfo-gun/videos/video-gameplay-of-me-playing-with-it-3). Match: Context only; item match unresolved.
+Image type: Weapon image from named creator/publisher source. [Image source](https://www.moddb.com/mods/astolfo-gun/images/in-third-person).
+[Video: video gameplay of me playing with it ;3 - Astolfo Gun for Garry&#x27;s Mod](https://www.moddb.com/mods/astolfo-gun/videos/video-gameplay-of-me-playing-with-it-3). Match: Creator-posted item-specific gameplay, 37 seconds.
 
 <a id="ref-fef4a94722d9"></a>
 ## Ark of the Cosmos (Terraria - Calamity Mod)
@@ -4221,8 +4229,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-b1138809119e"></a>
 ## ASMD Shock Rifle (Unreal Tournament)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=Ulq4o-gmQC8).
-[Video: Unreal Tournament Weapon in Borderlands 3 - ASMD Shock Rifle](https://www.youtube.com/watch?v=Ulq4o-gmQC8). Match: Item title matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=vWYVpJET3Eg).
+[Video: Unreal tournament Gameplay &#124; Sniper + shock Rifle](https://www.youtube.com/watch?v=vWYVpJET3Eg). Match: Item and exact game context reviewed.
 
 <a id="ref-g-6284934a2906"></a>
 ## Flak Cannon (Unreal Tournament)
@@ -4269,7 +4277,7 @@ Image type: Weapon-specific source image. [Image source](https://combineoverwiki
 <a id="ref-g-b4de25355cfc"></a>
 ## Tau Cannon (Half-Life)
 
-Image type: Weapon-specific source image. [Image source](https://combineoverwiki.net/wiki/Tau_Cannon).
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=xmv_4XxzeFs).
 [Video: Half-Life&#x27;s Tau Cannon: A Quick Look](https://www.youtube.com/watch?v=xmv_4XxzeFs). Match: Item title matched.
 
 <a id="ref-g-8e9411f17fe2"></a>
@@ -4305,8 +4313,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-08add982eb8b"></a>
 ## Aperture Science Handheld Portal Device (Portal)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=4Bm1QFPAD48).
-[Video: Aperture Science Handheld Portal Device](https://www.youtube.com/watch?v=4Bm1QFPAD48). Match: Item title matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=wA82CD9YFG0).
+[Video: PORTAL &#124; Full Gameplay Walkthrough &#124; No Commentary](https://www.youtube.com/watch?v=wA82CD9YFG0). Match: Item and exact game context reviewed.
 
 <a id="ref-g-642a63ff59ba"></a>
 ## Needler (Halo: Combat Evolved)
@@ -4431,8 +4439,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-5cc9fd742cb3"></a>
 ## Rail Gun (Shadow Warrior (1997))
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=uhwmR7rLwrY).
-[Video: A CERTAIN SCIENTIFIC RAILGUN: Let&#x27;s Play Shadow Warrior 2 Part 22](https://www.youtube.com/watch?v=uhwmR7rLwrY). Match: Item and game / historical identity matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=1ChFwAsyc1E).
+[Video: Shadow Warrior Classic Redux - All Weapons - Showcase - 1080p 60fps](https://www.youtube.com/watch?v=1ChFwAsyc1E). Match: Exact-game weapons collection showcase; individual timestamp not isolated.
 
 <a id="ref-g-eb9e481ef355"></a>
 ## Phoenix Rod (Heretic)
@@ -4714,7 +4722,6 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 ## Winterizer (Ratchet & Clank: Into the Nexus)
 
 Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=WkCFs1MVjqg).
-[Video: Winterizer Jingle Bells - Ratchet &amp; Clank: Into the Nexus (OST)](https://www.youtube.com/watch?v=WkCFs1MVjqg). Match: Item title matched.
 
 <a id="ref-g-222a7a980227"></a>
 ## Wave Concussor (Jak 3)
@@ -4875,8 +4882,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-4fcc58a121ec"></a>
 ## Sniper Helmet (MDK)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QX1FXW4Nyxo).
-[Video: Unboxing of SWAT weapons toy set, MK17 assault rifle, tactical helmet, sniper rifle, and bomb](https://www.youtube.com/watch?v=QX1FXW4Nyxo). Match: Item title matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=7KxhI2xSfTA).
+[Video: MDK (1997) FULL GAMEPLAY - no commentary](https://www.youtube.com/watch?v=7KxhI2xSfTA). Match: Item and exact game context reviewed.
 
 <a id="ref-g-0c2fd71d7a59"></a>
 ## Laptop Gun (Perfect Dark)
@@ -4917,6 +4924,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-c7cf78d773de"></a>
 ## Monkey Gun (TimeSplitters: Future Perfect)
 
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=O9944b7GjLg).
+[Video: TimeSplitters: Future Perfect - All weapons showcase](https://www.youtube.com/watch?v=O9944b7GjLg). Match: TimeSplitters Future Perfect all-weapons collection showcase.
 
 <a id="ref-g-e7978f45c704"></a>
 ## Injector (TimeSplitters: Future Perfect)
@@ -5065,8 +5074,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-7b0c8490ee99"></a>
 ## World's Smallest Black Hole (Armed and Dangerous)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=Z0PbIam6PdU).
-[Video: The Most Dangerous Black Hole Types in the Universe](https://www.youtube.com/watch?v=Z0PbIam6PdU). Match: Item and game / historical identity matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=dt9rWEi51TA).
+[Video: Armed and Dangerous - Black Hole](https://www.youtube.com/watch?v=dt9rWEi51TA). Match: Item and exact game context reviewed.
 
 <a id="ref-g-ea635cd164e1"></a>
 ## Chippunk (Oddworld: Stranger's Wrath)
@@ -5275,8 +5284,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-7df6bac96c96"></a>
 ## Service Weapon Grip (Control)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=vIiA-Lu8YUo).
-[Video: Grip Control Gear Review](https://www.youtube.com/watch?v=vIiA-Lu8YUo). Match: Item and game / historical identity matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=1y4CaZfZGOk).
+[Video: Control - Chapter 4: Low Health Boost For Grip &amp; Shatter Projectile Choke Mods Gameplay (2019)](https://www.youtube.com/watch?v=1y4CaZfZGOk). Match: Item and exact game context reviewed.
 
 <a id="ref-g-dd85631612d5"></a>
 ## Service Weapon Shatter (Control)
@@ -5305,8 +5314,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-0c5d628b3876"></a>
 ## Service Weapon Surge (Control)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=ttQ0-nFLXvg).
-[Video: Anti-Surge Control In Gas Compressors - What Is It? How Do We Prevent It?](https://www.youtube.com/watch?v=ttQ0-nFLXvg). Match: Item and game / historical identity matched.
+Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=10KqVv87ckQ).
+[Video: Control / Surge Gun (AWE DLC)](https://www.youtube.com/watch?v=10KqVv87ckQ). Match: Item and exact game context reviewed.
 
 <a id="ref-g-4f1478f94680"></a>
 ## Hollowseeker (Returnal)
@@ -5965,8 +5974,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-47c3ba327dd2"></a>
 ## Bullet (Enter the Gungeon)
 
-Image type: Weapon reference image. [Image source](https://enterthegungeon.wiki.gg/wiki/Bullet).
-[Video: 11 Insane Bullet-Hell Guns in Enter the Gungeon - IGN First](https://www.youtube.com/watch?v=k82yeohZzmo). Match: Item title matched.
+Image type: Weapon-specific image; file identity checked. [Image source](https://enterthegungeon.wiki.gg/wiki/Bullet).
+[Video: Gun Shooting Bullet Gun &#124; Part 152 &#124; Let&#x27;s Play: Enter the Gungeon &#124; Convict PC Gameplay](https://www.youtube.com/watch?v=2H4G4eJe5mI). Match: Item and exact game context reviewed.
 
 <a id="ref-g-88451ac67a7f"></a>
 ## Barrel (Enter the Gungeon)
@@ -5983,7 +5992,7 @@ Image type: Weapon-specific source image. [Image source](https://enterthegungeon
 <a id="ref-g-d328427af167"></a>
 ## Microtransaction Gun (Enter the Gungeon)
 
-Image type: Weapon reference image. [Image source](https://enterthegungeon.wiki.gg/wiki/Microtransaction_Gun).
+Image type: Weapon-specific image; file identity checked. [Image source](https://enterthegungeon.wiki.gg/wiki/Microtransaction_Gun).
 [Video: Enter the Gungeon - Hands On Microtransaction Gun](https://www.youtube.com/watch?v=dMb0noFveqY). Match: Item title matched.
 
 <a id="ref-g-7b3096cf88e6"></a>
@@ -6019,7 +6028,7 @@ Image type: Weapon-specific source image. [Image source](https://enterthegungeon
 <a id="ref-g-505aa54cc6f0"></a>
 ## Composite Gun (Enter the Gungeon)
 
-Image type: Weapon reference image. [Image source](https://enterthegungeon.wiki.gg/wiki/Composite_Gun).
+Image type: Weapon-specific image; file identity checked. [Image source](https://enterthegungeon.wiki.gg/wiki/Composite_Gun).
 [Video: Enter the Gungeon (PC) - Composite Gun Gameplay? - Enter the Gungeon Playthrough](https://www.youtube.com/watch?v=jgiKuK8mW5U). Match: Item title matched.
 
 <a id="ref-g-9988cd53b267"></a>
