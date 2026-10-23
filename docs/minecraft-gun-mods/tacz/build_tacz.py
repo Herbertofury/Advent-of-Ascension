@@ -21,5 +21,8 @@ def main():
  if (ROOT/'build_ui.py').exists():
   import build_ui
   build_ui.main()
+  if (ROOT/'polish_tacz.py').exists():
+   import polish_tacz
+   polish_tacz.main()
  else:print('New source qualification checkpoint saved; interface source not yet staged.',flush=True)
 if __name__=='__main__':main()
