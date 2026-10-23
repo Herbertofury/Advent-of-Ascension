@@ -1,0 +1,116 @@
+name: Build Minecraft Gun Atlas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/minecraft-gun-build.yml'
+      - 'docs/minecraft-gun-mods/build-stage.txt'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: minecraft-gun-atlas-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Open review branch without modifying protected main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/gun-atlas-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/AGENTS.md\n' > .git/info/sparse-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin minecraft-gun-atlas-2026-10-23 >/dev/null 2>&1; then
+            git fetch --depth 50 origin minecraft-gun-atlas-2026-10-23 main
+            git checkout -B minecraft-gun-atlas-2026-10-23 origin/minecraft-gun-atlas-2026-10-23
+            git merge origin/main --no-edit
+          else
+            git checkout -b minecraft-gun-atlas-2026-10-23 origin/main
+          fi
+      - name: Restore the completed research checkpoint with its exact digest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts/12488169602/zip" > research.zip
+          echo 'dfb168580ae5112356ae04f22e36374cfa2dd00399c339ab7a6b39aaeed6acee  research.zip' | sha256sum --check
+          python3 - <<'PY'
+          import zipfile,shutil
+          from pathlib import Path
+          root=Path('source/docs/minecraft-gun-mods')
+          with zipfile.ZipFile('research.zip') as archive:
+              for name in archive.namelist():
+                  rel=Path(name)
+                  if rel.parts[0]!='minecraft-gun-mods': continue
+                  rel=Path(*rel.parts[1:])
+                  if not rel.parts or '..' in rel.parts: continue
+                  allowed=rel.parts[0] in {'assets','research-cache','fixtures'} or (len(rel.parts)==1 and rel.suffix=='.json')
+                  if not allowed: continue
+                  target=root/rel
+                  if target.exists() or name.endswith('/'): continue
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  with archive.open(name) as src,target.open('wb') as dst: shutil.copyfileobj(src,dst)
+          PY
+      - name: Qualify identities and build the real production catalog
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          cd source
+          python3 -m py_compile docs/minecraft-gun-mods/refine.py docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/harden.py
+          python3 docs/minecraft-gun-mods/refine.py
+          python3 docs/minecraft-gun-mods/build.py
+          python3 docs/minecraft-gun-mods/harden.py
+          node --check docs/minecraft-gun-mods/app.js
+      - name: Checkpoint complete source and media before browser gates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/gun-atlas-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/*.json docs/minecraft-gun-mods/*.js docs/minecraft-gun-mods/*.css docs/minecraft-gun-mods/*.html docs/minecraft-gun-mods/README.md docs/minecraft-gun-mods/assets docs/minecraft-gun-mods/qa/browser_test.py docs/minecraft-gun-mods/qa/data-verification.json docs/Minecraft-Gun-Mod-Inspirations*.md
+          if ! git diff --cached --quiet; then git commit -m 'Build complete source-qualified Minecraft gun atlas and illustrated Wiki'; fi
+          git push origin HEAD:minecraft-gun-atlas-2026-10-23
+          git rev-parse HEAD > docs/minecraft-gun-mods/qa/source-commit.txt
+      - name: Exercise the full real-data explorer in Chromium
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/qa/production
+      - name: Persist browser acceptance on the same review branch
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/gun-atlas-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          if [ -f docs/minecraft-gun-mods/qa/production/browser-report.json ]; then
+            git add docs/minecraft-gun-mods/qa/production/browser-report.json docs/minecraft-gun-mods/qa/source-commit.txt
+            if ! git diff --cached --quiet; then git commit -m 'Record real-data browser validation of Minecraft gun atlas'; git push origin HEAD:minecraft-gun-atlas-2026-10-23; fi
+          fi
+      - name: Preserve complete atlas, media, provenance and visual QA
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-atlas-built
+          path: |
+            source/docs/minecraft-gun-mods/
+            source/docs/Minecraft-Gun-Mod-Inspirations*.md
+            !source/docs/minecraft-gun-mods/research-cache/**
+            !source/docs/minecraft-gun-mods/fixtures/**
+            !source/docs/minecraft-gun-mods/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
