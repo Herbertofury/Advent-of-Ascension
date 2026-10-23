@@ -5,12 +5,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/build-weapon-galleries.yml'
-      - 'docs/weapon-inspirations/*.py'
-      - 'docs/weapon-inspirations/*.py.txt'
-      - 'docs/weapon-inspirations/*.module'
-      - 'docs/weapon-inspirations/quality-fixes.json'
-      - 'docs/weapon-inspirations/*-overrides.json'
-      - 'docs/weapon-inspirations/gaming-additions.tsv'
+      - 'docs/weapon-inspirations/final_delta.py.delta'
+      - 'docs/weapon-inspirations/final_entrypoint.py.audit'
 permissions:
   contents: write
 concurrency:
@@ -38,13 +34,13 @@ jobs:
           git checkout -B media-publish "$GITHUB_SHA"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Improve actual weapon media and compact the full galleries
+      - name: Apply remaining exact media corrections
         run: |
           set -euo pipefail
           cd source
-          python3 -m pip install --quiet requests beautifulsoup4 pillow yt-dlp
-          python3 -m py_compile docs/weapon-inspirations/build_galleries.py docs/weapon-inspirations/finish_media.py.txt docs/weapon-inspirations/polish_gallery.module
-          python3 docs/weapon-inspirations/polish_gallery.module
+          python3 -m pip install --quiet requests beautifulsoup4 pillow yt-dlp playwright
+          python3 -m py_compile docs/weapon-inspirations/final_delta.py.delta docs/weapon-inspirations/final_entrypoint.py.audit
+          python3 docs/weapon-inspirations/final_entrypoint.py.audit
       - name: Persist coherent source and image checkpoint
         env:
           WIKI_TOKEN: ${{ github.token }}
@@ -54,7 +50,7 @@ jobs:
           cd source
           git add docs/weapon-inspirations/*.json docs/weapon-inspirations/images docs/Historical-and-Experimental-Gun-Inspirations.md docs/Video-Game-Weapon-Inspirations.md docs/Weapon-Inspiration-Media-Sources.md
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish full compact galleries and improve weapon-specific image evidence'
+            git commit -m 'Finalize exact game media and refresh cached Wiki weapon images'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -66,28 +62,35 @@ jobs:
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
           git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
-          python3 source/docs/weapon-inspirations/polish_gallery.module --publish-only wiki
+          python3 source/docs/weapon-inspirations/final_entrypoint.py.audit --publish-only wiki
           cd wiki
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- '*.md'
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish complete illustrated gaming and historical galleries with media provenance'
+            git commit -m 'Publish all illustrated weapon references with direct videos and corrected imagery'
             git push origin HEAD
           fi
           git rev-parse HEAD > ../source/docs/weapon-inspirations/qa/wiki-commit.txt
-      - name: Verify rendered Wiki contains every entry and image
-        run: python3 source/docs/weapon-inspirations/polish_gallery.module --verify-live wiki
-      - name: Persist live Wiki publication receipt
+      - name: Verify complete rendered Wiki and 1044 media pairs
+        run: python3 source/docs/weapon-inspirations/final_entrypoint.py.audit --verify-live wiki
+      - name: Verify all images decode in the actual browser
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then
+            python3 -m playwright install --with-deps chromium
+          fi
+          python3 source/docs/weapon-inspirations/final_entrypoint.py.audit --native-check
+      - name: Persist live Wiki publication and native browser receipts
         env:
           WIKI_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
           cd source
-          git add docs/weapon-inspirations/qa/live-wiki-verification.json docs/weapon-inspirations/qa/wiki-commit.txt
+          git add docs/weapon-inspirations/qa/live-wiki-verification.json docs/weapon-inspirations/qa/native-browser-verification.json docs/weapon-inspirations/qa/wiki-commit.txt
           if ! git diff --cached --quiet; then
-            git commit -m 'Record live Wiki rendered-image and full-entry verification'
+            git commit -m 'Verify all live Wiki images, entries and navigation in Chromium'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
