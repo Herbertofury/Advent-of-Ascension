@@ -1292,7 +1292,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 ## Turret Copters (Sunset Overdrive)
 
 Image type: Named weapon image from exact source page. [Image source](https://sunsetoverdrive.fandom.com/wiki/Turret_Copter).
-[Video: Sunset Overdrive Episode 22- Pyro Geysers, Vats and Turret Copters](https://www.youtube.com/watch?v=mF-HD9Us0SU). Match: Item title matched.
+[Video: Sunset Overdrive Episode 22- Pyro Geysers, Vats and Turret Copters](https://www.youtube.com/watch?v=mF-HD9Us0SU). Match: Named multi-item episode; collection reference.
 
 <a id="ref-d313f98762c5"></a>
 ## Celebration Mk2 (Terraria)
@@ -1622,7 +1622,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 ## Pyro Geyser (Sunset Overdrive)
 
 Image type: Named weapon image from exact source page. [Image source](https://sunsetoverdrive.fandom.com/wiki/Pyro_Geyser).
-[Video: Sunset Overdrive Episode 22- Pyro Geysers, Vats and Turret Copters](https://www.youtube.com/watch?v=mF-HD9Us0SU). Match: Item title matched.
+[Video: Sunset Overdrive Episode 22- Pyro Geysers, Vats and Turret Copters](https://www.youtube.com/watch?v=mF-HD9Us0SU). Match: Named multi-item episode; collection reference.
 
 <a id="ref-856ac76bf307"></a>
 ## Bee Gun (Terraria)
@@ -3735,10 +3735,13 @@ Image type: Exact named video chapter thumbnail. [Image source](https://www.yout
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=692s). Match: Chapter matched.
 
 <a id="ref-1ea23263a704"></a>
+
+The previous source labels 11:35 as Mancubus but the chapter image still shows Revenant launchers. Replaced with the independently matched v22 weapon chapter. 
+
 ## Mancubus Launcher (DOOM II - Brutal Doom v22)
 
-Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s).
-[Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s). Match: Chapter matched.
+Image type: Mancubus weapon screenshot from exact v22 chapter. [Image source](https://www.youtube.com/watch?v=BjQ5BeGuwV4).
+[Video: Brutal Doom v22 ZioMcCall&#x27;s Flavour - All Weapons Showcase](https://www.youtube.com/watch?v=BjQ5BeGuwV4&t=767s). Match: Item chapter matched.
 
 <a id="ref-3ac8dfb7b789"></a>
 ## Tactical Nuke Launcher (DOOM II - Brutal Doom v22)
@@ -4049,13 +4052,13 @@ Image type: Weapon chapter gameplay frame from credited video mirror. [Image sou
 <a id="ref-6c110f752d77"></a>
 ## Camera (Forgive Me Father)
 
-Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Named ability chapter screenshot. [Image source](https://www.youtube.com/watch?v=L_59BErDMTI&t=366s).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=366s). Match: Chapter matched.
 
 <a id="ref-236d40511d64"></a>
 ## Voodoo Doll (Forgive Me Father)
 
-Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Named ability chapter screenshot. [Image source](https://www.youtube.com/watch?v=L_59BErDMTI&t=373s).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=373s). Match: Chapter matched.
 
 <a id="ref-c76f635ca81e"></a>
@@ -5057,7 +5060,7 @@ Image type: Weapon-specific image; file identity checked. [Image source](https:/
 <a id="ref-g-4e491482f415"></a>
 ## Singularity Bomb (Red Faction: Guerrilla)
 
-Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=hoPYUijNE0k).
+Image type: Named weapon image from exact source page. [Image source](https://redfaction.fandom.com/wiki/EDF_Singularity_Bombs).
 [Video: Red Faction: Guerrilla - Singularity Bomb &amp; Nano-Rifle Doc [ HD ]](https://www.youtube.com/watch?v=IBBYQ-SsoPQ). Match: Item title matched.
 
 <a id="ref-g-a17366a27dbf"></a>
