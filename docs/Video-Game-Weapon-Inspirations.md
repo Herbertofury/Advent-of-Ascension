@@ -1,5 +1,12 @@
 # Video-game weapon inspirations
 
+<!-- research-expansion:start -->
+## New discoveries
+
+**[35 additional gaming references](Video-Game-Weapon-Inspirations-Volume-2)** have been added in a dedicated illustrated continuation. The full gaming collection now contains **927 references**, with all 892 originals retained below. [Historical additions](Historical-and-Experimental-Gun-Inspirations#new-research-additions) | [New media sources](Weapon-Inspiration-Media-Sources-Expansion).
+<!-- research-expansion:end -->
+
+
 **892 references | 139 collections | 892 embedded images | 892 direct video references**
 
 [Other collection](Historical-and-Experimental-Gun-Inspirations) | [Armory](Weapon-Overhaul) | [Reference library](Weapon-Reference-Library)

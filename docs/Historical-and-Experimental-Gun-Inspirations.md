@@ -6,6 +6,8 @@
 
 Weapon behavior describes the reference. **AoA remix** is an original proposal, not an implemented feature. Each image is embedded here. **Watch** opens its video directly, not a search. **Preview** means a video thumbnail rather than a separate weapon photograph. **Chapter** means the linked timestamp identifies the item; **collection** identifies an explicitly labeled multi-item showcase. Titles, sources and chapter metadata have been checked; this does not claim every video was watched in full. Source credits and detailed matching evidence remain in the [media ledger](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/weapon-inspirations/media.json).
 
+**[Jump to 0 new discoveries](#new-research-additions)** | [Expanded gaming gallery](Video-Game-Weapon-Inspirations-Volume-2)
+
 ## Browse by collection
 
 [Bullpups and Futuristic Rifles (15)](#collection-bullpups-and-futuristic-rifles) | [Experimental Pistols (16)](#collection-experimental-pistols) | [Experimental and Exotic Ammunition (12)](#collection-experimental-and-exotic-ammunition) | [Folding and Compact Weapons (13)](#collection-folding-and-compact-weapons) | [Historic Repeaters and Unusual Reloads (14)](#collection-historic-repeaters-and-unusual-reloads) | [Launchers, Flames and Other Oddities (13)](#collection-launchers-flames-and-other-oddities) | [Ornate and Antique Rarities (13)](#collection-ornate-and-antique-rarities) | [Revolvers and Rotating Chambers (13)](#collection-revolvers-and-rotating-chambers) | [Rotary Machine Guns and Giant Weapons (12)](#collection-rotary-machine-guns-and-giant-weapons) | [Shotguns and Multiple Barrels (17)](#collection-shotguns-and-multiple-barrels) | [Top, Sideways and Helical Feeds (14)](#collection-top-sideways-and-helical-feeds)
@@ -250,6 +252,12 @@ Weapon behavior describes the reference. **AoA remix** is an original proposal, 
 
 [Collections](#browse-by-collection)
 
+
+<a id="new-research-additions"></a>
+## New research additions
+
+
+
 ## End of gallery
 
-All 152 reference records are retained. Original works and images are credited through their source links. This is a design reference collection, not a package of reusable game assets.
+All 152 historical references are retained, including the original 152.
