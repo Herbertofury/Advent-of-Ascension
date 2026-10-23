@@ -23,5 +23,9 @@ def main():
 """
         text=text[:start]+replacement+text[end:]
     ast.parse(text);path.write_text(text,encoding='utf-8')
+    test=ROOT/'test_update.py';body=test.read_text(encoding='utf-8')
+    body=body.replace("server=socketserver.TCPServer(('127.0.0.1',0),Handler);threading.Thread", "server=socketserver.ThreadingTCPServer(('127.0.0.1',0),Handler);server.daemon_threads=True;threading.Thread")
+    body=body.replace("report['checks'].append({'name':name,'passed':bool(value),'details':details});", "print('CHECK',name,bool(value),flush=True);report['checks'].append({'name':name,'passed':bool(value),'details':details});")
+    ast.parse(body);test.write_text(body,encoding='utf-8')
     spec=importlib.util.spec_from_file_location('creator_update_final',path);module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);module.main()
 if __name__=='__main__':main()
