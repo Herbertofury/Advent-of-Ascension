@@ -1,0 +1,87 @@
+name: Repair Minecraft Gun Atlas publication
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/minecraft-gun-publication-repair.yml']
+permissions:
+  contents: write
+  actions: read
+  pages: read
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Open exact canonical publication files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/atlas-publication-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/docs/_config.yml\n/docs/.nojekyll\n' > .git/info/sparse-checkout
+          git checkout -b minecraft-gun-publication-repair origin/main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Fix literal creator titles without changing the catalog
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet pillow playwright requests
+          python3 source/docs/minecraft-gun-mods/literal_titles.py
+          export GIT_ASKPASS="$RUNNER_TEMP/atlas-publication-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/wiki-manifest.json docs/minecraft-gun-mods/qa/literal-title-verification.json docs/Minecraft-Gun-Mod-Inspirations*.md
+          git diff --cached --stat
+          if ! git diff --cached --quiet; then git commit -m 'Preserve exact creator titles in rendered Minecraft gun Wiki tables'; fi
+          git push origin HEAD:minecraft-gun-publication-repair
+          git rev-parse HEAD > ../repair-head.txt
+      - name: Diagnose the existing Pages deployment and preserve evidence
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import requests,os,json
+          from pathlib import Path
+          base='https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY'];s=requests.Session();s.headers['Authorization']='Bearer '+os.environ['GH_TOKEN'];s.headers['Accept']='application/vnd.github+json'
+          out={}
+          for label,path in [('pages','/pages'),('latest','/pages/builds/latest'),('runs','/actions/workflows/385904329/runs?per_page=6')]:
+              res=s.get(base+path,timeout=30);body=res.json();out[label]=body
+              if label=='runs':
+                  out[label]=[{k:x.get(k) for k in ('id','status','conclusion','head_sha','created_at','updated_at')} for x in body.get('workflow_runs',[])]
+                  failed=next((x for x in body.get('workflow_runs',[]) if x.get('conclusion')=='failure'),None)
+                  if failed:
+                      jobs=s.get(base+'/actions/runs/'+str(failed['id'])+'/jobs',timeout=30).json().get('jobs',[])
+                      out['failedJobs']=[{k:j.get(k) for k in ('id','name','status','conclusion','steps')} for j in jobs]
+                      for j in jobs:
+                          if j.get('conclusion')=='failure':
+                              log=s.get(base+'/actions/jobs/'+str(j['id'])+'/logs',timeout=45)
+                              out['failureLogTail']=log.text[-18000:]
+                              break
+          print(json.dumps(out,indent=2))
+          Path('pages-diagnosis.json').write_text(json.dumps(out,indent=2))
+          PY
+      - name: Exercise portable explorer with every network request blocked
+        run: |
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/qa/offline_check.py
+      - name: Preserve targeted evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-publication-repair
+          path: |
+            repair-head.txt
+            pages-diagnosis.json
+            source/docs/minecraft-gun-mods/qa/literal-title-verification.json
+            source/docs/minecraft-gun-mods/qa/offline/
+          retention-days: 30
+          if-no-files-found: error
