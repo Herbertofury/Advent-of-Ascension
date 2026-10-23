@@ -1,6 +1,6 @@
 # Video-game weapon inspirations
 
-**892 references | 140 collections | 866 embedded images | 851 item/chapter-matched direct videos**
+**892 references | 140 collections | 884 embedded images | 874 item/chapter-matched direct videos**
 
 [Other inspiration collection](Historical-and-Experimental-Gun-Inspirations) | [Ascension Armory](Weapon-Overhaul) | [Weapon reference library](Weapon-Reference-Library)
 
@@ -8,11 +8,13 @@ A visual reference library for original Advent of Ascension designs. **Reference
 
 Images are reference material attributed through their source links, not a collection of reusable game assets. This page studies silhouettes, animation, fictional effects and playful design; it does not provide real-world weapon construction instructions.
 
-> **Media work still open: 42 entries.** Missing or context-only media is explicitly marked below; no search-result link is counted as an embedded image or verified item video.
+> **Media work still open: 18 entries.** Missing or context-only media is explicitly marked below; no search-result link is counted as an embedded image or verified item video.
 
 ## Browse by collection
 
-[Alien: Isolation (1)](#alien-isolation) | [Armed and Dangerous (3)](#armed-and-dangerous) | [Bayonetta 3 (9)](#bayonetta-3) | [BioShock (1)](#bioshock) | [BioShock 2 (2)](#bioshock-2) | [Blade &amp; Sorcery (1)](#blade-sorcery) | [Blood (4)](#blood) | [Borderlands (1)](#borderlands) | [Borderlands 2 (11)](#borderlands-2) | [Borderlands 3 (20)](#borderlands-3) | [Borderlands: The Pre-Sequel (3)](#borderlands-the-pre-sequel) | [Bulletstorm (6)](#bulletstorm) | [Call of Duty: Black Ops 4 (33)](#call-of-duty-black-ops-4) | [Call of Duty: Black Ops 6 (61)](#call-of-duty-black-ops-6) | [Call of Duty: Black Ops 7 (56)](#call-of-duty-black-ops-7) | [Call of Duty: Black Ops Cold War (31)](#call-of-duty-black-ops-cold-war) | [Call of Duty: Mobile (38)](#call-of-duty-mobile) | [Call of Duty: Modern Warfare III (10)](#call-of-duty-modern-warfare-iii) | [Call of Duty: Vanguard (30)](#call-of-duty-vanguard) | [Clive Barker&#x27;s Undying (2)](#clive-barker-s-undying) | [Contra (1)](#contra) | [Contra: Hard Corps (1)](#contra-hard-corps) | [Control (6)](#control) | [Crypt of the NecroDancer (1)](#crypt-of-the-necrodancer) | [Crysis 3 (2)](#crysis-3) | [DOOM (1)](#doom) | [DOOM Eternal (4)](#doom-eternal) | [DOOM II (1)](#doom-ii) | [DOOM II - Brutal CyberDoom (3)](#doom-ii-brutal-cyberdoom) | [DOOM II - Brutal Doom v22 (7)](#doom-ii-brutal-doom-v22) | [DOOM II - Brutal Wolfenstein 3D (3)](#doom-ii-brutal-wolfenstein-3d) | [DOOM: The Dark Ages (7)](#doom-the-dark-ages) | [DUSK (2)](#dusk) | [Dead Rising 3 (5)](#dead-rising-3) | [Dead Space (5)](#dead-space) | [Dead Space 2 (2)](#dead-space-2) | [Destiny 2 (25)](#destiny-2) | [Destroy All Humans! (3)](#destroy-all-humans) | [Destroy All Humans! 2 (4)](#destroy-all-humans-2) | [Devil May Cry 5 (4)](#devil-may-cry-5) | [Duke Nukem 3D (3)](#duke-nukem-3d) | [Duke Nukem 3D: Atomic Edition (1)](#duke-nukem-3d-atomic-edition) | [Earthworm Jim (1)](#earthworm-jim) | [Earthworm Jim 2 (1)](#earthworm-jim-2) | [Enter the Gungeon (30)](#enter-the-gungeon) | [Fallout 4 (7)](#fallout-4) | [Far Cry 6 (11)](#far-cry-6) | [Forgive Me Father (24)](#forgive-me-father) | [Forgive Me Father 2 (1)](#forgive-me-father-2) | [Garry&#x27;s Mod (1)](#garry-s-mod) | [Gears 5 (1)](#gears-5) | [Gears of War (2)](#gears-of-war) | [Gears of War 2 (1)](#gears-of-war-2) | [Gears of War 3 (1)](#gears-of-war-3) | [Gears of War 4 (1)](#gears-of-war-4) | [GoldenEye 007 (1)](#goldeneye-007) | [Gunfire Reborn (6)](#gunfire-reborn) | [Half-Life (4)](#half-life) | [Half-Life 2 (3)](#half-life-2) | [Halo (2)](#halo) | [Halo 2 (1)](#halo-2) | [Halo 3 (2)](#halo-3) | [Halo 4 (3)](#halo-4) | [Halo 5: Guardians (1)](#halo-5-guardians) | [Halo Infinite (1)](#halo-infinite) | [Halo: Combat Evolved (1)](#halo-combat-evolved) | [Heretic (4)](#heretic) | [Hexen (3)](#hexen) | [Hi-Fi RUSH (1)](#hi-fi-rush) | [High on Life (6)](#high-on-life) | [High on Life 2 (3)](#high-on-life-2) | [Jak 3 (5)](#jak-3) | [Just Cause 4 (1)](#just-cause-4) | [MDK (1)](#mdk) | [Mega Man 2 (3)](#mega-man-2) | [Mega Man 3 (1)](#mega-man-3) | [Mega Man X (2)](#mega-man-x) | [Metal Slug (4)](#metal-slug) | [Metroid Prime (4)](#metroid-prime) | [Metroid Prime 2: Echoes (3)](#metroid-prime-2-echoes) | [Minecraft - Scorched Guns 2 (8)](#minecraft-scorched-guns-2) | [Monster Hunter (4)](#monster-hunter) | [Noita (3)](#noita) | [Oddworld: Stranger&#x27;s Wrath (8)](#oddworld-stranger-s-wrath) | [Overwatch 2 (3)](#overwatch-2) | [POSTAL: Brain Damaged (3)](#postal-brain-damaged) | [Painkiller (3)](#painkiller) | [Perfect Dark (5)](#perfect-dark) | [Portal (1)](#portal) | [Prey (2006) (3)](#prey-2006) | [Prey (2017) (2)](#prey-2017) | [Quake (4)](#quake) | [Quake II (2)](#quake-ii) | [Quake III Arena (1)](#quake-iii-arena) | [Ratchet &amp; Clank (6)](#ratchet-clank) | [Ratchet &amp; Clank: A Crack in Time (3)](#ratchet-clank-a-crack-in-time) | [Ratchet &amp; Clank: All 4 One (1)](#ratchet-clank-all-4-one) | [Ratchet &amp; Clank: Deadlocked (1)](#ratchet-clank-deadlocked) | [Ratchet &amp; Clank: Going Commando (7)](#ratchet-clank-going-commando) | [Ratchet &amp; Clank: Into the Nexus (2)](#ratchet-clank-into-the-nexus) | [Ratchet &amp; Clank: Rift Apart (11)](#ratchet-clank-rift-apart) | [Ratchet &amp; Clank: Tools of Destruction (3)](#ratchet-clank-tools-of-destruction) | [Ratchet &amp; Clank: Up Your Arsenal (6)](#ratchet-clank-up-your-arsenal) | [Red Faction: Armageddon (2)](#red-faction-armageddon) | [Red Faction: Guerrilla (2)](#red-faction-guerrilla) | [Remnant II (10)](#remnant-ii) | [Remnant: From the Ashes (4)](#remnant-from-the-ashes) | [Resistance 2 (1)](#resistance-2) | [Resistance 3 (2)](#resistance-3) | [Resistance: Fall of Man (3)](#resistance-fall-of-man) | [Returnal (6)](#returnal) | [Roboquest (3)](#roboquest) | [Saints Row IV (13)](#saints-row-iv) | [Saints Row: Gat Out of Hell (7)](#saints-row-gat-out-of-hell) | [Saints Row: The Third (2)](#saints-row-the-third) | [Serious Sam (1)](#serious-sam) | [Serious Sam 3: BFE (1)](#serious-sam-3-bfe) | [Serious Sam 4 (1)](#serious-sam-4) | [Shadow Warrior (1997) (2)](#shadow-warrior-1997) | [Singularity (2)](#singularity) | [Splatoon (7)](#splatoon) | [Splatoon 3 (10)](#splatoon-3) | [Starfield (3)](#starfield) | [Sunset Overdrive (9)](#sunset-overdrive) | [THE FINALS (25)](#the-finals) | [Terraria (20)](#terraria) | [Terraria - Calamity Mod (9)](#terraria-calamity-mod) | [The Elder Scrolls V: Skyrim (2)](#the-elder-scrolls-v-skyrim) | [TimeSplitters: Future Perfect (3)](#timesplitters-future-perfect) | [Tiny Tina&#x27;s Wonderlands (4)](#tiny-tina-s-wonderlands) | [Titanfall 2 (6)](#titanfall-2) | [Turbo Overkill (1)](#turbo-overkill) | [Turok 2: Seeds of Evil (4)](#turok-2-seeds-of-evil) | [Turok: Dinosaur Hunter (2)](#turok-dinosaur-hunter) | [Turok: Rage Wars (1)](#turok-rage-wars) | [ULTRAKILL (11)](#ultrakill) | [Unreal Tournament (5)](#unreal-tournament) | [Unreal Tournament 2004 (2)](#unreal-tournament-2004) | [VALORANT (14)](#valorant) | [Warframe (40)](#warframe)
+[Alien: Isolation (1)](#collection-alien-isolation) | [Armed and Dangerous (3)](#collection-armed-and-dangerous) | [Bayonetta 3 (9)](#collection-bayonetta-3) | [BioShock (1)](#collection-bioshock) | [BioShock 2 (2)](#collection-bioshock-2) | [Blade &amp; Sorcery (1)](#collection-blade-sorcery) | [Blood (4)](#collection-blood) | [Borderlands (1)](#collection-borderlands) | [Borderlands 2 (11)](#collection-borderlands-2) | [Borderlands 3 (20)](#collection-borderlands-3) | [Borderlands: The Pre-Sequel (3)](#collection-borderlands-the-pre-sequel) | [Bulletstorm (6)](#collection-bulletstorm) | [Call of Duty: Black Ops 4 (33)](#collection-call-of-duty-black-ops-4) | [Call of Duty: Black Ops 6 (61)](#collection-call-of-duty-black-ops-6) | [Call of Duty: Black Ops 7 (56)](#collection-call-of-duty-black-ops-7) | [Call of Duty: Black Ops Cold War (31)](#collection-call-of-duty-black-ops-cold-war) | [Call of Duty: Mobile (38)](#collection-call-of-duty-mobile) | [Call of Duty: Modern Warfare III (10)](#collection-call-of-duty-modern-warfare-iii) | [Call of Duty: Vanguard (30)](#collection-call-of-duty-vanguard) | [Clive Barker&#x27;s Undying (2)](#collection-clive-barker-s-undying) | [Contra (1)](#collection-contra) | [Contra: Hard Corps (1)](#collection-contra-hard-corps) | [Control (6)](#collection-control) | [Crypt of the NecroDancer (1)](#collection-crypt-of-the-necrodancer) | [Crysis 3 (2)](#collection-crysis-3) | [DOOM (1)](#collection-doom) | [DOOM Eternal (4)](#collection-doom-eternal) | [DOOM II (1)](#collection-doom-ii) | [DOOM II - Brutal CyberDoom (3)](#collection-doom-ii-brutal-cyberdoom) | [DOOM II - Brutal Doom v22 (7)](#collection-doom-ii-brutal-doom-v22) | [DOOM II - Brutal Wolfenstein 3D (3)](#collection-doom-ii-brutal-wolfenstein-3d) | [DOOM: The Dark Ages (7)](#collection-doom-the-dark-ages) | [DUSK (2)](#collection-dusk) | [Dead Rising 3 (5)](#collection-dead-rising-3) | [Dead Space (5)](#collection-dead-space) | [Dead Space 2 (2)](#collection-dead-space-2) | [Destiny 2 (25)](#collection-destiny-2) | [Destroy All Humans! (3)](#collection-destroy-all-humans) | [Destroy All Humans! 2 (4)](#collection-destroy-all-humans-2) | [Devil May Cry 5 (4)](#collection-devil-may-cry-5) | [Duke Nukem 3D (3)](#collection-duke-nukem-3d) | [Duke Nukem 3D: Atomic Edition (1)](#collection-duke-nukem-3d-atomic-edition) | [Earthworm Jim (1)](#collection-earthworm-jim) | [Earthworm Jim 2 (1)](#collection-earthworm-jim-2) | [Enter the Gungeon (30)](#collection-enter-the-gungeon) | [Fallout 4 (7)](#collection-fallout-4) | [Far Cry 6 (11)](#collection-far-cry-6) | [Forgive Me Father (24)](#collection-forgive-me-father) | [Forgive Me Father 2 (1)](#collection-forgive-me-father-2) | [Garry&#x27;s Mod (1)](#collection-garry-s-mod) | [Gears 5 (1)](#collection-gears-5) | [Gears of War (2)](#collection-gears-of-war) | [Gears of War 2 (1)](#collection-gears-of-war-2) | [Gears of War 3 (1)](#collection-gears-of-war-3) | [Gears of War 4 (1)](#collection-gears-of-war-4) | [GoldenEye 007 (1)](#collection-goldeneye-007) | [Gunfire Reborn (6)](#collection-gunfire-reborn) | [Half-Life (4)](#collection-half-life) | [Half-Life 2 (3)](#collection-half-life-2) | [Halo (2)](#collection-halo) | [Halo 2 (1)](#collection-halo-2) | [Halo 3 (2)](#collection-halo-3) | [Halo 4 (3)](#collection-halo-4) | [Halo 5: Guardians (1)](#collection-halo-5-guardians) | [Halo Infinite (1)](#collection-halo-infinite) | [Halo: Combat Evolved (1)](#collection-halo-combat-evolved) | [Heretic (4)](#collection-heretic) | [Hexen (3)](#collection-hexen) | [Hi-Fi RUSH (1)](#collection-hi-fi-rush) | [High on Life (6)](#collection-high-on-life) | [High on Life 2 (3)](#collection-high-on-life-2) | [Jak 3 (5)](#collection-jak-3) | [Just Cause 4 (1)](#collection-just-cause-4) | [MDK (1)](#collection-mdk) | [Mega Man 2 (3)](#collection-mega-man-2) | [Mega Man 3 (1)](#collection-mega-man-3) | [Mega Man X (2)](#collection-mega-man-x) | [Metal Slug (4)](#collection-metal-slug) | [Metroid Prime (4)](#collection-metroid-prime) | [Metroid Prime 2: Echoes (3)](#collection-metroid-prime-2-echoes) | [Minecraft - Scorched Guns 2 (8)](#collection-minecraft-scorched-guns-2) | [Monster Hunter (4)](#collection-monster-hunter) | [Noita (3)](#collection-noita) | [Oddworld: Stranger&#x27;s Wrath (8)](#collection-oddworld-stranger-s-wrath) | [Overwatch 2 (3)](#collection-overwatch-2) | [POSTAL: Brain Damaged (3)](#collection-postal-brain-damaged) | [Painkiller (3)](#collection-painkiller) | [Perfect Dark (5)](#collection-perfect-dark) | [Portal (1)](#collection-portal) | [Prey (2006) (3)](#collection-prey-2006) | [Prey (2017) (2)](#collection-prey-2017) | [Quake (4)](#collection-quake) | [Quake II (2)](#collection-quake-ii) | [Quake III Arena (1)](#collection-quake-iii-arena) | [Ratchet &amp; Clank (6)](#collection-ratchet-clank) | [Ratchet &amp; Clank: A Crack in Time (3)](#collection-ratchet-clank-a-crack-in-time) | [Ratchet &amp; Clank: All 4 One (1)](#collection-ratchet-clank-all-4-one) | [Ratchet &amp; Clank: Deadlocked (1)](#collection-ratchet-clank-deadlocked) | [Ratchet &amp; Clank: Going Commando (7)](#collection-ratchet-clank-going-commando) | [Ratchet &amp; Clank: Into the Nexus (2)](#collection-ratchet-clank-into-the-nexus) | [Ratchet &amp; Clank: Rift Apart (11)](#collection-ratchet-clank-rift-apart) | [Ratchet &amp; Clank: Tools of Destruction (3)](#collection-ratchet-clank-tools-of-destruction) | [Ratchet &amp; Clank: Up Your Arsenal (6)](#collection-ratchet-clank-up-your-arsenal) | [Red Faction: Armageddon (2)](#collection-red-faction-armageddon) | [Red Faction: Guerrilla (2)](#collection-red-faction-guerrilla) | [Remnant II (10)](#collection-remnant-ii) | [Remnant: From the Ashes (4)](#collection-remnant-from-the-ashes) | [Resistance 2 (1)](#collection-resistance-2) | [Resistance 3 (2)](#collection-resistance-3) | [Resistance: Fall of Man (3)](#collection-resistance-fall-of-man) | [Returnal (6)](#collection-returnal) | [Roboquest (3)](#collection-roboquest) | [Saints Row IV (13)](#collection-saints-row-iv) | [Saints Row: Gat Out of Hell (7)](#collection-saints-row-gat-out-of-hell) | [Saints Row: The Third (2)](#collection-saints-row-the-third) | [Serious Sam (1)](#collection-serious-sam) | [Serious Sam 3: BFE (1)](#collection-serious-sam-3-bfe) | [Serious Sam 4 (1)](#collection-serious-sam-4) | [Shadow Warrior (1997) (2)](#collection-shadow-warrior-1997) | [Singularity (2)](#collection-singularity) | [Splatoon (7)](#collection-splatoon) | [Splatoon 3 (10)](#collection-splatoon-3) | [Starfield (3)](#collection-starfield) | [Sunset Overdrive (9)](#collection-sunset-overdrive) | [THE FINALS (25)](#collection-the-finals) | [Terraria (20)](#collection-terraria) | [Terraria - Calamity Mod (9)](#collection-terraria-calamity-mod) | [The Elder Scrolls V: Skyrim (2)](#collection-the-elder-scrolls-v-skyrim) | [TimeSplitters: Future Perfect (3)](#collection-timesplitters-future-perfect) | [Tiny Tina&#x27;s Wonderlands (4)](#collection-tiny-tina-s-wonderlands) | [Titanfall 2 (6)](#collection-titanfall-2) | [Turbo Overkill (1)](#collection-turbo-overkill) | [Turok 2: Seeds of Evil (4)](#collection-turok-2-seeds-of-evil) | [Turok: Dinosaur Hunter (2)](#collection-turok-dinosaur-hunter) | [Turok: Rage Wars (1)](#collection-turok-rage-wars) | [ULTRAKILL (11)](#collection-ultrakill) | [Unreal Tournament (5)](#collection-unreal-tournament) | [Unreal Tournament 2004 (2)](#collection-unreal-tournament-2004) | [VALORANT (14)](#collection-valorant) | [Warframe (40)](#collection-warframe)
+
+<a id="collection-alien-isolation"></a>
 
 ## Alien: Isolation
 
@@ -22,15 +24,19 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-armed-and-dangerous"></a>
+
 ## Armed and Dangerous
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=vfaAdPxudJg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-a17366a27dbf.webp" width="220" alt="Land Shark Gun"></a><br><sub>Item-video preview</sub> | **Land Shark Gun**<br>A shark swims through solid ground toward enemies | A sand serpent travels beneath blocks with a visible surface wake | [Watch video](https://www.youtube.com/watch?v=vfaAdPxudJg)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=vfaAdPxudJg) |
 | <a href="https://www.youtube.com/watch?v=7oXYcZhgafs"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-75e07a96b9a6.webp" width="220" alt="Topsy-Turvy Bomb"></a><br><sub>Item-video preview</sub> | **Topsy-Turvy Bomb**<br>A comic gravity reversal turns the world upside down | A limited arena illusion rotates props while preserving player controls | [Watch video](https://www.youtube.com/watch?v=7oXYcZhgafs)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=7oXYcZhgafs) |
-| Image not yet resolved | **World&#x27;s Smallest Black Hole**<br>A tiny object produces a disproportionately huge effect | A small marble blooms into a short-lived cosmic vortex | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=Z0PbIam6PdU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-7b0c8490ee99.webp" width="220" alt="World&#x27;s Smallest Black Hole"></a><br><sub>Item-video preview</sub> | **World&#x27;s Smallest Black Hole**<br>A tiny object produces a disproportionately huge effect | A small marble blooms into a short-lived cosmic vortex | [Watch video](https://www.youtube.com/watch?v=Z0PbIam6PdU)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=Z0PbIam6PdU) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-bayonetta-3"></a>
 
 ## Bayonetta 3
 
@@ -48,6 +54,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-bioshock"></a>
+
 ## BioShock
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -55,6 +63,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=Uf4nKw32ZY8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-e8caeff82e9d.webp" width="220" alt="Chemical Thrower"></a><br><sub>Item-video preview</sub> | **Chemical Thrower**<br>One weapon presents several fluid and elemental attack types | A three-vial alchemy sprayer changes color with its selected mixture | [Watch video](https://www.youtube.com/watch?v=Uf4nKw32ZY8)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=Uf4nKw32ZY8) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-bioshock-2"></a>
 
 ## BioShock 2
 
@@ -65,6 +75,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-blade-sorcery"></a>
+
 ## Blade & Sorcery
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -72,6 +84,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=z3sRSg6mNGs"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/9d9e69c857e8.webp" width="220" alt="Shatterblade"></a><br><sub>Item-video preview</sub> | **Shatterblade**<br>A magical blade composed of fifteen independent segments that can separate, reshape, and respond to gestures. | A segmented relic that shifts from sword to orbiting shield to a telekinetic storm of blades. | [Watch video](https://www.youtube.com/watch?v=z3sRSg6mNGs)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=z3sRSg6mNGs) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-blood"></a>
 
 ## Blood
 
@@ -84,6 +98,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-borderlands"></a>
+
 ## Borderlands
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -91,6 +107,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=WuYZfLqfiRM"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-6462a099e703.webp" width="220" alt="Sledge&#x27;s Shotgun"></a><br><sub>Item-video preview</sub> | **Sledge&#x27;s Shotgun**<br>A distinctive heavy shotgun emphasizes forceful close-range feedback | A chunky forge shotgun with exaggerated mechanical recoil | [Watch video](https://www.youtube.com/watch?v=WuYZfLqfiRM)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=WuYZfLqfiRM) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-borderlands-2"></a>
 
 ## Borderlands 2
 
@@ -109,6 +127,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=4Wzlxn5NWHc"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-d4cf5cb2e0f4.webp" width="220" alt="Twister"></a><br><sub>Item-video preview</sub> | **Twister**<br>A shotgun releases a tornado-like projectile formation | A shell of wind spirals outward from a miniature weather vane | [Watch video](https://www.youtube.com/watch?v=4Wzlxn5NWHc)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=4Wzlxn5NWHc) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-borderlands-3"></a>
 
 ## Borderlands 3
 
@@ -137,6 +157,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-borderlands-the-pre-sequel"></a>
+
 ## Borderlands: The Pre-Sequel
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -146,6 +168,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=TyBfL1CFNRg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-32786a684305.webp" width="220" alt="Laser Disker"></a><br><sub>Item-video preview</sub> | **Laser Disker**<br>A laser weapon has an explosive reload identity | A thrown disc-shaped receiver briefly becomes a magical device | [Watch video](https://www.youtube.com/watch?v=TyBfL1CFNRg)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=TyBfL1CFNRg) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-bulletstorm"></a>
 
 ## Bulletstorm
 
@@ -159,6 +183,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=b9c-mo8Tyoo"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-542a18a9dbf2.webp" width="220" alt="Screamer"></a><br><sub>Item-video preview</sub> | **Screamer**<br>A heavy revolver has a dramatic charged secondary shot | A bell-cylinder pistol stores a brighter resonant round | [Watch video](https://www.youtube.com/watch?v=b9c-mo8Tyoo)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=b9c-mo8Tyoo) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-call-of-duty-black-ops-4"></a>
 
 ## Call of Duty: Black Ops 4
 
@@ -182,7 +208,7 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=HngPTNZXHCo"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/04728a5f505e.webp" width="220" alt="Kuromaku"></a> | **Kuromaku**<br>KN-57 Mastercraft cosmetic: “Kuromaku” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=HngPTNZXHCo)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
 | <a href="https://www.youtube.com/watch?v=uIAJP4qQsQE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/74e18b8b4bab.webp" width="220" alt="High Noon"></a> | **High Noon**<br>Outlaw Mastercraft cosmetic: “High Noon” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=uIAJP4qQsQE)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
 | <a href="https://www.youtube.com/watch?v=BITDx05ojwM"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/f9f5d6a323a8.webp" width="220" alt="Venom Cocktail"></a><br><sub>Item-video preview</sub> | **Venom Cocktail**<br>Hades Mastercraft cosmetic: “Venom Cocktail” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Cause trails of vines, flowers, spores, or living moss to climb enemy hitboxes, growing stronger within themed biomes. | [Watch video](https://www.youtube.com/watch?v=BITDx05ojwM)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=BITDx05ojwM) |
-| Image not yet resolved | **Lost Patrol**<br>SDM Mastercraft cosmetic: “Lost Patrol” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=5KcZI_h2jpI)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
+| <a href="https://www.youtube.com/watch?v=5KcZI_h2jpI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/321565851229.0.webp" width="220" alt="Lost Patrol"></a> | **Lost Patrol**<br>SDM Mastercraft cosmetic: “Lost Patrol” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=5KcZI_h2jpI)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
 | <a href="https://www.youtube.com/watch?v=x7ix4O35GNs"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/868aafcc9e40.webp" width="220" alt="Ahab&#x27;s Revenge"></a> | **Ahab&#x27;s Revenge**<br>Swordfish Mastercraft cosmetic: “Ahab&#x27;s Revenge” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=x7ix4O35GNs)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
 | <a href="https://www.youtube.com/watch?v=eYa36UAAGJA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/dc0d62edccc9.webp" width="220" alt="Deep Voyage"></a> | **Deep Voyage**<br>Nautical Spitfire Mastercraft distinguished by a miniature sea-creature/periscope diorama. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=eYa36UAAGJA)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
 | <a href="https://www.youtube.com/watch?v=VJgtroowLG8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/a46d224d1ece.webp" width="220" alt="Odin&#x27;s Song"></a> | **Odin&#x27;s Song**<br>RK 7 Garrison Mastercraft cosmetic: “Odin&#x27;s Song” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=VJgtroowLG8)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
@@ -199,6 +225,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=QIO6peUCvIE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/1fb7f825a30d.webp" width="220" alt="Desecrator"></a> | **Desecrator**<br>Rampage Mastercraft cosmetic: “Desecrator” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Use runic animated components, a spell-page reload sequence, and a rune-triggered AoE spell after a charged hit. | [Watch video](https://www.youtube.com/watch?v=QIO6peUCvIE)<br><sub>Item matched</sub><br>[Image / reference source](https://www.reddit.com/r/Blackops4/comments/cf9lmq/a_complete_history_of_mastercrafts_mkiis_and_dlc/) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-call-of-duty-black-ops-6"></a>
 
 ## Call of Duty: Black Ops 6
 
@@ -268,6 +296,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-call-of-duty-black-ops-7"></a>
+
 ## Call of Duty: Black Ops 7
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -331,6 +361,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-call-of-duty-black-ops-cold-war"></a>
+
 ## Call of Duty: Black Ops Cold War
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -364,10 +396,12 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=yGtyaQMaBmU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/55d3063ff07c.webp" width="220" alt="Sultan&#x27;s Scimitar"></a> | **Sultan&#x27;s Scimitar**<br>EM2 Mastercraft variant; inspect the named source for its model and presentation. | Build an original counterpart around the visual motif; keep inspect theatrics separate from the attack loop. | [Watch video](https://www.youtube.com/watch?v=yGtyaQMaBmU)<br><sub>Item title matched</sub><br>[Image / reference source](https://callofduty.fandom.com/wiki/Mastercraft_Variant) |
 | <a href="https://www.youtube.com/watch?v=jZEssmYQReY"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/723e57a447a9.webp" width="220" alt="Synthetic Fangs"></a><br><sub>Item-video preview</sub> | **Synthetic Fangs**<br>Swiss K31 Mastercraft paired with the Poison Sky theme and acid-green tracer presentation. | A venom-powered skeletal rail rifle: every clean shot fills a visible toxin chamber. | [Watch video](https://www.youtube.com/watch?v=jZEssmYQReY)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=jZEssmYQReY) |
 | <a href="https://www.youtube.com/watch?v=C73d0cZheLw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/8b675012e1e2.webp" width="220" alt="Void Monster"></a> | **Void Monster**<br>AK-47 Mastercraft variant; inspect the named source for its model and presentation. | Build an original counterpart around the visual motif; keep inspect theatrics separate from the attack loop. | [Watch video](https://www.youtube.com/watch?v=C73d0cZheLw)<br><sub>Item title matched</sub><br>[Image / reference source](https://callofduty.fandom.com/wiki/Mastercraft_Variant) |
-| <a href="https://callofduty.fandom.com/wiki/Mastercraft_Variant"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/29ba8938718d.webp" width="220" alt="War Breaker"></a> | **War Breaker**<br>FARA 83 Mastercraft variant; inspect the named source for its model and presentation. | Build an original counterpart around the visual motif; keep inspect theatrics separate from the attack loop. | Direct video not yet resolved<br>[Image / reference source](https://callofduty.fandom.com/wiki/Mastercraft_Variant) |
+| <a href="https://www.youtube.com/watch?v=bs6DCfP9bNg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/29ba8938718d.webp" width="220" alt="War Breaker"></a> | **War Breaker**<br>FARA 83 Mastercraft variant; inspect the named source for its model and presentation. | Build an original counterpart around the visual motif; keep inspect theatrics separate from the attack loop. | [Watch video](https://www.youtube.com/watch?v=bs6DCfP9bNg)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://callofduty.fandom.com/wiki/Mastercraft_Variant) |
 | <a href="https://www.youtube.com/watch?v=XR8bUGjuIyw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/ebf00d9be276.webp" width="220" alt="Zombicorn"></a><br><sub>Item-video preview</sub> | **Zombicorn**<br>Grav Mastercraft variant; inspect the named source for its model and presentation. | Build an original counterpart around the visual motif; keep inspect theatrics separate from the attack loop. | [Watch video](https://www.youtube.com/watch?v=XR8bUGjuIyw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=XR8bUGjuIyw) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-call-of-duty-mobile"></a>
 
 ## Call of Duty: Mobile
 
@@ -414,12 +448,14 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-call-of-duty-modern-warfare-iii"></a>
+
 ## Call of Duty: Modern Warfare III
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=hzPyVuLv8kI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/ad82c3fdb185.webp" width="220" alt="Arcade Rhythm"></a><br><sub>Item-video preview</sub> | **Arcade Rhythm**<br>Rival-9 Mastercraft cosmetic: “Arcade Rhythm” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Convert note patterns into harmonic projectiles, sync VFX to beat subdivisions, and let the weapon change mode on a measure boundary. | [Watch video](https://www.youtube.com/watch?v=hzPyVuLv8kI)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=hzPyVuLv8kI) |
-| Image not yet resolved | **Avulsion**<br>TAQ Evolvere Mastercraft cosmetic: “Avulsion” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Add shape-shifting holographic geometry, glitchy inspect holograms, and bursts that fragment opponents into digital afterimages. | Direct video not yet resolved<br>[Image / reference source](https://callofduty.fandom.com/wiki/Mastercraft_Variant) |
+| <a href="https://www.youtube.com/watch?v=Do4cjSXksZc"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/69cb714e301a.webp" width="220" alt="Avulsion"></a><br><sub>Item-video preview</sub> | **Avulsion**<br>TAQ Evolvere Mastercraft cosmetic: “Avulsion” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Add shape-shifting holographic geometry, glitchy inspect holograms, and bursts that fragment opponents into digital afterimages. | [Watch video](https://www.youtube.com/watch?v=Do4cjSXksZc)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=Do4cjSXksZc) |
 | <a href="https://www.youtube.com/watch?v=aZTlHfj_aCA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/18a8d6293d02.webp" width="220" alt="Bog Witch"></a><br><sub>Item-video preview</sub> | **Bog Witch**<br>SVA 545 Mastercraft cosmetic: “Bog Witch” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Animate the gun as a tame living monster with idle blinking, feeding reload, and elemental breath that upgrades with AoA kills. | [Watch video](https://www.youtube.com/watch?v=aZTlHfj_aCA)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=aZTlHfj_aCA) |
 | <a href="https://www.youtube.com/watch?v=kYYNTnkcITg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/40127ea4cfff.webp" width="220" alt="Celestial Core"></a><br><sub>Item-video preview</sub> | **Celestial Core**<br>XRK Stalker Mastercraft cosmetic: “Celestial Core” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Fire small temporary gravity anchors that pull hostile projectiles into orbit and then collapse them into stardust. | [Watch video](https://www.youtube.com/watch?v=kYYNTnkcITg)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=kYYNTnkcITg) |
 | <a href="https://www.youtube.com/watch?v=vl72eZTJfc8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/e47b464fc988.webp" width="220" alt="Death Dimension"></a><br><sub>Item-video preview</sub> | **Death Dimension**<br>BAL-27 Mastercraft cosmetic: “Death Dimension” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Fire small temporary gravity anchors that pull hostile projectiles into orbit and then collapse them into stardust. | [Watch video](https://www.youtube.com/watch?v=vl72eZTJfc8)<br><sub>Item matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=vl72eZTJfc8) |
@@ -430,6 +466,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=H1R-qAsd2P4&amp;t=234s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/49fd9c8103f4.webp" width="220" alt="Sweet Siren"></a><br><sub>Item-video preview</sub> | **Sweet Siren**<br>WSP Swarm Mastercraft cosmetic: “Sweet Siren” — a distinctive themed Mastercraft/Mythic presentation worth studying for silhouette, weapon inspect, custom animation, and VFX reference. The source confirms the named item; exact effects should be checked in its footage. | Convert note patterns into harmonic projectiles, sync VFX to beat subdivisions, and let the weapon change mode on a measure boundary. | [Watch video](https://www.youtube.com/watch?v=H1R-qAsd2P4&t=234s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=H1R-qAsd2P4&t=234s) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-call-of-duty-vanguard"></a>
 
 ## Call of Duty: Vanguard
 
@@ -468,6 +506,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-clive-barker-s-undying"></a>
+
 ## Clive Barker's Undying
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -477,6 +517,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-contra"></a>
+
 ## Contra
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -484,6 +526,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=xKKwTRZAL3s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-ddf13c5c6654.webp" width="220" alt="Spread Gun"></a><br><sub>Item-video preview</sub> | **Spread Gun**<br>A highly readable fan of projectiles defines classic arcade gunplay | A five-petal emitter opens into a symmetric shot pattern | [Watch video](https://www.youtube.com/watch?v=xKKwTRZAL3s)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=xKKwTRZAL3s) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-contra-hard-corps"></a>
 
 ## Contra: Hard Corps
 
@@ -493,26 +537,32 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-control"></a>
+
 ## Control
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
-| Image not yet resolved | **Service Weapon Grip**<br>A transforming supernatural pistol provides the baseline form | Floating stone fragments assemble into a compact sidearm | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=vIiA-Lu8YUo"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-7df6bac96c96.webp" width="220" alt="Service Weapon Grip"></a><br><sub>Item-video preview</sub> | **Service Weapon Grip**<br>A transforming supernatural pistol provides the baseline form | Floating stone fragments assemble into a compact sidearm | [Watch video](https://www.youtube.com/watch?v=vIiA-Lu8YUo)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=vIiA-Lu8YUo) |
 | <a href="https://www.youtube.com/watch?v=h6s9AZRm3YA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-dd85631612d5.webp" width="220" alt="Service Weapon Shatter"></a><br><sub>Item-video preview</sub> | **Service Weapon Shatter**<br>The same object transforms into a close-range spread weapon | A modular rune barrel fans outward into multiple emitters | [Watch video](https://www.youtube.com/watch?v=h6s9AZRm3YA)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=h6s9AZRm3YA) |
 | <a href="https://www.youtube.com/watch?v=V8cCTeFfv9E"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-1f7aa77e9e7b.webp" width="220" alt="Service Weapon Spin"></a><br><sub>Item-video preview</sub> | **Service Weapon Spin**<br>A rapid-fire form reshapes the weapon silhouette | A floating ring spins around the compact receiver | [Watch video](https://www.youtube.com/watch?v=V8cCTeFfv9E)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=V8cCTeFfv9E) |
-| Image not yet resolved | **Service Weapon Pierce**<br>A charged precision form emphasizes a narrow long profile | A crystal spine lengthens during charging | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=Q2H8zXOG-Ao"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-8aa1eb6721fc.webp" width="220" alt="Service Weapon Pierce"></a><br><sub>Item-video preview</sub> | **Service Weapon Pierce**<br>A charged precision form emphasizes a narrow long profile | A crystal spine lengthens during charging | [Watch video](https://www.youtube.com/watch?v=Q2H8zXOG-Ao)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=Q2H8zXOG-Ao) |
 | <a href="https://www.youtube.com/watch?v=vTTjcCGAnh0"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-024fa0a527be.webp" width="220" alt="Service Weapon Charge"></a><br><sub>Item-video preview</sub> | **Service Weapon Charge**<br>An explosive form changes projectile weight and timing | A heavy orb grows between separated receiver pieces | [Watch video](https://www.youtube.com/watch?v=vTTjcCGAnh0)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=vTTjcCGAnh0) |
-| Image not yet resolved | **Service Weapon Surge**<br>Sticky remote charges introduce a different combat rhythm | A black stone seed waits for a visible resonance signal | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=ttQ0-nFLXvg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-0c5d628b3876.webp" width="220" alt="Service Weapon Surge"></a><br><sub>Item-video preview</sub> | **Service Weapon Surge**<br>Sticky remote charges introduce a different combat rhythm | A black stone seed waits for a visible resonance signal | [Watch video](https://www.youtube.com/watch?v=ttQ0-nFLXvg)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=ttQ0-nFLXvg) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-crypt-of-the-necrodancer"></a>
 
 ## Crypt of the NecroDancer
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
-| Image not yet resolved | **Rhythm Combat Arsenal**<br>The entire fighting rhythm is dictated by the soundtrack | Any AoA weapon can enter rhythm mode and reward beat-aligned attacks | [Watch video](https://www.youtube.com/watch?v=-HiQUw5Np8o)<br><sub>Context only; item match unresolved</sub><br>[Image / reference source](https://braceyourselfgames.com/crypt-of-the-necrodancer/) |
+| <a href="https://www.youtube.com/watch?v=qks42BoGli8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/98a17b4f94ac.webp" width="220" alt="Rhythm Combat Arsenal"></a><br><sub>Item-video preview</sub> | **Rhythm Combat Arsenal**<br>The entire fighting rhythm is dictated by the soundtrack | Any AoA weapon can enter rhythm mode and reward beat-aligned attacks | [Watch video](https://www.youtube.com/watch?v=qks42BoGli8)<br><sub>Named collection reference; not a single weapon</sub><br>[Image / reference source](https://www.youtube.com/watch?v=qks42BoGli8) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-crysis-3"></a>
 
 ## Crysis 3
 
@@ -523,6 +573,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-doom"></a>
+
 ## DOOM
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -530,6 +582,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=1-utPR_xD78"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-09a12c435ede.webp" width="220" alt="BFG 9000"></a><br><sub>Item-video preview</sub> | **BFG 9000**<br>Enormous green energy discharge and unmistakable superweapon silhouette | A charged dimensional heart with a visible release pulse | [Watch video](https://www.youtube.com/watch?v=1-utPR_xD78)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=1-utPR_xD78) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-doom-eternal"></a>
 
 ## DOOM Eternal
 
@@ -542,6 +596,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-doom-ii"></a>
+
 ## DOOM II
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -549,6 +605,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=L5m6QDnsPGc"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-1c562f4877dc.webp" width="220" alt="Super Shotgun"></a><br><sub>Item-video preview</sub> | **Super Shotgun**<br>Two-barrel break-action reload with a decisive rhythmic blast | A twin-mouthed relic with exaggerated hinge and shell animation | [Watch video](https://www.youtube.com/watch?v=L5m6QDnsPGc)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=L5m6QDnsPGc) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-doom-ii-brutal-cyberdoom"></a>
 
 ## DOOM II - Brutal CyberDoom
 
@@ -559,6 +617,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=XoD6xOrIOGY&amp;t=776s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/58bf5af04e5f.webp" width="220" alt="Cyberdemon Missile Launcher"></a><br><sub>Item-video preview</sub> | **Cyberdemon Missile Launcher**<br>A handheld interpretation of the cyberdemon&#x27;s heavy missile weapon. | An enemy-boss weapon transformed into a reloadable relic. | [Watch video](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=776s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=776s) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-doom-ii-brutal-doom-v22"></a>
 
 ## DOOM II - Brutal Doom v22
 
@@ -574,6 +634,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-doom-ii-brutal-wolfenstein-3d"></a>
+
 ## DOOM II - Brutal Wolfenstein 3D
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -583,6 +645,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=HHonOHqox1s&amp;t=753s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/6b76191cd3e4.webp" width="220" alt="Spear of Destiny"></a><br><sub>Item-video preview</sub> | **Spear of Destiny**<br>A supernatural spear included in the total-conversion arsenal. | A thrown holy spear that pins enemies before a returning recall. | [Watch video](https://www.youtube.com/watch?v=HHonOHqox1s&t=753s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=HHonOHqox1s&t=753s) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-doom-the-dark-ages"></a>
 
 ## DOOM: The Dark Ages
 
@@ -598,6 +662,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-dusk"></a>
+
 ## DUSK
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -607,17 +673,21 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-dead-rising-3"></a>
+
 ## Dead Rising 3
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=UWVpDQG3yuA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/6b177e49f8b4.webp" width="220" alt="Freedom Bear"></a><br><sub>Item-video preview</sub> | **Freedom Bear**<br>An armed stuffed-bear turret with multiple upgraded versions. | Deploy a plush guardian that dances between bursts; different toy accessories change its support role. | [Watch video](https://www.youtube.com/watch?v=UWVpDQG3yuA)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=UWVpDQG3yuA) |
-| Image not yet resolved | **Ultimate Powershout**<br>Amplifies a shout into a destructive cone-shaped shockwave. | A ceremonial megaphone stores syllables and releases a rhythmic wave that knocks enemies back. | [Watch video](https://www.youtube.com/watch?v=BkFNLkxH_TA)<br><sub>Context only; item match unresolved</sub><br>[Image / reference source](https://news.xbox.com/en-us/2013/09/19/tgs-dead-rising-3/) |
+| <a href="https://www.youtube.com/watch?v=yUKjRXrzZTw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/e5344b31fb77.webp" width="220" alt="Ultimate Powershout"></a><br><sub>Item-video preview</sub> | **Ultimate Powershout**<br>Amplifies a shout into a destructive cone-shaped shockwave. | A ceremonial megaphone stores syllables and releases a rhythmic wave that knocks enemies back. | [Watch video](https://www.youtube.com/watch?v=yUKjRXrzZTw)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=yUKjRXrzZTw) |
 | <a href="https://www.youtube.com/watch?v=MPyTLu4DR8U"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/ff4359d4679e.webp" width="220" alt="Ultimate Grim Reaper"></a><br><sub>Item-video preview</sub> | **Ultimate Grim Reaper**<br>An extravagant scythe-like super-combo weapon with fiery attacks. | A skeletal crescent blade leaves delayed fire arcs and a ghostly second slash. | [Watch video](https://www.youtube.com/watch?v=MPyTLu4DR8U)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=MPyTLu4DR8U) |
 | <a href="https://www.youtube.com/watch?v=8zetNGghyDs"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/cab548c79dc8.webp" width="220" alt="Massive Bomb"></a><br><sub>Item-video preview</sub> | **Massive Bomb**<br>An exaggerated super-combo explosive with a huge spectacle. | An unstable cartoon alchemy orb warns loudly before a strictly bounded magical implosion. | [Watch video](https://www.youtube.com/watch?v=8zetNGghyDs)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=8zetNGghyDs) |
 | <a href="https://www.youtube.com/watch?v=-Cwrv9hscVA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/2d90493c7bf4.webp" width="220" alt="Ultimate Mecha Dragon"></a><br><sub>Item-video preview</sub> | **Ultimate Mecha Dragon**<br>A mechanical dragon outfit with claws, flame attacks and a gliding charge. | Fold a dragon familiar into gauntlets, then briefly unfold wings for an aerial lunge. | [Watch video](https://www.youtube.com/watch?v=-Cwrv9hscVA)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=-Cwrv9hscVA) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-dead-space"></a>
 
 ## Dead Space
 
@@ -631,6 +701,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-dead-space-2"></a>
+
 ## Dead Space 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -639,6 +711,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=yRfg6Y2pmWA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-a87372b0e360.webp" width="220" alt="Detonator"></a><br><sub>Item-video preview</sub> | **Detonator**<br>Placeable beams turn a firearm into a trap tool | A crystal projector connects a planted rune to a visible tripline | [Watch video](https://www.youtube.com/watch?v=yRfg6Y2pmWA)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=yRfg6Y2pmWA) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-destiny-2"></a>
 
 ## Destiny 2
 
@@ -672,6 +746,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-destroy-all-humans"></a>
+
 ## Destroy All Humans!
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -681,6 +757,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=UIuEMqwxzPY"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-11501e691400.webp" width="220" alt="Ion Detonator"></a><br><sub>Item-video preview</sub> | **Ion Detonator**<br>A remotely detonated alien explosive | A floating sun bead waits for a second activation | [Watch video](https://www.youtube.com/watch?v=UIuEMqwxzPY)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=UIuEMqwxzPY) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-destroy-all-humans-2"></a>
 
 ## Destroy All Humans! 2
 
@@ -693,6 +771,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-devil-may-cry-5"></a>
+
 ## Devil May Cry 5
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -704,6 +784,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-duke-nukem-3d"></a>
+
 ## Duke Nukem 3D
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -714,6 +796,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-duke-nukem-3d-atomic-edition"></a>
+
 ## Duke Nukem 3D: Atomic Edition
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -721,6 +805,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=vO9UHdm7NJQ"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-6edc4151410f.webp" width="220" alt="Expander"></a><br><sub>Item-video preview</sub> | **Expander**<br>An escalating enlargement effect culminates in a burst | A balloon-themed beam creates a readable inflation sequence | [Watch video](https://www.youtube.com/watch?v=vO9UHdm7NJQ)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=vO9UHdm7NJQ) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-earthworm-jim"></a>
 
 ## Earthworm Jim
 
@@ -730,6 +816,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-earthworm-jim-2"></a>
+
 ## Earthworm Jim 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -737,6 +825,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=JA0oLuJn9Ng"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-1a31646966c1.webp" width="220" alt="Bubble Gun"></a><br><sub>Item-video preview</sub> | **Bubble Gun**<br>A deliberately silly weapon fires harmless bubbles | A purely playful cosmetic bubble attachment | [Watch video](https://www.youtube.com/watch?v=JA0oLuJn9Ng)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=JA0oLuJn9Ng) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-enter-the-gungeon"></a>
 
 ## Enter the Gungeon
 
@@ -749,7 +839,7 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=vWTvrLT0LdI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/06eb668855ae.webp" width="220" alt="Casey"></a> | **Casey**<br>Reflects enemy bullets as an outsized sports bat | Bat projectiles back as charged comets after a perfect parry | [Watch video](https://www.youtube.com/watch?v=vWTvrLT0LdI)<br><sub>Item title matched</sub><br>[Image / reference source](https://enterthegungeon.wiki.gg/wiki/Casey) |
 | <a href="https://www.youtube.com/watch?v=d0P4ucp2WmI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/6d7865d0ceeb.webp" width="220" alt="Compressed Air Tank"></a> | **Compressed Air Tank**<br>Gimmick gun launches sharks across the floor | Release spectral tunnel-sharks that leap from the ground | [Watch video](https://www.youtube.com/watch?v=d0P4ucp2WmI)<br><sub>Item title matched</sub><br>[Image / reference source](https://enterthegungeon.wiki.gg/wiki/Compressed_Air_Tank) |
 | <a href="https://www.youtube.com/watch?v=w0eSwsdkhhw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/f2a49ee4d37c.webp" width="220" alt="Devolver"></a><br><sub>Item-video preview</sub> | **Devolver**<br>Turns enemies back into weaker evolutionary forms | Reverse-evolve mobs into tiny versions with lower aggression | [Watch video](https://www.youtube.com/watch?v=w0eSwsdkhhw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=w0eSwsdkhhw) |
-| Image not yet resolved | **Directional Pad**<br>Directional inputs unlock different firing combinations | Enter arrow-key sword forms to perform retro game special moves | Direct video not yet resolved<br>[Image / reference source](https://enterthegungeon.wiki.gg/wiki/Guns) |
+| <a href="https://www.youtube.com/watch?v=II3qPMhJJqU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/a15111d60a7a.webp" width="220" alt="Directional Pad"></a><br><sub>Item-video preview</sub> | **Directional Pad**<br>Directional inputs unlock different firing combinations | Enter arrow-key sword forms to perform retro game special moves | [Watch video](https://www.youtube.com/watch?v=II3qPMhJJqU)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=II3qPMhJJqU) |
 | <a href="https://www.youtube.com/watch?v=HgFCb2_LPeM"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/6dbc1c5f3f6d.webp" width="220" alt="Face Melter"></a> | **Face Melter**<br>Guitar fires musical notes; reloading drops an amplifier | Strum note-bolts; set amp blocks that beam synchronized electricity | [Watch video](https://www.youtube.com/watch?v=HgFCb2_LPeM)<br><sub>Item title matched</sub><br>[Image / reference source](https://enterthegungeon.wiki.gg/wiki/Face_Melter) |
 | <a href="https://www.youtube.com/watch?v=tDqChgPPUc8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/424b4e2b6207.webp" width="220" alt="Fossilized Gun"></a> | **Fossilized Gun**<br>Douses area in oil that ignites during reload | Spray slick oil and flick ignition reload to set a branching path ablaze | [Watch video](https://www.youtube.com/watch?v=tDqChgPPUc8)<br><sub>Item title matched</sub><br>[Image / reference source](https://enterthegungeon.wiki.gg/wiki/Fossilized_Gun) |
 | <a href="https://www.youtube.com/watch?v=T6w7-jGbFv8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/fd074c87ccad.webp" width="220" alt="Gunther"></a> | **Gunther**<br>Talking gun strengthens through room clears | Quirky talking weapon grows personality and power across dimension clears | [Watch video](https://www.youtube.com/watch?v=T6w7-jGbFv8)<br><sub>Item title matched</sub><br>[Image / reference source](https://enterthegungeon.wiki.gg/wiki/Gunther) |
@@ -775,6 +865,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-fallout-4"></a>
+
 ## Fallout 4
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -784,10 +876,12 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=k0GCh-3WEkU&amp;t=150s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/517799a14064.webp" width="220" alt="Photon Disruptor"></a> | **Photon Disruptor**<br>A custom-animated Institute energy weapon, including distinct power-armor and synth animations. | An unfolding white-and-glass prism emitter with separate compact and heavy handling animations. | [Watch video](https://www.youtube.com/watch?v=k0GCh-3WEkU&t=150s)<br><sub>Item matched</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/69522) |
 | <a href="https://www.youtube.com/watch?v=6S4v4Xt9w6c"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/a8a82f2d377f.webp" width="220" alt="Santa&#x27;s Little Helpers"></a> | **Santa&#x27;s Little Helpers**<br>Dual automatic pistols that fire candy canes with the Christmas skin, or metal discs with the other paint jobs. | Twin gift-wrapped rune pistols launch hooked candy-cane projectiles; reload by snapping a fresh ribbon of sweets into place. | [Watch video](https://www.youtube.com/watch?v=6S4v4Xt9w6c)<br><sub>Item matched</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/89969) |
 | <a href="https://www.youtube.com/watch?v=2_KcG7JJFbQ"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/4b85e5170041.webp" width="220" alt="CROSS Cryolance"></a> | **CROSS Cryolance**<br>Condenses icicles from moisture in the air, then launches them by magnetic induction. Its one-, two- and three-rail barrels make the charging mechanism part of the silhouette. | An AoA frost lance that grows a visible ice spear between its rails. Add more rails to change charge time and projectile size, with a shattering impact and lingering frost trail. | [Watch video](https://www.youtube.com/watch?v=2_KcG7JJFbQ)<br><sub>Item matched</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/31336) |
-| <a href="https://www.nexusmods.com/fallout4/videos/14985"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/d82f879296bf.webp" width="220" alt="Tinkerers Raygun (TUWC)"></a> | **Tinkerers Raygun (TUWC)**<br>Makeshift laser revolver converts to hand cannon or sniper | Scavenged AoA energy cylinder shifts receivers | [Watch video](https://www.nexusmods.com/fallout4/videos/14985)<br><sub>Context only; item match unresolved</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/58956) |
-| <a href="https://www.nexusmods.com/fallout4/videos/14990"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/7539ad863b71.webp" width="220" alt="Makeshift Nailgun (TUWC)"></a> | **Makeshift Nailgun (TUWC)**<br>Scrap-built nail pistol that becomes metal-throwing sniper rifle | AoA rail-nail launcher with moving chain feed | [Watch video](https://www.nexusmods.com/fallout4/videos/14990)<br><sub>Context only; item match unresolved</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/59089) |
+| <a href="https://www.youtube.com/watch?v=A7umFUSabm0"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/d82f879296bf.webp" width="220" alt="Tinkerers Raygun (TUWC)"></a> | **Tinkerers Raygun (TUWC)**<br>Makeshift laser revolver converts to hand cannon or sniper | Scavenged AoA energy cylinder shifts receivers | [Watch video](https://www.youtube.com/watch?v=A7umFUSabm0)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/58956) |
+| <a href="https://www.youtube.com/watch?v=6J4Wy9isskk"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/7539ad863b71.webp" width="220" alt="Makeshift Nailgun (TUWC)"></a> | **Makeshift Nailgun (TUWC)**<br>Scrap-built nail pistol that becomes metal-throwing sniper rifle | AoA rail-nail launcher with moving chain feed | [Watch video](https://www.youtube.com/watch?v=6J4Wy9isskk)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.nexusmods.com/fallout4/mods/59089) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-far-cry-6"></a>
 
 ## Far Cry 6
 
@@ -806,6 +900,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=_E5mZtwmXVo&amp;t=2935s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/60e2875aac0d.webp" width="220" alt="El Besito"></a><br><sub>Item-video preview</sub> | **El Besito**<br>Sprays poisonous clouds rather than ordinary bullets. | A carnivorous flower exhales lingering spores that bloom when hit by another element. | [Watch video](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2935s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2935s) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-forgive-me-father"></a>
 
 ## Forgive Me Father
 
@@ -838,6 +934,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-forgive-me-father-2"></a>
+
 ## Forgive Me Father 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -845,6 +943,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=dkKXQH8YQi4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/a7bd61c8ada4.webp" width="220" alt="Obelisk"></a> | **Obelisk**<br>A monstrous ritual-built railgun channels a piercing eldritch blast. | Suspend a stone monolith between four rotating seals; lining up the seals charges a beam through several mobs. | [Watch video](https://www.youtube.com/watch?v=dkKXQH8YQi4)<br><sub>Item matched</sub><br>[Image / reference source](https://80.lv/articles/this-lovecraftian-indie-fps-will-soon-feature-an-eldritch-railgun) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-garry-s-mod"></a>
 
 ## Garry's Mod
 
@@ -854,6 +954,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-gears-5"></a>
+
 ## Gears 5
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -861,6 +963,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=27qm_yeKJTQ"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-d2186b7ce90c.webp" width="220" alt="Claw"></a><br><sub>Item-video preview</sub> | **Claw**<br>An alien light machine gun has an animated creature-like mechanism | A bone-and-metal gun flexes its jaws during firing | [Watch video](https://www.youtube.com/watch?v=27qm_yeKJTQ)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=27qm_yeKJTQ) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-gears-of-war"></a>
 
 ## Gears of War
 
@@ -871,6 +975,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-gears-of-war-2"></a>
+
 ## Gears of War 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -878,6 +984,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=tMwoZ3WBBdU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-0de167ad71d7.webp" width="220" alt="Mulcher"></a><br><sub>Item-video preview</sub> | **Mulcher**<br>A carried heavy rotary weapon emphasizes weight and setup | A portable industrial turret with clear handling poses | [Watch video](https://www.youtube.com/watch?v=tMwoZ3WBBdU)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=tMwoZ3WBBdU) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-gears-of-war-3"></a>
 
 ## Gears of War 3
 
@@ -887,6 +995,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-gears-of-war-4"></a>
+
 ## Gears of War 4
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -895,6 +1005,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-goldeneye-007"></a>
+
 ## GoldenEye 007
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -902,6 +1014,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=C1-mW-rXeZU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-2d9ffdaeb7ff.webp" width="220" alt="Moonraker Laser"></a><br><sub>Item-video preview</sub> | **Moonraker Laser**<br>A compact science-fiction laser contrasts with ordinary guns | An elegant retro-future crystal pistol | [Watch video](https://www.youtube.com/watch?v=C1-mW-rXeZU)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=C1-mW-rXeZU) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-gunfire-reborn"></a>
 
 ## Gunfire Reborn
 
@@ -916,6 +1030,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-half-life"></a>
+
 ## Half-Life
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -927,15 +1043,19 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-half-life-2"></a>
+
 ## Half-Life 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=vdKPN9VefEw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-b4280f0d5266.webp" width="220" alt="Gravity Gun"></a><br><sub>Item-video preview</sub> | **Gravity Gun**<br>Environmental objects become improvised projectiles | A telekinetic claw lifts loose magical props | [Watch video](https://www.youtube.com/watch?v=vdKPN9VefEw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=vdKPN9VefEw) |
-| Image not yet resolved | **AR2 Combine Pulse Rifle**<br>Alien pulse fire plus a distinctive energy-ball secondary | A captured orb snaps free from an ornate side chamber | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=QKJwWjhAzYs"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-70ac075aa5be.webp" width="220" alt="AR2 Combine Pulse Rifle"></a><br><sub>Item-video preview</sub> | **AR2 Combine Pulse Rifle**<br>Alien pulse fire plus a distinctive energy-ball secondary | A captured orb snaps free from an ornate side chamber | [Watch video](https://www.youtube.com/watch?v=QKJwWjhAzYs)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=QKJwWjhAzYs) |
 | <a href="https://www.youtube.com/watch?v=2l34b3SoQok"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-2500b89e2df2.webp" width="220" alt="Crossbow"></a><br><sub>Item-video preview</sub> | **Crossbow**<br>Glowing rebar projectile and clear mechanical reload | A forge bow heats a metal spike before launch | [Watch video](https://www.youtube.com/watch?v=2l34b3SoQok)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=2l34b3SoQok) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-halo"></a>
 
 ## Halo
 
@@ -946,6 +1066,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-halo-2"></a>
+
 ## Halo 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -953,6 +1075,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=yfToS0yPOX4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-f3204865a767.webp" width="220" alt="Energy Sword"></a> | **Energy Sword**<br>A twin-pronged plasma blade with strong lunge identity | An optional weapon-salvage blade made of realm energy | [Watch video](https://www.youtube.com/watch?v=yfToS0yPOX4)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.halopedia.org/Energy_Sword) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-halo-3"></a>
 
 ## Halo 3
 
@@ -962,6 +1086,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=IuYHX8GF9Zs"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-9a2e99b5c867.webp" width="220" alt="Spartan Laser"></a> | **Spartan Laser**<br>Visible charge beam precedes an enormous precision blast | An alignment puzzle of light completes before firing | [Watch video](https://www.youtube.com/watch?v=IuYHX8GF9Zs)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.halopedia.org/Spartan_Laser) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-halo-4"></a>
 
 ## Halo 4
 
@@ -973,6 +1099,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-halo-5-guardians"></a>
+
 ## Halo 5: Guardians
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -980,6 +1108,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=lI0uT5yDFao"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-12362eabcdc7.webp" width="220" alt="Hydra"></a> | **Hydra**<br>Compact launcher with guided-projectile behavior | A cluster of mechanical fireflies leaves a marked nest | [Watch video](https://www.youtube.com/watch?v=lI0uT5yDFao)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.halopedia.org/Hydra) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-halo-infinite"></a>
 
 ## Halo Infinite
 
@@ -989,6 +1119,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-halo-combat-evolved"></a>
+
 ## Halo: Combat Evolved
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -996,6 +1128,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=R9lM42qkofI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-642a63ff59ba.webp" width="220" alt="Needler"></a> | **Needler**<br>Pink crystalline homing projectiles and a shattering payoff | Living crystals regrow visibly along the weapon spine | [Watch video](https://www.youtube.com/watch?v=R9lM42qkofI)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.halopedia.org/Needler) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-heretic"></a>
 
 ## Heretic
 
@@ -1008,6 +1142,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-hexen"></a>
+
 ## Hexen
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1018,6 +1154,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-hi-fi-rush"></a>
+
 ## Hi-Fi RUSH
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1025,6 +1163,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=g8tOZ_XHfbw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/df04ef8e7daa.webp" width="220" alt="Chai&#x27;s Guitar Weapon"></a><br><sub>Item-video preview</sub> | **Chai&#x27;s Guitar Weapon**<br>Musical melee timing and exaggerated stage-like combos | Put attack notes on a rhythm grid with strong-beat finishers | [Watch video](https://www.youtube.com/watch?v=g8tOZ_XHfbw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=g8tOZ_XHfbw) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-high-on-life"></a>
 
 ## High on Life
 
@@ -1039,6 +1179,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-high-on-life-2"></a>
+
 ## High on Life 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1048,6 +1190,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=FDEPP_EOTF4&amp;t=1848s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/e6806ff84309.webp" width="220" alt="Shoot-O"></a> | **Shoot-O**<br>Smiling CRT gun grabs and throws environmental objects | AoA CRT magnetic glove gun picks up blocks and hurls them | [Watch video](https://www.youtube.com/watch?v=FDEPP_EOTF4&t=1848s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://blog.acer.com/en/discussion/4203/every-gatlian-weapon-in-high-on-life-2-and-how-to-get-them) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-jak-3"></a>
 
 ## Jak 3
 
@@ -1061,6 +1205,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-just-cause-4"></a>
+
 ## Just Cause 4
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1069,6 +1215,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-mdk"></a>
+
 ## MDK
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1076,6 +1224,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=QX1FXW4Nyxo"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-4fcc58a121ec.webp" width="220" alt="Sniper Helmet"></a><br><sub>Item-video preview</sub> | **Sniper Helmet**<br>The character&#x27;s helmet unfolds into a precision weapon | An optional golem mask becomes a telescoping sight | [Watch video](https://www.youtube.com/watch?v=QX1FXW4Nyxo)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=QX1FXW4Nyxo) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-mega-man-2"></a>
 
 ## Mega Man 2
 
@@ -1087,6 +1237,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-mega-man-3"></a>
+
 ## Mega Man 3
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1094,6 +1246,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=_97GQBDGqok"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-87f076a97f6d.webp" width="220" alt="Hard Knuckle"></a><br><sub>Item-video preview</sub> | **Hard Knuckle**<br>A giant fist projectile has a bold toy-like silhouette | A detachable golem fist launches from a stone bracer | [Watch video](https://www.youtube.com/watch?v=_97GQBDGqok)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=_97GQBDGqok) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-mega-man-x"></a>
 
 ## Mega Man X
 
@@ -1103,6 +1257,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=75ymO1S5-l0"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-86e34906927d.webp" width="220" alt="Boomerang Cutter"></a><br><sub>Item-video preview</sub> | **Boomerang Cutter**<br>A returning cutting projectile doubles as a utility tool | A crescent leaf can retrieve small dropped items | [Watch video](https://www.youtube.com/watch?v=75ymO1S5-l0)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=75ymO1S5-l0) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-metal-slug"></a>
 
 ## Metal Slug
 
@@ -1115,6 +1271,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-metroid-prime"></a>
+
 ## Metroid Prime
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1126,6 +1284,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-metroid-prime-2-echoes"></a>
+
 ## Metroid Prime 2: Echoes
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1135,6 +1295,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=Gyu5OaynGFU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-156da51c05b6.webp" width="220" alt="Annihilator Beam"></a><br><sub>Item-video preview</sub> | **Annihilator Beam**<br>Combined light and dark energy produces a distinctive hybrid | Two opposed crystals mix their colors only at the muzzle | [Watch video](https://www.youtube.com/watch?v=Gyu5OaynGFU)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=Gyu5OaynGFU) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-minecraft-scorched-guns-2"></a>
 
 ## Minecraft - Scorched Guns 2
 
@@ -1151,6 +1313,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-monster-hunter"></a>
+
 ## Monster Hunter
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1158,19 +1322,23 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=i3VvppBrJHE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/377858fc2923.webp" width="220" alt="Frozen Speartuna"></a><br><sub>Item-video preview</sub> | **Frozen Speartuna**<br>A giant frozen fish serves as a massive sword | Wield a frozen moonfish that swings ice scales in wide arcs | [Watch video](https://www.youtube.com/watch?v=i3VvppBrJHE)<br><sub>Item matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=i3VvppBrJHE) |
 | <a href="https://www.youtube.com/watch?v=mCBuNrA8l10"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/9514057d67ba.webp" width="220" alt="Well-Done Hammer"></a><br><sub>Item-video preview</sub> | **Well-Done Hammer**<br>A cooked piece of meat is used as a hammer | Use a roast-leg maul that cooks faster with lava kills | [Watch video](https://www.youtube.com/watch?v=mCBuNrA8l10)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=mCBuNrA8l10) |
 | <a href="https://www.youtube.com/watch?v=uXLC7DXv0Mc"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/c70a526c869f.webp" width="220" alt="Wyvern Ignition"></a> | **Wyvern Ignition**<br>Oversized rocket-assisted great sword with firing exhaust | Ignite rocket valves during a heavy greatsword finisher | [Watch video](https://www.youtube.com/watch?v=uXLC7DXv0Mc)<br><sub>Item matched</sub><br>[Image / reference source](https://news.capcomusa.com/monster_hunter/blog/2018/03/14/monster-hunter-world-first-free-major-title-update-introduces-deviljho-spring-blossom-fest-and-more) |
-| Image not yet resolved | **Felyne-themed Equipment**<br>Cat-themed equipment turns absurdly cute materials into battle props | Cats paw and paw-print VFX turn damage into slapstick magic | Direct video not yet resolved<br>[Image / reference source](https://monsterhunter.fandom.com/wiki/Weapons) |
+| <a href="https://www.youtube.com/watch?v=7PZPlyxbmzE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/2baf63b01c4c.webp" width="220" alt="Felyne-themed Equipment"></a><br><sub>Item-video preview</sub> | **Felyne-themed Equipment**<br>Cat-themed equipment turns absurdly cute materials into battle props | Cats paw and paw-print VFX turn damage into slapstick magic | [Watch video](https://www.youtube.com/watch?v=7PZPlyxbmzE)<br><sub>Named collection reference; not a single weapon</sub><br>[Image / reference source](https://www.youtube.com/watch?v=7PZPlyxbmzE) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-noita"></a>
 
 ## Noita
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
-| <a href="https://noita.wiki.gg/wiki/Black_Hole"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-9b8c301d2e34.webp" width="220" alt="Black Hole Spell"></a> | **Black Hole Spell**<br>A moving black hole transforms terrain interaction | An explicitly bounded void spell for new fantasy projectiles | Direct video not yet resolved<br>[Image / reference source](https://noita.wiki.gg/wiki/Black_Hole) |
-| Image not yet resolved | **Giga Sawblade Spell**<br>A huge sawblade makes spell geometry immediately readable | A summoned rune wheel with clear ownership and return rules | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=VI9qCvvIZm8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-9b8c301d2e34.webp" width="220" alt="Black Hole Spell"></a> | **Black Hole Spell**<br>A moving black hole transforms terrain interaction | An explicitly bounded void spell for new fantasy projectiles | [Watch video](https://www.youtube.com/watch?v=VI9qCvvIZm8)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://noita.wiki.gg/wiki/Black_Hole) |
+| <a href="https://www.youtube.com/watch?v=HewBoCK2nXo"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-8564d40c7eff.webp" width="220" alt="Giga Sawblade Spell"></a><br><sub>Item-video preview</sub> | **Giga Sawblade Spell**<br>A huge sawblade makes spell geometry immediately readable | A summoned rune wheel with clear ownership and return rules | [Watch video](https://www.youtube.com/watch?v=HewBoCK2nXo)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=HewBoCK2nXo) |
 | <a href="https://www.youtube.com/watch?v=hw6cPzIz4LE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-4dff60a40a79.webp" width="220" alt="Summon Rock Spell"></a> | **Summon Rock Spell**<br>A simple rock becomes an interesting physics projectile | An elemental staff launches visibly weighty stones | [Watch video](https://www.youtube.com/watch?v=hw6cPzIz4LE)<br><sub>Item title matched</sub><br>[Image / reference source](https://noita.wiki.gg/wiki/Summon_Rock) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-oddworld-stranger-s-wrath"></a>
 
 ## Oddworld: Stranger's Wrath
 
@@ -1187,15 +1355,19 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-overwatch-2"></a>
+
 ## Overwatch 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=ZCgp961WjZU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/7a5439975109.webp" width="220" alt="Bound Demon (Reinhardt)"></a><br><sub>Item-video preview</sub> | **Bound Demon (Reinhardt)**<br>Demonically animated hammer responds as its wielder performs | Soul-hungry war hammer gains glowing horns per kill streak | [Watch video](https://www.youtube.com/watch?v=ZCgp961WjZU)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=ZCgp961WjZU) |
-| Image not yet resolved | **Mythic Weapons (general)**<br>Weapon cosmetics can alter effects and inspections independently of outfits | Create staged upgrade paths for every rare AoA relic using quest milestones | Direct video not yet resolved<br>[Image / reference source](https://overwatch.fandom.com/wiki/Weapon_Skins) |
+| <a href="https://www.youtube.com/watch?v=81SkedfP2Js"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/c76fecf4614e.webp" width="220" alt="Mythic Weapons (general)"></a><br><sub>Item-video preview</sub> | **Mythic Weapons (general)**<br>Weapon cosmetics can alter effects and inspections independently of outfits | Create staged upgrade paths for every rare AoA relic using quest milestones | [Watch video](https://www.youtube.com/watch?v=81SkedfP2Js)<br><sub>Named collection reference; not a single weapon</sub><br>[Image / reference source](https://www.youtube.com/watch?v=81SkedfP2Js) |
 | <a href="https://www.youtube.com/watch?v=_hqyNPUxftQ"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/d3b1e5bb39a3.webp" width="220" alt="Steel Death (Reaper)"></a><br><sub>Item-video preview</sub> | **Steel Death (Reaper)**<br>Skull / death-themed reactive twin shotguns | Twin phantom pistols gradually reveal spectral skulls as they charge | [Watch video](https://www.youtube.com/watch?v=_hqyNPUxftQ)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=_hqyNPUxftQ) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-postal-brain-damaged"></a>
 
 ## POSTAL: Brain Damaged
 
@@ -1207,6 +1379,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-painkiller"></a>
+
 ## Painkiller
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1216,6 +1390,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=G_dYoihFjdw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-5eba94ef9549.webp" width="220" alt="Painkiller"></a><br><sub>Item-video preview</sub> | **Painkiller**<br>A rotating blade mechanism doubles as an energy-linked attack | A spinning halo can be launched and tethered to its handle | [Watch video](https://www.youtube.com/watch?v=G_dYoihFjdw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=G_dYoihFjdw) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-perfect-dark"></a>
 
 ## Perfect Dark
 
@@ -1229,6 +1405,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-portal"></a>
+
 ## Portal
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1237,15 +1415,19 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-prey-2006"></a>
+
 ## Prey (2006)
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=K_7d8L4mZAg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-74d178dca6f8.webp" width="220" alt="Leech Gun"></a><br><sub>Item-video preview</sub> | **Leech Gun**<br>Absorbs different energy sources to change weapon behavior | A siphon staff takes on the color of the last sampled realm resource | [Watch video](https://www.youtube.com/watch?v=K_7d8L4mZAg)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=K_7d8L4mZAg) |
 | Image not yet resolved | **Crawler**<br>A living creature serves as a thrown explosive | A luminous beetle curls into a throwable pod | Direct video not yet resolved |
-| Image not yet resolved | **Acid Sprayer**<br>A visibly organic alien weapon sprays fluid | A botanical mouth sprays a stylized alchemical stream | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=PgzHAW8_hRg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-1ba7d551a66a.webp" width="220" alt="Acid Sprayer"></a><br><sub>Item-video preview</sub> | **Acid Sprayer**<br>A visibly organic alien weapon sprays fluid | A botanical mouth sprays a stylized alchemical stream | [Watch video](https://www.youtube.com/watch?v=PgzHAW8_hRg)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=PgzHAW8_hRg) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-prey-2017"></a>
 
 ## Prey (2017)
 
@@ -1255,6 +1437,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=Ro3if9XhsN4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/7a3b3d08f614.webp" width="220" alt="Recycler Charge"></a><br><sub>Item-video preview</sub> | **Recycler Charge**<br>Converts nearby objects and enemies into resource material. | A compact alchemical implosion turns a small area into collectible elemental fragments. | [Watch video](https://www.youtube.com/watch?v=Ro3if9XhsN4)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=Ro3if9XhsN4) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-quake"></a>
 
 ## Quake
 
@@ -1267,6 +1451,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-quake-ii"></a>
+
 ## Quake II
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1276,6 +1462,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-quake-iii-arena"></a>
+
 ## Quake III Arena
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1283,6 +1471,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=lXfkIWe6ryA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-8854ecbc8a88.webp" width="220" alt="Lightning Gun"></a><br><sub>Item-video preview</sub> | **Lightning Gun**<br>A continuous beam that emphasizes tracking | A singing conduit changes pitch with uninterrupted contact | [Watch video](https://www.youtube.com/watch?v=lXfkIWe6ryA)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=lXfkIWe6ryA) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-ratchet-clank"></a>
 
 ## Ratchet & Clank
 
@@ -1297,6 +1487,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-ratchet-clank-a-crack-in-time"></a>
+
 ## Ratchet & Clank: A Crack in Time
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1307,6 +1499,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-ratchet-clank-all-4-one"></a>
+
 ## Ratchet & Clank: All 4 One
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1315,6 +1509,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-ratchet-clank-deadlocked"></a>
+
 ## Ratchet & Clank: Deadlocked
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1322,6 +1518,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=A--FhY3QFTM"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-d7b74ba22557.webp" width="220" alt="Scorpion Flail"></a><br><sub>Item-video preview</sub> | **Scorpion Flail**<br>A large energy flail gives sweeping attacks substantial weight | A floating asteroid swings from a visible magical tether | [Watch video](https://www.youtube.com/watch?v=A--FhY3QFTM)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=A--FhY3QFTM) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-ratchet-clank-going-commando"></a>
 
 ## Ratchet & Clank: Going Commando
 
@@ -1337,6 +1535,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-ratchet-clank-into-the-nexus"></a>
+
 ## Ratchet & Clank: Into the Nexus
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1345,6 +1545,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=WkCFs1MVjqg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-d34df9b0ab37.webp" width="220" alt="Winterizer"></a><br><sub>Item-video preview</sub> | **Winterizer**<br>Transforms enemies into snowmen | A snow-globe gun wraps targets in cartoon snow | [Watch video](https://www.youtube.com/watch?v=WkCFs1MVjqg)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=WkCFs1MVjqg) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-ratchet-clank-rift-apart"></a>
 
 ## Ratchet & Clank: Rift Apart
 
@@ -1364,15 +1566,19 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-ratchet-clank-tools-of-destruction"></a>
+
 ## Ratchet & Clank: Tools of Destruction
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
 | <a href="https://www.youtube.com/watch?v=2rVnSsVYN3o"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-e0262f49bff0.webp" width="220" alt="Groovitron"></a><br><sub>Item-video preview</sub> | **Groovitron**<br>A disco ball forces nearby enemies to dance | A musical orb synchronizes creature dances to a short loop | [Watch video](https://www.youtube.com/watch?v=2rVnSsVYN3o)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=2rVnSsVYN3o) |
-| Image not yet resolved | **Tornado Launcher**<br>A steerable tornado turns weather into ammunition | A bottled whirlwind escapes into a guided miniature storm | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=ekPU2dnhXsk"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-690af3f0d001.webp" width="220" alt="Tornado Launcher"></a><br><sub>Item-video preview</sub> | **Tornado Launcher**<br>A steerable tornado turns weather into ammunition | A bottled whirlwind escapes into a guided miniature storm | [Watch video](https://www.youtube.com/watch?v=ekPU2dnhXsk)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=ekPU2dnhXsk) |
 | <a href="https://www.youtube.com/watch?v=lOFNOipUboE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-07fabaf58552.webp" width="220" alt="Negotiator"></a><br><sub>Item-video preview</sub> | **Negotiator**<br>A stylized rocket launcher with bold mechanical transformation | A fold-out clockwork dragon launcher | [Watch video](https://www.youtube.com/watch?v=lOFNOipUboE)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=lOFNOipUboE) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-ratchet-clank-up-your-arsenal"></a>
 
 ## Ratchet & Clank: Up Your Arsenal
 
@@ -1387,6 +1593,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-red-faction-armageddon"></a>
+
 ## Red Faction: Armageddon
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1396,6 +1604,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-red-faction-guerrilla"></a>
+
 ## Red Faction: Guerrilla
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1404,6 +1614,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=IBBYQ-SsoPQ"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-4e491482f415.webp" width="220" alt="Singularity Bomb"></a><br><sub>Item-video preview</sub> | **Singularity Bomb**<br>A collapsing field creates an environmental spectacle | A pocket universe briefly opens in a floating glass sphere | [Watch video](https://www.youtube.com/watch?v=IBBYQ-SsoPQ)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=IBBYQ-SsoPQ) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-remnant-ii"></a>
 
 ## Remnant II
 
@@ -1422,6 +1634,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-remnant-from-the-ashes"></a>
+
 ## Remnant: From the Ashes
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1433,6 +1647,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-resistance-2"></a>
+
 ## Resistance 2
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1440,6 +1656,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=pDjUmRENeqw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-1a67c0996c53.webp" width="220" alt="Splicer"></a><br><sub>Item-video preview</sub> | **Splicer**<br>A circular saw projectile brings exposed industrial motion | A spinning mechanical disc winds up inside an open guard | [Watch video](https://www.youtube.com/watch?v=pDjUmRENeqw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=pDjUmRENeqw) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-resistance-3"></a>
 
 ## Resistance 3
 
@@ -1450,6 +1668,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-resistance-fall-of-man"></a>
+
 ## Resistance: Fall of Man
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1459,6 +1679,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=KsZsYnCJ8cw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-47f2beaa884b.webp" width="220" alt="Sapper"></a><br><sub>Item-video preview</sub> | **Sapper**<br>Organic mines can be placed in the environment | A living pod launcher scatters pulsing seed traps | [Watch video](https://www.youtube.com/watch?v=KsZsYnCJ8cw)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=KsZsYnCJ8cw) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-returnal"></a>
 
 ## Returnal
 
@@ -1473,6 +1695,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-roboquest"></a>
+
 ## Roboquest
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1483,6 +1707,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-saints-row-iv"></a>
+
 ## Saints Row IV
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1492,7 +1718,7 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=3nsBVDC-eV4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/8b9912619a37.webp" width="220" alt="Dubstep Gun — Default"></a> | **Dubstep Gun — Default**<br>Original dubstep skin with a driving bassline pulse. Audio beats directly govern projectile cadence and visual rhythm. | Give an AoA bard cannon interchangeable musical cores. Each rhythm changes pulse interval and enemy dance-stun intensity; swapping cores changes the model and sound set. | [Watch video](https://www.youtube.com/watch?v=3nsBVDC-eV4)<br><sub>Item matched</sub><br>[Image / reference source](https://saintsrow.wiki/wiki/Dubstep_Gun) |
 | <a href="https://www.youtube.com/watch?v=4fY_5fD0MUY"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/14ba524e3e87.webp" width="220" alt="Dubstep Gun — Industrial"></a> | **Dubstep Gun — Industrial**<br>Dark gray body with an industrial-heavy music remix. Audio beats directly govern projectile cadence and visual rhythm. | Give an AoA bard cannon interchangeable musical cores. Each rhythm changes pulse interval and enemy dance-stun intensity; swapping cores changes the model and sound set. | [Watch video](https://www.youtube.com/watch?v=4fY_5fD0MUY)<br><sub>Item title matched</sub><br>[Image / reference source](https://coub.com/view/2iu419) |
 | <a href="https://www.youtube.com/watch?v=3nsBVDC-eV4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/23f2ea41afab.webp" width="220" alt="Dubstep Gun — Popstar"></a> | **Dubstep Gun — Popstar**<br>Pink Popstar costume, with a different electronic dance song. Audio beats directly govern projectile cadence and visual rhythm. | Give an AoA bard cannon interchangeable musical cores. Each rhythm changes pulse interval and enemy dance-stun intensity; swapping cores changes the model and sound set. | [Watch video](https://www.youtube.com/watch?v=3nsBVDC-eV4)<br><sub>Item matched</sub><br>[Image / reference source](https://saintsrow.wiki/wiki/Dubstep_Gun) |
-| Image not yet resolved | **Dubstep Gun — Da Wub**<br>Mission-specific alternate track and look. Audio beats directly govern projectile cadence and visual rhythm. | Give an AoA bard cannon interchangeable musical cores. Each rhythm changes pulse interval and enemy dance-stun intensity; swapping cores changes the model and sound set. | Direct video not yet resolved<br>[Image / reference source](https://saintsrow.wiki/wiki/Dubstep_Gun) |
+| <a href="https://www.youtube.com/watch?v=SZaE7QkME38"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/3201e999e01d.webp" width="220" alt="Dubstep Gun — Da Wub"></a><br><sub>Item-video preview</sub> | **Dubstep Gun — Da Wub**<br>Mission-specific alternate track and look. Audio beats directly govern projectile cadence and visual rhythm. | Give an AoA bard cannon interchangeable musical cores. Each rhythm changes pulse interval and enemy dance-stun intensity; swapping cores changes the model and sound set. | [Watch video](https://www.youtube.com/watch?v=SZaE7QkME38)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=SZaE7QkME38) |
 | <a href="https://www.youtube.com/watch?v=w7mjfqt8NHE"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/dbc333c2b9ac.webp" width="220" alt="Dubstep Gun — Christmastime"></a> | **Dubstep Gun — Christmastime**<br>Holiday-themed soundtrack and themed cosmetic identity. Audio beats directly govern projectile cadence and visual rhythm. | Give an AoA bard cannon interchangeable musical cores. Each rhythm changes pulse interval and enemy dance-stun intensity; swapping cores changes the model and sound set. | [Watch video](https://www.youtube.com/watch?v=w7mjfqt8NHE)<br><sub>Item title matched</sub><br>[Image / reference source](https://saintsrow.wiki/wiki/Dubstep_Gun) |
 | <a href="https://www.youtube.com/watch?v=YIh0-IgF1cI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/9dbd3ade2f1c.webp" width="220" alt="Dubstep Gun Remix DLC — Classical"></a> | **Dubstep Gun Remix DLC — Classical**<br>Wagner-inspired orchestral music skin. Separate Saints Row IV Remix DLC weapon, not a costume of the standard gun. | Add a collectible vinyl disc to a single original AoA sound cannon: disc choice changes beat grid, particle colors, and a musically synced area-effect pulse. | [Watch video](https://www.youtube.com/watch?v=YIh0-IgF1cI)<br><sub>Item title matched</sub><br>[Image / reference source](https://saintsrow.wiki/wiki/Dubstep_Gun_%28DLC_Remix%29) |
 | <a href="https://www.youtube.com/watch?v=7rd6ew1Ns7s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/c6296b1f4f90.webp" width="220" alt="Dubstep Gun Remix DLC — Oktoberfest"></a> | **Dubstep Gun Remix DLC — Oktoberfest**<br>Polka music skin with per-beat projectile timing. Separate Saints Row IV Remix DLC weapon, not a costume of the standard gun. | Add a collectible vinyl disc to a single original AoA sound cannon: disc choice changes beat grid, particle colors, and a musically synced area-effect pulse. | [Watch video](https://www.youtube.com/watch?v=7rd6ew1Ns7s)<br><sub>Item title matched</sub><br>[Image / reference source](https://saintsrow.wiki/wiki/Dubstep_Gun_%28DLC_Remix%29) |
@@ -1502,6 +1728,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=DBHzYPiN6Zk"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/4f7fa71eae54.webp" width="220" alt="Black Hole Launcher"></a><br><sub>Item-video preview</sub> | **Black Hole Launcher**<br>Creates miniature black holes that pull in nearby objects. | Plant a gravity seed that gathers enemies and loose projectiles before collapsing into a starburst. | [Watch video](https://www.youtube.com/watch?v=DBHzYPiN6Zk)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=DBHzYPiN6Zk) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-saints-row-gat-out-of-hell"></a>
 
 ## Saints Row: Gat Out of Hell
 
@@ -1517,6 +1745,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-saints-row-the-third"></a>
+
 ## Saints Row: The Third
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1526,6 +1756,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-serious-sam"></a>
+
 ## Serious Sam
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1533,6 +1765,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=uw_75xIYGCU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-e5e4345f1935.webp" width="220" alt="SBC Cannon"></a><br><sub>Item-video preview</sub> | **SBC Cannon**<br>A handheld cannon fires enormous rolling cannonballs | A portable observatory rolls miniature moons down corridors | [Watch video](https://www.youtube.com/watch?v=uw_75xIYGCU)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=uw_75xIYGCU) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-serious-sam-3-bfe"></a>
 
 ## Serious Sam 3: BFE
 
@@ -1542,6 +1776,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-serious-sam-4"></a>
+
 ## Serious Sam 4
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1550,14 +1786,18 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-shadow-warrior-1997"></a>
+
 ## Shadow Warrior (1997)
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
 |---|---|---|---|
-| Image not yet resolved | **Ripper Heart**<br>A living heart summons a supernatural ally | A pulsing seed pod unfolds into a temporary spectral double | Direct video not yet resolved |
-| Image not yet resolved | **Rail Gun**<br>Heavy precision weapon with an industrial charging silhouette | A copper spine builds light along its entire length | Direct video not yet resolved |
+| <a href="https://www.youtube.com/watch?v=i6JOe6q3cTY"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-2a760f73ea22.webp" width="220" alt="Ripper Heart"></a><br><sub>Item-video preview</sub> | **Ripper Heart**<br>A living heart summons a supernatural ally | A pulsing seed pod unfolds into a temporary spectral double | [Watch video](https://www.youtube.com/watch?v=i6JOe6q3cTY)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=i6JOe6q3cTY) |
+| <a href="https://www.youtube.com/watch?v=uhwmR7rLwrY"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-5cc9fd742cb3.webp" width="220" alt="Rail Gun"></a><br><sub>Item-video preview</sub> | **Rail Gun**<br>Heavy precision weapon with an industrial charging silhouette | A copper spine builds light along its entire length | [Watch video](https://www.youtube.com/watch?v=uhwmR7rLwrY)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=uhwmR7rLwrY) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-singularity"></a>
 
 ## Singularity
 
@@ -1567,6 +1807,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=ia3gbB2Xsac"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-1a55843f5faf.webp" width="220" alt="Time Manipulation Device"></a><br><sub>Item-video preview</sub> | **Time Manipulation Device**<br>Time effects provide a weapon-like utility identity | A clockwork gauntlet visibly ages and restores selected fantasy props | [Watch video](https://www.youtube.com/watch?v=ia3gbB2Xsac)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=ia3gbB2Xsac) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-splatoon"></a>
 
 ## Splatoon
 
@@ -1581,6 +1823,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=D-LTtvSRY5w&amp;t=1272s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/db61c52abb8e.webp" width="220" alt="Explosher"></a><br><sub>Item-video preview</sub> | **Explosher**<br>Industrial tank-like slosher launches large arcing explosive ink | Mix two potion colors in the chamber then lob an explosive splash | [Watch video](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=1272s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=1272s) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-splatoon-3"></a>
 
 ## Splatoon 3
 
@@ -1599,6 +1843,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-starfield"></a>
+
 ## Starfield
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1608,6 +1854,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=wkvWIKBibOA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/e68bf09fc331.webp" width="220" alt="BombaTech Big Bomba"></a> | **BombaTech Big Bomba**<br>A retro-jet-engine-shaped launcher with custom explosions and themed nuclear ordnance variants. | A miniature reactor cannon launches a glowing seed that unfolds into a ring-shaped blast rather than a conventional explosive. | [Watch video](https://www.youtube.com/watch?v=wkvWIKBibOA)<br><sub>Item matched</sub><br>[Image / reference source](https://starfieldunity.com/mods/1961/bombatech-nuke-launcher) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-sunset-overdrive"></a>
 
 ## Sunset Overdrive
 
@@ -1625,6 +1873,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-the-finals"></a>
+
 ## THE FINALS
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1633,7 +1883,7 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=U8uztNv35Uo"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/4635d458592a.webp" width="220" alt="Riff Wrecker"></a> | **Riff Wrecker**<br>Playable electric guitar in place of a sledgehammer; rock-solo inspect | Strum a heavy metal chord to send a short stun shockwave | [Watch video](https://www.youtube.com/watch?v=U8uztNv35Uo)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.thefinals.wiki/wiki/Sledgehammer) |
 | <a href="https://www.youtube.com/watch?v=Ldyp-RDCPQw"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/90a967df35b6.webp" width="220" alt="Arcadia Obliterator"></a> | **Arcadia Obliterator**<br>Retro arcade-era prop-like form and finish | Launch chunky pixel sprites that generate 8-bit blast particles | [Watch video](https://www.youtube.com/watch?v=Ldyp-RDCPQw)<br><sub>Item title matched</sub><br>[Image / reference source](https://steamcommunity.com/games/2073850/announcements/detail/516354375789052259) |
 | <a href="https://www.youtube.com/watch?v=NCtJ8BfoJME"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/1f3bbeeb4611.webp" width="220" alt="CTRL+ALT+DEMOLISH"></a> | **CTRL+ALT+DEMOLISH**<br>Computer-themed demolition weapon novelty | Hits spawn breakable fake error windows that detonate after a beat | [Watch video](https://www.youtube.com/watch?v=NCtJ8BfoJME)<br><sub>Item matched</sub><br>[Image / reference source](https://www.thefinals.wiki/wiki/Sledgehammer) |
-| <a href="https://steamcommunity.com/games/2073850/announcements/detail/516354375789052259"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/408a9fc457c0.webp" width="220" alt="Toybox Trigger (CL-40)"></a> | **Toybox Trigger (CL-40)**<br>Brightly playful launcher novelty against explosive combat | Launch wind-up toy shells that bounce twice before popping | Direct video not yet resolved<br>[Image / reference source](https://steamcommunity.com/games/2073850/announcements/detail/516354375789052259) |
+| <a href="https://www.youtube.com/watch?v=yfDDeyhGtsI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/408a9fc457c0.webp" width="220" alt="Toybox Trigger (CL-40)"></a> | **Toybox Trigger (CL-40)**<br>Brightly playful launcher novelty against explosive combat | Launch wind-up toy shells that bounce twice before popping | [Watch video](https://www.youtube.com/watch?v=yfDDeyhGtsI)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://steamcommunity.com/games/2073850/announcements/detail/516354375789052259) |
 | <a href="https://www.youtube.com/watch?v=U5nmLTbhflY"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/e906f7f47b18.webp" width="220" alt="Bonkus Maximus"></a> | **Bonkus Maximus**<br>Dramatically oversized novelty close-combat hammer silhouette | Hammer impact stamps cartoon stars that orbit stunned mobs | [Watch video](https://www.youtube.com/watch?v=U5nmLTbhflY)<br><sub>Item matched</sub><br>[Image / reference source](https://www.thefinals.wiki/wiki/Sledgehammer) |
 | <a href="https://www.youtube.com/watch?v=xSs1KLyVR5k"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/d601ef53b5e2.webp" width="220" alt="Broth Bruiser"></a> | **Broth Bruiser**<br>Absurd themed replacement for an oversized hammer | Soup-pot shockwave splashes broth and briefly slows mobs | [Watch video](https://www.youtube.com/watch?v=xSs1KLyVR5k)<br><sub>Item matched</sub><br>[Image / reference source](https://www.thefinals.wiki/wiki/Sledgehammer) |
 | <a href="https://www.youtube.com/watch?v=rRzD9oR6mW4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/6826aadb97b0.webp" width="220" alt="Corecharge Melt"></a> | **Corecharge Melt**<br>Industrial melted-can and scrap material gimmick | Reload spills glowing coolant that becomes a damaging floor patch | [Watch video](https://www.youtube.com/watch?v=rRzD9oR6mW4)<br><sub>Item title matched</sub><br>[Image / reference source](https://steamcommunity.com/games/2073850/announcements/detail/516354375789052259) |
@@ -1656,6 +1906,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=0y2sSrNrXDU"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/c489aa3c77a2.webp" width="220" alt="Cartridge Gunner (M11)"></a> | **Cartridge Gunner (M11)**<br>Unusual M11 weapon skin has its own inspect and reload animations in the 2025 player-maintained skin index. | Make a cassette-magazine machine gun that spools cartridges as reel-to-reel tape during reload. | [Watch video](https://www.youtube.com/watch?v=0y2sSrNrXDU)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.reddit.com/r/thefinals/comments/1k92spr/list_of_weapon_skins_including_unique_animations/) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-terraria"></a>
 
 ## Terraria
 
@@ -1684,6 +1936,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-terraria-calamity-mod"></a>
+
 ## Terraria - Calamity Mod
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1700,6 +1954,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-the-elder-scrolls-v-skyrim"></a>
+
 ## The Elder Scrolls V: Skyrim
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1708,6 +1964,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=3quSMBPKfGI"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/957953c2876b.webp" width="220" alt="Animated Armoury - Frost Whips"></a><br><sub>Item-video preview</sub> | **Animated Armoury - Frost Whips**<br>Articulated whips with dedicated attack animations instead of sword-like swings. | A segmented ice whip that bends around its swing and leaves lingering frost arcs. | [Watch video](https://www.youtube.com/watch?v=3quSMBPKfGI)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=3quSMBPKfGI) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-timesplitters-future-perfect"></a>
 
 ## TimeSplitters: Future Perfect
 
@@ -1719,6 +1977,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-tiny-tina-s-wonderlands"></a>
+
 ## Tiny Tina's Wonderlands
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1729,6 +1989,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=7lF91CyD7V8"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-aaad4997a0e7.webp" width="220" alt="Swordsplosion"></a><br><sub>Item-video preview</sub> | **Swordsplosion**<br>A fantasy shotgun launches explosive swords | An original sword bouquet scatters spectral blades | [Watch video](https://www.youtube.com/watch?v=7lF91CyD7V8)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=7lF91CyD7V8) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-titanfall-2"></a>
 
 ## Titanfall 2
 
@@ -1743,6 +2005,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-turbo-overkill"></a>
+
 ## Turbo Overkill
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1750,6 +2014,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=sKmqPpRmm1A&amp;t=31s"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/b1dcd38b907f.webp" width="220" alt="Chainsaw Leg"></a> | **Chainsaw Leg**<br>Slide triggers transforming saw boot and high-speed melee | Momentum-driven AoA boot blade for slide attacks | [Watch video](https://www.youtube.com/watch?v=sKmqPpRmm1A&t=31s)<br><sub>Chapter matched</sub><br>[Image / reference source](https://turbo-overkill.fandom.com/wiki/Chainsaw_Leg) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-turok-2-seeds-of-evil"></a>
 
 ## Turok 2: Seeds of Evil
 
@@ -1762,6 +2028,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-turok-dinosaur-hunter"></a>
+
 ## Turok: Dinosaur Hunter
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1771,6 +2039,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-turok-rage-wars"></a>
+
 ## Turok: Rage Wars
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1778,6 +2048,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=xnkFTscGOzg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-5aca7f6250b2.webp" width="220" alt="Inflator"></a><br><sub>Item-video preview</sub> | **Inflator**<br>A novelty weapon changes enemy proportions | A carnival pump makes enemies swell with luminous air | [Watch video](https://www.youtube.com/watch?v=xnkFTscGOzg)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=xnkFTscGOzg) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-ultrakill"></a>
 
 ## ULTRAKILL
 
@@ -1797,6 +2069,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-unreal-tournament"></a>
+
 ## Unreal Tournament
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1809,6 +2083,8 @@ Images are reference material attributed through their source links, not a colle
 
 [Back to collections](#browse-by-collection)
 
+<a id="collection-unreal-tournament-2004"></a>
+
 ## Unreal Tournament 2004
 
 | Embedded reference | Weapon and distinctive hook | AoA remix proposal | Direct video and source |
@@ -1817,6 +2093,8 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=AYEPIk2Wub4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/g-807aca86478b.webp" width="220" alt="Lightning Gun"></a><br><sub>Item-video preview</sub> | **Lightning Gun**<br>A precision electric strike with a bold audiovisual signature | A storm rod stores a flash inside a transparent chamber | [Watch video](https://www.youtube.com/watch?v=AYEPIk2Wub4)<br><sub>Item title matched</sub><br>[Image / reference source](https://www.youtube.com/watch?v=AYEPIk2Wub4) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-valorant"></a>
 
 ## VALORANT
 
@@ -1833,11 +2111,13 @@ Images are reference material attributed through their source links, not a colle
 | <a href="https://www.youtube.com/watch?v=9Dkrj741v1E"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/78ecd3b1fc8d.webp" width="220" alt="Arcade Ghost"></a> | **Arcade Ghost**<br>Retro console aesthetics and game-like sound design | Fire color-swapped sprite bolts with a combo finish fanfare | [Watch video](https://www.youtube.com/watch?v=9Dkrj741v1E)<br><sub>Item title matched</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/Radiant_Entertainment_System_Collection) |
 | <a href="https://www.youtube.com/watch?v=0BTyFy5Q_ZM"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/1be10afb3978.webp" width="220" alt="Arcade Operator"></a> | **Arcade Operator**<br>Arcade hardware with game-display animation and finisher | Each charged shot boots a tiny 8-bit boss encounter on the scope | [Watch video](https://www.youtube.com/watch?v=0BTyFy5Q_ZM)<br><sub>Item title matched</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/Radiant_Entertainment_System_Collection) |
 | <a href="https://www.youtube.com/watch?v=N9-VRROA_t4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/46b3b87d846d.webp" width="220" alt="Evori Dreamwings Spectre"></a> | **Evori Dreamwings Spectre**<br>Magical familiar travels along a pastel creature-themed weapon | Summon tiny winged motes that mark damaged enemies | [Watch video](https://www.youtube.com/watch?v=N9-VRROA_t4)<br><sub>Item title matched</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/Evori_Dreamwings_Collection) |
-| <a href="https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bbd2113e-4c6a-4620-b62f-0f937aeb059a_default_universal.mp4"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/29bc5a65694e.webp" width="220" alt="Evori Dreamwings Wand"></a> | **Evori Dreamwings Wand**<br>Magical transformation into an ornate wand-like blade | Cast fast directional rune patterns by swinging in sequence | [Watch video](https://valorant.dyn.riotcdn.net/x/videos/release-13.08/bbd2113e-4c6a-4620-b62f-0f937aeb059a_default_universal.mp4)<br><sub>Context only; item match unresolved</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/Evori_Dreamwings_Collection) |
+| <a href="https://www.youtube.com/watch?v=2GUxE4C2Thg"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/29bc5a65694e.webp" width="220" alt="Evori Dreamwings Wand"></a> | **Evori Dreamwings Wand**<br>Magical transformation into an ornate wand-like blade | Cast fast directional rune patterns by swinging in sequence | [Watch video](https://www.youtube.com/watch?v=2GUxE4C2Thg)<br><sub>Item and game / historical identity matched</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/Evori_Dreamwings_Collection) |
 | <a href="https://www.youtube.com/watch?v=6CsbDP4r5pA"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/be8f61c1cef4.webp" width="220" alt="RGX 11z Pro Firefly"></a> | **RGX 11z Pro Firefly**<br>Mechanical butterfly-knife style with color-shifting light tech | Flip a segmented neon blade that swaps elemental edges mid-combo | [Watch video](https://www.youtube.com/watch?v=6CsbDP4r5pA)<br><sub>Item title matched</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/RGX_11z_Pro_Collection) |
 | <a href="https://www.youtube.com/watch?v=N6VGvmWGvds"><img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/992c93d9a85b.webp" width="220" alt="RGX 11z Pro Rifle"></a> | **RGX 11z Pro Rifle**<br>Glowing internals and kill-counter tech-fantasy | Weapon reads combo count on body display and pulses brighter at milestones | [Watch video](https://www.youtube.com/watch?v=N6VGvmWGvds)<br><sub>Item title matched</sub><br>[Image / reference source](https://valorant.fandom.com/wiki/RGX_11z_Pro_Collection) |
 
 [Back to collections](#browse-by-collection)
+
+<a id="collection-warframe"></a>
 
 ## Warframe
 
