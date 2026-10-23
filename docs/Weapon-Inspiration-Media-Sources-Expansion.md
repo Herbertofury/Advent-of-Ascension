@@ -756,6 +756,239 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=3QnsJggMQJ0).
 [Video: Tenet Plinx Build 2023 (Guide) - Let&#x27;s Make The Big Boom (Warframe Gameplay)](https://www.youtube.com/watch?v=3QnsJggMQJ0). Evidence: Item title and game context matched.
 
+<a id="ref-xg-c74ea9a36f87"></a>
+## Tenet Diplos (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SZr8YDCyA30).
+[Video: Tenet Diplos Build 2021 (Guide) - The Party Never Stops (Warframe Gameplay)](https://www.youtube.com/watch?v=SZr8YDCyA30). Evidence: Item title and game context matched.
+
+<a id="ref-xg-9eca18610f76"></a>
+## Tenet Cycron (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4U2u-zx1zOs).
+[Video: A high damage Nukor: The Tenet Cycron &#124; Warframe Weapon Review &amp; Build Guide &#124; Two Star Players](https://www.youtube.com/watch?v=4U2u-zx1zOs). Evidence: Item title and game context matched.
+
+<a id="ref-xg-1e20c9c9e9a0"></a>
+## Microcosm (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Microcosm).
+[Video: Destiny 2: The Final Shape - Microcosm HEAVY AMMO Exotic Trace Rifle Drop &amp; Gameplay Showcase!](https://www.youtube.com/watch?v=jHPvvofWXN8). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Microcosm): Microcosm.
+
+<a id="ref-xg-7d746029307a"></a>
+## Convectrix (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IhwWdoJLfwk).
+[Video: Warframe Convectrix review/showcase](https://www.youtube.com/watch?v=IhwWdoJLfwk). Evidence: Item title and game context matched.
+
+<a id="ref-xg-aedba0c4f5ab"></a>
+## Grimoire (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Fwnd8y7_rD8).
+[Video: But Is It Any Good? &#124; Warframe Grimoire Review](https://www.youtube.com/watch?v=Fwnd8y7_rD8). Evidence: Item title and game context matched.
+
+<a id="ref-xg-b507efcd1593"></a>
+## Alethonym (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Alethonym).
+[Video: Alethonym Exotic REVIEW (Primary Ammo Grenade Launcher) &#124; Destiny 2 Revenant](https://www.youtube.com/watch?v=DVto5KwZjvw). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Alethonym): Alethonym.
+
+<a id="ref-xg-f4e0a144a8fd"></a>
+## Two-Tailed Fox (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Two-Tailed_Fox).
+[Video: THE CLEVER MR FOX!-Destiny 2 &quot;Two-Tailed Fox&quot; Review &amp; Gameplay](https://www.youtube.com/watch?v=ef6Cx_72y5g). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Two-Tailed_Fox): Two-Tailed Fox.
+
+<a id="ref-xg-68540ae2ab70"></a>
+## Felarx (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-dJLdFCQKTU).
+[Video: Felarx Build 2024 (Guide) - Lock &amp; Loaded (Warframe Gameplay)](https://www.youtube.com/watch?v=-dJLdFCQKTU). Evidence: Item title and game context matched.
+
+<a id="ref-xg-547bf61024d0"></a>
+## Fulmin (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PBw73c6V1sM).
+[Video: MY NEW PRIMARY WEAPON... for NOW!! &#124; WarFrame &#124; [FULMIN Showcase]](https://www.youtube.com/watch?v=PBw73c6V1sM). Evidence: Item title and game context matched.
+
+<a id="ref-xg-837fea23d407"></a>
+## Kulstar (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=GEYFMjprV68).
+[Video: Warframe Kulstar review/showcase](https://www.youtube.com/watch?v=GEYFMjprV68). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6803d4b18b90"></a>
+## Angstrum (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Vk6XPMNG2UM).
+[Video: [WARFRAME] ROCKET HEADSHOTS? Angstrum Incarnon Builds/Review/Gameplay &#124; Echoes Of Duviri](https://www.youtube.com/watch?v=Vk6XPMNG2UM). Evidence: Item title and game context matched.
+
+<a id="ref-xg-5f334c14256f"></a>
+## Astilla (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=yGN-bSGtuf0).
+[Video: Warframe Astilla Prime Showcase](https://www.youtube.com/watch?v=yGN-bSGtuf0). Evidence: Item title and game context matched.
+
+<a id="ref-xg-475b1e2fe95a"></a>
+## Battacor (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=pLN7_Gi1N5w).
+[Video: Battacor Build &amp; Review w/ Sentient Barrage Augment &#124; Steel Path Gameplay &#124; Warframe Duviri Paradox](https://www.youtube.com/watch?v=pLN7_Gi1N5w). Evidence: Item title and game context matched.
+
+<a id="ref-xg-853e06ec1e80"></a>
+## Quanta (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O9U0kHTSGl4).
+[Video: Warframe Quanta showcase](https://www.youtube.com/watch?v=O9U0kHTSGl4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-08541592fc12"></a>
+## Ballistica Prime (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=3cIJDI4o_L0).
+[Video: Warframe Ultimate Ballistica Prime Incarnon Build Showcase](https://www.youtube.com/watch?v=3cIJDI4o_L0). Evidence: Item title and game context matched.
+
+<a id="ref-xg-f6c835e33fa0"></a>
+## Hive (Borderlands 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PvSrBcz85SI).
+[Video: BORDERLANDS 2 &#124; *Hive* Unique Weapons Guide](https://www.youtube.com/watch?v=PvSrBcz85SI). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Hive): Hive.
+
+<a id="ref-xg-99c28ecb64c2"></a>
+## Morningstar (Borderlands 2)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Morningstar).
+[Video: BORDERLANDS 2 &#124;&#124; Longitudinal Morningstar Showcase](https://www.youtube.com/watch?v=UFHHq_SHiRw). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Morningstar): Morningstar.
+
+<a id="ref-xg-3dd6586b1097"></a>
+## Longbow (Borderlands 2)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Longbow_%28sniper_rifle%29).
+[Video: Borderlands 2: longbow review](https://www.youtube.com/watch?v=csEMBtLA6xQ). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Longbow_%28sniper_rifle%29): Longbow (sniper rifle).
+
+<a id="ref-xg-c69e6525b7d5"></a>
+## Deliverance (Borderlands 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=5a_250PL2W8).
+[Video: HOW TO PROPERLY USE THE DELIVERANCE// Borderlands 2 Gameplay](https://www.youtube.com/watch?v=5a_250PL2W8). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Deliverance): Deliverance.
+
+<a id="ref-xg-1f5418ba2007"></a>
+## Blockhead (Borderlands 2)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Blockhead).
+[Video: BORDERLANDS 2 &#124; *Blockhead* Unique Weapons Guide](https://www.youtube.com/watch?v=QtuuPfqWwx0). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Blockhead): Blockhead.
+
+<a id="ref-xg-7e718a6c0bc9"></a>
+## Bunny (Borderlands 2)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Bunny).
+[Video: Large Bunny rocket launcher Borderlands 2](https://www.youtube.com/watch?v=FtyXSxc3ZYo). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Bunny): Bunny.
+
+<a id="ref-xg-d922089c585f"></a>
+## Gunerang (Borderlands 2)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Gunerang).
+[Video: BORDERLANDS 2 &#124; *Gunerang* Legendary Weapons Guide](https://www.youtube.com/watch?v=aKG4MQPc0rg). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Gunerang): Gunerang.
+
+<a id="ref-xg-f9e29f0607ce"></a>
+## Teeth of Terramorphous (Borderlands 2)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Teeth_of_Terramorphous).
+[Video: Weapon showcase #1 borderlands 2 the fire fire teeth of terramorphous](https://www.youtube.com/watch?v=1aoldcRnOQU). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Teeth_of_Terramorphous): Teeth of Terramorphous.
+
+<a id="ref-xg-0c2138767679"></a>
+## Baby Maker (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Baby_Maker_%28Borderlands_3%29).
+[Video: Baby Maker Borderlands 3 Legendary Showcase](https://www.youtube.com/watch?v=YfO7eIDS1JE). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Baby_Maker_%28Borderlands_3%29): Baby Maker (Borderlands 3).
+
+<a id="ref-xg-e6ad4cb84f05"></a>
+## Handsome Jackhammer (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Handsome_Jackhammer).
+[Video: Handsome Jackhammer Borderlands 3 Legendary Showcase](https://www.youtube.com/watch?v=wD57Ol5ocYk). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Handsome_Jackhammer): Handsome Jackhammer.
+
+<a id="ref-xg-72656f6f8c86"></a>
+## Ten Gallon (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Ten_Gallon).
+[Video: Ten Gallon Borderlands 3 Legendary Showcase](https://www.youtube.com/watch?v=bkXkVfaB9_U). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Ten_Gallon): Ten Gallon.
+
+<a id="ref-xg-95faded35de7"></a>
+## Long Musket (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Long_Musket).
+[Video: LONG MUSKET &#124; Legendary Weapon Review [Borderlands 3]](https://www.youtube.com/watch?v=gvA8moeXs44). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Long_Musket): Long Musket.
+
+<a id="ref-xg-233e7a4ee72b"></a>
+## Dark Army (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Dark_Army).
+[Video: Borderlands 3 ASMR · Gameplay Video · Crazy Dark Army Build / Unreal Amara · AmaraBuilds.com](https://www.youtube.com/watch?v=HWXqXAyC2MU). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Dark_Army): Dark Army.
+
+<a id="ref-xg-c5b685251446"></a>
+## Creeping Death (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Creeping_Death).
+[Video: Creeping Death Weapon Showcase NEW Borderlands 3 Boss Week Legendary Drop from Aurelia!](https://www.youtube.com/watch?v=3ofqtKJWQ0g). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Creeping_Death): Creeping Death.
+
+<a id="ref-xg-042ed6f78d19"></a>
+## Lucky 7 (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Lucky_7).
+[Video: THIS PISTOL DESTROYS! Lucky 7 Moze Borderlands 3 Showcase!](https://www.youtube.com/watch?v=oTf7iQphw10). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Lucky_7): Lucky 7.
+
+<a id="ref-xg-6fc9488f4617"></a>
+## Superball (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Superball).
+[Video: Superball Borderlands 3 Legendary Showcase](https://www.youtube.com/watch?v=Ah1EohPUl8U). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Superball): Superball.
+
+<a id="ref-xg-7378e6abcfb2"></a>
+## Grease Trap (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Grease_Trap).
+[Video: Let&#x27;s Grease Em&#x27; Up - Level 72 Grease Trap - Borderlands 3 Showcase](https://www.youtube.com/watch?v=jZfIYWU3pC8). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Grease_Trap): Grease Trap.
+
+<a id="ref-xg-a107af2150f9"></a>
+## Predatory Lending (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Predatory_Lending).
+[Video: Bankrolled Predatory Lending Borderlands 3 Legendary Showcase](https://www.youtube.com/watch?v=_pFclOZHjtY). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Predatory_Lending): Predatory Lending.
+
+<a id="ref-xg-70275058f5e2"></a>
+## Chomper (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Chomper).
+[Video: Chomper Borderlands 3 Unique Weapon Showcase](https://www.youtube.com/watch?v=57B6ipGLlDY). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Chomper): Chomper.
+
+<a id="ref-xg-b1f1d826f69b"></a>
+## Love Drill (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Love_Drill).
+[Video: The Love Drill Is An INCREDIBLE Critical Hit Weapon! - UNDERRATED WEAPON SHOWCASE! &#124; Borderlands 3](https://www.youtube.com/watch?v=DeeGRd4qdm0). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Love_Drill): Love Drill.
+
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
 
