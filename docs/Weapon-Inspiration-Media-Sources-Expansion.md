@@ -430,10 +430,11 @@ Image: Named weapon reference image. [Source](https://goldeneye.fandom.com/wiki/
 <a id="ref-xg-2f46fb45e6db"></a>
 ## Dispersion Pistol (Unreal)
 
-Image: Weapon image from the named article infobox. [Source](https://unreal.fandom.com/wiki/Dispersion_Pistol).
+Image: Weapon photograph or game render from its named source section. [Source](https://unrealarchive.org/wikis/the-liandri-archives/Dispersion_Pistol.html).
 [Video: Unreal &quot;dispersion pistol&quot; grades (all)](https://www.youtube.com/watch?v=dFMx00Q9XfY). Evidence: Item title and game context matched.
 [Reference](https://unreal.fandom.com/wiki/Dispersion_Pistol): Dispersion Pistol.
 [Reference](https://www.youtube.com/results?search_query=Dispersion+Pistol+Unreal+weapon+showcase): Unreal &quot;dispersion pistol&quot; grades (all).
+[Reference](https://unrealarchive.org/wikis/the-liandri-archives/Dispersion_Pistol.html): Dispersion Pistol.
 
 <a id="ref-xg-9d4da5e8ba2f"></a>
 ## Razorjack (Unreal)
@@ -452,16 +453,19 @@ Image: Named weapon reference image. [Source](https://perfectdark.fandom.com/wik
 <a id="ref-xg-a5b818ff50f1"></a>
 ## Translocator (Unreal Tournament)
 
-Image: Weapon image from the named article infobox. [Source](https://unreal.fandom.com/wiki/Translocator).
+Image: Weapon photograph or game render from its named source section. [Source](https://unrealarchive.org/wikis/the-liandri-archives/Translocator.html).
 [Video: Translocator is Overpowered [Unreal Tournament 1999 GOTY]](https://www.youtube.com/watch?v=yF2cd9crmF4). Evidence: Item title and game context matched.
 [Reference](https://unreal.fandom.com/wiki/Translocator): Translocator.
 [Reference](https://www.youtube.com/results?search_query=Translocator+Unreal+Tournament+weapon+showcase): Translocator is Overpowered [Unreal Tournament 1999 GOTY].
+[Reference](https://unrealarchive.org/wikis/the-liandri-archives/Translocator.html): Translocator.
 
 <a id="ref-xg-1f1ba773fe75"></a>
 ## Spider Mine Layer (Unreal Tournament 2004)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=lktdYH0Uar8).
-[Video: an idiot using blender 2.8 to model a spider mine layer gun from unreal tournament 2004 - part 1](https://www.youtube.com/watch?v=lktdYH0Uar8). Evidence: Item title and game context matched.
+Image: Weapon photograph or game render from its named source section. [Source](https://unrealarchive.org/wikis/the-liandri-archives/Mine_Layer.html).
+[Video: Unreal Tournament 2004 - All Weapons Showcase](https://www.youtube.com/watch?v=-fIKjadroZU&t=50s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://www.youtube.com/watch?v=lktdYH0Uar8): an idiot using blender 2.8 to model a spider mine layer gun from unreal tournament 2004 - part 1.
+[Reference](https://unrealarchive.org/wikis/the-liandri-archives/Mine_Layer.html): Spider Mine Layer.
 
 <a id="ref-xg-6cf28edede23"></a>
 ## AVRiL (Unreal Tournament 2004)
@@ -537,8 +541,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-e1ca52f80051"></a>
 ## Clank Zapper (Ratchet & Clank: Going Commando)
 
-Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Clank_Zapper).
+Image: Named weapon artwork; exact file identity checked. [Source](https://ratchetandclank.fandom.com/wiki/Clank_Zapper).
 [Video: Can You Beat Ratchet &amp; Clank 2 Using ONLY the CLANK ZAPPER](https://www.youtube.com/watch?v=epIjn_zqVWQ). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Clank_Zapper): Clank Zapper.
 [Reference](https://ratchetandclank.fandom.com/wiki/Clank_Zapper): Clank Zapper.
 
 <a id="ref-xg-78c6a92e653e"></a>
@@ -572,8 +577,9 @@ Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com
 <a id="ref-xg-6605ae419ebe"></a>
 ## RYNO VI Protosuit (Ratchet & Clank: All 4 One)
 
-Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/RYNO_VI_Protosuit).
+Image: Named weapon artwork; exact file identity checked. [Source](https://ratchetandclank.fandom.com/wiki/RYNO_VI_Protosuit).
 [Video: Ratchet and Clank -  All 4 One: Ryno 6 Protosuit HD](https://www.youtube.com/watch?v=Adv6-75ogj8). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/RYNO_VI_Protosuit): RYNO VI Protosuit.
 [Reference](https://ratchetandclank.fandom.com/wiki/RYNO_VI_Protosuit): RYNO VI Protosuit.
 
 <a id="ref-xg-43cad23fb0cf"></a>
@@ -732,50 +738,58 @@ Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/
 <a id="ref-xg-e0dcd8074056"></a>
 ## Torid (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=D0c6uwc9YRQ).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Torid).
 [Video: Warframe - Torid Incarnon Showcase](https://www.youtube.com/watch?v=D0c6uwc9YRQ). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Torid): Torid.
 
 <a id="ref-xg-8aa76984e352"></a>
 ## Kompressa (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PsDP_ukBB3Y).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Kompressa).
 [Video: Impressive Kompressa, Look and Build Showcase - Warframe](https://www.youtube.com/watch?v=PsDP_ukBB3Y). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Kompressa): Kompressa.
 
 <a id="ref-xg-df2c19f00342"></a>
 ## Onos (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ovqG4ZykBhs).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Onos).
 [Video: Warframe Onos Showcase And Build](https://www.youtube.com/watch?v=ovqG4ZykBhs). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Onos): Onos.
 
 <a id="ref-xg-e0f43900c0e6"></a>
 ## Miter (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=w1HRZBPnh3Q).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Miter).
 [Video: Warframe Miter review/showcase](https://www.youtube.com/watch?v=w1HRZBPnh3Q). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Miter): Miter.
 
 <a id="ref-xg-baafd34390bb"></a>
 ## Panthera (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=m8ZRfarMIDA).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Panthera).
 [Video: Warframe Panthera review/showcase](https://www.youtube.com/watch?v=m8ZRfarMIDA). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Panthera): Panthera.
 
 <a id="ref-xg-22d57dfe59b3"></a>
 ## Tenet Plinx (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=3QnsJggMQJ0).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Tenet_Plinx).
 [Video: Tenet Plinx Build 2023 (Guide) - Let&#x27;s Make The Big Boom (Warframe Gameplay)](https://www.youtube.com/watch?v=3QnsJggMQJ0). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Tenet_Plinx): Tenet Plinx.
 
 <a id="ref-xg-c74ea9a36f87"></a>
 ## Tenet Diplos (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SZr8YDCyA30).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Tenet_Diplos).
 [Video: Tenet Diplos Build 2021 (Guide) - The Party Never Stops (Warframe Gameplay)](https://www.youtube.com/watch?v=SZr8YDCyA30). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Tenet_Diplos): Tenet Diplos.
 
 <a id="ref-xg-9eca18610f76"></a>
 ## Tenet Cycron (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4U2u-zx1zOs).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Tenet_Cycron).
 [Video: A high damage Nukor: The Tenet Cycron &#124; Warframe Weapon Review &amp; Build Guide &#124; Two Star Players](https://www.youtube.com/watch?v=4U2u-zx1zOs). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Tenet_Cycron): Tenet Cycron.
 
 <a id="ref-xg-1e20c9c9e9a0"></a>
 ## Microcosm (Destiny 2)
@@ -787,14 +801,16 @@ Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/
 <a id="ref-xg-7d746029307a"></a>
 ## Convectrix (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IhwWdoJLfwk).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Convectrix).
 [Video: Warframe Convectrix review/showcase](https://www.youtube.com/watch?v=IhwWdoJLfwk). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Convectrix): Convectrix.
 
 <a id="ref-xg-aedba0c4f5ab"></a>
 ## Grimoire (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Fwnd8y7_rD8).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Grimoire).
 [Video: But Is It Any Good? &#124; Warframe Grimoire Review](https://www.youtube.com/watch?v=Fwnd8y7_rD8). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Grimoire): Grimoire.
 
 <a id="ref-xg-b507efcd1593"></a>
 ## Alethonym (Destiny 2)
@@ -813,50 +829,60 @@ Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/
 <a id="ref-xg-68540ae2ab70"></a>
 ## Felarx (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-dJLdFCQKTU).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Felarx).
 [Video: Felarx Build 2024 (Guide) - Lock &amp; Loaded (Warframe Gameplay)](https://www.youtube.com/watch?v=-dJLdFCQKTU). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Felarx): Felarx.
 
 <a id="ref-xg-547bf61024d0"></a>
 ## Fulmin (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PBw73c6V1sM).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Fulmin).
 [Video: MY NEW PRIMARY WEAPON... for NOW!! &#124; WarFrame &#124; [FULMIN Showcase]](https://www.youtube.com/watch?v=PBw73c6V1sM). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Fulmin): Fulmin.
 
 <a id="ref-xg-837fea23d407"></a>
 ## Kulstar (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=GEYFMjprV68).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Kulstar).
 [Video: Warframe Kulstar review/showcase](https://www.youtube.com/watch?v=GEYFMjprV68). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Kulstar): Kulstar.
 
 <a id="ref-xg-6803d4b18b90"></a>
 ## Angstrum (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Vk6XPMNG2UM).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Angstrum).
 [Video: [WARFRAME] ROCKET HEADSHOTS? Angstrum Incarnon Builds/Review/Gameplay &#124; Echoes Of Duviri](https://www.youtube.com/watch?v=Vk6XPMNG2UM). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Angstrum): Angstrum.
 
 <a id="ref-xg-5f334c14256f"></a>
 ## Astilla (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=yGN-bSGtuf0).
-[Video: Warframe Astilla Prime Showcase](https://www.youtube.com/watch?v=yGN-bSGtuf0). Evidence: Item title and game context matched.
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Astilla).
+[Video: Astilla Build 2018 (Guide) - The Wolf in Sheep&#x27;s Clothing (Warframe Gameplay)](https://www.youtube.com/watch?v=MSquTs8GkXY). Evidence: Exact item and game or historical context checked.
+[Reference](https://www.youtube.com/watch?v=yGN-bSGtuf0): Warframe Astilla Prime Showcase.
+[Reference](https://wiki.warframe.com/w/Astilla): Astilla.
 
 <a id="ref-xg-475b1e2fe95a"></a>
 ## Battacor (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=pLN7_Gi1N5w).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Battacor).
 [Video: Battacor Build &amp; Review w/ Sentient Barrage Augment &#124; Steel Path Gameplay &#124; Warframe Duviri Paradox](https://www.youtube.com/watch?v=pLN7_Gi1N5w). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Battacor): Battacor.
 
 <a id="ref-xg-853e06ec1e80"></a>
 ## Quanta (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O9U0kHTSGl4).
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Quanta).
 [Video: Warframe Quanta showcase](https://www.youtube.com/watch?v=O9U0kHTSGl4). Evidence: Item title and game context matched.
+[Reference](https://wiki.warframe.com/w/Quanta): Quanta.
 
 <a id="ref-xg-08541592fc12"></a>
 ## Ballistica Prime (Warframe)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=3cIJDI4o_L0).
-[Video: Warframe Ultimate Ballistica Prime Incarnon Build Showcase](https://www.youtube.com/watch?v=3cIJDI4o_L0). Evidence: Item title and game context matched.
+Image: Game-export weapon render via WFCD item catalog. [Source](https://wiki.warframe.com/w/Ballistica_Prime).
+[Video: Warframe Weapon Encyclopedia - Ballistica Prime (2021)](https://www.youtube.com/watch?v=ceFyDc-XfS4). Evidence: Exact item and game or historical context checked.
+[Reference](https://www.youtube.com/watch?v=3cIJDI4o_L0): Warframe Ultimate Ballistica Prime Incarnon Build Showcase.
+[Reference](https://wiki.warframe.com/w/Ballistica_Prime): Ballistica Prime.
 
 <a id="ref-xg-f6c835e33fa0"></a>
 ## Hive (Borderlands 2)
@@ -1302,8 +1328,10 @@ Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Mega
 <a id="ref-xg-c4990ba4607e"></a>
 ## Disc Gun (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JvEgbYrhlRI).
-[Video: Nuclear Throne: Gold Nuke Launcher+ Gold Disc Gun unlocks](https://www.youtube.com/watch?v=JvEgbYrhlRI). Evidence: Item title and game context matched.
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
+[Video: I HATE The Disc Gun in Nuclear Throne Ultra Mod!](https://www.youtube.com/watch?v=O4UZtWAkoeg). Evidence: Exact item and game or historical context checked.
+[Reference](https://www.youtube.com/watch?v=JvEgbYrhlRI): Nuclear Throne: Gold Nuke Launcher+ Gold Disc Gun unlocks.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Disc Gun.
 
 <a id="ref-xg-d979ea4ba65c"></a>
 ## Onyx Blaster (Terraria)
@@ -1315,8 +1343,9 @@ Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Onyx
 <a id="ref-xg-13b71944fcc3"></a>
 ## Super Plasma Cannon (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=qKD-_ZIUa0M).
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: Nuclear Throne - Super Plasma Cannon Plant](https://www.youtube.com/watch?v=qKD-_ZIUa0M). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Super Plasma Cannon.
 
 <a id="ref-xg-ac64308a0706"></a>
 ## Elf Melter (Terraria)
@@ -1328,26 +1357,30 @@ Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Elf_
 <a id="ref-xg-8f9dfe9e3ffb"></a>
 ## Super Disc Gun (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=iNgv8fHFd_A).
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: LOOPING WITH SUPER DISC GUN &#124; Nuclear Throne 52](https://www.youtube.com/watch?v=iNgv8fHFd_A). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Super Disc Gun.
 
 <a id="ref-xg-f9c4511301db"></a>
 ## Lightning Cannon (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=_AzPT9_wMt4).
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: Nuclear Throne One Gun Loop [Lightning Cannon]](https://www.youtube.com/watch?v=_AzPT9_wMt4). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Lightning Cannon.
 
 <a id="ref-xg-091349e09eec"></a>
 ## Frog Pistol (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JLkjdCNCHeQ).
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: Nuclear Throne One Gun Loop [Frog Pistol]](https://www.youtube.com/watch?v=JLkjdCNCHeQ). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Frog Pistol.
 
 <a id="ref-xg-85ec9bf7a9f0"></a>
 ## Toxic Bow (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=xi-RV2Ulgfc).
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: Nuclear Throne One Gun Loop [Toxic Bow]](https://www.youtube.com/watch?v=xi-RV2Ulgfc). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Toxic Bow.
 
 <a id="ref-xg-2ef40112309b"></a>
 ## Laser Rifle (Terraria)
@@ -1365,8 +1398,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-6979eb443c88"></a>
 ## Eraser (Nuclear Throne)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=eqwyVi10WT4).
+Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: Nuclear Throne One Gun Loop [Eraser]](https://www.youtube.com/watch?v=eqwyVi10WT4). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Eraser.
 
 <a id="ref-xg-74ac5f9fbd97"></a>
 ## Avenger (Borderlands 2)
@@ -1390,8 +1424,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-c8e596aeee23"></a>
 ## Constancy Automatic (DEATHLOOP)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JpLECvgv9WA).
+Image: Named weapon artwork; exact file identity checked. [Source](https://deathloop.fandom.com/wiki/Constancy_Automatic).
 [Video: Deathloop - Afternoon Delight Fristad Rock: Infuse Havoc Slab and Constancy Automatic Gameplay PS5](https://www.youtube.com/watch?v=JpLECvgv9WA). Evidence: Item title and game context matched.
+[Reference](https://deathloop.fandom.com/wiki/Constancy_Automatic): Constancy Automatic.
 
 <a id="ref-xg-e9c2c5f6be34"></a>
 ## Heritage Gun (DEATHLOOP)
@@ -1420,20 +1455,23 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-f962cedfb171"></a>
 ## EMP Rifle (System Shock 2)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=iQzMfEpu2PI).
+Image: Named weapon artwork; exact file identity checked. [Source](https://shodan.fandom.com/wiki/Dual-Circuit_EMP_Rifle).
 [Video: EMP Rifle - System Shock 2 #25](https://www.youtube.com/watch?v=iQzMfEpu2PI). Evidence: Item title and game context matched.
+[Reference](https://shodan.fandom.com/wiki/Dual-Circuit_EMP_Rifle): EMP Rifle.
 
 <a id="ref-xg-84cb27a624c0"></a>
 ## WSTE-M5 Combat Shotgun (Marathon 2: Durandal)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=saj_YTy9VTM).
+Image: Named weapon artwork; exact file identity checked. [Source](https://marathongame.fandom.com/wiki/WSTE-M5_Combat_Shotgun).
 [Video: WHERE&#x27;S THE SHOTGUN, DURANDAL &#124; FIRST TIME WITH MARATHON 2](https://www.youtube.com/watch?v=saj_YTy9VTM). Evidence: Item title and game context matched.
+[Reference](https://marathongame.fandom.com/wiki/WSTE-M5_Combat_Shotgun): WSTE-M5 Combat Shotgun.
 
 <a id="ref-xg-f6ee0f4241fc"></a>
 ## Zeus-Class Fusion Pistol (Marathon 2: Durandal)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=YzdeYYU-AAo).
+Image: Named weapon artwork; exact file identity checked. [Source](https://www.marathonwiki.com/wiki/Classic%3AZeus-Class_Fusion_pistol).
 [Video: FUSION PISTOL ACQUIRED &#124; FIRST TIME WITH MARATHON 2: DURANDAL - Part 2](https://www.youtube.com/watch?v=YzdeYYU-AAo). Evidence: Item title and game context matched.
+[Reference](https://www.marathonwiki.com/wiki/Classic%3AZeus-Class_Fusion_pistol): Zeus-Class Fusion Pistol.
 
 <a id="ref-xg-941e34c90d67"></a>
 ## Stouker Concussion Rifle (Star Wars: Jedi Knight)
@@ -1462,8 +1500,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-eb8d8cdd4f1d"></a>
 ## Dark Matter Gun (Quake 4)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PILDvOPgOiQ).
+Image: Named weapon artwork; exact file identity checked. [Source](https://quake.fandom.com/wiki/Dark_Matter_Gun).
 [Video: Quake 4 Lightning gun &amp; Dark matter gun Gameplay](https://www.youtube.com/watch?v=PILDvOPgOiQ). Evidence: Item title and game context matched.
+[Reference](https://quake.fandom.com/wiki/Dark_Matter_Gun): Dark Matter Gun.
 
 <a id="ref-xg-835288399613"></a>
 ## Rail Driver (Red Faction)
@@ -1529,8 +1568,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-cb7719d0e409"></a>
 ## Telefragger (Turbo Overkill)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=HKN28y5pct0).
+Image: Named weapon artwork; exact file identity checked. [Source](https://turbo-overkill.fandom.com/wiki/Telefragger).
 [Video: Turbo Overkill - EP 011 - Bestiary wiki, Sniper Telefragger](https://www.youtube.com/watch?v=HKN28y5pct0). Evidence: Item title and game context matched.
+[Reference](https://turbo-overkill.fandom.com/wiki/Telefragger): Telefragger.
 
 <a id="ref-xg-d3f3a94a92ae"></a>
 ## Twin Magnums (Turbo Overkill)
@@ -1547,15 +1587,17 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-de58bb5cdde9"></a>
 ## PLAS-101 Purifier (Helldivers 2)
 
-Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/PLAS-101_Purifier).
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/PLAS-101_Purifier).
 [Video: Helldivers 2 Plas-101 Purifier Weapon Gameplay (New weapon)](https://www.youtube.com/watch?v=sJbjlESysoE). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/PLAS-101_Purifier): PLAS-101 Purifier.
 [Reference](https://helldivers.wiki.gg/wiki/PLAS-101_Purifier): PLAS-101 Purifier.
 
 <a id="ref-xg-88929e511954"></a>
 ## P-4 Senator (Helldivers 2)
 
-Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/P-4_Senator).
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/P-4_Senator).
 [Video: Helldivers 2 - P4-Senator Destroys Chargers](https://www.youtube.com/watch?v=2h4kPx-W8Dw). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/P-4_Senator): P-4 Senator.
 [Reference](https://helldivers.wiki.gg/wiki/P-4_Senator): P-4 Senator.
 
 <a id="ref-xg-a3a400965786"></a>
@@ -1567,29 +1609,33 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-1b86199b48a5"></a>
 ## LAS-99 Quasar Cannon (Helldivers 2)
 
-Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon).
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon).
 [Video: New Support Weapon for every Scenario!  &#124;  LAS-99 Quasar Cannon Helldivers 2 Gameplay](https://www.youtube.com/watch?v=8fqjzntoAEg). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon): LAS-99 Quasar Cannon.
 [Reference](https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon): LAS-99 Quasar Cannon.
 
 <a id="ref-xg-1f7faf2367d0"></a>
 ## ARC-12 Blitzer (Helldivers 2)
 
-Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/ARC-12_Blitzer).
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/ARC-12_Blitzer).
 [Video: Helldivers 2 - New Arc-12 Blitzer Shotgun Showcase](https://www.youtube.com/watch?v=mSX7V3Z7KW4). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/ARC-12_Blitzer): ARC-12 Blitzer.
 [Reference](https://helldivers.wiki.gg/wiki/ARC-12_Blitzer): ARC-12 Blitzer.
 
 <a id="ref-xg-34b89de4bee2"></a>
 ## MLS-4X Commando (Helldivers 2)
 
-Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/MLS-4X_Commando).
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/MLS-4X_Commando).
 [Video: Brutally Honest Commando Guide &#124; Helldivers 2](https://www.youtube.com/watch?v=14gxELhMRt8). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/MLS-4X_Commando): MLS-4X Commando.
 [Reference](https://helldivers.wiki.gg/wiki/MLS-4X_Commando): MLS-4X Commando.
 
 <a id="ref-xg-269dea7b1c75"></a>
 ## GP-31 Grenade Pistol (Helldivers 2)
 
-Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol).
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol).
 [Video: GP-31 Grenade Pistol Stress Test &amp; BREAKDOWN in Helldivers 2](https://www.youtube.com/watch?v=RtMsA13KSFA). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol): GP-31 Grenade Pistol.
 [Reference](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol): GP-31 Grenade Pistol.
 
 <a id="ref-xg-08bfa31f7ddb"></a>
@@ -1626,39 +1672,45 @@ Image: Named weapon reference image. [Source](https://remnant.wiki/wiki/Anguish)
 <a id="ref-xg-4f746595794f"></a>
 ## Ruin (Remnant: From the Ashes)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O1llE6p0IEw).
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Ruin).
 [Video: REMNANT: FROM THE ASHES - Ruin Rifle (How to Get It)](https://www.youtube.com/watch?v=O1llE6p0IEw). Evidence: Item title and game context matched.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Ruin): Ruin.
 
 <a id="ref-xg-4ecf8c3d52c7"></a>
 ## Eye of the Storm (Remnant: From the Ashes)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JGOa9hz4GEQ).
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Eye_of_the_Storm).
 [Video: Remnant From The Ashes - How To Get Eye Of the Storm (Mystical Gun)](https://www.youtube.com/watch?v=JGOa9hz4GEQ). Evidence: Item title and game context matched.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Eye_of_the_Storm): Eye of the Storm.
 
 <a id="ref-xg-dc98890c3257"></a>
 ## Ricochet Rifle (Remnant: From the Ashes)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=NBdpmcdbToc).
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Ricochet_Rifle).
 [Video: Remnant From The Ashes - How To Get Ricochet Rifle (Bouncing Gun)](https://www.youtube.com/watch?v=NBdpmcdbToc). Evidence: Item title and game context matched.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Ricochet_Rifle): Ricochet Rifle.
 
 <a id="ref-xg-6cca2bc6792a"></a>
 ## Defiler (Remnant: From the Ashes)
 
-Image: Named weapon reference image. [Source](https://remnant.wiki/wiki/Defiler).
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Defiler).
 [Video: Defiler Pistol Weapon Overview &#124; Remnant: From The Ashes](https://www.youtube.com/watch?v=76f6pz8lVMo). Evidence: Item title and game context matched.
 [Reference](https://remnant.wiki/wiki/Defiler): Defiler.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Defiler): Defiler.
 
 <a id="ref-xg-b1e9d5669b27"></a>
 ## Particle Accelerator (Remnant: From the Ashes)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=GbgF06dsHVw).
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Particle_Accelerator).
 [Video: REMNANT: FROM THE ASHES - World Breaker &amp; Particle Accelerator (Claviger Normal &amp; Alt Kill Guide)](https://www.youtube.com/watch?v=GbgF06dsHVw). Evidence: Item title and game context matched.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Particle_Accelerator): Particle Accelerator.
 
 <a id="ref-xg-433b5e2554bb"></a>
 ## Pride of the Iskal (Remnant: From the Ashes)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=cGoO-zETrRs).
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Pride_of_the_Iskal).
 [Video: Remnant From the Ashes - Iskal Queen -  Pride of the Iskal (Solo Normal)](https://www.youtube.com/watch?v=cGoO-zETrRs). Evidence: Item title and game context matched.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Pride_of_the_Iskal): Pride of the Iskal.
 
 <a id="ref-xg-ce0d837d9245"></a>
 ## Fusion Rifle (Remnant: From the Ashes)
@@ -1714,6 +1766,149 @@ Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/w
 Image: Named weapon reference image. [Source](https://gunfirereborn.fandom.com/wiki/Sunder).
 [Video: GUNFIRE REBORN ALL WEAPON CHALLENGE: THE SUNDER](https://www.youtube.com/watch?v=MeayMFjERXk). Evidence: Item title and game context matched.
 [Reference](https://gunfirereborn.fandom.com/wiki/Sunder): Sunder.
+
+<a id="ref-xg-570926a53b22"></a>
+## Singularity Cannon (Unreal II: The Awakening)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://unreal.fandom.com/wiki/Singularity_Cannon).
+[Video: Unreal 227 - Unreal 2 Singularity Cannon Test 2](https://www.youtube.com/watch?v=Sy8YpsqKTog). Evidence: Exact item and game or historical context checked.
+[Reference](https://unreal.fandom.com/wiki/Singularity_Cannon): Singularity Cannon.
+
+<a id="ref-xg-7d256f554dee"></a>
+## Phoenix Samurai (James Bond 007: Nightfire)
+
+Image: Exact weapon chapter screenshot. [Source](https://www.youtube.com/watch?v=EzrSBRRXwLo&t=194s).
+[Video: James Bond 007: Nightfire Xbox - All Weapons Showcase &#124; Two Decades After Release](https://www.youtube.com/watch?v=EzrSBRRXwLo&t=194s). Evidence: Exact named chapter in game-specific weapon showcase.
+
+<a id="ref-xg-cd7e70f68f66"></a>
+## HALPS Prototype (DEATHLOOP)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://deathloop.fandom.com/wiki/HALPS_Prototype).
+[Video: Deathloop Get the HALPS Laser](https://www.youtube.com/watch?v=wB9PGSWlqUo). Evidence: Exact item and game or historical context checked.
+[Reference](https://deathloop.fandom.com/wiki/HALPS_Prototype): HALPS Prototype.
+
+<a id="ref-xg-4fa64fd21b46"></a>
+## Drunk Missile (Rise of the Triad)
+
+Image: Item-video preview; not a separate weapon photograph. [Source](https://www.youtube.com/watch?v=5YPQRE57hNQ).
+[Video: Rise of the Triad - Oldschool Drunk-Missile action - PAX East 2013](https://www.youtube.com/watch?v=5YPQRE57hNQ). Evidence: Exact item and game or historical context checked.
+
+<a id="ref-xg-78683774be87"></a>
+## KKV-7 Flechette SMG (Marathon Infinity)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://marathongame.fandom.com/wiki/KKV-7_10mm_SMG_Flechette).
+[Video: Everyone is Wrong About the Copperhead RF SMG &#124; Marathon](https://www.youtube.com/watch?v=Arf7EOy4NOA). Evidence: Exact item and game or historical context checked.
+[Reference](https://marathongame.fandom.com/wiki/KKV-7_10mm_SMG_Flechette): KKV-7 Flechette SMG.
+
+<a id="ref-xg-8b5e941b73c8"></a>
+## Predator Launcher (Ratchet & Clank: Tools of Destruction)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://ratchetandclank.fandom.com/wiki/Predator_Launcher).
+[Video: Ratchet and Clank Future: Tools of Destruction All Weapons vs Crushto (Max Level + All Mods)](https://www.youtube.com/watch?v=pgH5Iy7j0-E&t=151s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://ratchetandclank.fandom.com/wiki/Predator_Launcher): Predator Launcher.
+
+<a id="ref-xg-3ce37cb583bb"></a>
+## Eightball Gun (Unreal)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://unreal.fandom.com/wiki/Rocket_Launcher_%28UT%29).
+[Video: unreal 4 ever: eightball 2000 rocket launcher](https://www.youtube.com/watch?v=3osr_NuHpys). Evidence: Exact item and game or historical context checked.
+[Reference](https://unreal.fandom.com/wiki/Rocket_Launcher_%28UT%29): Eightball Gun.
+
+<a id="ref-xg-057ac7b8922a"></a>
+## Nano-Swarmers (Ratchet & Clank: Tools of Destruction)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://ratchetandclank.fandom.com/wiki/Nano-Swarmers).
+[Video: Ratchet and Clank Future: Tools of Destruction All Weapons vs Crushto (Max Level + All Mods)](https://www.youtube.com/watch?v=pgH5Iy7j0-E&t=268s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://ratchetandclank.fandom.com/wiki/Nano-Swarmers): Nano-Swarmers.
+
+<a id="ref-xg-3bceb10065af"></a>
+## Assault Cannon (Star Wars: Dark Forces)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://starwars.fandom.com/wiki/Assault_cannon).
+[Video: Let&#x27;s Play Dark Forces &#124;15&#124; Assault Cannon (DOS)](https://www.youtube.com/watch?v=QJw7sNoPM8E). Evidence: Exact item and game or historical context checked.
+[Reference](https://starwars.fandom.com/wiki/Assault_cannon): Assault Cannon.
+
+<a id="ref-xg-e2807e5669f2"></a>
+## I-MOD (Star Trek: Voyager - Elite Force)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://memory-beta.fandom.com/wiki/Infinity_modulator).
+[Video: Star Trek Elite Force part 1/ I-Mod speed run](https://www.youtube.com/watch?v=2RVvNiJLDYY). Evidence: Exact item and game or historical context checked.
+[Reference](https://memory-beta.fandom.com/wiki/Infinity_modulator): I-MOD.
+
+<a id="ref-xg-a5103d189e30"></a>
+## Dark Staff (Rise of the Triad)
+
+Image: Exact weapon chapter screenshot. [Source](https://www.youtube.com/watch?v=yWir4p-1XrY&t=273s).
+[Video: Rise of The Triad 1995 &#124; 2013 - All Weapons Showcase](https://www.youtube.com/watch?v=yWir4p-1XrY&t=273s). Evidence: Exact named chapter in game-specific weapon showcase.
+
+<a id="ref-xg-c273755c061a"></a>
+## Mag-Net Launcher (Ratchet & Clank: Tools of Destruction)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://ratchetandclank.fandom.com/wiki/Mag-Net_Launcher).
+[Video: Ratchet and Clank Future: Tools of Destruction All Weapons vs Crushto (Max Level + All Mods)](https://www.youtube.com/watch?v=pgH5Iy7j0-E&t=289s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://ratchetandclank.fandom.com/wiki/Mag-Net_Launcher): Mag-Net Launcher.
+
+<a id="ref-xg-6832f900a6b4"></a>
+## Type-7 Particle Weapon (F.E.A.R.)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://fear.fandom.com/wiki/Type-7_Particle_Weapon).
+[Video: Why You Should Fear TYPE-7 CIVILIZATION?](https://www.youtube.com/watch?v=4YR5Z8C8Hzo). Evidence: Exact item and game or historical context checked.
+[Reference](https://fear.fandom.com/wiki/Type-7_Particle_Weapon): Type-7 Particle Weapon.
+
+<a id="ref-xg-2dca43c20835"></a>
+## DC-17m Interchangeable Weapon System (Star Wars: Republic Commando)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://starwars.fandom.com/wiki/DC-17m_Interchangeable_Weapon_System).
+[Video: REVIEW: Kyle Gilbert Design&#x27;s DC-17M Blaster from STAR WARS REPUBLIC COMMANDO](https://www.youtube.com/watch?v=jrWhElCvLYM). Evidence: Exact item and game or historical context checked.
+[Reference](https://starwars.fandom.com/wiki/DC-17m_Interchangeable_Weapon_System): DC-17m Interchangeable Weapon System.
+
+<a id="ref-xg-1a1b00cd8c44"></a>
+## Scorn shotgun (Scorn)
+
+Image: Item-video preview; not a separate weapon photograph. [Source](https://www.youtube.com/watch?v=yPwO1B7hd1g).
+[Video: Scorn gameplay #6 :  Shotgun](https://www.youtube.com/watch?v=yPwO1B7hd1g). Evidence: Exact item and game or historical context checked.
+
+<a id="ref-xg-2bd07678b0bf"></a>
+## Monolith (Remnant II)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnant.wiki/wiki/Monolith).
+[Video: 2 ENDINGS for Monolith Gun &amp; Mirage Weapon ► Remnant 2 Forgotten Kingdom DLC](https://www.youtube.com/watch?v=BET56_tfC40). Evidence: Exact item and game or historical context checked.
+[Reference](https://remnant.wiki/wiki/Monolith): Monolith.
+
+<a id="ref-xg-d81ad7e5c524"></a>
+## Polygun (Remnant II)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnant.wiki/wiki/Polygun).
+[Video: Remnant 2 - This Secret Weapon Took Days To Find! Polygun Guide &amp; Breakdown](https://www.youtube.com/watch?v=Pbm6jYwySfA). Evidence: Exact item and game or historical context checked.
+[Reference](https://remnant.wiki/wiki/Polygun): Polygun.
+
+<a id="ref-xg-cffce9c99205"></a>
+## ARC-3 Arc Thrower (Helldivers 2)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://helldivers.wiki.gg/wiki/ARC-3_Arc_Thrower).
+[Video: Brutally Honest Arc Thrower Guide &#124; Helldivers 2](https://www.youtube.com/watch?v=Z2T6drSOvnQ). Evidence: Exact item and game or historical context checked.
+[Reference](https://helldivers.wiki.gg/wiki/ARC-3_Arc_Thrower): ARC-3 Arc Thrower.
+
+<a id="ref-xg-d06888a81890"></a>
+## Alternator (Remnant: From the Ashes)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://remnantfromtheashes.fandom.com/wiki/Alternator).
+[Video: Weapon Showcase: Alternator!  &#124; Remnant: From Hell](https://www.youtube.com/watch?v=TXgdTVS5xhg). Evidence: Exact item and game or historical context checked.
+[Reference](https://remnantfromtheashes.fandom.com/wiki/Alternator): Alternator.
+
+<a id="ref-xg-d425a9ae0115"></a>
+## Arc Light (Gunfire Reborn)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://gunfirereborn.fandom.com/wiki/Arc_Light).
+[Video: Gunfire Reborn: Arc Light Showcase (THE NEW LIGHTNING KUNAI)](https://www.youtube.com/watch?v=SvT2U-0JCdI). Evidence: Exact item and game or historical context checked.
+[Reference](https://gunfirereborn.fandom.com/wiki/Arc_Light): Arc Light.
+
+<a id="ref-xg-b0dce3375777"></a>
+## Wheel Saw (Gunfire Reborn)
+
+Image: Named weapon artwork; exact file identity checked. [Source](https://gunfirereborn.fandom.com/wiki/Wheel_Saw).
+[Video: Gunfire Reborn - All Weapons](https://www.youtube.com/watch?v=mc-bY8tCmbY&t=434s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://gunfirereborn.fandom.com/wiki/Wheel_Saw): Wheel Saw.
 
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
@@ -1964,10 +2159,11 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-0bbd9c3a4a9c"></a>
 ## Colt Defender Mark I (Rotating antiques and unconventional shotguns)
 
-Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=Rs6_qTgtR_s).
+Image: Weapon photograph or game render from its named source section. [Source](https://dockeryarmory.com/colt-defender-mark-i/).
 [Video: Colt Defender Mark I (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=Rs6_qTgtR_s). Evidence: Exact item and variant title/context checked.
 [Reference](https://www.youtube.com/watch?v=B0l6JEWWCtA): Firearm Review Winchester Defender 1300.
 [Reference](https://www.youtube.com/results?search_query=Colt+Defender+Mark+I+historical+firearm): Colt Defender Mark I (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
+[Reference](https://dockeryarmory.com/colt-defender-mark-i/): Colt Defender Mark I.
 
 <a id="ref-xh-3ec5a51162f0"></a>
 ## High Standard Model 10 (Rotating antiques and unconventional shotguns)
