@@ -947,3 +947,216 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 
 Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IwYeG_3m5pM).
 [Video: SPP-1 Underwater Pistol (Cold War Tech)](https://www.youtube.com/watch?v=IwYeG_3m5pM). Evidence: Named historical item video.
+
+<a id="ref-xh-aa70a7dcd45e"></a>
+## Benelli CB-M2 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=r7fY9buH6go).
+[Video: Benelli CB M2 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=r7fY9buH6go). Evidence: Named historical item video.
+
+<a id="ref-xh-793fce753247"></a>
+## Steyr GB (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=gPIZvsife4c).
+[Video: Primer 230: Austrian Steyr GB](https://www.youtube.com/watch?v=gPIZvsife4c). Evidence: Named historical item video.
+
+<a id="ref-xh-41986d776044"></a>
+## ADS amphibious rifle (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=xltQU6Tzy0s).
+[Video: ADS 5.45 mm amphibious assault rifle](https://www.youtube.com/watch?v=xltQU6Tzy0s). Evidence: Named historical item video.
+
+<a id="ref-xh-e319e379bca8"></a>
+## Heckler and Koch P11 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=eZ_yAn2vQHw).
+[Video: HK P11: NATO&#x27;s Secret Underwater Pistol](https://www.youtube.com/watch?v=eZ_yAn2vQHw). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/hk-p11-natos-secret-underwater-pistol/): HK P11: NATO’s Secret Underwater Pistol.
+
+<a id="ref-xh-ed5b43c143db"></a>
+## Voere VEC-91 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4_4ghuJf-3I).
+[Video: Detailed view of the Voere VEC 91 (Caseless Ammunition)](https://www.youtube.com/watch?v=4_4ghuJf-3I). Evidence: Named historical item video.
+
+<a id="ref-xh-6570ad935c09"></a>
+## DShK (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=C0ehb2gQgWk).
+[Video: Russia&#x27;s Big Fifty on the Range: DShK-38](https://www.youtube.com/watch?v=C0ehb2gQgWk). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/russias-big-fifty-on-the-range-dshk-38/): Russia’s Big Fifty on the Range: DShK-38.
+
+<a id="ref-xh-9f7b64247289"></a>
+## RSh-12 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ULEEhGa3wo4).
+[Video: RSh-12 - Comparison in 4 Games](https://www.youtube.com/watch?v=ULEEhGa3wo4). Evidence: Named historical item video.
+
+<a id="ref-xh-823032108749"></a>
+## OTs-38 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=U3toc6s8zP8).
+[Video: OTs-38: El REVÓLVER más SILENCIOSO del MUNDO 🔇☠️ l El Secreto del Espionaje Ruso](https://www.youtube.com/watch?v=U3toc6s8zP8). Evidence: Named historical item video.
+
+<a id="ref-xh-8b5d3961dc9e"></a>
+## PTRS-41 (Oversized and eccentric modern forms)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/PTRS-41).
+[Video: PTRS 41: The Soviet Semiauto Antitank Rifle (aka an SKS on Steroids)](https://www.youtube.com/watch?v=MQrGqiyTttY). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/PTRS-41): PTRS-41.
+[Reference](https://www.forgottenweapons.com/ptrs-41-the-soviet-semiauto-antitank-rifle-aka-an-sks-on-steroids/): PTRS 41: The Soviet Semiauto Antitank Rifle (aka an SKS on Steroids).
+
+<a id="ref-xh-f5392fb42ece"></a>
+## Solothurn S-18/1000 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SOfJrVDB9t0).
+[Video: Solothurn 20mm S18-1000 Wheeled Carriage](https://www.youtube.com/watch?v=SOfJrVDB9t0). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Solothurn_S-18/1000): Solothurn S-18/1000.
+[Reference](https://www.forgottenweapons.com/solothurn-20mm-s18-100-wheeled-carriage/): Solothurn 20mm S18-1000 Wheeled Carriage.
+
+<a id="ref-xh-b01670d76474"></a>
+## GM6 Lynx (Oversized and eccentric modern forms)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Gep%C3%A1rd_anti-materiel_rifle).
+[Video: GM6 Lynx .50 BMG Bullpup at the Range](https://www.youtube.com/watch?v=cyx7TrZq_xI). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Gep%C3%A1rd_anti-materiel_rifle): Gepárd anti-materiel rifle.
+[Reference](https://www.forgottenweapons.com/gm6-lynx-50-bmg-bullpup-at-the-range/): GM6 Lynx .50 BMG Bullpup at the Range.
+
+<a id="ref-xh-1d30ff8cd9bc"></a>
+## Lahti L-39 (Oversized and eccentric modern forms)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Lahti_L-39).
+[Video: 20mm Lahti L39 Antitank Rifle (Shooting &amp; History)](https://www.youtube.com/watch?v=Y9qHv_XEAZg). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Lahti_L-39): Lahti L-39.
+[Reference](https://www.forgottenweapons.com/julia-shooting-a-20mm-lahti-l39/): Julia: Shooting a 20mm Lahti L39.
+
+<a id="ref-xh-d71888706701"></a>
+## Neopup PAW-20 (Oversized and eccentric modern forms)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Neopup_PAW-20).
+[Video: Interview: Tony Neophytou (Neostead, Inkunzi PAW, NTW-20, NeoStrike)](https://www.youtube.com/watch?v=KGdl1Vvf8jk). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Neopup_PAW-20): Neopup PAW-20.
+[Reference](https://www.forgottenweapons.com/interview-tony-neophytou-neostead-inkunzi-paw-ntw-20-neostrike/): Interview: Tony Neophytou (Neostead, Inkunzi PAW, NTW-20, NeoStrike).
+
+<a id="ref-xh-0c8f8290ffa2"></a>
+## QLZ-87 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=pWSXP6RzDLI).
+[Video: QLZ 87 grenade launcher (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=pWSXP6RzDLI). Evidence: Named historical item video.
+
+<a id="ref-xh-1b7777b1c0c3"></a>
+## XM307 ACSW (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=DHEnCDbisko).
+[Video: XM307 Advanced Crew Served Weapon (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=DHEnCDbisko). Evidence: Named historical item video.
+
+<a id="ref-xh-c6e4cc8d9165"></a>
+## GM-94 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=exa6zn9ydgs).
+[Video: Russia&#x27;s pump-action grenade launcher: the GM-94. With firearms and weapon expert Jonathan Ferguson](https://www.youtube.com/watch?v=exa6zn9ydgs). Evidence: Named historical item video.
+[Reference](https://en.wikipedia.org/wiki/GM-94): GM-94.
+
+<a id="ref-xh-2491b0e4c161"></a>
+## Bond Arms BullPup9 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=8BHRNL8Q9BQ).
+[Video: Does the Boberg/Bullpup9 Design Reduce Recoil?](https://www.youtube.com/watch?v=8BHRNL8Q9BQ). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/does-the-boberg-bullpup9-design-reduce-recoil/): Does the Boberg/Bullpup9 Design Reduce Recoil?.
+
+<a id="ref-xh-397592527eb3"></a>
+## Kel-Tec P50 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=fEiSZkE9zFI).
+[Video: Tabletop Review of the KelTec P50. What a cool gun.](https://www.youtube.com/watch?v=fEiSZkE9zFI). Evidence: Named historical item video.
+
+<a id="ref-xh-27444925d6e6"></a>
+## Desert Eagle (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=N8UT-l3T6ck).
+[Video: DESERT EAGLE PISTOL THE MOST POWERFUL PISTOL! REVIEW ](https://www.youtube.com/watch?v=N8UT-l3T6ck). Evidence: Named historical item video.
+
+<a id="ref-xh-c91203560ea9"></a>
+## Ferguson rifle (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IlD5SFR_qq0).
+[Video: Durs Egg Ferguson - The Rifle That Didn&#x27;t Shoot George Washington](https://www.youtube.com/watch?v=IlD5SFR_qq0). Evidence: Named historical item video.
+
+<a id="ref-xh-efde7db0d215"></a>
+## Lemat carbine (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=bjdi48QakyE).
+[Video: LeMat Centerfire Pistol and Carbine](https://www.youtube.com/watch?v=bjdi48QakyE). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/lemat-centerfire-pistol-and-carbine-at-ria/): LeMat Centerfire Pistol and Carbine at RIA.
+
+<a id="ref-xh-cfb50ce81b80"></a>
+## Kel-Tec CP33 (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=78js3IZSX8o).
+[Video: KELTEC CP33 REVIEW](https://www.youtube.com/watch?v=78js3IZSX8o). Evidence: Named historical item video.
+
+<a id="ref-xh-6608947f5917"></a>
+## Auto Mag pistol (Oversized and eccentric modern forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-XRAfGPgfcA).
+[Video: AutoMag 160 in .357AMP: For When the Regular AutoMag is too Common](https://www.youtube.com/watch?v=-XRAfGPgfcA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/automag-160-in-357amp-for-when-the-regular-automag-is-too-common/): AutoMag 160 in .357AMP: For When the Regular AutoMag is too Common.
+
+<a id="ref-xh-7e275b149f54"></a>
+## Whitworth rifle (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=1H5yei4iOfE).
+[Video: Britain&#x27;s First Sniper Rifle? The Scoped Whitworth Rifle with firearms expert Jonathan Ferguson](https://www.youtube.com/watch?v=1H5yei4iOfE). Evidence: Named historical item video.
+
+<a id="ref-xh-167ceb12a5b0"></a>
+## Chassepot rifle (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=THvRI-wDEpQ).
+[Video: The Rarest Chassepot: Rifle for the African Cavalry](https://www.youtube.com/watch?v=THvRI-wDEpQ). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/the-rarest-chassepot-rifle-for-the-african-cavalry/): The Rarest Chassepot: Rifle for the African Cavalry.
+
+<a id="ref-xh-8a2f437f2f80"></a>
+## Hall rifle (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=vpW054cVfHc).
+[Video: Hall Model 1819: A Rifle to Change the Industrial World](https://www.youtube.com/watch?v=vpW054cVfHc). Evidence: Named historical item video.
+
+<a id="ref-xh-a224405d588f"></a>
+## Alofs repeating shotgun (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0kd_hwY0w90).
+[Video: Alofs: A Steampunk Mousetrap for a Shotgun](https://www.youtube.com/watch?v=0kd_hwY0w90). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/alofs-a-steampunk-mousetrap-for-a-shotgun/): Alofs: A Steampunk Mousetrap for a Shotgun.
+
+<a id="ref-xh-5069f08df250"></a>
+## Guycot chain pistol (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SgghWnZgJd0).
+[Video: Guycot 40-shot Chain Pistol](https://www.youtube.com/watch?v=SgghWnZgJd0). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/guycot-40-shot-chain-pistol-video/): Guycot 40-Shot Chain Pistol (Video).
+
+<a id="ref-xh-e3fd846a904e"></a>
+## Lancaster four-barrel pistol (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0QTeyPe0UGY).
+[Video: Lancaster Four-Barrel Shotgun With Double-Action Trigger](https://www.youtube.com/watch?v=0QTeyPe0UGY). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/lancaster-four-barrel-shotgun-with-double-action-trigger/): Lancaster Four-Barrel Shotgun With Double-Action Trigger.
+
+<a id="ref-xh-0cc252483bdd"></a>
+## Dreyse needle gun (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=XTjni267QJ0).
+[Video: Book Review: The Dreyse Military Needle-Ignition System](https://www.youtube.com/watch?v=XTjni267QJ0). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/book-review-the-dreyse-military-needle-ignition-system/): Book Review: The Dreyse Military Needle-Ignition System.
+
+<a id="ref-xh-325db073eb59"></a>
+## Sharps four-barrel derringer (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=BywHxVtm7xo).
+[Video: Just for the Gun of it: Sharps Pepperbox](https://www.youtube.com/watch?v=BywHxVtm7xo). Evidence: Named historical item video.
+
+<a id="ref-xh-11c4a6e72e8b"></a>
+## Remington Model 95 derringer (Antique mechanical curiosities)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=x39l0umE3no).
+[Video: Remington Model 95 Double Derringer Toy Gun Review 2023 - Double-barrel Pocket Pistol](https://www.youtube.com/watch?v=x39l0umE3no). Evidence: Named historical item video.
