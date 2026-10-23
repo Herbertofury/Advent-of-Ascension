@@ -3736,11 +3736,11 @@ Image type: Exact named video chapter thumbnail. [Image source](https://www.yout
 
 <a id="ref-1ea23263a704"></a>
 
-The previous source labels 11:35 as Mancubus but the chapter image still shows Revenant launchers. Replaced with the independently matched v22 weapon chapter. 
+The original v22 showcase labels 11:35 as Mancubus, but its chapter thumbnail still shows Revenant launchers. The displayed weapon picture and Watch link instead use the explicitly named ZioMcCall's Flavour v22 variant at 12:47; the original reference is retained here. [Source naming evidence](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s).
 
 ## Mancubus Launcher (DOOM II - Brutal Doom v22)
 
-Image type: Mancubus weapon screenshot from exact v22 chapter. [Image source](https://www.youtube.com/watch?v=BjQ5BeGuwV4).
+Image type: Named Mancubus chapter screenshot, ZioMcCall's Flavour v22 variant. [Image source](https://www.youtube.com/watch?v=BjQ5BeGuwV4).
 [Video: Brutal Doom v22 ZioMcCall&#x27;s Flavour - All Weapons Showcase](https://www.youtube.com/watch?v=BjQ5BeGuwV4&t=767s). Match: Item chapter matched.
 
 <a id="ref-3ac8dfb7b789"></a>
@@ -4040,7 +4040,7 @@ Image type: Weapon chapter gameplay frame from credited video mirror. [Image sou
 <a id="ref-d21c72146df8"></a>
 ## Aspergillum (Forgive Me Father)
 
-Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Named holy-water ability chapter screenshot. [Image source](https://www.youtube.com/watch?v=L_59BErDMTI&t=343s).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=343s). Match: Chapter matched.
 
 <a id="ref-be3e53b47ec6"></a>
