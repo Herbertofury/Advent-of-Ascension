@@ -77,6 +77,8 @@ jobs:
       - name: Exercise favorites, filters, notes and backups on the actual public site
         run: |
           python3 source/docs/minecraft-gun-mods/qa/browser_test.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/qa/live-explorer
+      - name: Verify the portable explorer without network access
+        run: python3 source/docs/minecraft-gun-mods/qa/offline_check.py
       - name: Preserve the complete published atlas and acceptance proof
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
