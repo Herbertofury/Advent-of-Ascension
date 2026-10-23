@@ -535,8 +535,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-54d5ce777642"></a>
 ## Chimp-O-Matic (Ratchet & Clank: A Crack in Time)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=8rb2JgmDzEc).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://ratchetandclank.fandom.com/wiki/Chimp-o-Matic).
 [Video: [R&amp;CF:ACIT] How-To : Chimp-O-Matic](https://www.youtube.com/watch?v=8rb2JgmDzEc). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Chimp-o-Matic): Chimp-O-Matic.
 
 <a id="ref-xg-e1ca52f80051"></a>
 ## Clank Zapper (Ratchet & Clank: Going Commando)
@@ -606,9 +607,10 @@ Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com
 <a id="ref-xg-7d11a7246fa3"></a>
 ## Lightning Rod (Ratchet & Clank: Rift Apart)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0lrukSnmLzg).
+Image: Named in-game Lightning Rod screenshot. [Source](https://ratchetandclank.fandom.com/wiki/Lightning_Rod_(Rift_Apart)).
 [Video: LIGHTNING ROD AND DRILL HOUND!!! Ratchet and Clank: Rift Apart Walkthrough Gameplay - Part 9 [PS5]](https://www.youtube.com/watch?v=0lrukSnmLzg). Evidence: Item title and game context matched.
 [Reference](https://ratchetandclank.fandom.com/wiki/Lightning_Rod): Lightning Rod.
+[Reference](https://ratchetandclank.fandom.com/wiki/Lightning_Rod_(Rift_Apart)): Lightning Rod.
 
 <a id="ref-xg-8a7b2cbe2593"></a>
 ## Void Repulser (Ratchet & Clank: Rift Apart)
@@ -908,9 +910,10 @@ Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wik
 <a id="ref-xg-c69e6525b7d5"></a>
 ## Deliverance (Borderlands 2)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=5a_250PL2W8).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://borderlands.fandom.com/wiki/Deliverance_%28shotgun%29).
 [Video: HOW TO PROPERLY USE THE DELIVERANCE// Borderlands 2 Gameplay](https://www.youtube.com/watch?v=5a_250PL2W8). Evidence: Item title and game context matched.
 [Reference](https://borderlands.fandom.com/wiki/Deliverance): Deliverance.
+[Reference](https://borderlands.fandom.com/wiki/Deliverance_%28shotgun%29): Deliverance.
 
 <a id="ref-xg-1f5418ba2007"></a>
 ## Blockhead (Borderlands 2)
@@ -1357,8 +1360,9 @@ Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Elf_
 <a id="ref-xg-8f9dfe9e3ffb"></a>
 ## Super Disc Gun (Nuclear Throne)
 
-Image: Named weapon artwork; exact file identity checked. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
+Image: Exact Super Disc Gun sprite from its named weapon-table row. [Source](https://nuclear-throne.fandom.com/wiki/Weapons).
 [Video: LOOPING WITH SUPER DISC GUN &#124; Nuclear Throne 52](https://www.youtube.com/watch?v=iNgv8fHFd_A). Evidence: Item title and game context matched.
+[Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Super Disc Gun.
 [Reference](https://nuclear-throne.fandom.com/wiki/Weapons): Super Disc Gun.
 
 <a id="ref-xg-f9c4511301db"></a>
@@ -1443,8 +1447,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-81ac034b8329"></a>
 ## Annelid Worm Launcher (System Shock 2)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O2Oj4hHpwOA).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://shodan.fandom.com/wiki/Annelid_Launcher).
 [Video: System Shock 2 Ep15 - The Worm Launcher](https://www.youtube.com/watch?v=O2Oj4hHpwOA). Evidence: Item title and game context matched.
+[Reference](https://shodan.fandom.com/wiki/Annelid_Launcher): Annelid Worm Launcher.
 
 <a id="ref-xg-47d97e5d8e15"></a>
 ## Flamewall (Rise of the Triad)
@@ -1514,8 +1519,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-69deb34344d7"></a>
 ## Photon Burst (Star Trek: Voyager - Elite Force)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IP8JCu6IKEI).
+Image: Photon Burst render beside its named archived game entry. [Source](https://archive.kontek.net/eliteforce.3dactionplanet.gamespy.com/ef1/weapons.html).
 [Video: Star Trek Voyager Elite Force - Photon Burst Holodeck Part 8](https://www.youtube.com/watch?v=IP8JCu6IKEI). Evidence: Item title and game context matched.
+[Reference](https://archive.kontek.net/eliteforce.3dactionplanet.gamespy.com/ef1/weapons.html): Photon Burst.
 
 <a id="ref-xg-39c71dab3726"></a>
 ## HV Penetrator (F.E.A.R.)
@@ -1581,8 +1587,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-d5a8fd535157"></a>
 ## Boomer Shotgun (Turbo Overkill)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4uYGfzx9Yo4).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://turbo-overkill.fandom.com/wiki/Boomer).
 [Video: Turbo Overkill Boomer easy rapid fire trick](https://www.youtube.com/watch?v=4uYGfzx9Yo4). Evidence: Item title and game context matched.
+[Reference](https://turbo-overkill.fandom.com/wiki/Boomer): Boomer Shotgun.
 
 <a id="ref-xg-de58bb5cdde9"></a>
 ## PLAS-101 Purifier (Helldivers 2)
@@ -1659,8 +1666,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-9841a10d6256"></a>
 ## Multi-Melta (Warhammer 40,000: Space Marine 2)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=iKhYBTaEKlM).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://spacemarine2.fandom.com/wiki/Multi-Melta).
 [Video: BEST HEAVY WEAPON? Multi-Melta Gameplay - Warhammer 40k: Space Marine 2 (4K)](https://www.youtube.com/watch?v=iKhYBTaEKlM). Evidence: Item title and game context matched.
+[Reference](https://spacemarine2.fandom.com/wiki/Multi-Melta): Multi-Melta.
 
 <a id="ref-xg-b1cea30deaf7"></a>
 ## Anguish (Remnant II)
@@ -1715,8 +1723,9 @@ Image: Named weapon artwork; exact file identity checked. [Source](https://remna
 <a id="ref-xg-ce0d837d9245"></a>
 ## Fusion Rifle (Remnant: From the Ashes)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0dnGCIs80CI).
+Image: Original-game Fusion Rifle inventory screenshot. [Source](https://landofgames.ru/articles/guides/9512-novoe-oruzhie-v-remnant-from-the-ashes-subject-2923.html).
 [Video: Remnant: From the Ashes - The Fusion Rifle is Amazing (PS4 Pro Gameplay)](https://www.youtube.com/watch?v=0dnGCIs80CI). Evidence: Item title and game context matched.
+[Reference](https://landofgames.ru/articles/guides/9512-novoe-oruzhie-v-remnant-from-the-ashes-subject-2923.html): Fusion Rifle.
 
 <a id="ref-xg-f5180d51df7a"></a>
 ## Dragonchaser (Gunfire Reborn)
@@ -1865,8 +1874,9 @@ Image: Named weapon artwork; exact file identity checked. [Source](https://starw
 <a id="ref-xg-1a1b00cd8c44"></a>
 ## Scorn shotgun (Scorn)
 
-Image: Item-video preview; not a separate weapon photograph. [Source](https://www.youtube.com/watch?v=yPwO1B7hd1g).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://scorn.wiki.gg/wiki/Weapons).
 [Video: Scorn gameplay #6 :  Shotgun](https://www.youtube.com/watch?v=yPwO1B7hd1g). Evidence: Exact item and game or historical context checked.
+[Reference](https://scorn.wiki.gg/wiki/Weapons): Scorn shotgun.
 
 <a id="ref-xg-2bd07678b0bf"></a>
 ## Monolith (Remnant II)
@@ -2253,14 +2263,6 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 [Video: Franchi LF-57 vs Colt SMG (w/ John Keene)](https://www.youtube.com/watch?v=a_CpfR4NaAk). Evidence: Video embedded in named historical source.
 [Reference](https://www.forgottenweapons.com/franchi-lf-57-vs-colt-smg-w-john-keene/): Franchi LF-57 vs Colt SMG (w/ John Keene).
 
-<a id="ref-xh-6be605630472"></a>
-## Armaguerra OG-43 (Peculiar submachine guns and folding forms)
-
-Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=3mEcMwW1Iqo).
-[Video: &quot;Historically Accurate&quot; Armaguerra OG-43 &amp; Breda PG (Itra Burst) on Warzone Pacific PS5 Gameplay](https://www.youtube.com/watch?v=3mEcMwW1Iqo). Evidence: Exact item and variant title/context checked.
-[Reference](https://www.youtube.com/watch?v=rd2BiLU-s6g): Armaguerra Last-Ditch M35 Pistol.
-[Reference](https://www.youtube.com/results?search_query=Armaguerra+OG-43+historical+firearm): &quot;Historically Accurate&quot; Armaguerra OG-43 &amp; Breda PG (Itra Burst) on Warzone Pacific PS5 Gameplay.
-
 <a id="ref-xh-ce7b7ac57f59"></a>
 ## Welgun (Peculiar submachine guns and folding forms)
 
@@ -2353,13 +2355,6 @@ Image: Exact article lead photograph or weapon render. [Source](https://en.wikip
 
 Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IwYeG_3m5pM).
 [Video: SPP-1 Underwater Pistol (Cold War Tech)](https://www.youtube.com/watch?v=IwYeG_3m5pM). Evidence: Named historical item video.
-
-<a id="ref-xh-aa70a7dcd45e"></a>
-## Benelli CB-M2 (Cold War and experimental layouts)
-
-Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=r7fY9buH6go).
-[Video: Benelli CB M2 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=r7fY9buH6go). Evidence: Named historical item video.
-[Reference](https://www.youtube.com/results?search_query=Benelli+CB-M2+historical+firearm+review): Benelli CB M2 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
 
 <a id="ref-xh-793fce753247"></a>
 ## Steyr GB (Cold War and experimental layouts)
@@ -2505,7 +2500,7 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-cfb50ce81b80"></a>
 ## Kel-Tec CP33 (Oversized and eccentric modern forms)
 
-Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=78js3IZSX8o).
+Image: Full-resolution preview from named CP33 firsthand review. [Source](https://www.youtube.com/watch?v=78js3IZSX8o).
 [Video: KELTEC CP33 REVIEW](https://www.youtube.com/watch?v=78js3IZSX8o). Evidence: Named historical item video.
 [Reference](https://www.youtube.com/results?search_query=Kel-Tec+CP33+historical+firearm+review): KELTEC CP33 REVIEW.
 
