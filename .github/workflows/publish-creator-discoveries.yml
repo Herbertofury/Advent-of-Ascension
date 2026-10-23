@@ -1,0 +1,112 @@
+name: Publish creator discoveries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['docs/minecraft-gun-mods/creator-discoveries/publication.txt']
+permissions:
+  contents: write
+concurrency:
+  group: weapon-inspirations-wiki
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Read approved source and exact acceptance
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/creator-publish-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/weapon_inspiration_navigation.py\n/docs/Minecraft-Gun*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n' > .git/info/sparse-checkout
+          git checkout main
+          git rev-parse HEAD > docs/minecraft-gun-mods/creator-discoveries/qa/published-source-commit.txt
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('docs/minecraft-gun-mods/creator-discoveries');reports=['targeted/report.json','atlas/browser-report.json','tacz/browser-report.json']
+          for name in reports:
+              report=json.loads((root/'qa'/name).read_text());assert report['passed'] and all(x['passed'] for x in report['checks']),name
+          parent=json.loads((root.parent/'catalog.json').read_text());tacz=json.loads((root.parent/'tacz/catalog.json').read_text());delta=json.loads((root/'qa/data-delta.json').read_text())
+          assert len(parent['items'])==delta['parentCount']==2367
+          assert len(tacz['items'])==delta['taczFamilies']==160
+          assert tacz['build']['dataHash']==json.loads((root/'qa/tacz/browser-report.json').read_text())['dataHash']
+          print('Approved exact 2367-project and 160-family update')
+          PY
+      - name: Publish the actual Wiki with one navigation owner
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          export GIT_ASKPASS="$RUNNER_TEMP/creator-publish-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          python3 source/docs/minecraft-gun-mods/creator-discoveries/publish_update.py prepare wiki
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then git commit -m 'Organize inspiration navigation and publish overlooked creator gunpacks'; git push origin HEAD; fi
+          git rev-parse HEAD > ../source/docs/minecraft-gun-mods/creator-discoveries/qa/published-wiki-commit.txt
+      - name: Build and exercise the complete extracted offline release
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/creator-discoveries/publish_update.py package release
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile('release/Minecraft-Gun-Atlas.zip') as archive:archive.extractall('release/portable-test')
+          PY
+          python3 release/portable-test/minecraft-gun-mods/qa/offline_check.py
+          python3 source/docs/minecraft-gun-mods/tacz/publish_tacz.py offline release
+          mkdir -p source/docs/minecraft-gun-mods/creator-discoveries/qa/offline
+          cp release/portable-test/minecraft-gun-mods/qa/offline/report.json source/docs/minecraft-gun-mods/creator-discoveries/qa/offline/atlas.json
+          cp release/OFFLINE-VERIFICATION.json source/docs/minecraft-gun-mods/creator-discoveries/qa/offline/tacz.json
+      - name: Verify the actual Wiki hierarchy, new pictures and deployed data
+        run: python3 source/docs/minecraft-gun-mods/creator-discoveries/publish_update.py verify wiki
+      - name: Exercise both actual public explorers
+        run: |
+          set -euo pipefail
+          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/creator-discoveries/qa/live-atlas
+          python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/ --output source/docs/minecraft-gun-mods/creator-discoveries/qa/live-tacz
+      - name: Seal complete release with live verification receipts
+        run: python3 source/docs/minecraft-gun-mods/creator-discoveries/publish_update.py package release
+      - name: Publish permanent release and verify its downloaded bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG=minecraft-gun-atlas-v1.1.0
+          if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$TAG" release/Minecraft-Gun-Atlas.zip release/RELEASE-VERIFICATION.json release/SHA256SUMS.txt release/START-HERE.md --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title 'Minecraft Gun Atlas - Creator Discoveries' --notes-file release/START-HERE.md
+          fi
+          mkdir -p readback
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern Minecraft-Gun-Atlas.zip --dir readback
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          expected=json.loads(Path('release/RELEASE-VERIFICATION.json').read_text());p=Path('readback/Minecraft-Gun-Atlas.zip');actual=hashlib.sha256(p.read_bytes()).hexdigest()
+          assert actual==expected['sha256'] and p.stat().st_size==expected['bytes']
+          Path('release/GITHUB-READBACK.json').write_text(json.dumps({'bytes':p.stat().st_size,'sha256':actual,'verified':True},indent=2))
+          PY
+      - name: Preserve complete release and visual evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: creator-discoveries-published
+          path: |
+            release/*.zip
+            release/*.json
+            release/*.txt
+            release/*.md
+            source/docs/minecraft-gun-mods/creator-discoveries/qa/
+          retention-days: 30
+          if-no-files-found: error
