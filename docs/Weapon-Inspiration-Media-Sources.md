@@ -4040,7 +4040,7 @@ Image type: Weapon chapter gameplay frame from credited video mirror. [Image sou
 <a id="ref-d21c72146df8"></a>
 ## Aspergillum (Forgive Me Father)
 
-Image type: Named holy-water ability chapter screenshot. [Image source](https://www.youtube.com/watch?v=L_59BErDMTI&t=343s).
+Image type: Visually verified holy-water ability gameplay frame. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=343s). Match: Chapter matched.
 
 <a id="ref-be3e53b47ec6"></a>
