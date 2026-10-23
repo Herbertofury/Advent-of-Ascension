@@ -1,0 +1,78 @@
+name: TaCZ Gunpack Lab
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tacz-gunpack-lab.yml'
+      - 'docs/minecraft-gun-mods/tacz/stage.txt'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: tacz-gunpack-lab
+  cancel-in-progress: false
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Continue exact source and preserve the main atlas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/tacz-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/AGENTS.md\n' > .git/info/sparse-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin tacz-gunpack-lab >/dev/null 2>&1; then
+            git fetch --depth 100 origin refs/heads/tacz-gunpack-lab:refs/remotes/origin/tacz-gunpack-lab refs/heads/main:refs/remotes/origin/main
+            git checkout -B tacz-gunpack-lab origin/tacz-gunpack-lab
+            git merge origin/main --no-edit
+          else
+            git checkout -b tacz-gunpack-lab origin/main
+          fi
+      - name: Research only unresolved sources then build when source is ready
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          cd source
+          if [ ! -f docs/minecraft-gun-mods/tacz/research.json ]; then python3 docs/minecraft-gun-mods/tacz/research_tacz.py; fi
+          if [ -f docs/minecraft-gun-mods/tacz/build_tacz.py ]; then python3 docs/minecraft-gun-mods/tacz/build_tacz.py; fi
+      - name: Checkpoint coherent source before browser gates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/tacz-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/tacz ':!docs/minecraft-gun-mods/tacz/cache' ':!docs/minecraft-gun-mods/tacz/__pycache__'
+          if [ -f docs/TaCZ-Gunpacks.md ]; then git add docs/TaCZ-Gunpack*.md docs/minecraft-gun-mods/index.html; fi
+          if ! git diff --cached --quiet; then git commit -m 'Build source-ranked TaCZ gunpacks without utility add-ons'; fi
+          git push origin HEAD:tacz-gunpack-lab
+          git rev-parse HEAD > docs/minecraft-gun-mods/tacz/source-commit.txt
+      - name: Exercise real TaCZ data and persistence in Chromium
+        run: |
+          if [ -f source/docs/minecraft-gun-mods/tacz/test_tacz.py ]; then
+            if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+            python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py
+          fi
+      - name: Save complete TaCZ evidence and source
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-gunpack-lab
+          path: |
+            source/docs/minecraft-gun-mods/tacz/
+            source/docs/TaCZ-Gunpack*.md
+            !source/docs/minecraft-gun-mods/tacz/cache/**
+            !source/docs/minecraft-gun-mods/tacz/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
