@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT))
 loader=importlib.machinery.SourceFileLoader('final_delta',str(ROOT/'final_delta.py.delta'))
 spec=importlib.util.spec_from_loader(loader.name,loader);d=importlib.util.module_from_spec(spec);loader.exec_module(d)
-g=d.g;p=d.p
+g=d.g;p=d.p;f=d.f
 ORIGINAL_RENDER=p.render
 
 def render(entries,media,title,other):
