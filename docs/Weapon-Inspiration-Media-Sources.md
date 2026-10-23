@@ -943,7 +943,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-0f7626e76ade"></a>
 ## The Boring Gun (Borderlands 3)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=16A84CA7yuM&t=3014s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=rbPe6kXugpk).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=3014s). Match: Chapter matched.
 
 <a id="ref-2af018aadb7d"></a>
@@ -1009,13 +1009,13 @@ Image type: Weapon reference image. [Image source](https://www.destinypedia.com/
 <a id="ref-424a3f0d804f"></a>
 ## Cavaliere (Devil May Cry 5)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=YVPKoh-6bJo&t=705s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://devilmaycry.fandom.com/wiki/Cavaliere).
 [Video: 【Devil May Cry 5】Dante Moveset Showcase All Weapons, Styles, Abilities &amp; Provocations](https://www.youtube.com/watch?v=YVPKoh-6bJo&t=705s). Match: Chapter matched.
 
 <a id="ref-e20f829fc63e"></a>
 ## Dr. Faust (Devil May Cry 5)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=YVPKoh-6bJo&t=1416s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://devilmaycry.fandom.com/wiki/Dr._Faust).
 [Video: 【Devil May Cry 5】Dante Moveset Showcase All Weapons, Styles, Abilities &amp; Provocations](https://www.youtube.com/watch?v=YVPKoh-6bJo&t=1416s). Match: Chapter matched.
 
 <a id="ref-ae5975edb4a3"></a>
@@ -1183,49 +1183,49 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-63f4e981f632"></a>
 ## Cold Snap (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=418s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Cold_Snap).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=418s). Match: Chapter matched.
 
 <a id="ref-d363cd970aa3"></a>
 ## Drillhound (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=387s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Drillhound).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=387s). Match: Chapter matched.
 
 <a id="ref-1f8a8d2d06cb"></a>
 ## Glove of Doom (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=602s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Glove_of_Doom).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=602s). Match: Chapter matched.
 
 <a id="ref-c36efdeb7701"></a>
 ## Mr. Fungi (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=495s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Mr._Fungi).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=495s). Match: Chapter matched.
 
 <a id="ref-63b1ff8e0558"></a>
 ## Pixelizer (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=468s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Pixelizer).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=468s). Match: Chapter matched.
 
 <a id="ref-07e8b78b8800"></a>
 ## Ricochet (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=83s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Ricochet).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=83s). Match: Chapter matched.
 
 <a id="ref-2fe4a6f65e8b"></a>
 ## RYNO 8 (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=664s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/RYNO_8).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=664s). Match: Chapter matched.
 
 <a id="ref-9b0a9ab02c7b"></a>
 ## Topiary Sprinkler (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=536s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Topiary_Sprinkler).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=536s). Match: Chapter matched.
 
 <a id="ref-9c2e56753805"></a>
@@ -1237,31 +1237,31 @@ Image type: Catalog weapon reference image. [Image source](https://saintsrow.wik
 <a id="ref-0d82cee1cfed"></a>
 ## Bloblobber (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=997s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=ibwEoHD-PGU).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=997s). Match: Chapter matched.
 
 <a id="ref-f5d93d1a6221"></a>
 ## Sloshing Machine (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=724s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=fC3UYZWBCGU).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=724s). Match: Chapter matched.
 
 <a id="ref-f81f426fb2c8"></a>
 ## Splatana Wiper (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=270s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=UPnvcCDnjLc).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=270s). Match: Chapter matched.
 
 <a id="ref-aa5a1044584f"></a>
 ## Tri-Stringer (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=190s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=qBe7RVKwT0A).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=190s). Match: Chapter matched.
 
 <a id="ref-9f86ffd312b5"></a>
 ## Undercover Brella (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=950s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=9lk8Enmx_bI).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=950s). Match: Chapter matched.
 
 <a id="ref-ce2348e80a99"></a>
@@ -1411,13 +1411,13 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-f51c20a40691"></a>
 ## Laetum Incarnon (Warframe)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=WJ13dOqtf7Y&t=301s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=bFiKhtyR8yI).
 [Video: Revisitando TODAS las INCARNON ORIGINALES🔥Pt.1 (PHENMOR, LAETUM, INNODEM, PRAEDOS) &#124; Warframe](https://www.youtube.com/watch?v=WJ13dOqtf7Y&t=301s). Match: Chapter matched.
 
 <a id="ref-8cd1694df548"></a>
 ## Phenmor Incarnon (Warframe)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=WJ13dOqtf7Y&t=20s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=zqDOz7myLZg).
 [Video: Revisitando TODAS las INCARNON ORIGINALES🔥Pt.1 (PHENMOR, LAETUM, INNODEM, PRAEDOS) &#124; Warframe](https://www.youtube.com/watch?v=WJ13dOqtf7Y&t=20s). Match: Chapter matched.
 
 <a id="ref-8de1dd36f3c7"></a>
@@ -1429,19 +1429,19 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-1a72e2da8eeb"></a>
 ## Conference Call (Borderlands 3)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=16A84CA7yuM&t=576s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://borderlands.fandom.com/wiki/Conference_Call).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=576s). Match: Chapter matched.
 
 <a id="ref-d086a7587857"></a>
 ## Expert Storm (Borderlands 3)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=16A84CA7yuM&t=2939s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=X2Wh_xAyD64).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=2939s). Match: Chapter matched.
 
 <a id="ref-08bf86ec43ad"></a>
 ## Flakker (Borderlands 3)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=16A84CA7yuM&t=972s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://borderlands.fandom.com/wiki/Flakker).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=972s). Match: Chapter matched.
 
 <a id="ref-69824a9318da"></a>
@@ -1453,7 +1453,7 @@ Image type: Catalog weapon reference image. [Image source](https://www.gamespot.
 <a id="ref-aec1e3668880"></a>
 ## The Lob (Borderlands 3)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=16A84CA7yuM&t=3122s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=JbAKYvU7THI).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=3122s). Match: Chapter matched.
 
 <a id="ref-c6651e0959d7"></a>
@@ -1567,13 +1567,13 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-453265c654bb"></a>
 ## Blackhole Storm (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=140s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Blackhole_Storm).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=140s). Match: Chapter matched.
 
 <a id="ref-b31578f07da4"></a>
 ## Buzz Blades (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=358s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Buzz_Blades).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=358s). Match: Chapter matched.
 
 <a id="ref-c76839f5687c"></a>
@@ -1585,7 +1585,7 @@ Image type: Catalog weapon reference image. [Image source](https://ratchet-galax
 <a id="ref-9f3e5b2aeb7d"></a>
 ## Negatron Collider (Ratchet & Clank: Rift Apart)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QItIzaqUcGk&t=220s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Negatron_Collider).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=220s). Match: Chapter matched.
 
 <a id="ref-6ef41de0961b"></a>
@@ -1597,13 +1597,13 @@ Image type: Catalog weapon reference image. [Image source](https://saintsrow.wik
 <a id="ref-f657c749ac10"></a>
 ## Dynamo Roller (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=621s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=EhFd_rtaldw).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=621s). Match: Chapter matched.
 
 <a id="ref-db61c52abb8e"></a>
 ## Explosher (Splatoon)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=1272s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=Rl7Rr_HNAbU).
 [Video: Splatoon 3 - All Weapons Showcase](https://www.youtube.com/watch?v=D-LTtvSRY5w&t=1272s). Match: Chapter matched.
 
 <a id="ref-1b84ea8a0f4c"></a>
@@ -1711,7 +1711,7 @@ Image type: Catalog weapon reference image. [Image source](https://valorant.fand
 <a id="ref-08628aea15ba"></a>
 ## Praedos (Warframe)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=WJ13dOqtf7Y&t=1013s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=L6f4_qql79Y).
 [Video: Revisitando TODAS las INCARNON ORIGINALES🔥Pt.1 (PHENMOR, LAETUM, INNODEM, PRAEDOS) &#124; Warframe](https://www.youtube.com/watch?v=WJ13dOqtf7Y&t=1013s). Match: Chapter matched.
 
 <a id="ref-c5a8823f9700"></a>
@@ -3461,67 +3461,67 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-e9c4cf3d0a70"></a>
 ## La Clavadora (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2388s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/La_Clavadora).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2388s). Match: Chapter matched.
 
 <a id="ref-d283b0fca0ff"></a>
 ## El Muro (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2422s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/El_Muro).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2422s). Match: Chapter matched.
 
 <a id="ref-0c1b3a0de643"></a>
 ## El Susurro (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2468s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/El_Susurro).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2468s). Match: Chapter matched.
 
 <a id="ref-cd2aa10c5773"></a>
 ## La Varita (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2522s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/La_Varita).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2522s). Match: Chapter matched.
 
 <a id="ref-19ec9e5ee872"></a>
 ## La Sorpresa (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2598s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/La_Sorpresa).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2598s). Match: Chapter matched.
 
 <a id="ref-0163224ecf49"></a>
 ## Zeusito (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2657s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/Zeusito).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2657s). Match: Chapter matched.
 
 <a id="ref-3bce3ec55f7f"></a>
 ## Pyrotechno (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2715s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/Pyrotechno).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2715s). Match: Chapter matched.
 
 <a id="ref-31989e5d13be"></a>
 ## Discos Locos (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2780s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/Discos_Locos).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2780s). Match: Chapter matched.
 
 <a id="ref-f3317cf86073"></a>
 ## El Pequeno (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2834s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/El_Pequeño).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2834s). Match: Chapter matched.
 
 <a id="ref-216710c4d4fb"></a>
 ## Tostador (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2890s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/Tostador).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2890s). Match: Chapter matched.
 
 <a id="ref-60e2875aac0d"></a>
 ## El Besito (Far Cry 6)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2935s).
+Image type: Weapon-specific image; file identity checked. [Image source](https://farcry.fandom.com/wiki/El_Besito).
 [Video: Far Cry 6 - All Weapons](https://www.youtube.com/watch?v=_E5mZtwmXVo&t=2935s). Match: Chapter matched.
 
 <a id="ref-cb0c3765fa30"></a>
@@ -3539,7 +3539,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-334058a1e120"></a>
 ## Shield Saw (DOOM: The Dark Ages)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=43s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=9PvIwmkRjqI).
 [Video: Doom: The Dark Ages - BEST Weapon Upgrades to Get First](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=43s). Match: Chapter matched.
 
 <a id="ref-8c18eb6d8c1e"></a>
@@ -3557,7 +3557,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-c43ba055cd45"></a>
 ## Flail (DOOM: The Dark Ages)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=133s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=0dHaqsKtkgE).
 [Video: Doom: The Dark Ages - BEST Weapon Upgrades to Get First](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=133s). Match: Chapter matched.
 
 <a id="ref-6e346527298c"></a>
@@ -3713,7 +3713,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-5fd02218a0f9"></a>
 ## Devastator (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=477s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=Mlraq49aEcU).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=477s). Match: Chapter matched.
 
 <a id="ref-8ae0a45a3709"></a>
@@ -3725,7 +3725,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-2f6212002946"></a>
 ## Unmaker (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=649s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=zV0FwJyjZ3U).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=649s). Match: Chapter matched.
 
 <a id="ref-ae93767e5f87"></a>
@@ -3755,13 +3755,13 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-3634dca4039e"></a>
 ## Black Hole Generator (DOOM II - Brutal CyberDoom)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=685s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=KRSCW20cd7Y).
 [Video: Brutal CyberDoom - All Weapons Showcase](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=685s). Match: Chapter matched.
 
 <a id="ref-58bf5af04e5f"></a>
 ## Cyberdemon Missile Launcher (DOOM II - Brutal CyberDoom)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=776s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=tHooV9j2SWk).
 [Video: Brutal CyberDoom - All Weapons Showcase](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=776s). Match: Chapter matched.
 
 <a id="ref-a63ae4da5bc5"></a>
@@ -3773,13 +3773,13 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-15defa907669"></a>
 ## Leichenfaust (DOOM II - Brutal Wolfenstein 3D)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=HHonOHqox1s&t=640s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=XA9WQMPC3tc).
 [Video: BRUTAL WOLFENSTEIN 3D 7.0 - All Weapons Showcase](https://www.youtube.com/watch?v=HHonOHqox1s&t=640s). Match: Chapter matched.
 
 <a id="ref-6b76191cd3e4"></a>
 ## Spear of Destiny (DOOM II - Brutal Wolfenstein 3D)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=HHonOHqox1s&t=753s).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=8VdNNqp_xAo).
 [Video: BRUTAL WOLFENSTEIN 3D 7.0 - All Weapons Showcase](https://www.youtube.com/watch?v=HHonOHqox1s&t=753s). Match: Chapter matched.
 
 <a id="ref-957953c2876b"></a>
@@ -3875,19 +3875,19 @@ Image type: Catalog weapon reference image. [Image source](https://github.com/Ca
 <a id="ref-04984e2d3e0c"></a>
 ## Broken Biome Blade (Terraria - Calamity Mod)
 
-Image type: Weapon reference image. [Image source](https://www.minenest.com/67971/).
+Image type: Weapon-specific image; file identity checked. [Image source](https://calamitymod.wiki.gg/wiki/Broken_Biome_Blade).
 [Video: All New Biome Blade Upgrades &amp; Weapons - Terraria Calamity Mod v1.5.1](https://www.youtube.com/watch?v=R6WbksHiKy4&t=12s). Match: Chapter matched.
 
 <a id="ref-0c287cddab8a"></a>
 ## Biome Blade (Terraria - Calamity Mod)
 
-Image type: Weapon reference image. [Image source](https://www.minenest.com/67971/).
+Image type: Weapon-specific image; file identity checked. [Image source](https://calamitymod.wiki.gg/wiki/Biome_Blade).
 [Video: All New Biome Blade Upgrades &amp; Weapons - Terraria Calamity Mod v1.5.1](https://www.youtube.com/watch?v=R6WbksHiKy4&t=67s). Match: Chapter matched.
 
 <a id="ref-f60267364aca"></a>
 ## True Biome Blade (Terraria - Calamity Mod)
 
-Image type: Weapon reference image. [Image source](https://www.minenest.com/67971/).
+Image type: Weapon-specific image; file identity checked. [Image source](https://calamitymod.wiki.gg/wiki/True_Biome_Blade).
 [Video: All New Biome Blade Upgrades &amp; Weapons - Terraria Calamity Mod v1.5.1](https://www.youtube.com/watch?v=R6WbksHiKy4&t=166s). Match: Chapter matched.
 
 <a id="ref-7d189008e723"></a>
@@ -3935,139 +3935,139 @@ Image type: Catalog weapon reference image. [Image source](https://forgive-me-fa
 <a id="ref-7abc71266fac"></a>
 ## Power Shotgun (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=47s). Match: Chapter matched.
 
 <a id="ref-7a99c099639e"></a>
 ## Spitter (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=58s). Match: Chapter matched.
 
 <a id="ref-7a956807faf3"></a>
 ## Abyssal Shotgun (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=69s). Match: Chapter matched.
 
 <a id="ref-e3b06e26bcb7"></a>
 ## Nasstod LD32 (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=110s). Match: Chapter matched.
 
 <a id="ref-da352e06c107"></a>
 ## Nasstod LD62 (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=127s). Match: Chapter matched.
 
 <a id="ref-8cced407c2e7"></a>
 ## Rusty Vito (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=141s). Match: Chapter matched.
 
 <a id="ref-512d07d8cdf6"></a>
 ## Rustier Vito (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=159s). Match: Chapter matched.
 
 <a id="ref-7a037ccd6b28"></a>
 ## Des Goules (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=177s). Match: Chapter matched.
 
 <a id="ref-a76a32d99164"></a>
 ## Des Goules MkII (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=196s). Match: Chapter matched.
 
 <a id="ref-23b297adf685"></a>
 ## Energy Booster (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=216s). Match: Chapter matched.
 
 <a id="ref-a10590a0e76e"></a>
 ## Energy Catalyst (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=233s). Match: Chapter matched.
 
 <a id="ref-085f51003fdf"></a>
 ## Worm Nest (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=249s). Match: Chapter matched.
 
 <a id="ref-72103de69e18"></a>
 ## Big Worm Nest (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=263s). Match: Chapter matched.
 
 <a id="ref-620aa1fd6f97"></a>
 ## Thunderonomicon (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=276s). Match: Chapter matched.
 
 <a id="ref-5025468bb019"></a>
 ## Thunderonomicon MkII (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=291s). Match: Chapter matched.
 
 <a id="ref-90cb574ba81f"></a>
 ## Harpoon (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=307s). Match: Chapter matched.
 
 <a id="ref-fc2d33bc3429"></a>
 ## Whale's Bane (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=319s). Match: Chapter matched.
 
 <a id="ref-d21c72146df8"></a>
 ## Aspergillum (Forgive Me Father)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=L_59BErDMTI&t=343s).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=343s). Match: Chapter matched.
 
 <a id="ref-be3e53b47ec6"></a>
 ## Cross (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=354s). Match: Chapter matched.
 
 <a id="ref-6c110f752d77"></a>
 ## Camera (Forgive Me Father)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=L_59BErDMTI&t=366s).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=366s). Match: Chapter matched.
 
 <a id="ref-236d40511d64"></a>
 ## Voodoo Doll (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=373s). Match: Chapter matched.
 
 <a id="ref-c76f635ca81e"></a>
 ## Necronomicon (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=385s). Match: Chapter matched.
 
 <a id="ref-2305e5a995fd"></a>
 ## Mutated Knife (Forgive Me Father)
 
-Image type: Catalog weapon reference image. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
+Image type: Weapon chapter gameplay frame from credited video mirror. [Image source](https://www.bilibili.com/video/BV1a5411U7Ez/).
 [Video: Forgive Me Father - All Weapons](https://www.youtube.com/watch?v=L_59BErDMTI&t=498s). Match: Chapter matched.
 
 <a id="ref-b3736dbea799"></a>
@@ -4869,7 +4869,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 [Video: Metal Slug 3 Mission4 Laser Gun strat](https://www.youtube.com/watch?v=8kvRKn8S_8Y). Match: Item title matched.
 
 <a id="ref-g-e6a2d0837146"></a>
-## Barn Blaster (Earthworm Jim)
+## Barn Blaster (Earthworm Jim 2)
 
 Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=NF_-XrcNu78).
 [Video: SNES Earthworm Jim 2 Barn Blaster](https://www.youtube.com/watch?v=NF_-XrcNu78). Match: Item title matched.
@@ -4877,7 +4877,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-1a31646966c1"></a>
 ## Bubble Gun (Earthworm Jim 2)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=JA0oLuJn9Ng).
+Image type: Weapon-specific image; file identity checked. [Image source](https://earthwormjim.fandom.com/wiki/Bubble_Gun).
 [Video: SNES Earthworm Jim 2 Bubble Gun](https://www.youtube.com/watch?v=JA0oLuJn9Ng). Match: Item title matched.
 
 <a id="ref-g-4fcc58a121ec"></a>
@@ -4925,7 +4925,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-c7cf78d773de"></a>
 ## Monkey Gun (TimeSplitters: Future Perfect)
 
-Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=O9944b7GjLg).
+Image type: Named Monkey Gun weapon image; visually verified. [Image source](https://wiki-origin.giantbomb.com/wiki/Objects/Monkey_Gun).
 [Video: TimeSplitters: Future Perfect - All weapons showcase](https://www.youtube.com/watch?v=O9944b7GjLg). Match: TimeSplitters Future Perfect all-weapons collection showcase.
 
 <a id="ref-g-e7978f45c704"></a>
@@ -5051,13 +5051,13 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-af280421d77f"></a>
 ## Nano Rifle (Red Faction: Guerrilla)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=IBBYQ-SsoPQ).
+Image type: Weapon-specific image; file identity checked. [Image source](https://redfaction.fandom.com/wiki/Nano_Rifle).
 [Video: Red Faction: Guerrilla - Singularity Bomb &amp; Nano-Rifle Doc [ HD ]](https://www.youtube.com/watch?v=IBBYQ-SsoPQ). Match: Item title matched.
 
 <a id="ref-g-4e491482f415"></a>
 ## Singularity Bomb (Red Faction: Guerrilla)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=IBBYQ-SsoPQ).
+Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=hoPYUijNE0k).
 [Video: Red Faction: Guerrilla - Singularity Bomb &amp; Nano-Rifle Doc [ HD ]](https://www.youtube.com/watch?v=IBBYQ-SsoPQ). Match: Item title matched.
 
 <a id="ref-g-a17366a27dbf"></a>
@@ -5195,13 +5195,13 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-827890d4c5c2"></a>
 ## Penetrator (Bulletstorm)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=_Uaj1GE7cXY).
+Image type: Weapon-specific image; file identity checked. [Image source](https://bulletstorm.fandom.com/wiki/Penetrator).
 [Video: Bulletstorm: Full Clip Edition - Penetrator Skillshots](https://www.youtube.com/watch?v=_Uaj1GE7cXY). Match: Item title matched.
 
 <a id="ref-g-542a18a9dbf2"></a>
 ## Screamer (Bulletstorm)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=b9c-mo8Tyoo).
+Image type: Weapon-specific image; file identity checked. [Image source](https://bulletstorm.fandom.com/wiki/Screamer).
 [Video: Bulletstorm: Full Clip Edition - Screamer Skillshots](https://www.youtube.com/watch?v=b9c-mo8Tyoo). Match: Item title matched.
 
 <a id="ref-g-11e604c0e13f"></a>
