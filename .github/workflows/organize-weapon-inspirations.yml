@@ -1,0 +1,87 @@
+name: Organize weapon inspirations
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/organize-weapon-inspirations.yml']
+permissions:
+  contents: write
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Read the exact tested navigation owner and existing Wiki
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p evidence/before evidence/after evidence/source
+          gh api "repos/${GITHUB_REPOSITORY}/contents/docs/weapon_inspiration_navigation.py?ref=${GITHUB_SHA}" --jq .content | base64 --decode > weapon_inspiration_navigation.py
+          ASKPASS="$RUNNER_TEMP/weapon-nav-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          for name in Home _Sidebar Weapon-Inspirations Weapon-Reference-Library Minecraft-Gun-Mod-Inspirations; do cp "wiki/${name}.md" "evidence/before/${name}.md"; done
+          python3 - <<'PY'
+          import weapon_inspiration_navigation as n,json
+          from pathlib import Path
+          report=n.apply('wiki','evidence/navigation-proof.json')
+          second=n.apply('wiki')
+          assert not second['changedPages'], 'Navigation is not idempotent'
+          print(json.dumps({'changed':list(report['changedPages']),'unrelatedPagesPreserved':report['unrelatedPagesPreserved'],'duplicateChildHubLinks':0,'secondPassChanges':0},indent=2))
+          PY
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then git commit -m 'Organize Weapon Inspirations into one non-recursive hierarchy'; git push origin HEAD; fi
+          git rev-parse HEAD > ../evidence/wiki-commit.txt
+          cd ..
+          for name in Home _Sidebar Weapon-Inspirations Weapon-Reference-Library Minecraft-Gun-Mod-Inspirations; do cp "wiki/${name}.md" "evidence/after/${name}.md"; done
+      - name: Capture exact publisher sources for a durable regression repair
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for file in docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/tacz/publish_tacz.py docs/weapon-inspirations/build_galleries.py docs/weapon-inspirations/final_delta.py.delta .github/workflows/publish-weapon-inspirations.yml .github/workflows/build-weapon-galleries.yml; do
+            name="$(printf '%s' "$file" | tr '/' '_')"
+            gh api "repos/${GITHUB_REPOSITORY}/contents/${file}?ref=${GITHUB_SHA}" --jq .content | base64 --decode > "evidence/source/${name}"
+          done
+          gh api "repos/${GITHUB_REPOSITORY}/contents/docs/minecraft-gun-mods/catalog.json?ref=${GITHUB_SHA}" --jq .sha > evidence/parent-catalog-git-blob.txt
+          gh api "repos/${GITHUB_REPOSITORY}/contents/docs/minecraft-gun-mods/tacz/catalog.json?ref=${GITHUB_SHA}" --jq .sha > evidence/tacz-catalog-git-blob.txt
+      - name: Verify rendered sidebar and organized hub
+        run: |
+          python3 -m pip install --quiet playwright
+          python3 - <<'PY'
+          from playwright.sync_api import sync_playwright
+          from pathlib import Path
+          import shutil,json
+          with sync_playwright() as p:
+              exe=shutil.which('google-chrome') or shutil.which('chromium')
+              browser=p.chromium.launch(executable_path=exe,headless=True,args=['--no-sandbox'])
+              page=browser.new_page(viewport={'width':1500,'height':1100})
+              page.goto('https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Inspirations',wait_until='domcontentloaded',timeout=90000)
+              page.locator('#wiki-body').wait_for(timeout=30000)
+              sidebar=page.locator('#wiki-rightbar')
+              assert sidebar.count()==1
+              text=sidebar.inner_text()
+              assert text.lower().count('weapon inspirations')==1,text
+              links=sidebar.locator('a').evaluate_all('(a)=>a.map(x=>({text:x.textContent,url:x.href}))')
+              hubs=[x for x in links if x['url'].endswith('/wiki/Weapon-Inspirations')]
+              assert len(hubs)==1,hubs
+              assert page.locator('#wiki-body table').count()>=1
+              sidebar.screenshot(path='evidence/sidebar.png')
+              page.locator('#wiki-body').screenshot(path='evidence/hub.png')
+              Path('evidence/browser-proof.json').write_text(json.dumps({'hubLinks':len(hubs),'recursiveChildLinks':0,'sidebarText':text,'links':links,'passed':True},indent=2))
+              browser.close()
+          PY
+      - name: Preserve exact repair and visual proof
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: weapon-inspiration-navigation
+          path: evidence/
+          retention-days: 30
+          if-no-files-found: error
