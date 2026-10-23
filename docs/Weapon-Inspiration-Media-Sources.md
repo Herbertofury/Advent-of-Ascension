@@ -3707,49 +3707,49 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-ab3b02bb3cf6"></a>
 ## The Shotvolver (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=162s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=162s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=162s). Match: Chapter matched.
 
 <a id="ref-5fd02218a0f9"></a>
 ## Devastator (DOOM II - Brutal Doom v22)
 
-Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=Mlraq49aEcU).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=477s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=477s). Match: Chapter matched.
 
 <a id="ref-8ae0a45a3709"></a>
 ## BFG10K (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=622s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=622s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=622s). Match: Chapter matched.
 
 <a id="ref-2f6212002946"></a>
 ## Unmaker (DOOM II - Brutal Doom v22)
 
-Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=zV0FwJyjZ3U).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=649s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=649s). Match: Chapter matched.
 
 <a id="ref-ae93767e5f87"></a>
 ## Revenant Launcher (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=692s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=692s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=692s). Match: Chapter matched.
 
 <a id="ref-1ea23263a704"></a>
 ## Mancubus Launcher (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s). Match: Chapter matched.
 
 <a id="ref-3ac8dfb7b789"></a>
 ## Tactical Nuke Launcher (DOOM II - Brutal Doom v22)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=742s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=742s).
 [Video: BRUTAL DOOM v22 - All Weapons Showcase](https://www.youtube.com/watch?v=QEZgQIDzFOo&t=742s). Match: Chapter matched.
 
 <a id="ref-93568fd9dfb4"></a>
 ## Triple Minigun (DOOM II - Brutal CyberDoom)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=350s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=350s).
 [Video: Brutal CyberDoom - All Weapons Showcase](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=350s). Match: Chapter matched.
 
 <a id="ref-3634dca4039e"></a>
@@ -3761,19 +3761,19 @@ Image type: Item-focused video preview; title and game checked. [Image source](h
 <a id="ref-58bf5af04e5f"></a>
 ## Cyberdemon Missile Launcher (DOOM II - Brutal CyberDoom)
 
-Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=tHooV9j2SWk).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=776s).
 [Video: Brutal CyberDoom - All Weapons Showcase](https://www.youtube.com/watch?v=XoD6xOrIOGY&t=776s). Match: Chapter matched.
 
 <a id="ref-a63ae4da5bc5"></a>
 ## Tesla Cannon (DOOM II - Brutal Wolfenstein 3D)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=HHonOHqox1s&t=522s).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=HHonOHqox1s&t=522s).
 [Video: BRUTAL WOLFENSTEIN 3D 7.0 - All Weapons Showcase](https://www.youtube.com/watch?v=HHonOHqox1s&t=522s). Match: Chapter matched.
 
 <a id="ref-15defa907669"></a>
 ## Leichenfaust (DOOM II - Brutal Wolfenstein 3D)
 
-Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=XA9WQMPC3tc).
+Image type: Exact named video chapter thumbnail. [Image source](https://www.youtube.com/watch?v=HHonOHqox1s&t=640s).
 [Video: BRUTAL WOLFENSTEIN 3D 7.0 - All Weapons Showcase](https://www.youtube.com/watch?v=HHonOHqox1s&t=640s). Match: Chapter matched.
 
 <a id="ref-6b76191cd3e4"></a>
