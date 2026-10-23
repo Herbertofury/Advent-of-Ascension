@@ -1,0 +1,41 @@
+name: Inspect Minecraft Gun Atlas Pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/minecraft-gun-pages-status.yml']
+permissions:
+  contents: read
+  pages: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read exact Pages and deployment evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import os,json,urllib.request,urllib.error
+          repo=os.environ['GITHUB_REPOSITORY'];token=os.environ['GH_TOKEN'];out={}
+          for label,path in [('pages','pages'),('latest_build','pages/builds/latest'),('workflows','actions/workflows')]:
+              url='https://api.github.com/repos/'+repo+'/'+path
+              req=urllib.request.Request(url,headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json'})
+              try:
+                  with urllib.request.urlopen(req,timeout=30) as response:body=json.load(response)
+                  if label=='workflows':body=[{'id':x['id'],'name':x['name'],'path':x['path'],'state':x['state']} for x in body.get('workflows',[])]
+                  out[label]=body
+              except urllib.error.HTTPError as e:out[label]={'status':e.code,'body':e.read().decode()[:500]}
+          for label,url in [('site','https://herbertofury.github.io/Advent-of-Ascension/'),('explorer','https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/')]:
+              try:
+                  with urllib.request.urlopen(url,timeout=30) as response:body=response.read();out[label]={'status':response.status,'bytes':len(body),'head':body[:500].decode(errors='replace')}
+              except urllib.error.HTTPError as e:out[label]={'status':e.code,'body':e.read().decode()[:300]}
+          print(json.dumps(out,indent=2))
+          open('pages-status.json','w').write(json.dumps(out,indent=2))
+          PY
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-pages-status
+          path: pages-status.json
+          retention-days: 30
