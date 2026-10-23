@@ -64,6 +64,17 @@ jobs:
             if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
             python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py
           fi
+      - name: Preserve exact browser acceptance on the same source branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/tacz-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          if [ -f docs/minecraft-gun-mods/tacz/qa/browser-report.json ]; then
+            git add docs/minecraft-gun-mods/tacz/qa/browser-report.json docs/minecraft-gun-mods/tacz/qa/data-validation.json docs/minecraft-gun-mods/tacz/source-commit.txt
+            if ! git diff --cached --quiet; then git commit -m 'Verify dedicated TaCZ rankings, private ratings and preserved collections in Chromium'; git push origin HEAD:tacz-gunpack-lab; fi
+          fi
       - name: Save complete TaCZ evidence and source
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
