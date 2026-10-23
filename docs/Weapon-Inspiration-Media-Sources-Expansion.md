@@ -224,16 +224,18 @@ Image: Named weapon reference image. [Source](https://cyberpunk.fandom.com/wiki/
 <a id="ref-xg-ed8a9f8e86cb"></a>
 ## Cryo Cannon (Deep Rock Galactic)
 
-Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon).
+Image: Weapon image from the named article infobox. [Source](https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon).
 [Video: The Cryo Cannon is the Driller&#x27;s STRONGEST Weapon! &#124; Deep Rock Galactic](https://www.youtube.com/watch?v=dxDtacfh3XY). Evidence: Item title and game context matched.
 [Reference](https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon): Cryo Cannon.
+[Reference](https://www.youtube.com/results?search_query=Cryo+Cannon+Deep+Rock+Galactic+weapon+showcase): The Cryo Cannon is the Driller&#x27;s STRONGEST Weapon! &#124; Deep Rock Galactic.
 
 <a id="ref-xg-1eaab8a28bc6"></a>
 ## Corrosive Sludge Pump (Deep Rock Galactic)
 
-Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Corrosive_Sludge_Pump).
+Image: Weapon image from the named article infobox. [Source](https://deeprockgalactic.wiki.gg/wiki/Corrosive_Sludge_Pump).
 [Video: Deep Rock Galactic: Corrosive Sludge Pump Gameplay](https://www.youtube.com/watch?v=LfHtW_R66js). Evidence: Item title and game context matched.
 [Reference](https://deeprockgalactic.wiki.gg/wiki/Corrosive_Sludge_Pump): Corrosive Sludge Pump.
+[Reference](https://www.youtube.com/results?search_query=Corrosive+Sludge+Pump+Deep+Rock+Galactic+weapon+showcase): Deep Rock Galactic: Corrosive Sludge Pump Gameplay.
 
 <a id="ref-xg-878da8479ebf"></a>
 ## The Dragon (Fallout 76)
@@ -252,9 +254,10 @@ Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/w
 <a id="ref-xg-9f49aa88acdf"></a>
 ## Shard Diffractor (Deep Rock Galactic)
 
-Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Shard_Diffractor).
+Image: Weapon image from the named article infobox. [Source](https://deeprockgalactic.wiki.gg/wiki/Shard_Diffractor).
 [Video: DRG Weapon Showcase: Shard Diffractor](https://www.youtube.com/watch?v=zOdcPIet-UY). Evidence: Item title and game context matched.
 [Reference](https://deeprockgalactic.wiki.gg/wiki/Shard_Diffractor): Shard Diffractor.
+[Reference](https://www.youtube.com/results?search_query=Shard+Diffractor+Deep+Rock+Galactic+weapon+showcase): DRG Weapon Showcase: Shard Diffractor.
 
 <a id="ref-xg-1107d7414300"></a>
 ## LOK-1 Smart Rifle (Deep Rock Galactic)
@@ -294,16 +297,18 @@ Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/w
 <a id="ref-xg-1a0c2e0505ef"></a>
 ## Hurricane Guided Rocket System (Deep Rock Galactic)
 
-Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/%22Hurricane%22_Guided_Rocket_System).
+Image: Weapon image from the named article infobox. [Source](https://deeprockgalactic.wiki.gg/wiki/%22Hurricane%22_Guided_Rocket_System).
 [Video: DEEP ROCK GALACTIC &#124; HURRICANE MISSILE LAUNCHER GAMEPLAY &#124; EXPERIMENTAL BUILD](https://www.youtube.com/watch?v=CjDJJey3k8w). Evidence: Item title and game context matched.
 [Reference](https://deeprockgalactic.wiki.gg/wiki/%22Hurricane%22_Guided_Rocket_System): &quot;Hurricane&quot; Guided Rocket System.
+[Reference](https://www.youtube.com/results?search_query=Hurricane+Guided+Rocket+System+Deep+Rock+Galactic+weapon+showcase): DEEP ROCK GALACTIC &#124; HURRICANE MISSILE LAUNCHER GAMEPLAY &#124; EXPERIMENTAL BUILD.
 
 <a id="ref-xg-7295a587f5fb"></a>
 ## Thunderhead Heavy Autocannon (Deep Rock Galactic)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=TnP8QWvf3Ys).
+Image: Weapon image from the named article infobox. [Source](https://deeprockgalactic.wiki.gg/wiki/%22Thunderhead%22_Heavy_Autocannon).
 [Video: Deep Rock Galactic - GAMEPLAY - Gunner - HAZARD 5 - HD - &quot;Thunderhead&quot; Heavy Autocannon Overclocked](https://www.youtube.com/watch?v=TnP8QWvf3Ys). Evidence: Item title and game context matched.
 [Reference](https://deeprockgalactic.wiki.gg/wiki/%22Thunderhead%22_Heavy_Autocannon): &quot;Thunderhead&quot; Heavy Autocannon.
+[Reference](https://www.youtube.com/results?search_query=Thunderhead+Heavy+Autocannon+Deep+Rock+Galactic+weapon+showcase): Deep Rock Galactic - GAMEPLAY - Gunner - HAZARD 5 - HD - &quot;Thunderhead&quot; Heavy Autocannon Overclocked.
 
 <a id="ref-xg-28bafc4548e3"></a>
 ## Cow Mangler 5000 (Team Fortress 2)
@@ -369,8 +374,10 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-6825d0f5526c"></a>
 ## Crusader's Crossbow (Team Fortress 2)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=lfZff2oDbR4).
-[Video: SHOWCASE - TF2 CRUSADER&#x27;S CROSSBOW Cosplay Prop!](https://www.youtube.com/watch?v=lfZff2oDbR4). Evidence: Item title and game context matched.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=nAM5zGKuNeY).
+[Video: TF2 &#124; The ULTIMATE Medic Primary (Crusader&#x27;s Crossbow) Guide!](https://www.youtube.com/watch?v=nAM5zGKuNeY). Evidence: Exact item and variant title/context checked.
+[Reference](https://www.youtube.com/watch?v=lfZff2oDbR4): SHOWCASE - TF2 CRUSADER&#x27;S CROSSBOW Cosplay Prop!.
+[Reference](https://www.youtube.com/results?search_query=Crusader%27s+Crossbow+Team+Fortress+2): TF2 &#124; The ULTIMATE Medic Primary (Crusader&#x27;s Crossbow) Guide!.
 
 <a id="ref-xg-600b9afeabc7"></a>
 ## Cyclone (Perfect Dark)
@@ -423,9 +430,10 @@ Image: Named weapon reference image. [Source](https://goldeneye.fandom.com/wiki/
 <a id="ref-xg-2f46fb45e6db"></a>
 ## Dispersion Pistol (Unreal)
 
-Image: Named weapon reference image. [Source](https://unreal.fandom.com/wiki/Dispersion_Pistol).
+Image: Weapon image from the named article infobox. [Source](https://unreal.fandom.com/wiki/Dispersion_Pistol).
 [Video: Unreal &quot;dispersion pistol&quot; grades (all)](https://www.youtube.com/watch?v=dFMx00Q9XfY). Evidence: Item title and game context matched.
 [Reference](https://unreal.fandom.com/wiki/Dispersion_Pistol): Dispersion Pistol.
+[Reference](https://www.youtube.com/results?search_query=Dispersion+Pistol+Unreal+weapon+showcase): Unreal &quot;dispersion pistol&quot; grades (all).
 
 <a id="ref-xg-9d4da5e8ba2f"></a>
 ## Razorjack (Unreal)
@@ -444,9 +452,10 @@ Image: Named weapon reference image. [Source](https://perfectdark.fandom.com/wik
 <a id="ref-xg-a5b818ff50f1"></a>
 ## Translocator (Unreal Tournament)
 
-Image: Named weapon reference image. [Source](https://unreal.fandom.com/wiki/Translocator).
+Image: Weapon image from the named article infobox. [Source](https://unreal.fandom.com/wiki/Translocator).
 [Video: Translocator is Overpowered [Unreal Tournament 1999 GOTY]](https://www.youtube.com/watch?v=yF2cd9crmF4). Evidence: Item title and game context matched.
 [Reference](https://unreal.fandom.com/wiki/Translocator): Translocator.
+[Reference](https://www.youtube.com/results?search_query=Translocator+Unreal+Tournament+weapon+showcase): Translocator is Overpowered [Unreal Tournament 1999 GOTY].
 
 <a id="ref-xg-1f1ba773fe75"></a>
 ## Spider Mine Layer (Unreal Tournament 2004)
@@ -1822,8 +1831,10 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-ff7f996611ea"></a>
 ## Roth-Steyr M1907 (Early automatics and strange handguns)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=6a0mjnQyhVI).
-[Video: Roth Steyr Developmental Models 1904 and 1906](https://www.youtube.com/watch?v=6a0mjnQyhVI). Evidence: Named historical item video.
+Image: Exact article lead photograph or weapon render. [Source](https://en.wikipedia.org/wiki/Roth%E2%80%93Steyr_M1907).
+[Video: Roth-Steyr 1907 Pistol](https://www.youtube.com/watch?v=baUTYMPsh9M). Evidence: Exact weapon video embedded in reviewed source.
+[Reference](https://www.youtube.com/watch?v=6a0mjnQyhVI): Roth Steyr Developmental Models 1904 and 1906.
+[Reference](https://www.forgottenweapons.com/roth-steyr-1907-pistol-video/): Roth-Steyr 1907 Pistol.
 
 <a id="ref-xh-bd7ea7b5f861"></a>
 ## Steyr M1912 (Early automatics and strange handguns)
@@ -1835,8 +1846,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-e9dd0d0d207c"></a>
 ## Hino-Komuro M1908 (Early automatics and strange handguns)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4V9WU2anetQ).
-[Video: The Japanese Hino-Komuro Pistol](https://www.youtube.com/watch?v=4V9WU2anetQ). Evidence: Named historical item video.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=4V9WU2anetQ).
+[Video: The Japanese Hino-Komuro Pistol](https://www.youtube.com/watch?v=4V9WU2anetQ). Evidence: Exact item and variant title/context checked.
+[Reference](https://www.youtube.com/results?search_query=Hino-Komuro+M1908+historical+firearm): The Japanese Hino-Komuro Pistol.
 
 <a id="ref-xh-b77f565942b7"></a>
 ## Frommer Stop (Early automatics and strange handguns)
@@ -1911,8 +1923,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-db94ebb2e2e6"></a>
 ## Nambu Type 14 (Early automatics and strange handguns)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SAzeo_VEC0E).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=SAzeo_VEC0E).
 [Video: How it Works: Japanese Nambu Type 14 Pistol](https://www.youtube.com/watch?v=SAzeo_VEC0E). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=Nambu+Type+14+historical+firearm+review): How it Works: Japanese Nambu Type 14 Pistol.
 
 <a id="ref-xh-4b1db2eeea11"></a>
 ## Cosmi shotgun (Rotating antiques and unconventional shotguns)
@@ -1949,10 +1962,12 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 [Reference](https://www.forgottenweapons.com/manville-gas-gun-video/): Manville Gas Gun Video.
 
 <a id="ref-xh-0bbd9c3a4a9c"></a>
-## Winchester Defender prototype (Rotating antiques and unconventional shotguns)
+## Colt Defender Mark I (Rotating antiques and unconventional shotguns)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=B0l6JEWWCtA).
-[Video: Firearm Review Winchester Defender 1300](https://www.youtube.com/watch?v=B0l6JEWWCtA). Evidence: Named historical item video.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=Rs6_qTgtR_s).
+[Video: Colt Defender Mark I (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=Rs6_qTgtR_s). Evidence: Exact item and variant title/context checked.
+[Reference](https://www.youtube.com/watch?v=B0l6JEWWCtA): Firearm Review Winchester Defender 1300.
+[Reference](https://www.youtube.com/results?search_query=Colt+Defender+Mark+I+historical+firearm): Colt Defender Mark I (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
 
 <a id="ref-xh-3ec5a51162f0"></a>
 ## High Standard Model 10 (Rotating antiques and unconventional shotguns)
@@ -2029,10 +2044,11 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 [Reference](https://www.forgottenweapons.com/shooting-the-mp35-germanys-left-handed-smg/): Shooting the MP35: Germany’s Left-Handed SMG.
 
 <a id="ref-xh-5cda1bf5092b"></a>
-## Hill H15 (Peculiar submachine guns and folding forms)
+## Hill H15 and H1952 prototypes (Peculiar submachine guns and folding forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IUVJLXwiUSg).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=IUVJLXwiUSg).
 [Video: Rare Weapons: The Hill H15 Model 1953](https://www.youtube.com/watch?v=IUVJLXwiUSg). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=Hill+H15+historical+firearm+review): Rare Weapons: The Hill H15 Model 1953.
 
 <a id="ref-xh-13e90fb30354"></a>
 ## Franchi LF-57 (Peculiar submachine guns and folding forms)
@@ -2044,8 +2060,10 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-6be605630472"></a>
 ## Armaguerra OG-43 (Peculiar submachine guns and folding forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=rd2BiLU-s6g).
-[Video: Armaguerra Last-Ditch M35 Pistol](https://www.youtube.com/watch?v=rd2BiLU-s6g). Evidence: Named historical item video.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=3mEcMwW1Iqo).
+[Video: &quot;Historically Accurate&quot; Armaguerra OG-43 &amp; Breda PG (Itra Burst) on Warzone Pacific PS5 Gameplay](https://www.youtube.com/watch?v=3mEcMwW1Iqo). Evidence: Exact item and variant title/context checked.
+[Reference](https://www.youtube.com/watch?v=rd2BiLU-s6g): Armaguerra Last-Ditch M35 Pistol.
+[Reference](https://www.youtube.com/results?search_query=Armaguerra+OG-43+historical+firearm): &quot;Historically Accurate&quot; Armaguerra OG-43 &amp; Breda PG (Itra Burst) on Warzone Pacific PS5 Gameplay.
 
 <a id="ref-xh-ce7b7ac57f59"></a>
 ## Welgun (Peculiar submachine guns and folding forms)
@@ -2060,11 +2078,13 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 [Video: The forgotten &quot;King&quot; of WW2 submachine guns - The 39M/43M Danuvia/Király](https://www.youtube.com/watch?v=ow0FhmNUTJw). Evidence: Named historical item video.
 
 <a id="ref-xh-2dd075c2318a"></a>
-## MP 40-II (Peculiar submachine guns and folding forms)
+## MP 40/I dual-magazine prototype (Peculiar submachine guns and folding forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Ovbma1TwFpA).
-[Video: Schmeisser MK-36,II - The Mechanics of the MP40](https://www.youtube.com/watch?v=Ovbma1TwFpA). Evidence: Video embedded in named historical source.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=p6dR3oZ0WbI).
+[Video: MP-40/I: The Dual-Magazine Experimental MP-40](https://www.youtube.com/watch?v=p6dR3oZ0WbI). Evidence: Exact weapon video embedded in reviewed source.
 [Reference](https://www.forgottenweapons.com/schmeisser-mk-36ii-the-mechanics-of-the-mp40/): Schmeisser MK-36,II – The Mechanics of the MP40.
+[Reference](https://www.youtube.com/watch?v=Ovbma1TwFpA): Schmeisser MK-36,II - The Mechanics of the MP40.
+[Reference](https://www.forgottenweapons.com/mp-40i-the-dual-magazine-experimental-mp-40/): MP-40/I: The Dual-Magazine Experimental MP-40.
 
 <a id="ref-xh-3285c25b61c1"></a>
 ## Furrer MP41/44 (Peculiar submachine guns and folding forms)
@@ -2083,9 +2103,11 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-cce520f1db78"></a>
 ## M3 Grease Gun (Peculiar submachine guns and folding forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=b2ZMpVyXiWQ).
-[Video: PAM-2: Argentina&#x27;s Improved 9mm Grease Gun](https://www.youtube.com/watch?v=b2ZMpVyXiWQ). Evidence: Video embedded in named historical source.
+Image: Exact article lead photograph or weapon render. [Source](https://en.wikipedia.org/wiki/M3_submachine_gun).
+[Video: Shooting the M3A1 Grease Gun](https://www.youtube.com/watch?v=3rKOdiHmKFc). Evidence: Exact item and variant title/context checked.
 [Reference](https://www.forgottenweapons.com/pam-2-argentinas-improved-9mm-grease-gun/): PAM-2: Argentina’s Improved 9mm Grease Gun.
+[Reference](https://www.youtube.com/watch?v=b2ZMpVyXiWQ): PAM-2: Argentina&#x27;s Improved 9mm Grease Gun.
+[Reference](https://www.youtube.com/results?search_query=M3+Grease+Gun+historical+firearm): Shooting the M3A1 Grease Gun.
 
 <a id="ref-xh-6e0d22c7c595"></a>
 ## TKB-059 (Cold War and experimental layouts)
@@ -2126,8 +2148,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-a98a8745a4e1"></a>
 ## TKB-0146 (Cold War and experimental layouts)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=yP8yqADdsPA).
+Image: Exact article lead photograph or weapon render. [Source](https://en.wikipedia.org/wiki/TKB-0146).
 [Video: TKB 0146 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=yP8yqADdsPA). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=TKB-0146+historical+firearm+review): TKB 0146 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
 
 <a id="ref-xh-890f1c20e58a"></a>
 ## SPP-1 underwater pistol (Cold War and experimental layouts)
@@ -2138,8 +2161,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-aa70a7dcd45e"></a>
 ## Benelli CB-M2 (Cold War and experimental layouts)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=r7fY9buH6go).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=r7fY9buH6go).
 [Video: Benelli CB M2 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=r7fY9buH6go). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=Benelli+CB-M2+historical+firearm+review): Benelli CB M2 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
 
 <a id="ref-xh-793fce753247"></a>
 ## Steyr GB (Cold War and experimental layouts)
@@ -2163,8 +2187,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-ed5b43c143db"></a>
 ## Voere VEC-91 (Cold War and experimental layouts)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4_4ghuJf-3I).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=4_4ghuJf-3I).
 [Video: Detailed view of the Voere VEC 91 (Caseless Ammunition)](https://www.youtube.com/watch?v=4_4ghuJf-3I). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=Voere+VEC-91+historical+firearm+review): Detailed view of the Voere VEC 91 (Caseless Ammunition).
 
 <a id="ref-xh-6570ad935c09"></a>
 ## DShK (Oversized and eccentric modern forms)
@@ -2196,17 +2221,20 @@ Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/PTRS
 <a id="ref-xh-f5392fb42ece"></a>
 ## Solothurn S-18/1000 (Oversized and eccentric modern forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SOfJrVDB9t0).
-[Video: Solothurn 20mm S18-1000 Wheeled Carriage](https://www.youtube.com/watch?v=SOfJrVDB9t0). Evidence: Video embedded in named historical source.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=AqsgC_ifo7w).
+[Video: Shooting a Solothurn S18/1000](https://www.youtube.com/watch?v=AqsgC_ifo7w). Evidence: Exact item and variant title/context checked.
 [Reference](https://en.wikipedia.org/wiki/Solothurn_S-18/1000): Solothurn S-18/1000.
 [Reference](https://www.forgottenweapons.com/solothurn-20mm-s18-100-wheeled-carriage/): Solothurn 20mm S18-1000 Wheeled Carriage.
+[Reference](https://www.youtube.com/watch?v=SOfJrVDB9t0): Solothurn 20mm S18-1000 Wheeled Carriage.
+[Reference](https://www.youtube.com/results?search_query=Solothurn+S-18%2F1000+historical+firearm): Shooting a Solothurn S18/1000.
 
 <a id="ref-xh-b01670d76474"></a>
 ## GM6 Lynx (Oversized and eccentric modern forms)
 
-Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Gep%C3%A1rd_anti-materiel_rifle).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=cyx7TrZq_xI).
 [Video: GM6 Lynx .50 BMG Bullpup at the Range](https://www.youtube.com/watch?v=cyx7TrZq_xI). Evidence: Video embedded in named historical source.
 [Reference](https://en.wikipedia.org/wiki/Gep%C3%A1rd_anti-materiel_rifle): Gepárd anti-materiel rifle.
+[Reference](https://www.forgottenweapons.com/gm6-lynx-50-bmg-bullpup-at-the-range/): GM6 Lynx .50 BMG Bullpup at the Range.
 [Reference](https://www.forgottenweapons.com/gm6-lynx-50-bmg-bullpup-at-the-range/): GM6 Lynx .50 BMG Bullpup at the Range.
 
 <a id="ref-xh-1d30ff8cd9bc"></a>
@@ -2228,14 +2256,16 @@ Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Neop
 <a id="ref-xh-0c8f8290ffa2"></a>
 ## QLZ-87 (Oversized and eccentric modern forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=pWSXP6RzDLI).
+Image: Exact article lead photograph or weapon render. [Source](https://en.wikipedia.org/wiki/QLZ-87).
 [Video: QLZ 87 grenade launcher (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=pWSXP6RzDLI). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=QLZ-87+historical+firearm+review): QLZ 87 grenade launcher (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
 
 <a id="ref-xh-1b7777b1c0c3"></a>
 ## XM307 ACSW (Oversized and eccentric modern forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=DHEnCDbisko).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=DHEnCDbisko).
 [Video: XM307 Advanced Crew Served Weapon (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=DHEnCDbisko). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=XM307+ACSW+historical+firearm+review): XM307 Advanced Crew Served Weapon (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅.
 
 <a id="ref-xh-c6e4cc8d9165"></a>
 ## GM-94 (Oversized and eccentric modern forms)
@@ -2279,8 +2309,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-cfb50ce81b80"></a>
 ## Kel-Tec CP33 (Oversized and eccentric modern forms)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=78js3IZSX8o).
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=78js3IZSX8o).
 [Video: KELTEC CP33 REVIEW](https://www.youtube.com/watch?v=78js3IZSX8o). Evidence: Named historical item video.
+[Reference](https://www.youtube.com/results?search_query=Kel-Tec+CP33+historical+firearm+review): KELTEC CP33 REVIEW.
 
 <a id="ref-xh-6608947f5917"></a>
 ## Auto Mag pistol (Oversized and eccentric modern forms)
@@ -2332,9 +2363,11 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xh-0cc252483bdd"></a>
 ## Dreyse needle gun (Antique mechanical curiosities)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=XTjni267QJ0).
-[Video: Book Review: The Dreyse Military Needle-Ignition System](https://www.youtube.com/watch?v=XTjni267QJ0). Evidence: Video embedded in named historical source.
+Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=jlu9qOTKRU4).
+[Video: A Mad Minute with the Dreyse Zündnadelgewehr (Prussian Needle Rifle)](https://www.youtube.com/watch?v=jlu9qOTKRU4). Evidence: Exact item and variant title/context checked.
 [Reference](https://www.forgottenweapons.com/book-review-the-dreyse-military-needle-ignition-system/): Book Review: The Dreyse Military Needle-Ignition System.
+[Reference](https://www.youtube.com/watch?v=XTjni267QJ0): Book Review: The Dreyse Military Needle-Ignition System.
+[Reference](https://www.youtube.com/results?search_query=Dreyse+needle+gun+historical+firearm): A Mad Minute with the Dreyse Zündnadelgewehr (Prussian Needle Rifle).
 
 <a id="ref-xh-325db073eb59"></a>
 ## Sharps four-barrel derringer (Antique mechanical curiosities)
