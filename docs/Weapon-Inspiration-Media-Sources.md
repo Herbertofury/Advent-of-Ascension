@@ -937,7 +937,7 @@ Image type: Catalog weapon reference image. [Image source](https://www.gamespot.
 <a id="ref-defedb1566cc"></a>
 ## Stuffed Quadamizer (Borderlands 3)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=16A84CA7yuM&t=2359s).
+Image type: Named weapon image from exact source page. [Image source](https://borderlands.fandom.com/wiki/Quadomizer).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=2359s). Match: Chapter matched.
 
 <a id="ref-0f7626e76ade"></a>
@@ -1195,7 +1195,7 @@ Image type: Weapon-specific image; file identity checked. [Image source](https:/
 <a id="ref-1f8a8d2d06cb"></a>
 ## Glove of Doom (Ratchet & Clank: Rift Apart)
 
-Image type: Weapon-specific image; file identity checked. [Image source](https://ratchetandclank.fandom.com/wiki/Glove_of_Doom).
+Image type: Named weapon image from exact source page. [Image source](https://ratchetandclank.fandom.com/wiki/Glove_of_Doom).
 [Video: Ratchet and Clank Rift Apart: ALL WEAPONS MAXED OUT Gameplay (All OMEGA Variants with Raritarium)](https://www.youtube.com/watch?v=QItIzaqUcGk&t=602s). Match: Chapter matched.
 
 <a id="ref-c36efdeb7701"></a>
@@ -1291,7 +1291,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-c8cfb49ca2da"></a>
 ## Turret Copters (Sunset Overdrive)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=mF-HD9Us0SU).
+Image type: Named weapon image from exact source page. [Image source](https://sunsetoverdrive.fandom.com/wiki/Turret_Copter).
 [Video: Sunset Overdrive Episode 22- Pyro Geysers, Vats and Turret Copters](https://www.youtube.com/watch?v=mF-HD9Us0SU). Match: Item title matched.
 
 <a id="ref-d313f98762c5"></a>
@@ -1429,7 +1429,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-1a72e2da8eeb"></a>
 ## Conference Call (Borderlands 3)
 
-Image type: Weapon-specific image; file identity checked. [Image source](https://borderlands.fandom.com/wiki/Conference_Call).
+Image type: Named weapon image from exact source page. [Image source](https://borderlands.fandom.com/wiki/Conference_Call_%28Borderlands_3%29).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=576s). Match: Chapter matched.
 
 <a id="ref-d086a7587857"></a>
@@ -1441,7 +1441,7 @@ Image type: Item-focused video preview; title and game checked. [Image source](h
 <a id="ref-08bf86ec43ad"></a>
 ## Flakker (Borderlands 3)
 
-Image type: Weapon-specific image; file identity checked. [Image source](https://borderlands.fandom.com/wiki/Flakker).
+Image type: Named weapon image from exact source page. [Image source](https://borderlands.fandom.com/wiki/Flakker_%28Borderlands_3%29).
 [Video: Borderlands 3 - All Legendary Weapons in 58 minutes](https://www.youtube.com/watch?v=16A84CA7yuM&t=972s). Match: Chapter matched.
 
 <a id="ref-69824a9318da"></a>
@@ -1621,7 +1621,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-13bc6873d039"></a>
 ## Pyro Geyser (Sunset Overdrive)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=mF-HD9Us0SU).
+Image type: Named weapon image from exact source page. [Image source](https://sunsetoverdrive.fandom.com/wiki/Pyro_Geyser).
 [Video: Sunset Overdrive Episode 22- Pyro Geysers, Vats and Turret Copters](https://www.youtube.com/watch?v=mF-HD9Us0SU). Match: Item title matched.
 
 <a id="ref-856ac76bf307"></a>
@@ -3539,19 +3539,19 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-334058a1e120"></a>
 ## Shield Saw (DOOM: The Dark Ages)
 
-Image type: Item-focused video preview; title and game checked. [Image source](https://www.youtube.com/watch?v=9PvIwmkRjqI).
+Image type: Named weapon image from exact source page. [Image source](https://doom.fandom.com/wiki/Shield_Saw).
 [Video: Doom: The Dark Ages - BEST Weapon Upgrades to Get First](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=43s). Match: Chapter matched.
 
 <a id="ref-8c18eb6d8c1e"></a>
 ## Combat Shotgun - Incendiary (DOOM: The Dark Ages)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=59s).
+Image type: Weapon screenshot from named article section. [Image source](https://beebom.com/doom-the-dark-ages-weapons/).
 [Video: Doom: The Dark Ages - BEST Weapon Upgrades to Get First](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=59s). Match: Chapter matched.
 
 <a id="ref-c27ad272be79"></a>
 ## Shredder - Pincushion (DOOM: The Dark Ages)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=78s).
+Image type: Named weapon image from exact source page. [Image source](https://doom.fandom.com/wiki/Shredder).
 [Video: Doom: The Dark Ages - BEST Weapon Upgrades to Get First](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=78s). Match: Chapter matched.
 
 <a id="ref-c43ba055cd45"></a>
@@ -3563,7 +3563,7 @@ Image type: Item-focused video preview; title and game checked. [Image source](h
 <a id="ref-6e346527298c"></a>
 ## Rocket Launcher - Cannibalism (DOOM: The Dark Ages)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=153s).
+Image type: Weapon screenshot from named article section. [Image source](https://beebom.com/doom-the-dark-ages-weapons/).
 [Video: Doom: The Dark Ages - BEST Weapon Upgrades to Get First](https://www.youtube.com/watch?v=g0jqqCcRVvU&t=153s). Match: Chapter matched.
 
 <a id="ref-892f75540089"></a>
@@ -4871,7 +4871,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-e6a2d0837146"></a>
 ## Barn Blaster (Earthworm Jim 2)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=NF_-XrcNu78).
+Image type: Named weapon image from exact source page. [Image source](https://earthwormjim.fandom.com/wiki/Barn_Blaster).
 [Video: SNES Earthworm Jim 2 Barn Blaster](https://www.youtube.com/watch?v=NF_-XrcNu78). Match: Item title matched.
 
 <a id="ref-g-1a31646966c1"></a>
