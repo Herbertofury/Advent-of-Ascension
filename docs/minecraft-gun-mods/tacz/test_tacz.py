@@ -15,7 +15,7 @@ def run(url,out):
   exe=shutil.which('chromium') or shutil.which('google-chrome') or shutil.which('chromium-browser');options={'headless':True,'args':['--no-sandbox','--disable-dev-shm-usage']}
   if exe:options['executable_path']=exe
   browser=pw.chromium.launch(**options);context=browser.new_context(viewport={'width':1440,'height':1000},accept_downloads=True);page=context.new_page();page.on('pageerror',lambda e:report['errors'].append(str(e)))
-  t=time.monotonic();page.goto(url,wait_until='domcontentloaded');page.wait_for_function('window.ATLAS_TEST');report['metrics']['initialDOMms']=round((time.monotonic()-t)*1000);report['metrics']['renderMs']=page.evaluate('ATLAS_TEST.renderMs')
+  t=time.monotonic();page.goto(url,wait_until='domcontentloaded');page.wait_for_function('window.ATLAS_TEST');page.screenshot(path=str(out/'initial-desktop.png'));report['metrics']['initialDOMms']=round((time.monotonic()-t)*1000);report['metrics']['renderMs']=page.evaluate('ATLAS_TEST.renderMs')
   check('actual tested dataset identity',page.evaluate('GUN_ATLAS.build.dataHash')==data['build']['dataHash'])
   check('all gunpack families rendered',page.locator('.project-card').count()==len(items))
   check('dedicated page title and original atlas navigation','TaCZ' in page.title() and page.locator('nav a[href="../"]').count()==1)
@@ -40,13 +40,13 @@ def run(url,out):
   check('quoted search preserves exact phrase references',set(found)==expected and fid in found,{'actual':found,'expected':sorted(expected)})
   page.locator('#search').fill('id:'+fid);page.wait_for_timeout(200);check('exact project identity search',page.locator('.project-card').count()==1 and page.locator('.project-card').get_attribute('data-project')==fid)
   page.locator('.project-card .favorite').click();check('favorite saved',fid in page.evaluate('ATLAS_TEST.favorites'))
-  page.locator('[data-action="detail"][data-id="'+fid+'"]').click()
+  page.locator('.project-card [data-action="detail"][data-id="'+fid+'"]').click()
   check('exact source metrics in detail',str(first['metrics']['downloads']) in page.locator('.metric-evidence').inner_text().replace(',',''))
   check('source metrics not mislabeled ratings','not a quality score' in page.locator('.metric-evidence').inner_text())
   page.locator('[data-rate="'+fid+'"][data-value="5"]').click();check('private rating saved',page.evaluate('(k)=>JSON.parse(localStorage.getItem(k)).ratings',KEY).get(fid)==5)
   page.locator('#projectNotes').fill('TaCZ QA: retain this original note.');page.locator('[data-close="detailDialog"]').click();page.reload(wait_until='domcontentloaded');page.wait_for_function('window.ATLAS_TEST')
   check('favorite survives restart',fid in page.evaluate('ATLAS_TEST.favorites'))
-  page.locator('[data-action="detail"][data-id="'+fid+'"]').click();check('note survives restart',page.locator('#projectNotes').input_value()=='TaCZ QA: retain this original note.');check('private rating survives restart',page.locator('[data-value="5"]').get_attribute('aria-pressed')=='true')
+  page.locator('.project-card [data-action="detail"][data-id="'+fid+'"]').click();check('note survives restart',page.locator('#projectNotes').input_value()=='TaCZ QA: retain this original note.');check('private rating survives restart',page.locator('[data-value="5"]').get_attribute('aria-pressed')=='true')
   check('official navigation exact',page.locator('#detailDialog .main-link').get_attribute('href')==first['projectUrl']);page.locator('[data-close="detailDialog"]').click();page.locator('#resetFilters').click()
   page.locator('[data-ranking="rating"]').click();check('own rating sorted first',page.locator('.project-card').first.get_attribute('data-project')==fid)
   for view,selector in [('table','.project-table tbody tr'),('gallery','.project-card'),('cards','.project-card')]:
@@ -84,7 +84,7 @@ def run(url,out):
   page.evaluate("()=>document.querySelectorAll('.project-card img').forEach(i=>i.loading='eager')")
   page.wait_for_function("()=>[...document.querySelectorAll('.project-card img')].every(i=>i.complete)",timeout=180000)
   images=page.locator('.project-card img').evaluate_all('(a)=>({count:a.length,broken:a.filter(x=>!x.naturalWidth).map(x=>x.alt)})');check('all source card images decode',not images['broken'],images)
-  many=next(x for x in items if len(x['media'])>1);page.evaluate('(id)=>document.querySelector(`[data-project="${id}"] [data-action="gallery"]`).click()',many['id']);check('gallery opens with exact image attribution',page.locator('#lightbox').evaluate('(x)=>x.open') and page.locator('#lightbox a').count()>0);page.keyboard.press('ArrowRight');page.keyboard.press('Escape')
+  many=next(x for x in items if x.get('preferredMediaSha256') and len(x['media'])>1);page.evaluate('(id)=>document.querySelector(`[data-project="${id}"] [data-action="gallery"]`).click()',many['id']);check('gallery opens with exact image attribution',page.locator('#lightbox').evaluate('(x)=>x.open') and page.locator('#lightbox a').count()>0);check('gallery starts with the exact reviewed card preview',page.locator('#lightboxContent .lightbox-stage img').get_attribute('src')==next(m['src'] for m in many['media'] if m['sha256']==many['preferredMediaSha256']));page.keyboard.press('ArrowRight');page.keyboard.press('Escape')
   page.locator('.library').scroll_into_view_if_needed();page.screenshot(path=str(out/'desktop-rankings.png'))
   page.set_viewport_size({'width':390,'height':844});page.locator('.library').scroll_into_view_if_needed();check('mobile no unintended overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'));page.locator('#mobileFilters').click();check('mobile filters accessible',page.locator('#filters').is_visible());page.locator('#mobileFilters').click();page.screenshot(path=str(out/'mobile.png'))
   page.locator('#search').fill('no-result-tacz-qqqxyz');page.wait_for_timeout(200);check('empty state recovery',page.locator('#empty').is_visible());page.locator('#emptyReset').click()
