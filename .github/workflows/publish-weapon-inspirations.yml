@@ -1,0 +1,87 @@
+name: Publish weapon inspiration Wiki pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-weapon-inspirations.yml'
+      - 'docs/Historical-and-Experimental-Gun-Inspirations.md'
+      - 'docs/Video-Game-Weapon-Inspirations.md'
+      - 'docs/weapon-inspirations/**'
+permissions:
+  contents: write
+concurrency:
+  group: weapon-inspirations-wiki
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Fetch only the requested inspiration pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p source
+          for page in Historical-and-Experimental-Gun-Inspirations Video-Game-Weapon-Inspirations; do
+            if gh api "repos/${GITHUB_REPOSITORY}/contents/docs/${page}.md?ref=${GITHUB_SHA}" --jq .content > source/encoded.txt 2> source/fetch-error.txt; then
+              base64 --decode source/encoded.txt > "source/${page}.md"
+              test -s "source/${page}.md"
+            elif [ "$page" = "Historical-and-Experimental-Gun-Inspirations" ]; then
+              cat source/fetch-error.txt
+              exit 1
+            fi
+          done
+          rm -f source/encoded.txt source/fetch-error.txt
+      - name: Publish into the separate Wiki Git repository
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/weapon-wiki-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$WIKI_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          cp source/*.md wiki/
+          python3 - <<'PY'
+          from pathlib import Path
+          root = Path('wiki')
+          pages = [('Video-Game-Weapon-Inspirations', 'Video-game weapon inspirations'), ('Historical-and-Experimental-Gun-Inspirations', 'Historical and experimental gun inspirations')]
+          links = '\n'.join(f'- [{label}]({slug})' for slug, label in pages if (root / (slug + '.md')).exists())
+          block = '<!-- weapon-inspirations:start -->\n## Weapon inspirations\n\n' + links + '\n<!-- weapon-inspirations:end -->'
+          for name in ['Home.md', '_Sidebar.md', 'Weapon-Reference-Library.md']:
+              target = root / name
+              if name == 'Weapon-Reference-Library.md' and not target.exists():
+                  continue
+              text = target.read_text(encoding='utf-8') if target.exists() else ''
+              start, end = '<!-- weapon-inspirations:start -->', '<!-- weapon-inspirations:end -->'
+              if start in text and end in text:
+                  a = text.index(start); b = text.index(end, a) + len(end)
+                  text = text[:a] + block + text[b:]
+              else:
+                  text = text.rstrip() + '\n\n' + block + '\n'
+              target.write_text(text, encoding='utf-8')
+          PY
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish weapon inspiration pages from ${GITHUB_SHA}"
+            git push origin HEAD
+          fi
+          echo "WIKI_COMMIT=$(git rev-parse HEAD)"
+          sha256sum Historical-and-Experimental-Gun-Inspirations.md
+          if [ -f Video-Game-Weapon-Inspirations.md ]; then sha256sum Video-Game-Weapon-Inspirations.md; fi
+          git ls-remote origin HEAD
+      - name: Verify published page bytes through the public Wiki
+        run: |
+          set -euo pipefail
+          for path in source/*.md; do
+            page="$(basename "$path")"
+            curl --fail --location --retry 3 --retry-delay 3 "https://raw.githubusercontent.com/wiki/${GITHUB_REPOSITORY}/${page}" --output "published-${page}"
+            cmp "$path" "published-${page}"
+            echo "Verified https://github.com/${GITHUB_REPOSITORY}/wiki/${page%.md}"
+          done
