@@ -58,7 +58,7 @@ jobs:
           fi
           echo "WIKI_COMMIT=$(git rev-parse HEAD)"
           sha256sum Historical-and-Experimental-Gun-Inspirations.md
-          if [ -f Video-Game-Weapon-Inspirations.md ]; then sha256sum Video-GameWeapon-Inspirations.md 2>/dev/null || sha256sum Video-Game-Weapon-Inspirations.md; fi
+          if [ -f Video-Game-Weapon-Inspirations.md ]; then sha256sum Video-Game-Weapon-Inspirations.md; fi
           git ls-remote origin HEAD
       - name: Verify published page bytes through the public Wiki
         run: |
