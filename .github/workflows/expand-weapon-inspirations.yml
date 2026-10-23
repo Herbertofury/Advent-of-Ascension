@@ -1,0 +1,73 @@
+name: Expand weapon inspiration research
+on:
+  workflow_dispatch:
+    inputs:
+      retry_unresolved:
+        description: Retry only unresolved candidates after a source or resolver change
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/expand-weapon-inspirations.yml'
+      - 'docs/weapon-inspirations/expand_research.py'
+      - 'docs/weapon-inspirations/expansion-2026-10-23/candidates-*.tsv'
+permissions:
+  contents: write
+concurrency:
+  group: expand-weapon-inspiration-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Open current scoped catalog without resetting completed batches
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/research-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$WIKI_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/weapon-inspirations/\n/docs/*Weapon-Inspiration*.md\n/docs/Historical-and-Experimental-Gun-Inspirations.md\n' > .git/info/sparse-checkout
+          git checkout main
+          printf '\n__pycache__/\n*.pyc\ndocs/weapon-inspirations/expansion-2026-10-23/qa/\n' >> .git/info/exclude
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          echo "RESEARCH_BASE=$(git rev-parse HEAD)"
+      - name: Research, archive images, and publish qualified batches
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+          RETRY_UNRESOLVED: ${{ inputs.retry_unresolved }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/research-askpass.sh" GIT_TERMINAL_PROMPT=0
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then
+            python3 -m playwright install --with-deps chromium
+          fi
+          cd source
+          python3 -m py_compile docs/weapon-inspirations/expand_research.py
+          if [ "$RETRY_UNRESOLVED" = 'true' ]; then
+            python3 -u docs/weapon-inspirations/expand_research.py --remote --retry-unresolved
+          else
+            python3 -u docs/weapon-inspirations/expand_research.py --remote
+          fi
+      - name: Preserve all original and expanded research, media, and verification
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: aoa-expanded-weapon-inspirations
+          path: |
+            source/docs/weapon-inspirations/
+            source/docs/*Weapon-Inspiration*.md
+            source/docs/Historical-and-Experimental-Gun-Inspirations.md
+            !source/docs/weapon-inspirations/__pycache__/**
+          retention-days: 30
+          compression-level: 6
+          if-no-files-found: error
