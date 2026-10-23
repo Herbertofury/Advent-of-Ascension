@@ -3206,7 +3206,7 @@ Image type: Catalog weapon reference image. [Image source](https://callofduty.fa
 <a id="ref-efdee63eed52"></a>
 ## De-animator (Call of Duty: Black Ops 7)
 
-Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=YCWYINZIEIg).
+Image type: Publisher weapon image; exact asset sat_sh_corso_roadgate. [Image source](https://www.callofduty.com/my/en/store/bundles/5880).
 [Video: Dead Wrangler Reactive Tracer Pack Zombies Store Preview (4K HDR) &#124; BO7 Wonder Weapon Bundle](https://www.youtube.com/watch?v=YCWYINZIEIg). Match: Named bundle collection showcase; publisher/source identifies this weapon.
 
 <a id="ref-d752f68db253"></a>
@@ -4721,7 +4721,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-d34df9b0ab37"></a>
 ## Winterizer (Ratchet & Clank: Into the Nexus)
 
-Image type: Named weapon gameplay screenshot; source caption checked. [Image source](https://www.gamespot.com/reviews/ratchet-clank-into-the-nexus-review/1900-6415538/).
+Image type: Named weapon render from reference gallery. [Image source](https://ratchet-galaxy.com/en/games/ps3/ratchet-and-clank-into-the-nexus/inventory/weapons/winterizer).
 [Video: Ratchet and Clank: Into the Nexus - Choose Your Weapon](https://www.youtube.com/watch?v=DBx7g6pmwPE). Match: Official weapons collection showcase; developer explicitly identifies Winterizer.
 
 <a id="ref-g-222a7a980227"></a>
@@ -5075,7 +5075,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-7b0c8490ee99"></a>
 ## World's Smallest Black Hole (Armed and Dangerous)
 
-Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=dt9rWEi51TA).
+Image type: Weapon-effect gameplay still; visually verified. [Image source](https://www.youtube.com/watch?v=dt9rWEi51TA).
 [Video: Armed and Dangerous - Black Hole](https://www.youtube.com/watch?v=dt9rWEi51TA). Match: Item and exact game context reviewed.
 
 <a id="ref-g-ea635cd164e1"></a>
