@@ -41,46 +41,61 @@ jobs:
       - name: Fetch only unresolved public creator evidence
         run: |
           set -euo pipefail
-          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright pyyaml
           python3 source/docs/minecraft-gun-mods/creator-discoveries/collect_creator.py
-      - name: Apply catalog and permanent publisher fixes when staged
+      - name: Apply catalog and permanent publisher fixes
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/creator-askpass.sh" GIT_TERMINAL_PROMPT=0
           git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki-preview
-          if [ -f source/docs/minecraft-gun-mods/creator-discoveries/build_update.py ]; then
-            python3 source/docs/minecraft-gun-mods/creator-discoveries/build_update.py --wiki wiki-preview
-          else
-            python3 source/docs/weapon_inspiration_navigation.py wiki-preview --report source/docs/minecraft-gun-mods/creator-discoveries/qa/navigation-proof.json
-          fi
-      - name: Checkpoint source before browser gates
+          python3 source/docs/minecraft-gun-mods/creator-discoveries/finalize_update.py --wiki wiki-preview
+      - name: Checkpoint content before browser gates
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/creator-askpass.sh" GIT_TERMINAL_PROMPT=0
           cd source
+          test -z "$(git diff --name-only -- .github/workflows)"
           git add docs/minecraft-gun-mods/creator-discoveries ':!docs/minecraft-gun-mods/creator-discoveries/cache' ':!docs/minecraft-gun-mods/creator-discoveries/__pycache__'
-          if [ -f docs/minecraft-gun-mods/creator-discoveries/build_update.py ]; then
-            git add docs/minecraft-gun-mods/catalog.json docs/minecraft-gun-mods/catalog.js docs/minecraft-gun-mods/app.js docs/minecraft-gun-mods/app.css docs/minecraft-gun-mods/index.html docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/wiki-manifest.json
-            git add docs/minecraft-gun-mods/tacz/*.json docs/minecraft-gun-mods/tacz/*.js docs/minecraft-gun-mods/tacz/*.css docs/minecraft-gun-mods/tacz/*.html docs/minecraft-gun-mods/tacz/*.py
-            git add docs/Minecraft-Gun*.md docs/TaCZ-Gunpack*.md docs/Weapon-Inspirations.md docs/Weapon-Reference-Library.md docs/weapon_inspiration_navigation.py
-            git add .github/workflows docs/weapon-inspirations
-          fi
+          git add docs/minecraft-gun-mods/catalog.json docs/minecraft-gun-mods/catalog.js docs/minecraft-gun-mods/app.js docs/minecraft-gun-mods/app.css docs/minecraft-gun-mods/index.html docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/wiki-manifest.json
+          git add docs/minecraft-gun-mods/tacz/*.json docs/minecraft-gun-mods/tacz/*.js docs/minecraft-gun-mods/tacz/*.css docs/minecraft-gun-mods/tacz/*.html docs/minecraft-gun-mods/tacz/*.py
+          git add docs/Minecraft-Gun*.md docs/TaCZ-Gunpack*.md docs/Weapon-Inspirations.md docs/Weapon-Reference-Library.md docs/weapon_inspiration_navigation.py docs/weapon-inspirations
+          python3 - <<'PY'
+          import subprocess,yaml,json,fnmatch
+          from pathlib import Path
+          changed=subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines();matches=[]
+          for path in Path('.github/workflows').glob('*.yml'):
+              doc=yaml.safe_load(path.read_text());events=doc.get('on',doc.get(True,{})) or {};push=events.get('push') or {}
+              if not isinstance(push,dict): continue
+              patterns=push.get('paths',[])
+              hits=[name for name in changed if any(fnmatch.fnmatch(name,p) for p in patterns)]
+              if hits:matches.append({'workflow':path.name,'matchedChangedPaths':hits})
+          Path('docs/minecraft-gun-mods/creator-discoveries/qa/trigger-impact.json').write_text(json.dumps(matches,indent=2))
+          print(json.dumps(matches,indent=2))
+          PY
+          git add docs/minecraft-gun-mods/creator-discoveries/qa/trigger-impact.json
           if ! git diff --cached --quiet; then git commit -m 'Qualify creator-hosted gun discoveries and consolidate weapon navigation'; fi
           git push origin HEAD:weapon-inspiration-cleanup
           git rev-parse HEAD > docs/minecraft-gun-mods/creator-discoveries/qa/source-commit.txt
       - name: Verify changed workflows and both real-data explorers
         run: |
           set -euo pipefail
-          if [ -f source/docs/minecraft-gun-mods/creator-discoveries/test_update.py ]; then
-            if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
-            python3 source/docs/minecraft-gun-mods/creator-discoveries/test_update.py --wiki wiki-preview
-            python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/atlas
-            python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/tacz
-          fi
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/creator-discoveries/test_update.py --wiki wiki-preview
+          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/atlas
+          python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/tacz
+      - name: Persist exact browser acceptance
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/creator-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/creator-discoveries/qa/targeted/report.json docs/minecraft-gun-mods/creator-discoveries/qa/atlas/browser-report.json docs/minecraft-gun-mods/creator-discoveries/qa/tacz/browser-report.json docs/minecraft-gun-mods/creator-discoveries/qa/source-commit.txt
+          if ! git diff --cached --quiet; then git commit -m 'Verify creator filters, access labels, navigation and preserved collection tools'; git push origin HEAD:weapon-inspiration-cleanup; fi
       - name: Preserve source evidence and visual acceptance
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
