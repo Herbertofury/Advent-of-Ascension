@@ -1,12 +1,20 @@
 # Video-game weapon inspirations: new discoveries
 
-**201 additional references | 39 game collections | Embedded images and direct videos**
+**236 additional references | 55 game collections | Embedded images and direct videos**
 
 [Original gaming gallery](Video-Game-Weapon-Inspirations) | [Historical gallery](Historical-and-Experimental-Gun-Inspirations) | [New source records](Weapon-Inspiration-Media-Sources-Expansion)
 
 These are additional discoveries beyond the original 892 gaming references. Every entry has a locally archived, embedded source image or explicitly labeled item-video preview and a direct video link. AoA remix ideas are proposals, not implemented features. Video titles and source identity are checked; full end-to-end video viewing is not claimed.
 
-[Borderlands 2 (9)](#new-borderlands-2) | [Borderlands 3 (16)](#new-borderlands-3) | [Cyberpunk 2077 (5)](#new-cyberpunk-2077) | [Cyberpunk 2077: Phantom Liberty (3)](#new-cyberpunk-2077-phantom-liberty) | [Deep Rock Galactic (11)](#new-deep-rock-galactic) | [Destiny 2 (19)](#new-destiny-2) | [Enter the Gungeon (28)](#new-enter-the-gungeon) | [Fallout 3 (6)](#new-fallout-3) | [Fallout 3: Mothership Zeta (1)](#new-fallout-3-mothership-zeta) | [Fallout 3: Point Lookout (1)](#new-fallout-3-point-lookout) | [Fallout 4 (5)](#new-fallout-4) | [Fallout 4: Automatron (1)](#new-fallout-4-automatron) | [Fallout 4: Nuka-World (1)](#new-fallout-4-nuka-world) | [Fallout 76 (4)](#new-fallout-76) | [Fallout: New Vegas (2)](#new-fallout-new-vegas) | [Fallout: New Vegas - Dead Money (1)](#new-fallout-new-vegas-dead-money) | [Fallout: New Vegas - Lonesome Road (2)](#new-fallout-new-vegas-lonesome-road) | [Fallout: New Vegas - Old World Blues (3)](#new-fallout-new-vegas-old-world-blues) | [GoldenEye 007 (1)](#new-goldeneye-007) | [Half-Life: Opposing Force (5)](#new-half-life-opposing-force) | [Nuclear Throne (7)](#new-nuclear-throne) | [Perfect Dark (5)](#new-perfect-dark) | [Prey (2017) (2)](#new-prey-2017) | [Ratchet &amp; Clank (1)](#new-ratchet-clank) | [Ratchet &amp; Clank: A Crack in Time (5)](#new-ratchet-clank-a-crack-in-time) | [Ratchet &amp; Clank: All 4 One (1)](#new-ratchet-clank-all-4-one) | [Ratchet &amp; Clank: Going Commando (3)](#new-ratchet-clank-going-commando) | [Ratchet &amp; Clank: Rift Apart (2)](#new-ratchet-clank-rift-apart) | [Ratchet &amp; Clank: Tools of Destruction (1)](#new-ratchet-clank-tools-of-destruction) | [Ratchet &amp; Clank: Up Your Arsenal (1)](#new-ratchet-clank-up-your-arsenal) | [Red Faction: Armageddon (1)](#new-red-faction-armageddon) | [Resistance 3 (1)](#new-resistance-3) | [Team Fortress 2 (10)](#new-team-fortress-2) | [Terraria (10)](#new-terraria) | [Tiny Tina&#x27;s Wonderlands (4)](#new-tiny-tina-s-wonderlands) | [Unreal (2)](#new-unreal) | [Unreal Tournament (1)](#new-unreal-tournament) | [Unreal Tournament 2004 (2)](#new-unreal-tournament-2004) | [Warframe (18)](#new-warframe)
+[Atomic Heart (2)](#new-atomic-heart) | [Borderlands 2 (9)](#new-borderlands-2) | [Borderlands 3 (16)](#new-borderlands-3) | [Cyberpunk 2077 (5)](#new-cyberpunk-2077) | [Cyberpunk 2077: Phantom Liberty (3)](#new-cyberpunk-2077-phantom-liberty) | [DEATHLOOP (3)](#new-deathloop) | [Deep Rock Galactic (11)](#new-deep-rock-galactic) | [Destiny 2 (19)](#new-destiny-2) | [Enter the Gungeon (28)](#new-enter-the-gungeon) | [F.E.A.R. (2)](#new-f-e-a-r) | [Fallout 3 (6)](#new-fallout-3) | [Fallout 3: Mothership Zeta (1)](#new-fallout-3-mothership-zeta) | [Fallout 3: Point Lookout (1)](#new-fallout-3-point-lookout) | [Fallout 4 (5)](#new-fallout-4) | [Fallout 4: Automatron (1)](#new-fallout-4-automatron) | [Fallout 4: Nuka-World (1)](#new-fallout-4-nuka-world) | [Fallout 76 (4)](#new-fallout-76) | [Fallout: New Vegas (2)](#new-fallout-new-vegas) | [Fallout: New Vegas - Dead Money (1)](#new-fallout-new-vegas-dead-money) | [Fallout: New Vegas - Lonesome Road (2)](#new-fallout-new-vegas-lonesome-road) | [Fallout: New Vegas - Old World Blues (3)](#new-fallout-new-vegas-old-world-blues) | [GoldenEye 007 (1)](#new-goldeneye-007) | [Half-Life: Opposing Force (5)](#new-half-life-opposing-force) | [Helldivers 2 (6)](#new-helldivers-2) | [Marathon 2: Durandal (2)](#new-marathon-2-durandal) | [Nuclear Throne (7)](#new-nuclear-throne) | [Perfect Dark (5)](#new-perfect-dark) | [Prey (2017) (2)](#new-prey-2017) | [Quake 4 (1)](#new-quake-4) | [Ratchet &amp; Clank (1)](#new-ratchet-clank) | [Ratchet &amp; Clank: A Crack in Time (5)](#new-ratchet-clank-a-crack-in-time) | [Ratchet &amp; Clank: All 4 One (1)](#new-ratchet-clank-all-4-one) | [Ratchet &amp; Clank: Going Commando (3)](#new-ratchet-clank-going-commando) | [Ratchet &amp; Clank: Rift Apart (2)](#new-ratchet-clank-rift-apart) | [Ratchet &amp; Clank: Tools of Destruction (1)](#new-ratchet-clank-tools-of-destruction) | [Ratchet &amp; Clank: Up Your Arsenal (1)](#new-ratchet-clank-up-your-arsenal) | [Red Faction (1)](#new-red-faction) | [Red Faction: Armageddon (1)](#new-red-faction-armageddon) | [Resistance 3 (1)](#new-resistance-3) | [Rise of the Triad (3)](#new-rise-of-the-triad) | [Scorn (2)](#new-scorn) | [Singularity (1)](#new-singularity) | [Star Trek: Voyager - Elite Force (1)](#new-star-trek-voyager-elite-force) | [Star Wars: Jedi Knight (1)](#new-star-wars-jedi-knight) | [Star Wars: Republic Commando (2)](#new-star-wars-republic-commando) | [System Shock 2 (3)](#new-system-shock-2) | [Team Fortress 2 (10)](#new-team-fortress-2) | [Terraria (10)](#new-terraria) | [Tiny Tina&#x27;s Wonderlands (4)](#new-tiny-tina-s-wonderlands) | [Turbo Overkill (4)](#new-turbo-overkill) | [Unreal (2)](#new-unreal) | [Unreal Tournament (1)](#new-unreal-tournament) | [Unreal Tournament 2004 (2)](#new-unreal-tournament-2004) | [Warframe (18)](#new-warframe) | [Warhammer 40,000: Boltgun (1)](#new-warhammer-40-000-boltgun)
+
+<a id="new-atomic-heart"></a>
+## Atomic Heart
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-aca84f8e7338.webp?v=d243eef" width="220" alt="Electro"><br>Video preview | **Electro**<br>A compact energy pistol mixes retro industrial styling with electrical effects. | An original bakelite-and-brass sidearm displays an illuminated crystal charge meter. | [Watch](https://www.youtube.com/watch?v=Nij_X7qxCrM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-aca84f8e7338) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-054ec789e15d.webp?v=5386b7c" width="220" alt="Dominator"><br>Video preview | **Dominator**<br>A futuristic energy weapon combines rapid electrical fire with a larger charged effect. | An original coil-powered gun compresses a stream of sparks into a drifting storm orb. | [Watch](https://www.youtube.com/watch?v=oRiuDr2Bxgs)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-054ec789e15d) |
 
 <a id="new-borderlands-2"></a>
 ## Borderlands 2
@@ -64,6 +72,15 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-3645762ae6af.webp?v=c6f7c2c" width="220" alt="Erebus"> | **Erebus**<br>An ominous autonomous-voice weapon links a conventional gun shape to unsettling digital effects. | A haunted receiver whispers original lines while black runes flicker around its muzzle. | [Watch](https://www.youtube.com/watch?v=6pmjGkgOOIM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-3645762ae6af) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e0d979547550.webp?v=a37022e" width="220" alt="Order"> | **Order**<br>A double-barrel tech shotgun builds a charge before a powerful electrical release. | Twin furnace tubes glow in sequence before an original thunder burst. | [Watch](https://www.youtube.com/watch?v=_HKRiqO5TRA)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e0d979547550) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-de53d9c86a19.webp?v=14d8446" width="220" alt="Rasetsu"> | **Rasetsu**<br>An elaborate tech precision rifle has a memorable angular profile and charged energy identity. | A long folded crystal rail opens around a narrowly focused lightning thread. | [Watch](https://www.youtube.com/watch?v=cv87-QMRsnk)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-de53d9c86a19) |
+
+<a id="new-deathloop"></a>
+## DEATHLOOP
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-79aaf30be6ed.webp?v=6bcd5e6" width="220" alt="Strelak Verso"><br>Video preview | **Strelak Verso**<br>Two pistols physically combine into a single burst-fire weapon. | Two original crystal familiars lock together into one longer magical instrument. | [Watch](https://www.youtube.com/watch?v=Q3_m5OcHthU)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-79aaf30be6ed) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-c8e596aeee23.webp?v=36b57d6" width="220" alt="Constancy Automatic"><br>Video preview | **Constancy Automatic**<br>A dual-magazine layout lets reloading and firing overlap in a distinctive animation. | Two visible rune reservoirs alternate while a small mechanical hand replaces the empty one. | [Watch](https://www.youtube.com/watch?v=JpLECvgv9WA)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-c8e596aeee23) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e9c2c5f6be34.webp?v=faf5879" width="220" alt="Heritage Gun"><br>Video preview | **Heritage Gun**<br>A lavish retro gun transforms between a spread weapon and a focused slug-firing form. | An ornate brass shell unfolds into a long crystal lens for its alternate magical shot. | [Watch](https://www.youtube.com/watch?v=bXPETCtqHH4)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e9c2c5f6be34) |
 
 <a id="new-deep-rock-galactic"></a>
 ## Deep Rock Galactic
@@ -140,6 +157,14 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-3f214fe000b8.webp?v=f332e8c" width="220" alt="Gilded Hydra"> | **Gilded Hydra**<br>A lavish shotgun-like weapon gives a many-headed mythological theme a compact form. | A golden hydra receiver lights additional original crystal mouths as it powers up. | [Watch](https://www.youtube.com/watch?v=s97ssijJBRQ)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-3f214fe000b8) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-2a87657e71e9.webp?v=00d0383" width="220" alt="Zorgun"> | **Zorgun**<br>A futuristic rifle changes the expected shape of its projectile stream. | A square-bodied space toy emits original geometric energy pellets. | [Watch](https://www.youtube.com/watch?v=8OCIz1kHn0g)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-2a87657e71e9) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-66264e87c1a1.webp?v=fbc7eca" width="220" alt="Boxing Glove"> | **Boxing Glove**<br>A glove-shaped weapon fires an exaggerated punch projectile. | A spring-loaded golem fist launches on a visible original magical tether. | [Watch](https://www.youtube.com/watch?v=ULh1gNrxalY)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-66264e87c1a1) |
+
+<a id="new-f-e-a-r"></a>
+## F.E.A.R.
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-39c71dab3726.webp?v=5c28d17" width="220" alt="HV Penetrator"><br>Video preview | **HV Penetrator**<br>A heavy nail-like projectile weapon gives impacts a distinctive industrial feel. | An original forge tool launches visibly weighty luminous fasteners. | [Watch](https://www.youtube.com/watch?v=sjQZO0XpvJo)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-39c71dab3726) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-8346da6af98f.webp?v=6e21403" width="220" alt="MOD-3 Multi-Rocket Launcher"><br>Video preview | **MOD-3 Multi-Rocket Launcher**<br>A large launcher releases a conspicuous grouped rocket attack. | An original three-chamber constellation device lights separate comet tubes in sequence. | [Watch](https://www.youtube.com/watch?v=-J53idS7IlI)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-8346da6af98f) |
 
 <a id="new-fallout-3"></a>
 ## Fallout 3
@@ -252,6 +277,26 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e1d776124daf.webp?v=00d22e7" width="220" alt="Penguin"><br>Video preview | **Penguin**<br>A comic creature projectile contrasts with the otherwise industrial arsenal. | A wind-up snow bird waddles toward a clearly marked fantasy target. | [Watch](https://www.youtube.com/watch?v=mk9FWmkQo2s)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e1d776124daf) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-6555ae3969b8.webp?v=47a1412" width="220" alt="Spore Launcher"><br>Video preview | **Spore Launcher**<br>An organic alien weapon launches brightly colored spores from a creature-like body. | A tame fungal creature visibly swallows and spits luminous seed pods. | [Watch](https://www.youtube.com/watch?v=NuQXppjDIfI)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-6555ae3969b8) |
 
+<a id="new-helldivers-2"></a>
+## Helldivers 2
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-de58bb5cdde9.webp?v=f3446b0" width="220" alt="PLAS-101 Purifier"> | **PLAS-101 Purifier**<br>A chargeable plasma weapon gives each release a visible preparation and expansion phase. | An original glass chamber inflates a glowing magical bubble before launch. | [Watch](https://www.youtube.com/watch?v=sJbjlESysoE)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-de58bb5cdde9) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-88929e511954.webp?v=1a9a0ef" width="220" alt="P-4 Senator"> | **P-4 Senator**<br>A heavy revolver brings a clear cylinder and dramatic hand-cannon presentation to a futuristic arsenal. | An original iron-and-crystal sidearm rotates a conspicuous six-window energy cylinder. | [Watch](https://www.youtube.com/watch?v=2h4kPx-W8Dw)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-88929e511954) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-1b86199b48a5.webp?v=b54da4e" width="220" alt="LAS-99 Quasar Cannon"> | **LAS-99 Quasar Cannon**<br>A huge shoulder-carried energy weapon builds a visible charge before one heavy burst. | An original miniature solar furnace opens its cooling fins after a bright comet shot. | [Watch](https://www.youtube.com/watch?v=8fqjzntoAEg)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-1b86199b48a5) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-1f7faf2367d0.webp?v=7afc7c6" width="220" alt="ARC-12 Blitzer"> | **ARC-12 Blitzer**<br>A close-range electrical gun gives a shotgun role a broad lightning identity. | An original thunder-flower opens several luminous petals for a short branching burst. | [Watch](https://www.youtube.com/watch?v=mSX7V3Z7KW4)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-1f7faf2367d0) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-34b89de4bee2.webp?v=dd68530" width="220" alt="MLS-4X Commando"> | **MLS-4X Commando**<br>A four-tube launcher has an immediately readable multi-chamber silhouette. | An original square rack of crystal tubes launches separately illuminated miniature comets. | [Watch](https://www.youtube.com/watch?v=14gxELhMRt8)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-34b89de4bee2) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-269dea7b1c75.webp?v=81bc8e8" width="220" alt="GP-31 Grenade Pistol"> | **GP-31 Grenade Pistol**<br>A tiny break-action launcher gives a heavy projectile an unexpectedly compact silhouette. | An original pocket potion cannon opens like a locket to receive one glowing capsule. | [Watch](https://www.youtube.com/watch?v=RtMsA13KSFA)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-269dea7b1c75) |
+
+<a id="new-marathon-2-durandal"></a>
+## Marathon 2: Durandal
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-84cb27a624c0.webp?v=bf0e260" width="220" alt="WSTE-M5 Combat Shotgun"><br>Video preview | **WSTE-M5 Combat Shotgun**<br>Dual lever-style shotguns give reload motion and paired silhouettes unusual importance. | Two short original brass thunder instruments rotate through a synchronized flourish. | [Watch](https://www.youtube.com/watch?v=saj_YTy9VTM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-84cb27a624c0) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-f6ee0f4241fc.webp?v=f8794eb" width="220" alt="Zeus-Class Fusion Pistol"><br>Video preview | **Zeus-Class Fusion Pistol**<br>A compact energy pistol alternates between small bolts and a charged larger shot. | A bright crystal chamber changes from a steady glow to an unstable original halo while charging. | [Watch](https://www.youtube.com/watch?v=YzdeYYU-AAo)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-f6ee0f4241fc) |
+
 <a id="new-nuclear-throne"></a>
 ## Nuclear Throne
 
@@ -283,6 +328,13 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 |---|---|---|---|
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-74bd0533e7e5.webp?v=ddf98ba" width="220" alt="Huntress Boltcaster"> | **Huntress Boltcaster**<br>A toy foam crossbow becomes a useful interaction tool in a serious science-fiction setting. | A harmless carnival launcher activates distant buttons with bright suction-cup stars. | [Watch](https://www.youtube.com/watch?v=5AswPRtLD2Q)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-74bd0533e7e5) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-4a7e1feab51c.webp?v=7e321c8" width="220" alt="Q-Beam"> | **Q-Beam**<br>A bulky beam device emphasizes sustained energy buildup rather than ordinary bullet impacts. | A glass accumulator paints a visible instability meter on a marked fantasy target. | [Watch](https://www.youtube.com/watch?v=pVEZt7RvtT8)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-4a7e1feab51c) |
+
+<a id="new-quake-4"></a>
+## Quake 4
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-eb8d8cdd4f1d.webp?v=1cbea8e" width="220" alt="Dark Matter Gun"><br>Video preview | **Dark Matter Gun**<br>A large energy weapon launches a conspicuous dark sphere with a strong superweapon identity. | An original eclipse cannon releases a slow visible miniature void surrounded by glowing debris. | [Watch](https://www.youtube.com/watch?v=PILDvOPgOiQ)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-eb8d8cdd4f1d) |
 
 <a id="new-ratchet-clank"></a>
 ## Ratchet & Clank
@@ -340,6 +392,13 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 |---|---|---|---|
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-ccae4c9df9e7.webp?v=fd5b5ce" width="220" alt="Holoshield Glove"> | **Holoshield Glove**<br>A deployable energy shield makes a weapon-like device useful for shaping space. | A rune projector places clearly bounded stained-glass barriers. | [Watch](https://www.youtube.com/watch?v=wk82gjuTHyM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-ccae4c9df9e7) |
 
+<a id="new-red-faction"></a>
+## Red Faction
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-835288399613.webp?v=5b11690" width="220" alt="Rail Driver"><br>Video preview | **Rail Driver**<br>A futuristic precision weapon pairs an unusual scanning sight with a penetrating shot. | An original crystal telescope reveals clearly bounded fantasy silhouettes before a narrow light pulse. | [Watch](https://www.youtube.com/watch?v=ZKMQmF0tSYA)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-835288399613) |
+
 <a id="new-red-faction-armageddon"></a>
 ## Red Faction: Armageddon
 
@@ -353,6 +412,61 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
 |---|---|---|---|
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e846d0a33a60.webp?v=820b2ad" width="220" alt="HE .44 Magnum"> | **HE .44 Magnum**<br>A large revolver&#x27;s marked projectiles allow a separate delayed explosive action. | A rune revolver plants visible glowing seals that respond to a second magical gesture. | [Watch](https://www.youtube.com/watch?v=R5eSCoUqnYM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e846d0a33a60) |
+
+<a id="new-rise-of-the-triad"></a>
+## Rise of the Triad
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-ce353876a4d2.webp?v=eeb603e" width="220" alt="Split Missile"><br>Video preview | **Split Missile**<br>A missile weapon splits its projectile pattern into a conspicuous branching attack. | A single original comet divides into a clearly readable fan of smaller stars. | [Watch](https://www.youtube.com/watch?v=B8udf_yLr0E)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-ce353876a4d2) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-47d97e5d8e15.webp?v=e29158d" width="220" alt="Flamewall"><br>Video preview | **Flamewall**<br>A launcher creates a moving wall of fire rather than a conventional impact burst. | A kiln-shaped gun rolls an original glowing curtain along the floor. | [Watch](https://www.youtube.com/watch?v=ZdOzEHZCg54)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-47d97e5d8e15) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-3702ddb0b7ed.webp?v=6156d6d" width="220" alt="Firebomb"><br>Video preview | **Firebomb**<br>A large explosive effect produces a distinctive expanding radial pattern. | A bright original seed opens into a clearly telegraphed circle of magical petals. | [Watch](https://www.youtube.com/watch?v=Llps5MxUTx0)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-3702ddb0b7ed) |
+
+<a id="new-scorn"></a>
+## Scorn
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-71c9d821c0be.webp?v=0d85d6f" width="220" alt="Scorn pistol"><br>Video preview | **Scorn pistol**<br>A biomechanical handgun attaches to a shared living-looking tool frame. | An original bone-and-vine instrument visibly plugs into a small animated root grip. | [Watch](https://www.youtube.com/watch?v=0t1YZtpPNY8)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-71c9d821c0be) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-6aed3ef12cc9.webp?v=34c026e" width="220" alt="Scorn grenade launcher"><br>Video preview | **Scorn grenade launcher**<br>A grotesque organic launcher makes its ammunition chamber and living material central to the design. | An original fungal vessel swallows a glowing seed before launching it in a readable arc. | [Watch](https://www.youtube.com/watch?v=tQTf5Uw226g)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-6aed3ef12cc9) |
+
+<a id="new-singularity"></a>
+## Singularity
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-6f400ee88937.webp?v=dbc6322" width="220" alt="Dethex Launcher"><br>Video preview | **Dethex Launcher**<br>A launcher deploys guided, timed explosive spheres rather than simple straight-flying rounds. | An original clockwork ball follows a visible steering rune before a clearly telegraphed magic burst. | [Watch](https://www.youtube.com/watch?v=6yrBcduC1NQ)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-6f400ee88937) |
+
+<a id="new-star-trek-voyager-elite-force"></a>
+## Star Trek: Voyager - Elite Force
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-69deb34344d7.webp?v=a6ea7df" width="220" alt="Photon Burst"><br>Video preview | **Photon Burst**<br>A personal launcher brings a starship-like energy-projectile identity into a handheld weapon. | An original miniature observatory ejects bright drifting stellar capsules. | [Watch](https://www.youtube.com/watch?v=IP8JCu6IKEI)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-69deb34344d7) |
+
+<a id="new-star-wars-jedi-knight"></a>
+## Star Wars: Jedi Knight
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-941e34c90d67.webp?v=e969326" width="220" alt="Stouker Concussion Rifle"><br>Video preview | **Stouker Concussion Rifle**<br>A bulky futuristic rifle fires a conspicuous concussive energy wave. | An original resonant stone tube launches a broad, visibly expanding pressure ripple. | [Watch](https://www.youtube.com/watch?v=OHGv3o9Xyrg)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-941e34c90d67) |
+
+<a id="new-star-wars-republic-commando"></a>
+## Star Wars: Republic Commando
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-336c937b954b.webp?v=035dc27" width="220" alt="Trandoshan Array Gun"><br>Video preview | **Trandoshan Array Gun**<br>An alien scattergun has a large, unusually shaped front assembly. | An original reptile-shell gun opens a broad fan of glowing crystal apertures. | [Watch](https://www.youtube.com/watch?v=Q4mVO3dyzLk)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-336c937b954b) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e50c84ee8034.webp?v=cdfb517" width="220" alt="Geonosian Elite Beam Weapon"><br>Video preview | **Geonosian Elite Beam Weapon**<br>An alien weapon projects a sustained luminous beam from an insect-like body. | An original mechanical beetle unfolds its wings around a bright continuous ray. | [Watch](https://www.youtube.com/watch?v=Ne5UyezbQmk)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e50c84ee8034) |
+
+<a id="new-system-shock-2"></a>
+## System Shock 2
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-99bcd5dfad81.webp?v=57af9b2" width="220" alt="TC-5 Fusion Cannon"><br>Video preview | **TC-5 Fusion Cannon**<br>A large energy weapon emphasizes a charged, heavy science-fiction discharge. | A caged miniature star swells visibly inside a transparent original cannon. | [Watch](https://www.youtube.com/watch?v=59TzSMNbxR8)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-99bcd5dfad81) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-81ac034b8329.webp?v=0d0a6ec" width="220" alt="Annelid Worm Launcher"><br>Video preview | **Annelid Worm Launcher**<br>A living alien weapon uses animated creature-like ammunition. | A friendly original tunnel creature spits glowing worm-shaped spirits from a visibly pulsing mouth. | [Watch](https://www.youtube.com/watch?v=O2Oj4hHpwOA)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-81ac034b8329) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-f962cedfb171.webp?v=556764a" width="220" alt="EMP Rifle"><br>Video preview | **EMP Rifle**<br>A robot-focused energy weapon gives a futuristic arsenal a distinct utility identity. | A rune conductor disrupts magical constructs with visible original blue rings. | [Watch](https://www.youtube.com/watch?v=iQzMfEpu2PI)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-f962cedfb171) |
 
 <a id="new-team-fortress-2"></a>
 ## Team Fortress 2
@@ -395,6 +509,16 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-d56610aef876.webp?v=a765f38" width="220" alt="Gluttony"> | **Gluttony**<br>A dark magical gun ties its thrown-reload identity to an unusual life-cost theme. | A hungry mask visibly consumes an explicitly optional fantasy resource before releasing a spirit swarm. | [Watch](https://www.youtube.com/watch?v=Gl7IX9a2sOY)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-d56610aef876) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-a1b201b2364a.webp?v=b5da0da" width="220" alt="Shadowfire"> | **Shadowfire**<br>A magical thrown weapon creates a conspicuous area effect. | A smoky lantern gun becomes a short-lived original dark-flame fountain. | [Watch](https://www.youtube.com/watch?v=vPBvNR_H8Eo)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-a1b201b2364a) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-94edd9323001.webp?v=840215a" width="220" alt="White Rider"> | **White Rider**<br>A beam weapon can split its energy between targets. | A two-headed unicorn projector divides a luminous original ribbon into separate paths. | [Watch](https://www.youtube.com/watch?v=C2fujrCrc4o)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-94edd9323001) |
+
+<a id="new-turbo-overkill"></a>
+## Turbo Overkill
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-816de708266c.webp?v=5e3fe2b" width="220" alt="Twincendiary"><br>Video preview | **Twincendiary**<br>A double-barrel weapon combines close-range impact with a conspicuous fiery personality. | An original twin dragon-mouth shotgun exhales alternating bursts of colored flame. | [Watch](https://www.youtube.com/watch?v=6IKGptTilsI)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-816de708266c) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-cb7719d0e409.webp?v=142c180" width="220" alt="Telefragger"><br>Video preview | **Telefragger**<br>A precision weapon turns teleportation into part of its attack identity. | An original rift rifle swaps the player with a clearly marked safe anchor near a fantasy target. | [Watch](https://www.youtube.com/watch?v=HKN28y5pct0)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-cb7719d0e409) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-d3f3a94a92ae.webp?v=59a757c" width="220" alt="Twin Magnums"><br>Video preview | **Twin Magnums**<br>Paired pistols use a target-locking secondary to give dual wielding a separate rhythm. | Two original rune sidearms mark separate stars before releasing a short coordinated volley. | [Watch](https://www.youtube.com/watch?v=pvsb-v1bp2E)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-d3f3a94a92ae) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-d5a8fd535157.webp?v=2856543" width="220" alt="Boomer Shotgun"><br>Video preview | **Boomer Shotgun**<br>A shotgun incorporates a grenade-launching secondary for a distinctly hybrid profile. | An original mechanical bell pairs a broad spark burst with a slow glowing orb. | [Watch](https://www.youtube.com/watch?v=4uYGfzx9Yo4)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-d5a8fd535157) |
 
 <a id="new-unreal"></a>
 ## Unreal
@@ -443,6 +567,13 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-853e06ec1e80.webp?v=8df9553" width="220" alt="Quanta"><br>Video preview | **Quanta**<br>A beam weapon also launches floating explosive cubes. | A square prism tool places glowing geometric blocks beside its normal energy stream. | [Watch](https://www.youtube.com/watch?v=O9U0kHTSGl4)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-853e06ec1e80) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-08541592fc12.webp?v=b44fd85" width="220" alt="Ballistica Prime"><br>Video preview | **Ballistica Prime**<br>A compact crossbow can produce a spectral echo of a defeated target. | A haunted hand crossbow releases an original temporary spirit companion. | [Watch](https://www.youtube.com/watch?v=3cIJDI4o_L0)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-08541592fc12) |
 
+<a id="new-warhammer-40-000-boltgun"></a>
+## Warhammer 40,000: Boltgun
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-a3a400965786.webp?v=4258e91" width="220" alt="Volkite Caliver"><br>Video preview | **Volkite Caliver**<br>A heavy heat-ray weapon contrasts with the arsenal&#x27;s explosive-projectile guns. | An original furnace relic projects a thick glowing beam through layered brass rings. | [Watch](https://www.youtube.com/watch?v=7L_yBuZcCHU)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-a3a400965786) |
+
 ## End of gallery
 
-All 201 accepted new gaming references are shown.
+All 236 accepted new gaming references are shown.

@@ -1366,6 +1366,223 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 [Video: Pearlescent Spotlight: Avenger &#124; Borderlands 2 Pearlescent Gameplay &#124; Ultimate Vault Hunter Pack](https://www.youtube.com/watch?v=ZkC8mArutbc). Evidence: Item title and game context matched.
 [Reference](https://borderlands.fandom.com/wiki/Avenger_%28Borderlands_2%29): Avenger (Borderlands 2).
 
+<a id="ref-xg-99bcd5dfad81"></a>
+## TC-5 Fusion Cannon (System Shock 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=59TzSMNbxR8).
+[Video: System Shock 2 Remastered fusion cannon](https://www.youtube.com/watch?v=59TzSMNbxR8). Evidence: Item title and game context matched.
+
+<a id="ref-xg-79aaf30be6ed"></a>
+## Strelak Verso (DEATHLOOP)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Q3_m5OcHthU).
+[Video: Deathloop - Easy Weapon Guide - Strelak Verso &#124; Legendary Pistols/Assault Rifle](https://www.youtube.com/watch?v=Q3_m5OcHthU). Evidence: Item title and game context matched.
+
+<a id="ref-xg-c8e596aeee23"></a>
+## Constancy Automatic (DEATHLOOP)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JpLECvgv9WA).
+[Video: Deathloop - Afternoon Delight Fristad Rock: Infuse Havoc Slab and Constancy Automatic Gameplay PS5](https://www.youtube.com/watch?v=JpLECvgv9WA). Evidence: Item title and game context matched.
+
+<a id="ref-xg-e9c2c5f6be34"></a>
+## Heritage Gun (DEATHLOOP)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=bXPETCtqHH4).
+[Video: Deathloop - Easy Weapon Guide - The Heritage Gun &#124; Legendary Shotgun/Rifle](https://www.youtube.com/watch?v=bXPETCtqHH4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-ce353876a4d2"></a>
+## Split Missile (Rise of the Triad)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=B8udf_yLr0E).
+[Video: [Rise of the Triad] PRO SPLIT MISSILE](https://www.youtube.com/watch?v=B8udf_yLr0E). Evidence: Item title and game context matched.
+
+<a id="ref-xg-81ac034b8329"></a>
+## Annelid Worm Launcher (System Shock 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O2Oj4hHpwOA).
+[Video: System Shock 2 Ep15 - The Worm Launcher](https://www.youtube.com/watch?v=O2Oj4hHpwOA). Evidence: Item title and game context matched.
+
+<a id="ref-xg-47d97e5d8e15"></a>
+## Flamewall (Rise of the Triad)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ZdOzEHZCg54).
+[Video: !TEAM FLAMEWALL!  6 Killstreak in Rise of the Triad (2013)](https://www.youtube.com/watch?v=ZdOzEHZCg54). Evidence: Item title and game context matched.
+
+<a id="ref-xg-f962cedfb171"></a>
+## EMP Rifle (System Shock 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=iQzMfEpu2PI).
+[Video: EMP Rifle - System Shock 2 #25](https://www.youtube.com/watch?v=iQzMfEpu2PI). Evidence: Item title and game context matched.
+
+<a id="ref-xg-84cb27a624c0"></a>
+## WSTE-M5 Combat Shotgun (Marathon 2: Durandal)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=saj_YTy9VTM).
+[Video: WHERE&#x27;S THE SHOTGUN, DURANDAL &#124; FIRST TIME WITH MARATHON 2](https://www.youtube.com/watch?v=saj_YTy9VTM). Evidence: Item title and game context matched.
+
+<a id="ref-xg-f6ee0f4241fc"></a>
+## Zeus-Class Fusion Pistol (Marathon 2: Durandal)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=YzdeYYU-AAo).
+[Video: FUSION PISTOL ACQUIRED &#124; FIRST TIME WITH MARATHON 2: DURANDAL - Part 2](https://www.youtube.com/watch?v=YzdeYYU-AAo). Evidence: Item title and game context matched.
+
+<a id="ref-xg-941e34c90d67"></a>
+## Stouker Concussion Rifle (Star Wars: Jedi Knight)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=OHGv3o9Xyrg).
+[Video: Playing Star Wars: Jedi Knight, part 6, Return of the Concussion Rifle](https://www.youtube.com/watch?v=OHGv3o9Xyrg). Evidence: Item title and game context matched.
+
+<a id="ref-xg-3702ddb0b7ed"></a>
+## Firebomb (Rise of the Triad)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Llps5MxUTx0).
+[Video: FireBomb Launcher de Rise of the Triad Armas destructiva #fps #gaming #firebomb #riseofthetriad](https://www.youtube.com/watch?v=Llps5MxUTx0). Evidence: Item title and game context matched.
+
+<a id="ref-xg-336c937b954b"></a>
+## Trandoshan Array Gun (Star Wars: Republic Commando)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Q4mVO3dyzLk).
+[Video: The ACP Array Gun Is Awesome In Star Wars Republic Commando!](https://www.youtube.com/watch?v=Q4mVO3dyzLk). Evidence: Item title and game context matched.
+
+<a id="ref-xg-e50c84ee8034"></a>
+## Geonosian Elite Beam Weapon (Star Wars: Republic Commando)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Ne5UyezbQmk).
+[Video: Star Wars: Republic Commando Geonosian Beam Weapon](https://www.youtube.com/watch?v=Ne5UyezbQmk). Evidence: Item title and game context matched.
+
+<a id="ref-xg-eb8d8cdd4f1d"></a>
+## Dark Matter Gun (Quake 4)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PILDvOPgOiQ).
+[Video: Quake 4 Lightning gun &amp; Dark matter gun Gameplay](https://www.youtube.com/watch?v=PILDvOPgOiQ). Evidence: Item title and game context matched.
+
+<a id="ref-xg-835288399613"></a>
+## Rail Driver (Red Faction)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ZKMQmF0tSYA).
+[Video: Red Faction Guerrilla Rail Driver Gameplay](https://www.youtube.com/watch?v=ZKMQmF0tSYA). Evidence: Item title and game context matched.
+[Reference](https://redfaction.fandom.com/wiki/EDF_Rail_Driver): EDF Rail Driver.
+
+<a id="ref-xg-69deb34344d7"></a>
+## Photon Burst (Star Trek: Voyager - Elite Force)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IP8JCu6IKEI).
+[Video: Star Trek Voyager Elite Force - Photon Burst Holodeck Part 8](https://www.youtube.com/watch?v=IP8JCu6IKEI). Evidence: Item title and game context matched.
+
+<a id="ref-xg-39c71dab3726"></a>
+## HV Penetrator (F.E.A.R.)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=sjQZO0XpvJo).
+[Video: F.E.A.R. Combat 10mm HV Penetrator Gameplay - FF-pI--Office](https://www.youtube.com/watch?v=sjQZO0XpvJo). Evidence: Item title and game context matched.
+
+<a id="ref-xg-8346da6af98f"></a>
+## MOD-3 Multi-Rocket Launcher (F.E.A.R.)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-J53idS7IlI).
+[Video: Let&#x27;s Play F.E.A.R. (Walkthrough) - #19 MOD 3 Multi-Rocket Launcher and Override Lockdown](https://www.youtube.com/watch?v=-J53idS7IlI). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6f400ee88937"></a>
+## Dethex Launcher (Singularity)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=6yrBcduC1NQ).
+[Video: Singularity &#124; Experimental Dethex Launcher Weapon](https://www.youtube.com/watch?v=6yrBcduC1NQ). Evidence: Item title and game context matched.
+
+<a id="ref-xg-71c9d821c0be"></a>
+## Scorn pistol (Scorn)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0t1YZtpPNY8).
+[Video: Triad Guy Reviews — Pistol from SCORN](https://www.youtube.com/watch?v=0t1YZtpPNY8). Evidence: Item title and game context matched.
+
+<a id="ref-xg-aca84f8e7338"></a>
+## Electro (Atomic Heart)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Nij_X7qxCrM).
+[Video: Atomic Heart electro gun](https://www.youtube.com/watch?v=Nij_X7qxCrM). Evidence: Item title and game context matched.
+
+<a id="ref-xg-054ec789e15d"></a>
+## Dominator (Atomic Heart)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=oRiuDr2Bxgs).
+[Video: Atomic Heart dominator gun](https://www.youtube.com/watch?v=oRiuDr2Bxgs). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6aed3ef12cc9"></a>
+## Scorn grenade launcher (Scorn)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=tQTf5Uw226g).
+[Video: How To Defeat The Grenade Launcher Boss Fight Scorn](https://www.youtube.com/watch?v=tQTf5Uw226g). Evidence: Item title and game context matched.
+
+<a id="ref-xg-816de708266c"></a>
+## Twincendiary (Turbo Overkill)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=6IKGptTilsI).
+[Video: Turbo Overkill - Twincendiary Minigun LOCATION[Level-3]](https://www.youtube.com/watch?v=6IKGptTilsI). Evidence: Item title and game context matched.
+
+<a id="ref-xg-cb7719d0e409"></a>
+## Telefragger (Turbo Overkill)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=HKN28y5pct0).
+[Video: Turbo Overkill - EP 011 - Bestiary wiki, Sniper Telefragger](https://www.youtube.com/watch?v=HKN28y5pct0). Evidence: Item title and game context matched.
+
+<a id="ref-xg-d3f3a94a92ae"></a>
+## Twin Magnums (Turbo Overkill)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=pvsb-v1bp2E).
+[Video: Turbo Overkill Magnums in a nutshell](https://www.youtube.com/watch?v=pvsb-v1bp2E). Evidence: Item title and game context matched.
+
+<a id="ref-xg-d5a8fd535157"></a>
+## Boomer Shotgun (Turbo Overkill)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4uYGfzx9Yo4).
+[Video: Turbo Overkill Boomer easy rapid fire trick](https://www.youtube.com/watch?v=4uYGfzx9Yo4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-de58bb5cdde9"></a>
+## PLAS-101 Purifier (Helldivers 2)
+
+Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/PLAS-101_Purifier).
+[Video: Helldivers 2 Plas-101 Purifier Weapon Gameplay (New weapon)](https://www.youtube.com/watch?v=sJbjlESysoE). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/PLAS-101_Purifier): PLAS-101 Purifier.
+
+<a id="ref-xg-88929e511954"></a>
+## P-4 Senator (Helldivers 2)
+
+Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/P-4_Senator).
+[Video: Helldivers 2 - P4-Senator Destroys Chargers](https://www.youtube.com/watch?v=2h4kPx-W8Dw). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/P-4_Senator): P-4 Senator.
+
+<a id="ref-xg-a3a400965786"></a>
+## Volkite Caliver (Warhammer 40,000: Boltgun)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=7L_yBuZcCHU).
+[Video: Boltgun port update: Volkite caliver improvement,  taunting, weapons-only version](https://www.youtube.com/watch?v=7L_yBuZcCHU). Evidence: Item title and game context matched.
+
+<a id="ref-xg-1b86199b48a5"></a>
+## LAS-99 Quasar Cannon (Helldivers 2)
+
+Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon).
+[Video: New Support Weapon for every Scenario!  &#124;  LAS-99 Quasar Cannon Helldivers 2 Gameplay](https://www.youtube.com/watch?v=8fqjzntoAEg). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon): LAS-99 Quasar Cannon.
+
+<a id="ref-xg-1f7faf2367d0"></a>
+## ARC-12 Blitzer (Helldivers 2)
+
+Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/ARC-12_Blitzer).
+[Video: Helldivers 2 - New Arc-12 Blitzer Shotgun Showcase](https://www.youtube.com/watch?v=mSX7V3Z7KW4). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/ARC-12_Blitzer): ARC-12 Blitzer.
+
+<a id="ref-xg-34b89de4bee2"></a>
+## MLS-4X Commando (Helldivers 2)
+
+Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/MLS-4X_Commando).
+[Video: Brutally Honest Commando Guide &#124; Helldivers 2](https://www.youtube.com/watch?v=14gxELhMRt8). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/MLS-4X_Commando): MLS-4X Commando.
+
+<a id="ref-xg-269dea7b1c75"></a>
+## GP-31 Grenade Pistol (Helldivers 2)
+
+Image: Named weapon reference image. [Source](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol).
+[Video: GP-31 Grenade Pistol Stress Test &amp; BREAKDOWN in Helldivers 2](https://www.youtube.com/watch?v=RtMsA13KSFA). Evidence: Item title and game context matched.
+[Reference](https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol): GP-31 Grenade Pistol.
+
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
 
