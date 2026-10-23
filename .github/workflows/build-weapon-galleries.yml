@@ -7,6 +7,7 @@ on:
       - '.github/workflows/build-weapon-galleries.yml'
       - 'docs/weapon-inspirations/final_delta.py.delta'
       - 'docs/weapon-inspirations/final_entrypoint.py.audit'
+      - 'docs/weapon-inspirations/ability_final_capture.py'
 permissions:
   contents: write
 concurrency:
@@ -38,8 +39,8 @@ jobs:
         run: |
           set -euo pipefail
           cd source
-          python3 -m pip install --quiet requests beautifulsoup4 pillow yt-dlp playwright
-          python3 -m py_compile docs/weapon-inspirations/final_delta.py.delta docs/weapon-inspirations/final_entrypoint.py.audit
+          python3 -m pip install --quiet requests beautifulsoup4 pillow yt-dlp playwright av
+          python3 -m py_compile docs/weapon-inspirations/final_delta.py.delta docs/weapon-inspirations/final_entrypoint.py.audit docs/weapon-inspirations/ability_final_capture.py
           python3 docs/weapon-inspirations/final_entrypoint.py.audit
       - name: Persist coherent source and image checkpoint
         env:
