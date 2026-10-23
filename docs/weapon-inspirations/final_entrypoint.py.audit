@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+"""Run the final scoped delta and verify every Wiki image in Chromium."""
+from pathlib import Path
+import hashlib,importlib.machinery,importlib.util,json,shutil,sys,time
+ROOT=Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT))
+loader=importlib.machinery.SourceFileLoader('final_delta',str(ROOT/'final_delta.py.delta'))
+spec=importlib.util.spec_from_loader(loader.name,loader);d=importlib.util.module_from_spec(spec);loader.exec_module(d)
+g=d.g;p=d.p
+ORIGINAL_RENDER=p.render
+
+def render(entries,media,title,other):
+ body=ORIGINAL_RENDER(entries,media,title,other)
+ for e in entries:
+  im=media[e['id']].get('image')
+  if im:
+   url=g.RAW+Path(im['local']).name
+   body=body.replace(url+'"',url+'?v='+im['sha256'][:7]+'"')
+ assert len(body.encode('utf-8'))<490000,(title,len(body.encode('utf-8')))
+ return body
+p.render=render
+
+def native_check():
+ from playwright.sync_api import sync_playwright
+ c=g.load(ROOT/'catalog.json',{});qa=ROOT/'qa';qa.mkdir(exist_ok=True)
+ reports=[]
+ with sync_playwright() as pw:
+  executable=shutil.which('google-chrome') or shutil.which('chromium') or shutil.which('chromium-browser')
+  options={'headless':True,'args':['--no-sandbox','--disable-dev-shm-usage']}
+  if executable:options['executable_path']=executable
+  browser=pw.chromium.launch(**options)
+  page=browser.new_page(viewport={'width':1440,'height':1100},device_scale_factor=1)
+  for key,slug in zip(('gaming','historical'),g.PAGES):
+   url=g.WIKI+slug
+   page.goto(url,wait_until='domcontentloaded',timeout=90000)
+   page.locator('#wiki-body').wait_for(timeout=30000)
+   page.evaluate('''() => {document.querySelectorAll('#wiki-body img').forEach(im => { im.loading='eager'; });}''')
+   page.wait_for_function('''() => { const a=[...document.querySelectorAll('#wiki-body img')].filter(im => (im.getAttribute('data-canonical-src')||im.src).includes('weapon-inspirations/images/')); return a.length>0 && a.every(im=>im.complete); }''',timeout=180000)
+   data=page.evaluate('''() => {const a=[...document.querySelectorAll('#wiki-body img')].filter(im => (im.getAttribute('data-canonical-src')||im.src).includes('weapon-inspirations/images/'));return {count:a.length,broken:a.filter(im=>im.naturalWidth===0).map(im=>({alt:im.alt,src:im.src})),loaded:a.filter(im=>im.naturalWidth>0).length,text:document.querySelector('#wiki-body').innerText};}''')
+   expected=len(c[key]);missing=[e['name'] for e in c[key] if e['name'] not in data['text']]
+   report={'page':slug,'url':url,'expected_entries':expected,'rendered_images':data['count'],'decoded_images':data['loaded'],'broken_images':data['broken'],'missing_entries':missing,'end_marker_visible':'End of gallery' in data['text']}
+   page.locator('#wiki-body').scroll_into_view_if_needed();page.screenshot(path=str(qa/(key+'-browser-top.png')))
+   if key=='gaming':
+    for anchor in ('collection-ratchet-clank-rift-apart','collection-warframe'):
+     loc=page.locator('#user-content-'+anchor)
+     if not loc.count():loc=page.locator('#'+anchor)
+     if loc.count():loc.scroll_into_view_if_needed();page.screenshot(path=str(qa/(key+'-'+anchor+'.png')))
+   page.locator('#wiki-body').locator('h2').last.scroll_into_view_if_needed();page.screenshot(path=str(qa/(key+'-browser-end.png')))
+   reports.append(report);g.save(qa/'native-browser-verification.json',reports)
+   assert data['count']==expected and data['loaded']==expected,(slug,report)
+   assert not missing and report['end_marker_visible'],report
+  browser.close()
+ print(json.dumps(reports,indent=2),flush=True)
+
+def main():
+ if len(sys.argv)>1 and sys.argv[1]=='--native-check':native_check();return
+ d.main()
+ if len(sys.argv)>1 and sys.argv[1]=='--verify-live':
+  c=g.load(ROOT/'coverage.json',{})
+  assert c['embedded_images']==c['total']==c['matched_videos']==c['complete']==1044,c
+if __name__=='__main__':main()
