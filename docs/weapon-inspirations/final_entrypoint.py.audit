@@ -68,53 +68,8 @@ def sources_with_notes(entries,media):
 p.sources_page=sources_with_notes
 
 def finish_known_delta():
- import concurrent.futures,io,re
- from PIL import Image,ImageDraw,ImageFont
- from bs4 import BeautifulSoup
- from urllib.parse import urljoin
- c=g.load(ROOT/'catalog.json',{});m=g.load(ROOT/'media.json',{});idx={e['id']:e for e in c['historical']+c['gaming']}
- fixes={
- 'g-d34df9b0ab37':('https://ratchet-galaxy.com/image/en/games/ps3/ratchet-and-clank-into-the-nexus/inventory/weapons/thumbs/6601-winterizer_medium.png','https://ratchet-galaxy.com/en/games/ps3/ratchet-and-clank-into-the-nexus/inventory/weapons/winterizer','Named weapon render from reference gallery'),
- 'g-7b0c8490ee99':('https://i.ytimg.com/vi/dt9rWEi51TA/maxres1.jpg','https://www.youtube.com/watch?v=dt9rWEi51TA','Weapon-effect gameplay still; visually verified'),
- 'efdee63eed52':('https://enduro.callofduty.com/assets?t=uh773Po9elkZKskU4oiXMZyFBAvUXFGjvp9cJoekb5%2FK9b%2B6EDos8dGNGnlg0AUAeT2K1TgnNQMQqJw%2B9tWERdxkPZYXbqrOuRc2SjkwQ%2B4%3D','https://www.callofduty.com/my/en/store/bundles/5880','Publisher weapon image; exact asset sat_sh_corso_roadgate')}
- for key,(url,source,kind) in fixes.items():
-  im=p.image_url(idx[key],url,source,kind)
-  assert im,'Verified image fetch failed: '+key
-  m[key]['image']=im
- qa=ROOT/'qa'/'last-identity';qa.mkdir(parents=True,exist_ok=True)
- key='g-c7cf78d773de';e=idx[key];candidates=[];evidence={'pages':[],'videos':[]}
- for url in ['https://editthis.info/Timesplitterswiki/Monkey_Gun','https://wiki-origin.giantbomb.com/wiki/Objects/Monkey_Gun']:
-  r=g.fetch(url);evidence['pages'].append({'url':url,'status':r.get('status')})
-  if not r['ok']:continue
-  soup=BeautifulSoup(r['body'],'html.parser')
-  for tag in soup.select('img'):
-   u=urljoin(url,tag.get('data-src') or tag.get('src') or '')
-   desc=(tag.get('alt','')+' '+u).lower()
-   if 'monkey' in desc and ('gun' in desc or 'weapon' in desc) and not re.search('logo|icon|question|avatar',desc):candidates.append(('source-'+str(len(candidates)),u,url))
- found={}
- for q in ['"Monkey Gun" "TimeSplitters"','TS3 Monkey Gun weapon','TimeSplitters Future Perfect Monkeygun']:
-  for v in f.search(q):found[v['id']]=v
- for v in found.values():
-  title=g.norm(v['title'])
-  if (('monkey gun' in title or 'monkeygun' in title) and ('timesplitters' in title or 'tsfp' in title or 'ts3' in title) and not re.search('dying to eat|live stream|all weapons',title)):
-   evidence['videos'].append(v)
-   candidates.append(('video-'+v['id'],v.get('thumbnail',''),v['url']))
- evidence['all_candidate_titles']=[{'title':v['title'],'url':v['url']} for v in found.values()]
- images=[]
- for label,url,source in candidates:
-  r=g.fetch(url,binary=True)
-  if not r['ok']:continue
-  try:
-   im=Image.open(io.BytesIO(r['body'])).convert('RGB');im.thumbnail((480,290));im.save(qa/(label+'.jpg'));images.append((label,url,source,im))
-  except Exception:continue
- if images:
-  out=Image.new('RGB',(1440,340*((len(images)+2)//3)),'white');draw=ImageDraw.Draw(out);font=ImageFont.load_default(size=16)
-  for i,(label,url,source,im) in enumerate(images):
-   x=(i%3)*480;y=(i//3)*340;out.paste(im,(x,y));draw.text((x+4,y+296),label,font=font,fill='black')
-  out.save(qa/'monkey-options.jpg',quality=90)
- evidence['image_options']=[{'label':a,'url':b,'source':s} for a,b,s,im in images]
- g.save(qa/'monkey-evidence.json',evidence)
- d.TARGETS={};d.write_all(c,m)
+ import specificity_repair
+ return specificity_repair.run(d)
 
 
 def main():
