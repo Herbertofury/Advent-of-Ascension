@@ -68,8 +68,10 @@ jobs:
           set -euo pipefail
           python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
           cd source
-          python3 -m py_compile docs/minecraft-gun-mods/refine.py docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/harden.py
+          python3 -m py_compile docs/minecraft-gun-mods/refine.py docs/minecraft-gun-mods/build.py docs/minecraft-gun-mods/harden.py docs/minecraft-gun-mods/qualify.py
+          python3 docs/minecraft-gun-mods/qualify.py
           python3 docs/minecraft-gun-mods/refine.py
+          python3 docs/minecraft-gun-mods/qualify.py --public
           python3 docs/minecraft-gun-mods/build.py
           python3 docs/minecraft-gun-mods/harden.py
           node --check docs/minecraft-gun-mods/app.js
@@ -80,7 +82,11 @@ jobs:
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/gun-atlas-askpass.sh" GIT_TERMINAL_PROMPT=0
           cd source
-          git add docs/minecraft-gun-mods/*.json docs/minecraft-gun-mods/*.js docs/minecraft-gun-mods/*.css docs/minecraft-gun-mods/*.html docs/minecraft-gun-mods/README.md docs/minecraft-gun-mods/assets docs/minecraft-gun-mods/qa/browser_test.py docs/minecraft-gun-mods/qa/data-verification.json docs/Minecraft-Gun-Mod-Inspirations*.md
+          for path in docs/minecraft-gun-mods/*.json; do
+            case "$path" in *raw-projects.json) continue ;; esac
+            git add "$path"
+          done
+          git add docs/minecraft-gun-mods/*.js docs/minecraft-gun-mods/*.css docs/minecraft-gun-mods/*.html docs/minecraft-gun-mods/README.md docs/minecraft-gun-mods/assets docs/minecraft-gun-mods/qa/browser_test.py docs/minecraft-gun-mods/qa/data-verification.json docs/Minecraft-Gun-Mod-Inspirations*.md
           if ! git diff --cached --quiet; then git commit -m 'Build complete source-qualified Minecraft gun atlas and illustrated Wiki'; fi
           git push origin HEAD:minecraft-gun-atlas-2026-10-23
           git rev-parse HEAD > docs/minecraft-gun-mods/qa/source-commit.txt
@@ -111,6 +117,7 @@ jobs:
             source/docs/Minecraft-Gun-Mod-Inspirations*.md
             !source/docs/minecraft-gun-mods/research-cache/**
             !source/docs/minecraft-gun-mods/fixtures/**
+            !source/docs/minecraft-gun-mods/raw-projects.json
             !source/docs/minecraft-gun-mods/__pycache__/**
           retention-days: 30
           if-no-files-found: error
