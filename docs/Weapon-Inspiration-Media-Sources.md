@@ -3361,7 +3361,7 @@ Image type: Catalog weapon reference image. [Image source](https://callofduty.fa
 
 <a id="ref-4d77da11ed4d"></a>
 
-The earlier official Season 03 announcement calls this Razor 9mm reward Auric; the later Battle Pass article calls the base reward Tribulation and its variants Voltrix/Malison. The original catalog name is retained with this explicit source-name discrepancy. [Earlier publisher naming](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-warzone-season-03-announcement). [Later publisher naming](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-season-03-battle-pass-blackcell-store-bundles).
+The earlier official Season 03 announcement calls this Razor 9mm reward Auric; the later Battle Pass article calls the base reward Tribulation and its variants Voltrix/Malison. The original catalog name is retained with this explicit source-name discrepancy. [Source naming evidence](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-warzone-season-03-announcement). [Source naming evidence](https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-season-03-battle-pass-blackcell-store-bundles).
 
 ## Auric (Call of Duty: Black Ops 7)
 
@@ -4439,7 +4439,7 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-5cc9fd742cb3"></a>
 ## Rail Gun (Shadow Warrior (1997))
 
-Image type: Video still preview; visually reviewed against item context. [Image source](https://www.youtube.com/watch?v=1ChFwAsyc1E).
+Image type: Named weapon gameplay screenshot; source caption checked. [Image source](https://www.imfdb.org/wiki/Shadow_Warrior).
 [Video: Shadow Warrior Classic Redux - All Weapons - Showcase - 1080p 60fps](https://www.youtube.com/watch?v=1ChFwAsyc1E). Match: Exact-game weapons collection showcase; individual timestamp not isolated.
 
 <a id="ref-g-eb9e481ef355"></a>
@@ -4721,7 +4721,8 @@ Image type: Item-video preview (not a separate weapon photograph). [Image source
 <a id="ref-g-d34df9b0ab37"></a>
 ## Winterizer (Ratchet & Clank: Into the Nexus)
 
-Image type: Item-video preview (not a separate weapon photograph). [Image source](https://www.youtube.com/watch?v=WkCFs1MVjqg).
+Image type: Named weapon gameplay screenshot; source caption checked. [Image source](https://www.gamespot.com/reviews/ratchet-clank-into-the-nexus-review/1900-6415538/).
+[Video: Ratchet and Clank: Into the Nexus - Choose Your Weapon](https://www.youtube.com/watch?v=DBx7g6pmwPE). Match: Official weapons collection showcase; developer explicitly identifies Winterizer.
 
 <a id="ref-g-222a7a980227"></a>
 ## Wave Concussor (Jak 3)
