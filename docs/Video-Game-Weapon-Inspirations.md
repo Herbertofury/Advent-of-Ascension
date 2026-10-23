@@ -3,7 +3,7 @@
 <!-- research-expansion:start -->
 ## New discoveries
 
-**[76 additional gaming references](Video-Game-Weapon-Inspirations-Volume-2)** have been added in a dedicated illustrated continuation. The full gaming collection now contains **968 references**, with all 892 originals retained below. [Historical additions](Historical-and-Experimental-Gun-Inspirations#new-research-additions) | [New media sources](Weapon-Inspiration-Media-Sources-Expansion).
+**[111 additional gaming references](Video-Game-Weapon-Inspirations-Volume-2)** have been added in a dedicated illustrated continuation. The full gaming collection now contains **1003 references**, with all 892 originals retained below. [Historical additions](Historical-and-Experimental-Gun-Inspirations#new-research-additions) | [New media sources](Weapon-Inspiration-Media-Sources-Expansion).
 <!-- research-expansion:end -->
 
 

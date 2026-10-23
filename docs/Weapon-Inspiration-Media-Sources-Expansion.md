@@ -519,6 +519,243 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=NuQXppjDIfI).
 [Video: Half-Life Opposing Force - Spore Launcher Vs Black Ops Chopper](https://www.youtube.com/watch?v=NuQXppjDIfI). Evidence: Item title and game context matched.
 
+<a id="ref-xg-54d5ce777642"></a>
+## Chimp-O-Matic (Ratchet & Clank: A Crack in Time)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=8rb2JgmDzEc).
+[Video: [R&amp;CF:ACIT] How-To : Chimp-O-Matic](https://www.youtube.com/watch?v=8rb2JgmDzEc). Evidence: Item title and game context matched.
+
+<a id="ref-xg-e1ca52f80051"></a>
+## Clank Zapper (Ratchet & Clank: Going Commando)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Clank_Zapper).
+[Video: Can You Beat Ratchet &amp; Clank 2 Using ONLY the CLANK ZAPPER](https://www.youtube.com/watch?v=epIjn_zqVWQ). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Clank_Zapper): Clank Zapper.
+
+<a id="ref-xg-78c6a92e653e"></a>
+## Chopper (Ratchet & Clank: Going Commando)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Chopper).
+[Video: Ratchet and Clank: Going Commando With ONLY the Chopper](https://www.youtube.com/watch?v=LS3YPO9YADw). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Chopper): Chopper.
+
+<a id="ref-xg-efa7c95874e6"></a>
+## CryoMine Glove (Ratchet & Clank: A Crack in Time)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/CryoMine_Glove).
+[Video: Ratchet and Clank - A Crack in Time - GrummelNet&#x27;s CryoMine Glove](https://www.youtube.com/watch?v=I-cEyDr6BH0). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/CryoMine_Glove): CryoMine Glove.
+
+<a id="ref-xg-bf04ed59c1b2"></a>
+## RYNO V (Ratchet & Clank: A Crack in Time)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/RYNO_V).
+[Video: RYNO (Mega Ryno V) - Ratchet &amp; Clank Crack in Time](https://www.youtube.com/watch?v=uNRBimDwqlA). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/RYNO_V): RYNO V.
+
+<a id="ref-xg-bd5efc7c001f"></a>
+## Spiral of Death (Ratchet & Clank: A Crack in Time)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Spiral_of_Death).
+[Video: Ratchet and Clank Future: A Crack in Time - Spiral of Death (Winner)](https://www.youtube.com/watch?v=VSNVlUZ0bxs). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Spiral_of_Death): Spiral of Death.
+
+<a id="ref-xg-6605ae419ebe"></a>
+## RYNO VI Protosuit (Ratchet & Clank: All 4 One)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/RYNO_VI_Protosuit).
+[Video: Ratchet and Clank -  All 4 One: Ryno 6 Protosuit HD](https://www.youtube.com/watch?v=Adv6-75ogj8). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/RYNO_VI_Protosuit): RYNO VI Protosuit.
+
+<a id="ref-xg-43cad23fb0cf"></a>
+## Dynamo of Doom (Ratchet & Clank: A Crack in Time)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Dynamo_of_Doom).
+[Video: Ratchet and Clank - A Crack in Time - GrummelNet&#x27;s Dynamo of Doom](https://www.youtube.com/watch?v=rRElYkS6t_0). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Dynamo_of_Doom): Dynamo of Doom.
+
+<a id="ref-xg-ccae4c9df9e7"></a>
+## Holoshield Glove (Ratchet & Clank: Up Your Arsenal)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Holoshield_Glove).
+[Video: Ratchet &amp; Clank: Up Your Arsenal - How to easily level up the Holoshield Glove](https://www.youtube.com/watch?v=wk82gjuTHyM). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Holoshield_Glove): Holoshield Glove.
+
+<a id="ref-xg-5258424df6c9"></a>
+## Alpha Disruptor (Ratchet & Clank: Tools of Destruction)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Alpha_Disruptor).
+[Video: Ratchet and Clank Future Tools Of Destruction - Let&#x27;s Play Part 10: Finding The Alpha Disruptor](https://www.youtube.com/watch?v=Imak-ORZqK0). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Alpha_Disruptor): Alpha Disruptor.
+
+<a id="ref-xg-7d11a7246fa3"></a>
+## Lightning Rod (Ratchet & Clank: Rift Apart)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0lrukSnmLzg).
+[Video: LIGHTNING ROD AND DRILL HOUND!!! Ratchet and Clank: Rift Apart Walkthrough Gameplay - Part 9 [PS5]](https://www.youtube.com/watch?v=0lrukSnmLzg). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Lightning_Rod): Lightning Rod.
+
+<a id="ref-xg-8a7b2cbe2593"></a>
+## Void Repulser (Ratchet & Clank: Rift Apart)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Void_Repulser).
+[Video: Ratchet &amp; Clank Rift Apart Void repulser](https://www.youtube.com/watch?v=1I8NK30-y14). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Void_Repulser): Void Repulser.
+
+<a id="ref-xg-3f0b65942f15"></a>
+## Taunter (Ratchet & Clank)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Taunter).
+[Video: Ratchet &amp; Clank - Part 11 : How to Taunter](https://www.youtube.com/watch?v=3BkoZWdPTbI). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Taunter): Taunter.
+
+<a id="ref-xg-90111f123af2"></a>
+## The Queenbreaker (Destiny 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=KZ7YSPgo8T4).
+[Video: The Queenbreaker &#124; Exotic Weapon Sound and Visual Showcase (Destiny 2)](https://www.youtube.com/watch?v=KZ7YSPgo8T4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-25a526909aeb"></a>
+## Sweet Business (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Sweet_Business).
+[Video: Sweet Business Is A Monster Bully! How To Get, Weapon Review + Gameplay! Destiny 2 Shadowkeep](https://www.youtube.com/watch?v=Kw8r0USZ8c0). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Sweet_Business): Sweet Business.
+
+<a id="ref-xg-7879a006d865"></a>
+## Lord of Wolves (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Lord_of_Wolves).
+[Video: A BURST FIRE SHOTGUN!-Destiny 2 &quot;Lord Of Wolves&quot; Review &amp; Gameplay](https://www.youtube.com/watch?v=zdbv-InEYzE). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Lord_of_Wolves): Lord of Wolves.
+
+<a id="ref-xg-90ac6d9ae607"></a>
+## Symmetry (Destiny 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=aial276Lvc8).
+[Video: Destiny 2: Symmetry Secret Hidden Traits – Catalyst Review, PvP Gameplay, &amp; How To Get](https://www.youtube.com/watch?v=aial276Lvc8). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Symmetry): Symmetry.
+
+<a id="ref-xg-69e90fb27b1f"></a>
+## Devil's Ruin (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Devil%27s_Ruin).
+[Video: Devil&#x27;s Ruin - Unique and Lethal - most of the time &#124; Destiny 2 Weapon Review](https://www.youtube.com/watch?v=M3kKWoyf0Pc). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Devil%27s_Ruin): Devil&#x27;s Ruin.
+
+<a id="ref-xg-f8cdb6c68a23"></a>
+## Cryosthesia 77K (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Cryosthesia_77K).
+[Video: Destiny 2 Cryosthesia 77K New Season Pass Exotic Sidearm PvP Gameplay Review Season Of The Splicer](https://www.youtube.com/watch?v=OCFNtULwAFw). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Cryosthesia_77K): Cryosthesia 77K.
+
+<a id="ref-xg-feba54750e4e"></a>
+## Ager's Scepter (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Ager%27s_Scepter).
+[Video: Destiny 2 - Ager&#x27;s Scepter - Audiovisual Showcase (Exotic Trace Rifle)](https://www.youtube.com/watch?v=WtnYTQO2eJs). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Ager%27s_Scepter): Ager&#x27;s Scepter.
+
+<a id="ref-xg-abb81a23041f"></a>
+## Lumina (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Lumina).
+[Video: Destiny 2 &#124; Lumina Exotic Hand Cannon PvP Gameplay Review &#124; Season Of Opulence](https://www.youtube.com/watch?v=PBSwzXM32xc). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Lumina): Lumina.
+
+<a id="ref-xg-45d6ffb696ea"></a>
+## Wish-Keeper (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Wish-Keeper).
+[Video: Is FULLY Upgraded Wish-Keeper Good? (Every Catalyst Review) &#124; Destiny 2 Season of the Wish](https://www.youtube.com/watch?v=H5V_tI4aXSA). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Wish-Keeper): Wish-Keeper.
+
+<a id="ref-xg-0dac89bf4bed"></a>
+## Hierarchy of Needs (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Hierarchy_of_Needs).
+[Video: Hierarchy of Needs LIVE REVIEW (Dungeon Bow) &#124; Destiny 2 Season of the Seraph](https://www.youtube.com/watch?v=QD_nykaUb9w). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Hierarchy_of_Needs): Hierarchy of Needs.
+
+<a id="ref-xg-c7303f58fdda"></a>
+## Salvation's Grip (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Salvation%27s_Grip).
+[Video: Destiny 2 Beyond Light SALVATION&#x27;S GRIP PvE Review!  I Want To Like This Exotic.....](https://www.youtube.com/watch?v=aL3I9bsyKmM). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Salvation%27s_Grip): Salvation&#x27;s Grip.
+
+<a id="ref-xg-0909c66c8fa6"></a>
+## Tessellation (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Tessellation).
+[Video: Destiny 2: Weapon Showcase &#124; Tessellation](https://www.youtube.com/watch?v=oJIXsiO7TME). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Tessellation): Tessellation.
+
+<a id="ref-xg-532756c0279d"></a>
+## Buried Bloodline (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Buried_Bloodline).
+[Video: Buried Bloodline (Weapon Showcase) - Destiny 2](https://www.youtube.com/watch?v=gKOApVuO85k). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Buried_Bloodline): Buried Bloodline.
+
+<a id="ref-xg-e111a7822615"></a>
+## Dragon's Breath (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Dragon%27s_Breath).
+[Video: DESTINY Dragon&#x27;s Breath Fully Upgraded Gun Review OP (PS4 Gameplay Commentary) Funny Moments](https://www.youtube.com/watch?v=JUkvKgZcwlQ). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Dragon%27s_Breath): Dragon&#x27;s Breath.
+
+<a id="ref-xg-d1ac17691a90"></a>
+## Choir of One (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Choir_of_One).
+[Video: One of the BEST Exotics Ever (Choir of One Deep Dive Review) &#124; Destiny 2 The Final Shape](https://www.youtube.com/watch?v=jM3lA3nNglg). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Choir_of_One): Choir of One.
+
+<a id="ref-xg-bc2c9bb557f4"></a>
+## Cerberus+1 (Destiny 2)
+
+Image: Named weapon reference image. [Source](https://www.destinypedia.com/wiki/Cerberus%2B1).
+[Video: Destiny 2 &#124; CERBERUS +1 Exotic Auto Rifle Showcase, Perks &amp; Tips](https://www.youtube.com/watch?v=NiiD3YJeeRY). Evidence: Item title and game context matched.
+[Reference](https://www.destinypedia.com/wiki/Cerberus%2B1): Cerberus+1.
+
+<a id="ref-xg-e0dcd8074056"></a>
+## Torid (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=D0c6uwc9YRQ).
+[Video: Warframe - Torid Incarnon Showcase](https://www.youtube.com/watch?v=D0c6uwc9YRQ). Evidence: Item title and game context matched.
+
+<a id="ref-xg-8aa76984e352"></a>
+## Kompressa (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PsDP_ukBB3Y).
+[Video: Impressive Kompressa, Look and Build Showcase - Warframe](https://www.youtube.com/watch?v=PsDP_ukBB3Y). Evidence: Item title and game context matched.
+
+<a id="ref-xg-df2c19f00342"></a>
+## Onos (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ovqG4ZykBhs).
+[Video: Warframe Onos Showcase And Build](https://www.youtube.com/watch?v=ovqG4ZykBhs). Evidence: Item title and game context matched.
+
+<a id="ref-xg-e0f43900c0e6"></a>
+## Miter (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=w1HRZBPnh3Q).
+[Video: Warframe Miter review/showcase](https://www.youtube.com/watch?v=w1HRZBPnh3Q). Evidence: Item title and game context matched.
+
+<a id="ref-xg-baafd34390bb"></a>
+## Panthera (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=m8ZRfarMIDA).
+[Video: Warframe Panthera review/showcase](https://www.youtube.com/watch?v=m8ZRfarMIDA). Evidence: Item title and game context matched.
+
+<a id="ref-xg-22d57dfe59b3"></a>
+## Tenet Plinx (Warframe)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=3QnsJggMQJ0).
+[Video: Tenet Plinx Build 2023 (Guide) - Let&#x27;s Make The Big Boom (Warframe Gameplay)](https://www.youtube.com/watch?v=3QnsJggMQJ0). Evidence: Item title and game context matched.
+
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
 
