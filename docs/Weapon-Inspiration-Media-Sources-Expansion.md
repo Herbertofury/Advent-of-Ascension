@@ -248,3 +248,234 @@ Image: Named weapon reference image. [Source](https://fallout.fandom.com/wiki/Th
 Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker).
 [Video: DRG Weapon Showcase &#124; Colette Wave Cooker](https://www.youtube.com/watch?v=RzH3prS9anY). Evidence: Item title and game context matched.
 [Reference](https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker): Colette Wave Cooker.
+
+<a id="ref-xg-9f49aa88acdf"></a>
+## Shard Diffractor (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Shard_Diffractor).
+[Video: DRG Weapon Showcase: Shard Diffractor](https://www.youtube.com/watch?v=zOdcPIet-UY). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/Shard_Diffractor): Shard Diffractor.
+
+<a id="ref-xg-1107d7414300"></a>
+## LOK-1 Smart Rifle (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/LOK-1_Smart_Rifle).
+[Video: Deep Rock Galactic - LOK-1 Smart Rifle (Upgrades/Gameplay)](https://www.youtube.com/watch?v=JG-ZPfWiyXg). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/LOK-1_Smart_Rifle): LOK-1 Smart Rifle.
+
+<a id="ref-xg-a4942a9c69fe"></a>
+## DRAK-25 Plasma Carbine (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/DRAK-25_Plasma_Carbine).
+[Video: Deep Rock Galactic: DRAK-25 Plasma Carbine Gameplay](https://www.youtube.com/watch?v=kUVUmju27Wg). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/DRAK-25_Plasma_Carbine): DRAK-25 Plasma Carbine.
+
+<a id="ref-xg-717d6f66bf6f"></a>
+## Nishanka Boltshark X-80 (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Nishanka_Boltshark_X-80).
+[Video: DRG Weapons Showcase &#124; Nishanka Boltshark](https://www.youtube.com/watch?v=CjGBNkdWDjE). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/Nishanka_Boltshark_X-80): Nishanka Boltshark X-80.
+
+<a id="ref-xg-9e5483595ae3"></a>
+## ArmsKore Coil Gun (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/ArmsKore_Coil_Gun).
+[Video: DRG Weapon Showcase &#124; Armskore Coilgun](https://www.youtube.com/watch?v=0wexdSQdlk0). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/ArmsKore_Coil_Gun): ArmsKore Coil Gun.
+
+<a id="ref-xg-b30a3998b5fe"></a>
+## Breach Cutter (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/Breach_Cutter).
+[Video: Spinning Death BUFF showcase &#124; Breach Cutter OC Deep Rock Galactic](https://www.youtube.com/watch?v=kfPmsQqoA0Y). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/Breach_Cutter): Breach Cutter.
+
+<a id="ref-xg-1a0c2e0505ef"></a>
+## Hurricane Guided Rocket System (Deep Rock Galactic)
+
+Image: Named weapon reference image. [Source](https://deeprockgalactic.wiki.gg/wiki/%22Hurricane%22_Guided_Rocket_System).
+[Video: DEEP ROCK GALACTIC &#124; HURRICANE MISSILE LAUNCHER GAMEPLAY &#124; EXPERIMENTAL BUILD](https://www.youtube.com/watch?v=CjDJJey3k8w). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/%22Hurricane%22_Guided_Rocket_System): &quot;Hurricane&quot; Guided Rocket System.
+
+<a id="ref-xg-7295a587f5fb"></a>
+## Thunderhead Heavy Autocannon (Deep Rock Galactic)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=TnP8QWvf3Ys).
+[Video: Deep Rock Galactic - GAMEPLAY - Gunner - HAZARD 5 - HD - &quot;Thunderhead&quot; Heavy Autocannon Overclocked](https://www.youtube.com/watch?v=TnP8QWvf3Ys). Evidence: Item title and game context matched.
+[Reference](https://deeprockgalactic.wiki.gg/wiki/%22Thunderhead%22_Heavy_Autocannon): &quot;Thunderhead&quot; Heavy Autocannon.
+
+<a id="ref-xg-28bafc4548e3"></a>
+## Cow Mangler 5000 (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=8YtwWHDlXJo).
+[Video: TF2 weapon showcase:cow mangler 5000](https://www.youtube.com/watch?v=8YtwWHDlXJo). Evidence: Item title and game context matched.
+
+<a id="ref-xg-77772ea3b661"></a>
+## Righteous Bison (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=adpaKK7jtWY).
+[Video: tf2 new weapon demonstration- the righteous  bison](https://www.youtube.com/watch?v=adpaKK7jtWY). Evidence: Item title and game context matched.
+
+<a id="ref-xg-1319d840e824"></a>
+## Dragon's Fury (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=fU-HGH9CTDY).
+[Video: tf2: &quot;The Dragon&#x27;s Fury&quot; weapon showcase](https://www.youtube.com/watch?v=fU-HGH9CTDY). Evidence: Item title and game context matched.
+
+<a id="ref-xg-e02f148656ba"></a>
+## Pomson 6000 (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=9KQA9bEEfrY).
+[Video: [TF2] The Pomson 6000: a Review.](https://www.youtube.com/watch?v=9KQA9bEEfrY). Evidence: Item title and game context matched.
+
+<a id="ref-xg-3dbc080dad1c"></a>
+## Gauss shotgun (Fallout 76)
+
+Image: Named weapon reference image. [Source](https://fallout.fandom.com/wiki/Gauss_shotgun).
+[Video: Fallout 76 Bloodied Gauss Shotgun (B1025) Weapon Showcase](https://www.youtube.com/watch?v=EPaHGX6m4WE). Evidence: Item title and game context matched.
+[Reference](https://fallout.fandom.com/wiki/Gauss_shotgun): Gauss shotgun.
+
+<a id="ref-xg-e289cdbd820b"></a>
+## Rescue Ranger (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=8ZQaP2Oyu84).
+[Video: [TF2] Rescue Ranger - Rapid Review](https://www.youtube.com/watch?v=8ZQaP2Oyu84). Evidence: Item title and game context matched.
+
+<a id="ref-xg-ff29eae12da5"></a>
+## Loose Cannon (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Jj9i7LPa4qo).
+[Video: LuckyBCINC -TF2 Weapons Showcase The Scout Loose Cannon](https://www.youtube.com/watch?v=Jj9i7LPa4qo). Evidence: Item title and game context matched.
+
+<a id="ref-xg-b27e866e724f"></a>
+## Soda Popper (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IDt4EprHgq8).
+[Video: TF2 Weapon Showcase #1 : Soda Popper](https://www.youtube.com/watch?v=IDt4EprHgq8). Evidence: Item title and game context matched.
+
+<a id="ref-xg-2aee798fc74c"></a>
+## Short Circuit (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ZD1n7llL6F0).
+[Video: TF2: Short Circuit Jump Showcase](https://www.youtube.com/watch?v=ZD1n7llL6F0). Evidence: Item title and game context matched.
+
+<a id="ref-xg-d068abb3fbcb"></a>
+## Medi Gun (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=RThK3vb71Ks).
+[Video: #TF2 Weapon Showcase! The Medigun](https://www.youtube.com/watch?v=RThK3vb71Ks). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6825d0f5526c"></a>
+## Crusader's Crossbow (Team Fortress 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=lfZff2oDbR4).
+[Video: SHOWCASE - TF2 CRUSADER&#x27;S CROSSBOW Cosplay Prop!](https://www.youtube.com/watch?v=lfZff2oDbR4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-600b9afeabc7"></a>
+## Cyclone (Perfect Dark)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=7jIYUg3Zc2E).
+[Video: Perfect Dark Weapon Reload Animations Cyclone](https://www.youtube.com/watch?v=7jIYUg3Zc2E). Evidence: Item title and game context matched.
+[Reference](https://perfectdark.fandom.com/wiki/Cyclone): Cyclone.
+
+<a id="ref-xg-0c63be1179ce"></a>
+## Salvaged Assaultron head (Fallout 4: Automatron)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=YsloHebHyeY).
+[Video: Fallout 4 Automatron - Salvaged Assaultron Head DLC Legendary Weapon Information &amp; Gameplay PS4](https://www.youtube.com/watch?v=YsloHebHyeY). Evidence: Item title and game context matched.
+[Reference](https://fallout.fandom.com/wiki/Salvaged_Assaultron_head_%28Automatron%29): Salvaged Assaultron head (Automatron).
+
+<a id="ref-xg-ccdf6bb2dec8"></a>
+## Phoenix (Perfect Dark)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=zLicZKcashY).
+[Video: Perfect Dark Weapons - Phoenix](https://www.youtube.com/watch?v=zLicZKcashY). Evidence: Item title and game context matched.
+[Reference](https://perfectdark.fandom.com/wiki/Phoenix): Phoenix.
+
+<a id="ref-xg-331cfadf76af"></a>
+## Thirst Zapper (Fallout 4: Nuka-World)
+
+Image: Named weapon reference image. [Source](https://fallout.fandom.com/wiki/Thirst_Zapper_%28Nuka-World%29).
+[Video: Fallout 4 Thirst Zapper review/showcase](https://www.youtube.com/watch?v=mFKbE9jsphU). Evidence: Item title and game context matched.
+[Reference](https://fallout.fandom.com/wiki/Thirst_Zapper_%28Nuka-World%29): Thirst Zapper (Nuka-World).
+
+<a id="ref-xg-94a7167a6ef5"></a>
+## RCP-120 (Perfect Dark)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=9TeZzsDeApo).
+[Video: Perfect Dark- RCP-120 (Gold challenge)](https://www.youtube.com/watch?v=9TeZzsDeApo). Evidence: Item title and game context matched.
+
+<a id="ref-xg-f08f726666c6"></a>
+## Callisto NTG (Perfect Dark)
+
+Image: Named weapon reference image. [Source](https://perfectdark.fandom.com/wiki/Callisto_NTG).
+[Video: Perfect Dark Weapons - Callisto NTG](https://www.youtube.com/watch?v=cfbf6mE5WKY). Evidence: Item title and game context matched.
+[Reference](https://perfectdark.fandom.com/wiki/Callisto_NTG): Callisto NTG.
+
+<a id="ref-xg-4fcc80fc9cc3"></a>
+## Golden Gun (GoldenEye 007)
+
+Image: Named weapon reference image. [Source](https://goldeneye.fandom.com/wiki/Golden_Gun).
+[Video: GoldenEye 007 Wii: Golden Gun Gameplay](https://www.youtube.com/watch?v=NeFBpuMOQyE). Evidence: Item title and game context matched.
+[Reference](https://goldeneye.fandom.com/wiki/Golden_Gun): Golden Gun.
+
+<a id="ref-xg-2f46fb45e6db"></a>
+## Dispersion Pistol (Unreal)
+
+Image: Named weapon reference image. [Source](https://unreal.fandom.com/wiki/Dispersion_Pistol).
+[Video: Unreal &quot;dispersion pistol&quot; grades (all)](https://www.youtube.com/watch?v=dFMx00Q9XfY). Evidence: Item title and game context matched.
+[Reference](https://unreal.fandom.com/wiki/Dispersion_Pistol): Dispersion Pistol.
+
+<a id="ref-xg-9d4da5e8ba2f"></a>
+## Razorjack (Unreal)
+
+Image: Named weapon reference image. [Source](https://unreal.fandom.com/wiki/Razorjack).
+[Video: Unreal: Resurgence - New razorjack](https://www.youtube.com/watch?v=H_O3Uxg-8Fo). Evidence: Item title and game context matched.
+[Reference](https://unreal.fandom.com/wiki/Razorjack): Razorjack.
+
+<a id="ref-xg-0db827158a97"></a>
+## Mauler (Perfect Dark)
+
+Image: Named weapon reference image. [Source](https://perfectdark.fandom.com/wiki/Mauler).
+[Video: Perfect Dark Weapons - Mauler](https://www.youtube.com/watch?v=ZLNRbGjOeVU). Evidence: Item title and game context matched.
+[Reference](https://perfectdark.fandom.com/wiki/Mauler): Mauler.
+
+<a id="ref-xg-a5b818ff50f1"></a>
+## Translocator (Unreal Tournament)
+
+Image: Named weapon reference image. [Source](https://unreal.fandom.com/wiki/Translocator).
+[Video: Translocator is Overpowered [Unreal Tournament 1999 GOTY]](https://www.youtube.com/watch?v=yF2cd9crmF4). Evidence: Item title and game context matched.
+[Reference](https://unreal.fandom.com/wiki/Translocator): Translocator.
+
+<a id="ref-xg-1f1ba773fe75"></a>
+## Spider Mine Layer (Unreal Tournament 2004)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=lktdYH0Uar8).
+[Video: an idiot using blender 2.8 to model a spider mine layer gun from unreal tournament 2004 - part 1](https://www.youtube.com/watch?v=lktdYH0Uar8). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6cf28edede23"></a>
+## AVRiL (Unreal Tournament 2004)
+
+Image: Named weapon reference image. [Source](https://unreal.fandom.com/wiki/AVRiL).
+[Video: Unreal Tournament 2004 - Super AVRiL](https://www.youtube.com/watch?v=0-LLk8ZkcqY). Evidence: Item title and game context matched.
+[Reference](https://unreal.fandom.com/wiki/AVRiL): AVRiL.
+
+<a id="ref-xg-74bd0533e7e5"></a>
+## Huntress Boltcaster (Prey (2017))
+
+Image: Named weapon reference image. [Source](https://prey.fandom.com/wiki/Huntress_Boltcaster).
+[Video: 5 Guns You Can Get Early &#124; Disruptor, Gloo Gun, Shotgun, Boltcaster &amp; Silenced Pistol - PREY 2017](https://www.youtube.com/watch?v=5AswPRtLD2Q). Evidence: Item title and game context matched.
+[Reference](https://prey.fandom.com/wiki/Huntress_Boltcaster): Huntress Boltcaster.
+
+<a id="ref-xg-d2ceeb225765"></a>
+## Shock Roach (Half-Life: Opposing Force)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Qaae_pPbjD4).
+[Video: - Half Life: Opposing Force - Shock Roach Sounds](https://www.youtube.com/watch?v=Qaae_pPbjD4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-cd775a85815f"></a>
+## Barnacle Grapple (Half-Life: Opposing Force)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=--47V4w0XbA).
+[Video: half life opposing force barnacle grapple&#x27;s killing power](https://www.youtube.com/watch?v=--47V4w0XbA). Evidence: Item title and game context matched.
