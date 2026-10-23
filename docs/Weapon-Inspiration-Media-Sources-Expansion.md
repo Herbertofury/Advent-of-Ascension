@@ -720,3 +720,230 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=B1l5UWhQfqA).
 [Video: Mannlicher Model 1901 &amp; 1905 Pistols](https://www.youtube.com/watch?v=B1l5UWhQfqA). Evidence: Video embedded in named historical source.
 [Reference](https://www.forgottenweapons.com/mannlicher-1901-1905-pistols-video/): Mannlicher 1901 &amp; 1905 Pistols (Video).
+
+<a id="ref-xh-db94ebb2e2e6"></a>
+## Nambu Type 14 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=SAzeo_VEC0E).
+[Video: How it Works: Japanese Nambu Type 14 Pistol](https://www.youtube.com/watch?v=SAzeo_VEC0E). Evidence: Named historical item video.
+
+<a id="ref-xh-4b1db2eeea11"></a>
+## Cosmi shotgun (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=vxuI4u7AaR0).
+[Video: Cosmi: A Boutique 8-Round Selfloader Hiding in a Single-Shot Body](https://www.youtube.com/watch?v=vxuI4u7AaR0). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/cosmi-a-boutique-8-round-selfloader-hiding-in-a-single-shot-body/): Cosmi: A Boutique 8-Round Selfloader Hiding in a Single-Shot Body.
+
+<a id="ref-xh-3dce4428b2e9"></a>
+## Cobray Terminator (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=WnpOis10NyQ).
+[Video: Cobray Terminator 12ga Shotgun](https://www.youtube.com/watch?v=WnpOis10NyQ). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/cobray-terminator-shotgun-at-ria/): Cobray Terminator Shotgun at RIA (Video).
+
+<a id="ref-xh-279cb52f6b04"></a>
+## Ladies Home Companion (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=TygqLGNnXJE).
+[Video: Cobray Lady&#x27;s Home Companion](https://www.youtube.com/watch?v=TygqLGNnXJE). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/ladys-ladies-home-companion-at-ria-video/): Lady’s (Ladies?) Home Companion at RIA (Video).
+
+<a id="ref-xh-aaa71580b867"></a>
+## Winchester Liberator shotgun (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=PQK9JNsrq_8).
+[Video: Winchester&#x27;s Liberator Shotguns](https://www.youtube.com/watch?v=PQK9JNsrq_8). Evidence: Named historical item video.
+
+<a id="ref-xh-b22c5e68e8fa"></a>
+## Manville gun (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=07zayhBzujU).
+[Video: Manville Gas Gun](https://www.youtube.com/watch?v=07zayhBzujU). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/manville-gas-gun-video/): Manville Gas Gun Video.
+
+<a id="ref-xh-0bbd9c3a4a9c"></a>
+## Winchester Defender prototype (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=B0l6JEWWCtA).
+[Video: Firearm Review Winchester Defender 1300](https://www.youtube.com/watch?v=B0l6JEWWCtA). Evidence: Named historical item video.
+
+<a id="ref-xh-3ec5a51162f0"></a>
+## High Standard Model 10 (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0Rgx3dmRPIo).
+[Video: The High Standard Model 10 — A Forgotten Shotgun That Changed Tactical Design!    #FirearmEducation](https://www.youtube.com/watch?v=0Rgx3dmRPIo). Evidence: Named historical item video.
+
+<a id="ref-xh-0081926fc96b"></a>
+## KS-23 (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=en_55fzWeVo).
+[Video: Insane Russian 4 GUAGE Shotgun, the KS-23 (way bigger than a 12 guage)](https://www.youtube.com/watch?v=en_55fzWeVo). Evidence: Named historical item video.
+
+<a id="ref-xh-3be87754e431"></a>
+## RMB-93 (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=2eM7kC-NMlI).
+[Video: Russian RMB 93: Most UNUSUAL Shotgun I&#x27;ve Seen!](https://www.youtube.com/watch?v=2eM7kC-NMlI). Evidence: Named historical item video.
+
+<a id="ref-xh-0b776f115715"></a>
+## Colt Model 1855 revolving rifle (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-CdQg25lECg).
+[Video: Colt 1855 Revolving Rifle at the Range](https://www.youtube.com/watch?v=-CdQg25lECg). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/colt-1855-revolving-rifle-at-the-range/): Colt 1855 Revolving Rifle at the Range.
+
+<a id="ref-xh-d44d50c51085"></a>
+## Roper revolving shotgun (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=T-UUGG_ElFg).
+[Video: Roper Revolving Shotgun (now with dummy cartridges!)](https://www.youtube.com/watch?v=T-UUGG_ElFg). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/ria-roper-repeating-shotgun/): RIA: Roper Repeating Shotgun.
+
+<a id="ref-xh-8e2fc8a4329a"></a>
+## North and Skinner revolving rifle (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=9FLxdOpkMzM).
+[Video: North &amp; Skinner Wedge-Lock Revolving Rifle](https://www.youtube.com/watch?v=9FLxdOpkMzM). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/north-skinner-wedge-lock-revolving-rifle/): North &amp; Skinner Wedge-Lock Revolving Rifle.
+
+<a id="ref-xh-24a1f46912fc"></a>
+## Smith and Wesson Model 320 (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=qAIy0n2ub4Y).
+[Video: S&amp;W 320 Revolving Rifle](https://www.youtube.com/watch?v=qAIy0n2ub4Y). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/sw-320-revolving-rifle-at-ria/): S&amp;W 320 Revolving Rifle at RIA.
+
+<a id="ref-xh-c7c4b4ee6f0d"></a>
+## F1 submachine gun (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=yaBZC9t9Q3o).
+[Video: Sterling Meets Owen: The Australian F1 Submachine Gun](https://www.youtube.com/watch?v=yaBZC9t9Q3o). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/sterling-meets-owen-the-australian-f1-submachine-gun/): Sterling Meets Owen: The Australian F1 Submachine Gun.
+
+<a id="ref-xh-374242d44284"></a>
+## MP 18 with snail drum (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=zvxgngDaA4k).
+[Video: A Police SMG Upgrade: the MP-18 System Schmeisser (audio fixed)](https://www.youtube.com/watch?v=zvxgngDaA4k). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/a-police-smg-upgrade-the-mp-18-system-schmeisser/): A Police SMG Upgrade: the MP-18 System Schmeisser.
+
+<a id="ref-xh-9a982c6b2c5e"></a>
+## Owen gun (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=O1aZuAbgjGY).
+[Video: The Owen SMG: Looks Bad; Shoots Good](https://www.youtube.com/watch?v=O1aZuAbgjGY). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/the-owen-smg-looks-bad-shoots-good/): The Owen SMG: Looks Bad; Shoots Good.
+
+<a id="ref-xh-09620d2601c0"></a>
+## Bergmann MP35 (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=8XMvhhSkIIE).
+[Video: Shooting the MP35: Germany&#x27;s Left-Handed SMG](https://www.youtube.com/watch?v=8XMvhhSkIIE). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/shooting-the-mp35-germanys-left-handed-smg/): Shooting the MP35: Germany’s Left-Handed SMG.
+
+<a id="ref-xh-5cda1bf5092b"></a>
+## Hill H15 (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IUVJLXwiUSg).
+[Video: Rare Weapons: The Hill H15 Model 1953](https://www.youtube.com/watch?v=IUVJLXwiUSg). Evidence: Named historical item video.
+
+<a id="ref-xh-13e90fb30354"></a>
+## Franchi LF-57 (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=a_CpfR4NaAk).
+[Video: Franchi LF-57 vs Colt SMG (w/ John Keene)](https://www.youtube.com/watch?v=a_CpfR4NaAk). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/franchi-lf-57-vs-colt-smg-w-john-keene/): Franchi LF-57 vs Colt SMG (w/ John Keene).
+
+<a id="ref-xh-6be605630472"></a>
+## Armaguerra OG-43 (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=rd2BiLU-s6g).
+[Video: Armaguerra Last-Ditch M35 Pistol](https://www.youtube.com/watch?v=rd2BiLU-s6g). Evidence: Named historical item video.
+
+<a id="ref-xh-ce7b7ac57f59"></a>
+## Welgun (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=xWfvixdbHgk).
+[Video: Top Secret WWII Machine Guns: The Norm and Welgun](https://www.youtube.com/watch?v=xWfvixdbHgk). Evidence: Named historical item video.
+
+<a id="ref-xh-af10db62d0df"></a>
+## Danuvia 39M (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ow0FhmNUTJw).
+[Video: The forgotten &quot;King&quot; of WW2 submachine guns - The 39M/43M Danuvia/Király](https://www.youtube.com/watch?v=ow0FhmNUTJw). Evidence: Named historical item video.
+
+<a id="ref-xh-2dd075c2318a"></a>
+## MP 40-II (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Ovbma1TwFpA).
+[Video: Schmeisser MK-36,II - The Mechanics of the MP40](https://www.youtube.com/watch?v=Ovbma1TwFpA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/schmeisser-mk-36ii-the-mechanics-of-the-mp40/): Schmeisser MK-36,II – The Mechanics of the MP40.
+
+<a id="ref-xh-3285c25b61c1"></a>
+## Furrer MP41/44 (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=6jGIKfcsa2g).
+[Video: Swiss MP-41/44: Adolph Furrer and His Toggle Lock Fascination](https://www.youtube.com/watch?v=6jGIKfcsa2g). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/swiss-mp-41-44-adolph-furrer-and-his-toggle-lock-fascination/): Swiss MP-41/44: Adolph Furrer and His Toggle Lock Fascination.
+
+<a id="ref-xh-cc4604afac0d"></a>
+## Revelli OVP (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=K2nhwH1I8PU).
+[Video: OVP 1918: Italy&#x27;s first WW1 Submachine Gun](https://www.youtube.com/watch?v=K2nhwH1I8PU). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/ovp-1918-italys-first-ww1-submachine-gun/): OVP 1918: Italy’s first WW1 Submachine Gun.
+
+<a id="ref-xh-cce520f1db78"></a>
+## M3 Grease Gun (Peculiar submachine guns and folding forms)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=b2ZMpVyXiWQ).
+[Video: PAM-2: Argentina&#x27;s Improved 9mm Grease Gun](https://www.youtube.com/watch?v=b2ZMpVyXiWQ). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/pam-2-argentinas-improved-9mm-grease-gun/): PAM-2: Argentina’s Improved 9mm Grease Gun.
+
+<a id="ref-xh-6e0d22c7c595"></a>
+## TKB-059 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=mGh8sSbIRN0).
+[Video: Korobov&#x27;s Assault Rifle TKB-059, 3d model](https://www.youtube.com/watch?v=mGh8sSbIRN0). Evidence: Named historical item video.
+
+<a id="ref-xh-a32f49f29431"></a>
+## AO-63 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Z1mbyJI1EU0).
+[Video: AO-63: The Unique Dual-Barrel Soviet Assault Rifle That Shouldn’t Have Been Forgotten](https://www.youtube.com/watch?v=Z1mbyJI1EU0). Evidence: Named historical item video.
+
+<a id="ref-xh-c38f00094f21"></a>
+## AO-46 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=a93-iq6DEoc).
+[Video: AO-46 - Early Soviet PDW ( Wasted Potential ? )](https://www.youtube.com/watch?v=a93-iq6DEoc). Evidence: Named historical item video.
+
+<a id="ref-xh-f5d918b7aca1"></a>
+## TKB-022PM (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=atyPwvgYH-c).
+[Video: TKB-022PM Soviet bullpup assault rifle. How it works &#124; 3dGun](https://www.youtube.com/watch?v=atyPwvgYH-c). Evidence: Named historical item video.
+
+<a id="ref-xh-b5f5d6a3ab18"></a>
+## AN-94 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-wXNfOki12M).
+[Video: World&#x27;s Rarest Production Rifle: The AN-94, Part 1 with firearms expert Jonathan Ferguson](https://www.youtube.com/watch?v=-wXNfOki12M). Evidence: Named historical item video.
+
+<a id="ref-xh-8de29c96e5e4"></a>
+## APS underwater rifle (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=RaJ14y_4e94).
+[Video: APS Underwater Assault Rifle](https://www.youtube.com/watch?v=RaJ14y_4e94). Evidence: Named historical item video.
+
+<a id="ref-xh-a98a8745a4e1"></a>
+## TKB-0146 (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=yP8yqADdsPA).
+[Video: TKB 0146 (Everything WEAPONRY &amp; MORE)💬⚔️🏹📡🤺🌎😜✅](https://www.youtube.com/watch?v=yP8yqADdsPA). Evidence: Named historical item video.
+
+<a id="ref-xh-890f1c20e58a"></a>
+## SPP-1 underwater pistol (Cold War and experimental layouts)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=IwYeG_3m5pM).
+[Video: SPP-1 Underwater Pistol (Cold War Tech)](https://www.youtube.com/watch?v=IwYeG_3m5pM). Evidence: Named historical item video.
