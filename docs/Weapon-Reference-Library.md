@@ -8,25 +8,25 @@
 
 ## AoA originals to preserve during an overhaul
 
-[Buy historical weapons: 29 trader offers, input quantities and cannon upgrades](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Buying-Weapons-and-Trader-Upgrades-1.12.2)
+[Buy historical weapons: 29 trader offers, input quantities and cannon upgrades](Buying-Weapons-and-Trader-Upgrades-1.12.2)
 
-[Acquisition atlas for all 412 historical weapons](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Historical-Weapon-Acquisition-1.12.2): exact recipes, direct loot-table references, trader candidates and clearly marked unresolved routes.
+[Acquisition atlas for all 412 historical weapons](Historical-Weapon-Acquisition-1.12.2): exact recipes, direct loot-table references, trader candidates and clearly marked unresolved routes.
 
 Before redesigning a weapon, compare its original appearance and release-specific resource behavior. These illustrated **1.12.2 / AoA 3.3.6** tables now place a checked source-model portrait beside every listed weapon name:
 
-- [36 swords: material and attack inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sword-Materials-and-Attack-Inputs-1.12.2)
-- [29 greatblades: inputs and variable damage branches](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Greatblade-Inputs-and-Damage-Branches-1.12.2)
-- [5 mauls: reach and knockback inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Maul-Inputs-Reach-and-Knockback-1.12.2)
-- [78 guns: constructor inputs and recoil](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Gun-Constructor-Inputs-and-Recoil-1.12.2)
-- [17 shotguns: pellets, spread and special effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Shotgun-Pellets-Spread-and-Special-Effects-1.12.2)
-- [27 snipers: stance, scopes and inputs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Sniper-Stance-Scopes-and-Inputs-1.12.2)
-- [50 cannons: ammunition and armor scaling](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Cannon-Ammunition-and-Armor-Scaling-1.12.2)
-- [33 bows: draw timing and ammunition](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Bow-Draw-Timing-and-Ammunition-1.12.2)
-- [9 archerguns: trajectories and effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Archergun-Ammunition-and-Special-Effects-1.12.2)
-- [7 throwables: payment, impacts and Runic Bombs](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2)
-- [8 vulcanes: stored revenge targets and effects](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Vulcanes-Revenge-Targets-and-Effects-1.12.2)
-- [56 blasters: Energy, timing and Spark exceptions](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2)
-- [57 staves: rune costs and hand safety](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Runes-Casting-and-Hand-Safety-1.12.2), with [29 custom casting requirements](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Staff-Casting-Requirements-and-Troubleshooting-1.12.2)
+- [36 swords: material and attack inputs](Sword-Materials-and-Attack-Inputs-1.12.2)
+- [29 greatblades: inputs and variable damage branches](Greatblade-Inputs-and-Damage-Branches-1.12.2)
+- [5 mauls: reach and knockback inputs](Maul-Inputs-Reach-and-Knockback-1.12.2)
+- [78 guns: constructor inputs and recoil](Gun-Constructor-Inputs-and-Recoil-1.12.2)
+- [17 shotguns: pellets, spread and special effects](Shotgun-Pellets-Spread-and-Special-Effects-1.12.2)
+- [27 snipers: stance, scopes and inputs](Sniper-Stance-Scopes-and-Inputs-1.12.2)
+- [50 cannons: ammunition and armor scaling](Cannon-Ammunition-and-Armor-Scaling-1.12.2)
+- [33 bows: draw timing and ammunition](Bow-Draw-Timing-and-Ammunition-1.12.2)
+- [9 archerguns: trajectories and effects](Archergun-Ammunition-and-Special-Effects-1.12.2)
+- [7 throwables: payment, impacts and Runic Bombs](Throwable-Weapons-Impacts-and-Runic-Bombs-1.12.2)
+- [8 vulcanes: stored revenge targets and effects](Vulcanes-Revenge-Targets-and-Effects-1.12.2)
+- [56 blasters: Energy, timing and Spark exceptions](Blaster-Energy-Timing-and-Spark-Exceptions-1.12.2)
+- [57 staves: rune costs and hand safety](Staff-Runes-Casting-and-Hand-Safety-1.12.2), with [29 custom casting requirements](Staff-Casting-Requirements-and-Troubleshooting-1.12.2)
 
 These 412 portraits preserve existing source-model atlas pixels. They cover all 412 direct weapon constructors in the checked 1.12.2 WeaponRegister method, with [exact identity and family evidence](https://github.com/Herbertofury/Advent-of-Ascension/blob/main/docs/historical-weapon-census-1.12.2.json). This does not certify every effect, runtime-injected addon item, new animated remodel or in-game renderer. Keep version differences explicit and retain optional reloading rather than imposing magazines on rune/resource weapons.
 
@@ -84,21 +84,21 @@ Prefer original AoA-faithful models and animations, properly licensed dependenci
 
 ## Ars Armorer: direct follow-up study
 
-The owner-selected [four-image gallery](https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/gallery) has now been inspected directly, alongside all eight weapon display/animation definitions and 36 attachment definitions in the pinned pack. Read the [detailed findings and AoA application checklist](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Ars-Armorer-Direct-Study): semantic effect/delivery/modifier/capacity slots, rechargeable reserve handling, unconventional magical silhouettes, distinct blade groups and LOD authoring. Static inspection does not certify runtime behavior.
+The owner-selected [four-image gallery](https://www.curseforge.com/minecraft/customization/tacz-ars-armorer-koei/gallery) has now been inspected directly, alongside all eight weapon display/animation definitions and 36 attachment definitions in the pinned pack. Read the [detailed findings and AoA application checklist](Ars-Armorer-Direct-Study): semantic effect/delivery/modifier/capacity slots, rechargeable reserve handling, unconventional magical silhouettes, distinct blade groups and LOD authoring. Static inspection does not certify runtime behavior.
 
-The [ArsArms and IronsArms source-and-release study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Spell-Adapter-Source-and-Release-Study) now compares pinned GitHub source with the actual published JARs (17 released classes total), including impact events, stored-resource charging and workbench integration. It records preventive AoA QA requirements and keeps runtime validation open.
+The [ArsArms and IronsArms source-and-release study](Spell-Adapter-Source-and-Release-Study) now compares pinned GitHub source with the actual published JARs (17 released classes total), including impact events, stored-resource charging and workbench integration. It records preventive AoA QA requirements and keeps runtime validation open.
 
 
 ## Mastercraft and Mythic animation collections
 
-[Main cross-game playlist](https://www.youtube.com/playlist?list=PL9faHbneiK_GdGNsksKaYo8Vm2rIcqpDJ) · [Organized reference index](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mastercraft-Playlist-Index): 63 visible playlist entries, 62 unique videos, grouped by study purpose. Link metadata is verified; visual sequence review is tracked separately.
+[Main cross-game playlist](https://www.youtube.com/playlist?list=PL9faHbneiK_GdGNsksKaYo8Vm2rIcqpDJ) · [Organized reference index](Mastercraft-Playlist-Index): 63 visible playlist entries, 62 unique videos, grouped by study purpose. Link metadata is verified; visual sequence review is tracked separately.
 
 Owner-selected major design references: the full BO6 and BO7 Mastercraft collections and the supplied COD Mobile Mythic showcase, plus other playful COD weapons. Study distinctive inspections, transformation reveals, reactive materials, reload presentation, tracers and defeat effects.
 
 - [BO6 Mastercraft inspections](https://www.youtube.com/watch?v=qJkyqb7ycjo)
 - [BO7 Mastercraft weapons: matching-title showcase](https://www.youtube.com/watch?v=9UCxE7kgzvE)
 - [COD Mobile Mythic inspections, reloads and kill effects](https://www.youtube.com/watch?v=pdK11eIggOI)
-- [Verified official examples, AoA storyboard proposals and review ledger](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Mastercraft-and-Mythic-Animation-References)
+- [Verified official examples, AoA storyboard proposals and review ledger](Mastercraft-and-Mythic-Animation-References)
 
 Video pages are verified; detailed frame review remains pending because playback buffered. Do not equate a dated showcase title with a permanently complete catalogue or copy protected game assets.
 
@@ -121,9 +121,21 @@ The cloud authoring check found no NVIDIA device nodes or `nvidia-smi` executabl
 
 ## Create Armorer: actual released files
 
-[Direct Create Armorer study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Create-Armorer-Direct-Study) examines file 7598625 (v1.2.0.1-for117): 13 display records, actual geometry/animation files and four Lua scripts. It covers layered animation ownership, intentionally animated visual planes, a threshold-event boundary test and exact missing LOD references. Findings are source evidence, not native execution or performance acceptance.
+[Direct Create Armorer study](Create-Armorer-Direct-Study) examines file 7598625 (v1.2.0.1-for117): 13 display records, actual geometry/animation files and four Lua scripts. It covers layered animation ownership, intentionally animated visual planes, a threshold-event boundary test and exact missing LOD references. Findings are source evidence, not native execution or performance acceptance.
 
 
 ## Helldivers gunpack: actual hotfix files
 
-[Direct hotfix archive study](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Helldivers-Gunpack-Direct-Study) follows actual data-to-script routing and inspects 57 displays, attachment-dependent clips and 49 resolved LOD pairs. Its Quasar script uses a magazine field to retain cooling time, making typed-state preservation essential for our upgrade/salvage integrations. No native compatibility or frame-time pass is claimed.
+[Direct hotfix archive study](Helldivers-Gunpack-Direct-Study) follows actual data-to-script routing and inspects 57 displays, attachment-dependent clips and 49 resolved LOD pairs. Its Quasar script uses a magazine field to retain cooling time, making typed-state preservation essential for our upgrade/salvage integrations. No native compatibility or frame-time pass is claimed.
+
+<!-- weapon-inspirations:start -->
+## Weapon inspirations
+
+- [Video-game weapon inspirations](Video-Game-Weapon-Inspirations)
+- [Historical and experimental gun inspirations](Historical-and-Experimental-Gun-Inspirations)
+<!-- minecraft-gun-inspirations:start -->
+- [Weapon inspirations](Weapon-Inspirations)
+  - [Minecraft gun mods: illustrated research](Minecraft-Gun-Mod-Inspirations)
+  - [Minecraft Gun Atlas explorer](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/)
+<!-- minecraft-gun-inspirations:end -->
+<!-- weapon-inspirations:end -->
