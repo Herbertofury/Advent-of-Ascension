@@ -1,0 +1,292 @@
+#!/usr/bin/env python3
+"""Complete and verify the already-published 1044-entry AoA reference gallery."""
+from __future__ import annotations
+import collections, concurrent.futures, hashlib, html, importlib.machinery, importlib.util, io, json, math, re, sys, threading
+from urllib.parse import parse_qs, quote, unquote, urlencode, urljoin, urlparse
+from PIL import Image
+from bs4 import BeautifulSoup
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT))
+loader=importlib.machinery.SourceFileLoader('gallery_finish',str(ROOT/'finish_media.py.txt'))
+spec=importlib.util.spec_from_loader(loader.name,loader)
+f=importlib.util.module_from_spec(spec); loader.exec_module(f)
+g=f.g
+
+def render(entries,media,title,other):
+    groups=collections.defaultdict(list)
+    for e in entries: groups[e['game']].append(e)
+    images=sum(bool(media[e['id']].get('image')) for e in entries)
+    videos=sum(bool(media[e['id']].get('video')) and not media[e['id']]['video'].get('unresolved') for e in entries)
+    lines=['# '+title,'',f'**{len(entries)} references | {len(groups)} collections | {images} embedded images | {videos} direct video references**','',f'[Other collection]({other}) | [Armory](Weapon-Overhaul) | [Reference library](Weapon-Reference-Library)','',
+      'Weapon behavior describes the reference. **AoA remix** is an original proposal, not an implemented feature. Each image is embedded here. **Watch** opens its video directly, not a search. **Preview** means a video thumbnail rather than a separate weapon photograph. **Chapter** means the linked timestamp identifies the item; **collection** identifies an explicitly labeled multi-item showcase. Titles, sources and chapter metadata have been checked; this does not claim every video was watched in full. Source credits and detailed matching evidence remain in the [media ledger](https://github.com/'+g.REPO+'/blob/main/docs/weapon-inspirations/media.json).','',
+      '## Browse by collection','', ' | '.join(f'[{g.text(k)} ({len(v)})](#collection-{g.slug(k)})' for k,v in sorted(groups.items())),'']
+    if images<len(entries) or videos<len(entries):
+        lines += [f'> Media gaps remain: {len(entries)-images} images and {len(entries)-videos} direct videos. Unresolved items are labeled below.','']
+    for group,items in sorted(groups.items()):
+        lines += [f'<a id="collection-{g.slug(group)}"></a>',f'## {group}','','| Image | Weapon / distinctive behavior | AoA remix | Video / source |','|---|---|---|---|']
+        for e in items:
+            m=media[e['id']]; im=m.get('image'); v=m.get('video')
+            image=f'<img src="{g.RAW+Path(im["local"]).name}" width="220" alt="{g.text(e["name"])}">' if im else 'Image unresolved'
+            if im and 'preview' in im['kind'].lower(): image+='<br>Preview'
+            watch=f'[Watch]({v["url"]})' if v else 'Video unresolved'
+            if v:
+                match=v.get('match','').lower()
+                if v.get('unresolved'): watch+=' (context only)'
+                elif 'chapter' in match: watch+=' (chapter)'
+                elif 'collection' in match: watch+=' (collection)'
+            if im: watch+=f'<br>[Source](Weapon-Inspiration-Media-Sources#ref-{e["id"]})'
+            lines.append(f'| {image} | **{g.text(e["name"])}**<br>{g.text(e.get("hook"))} | {g.text(e.get("remix"))} | {watch} |')
+        lines += ['','[Collections](#browse-by-collection)','']
+    lines+=['## End of gallery','',f'All {len(entries)} reference records are retained. Original works and images are credited through their source links. This is a design reference collection, not a package of reusable game assets.','']
+    body='\n'.join(lines)
+    assert body.count('**<br>')==len(entries)
+    assert body.count('width="220"')==images
+    assert len(body.encode('utf-8'))<490000, 'GitHub Wiki render budget exceeded; no entries may be dropped'
+    return body
+
+CONFIG=g.load(ROOT/'quality-fixes.json',{})
+REQUEST_NOTES={}
+NOTE_LOCK=threading.Lock()
+BAD_IMAGE=re.compile(r'users|operators.map|world.map|limited.jpg|logo|wordmark|flag.of|icon-question|placeholder|advert|banner|firing.apav|pat.2865|bolt.of|demo|_menu|favicon',re.I)
+EXTRA_ROUTES=[('Far Cry','https://farcry.fandom.com/wiki/'),('Saints Row','https://saintsrow.fandom.com/wiki/'),('Sunset Overdrive','https://sunsetoverdrive.fandom.com/wiki/'),('Devil May Cry','https://devilmaycry.fandom.com/wiki/'),('Oddworld','https://oddworld.fandom.com/wiki/'),('Prey (2006)','https://prey.fandom.com/wiki/'),('Painkiller','https://painkiller.fandom.com/wiki/'),('Serious Sam','https://serioussam.fandom.com/wiki/'),('Calamity','https://calamitymod.wiki.gg/wiki/')]
+
+def names_for(e):
+    names=CONFIG.get(e['id'],{}).get('aliases',[])+f.ALIASES.get(e['name'],[e['name']])
+    return list(dict.fromkeys(names+[e['name']]))
+
+def page_candidates(e):
+    cfg=CONFIG.get(e['id'],{})
+    pages=list(cfg.get('source_pages',[]))
+    if cfg.get('image_page'): pages.insert(0,cfg['image_page'])
+    if e.get('source') and not e['source'].endswith(('/Weapons','/Mastercraft_Variant')): pages.append(e['source'])
+    routes=EXTRA_ROUTES+g.WIKI_ROUTES
+    if e['group']=='Historical':
+        title=g.HISTORY_ALIASES.get(e['name'],e['name'])
+        title={'FAMAS F1':'FAMAS','SA80 L85':'SA80','Dardick Tround':'Dardick revolver','Evans repeating rifle':'Evans Repeating Rifle','Schmidt-Rubin K31':'K31','MAC-10':'MAC-10','Lifebuoy flamethrower':'Flamethrower, Portable, No 2'}.get(e['name'],title)
+        pages.append('https://en.wikipedia.org/wiki/'+quote(title.replace(' ','_')))
+    else:
+        for key,base in routes:
+            if key.lower() in e['game'].lower():
+                for name in names_for(e):
+                    name=re.sub(r' Incarnon$| Spell$','',name)
+                    pages.append(base+quote(name.replace(' ','_')))
+                break
+    return list(dict.fromkeys(pages))
+
+def save_image(e,im,url,source,kind,extra=None):
+    original=im.size
+    if min(im.size)<8: return None
+    im=im.convert('RGBA' if 'A' in im.getbands() or 'transparency' in im.info else 'RGB')
+    if max(im.size)<180:
+        scale=min(8,max(1,180//max(im.size)))
+        im=im.resize((im.width*scale,im.height*scale),Image.Resampling.NEAREST)
+    im.thumbnail((720,480))
+    path=ROOT/'images'/(e['id']+'.webp');im.save(path,'WEBP',quality=90,method=5)
+    out={'url':url,'source':source,'kind':kind,'local':'images/'+path.name,'width':im.width,'height':im.height,'original_dimensions':list(original),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'bytes':path.stat().st_size}
+    if extra: out.update(extra)
+    return out
+
+def image_url(e,url,source,kind):
+    if not url.startswith('http'): return None
+    r=g.fetch(url,binary=True)
+    if not r['ok']: return None
+    try:
+        im=Image.open(io.BytesIO(r['body']))
+        if getattr(im,'n_frames',1)>1:
+            im.seek(im.n_frames//2)
+            kind+=' (animation middle frame)'
+        return save_image(e,im,url,source,kind)
+    except Exception: return None
+
+def exact_image(e):
+    names=names_for(e)
+    for page in page_candidates(e):
+        r=g.fetch(page)
+        if not r['ok']:
+            with NOTE_LOCK: REQUEST_NOTES.setdefault(urlparse(page).netloc,collections.Counter())[str(r.get('status','network'))]+=1
+            continue
+        soup=BeautifulSoup(r['body'],'html.parser')
+        title=soup.title.get_text(' ',strip=True) if soup.title else ''
+        matches=any(f.present(n,title) for n in names)
+        candidates=[]
+        for im in soup.select('img'):
+            url=im.get('data-src') or im.get('src') or ''
+            if not url or url.startswith('data:'): continue
+            url=urljoin(page,url)
+            desc=unquote(' '.join([im.get('alt',''),im.get('data-image-key',''),url]))
+            if BAD_IMAGE.search(desc): continue
+            if e['name']=='Gyrojet pistol' and re.search(r'carbine',desc,re.I): continue
+            if e['name']=='Volcanic rifle' and re.search(r'pistol',desc,re.I): continue
+            parent=im.find_parent(class_=re.compile(r'infobox|pi-image|item-image|infoboxtable'))
+            score=10 if parent and matches else 0
+            stem=re.sub(r'\.(png|jpe?g|gif|webp).*','',im.get('data-image-key') or im.get('alt') or unquote(url.rsplit('/',1)[-1]),flags=re.I)
+            if any(g.norm(stem)==g.norm(n) for n in names): score+=20
+            elif any(f.present(n,desc) for n in names): score+=5
+            if 'gamesatlas.com' in page and '/blueprints/' in url and any(f.present(n,desc) for n in names): score+=15
+            if 'moddb.com' in page and ('in-third-person' in page or 'mod-thumbnail' in page) and 'media.moddb.com' in url and (im.get('id')=='image' or im.find_parent(class_='imagebox')): score+=20
+            if score>=10:candidates.append((score,url))
+        if matches and not candidates:
+            og=soup.select_one('meta[property="og:image"]')
+            if og and not BAD_IMAGE.search(og.get('content','')): candidates.append((10,og['content']))
+        for score,url in sorted(set(candidates),reverse=True):
+            out=image_url(e,url,page,'Weapon-specific source image')
+            if out: return out
+    return None
+
+def public_video(e,url,match,source=None):
+    if g.video_id(url):
+        out=f.video_data(url)
+        if not out: return None
+    else:
+        r=g.fetch(url)
+        if not r['ok']: return None
+        soup=BeautifulSoup(r['body'],'html.parser')
+        title=soup.title.get_text(' ',strip=True) if soup.title else e['name']
+        og=soup.select_one('meta[property="og:image"]')
+        out={'url':url,'id':'','title':title,'thumbnail':og.get('content','') if og else '', 'playback':'Creator page fetched; full playback not independently reviewed'}
+    out.update(match=match,evidence_url=source or url)
+    return out
+
+def replacement_video(e,cfg):
+    if cfg.get('video'):
+        return public_video(e,cfg['video'],cfg.get('match','Item-specific showcase'),cfg.get('source'))
+    queries=cfg.get('queries',[])
+    if not queries: return None
+    found={}
+    for query in queries:
+        for v in f.search(query): found[v['id']]=v
+    names=names_for(e); game=g.norm(e['game'])
+    output=[]
+    for v in found.values():
+        title=v['title']; alltext=title+' '+v.get('description','')
+        if re.search(r'\breplica\b|3d print|how to make|props tutorial|secure boot|tpm|sticker|achievement|chronological order|dying to eat|\bpubg\b',title,re.I):continue
+        if e['group']=='Historical' and re.search(r'call of duty|war thunder|battlefield|phantom forces|loadout|enlisted|far cry|rising storm',title,re.I):continue
+        if cfg.get('bundle') and f.present(cfg['bundle'],title):
+            v['match']='Named bundle collection showcase; publisher/source identifies this weapon'
+            output.append((2,v));continue
+        if not any(f.present(n,title) for n in names):continue
+        if e['group']=='Historical': valid=True
+        elif 'call of duty' in game: valid=bool(re.search(r'bo[467]|black ops|warzone|mastercraft|blueprint|blackcell|razor|evolvere|sturmwolf|pml',alltext,re.I))
+        elif e['name']=="Chai's Guitar Weapon": valid=bool(re.search(r'hi.?fi.?rush',alltext,re.I))
+        else: valid=bool(g.tokens(e['game']) & set(g.norm(alltext).split()))
+        if valid:
+            v['match']='Item-specific title and context checked'
+            output.append((3,v))
+    with NOTE_LOCK: REQUEST_NOTES[e['id']]={'name':e['name'],'video_candidates':list(found.values())}
+    return sorted(output,key=lambda x:x[0],reverse=True)[0][1] if output else None
+
+def storyboard_image(e,v):
+    vid=g.video_id(v.get('url',''))
+    if not vid:return None
+    r=g.fetch('https://www.youtube.com/watch?v='+vid)
+    if not r['ok']:return None
+    data=f.parse_json_after(r['body'],[r'(?:var\s+)?ytInitialPlayerResponse\s*=\s*'])
+    duration=float(data.get('videoDetails',{}).get('lengthSeconds',0) or 0)
+    if not duration:return None
+    try:
+        from yt_dlp import YoutubeDL
+        from yt_dlp.extractor.youtube import YoutubeIE
+        ie=YoutubeIE(YoutubeDL({'quiet':True,'no_warnings':True}))
+        formats=list(ie._extract_storyboard([data],duration))
+        formats.sort(key=lambda x:x.get('width',0),reverse=True)
+        query=parse_qs(urlparse(v['url']).query)
+        raw=query.get('t',[''])[0]
+        if raw:
+            mm=re.findall(r'(\d+)([hms]?)',raw)
+            t=sum(int(n)*{'h':3600,'m':60,'s':1,'':1}[unit] for n,unit in mm)+4
+        else:t=min(duration*.3,45)
+        t=min(max(1,t),duration-1)
+        for fmt in formats:
+            fps=fmt.get('fps',0); rows=fmt.get('rows',0); columns=fmt.get('columns',0)
+            if not(fps and rows and columns):continue
+            tile=int(t*fps); sheet=tile//(rows*columns); pos=tile%(rows*columns)
+            fragments=fmt.get('fragments',[])
+            if sheet>=len(fragments):continue
+            url=fragments[sheet].get('url')
+            if not url:continue
+            pic=g.fetch(url,binary=True)
+            if not pic['ok']:continue
+            image=Image.open(io.BytesIO(pic['body']));w=fmt['width'];h=fmt['height']
+            x=(pos%columns)*w;y=(pos//columns)*h
+            crop=image.crop((x,y,x+w,y+h))
+            return save_image(e,crop,url,'https://www.youtube.com/watch?v='+vid+'&t='+str(int(t))+'s','Video footage frame',{'frame_time_seconds':t,'frame_selection':'Referenced item chapter +4 seconds, or 30%/45 seconds for item-focused video; visual QA required'})
+    except Exception as exc:
+        with NOTE_LOCK: REQUEST_NOTES.setdefault('storyboard_errors',[]).append(str(exc)[:160])
+    return None
+
+def finish(e,old,unused):
+    cfg=CONFIG.get(e['id'],{})
+    rec=dict(old); rec.update(id=e['id'],name=e['name'],game=e['game'],group=e['group']);rec.pop('error',None)
+    if cfg.get('reject_video'):rec['video']=None
+    if cfg.get('replace_image'):rec['image']=None
+    try:
+        if cfg.get('video') or cfg.get('queries'):
+            v=replacement_video(e,cfg)
+            if v:rec['video']=v
+        video=rec.get('video');im=rec.get('image')
+        improve=(not im or cfg.get('replace_image') or 'preview' in im.get('kind','').lower() or BAD_IMAGE.search(im.get('url','')) or 'gif' in im.get('url','').lower())
+        if improve:
+            chosen=exact_image(e)
+            if chosen:im=chosen
+            elif video and not video.get('unresolved'):
+                frame=storyboard_image(e,video)
+                if frame:im=frame
+                elif not im:im=image_url(e,video.get('thumbnail',''),video['url'],'Item-video preview (not a separate weapon photograph)')
+        rec.update(image=im)
+    except Exception as exc:rec['error']=type(exc).__name__+': '+str(exc)[:220]
+    rec['complete']=bool(rec.get('image') and rec.get('video') and not rec['video'].get('unresolved'))
+    return rec,{'id':e['id'],'complete':rec['complete']}
+
+def sources_page(entries,media):
+    lines=['# Weapon inspiration media sources','','[Gaming gallery](Video-Game-Weapon-Inspirations) | [Historical gallery](Historical-and-Experimental-Gun-Inspirations)','','These source records preserve image attribution, exact video identity and the distinction between individual and collection showcases. Full footage has not been independently watched for every entry.','']
+    for e in entries:
+        m=media[e['id']];im=m.get('image');v=m.get('video')
+        lines += [f'<a id="ref-{e["id"]}"></a>',f'## {e["name"]} ({e["game"]})','']
+        if im:lines += [f'Image type: {im["kind"]}. [Image source]({im["source"]}).']
+        if v:lines += [f'[Video: {g.text(v.get("title",e["name"]))}]({v["url"]}). Match: {v["match"]}.']
+        note=CONFIG.get(e['id'],{}).get('note')
+        if note:lines += [note]
+        lines += ['']
+    (g.DOCS/'Weapon-Inspiration-Media-Sources.md').write_text('\n'.join(lines),encoding='utf-8')
+
+OLD_VERIFY=f.verify_live
+
+def verify_live(wiki):
+    qa=ROOT/'qa';qa.mkdir(exist_ok=True)
+    for page in g.PAGES:
+        r=g.session().get(g.WIKI+page,timeout=45)
+        (qa/(page+'.html')).write_text(r.text,encoding='utf-8')
+    OLD_VERIFY(wiki)
+    src=g.DOCS/'Weapon-Inspiration-Media-Sources.md'
+    assert src.read_bytes()==(Path(wiki)/src.name).read_bytes()
+
+f.render=render
+f.finish=finish
+f.verify_live=verify_live
+
+def main():
+    if len(sys.argv)>1 and sys.argv[1]=='--publish-only':
+        g.publish(sys.argv[2])
+        import shutil
+        shutil.copyfile(g.DOCS/'Weapon-Inspiration-Media-Sources.md',Path(sys.argv[2])/'Weapon-Inspiration-Media-Sources.md')
+        return
+    if len(sys.argv)>1 and sys.argv[1]=='--verify-live':
+        verify_live(sys.argv[2]);return
+    c=g.load(ROOT/'catalog.json',{});entries=[f.identity(e) for e in c['historical']+c['gaming']];m=g.load(ROOT/'media.json',{})
+    targets={}
+    for e in entries:
+        im=m[e['id']].get('image')
+        if e['id'] in CONFIG or not m[e['id']].get('complete') or not im or 'preview' in im.get('kind','').lower() or BAD_IMAGE.search(im.get('url','')) or '.gif' in im.get('url','').lower():targets[e['id']]={}
+    g.save(ROOT/'completion-overrides.json',targets)
+    f.main()
+    c=g.load(ROOT/'catalog.json',{});m=g.load(ROOT/'media.json',{});entries=c['historical']+c['gaming']
+    sources_page(entries,m)
+    g.save(ROOT/'quality-repair-evidence.json',REQUEST_NOTES)
+    for key,page in zip(('gaming','historical'),g.PAGES):
+        body=(g.DOCS/(page+'.md')).read_text()
+        assert len(body.encode())<490000,(page,len(body.encode()))
+        assert body.count('**<br>')==len(c[key])
+    print('Compact rendering complete, with every original record retained.',flush=True)
+
+if __name__=='__main__':main()
