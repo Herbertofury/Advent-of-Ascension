@@ -1,0 +1,78 @@
+name: Minecraft gun inspiration atlas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/minecraft-gun-inspirations.yml'
+      - 'docs/minecraft-gun-mods/run.py'
+permissions:
+  contents: write
+concurrency:
+  group: minecraft-gun-inspirations
+  cancel-in-progress: false
+jobs:
+  atlas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Open scoped source without touching existing galleries
+        env:
+          GIT_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/minecraft-guns-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GIT_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/docs/AGENTS.md\n/AGENTS.md\n' > .git/info/sparse-checkout
+          git checkout main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Research and build the current stage
+        env:
+          GIT_TOKEN: ${{ github.token }}
+          GIT_ASKPASS: ${{ runner.temp }}/minecraft-guns-askpass.sh
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          cd source
+          if [ -f docs/minecraft-gun-mods/run.py ]; then
+            python3 docs/minecraft-gun-mods/run.py
+          else
+            python3 docs/minecraft-gun-mods/research.py --discover
+          fi
+      - name: Persist research checkpoint
+        if: always()
+        env:
+          GIT_TOKEN: ${{ github.token }}
+          GIT_ASKPASS: ${{ runner.temp }}/minecraft-guns-askpass.sh
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          set -euo pipefail
+          cd source
+          find docs/minecraft-gun-mods -maxdepth 1 -name '*.json' -print0 | xargs -0 -r git add --
+          if [ -d docs/minecraft-gun-mods/assets ]; then git add docs/minecraft-gun-mods/assets; fi
+          if [ -d docs/minecraft-gun-mods/qa ]; then git add docs/minecraft-gun-mods/qa/*.json 2>/dev/null || true; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Checkpoint source-grounded Minecraft gun-mod research'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          echo "SOURCE_COMMIT=$(git rev-parse HEAD)"
+      - name: Preserve complete reproducible research bundle
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-inspiration-atlas
+          path: |
+            source/docs/minecraft-gun-mods/
+            source/docs/Minecraft-Gun-Mod-Inspirations*.md
+            source/docs/Weapon-Inspirations.md
+            !source/docs/minecraft-gun-mods/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
