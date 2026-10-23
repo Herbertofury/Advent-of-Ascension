@@ -294,18 +294,19 @@ def render(entries,media,title,other):
 def publish(wiki):
     wiki=Path(wiki)
     for page in PAGES:
-        source=DOCS/(page+'.md'); assert source.exists(); shutil.copyfile(source,wiki/source.name)
-    start,end='<!-- weapon-inspirations:start -->','<!-- weapon-inspirations:end -->'
-    block=start+'\n## Weapon inspirations\n\n- [Video-game weapon inspirations](Video-Game-Weapon-Inspirations)\n- [Historical and experimental gun inspirations](Historical-and-Experimental-Gun-Inspirations)\n'+end
-    for name in ('Home.md','_Sidebar.md','Weapon-Reference-Library.md'):
-        target=wiki/name
-        if name=='Weapon-Reference-Library.md' and not target.exists(): continue
-        body=target.read_text(encoding='utf-8') if target.exists() else ''
-        if start in body and end in body:
-            a=body.index(start); b=body.index(end,a)+len(end); body=body[:a]+block+body[b:]
-        else: body=body.rstrip()+'\n\n'+block+'\n'
-        target.write_text(body,encoding='utf-8')
-    print('Prepared actual Wiki pages; original navigation preserved',flush=True)
+        source=DOCS/(page+'.md');assert source.exists();shutil.copyfile(source,wiki/source.name)
+    import importlib.util
+    _nav_path=Path(__file__).resolve().parent.parent/'weapon_inspiration_navigation.py'
+    if not _nav_path.exists():
+        import subprocess
+        _source=subprocess.run(['git','show','HEAD:docs/weapon_inspiration_navigation.py'],cwd=_nav_path.parent.parent,check=True,capture_output=True).stdout
+        _nav_path.write_bytes(_source)
+    _nav_spec=importlib.util.spec_from_file_location('weapon_nav_shared',_nav_path)
+    _nav=importlib.util.module_from_spec(_nav_spec);_nav_spec.loader.exec_module(_nav)
+    _nav.apply(wiki)
+    print('Prepared galleries with shared navigation',flush=True)
+
+
 
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--publish-only'); args=parser.parse_args()

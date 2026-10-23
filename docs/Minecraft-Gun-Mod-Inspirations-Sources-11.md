@@ -1457,3 +1457,77 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
+<a id="ref-patreon-159166702"></a>
+### AEG-Tactical
+
+[Patreon project](https://www.patreon.com/Fission_TrackStudio/posts/aeg-tactical-for-159166702) · Checked 2026-10-23. Type: Bedrock add-on.
+
+[Paid creator release and public details](https://www.patreon.com/Fission_TrackStudio/posts/aeg-tactical-for-159166702) [Official creator channel](https://www.patreon.com/cw/Fission_TrackStudio)
+
+
+Public creator description only. The purchased binary, its version/loader pairing and private attachments were not inspected.
+
+<a id="ref-cf-1123163"></a>
+### [TaCZ] It a Big Gun!!!
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1100/361/256/256/638647655036765578.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `97a8db556b2d7cc5294f200fe92454925c1cd773ccf85f884e29d00f8dcc2fc0`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_15a8c107-d8f8-4a6c-b441-8b0520fb5c6f.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `3edd8710d25c3792fb1ec5c2d45ce25511f1a75a41faf724d95bf240be181355`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_2fa48097-4741-413e-bcb7-d43b9a5e1bf0.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `2b75c2a98527b86c409a1a848ed10257855ee55d9e866f06139bd51982c0ca3b`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_670e5f15-a3a4-4c09-b6a1-aa77ee770568.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `5ae2d7f530950a7fbd9786e45646446fa5791e636d043a257705bb20f5a81023`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_eb5a2bc5-5a03-4d18-ae9f-9dd38a125a02.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `d1039ce550da4849f7babab57815f0bd552971d371842ec615c50721f99c4252`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_1d5a57a8-1164-4323-a60a-944a66840de5.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `00bf6251964e3b62bde6fd47cd10af6a26fcb7aeae953048a6a19d44f49e795a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_283e62b7-e90b-4bca-a864-c9a3472770a5.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `ebc16e5a2f0ef1ae189a65b95e3797cd42cdba229ce9f8d3df23420b3877b1b3`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_09ae36cb-4c4b-4c24-9ec0-ca28708f877b.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `4e9a954bad82ed72248e8c38ed162aeaa8e4ce5b6d955e95ac8649d11f1c802c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_a4bc075c-3f26-42ad-82cb-15d9842e224e.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `99a7d0441c43614ceeed0e323b00a2034c2b17217910a5109023c8693d5aae55`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_76b715e7-fad7-4288-b067-e699502c2799.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `92f2574bfaeb99f74f8bdb930fb7f40eb3fa2a3a2807e9f7439faf23a9f86091`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_bddee977-b860-4cfd-ba3b-c972abc03c54.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `48b4627a3fd682f401979cd75fd410263aaee5455e202b7be559eb2b64ac2238`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_70c00ee3-7106-4816-972a-99c55e6ba263.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `6c60d1595af10b8d9903d7fd39f02d4a375a5d35fb7dc1c2450833b6180f3a2e`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_e5359608-73ad-4d4f-822e-7c0b5ed42493.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `e73eaba152a9e6ebfb31337e460c951071b31bf6bc71497653c55bb1e0b7b642`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1123163/description_e28c9c73-838e-41db-8bde-337d67446ad3.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun). SHA-256 `311da96a45b96d9f6a718c95c916fc6c96e29066d9976ceaa1b99ad0d2583b7c`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1184862"></a>
+### [TaCZ] Doom Pack
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-doom-pack) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-doom-pack) [Patreon creator channel](https://www.patreon.com/c/drooling) [Ko-fi creator channel](https://ko-fi.com/jonhnathan)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1162/364/256/256/638731522952599827.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-doom-pack). SHA-256 `641324b8e8823ae11b513e3536aee32b2d75f14df24c795b973e87e44489ceb4`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1184862/description_428c1a1f-f85d-4419-aa37-356684f43907.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-doom-pack). SHA-256 `308ea4951279b3153d31a4486d3e95b88ece95ed77408bf1bbc659c317c15cb9`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1184862/description_6addc697-9f30-4f14-9488-ac47b0c0eefa.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-doom-pack). SHA-256 `73b8f5c01f354e7c82a1bc0c6b127836510d1d2b69486673d093e5073634bba0`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1304142"></a>
+### [TaCZ]Infinite Origin Weapon Pack
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-infinite-origin) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-infinite-origin)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1350/629/256/256/638877554793932174.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-infinite-origin). SHA-256 `06f6f5f444da9eaaba0c7f68aaca3f163176431f0e7b8c46b09e810b524cceac`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_f385b5e1-0431-40a5-b9c9-9760cd73a193.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-infinite-origin). SHA-256 `192d2830f6b868e6fb149cb64009ff101774e1cb6b16db1e7e8799115871f278`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_21670d09-27c5-409c-977a-e42cd6454493.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-infinite-origin). SHA-256 `0ca5e63b3c27072084bea35f6e26ba076ce26eac858dd991e2671cfe93648cd6`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1594666"></a>
+### [TacZ] FortCraft
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/fortcraft) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/fortcraft) [Ko-fi creator channel](https://ko-fi.com/jonhnathan) [Afdian creator channel](https://ifdian.net/a/Jonhnathan)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1895/871/256/256/639185254273512616.png) · [creator source](https://www.curseforge.com/minecraft/customization/fortcraft). SHA-256 `56638fa0fe43e4a8ab28f1b360534a6ee323a16a3354764a4d992a80ac8e8706`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_63edd9d4-13e1-4aeb-a7ca-d51f143e0205.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/fortcraft). SHA-256 `7b669c4e46e11bdadf617829268d7ae6a449981a98bdda29cba0768f21b04d3a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_b2cb271b-2e25-4f49-846c-d9b82c6f4b2d.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/fortcraft). SHA-256 `47f500177e7c6f1fa284e436c3a79653ed5127674f47ad2aa934098b3dfdc333`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_4f27afcf-5d29-45da-a9aa-a801247cfbf9.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/fortcraft). SHA-256 `fd80ea3f020e415d8c0508fb50ea5ea29c1817a1d2d26e388c5c143ee77e2132`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+

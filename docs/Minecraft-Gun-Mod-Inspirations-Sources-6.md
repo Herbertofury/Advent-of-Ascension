@@ -1302,7 +1302,7 @@ All published version metadata read; latest file for each supported version/load
 
 [CurseForge project](https://www.curseforge.com/minecraft/mc-mods/argos-weaponry) · Checked 2026-10-23. Type: Gun / content pack.
 
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/argos-weaponry)
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/argos-weaponry) [Official creator Patreon](https://www.patreon.com/c/ArgosWilliams)
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2070/509/256/256/639259725573874572.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/argos-weaponry). SHA-256 `015d2b484d364a087e1c96cde32616179ffde55959e2422aafd68920055cf85a`.
 
@@ -1392,7 +1392,7 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 [CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-gamma-gunpack) · Checked 2026-10-23. Type: Gun / content pack.
 
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-gamma-gunpack)
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-gamma-gunpack) [Creator-linked Patreon post](https://www.patreon.com/mrzcraft/posts/tacz-gamma-163114557)
 
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1585190/description_f8e36e13-5c24-4d1e-b8e1-242c24a3b182.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-gamma-gunpack). SHA-256 `720c2c4a09525f2e75237d06b2913a0fe863ec6f5cb6c266bdcda6c27a22f198`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1881/508/256/256/639178060119042589.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-gamma-gunpack). SHA-256 `f5120d90787966f20b4fdb5c293a4888e4fcbd624ebd8ff848a64b24b2b64cf2`.

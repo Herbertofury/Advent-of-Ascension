@@ -17,21 +17,26 @@ def browser(pw):
  return pw.chromium.launch(**options)
 
 def prepare(wiki):
- wiki=Path(wiki);allowed={'TaCZ-Gunpacks.md','Weapon-Inspirations.md','Minecraft-Gun-Mod-Inspirations.md','_Sidebar.md','Home.md'}
- before={p.name:digest(p) for p in wiki.glob('*.md') if p.name not in allowed}
- shutil.copyfile(DOCS/'TaCZ-Gunpacks.md',wiki/'TaCZ-Gunpacks.md')
- start='<!-- tacz-gunpack-lab:start -->';end='<!-- tacz-gunpack-lab:end -->'
- block=start+'\n### TaCZ gunpacks: actual additional guns\n\n- [Dedicated TaCZ Gunpack Lab: popularity, favorites and your ratings]('+SITE+')\n- [Illustrated TaCZ gunpack rankings and methodology](TaCZ-Gunpacks)\n'+end
- for name in allowed-{'TaCZ-Gunpacks.md'}:
-  p=wiki/name;assert p.exists(),name;body=p.read_text()
-  if start in body and end in body:
-   a=body.index(start);b=body.index(end,a)+len(end);body=body[:a]+block+body[b:]
-  elif '<!-- minecraft-gun-inspirations:end -->' in body:body=body.replace('<!-- minecraft-gun-inspirations:end -->',block+'\n<!-- minecraft-gun-inspirations:end -->')
-  else:body=body.rstrip()+'\n\n'+block+'\n'
-  p.write_text(body)
- assert all(digest(wiki/name)==sha for name,sha in before.items())
- save(ROOT/'qa/preserved-wiki.json',{'unchangedPages':len(before),'sha256':before})
- print('Wiki prepared; preserved',len(before),'other pages',flush=True)
+    wiki=Path(wiki)
+    allowed={'TaCZ-Gunpacks.md','Weapon-Inspirations.md','Minecraft-Gun-Mod-Inspirations.md','Weapon-Reference-Library.md','_Sidebar.md','Home.md','Minecraft-Gunpack-Creator-Discoveries.md'}
+    before={p.name:digest(p) for p in wiki.glob('*.md') if p.name not in allowed}
+    shutil.copyfile(DOCS/'TaCZ-Gunpacks.md',wiki/'TaCZ-Gunpacks.md')
+    extra=DOCS/'Minecraft-Gunpack-Creator-Discoveries.md'
+    if extra.exists():shutil.copyfile(extra,wiki/extra.name)
+    import importlib.util
+    _nav_path=Path(__file__).resolve().parent.parent.parent/'weapon_inspiration_navigation.py'
+    if not _nav_path.exists():
+        import subprocess
+        _source=subprocess.run(['git','show','HEAD:docs/weapon_inspiration_navigation.py'],cwd=_nav_path.parent.parent,check=True,capture_output=True).stdout
+        _nav_path.write_bytes(_source)
+    _nav_spec=importlib.util.spec_from_file_location('weapon_nav_shared',_nav_path)
+    _nav=importlib.util.module_from_spec(_nav_spec);_nav_spec.loader.exec_module(_nav)
+    _nav.apply(wiki)
+    assert all(digest(wiki/name)==sha for name,sha in before.items())
+    save(ROOT/'qa/preserved-wiki.json',{'unchangedPages':len(before),'sha256':before})
+    print('Wiki prepared with shared navigation',flush=True)
+
+
 
 def verify():
  d=json.loads((ROOT/'catalog.json').read_text());out=ROOT/'qa/live';out.mkdir(parents=True,exist_ok=True)

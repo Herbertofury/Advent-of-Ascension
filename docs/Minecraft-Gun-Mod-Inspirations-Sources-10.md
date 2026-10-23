@@ -2315,7 +2315,7 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 [Modrinth project](https://modrinth.com/mod/argos-weaponry) · Checked 2026-10-23. Type: Standalone gun mod.
 
-[Project &amp; downloads](https://modrinth.com/mod/argos-weaponry)
+[Project &amp; downloads](https://modrinth.com/mod/argos-weaponry) [Official creator Patreon](https://www.patreon.com/c/ArgosWilliams)
 
 - Project gallery: [exact image](https://cdn.modrinth.com/data/m7OPvS1J/images/a401f7baf1a91e9036ce820d64d6ee2519de6d24_350.webp) · [creator source](https://modrinth.com/mod/argos-weaponry/gallery). SHA-256 `583848d17b97648e491fb5a69c4c03cd0163c82ea57aa8b30a47b570af040361`.
 - Project gallery: [exact image](https://cdn.modrinth.com/data/m7OPvS1J/images/15c0b61c849cf6f14bccec2b25046c04e1616c7e_350.webp) · [creator source](https://modrinth.com/mod/argos-weaponry/gallery). SHA-256 `f2e4112b943518db9af31569eb07c7af2e051f39d3e6475b2651af2b4d72b124`.

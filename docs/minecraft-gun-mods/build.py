@@ -144,24 +144,25 @@ def managed(body,block,start='<!-- minecraft-gun-inspirations:start -->',end='<!
  return body.rstrip()+'\n\n'+block+'\n'
 
 def publish(wiki_path):
- wiki=Path(wiki_path);manifest=json.loads((ROOT/'wiki-manifest.json').read_text());block=hub_block()
- for page in manifest['pages']:
-  name=page['name']+'.md';(wiki/name).write_bytes((DOCS/name).read_bytes())
- hub=wiki/'Weapon-Inspirations.md'
- body=hub.read_text(encoding='utf-8') if hub.exists() else '# Weapon inspirations\n\nExplore unusual weapon shapes, animated handling and playful fictional effects for original Advent of Ascension designs. References are not implemented features.\n\n- [Video-game weapon inspirations](Video-Game-Weapon-Inspirations)\n- [More gaming inspirations](Video-Game-Weapon-Inspirations-Volume-2)\n- [Historical and experimental guns](Historical-and-Experimental-Gun-Inspirations)\n- [Ascension Armory](Weapon-Overhaul)\n'
- body=managed(body,block);hub.write_text(body,encoding='utf-8');(DOCS/hub.name).write_text(body,encoding='utf-8')
- nav='<!-- minecraft-gun-inspirations:start -->\n- [Weapon inspirations](Weapon-Inspirations)\n  - [Minecraft gun mods: illustrated research](Minecraft-Gun-Mod-Inspirations)\n  - [Minecraft Gun Atlas explorer]('+SITE+')\n<!-- minecraft-gun-inspirations:end -->'
- for name in ('Home.md','_Sidebar.md','Weapon-Reference-Library.md'):
-  p=wiki/name
-  if not p.exists() and name=='Weapon-Reference-Library.md':continue
-  text=p.read_text(encoding='utf-8') if p.exists() else ''
-  # Add within the existing inspiration section when present; otherwise append a clearly labeled section.
-  if '<!-- weapon-inspirations:end -->' in text and '<!-- minecraft-gun-inspirations:start -->' not in text:
-   text=text.replace('<!-- weapon-inspirations:end -->',nav+'\n<!-- weapon-inspirations:end -->')
-  else:text=managed(text,nav)
-  p.write_text(text,encoding='utf-8')
-  if name=='Weapon-Reference-Library.md':(DOCS/name).write_text(text,encoding='utf-8')
- print('Prepared actual Wiki pages and preserved existing navigation',flush=True)
+    wiki=Path(wiki_path);manifest=json.loads((ROOT/'wiki-manifest.json').read_text())
+    for page in manifest['pages']:
+        name=page['name']+'.md';(wiki/name).write_bytes((DOCS/name).read_bytes())
+    extra=DOCS/'Minecraft-Gunpack-Creator-Discoveries.md'
+    if extra.exists():(wiki/extra.name).write_bytes(extra.read_bytes())
+    import importlib.util
+    _nav_path=Path(__file__).resolve().parent.parent/'weapon_inspiration_navigation.py'
+    if not _nav_path.exists():
+        import subprocess
+        _source=subprocess.run(['git','show','HEAD:docs/weapon_inspiration_navigation.py'],cwd=_nav_path.parent.parent,check=True,capture_output=True).stdout
+        _nav_path.write_bytes(_source)
+    _nav_spec=importlib.util.spec_from_file_location('weapon_nav_shared',_nav_path)
+    _nav=importlib.util.module_from_spec(_nav_spec);_nav_spec.loader.exec_module(_nav)
+    _nav.apply(wiki)
+    for name in ('Weapon-Inspirations.md','Weapon-Reference-Library.md','Minecraft-Gun-Mod-Inspirations.md'):
+        if (wiki/name).exists():(DOCS/name).write_bytes((wiki/name).read_bytes())
+    print('Published one canonical Weapon Inspirations hierarchy',flush=True)
+
+
 
 def build():
  decode_ui();data=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'));proof=validate(data)
@@ -170,6 +171,12 @@ def build():
  make_wiki(data,proof)
  (ROOT/'README.md').write_text('# Minecraft Gun Atlas\n\nOpen `index.html` beside `catalog.js`, `app.css`, `app.js` and the `assets` directory. The app works as a static GitHub Pages site and as an offline folder. No build service or account is required.\n\nFavorites, notes and saved views are stored in this browser. Export a collection backup before moving devices. Import merges data and preserves unavailable project IDs. It does not write to the original spreadsheet.\n\n## Reproducibility\n\n`research.py` records source discovery; `collect.py` resolves project/release/media metadata; `catalog.json` is the canonical snapshot; `build.py` builds the portable explorer and Wiki pages; `qa/browser_test.py` exercises the real app. The four original UI source files are transported in a two-part checksum-verified bundle and are committed as normal source files after decoding.\n\nSource timestamps are evidence freshness, not a compatibility guarantee. No Minecraft mod binaries are downloaded, installed or executed by this research pipeline. Creator media is attributed per project and is reference material, not redistributed mod assets.\n',encoding='utf-8')
  print(json.dumps(proof,indent=2),flush=True)
+ # creator_delta_refresh: preserve canonical creator discoveries on rebuild
+ import importlib.util as _iu
+ _delta=ROOT/'creator-discoveries/build_update.py'
+ if _delta.exists():
+  _spec=_iu.spec_from_file_location('creator_delta_update',_delta);_module=_iu.module_from_spec(_spec);_spec.loader.exec_module(_module);_module.refresh()
+
 if __name__=='__main__':
  if len(sys.argv)>1 and sys.argv[1]=='--publish':publish(sys.argv[2])
  else:build()
