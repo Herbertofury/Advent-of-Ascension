@@ -15,6 +15,9 @@ def main():
   files=json.loads(raw)
   assert set(files)=={'build_ui.py','ranking.js','tacz.css','test_tacz.py'}
   for name,content in files.items():(ROOT/name).write_text(content,encoding='utf-8')
+ if (ROOT/'patch_source.py').exists():
+  import patch_source
+  patch_source.main()
  if (ROOT/'build_ui.py').exists():
   import build_ui
   build_ui.main()
