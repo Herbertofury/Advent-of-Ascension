@@ -80,22 +80,9 @@ def finish_known_delta():
  m[k]['image']['kind']="Named Mancubus chapter screenshot, ZioMcCall's Flavour v22 variant"
  m[k]['source_note']="The original v22 showcase labels 11:35 as Mancubus, but its chapter thumbnail still shows Revenant launchers. The displayed weapon picture and Watch link instead use the explicitly named ZioMcCall's Flavour v22 variant at 12:47; the original reference is retained here."
  m[k]['additional_sources']=list(dict.fromkeys(m[k].get('additional_sources',[])+['https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s']))
- k='d21c72146df8';url='https://www.youtube.com/watch?v=L_59BErDMTI';r=g.fetch(url)
- assert r['ok'],'Ability chapter metadata unavailable'
- data=f.parse_json_after(r['body'],[r'(?:var\s+ytInitialData|window\["ytInitialData"\]|ytInitialData)\s*=\s*'])
- chosen=None;chapters=[]
- for obj in g.walk(data):
-  ch=obj.get('chapterRenderer')
-  if not ch:continue
-  title=g.txt(ch.get('title'));thumbs=ch.get('thumbnail',{}).get('thumbnails',[])
-  chapters.append({'title':title,'time':ch.get('timeRangeStartMillis')})
-  if any(a in g.norm(title) for a in ('asperg','holy water','aspersor')) and thumbs:
-   chosen={'title':title,'url':thumbs[-1]['url'],'time':ch.get('timeRangeStartMillis')};break
- g.save(ROOT/'qa'/'final-ability-evidence.json',{'source':url,'chapters':chapters,'chosen':chosen})
- assert chosen,'Named holy-water chapter not located'
- im=p.image_url(idx[k],chosen['url'],m[k]['video']['url'],'Named holy-water ability chapter screenshot')
- assert im,'Named ability screenshot did not decode'
- im.update(chapter_title=chosen['title'],chapter_time=chosen['time']);m[k]['image']=im
+ from ability_frame import select_or_probe
+ k='d21c72146df8'
+ im=select_or_probe(d,idx[k],frame=None);m[k]['image']=im
  Image.open(ROOT/im['local']).save(ROOT/'qa'/'final-ability.png')
  d.TARGETS={};d.write_all(c,m)
  errors=[]
