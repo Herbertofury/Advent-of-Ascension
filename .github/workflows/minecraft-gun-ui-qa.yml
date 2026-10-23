@@ -1,0 +1,49 @@
+name: Minecraft gun explorer interface QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/minecraft-gun-ui-qa.yml']
+permissions:
+  contents: read
+jobs:
+  interface:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read only the exact interface source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p ui
+          for file in ui-source-1.b64 ui-source-2.b64 build.py; do
+            gh api "repos/${GITHUB_REPOSITORY}/contents/docs/minecraft-gun-mods/${file}?ref=${GITHUB_SHA}" --jq .content | base64 --decode > "ui/${file}"
+          done
+      - name: Decode source and construct isolated UI fixtures
+        run: |
+          python3 -m pip install --quiet pillow playwright
+          python3 - <<'PY'
+          import sys,json
+          from pathlib import Path
+          sys.path.insert(0,'ui');import build
+          build.decode_ui()
+          items=[]
+          for i in range(12):
+              rel={'id':'fixture-release-'+str(i),'name':'Interface fixture file','date':'2026-10-01T00:00:00Z','versions':['1.20.1'],'loaders':['Forge'],'channel':'release','url':'https://modrinth.com','provider':'Modrinth'}
+              items.append({'id':'fixture-'+str(i),'name':'QA Fixture '+str(i),'summary':'Interface test data only, not research or published catalog content.','descriptionExcerpt':'A test fixture.','authors':[{'name':'QA'}],'type':'Standalone gun mod' if i%2 else 'Gun / content pack','ecosystem':'Independent','edition':'Java','curation':'Study anchor','studyPriority':90-i,'priorityBasis':'Fixture','earlierPick':i==0,'themes':['Animation & handling'],'tags':[],'inspiration':['Review the interface.'],'cautions':['Not a real mod.'],'projectUrl':'https://modrinth.com','links':[{'provider':'Modrinth','label':'Fixture','url':'https://modrinth.com'}],'videos':[],'media':[],'releases':[rel],'latest':rel,'latestStable':rel,'versions':['1.20.1'],'loaders':['Forge'],'created':'2025-01-01','updated':'2026-10-01','activity':'Updated within 90 days','downloads':1000+i,'checkedAt':'2026-10-23','license':'Test only','sourceRows':[],'dependencies':[],'evidence':{'releaseScope':'Fixture'}})
+          data={'catalogId':'QA-NOT-PRODUCTION','checkedDate':'2026-10-23','items':items,'sources':[],'coverage':{},'build':{'dataHash':'test-fixture'}}
+          Path('ui/catalog.js').write_text('window.GUN_ATLAS='+json.dumps(data)+';')
+          PY
+      - name: Exercise all available interface behavior in Chromium
+        run: |
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 ui/qa/browser_test.py --output ui/qa/fixture-results
+      - name: Preserve interface test evidence only
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-ui-qa
+          path: ui/qa/fixture-results/
+          retention-days: 30
+          if-no-files-found: warn
