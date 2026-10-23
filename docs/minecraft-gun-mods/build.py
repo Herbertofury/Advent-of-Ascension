@@ -15,7 +15,10 @@ BUNDLE_HASH='2614a599fe92b16425624ee71f0480d6e162cb9d96305d88ffb5f57cf813b9fd'
 
 def save(path,value):
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
-def md(s):return html.escape(str(s or '')).replace('|','&#124;').replace('\n',' ')
+def md(s):
+ value=html.escape(str(s or '')).replace('|','&#124;').replace('\n',' ')
+ for ch in '*_`[]~':value=value.replace(ch,'&#'+str(ord(ch))+';')
+ return value
 def slug(s):return re.sub('[^a-z0-9]+','-',s.lower()).strip('-')
 def decode_ui():
  raw=lzma.decompress(base64.b64decode(''.join((ROOT/f'ui-source-{i}.b64').read_text().strip() for i in (1,2)),validate=True))
