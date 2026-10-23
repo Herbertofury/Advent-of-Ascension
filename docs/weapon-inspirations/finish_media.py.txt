@@ -1,0 +1,389 @@
+#!/usr/bin/env python3
+"""Resume the existing 1,044-entry Wiki gallery without losing its evidence."""
+from __future__ import annotations
+import collections, concurrent.futures, hashlib, html, importlib.util, io, json, re, sys, textwrap
+from pathlib import Path
+from urllib.parse import urlencode, urljoin
+import requests
+from bs4 import BeautifulSoup
+from PIL import Image, ImageDraw, ImageFont
+
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+import build_galleries as g
+
+ALIASES = {
+ 'Calico M960': ['Calico M960', 'Calico 960'],
+ 'Pfeifer Zeliska': ['Pfeifer Zeliska', 'Zeliska', 'Pfeifer .600'],
+ 'Mannlicher M1894': ['Mannlicher 1894', 'Mannlicher Model 1894'],
+ 'XM214 Microgun': ['XM214', 'GE Six Pak'],
+ 'Lorenzoni repeater': ['Lorenzoni', 'Lorenzoni repeating'],
+ 'K11 dual-barrel': ['Daewoo K11', 'S&T K11'],
+ 'Barrett XM109': ['XM109', 'Barrett 25mm'],
+ 'LPO-50 flamethrower': ['LPO-50', 'LPO 50'],
+ 'Gustloff Volkssturmgewehr': ['Gustloff VG1-5', 'VG 1-5', 'Volkssturmgewehr'],
+ 'Directional Pad': ['Directional Pad', 'D-Pad'],
+ 'Painbow (Jackal PDW)': ['Painbow', 'Jackal PDW Painbow'],
+ 'Toybox Trigger (CL-40)': ['Toybox Trigger', 'CL40 Toybox'],
+ 'Evori Dreamwings Wand': ['Evori Dreamwings melee', 'Evori Dreamwings wand'],
+ 'Replicant': ['Replicant', 'KN57 Replicant'],
+ 'Avulsion': ['Avulsion', 'Avulsion Mastercraft'],
+ 'Authorized Destroyed': ['Authorized Destroyed'],
+ 'Dubstep Gun — Da Wub': ['Dubstep Gun Da Wub', 'Dubstep gun'],
+ 'War Breaker': ['War Breaker', 'Warbreaker'],
+ 'De-animator': ['De-animator', 'Deanimator'],
+ 'Disregulator': ['Disregulator'],
+ 'Ultimate Powershout': ['Ultimate Power Shout', 'Ultimate Powershout', 'Power Shout'],
+ 'Tinkerers Raygun (TUWC)': ["Tinkerer's Raygun", 'Tinkerers Raygun'],
+ 'Makeshift Nailgun (TUWC)': ['Makeshift Nailgun'],
+ 'AR2 Combine Pulse Rifle': ['AR2', 'Combine Pulse Rifle', 'Pulse Rifle'],
+ 'Ripper Heart': ['Ripper Heart', 'Heart'],
+ 'Rail Gun': ['Railgun', 'Rail Gun'],
+ 'Disc Blade Gun': ['Disc Blade Gun', 'Disc Blade'],
+ 'Tornado Launcher': ['Tornado Launcher', 'Tornado'],
+ 'Nightmare Box': ['Nightmare Box'],
+ "World's Smallest Black Hole": ["World's Smallest Black Hole", 'Black Hole'],
+ 'Stingbee': ['Stingbee', 'Stingbees', 'Sting Bee'],
+ 'Crawler': ['Crawler', 'Crawlers'],
+ 'Acid Sprayer': ['Acid Sprayer', 'Acid Gun'],
+ 'Service Weapon Grip': ['Grip', 'Service Weapon Grip'],
+ 'Service Weapon Pierce': ['Pierce', 'Service Weapon Pierce'],
+ 'Service Weapon Surge': ['Surge', 'Service Weapon Surge'],
+ 'Black Hole Spell': ['Black Hole'],
+ 'Giga Sawblade Spell': ['Giga Sawblade', 'Giga Saw Blade'],
+}
+GAME_ALIASES = {
+ 'Shadow Warrior (1997)': ['Shadow Warrior 1997', 'Shadow Warrior classic'],
+ 'Ratchet & Clank: Up Your Arsenal': ['Ratchet Clank 3', 'Ratchet Up Your Arsenal'],
+ 'Ratchet & Clank: Tools of Destruction': ['Ratchet Tools of Destruction', 'Ratchet TOD'],
+ 'Ratchet & Clank: Into the Nexus': ['Ratchet Nexus'],
+ 'Prey (2006)': ['Prey 2006'],
+ 'Minecraft - Scorched Guns 2': ['Scorched Guns 2'],
+ 'Call of Duty: Black Ops 4': ['BO4', 'Black Ops 4'],
+ 'Call of Duty: Black Ops 6': ['BO6', 'Black Ops 6'],
+ 'Call of Duty: Black Ops 7': ['BO7', 'Black Ops 7'],
+ 'Call of Duty: Black Ops Cold War': ['Cold War'],
+ 'Call of Duty: Modern Warfare III': ['MW3', 'Modern Warfare 3'],
+ 'Oddworld: Stranger\'s Wrath': ['Stranger Wrath', 'Oddworld'],
+}
+COLLECTIONS = {'Rhythm Combat Arsenal': 'Crypt of the NecroDancer weapons',
+               'Mythic Weapons (general)': 'Overwatch 2 mythic weapons',
+               'Felyne-themed Equipment': 'Monster Hunter Felyne weapons'}
+SOURCE_PAGES = {
+ 'Mannlicher M1894': 'https://www.forgottenweapons.com/mannlicher-model-1894-pistols/',
+}
+
+def identity(entry):
+    entry['id'] = str(entry['id'])
+    return entry
+
+def parse_json_after(body, patterns):
+    for pattern in patterns:
+        m = re.search(pattern, body)
+        if m:
+            try:
+                return json.JSONDecoder().raw_decode(body[m.end():])[0]
+            except ValueError:
+                pass
+    return {}
+
+def video_data(url):
+    vid = g.video_id(url)
+    if not vid:
+        return None
+    r = g.fetch('https://www.youtube.com/watch?v=' + vid)
+    if not r['ok']:
+        return None
+    data = parse_json_after(r['body'], [r'(?:var\s+)?ytInitialPlayerResponse\s*=\s*'])
+    details = data.get('videoDetails', {})
+    if not details:
+        o = g.fetch('https://www.youtube.com/oembed?' + urlencode({'url': url, 'format': 'json'}))
+        if o['ok']:
+            try:
+                d = json.loads(o['body'])
+                details = {'title': d.get('title'), 'author': d.get('author_name'),
+                           'thumbnail': {'thumbnails': [{'url': d.get('thumbnail_url')}]}}
+            except ValueError:
+                pass
+    if not details.get('title'):
+        return None
+    thumbs = details.get('thumbnail', {}).get('thumbnails', [])
+    return {'url': url, 'id': vid, 'title': details['title'], 'channel': details.get('author', ''),
+            'description': details.get('shortDescription', ''),
+            'thumbnail': thumbs[-1]['url'] if thumbs else 'https://i.ytimg.com/vi/' + vid + '/hqdefault.jpg',
+            'playback': 'Video metadata checked; full footage not independently watched',
+            'evidence_url': url}
+
+def search(query):
+    r = g.fetch('https://www.youtube.com/results?' + urlencode({'search_query': query}))
+    if not r['ok']:
+        return []
+    data = parse_json_after(r['body'], [r'(?:var\s+ytInitialData|window\["ytInitialData"\]|ytInitialData)\s*=\s*'])
+    out = {}
+    for obj in g.walk(data):
+        v = obj.get('videoRenderer')
+        if not v:
+            continue
+        vid = v.get('videoId', '')
+        if not re.fullmatch('[A-Za-z0-9_-]{11}', vid):
+            continue
+        thumbs = v.get('thumbnail', {}).get('thumbnails', [])
+        out[vid] = {'url': 'https://www.youtube.com/watch?v=' + vid, 'id': vid,
+                    'title': g.txt(v.get('title')), 'channel': g.txt(v.get('ownerText')),
+                    'description': g.txt(v.get('descriptionSnippet')),
+                    'duration': g.txt(v.get('lengthText')),
+                    'thumbnail': thumbs[-1]['url'] if thumbs else 'https://i.ytimg.com/vi/' + vid + '/hqdefault.jpg',
+                    'evidence_url': r['url'],
+                    'playback': 'Search metadata checked; full footage not independently watched'}
+    return list(out.values())
+
+def present(alias, value):
+    a, b = g.norm(alias), g.norm(value)
+    if a and re.search(r'(?<![a-z0-9])' + re.escape(a) + r'(?![a-z0-9])', b):
+        return True
+    words = a.split()
+    return len(words) >= 2 and all(w in b.split() for w in words)
+
+def candidates(entry):
+    names = ALIASES.get(entry['name'], [entry['name']])
+    games = GAME_ALIASES.get(entry['game'], [entry['game']])
+    queries = []
+    if entry['name'] in COLLECTIONS:
+        queries.append(COLLECTIONS[entry['name']])
+    elif entry['group'] == 'Historical':
+        queries.extend(name + ' firearm history video' for name in names)
+    else:
+        queries.extend(name + ' ' + games[0] for name in names)
+        if len(games) > 1:
+            queries.append(names[0] + ' ' + games[1])
+    found = {}
+    for q in dict.fromkeys(queries):
+        for v in search(q):
+            found[v['id']] = v
+    return names, games, list(found.values())
+
+def matching(entry, names, games, found):
+    accepted = []
+    for v in found:
+        title = v['title']
+        full = title + ' ' + v.get('description', '')
+        if re.search(r'3d print|homemade|how to build|airsoft|replica', title, re.I):
+            continue
+        if entry['group'] == 'Historical' and re.search(r'call of duty|battlefield|roblox|phantom forces|warzone|titanfall|loadout|girls frontline', title, re.I):
+            continue
+        if entry['name'] in COLLECTIONS:
+            game_tokens = g.tokens(entry['game'])
+            if game_tokens and game_tokens.issubset(set(g.norm(full).split())):
+                v['match'] = 'Named collection reference; not a single weapon'
+                accepted.append(v)
+            continue
+        item_match = any(present(n, title) for n in names)
+        if not item_match:
+            continue
+        game_ok = entry['group'] == 'Historical' or any(present(game, full) for game in games)
+        if not game_ok:
+            game_tokens = g.tokens(entry['game']) - {'minecraft', '1997', '2006'}
+            game_ok = bool(game_tokens & set(g.norm(full).split()))
+        if not game_ok:
+            continue
+        v['match'] = 'Item and game / historical identity matched'
+        accepted.append(v)
+    return accepted
+
+def chapter_match(entry, names, candidates_list):
+    for v in candidates_list:
+        title = v['title']
+        if not re.search(r'weapon|arsenal|showcase|reload|gun|all forms|service', title, re.I):
+            continue
+        d = video_data(v['url'])
+        if not d:
+            continue
+        desc = d.get('description', '')
+        for line in desc.splitlines():
+            m = re.match(r'\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*[-:|]?\s*(.+)', line)
+            if m and any(present(name, m.group(2)) for name in names):
+                numbers = [int(x) for x in m.group(1).split(':')]
+                seconds = sum(x * (60 ** i) for i, x in enumerate(reversed(numbers)))
+                d.update(url=d['url'].split('&')[0] + '&t=' + str(seconds) + 's',
+                         match='Item chapter matched', chapter=m.group(0).strip())
+                return d
+    return None
+
+def primary_video(entry):
+    url = SOURCE_PAGES.get(entry['name'])
+    if not url:
+        return None
+    r = g.fetch(url)
+    if not r['ok']:
+        return None
+    soup = BeautifulSoup(r['body'], 'html.parser')
+    for frame in soup.select('iframe'):
+        src = frame.get('src') or frame.get('data-src') or ''
+        m = re.search(r'youtube(?:-nocookie)?\.com/embed/([A-Za-z0-9_-]{11})', src)
+        if m:
+            d = video_data('https://www.youtube.com/watch?v=' + m.group(1))
+            if d:
+                d.update(match='Item video embedded by source author', evidence_url=url)
+                return d
+    return None
+
+def finish(entry, old, override):
+    result = dict(old or {})
+    result.update(id=entry['id'], name=entry['name'], game=entry['game'], group=entry['group'])
+    result.pop('error', None)
+    names = ALIASES.get(entry['name'], [entry['name']])
+    games = GAME_ALIASES.get(entry['game'], [entry['game']])
+    record = {'id': entry['id'], 'name': entry['name'], 'game': entry['game'], 'candidates': []}
+    try:
+        video = result.get('video')
+        if override.get('video'):
+            d = video_data(override['video'])
+            if d:
+                d.update(match=override.get('match', 'Item-specific direct video'), evidence_url=override.get('source', override['video']))
+                video = d
+        if not video or video.get('unresolved'):
+            video = primary_video(entry)
+        if not video or video.get('unresolved'):
+            names, games, found = candidates(entry)
+            record['candidates'] = found
+            matches = matching(entry, names, games, found)
+            if matches:
+                video = matches[0]
+            else:
+                video = chapter_match(entry, names, found)
+        if not video and entry['game'] == 'Minecraft - Scorched Guns 2':
+            found = search('Scorched Guns 2 all weapons showcase')
+            record['candidates'].extend(found)
+            video = chapter_match(entry, names, found)
+        image = result.get('image')
+        if image and not (ROOT / image['local']).exists():
+            image = None
+        if not image and override.get('image'):
+            image = g.image_file(entry, override['image'], override.get('imageKind', 'Item reference image'), override.get('source') or override['image'])
+        if not image and entry.get('image'):
+            image = g.image_file(entry, entry['image'], entry.get('imageKind') or 'Catalog weapon reference image', entry.get('imageSource') or entry.get('source') or entry['image'])
+        if not image and video and not video.get('unresolved'):
+            image = g.image_file(entry, video.get('thumbnail', ''), 'Item-video preview (not a separate weapon photograph)', video['url'])
+        if not image:
+            for alias in names:
+                temp = {**entry, 'name': alias}
+                if entry['group'] == 'Historical':
+                    image = g.wikipedia_image(temp)
+                if not image:
+                    image = g.source_images(temp)
+                if image:
+                    break
+        result.update(video=video or old.get('video'), image=image)
+    except Exception as exc:
+        result['error'] = type(exc).__name__ + ': ' + str(exc)[:300]
+    result['complete'] = bool(result.get('image') and result.get('video') and not result['video'].get('unresolved'))
+    record['complete'] = result['complete']
+    return result, record
+
+def render(entries, media, title, other):
+    body = g.render(entries, media, title, other)
+    groups = sorted({e['game'] for e in entries})
+    for group in groups:
+        anchor = 'collection-' + g.slug(group)
+        body = body.replace('](#' + g.slug(group) + ')', '](#' + anchor + ')')
+        body = body.replace('## ' + group + '\n', '<a id="' + anchor + '"></a>\n\n## ' + group + '\n')
+    return body
+
+def contact_sheets(entries, media):
+    folder = ROOT / 'qa'; folder.mkdir(exist_ok=True)
+    font = ImageFont.load_default(size=14)
+    for start in range(0, len(entries), 60):
+        part = entries[start:start + 60]
+        sheet = Image.new('RGB', (1440, 1800), 'white')
+        draw = ImageDraw.Draw(sheet)
+        for i, e in enumerate(part):
+            x, y = (i % 6) * 240, (i // 6) * 180
+            im = media[e['id']].get('image')
+            if im:
+                with Image.open(ROOT / im['local']) as source:
+                    image = source.convert('RGB'); image.thumbnail((230, 126))
+                    sheet.paste(image, (x + (240-image.width)//2, y))
+            caption = str(start + i + 1) + ' ' + e['name']
+            for j, line in enumerate(textwrap.wrap(caption, 30)[:3]):
+                draw.text((x + 4, y + 128 + j*16), line, fill='black', font=font)
+        sheet.save(folder / ('contact-%03d.jpg' % (start//60 + 1)), quality=88)
+
+def audit(entries, media):
+    suspect=[]; digests=collections.defaultdict(list); kinds=collections.Counter()
+    for e in entries:
+        m=media[e['id']]; im=m.get('image'); v=m.get('video')
+        if im:
+            path=ROOT/im['local']
+            assert path.exists(), path
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==im['sha256'], str(path)
+            with Image.open(path) as opened: opened.verify()
+            digests[im['sha256']].append(e['id']); kinds[im['kind']]+=1
+        if v:
+            title=v.get('title','')
+            names=ALIASES.get(e['name'],[e['name']])
+            if not any(present(a,title) for a in names) and 'chapter' not in v.get('match','').lower():
+                suspect.append({'id':e['id'],'name':e['name'],'game':e['game'],'title':title,'url':v['url'],'match':v.get('match')})
+    return {'image_kinds':dict(kinds),'shared_images':[v for v in digests.values() if len(v)>1], 'title_review':suspect}
+
+def verify_live(wiki):
+    output=[]
+    catalog=g.load(ROOT/'catalog.json',{})
+    for key,page in zip(('gaming','historical'),g.PAGES):
+        source=g.DOCS/(page+'.md'); local=source.read_bytes()
+        assert local==(Path(wiki)/source.name).read_bytes()
+        url=g.WIKI+page
+        response=g.session().get(url,timeout=45); response.raise_for_status()
+        soup=BeautifulSoup(response.text,'html.parser')
+        content=soup.select_one('#wiki-body') or soup.select_one('.markdown-body')
+        assert content is not None, 'Wiki body missing: '+url
+        images=content.find_all('img')
+        entries=catalog[key]
+        expected=local.count(b'width="220"')
+        matched=[im for im in images if 'weapon-inspirations' in (im.get('src','')+' '+im.get('data-canonical-src',''))]
+        assert len(matched)==expected, (page,len(matched),expected)
+        visible=content.get_text(' ',strip=True)
+        assert 'End of gallery' in visible, 'Wiki truncated: '+page
+        missing=[e['name'] for e in entries if e['name'] not in visible]
+        assert not missing, missing
+        anchors={a.get('id') for a in content.select('[id]')}
+        missing_anchors=[a.get('href') for a in content.select('a[href^="#collection-"]') if a['href'][1:] not in anchors and 'user-content-'+a['href'][1:] not in anchors]
+        output.append({'page':page,'url':url,'http_status':response.status_code,'bytes':len(local),'sha256':hashlib.sha256(local).hexdigest(),'entries_found':len(entries),'embedded_images_rendered':len(matched),'complete_end_marker':True,'navigation_missing_anchors':missing_anchors})
+        (ROOT/'qa'/(page+'.html')).write_text(response.text,encoding='utf-8')
+    g.save(ROOT/'qa'/'live-wiki-verification.json',output)
+    print(json.dumps(output,indent=2),flush=True)
+
+def main():
+    if len(sys.argv)>1 and sys.argv[1]=='--verify-live':
+        verify_live(sys.argv[2]); return
+    catalog=g.load(ROOT/'catalog.json',{})
+    assert len(catalog['gaming'])==892 and len(catalog['historical'])==152
+    gaming=[identity(e) for e in catalog['gaming']]; historical=[identity(e) for e in catalog['historical']]
+    entries=historical+gaming
+    media=g.load(ROOT/'media.json',{})
+    overrides=g.load(ROOT/'completion-overrides.json',{})
+    todo=[e for e in entries if not media.get(e['id'],{}).get('complete') or e['id'] in overrides]
+    print('Retaining all entries:',len(entries),'Targeted media repairs:',len(todo),flush=True)
+    research=[]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        work={pool.submit(finish,e,media.get(e['id'],{}),overrides.get(e['id'],{})):e for e in todo}
+        for i,f in enumerate(concurrent.futures.as_completed(work),1):
+            e=work[f]; record,evidence=f.result(); media[e['id']]=record; research.append(evidence)
+            if i%10==0 or i==len(todo):
+                g.save(ROOT/'media.json',media); g.save(ROOT/'completion-research.json',research)
+                print('Repaired wave',i,'/',len(todo),'remaining',sum(not media.get(x['id'],{}).get('complete') for x in entries),flush=True)
+    g.save(ROOT/'catalog.json',catalog)
+    report={'gaming':len(gaming),'historical':len(historical),'total':len(entries),'game_collections':len({e['game'] for e in gaming}),
+            'embedded_images':sum(bool(media[e['id']].get('image')) for e in entries),
+            'matched_videos':sum(bool(media[e['id']].get('video')) and not media[e['id']]['video'].get('unresolved') for e in entries),
+            'complete':sum(media[e['id']]['complete'] for e in entries),
+            'unresolved':[{'id':e['id'],'name':e['name'],'game':e['game'],'image':bool(media[e['id']].get('image')),'video':media[e['id']].get('video'),'error':media[e['id']].get('error')} for e in entries if not media[e['id']]['complete']]}
+    g.save(ROOT/'coverage.json',report)
+    for items,page,title,other in ((gaming,g.PAGES[0],'Video-game weapon inspirations',g.PAGES[1]),(historical,g.PAGES[1],'Historical and experimental gun inspirations',g.PAGES[0])):
+        body=render(items,media,title,other)
+        assert body.count('**<br>')==len(items)
+        (g.DOCS/(page+'.md')).write_text(body,encoding='utf-8')
+    g.save(ROOT/'media-quality-audit.json',audit(entries,media))
+    contact_sheets(entries,media)
+    print(json.dumps({k:v for k,v in report.items() if k!='unresolved'},indent=2),flush=True)
+
+if __name__=='__main__': main()
