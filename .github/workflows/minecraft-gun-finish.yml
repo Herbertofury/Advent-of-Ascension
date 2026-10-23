@@ -30,7 +30,7 @@ jobs:
           cd source
           git sparse-checkout init --no-cone
           printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/AGENTS.md\n' > .git/info/sparse-checkout
-          git fetch --depth 100 origin minecraft-gun-atlas-2026-10-23 main
+          git fetch --depth 100 origin refs/heads/minecraft-gun-atlas-2026-10-23:refs/remotes/origin/minecraft-gun-atlas-2026-10-23 refs/heads/main:refs/remotes/origin/main
           git checkout -B minecraft-gun-atlas-2026-10-23 origin/minecraft-gun-atlas-2026-10-23
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
