@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="TaCZ gunpacks that actually add guns. Compare real downloads, CurseForge favorites and Modrinth followers; save and privately rate your favorites.">
+<title>TaCZ Gunpacks | The Ascension Armory</title>
+<link rel="stylesheet" href="app.css">
+<script defer src="catalog.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#results">Skip to projects</a>
+<header class="topbar">
+ <a class="brand" href="https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Inspirations"><span class="brand-mark" aria-hidden="true">A</span><span>ASCENSION<span class="brand-sub">THE INSPIRATION ARMORY</span></span></a>
+ <nav aria-label="Main navigation"><a href="../">All Minecraft mods</a><a href="https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Inspirations">Weapon inspirations <span aria-hidden="true">&#8599;</span></a><a href="https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Gunpacks">Read the wiki <span aria-hidden="true">&#8599;</span></a><button id="sourcesButton" class="text-button">Sources &amp; research</button></nav>
+ <div class="header-actions"><button id="backupButton" class="quiet" title="Export favorites, notes and saved views">Back up my collection</button><button id="themeButton" class="icon-button" aria-label="Switch theme" title="Switch theme">&#9680;</button></div>
+</header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> WEAPON INSPIRATIONS / TACZ GUNPACKS</div><h1>TaCZ.<br><em>More guns. Less noise.</em></h1><p>Gunpacks and add-ons that actually add firearms. No ammo libraries, attachment-only packs or optimization clutter. Find beautifully built arsenals, then compare the real numbers.</p><div class="hero-links"><button class="primary" id="anchorsButton">Explore the quality shortlist <span aria-hidden="true">&#8594;</span></button><button class="quiet" id="earlierButton">Your earlier gunpack picks</button></div></div>
+ <div class="hero-board" aria-label="Featured research projects"><div class="board-heading"><span>GUNPACK SPOTLIGHT</span><span>02 / TACZ</span></div><div id="heroProjects" class="hero-projects"></div><div class="board-foot"><span>Real projects. Original possibilities.</span><span class="small-star" aria-hidden="true">&#10022;</span></div></div>
+</section>
+<section class="stats" aria-label="Catalog totals"><div><strong id="totalCount">0</strong><span>distinct gunpack families</span></div><div><strong id="coreCount">0</strong><span>with CurseForge favorites</span></div><div><strong id="packCount">0</strong><span>with Modrinth followers</span></div><div><strong id="checkedDate">Loading</strong><span>source snapshot checked</span></div></section>
+<div id="storageWarning" class="warning hidden" role="status">Browser storage is unavailable. Your collection still works for this session. Use <b>Back up my collection</b> before closing.</div>
+<section class="library" aria-label="Project explorer">
+ <div class="library-head"><div><div class="eyebrow">THE GUNPACK COLLECTION</div><h2>Find a gunpack worth keeping.</h2></div><div class="collection-tabs" role="group" aria-label="Collection"><button data-scope="all" aria-pressed="true">All gunpacks</button><button data-scope="favorites" aria-pressed="false">Saved <span id="savedCount">0</span></button><button data-scope="recent" aria-pressed="false">Recently viewed</button></div></div>
+ <div class="searchbar"><label class="search-field"><span aria-hidden="true">&#8981;</span><span class="sr-only">Search projects</span><input id="search" type="search" autocomplete="off" placeholder='Search mods, creators, mechanics...  or  loader:forge version:1.20.1'><kbd>/</kbd></label><button id="queryHelp" class="quiet" aria-label="Search syntax help">Query help</button><button id="mobileFilters" class="quiet" aria-expanded="false">Filters</button></div>
+ <div class="ranking-bar" role="group" aria-label="Rank gunpacks"><button data-ranking="downloads">Most popular</button><button data-ranking="favorites">Most favorited</button><button data-ranking="followers">Most followed</button><button data-ranking="priority">Quality shortlist</button><button data-ranking="date">Latest releases</button><button data-ranking="rating">My ratings</button><button id="rankingHelp" class="text-button">How rankings work</button></div><p id="rankingNote" class="ranking-note" aria-live="polite"></p><div class="preset-row" aria-label="Quick filters"><button data-preset="forge">Forge 1.20.1</button><button data-preset="neoforge">NeoForge 1.21.1</button><button data-preset="scifi">Sci-fi &amp; energy</button><button data-preset="magic">Magic &amp; spells</button><button data-preset="historical">Historical guns</button><button data-preset="legacy">Legacy / discontinued</button></div>
+ <div class="browse-layout">
+  <aside class="filters" id="filters"><div class="filter-head"><h3>Refine the collection</h3><button id="resetFilters" class="text-button">Reset</button></div>
+   <div hidden><label>Edition<select id="editionFilter"><option value="">Every edition</option></select></label></div>
+   <label>Project type<select id="typeFilter"><option value="">Every project type</option></select></label>
+   <div hidden><label>Ecosystem<select id="ecosystemFilter"><option value="">Every ecosystem</option></select></label></div>
+   <label>Mod loader<select id="loaderFilter"><option value="">Every loader</option></select></label>
+   <label>Minecraft version<select id="versionFilter"><option value="">Every version</option><option value="26.">Any 26.x release</option></select></label>
+   <label>Design direction<select id="themeFilter"><option value="">Every design direction</option></select></label>
+   <label>Release activity<select id="activityFilter"><option value="">Any release age</option></select></label>
+   <label>Research selection<select id="curationFilter"><option value="">All researched projects</option><option value="anchors">Study anchors &amp; earlier picks</option><option value="earlier">Earlier picks</option></select></label>
+   <label>Source platform<select id="providerFilter"><option value="">Every source platform</option><option>CurseForge</option><option>Modrinth</option></select></label>
+   <label class="check"><input type="checkbox" id="videoFilter"> Has a direct video reference</label>
+   <div class="saved-views"><div class="filter-head"><h3>Your saved views</h3><button id="saveView" class="text-button">+ Save</button></div><div id="savedViews"></div></div>
+   <div class="filter-note"><span class="note-symbol" aria-hidden="true">i</span><p>Loader + version filters match an <b>actual release record</b>, not a guessed combination. Packs may require a separate base mod.</p></div>
+   <button id="importButton" class="quiet full-width">Import collection backup</button><input type="file" id="importFile" accept="application/json,.json" hidden>
+  </aside>
+  <div class="results-area"><div class="results-toolbar"><div><strong id="resultCount">Loading projects</strong><span id="resultContext" class="muted"></span></div><div class="view-controls"><label class="sort-label"><span class="sr-only">Sort projects</span><select id="sort"><option value="downloads">Most popular: largest site downloads</option><option value="favorites">Most favorited: CurseForge</option><option value="followers">Most followed: Modrinth</option><option value="cfDownloads">CurseForge downloads</option><option value="mrDownloads">Modrinth downloads</option><option value="priority">Quality shortlist first</option><option value="date">Newest release</option><option value="created">Newest project</option><option value="rating">My rating</option><option value="name">Name A to Z</option></select></label><div class="view-switch" role="group" aria-label="View"><button data-view="cards" aria-pressed="true" title="Cards">&#9638;<span class="sr-only">Cards</span></button><button data-view="table" aria-pressed="false" title="Table">&#9776;<span class="sr-only">Table</span></button><button data-view="gallery" aria-pressed="false" title="Gallery">&#9641;<span class="sr-only">Gallery</span></button></div><button id="exportResults" class="quiet" title="Export current filtered results">Export</button></div></div>
+   <div id="activeFilters" class="active-filters"></div>
+   <div id="results" class="results cards" tabindex="-1" aria-label="Matching projects"></div>
+   <div id="empty" class="empty hidden"><span aria-hidden="true">&#9671;</span><h3>No projects in this view.</h3><p id="emptyText">Try a broader search or clear a filter.</p><button id="emptyReset" class="primary">Show all projects</button></div>
+   <p class="results-footer" id="resultsFooter"></p>
+  </div>
+ </div>
+</section>
+</main>
+<footer class="site-footer"><div class="brand-mini">THE ASCENSION ARMORY <span>/ TACZ GUNPACK LAB</span></div><p>Research references, not a modpack or a compatibility guarantee. Images remain credited to their creators. Favorites, notes and your personal ratings stay in this browser. Rankings are popularity signals, not a performance benchmark.</p><div><a href="catalog.json" download>Catalog JSON</a><a href="https://github.com/Herbertofury/Advent-of-Ascension/tree/main/docs/minecraft-gun-mods">Source &amp; update tools</a><button class="text-button" id="helpButton">Help &amp; keyboard shortcuts</button></div></footer>
+<div id="compareTray" class="compare-tray hidden"><div><strong id="compareCount">0 selected</strong><span>Compare the details that matter.</span></div><button id="openCompare" class="primary">Compare projects</button><button id="clearCompare" class="quiet">Clear</button></div>
+<dialog id="detailDialog" class="detail-dialog"><div id="detailContent"></div></dialog>
+<dialog id="lightbox" class="lightbox"><button class="dialog-close" data-close="lightbox" aria-label="Close image gallery">&#215;</button><div id="lightboxContent"></div></dialog>
+<dialog id="utilityDialog" class="utility-dialog"><button class="dialog-close" data-close="utilityDialog" aria-label="Close dialog">&#215;</button><div id="utilityContent"></div></dialog>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<noscript><p class="warning">The interactive explorer needs JavaScript. The <a href="https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Gunpacks">complete wiki catalog</a> is also available.</p></noscript>
+</body></html>
