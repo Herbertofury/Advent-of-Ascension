@@ -82,7 +82,7 @@ def finish_known_delta():
  m[k]['additional_sources']=list(dict.fromkeys(m[k].get('additional_sources',[])+['https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s']))
  import ability_final_capture
  k='d21c72146df8'
- im=ability_final_capture.run(d,idx[k],selected=None);m[k]['image']=im
+ im=ability_final_capture.run(d,idx[k],selected='frame-046.png');m[k]['image']=im
  Image.open(ROOT/im['local']).save(ROOT/'qa'/'final-ability.png')
  d.TARGETS={};d.write_all(c,m)
  errors=[]
