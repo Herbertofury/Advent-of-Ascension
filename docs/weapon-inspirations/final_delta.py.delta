@@ -1,0 +1,171 @@
+#!/usr/bin/env python3
+"""Targeted final media repairs. Never repeat the completed full-catalog search."""
+from pathlib import Path
+import collections,concurrent.futures,hashlib,html,importlib.machinery,importlib.util,io,json,re,sys
+from urllib.parse import quote,urlencode
+from PIL import Image
+ROOT=Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT))
+loader=importlib.machinery.SourceFileLoader('polish',str(ROOT/'polish_gallery.module'))
+spec=importlib.util.spec_from_loader(loader.name,loader);p=importlib.util.module_from_spec(spec);loader.exec_module(p)
+f=p.f;g=p.g
+TARGETS={
+ '2baf63b01c4c':{'video':'https://www.youtube.com/watch?v=Mu-9hyleXqM','match':'Felyne/Palico equipment collection review','auto_frame':True},
+ '4d77da11ed4d':{'video':'https://www.youtube.com/watch?v=1FFpjZoguYo','match':'Official Season 03 BlackCell collection showcase; publisher identifies the Razor 9mm Mastercraft','image':'https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/season-03-bc-bp-mtx/BO7-SEASON-03-BATTLEPASS-004.webp','crop':[0.5,0,1,0.3333],'source':'https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-season-03-battle-pass-blackcell-store-bundles','note':'The earlier official Season 03 announcement calls this Razor 9mm reward Auric; the later Battle Pass article calls the base reward Tribulation and its variants Voltrix/Malison. The original catalog name is retained with this explicit source-name discrepancy.','name_source':'https://www.callofduty.com/uk/en/blog/2026/03/call-of-duty-black-ops-7-warzone-season-03-announcement'},
+ '7d6051ff3283':{'video':'https://www.moddb.com/mods/astolfo-gun/videos/video-gameplay-of-me-playing-with-it-3','match':'Creator-posted item-specific gameplay, 37 seconds','title':'video gameplay of me playing with it ;3 - Astolfo Gun for Garry\'s Mod','author':'Bubbafrog666','image':'https://media.moddb.com/cache/images/mods/1/70/69181/thumb_620x2000/gm_mobenix_v3_final0003.jpg','source':'https://www.moddb.com/mods/astolfo-gun/images/in-third-person','web_verified':True},
+ 'g-c7cf78d773de':{'video':'https://www.youtube.com/watch?v=O9944b7GjLg','match':'TimeSplitters Future Perfect all-weapons collection showcase','names':['Monkey Gun'],'wiki':'https://timesplitters.fandom.com','page':'Monkey_Gun','auto_frame':True},
+ 'g-b1138809119e':{'queries':['Unreal Tournament 1999 Shock Rifle combo gameplay','Unreal Tournament Shock Rifle weapon showcase'],'names':['Shock Rifle','ASMD'],'require':['unreal','tournament'],'exclude':['borderlands'],'auto_frame':True},
+ 'g-08add982eb8b':{'queries':['Portal 2007 portal gun gameplay','Portal introduction portal gun Valve'],'names':['Portal'],'require':['portal'],'exclude':['replica','prop','unboxing','cosplay','real life','3d print'],'auto_frame':True},
+ 'g-5cc9fd742cb3':{'queries':['Shadow Warrior 1997 railgun gameplay','Shadow Warrior classic all weapons showcase'],'names':['Railgun','Rail Gun'],'require':['shadow','warrior'],'exclude':['shadow warrior 2','shadow warrior 3','2013','scientific'],'collection_query':'Shadow Warrior 1997 all weapons showcase','auto_frame':True},
+ 'g-d34df9b0ab37':{'queries':['Ratchet Nexus Winterizer weapon gameplay','Ratchet Nexus Winterizer Blizz o matic weapon'],'names':['Winterizer','Blizz-o-matic'],'require':['ratchet','nexus'],'exclude':['jingle bells','ost','soundtrack','music'],'auto_frame':True},
+ 'g-4fcc58a121ec':{'queries':['MDK 1997 sniper mode gameplay','MDK sniper helmet gameplay'],'names':['MDK'],'require':['mdk'],'exclude':['toy','swat','unboxing','mdk2','mdk 2'],'auto_frame':True},
+ 'g-7b0c8490ee99':{'queries':['Armed and Dangerous Worlds Smallest Black Hole weapon','Armed and Dangerous black hole gun gameplay'],'names':['Black Hole'],'require':['armed','dangerous'],'exclude':['astronomy','universe'],'collection_query':'Armed and Dangerous all weapons showcase','auto_frame':True},
+ 'g-7df6bac96c96':{'queries':['Control 2019 Grip weapon gameplay','Control Grip weapon showcase','Control Every Weapon Form in Action IGN First'],'names':['Grip','Every Weapon Form'],'require':['control'],'exclude':['golf','compressor','industrial','gear review'],'auto_frame':True},
+ 'g-0c5d628b3876':{'queries':['Control AWE Surge weapon gameplay','Control Surge gun showcase'],'names':['Surge'],'require':['control'],'exclude':['compressor','industrial','gas turbine','anti surge'],'auto_frame':True},
+ 'g-47c3ba327dd2':{'queries':['Enter the Gungeon Bullet gun shoots guns','Enter the Gungeon the Bullet weapon showcase'],'names':['Bullet Gun','Gun That Shoots Guns','Gun Shoots Guns'],'require':['gungeon'],'exclude':['unlock the bullet','bullet character'],'wiki':'https://enterthegungeon.wiki.gg','page':'Bullet','auto_frame':True},
+ 'g-d328427af167':{'wiki':'https://enterthegungeon.wiki.gg','page':'Microtransaction_Gun','auto_frame':True},
+ 'g-505aa54cc6f0':{'wiki':'https://enterthegungeon.wiki.gg','page':'Composite_Gun','auto_frame':True},
+ 'g-b4de25355cfc':{'wiki':'https://combineoverwiki.net','page':'Tau_Cannon','preferred':['W_gauss.png','Gauss_w.jpg','W_gauss.jpg','Gauss.png','W_gauss_hd.jpg'],'auto_frame':True},
+ 'b2ee8705214d':{'auto_frame':True},
+ 'efdee63eed52':{'auto_frame':True},
+}
+BAD=re.compile(r'doodle|chart|logo|imagecat|flag|iconquestion|disambig|award|doll|space.png|stub|menu|series|wikiwordmark|ammo|bulletkin',re.I)
+
+def mediawiki_image(e,cfg):
+ host=cfg.get('wiki');page=cfg.get('page')
+ if not host:return None
+ url=host+'/api.php?'+urlencode({'action':'query','format':'json','redirects':1,'prop':'images','imlimit':'max','titles':page})
+ r=g.fetch(url)
+ if not r['ok']:return None
+ try:
+  data=json.loads(r['body']);files=[]
+  for obj in data.get('query',{}).get('pages',{}).values():files.extend(x['title'] for x in obj.get('images',[]))
+ except Exception:return None
+ stem=g.norm(page.replace('_',' '));preferred=[g.norm(x.rsplit('.',1)[0]) for x in cfg.get('preferred',[])]
+ ranked=[]
+ for title in files:
+  name=title.split(':',1)[-1];bare=g.norm(name.rsplit('.',1)[0])
+  if BAD.search(name):continue
+  score=100 if bare==stem else (90-preferred.index(bare) if bare in preferred else 20 if stem in bare else 0)
+  if score:ranked.append((score,title))
+ for score,title in sorted(ranked,reverse=True):
+  q=host+'/api.php?'+urlencode({'action':'query','format':'json','prop':'imageinfo','iiprop':'url','iiurlwidth':720,'titles':title})
+  res=g.fetch(q)
+  if not res['ok']:continue
+  try:
+   objs=json.loads(res['body'])['query']['pages'].values()
+   for ob in objs:
+    info=ob.get('imageinfo',[{}])[0];u=info.get('thumburl') or info.get('url')
+    if u:
+     im=p.image_url(e,u,host+'/wiki/'+page,'Weapon-specific image; file identity checked')
+     if im:return im
+  except Exception:continue
+ return None
+
+def direct_image(e,cfg):
+ r=g.fetch(cfg['image'],binary=True)
+ if not r['ok']:return None
+ try:
+  im=Image.open(io.BytesIO(r['body']));extra={}
+  if cfg.get('crop'):
+   w,h=im.size;im=im.crop(tuple(round(x*(w if i%2==0 else h)) for i,x in enumerate(cfg['crop'])));extra={'crop_fraction':cfg['crop'],'original_source_image':cfg['image']}
+  return p.save_image(e,im,cfg['image'],cfg.get('source',cfg['image']),'Weapon image from named creator/publisher source',extra)
+ except Exception:return None
+
+def auto_image(e,v):
+ vid=g.video_id(v['url'])
+ if not vid:return None
+ for kind in ['maxres2','sd2','hq2','2']:
+  url='https://i.ytimg.com/vi/'+vid+'/'+kind+'.jpg';r=g.fetch(url,binary=True)
+  if not r['ok']:continue
+  try:
+   im=Image.open(io.BytesIO(r['body']))
+   if im.width<120 or im.height<90:continue
+   return p.save_image(e,im,url,v['url'],'Video still preview; visually reviewed against item context',{'preview_frame':'second automatically supplied video still'})
+  except Exception:continue
+ return None
+
+def select_video(e,cfg):
+ if cfg.get('video'):
+  if cfg.get('web_verified'):
+   return {'url':cfg['video'],'id':'','title':cfg['title'],'channel':cfg.get('author',''),'match':cfg['match'],'evidence_url':cfg['video'],'playback':'Creator video page and duration verified through web research; runner page fetch blocked; full playback not independently watched'}
+  v=p.public_video(e,cfg['video'],cfg.get('match','Item-specific reference'),cfg.get('source'))
+  if v and cfg.get('names'):
+   ch=f.chapter_match(e,cfg['names'],[v])
+   if ch:v=ch
+  return v
+ found={}
+ for query in cfg.get('queries',[]):
+  for v in f.search(query):found[v['id']]=v
+ matches=[]
+ for v in found.values():
+  s=g.norm(v['title']);full=g.norm(v['title']+' '+v.get('description',''))
+  if any(g.norm(x) in s for x in cfg.get('exclude',[])):continue
+  if not all(g.norm(x) in full for x in cfg.get('require',[])):continue
+  if not any(f.present(n,v['title']) for n in cfg.get('names',[e['name']])):continue
+  score=3 if any(f.present(n,v['title']) for n in cfg.get('names',[e['name']])) else 1
+  if 'gameplay' in s or 'showcase' in s:score+=1
+  v['match']='Item and exact game context reviewed';matches.append((score,v))
+ if matches:return sorted(matches,key=lambda x:x[0],reverse=True)[0][1]
+ if cfg.get('collection_query'):
+  extra=f.search(cfg['collection_query']);found.update({v['id']:v for v in extra})
+  for v in extra:
+   s=g.norm(v['title'])
+   if all(g.norm(x) in s for x in cfg['require']) and not any(g.norm(x) in s for x in cfg.get('exclude',[])) and re.search('all weapons|weapon showcase|weapons showcase',s):
+    ch=f.chapter_match(e,cfg.get('names',[e['name']]),[v])
+    if ch:return ch
+    v['match']='Exact-game weapons collection showcase; individual timestamp not isolated';return v
+ EVIDENCE[e['id']]={'name':e['name'],'candidates':list(found.values())}
+ return None
+
+EVIDENCE={}
+def repair(e,old):
+ cfg=TARGETS[e['id']];rec=dict(old)
+ try:
+  if cfg.get('queries') or cfg.get('video'):
+   rec['video']=select_video(e,cfg)
+  v=rec.get('video');im=None
+  if cfg.get('image'):im=direct_image(e,cfg)
+  if not im and cfg.get('wiki'):im=mediawiki_image(e,cfg)
+  if not im and v and cfg.get('auto_frame'):im=auto_image(e,v)
+  if not im and v:
+   im=p.image_url(e,v.get('thumbnail',''),v['url'],'Item-video preview (not a separate weapon photograph)')
+  if im:rec['image']=im
+  if cfg.get('note'):rec['source_note']=cfg['note'];rec['additional_sources']=[cfg.get('name_source'),cfg.get('source')]
+  rec.pop('error',None)
+ except Exception as exc:rec['error']=type(exc).__name__+': '+str(exc)[:200]
+ rec['complete']=bool(rec.get('image') and rec.get('video') and not rec['video'].get('unresolved'))
+ return rec
+
+def write_all(c,m):
+ g.save(ROOT/'catalog.json',c);g.save(ROOT/'media.json',m)
+ entries=c['historical']+c['gaming']
+ report={'gaming':len(c['gaming']),'historical':len(c['historical']),'total':len(entries),'game_collections':len({e['game'] for e in c['gaming']}),'embedded_images':sum(bool(m[e['id']].get('image')) for e in entries),'matched_videos':sum(bool(m[e['id']].get('video')) and not m[e['id']]['video'].get('unresolved') for e in entries),'complete':sum(m[e['id']].get('complete',False) for e in entries),'unresolved':[{'id':e['id'],'name':e['name'],'game':e['game'],'image':bool(m[e['id']].get('image')),'video':m[e['id']].get('video'),'error':m[e['id']].get('error')} for e in entries if not m[e['id']].get('complete')]}
+ g.save(ROOT/'coverage.json',report)
+ for key,page,title,other in [('gaming',g.PAGES[0],'Video-game weapon inspirations',g.PAGES[1]),('historical',g.PAGES[1],'Historical and experimental gun inspirations',g.PAGES[0])]:
+  body=p.render(c[key],m,title,other)
+  (g.DOCS/(page+'.md')).write_text(body,encoding='utf-8')
+ p.sources_page(entries,m)
+ source=g.DOCS/'Weapon-Inspiration-Media-Sources.md';body=source.read_text()
+ for k,cfg in TARGETS.items():
+  if cfg.get('note'):
+   marker='<a id="ref-'+k+'"></a>'
+   body=body.replace(marker,marker+'\n\n'+cfg['note']+' [Earlier publisher naming]('+cfg['name_source']+'). [Later publisher naming]('+cfg['source']+').\n')
+ source.write_text(body,encoding='utf-8')
+ g.save(ROOT/'media-quality-audit.json',f.audit(entries,m));f.contact_sheets(entries,m)
+ g.save(ROOT/'final-delta-evidence.json',EVIDENCE)
+ print(json.dumps(report,indent=2),flush=True)
+
+def main():
+ if len(sys.argv)>1 and sys.argv[1] in ('--publish-only','--verify-live'):
+  p.main();return
+ c=g.load(ROOT/'catalog.json',{});m=g.load(ROOT/'media.json',{});entries=c['historical']+c['gaming'];idx={e['id']:e for e in entries}
+ assert len(entries)==1044
+ assert set(TARGETS)<=set(idx)
+ print('Targeted final repair:',len(TARGETS),'preserving',len(entries)-len(TARGETS),'unchanged records',flush=True)
+ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+  jobs={pool.submit(repair,idx[k],m[k]):k for k in TARGETS}
+  for job in concurrent.futures.as_completed(jobs):
+   k=jobs[job];m[k]=job.result();print(k,idx[k]['name'],'complete=',m[k]['complete'],flush=True)
+ write_all(c,m)
+if __name__=='__main__':main()
