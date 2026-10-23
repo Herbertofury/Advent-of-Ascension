@@ -163,6 +163,7 @@ def publish(wiki_path):
     print('Published one canonical Weapon Inspirations hierarchy',flush=True)
 
 
+
 def build():
  decode_ui();data=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'));proof=validate(data)
  (ROOT/'catalog.js').write_text('window.GUN_ATLAS='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')

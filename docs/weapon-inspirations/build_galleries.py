@@ -307,6 +307,7 @@ def publish(wiki):
     print('Prepared galleries with shared navigation',flush=True)
 
 
+
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--publish-only'); args=parser.parse_args()
     if args.publish_only: publish(args.publish_only); return

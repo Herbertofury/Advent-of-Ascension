@@ -37,6 +37,7 @@ def prepare(wiki):
     print('Wiki prepared with shared navigation',flush=True)
 
 
+
 def verify():
  d=json.loads((ROOT/'catalog.json').read_text());out=ROOT/'qa/live';out.mkdir(parents=True,exist_ok=True)
  r=requests.get(RAW+'TaCZ-Gunpacks.md',timeout=45);assert r.ok and r.content==(DOCS/'TaCZ-Gunpacks.md').read_bytes(),'Published Wiki bytes differ'

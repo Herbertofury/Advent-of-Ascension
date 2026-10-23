@@ -14,7 +14,7 @@ def main():
  parser=argparse.ArgumentParser();parser.add_argument('--wiki',required=True);parser.add_argument('--url');args=parser.parse_args()
  out=ROOT/'qa/targeted';out.mkdir(parents=True,exist_ok=True);report={'checks':[],'errors':[]}
  def check(name,value,details=None):
-  report['checks'].append({'name':name,'passed':bool(value),'details':details});u.save(out/'report.json',report);assert value,(name,details)
+  print('CHECK',name,bool(value),flush=True);report['checks'].append({'name':name,'passed':bool(value),'details':details});u.save(out/'report.json',report);assert value,(name,details)
  parent=u.load(PARENT/'catalog.json');tacz=u.load(TACZ/'catalog.json');baseline=u.load(ROOT/'baseline.json');spec=u.load(ROOT/'manifest.json')
  check('five new parent records, no removed IDs',len(parent['items'])==baseline['parentCount']+5 and set(baseline['parent'])<={x['id'] for x in parent['items']})
  check('four new TaCZ families, no paid Bedrock contamination',len(tacz['items'])==baseline['taczCount']+4 and not any(x['edition']!='Java' for x in tacz['items']))
@@ -39,7 +39,7 @@ def main():
  class Handler(http.server.SimpleHTTPRequestHandler):
   def __init__(self,*a,**kw):super().__init__(*a,directory=str(PARENT),**kw)
   def log_message(self,*a):pass
- server=socketserver.TCPServer(('127.0.0.1',0),Handler);threading.Thread(target=server.serve_forever,daemon=True).start()
+ server=socketserver.ThreadingTCPServer(('127.0.0.1',0),Handler);server.daemon_threads=True;threading.Thread(target=server.serve_forever,daemon=True).start()
  base=args.url or 'http://127.0.0.1:'+str(server.server_address[1])+'/'
  try:
   with sync_playwright() as pw:
