@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/build-weapon-galleries.yml'
       - 'docs/weapon-inspirations/*.py'
+      - 'docs/weapon-inspirations/*.py.txt'
       - 'docs/weapon-inspirations/*-overrides.json'
       - 'docs/weapon-inspirations/gaming-additions.tsv'
 permissions:
@@ -18,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Open scoped source worktree
+      - name: Open exact scoped source worktree
         env:
           WIKI_TOKEN: ${{ github.token }}
         run: |
@@ -31,76 +32,32 @@ jobs:
           cd source
           git sparse-checkout init --no-cone
           printf '/docs/weapon-inspirations/\n/docs/Historical-and-Experimental-Gun-Inspirations.md\n/docs/Video-Game-Weapon-Inspirations.md\n' > .git/info/sparse-checkout
-          git checkout main
+          git fetch --depth 1 origin "$GITHUB_SHA"
+          git checkout -B media-publish "$GITHUB_SHA"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Import existing catalog and check research routes
+      - name: Repair missing media without rediscovering completed records
         run: |
+          set -euo pipefail
           cd source
-          python3 - <<'PY'
-          import urllib.request, urllib.error, json, csv, io, pathlib, concurrent.futures
-          root = pathlib.Path('docs/weapon-inspirations'); root.mkdir(parents=True, exist_ok=True)
-          def fetch(url):
-              try:
-                  request=urllib.request.Request(url, headers={'User-Agent':'AoA-Inspiration-Research/1.0 (public visual reference catalog)'})
-                  with urllib.request.urlopen(request, timeout=25) as response:
-                      body=response.read()
-                      return {'status':response.status,'type':response.headers.get('Content-Type'),'bytes':len(body),'body':body}
-              except Exception as exc:
-                  return {'error':str(exc)}
-          path=root/'gaming-source.json'
-          if not path.exists():
-              result=fetch('https://docs.google.com/spreadsheets/d/1lO2pXnEYm46S70PBFDwNrKOvkfPCl0EXWqmI2a-zHro/gviz/tq?tqx=out:csv&gid=62000')
-              if result.get('status')==200 and 'text/csv' in (result.get('type') or ''):
-                  records=list(csv.DictReader(io.StringIO(result['body'].decode('utf-8-sig'))))
-                  records=[r for r in records if r.get('id')]
-                  assert len(records)>=538, len(records)
-                  path.write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
-                  print('Imported gaming records:',len(records))
-              else:
-                  print('Existing catalog export not publicly readable:', {k:v for k,v in result.items() if k!='body'})
-          checks={
-              'wikipedia':'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=640&titles=Degtyaryov_machine_gun',
-              'forgottenweapons':'https://www.forgottenweapons.com/?s=DP28',
-              'youtube':'https://www.youtube.com/results?search_query=DP28+Forgotten+Weapons',
-              'duckduckgo':'https://www.google.com/search?q=DP28+Forgotten+Weapons+youtube',
-              'wikigg':'https://enterthegungeon.wiki.gg/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=480&titles=Gunderfury'
-          }
-          report={}
-          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
-              for name,result in zip(checks,pool.map(fetch,checks.values())):
-                  body=result.pop('body',b'')
-                  report[name]=result
-                  if body: (root/('probe-'+name+'.txt')).write_text(body.decode('utf-8',errors='replace')[:150000],encoding='utf-8')
-          (root/'network-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-          print(json.dumps(report,indent=2))
-          PY
-      - name: Build galleries when renderer exists
-        run: |
-          cd source
-          if [ -f docs/weapon-inspirations/build_galleries.py ]; then
-            python3 -m pip install --quiet requests beautifulsoup4 pillow
-            python3 docs/weapon-inspirations/build_galleries.py
-          fi
-      - name: Save coherent research and gallery checkpoint
+          python3 -m pip install --quiet requests beautifulsoup4 pillow
+          python3 -m py_compile docs/weapon-inspirations/build_galleries.py docs/weapon-inspirations/finish_media.py.txt
+          python3 docs/weapon-inspirations/finish_media.py.txt
+      - name: Persist coherent source and image checkpoint
         env:
           WIKI_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
           cd source
-          git add docs/weapon-inspirations
-          for page in docs/Historical-and-Experimental-Gun-Inspirations.md docs/Video-Game-Weapon-Inspirations.md; do
-            if [ -f "$page" ]; then git add "$page"; fi
-          done
+          git add docs/weapon-inspirations/*.json docs/weapon-inspirations/images docs/Historical-and-Experimental-Gun-Inspirations.md docs/Video-Game-Weapon-Inspirations.md
           if ! git diff --cached --quiet; then
-            git commit -m 'Checkpoint illustrated weapon research and media provenance'
+            git commit -m 'Repair illustrated gallery media and preserve all 1044 references'
             git pull --rebase origin main
-            git push origin main
+            git push origin HEAD:main
           fi
-          git rev-parse HEAD
-      - name: Publish built galleries to actual Wiki
-        if: hashFiles('source/docs/weapon-inspirations/build_galleries.py') != ''
+          echo "SOURCE_COMMIT=$(git rev-parse HEAD)"
+      - name: Publish both galleries to the actual Wiki Git repository
         env:
           WIKI_TOKEN: ${{ github.token }}
         run: |
@@ -113,7 +70,35 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- '*.md'
           if ! git diff --cached --quiet; then
-            git commit -m "Publish illustrated gaming and historical inspiration galleries"
+            git commit -m 'Publish illustrated gaming and historical inspiration galleries'
             git push origin HEAD
           fi
-          echo "WIKI_COMMIT=$(git rev-parse HEAD)"
+          git rev-parse HEAD > ../source/docs/weapon-inspirations/qa/wiki-commit.txt
+      - name: Verify actual rendered Wiki contains every entry and image
+        run: python3 source/docs/weapon-inspirations/finish_media.py.txt --verify-live wiki
+      - name: Persist live Wiki publication receipt
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/weapon-inspirations/qa/live-wiki-verification.json docs/weapon-inspirations/qa/wiki-commit.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record live Wiki rendered-image and full-entry verification'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Preserve complete catalog, media and visual verification bundle
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: aoa-weapon-inspiration-galleries
+          path: |
+            source/docs/weapon-inspirations/
+            source/docs/Historical-and-Experimental-Gun-Inspirations.md
+            source/docs/Video-Game-Weapon-Inspirations.md
+            !source/docs/weapon-inspirations/__pycache__/**
+          retention-days: 30
+          compression-level: 6
+          if-no-files-found: error
