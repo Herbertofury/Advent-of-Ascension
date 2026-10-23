@@ -374,7 +374,7 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-6825d0f5526c"></a>
 ## Crusader's Crossbow (Team Fortress 2)
 
-Image: Item-specific video preview; exact identity reviewed. [Source](https://www.youtube.com/watch?v=nAM5zGKuNeY).
+Image: Crusader crossbow detail from its named gameplay-guide preview. [Source](https://www.youtube.com/watch?v=nAM5zGKuNeY).
 [Video: TF2 &#124; The ULTIMATE Medic Primary (Crusader&#x27;s Crossbow) Guide!](https://www.youtube.com/watch?v=nAM5zGKuNeY). Evidence: Exact item and variant title/context checked.
 [Reference](https://www.youtube.com/watch?v=lfZff2oDbR4): SHOWCASE - TF2 CRUSADER&#x27;S CROSSBOW Cosplay Prop!.
 [Reference](https://www.youtube.com/results?search_query=Crusader%27s+Crossbow+Team+Fortress+2): TF2 &#124; The ULTIMATE Medic Primary (Crusader&#x27;s Crossbow) Guide!.
@@ -1499,7 +1499,7 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-e50c84ee8034"></a>
 ## Geonosian Elite Beam Weapon (Star Wars: Republic Commando)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Ne5UyezbQmk).
+Image: Weapon-specific source artwork; exact file name checked. [Source](https://starwars.fandom.com/wiki/Geonosian_elite_beam_weapon).
 [Video: Star Wars: Republic Commando Geonosian Beam Weapon](https://www.youtube.com/watch?v=Ne5UyezbQmk). Evidence: Item title and game context matched.
 
 <a id="ref-xg-eb8d8cdd4f1d"></a>
@@ -1544,8 +1544,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-71c9d821c0be"></a>
 ## Scorn pistol (Scorn)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=0t1YZtpPNY8).
-[Video: Triad Guy Reviews — Pistol from SCORN](https://www.youtube.com/watch?v=0t1YZtpPNY8). Evidence: Item title and game context matched.
+Image: Exact named Scorn weapon chapter screenshot. [Source](https://www.youtube.com/watch?v=Q-ZQ_ZCTOoY&t=53s).
+[Video: Scorn - All Weapons and Equipment - Reloads , Animations and Sounds](https://www.youtube.com/watch?v=Q-ZQ_ZCTOoY&t=53s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://www.youtube.com/watch?v=0t1YZtpPNY8): Triad Guy Reviews — Pistol from SCORN.
 
 <a id="ref-xg-aca84f8e7338"></a>
 ## Electro (Atomic Heart)
@@ -1562,8 +1563,9 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 <a id="ref-xg-6aed3ef12cc9"></a>
 ## Scorn grenade launcher (Scorn)
 
-Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=tQTf5Uw226g).
-[Video: How To Defeat The Grenade Launcher Boss Fight Scorn](https://www.youtube.com/watch?v=tQTf5Uw226g). Evidence: Item title and game context matched.
+Image: Exact named Scorn weapon chapter screenshot. [Source](https://www.youtube.com/watch?v=Q-ZQ_ZCTOoY&t=178s).
+[Video: Scorn - All Weapons and Equipment - Reloads , Animations and Sounds](https://www.youtube.com/watch?v=Q-ZQ_ZCTOoY&t=178s). Evidence: Exact named chapter in game-specific weapon showcase.
+[Reference](https://www.youtube.com/watch?v=tQTf5Uw226g): How To Defeat The Grenade Launcher Boss Fight Scorn.
 
 <a id="ref-xg-816de708266c"></a>
 ## Twincendiary (Turbo Overkill)
