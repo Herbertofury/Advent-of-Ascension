@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/publish-weapon-inspirations.yml'
+      - 'docs/weapon_inspiration_navigation.py'
       - 'docs/Historical-and-Experimental-Gun-Inspirations.md'
       - 'docs/Video-Game-Weapon-Inspirations.md'
       - 'docs/weapon-inspirations/**'
@@ -37,6 +37,7 @@ jobs:
       - name: Publish into the separate Wiki Git repository
         env:
           WIKI_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           ASKPASS="$RUNNER_TEMP/weapon-wiki-askpass.sh"
@@ -45,25 +46,8 @@ jobs:
           export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
           git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
           cp source/*.md wiki/
-          python3 - <<'PY'
-          from pathlib import Path
-          root = Path('wiki')
-          pages = [('Video-Game-Weapon-Inspirations', 'Video-game weapon inspirations'), ('Historical-and-Experimental-Gun-Inspirations', 'Historical and experimental gun inspirations')]
-          links = '\n'.join(f'- [{label}]({slug})' for slug, label in pages if (root / (slug + '.md')).exists())
-          block = '<!-- weapon-inspirations:start -->\n## Weapon inspirations\n\n' + links + '\n<!-- weapon-inspirations:end -->'
-          for name in ['Home.md', '_Sidebar.md', 'Weapon-Reference-Library.md']:
-              target = root / name
-              if name == 'Weapon-Reference-Library.md' and not target.exists():
-                  continue
-              text = target.read_text(encoding='utf-8') if target.exists() else ''
-              start, end = '<!-- weapon-inspirations:start -->', '<!-- weapon-inspirations:end -->'
-              if start in text and end in text:
-                  a = text.index(start); b = text.index(end, a) + len(end)
-                  text = text[:a] + block + text[b:]
-              else:
-                  text = text.rstrip() + '\n\n' + block + '\n'
-              target.write_text(text, encoding='utf-8')
-          PY
+          gh api "repos/${GITHUB_REPOSITORY}/contents/docs/weapon_inspiration_navigation.py?ref=${GITHUB_SHA}" --jq .content | base64 --decode > source/weapon_inspiration_navigation.py
+          python3 source/weapon_inspiration_navigation.py wiki
           cd wiki
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -74,7 +58,7 @@ jobs:
           fi
           echo "WIKI_COMMIT=$(git rev-parse HEAD)"
           sha256sum Historical-and-Experimental-Gun-Inspirations.md
-          if [ -f Video-Game-Weapon-Inspirations.md ]; then sha256sum Video-Game-Weapon-Inspirations.md; fi
+          if [ -f Video-Game-Weapon-Inspirations.md ]; then sha256sum Video-GameWeapon-Inspirations.md 2>/dev/null || sha256sum Video-Game-Weapon-Inspirations.md; fi
           git ls-remote origin HEAD
       - name: Verify published page bytes through the public Wiki
         run: |
