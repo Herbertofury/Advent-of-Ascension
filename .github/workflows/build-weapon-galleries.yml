@@ -7,6 +7,8 @@ on:
       - '.github/workflows/build-weapon-galleries.yml'
       - 'docs/weapon-inspirations/*.py'
       - 'docs/weapon-inspirations/*.py.txt'
+      - 'docs/weapon-inspirations/*.module'
+      - 'docs/weapon-inspirations/quality-fixes.json'
       - 'docs/weapon-inspirations/*-overrides.json'
       - 'docs/weapon-inspirations/gaming-additions.tsv'
 permissions:
@@ -31,18 +33,18 @@ jobs:
           git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
           cd source
           git sparse-checkout init --no-cone
-          printf '/docs/weapon-inspirations/\n/docs/Historical-and-Experimental-Gun-Inspirations.md\n/docs/Video-Game-Weapon-Inspirations.md\n' > .git/info/sparse-checkout
+          printf '/docs/weapon-inspirations/\n/docs/Historical-and-Experimental-Gun-Inspirations.md\n/docs/Video-Game-Weapon-Inspirations.md\n/docs/Weapon-Inspiration-Media-Sources.md\n' > .git/info/sparse-checkout
           git fetch --depth 1 origin "$GITHUB_SHA"
           git checkout -B media-publish "$GITHUB_SHA"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Repair missing media without rediscovering completed records
+      - name: Improve actual weapon media and compact the full galleries
         run: |
           set -euo pipefail
           cd source
-          python3 -m pip install --quiet requests beautifulsoup4 pillow
-          python3 -m py_compile docs/weapon-inspirations/build_galleries.py docs/weapon-inspirations/finish_media.py.txt
-          python3 docs/weapon-inspirations/finish_media.py.txt
+          python3 -m pip install --quiet requests beautifulsoup4 pillow yt-dlp
+          python3 -m py_compile docs/weapon-inspirations/build_galleries.py docs/weapon-inspirations/finish_media.py.txt docs/weapon-inspirations/polish_gallery.module
+          python3 docs/weapon-inspirations/polish_gallery.module
       - name: Persist coherent source and image checkpoint
         env:
           WIKI_TOKEN: ${{ github.token }}
@@ -50,32 +52,32 @@ jobs:
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
           cd source
-          git add docs/weapon-inspirations/*.json docs/weapon-inspirations/images docs/Historical-and-Experimental-Gun-Inspirations.md docs/Video-Game-Weapon-Inspirations.md
+          git add docs/weapon-inspirations/*.json docs/weapon-inspirations/images docs/Historical-and-Experimental-Gun-Inspirations.md docs/Video-Game-Weapon-Inspirations.md docs/Weapon-Inspiration-Media-Sources.md
           if ! git diff --cached --quiet; then
-            git commit -m 'Repair illustrated gallery media and preserve all 1044 references'
+            git commit -m 'Publish full compact galleries and improve weapon-specific image evidence'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
           echo "SOURCE_COMMIT=$(git rev-parse HEAD)"
-      - name: Publish both galleries to the actual Wiki Git repository
+      - name: Publish galleries and sources to the actual Wiki repository
         env:
           WIKI_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           export GIT_ASKPASS="$RUNNER_TEMP/weapon-gallery-askpass.sh" GIT_TERMINAL_PROMPT=0
           git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
-          python3 source/docs/weapon-inspirations/build_galleries.py --publish-only wiki
+          python3 source/docs/weapon-inspirations/polish_gallery.module --publish-only wiki
           cd wiki
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- '*.md'
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish illustrated gaming and historical inspiration galleries'
+            git commit -m 'Publish complete illustrated gaming and historical galleries with media provenance'
             git push origin HEAD
           fi
           git rev-parse HEAD > ../source/docs/weapon-inspirations/qa/wiki-commit.txt
-      - name: Verify actual rendered Wiki contains every entry and image
-        run: python3 source/docs/weapon-inspirations/finish_media.py.txt --verify-live wiki
+      - name: Verify rendered Wiki contains every entry and image
+        run: python3 source/docs/weapon-inspirations/polish_gallery.module --verify-live wiki
       - name: Persist live Wiki publication receipt
         env:
           WIKI_TOKEN: ${{ github.token }}
@@ -91,13 +93,14 @@ jobs:
           fi
       - name: Preserve complete catalog, media and visual verification bundle
         if: always()
-        uses: actions/upload-artifact@v7.0.2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: aoa-weapon-inspiration-galleries
           path: |
             source/docs/weapon-inspirations/
             source/docs/Historical-and-Experimental-Gun-Inspirations.md
             source/docs/Video-Game-Weapon-Inspirations.md
+            source/docs/Weapon-Inspiration-Media-Sources.md
             !source/docs/weapon-inspirations/__pycache__/**
           retention-days: 30
           compression-level: 6
