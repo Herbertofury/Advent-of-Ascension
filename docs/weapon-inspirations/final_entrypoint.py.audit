@@ -68,8 +68,8 @@ def sources_with_notes(entries,media):
 p.sources_page=sources_with_notes
 
 def finish_known_delta():
- import specificity_chapters
- return specificity_chapters.run(d)
+ import final_media_polish
+ return final_media_polish.run(d)
 
 
 def main():
