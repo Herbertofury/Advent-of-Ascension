@@ -80,9 +80,9 @@ def finish_known_delta():
  m[k]['image']['kind']="Named Mancubus chapter screenshot, ZioMcCall's Flavour v22 variant"
  m[k]['source_note']="The original v22 showcase labels 11:35 as Mancubus, but its chapter thumbnail still shows Revenant launchers. The displayed weapon picture and Watch link instead use the explicitly named ZioMcCall's Flavour v22 variant at 12:47; the original reference is retained here."
  m[k]['additional_sources']=list(dict.fromkeys(m[k].get('additional_sources',[])+['https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s']))
- from ability_frame import select_or_probe
+ import ability_reference
  k='d21c72146df8'
- im=select_or_probe(d,idx[k],frame=None);m[k]['image']=im
+ im=ability_reference.run(d,idx[k],selected=None);m[k]['image']=im
  Image.open(ROOT/im['local']).save(ROOT/'qa'/'final-ability.png')
  d.TARGETS={};d.write_all(c,m)
  errors=[]
