@@ -1,12 +1,12 @@
 # Video-game weapon inspirations: new discoveries
 
-**70 additional references | 22 game collections | Embedded images and direct videos**
+**76 additional references | 24 game collections | Embedded images and direct videos**
 
 [Original gaming gallery](Video-Game-Weapon-Inspirations) | [Historical gallery](Historical-and-Experimental-Gun-Inspirations) | [New source records](Weapon-Inspiration-Media-Sources-Expansion)
 
 These are additional discoveries beyond the original 892 gaming references. Every entry has a locally archived, embedded source image or explicitly labeled item-video preview and a direct video link. AoA remix ideas are proposals, not implemented features. Video titles and source identity are checked; full end-to-end video viewing is not claimed.
 
-[Cyberpunk 2077 (5)](#new-cyberpunk-2077) | [Cyberpunk 2077: Phantom Liberty (3)](#new-cyberpunk-2077-phantom-liberty) | [Deep Rock Galactic (11)](#new-deep-rock-galactic) | [Fallout 3 (6)](#new-fallout-3) | [Fallout 3: Mothership Zeta (1)](#new-fallout-3-mothership-zeta) | [Fallout 3: Point Lookout (1)](#new-fallout-3-point-lookout) | [Fallout 4 (5)](#new-fallout-4) | [Fallout 4: Automatron (1)](#new-fallout-4-automatron) | [Fallout 4: Nuka-World (1)](#new-fallout-4-nuka-world) | [Fallout 76 (4)](#new-fallout-76) | [Fallout: New Vegas (2)](#new-fallout-new-vegas) | [Fallout: New Vegas - Dead Money (1)](#new-fallout-new-vegas-dead-money) | [Fallout: New Vegas - Lonesome Road (2)](#new-fallout-new-vegas-lonesome-road) | [Fallout: New Vegas - Old World Blues (3)](#new-fallout-new-vegas-old-world-blues) | [GoldenEye 007 (1)](#new-goldeneye-007) | [Half-Life: Opposing Force (2)](#new-half-life-opposing-force) | [Perfect Dark (5)](#new-perfect-dark) | [Prey (2017) (1)](#new-prey-2017) | [Team Fortress 2 (10)](#new-team-fortress-2) | [Unreal (2)](#new-unreal) | [Unreal Tournament (1)](#new-unreal-tournament) | [Unreal Tournament 2004 (2)](#new-unreal-tournament-2004)
+[Cyberpunk 2077 (5)](#new-cyberpunk-2077) | [Cyberpunk 2077: Phantom Liberty (3)](#new-cyberpunk-2077-phantom-liberty) | [Deep Rock Galactic (11)](#new-deep-rock-galactic) | [Fallout 3 (6)](#new-fallout-3) | [Fallout 3: Mothership Zeta (1)](#new-fallout-3-mothership-zeta) | [Fallout 3: Point Lookout (1)](#new-fallout-3-point-lookout) | [Fallout 4 (5)](#new-fallout-4) | [Fallout 4: Automatron (1)](#new-fallout-4-automatron) | [Fallout 4: Nuka-World (1)](#new-fallout-4-nuka-world) | [Fallout 76 (4)](#new-fallout-76) | [Fallout: New Vegas (2)](#new-fallout-new-vegas) | [Fallout: New Vegas - Dead Money (1)](#new-fallout-new-vegas-dead-money) | [Fallout: New Vegas - Lonesome Road (2)](#new-fallout-new-vegas-lonesome-road) | [Fallout: New Vegas - Old World Blues (3)](#new-fallout-new-vegas-old-world-blues) | [GoldenEye 007 (1)](#new-goldeneye-007) | [Half-Life: Opposing Force (5)](#new-half-life-opposing-force) | [Perfect Dark (5)](#new-perfect-dark) | [Prey (2017) (2)](#new-prey-2017) | [Red Faction: Armageddon (1)](#new-red-faction-armageddon) | [Resistance 3 (1)](#new-resistance-3) | [Team Fortress 2 (10)](#new-team-fortress-2) | [Unreal (2)](#new-unreal) | [Unreal Tournament (1)](#new-unreal-tournament) | [Unreal Tournament 2004 (2)](#new-unreal-tournament-2004)
 
 <a id="new-cyberpunk-2077"></a>
 ## Cyberpunk 2077
@@ -152,6 +152,9 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 |---|---|---|---|
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-d2ceeb225765.webp?v=bf8b88d" width="220" alt="Shock Roach"><br>Video preview | **Shock Roach**<br>A living insect-like alien serves as an electrical gun. | A storm beetle chirps and raises its antennae before an original electrical pulse. | [Watch](https://www.youtube.com/watch?v=Qaae_pPbjD4)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-d2ceeb225765) |
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-cd775a85815f.webp?v=2eedbf3" width="220" alt="Barnacle Grapple"><br>Video preview | **Barnacle Grapple**<br>A living alien creature becomes a grappling tool with an extending organic tongue. | A friendly vine-beast pulls the player along a visible tongue-like magical tether. | [Watch](https://www.youtube.com/watch?v=--47V4w0XbA)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-cd775a85815f) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-d0b690430739.webp?v=1af1612" width="220" alt="Displacer Cannon"><br>Video preview | **Displacer Cannon**<br>A bulky energy device links weapon fire to a dimensional displacement theme. | A portable portal ring visibly rotates before releasing a small rift orb. | [Watch](https://www.youtube.com/watch?v=-238-0_-XZM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-d0b690430739) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e1d776124daf.webp?v=00d22e7" width="220" alt="Penguin"><br>Video preview | **Penguin**<br>A comic creature projectile contrasts with the otherwise industrial arsenal. | A wind-up snow bird waddles toward a clearly marked fantasy target. | [Watch](https://www.youtube.com/watch?v=mk9FWmkQo2s)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e1d776124daf) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-6555ae3969b8.webp?v=47a1412" width="220" alt="Spore Launcher"><br>Video preview | **Spore Launcher**<br>An organic alien weapon launches brightly colored spores from a creature-like body. | A tame fungal creature visibly swallows and spits luminous seed pods. | [Watch](https://www.youtube.com/watch?v=NuQXppjDIfI)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-6555ae3969b8) |
 
 <a id="new-perfect-dark"></a>
 ## Perfect Dark
@@ -170,6 +173,21 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 | Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
 |---|---|---|---|
 | <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-74bd0533e7e5.webp?v=ddf98ba" width="220" alt="Huntress Boltcaster"> | **Huntress Boltcaster**<br>A toy foam crossbow becomes a useful interaction tool in a serious science-fiction setting. | A harmless carnival launcher activates distant buttons with bright suction-cup stars. | [Watch](https://www.youtube.com/watch?v=5AswPRtLD2Q)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-74bd0533e7e5) |
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-4a7e1feab51c.webp?v=7e321c8" width="220" alt="Q-Beam"> | **Q-Beam**<br>A bulky beam device emphasizes sustained energy buildup rather than ordinary bullet impacts. | A glass accumulator paints a visible instability meter on a marked fantasy target. | [Watch](https://www.youtube.com/watch?v=pVEZt7RvtT8)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-4a7e1feab51c) |
+
+<a id="new-red-faction-armageddon"></a>
+## Red Faction: Armageddon
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-9f53dc6a7c96.webp?v=ef806f0" width="220" alt="Charge Launcher"> | **Charge Launcher**<br>A heavy weapon fires energetic projectiles with a conspicuous delayed-impact identity. | A pressurized rune tube launches glowing charges with a clear timing pulse. | [Watch](https://www.youtube.com/watch?v=FEbUp9e4QnQ)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-9f53dc6a7c96) |
+
+<a id="new-resistance-3"></a>
+## Resistance 3
+
+| Embedded reference | Weapon and distinctive idea | AoA remix proposal | Video / source |
+|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/Herbertofury/Advent-of-Ascension/main/docs/weapon-inspirations/images/xg-e846d0a33a60.webp?v=820b2ad" width="220" alt="HE .44 Magnum"> | **HE .44 Magnum**<br>A large revolver&#x27;s marked projectiles allow a separate delayed explosive action. | A rune revolver plants visible glowing seals that respond to a second magical gesture. | [Watch](https://www.youtube.com/watch?v=R5eSCoUqnYM)<br>[Source](Weapon-Inspiration-Media-Sources-Expansion#ref-xg-e846d0a33a60) |
 
 <a id="new-team-fortress-2"></a>
 ## Team Fortress 2
@@ -212,4 +230,4 @@ These are additional discoveries beyond the original 892 gaming references. Ever
 
 ## End of gallery
 
-All 70 accepted new gaming references are shown.
+All 76 accepted new gaming references are shown.

@@ -479,3 +479,244 @@ Image: Item-video preview; not a standalone weapon photograph. [Source](https://
 
 Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=--47V4w0XbA).
 [Video: half life opposing force barnacle grapple&#x27;s killing power](https://www.youtube.com/watch?v=--47V4w0XbA). Evidence: Item title and game context matched.
+
+<a id="ref-xg-d0b690430739"></a>
+## Displacer Cannon (Half-Life: Opposing Force)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-238-0_-XZM).
+[Video: Opposing Force Displacer Cannon Locations](https://www.youtube.com/watch?v=-238-0_-XZM). Evidence: Item title and game context matched.
+
+<a id="ref-xg-4a7e1feab51c"></a>
+## Q-Beam (Prey (2017))
+
+Image: Named weapon reference image. [Source](https://prey.fandom.com/wiki/Q-Beam).
+[Video: Prey 2017-Nightmare-Telepath (Q Beam)](https://www.youtube.com/watch?v=pVEZt7RvtT8). Evidence: Item title and game context matched.
+[Reference](https://prey.fandom.com/wiki/Q-Beam): Q-Beam.
+
+<a id="ref-xg-9f53dc6a7c96"></a>
+## Charge Launcher (Red Faction: Armageddon)
+
+Image: Named weapon reference image. [Source](https://redfaction.fandom.com/wiki/Remote_Charge_Launcher).
+[Video: Red Faction Armageddon - [Campaign 2] Charge Launcher and Bug Hunting](https://www.youtube.com/watch?v=FEbUp9e4QnQ). Evidence: Item title and game context matched.
+[Reference](https://redfaction.fandom.com/wiki/Remote_Charge_Launcher): Remote Charge Launcher.
+
+<a id="ref-xg-e846d0a33a60"></a>
+## HE .44 Magnum (Resistance 3)
+
+Image: Named weapon reference image. [Source](https://resistance.fandom.com/wiki/HE_.44_Magnum).
+[Video: (Resistance 3) HE.44 Magnum-Magnum P.I. CLass Setup and Review](https://www.youtube.com/watch?v=R5eSCoUqnYM). Evidence: Item title and game context matched.
+[Reference](https://resistance.fandom.com/wiki/HE_.44_Magnum): HE .44 Magnum.
+
+<a id="ref-xg-e1d776124daf"></a>
+## Penguin (Half-Life: Opposing Force)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=mk9FWmkQo2s).
+[Video: Opposing Force Penguin?](https://www.youtube.com/watch?v=mk9FWmkQo2s). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6555ae3969b8"></a>
+## Spore Launcher (Half-Life: Opposing Force)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=NuQXppjDIfI).
+[Video: Half-Life Opposing Force - Spore Launcher Vs Black Ops Chopper](https://www.youtube.com/watch?v=NuQXppjDIfI). Evidence: Item title and game context matched.
+
+<a id="ref-xh-1c06a56964cc"></a>
+## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-OGyJPFzNfU).
+[Video: America&#x27;s First Assault Rifle: Burton 1917 LMR](https://www.youtube.com/watch?v=-OGyJPFzNfU). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/burton-1917-light-machine-rifle/): Burton 1917 Light Machine Rifle.
+
+<a id="ref-xh-39954d906b0a"></a>
+## Villar Perosa M1915 (Twin feeds and mechanical spectacles)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Villar_Perosa_submachine_gun).
+[Video: M1915 Villar Perosa](https://www.youtube.com/watch?v=NAsH0fVAoxc). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Villar_Perosa_submachine_gun): Villar Perosa submachine gun.
+[Reference](https://www.forgottenweapons.com/m1915-villar-perosa-video/): M1915 Villar Perosa Video.
+
+<a id="ref-xh-f4f33c0ab5d8"></a>
+## Farquhar-Hill rifle (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=n8VtQt2EtJk).
+[Video: Farquhar Hill: Britain&#x27;s WW1 Semiauto Rifle](https://www.youtube.com/watch?v=n8VtQt2EtJk). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Farquhar%E2%80%93Hill_rifle): Farquhar–Hill rifle.
+[Reference](https://www.forgottenweapons.com/farquhar-hill-britains-ww1-semiauto-rifle-video/): Farquhar Hill: Britain’s WW1 Semiauto Rifle (Video).
+
+<a id="ref-xh-fc85ee46527c"></a>
+## Beardmore-Farquhar machine gun (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=FpVMB9V7ZR4).
+[Video: Britain’s Forgotten Lightweight Machine Gun: Beardmore-Farquhar with Curatorial Assistant Joe Ford](https://www.youtube.com/watch?v=FpVMB9V7ZR4). Evidence: Named historical item video.
+
+<a id="ref-xh-1068d9a3a341"></a>
+## Huot automatic rifle (Twin feeds and mechanical spectacles)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Huot_Automatic_Rifle).
+[Video: Huot Automatic Rifle: The Ross Goes Full Auto](https://www.youtube.com/watch?v=1UI0XvrIfl0). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Huot_Automatic_Rifle): Huot Automatic Rifle.
+[Reference](https://www.forgottenweapons.com/huot-automatic-rifle-the-ross-goes-full-auto/): Huot Automatic Rifle: The Ross Goes Full Auto.
+
+<a id="ref-xh-2d33125e0284"></a>
+## Howell automatic rifle (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=U682yOpNafg).
+[Video: M1915 Howell Automatic Rifle Enfield Conversion](https://www.youtube.com/watch?v=U682yOpNafg). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/the-very-steampunk-m1915-howell-automatic-rifle-at-james-d-julia/): The Very Steampunk M1915 Howell Automatic Rifle at James D Julia.
+
+<a id="ref-xh-08e0a6e15d4c"></a>
+## Charlton automatic rifle (Twin feeds and mechanical spectacles)
+
+Image: Named weapon reference image. [Source](https://en.wikipedia.org/wiki/Charlton_automatic_rifle).
+[Video: Electrolux Charlton: Washing Machine Company Converts Bolt Action to Semiauto](https://www.youtube.com/watch?v=iMKwDHPkRLw). Evidence: Video embedded in named historical source.
+[Reference](https://en.wikipedia.org/wiki/Charlton_automatic_rifle): Charlton automatic rifle.
+[Reference](https://www.forgottenweapons.com/electrolux-charlton-washing-machine-company-converts-bolt-action-to-semiauto/): Electrolux Charlton: Washing Machine Company Converts Bolt Action to Semiauto.
+
+<a id="ref-xh-527d3dfcdbf7"></a>
+## Gast gun (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=-8atDjH0frU).
+[Video: The Gast Machine Gun: Germany’s 1,600 RPM Twin-Barrel WWI Aircraft Gun with Curatorial Assistant Joe](https://www.youtube.com/watch?v=-8atDjH0frU). Evidence: Named historical item video.
+[Reference](https://en.wikipedia.org/wiki/Gast_gun): Gast gun.
+
+<a id="ref-xh-bc931e395b35"></a>
+## Fiat-Revelli Modello 1914 (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=wmymjvYZEps).
+[Video: Italy&#x27;s WW1 Heavy Machine Gun: FIAT-Revelli Modello 1914](https://www.youtube.com/watch?v=wmymjvYZEps). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/italys-ww1-heavy-machine-gun-fiat-revelli-modelo-1914/): Italy’s WW1 Heavy Machine Gun: FIAT-Revelli Modello 1914.
+
+<a id="ref-xh-1c9b1cf9cc21"></a>
+## Hotchkiss M1909 Benet-Mercie (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4hmj7glwUhU).
+[Video: Hotchkiss Portative Disassembly](https://www.youtube.com/watch?v=4hmj7glwUhU). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/hotchkiss-portative-video/): Hotchkiss Portative video.
+
+<a id="ref-xh-2b9144ce1179"></a>
+## Breda Modello 30 (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=nFJI04ifSoM).
+[Video: Italy&#x27;s Worst Machine Gun: The Breda Modello 30](https://www.youtube.com/watch?v=nFJI04ifSoM). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/italys-worst-machine-gun-the-breda-modello-30/): Italy’s Worst Machine Gun: The Breda Modello 30.
+
+<a id="ref-xh-3812362e05d9"></a>
+## Madsen light machine gun (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=3CP40hN0dEM).
+[Video: Shooting the Madsen LMG - The First True LMG](https://www.youtube.com/watch?v=3CP40hN0dEM). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/shooting-the-madsen-lmg-the-first-true-lmg/): Shooting the Madsen LMG – The First True LMG.
+
+<a id="ref-xh-c2c4c5a5a019"></a>
+## Furrer Lmg 25 (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=QWOafSW-ZEQ).
+[Video: LMG-25: The Swiss Toggle-Locked Light Machine Gun](https://www.youtube.com/watch?v=QWOafSW-ZEQ). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/lmg-25-the-swiss-toggle-locked-light-machine-gun/): LMG-25: The Swiss Toggle-Locked Light Machine Gun.
+
+<a id="ref-xh-0b2f3ac5582f"></a>
+## Perino Model 1908 (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=NG-ztNJAxcw).
+[Video: Battlefield 1 - PERINO MODEL 1908 Waffen Review ► BF1 Guide (DLC Waffe)](https://www.youtube.com/watch?v=NG-ztNJAxcw). Evidence: Named historical item video.
+
+<a id="ref-xh-73c4ea231ec9"></a>
+## MG 15 (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=RsaIJtr1tEY).
+[Video: The MG-15: A Flexible Aircraft Machine Gun Pushed into Infantry Service](https://www.youtube.com/watch?v=RsaIJtr1tEY). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/the-mg-15-a-flexible-aircraft-machine-gun-pushed-into-infantry-service/): The MG-15: A Flexible Aircraft Machine Gun Pushed into Infantry Service.
+
+<a id="ref-xh-4a3441ae0c0e"></a>
+## MG 81Z (Twin feeds and mechanical spectacles)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=lvswCifyfzI).
+[Video: Mg81Z shooting, super fast](https://www.youtube.com/watch?v=lvswCifyfzI). Evidence: Named historical item video.
+
+<a id="ref-xh-ff7f996611ea"></a>
+## Roth-Steyr M1907 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=6a0mjnQyhVI).
+[Video: Roth Steyr Developmental Models 1904 and 1906](https://www.youtube.com/watch?v=6a0mjnQyhVI). Evidence: Named historical item video.
+
+<a id="ref-xh-bd7ea7b5f861"></a>
+## Steyr M1912 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=1OFophjcKCY).
+[Video: Steyr M1912/16 Automatic &quot;Repetierpistole&quot;](https://www.youtube.com/watch?v=1OFophjcKCY). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/steyr-m1912-16-automatic-repetierpistole/): Steyr M1912/16 Automatic “Repetierpistole”.
+
+<a id="ref-xh-e9dd0d0d207c"></a>
+## Hino-Komuro M1908 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=4V9WU2anetQ).
+[Video: The Japanese Hino-Komuro Pistol](https://www.youtube.com/watch?v=4V9WU2anetQ). Evidence: Named historical item video.
+
+<a id="ref-xh-b77f565942b7"></a>
+## Frommer Stop (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=39tX_7-mkMA).
+[Video: Slow Motion: Frommer Stop (1912)](https://www.youtube.com/watch?v=39tX_7-mkMA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/slow-motion-frommer-stop/): Slow Motion: Frommer Stop.
+
+<a id="ref-xh-dd4d479e6650"></a>
+## Schwarzlose Model 1908 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=HyvkQBSDmH0).
+[Video: Blow-Forward Schwarzlose 1908 at the Backup Gun Match](https://www.youtube.com/watch?v=HyvkQBSDmH0). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/blow-forward-schwarzlose-1908-at-the-backup-gun-match/): Blow-Forward Schwarzlose 1908 at the Backup Gun Match.
+
+<a id="ref-xh-3eb3cfeae0ab"></a>
+## Bergmann Simplex (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=WYXtYZDRAK8).
+[Video: Bergmann Simplex Pocket Pistols](https://www.youtube.com/watch?v=WYXtYZDRAK8). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/bergmann-simplex-pocket-pistols-video/): Bergmann Simplex Pocket Pistols (Video).
+
+<a id="ref-xh-46a1404d0d28"></a>
+## Roth-Sauer M1900 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=6iTDPeBK0aY).
+[Video: Roth-Sauer Automatic Pistol](https://www.youtube.com/watch?v=6iTDPeBK0aY). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/roth-sauer-automatic-pistol-at-ria/): Roth-Sauer Automatic Pistol at RIA.
+
+<a id="ref-xh-50459fac8593"></a>
+## Welrod (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=d12AjvEsaHg).
+[Video: Silent But Deadly: Welrod Mk IIA](https://www.youtube.com/watch?v=d12AjvEsaHg). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/welrod-mk-iia-video/): Welrod Mk IIA (Video).
+
+<a id="ref-xh-54d54cf971f0"></a>
+## Burgess folding shotgun (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=HXvmGtLYwKA).
+[Video: Burgess Folding Shotgun](https://www.youtube.com/watch?v=HXvmGtLYwKA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/burgess-folding-shotgun-at-ria/): Burgess Folding Shotgun at RIA.
+
+<a id="ref-xh-79e2ac9debad"></a>
+## Mannlicher M1896 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=vtInWFneOtA).
+[Video: Mannlicher Model 1896 Pistols](https://www.youtube.com/watch?v=vtInWFneOtA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/mannlicher-model-1896-pistols/): Mannlicher Model 1896 Pistols.
+
+<a id="ref-xh-de65fcf4866d"></a>
+## Dreyse M1907 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=Cut2xcFd-4c).
+[Video: Slow Motion: 1907 Dreyse Pistol](https://www.youtube.com/watch?v=Cut2xcFd-4c). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/dreyse-1907-slow-motion-video/): Dreyse 1907 Slow Motion Video.
+
+<a id="ref-xh-bab16e718faf"></a>
+## Sjogren Inertia shotgun (Rotating antiques and unconventional shotguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=H0-7ruaDhwA).
+[Video: Shooting the Sjogren Inertial Shotgun](https://www.youtube.com/watch?v=H0-7ruaDhwA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/shooting-the-sjogren-inertial-shotgun/): Shooting the Sjogren Inertial Shotgun.
+
+<a id="ref-xh-ff1809870a3b"></a>
+## Mannlicher M1901 (Early automatics and strange handguns)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=B1l5UWhQfqA).
+[Video: Mannlicher Model 1901 &amp; 1905 Pistols](https://www.youtube.com/watch?v=B1l5UWhQfqA). Evidence: Video embedded in named historical source.
+[Reference](https://www.forgottenweapons.com/mannlicher-1901-1905-pistols-video/): Mannlicher 1901 &amp; 1905 Pistols (Video).
