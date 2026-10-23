@@ -1,34 +1,73 @@
 # TaCZ Gunpack Lab
 
-## Scope
+## Published result
 
-A dedicated, source-ranked collection of TaCZ gunpacks and gun-adding add-ons under Weapon Inspirations. Keep attachment-only packs, ammo libraries, recipe/integration utilities, skins, melee-only content and base runtimes outside this collection.
+- [Dedicated explorer](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/)
+- [Actual TaCZ Wiki page](https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Gunpacks)
+- [Weapon Inspirations parent](https://github.com/Herbertofury/Advent-of-Ascension/wiki/Weapon-Inspirations)
+- [Permanent release](https://github.com/Herbertofury/Advent-of-Ascension/releases/tag/tacz-gunpack-lab-v1.0.0)
+- [Complete portable ZIP](https://github.com/Herbertofury/Advent-of-Ascension/releases/download/tacz-gunpack-lab-v1.0.0/TaCZ-Gunpack-Lab.zip)
 
-## Canonical identity
+The live explorer, actual Wiki, full portable release and connected Drive backup are published and verified. Verification completed October 23, 2026.
 
-- Repository: Herbertofury/Advent-of-Ascension
-- Dedicated source: docs/minecraft-gun-mods/tacz
-- Explorer: https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/
-- Actual Wiki: https://github.com/Herbertofury/Advent-of-Ascension/wiki/TaCZ-Gunpacks
-- Parent catalog: 2,362 records, untouched SHA-256 f137707883003cb6bce10b8e03fec00900ae9a1138577f5141520fc2c66ee994
-- Dedicated dataset: 156 families; data hash 0ace34a02b5b4e8257a9bc70e54d99d3c12af20e9d439be6f2ba4541a1652088
+## Scope and rankings
 
-## Completed qualification
+156 distinct TaCZ gunpack families that add firearms, with 32 editorial quality-shortlist entries. All 156 have embedded project/weapon imagery; 1,099 referenced image files are preserved. Utilities, recipes, ammo libraries, skins, attachment-only packs, melee-only content, mob AI and base runtimes are not padded into this list.
 
-156 gunpack families, 32 editorial quality-shortlist entries, 156 card images, 1,099 referenced media files, 148 families with CurseForge favoriteCount and 20 with Modrinth followers. Source downloads are never added across mirrors or packaging editions. Missing metrics remain unknown. Community star ratings are not invented; the user can save private 1-5 ratings in the browser.
+148 families have source-published CurseForge favoriteCount and 20 have Modrinth followers. Downloads, CurseForge favorites and Modrinth followers remain separate ranking signals. The general popularity ranking uses the largest verified single-site download count, never a sum of mirrors or JAR/ZIP editions. Missing metrics stay unknown. No numerical community star rating is manufactured; users can save their own private 1-5 ratings.
 
-All initial 158 cards were visually reviewed; two cross-provider duplicate families were reconciled with explicit identity evidence. Eleven card previews were changed from recipes, stations or knives to actual firearm images. Two service-promotion images were excluded from the dedicated gallery. The original parent catalog was not changed.
+The quality shortlist is editorial, not an in-game benchmark or a guarantee of compatibility. Legacy/discontinued status is visible. The LesRaisins lifetime total explicitly includes older TaC releases.
 
-The completed discovery covers the terminal Modrinth TaCZ results and both CurseForge customization and mc-addons TaCZ pages. Research and inclusion/exclusion decisions are retained in research.json, selection.json and additional-selection.json. No private/unlisted-project census or native Minecraft compatibility/performance test is claimed.
+## Working collection tools
 
-## Verified checkpoint
+Search, quoted phrases, exact id: lookup, release-aware version/loader filters, source/type/theme/activity filters, cards/table/gallery, favorites, private notes, private ratings, comparisons, saved views, aliases, direct project/media links and portable collection export/import are implemented.
 
-Run 39990651062 passed all 69 real-data Chromium checks. Tested implementation checkpoint: 87efa39837aa376c14f1bcd17e7a694cfe534057. Checks include exact provider ranking, null metric order, full scope, filters, query semantics, private ratings, favorites, notes, aliases, compare, saved views, export/import, every card image, mobile layout and storage-denied fallback. Screenshots were visually inspected.
+The dedicated page shares browser-local favorites and notes with the main Minecraft Gun Atlas and preserves unrelated collection data. Private ratings and dedicated saved views remain separate fields. Hosted and file:// storage origins differ; export/import transfers a collection. No recurring refresh or hidden updater was enabled.
 
-The first quoted-search test incorrectly assumed a unique result despite another pack referencing the title in its description. It now independently computes the complete expected phrase set and tests exact id: selection separately. The following failure was an ambiguous test locator matching both hero and catalog buttons, corrected by scoping to the catalog card. No application behavior or coverage was removed to pass those tests.
+## Verified acceptance
 
-## Publication boundary
+| Check | Result |
+|---|---:|
+| Actual live-site Chromium checks | 69 passed |
+| Extracted portable ZIP checks with all HTTP/HTTPS blocked | 6 passed |
+| Live Wiki images decoded | 156 |
+| Broken Wiki images | 0 |
+| Missing Wiki entries or exact project links | 0 |
+| Referenced image hashes and decoding checked | 1,099 |
+| Other Wiki pages preserved byte-for-byte | 485 |
+| Frozen source rebuild with networking disabled | Passed, every item unchanged |
+| Complete release files restored from Drive and hash-checked | 1,659 |
+| Drive ZIP parts downloaded and verified | 2 of 2 |
 
-The review branch must be merged before final publication. The publication workflow copies the canonical page into the actual Wiki, adds managed parent/sidebar links, verifies every rendered image and record, reruns the same browser checks on actual Pages, builds a complete offline ZIP, tests it with HTTP/HTTPS blocked and reads back the GitHub release archive. Then back up the exact ZIP to the existing connected AoA toolkit and verify its readback.
+Desktop and mobile screenshots from the actual published page were inspected. All initial 158 cards were visually reviewed; two proven cross-provider duplicate families were reconciled to reach 156. Eleven previews were changed from recipes, stations or knives to firearm imagery, and two service-promotion images were excluded from this dedicated collection. Parent catalog data was not changed.
 
-No repeat of completed research is needed. Any final failure is a scoped publication or runtime blocker; preserve the dataset and exact successful checkpoints above.
+## Exact publication lineage
+
+- Approved browser run: `39990651062`.
+- Approved review head: `55abd963e7f19aa6ea10919d1a9651317d249b6e`.
+- Merge: PR #3, `2c5aedd3e3132f83561e0a1ca504ab3a65c73552`.
+- Successful Pages deployment: `39991837578`.
+- Live verification, offline test, release and GitHub readback run: `39992734421`.
+- Published source commit: `2f7db73e403b5b328f053e6b1dbd9d249412a1ec`.
+- Wiki commit: `024a2b9858f0b82c870701590c3b375392c1b12e`.
+- GitHub release ID: `422110475`; archive asset ID: `669812992`.
+
+Dataset SHA-256: `0ace34a02b5b4e8257a9bc70e54d99d3c12af20e9d439be6f2ba4541a1652088`.
+
+Complete archive: **39,589,608 bytes**. SHA-256: `7700a4779bb7eb500ffe20771c1d805e578f14f36a2096eac5427388f9e01251`.
+
+Parent 2,362-project catalog remains byte-identical: `f137707883003cb6bce10b8e03fec00900ae9a1138577f5141520fc2c66ee994`.
+
+## Drive backup
+
+The complete release is backed up in the existing AoA Weapon Production Toolkit, in the TaCZ Gunpack Lab folder. Two ordinary ZIP parts accommodate the connector transfer boundary. Extract both into the same directory, then open `minecraft-gun-mods/tacz/index.html`. Every original release file is preserved and was reconstructed and hash-checked after downloading both parts from Drive.
+
+`BACKUP-MANIFEST.json` records every file, its SHA-256 and owning ZIP. `REMOTE-VERIFICATION.json` records exact remote identities and readback checks. Private Drive IDs remain in the private receipt, not this public record. GitHub provides the same complete release as one ZIP.
+
+## Coverage, recovery and continuity
+
+Completed research includes terminal Modrinth TaCZ results and CurseForge customization and mc-addons result pages. Source snapshots, creator qualification, family-identity proofs and explicit exclusions are retained in the catalog source files. This is extensive finite public-source research, not a census of private or unlisted packs. Native Minecraft testing of every pack and full playback of every linked video are not claimed.
+
+The offline publisher initially passed a relative directory to pathlib.as_uri; resolving output directories fixed the issue, and the exact extracted package then passed all offline checks. The first live check preceded Pages deployment; publication resumed only after a confirmed successful deployment, without changing or re-researching the dataset.
+
+Do not restart completed discovery or overwrite personal collections on continuation. Use the canonical identities and hashes above. Further work should target changed sources, genuinely new gun content, or explicit user requests.
