@@ -55,7 +55,7 @@ def verify():
  save(out/'publication.json',report);print(json.dumps(report),flush=True)
 
 def package(out):
- out=Path(out);out.mkdir(parents=True,exist_ok=True);d=json.loads((ROOT/'catalog.json').read_text());files={}
+ out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True);d=json.loads((ROOT/'catalog.json').read_text());files={}
  for p in ROOT.rglob('*'):
   if not p.is_file() or any(part in {'cache','__pycache__','visual-review'} for part in p.relative_to(ROOT).parts):continue
   if p.name in {'export.json','export.csv','collection.json'}:continue
@@ -82,7 +82,7 @@ def package(out):
  print('Complete portable archive:',path.stat().st_size,'bytes',flush=True)
 
 def offline(out):
- out=Path(out);root=out/'portable-test/minecraft-gun-mods/tacz';d=json.loads((root/'catalog.json').read_text());report={'expected':len(d['items']),'checks':[]}
+ out=Path(out).resolve();root=out/'portable-test/minecraft-gun-mods/tacz';d=json.loads((root/'catalog.json').read_text());report={'expected':len(d['items']),'checks':[]}
  def check(name,value):report['checks'].append({'name':name,'passed':bool(value)});assert value,name
  with sync_playwright() as pw:
   b=browser(pw);c=b.new_context();c.route('https://**/*',lambda r:r.abort());c.route('http://**/*',lambda r:r.abort());p=c.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto((root/'index.html').as_uri(),wait_until='domcontentloaded');p.wait_for_function('window.ATLAS_TEST')
