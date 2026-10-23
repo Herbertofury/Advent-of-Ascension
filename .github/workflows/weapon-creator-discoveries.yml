@@ -10,11 +10,11 @@ permissions:
   contents: write
 concurrency:
   group: weapon-creator-discoveries
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     steps:
       - name: Resume scoped source on a review branch
         env:
@@ -38,7 +38,7 @@ jobs:
           else
             git checkout -b weapon-inspiration-cleanup origin/main
           fi
-      - name: Fetch only unresolved public creator evidence
+      - name: Reuse qualified creator evidence
         run: |
           set -euo pipefail
           python3 -m pip install --quiet requests beautifulsoup4 pillow playwright pyyaml
@@ -70,8 +70,7 @@ jobs:
           for path in Path('.github/workflows').glob('*.yml'):
               doc=yaml.safe_load(path.read_text());events=doc.get('on',doc.get(True,{})) or {};push=events.get('push') or {}
               if not isinstance(push,dict): continue
-              patterns=push.get('paths',[])
-              hits=[name for name in changed if any(fnmatch.fnmatch(name,p) for p in patterns)]
+              patterns=push.get('paths',[]);hits=[name for name in changed if any(fnmatch.fnmatch(name,p) for p in patterns)]
               if hits:matches.append({'workflow':path.name,'matchedChangedPaths':hits})
           Path('docs/minecraft-gun-mods/creator-discoveries/qa/trigger-impact.json').write_text(json.dumps(matches,indent=2))
           print(json.dumps(matches,indent=2))
@@ -80,13 +79,18 @@ jobs:
           if ! git diff --cached --quiet; then git commit -m 'Qualify creator-hosted gun discoveries and consolidate weapon navigation'; fi
           git push origin HEAD:weapon-inspiration-cleanup
           git rev-parse HEAD > docs/minecraft-gun-mods/creator-discoveries/qa/source-commit.txt
-      - name: Verify changed workflows and both real-data explorers
+      - name: Verify creator features and permanent navigation regression
+        timeout-minutes: 5
         run: |
           set -euo pipefail
           if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
-          python3 source/docs/minecraft-gun-mods/creator-discoveries/test_update.py --wiki wiki-preview
-          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/atlas
-          python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/tacz
+          timeout 240 python3 -u source/docs/minecraft-gun-mods/creator-discoveries/test_update.py --wiki wiki-preview
+      - name: Verify complete parent explorer behavior
+        timeout-minutes: 5
+        run: timeout 240 python3 -u source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/atlas
+      - name: Verify complete TaCZ explorer behavior
+        timeout-minutes: 5
+        run: timeout 240 python3 -u source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/creator-discoveries/qa/tacz
       - name: Persist exact browser acceptance
         env:
           GH_TOKEN: ${{ github.token }}
