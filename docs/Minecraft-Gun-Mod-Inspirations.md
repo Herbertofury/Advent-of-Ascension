@@ -1,6 +1,6 @@
 # Minecraft gun mod inspirations
 
-**2,362 distinct project records · 10 earlier picks recovered · checked 2026-10-23**
+**2,367 distinct project records · 10 earlier picks recovered · checked 2026-10-23**
 
 ## [Open the Minecraft Gun Atlas](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/)
 
@@ -65,10 +65,10 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 | Collection | Projects |
 |---|---:|
 | [Artillery / combined arms](Minecraft-Gun-Mod-Inspirations-artillery-combined-arms) | 156 |
-| [Bedrock add-on](Minecraft-Gun-Mod-Inspirations-bedrock-add-on) | 139 |
+| [Bedrock add-on](Minecraft-Gun-Mod-Inspirations-bedrock-add-on) | 140 |
 | [Broader content with ranged weapons](Minecraft-Gun-Mod-Inspirations-broader-content-with-ranged-weapons) | 93 |
 | [Datapack / command weapon](Minecraft-Gun-Mod-Inspirations-datapack-command-weapon) | 170 |
-| [Gun / content pack](Minecraft-Gun-Mod-Inspirations-gun-content-pack) | 246 |
+| [Gun / content pack](Minecraft-Gun-Mod-Inspirations-gun-content-pack) | 250 |
 | [Integration / handling / QoL · 1/2](Minecraft-Gun-Mod-Inspirations-integration-handling-qol-1) | 288 |
 | [Integration / handling / QoL · 2/2](Minecraft-Gun-Mod-Inspirations-integration-handling-qol-2) | 79 |
 | [Server weapon plugin](Minecraft-Gun-Mod-Inspirations-server-weapon-plugin) | 74 |
@@ -89,7 +89,7 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 
 ## Research coverage and evidence
 
-2,645 accepted source records were reconciled across providers into 2,362 project identities. 2,340 have archived source images and 204 have direct videos linked by their creators. Missing media is not replaced with a fabricated image or a search-results link.
+2,645 accepted source records were reconciled across providers into 2,367 project identities. 2,344 have archived source images and 204 have direct videos linked by their creators. Missing media is not replaced with a fabricated image or a search-results link.
 
 The search includes Java mods, gunpacks, resource packs, datapacks, firearm-specific support and Bedrock add-ons. Public Modrinth query pagination and CurseForge query pagination are recorded in the coverage ledger. This is a broad finite research snapshot, not a provable census of every private, unlisted or newly uploaded project.
 
@@ -100,3 +100,9 @@ The search includes Java mods, gunpacks, resource packs, datapacks, firearm-spec
 The earlier Gun Vault spreadsheet was used as a read-only discovery source. Duplicate URLs and search hubs are recorded separately, not counted as new mods. Existing weapon-history and video-game galleries remain unchanged.
 
 ## End of research index
+
+<!-- weapon-inspirations-navigation:start -->
+## Related collections
+
+[TaCZ gunpacks](TaCZ-Gunpacks) · [TaCZ ranked explorer](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/) · [Creator-hosted discoveries](Minecraft-Gunpack-Creator-Discoveries)
+<!-- weapon-inspirations-navigation:end -->

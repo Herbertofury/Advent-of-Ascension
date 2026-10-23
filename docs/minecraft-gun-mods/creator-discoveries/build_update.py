@@ -152,6 +152,10 @@ def refresh():
 
 NAV_LOAD="""    import importlib.util
     _nav_path=Path(__file__).resolve().parent{parents}/'weapon_inspiration_navigation.py'
+    if not _nav_path.exists():
+        import subprocess
+        _source=subprocess.run(['git','show','HEAD:docs/weapon_inspiration_navigation.py'],cwd=_nav_path.parent.parent,check=True,capture_output=True).stdout
+        _nav_path.write_bytes(_source)
     _nav_spec=importlib.util.spec_from_file_location('weapon_nav_shared',_nav_path)
     _nav=importlib.util.module_from_spec(_nav_spec);_nav_spec.loader.exec_module(_nav)
     _nav.apply({wiki})
@@ -209,19 +213,13 @@ def patch_publishers():
             hook=indent+"# creator_delta_refresh: preserve canonical creator discoveries on rebuild\n"+indent+"import importlib.util as _iu\n"+indent+"_delta="+root_expr+"\n"+indent+"if _delta.exists():\n"+indent+" _spec=_iu.spec_from_file_location('creator_delta_update',_delta);_module=_iu.module_from_spec(_spec);_spec.loader.exec_module(_module);_module.refresh()\n"
             assert needle in text,(path,'hook owner changed')
             text=text.replace(needle,needle+'\n'+hook,1);ast.parse(text);path.write_text(text)
-    patched=[]
-    for path in (REPO/'.github/workflows').glob('*.yml'):
-        text=path.read_text();before=text
-        for prefix in ('/docs/minecraft-gun-mods/\\n','/docs/weapon-inspirations/\\n'):
-            if prefix in text and '/docs/weapon_inspiration_navigation.py\\n' not in text:
-                text=text.replace(prefix,prefix+'/docs/weapon_inspiration_navigation.py\\n')
-        if path.name=='publish-weapon-inspirations.yml' and "root = Path('wiki')" in text:
-            a=text.rfind("          python3 - <<'PY'",0,text.index("root = Path('wiki')"));b=text.index('\n          PY',a)+len('\n          PY')
-            assert a>=0
-            text=text[:a]+"          gh api \"repos/${GITHUB_REPOSITORY}/contents/docs/weapon_inspiration_navigation.py?ref=${GITHUB_SHA}\" --jq .content | base64 --decode > source/weapon_inspiration_navigation.py\n          python3 source/weapon_inspiration_navigation.py wiki"+text[b:]
-            text=text.replace('          WIKI_TOKEN: ${{ github.token }}','          WIKI_TOKEN: ${{ github.token }}\n          GH_TOKEN: ${{ github.token }}')
-        if before!=text:path.write_text(text);patched.append(path.name)
-    save(ROOT/'qa/publisher-owner-proof.json',{'sharedOwner':'docs/weapon_inspiration_navigation.py','modulePublishers':['minecraft-gun-mods/build.py:publish','minecraft-gun-mods/tacz/publish_tacz.py:prepare','weapon-inspirations/build_galleries.py:publish','weapon-inspirations/expand_research.py:persist_and_publish'],'workflowIncludesUpdated':patched,'oldAppendOwnersReplaced':True})
+    # Workflow mutation is deliberately outside the content-only CI authority.
+    # The connector updated the one inline publisher; module publishers use exact Git HEAD.
+    workflow=REPO/'.github/workflows/publish-weapon-inspirations.yml'
+    if workflow.exists():
+        assert 'python3 source/weapon_inspiration_navigation.py wiki' in workflow.read_text(), 'Inline publisher still has a separate menu owner'
+    save(ROOT/'qa/publisher-owner-proof.json',{'sharedOwner':'docs/weapon_inspiration_navigation.py','modulePublishers':['minecraft-gun-mods/build.py:publish','minecraft-gun-mods/tacz/publish_tacz.py:prepare','weapon-inspirations/build_galleries.py:publish','weapon-inspirations/expand_research.py:persist_and_publish'],'workflowFilesChangedByBuilder':[],'sharedModuleFromExactGitHead':True,'oldAppendOwnersReplaced':True})
+
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--wiki');args=parser.parse_args()

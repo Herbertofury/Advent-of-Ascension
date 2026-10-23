@@ -250,13 +250,15 @@ def persist_and_publish(c,m,baseline,state,remote):
  if not (wiki/'.git').exists():run_git('clone','--depth','1','https://github.com/'+g.REPO+'.wiki.git',str(wiki))
  else:run_git('pull','--ff-only',cwd=wiki)
  for page in [*g.PAGES,GAME_PAGE,SOURCE_PAGE]:shutil.copyfile(DOCS/(page+'.md'),wiki/(page+'.md'))
- marker='<!-- additional-weapon-research:start -->';end='<!-- additional-weapon-research:end -->'
- block=marker+'\n### Additional weapon discoveries\n\n- [New gaming inspirations]('+GAME_PAGE+')\n- [Expanded historical gallery]('+g.PAGES[1]+'#new-research-additions)\n- [Sources for new discoveries]('+SOURCE_PAGE+')\n'+end
- for name in ['Home.md','_Sidebar.md']:
-  file=wiki/name;body=file.read_text() if file.exists() else ''
-  if marker in body:body=body[:body.index(marker)]+block+body[body.index(end)+len(end):]
-  else:body=body.rstrip()+'\n\n'+block+'\n'
-  file.write_text(body,encoding='utf-8')
+ import importlib.util
+ _nav_path=Path(__file__).resolve().parent.parent/'weapon_inspiration_navigation.py'
+ if not _nav_path.exists():
+     import subprocess
+     _source=subprocess.run(['git','show','HEAD:docs/weapon_inspiration_navigation.py'],cwd=_nav_path.parent.parent,check=True,capture_output=True).stdout
+     _nav_path.write_bytes(_source)
+ _nav_spec=importlib.util.spec_from_file_location('weapon_nav_shared',_nav_path)
+ _nav=importlib.util.module_from_spec(_nav_spec);_nav_spec.loader.exec_module(_nav)
+ _nav.apply(wiki)
  run_git('config','user.name','github-actions[bot]',cwd=wiki);run_git('config','user.email','41898282+github-actions[bot]@users.noreply.github.com',cwd=wiki);run_git('add','--','*.md',cwd=wiki)
  if subprocess.run(['git','diff','--cached','--quiet'],cwd=wiki).returncode:
   run_git('commit','-m',f'Publish {coverage["new_gaming"]+coverage["new_historical"]} additional illustrated weapon references',cwd=wiki);run_git('push','origin','HEAD',cwd=wiki)

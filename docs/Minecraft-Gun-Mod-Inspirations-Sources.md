@@ -1230,7 +1230,7 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 [CurseForge project](https://www.curseforge.com/minecraft/mc-mods/fibers-guns-pack-for-tacz) · Checked 2026-10-23. Type: Standalone gun mod.
 
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/fibers-guns-pack-for-tacz)
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/fibers-guns-pack-for-tacz) [Creator Ray Gun preview (2024)](https://www.patreon.com/fibers4life/posts/ray-gun-now-on-107948902)
 
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_63a169f8-8852-4c08-a73b-83efd4dab680.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/fibers-guns-pack-for-tacz). SHA-256 `c3e0e55e7e9b6783b52e7a5e8f2202063c39cf04d0224812ee3b15ebefe4f56c`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_fd52e56e-8842-41ab-b85b-07b845de8e32.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/fibers-guns-pack-for-tacz). SHA-256 `4118d58aaad2de7894dc2aa8c10f45dd501d7a78f29a9008f82654382e61aaed`.

@@ -128,14 +128,16 @@ The cloud authoring check found no NVIDIA device nodes or `nvidia-smi` executabl
 
 [Direct hotfix archive study](Helldivers-Gunpack-Direct-Study) follows actual data-to-script routing and inspects 57 displays, attachment-dependent clips and 49 resolved LOD pairs. Its Quasar script uses a magazine field to retain cooling time, making typed-state preservation essential for our upgrade/salvage integrations. No native compatibility or frame-time pass is claimed.
 
-<!-- weapon-inspirations:start -->
-## Weapon inspirations
+<!-- weapon-inspirations-navigation:start -->
+## [Weapon inspirations](Weapon-Inspirations)
 
-- [Video-game weapon inspirations](Video-Game-Weapon-Inspirations)
-- [Historical and experimental gun inspirations](Historical-and-Experimental-Gun-Inspirations)
-<!-- minecraft-gun-inspirations:start -->
-- [Weapon inspirations](Weapon-Inspirations)
-  - [Minecraft gun mods: illustrated research](Minecraft-Gun-Mod-Inspirations)
-  - [Minecraft Gun Atlas explorer](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/)
-<!-- minecraft-gun-inspirations:end -->
-<!-- weapon-inspirations:end -->
+| Collection | Browse |
+|---|---|
+| Video-game weapons | [Illustrated collection](Video-Game-Weapon-Inspirations) |
+| More gaming references | [Illustrated collection](Video-Game-Weapon-Inspirations-Volume-2) |
+| Historical & experimental guns | [Illustrated collection](Historical-and-Experimental-Gun-Inspirations) |
+| Minecraft gun mods | [Wiki](Minecraft-Gun-Mod-Inspirations) · [Interactive atlas](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/) |
+| TaCZ gunpacks | [Wiki](TaCZ-Gunpacks) · [Ranked explorer](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/tacz/) |
+| Creator-hosted discoveries | [Illustrated collection](Minecraft-Gunpack-Creator-Discoveries) |
+
+<!-- weapon-inspirations-navigation:end -->

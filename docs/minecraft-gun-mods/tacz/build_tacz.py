@@ -24,5 +24,11 @@ def main():
   if (ROOT/'polish_tacz.py').exists():
    import polish_tacz
    polish_tacz.main()
+  # creator_delta_refresh: preserve canonical creator discoveries on rebuild
+  import importlib.util as _iu
+  _delta=ROOT.parent/'creator-discoveries/build_update.py'
+  if _delta.exists():
+   _spec=_iu.spec_from_file_location('creator_delta_update',_delta);_module=_iu.module_from_spec(_spec);_spec.loader.exec_module(_module);_module.refresh()
+
  else:print('New source qualification checkpoint saved; interface source not yet staged.',flush=True)
 if __name__=='__main__':main()
