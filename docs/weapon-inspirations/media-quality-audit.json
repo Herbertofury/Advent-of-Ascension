@@ -1,24 +1,14 @@
 {
   "image_kinds": {
     "Reference photograph or illustration": 8,
-    "Item-video preview (not a separate weapon photograph)": 536,
-    "Weapon reference image": 192,
+    "Item-video preview (not a separate weapon photograph)": 519,
+    "Weapon reference image": 156,
+    "Weapon-specific source image": 54,
     "Source-page reference image": 2,
-    "Catalog weapon reference image": 298
+    "Catalog weapon reference image": 298,
+    "Weapon-specific source image (animation middle frame)": 3
   },
   "shared_images": [
-    [
-      "h-1d699ed3213d",
-      "h-a442808fcd78"
-    ],
-    [
-      "h-d8e312c2a416",
-      "h-83486cb74e1e"
-    ],
-    [
-      "h-1ef93a5c0cd7",
-      "h-0d8b7f628aec"
-    ],
     [
       "defedb1566cc",
       "0f7626e76ade",
@@ -107,11 +97,6 @@
       "f60267364aca"
     ],
     [
-      "eafde8ebcfc8",
-      "dde5fb54152b",
-      "e31be56981f1"
-    ],
-    [
       "7abc71266fac",
       "7a99c099639e",
       "7a956807faf3",
@@ -159,6 +144,14 @@
       "title": "North Korea's Huge Type 88 Helical Drum AK Magazine",
       "url": "https://www.youtube.com/watch?v=WRwBcK5D-oY",
       "match": "Item title matched"
+    },
+    {
+      "id": "h-411cc8373bc9",
+      "name": "SA80 L85",
+      "game": "Bullpups and Futuristic Rifles",
+      "title": "Enfield L85A1: Perhaps the Worst Modern Military Rifle",
+      "url": "https://www.youtube.com/watch?v=gDCRop6CRwY",
+      "match": "Item-specific title and context checked"
     },
     {
       "id": "h-d55fb63e8846",
@@ -273,20 +266,12 @@
       "match": "Item title matched"
     },
     {
-      "id": "h-26d46bac5647",
-      "name": "Wall gun",
-      "game": "Ornate and Antique Rarities",
-      "title": "The Chronological Wall Exhibits￼",
-      "url": "https://www.youtube.com/watch?v=BBoyZnOZpkI",
-      "match": "Item title matched"
-    },
-    {
       "id": "h-0d8b7f628aec",
       "name": "Volcanic rifle",
       "game": "Ornate and Antique Rarities",
-      "title": "Curator's Corner: Smith & Wesson Volcanic Pistol and the Evolution of the Firearms",
-      "url": "https://www.youtube.com/watch?v=W4vqC-z1h-A",
-      "match": "Item title matched"
+      "title": "The Coolest Volcanic Ever: A Vintage Scoped Pistol-Carbine",
+      "url": "https://www.youtube.com/watch?v=X1nErlM62lc",
+      "match": "Item-specific title and context checked"
     },
     {
       "id": "98a17b4f94ac",
@@ -300,9 +285,9 @@
       "id": "df04ef8e7daa",
       "name": "Chai's Guitar Weapon",
       "game": "Hi-Fi RUSH",
-      "title": "HOW TO MAKE CHAI'S GUITAR PROPS TUTORIAL HI-FI RUSH FOR COSPLAY!",
-      "url": "https://www.youtube.com/watch?v=g8tOZ_XHfbw",
-      "match": "Item title matched"
+      "title": "Hi-Fi Rush - Guitar Transformation Sound Design",
+      "url": "https://www.youtube.com/watch?v=OtaLaphTkdE",
+      "match": "Item-specific title and context checked"
     },
     {
       "id": "cef810ff4e5a",
@@ -401,22 +386,6 @@
       "match": "Item matched"
     },
     {
-      "id": "2baf63b01c4c",
-      "name": "Felyne-themed Equipment",
-      "game": "Monster Hunter",
-      "title": "Monster Hunter - Felyne Village - Quest 5: Weapon Upgrades with a Master's Touch!",
-      "url": "https://www.youtube.com/watch?v=7PZPlyxbmzE",
-      "match": "Named collection reference; not a single weapon"
-    },
-    {
-      "id": "4e4d153c856f",
-      "name": "Replicant",
-      "game": "Call of Duty: Black Ops 4",
-      "title": "Existing collection / context video",
-      "url": "https://www.youtube.com/watch?v=ReJEx3V2fIE",
-      "match": "Context only; item match unresolved"
-    },
-    {
       "id": "868aafcc9e40",
       "name": "Ahab's Revenge",
       "game": "Call of Duty: Black Ops 4",
@@ -425,12 +394,20 @@
       "match": "Item matched"
     },
     {
-      "id": "1394cd836f77",
-      "name": "Unchained Darkness",
-      "game": "Call of Duty: Black Ops 6",
-      "title": "ULTRA MASTERCRAFT SKIN NIHILIST DM-10 IN COD BO6 #shorts #short #bo6 #callofduty #warzone",
-      "url": "https://www.youtube.com/watch?v=TnYb2iuCxg4",
-      "match": "Item matched"
+      "id": "1bbe31fd9a87",
+      "name": "Stare Down",
+      "game": "Call of Duty: Modern Warfare III",
+      "title": "Nuclear Family Ultra Skin Mastercraft Tracer Pack Bundle w/ Executions and Weapon Inspection in MW3!",
+      "url": "https://www.youtube.com/watch?v=1sYo08VQpg0",
+      "match": "Named bundle collection showcase; publisher/source identifies this weapon"
+    },
+    {
+      "id": "37b026863af9",
+      "name": "Authorized Destroyed",
+      "game": "Call of Duty: Black Ops 7",
+      "title": "CoD BO7 Black Ops 7 & Warzone - Blueprint - SMG - Dravec 45 - Authorized Destroyer - Weapon Inspect",
+      "url": "https://www.youtube.com/watch?v=Co5yJFF8WBU",
+      "match": "Item-specific showcase; name/base-weapon identity reviewed"
     },
     {
       "id": "325c9b79e303",
@@ -532,9 +509,25 @@
       "id": "b2ee8705214d",
       "name": "Gold AKM sound effect",
       "game": "THE FINALS",
-      "title": "Akm sound effect | high quality sound effect of akm",
-      "url": "https://www.youtube.com/watch?v=ET_FDD4BVWU",
-      "match": "Item title matched"
+      "title": "The Finals - 20 kill win with the Gold AKM",
+      "url": "https://www.youtube.com/watch?v=lYp-ramEC0M",
+      "match": "Item-specific title and context checked"
+    },
+    {
+      "id": "efdee63eed52",
+      "name": "De-animator",
+      "game": "Call of Duty: Black Ops 7",
+      "title": "Dead Wrangler Reactive Tracer Pack Zombies Store Preview (4K HDR) | BO7 Wonder Weapon Bundle",
+      "url": "https://www.youtube.com/watch?v=YCWYINZIEIg",
+      "match": "Named bundle collection showcase; publisher/source identifies this weapon"
+    },
+    {
+      "id": "e5344b31fb77",
+      "name": "Ultimate Powershout",
+      "game": "Dead Rising 3",
+      "title": "DEAD RISING 3 SUPER COMBO WEAPONS (Ultimate Shout, Evo4)",
+      "url": "https://www.youtube.com/watch?v=XzFGnlEJp0U",
+      "match": "Item-specific title and context checked"
     },
     {
       "id": "50a28e20cd0c",
@@ -551,6 +544,70 @@
       "title": "There are levels to this arena stuff - Animated  Armoury Frost Whips【Skyrim Special Edition】",
       "url": "https://www.youtube.com/watch?v=3quSMBPKfGI",
       "match": "Item title matched"
+    },
+    {
+      "id": "62fb67beebe3",
+      "name": "Scratches",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "66f091f6da02",
+      "name": "Gauss Rifle",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "246c373b3ea9",
+      "name": "Bruiser",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "587ab02c460b",
+      "name": "Handcannon",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "5960fd35cfa2",
+      "name": "Flayed God",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "52568f4288af",
+      "name": "Floundergat",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "ef2c92aed866",
+      "name": "Grandle",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "90db5766e623",
+      "name": "Cogloader",
+      "game": "Minecraft - Scorched Guns 2",
+      "title": "Scorched Guns 2 - All Guns Showcase | Minecraft Mod | v0.5.5 | By Ribs498",
+      "url": "https://www.youtube.com/watch?v=NoohETtEees",
+      "match": "Creator all-guns collection showcase; item timestamp not yet isolated"
     },
     {
       "id": "7d6051ff3283",
@@ -593,12 +650,20 @@
       "match": "Item title matched"
     },
     {
-      "id": "g-c7cf78d773de",
-      "name": "Monkey Gun",
-      "game": "TimeSplitters: Future Perfect",
-      "title": "Timesplitters Future Perfect Monkey Brawl On Egyptian Classic",
-      "url": "https://www.youtube.com/watch?v=cg3AZQu5lqg",
-      "match": "Item title matched"
+      "id": "g-8e7eccaa610d",
+      "name": "Disc Blade Gun",
+      "game": "Ratchet & Clank: Up Your Arsenal",
+      "title": "Ratchet and Clank 3 - weapons upgrading. Discblade gun",
+      "url": "https://www.youtube.com/watch?v=YirTTjOe0JY",
+      "match": "Item-specific showcase; name/base-weapon identity reviewed"
+    },
+    {
+      "id": "g-37a169ae582d",
+      "name": "Nightmare Box",
+      "game": "Ratchet & Clank: Into the Nexus",
+      "title": "Ratchet & Clank: Into the Nexus - Grav Links and Scare in a Box Gameplay (PS3)",
+      "url": "https://www.youtube.com/watch?v=BuXNh8VFRLM",
+      "match": "Item gameplay in a named game feature demonstration"
     },
     {
       "id": "g-a514eaa4bb61",
@@ -607,6 +672,22 @@
       "title": "Oddworld: Stranger's Wrath:: Boombats Early + Bunny Hop Into Looten Duke's Fort",
       "url": "https://www.youtube.com/watch?v=jxRgQdytNig",
       "match": "Item title matched"
+    },
+    {
+      "id": "g-b1ed87071356",
+      "name": "Stingbee",
+      "game": "Oddworld: Stranger's Wrath",
+      "title": "oddworld stranger wrath - las municiones vivas",
+      "url": "https://www.youtube.com/watch?v=R0kHm3E3CLc",
+      "match": "Ammunition collection showcase; item timestamp not yet isolated"
+    },
+    {
+      "id": "g-8b8f83209221",
+      "name": "Crawler",
+      "game": "Prey (2006)",
+      "title": "Prey (2006) - All Weapons",
+      "url": "https://www.youtube.com/watch?v=XU9dUdr13eE",
+      "match": "Whole-game arsenal collection showcase; item timestamp not yet isolated"
     }
   ]
 }
