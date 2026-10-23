@@ -5,7 +5,7 @@ import argparse, hashlib, json, re
 SITE='https://herbertofury.github.io/Advent-of-Ascension/'
 START='<!-- weapon-inspirations-navigation:start -->'
 END='<!-- weapon-inspirations-navigation:end -->'
-LEGACY=('weapon-inspirations','minecraft-gun-inspirations','tacz-gunpack-lab','weapon-inspirations-navigation')
+LEGACY=('weapon-inspirations','minecraft-gun-inspirations','tacz-gunpack-lab','additional-weapon-research','weapon-inspirations-navigation')
 TARGETS=('Home.md','_Sidebar.md','Weapon-Inspirations.md','Weapon-Reference-Library.md','Minecraft-Gun-Mod-Inspirations.md')
 
 def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -30,15 +30,12 @@ def records(wiki):
 def navigation(wiki,kind):
     available={slug for _,slug,_ in records(wiki)}
     if kind=='sidebar':
-        lines=[START,'## [Weapon inspirations](Weapon-Inspirations)','',
-          '- [Video-game weapons](Video-Game-Weapon-Inspirations)']
-        if 'Video-Game-Weapon-Inspirations-Volume-2' in available: lines+=['  - [Volume 2](Video-Game-Weapon-Inspirations-Volume-2)']
-        lines+=['- [Historical & experimental guns](Historical-and-Experimental-Gun-Inspirations)',
-          '- [Minecraft gun mods](Minecraft-Gun-Mod-Inspirations)',
-          '  - [Browse all mods]('+SITE+'minecraft-gun-mods/)',
-          '  - [TaCZ gunpacks](TaCZ-Gunpacks)',
-          '  - [Browse TaCZ packs]('+SITE+'minecraft-gun-mods/tacz/)']
-        if 'Minecraft-Gunpack-Creator-Discoveries' in available: lines+=['  - [Creator-hosted discoveries](Minecraft-Gunpack-Creator-Discoveries)']
+        lines=[START,'### [Weapon inspirations](Weapon-Inspirations)','',
+          '- [Gaming weapons](Video-Game-Weapon-Inspirations)'+(' · [Volume 2](Video-Game-Weapon-Inspirations-Volume-2)' if 'Video-Game-Weapon-Inspirations-Volume-2' in available else ''),
+          '- [Historical & experimental guns](Historical-and-Experimental-Gun-Inspirations)',
+          '- [Minecraft gun mods](Minecraft-Gun-Mod-Inspirations) · [Explore]('+SITE+'minecraft-gun-mods/)',
+          '- [TaCZ gunpacks](TaCZ-Gunpacks) · [Rankings]('+SITE+'minecraft-gun-mods/tacz/)']
+        if 'Minecraft-Gunpack-Creator-Discoveries' in available: lines+=['- [Creator-hosted discoveries](Minecraft-Gunpack-Creator-Discoveries)']
         return '\n'.join(lines+['',END])
     lines=[START,'## [Weapon inspirations](Weapon-Inspirations)','',
       '| Collection | Browse |','|---|---|']
@@ -87,7 +84,12 @@ def apply(wiki_path,report_path=None):
             new=strip_managed(old)+'\n\n'+START+'\n## Related collections\n\n[TaCZ gunpacks](TaCZ-Gunpacks) · [TaCZ ranked explorer]('+SITE+'minecraft-gun-mods/tacz/)'
             if (wiki/'Minecraft-Gunpack-Creator-Discoveries.md').exists():new+=' · [Creator-hosted discoveries](Minecraft-Gunpack-Creator-Discoveries)'
             new+='\n'+END+'\n'
-        else:new=strip_managed(old)+'\n\n'+navigation(wiki,'sidebar' if name=='_Sidebar.md' else 'table')+'\n'
+        elif name=='_Sidebar.md':
+            body=strip_managed(old)
+            block=navigation(wiki,'sidebar')
+            anchor='<details><summary>Optional weapon upgrade</summary>'
+            new=(body[:body.index(anchor)].rstrip()+'\n\n'+block+'\n\n'+body[body.index(anchor):]+'\n') if anchor in body else body+'\n\n'+block+'\n'
+        else:new=strip_managed(old)+'\n\n'+navigation(wiki,'table')+'\n'
         if new!=old:p.write_text(new,encoding='utf-8');changes[name]={'before':hashlib.sha256(old.encode()).hexdigest(),'after':digest(p)}
     untouched={name:sha for name,sha in before.items() if name not in TARGETS}
     assert all(digest(wiki/name)==sha for name,sha in untouched.items()), 'Unrelated Wiki content changed'
