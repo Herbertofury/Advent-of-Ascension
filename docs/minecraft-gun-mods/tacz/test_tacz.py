@@ -31,7 +31,14 @@ def run(url,out):
   page.locator('[data-ranking="downloads"]').click();check('popularity resets shortlist filter',page.locator('.project-card').count()==len(items))
   page.locator('#anchorsButton').click();check('hero shortlist opens qualified guns',0<page.evaluate('ATLAS_TEST.shown')<len(items));page.locator('#resetFilters').click()
   page.locator('#earlierButton').click();check('earlier gunpack selections retained',page.evaluate('ATLAS_TEST.shown')==sum(x.get('earlierPick',False) for x in items));page.locator('#resetFilters').click()
-  first=items[0];fid=first['id'];page.locator('#search').fill('"'+first['name']+'"');page.wait_for_timeout(200);check('quoted project search',page.locator('.project-card').count()==1)
+  first=items[0];fid=first['id'];page.locator('#search').fill('"'+first['name']+'"');page.wait_for_timeout(200)
+  found=page.locator('.project-card').evaluate_all('(a)=>a.map(x=>x.dataset.project)')
+  import unicodedata
+  def normalized(s):return ''.join(c for c in unicodedata.normalize('NFKD',str(s or '')) if not unicodedata.combining(c)).lower()
+  phrase=normalized(first['name'])
+  expected={x['id'] for x in items if phrase in normalized(' '.join([x['name'],x['summary'],x.get('descriptionExcerpt',''),x['ecosystem'],x['type']]+[a['name'] for a in x.get('authors',[])]+x.get('tags',[])+x.get('themes',[])+x.get('versions',[])))}
+  check('quoted search preserves exact phrase references',set(found)==expected and fid in found,{'actual':found,'expected':sorted(expected)})
+  page.locator('#search').fill('id:'+fid);page.wait_for_timeout(200);check('exact project identity search',page.locator('.project-card').count()==1 and page.locator('.project-card').get_attribute('data-project')==fid)
   page.locator('.project-card .favorite').click();check('favorite saved',fid in page.evaluate('ATLAS_TEST.favorites'))
   page.locator('[data-action="detail"][data-id="'+fid+'"]').click()
   check('exact source metrics in detail',str(first['metrics']['downloads']) in page.locator('.metric-evidence').inner_text().replace(',',''))

@@ -78,6 +78,9 @@ def data_build():
   x['maintenance']=x.get('maintenanceNotice') or ('Discontinued by creator' if any(s.get('maintenance')=='Discontinued by creator' for s in facts) else 'No discontinuation notice found')
   x['historicalDownloadsMixed']=any(s.get('historicalDownloadsMixed') for s in facts)
   x['checkedAt']=max([s['checkedAt'] for s in facts]+[x['checkedAt']]);records[id]=x
+ selection['mergeProofs'] += [
+  {'primary':'cf-1459599','aliases':['mr-RAIYwXWx'],'proof':'Exact same Cinder title, TCinder creator credit, description and matching artwork on both provider pages.'},
+  {'primary':'cf-1671643','aliases':['mr-f6HDPJO8'],'proof':'Same CS2 to MC title, weapon roster and three identical decoded source-gallery images. Credited handles differ; source credits remain separately visible. Counts are not summed.'}]
  for proof in selection['mergeProofs']:
   target=records[proof['primary']];target['identityProof']=proof['proof']
   for id in proof['aliases']:
@@ -117,6 +120,14 @@ def data_build():
   if x['historicalDownloadsMixed']:x['cautions'].append('Lifetime project downloads include pre-TaCZ releases. Popularity is not a TaCZ-only install count.')
   if x['maintenance']=='Discontinued by creator':x['cautions'].insert(0,'The creator states that this project is no longer maintained. It is retained as a clearly marked legacy gun-content reference, not a current-quality recommendation.')
   x['evidence']['releaseScope']='Existing exact release evidence plus current provider latest-file records. ZIP packs often do not specify a loader; no loader/version combination is invented.'
+ review=load(ROOT/'media-review-overrides.json')
+ for x in items:
+  x['media']=[m for m in x['media'] if m['sha256'] not in review['excludedPromotionalImages']]
+  preferred=review['preferred'].get(x['id'])
+  if preferred:
+   assert any(m['sha256']==preferred for m in x['media']), ('Missing reviewed image',x['id'])
+   x['preferredMediaSha256']=preferred
+  if x['id'] in ('cf-1459599','cf-1671643'):x['type']='Gunpack (ZIP)'
  items.sort(key=lambda x:(-(x['metrics']['downloads'] if x['metrics']['downloads'] is not None else -1),x['name'].lower()))
  for n,x in enumerate(items,1):x['popularityRank']=n
  out={'schemaVersion':2,'catalogId':'aoa-tacz-gunpacks','title':'TaCZ Gunpack Lab','checkedDate':research['checkedAt'][:10],'generatedAt':research['checkedAt'],'items':items,'idAliases':{id:x['id'] for x in items for id in x['aliases']},'sources':[{'provider':'Minecraft Gun Atlas','role':'Canonical parent snapshot','url':'https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/catalog.json','dataHash':base['build']['dataHash']},{'provider':'CurseForge and Modrinth','role':'Live project popularity and creator gun-content evidence'}],'rankingPolicy':selection['metricsPolicy'],'coverage':{'scope':selection['scope'],'publishedProjects':len(items),'crossProviderMerges':sum(len(p['aliases']) for p in selection['mergeProofs']),'mediaProjects':sum(bool(x['media']) for x in items),'directVideoProjects':sum(bool(x['videos']) for x in items),'sourceRefreshUnresolved':unresolved,'discovery':research['coverage'],'communityRatingsAvailable':0},'build':{'parentDataHash':base['build']['dataHash'],'dataHash':hashlib.sha256(json.dumps(items,ensure_ascii=False,sort_keys=True).encode()).hexdigest(),'generator':'build_tacz.py 1.0'}}
@@ -178,6 +189,8 @@ def ui_build(data):
  # The methodology replaces the broader atlas provenance entry point but retains its original source dialog below.
  js=replace(js,"$('#sourcesButton').onclick=sources;","$('#sourcesButton').onclick=rankingHelp;")
  js=replace(js,'renderSavedViews();syncControls();render();',"$('#rankingHelp').onclick=rankingHelp;\ndocument.addEventListener('click',event=>{const b=event.target.closest('button');if(b?.dataset.ranking){state.sort=b.dataset.ranking;if(b.dataset.ranking==='priority')state.curation='anchors';else if(state.curation==='anchors')state.curation='';syncControls();render();}if(b?.dataset.rate){const id=b.dataset.rate,n=Number(b.dataset.value);if(!MAP.has(id)||!Number.isInteger(n)||n<0||n>5)return;preferences.ratings[id]=n;persist();const holder=b.closest('.personal-rating');holder.outerHTML=ratingControl(MAP.get(id));render();toast(n?'Your private rating was saved.':'Your rating was cleared.');}});\nrenderSavedViews();syncControls();render();")
+ js=js.replace("function mediaFor(x){return (x.media||[]).find(m=>m.role!=='Project icon')||(x.media||[])[0];}","function mediaFor(x){return (x.media||[]).find(m=>m.sha256===x.preferredMediaSha256)||(x.media||[]).find(m=>m.role!=='Project icon')||(x.media||[])[0];}")
+ js=js.replace("switch(t.key){case 'type':", "switch(t.key){case 'id':found=norm(x.id)===v||(x.aliases||[]).some(a=>norm(a)===v);break;case 'name':found=norm(x.name).includes(v);break;case 'type':")
  (ROOT/'app.js').write_text(js,encoding='utf-8')
  (ROOT/'app.css').write_text((PARENT/'app.css').read_text()+'\n'+(ROOT/'tacz.css').read_text(),encoding='utf-8')
  # Only a navigation link changes in the parent. Canonical data and parent persistence code stay byte-identical.
@@ -197,7 +210,7 @@ def wiki_build(data):
   if x['id'] in SHORTLIST:lines.append(f'| [{md(x["name"])}]({SITE}?item={x["id"]}) | {md(x["qualityReason"])} |')
  lines+=['','## All gunpacks, ranked by popularity','','| Rank / embedded image | Gunpack | Popularity evidence | Direct source / video |','|---|---|---|']
  for x in data['items']:
-  im=next((m for m in x['media'] if m['role']!='Project icon'),next(iter(x['media']),None))
+  im=next((m for m in x['media'] if m['sha256']==x.get('preferredMediaSha256')),None) or next((m for m in x['media'] if m['role']!='Project icon'),next(iter(x['media']),None))
   image=f'<a href="{SITE}?item={x["id"]}"><img src="{RAW+im["src"].removeprefix("../")}?v={im["sha256"][:8]}" width="210" alt="{md(x["name"])}"></a><br><sub>{md(im["role"])}</sub>' if im else 'No creator image established'
   m=x['metrics'];stat=f'**{number(m["downloads"])} downloads** ({md(m["downloadSource"])})<br>CF favorites: {number(m["favorites"])}<br>MR followers: {number(m["followers"])}'
   links=f'[Project]({x["projectUrl"]}) · [Details / rate / save]({SITE}?item={x["id"]})'
