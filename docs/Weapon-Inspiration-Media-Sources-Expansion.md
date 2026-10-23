@@ -1234,6 +1234,138 @@ Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wi
 [Video: GILDED HYDRA RUN 1000+ VIDEOS IN THE MAKING! &#124; Let&#x27;s Play Enter the Gungeon: Mod the Hydra &#124; Part 49](https://www.youtube.com/watch?v=s97ssijJBRQ). Evidence: Item title and game context matched.
 [Reference](https://enterthegungeon.wiki.gg/wiki/Gilded_Hydra): Gilded Hydra.
 
+<a id="ref-xg-2a87657e71e9"></a>
+## Zorgun (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Zorgun).
+[Video: Enter the Gungeon (PC) - High Priest?! Zorgun/Alien Engine Gameplay - Enter the Gungeon Playthough](https://www.youtube.com/watch?v=8OCIz1kHn0g). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Zorgun): Zorgun.
+
+<a id="ref-xg-66264e87c1a1"></a>
+## Boxing Glove (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Boxing_Glove).
+[Video: The Boxing Glove &#124; Part 12 &#124; Let&#x27;s Play: Enter the Gungeon Advanced Gungeons and Draguns &#124; AG&amp;D](https://www.youtube.com/watch?v=ULh1gNrxalY). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Boxing_Glove): Boxing Glove.
+
+<a id="ref-xg-1f1e4b27e1f3"></a>
+## Jack 'O Lantern Launcher (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Jack_%27O_Lantern_Launcher).
+[Video: Terraria Weapon Guide: Jack &#x27;O Lantern Launcher](https://www.youtube.com/watch?v=QaG5bWxZ8U4). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Jack_%27O_Lantern_Launcher): Jack &#x27;O Lantern Launcher.
+
+<a id="ref-xg-208e4e33cc64"></a>
+## Venus Magnum (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Venus_Magnum).
+[Video: Why Terraria&#x27;s Venus Magnum is BETTER than you think...](https://www.youtube.com/watch?v=XpmIMYB1pgI). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Venus_Magnum): Venus Magnum.
+
+<a id="ref-xg-e41061073953"></a>
+## Nebula Arcanum (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Nebula_Arcanum).
+[Video: Terraria Most Underrated Item Showcase Nebula Arcanum! kills all bosses in seconds!](https://www.youtube.com/watch?v=MidJevaDX94). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Nebula_Arcanum): Nebula Arcanum.
+
+<a id="ref-xg-1005c45a1a12"></a>
+## Heat Ray (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Heat_Ray).
+[Video: Heat Ray-Terraria IOS Review](https://www.youtube.com/watch?v=9icj-2gXNuA). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Heat_Ray): Heat Ray.
+
+<a id="ref-xg-95d251cf872d"></a>
+## Candy Corn Rifle (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Candy_Corn_Rifle).
+[Video: Candy Corn Rifle weapon review Terraria 1.2](https://www.youtube.com/watch?v=8FoyXljXyO0). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Candy_Corn_Rifle): Candy Corn Rifle.
+
+<a id="ref-xg-3f8eec381ef3"></a>
+## Megashark (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Megashark).
+[Video: Terraria 1.4.4 new UPGRADED MEGASHARK](https://www.youtube.com/watch?v=mm0ivdk1cr8). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Megashark): Megashark.
+
+<a id="ref-xg-c4990ba4607e"></a>
+## Disc Gun (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JvEgbYrhlRI).
+[Video: Nuclear Throne: Gold Nuke Launcher+ Gold Disc Gun unlocks](https://www.youtube.com/watch?v=JvEgbYrhlRI). Evidence: Item title and game context matched.
+
+<a id="ref-xg-d979ea4ba65c"></a>
+## Onyx Blaster (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Onyx_Blaster).
+[Video: How to Get Onyx Blaster in Terraria &#124; Onyx Blaster terraria](https://www.youtube.com/watch?v=qtxVkS6leho). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Onyx_Blaster): Onyx Blaster.
+
+<a id="ref-xg-13b71944fcc3"></a>
+## Super Plasma Cannon (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=qKD-_ZIUa0M).
+[Video: Nuclear Throne - Super Plasma Cannon Plant](https://www.youtube.com/watch?v=qKD-_ZIUa0M). Evidence: Item title and game context matched.
+
+<a id="ref-xg-ac64308a0706"></a>
+## Elf Melter (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Elf_Melter).
+[Video: Elf Melter-Terraria IOS Review!](https://www.youtube.com/watch?v=_63aF71nPIM). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Elf_Melter): Elf Melter.
+
+<a id="ref-xg-8f9dfe9e3ffb"></a>
+## Super Disc Gun (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=iNgv8fHFd_A).
+[Video: LOOPING WITH SUPER DISC GUN &#124; Nuclear Throne 52](https://www.youtube.com/watch?v=iNgv8fHFd_A). Evidence: Item title and game context matched.
+
+<a id="ref-xg-f9c4511301db"></a>
+## Lightning Cannon (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=_AzPT9_wMt4).
+[Video: Nuclear Throne One Gun Loop [Lightning Cannon]](https://www.youtube.com/watch?v=_AzPT9_wMt4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-091349e09eec"></a>
+## Frog Pistol (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=JLkjdCNCHeQ).
+[Video: Nuclear Throne One Gun Loop [Frog Pistol]](https://www.youtube.com/watch?v=JLkjdCNCHeQ). Evidence: Item title and game context matched.
+
+<a id="ref-xg-85ec9bf7a9f0"></a>
+## Toxic Bow (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=xi-RV2Ulgfc).
+[Video: Nuclear Throne One Gun Loop [Toxic Bow]](https://www.youtube.com/watch?v=xi-RV2Ulgfc). Evidence: Item title and game context matched.
+
+<a id="ref-xg-2ef40112309b"></a>
+## Laser Rifle (Terraria)
+
+Image: Named weapon reference image. [Source](https://terraria.wiki.gg/wiki/Laser_Rifle).
+[Video: Terraria: Laser Rifle Review](https://www.youtube.com/watch?v=NmS_dKBU8G0). Evidence: Item title and game context matched.
+[Reference](https://terraria.wiki.gg/wiki/Laser_Rifle): Laser Rifle.
+
+<a id="ref-xg-1c08474dd0ca"></a>
+## Toxicarp (Terraria)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=82xR0MY82Ek).
+[Video: Terraria 1.3 Weapons Guide!: TOXICARP! CORRUPTION FISHING WEAPON](https://www.youtube.com/watch?v=82xR0MY82Ek). Evidence: Item title and game context matched.
+
+<a id="ref-xg-6979eb443c88"></a>
+## Eraser (Nuclear Throne)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=eqwyVi10WT4).
+[Video: Nuclear Throne One Gun Loop [Eraser]](https://www.youtube.com/watch?v=eqwyVi10WT4). Evidence: Item title and game context matched.
+
+<a id="ref-xg-74ac5f9fbd97"></a>
+## Avenger (Borderlands 2)
+
+Image: Item-video preview; not a standalone weapon photograph. [Source](https://www.youtube.com/watch?v=ZkC8mArutbc).
+[Video: Pearlescent Spotlight: Avenger &#124; Borderlands 2 Pearlescent Gameplay &#124; Ultimate Vault Hunter Pack](https://www.youtube.com/watch?v=ZkC8mArutbc). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Avenger_%28Borderlands_2%29): Avenger (Borderlands 2).
+
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
 
