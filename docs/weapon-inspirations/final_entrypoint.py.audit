@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the final scoped delta and verify every Wiki image in Chromium."""
+"""Finalize and verify the complete live AoA weapon inspiration Wiki."""
 from pathlib import Path
 import hashlib,importlib.machinery,importlib.util,json,shutil,sys,time
 ROOT=Path(__file__).resolve().parent
@@ -68,8 +68,45 @@ def sources_with_notes(entries,media):
 p.sources_page=sources_with_notes
 
 def finish_known_delta():
- import final_media_polish
- return final_media_polish.run(d)
+ import collections
+ from PIL import Image
+ c=g.load(ROOT/'catalog.json',{});m=g.load(ROOT/'media.json',{});entries=c['gaming']+c['historical'];idx={e['id']:e for e in entries}
+ assert len(c['gaming'])==892 and len(c['historical'])==152
+ assert not g.load(ROOT/'specificity-report.json',{})['pending']
+ assert not g.load(ROOT/'final-polish-report.json',{})['pending']
+ k='1ea23263a704'
+ note="Image/video reference: ZioMcCall's Flavour v22 variant."
+ if note not in idx[k]['hook']:idx[k]['hook']=idx[k]['hook'].rstrip()+ ' '+note
+ m[k]['image']['kind']="Named Mancubus chapter screenshot, ZioMcCall's Flavour v22 variant"
+ m[k]['source_note']="The original v22 showcase labels 11:35 as Mancubus, but its chapter thumbnail still shows Revenant launchers. The displayed weapon picture and Watch link instead use the explicitly named ZioMcCall's Flavour v22 variant at 12:47; the original reference is retained here."
+ m[k]['additional_sources']=list(dict.fromkeys(m[k].get('additional_sources',[])+['https://www.youtube.com/watch?v=QEZgQIDzFOo&t=695s']))
+ k='d21c72146df8';url='https://www.youtube.com/watch?v=L_59BErDMTI';r=g.fetch(url)
+ assert r['ok'],'Ability chapter metadata unavailable'
+ data=f.parse_json_after(r['body'],[r'(?:var\s+ytInitialData|window\["ytInitialData"\]|ytInitialData)\s*=\s*'])
+ chosen=None;chapters=[]
+ for obj in g.walk(data):
+  ch=obj.get('chapterRenderer')
+  if not ch:continue
+  title=g.txt(ch.get('title'));thumbs=ch.get('thumbnail',{}).get('thumbnails',[])
+  chapters.append({'title':title,'time':ch.get('timeRangeStartMillis')})
+  if any(a in g.norm(title) for a in ('asperg','holy water','aspersor')) and thumbs:
+   chosen={'title':title,'url':thumbs[-1]['url'],'time':ch.get('timeRangeStartMillis')};break
+ g.save(ROOT/'qa'/'final-ability-evidence.json',{'source':url,'chapters':chapters,'chosen':chosen})
+ assert chosen,'Named holy-water chapter not located'
+ im=p.image_url(idx[k],chosen['url'],m[k]['video']['url'],'Named holy-water ability chapter screenshot')
+ assert im,'Named ability screenshot did not decode'
+ im.update(chapter_title=chosen['title'],chapter_time=chosen['time']);m[k]['image']=im
+ Image.open(ROOT/im['local']).save(ROOT/'qa'/'final-ability.png')
+ d.TARGETS={};d.write_all(c,m)
+ errors=[]
+ for e in entries:
+  rec=m[e['id']];image=rec['image'];path=ROOT/image['local']
+  if hashlib.sha256(path.read_bytes()).hexdigest()!=image['sha256']:errors.append(e['id']+':image hash')
+  with Image.open(path) as pic:pic.verify()
+  if not rec.get('video',{}).get('url') or 'results?search' in rec['video']['url']:errors.append(e['id']+':not a direct video')
+ assert not errors,errors
+ g.save(ROOT/'final-acceptance.json',{'gaming_entries':len(c['gaming']),'gaming_collections':len({e['game'] for e in c['gaming']}),'historical_entries':len(c['historical']),'total_entries':len(entries),'embedded_images_with_verified_file_hashes':len(entries),'direct_video_references':len(entries),'image_specificity_pending':[],'errors':errors,'source_collection_variants_explicit':True,'video_evidence_labels':dict(collections.Counter(m[e['id']]['video']['match'] for e in entries)),'full_video_playback_reviewed':False,'live_browser_receipt':'qa/native-browser-verification.json','live_wiki_receipt':'qa/live-wiki-verification.json'})
+ print('Final artifact acceptance: 1044 entries, images and direct video references; no open image-specificity repairs.',flush=True)
 
 
 def main():
