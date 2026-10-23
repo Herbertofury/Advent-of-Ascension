@@ -989,6 +989,251 @@ Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wik
 [Video: The Love Drill Is An INCREDIBLE Critical Hit Weapon! - UNDERRATED WEAPON SHOWCASE! &#124; Borderlands 3](https://www.youtube.com/watch?v=DeeGRd4qdm0). Evidence: Item title and game context matched.
 [Reference](https://borderlands.fandom.com/wiki/Love_Drill): Love Drill.
 
+<a id="ref-xg-c06bf30d3a10"></a>
+## Free Radical (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Free_Radical).
+[Video: Borderlands 3 │How to FARM the FREE RADICAL (Legendary Review)](https://www.youtube.com/watch?v=_S-isQf43ew). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Free_Radical): Free Radical.
+
+<a id="ref-xg-1667557fef83"></a>
+## Web Slinger (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Web_Slinger).
+[Video: Is the Web Slinger Worth It Now? - Borderlands 3 Showcase](https://www.youtube.com/watch?v=I4V8OyfdZlk). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Web_Slinger): Web Slinger.
+
+<a id="ref-xg-fa512b3254aa"></a>
+## D.N.A. (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/D.N.A.).
+[Video: DNA GANG! DNA Moze Borderlands 3 Showcase&#124; Borderlands 3 DNA Moze](https://www.youtube.com/watch?v=a020sWryQ9I). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/D.N.A.): D.N.A..
+
+<a id="ref-xg-466b038367a7"></a>
+## Throwable Hole (Tiny Tina's Wonderlands)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Throwable_Hole).
+[Video: Tiny Tina&#x27;s Wonderlands - MASSIVE DAMAGE POTENTIAL? Throwable Hole SMG! Legendary Weapon Showcase!](https://www.youtube.com/watch?v=hY4nSzfZ1A0). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Throwable_Hole): Throwable Hole.
+
+<a id="ref-xg-70daff93d91b"></a>
+## Mind-Killer (Borderlands 3)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Mind-Killer).
+[Video: Mind-Killer Borderlands 3 Legendary Showcase](https://www.youtube.com/watch?v=hIKkZH7yZp8). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Mind-Killer): Mind-Killer.
+
+<a id="ref-xg-d56610aef876"></a>
+## Gluttony (Tiny Tina's Wonderlands)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Gluttony).
+[Video: Tiny Tina&#x27;s Wonderlands &#124; Gluttony - Legendary Gun Guide Showcase](https://www.youtube.com/watch?v=Gl7IX9a2sOY). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Gluttony): Gluttony.
+
+<a id="ref-xg-ee0a09a2822e"></a>
+## Alien Engine (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Alien_Engine).
+[Video: Enter the Gungeon (PC) - High Priest?! Zorgun/Alien Engine Gameplay - Enter the Gungeon Playthough](https://www.youtube.com/watch?v=8OCIz1kHn0g). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Alien_Engine): Alien Engine.
+
+<a id="ref-xg-a1b201b2364a"></a>
+## Shadowfire (Tiny Tina's Wonderlands)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/Shadowfire).
+[Video: Tiny Tina&#x27;s Wonderlands - IS IT GOOD?! Shadowfire SMG! Legendary Weapon Showcase! After Buff!](https://www.youtube.com/watch?v=vPBvNR_H8Eo). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/Shadowfire): Shadowfire.
+
+<a id="ref-xg-b969ae5c56a1"></a>
+## Abyssal Tentacle (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Abyssal_Tentacle).
+[Video: Enter the Gungeon Gameplay w/ Facecam - PART 43 - Oh, The Abyssal Tentacle!](https://www.youtube.com/watch?v=AhkJp3DeSDY). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Abyssal_Tentacle): Abyssal Tentacle.
+
+<a id="ref-xg-94edd9323001"></a>
+## White Rider (Tiny Tina's Wonderlands)
+
+Image: Named weapon reference image. [Source](https://borderlands.fandom.com/wiki/White_Rider).
+[Video: Tiny Tina&#x27;s Wonderlands &#124; White Rider - Legendary Gun Guide Showcase](https://www.youtube.com/watch?v=C2fujrCrc4o). Evidence: Item title and game context matched.
+[Reference](https://borderlands.fandom.com/wiki/White_Rider): White Rider.
+
+<a id="ref-xg-57f694f41f03"></a>
+## Zodiac (Ratchet & Clank: Going Commando)
+
+Image: Named weapon reference image. [Source](https://ratchetandclank.fandom.com/wiki/Zodiac).
+[Video: I got the Zodiac in Ratchet &amp; Clank 2! (Ps2)](https://www.youtube.com/watch?v=RJ9P9AWSuNI). Evidence: Item title and game context matched.
+[Reference](https://ratchetandclank.fandom.com/wiki/Zodiac): Zodiac.
+
+<a id="ref-xg-61143304d7dc"></a>
+## Dark Marker (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Dark_Marker).
+[Video: Enter The Gungeon: Dark Marker + Helix Bullets = Seizure](https://www.youtube.com/watch?v=cOq_qRpfNZE). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Dark_Marker): Dark Marker.
+
+<a id="ref-xg-9e1fbf63225f"></a>
+## Elimentaler (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Elimentaler).
+[Video: Enter the Gungeon for Dummies. Elimentaler is one of the best](https://www.youtube.com/watch?v=EbYqQ3bZyz4). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Elimentaler): Elimentaler.
+
+<a id="ref-xg-b65557260a3e"></a>
+## Gungine (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Gungine).
+[Video: Let&#x27;s Play: Enter the Gungeon &#124; Part 125 &#124; Enter the Gungine &#124; Robot PC Gameplay](https://www.youtube.com/watch?v=geyPw0DOiaw). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Gungine): Gungine.
+
+<a id="ref-xg-f1733487890e"></a>
+## Heck Blaster (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Heck_Blaster).
+[Video: Heck Blaster (Enter the Gungeon)](https://www.youtube.com/watch?v=S8G0vJLsXRo). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Heck_Blaster): Heck Blaster.
+
+<a id="ref-xg-acc4e2d07288"></a>
+## Gunbow (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Gunbow).
+[Video: Let&#x27;s play - Enter the Gungeon # 47 (Gunbow)](https://www.youtube.com/watch?v=RQ6chrWE4xI). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Gunbow): Gunbow.
+
+<a id="ref-xg-9cc91b680959"></a>
+## Hyper Light Blaster (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Hyper_Light_Blaster).
+[Video: Hyper Light Blaster Extreme &#124; Part 376 &#124; Let&#x27;s Play: Enter the Gungeon: Lich Streaks &#124; Gameplay](https://www.youtube.com/watch?v=dIcDf_Xhgio). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Hyper_Light_Blaster): Hyper Light Blaster.
+
+<a id="ref-xg-d9d1cacc7580"></a>
+## Life Orb (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Life_Orb).
+[Video: The Life Orb &#124; Part 22 &#124; Let&#x27;s Play: Enter the Gungeon Advanced Gungeons and Draguns &#124; AG&amp;D Gameplay](https://www.youtube.com/watch?v=lwlSUInQsfQ). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Life_Orb): Life Orb.
+
+<a id="ref-xg-b1c1c3576519"></a>
+## Heroine (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Heroine).
+[Video: The Heroine &#124; Part 180 &#124; Let&#x27;s Play: Enter the Gungeon: Supply Drop &#124; Pilot PC Gameplay](https://www.youtube.com/watch?v=VkGIkrS8CNg). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Heroine): Heroine.
+
+<a id="ref-xg-5f63acf08907"></a>
+## Mutation (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Mutation).
+[Video: Enter the Gungeon - 72 - Mutation](https://www.youtube.com/watch?v=xW8CCa9ypIY). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Mutation): Mutation.
+
+<a id="ref-xg-d36f0fc48490"></a>
+## Megahand (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Megahand).
+[Video: Enter the Gungeon - Megahand](https://www.youtube.com/watch?v=INjuGZRT0MA). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Megahand): Megahand.
+
+<a id="ref-xg-e5aef0c284fe"></a>
+## Raiden Coil (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Raiden_Coil).
+[Video: Raiden Coil &#124; Part 21 &#124; Let&#x27;s Play: Enter the Gungeon &#124; Hunter PC Gameplay](https://www.youtube.com/watch?v=GLjU1Wlwkn8). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Raiden_Coil): Raiden Coil.
+
+<a id="ref-xg-ae71c92d8176"></a>
+## Scrambler (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/The_Scrambler).
+[Video: THE SCRAMBLER *BEST GUN* &#124; Enter The Gungeon](https://www.youtube.com/watch?v=ztzibpokO3s). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/The_Scrambler): The Scrambler.
+
+<a id="ref-xg-348341222c19"></a>
+## Snowballer (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Snowballer).
+[Video: Enter the Gungeon Gameplay - PART 3 - The Hunter w/ Snowballer Gun!!!](https://www.youtube.com/watch?v=6rNKfrO0LFg). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Snowballer): Snowballer.
+
+<a id="ref-xg-2c753bc7aa09"></a>
+## Siren (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Siren).
+[Video: Siren Sidearm Synergy &#124; Part 46 &#124; Let&#x27;s Play: Enter the Gungeon Advanced Gungeons and Draguns](https://www.youtube.com/watch?v=BqEYuvSeMqg). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Siren): Siren.
+
+<a id="ref-xg-6eabb4b66ec2"></a>
+## Super Meat Gun (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Super_Meat_Gun).
+[Video: Enter the Gungeon Super meat gun is super good](https://www.youtube.com/watch?v=vmJ0g1S-OUw). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Super_Meat_Gun): Super Meat Gun.
+
+<a id="ref-xg-7b9dfc8a4936"></a>
+## Teapot (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Teapot).
+[Video: I Try Enter the Gungeon... With &quot;Only&quot; a TEAPOT (Dayo)](https://www.youtube.com/watch?v=zuz39lQdgx8). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Teapot): Teapot.
+
+<a id="ref-xg-0f9eb5959662"></a>
+## The Emperor (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/The_Emperor).
+[Video: Robot Emperor &#124; Part 268 &#124; Let&#x27;s Play: Enter the Gungeon: Mod the Gungeon &#124; Gameplay](https://www.youtube.com/watch?v=wgxPcSyxSqI). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/The_Emperor): The Emperor.
+
+<a id="ref-xg-b13846fed630"></a>
+## Trashcannon (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Trashcannon).
+[Video: Enter The Gungeon - Trashcannon](https://www.youtube.com/watch?v=cHrtOD_Zm6k). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Trashcannon): Trashcannon.
+
+<a id="ref-xg-6726c995200c"></a>
+## Wood Beam (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Wood_Beam).
+[Video: Wood Beam &#124; Part 25 &#124; Let&#x27;s Play: Enter the Gungeon Advanced Gungeons and Draguns &#124; AG&amp;D Gameplay](https://www.youtube.com/watch?v=5ffhXL-v-w4). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Wood_Beam): Wood Beam.
+
+<a id="ref-xg-ab6d2dfbb8f2"></a>
+## Yari Launcher (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Yari_Launcher).
+[Video: Yari Launcher &#124; Part 183 &#124; Let&#x27;s Play: Enter the Gungeon: Supply Drop &#124; Convict PC Gameplay](https://www.youtube.com/watch?v=VyNXSEw3gWM). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Yari_Launcher): Yari Launcher.
+
+<a id="ref-xg-d75a9f775278"></a>
+## Rad Gun (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Rad_Gun).
+[Video: Enter the Gungeon - Rad Gun](https://www.youtube.com/watch?v=LvoLe0UFLbM). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Rad_Gun): Rad Gun.
+
+<a id="ref-xg-d3a8b27aa02d"></a>
+## Witch Pistol (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Witch_Pistol).
+[Video: Witch Pistol &#124; Enter The Gungeon](https://www.youtube.com/watch?v=AjFrkFfO8mQ). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Witch_Pistol): Witch Pistol.
+
+<a id="ref-xg-457cc199212a"></a>
+## Really Special Lute (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Really_Special_Lute).
+[Video: Really Special Lute - Enter The Gungeon](https://www.youtube.com/watch?v=QjfaVtiOAVE). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Really_Special_Lute): Really Special Lute.
+
+<a id="ref-xg-3f214fe000b8"></a>
+## Gilded Hydra (Enter the Gungeon)
+
+Image: Named weapon reference image. [Source](https://enterthegungeon.wiki.gg/wiki/Gilded_Hydra).
+[Video: GILDED HYDRA RUN 1000+ VIDEOS IN THE MAKING! &#124; Let&#x27;s Play Enter the Gungeon: Mod the Hydra &#124; Part 49](https://www.youtube.com/watch?v=s97ssijJBRQ). Evidence: Item title and game context matched.
+[Reference](https://enterthegungeon.wiki.gg/wiki/Gilded_Hydra): Gilded Hydra.
+
 <a id="ref-xh-1c06a56964cc"></a>
 ## Burton 1917 Light Machine Rifle (Twin feeds and mechanical spectacles)
 
