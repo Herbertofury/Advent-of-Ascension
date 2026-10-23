@@ -1,0 +1,95 @@
+name: Publish Minecraft Gun Atlas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/minecraft-gun-mods/publication-stage.txt'
+permissions:
+  contents: write
+concurrency:
+  group: minecraft-gun-atlas-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Read the approved canonical source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/gun-atlas-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/AGENTS.md\n' > .git/info/sparse-checkout
+          git checkout main
+          git rev-parse HEAD > docs/minecraft-gun-mods/qa/published-source-commit.txt
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('docs/minecraft-gun-mods')
+          data=json.loads((p/'catalog.json').read_text())
+          qa=json.loads((p/'qa/production/browser-report.json').read_text())
+          assert qa['passed'] and all(x['passed'] for x in qa['checks'])
+          assert len(data['items'])==data['build']['itemCount']
+          print('Approved source:',len(data['items']),'projects;',len(qa['checks']),'browser checks')
+          PY
+      - name: Synchronize the actual Wiki without touching other galleries
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          export GIT_ASKPASS="$RUNNER_TEMP/gun-atlas-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('wiki');allow={'Home.md','_Sidebar.md','Weapon-Inspirations.md','Weapon-Reference-Library.md'}
+          baseline={x.name:hashlib.sha256(x.read_bytes()).hexdigest() for x in p.glob('*.md') if x.name not in allow and not x.name.startswith('Minecraft-Gun-Mod-Inspirations')}
+          Path('wiki-baseline.json').write_text(json.dumps(baseline))
+          PY
+          python3 source/docs/minecraft-gun-mods/build.py --publish wiki
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          baseline=json.loads(Path('wiki-baseline.json').read_text())
+          for name,digest in baseline.items():assert hashlib.sha256((Path('wiki')/name).read_bytes()).hexdigest()==digest,name
+          Path('source/docs/minecraft-gun-mods/qa/preserved-wiki-pages.json').write_text(json.dumps({'unchangedPages':len(baseline),'sha256':baseline},indent=2))
+          PY
+          cd wiki
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.md'
+          if ! git diff --cached --quiet; then git commit -m 'Publish Minecraft gun-mod inspirations under Weapon Inspirations'; git push origin HEAD; fi
+          git rev-parse HEAD > ../source/docs/minecraft-gun-mods/qa/published-wiki-commit.txt
+      - name: Verify all published Wiki records and archived images plus Pages identity
+        run: |
+          set -euo pipefail
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/verify_live.py
+      - name: Exercise favorites, filters, notes and backups on the actual public site
+        run: |
+          python3 source/docs/minecraft-gun-mods/qa/browser_test.py --url https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/ --output source/docs/minecraft-gun-mods/qa/live-explorer
+      - name: Preserve the complete published atlas and acceptance proof
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: minecraft-gun-atlas-published
+          path: |
+            source/docs/minecraft-gun-mods/
+            source/docs/Minecraft-Gun-Mod-Inspirations*.md
+            source/docs/Weapon-Inspirations.md
+            source/docs/Weapon-Reference-Library.md
+            !source/docs/minecraft-gun-mods/research-cache/**
+            !source/docs/minecraft-gun-mods/fixtures/**
+            !source/docs/minecraft-gun-mods/raw-projects.json
+            !source/docs/minecraft-gun-mods/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
