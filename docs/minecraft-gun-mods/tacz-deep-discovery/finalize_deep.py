@@ -5,7 +5,8 @@ import ast
 ROOT=Path(__file__).resolve().parent
 
 def replace(text,old,new,label):
- assert old in text or new in text,'Reconcile changed source: '+label
+ if new in text:return text
+ assert old in text,'Reconcile changed source: '+label
  return text.replace(old,new)
 
 def main():
