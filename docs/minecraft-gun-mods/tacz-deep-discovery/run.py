@@ -1,35 +1,34 @@
 #!/usr/bin/env python3
-"""Single-flight continuation of the TaCZ research, build and verification stages."""
+"""Resume the exact qualified snapshot, then apply only the required content delta."""
 from pathlib import Path
-import hashlib,json,os,subprocess,sys,tempfile,zipfile
+import hashlib,json,subprocess,sys,tempfile,zipfile
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT))
-ARTIFACT=12544699488
-DIGEST='30a04606137edd65713f2beb1e0a096fbe62aa50f6edec959e5f6324322453d1'
+ARTIFACT=12545901700
+DIGEST='8d5604f104a9bc02c5b25d076a6ac91cb43e87aee6ce4b7feab089fbf6f23d38'
 
 def restore():
- if (ROOT/'discovery.json').exists() and (ROOT/'snapshots.json').exists():return
- with tempfile.TemporaryDirectory(prefix='tacz-evidence-') as temp:
+ if (ROOT/'qualified-records.json').exists() and (ROOT/'coverage-recovery.json').exists():return
+ with tempfile.TemporaryDirectory(prefix='tacz-qualified-') as temp:
   archive=Path(temp)/'source.zip'
   with archive.open('wb') as out:subprocess.run(['gh','api','repos/Herbertofury/Advent-of-Ascension/actions/artifacts/'+str(ARTIFACT)+'/zip'],stdout=out,check=True)
-  assert hashlib.sha256(archive.read_bytes()).hexdigest()==DIGEST,'Original discovery artifact hash changed'
+  assert hashlib.sha256(archive.read_bytes()).hexdigest()==DIGEST,'Qualified evidence artifact hash changed'
   with zipfile.ZipFile(archive) as z:
    for info in z.infolist():
     rel=Path(info.filename)
     if info.is_dir() or '..' in rel.parts or rel.is_absolute():continue
-    if rel.parts[0]!='cache' and rel.name not in {'discovery.json','snapshots.json','candidate-review.json'}:continue
+    if rel.suffix=='.py' or rel.name in {'selection.json','stage.txt'} or '__pycache__' in rel.parts:continue
+    if rel.parts[0] not in {'cache','assets'} and rel.suffix!='.json':continue
     target=ROOT/rel
     if target.exists():continue
     target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(z.read(info))
- assert (ROOT/'snapshots.json').exists()
- print('Restored exact discovery evidence; no repeated source sweep.',flush=True)
+ report=json.loads((ROOT/'qualification-report.json').read_text());assert report['qualified']==43 and not report['errors']
+ print('Restored all qualified records and terminal search-tail evidence; no repeated sweep.',flush=True)
 
 def main():
  restore()
- import hydrate
- hydrate.main()
- if (ROOT/'build_deep.py').exists():
-  import build_deep
-  build_deep.main()
- else:print('Qualified media and search-tail evidence saved. Catalog publication waits for final identity review.',flush=True)
+ import creator_extra
+ creator_extra.main()
+ import build_deep
+ build_deep.main()
 if __name__=='__main__':main()
