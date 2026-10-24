@@ -1,0 +1,370 @@
+{
+  "url": "http://127.0.0.1:52369/tacz/",
+  "expected": 204,
+  "dataHash": "79e97ad7911a1dea71bcec5793e799d8c1f1fbdab5d8ad9c86cad41e5a3ef470",
+  "checks": [
+    {
+      "name": "actual tested dataset identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all gunpack families rendered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "dedicated page title and original atlas navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no accidental tacz/tacz navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "descending exact downloads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing downloads values remain last",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "descending exact favorites",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing favorites values remain last",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "descending exact followers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing followers values remain last",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "descending exact cfDownloads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing cfDownloads values remain last",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "descending exact mrDownloads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing mrDownloads values remain last",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sort created retains full scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sort date retains full scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sort name retains full scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quality shortlist button filters actual shortlist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "popularity resets shortlist filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hero shortlist opens qualified guns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "earlier gunpack selections retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quoted search preserves exact phrase references",
+      "passed": true,
+      "detail": {
+        "actual": [
+          "cf-931523",
+          "cf-1110838"
+        ],
+        "expected": [
+          "cf-1110838",
+          "cf-931523"
+        ]
+      }
+    },
+    {
+      "name": "exact project identity search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "favorite saved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact source metrics in detail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source metrics not mislabeled ratings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private rating saved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "favorite survives restart",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "note survives restart",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private rating survives restart",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "official navigation exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "own rating sorted first",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "table view includes all families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery view includes all families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cards view includes all families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "type filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "version filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "loader filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provider filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "activity filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "curation filter functional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "impossible crossed version and loader rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "structured provider filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "dedicated saved view persisted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved search restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare includes provider popularity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare includes private ratings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "methodology explains no fabricated community ratings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source center preserves exact metric definitions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON export complete scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CSV exact metrics and private rating exported",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "collection backup includes private rating",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "import retains unrelated favorites and notes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "import retains unrelated ratings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parent saved views untouched",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown extension state preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme survives reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all source card images decode",
+      "passed": true,
+      "detail": {
+        "count": 204,
+        "broken": []
+      }
+    },
+    {
+      "name": "gallery opens with exact image attribution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gallery starts with the exact reviewed card preview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile no unintended overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile filters accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty state recovery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no renderer exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage denied warning and full catalog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "private ratings work in memory-only mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "older edition favorite maps to family",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "older edition deep link opens canonical family",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "metrics": {
+    "initialDOMms": 676,
+    "renderMs": 67.70000000001164
+  },
+  "passed": true
+}
