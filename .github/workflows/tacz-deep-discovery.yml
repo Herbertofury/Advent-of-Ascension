@@ -1,0 +1,63 @@
+name: TaCZ deep discovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tacz-deep-discovery.yml'
+      - 'docs/minecraft-gun-mods/tacz-deep-discovery/stage.txt'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: tacz-deep-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Open the exact existing catalog and reusable source parsers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/tacz-deep-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/weapon_inspiration_navigation.py\n/docs/Minecraft-Gun*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/AGENTS.md\n' > .git/info/sparse-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin tacz-deep-discovery >/dev/null 2>&1; then
+            git fetch --depth 100 origin refs/heads/tacz-deep-discovery:refs/remotes/origin/tacz-deep-discovery refs/heads/main:refs/remotes/origin/main
+            git checkout -B tacz-deep-discovery origin/tacz-deep-discovery
+            git merge origin/main --no-edit
+          else
+            git checkout -b tacz-deep-discovery origin/main
+          fi
+      - name: Research only the current stage
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          if [ -f source/docs/minecraft-gun-mods/tacz-deep-discovery/run.py ]; then
+            python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/run.py
+          else
+            python3 -m py_compile source/docs/minecraft-gun-mods/tacz-deep-discovery/discover.py
+            python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/discover.py
+          fi
+      - name: Preserve complete evidence without publishing unqualified candidates
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-deep-discovery
+          path: |
+            source/docs/minecraft-gun-mods/tacz-deep-discovery/
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
