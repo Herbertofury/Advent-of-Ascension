@@ -54,7 +54,7 @@ def verify(wiki):
  report['passed']=True;save(out/'publication.json',report);print(json.dumps(report),flush=True)
 
 def package(directory):
- directory=Path(directory).resolve();directory.mkdir(parents=True,exist_ok=True);files={};skip={'cache','research-cache','working-evidence','fixtures','__pycache__','visual-review'};private={'raw-projects.json','snapshots.json','tail-snapshots.json','candidate-review.json','creator-probes.json','creator-review.json','export.json','export.csv','collection.json','followup-evidence.json'}
+ directory=Path(directory).resolve();directory.mkdir(parents=True,exist_ok=True);files={};skip={'cache','research-cache','working-evidence','fixtures','__pycache__','visual-review'};private={'raw-projects.json','snapshots.json','tail-snapshots.json','candidate-review.json','creator-probes.json','creator-review.json','export.json','export.csv','test-export.json','test-export.csv','collection.json','import-test.json','followup-evidence.json'}
  for p in PARENT.rglob('*'):
   rel=p.relative_to(PARENT)
   if p.is_file() and not any(x in skip for x in rel.parts) and p.name not in private:files['minecraft-gun-mods/'+rel.as_posix()]=p

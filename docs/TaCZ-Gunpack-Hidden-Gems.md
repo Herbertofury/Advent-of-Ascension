@@ -68,3 +68,9 @@ The source sweep covers CurseForge mods, customization, add-ons and resource pac
 Only creator descriptions, release metadata and public reference imagery were inspected. No mod binary was installed or executed. Source-only prototypes and access-limited distribution remain separate from verified public release files.
 
 ## End of hidden-gem gallery
+
+<!-- tacz-creator-frontier:start -->
+## Continue into creator-hosted releases
+
+[Creator-frontier research](TaCZ-Gunpack-Creator-Frontier) adds seven separately qualified sources without changing the earlier 46 discovery identities.
+<!-- tacz-creator-frontier:end -->

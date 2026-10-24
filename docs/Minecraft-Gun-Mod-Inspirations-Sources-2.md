@@ -4,6 +4,68 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1016912"></a>
+### Create: Tank Defenses
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_45f103ec-2250-4724-8ebf-d08af57ef0ce.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `86df1f43dd162a0510719c727bc24e5d04163a1007bf6d60f575547d27a15117`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_9fea7931-f942-48cc-9876-345e0b0affb2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `7a7b4c99d830ed050034e666b4f6d2fc32e86c6fa4d60b7df2f7c40a36ebcb76`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_4018f122-85cf-4788-a5ad-8f86886c7f34.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `8e0a1e060a5fac61c88d0156fcdf7d10ece25d8aaea9906967b99102b66ba907`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_3528ea08-7875-447d-b6c5-b3e0bc31866b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `f36fc14791b7039cb7687fe57e374b8d0f1ca7b4421e29b36b8dfdf2b08f1db9`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_28e1e699-f0e0-4523-abf3-b9fdf36ca508.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `cf6c232a5cf8e0963eb050d64614e6b1eea4d90c926176f02c2251e8841b4cf8`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_afaf7add-8f46-491b-9a04-0cca2fd263b4.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `3a458ad5e42da23191dba90b4a2b973b57a4aecce1c9538a43825c0f1d48960c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_7da2c69e-ff14-496b-9ed5-9785b2e21dde.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `fc3900e8be4b9803aa073e2c890c3a7da1764d1a7f4a7988371b278629bfd28c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_52779636-fa2b-4aa9-9bbc-9d85976000cc.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `c2ca6253adec8d556cbc67f2158c093f1bb388eaae1086615b8982f33d945638`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_ae06f840-ba39-4600-9bee-0d6a9b77dfc3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `f253e9b8edff6e5f4c1e90e899727304c3de244a3247c2e638e4217cf7f86f8a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_7caa4b12-7d15-44c2-8266-484c5fad7dbc.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `6d3b8f4fbdf094a55f3374c606132f53a4062e0aa2dc533efe514e211c68e102`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_d8e384e0-beeb-4d8d-9c66-cc508bfa19d7.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `82bbeef5cf976fd81ff7686610686834784b81dafebc8bcf8c8e45fb29108d4a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_8be4da41-f50d-4c02-bd8f-37a7cf526876.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `80549ec25226d089ed07ff31c81462e832a1e9ef43f7652b72a1962837e54212`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_30cf427c-7c96-48f1-8ea0-21462ef6d942.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `6a3b1f55c032ffe71e41c9a09b3336123199812097ebd44fce8deebb3cd5e225`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_77df34ea-ea70-4b46-bebf-a19489a19282.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `ce63adbc6d08848c6fbc68af76b88b59060a17bae7712fdb2346e06481c76b71`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_a756eec1-be41-4814-beff-2b69cfe72cd1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `4e95d7a120ef8b9c9432976dcc40b80245726da0f68231b5dceeb023f68d7210`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_03adb635-93a1-41d1-b15d-07bac80fe7b4.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `24eb4d4d4e50cfffef57d5fd80e6cad6e625f5bd5784a567d0d0b2706ffe9d32`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_696d12cf-44ae-4b55-b896-d269b72ff22b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `0c96ece167e8788919e2bb41f04f3e0f410d5f4d38faef81025bf29a0d625aff`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_6c5bb660-7a42-45ed-ab95-70c99ab54d40.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `08ca768649211850c57b6a0cedb460bdd68bac2874ad95fa9aaa276bb6ca616c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_37bc2c41-8226-447a-a39e-1b51692236cb.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `0b474185b6b8212375cee35347391f291f426b2f21843e0a965cfacb401f763f`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_43558b76-de6f-4282-b5d6-67dd055735ab.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `bf23f7c98014724e6833b67dfda3667c5939ee31867fb195094cf7064acdb119`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_a90eb88f-0119-4c47-b3cb-2b7664d5fee1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `d22891a0a6fd5e28a8a58e590a4f63dccb0a5e5251a3781bcc1649377e93ae39`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_c59812dc-5d97-4ffe-a51c-f305630c2e30.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `7718dc7b0473f076b672944e35af40be9a3be745fa0566d16cade0067b7e9b04`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_d4ad2efb-d83b-4a18-baf6-42db66da4db1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `83c6a480c3b7bbe9f240b3fb714b20b3db90710fc0e790e051a0bd226d99b8eb`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_525c9c3d-5842-4829-8cc2-af5ddd32ac54.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `2aa8173d827429fa4e39029ed8020ec57c023682255e615c8706281e73f0cd58`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_0c6b1af0-95d5-4bb5-bd48-9fa5d57a4c1f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `bfea0b3bdcdf6fce98789f46f3089d2c8d6e20a2d88b3aa9f62f559dda997382`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_2b9b5b0f-cf28-404c-be06-b6068db30432.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `45c00ad7c861de8f622e638169ad9bdb5ef68e94fe54768cd07f4ee17a92d8c9`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_e49c541e-c9a0-4411-b9a9-fd80d7e1ed22.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `ac7e30178f417a05a1f9a42a0d89c8852770819766a096f4e1f07b8abbafcc63`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_53ae0c98-ba70-46fc-96b9-1bc017944980.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `4c98e1672e38da45d6837ecac65df921f4fdae511dd89d95e9d1bbfc1dcd7fae`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_1c0a6a7b-54f5-45c9-8ec3-b7c32a361e5d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `28e9b28a189ffbd3a1ff4d8d908604ff183e3531cfa2ae96b570064ea47a5925`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_5a46f47e-9fe1-467a-afb2-73d474363fa3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `97c1ae1f0a8f3e614d3eba76555380977d4296eff97473224564a2f5af7e54ec`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_07ee38fd-3545-4f86-b7ff-efbaeaa21926.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `b5598da866dd894115395b3771a98e7e8c2337cc75d537bed47fd03043607b0c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_9bf3ca7a-8aac-40fc-9ced-ec2c3cc1424e.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `2ed52aa7f4f519e9539046a02e1b36112755d9b66ffc1af1ba491c03bb434316`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_0a602a23-80fc-4ae9-87ed-d13985c7875d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `c47d0cd25e1870c6aeea032eeadd905a638d96e5eb96937d2f2805364829bacd`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_fa7045d5-fae8-43a5-917a-397077472ce9.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `1a885191112a4747fac39703e5a68b0aebe5ccecf3a5ab903a2760827401f7b7`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_988812ac-53fb-4c62-8cd6-622b3fb3dd5f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `606d060e32bbffcf2c6670169a24105dbcc7ca570a5f3d1e1eea45ba345de6b9`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_67eb6ece-b369-4c36-b0e8-a3f9f24182f6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `9465e081f3c69070679131b856603db66dfb378845d9f19a3639d42dff00970a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016912/description_4850a82a-c905-4a78-8bce-862d327823fe.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `0b7d0147c222069ad0a1bab1b8c624dcb270244c8e10dd292067890f84914c42`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1409/356/256/256/638913232363146951.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses). SHA-256 `ace851e8603e3bed0157dfcbb2dde2082df9d77d5cc3e7ac21ac660444eaac50`.
+- [Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) · Linked on project page; full playback not reviewed.
+- [Video](https://www.youtube.com/watch?v=-zyVCptEjqs) · Linked on project page; full playback not reviewed.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-716274"></a>
+### Squirt Gun
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/squirt-gun) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/squirt-gun) [Source code](https://github.com/DirtEngineers/Squirtgun)
+
+- Creator description image: [exact image](https://drive.google.com/uc?export=view&id=1YlXNeNNf4nsOuMka7PQITc0VdM5hewcN) · [creator source](https://www.curseforge.com/minecraft/mc-mods/squirt-gun). SHA-256 `13dd77b981e835fd5c21ddfab86aed00024a26a5fb7066d37691254f31076ced`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/653/468/256/256/638056402880512104.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/squirt-gun). SHA-256 `9ef1e9fc107ede32ac2da2bff390f06ce4a405bd91995f0fe19fab9f2cc779f5`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1456403"></a>
 ### Gun Scaling
 
@@ -2676,83 +2738,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 [Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack) [Source code](https://github.com/AntonIT99/Wolff-Star-Wars-Pack)
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/272/14/256/256/637249907856624845.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/wolffs-star-wars-pack). SHA-256 `91ae390516495b685815c49e662d374f889323f3a820ddf46e0bed0f8d7c877b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1095722"></a>
-### [TaCZ]Blue Archive super gun pack
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_e53e7ff4-4567-4412-ba93-654d862ccbaf.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `e2aaf58c1da027cc03718b8b4d475548f6fee9075de2068d9fc8cc3a3370451b`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1095722/description_34d48f53-9f55-4ba0-8df5-cd6f63f3d4e6.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `d264308bdee475d248f82405581a4678faeacde525dc941caf916b80865bc92a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_477ea13f-4a33-4bd7-b1e9-77921e4910bf.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `d0b4246c6d1e219caf9e073041d1c6b6abc82a53eb133164b181ce3143a40eea`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_06ec4079-6b2c-438a-98a2-5c3b49aa7bf1.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `a11a424867b12e33360c8feecad7f2a20374ab96a983116908b2083a32bca165`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_273160bc-bd91-4868-a954-69a6bde615c7.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `a51ec200dbc6a286e9aa751b1c2e4f1ac8d2fd1e32bd6d7a004ffb403da6a423`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_5d6b214d-8720-4242-ba18-efae1b19e92c.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `68ce70cec4f14acc7891476e309b084fcb209fcb1fbd5d2caf7593b5a7395567`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1095722/description_5ee71041-b21f-42a9-87ef-3b4cb021f81d.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `a6664c127f46851fdbae087e3b6d7b93e4fbf55adfbd7891d20d9283b22b7384`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_fbf44072-c863-46c0-898a-9497b2832732.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `49f0cabdf6c8d6cde0debd2fba3b0c18cf3c33000a0317ff07ea539f97c843b6`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1095722/description_4b21950d-3ff6-4f8c-8eec-5c8d97a42f0a.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `27bcdbebb8a08cad9f0ddb65c44ad282395dc4a5666e05dc89f34350d7cc6e80`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1095722/description_0c9dbdc2-9cf0-4013-a8e0-e4cff5ed1b91.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `9b4f3353ec702d0bf701d66e1b61b0ac7c6570274b0241f972788efe9ee77f83`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_dad53696-b727-4889-9999-5380ac97bfa9.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `b6cf1fe681ad290d0659111a8a3de2b5bf082698e1e268027bbcc149637df9ff`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_685b2be4-d0c4-4804-8ddb-700c9a1fbd16.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `29931c2e809c7c134796a46f93100ac5cc7da272602a2fbf9468499fe6de2aaa`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_5e5c5b92-ea13-4761-b247-08e36c2ab04e.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `26137fa81c70a4af15a4c788d606fcad8b1adfe7905493808d9524ae9337c1fc`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_cb34efa2-f9d0-48fa-8fdc-54be01163ed5.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `c9ead4a95a0f1d985c2a274b1bd49b0c5abda88f81273f919b6b3b3496b11f35`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_78aa2558-c5a3-4579-b577-ef48792211a8.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `e44eb5968ed75dc2d1093681a26e968fed53ac82b727003c0e1553f7ff8ebf9f`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1072/847/256/256/638608879003703370.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-blue-archive-super-gun-pack). SHA-256 `3b86225e8150fac6ea69945cc47bcf2f74bf6e776a28696c24988be8de2056d1`.
-- [Video](https://www.youtube.com/watch?v=bMkbJfjvo2g) · Linked on project page; full playback not reviewed.
-- [Video](https://www.youtube.com/watch?v=NqaeIWi1quM) · Linked on project page; full playback not reviewed.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1201057"></a>
-### [TaCZ] EOS - Dawn Goddess Lab - Gunpack 1.1.0
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_2c95114f-5975-4b34-848a-54a60f1a977c.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `2a2345dc513db488c91e23d1e9918394c481077d3218a483438cd02f550aef9e`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_65451ea7-db6f-460d-973c-f41074e1d3e8.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `28618223011f58d718e53a7c5d795febfdd2fc1909d0a63db62b9206c98068e2`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_ceac56e3-b537-453a-8b72-472f4c069378.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `87c8064490351b6156487e0803f86b628f781aa055182b6588c0fb17012eb009`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_7fad4daf-c35d-4c8b-acde-bc31b30bee70.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `c2fb0afb91885935a754726d60b06aeda3dffcb4098da5618592a4b7c580dfa6`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_234644bd-0780-4228-af82-75ca380c9b64.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `b4dd545aab9bcf1274489aeec1a5ad477d29fec7fe30383d7382da4a5b06b3bd`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_27f38a86-7a55-4569-9397-0c16060e1c24.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `7c8675e2bea560e85d08ef22b5b213d93b25e471d5f142f53a6509263d3fc980`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_224a6293-6506-41eb-ac0b-c0b4348630cf.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `95cc2aab2b1a4f927d84e9f831539e4bfedbe222c0ba83a49d24247d6774476a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_9d8ef44d-0a4d-4e9b-9f5a-47acf220a3b1.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `2ef5b1d7268e89b91ef502b032177b4def51ef8922e429d8a50519bb46ad51a6`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1201057/description_38412425-35f1-4115-b313-f5bc8152dce2.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `936dca1ace2a52850fa4e0fee5a107ea00fa21f517229e2d3df32ab322ae0d50`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1426/582/256/256/638924160681556494.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-eoslab-gunpack). SHA-256 `3d1596937ee13bdd803db8e98a117657b1333a563226b3b40b56905d5364a305`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-408750"></a>
-### Advanced Rifles
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/advanced-rifles) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/advanced-rifles) [Source code](https://github.com/mrsharkus12/AdvancedRifles)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/300/974/256/256/637360482300058257.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/advanced-rifles). SHA-256 `52beb6d2789312e60d9a55a668174982824db385a5b9d9491f8fb974166229bc`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1091118"></a>
-### [TaCZ]Helldivers:Escalation of freedom
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom)
-
-- Creator description image: [exact image](https://i.postimg.cc/4x5brhbr/quarsar.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `dd01672002ea9a9450dccd473e333127871c037c5e4a256bb676bb57b1c18e24`.
-- Creator description image: [exact image](https://i.postimg.cc/P5QYKrbs/DB58-D4-E51503-C4-BC873-C9-AD5-C98287-FB.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `f035c7cada2045bf3d3ec0c7169a0ad4b46a47f7414f35614b1841354622894c`.
-- Creator description image: [exact image](https://i.postimg.cc/vHqdn5jp/720-ED6-D2-CECD743-FBFA99-B9-C451-E436-A.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `d965b6fb29e30c4dcd2eaedcf51fe49485535e342b57ac87f9c241d818be7ba5`.
-- Creator description image: [exact image](https://i.postimg.cc/fRZkp0Nr/24698-E5184-EED6251-E6-AC3875-E2-C58-EC.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `79c7ac45af275e105fba7d9e9ecd1df937cc5568b6547fe634163c355fa8220f`.
-- Creator description image: [exact image](https://i.postimg.cc/Kznmr8ZM/ping-mu-jie-tu-2026-10-03-152417.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `522a845a908b2892c96c235b975921977682a3ca036d9e8931d645f40a0662d7`.
-- Creator description image: [exact image](https://i.postimg.cc/rsMMh2mR/ping-mu-jie-tu-2026-10-03-152440.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `581a4a57617d293dd885e9a3befc36d217ad64fe7e95aee40bf918cb2cacbc67`.
-- Creator description image: [exact image](https://i.postimg.cc/4yss8RdK/ping-mu-jie-tu-2026-10-03-152452.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `d80ff11678c3981d7b2c162500a2b2893bf601ad0f43310eea88ad9f03e577d2`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1333/751/256/256/638867025162523819.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `ed17e080b9488c695a12a1960c75c56220daaaedc75f63cfb5320549fb054e67`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

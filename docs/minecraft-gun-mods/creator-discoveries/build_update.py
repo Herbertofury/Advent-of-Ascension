@@ -65,6 +65,11 @@ def apply_data():
     _deep_path=PARENT/'tacz-deep-discovery/build_deep.py'
     if _deep_path.exists() and (_deep_path.parent/'qualified-records.json').exists():
         _deep=module('deep_discovery_overlay',_deep_path);deep_ids=_deep.extend(pidx,tidx)
+    # Creator-frontier overlay: retain qualified creator/source packs through normal rebuilds.
+    frontier_ids=set()
+    _frontier_path=PARENT/'tacz-frontier/build_frontier.py'
+    if _frontier_path.exists() and (_frontier_path.parent/'qualified-records.json').exists():
+        frontier_ids=module('creator_frontier_records',_frontier_path).extend(pidx,tidx)
     parent['items']=sorted(pidx.values(),key=lambda x:(-x['studyPriority'],-(x['downloads'] or 0),x['name'].lower()))
     parent['coverage']['creatorDiscoveryDelta']={'newGunpacks':4,'newBedrockReference':1,'existingCreatorGroups':len(channels)}
     parent['sources']=[s for s in parent['sources'] if s.get('role')!='Creator discoveries']+[{'provider':'Creator-controlled project and Patreon pages','role':'Creator discoveries','url':WIKI+'Minecraft-Gunpack-Creator-Discoveries','checkedAt':manifest['checkedDate']}]
@@ -79,10 +84,10 @@ def apply_data():
     assert set(before['parent'])<=set(pidx) and set(before['tacz'])<=set(tidx)
     parent_changed=[key for key,sha in before['parent'].items() if dh(pidx[key])!=sha]
     tacz_changed=[key for key,sha in before['tacz'].items() if dh({k:v for k,v in tidx[key].items() if k!='popularityRank'})!=sha]
-    assert set(parent_changed)<=enriched|deep_ids,parent_changed
-    assert set(tacz_changed)<=enriched|deep_ids,tacz_changed
-    assert set(pidx)==set(before['parent'])|set(qualified)|deep_ids
-    assert set(tidx)==set(before['tacz'])|expected_new|deep_ids
+    assert set(parent_changed)<=enriched|deep_ids|frontier_ids,parent_changed
+    assert set(tacz_changed)<=enriched|deep_ids|frontier_ids,tacz_changed
+    assert set(pidx)==set(before['parent'])|set(qualified)|deep_ids|frontier_ids
+    assert set(tidx)==set(before['tacz'])|expected_new|deep_ids|frontier_ids
     assert manifest['paidReference']['id'] not in tidx
     proof={'parentCount':len(pidx),'taczFamilies':len(tidx),'newTaCZ':sorted(expected_new),'newBedrock':manifest['paidReference']['id'],'existingCreatorGroupsEnriched':len(channels),'changedExistingParentIds':parent_changed,'changedExistingTaCZIds':tacz_changed,'allExistingIdsPreserved':True,'unrelatedItemBytesPreserved':True,'parentDataHash':parent['build']['dataHash'],'taczDataHash':tacz['build']['dataHash']}
     save(ROOT/'qa/data-delta.json',proof)
@@ -156,6 +161,9 @@ def refresh():
     _deep_path=PARENT/'tacz-deep-discovery/build_deep.py'
     if _deep_path.exists() and (_deep_path.parent/'qualified-records.json').exists():
         module('deep_discovery_publication',_deep_path).finish(parent,tacz)
+    _frontier_path=PARENT/'tacz-frontier/build_frontier.py'
+    if _frontier_path.exists() and (_frontier_path.parent/'qualified-records.json').exists():
+        module('creator_frontier_publication',_frontier_path).finish(parent,tacz)
     return parent,tacz
 
 NAV_LOAD="""    import importlib.util
