@@ -4,6 +4,1071 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-grIBwQ90"></a>
+### [SBW] Biome Soldiers
+
+[Modrinth project](https://modrinth.com/mod/sbw-biome-soldiers) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://modrinth.com/mod/sbw-biome-soldiers)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/583a5dffd5276b7a985894fe32b532f988cd5d5d.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `0f46f9f9beaaf362be24f1b30c0dc66538b9c36c3a925a3f6495c1a388796143`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/73db33552565c3572d8a4a81cf66f4c31de3fef0.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `e2ddeab420bfe10bbd542e0e1f5d06fa0c9e66852884587b7bcc9de92bb1aabe`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/f2a45efa27b2ad059e17166d8dfa921af32254bd.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `481582a466577c1e637d3a2bce93c19289b8d4c820e1d6cd6d3a873e0a886e24`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/grIBwQ90/fe54373f523be0f07d2460708bc0f3cea65c2248_96.webp) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers). SHA-256 `bff825d12fd52f5f0a881bf07d5aa856fd2547798107d360bb16788e14d2bbbf`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1181027"></a>
+### Flan Shop (.jar)
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1158/386/256/256/638726659908397409.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod). SHA-256 `9c810811bf5243e6ee940f1aa82478a21b5a924cf1c592815f0c01730f685df7`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1631951"></a>
+### TACZ: Blackout Armaments | IGS
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1631951/description_b4cae435-7ded-4883-a9f3-12b75aada9e1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `fdba19ff0e4dbe14d34306bab69f29441879013db12e4a5b25e26909a0a22fbd`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1631951/description_3f1b4bd5-c502-40c8-9485-a3bfa4c94808.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `c8f372a9c6103204565883d596c1fecfe51a6e8a2db778294b023b4555792bdf`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1952/973/256/256/639210201915313245.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `17e6c9400dc35738d29f2dfd910243e0b4126a3be926abf092294ba4aec16b39`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-zZlTyRcO"></a>
+### Shoot the locks
+
+[Modrinth project](https://modrinth.com/mod/shoot-the-locks) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://modrinth.com/mod/shoot-the-locks)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/zZlTyRcO/8243e2308fc2c3fe59c490e8cf3ae5a6e7a9742f_96.webp) · [creator source](https://modrinth.com/mod/shoot-the-locks). SHA-256 `7c871776a49aa3980a38331d6bc8b9c64485280527de729ea92285f925490915`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-634075"></a>
+### Pixel Gun 3D Soundtracks
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/pixel-gun-3d-soundtracks) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/pixel-gun-3d-soundtracks)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/559/698/256/256/637909726183598548.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/pixel-gun-3d-soundtracks). SHA-256 `856d74b9afd2c35ca2c5d4763fc0476b3413d635bc4e21e03be6ab5343ce6dea`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-85kGLtcG"></a>
+### *NEW* Kitchen Gun Mod!
+
+[Modrinth project](https://modrinth.com/mod/new-kitchen-gun-mod) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/new-kitchen-gun-mod)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/85kGLtcG/images/828a122dee149f50f7fde5d919fdec7a29a30c1e_350.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod/gallery). SHA-256 `4ed48d3ddd4ee84828e2e56debd4013dec81826e0b89d73ef59962a9f61ff595`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/85kGLtcG/images/9592e8dc3b72e3546949fcc78e073295ab57e7e5_350.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod/gallery). SHA-256 `3f2183300afc13e8907ba56ef9acb4fbb60e006115e54f2ba1b0b35ac38a9ed5`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/85kGLtcG/images/a8e119c7ffe39af81388bebc19aa891a8d473575_350.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod/gallery). SHA-256 `22b5d2a8167fdcb04fa5e8d08900dba949f3734b590a447295f0cc97c9df19aa`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/85kGLtcG/images/7545a359762fdaddc776b31a6abdddc7a4dc0ec4_350.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod/gallery). SHA-256 `50f33c80fb3672a0360500c1aa0f4dcc26b7d3de9deceb2c9e8aea5425842ec1`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/85kGLtcG/images/6286c551b1269ba13bb0156a263981721574f977_350.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod/gallery). SHA-256 `37deeb68b723da8db4360867ca3c1e5bdbdc298279defb31a8a84cf81ee4b03c`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/85kGLtcG/images/6a22078c89df7b123483d422280c8209e5b4c47b_350.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod/gallery). SHA-256 `df18fc8159e565c7f58d2c2b197ac12f27ff8f6e702591897eab907e148e49e8`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/85kGLtcG/07094ae5ee93572992be352cf2c1452a42565c6f_96.webp) · [creator source](https://modrinth.com/mod/new-kitchen-gun-mod). SHA-256 `0940fc5ffc19d15c14a537fc902a91e63878951e77fdb04826770d03d7e36b93`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-vaFxpaca"></a>
+### Orbital Strike Cannon
+
+[Modrinth project](https://modrinth.com/mod/orbital-strike-cannon-husky-forge-org) · Checked 2026-10-23. Type: Server weapon plugin.
+
+[Project &amp; downloads](https://modrinth.com/mod/orbital-strike-cannon-husky-forge-org)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/vaFxpaca/0e69b6b970313713a18a6686fd423b01450f1fdd.png) · [creator source](https://modrinth.com/mod/orbital-strike-cannon-husky-forge-org). SHA-256 `47c971cfe4eb69382093bd16325cc62197293c9747fa13d0073ef51f86934bcb`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-cas9JGVe"></a>
+### [Create-TACZ]mecharmorer
+
+[Modrinth project](https://modrinth.com/mod/mecharmorer) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://modrinth.com/mod/mecharmorer)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/bc5012b1567d81e5f54b77fc0edce6978b1c2c03_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `3c0a9c72924874d629fd97aebb7909035eb49777a6d22231899215200744dd0f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/243c4dc116b3171b30d16df4d1c691f4e4fbcd28_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `fd6d53d524c175bf06c4426c72125482d3eab2daf87d54693a0337199ccce23e`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/c7bda763b5de680836843176afcebf5cb91d31f8_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `339034c1a60a58d8f06d01e7c73336650499b0a916bad768d2490363fc569e21`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/ca440f68280b0043ab90610bbd98b93d1ae75ab6_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `ec16b2d595807117b8176ab49ce1f9e467c22fb1222c82b08ee636e275f56855`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/86b3357fe1e0f04833e4d7ff30227b62eb60bd34_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `62501682c963173694bf288aff54d87271c4cb1800475b2411dcab1f087b3062`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/269168012e36809e861ec150774c58d6b9a957b3_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `1de8577ac1cf73e7a92a53ef331fd68467b2362b9e7e3ff6bd34bf4fdf7d379e`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/a32c6897165dddc0ae48182d13abe73fa9785b2d_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `6fe96d7f20a9b71068a6f2f63464ba6f5137adf00acd92aea19f5a0e6589bd3b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/9cb2517e94d7aac171388e37a9a7472f5354afc3_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `c58407e4e0a0522e477f7321ec78a73230d2555466bb39ba97b25f9cdaecebdd`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/93fbfed41b49addf296e7d2d7ba5ed938d45b729_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `4c92f41d2497f7402506b0ac0e493c3c8a2712e69fa9aef7285659af1e0f3744`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/cas9JGVe/images/100ec9248565deb29ad2dfbd3199ee1d3ae19b0c_350.webp) · [creator source](https://modrinth.com/mod/mecharmorer/gallery). SHA-256 `2ae978034c79f6445386cb164ef4d5ca199602b571fee46381adc4b57825c760`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/cas9JGVe/a9c09cda9fb5ac5d5c666a47d9b30b612c080a7e_96.webp) · [creator source](https://modrinth.com/mod/mecharmorer). SHA-256 `e2ec93fc2ce54731e2426b105c8ec6f92bd5fbdb1e9fabc7963bfcacef5f0b56`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1037502"></a>
+### Magazine Fed Shotgun Point Blank
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/magazine-fed-shotgun-point-blank) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/magazine-fed-shotgun-point-blank)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1015/60/256/256/638540646342234225.png) · [creator source](https://www.curseforge.com/minecraft/customization/magazine-fed-shotgun-point-blank). SHA-256 `b2bf10ecb369935e47654661b41ad206a22ac9bea5543e27dbbcc459dea19ab8`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1702224"></a>
+### Orbital strike cannon and wither skull cannon
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/orbital-strike-cannon-and-wither-skull-cannon) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/orbital-strike-cannon-and-wither-skull-cannon)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2056/293/256/256/639253914026290577.jpeg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/orbital-strike-cannon-and-wither-skull-cannon). SHA-256 `575538045fc2c344ec186dc0c9f67f248741a45ff96e36d81db1f9806a78f300`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1544494"></a>
+### Putaski's Flintlock Musket
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_c5b60d26-5f77-4546-9d4c-4d895a5a9fc5.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `2fd0be68fdadf96aaf3af72358cf38a0704c839719ec1a7a3652ccf72a776455`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1544494/description_0c92f429-c11b-4e6f-a1a4-323978c3c582.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `c7a6156953b4b2c61aeb0794dccb80672acecc31a23b5c0740bdb6b5aa60a408`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_14e9e2be-5829-4661-9e86-0a51692ed9ec.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `e53e3c5bda9db401c6e872eaa6d4a2931f84a26db3470b6178ce9377e929e769`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_f3b61f1d-78c2-438b-bc9a-2e5e48acea9c.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `72402bf17815f018323361bb53aa71b3b44cf78802b9889e8eed3c295ef1d85c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_72d48aa0-1691-4929-b91a-74bb320293a8.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `7be3a8bf939de0742e5e7eb34727f15b1c91735eabbfa15e9b4c444cb1c6842b`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_4a179fbf-5b57-4bda-bf81-345ae6f68cad.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `0a070d7100895d692439e995e2fce3cd6e9182927a434459fc85eb8a99e2977d`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1544494/description_8ab24286-4cde-4efa-ade3-8b9d206e2bd0.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `639e790fae98435fd3e78fc8f1d2b59e6f1e25bb192053a76ef20cb3d7b4d2b1`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1544494/description_37925261-bb57-462c-85f6-10f1a1dd8c10.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `1af0559103a5652aa4e8ded47a5e58d3ccc2abd2e82738768b3f570266bac583`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1544494/description_b4a5e154-a696-4f9f-9a44-b63e4a109650.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `fc98c6b8bb40798ef919f2fe1c2db10a4f2854328475d6ac32f4c7cd4f775b90`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1544494/description_cfe81e9f-9804-41c4-b530-1ba162c75516.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `33a7556c4c95d444ca423325f44c5afabe0460b69ad5eba56fd73e73f50c20c0`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1810/287/256/256/639145048369249339.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/putaskis-musket). SHA-256 `cf39684360724865bf356d08f86036c672236c967034b68cf1db11f1c796ea74`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-1wQbtNIN"></a>
+### Napoleon Weaponry
+
+[Modrinth project](https://modrinth.com/mod/napoleon-weaponry) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/napoleon-weaponry)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1wQbtNIN/images/137097e4b88bc25e9b2473ad335cd27d9fd01c5d_350.webp) · [creator source](https://modrinth.com/mod/napoleon-weaponry/gallery). SHA-256 `53295045f11bd1c4f999cd2052565c66abf665d2d3f9e718ec65b970b9805a1a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1wQbtNIN/images/a7d470bad19cb7e99dd014e5a81211db963975b4_350.webp) · [creator source](https://modrinth.com/mod/napoleon-weaponry/gallery). SHA-256 `9fd9ea11d3a08fc766135ec873da8dacd7995d6b1a223d31a09d0c6cc2b04c71`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1wQbtNIN/images/6468587e1e44d2bb6eccaa6200463dffa9ca6c4e_350.webp) · [creator source](https://modrinth.com/mod/napoleon-weaponry/gallery). SHA-256 `c8236c1f05c00e2a2d145df4c9095eeb33845e2ad833d17042297e91a602753b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1wQbtNIN/images/9d768d985ef2357b58c47f37dc86c5a6bd6110b3_350.webp) · [creator source](https://modrinth.com/mod/napoleon-weaponry/gallery). SHA-256 `c0d4020ed05b4a9f2935398408983c9b544bbe6af2591073cf6fa4aec30d31cd`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1wQbtNIN/images/46df3d116b007fbdb2c1bfd781e5cca7d4d48c07.jpeg) · [creator source](https://modrinth.com/mod/napoleon-weaponry/gallery). SHA-256 `6ae2360770192f9918833116ef0a8b1cca36456044bc246111f70d7493c1d2e2`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/1wQbtNIN/78a7a87fe44709ce2251c5c1702c97522b405125_96.webp) · [creator source](https://modrinth.com/mod/napoleon-weaponry). SHA-256 `acccd34aa5c96d1e79246dc0a39c7ca06cc197e2e3c153d124925d4c71af23c8`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1651837"></a>
+### DeadDrops
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/deaddrops) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/deaddrops)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1982/961/256/256/639222807857598864.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/deaddrops). SHA-256 `ac448bb8a7214e89ea1560fb3858f8001ed47eb25195165cbea753ccb94b4faa`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-A5fv74ti"></a>
+### Armed Pillagers
+
+[Modrinth project](https://modrinth.com/mod/armed-pillagers) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/armed-pillagers)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/A5fv74ti/images/91b913542c316647e6831459d9fc5b3cc2f85423_350.webp) · [creator source](https://modrinth.com/mod/armed-pillagers/gallery). SHA-256 `fe2306ae874afb2baf717105b6faec4a06a7d2b0ea87315180c328430bd90348`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/A5fv74ti/91b913542c316647e6831459d9fc5b3cc2f85423_96.webp) · [creator source](https://modrinth.com/mod/armed-pillagers). SHA-256 `ea3ad0b302f9dd203365b1d7a43d129cbea9b244b1e95c7a26a23b25967d0804`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1644612"></a>
+### Simple Noise Level
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/simple-noise-level) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/simple-noise-level)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1972/8/256/256/639218087998698060.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-noise-level). SHA-256 `bf4542c0b19103dd736e7963f435880eca64b145ddfe2675292f17fb414541cc`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1669481"></a>
+### Human Companions plus TaCZ Compat
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/human-companions-plus-tacz-compat) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/human-companions-plus-tacz-compat)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2008/773/256/256/639233633268284121.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/human-companions-plus-tacz-compat). SHA-256 `2e00d28a46c1eb9026fb2ebcd9ec884120a58ef08f2afdb23aefdae41b365ec7`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1579817"></a>
+### Vic's Point Blank — Counter-Strike
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1579817/description_47a2cf1f-f3a7-4ef7-b289-81246698ad1c.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `819d8c1ab1d43dd975d11df8f10f3c16b720a984ae6a1cbc7ff0fefa1363e448`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1579817/description_4cb74f92-915c-44c0-b48b-00cd039008a2.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `649c4709c5ec1466e8cb9d2af786f8debddd6f94d62c0547536b182c7e42ba53`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1579817/description_0e6ec979-2e7e-4487-a09b-d32420a61634.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `ee4102e412842258a8a5ecdbecec91a25833336a7e21744188ba8823607a57db`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1333534/description_1dc76b2f-722a-42d3-ac80-c55570d267aa.png) · [creator source](https://www.curseforge.com/minecraft/customization/point-blank-counter-strike). SHA-256 `ed731d7bcfb9b805a8e3aaf2e439dbc348c379ac5a3b6e2cf961f4b8b5b669ff`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1579817/description_a3667f44-b466-4c3c-9033-0aa83e136499.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `65a2053fcae3628c3751f855dce023e369487d0852694df390be699114fc52b4`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1579817/description_d232da4a-37c4-4b42-b55e-1da51dd82959.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `6a1def05cbcbf7ae0f6dc28687f326e44e6486416af28187420094134d328d6b`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1579817/description_5aa60832-4e76-4da8-9140-b56804ff25e3.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `35631b76ad7800854b0a342399b18c00e64e75135b0c7402b30d0d9fbbe7b23a`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_d1bcd230-73a6-4182-a67a-b9275cfff778.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `b4f53ab367112f38b6d778dd8e830ffd9c07481a1149ad07bf1af644a06b6912`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1872/833/256/256/639173938923299273.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-counter-strike). SHA-256 `787130a57170ae3cd621f3926329a414d65b25f11ae719b7285c095ae993f185`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1359277"></a>
+### (PBJ ONLY) Point Blank Jelly | ForgeTac Armory
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/point-blank-jelly-forgetac-weapons-pack-pbj-only) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/point-blank-jelly-forgetac-weapons-pack-pbj-only)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1359277/description_a313f54c-0583-46c8-a91a-8f817ef91ed7.png) · [creator source](https://www.curseforge.com/minecraft/customization/point-blank-jelly-forgetac-weapons-pack-pbj-only). SHA-256 `acad7008036889a2b45581f5fc0d5f69cc7aff62a7e9ccc2350052a3e50362d4`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1545/89/256/256/639002839132989954.png) · [creator source](https://www.curseforge.com/minecraft/customization/point-blank-jelly-forgetac-weapons-pack-pbj-only). SHA-256 `db57801567191d0d91133c080cb358400fc36b7df142cbfc3e32238eeaab6d03`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-jRdtUMqt"></a>
+### [VPB] Drooling's WW2 Pack
+
+[Modrinth project](https://modrinth.com/mod/vpb-droolings-ww2-pack) · Checked 2026-10-23. Type: Datapack / command weapon.
+
+[Project &amp; downloads](https://modrinth.com/mod/vpb-droolings-ww2-pack)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/1d03a1c2cb1f551c46629a46aa5ae3e0678d08b8_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `94dd1e3db5b90e0768baafc9edc911fe3abb2910debffaa91d84b2a566294ede`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/73c7825269990f073d66fa8a8eb748b261000ca9_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `6d8f8bfdcfe5866034aeb3d93a64968b9c819a0ec6d288e1ae5525513de48ef8`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/1f58d5524c6fa7b885010cd7b8bb3ae1ee0fa5f4_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `68caf4b65c542d122b5509d8c5804587c6823038c45c285fe824f5210023407c`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/a4379d697ad62c6d662c94461c7b16fc677e4869_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `431437e1accad8094c9e4af24008ee39397ac3b76dcb3a0e5ff91f059a1299d3`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/7c37b33b0efea9a63bd643becd45fbd1fb116367_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `5c932189a1e698ba1919aa69a65c892cf418d33d78b2555adf54cf373af066c9`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/f054a444d1a01ff75c96d632982b59e65f904c97_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `1705410574fbab9a9d366fca089007594100d97a10acae266ccc487b661effa9`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/c7abc501bf8b676dc5e59b201e26fc79798468ba_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `7d5da0eb5babbaa8d487da427b5c1757fd097e2e8bf9abc5ef30e80a38f21e77`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/07e789d7bc06f3f7a3392cdea1ac9200fa5cf9cc_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `438bfca310e6cdf114c1be90c793c9422f11532979c9491a82ea772decdc7d3e`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/7449a8c56bb5509790da989c931c8413f8b52305.png) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `180427e38b030b8019b6c584931d0b3f3bdffa63e83385d9c0a6616dbf71ab1d`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/images/3824eaa0868d1bd9750aee3ff24cb99e8151ab46_350.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack/gallery). SHA-256 `243148f767150a2b4d0f1f7bf2a6fb3e69ade46f499b9a93489f5185c5974b7b`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/jRdtUMqt/32161a8fe149428b53b3b5f2e93c5af9bc9151a4_96.webp) · [creator source](https://modrinth.com/mod/vpb-droolings-ww2-pack). SHA-256 `a4288958ed8b827141d57161adafd7bd7790719905c7f911b8b6849945e498b7`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1057074"></a>
+### Point Blank Super Shotgun 1994
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/resupershotgunpb) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/resupershotgunpb)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1033/341/256/256/638556840149572970.png) · [creator source](https://www.curseforge.com/minecraft/customization/resupershotgunpb). SHA-256 `52b4a88c0814323077acf66150cb0e846268064ed9054b23ed4d57c1ce2e1bb0`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-915032"></a>
+### Bataran's simple magic gunner with mana bag and new ore
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/batarans-simple-magic-gunner-wuth-mana-bag-and-new) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/batarans-simple-magic-gunner-wuth-mana-bag-and-new)
+
+- Creator description image: [exact image](https://th.bing.com/th/id/OIP.RFutGclgFzehcsN7QivFWQHaHa?pid=ImgDet&rs=1) · [creator source](https://www.curseforge.com/minecraft/mc-mods/batarans-simple-magic-gunner-wuth-mana-bag-and-new). SHA-256 `0269ffe2c1d1ca82227d74bd1464321db1fe0cf500fd69a153c9dc7f60b60fa1`.
+- Creator description image: [exact image](https://th.bing.com/th/id/OIP.c3tRBFxox86VqBzS1aBeXQHaEK?pid=ImgDet&rs=1) · [creator source](https://www.curseforge.com/minecraft/mc-mods/batarans-simple-magic-gunner-wuth-mana-bag-and-new). SHA-256 `321007786540be559229c5935b55c650a7dffac71e957956135a8e4bc096490c`.
+- Creator description image: [exact image](https://th.bing.com/th/id/OIP.y5O4uIc56JUW1JV5c65rkAHaHa?pid=ImgDet&rs=1) · [creator source](https://www.curseforge.com/minecraft/mc-mods/batarans-simple-magic-gunner-wuth-mana-bag-and-new). SHA-256 `57ab088293e85805ca4facb73cb6d84c88b81f5c115da876d7237edca9e03737`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/879/903/256/256/638308223250729015.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/batarans-simple-magic-gunner-wuth-mana-bag-and-new). SHA-256 `bdb54852fff1c6eeed1d01e1903a3e43b483408d61f5753edeb93eb5915a8ebf`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-hYcZQQ6n"></a>
+### Create: potato cannon enchantments fix
+
+[Modrinth project](https://modrinth.com/mod/create-pc-enchant-fix) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://modrinth.com/mod/create-pc-enchant-fix) [Source code](https://github.com/Sixela963/create-potato-cannon-early-fix)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/hYcZQQ6n/f250fdfe11c1043c14f712ee3eeb34c9f2d0a7e9_96.webp) · [creator source](https://modrinth.com/mod/create-pc-enchant-fix). SHA-256 `569bba9832457268b2548d1ad6fa5003bda2a38c7ebe691b6b221653535b8cda`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-6RQXxMlC"></a>
+### Big Globe - Just Enough Guns Compatibility
+
+[Modrinth project](https://modrinth.com/mod/bigglobejeg) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://modrinth.com/mod/bigglobejeg)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/6RQXxMlC/3b54880970fe6cccb6d80a4e4fb274befcba2485_96.webp) · [creator source](https://modrinth.com/mod/bigglobejeg). SHA-256 `9fbd40541f6e6e852ca885bf69d5405a0e4d7a3749d45cd9dffc6f6a3e0bed5e`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-ov9mAitg"></a>
+### [NST] Revolvers recoiled
+
+[Modrinth project](https://modrinth.com/mod/nst-revolvers-recoiled) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://modrinth.com/mod/nst-revolvers-recoiled) [Source code](https://github.com/qstargest/NST_Revolvers_recoiled) [Issue tracker](https://github.com/qstargest/NST_Revolvers_recoiled/issues)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/ov9mAitg/a8a0218e2f7d4443595fdb17c80d6685588b77b4_96.webp) · [creator source](https://modrinth.com/mod/nst-revolvers-recoiled). SHA-256 `e47034b53be54b819e89acf7dc4a03b83152df37ee7b911513f1a7dee0a13f94`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-uBG2Tx9s"></a>
+### Create : artillery
+
+[Modrinth project](https://modrinth.com/mod/create-artillery) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://modrinth.com/mod/create-artillery)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/uBG2Tx9s/images/21e6603f979a46d55f26285af8c38597c1be589e_350.webp) · [creator source](https://modrinth.com/mod/create-artillery/gallery). SHA-256 `0a5b1515342acd206b9c041a76d2449cf9f72e3fcdab6a5e1e156850942f8d11`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/uBG2Tx9s/images/f673f918afc3d9d68c92c4eed8892c84267328be_350.webp) · [creator source](https://modrinth.com/mod/create-artillery/gallery). SHA-256 `84d44ed2e3074c3f9a61b14c609a61ea6ef9b19ec0c60e39e8c6d9709087b54b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/uBG2Tx9s/images/568c070a81d43e33939a4336c89460907bf18848_350.webp) · [creator source](https://modrinth.com/mod/create-artillery/gallery). SHA-256 `f84512dcbae4f1e00aa64842e16ebacb7956e197ed7f2f787e3ce6ca0d4e51c6`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/uBG2Tx9s/images/5e44e5818e2d2f06c7761e1752b794a3fcdeab25_350.webp) · [creator source](https://modrinth.com/mod/create-artillery/gallery). SHA-256 `736179e3c1bcc311aac22323e8aad3c52ac48c3de97e5de979be8bd9ec6a2800`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/uBG2Tx9s/9f7b23ff614c7255b05b2a0655e6cde56bc39c56_96.webp) · [creator source](https://modrinth.com/mod/create-artillery). SHA-256 `47afea6bf4a7a2c10324f1ca0335b68ff6103010d7838060f4c6f59016cf32e1`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-tW5YQYQI"></a>
+### Create Big Cannons FTB Claims Protection
+
+[Modrinth project](https://modrinth.com/mod/create-big-cannons-ftb-claims-protection) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://modrinth.com/mod/create-big-cannons-ftb-claims-protection)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/tW5YQYQI/ad469b4362b85f90b791657b0ef78d13b7bfd162_96.webp) · [creator source](https://modrinth.com/mod/create-big-cannons-ftb-claims-protection). SHA-256 `b23a3167e2b7619026ce27280a39767d53009753f55b1b124faf1f907f4f4c55`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1474325"></a>
+### TaCZ Fixlorant
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-fixlorant) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-fixlorant) [Source code](https://github.com/hungduynguyenvu/tacz-fixlorant)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1699/203/256/256/639079018093377340.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-fixlorant). SHA-256 `8618454adc0382559e3a889ae1ef947bf83484898f9a0d4ad309d87133197ba5`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1714767"></a>
+### Unstable's Orbital-Strike-Cannon
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/unstables-orbital-strike-cannon) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/unstables-orbital-strike-cannon)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2074/744/256/256/639261232740207001.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/unstables-orbital-strike-cannon). SHA-256 `e7228e752b579b9a276261efca9b2d6140e945cb623ef12d0b183ba6005c972b`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-4CW6kj59"></a>
+### Runic Railguns
+
+[Modrinth project](https://modrinth.com/mod/runic-railguns) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/runic-railguns)
+
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-XNk0KNnY"></a>
+### Streive's Weapons
+
+[Modrinth project](https://modrinth.com/mod/streives-weapons) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/streives-weapons)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/XNk0KNnY/images/cd977b60b24b848c172a96f9199a5d0ac73ce50d_350.webp) · [creator source](https://modrinth.com/mod/streives-weapons/gallery). SHA-256 `269b24e8acf1440317634430404070cc75305ba034e45b40d264c8f759da8d43`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/XNk0KNnY/92809a702f75883f9ddae023a677573b87447306_96.webp) · [creator source](https://modrinth.com/mod/streives-weapons). SHA-256 `9116cd88315b7875e30ee318e60cf1340a7ac3e46584b988f50427c1ffefb5f5`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-87tmaf5z"></a>
+### WWI & WWII pistols & revolves
+
+[Modrinth project](https://modrinth.com/resourcepack/pistols-revolves) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/pistols-revolves)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/fd76c451442019e6ae91fc87c24e36c87e17346e_350.webp) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `f010b63abaf5e3196517289748d84ce254f57577c5c706dafceb2921b86a9d29`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/4be68affb0b21ffa17e4b3b9ee2a51cd969d9f50.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `afaeccbf30463dd9f8ee93ef0dcfcb24992bae45bd0422c311e956686b21d483`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/9f3f71679e2ec568c86551a5856e428cc4e37942.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `9d350468d180355b3f24fd194afdb21d311338018d3572626a257f4b7d1b4787`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/c3b0ce859b825235682d5b6ce13da22648850f88.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `834532af7af5b657b5c64574e468300ab77eed7f45d6734e781dd45e33bd6b4c`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/ba01b815de7216284bc2e948f27fce55c7f77c00.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `4935271799bc2487bb437be51733ccba102f18d439162ff9b34a68e90bab2e17`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/93aac8fad082e0098b6bfa4459b14a8edd8dddd5.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `894ca06cfb008f88170331af95e8efd68bb3375fc29a4221933d5bedba5bf6e8`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/2fab5439582ecf75d274283968452b02a320aff0_350.webp) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `1e6cc2f629b784fa4526301abb2ab6ed8da49df86033f76f75ee5bbd9a7665b4`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/e41eded22cc954ca382320da2141e86241f42849.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `9a64473b42bedb0702a8e8b244b88a3a49c6e56ab84689476de94f58753ed09f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/87tmaf5z/images/726a346487771509997ee082a6ffe775253231b5.png) · [creator source](https://modrinth.com/resourcepack/pistols-revolves/gallery). SHA-256 `f0d8af54ea296fa851013672e001d0bbd6c32412d52fcf9ecddd9a4b8961a528`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/87tmaf5z/5000d23e6c8ae9a38e1cd51dd622f0fcbbf3c7d3_96.webp) · [creator source](https://modrinth.com/resourcepack/pistols-revolves). SHA-256 `de202f7a0aa4d76c4ebb26eac7724351ab8cd19fea0bf24630e1e6bcccda8c64`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-LAZXmglp"></a>
+### [Vic's Point Blank] Iconic 80s-90s Guns
+
+[Modrinth project](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns) · Checked 2026-10-23. Type: Datapack / command weapon.
+
+[Project &amp; downloads](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/LAZXmglp/images/d6e56eab89e3388bc4cf7f50f9de311d8a9c6468_350.webp) · [creator source](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns/gallery). SHA-256 `e08a0bf52d13fbeb4f8df7c0f92b1210496210aea69304baf4d4f0de9ae807e3`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/LAZXmglp/images/1dad7197450c48db8ce1102964627e332b1c8c8d_350.webp) · [creator source](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns/gallery). SHA-256 `32fe728d318284fede9411d44450c81ef130267618b020a9a35d24dfd032f328`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/LAZXmglp/images/0cbecb026f6ef9c61dd883da34635575993d1a64_350.webp) · [creator source](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns/gallery). SHA-256 `ac5ecf6cb75da4062559098b351a9e238dd851eb1c1452f776963cdb0a053684`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/LAZXmglp/images/6639dc748a3d384206dd554814f946034b5c8b71_350.webp) · [creator source](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns/gallery). SHA-256 `9f2c70a5a842a1cb39a438f2847e4529d72159e4f9c9b0a1d0f7cad285985a8d`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/LAZXmglp/f4becf402ab0877d6f92834c4ff2385a878de6cc_96.webp) · [creator source](https://modrinth.com/mod/vics-point-blank-iconic-80s-90s-guns). SHA-256 `c3bde0e4456f228d1c2006f841f30456a72bbaaf9367596c3933d18fd7167e2d`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-zKp3yyeJ"></a>
+### Arrows Into Bullets
+
+[Modrinth project](https://modrinth.com/resourcepack/arrows-into-bullets) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/arrows-into-bullets)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/zKp3yyeJ/images/4a726be8e361847be75854c3459c46389fae6ebb.png) · [creator source](https://modrinth.com/resourcepack/arrows-into-bullets/gallery). SHA-256 `6eee8f48ad93ad9a7f0624b8892b62623076d5ea561a2d1d78c002dab1b8c22a`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-AJTDOq6a"></a>
+### tokarevs 1st chechen war pack
+
+[Modrinth project](https://modrinth.com/resourcepack/comrade-pack) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/comrade-pack)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/AJTDOq6a/images/e2eec82df50bc94269f3de3e9a46a0d0c6846114_350.webp) · [creator source](https://modrinth.com/resourcepack/comrade-pack/gallery). SHA-256 `402df6bf3f0dc2e9bcb8f2016c28fedc5b915ca9de88fc3f3f7c4cfaef3068da`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/AJTDOq6a/images/1a5e342d6dd3a36f6da95c80e110dafbdc69f7eb_350.webp) · [creator source](https://modrinth.com/resourcepack/comrade-pack/gallery). SHA-256 `6ead7ca5eeebc5ba51b5c14108ae43912b58675803afd3be81aba3d85468d1d3`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/AJTDOq6a/5a5dd966fd675102d7515da49d71e0d6cea65223_96.webp) · [creator source](https://modrinth.com/resourcepack/comrade-pack). SHA-256 `6e26cd00922b96b264f5f5d42faf0caefda97666a20170d5a9fd1dbf02cdcaf7`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1012235"></a>
+### Vic's Point Blank - Randoms
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/vics-point-blank-randoms) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/vics-point-blank-randoms)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/989/669/256/256/638502442791898311.png) · [creator source](https://www.curseforge.com/minecraft/customization/vics-point-blank-randoms). SHA-256 `fe53f73abeb6e5ddefb4a01f362f6988cdfb71c7875930ca129bf9a56acf6765`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1640942"></a>
+### [SBW] Projectile Chunk Loading
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/sbw-projectile-chunk-loading) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/sbw-projectile-chunk-loading)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1966/245/256/256/639215564577089224.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/sbw-projectile-chunk-loading). SHA-256 `b0db9e0a12573750966ae08345079ebc2531cacd7ddf5896015e895260d7b95c`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-wLejkWxu"></a>
+### Russian Guns
+
+[Modrinth project](https://modrinth.com/resourcepack/russian-guns) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/russian-guns)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLejkWxu/images/d9a360441d0d9f36a1c4ac162a9d9fbf7fe36e92_350.webp) · [creator source](https://modrinth.com/resourcepack/russian-guns/gallery). SHA-256 `fdccf632f1d1ad1065afa8422e17ed5c3edbe959b8380d380b1663cd64a3c7b4`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLejkWxu/images/fab1e688e16172d380750b873f93f3906a498da2_350.webp) · [creator source](https://modrinth.com/resourcepack/russian-guns/gallery). SHA-256 `7d88f4834ccbd7d54140d97b3fd108811f1be114e248af8ef49dfe0a39708062`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLejkWxu/images/aef9b22cb5d565eaab6565aa23a13b76dccdfbe8_350.webp) · [creator source](https://modrinth.com/resourcepack/russian-guns/gallery). SHA-256 `216a04894090a82cbbbdad44206fbe28b24450fa2bb47361a7968dfe01663f29`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLejkWxu/images/3e0daf146049c9415e4bee178b3a1872c9d62ba0.png) · [creator source](https://modrinth.com/resourcepack/russian-guns/gallery). SHA-256 `d946ed6897e69c0b337739a22e743feac80fa4fd33b88273d42c4131369f1d52`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/wLejkWxu/966ee432f51519954577140c9e303b94dcd454ea_96.webp) · [creator source](https://modrinth.com/resourcepack/russian-guns). SHA-256 `333ed1d9eb0a85692fb9ec59a032e5e3efcfb4219e8cd6051e9d4256e8368d33`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1385550"></a>
+### Flans Ultimate : Tyrants and Plebians Edition
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flans-mod-tyrants-and-plebians-edition) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flans-mod-tyrants-and-plebians-edition) [Source code](https://github.com/Unknown025/Flans-Mod-Plus)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1522/18/256/256/638988407241947082.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flans-mod-tyrants-and-plebians-edition). SHA-256 `70fac9e0808c7559b207d186d12def0933d53c011a36fa9eded378081ba05152`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-Pxbip2zg"></a>
+### Create:Advanced Schematic Cannon
+
+[Modrinth project](https://modrinth.com/mod/createadvanced-schematic-cannon) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://modrinth.com/mod/createadvanced-schematic-cannon) [Source code](https://github.com/hololocheck/Create-EMC-Schematic-Cannon) [Wiki](https://github.com/hololocheck/Create-EMC-Schematic-Cannon/wiki) [Issue tracker](https://github.com/hololocheck/Create-EMC-Schematic-Cannon/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Pxbip2zg/images/8fa9c19ed9cf28684dc4efe758b6d0618376d9fe_350.webp) · [creator source](https://modrinth.com/mod/createadvanced-schematic-cannon/gallery). SHA-256 `0211d52146505288e82c97d87798a916de9f598eeb2ca12476856e209bac9e0f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Pxbip2zg/images/88bda77852a13dfa31643fe90b045e1e0c2c4932_350.webp) · [creator source](https://modrinth.com/mod/createadvanced-schematic-cannon/gallery). SHA-256 `a30f0e982b3f6798d795190361c9e155df1609f74c2074e7e01f0180d47e5195`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/Pxbip2zg/d369ec339957255289237dc34c9f3f2afbc6ce4a_96.webp) · [creator source](https://modrinth.com/mod/createadvanced-schematic-cannon). SHA-256 `6e623f047609c0dbc3399c217c4a7b53e487424d5337a8cbf8918c5d0c4bc12b`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-564278"></a>
+### Vintage Firearms
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/vintage-firearms) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vintage-firearms) [Source code](https://github.com/roland3564/Vintage-Firearms-Mod)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/476/78/256/256/637768868864076679.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vintage-firearms). SHA-256 `61f8cf9b42e232015c3ac42886f85df5d8ca9bd511bb025028ddacffc850f502`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1068785"></a>
+### TacSteel
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacsteel) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacsteel) [Source code](https://github.com/Crip03/forge-TacSteel-1.20.1)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1044/691/256/256/638572414043621924.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacsteel). SHA-256 `41d633a0d6600c8a40cf8da5143834f945041ab40b7b45225ff42ebd729c3d6d`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1632583"></a>
+### Apothic Aether
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/apothic-aether) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/apothic-aether)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1953/785/256/256/639210501470910217.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/apothic-aether). SHA-256 `3faafc44984fc5b50e3fd4b332f7146abdaa0e654b311144c92bbb753a453863`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-qLUingdK"></a>
+### New Guns
+
+[Modrinth project](https://modrinth.com/mod/new-guns) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/new-guns) [Source code](https://github.com/Songfultulip/New-Guns-Source)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/qLUingdK/e7bfaaae7768bcb495881048252b71dbc8b7f700_96.webp) · [creator source](https://modrinth.com/mod/new-guns). SHA-256 `191a8f8abdc9ce72492c00a85e2ace7299256efb1e91fc1a28efc7657bc2078c`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1589398"></a>
+### TaCZ: Blueprints Reforged
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-blueprints-reforged) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-blueprints-reforged)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1888/470/256/256/639181620250278559.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-blueprints-reforged). SHA-256 `7e629039caa66c424f9ef3da8ad944f88afda040ecd235367547fbc28d239ee9`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-LEY02JhN"></a>
+### 3D UNO card totem.
+
+[Modrinth project](https://modrinth.com/resourcepack/3d-uno-card) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/3d-uno-card)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/LEY02JhN/images/63c5dd1202dd41f13dc80e817afbde551c07e2f5.png) · [creator source](https://modrinth.com/resourcepack/3d-uno-card/gallery). SHA-256 `f1d1d8832da41ce681a6deba3604bd09ab447b118e916e39e9276d1988966568`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/LEY02JhN/images/3b72492d6023e2fd7ac1bb5a0efde2e920540ca5.png) · [creator source](https://modrinth.com/resourcepack/3d-uno-card/gallery). SHA-256 `2945f512c98c6d8705d23cff0929f54fbe7d3714ba11b1a079bb08f22a84b8e6`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/LEY02JhN/a3729f01433543dd3dcdbf387ff7e9355b3003d1.png) · [creator source](https://modrinth.com/resourcepack/3d-uno-card). SHA-256 `e50008f0349e26ca3587cbb1d988b478d58600ab8940dc4a7af971697afd43ef`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-BTQP8kkz"></a>
+### Housing Joint
+
+[Modrinth project](https://modrinth.com/mod/housing-joint) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/mod/housing-joint)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/BTQP8kkz/65ed21bbe7333596ddf72e759592cf1955e80394.jpeg) · [creator source](https://modrinth.com/mod/housing-joint). SHA-256 `bc8c8c755a24ccfb1f36dd2b8b0f8173e67af650368f3aba1e7c14ec955be3dc`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-9N1IC67Z"></a>
+### ruVic's Point Blank
+
+[Modrinth project](https://modrinth.com/resourcepack/ruvics-point-blank) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/ruvics-point-blank)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/9N1IC67Z/images/d820b6458191088c05a2b528fb0c07f4402ae5aa_350.webp) · [creator source](https://modrinth.com/resourcepack/ruvics-point-blank/gallery). SHA-256 `bc6d5eea46ea6846e2cb8ac87655f1c520190a7c58102545248f124da35d4293`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/9N1IC67Z/images/7cb0b6172353d0fdab258f3b8067fd813f052438_350.webp) · [creator source](https://modrinth.com/resourcepack/ruvics-point-blank/gallery). SHA-256 `863e2851c3cd1051f2d8043c746339cfec97e4f37f9a335017187a52ce898130`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/9N1IC67Z/235b919372171acb8fb0ec828effdc4fa763daf1_96.webp) · [creator source](https://modrinth.com/resourcepack/ruvics-point-blank). SHA-256 `3f70c6b9e45e409dcb326ede886ff2b2080febcd35dc9f294569d1f065fdabdf`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-eJkGERsg"></a>
+### Tacz: Hide Back Gun
+
+[Modrinth project](https://modrinth.com/mod/tacz-hide-back-gun) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/tacz-hide-back-gun)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/eJkGERsg/images/0d82471be3cabee6e975f5062de228309c8fae06_350.webp) · [creator source](https://modrinth.com/mod/tacz-hide-back-gun/gallery). SHA-256 `2a0c720732af99eeb30b44b5a6dbb671c53f63b39a6603abb115abe8f85bc427`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/eJkGERsg/256efb2810a6593c4060259b60e24ad2b4833876_96.webp) · [creator source](https://modrinth.com/mod/tacz-hide-back-gun). SHA-256 `13c15e0cab3ad857ffa07006989a72c156f960fbdd64c7acd7c45ed6ef566dee`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1696298"></a>
+### Create: Big Cannons X Fungal Infection: Spore
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons-x-fungla-infection-spore) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons-x-fungla-infection-spore) [Source code](https://github.com/dionysus6060/cbc-cryo-cannon)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1696298/description_387300c6-f139-4be8-ba3a-6924f953486d.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons-x-fungla-infection-spore). SHA-256 `64a3ca60388020631b2063f4f5d813f2e882f9becfcb287f32dc727077c5f077`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1696298/description_799f92a3-f3fe-42b1-a093-fa84686403c5.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons-x-fungla-infection-spore). SHA-256 `d3e18e398fcdb26cb70e316731e919fe492881c36f940f3e0fc75534b9548272`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2047/720/256/256/639250137627094223.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons-x-fungla-infection-spore). SHA-256 `be0f56c4389a96f4444df104316eca22652ae24c66b7d833f1671865400eedd4`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1639157"></a>
+### Sulfur - Guns (Modjam Edition)
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/sulfur-modjam-edition) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/sulfur-modjam-edition) [Source code](https://github.com/ChaeYul228/sulfur-modjam-edition) [Project &amp; downloads](https://modrinth.com/mod/sulfur-guns-modjam-edition) [Issue tracker](https://github.com/ChaeYul228/sulfur-modjam-edition/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/4b0af9073fdde0b528c2df9d73b27b1f28590c80.png) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `2c6c1f70dd70b6b85596393e8b731d2d3b42b75881e9358916edb2737df70bcf`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/9f24991c20dfb6a0ce2e473fe0cb300116597551_350.webp) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `5c7f93181705c35d3e0e0909c261364c228b2b1f827eb1a45121c8f7187f8b54`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/07cc09df347cb219b4cc461b9eb8d16cd5df7298.png) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `b97a4e20cb2b87274a49cc1cf98e5cd4b3d28f12465f8b88be7ebddca987808a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/e6fc7fd23b7c95b96182d82dcf1369903b9acd3e.png) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `76ce1b2181afc7395df3a621793f4eeb15752908dd83720185323216fdfc6ead`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/306ee547f61f00a7b1b9c366449ee039c202f64d_350.webp) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `771999dfc101467dd3fc66e9b4dccd12e7ba4add2a8cfb6157bbfc3c08029804`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/9aac05233586bbf6d30019fb079bd60193d33bb4_350.webp) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `4d77d7d45230095542df45ab50baeef607c06d2295d16e8993922f27e86dddcf`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/images/649805c4f88bfb6bc9d932192880953ac89de203_350.webp) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition/gallery). SHA-256 `29b72e72833f03e6d5003f4215d780a1551abccfa9273fd53e8ff5fdd1ac3641`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/1843/17/gui-png.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/sulfur-modjam-edition). SHA-256 `dba35695376b46bb0abc2f89879d48f895edbec0fe9a78d6a5d8fa733988b767`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/1843/21/gunner-png.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/sulfur-modjam-edition). SHA-256 `dc41b37f806c1c8b31b96f90555f4b08c2c4d68a9063e03c528a5a1040949ccf`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2028/419/256/256/639242008906962016.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/sulfur-modjam-edition). SHA-256 `e95aa7085513e33e6f4a3b8915f54ae489d213a8d6f853806c4a3a405367f2eb`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/1gdyAwtV/f7b5f94c585b76b3ab03929174b75694e158ba0d.png) · [creator source](https://modrinth.com/mod/sulfur-guns-modjam-edition). SHA-256 `fbdf9c2c3cc781a2215d04eb57d907a7c8d3a2d53ba7aa5f1a00a3fec91ecab9`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1558222"></a>
+### AkatZumaTool
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/akatzumatool) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/akatzumatool) [Wiki](https://github.com/misako227/AkatZumaToolWiki) [Project &amp; downloads](https://modrinth.com/mod/akatzumatool) [Issue tracker](https://github.com/misako227/AkatZumaToolWiki/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/51b018b0739f806422988ada34b0504a7643c5d9.jpeg) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `2ece4911db52ca9088678979d2c5cc862ec6e041e7c29971181755e8e8110d84`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/09fe5ff6d7f3567d57470cdc311c9fca9b3b6eff.jpeg) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `91a395248afd97c030678b0cb07883feacf3ede446dd77a466d40f325961e40c`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/11179d072bab0b715a9c076ed908baa887c3cd99.jpeg) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `086a47136139d12389c1f07b780a5149b79b812e008812904bbf762b76df5076`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/08cefecfb9242f9d9e59b4f6f16a26d5ac08744f.gif) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `88a6932f17d2cc274dd26bd0fe2837a8a73574a4b2d31d819bdef579660cd748`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/1575efd2406deef64bea81a225d18077869fc488.jpeg) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `d587f162c6fa101628f22a304536a97d140bac1b1509da8a94fa3afb49d9bd29`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/fbb5d584070ee73697d2b320105412e715e6ffeb.jpeg) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `e67171d9008978cc7cf654cde291c34ba455438933684d847f2365f1fc898357`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/8031a29bd5c45012bbdd35b28caaaee533d66066_350.webp) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `dcbcfb2190404f65b27ca729b8c627e76792fd42443f46231abe75174635dc52`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/d7ef33f178d4f5179e10f1ccec3911ea052d1241_350.webp) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `978c46eac3407950c3e5847b112170ebe4a0a238932c07c76cfaf96d7cb8b692`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/e65149938f7c1d98e4fab0554ca6458889742b70_350.webp) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `bf4b4638a6bdf9b76fd3bd7ffa1956c3057f63e09f5ec84d50867d86ca6bc2e6`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/a1396a23311a38428039e91ce04aa9f0c8d86547_350.webp) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `f29e7f53e18331a9eef04d60eed819210c14bd55a63783fe28d039f6280cf03b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/images/853962cb0ef8946e34ec41c4cfdf7c9d18a294de_350.webp) · [creator source](https://modrinth.com/mod/akatzumatool/gallery). SHA-256 `5999b194f7270c99054fab31a19b633a4042b758af69b89d633e6f3ab4a33781`.
+- Creator description image: [exact image](https://raw.githubusercontent.com/misako227/AkatZumaToolWiki/refs/heads/master/img/flysword/1.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/akatzumatool). SHA-256 `4555cd6f907b470b2426f5bfadf51b5665bfff4921aadd1fdc3b306c75854f2e`.
+- Creator description image: [exact image](https://raw.githubusercontent.com/misako227/AkatZumaToolWiki/refs/heads/master/img/flysword/2.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/akatzumatool). SHA-256 `f62e9db53777bb2c141966dd4a75455d0b4f4830a3e08785a396ef9fa746af7a`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1834/632/256/256/639157183146804601.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/akatzumatool). SHA-256 `cd698bfabc398a217a56a720cbac34cc864ab60bfeba50a1fb00142246cc4774`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/tbGQrFL6/edd465757d202307f3aa81dea2b66c6603522168_96.webp) · [creator source](https://modrinth.com/mod/akatzumatool). SHA-256 `4419a5c182d68598f89b3114296727875556713ab5a1ae2944a0a3ce25d87621`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-ge41bVqP"></a>
+### Zwaluw's Artillery
+
+[Modrinth project](https://modrinth.com/resourcepack/artillery) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/artillery)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/1e0c01e7f1cf1440c631a5f4a69843c72e963b65_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `13e1c31960a6077fd0e1b1dce03453b03408b9a4e80b72cb03ebec4ae5ee3185`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/e36483979d85e85f993bbde2631f5d828abee187_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `8973514321268d2dec4b1b9674e268aacb378bc95153f0219c4e9848e1e461f5`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/6ee57e13b2495db463ca3d69a4646eb1e4e74f98_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `65aaea2cd8141689486ce5620d8ddd76e1d1f1d43eb16a480d48a663497d9c92`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/70d6a24614570d268df198fc774e8234e15d91e5.gif) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `3ede6bdefedae9d9cf0ce8a7cc9c09b0d36ada50459b37406fcbadc5a0a31844`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/ddef539944513767429dc01b7eafd970e8267631_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `fdb4463130db84111495a59bac43dacc964af945db3d095ee301674e1b7569fd`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/9cadf081ee02aebc28eef42f5642dd9029f6d33d_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `18e54e1b072cb492962ee2d72a3fcb3d05eb42540cbe303671487665f31b5465`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/b2925b0da18fa94a00a84b3405fdcf238b4da950_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `17e58e25832496b95276f5115d95cfb59a2c3e0ca1b973f3dc7c8a0c60fa810b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/ge41bVqP/images/22e2ba1ee4697910d90d3f9e9c4e0381ea481836_350.webp) · [creator source](https://modrinth.com/resourcepack/artillery/gallery). SHA-256 `b457a9be349c2b378a66cbcb3368acd62949e96127b5e85b27dba225e74346e2`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/ge41bVqP/aa48d9ae0d23184b310963a8bd9bd541a41ed1b7.png) · [creator source](https://modrinth.com/resourcepack/artillery). SHA-256 `5506ce6ae214fd937e8a686de37552cdf0ba965b4ca8e5e25024bbc4e295e083`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-UTT8ijPB"></a>
+### Confetti Cannon
+
+[Modrinth project](https://modrinth.com/mod/confetti-cannon) · Checked 2026-10-23. Type: Artillery / combined arms.
+
+[Project &amp; downloads](https://modrinth.com/mod/confetti-cannon) [Source code](https://github.com/traxonLp/confetti-cannon)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/UTT8ijPB/images/ab6d7171ace49765a811e0f35fa92bca1430e1c3_350.webp) · [creator source](https://modrinth.com/mod/confetti-cannon/gallery). SHA-256 `b58decb7e77f2fb72e37cf99ff4f43ab7ff9607d296875e27d9072b7636fb658`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/UTT8ijPB/images/0f0e38c161f96566f1ab9b5085571ac0b847aebd_350.webp) · [creator source](https://modrinth.com/mod/confetti-cannon/gallery). SHA-256 `bb580a149666addb591c65509cd6f342045110257f8938b9003170b5db344383`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/UTT8ijPB/images/0ea3a3da29b31de9d544566509b9b0e7d23db676_350.webp) · [creator source](https://modrinth.com/mod/confetti-cannon/gallery). SHA-256 `2d5743c751f40ba4ec5e6c58ec9d8f99ee1ceb01180469710ba2c54ccf0d1c6a`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/UTT8ijPB/732efcbde5f34e7c55716780586036798aea381e_96.webp) · [creator source](https://modrinth.com/mod/confetti-cannon). SHA-256 `6d026e0c667b6702f050e03270a5fc1613d4f326a398b2bfef2a374e257f4f55`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1620072"></a>
+### DoxBreath (TaCZ Recommendation)
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/doxbreath-tacz-recommendation) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/doxbreath-tacz-recommendation)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1935/68/256/256/639202870248335369.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/doxbreath-tacz-recommendation). SHA-256 `479c2f8846f253b003ed670286a92b36dfd6b1206ca18bdd9d697e2e591567bf`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1730140"></a>
+### Imperial Pillager —historical weapons
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/imperial-pillager-historical-weapons) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/imperial-pillager-historical-weapons)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2097/188/256/256/639268913423063509.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/imperial-pillager-historical-weapons). SHA-256 `b8b78ffde359ee12b195512d1e7a9701c92f36e49f43938461bc06010ea37bf1`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1442534"></a>
+### Onysd Guns
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/onysd-guns) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/onysd-guns)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_764362eb-e9b6-4f6a-adac-3c8b59a56ed6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/onysd-guns). SHA-256 `c33139b8ec5c12282548703802c3b5e94fb536a21278bb019ab80bcba10d6d46`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1638/17/256/256/639048247430508329.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/onysd-guns). SHA-256 `650344acb739d55fba1ef1bd13e3c3247dc03fe7b4788de79446486ce70c0673`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1691281"></a>
+### TaCZ Fixes
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-fixes) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-fixes) [Project &amp; downloads](https://modrinth.com/mod/tacz-fixes) [Source code](https://github.com/3SCR1P7/TaczFixes) [Issue tracker](https://github.com/3SCR1P7/TaczFixes/issues)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2040/533/256/256/639247353542605715.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-fixes). SHA-256 `721ccd1804d7dc9b757fc8ce78cbcc5bf60c4ef2c0c7fe80c033a57828544781`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/5GBCwFQ5/037d60bc9414dbaf16c0dffc855a970c9959b284_96.webp) · [creator source](https://modrinth.com/mod/tacz-fixes). SHA-256 `aaa739792589cfbbc2bf13dc7371c22966cd29f6b91ffa0dbf745babb2ddfbd9`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-645625"></a>
+### DoofusMans GunStore
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/doofusmans-gunstore) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/doofusmans-gunstore)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/573/946/256/256/637936173507914367.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/doofusmans-gunstore). SHA-256 `7088b34288bf58a4196b78401a62ea0b25041b8786593358d54654c80d0d7a39`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-xENDnqZ8"></a>
+### Silent's random point blank guns
+
+[Modrinth project](https://modrinth.com/mod/silents-random-point-blank-guns) · Checked 2026-10-23. Type: Datapack / command weapon.
+
+[Project &amp; downloads](https://modrinth.com/mod/silents-random-point-blank-guns)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/images/1adb13e4da5b3069fcca537853537de8b2156671_350.webp) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns/gallery). SHA-256 `8651db4fdf8c8db91f2f26306b2674145e89c676157257ab641e288d0218cd76`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/images/456f03447f9321e460950c6f48e99b5a3a543f25_350.webp) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns/gallery). SHA-256 `06e950880997107429ddc52c1221031dcb3a1fdd8bc3f9b989970f4390b49bb3`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/images/271c2933488d9a74862b342663ab3697d6cd959c_350.webp) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns/gallery). SHA-256 `183f29a27008d8844ffa31400cc697f25d4bbf233b025d6cfbeac3e292b8f98a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/images/0e606c18eff43ded8848d332c254d0ffb5b4007b.png) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns/gallery). SHA-256 `f41d3b78df5337e05cfc39a302305b3f318c7f1edb86b8a6df8dab897fdca677`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/images/496d4d7ec40b5689fa8fd68017015a445e60a640.png) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns/gallery). SHA-256 `1da19194cc402a06d4d0acba6e50659ff72e26cf3a3591112319fb5d9e7b4c0b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/images/7b39cbc3e7956b56e70d2de11115839699fac36a.png) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns/gallery). SHA-256 `0d6ab1d40a8de8d5b7570fb82d5325393f26fd5955b90df72b8205773568b060`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/xENDnqZ8/64fd55a1384b3d8f29152634002b325463bcb705_96.webp) · [creator source](https://modrinth.com/mod/silents-random-point-blank-guns). SHA-256 `8c6165f785a326f4202a141872ff745a282cc509b04057126e080bdc8a9f234b`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1679187"></a>
+### rick and morty r m
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/rick-and-morty-r-m) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/rick-and-morty-r-m)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2023/156/256/256/639239625978582274.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rick-and-morty-r-m). SHA-256 `d8c464cefbd7ff7bed8e0738525ddb8d7265959989f281e8baa3638905bd267e`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-wLqXwxXh"></a>
+### Sigma & Gigachad Mod
+
+[Modrinth project](https://modrinth.com/mod/sigma-gigachad-mod) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://modrinth.com/mod/sigma-gigachad-mod) [Wiki](https://nesleisk.github.io/AllMods/)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/images/37458fb219ecd5b43b758411134806215b8a4490.gif) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod/gallery). SHA-256 `cb774af989220d2aca1bd32e50df65300ae0136a950dfebc823613032e120531`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/images/801543d6ab2b64bfc30147850a3f08c514cd6b85_350.webp) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod/gallery). SHA-256 `0515c4e59639fe1eb752b23c456399951ec58d892a5373474d956724ed623894`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/images/3b167395cffd969e0607c6fc065d16c3402374f6_350.webp) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod/gallery). SHA-256 `482f09a93e976b2e741f2309a8af1c4f4cbd9db70675258203b86f6560fb0027`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/images/a730d45685d6c526e1a43846d23b43a5c4c16408_350.webp) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod/gallery). SHA-256 `df73cd2e36aff3753a6beeb067c21978f23e90ebac61cb568e4125169948a952`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/images/f650962f5c3a8afb7900bd6983002dc07e3a4055_350.webp) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod/gallery). SHA-256 `ecd0336b20a6121e4e83adeda2a112b86ce766e2e1ea07276d18bf0b026b8996`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/images/898fa4b108a15ec1a27009a009736c8344abca8e_350.webp) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod/gallery). SHA-256 `f6987ff3ccbebc4287b87c8f7d2c181c4249c034d1cf8996c9c1797732d70d98`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/wLqXwxXh/3630fd7a75906d62e4b954efeebdef0af384b557_96.webp) · [creator source](https://modrinth.com/mod/sigma-gigachad-mod). SHA-256 `002120bd74a55faa4e94d6614ac992916c2ae91693bc8462df0e6146c6793379`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-WfrDx8JB"></a>
+### Bows to Guns! 3D
+
+[Modrinth project](https://modrinth.com/resourcepack/bows-to-guns-3d) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/bows-to-guns-3d)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/images/5b5c595f9a81927ccf0ccd1e603801925ef6e25c_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d/gallery). SHA-256 `485a14da70146a1553d615978565bbcd029b73d03fc8b58ef08c5613159cc253`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/images/95c86712ffcda9d693a11aa29739827c44ec4a5c_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d/gallery). SHA-256 `32b037abadea5b2d894c16bc9700b6dd50b77c6f8cd2eb4b5de921a62f931cc5`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/images/3a1bf27bb53ee7b8ce00740cb486614c6d226338_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d/gallery). SHA-256 `7f1e20f4cf005407c197a562035546abfc74317fc6f1203c32a7d5bd80488be4`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/images/e319b816fc6edfd01bb4c2e8f395d682e36154e5_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d/gallery). SHA-256 `82b052b7347273bdd24069042985a3e5911d27f60fd30c8e665641ea2dca5de4`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/images/0449ac5f63280ea574847a0156aeb87b76cc0490_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d/gallery). SHA-256 `319bd5f4bd8bf5910d99b2134116ec0a1999c73a576c5d71f4b6d28737b3c439`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/images/f8c6d2f47d9643549bd44c528ad3a17c3e01cdff_350.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d/gallery). SHA-256 `212be977c56e7e5e9a65d1e0a74f830a4884df0fc7a09cfc0719118d2cfbfdcd`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/WfrDx8JB/58798a6d2adbce1ddd5bb77c61b237ed5606eea9_96.webp) · [creator source](https://modrinth.com/resourcepack/bows-to-guns-3d). SHA-256 `d4e39746ce37f95560a1ec494aa761d0ca86cae7c941151ec1a7afb8d7988a49`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-522223"></a>
+### [FLAN'S CONTENT PACK] Coco's Drone Pack
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flans-content-pack-cocos-drone-pack) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flans-content-pack-cocos-drone-pack)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/427/593/256/256/637659512636608342.jpeg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flans-content-pack-cocos-drone-pack). SHA-256 `29f73674c59af9515da03ee299b1fa7a94e110c10bcf1d2d0fdedbe645028734`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1622462"></a>
+### [SBW] Villager Recruit Troops :)
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/villager-recruit-troops) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/villager-recruit-troops)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1938/642/256/256/639204288928775841.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/villager-recruit-troops). SHA-256 `0041ab107f3999533ed6343491eaa298628c36f5ca4759b6e46daf9e35760b8d`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1686397"></a>
+### Colonial Arms [Fabric]
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/colonial-arms) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/colonial-arms)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2104/959/256/256/639271671377578573.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/colonial-arms). SHA-256 `915105f24f15613d183279e2e48fdbea02fb1cc72b58e804b35588ba4dbc0730`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-1i3nDtC4"></a>
+### Guns plus
+
+[Modrinth project](https://modrinth.com/mod/guns-plus) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/guns-plus)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/1i3nDtC4/d6dd062aaa80b0410647842e2ac9b7113f677e23_96.webp) · [creator source](https://modrinth.com/mod/guns-plus). SHA-256 `67ac4697362098873ff6abba1f7489c49bca3f129f8dadda3fa350d325cd95ec`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1663279"></a>
+### Armed N' Dangerous
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/armed-n-dangerous) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/armed-n-dangerous) [Source code](https://github.com/MirageDEVoid/armedndangerous) [Project &amp; downloads](https://modrinth.com/mod/armed-n-dangerous) [Issue tracker](https://github.com/MirageDEVoid/armedndangerous/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Dj58bopP/images/9172fc2f59fc64f30355127f0e261e27b7b64318_350.webp) · [creator source](https://modrinth.com/mod/armed-n-dangerous/gallery). SHA-256 `aee4262aaee3adb19514db7ec516abb4ff763d55ede93eee8630a7493aa2b6ca`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Dj58bopP/images/636aa33870c97d329f0e33eac967431a1f16fc2f_350.webp) · [creator source](https://modrinth.com/mod/armed-n-dangerous/gallery). SHA-256 `31955a84d5b414420f7e2b5bf3407f86651749c79caa3a506755b29faf042ac1`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Dj58bopP/images/d312735ffdf6a7a38cab8fd48f0f281097f2c936_350.webp) · [creator source](https://modrinth.com/mod/armed-n-dangerous/gallery). SHA-256 `4744888a1b414f9e58f0a5d44b2caf334b0c2ba0d70a80c992d8d2e239d0c7c7`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1999/495/256/256/639229751311333272.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/armed-n-dangerous). SHA-256 `e251f05dcf604394cdc3222697285fa6520f2f9de5d82f49c3010e25a07620bf`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/Dj58bopP/ce5cec0595115dae588515c7a99adecb1221fad7_96.webp) · [creator source](https://modrinth.com/mod/armed-n-dangerous). SHA-256 `c35796a465ceaebbf0c86aa0afeaf81147933c617e9ea2977b2b275a9ec92043`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-xpttV9gJ"></a>
+### RenaissanceMuskets
+
+[Modrinth project](https://modrinth.com/mod/renaissancemuskets) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/renaissancemuskets)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xpttV9gJ/images/a9bab2496af24a6e4e313ea6e82ac82b66e3aedf_350.webp) · [creator source](https://modrinth.com/mod/renaissancemuskets/gallery). SHA-256 `5db3a7966ce9bc73c282833bf725db4603fe4de3641d1148cc8b95d4c0781fd8`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xpttV9gJ/images/456ea56d6a047bef10a0920cf37c44922d775c41_350.webp) · [creator source](https://modrinth.com/mod/renaissancemuskets/gallery). SHA-256 `9225e8dda622fafe31a1d631b36b144a461575836f109e29ced77a1569f544fe`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/xpttV9gJ/images/b86a92d2202ead547f03890fb980297fd2f0de6b_350.webp) · [creator source](https://modrinth.com/mod/renaissancemuskets/gallery). SHA-256 `65e9e55f5a0435f17650ade92f0c48b236ee3897d5944d30fec7445c097c9e5e`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/xpttV9gJ/802eac43eca9f84a86af412a3fe5d6b20ddd836f_96.webp) · [creator source](https://modrinth.com/mod/renaissancemuskets). SHA-256 `34717547519650120d190cf84a57b3ee8f356d793967b3d31d1978765e3db8f8`.
+- [Video](https://www.youtube.com/watch?v=jtY4aiDnoD8) · Linked on project page; full playback not reviewed.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1726960"></a>
+### Fantasy Guns ( Just Enough Guns / JEG Addon )
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/fantasy-guns-just-enough-guns-jeg-addon) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/fantasy-guns-just-enough-guns-jeg-addon)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2092/624/256/256/639267360173406187.jpeg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/fantasy-guns-just-enough-guns-jeg-addon). SHA-256 `f0daa24092df6d253891a0375766798d0a48b6d0610bb0e30179dc2b4bb54cbc`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1692319"></a>
+### [TaCZ] Simple Enemy: Extended
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-simple-enemy-extended) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-simple-enemy-extended)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2042/56/256/256/639248007831659158.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-simple-enemy-extended). SHA-256 `15a62c3d4eb630942da0f4220c80b417c45f65813d7059a2fce13426cc99f23f`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-U5VMz7zi"></a>
+### Guns Without Roses 3D by Shawdy3
+
+[Modrinth project](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/f03fcbae7f2a6835e8d63bed913ec8cfe27c1315_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `5f64e3533072dfb221926fa3834d4e6f034ce973c2276ddf5f56d9cacf02be09`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/710397d1730457ab76d7451d30988e52babb0d4c.gif) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `e9ac020e0470f60e1103bd6c24199d0000479f9fec4ef891aae2df9ec4caaeaf`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/714ada39e821c3cf2c6758b80e96d2890e4a7391_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `11f31ad3b661b5f672f9b63708b70d61b576059113b0e0451efbb7016ee3db62`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/2e4597f1054682114948cb42d65c6a869e7f8d69_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `e084cac5b1c653f555869c08e779e0d902fe0e7834056431cb48ef867c67e513`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/e910dfa02556ced19de94dcaee9a592e68a14486_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `e0b270d63a5d1200e9aad6f5e7be9bfd0456266950d094c02e9fb55a3d76d4d2`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/cceceaaac12a215bdb3b57299b7c948b10b71bc5_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `ad1b7ed9eb4f226628a6e11b3954af658689720301cb8e570af5d8a200e8a70b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/e8b1ed5820e844f7c891c05ff8e62b6984957d0a_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `bc29ce95b80aa11bfbda6825b525471106e0e0a711e29980e415c0dc88ef8949`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/0259716a45e4961ba45e10ca6b1de6fd8af388c3_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `55fc46679a426b8922002e6fbd0d54c7235b4acd1cf92dd797847507f0cf62b3`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/812c1b658619c5c458f2282170429638eb6007ad.gif) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `70f4e390bfba2462a7a44d0dc074ba7512087487b18423c82a023c92b324160e`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/842539ec9eaf99339bb21aa30eadcccc1f939a45.gif) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `70662dfeb108fa8db41182f608a3461a78b26103526ae7895ee1a57cbb55235e`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/827fb96997d354721330546336c471a459c115fa.gif) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `19b379942fe49bbc9c4c8ea869e1520098cbfd15ea9a157a7e05424db1bb0588`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/2411b50031562ff773d8589f74de4881e344bcdc.gif) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `601f1bad9bc2c8fe58086921c00d6e3f992529a99d5978afe31f2c99f1cae69a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/4b293066c430e90b47448b0de2a720a50eb21be6_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `b18515624f4f7907ae5654dbdbf651952deeedcfebd95cd3946d68244f4e3ac2`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/7b0748045f09123283b432f8267484edec3d4e04_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `c6b00fb9453bcd48a560684d41f4658d67f246d89dcfac29b41bb7b90b2c8ebd`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/images/ddc886df8cb5efbd7917212b11a8579474181490_350.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3/gallery). SHA-256 `9c8196f78e5edec75c64a5c7461a83092f8a95b871d866ae7657d044afa3e911`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/U5VMz7zi/5cbff93d0c487672d8eac7c9e052528ce5571cc4_96.webp) · [creator source](https://modrinth.com/resourcepack/guns-without-roses-3d-by-shawdy3). SHA-256 `3eda8770378746537150d4d7053c58c967bba1d0683a84ca953918ed0052c68e`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-KKdPrPvj"></a>
+### Muskets
+
+[Modrinth project](https://modrinth.com/resourcepack/muskets) · Checked 2026-10-23. Type: Visual / resource pack.
+
+[Project &amp; downloads](https://modrinth.com/resourcepack/muskets)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/KKdPrPvj/images/69a19cb2b5f353d5f583b6b806fe51c8fa14e9f7_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets/gallery). SHA-256 `5a9456946f0916ca7f59c1e392431e125b12c8bf90efe3377170752b90982583`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/KKdPrPvj/images/b0e09ef31e39a76d79177d9aa4c8ad53174b20c4_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets/gallery). SHA-256 `f239b347e0d4febfeec5e7b32978fe70e2ea9e194b3edab0c54c864e8d349b6c`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/KKdPrPvj/b8774581060db3cd2934a25579575c0db8e7ddd1_96.webp) · [creator source](https://modrinth.com/resourcepack/muskets). SHA-256 `ff2f9bbf69b4126d775244cbd8ef8654cd7ea49f643d238d07bedf765dff5778`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-W9W2vrPG"></a>
+### Aiden's Tech
+
+[Modrinth project](https://modrinth.com/mod/aidens-tech) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://modrinth.com/mod/aidens-tech) [Source code](https://github.com/AidenAnimates/Aidens-Tech) [Issue tracker](https://github.com/AidenAnimates/Aidens-Tech/issues)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/W9W2vrPG/images/308d4871bc7b89473c7bf29b83bbc425772450a8_350.webp) · [creator source](https://modrinth.com/mod/aidens-tech/gallery). SHA-256 `74af8b39dc57a36c1273e8c655b13db785f942751bcd8edd7eeee69cbc0e8956`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/W9W2vrPG/e9b907e5d40dd799aae368706d78cbb0fc294ccf_96.webp) · [creator source](https://modrinth.com/mod/aidens-tech). SHA-256 `9af8f6a91339aacba651cbc7ed758c4217a03c7952de62fadc1889eca6c6947d`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1334943"></a>
+### [TacZ] AK-105
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-ak-105) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-ak-105)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1416/721/256/256/638917819336519643.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ak-105). SHA-256 `f130118ee9fac89df681b96cf2ee91c4a44a48696f450672fdca6f2026bc18cc`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1301/526/2025-08-26_01-55-08-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ak-105/gallery). SHA-256 `0f4be3f0874442368cb23250a808011499ad516f2260992e37869f41df084113`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1301/524/2025-08-26_01-54-38-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ak-105/gallery). SHA-256 `ff33158220ffab83f99e31c34aae5424759fc241d14ead78877e6fea501eae8a`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1301/525/2025-08-26_01-55-03-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ak-105/gallery). SHA-256 `2965c2d75fa2bfec7f952302f606d77dde3e2adc512d7bceb0dba70a74de8cab`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1301/523/2025-08-26_01-54-31-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ak-105/gallery). SHA-256 `7f74c3923400c7cda1010085c063accd401e3c96e9490402d389095c442e8622`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1248644"></a>
+### Vpb casings
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/vpb-warium) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vpb-warium)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1233/735/256/256/638808583082451513.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vpb-warium). SHA-256 `fc8a8fdee0c5ca0a8b80f8ef062cf03285b35e68a08c47d684a933fa7c15c3a9`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-556487"></a>
+### Orks Gun Mod
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/orks-gun-mod) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/orks-gun-mod)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/467/241/256/256/637748770274351084.jpeg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/orks-gun-mod). SHA-256 `9e1d138abaf4a798262f69af3da7cfbf94c507c2df989c3a87d6d27199d46f86`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-547332"></a>
+### Flares[SCRAPPED]
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flares) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flares)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/417/549/ezgif-5-f71b9d9fc0.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flares). SHA-256 `58f142d6ddbcc3c04913759206e123a1d6f8141889a9ea328923a7dd4a241fa2`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/417/552/ezgif-5-40a499386f.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flares). SHA-256 `e2b53b3f384f48b68e2ff675035adf32f4ab7376acb615a4773cd5936719536c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/417/553/ezgif-5-19af5938f5.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flares). SHA-256 `018d89f55110f3d2030b2bb55c708b8cd504953e6447302004fd5ca5507735a1`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/417/556/ezgif-5-c6e85996de.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flares). SHA-256 `a3204e3e7c7c540f36ab7e89058df72292cc32441a4b903f5ee1a2815ab67792`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/455/996/256/256/637725556394316232.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flares). SHA-256 `1de2e31b1aacbd2acc7be317212ae822ad6515ed75f338c64219dc416e940e03`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-347799"></a>
+### Gamer 2D Gunz
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/gamer-2d-gunz) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/gamer-2d-gunz)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/232/337/256/256/637065864070881791.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gamer-2d-gunz). SHA-256 `f4b4ef8cb5028355f479f8bc030554b40965a7353ae02044e0f99b373773afa5`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-867911"></a>
+### Modular Firearms
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/modular-firearms) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/modular-firearms)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/825/109/256/256/638210612416159578.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/modular-firearms). SHA-256 `c867980f13da9f4a7e9382652708e4836f1715952da011b9e4c91d70521373e0`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-6HPyDhNS"></a>
+### [TACZ] neku's skins
+
+[Modrinth project](https://modrinth.com/mod/tacz-nekus-skins) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://modrinth.com/mod/tacz-nekus-skins)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/6HPyDhNS/images/987265c2fb1f43d84fa05aa055396fdf78f887e5_350.webp) · [creator source](https://modrinth.com/mod/tacz-nekus-skins/gallery). SHA-256 `f6212454e7b002ae6e4be9d9981a553402ee45353d79eaa0c73b659f11339c7b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/6HPyDhNS/images/79f5a9a0a8e0a9d3073fe6e4e36db9788b427455_350.webp) · [creator source](https://modrinth.com/mod/tacz-nekus-skins/gallery). SHA-256 `57bcc0aad02c4d2da6cc4b5ffbca578d53e2214b52927ba7b1488e72f59083da`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/6HPyDhNS/images/2a861d3196021df79c63f3228ea9b3529b6afad6_350.webp) · [creator source](https://modrinth.com/mod/tacz-nekus-skins/gallery). SHA-256 `7b70a00726b728a214c4aa021dcfb5df350f8a94835af6ac5ff5b8a9923e24ae`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/6HPyDhNS/images/c2af9a77864822a0048afd8617498227ea9e5894_350.webp) · [creator source](https://modrinth.com/mod/tacz-nekus-skins/gallery). SHA-256 `3fd14009757b14a4cd02e81bc7a4c8c7cc78195a1e139b95ee49c55a3e15859a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/6HPyDhNS/images/56e14140c05a11bbde6ce677fad1206547dea082_350.webp) · [creator source](https://modrinth.com/mod/tacz-nekus-skins/gallery). SHA-256 `b7f58e43afeeb43b0058afd62ee083127f7d86fc477e64d754315fdf9241596b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/6HPyDhNS/images/b567bf7d7eeb909c9ca459688d6e9891cb8d6464_350.webp) · [creator source](https://modrinth.com/mod/tacz-nekus-skins/gallery). SHA-256 `61a89d90dcd1dd6416427f3774096c0791badcb6ff5eb90867ef2f65d5061339`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-cf-1715973"></a>
 ### Orbital universal railgun
 
@@ -911,6 +1976,20 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
+<a id="ref-cf-1341973"></a>
+###  [TACZ] ToxMav's pack
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/toxmavs-pack) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/toxmavs-pack)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1431/258/256/256/638927397574077349.png) · [creator source](https://www.curseforge.com/minecraft/customization/toxmavs-pack). SHA-256 `6e77c014974ce1049f9acb67c2210ac0814cf26b0e9d5f1368cfd274478d3605`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1734/5/image-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/toxmavs-pack/gallery). SHA-256 `2cafeefb9e81a0c5ecfbcc08fecf097e122624449bb7456c3a3f49081277178f`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1314/586/screenshot-2025-08-31-160234-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/toxmavs-pack/gallery). SHA-256 `e9a83e64749e47224e4c267d0d1d432e0daf859eb5b3712f438ab4cb7b34b802`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1314/587/2025-09-05_17-41-37-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/toxmavs-pack/gallery). SHA-256 `6a765b42a5984d9044118fa808196095c46e8240b5a6b5d210da5e10a373ed5b`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1027748"></a>
 ### RM277 for Vic's Point Blank
 
@@ -1519,6 +2598,21 @@ All published version metadata read; latest file for each supported version/load
 [Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/wn-siege)
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1936/964/256/256/639203561749046563.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/wn-siege). SHA-256 `514c6f938c583e335643d976cc15b341691178fc5d47e63a9df8ec03225a5525`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1356130"></a>
+### [TACZ]Huzai Gun
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1460/885/256/256/638948181694006152.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun). SHA-256 `041ddce9ed64f8ec12f75a83932265f2bcba807a5c475fd66f876857c33c7c64`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1341/569/p250_geo-2-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun/gallery). SHA-256 `64d6bd64ac20888947d9d607d9111beffb04eb393ed1a23692c93c0e4f070d25`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1341/567/2025-09-30_15-20-59-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun/gallery). SHA-256 `1cfe099e205e1d34d526734085eb8befb0671c9e1b6a1b58c9833ea06bb6a4b9`.
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/1341/568/2025-09-30_15-26-18-png.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun/gallery). SHA-256 `d0cae2f3213e35f8b11d1e9cf690fc4a54d042c7f94c901730162569eee332a5`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_d62cc7de-b4bc-42ad-ab84-9ec650740600.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-huzai-gun). SHA-256 `87b1a91ffeeefeebde1b1ff464ff29ea46f68f732da9641f3e2398ec2691c1cf`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
@@ -2536,1204 +3630,6 @@ All published version metadata read; latest file for each supported version/load
 - Project gallery: [exact image](https://cdn.modrinth.com/data/nABLRtWm/images/c0b16ed87f0286902d277c6d7e013a6ed4555bb0_350.webp) · [creator source](https://modrinth.com/mod/falling-block-particles/gallery). SHA-256 `3690d50f3aa73a4aeee4483457274beb436d16b3a81d14366015bb72ef42f76e`.
 - Project gallery: [exact image](https://cdn.modrinth.com/data/nABLRtWm/images/8c5a2eb9bcb7a99872cb9aa0d0f9007382491eb2_350.webp) · [creator source](https://modrinth.com/mod/falling-block-particles/gallery). SHA-256 `8eb406c9b89fa9c2c56cfc51cfe1f839e9fc72fcb577c162e4410e8253c58c76`.
 - Project icon: [exact image](https://cdn.modrinth.com/data/nABLRtWm/27706760105d66accad277ea7edac9dc9ed745d8.png) · [creator source](https://modrinth.com/mod/falling-block-particles). SHA-256 `7827fbba8c5042ad957b9b85bb6b38337ab215262bb3e8d0806ffe43499faea7`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-NCEK8MiY"></a>
-### King George Want No Smoke (VPB)
-
-[Modrinth project](https://modrinth.com/mod/king-george-want-no-smoke) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/king-george-want-no-smoke)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/d0b13f467272ca278c2d363c5fead8f6222b001a_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `034bbc978a916df602a4c551cdaa06cc32cbe39acc1c91ade5301cde5566311f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/a295b9b86c62224cf7a7e8203595fb5dfec88deb_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `5d866076ea816e340a7664e099ba4ef1e2468aaa2657a6da7ec323041eb5df91`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/e4046483fb45f94c84f0d197085d2c56b763e674_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `2c50665e745679189a0ef7ae807d260fdb6c74fd21438c0b0b59ebf22d295ba7`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/d6918ecbe275c3ab9c920ff2434a7fc951bee41d_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `bc36458ce8c7608b0849ab942d87e2587d848b091006a2587576589d9398ed6f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/61cec1071947837f28ac08c23545ecb28b9d7214_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `ecdd3c0160a75005dacc349135451be119347372a3c410bda7d0f2e41e9e9bae`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/12c9bbd6064a1d592e50b15436245a134441ca09_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `7fc631f0f3f5e27cd63b8e2b1a357d08b023b6b7739257abb4f6ef3773905bd6`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/2be01a610204bc65d017c7cf1ffd24465c08fc59_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `7c2903d8bd0f91c28b5a833d64ceeadbecb3b72c00b958030996df0be62a6f14`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1638726"></a>
-### SIMPLE ENEMY for TaCZ ＆ Iron's Spells
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_16e28308-85a6-4f9e-a453-e0166ef90f39.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `2383bd96934af406a859cb0c3b1778d4d8f4ea159dc6d0c04a145eee3124be58`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_695914b5-7493-472d-af7f-e758f82e3c49.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `bd20bf2b2b31c980586c6c35bf622853cb73bd5bba056cc36a558f79e83e1f05`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_c257d5eb-cc59-4cc9-9e21-58cd3dec3a2c.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `a8876877671c89fe81589a37badb6a3d7eb88ea1e8ae07995ead13135c82fef0`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_b53d9d7e-26af-403e-93f8-2411b02024b8.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `1b84f2a3d185929bb446b9ae27dcf5027d7a30e73d7394a672cfd5c86018bc37`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1638726/description_92f3123a-0c2b-4a0d-a0c1-516a7c5f386b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `03e27c11c28dd6b42ebbcbbee20db0edaa473f6e27581648d72304a0e15534eb`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_4adc5b02-160e-4c7c-9392-e490b3d92927.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `a057f139cc7e15cda1615e26ce100428b878ca34d7dfef1bff1a64f554e384b0`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_580c557a-020d-431c-a5fe-3132a357d8fb.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `4ef1f223ad6567786a5c2150e213f0a9d309aef045f1b77a41dd0e167f6612b9`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_a82f221e-dedb-47bc-9136-94576a524e77.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `eff75ec57be160b58b06dc56a23a452b23ef8a71aafd84a7475287a9eecb5015`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_c24694a6-6bf9-43d3-a2ba-fae60c087eaa.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `5989e0ba44be889aaa259aab8d150cef5d4328a03bfb9de03f17e875cf0f6c33`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_216ba1b2-8cf4-4a45-9a72-b5ff95833512.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `07db5ae4baf40cf7d681e2c057f87585174a4006a7717da35b27086ed75034a0`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_d173c6aa-bcf0-42be-b742-e688c4bd8ab0.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `20b1cf007d72cd2399e0690ad33ce058eaaa4adffa4aa6717c4aea8372bbd8e3`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_7b57db22-5492-4cc3-9a69-ddf642186185.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `18041fc6c831f82ddd30962db60e763c4da2561acd3e759bdbca1e33fc1a0306`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_33596787-e106-45d7-ab21-dee07bacdbe8.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `3019fff1ba5fe12eb4db390052933ba2f3ac9ca93a2ba58c8acf98e4dbcc8322`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1963/28/256/256/639214210611187434.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-enemy-for-tacz-irons-spells). SHA-256 `b380a10fabd692cd25d36ab874976f612a386c0020fdb129e0f625483d4c8da2`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-tZBmvyqB"></a>
-### Tank Cannons
-
-[Modrinth project](https://modrinth.com/resourcepack/tank-cannons) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/tank-cannons)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/bb1f46a2f716ed9f18ddb1e912ef059c43fc828c_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `ece74a84e9c130e48e9e8b0a190385a3246fce598255b55bb2bf3b1be5735f36`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/e8291a5b44aefb93f9096f4ac43edcb6c33309fd_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `64de287bed0970a39d6f660d968e4f2adfa643b81c2ede008f42e4ad8a8d2dba`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/d36a4a455c72c0248af808d1d4052321ea046fa8_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `5c7ad7115fd64c6800f1c0fe542ea3aefee18251a5f60e47f66d0bdfc629d4e9`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/ff665ecf510a842cdd6b57b5f293486edc5f0169_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `5ede274889dbdbe8a7e8177ffd672dd68bee0a0640c10a8838dcbe4e7c9a64ce`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/cbcab4faef7ebd0749a8f30b63f7ab1a866be16e_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `f38f74f9f1c444787d09e92fa0eb56d33568392bd6e2a2c93d79e45939fcf742`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/4d8cf14124ddaf16d877afe3828219460e7e4cab_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `b232824a72f3a196e496191cfb4e64d76472467c1ee06ebbdbe341520a8d0f1e`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/images/aec90c95b0e09c7d9cd0689aecbf32953f55c80c_350.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons/gallery). SHA-256 `1a9bc3e4bcc8ded809f166cda9ab5746bc54529db210fbd3409e32a52911bf1d`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/tZBmvyqB/127f82bbf059ffa9618087859f6faf135dd8a884_96.webp) · [creator source](https://modrinth.com/resourcepack/tank-cannons). SHA-256 `955ada74bcfeaabe6ffff043122e9647af0abe3924075ec0c91519fd7c91fbc5`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-shsGV3lu"></a>
-### Blast Plaster
-
-[Modrinth project](https://modrinth.com/mod/mct-blast-plaster) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/mct-blast-plaster) [Source code](https://github.com/tgstyle/MCT-Blast-Plaster) [Issue tracker](https://github.com/tgstyle/MCT-Blast-Plaster/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/shsGV3lu/images/7b06e74c9d16d7f66266b512c1ae40c26cabe8ee_350.webp) · [creator source](https://modrinth.com/mod/mct-blast-plaster/gallery). SHA-256 `51b3ef8017165f71f717d7858715e2391131fbef4fdb24a8449720f3b540cdc3`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/shsGV3lu/images/4438ca0c2174b1b71a1436056521b4f59010ca73_350.webp) · [creator source](https://modrinth.com/mod/mct-blast-plaster/gallery). SHA-256 `866c3a4b6e67b802bdb27e96341abe6113c1c9f394aac1f4e597a2200211729d`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/shsGV3lu/images/86869fd81f6a07e9bf0601106993461692d2678f_350.webp) · [creator source](https://modrinth.com/mod/mct-blast-plaster/gallery). SHA-256 `cf3c29127aa3a5b530dbf29492b1efdf40a69ca594adaa0827d5eab16bc4015c`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/shsGV3lu/images/19eed46df1366b5033daa07d6c202972b7d075df_350.webp) · [creator source](https://modrinth.com/mod/mct-blast-plaster/gallery). SHA-256 `f60aaebae7a8b26d738062e3e67ac0e8efad53d1dd5d392f186131b1c984bed1`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/shsGV3lu/images/1f29777227a1961b91555d5d54dba17d2651799f_350.webp) · [creator source](https://modrinth.com/mod/mct-blast-plaster/gallery). SHA-256 `cd70f2d9696c8f0bdacadc6980505a07c36d7c0406c408ce064bbbfa020ccd30`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/shsGV3lu/images/9bcfc0794b353948ddeff48fee10e610814caf20_350.webp) · [creator source](https://modrinth.com/mod/mct-blast-plaster/gallery). SHA-256 `036ccc0dde5a7a390970ca01591bf2b31b48ce71a442e83e4ed4ec1219ca2e79`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/shsGV3lu/31273245144711cd361a2eea23fca6ffad2a14ab.png) · [creator source](https://modrinth.com/mod/mct-blast-plaster). SHA-256 `97380a0d8679b61ffaa9b66c71fd92fa33983839f7b518fe34f02a4fc6d5c03f`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-cehIqipF"></a>
-### Shotgun Mod (霰弹枪模组)
-
-[Modrinth project](https://modrinth.com/mod/jaffe2718-shotgun-mod) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/jaffe2718-shotgun-mod) [Source code](https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK) [Issue tracker](https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/cehIqipF/images/dd1aacbf57f8e0e6d9454055b98fbc7a87328364_350.webp) · [creator source](https://modrinth.com/mod/jaffe2718-shotgun-mod/gallery). SHA-256 `5a70b655b5581339104523ebd8d6a0a7c49309d542865f2de6be7b9e18a19764`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/cehIqipF/images/7731579ecf3951eeb5f503b3888416a64c774aeb.png) · [creator source](https://modrinth.com/mod/jaffe2718-shotgun-mod/gallery). SHA-256 `3d5d172ddfa6fd75195a49a9dda870a184e4cc74979ce0a24f1463dd073cb3fd`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/cehIqipF/images/8ebffc89eefca94fac9dcae8d2c6c0510ee5722b.png) · [creator source](https://modrinth.com/mod/jaffe2718-shotgun-mod/gallery). SHA-256 `69d7558703b71c67ea9bc8e4c7f7922bc65c0961294f7b09349aa7b90ae225ca`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/cehIqipF/85fa4dbf289c571052925b262c648026bbd0ccf8.png) · [creator source](https://modrinth.com/mod/jaffe2718-shotgun-mod). SHA-256 `df6bc7d670674ada97e78d541168c725b67876bd518b746899c30aa70fec204e`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-jPgvh50p"></a>
-### E-11 Blaster (Bow Model)
-
-[Modrinth project](https://modrinth.com/resourcepack/e-11-blaster-bow-model) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/e-11-blaster-bow-model)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/jPgvh50p/images/9d3410cf6e79f97053bf57ff55dddc47336feb0a_350.webp) · [creator source](https://modrinth.com/resourcepack/e-11-blaster-bow-model/gallery). SHA-256 `f1820bf64bf3387528fd5ef2d16961a2ab73081ed8d38fcd849abae243dad209`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/jPgvh50p/images/f32b8b9fd6f7a29f681e9352f7a686762dbfe763.webp) · [creator source](https://modrinth.com/resourcepack/e-11-blaster-bow-model/gallery). SHA-256 `6cb5a7b42321974e363721f55be65101eab74ca0d1b3f463a691083c69790752`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/jPgvh50p/images/114b11d7625db42af80930e0674223e2652c674a.webp) · [creator source](https://modrinth.com/resourcepack/e-11-blaster-bow-model/gallery). SHA-256 `be7aa22ef3aa48bd6e2cddb8efc67928655dae4b4fddb5fbe45129a470c1e30e`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/jPgvh50p/9d3410cf6e79f97053bf57ff55dddc47336feb0a_96.webp) · [creator source](https://modrinth.com/resourcepack/e-11-blaster-bow-model). SHA-256 `bf295c06e1279b832e2a664e86f5fce7fe5fb935b66d34fb810f5f0b77b5d588`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-j2z1RwvT"></a>
-### Magnetization
-
-[Modrinth project](https://modrinth.com/mod/magnetization) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/mod/magnetization) [Source code](https://github.com/StonyTark1117/MagnetizationMod) [Wiki](https://github.com/StonyTark1117/MagnetizationMod/blob/main/README.md) [Issue tracker](https://github.com/StonyTark1117/MagnetizationMod/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/j2z1RwvT/images/b45455ef2be13129dd71e4bb7e3cdac0716bb59b.jpg) · [creator source](https://modrinth.com/mod/magnetization/gallery). SHA-256 `f404fdcae7a75bdbed1f6be72c4f30756afeebb1828f5817d1627c026bf57f65`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/j2z1RwvT/images/58dd7f616e9ab983ad41349b9aa1f998f1956e94.jpg) · [creator source](https://modrinth.com/mod/magnetization/gallery). SHA-256 `154c32c86e8571207dcc6e27d2b0cbdc839594d30af479a3b501bd54818ae407`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/j2z1RwvT/4a9000ef1715b78b86c2153d7db3956bed85b799_96.webp) · [creator source](https://modrinth.com/mod/magnetization). SHA-256 `a420d4b24ce49a4ac2bf68eae64900ee15ea14dfd699c5676f7eec4703a074e5`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-TPWFIsDB"></a>
-### AK-74 pack
-
-[Modrinth project](https://modrinth.com/resourcepack/ak-74-pack) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/ak-74-pack)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/TPWFIsDB/images/dfce81e8ae89a7ba5ac06d7c3c3f045d4e31c746_350.webp) · [creator source](https://modrinth.com/resourcepack/ak-74-pack/gallery). SHA-256 `f2f015329c3d742a15890db77bb40031bf26abf2213d4ae64a9bebe876a66090`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/TPWFIsDB/images/41fdd99536f42d90f9cfa71ecc5f9dce037feb8c_350.webp) · [creator source](https://modrinth.com/resourcepack/ak-74-pack/gallery). SHA-256 `186ee4925df17ea113a556287354d1dd1b89ec505d28e681a45427160c4ed084`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/TPWFIsDB/images/f0f1171be461e8be40489e0faa779d47ff4b34e7_350.webp) · [creator source](https://modrinth.com/resourcepack/ak-74-pack/gallery). SHA-256 `d9e522684e66d214e2de40c55f76613c849c1f4b7537fd81d401e3aa2c9b6a18`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/TPWFIsDB/73f14772cb652e5270121819a5f78210193b1649_96.webp) · [creator source](https://modrinth.com/resourcepack/ak-74-pack). SHA-256 `a991870fc738253a02fa6a080223eab512bf069c675f60d2cd3fbf81c041a4d8`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-swqzl52d"></a>
-### Crossbow Shotgun
-
-[Modrinth project](https://modrinth.com/resourcepack/crossbow-shotgun) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/crossbow-shotgun)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/swqzl52d/images/7a1febd3429f49ba8013fede4b40d7bcaebe3baa_350.webp) · [creator source](https://modrinth.com/resourcepack/crossbow-shotgun/gallery). SHA-256 `8732dfc72c4f70553fe995b852753a9369e4b5cd1f91b3987d537abf22323f1a`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/swqzl52d/images/4816e7c9a0548b03b54c39073b5e9e6eb08a313c_350.webp) · [creator source](https://modrinth.com/resourcepack/crossbow-shotgun/gallery). SHA-256 `b12cdc70415befd974ed57bbd69c6ab67a097720dca16bc944d5da3003fab4c2`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/swqzl52d/images/cc2d8764f29424981ae7eb688da645f2e4f1e486_350.webp) · [creator source](https://modrinth.com/resourcepack/crossbow-shotgun/gallery). SHA-256 `6eeb8ec919c77b3cdc56a01ceeabeba07a7d69fe396828903ce71f1deaa2c006`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/swqzl52d/980524fdb2da2fe5cccc7a31731356ad94578bce_96.webp) · [creator source](https://modrinth.com/resourcepack/crossbow-shotgun). SHA-256 `844a2ab1e25ff28efe799b12a7282cb9f1dfc8f0e68458dcfa99322a72bfbce6`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-GLnvvGhB"></a>
-### SC2_SND_REMIX
-
-[Modrinth project](https://modrinth.com/resourcepack/sc2_snd_remix) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/sc2_snd_remix)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/GLnvvGhB/ae33f5c0fb5e808c8cc2418523345894725dc592_96.webp) · [creator source](https://modrinth.com/resourcepack/sc2_snd_remix). SHA-256 `b7774754f98f4a911cd55fd637c431b39b4a0689ef4f1b5dd94ea0552bc4fb1b`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-SWHGkQuE"></a>
-### Gravity Guns Datapack
-
-[Modrinth project](https://modrinth.com/mod/gravity-guns-datapack) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/gravity-guns-datapack)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/SWHGkQuE/2c4529aaa3c7b1da0f6b621504d76e1e61e1c3ee_96.webp) · [creator source](https://modrinth.com/mod/gravity-guns-datapack). SHA-256 `b351e19c5b1104a2711fcd4bfd5b24ea88d9a90c886f7704b35b868d5b78d283`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-6Td3D8n2"></a>
-### Basic Portal Gun
-
-[Modrinth project](https://modrinth.com/mod/basic-portal-gun) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/basic-portal-gun)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/6Td3D8n2/images/504af8f98e7f5a7e490c8df62d720c24125b52ed_350.webp) · [creator source](https://modrinth.com/mod/basic-portal-gun/gallery). SHA-256 `18f2810e071b4086653ff9922d2c1b9c95328fe76c70e24adf8bf4dbb4c4f819`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/6Td3D8n2/images/60a6888716a91fcf0e5a171d36684b10e82505fd_350.webp) · [creator source](https://modrinth.com/mod/basic-portal-gun/gallery). SHA-256 `20bb07cd858c650ea2b40795e13e6ecf539bc704c8caac638d53119190d6e22c`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/6Td3D8n2/images/ec6a8c1aecb71ae04d9e67b3f78f3de81eb253a1.png) · [creator source](https://modrinth.com/mod/basic-portal-gun/gallery). SHA-256 `1b09b6ecc31088da0e52e34f7b9fe8b2bf79d843471c472828ac9774bf0f850c`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/6Td3D8n2/images/ee8ce7708c5bc7e233e8ee79eb574aaeb6a91eb5.png) · [creator source](https://modrinth.com/mod/basic-portal-gun/gallery). SHA-256 `030c815885c379bedd174c14bf2973145a49b9baa87784e651d1dc019b205a15`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/6Td3D8n2/8dcf7589f7367d2dbe33a562b1d24c1b6b2edd75_96.webp) · [creator source](https://modrinth.com/mod/basic-portal-gun). SHA-256 `ea0ebad8cd5c4962826e3d0141823ac7048509c524f1129643876326e9f82547`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-KHD8EQHb"></a>
-### Musket Mod Revamped
-
-[Modrinth project](https://modrinth.com/mod/musket-mod-revamped) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/musket-mod-revamped)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/KHD8EQHb/97905704b86cbfc0ca5266f2793dc24e2c47038c_96.webp) · [creator source](https://modrinth.com/mod/musket-mod-revamped). SHA-256 `464002c462ec6daad410e3560a3e8b948d5705a6bef4785644769250637cbac0`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1540225"></a>
-### Pirates & treasures GUNFIX
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/pirates-treasures-gunfix) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/pirates-treasures-gunfix)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1802/609/256/256/639140926559521438.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/pirates-treasures-gunfix). SHA-256 `2e5dcd7a6f6c0ba5c41c082e9de2686e01f9bdcf22321aaeab1b20ca1b6c9e75`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1665588"></a>
-### True Rick's portal gun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/true-ricks-portal-gun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/true-ricks-portal-gun)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2002/960/256/256/639231113004726784.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/true-ricks-portal-gun). SHA-256 `023e5af691ea8fff1ab0846790dbab1c3a638dd4f499924460b256ec9f521a88`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1180313"></a>
-### PrzemiBremi's Polish Pack for "Vic's Point Blank"
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/przemibremis-polish-pack-for-vics-point-blank) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/przemibremis-polish-pack-for-vics-point-blank)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1157/594/256/256/638725663824744987.png) · [creator source](https://www.curseforge.com/minecraft/customization/przemibremis-polish-pack-for-vics-point-blank). SHA-256 `24181d9fa3bd883908cec8201b38663395deb41e07131bae72e08aeae48af7d1`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-53FvuiWO"></a>
-### Handgonne - Medieval Firearm
-
-[Modrinth project](https://modrinth.com/mod/handgonne) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/handgonne)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/53FvuiWO/images/78e23a8f1198eab5bd32e6a8f9826087aa4a545f_350.webp) · [creator source](https://modrinth.com/mod/handgonne/gallery). SHA-256 `3b85ad2fca2980e21a63f9265014caf6b57ed684ef67b585ac53e3a19cd19c12`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/53FvuiWO/591dd2581d55794ae0db5e4a3adcf197fa48518b.png) · [creator source](https://modrinth.com/mod/handgonne). SHA-256 `75beb004106a11e3c033de027d60c261a8fdfd0e5a5701c9807babe1284c6566`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1673217"></a>
-### Gunsmith's Gadgets 'n Gizmos
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos) [Source code](https://github.com/w1shadel/Gunsmiths_Gadgets_n_Gizmos)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_413e3f42-ff70-442b-9030-e7b5b20f4355.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos). SHA-256 `affcdb8633b1bc5f79eb5a73b0108fc439b5d04c578a7f2fb316cb1818147bd8`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_4fb49214-af2e-4ea3-9752-2f0eec618710.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos). SHA-256 `7b77e3c2b0594f8f0c7d48974be93947f9473bf55322df18a3053217505ca5d1`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_395c6e0d-a408-4eb6-8332-b601a17fb923.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos). SHA-256 `3f0b85cb9137a083f4dc18a798d862f64ac87feaae9d996367c02eb3d880618d`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_059488fe-7968-48ea-9e8a-6e11a9556284.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos). SHA-256 `1e2e99cd4126e9fddf651f4d389300f253949711ac56649ed6827bbcd6c2e95d`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2014/357/256/256/639236045896543348.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gunsmiths-gadgets-n-gizmos). SHA-256 `776a730362b5908f656bb2ecf8fc861403c9b2e3c0b2436abf958fdf2a1c696d`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-F87EhrfX"></a>
-### Rick Portal Gun
-
-[Modrinth project](https://modrinth.com/mod/rick-portal-gun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/rick-portal-gun)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/F87EhrfX/images/59a11501b5e5239764356430ef3af98927750fbf_350.webp) · [creator source](https://modrinth.com/mod/rick-portal-gun/gallery). SHA-256 `1989dc01e3f1293b92a0212bae6d7adfd15ed1fc95f66d9ee8b11c14253677f2`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/F87EhrfX/images/87ff53e81e714085993d9dd94b3b9d66c340eaae.png) · [creator source](https://modrinth.com/mod/rick-portal-gun/gallery). SHA-256 `7239bf41100cc40956a7d3bd38e0ca5d80d91753003295b7786e2b74a32132fd`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/F87EhrfX/images/42be043cb55525705e2c364821fdb04703866c22.png) · [creator source](https://modrinth.com/mod/rick-portal-gun/gallery). SHA-256 `5728187ea825e581432487633bdf1e46cdfc1cec56330f56ea10c7393c8e0334`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/F87EhrfX/images/517954fbd8de959462bf14a5068f7b7913c034bb_350.webp) · [creator source](https://modrinth.com/mod/rick-portal-gun/gallery). SHA-256 `e908ed333998a08df956f35353076e9e9271321a82a98364473953041fcbdd91`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/F87EhrfX/images/192d554fd977e3342459e7827fba79aa7a7c5175_350.webp) · [creator source](https://modrinth.com/mod/rick-portal-gun/gallery). SHA-256 `be31877b2bfb1f77607b79fd561104ddcfba24a12575df0e745f361629a95808`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/F87EhrfX/images/f1f7b3aa2c37862057f5b254c8ec5121bdb3fca4_350.webp) · [creator source](https://modrinth.com/mod/rick-portal-gun/gallery). SHA-256 `1752e8ccf50e1ce1c0771b94968c388474705d158409177a0bc74374a2bcb0e1`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1427038"></a>
-### WolfWar
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/wolfwar) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/wolfwar)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1608/415/256/256/639038079239527933.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/wolfwar). SHA-256 `3f732369fba3f02afc757486acfc1b13079ef91240f689dee23fb03b11958e54`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1607459"></a>
-### Black Guns for Mine Mine no Mi
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/black-guns-for-mine-mine-no-mi) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/black-guns-for-mine-mine-no-mi)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1915/479/256/256/639194562385517429.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/black-guns-for-mine-mine-no-mi). SHA-256 `10d66bbb41fc14c75bd053f51890a178c1661daf7bbe8fc93db31128e270197a`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1531387"></a>
-### Grappling Hook
-
-[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/grappling-hook) · Checked 2026-10-23. Type: Bedrock add-on.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/grappling-hook)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1786/994/256/256/639133141634888606.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/grappling-hook). SHA-256 `97fefeaf17a84bc0e0e1225c7d75d09afd5f045335a95744219b6d43eace8cc2`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-Pol2YROZ"></a>
-### Create Big Cannons: Ballistic Computer
-
-[Modrinth project](https://modrinth.com/mod/create-big-cannons-ballistic-computer) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://modrinth.com/mod/create-big-cannons-ballistic-computer)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/Pol2YROZ/147cb431653c005b3dffb03fd9497661ac92c375_96.webp) · [creator source](https://modrinth.com/mod/create-big-cannons-ballistic-computer). SHA-256 `a7bf853c54b36525f0f98754a83e9caa5e27bd627157466ea4a79f90566f3748`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1742557"></a>
-### [TaCZ] Half-Life Gunpack
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-half-life-gunpack) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-half-life-gunpack)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2114/885/256/256/639274686771475012.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-half-life-gunpack). SHA-256 `7966191436bb15e5c5badf1bebffde442296bb6cac1fa28431a433fdbe28954b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-612031"></a>
-### GhastGunsv2
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/ghastgunsv2) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/ghastgunsv2)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/533/598/256/256/637856368879684116.jpeg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ghastgunsv2). SHA-256 `a768d74ea2c942d894f97490b99b5f4c272cf8d1d7d891c8351ae8925fe14592`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1448062"></a>
-### Just Guns: The Future For Vic's Point Blank
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/jgtf) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/jgtf)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_77d05284-4f28-469c-98c6-82b8c724d9a9.png) · [creator source](https://www.curseforge.com/minecraft/customization/jgtf). SHA-256 `bbf20da73be55799979a348df4c6cd691218e0ab627840fb2fdad66364b250d6`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1649/593/256/256/639052745648367495.png) · [creator source](https://www.curseforge.com/minecraft/customization/jgtf). SHA-256 `7b74eb009fdb1a475169546beab9fe4e349fb71d6cd2515a7458d115dfb8d66b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-SAxGlgVT"></a>
-### [DEPECRATED]Steel Mod
-
-[Modrinth project](https://modrinth.com/mod/steel-mod-old) · Checked 2026-10-23. Type: Broader content with ranged weapons.
-
-[Project &amp; downloads](https://modrinth.com/mod/steel-mod-old)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/images/5cbebd450e575fe29366bc45941f70cd1133e364_350.webp) · [creator source](https://modrinth.com/mod/steel-mod-old/gallery). SHA-256 `a6f3b1d0577d422f492243eebd5e7c219fb47001e138ae095b6dd7707e9fe350`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/images/4b58ebb120dd73e81b0c6a578d8cc0047bece0fe_350.webp) · [creator source](https://modrinth.com/mod/steel-mod-old/gallery). SHA-256 `49e7a7b73f4f24d7e169aeb0a7797a537f9b1edbb5f5683d4f2a5ff7e61331ae`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/images/9ed26e4e2d51542701600bda39f941fefee66ec2_350.webp) · [creator source](https://modrinth.com/mod/steel-mod-old/gallery). SHA-256 `e5261802e95592f3eaa06689d2b3ccfdc99b8ca31968952d65678fcf8ae44cd3`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/images/78c866f82c2b19c32fb93ff371b00c86290d0e6d_350.webp) · [creator source](https://modrinth.com/mod/steel-mod-old/gallery). SHA-256 `0ca7488bf7ccf3c70a865e07dba0ee63cdf15f92c7b0522d64c8c1a819a0a94f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/images/e070978ce4f1b93aa2409d277aa85983fb117087_350.webp) · [creator source](https://modrinth.com/mod/steel-mod-old/gallery). SHA-256 `56a0c3cdf7bf7bc81383ee79cbe1f0fb3c1a14bb5493168046a67ec9da5941a4`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/images/43a4000e60f492cd5176b0842412a76516c2e6b7_350.webp) · [creator source](https://modrinth.com/mod/steel-mod-old/gallery). SHA-256 `e057169f7617a5e5a39c603e45c41a5352d8db6a43b2e49e6f8db2b6132ad01e`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/SAxGlgVT/d77cd0fa97d624d4c8e503a75ccb519dd8898fa6_96.webp) · [creator source](https://modrinth.com/mod/steel-mod-old). SHA-256 `7e82702bc6fd56360d817b5b05e58302aaec5989334812e7dc2b704ac6fc8b58`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-836919"></a>
-### [FLAN'S CONTENT PACK] Coco's LaFayette
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flans-content-pack-cocos-lafayette) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flans-content-pack-cocos-lafayette)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/788/733/256/256/638142401615113809.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flans-content-pack-cocos-lafayette). SHA-256 `f70d1b058cf619c832c74f90e792d870720ee2500ee9d6f18fc2c2562b042d17`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-RQK9w5JH"></a>
-### SkyFilter
-
-[Modrinth project](https://modrinth.com/mod/skyfilter) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/skyfilter) [Source code](https://github.com/aiden-powers/SkyFilter) [Issue tracker](https://github.com/aiden-powers/SkyFilter/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RQK9w5JH/images/3fb30d50d4982a06dcdb93e32cc5ac72639710a9_350.webp) · [creator source](https://modrinth.com/mod/skyfilter/gallery). SHA-256 `d9d08b5584be1ccf8402a3593f590100d4cdad9053dcb8a56fbccc5aeae98f88`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/RQK9w5JH/cd0751ce3e261a778372e8c56d9c8706d82d9545_96.webp) · [creator source](https://modrinth.com/mod/skyfilter). SHA-256 `7b9a2ede39e2a707658cc33394c4cdaeb8c8d5f7cbf1a226efd64af9458fe67b`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1656284"></a>
-### Create-Big-cannon-Artillery-Powered-Space-Program
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-big-cannon-artillery-powered-space-program) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-big-cannon-artillery-powered-space-program)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1989/380/256/256/639225464570398505.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-big-cannon-artillery-powered-space-program). SHA-256 `230e1fa9d5b8b47240e73f25d1c2b640f929264c5e8ca1dd588dda330e922d60`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1653160"></a>
-### PointBlankImproved
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/pointblankimproved) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/pointblankimproved)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1984/883/256/256/639223654734413808.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/pointblankimproved). SHA-256 `75de27eb1fcdfc31f3ac3ec7dc070da8b0a85fbc3b6d4cdfac800a8e8c7df4b6`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-658982"></a>
-### Vani Muskets
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets)
-
-- Creator description image: [exact image](https://i.imgur.com/KCLfsoG.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `6dd2a79de53d96a45a74580501245f396c28b5f994c30c1090ebd025d0f3b000`.
-- Creator description image: [exact image](https://i.imgur.com/aseCc3r.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `23b2030297583a32a2a816f9eb0d1d2b33a64e865b72cac9bab286e9d1739941`.
-- Creator description image: [exact image](https://i.imgur.com/roOtY9V.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `aa92ee85830a64d2a50e5ac1126ebab121494d9e7e05c798499e1584a2d453ee`.
-- Creator description image: [exact image](https://i.imgur.com/8KPJ0Ud.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `52e8953556fa955e87a87e2a94d2a4b9e33ea82c1896814c5f8b6c92352430a6`.
-- Creator description image: [exact image](https://i.imgur.com/ypeniP8.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `eea1031911c5facb613fc872a93ca5ea25c925a538da1ecd615c2c03768b3150`.
-- Creator description image: [exact image](https://i.imgur.com/IFCXWtQ.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `e6c5f81b029e3e4896178abd62bacea3a3b8526a32ca0159032d4971657d6845`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/588/895/256/256/637959354851867057.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vanilla-muskets). SHA-256 `ba536b67b3ddcbfd984f2467c948b53f493827e70a1241b9b7dd2b43496f1fea`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-849528"></a>
-### Stupid guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/stupid-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/stupid-guns)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/803/400/256/256/638168879743699299.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/stupid-guns). SHA-256 `79c2af3e4323fd82eed07e4f8de79bc1ff71a1cde8367ba1324385511853ebc3`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-2lcVBjrM"></a>
-### Ender's Muskets
-
-[Modrinth project](https://modrinth.com/mod/enders-muskets) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/enders-muskets)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/2lcVBjrM/60b0f4918928407a1b8aa633fc1d4be37b4d429d.png) · [creator source](https://modrinth.com/mod/enders-muskets). SHA-256 `35c10ef05b1c4312b12ed135ffb529fcc2468d2abbffd69e665f585024528f83`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-DSr2vGho"></a>
-### Tallyho: T-80 Gunner Sights
-
-[Modrinth project](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/DSr2vGho/images/b4fedf710552807c47d1684ba64f54f9cb865bad_350.webp) · [creator source](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights/gallery). SHA-256 `1c3adf56b606b4b4aae264db4ddb8e3f63d22f6a20b2bfe0b21e756338c4d71c`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/DSr2vGho/images/fa9083ee41fced529e04215379a6c28e9b8e5994_350.webp) · [creator source](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights/gallery). SHA-256 `810aa43460f9991b786403dee7d882ef8443b3cc245fdfda2619c3c6b60ad6d0`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/DSr2vGho/images/546f63e9fbf794cd19be2f68483f3bf6d7d5273c_350.webp) · [creator source](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights/gallery). SHA-256 `81a18316ce1302c3931de2127eaf44af73ac0454661471d2db54f8f08e1c3125`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/DSr2vGho/images/205271c9a5f52c4ae48655b4cd3aba28ea6da289_350.webp) · [creator source](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights/gallery). SHA-256 `7cea2e7925fb952d11284cd0a24b9f08fb8f0dc611e763e05eccaca63bff87ea`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/DSr2vGho/images/996d1b87797f4954026f4ac02fae57ffc9d3909f_350.webp) · [creator source](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights/gallery). SHA-256 `ac03befd96dda7952bf615cb38298ba2ae3962d61170ee2e423c5df71585665a`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/DSr2vGho/cb5cc1be59896e8e2b7f6968a99dfeef3cb0319a_96.webp) · [creator source](https://modrinth.com/resourcepack/tallyho-t80-gunner-sights). SHA-256 `c069809bb65fe0f72e59a3848859a710f2eca486e65edd7bcef8ca60e94c5708`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-e1GeuVX1"></a>
-### Unofficial Russian translation of Vic's Point Blank
-
-[Modrinth project](https://modrinth.com/resourcepack/unofficial-russian-translation-of-vics-point-blank) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/unofficial-russian-translation-of-vics-point-blank)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/e1GeuVX1/images/61cc1cf6cf7ef8a6a74b03a94c38d635d36a6f8a_350.webp) · [creator source](https://modrinth.com/resourcepack/unofficial-russian-translation-of-vics-point-blank/gallery). SHA-256 `2b4f470da0e8b0ed75038183294ea315e9a8c8a06df7a11ec650993e38b8d429`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/e1GeuVX1/ea85d64586f865b40c6a1749b249f9b7236447e0_96.webp) · [creator source](https://modrinth.com/resourcepack/unofficial-russian-translation-of-vics-point-blank). SHA-256 `c5b113e510986fa0a6a46f0c60aba02454227dfe80bac892129d51301a530a51`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-gBtoRFXG"></a>
-### Burlan Guns
-
-[Modrinth project](https://modrinth.com/mod/burlan-guns) · Checked 2026-10-23. Type: Server weapon plugin.
-
-[Project &amp; downloads](https://modrinth.com/mod/burlan-guns)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/gBtoRFXG/26a9cf9b6bd0c782e5550273026a314b2386b417.png) · [creator source](https://modrinth.com/mod/burlan-guns). SHA-256 `b006a6f08cdda15af7e1b6d1c7d4a2082c75f9b41399f0033faf3ba959141eed`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1605196"></a>
-### Maid-TACZ-SBW-Damage-Fix
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/maid-tacz-sbw-damage-fix) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/maid-tacz-sbw-damage-fix) [Source code](https://github.com/VillagerLE/Maid-TACZ-SBW-Damage-Fix)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1912/199/256/256/639193030157817363.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/maid-tacz-sbw-damage-fix). SHA-256 `5f14ff800a14a489ce2bb8e6e712a4445f71303a17cc7096d77de5c09c441199`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-M1cv6UZl"></a>
-### SGuns
-
-[Modrinth project](https://modrinth.com/mod/sguns) · Checked 2026-10-23. Type: Server weapon plugin.
-
-[Project &amp; downloads](https://modrinth.com/mod/sguns)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/M1cv6UZl/f65df70f519ad54b5dfa7d46ba4e5eacb7eb3bc0_96.webp) · [creator source](https://modrinth.com/mod/sguns). SHA-256 `32d217105b01fac52d7519a40178aa350f9dbfc01b892f901e3ff0ca4fc52e7d`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-824976"></a>
-### Shotgun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/shotgun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/shotgun)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/775/64/256/256/638115878497251538.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/shotgun). SHA-256 `986726f37ec6bde3fa985dec9f63f8f3ba647be44524c946001a6d7bba821d8b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1247151"></a>
-### TntCannon
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tntcannon) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tntcannon)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1247151/description_df809c57-70c1-42ae-a645-ef02c307ff04.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tntcannon). SHA-256 `7c1c50356458c6fb7ba73dc6d95d8863b5e249452be5d9c8f6d7261bae917e08`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1230/292/256/256/638807071476769484.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tntcannon). SHA-256 `5f2f2e599c89a90c30f5bd8e14a6232c06ee5b612546f01c0281dc670ed9140f`.
-- [Video](https://www.youtube.com/watch?v=24T2L8EpDfY) · Linked on project page; full playback not reviewed.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-2sfEHhzh"></a>
-### Mats´s Guns and Stuff
-
-[Modrinth project](https://modrinth.com/mod/matss-guns-and-stuff) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/matss-guns-and-stuff)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/2sfEHhzh/images/50ce5374b3407e35a6c862641dfea440f939c328.png) · [creator source](https://modrinth.com/mod/matss-guns-and-stuff/gallery). SHA-256 `bb24b0f29f1ad980b09678afc6dad70c43db8de224d415b5d83cafa651867a1e`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/2sfEHhzh/images/57529c163359f6fece716d329e7ba2512a76026c.png) · [creator source](https://modrinth.com/mod/matss-guns-and-stuff/gallery). SHA-256 `4387c47417899df6dfaa5bec9913bb0f42b2bacc47c78db0fcf04c3b93e78c73`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/2sfEHhzh/images/d5502322318d2d8208ba5bb8cd5d36e1048db20a.png) · [creator source](https://modrinth.com/mod/matss-guns-and-stuff/gallery). SHA-256 `11d0a8122446f0cfa3e5a618f8df045176c0c3929aea336844556e0333dd9aee`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/2sfEHhzh/images/2ca69ea61efb474ff0c6c6fe99aea0ac3609cd28.png) · [creator source](https://modrinth.com/mod/matss-guns-and-stuff/gallery). SHA-256 `0020c502c432a54489082e70d21cfb14ba68e5086c0c2ca46549cabb0e626ff3`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/2sfEHhzh/images/e1d766d2c35a8f14d08a808bd55fc017703d5707.png) · [creator source](https://modrinth.com/mod/matss-guns-and-stuff/gallery). SHA-256 `67efbef1701253b9e9e7d13dd861fb54f50d25ca2d3fbc8852f37e2780b58f9c`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/2sfEHhzh/be492a869d6cb9bce2f9ba9dd87d4df8dc0a2cbd_96.webp) · [creator source](https://modrinth.com/mod/matss-guns-and-stuff). SHA-256 `ec960695dbd108c5cfcdde32f8362d32edd24e23a006c973dca6aa3d564eeaa1`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-631897"></a>
-### Quick Guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/quick-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/quick-guns)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/557/166/256/256/637903350888723203.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/quick-guns). SHA-256 `decfd0648e4cc4abe838ba97b331fa571f250fccfca50825dedd68c00607fa9b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1332756"></a>
-### [TaCZ] CREX's P-06 GunPack
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/crexs-black-ops-iii-p06-gunpack-for-tacz) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/crexs-black-ops-iii-p06-gunpack-for-tacz)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_61a8df3a-6d41-46e9-a0b8-94159f504d7c.png) · [creator source](https://www.curseforge.com/minecraft/customization/crexs-black-ops-iii-p06-gunpack-for-tacz). SHA-256 `85811a33c36fc5d6e8210649e183e1ce513e13c79c531d8370e1ecfeb439f921`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1411/952/256/256/638914980943194110.png) · [creator source](https://www.curseforge.com/minecraft/customization/crexs-black-ops-iii-p06-gunpack-for-tacz). SHA-256 `b4cdf3e3db891f4a43166f691113dd08832d792daa5b1b3450e72f4d8e3d0d2f`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-52j0HDBw"></a>
-### Cave Blasters
-
-[Modrinth project](https://modrinth.com/mod/cave-blasters) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/cave-blasters)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/52j0HDBw/6a18b61812601cbab116a1183f4ca2e668013bc1.png) · [creator source](https://modrinth.com/mod/cave-blasters). SHA-256 `edd9edcc03a9240906d7f7e0c2a03703f307f9a07ae40a5d2a01d502e9d3acd8`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-684980"></a>
-### ThreeDMusket
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/threedmusket) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/threedmusket)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/617/786/256/256/638004656117661783.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/threedmusket). SHA-256 `c728853beae068c59a3a21b01435679cf975eb0388cd21cbd880f227cd0043dd`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-985986"></a>
-### Annoying Zombies, guns, allies, and dimensions (Name still in progress)
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/random-dumb-mod-i-made-for-no-reason-named-mod) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/random-dumb-mod-i-made-for-no-reason-named-mod)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/961/558/256/256/638457927802457742.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/random-dumb-mod-i-made-for-no-reason-named-mod). SHA-256 `faba1b5f7f63a3e2ee88a7b5c2a9ad30dd71d851beb70c8ef26557e77d47a05c`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-udUUyURr"></a>
-### TaCZ:SF LesRaisins Armor Pack
-
-[Modrinth project](https://modrinth.com/mod/taczsf-lesraisins-armor-pack) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/taczsf-lesraisins-armor-pack) [Issue tracker](https://github.com/uTa4u/TACZ-Special-Forces/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/udUUyURr/images/6704153670c0e59c6283e161960e062d01c9a4a1_350.webp) · [creator source](https://modrinth.com/mod/taczsf-lesraisins-armor-pack/gallery). SHA-256 `e78226b0596591ab254b980338359703a3fc140ef06296b7257fa71c4049e50d`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/udUUyURr/d3d0bd46eb6fc3f0feaf47cdb8ad1012087db736_96.webp) · [creator source](https://modrinth.com/mod/taczsf-lesraisins-armor-pack). SHA-256 `24edbb9a16f30a14a9b65d178392f5b791de536f52c212ad20da4e00716e6b6e`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-tSbIeKM9"></a>
-### Orbital Strike Cannon
-
-[Modrinth project](https://modrinth.com/mod/orbital-strike-cannonmods) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/orbital-strike-cannonmods)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/tSbIeKM9/images/483fc5a66394261722efbf14ce32b95bee730ce8_350.webp) · [creator source](https://modrinth.com/mod/orbital-strike-cannonmods/gallery). SHA-256 `fa4ac3a4b31a10ebc20524d453f9e30693761478049556c19269a69e25a3ddcf`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/tSbIeKM9/85bc9cb70649058946c84e3b15c2730896a9fb1a_96.webp) · [creator source](https://modrinth.com/mod/orbital-strike-cannonmods). SHA-256 `0345ca9e4fea9cfa71c58ab09cb9b2b7a53e7bbafb6c5314ccb7d6161bae1602`.
-- [Video](https://www.youtube.com/watch?v=oBZ7ydMaQis) · Linked on project page; full playback not reviewed.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1680310"></a>
-### TaCZ100: The 100th Addon (Distant Horizons Scope Fix Yes I Know It's A Long Name)
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-100-the-100th-addon) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-100-the-100th-addon)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2024/892/256/256/639240438373417441.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-100-the-100th-addon). SHA-256 `13e9495a38d014d5c39476534f99f5a9b2cd4219502b978b1b22cdccd07842d6`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1699830"></a>
-### TaCZ GunLab
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-gunlab) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-gunlab) [Source code](https://github.com/Xiaowai2233/TaCZ-GunLab)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2052/836/256/256/639252519971753612.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-gunlab). SHA-256 `562bf0e1bae117bd6e84404fd898fe75359bcface03673cea49d14cfa65a5fe5`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1138137"></a>
-### Technological Progression & Guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/technological-progression) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/technological-progression)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1116/229/256/256/638670511735763075.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/technological-progression). SHA-256 `3f20eb2113d02e6825bf059c7c039e89f277000a2a664d56418d0e79b70fdc2b`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1497690"></a>
-### RPGuns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/rpguns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/rpguns)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_985749bf-a6a2-42b6-a580-0cae3bfd4df5.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `68d4fb2518166b6155f71ddd23b29e610266bd0939fffd110d35d0c99ca85796`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_9da8ecf9-b7c9-4230-8897-1e040d5b23e5.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `d9366da5478c37819cbbf63a6fa0d51355a3f5832c7014f2ccf501563050647a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_1cc84322-59d0-46d3-908d-94eb04d77be6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `6745a11dfe6c8f0e6995c7fd3d77a096a170c96004776c39c61df5b35000ac2a`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_0ade66e2-5ef0-4d01-a0e5-9e48f8717caa.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `c64f363efb1bfd8bcab429b64d8d56d463f721621b2c5821f1cea7cb7bbfc44b`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_5be2c30b-3e1d-4f6f-8d7f-c4f327383d50.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `981420e9e0fd5445796fe239e0a484bbf6afebb4d36eb55b6ee064cd4eec88bb`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_b619f4e8-602e-48ad-9ccb-a274f01db30b.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `400e9f8158050698bec2a4fadba822eef7846ea42cb6559aa6c5330b64b51825`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_7da60bec-0d76-4098-8c39-4a87c6803bf2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `370be56fd9146f51be262c829811b062205a9086abd56b8bb73a96e2a4b8b689`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_d447dc76-f88e-4cfd-bd6c-0db824f8ac32.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `4bcdd689e65900f5a4a7da402bb7e9c153c18e2368fee3d2f022261d1b1e22cb`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_6b2ac9c4-d14d-48d4-8b30-8b6e79f21c3c.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `ed292c218450cb88468382a5ca1c500567c40220c72c71c9463228e07e47d6fe`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_ef8a077e-a15c-47c9-af98-53c205e474bb.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `f3d44a5a4b83e2f772ba91324f492ac57589932a1e2be02c578bcb16d19e6747`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1732/687/256/256/639102921694023583.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/rpguns). SHA-256 `bc59e1e43efc9c9ff3905b218ffecfceac18d15f174bee7ab6d115cab1ac5642`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1561034"></a>
-### Pixel Warfare
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/pixel-warfare) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/pixel-warfare)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1839/696/256/256/639159351255664512.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/pixel-warfare). SHA-256 `f2f20bacd70618cc0cd2d357d90ed6e5ad2d9993f2a28c3c5eb96c60755325b0`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1694478"></a>
-### [TACZ] The mob got his gun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_41957454-4f3a-4b9b-93ec-4f9897b605cb.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `018023343fb9c54b85afa4ba802a0787533eda942bab366c47a35d91a7059993`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_e31ab6f1-009b-45a8-879a-a124e09ee686.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `541684d207c40d802c10cff00c9541472ff14cee097c7319c8de083d57a5b942`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_87908ae4-81f7-4d92-a320-4689e2928124.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `1dfe53372985a4bdf146c04c7c01fe5e769994a8f691b2f6181163a594266e24`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1694478/description_c4de08f4-8069-4070-bccf-030fbdb1b49f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `61d3723e75e3d5df337d1c3a42755ce5c27293a8bb2b4c9b98b79cec47a47686`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1694478/description_35c347aa-1120-488a-85eb-4c4fed739326.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `780738ee2614cdf18db195c0a6e1987d60b1eab739d70007334eddb3ce68becb`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1694478/description_17ee917c-2bfc-4249-bd51-ce0e35243cf7.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `50b080162b6ef7b864e265a2c9ebc6a95aeb577136066de8fb4ad910e8abf61e`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1694478/description_5beb6fb4-dc76-445d-adf3-c19e153d2f17.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `fbf79c626083a59edc8948b0f9803820b37420fc640b8a65d306741ee214ac33`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1694478/description_7313fe10-9359-45d6-9a32-0e4d336ea427.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `e2e6541819931a0274fcb17515b8e7988edffdd31e4a188efc4867fb06264b18`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2045/35/256/256/639249059161587506.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-the-mob-got-his-gun). SHA-256 `9b723deac39d29804446f1fbd45fb756e1442fc5af2efeb03305ce225fd15a5d`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-MaROtLNw"></a>
-### Minecraft: Sound Blaster Pro Edition
-
-[Modrinth project](https://modrinth.com/resourcepack/minecraft-sound-blaster-pro-edition) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/minecraft-sound-blaster-pro-edition)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/MaROtLNw/c72fc3913c8f075a08da8e232fb8f09a06426e82_96.webp) · [creator source](https://modrinth.com/resourcepack/minecraft-sound-blaster-pro-edition). SHA-256 `da638b9b47f876a0e28b66d4ccd114f52a5060f0ffebcea16ae4e16e378a1e38`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1608485"></a>
-### Chameleon: Camo Hide & Seek
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/minecraft-chameleon) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/minecraft-chameleon) [Project &amp; downloads](https://modrinth.com/mod/minecraft-chameleon) [Wiki](https://github.com/illegalPie/chameleon-docs/wiki)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/e91663db4fc293f6147758d9a9ebb30843da294c_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `427c7f9c5d6ddb13ee87a54d12bdc1c873063f2ec3812ee3034899aed105d121`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/9475d163fe9185f2970bd4f1067717c2a9861b0c_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `3b185e7cea11da991934e9157623676b71992743ab5e5d5a0c09f1e20360ee94`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/598eb7e38efef78c6db30aeaa01c965d4bc4aa3d_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `5950b7bfa946377896d38a000830ea5bd5c2e68a093136983bbaca5697abd74b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/efc8569c99ef18d57e5c2c4ccf6ccc24c64a49a9_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `19113265e74d0b9b1f434c385ea107f617dff70fe198a5609bbaa73d7df9c438`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/2bd6a61118be14567e2c189a29d911a5f6128f7a_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `f847b7a5fd14ac5981821b73eb9e48e9a5afb54b892cce82f478fa789a2f16a5`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/f285cef152fdf27f4d4038acbc8fc3e264db52e2_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `618316b194bc686fa6b96a453a152e5c70126f7136719fba51d49b39f7fe485b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/images/00dd1a2d1dd23d38d95f3f038c7ed64ae199e1b8_350.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon/gallery). SHA-256 `42d32c8303ec3057f24e50777793aee8f97eb39d3d1903d22419f77847c9f917`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1917/64/256/256/639195254912035533.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/minecraft-chameleon). SHA-256 `52e2298b4a71335576952adce62122fb6a1d70111515e46d5dbc0c242e4b2248`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/PSvA8mPx/66dc93c0a12e165c36d6a9e772c3e6849acd662e_96.webp) · [creator source](https://modrinth.com/mod/minecraft-chameleon). SHA-256 `a831921ec6d53ff3130eaf1ad27b24cc8441865cec9c9d4a4c47923e04b00f8c`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1492552"></a>
-### LastOff Rounds
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/lastoff-rounds) · Checked 2026-10-23. Type: Broader content with ranged weapons.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/lastoff-rounds) [Source code](https://github.com/sdfffdddfff/LastOff-Rounds)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1725/272/256/256/639097764302611005.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/lastoff-rounds). SHA-256 `f5dc97fb2947343887b6777a671017714992591c144287b565c86c532d026056`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1676319"></a>
-### Orbital strike cannon leowlook version
-
-[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/orbital-strike-cannon-leowlook-version) · Checked 2026-10-23. Type: Bedrock add-on.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/orbital-strike-cannon-leowlook-version)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2018/889/256/256/639237777142318099.jpeg) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/orbital-strike-cannon-leowlook-version). SHA-256 `42091b6f84fe84270e950c3a1b2e86bdd8141e10df46ffb59d9da36bd96c88c1`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-iSCfFqnE"></a>
-### Point Blank - Ferret's Minecraftier PB Printers
-
-[Modrinth project](https://modrinth.com/resourcepack/point-blank-ferrets-minecraftier-pb-printers) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/point-blank-ferrets-minecraftier-pb-printers)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/iSCfFqnE/images/6deb20e6e1c75289a6cf78ea87f1e24161372030_350.webp) · [creator source](https://modrinth.com/resourcepack/point-blank-ferrets-minecraftier-pb-printers/gallery). SHA-256 `9a6c71fd53dea2756a0f3aae89db73d0985332e06739e1a6cf4742c35a8bea59`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/iSCfFqnE/images/c4a781dc86018172b07589df9dd9a4bfd618b62c.png) · [creator source](https://modrinth.com/resourcepack/point-blank-ferrets-minecraftier-pb-printers/gallery). SHA-256 `463ff4d98170798355759f5c31d5591dbd60952bda8ae19d8216252d8baf3345`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/iSCfFqnE/6deb20e6e1c75289a6cf78ea87f1e24161372030_96.webp) · [creator source](https://modrinth.com/resourcepack/point-blank-ferrets-minecraftier-pb-printers). SHA-256 `be2fd77b03208dec9edaf0c25a7c285ad1c1db1ed84c2419f713e0700c2f7cd8`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1724408"></a>
-### Create: Warnautics CE
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-warnautics-ce) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-warnautics-ce) [Source code](https://github.com/Wizardtastic/Create-Warnautics-CE)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2088/959/256/256/639266369699261576.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-warnautics-ce). SHA-256 `e45bc859bb74ae826d8b03e68e6f396c8e59cc608382ec16d565ebe9f226baf9`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1700097"></a>
-### Harpoon Gun - Create Aeronautics
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics-harpoon-gun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics-harpoon-gun)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2053/243/256/256/639252659802619069.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-aeronautics-harpoon-gun). SHA-256 `8f1cea43142ae75d65ba43d06e9bc4ebd5618db91171dbbfc99549d4a8536170`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1321416"></a>
-### Scorched Guns Breakable Arms
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-breakable-arms) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-breakable-arms)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1388/88/256/256/638900052296918069.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/scorched-guns-breakable-arms). SHA-256 `6d5509c6ed581024e86f8740a000dec8f2145f7b528304dd53363a2e88072d94`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1715880"></a>
-### ThePortalGun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/theportalgun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/theportalgun) [Source code](https://github.com/Codx-org/ThePortalGun)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2076/389/256/256/639261781024742793.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/theportalgun). SHA-256 `5e42ab1f663538e7d88e7c1275502a1c4fe6a696c5bf28d07185b941d1b8749d`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-foCUzN7r"></a>
-### Muskets and Sabres
-
-[Modrinth project](https://modrinth.com/resourcepack/muskets-and-sabres) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/muskets-and-sabres)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/foCUzN7r/images/50becebc610bb0ac845629fa8cb4680fa0346096_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets-and-sabres/gallery). SHA-256 `8ca4abe61ccaec4446a3330a5fc3f420034c4302d82b7f7de31faf2b3b1d6120`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/foCUzN7r/images/24ffb16f0843a6ee1a677338be6572c5f2b49173_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets-and-sabres/gallery). SHA-256 `5b5f1f601e14c0e4b11f8b8d3339f943d06f4cfd102fc643f5fde8ce6da8982a`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/foCUzN7r/images/0cb1d3a5447638c29b35bb852fc7050601fd5cd1_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets-and-sabres/gallery). SHA-256 `db69a11bdd1c1a49124c4523a4761aabf19a1d6b7c72a56c3e7cdb265542c56e`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/foCUzN7r/images/131e0e07ad46ab28debb1abb0e85deb072a56679_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets-and-sabres/gallery). SHA-256 `d76140a2a4b4e7614bcb276d3b97c7277a9c41ac0a4ee18cf617710189452f27`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/foCUzN7r/images/92061ed9b9f59cf3a72098541a28e2517c0787a0_350.webp) · [creator source](https://modrinth.com/resourcepack/muskets-and-sabres/gallery). SHA-256 `616ddd8e7c25a4c99aa65f6e216a32317d1b278ecd0eddcd016f9e399c879e5f`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1430467"></a>
-### M240 Machine_Gun
-
-[CurseForge project](https://www.curseforge.com/minecraft-bedrock/addons/m240-machine-gun) · Checked 2026-10-23. Type: Bedrock add-on.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft-bedrock/addons/m240-machine-gun)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1614/866/256/256/639040778368333619.png) · [creator source](https://www.curseforge.com/minecraft-bedrock/addons/m240-machine-gun). SHA-256 `9483cf6d71e225542fa351dc23d428719e35f70fd0a5521d732c2b78c47ffe52`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-D6MqRLsY"></a>
-### Remilia's Utilities
-
-[Modrinth project](https://modrinth.com/mod/remilias-utilities) · Checked 2026-10-23. Type: Server weapon plugin.
-
-[Project &amp; downloads](https://modrinth.com/mod/remilias-utilities) [Source code](https://github.com/KakuzatouRemi/REMI)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/D6MqRLsY/images/8381a81a5c467ab9613d73c5928643be40a77e14_350.webp) · [creator source](https://modrinth.com/mod/remilias-utilities/gallery). SHA-256 `d8038d3eccee661ed4e7be8a158192218db08c934fbdc13c3b065764a351ed17`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/D6MqRLsY/images/9a9dda0a1ab01999e11bb11b6cdbc9e0a8cc3806_350.webp) · [creator source](https://modrinth.com/mod/remilias-utilities/gallery). SHA-256 `744824c3b3f34a9bc2363924734d860f294c750fdd27c69d16cd04036057086a`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/D6MqRLsY/9e3f64e426f9aeaadef562ed1266cc9764682195_96.webp) · [creator source](https://modrinth.com/mod/remilias-utilities). SHA-256 `b59f3c0cba2eb155cefcff5501053c693018921b95b0bac28bc53d796e99979a`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1518970"></a>
-### TryMyGun
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/trymygun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/trymygun)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1765/93/256/256/639122150259464960.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/trymygun). SHA-256 `d7953e052c746b713876b94432fe237e1dfe1c7059afd1543025b637fdfa293e`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1456233"></a>
-### Simple Raider Guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/simple-raider-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/simple-raider-guns) [Project &amp; downloads](https://modrinth.com/mod/simple-raider-guns)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Qr0xapLJ/images/413401e60bdc5c78e8cf61ac8c28d34ac27b7645_350.webp) · [creator source](https://modrinth.com/mod/simple-raider-guns/gallery). SHA-256 `9d1cf919f77228c08b147a63df3e25a855acbe8c4c135209b66af5bdff9e1bdd`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1456233/description_8b4f7f05-4853-4927-8725-6b98d4025b61.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-raider-guns). SHA-256 `1e9701221ead59499a852dc66850e9a15d18d8726bee1e26b71da1cc921014cf`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1666/50/256/256/639060612105945078.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-raider-guns). SHA-256 `e930933dc1a144eb5c58c574574e32394d96446c368ded8de23f88e2589bd883`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/Qr0xapLJ/97bee958fd7912184ae29c7d529f2b411882a6df_96.webp) · [creator source](https://modrinth.com/mod/simple-raider-guns). SHA-256 `ff7cd08d1afe684eb97b9de56ee7be01ee716c0f7a9cc2fb2ea7967cbfa37860`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1611969"></a>
-### DeadFall
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/deadfall) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/deadfall)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1922/500/256/256/639197564746547803.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/deadfall). SHA-256 `105a2f00e403eb72f4ca1a69c443abd1562a29fb56ece9371a1acc15c9916111`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1366995"></a>
-### lyerned's Guns WARFARE
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/lyerneds-guns-warefare) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/lyerneds-guns-warefare)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1481/670/256/256/638963114661577363.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/lyerneds-guns-warefare). SHA-256 `e4bb1eec7ff4b0fd8de6a878ba04b00c788b3721d5358cd178fa4ef0ad9fb060`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-KqGQYyE8"></a>
-### Quality of Life Features for Vic's Point Blank
-
-[Modrinth project](https://modrinth.com/mod/quality-of-life-features-for-vics-point-blank) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/quality-of-life-features-for-vics-point-blank)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/KqGQYyE8/images/b0356be4df4ea00c3c032f9dcf9acca614021d66.png) · [creator source](https://modrinth.com/mod/quality-of-life-features-for-vics-point-blank/gallery). SHA-256 `743a3e649f477499c7c1da283e4fdf4ea68b0193a88616a6ae5c5de6a9790349`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/KqGQYyE8/998ebc863018137965ec5ff35a7d315878140d94_96.webp) · [creator source](https://modrinth.com/mod/quality-of-life-features-for-vics-point-blank). SHA-256 `8c42433de66b0a3e47cb1f65430ca1c242000b887964c0f48d9e09f822d2f88e`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-r0jz7OF8"></a>
-### VPB Steampunk Guns
-
-[Modrinth project](https://modrinth.com/mod/vpb-steampunk-guns) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/vpb-steampunk-guns)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/r0jz7OF8/images/00bd641c37278ffc20d20b487c80bc5b94ac2b75_350.webp) · [creator source](https://modrinth.com/mod/vpb-steampunk-guns/gallery). SHA-256 `83ade8f9a68f716e3d052a9cf77a6c9707b9aee99d4f92feb1aa47fa51944fda`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/r0jz7OF8/images/bc405ddab6dc20d4256eccba3725bc5abce49f1b_350.webp) · [creator source](https://modrinth.com/mod/vpb-steampunk-guns/gallery). SHA-256 `31b65e9ce74aa8d738f0ee78542630d24acff433823f7a4144f8948b29940470`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/r0jz7OF8/images/8dce521fdb67e6fbf5bbdedcb0b460441b8ae204_350.webp) · [creator source](https://modrinth.com/mod/vpb-steampunk-guns/gallery). SHA-256 `bab1d9b8dc05d5bc796233c64e98600fb3f94b19ebe32b2a5191f970c4b5c241`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/r0jz7OF8/111d3bcb2ce364c12c3352ab9205ab9649a2c6d2_96.webp) · [creator source](https://modrinth.com/mod/vpb-steampunk-guns). SHA-256 `0bfe2b3d0f0d00065402744040780b11384b98f108eb825a5c253dff2b252df5`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-7hNJdk16"></a>
-### Strikerload
-
-[Modrinth project](https://modrinth.com/mod/strikerload) · Checked 2026-10-23. Type: Server weapon plugin.
-
-[Project &amp; downloads](https://modrinth.com/mod/strikerload) [Source code](https://GitHub.com/creeperdiamonds/strikerload)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/7hNJdk16/2297cd5113d41d56e9ccab36322f2eb7dc8cf7a7_96.webp) · [creator source](https://modrinth.com/mod/strikerload). SHA-256 `e65f76b81671494958eb2e23074e106cfbe79617c49acabbd8881ce1de696092`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1542732"></a>
-### Shots Fired Port
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/shots-fired-port) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/shots-fired-port)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1807/173/256/256/639143439104474036.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/shots-fired-port). SHA-256 `50701f0303b9c979e17575f293fe7a4e9efd37c103abedaa5c1445562a48a562`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1377814"></a>
-### Simple Style Guns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns)
-
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/f16f5206f7db4cfde06552a145e3b10a38df50f8.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns). SHA-256 `914903b393f0b5bab0201f8629fa832c0038059ff5c73015b8953b727c960149`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/9f6e2e763b71abd6824a808f7a4c4676844c2aa1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns). SHA-256 `a5bec20759e7ce7d5025dc31448b9bab57b0a8a34b6ec9184ff459eb8203c735`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/f27ec103d822f8add34523aedbd9e83f99fdbb3a.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns). SHA-256 `92f5ee9b39694bf816e7cbbbcc732ccb139f16aed02109d4d860738f7b5aa54a`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1505/319/256/256/638977668899562245.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns). SHA-256 `d346e90f474c934d085491612939207f970ea1a286baadf94ce7397e3540be4a`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/0f1377f09439ef56277eed5c6e9dfbf5fabc6962.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns). SHA-256 `fa0294465ca06945429c3a0cc216fec500f9cc49ba5fc5aa36791477d1e557fa`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/ab0dc21690a9c72218ee81ef7d65f103552e9056.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/simple-style-guns). SHA-256 `3f794ca38dcccab9bea65cf740213876381a9e1a428ea214f4d5074fa6afa52f`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1548891"></a>
-### [TACZ] BATTLECRAFT REVAMP CORE
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/battlecraft-revamp) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/battlecraft-revamp)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1548891/description_89b16140-7c29-400e-a4c2-422d423b83ba.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/battlecraft-revamp). SHA-256 `4e6615b0d86af32a080549e43fe404b7e953074d68839894498d85f08d34e63c`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1818/24/256/256/639148891945685998.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/battlecraft-revamp). SHA-256 `f975d52f842a85cb8141c546fc6cdaddaec14641da2aeca08670beeb9f888a56`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1622103"></a>
-### Dead Eye (TaCZ addon)
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/dead-eye-tacz-addon) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/dead-eye-tacz-addon)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1938/71/256/256/639204071564635889.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/dead-eye-tacz-addon). SHA-256 `9a116da466aa389713ccaf1c8f49c3b64a1623e34a9f81d8a2d47741b6392a35`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-UQyscT6n"></a>
-### DumbCannon
-
-[Modrinth project](https://modrinth.com/mod/dumbcannon) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/dumbcannon)
-
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-4BmqTQs8"></a>
-### Skippy
-
-[Modrinth project](https://modrinth.com/resourcepack/skippy) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/skippy)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/4BmqTQs8/images/7089aa1013f75638016defc305da8de05a503f4d_350.webp) · [creator source](https://modrinth.com/resourcepack/skippy/gallery). SHA-256 `9df2781cdba801d8fae1a91438d1f25a2ade9a50e6a7933a7170e17162f101d5`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/4BmqTQs8/images/7c1a42ef6e8cd03ee5c2dbcf8ee63a5f225074f2_350.webp) · [creator source](https://modrinth.com/resourcepack/skippy/gallery). SHA-256 `24f718516484658c830c5aabc0bb68a06ac8f34bfb6cb1521bb03d9b58498a6b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/4BmqTQs8/images/14b38e5d4d87d9d9d91816d343b3b79e5e44d561_350.webp) · [creator source](https://modrinth.com/resourcepack/skippy/gallery). SHA-256 `19ee92d881b5d739ffc482cb4e85f2b26791b186a929a156afdd513d4802c716`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/4BmqTQs8/4ed5236eac55345c740f20a22aaba259cb5c5e17_96.webp) · [creator source](https://modrinth.com/resourcepack/skippy). SHA-256 `7f26a2e3a890f3cd2f482b57d2e2aeca3343f30b8b3e34719fb5dd2b504c5a05`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-RCt7cLJj"></a>
-### FancyFlares - Signal Flare Gun Mod
-
-[Modrinth project](https://modrinth.com/mod/fancyflares) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/fancyflares)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/deb3dff2a3c7fc7bb1b4f807c38b962e7605de59_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `f6c579dcb27b2cf215358c19c8d80aa6e912306c1afc91141fe87fcdc5604319`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/b7914dfa6b8baaabbdb576507fab9dbf2f99b7ce_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `ef1ed2059ee5448ec07ed12f957fc573d49a23a42e082d953b5cca0309876047`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/e8966e9b7767e2ceeabb6520f727685145c968b3_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `2eb3455850265a998b4e1c0b5bfa55e1028710e025d98dd0902cd78e550fa876`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/3dbf3014d5a404d28db8880acc6241003c29a254_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `2a204f774567f11a0e4340df6e98f7ca8ee927f658f299210387899535d35f85`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/ad64835b0b6ec97f66eee64452c9e5688374fb79_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `81d6997ddedcaf82e810dea1def890b5cc97aec5a27ea68f54e1f1cb6a39ebc0`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/4be817b0bb8d21abc481dbcd5a8e57ca320a41c3_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `c148e4eeb3df4564ba2f080d10c24fd33e36230ab3d382d72e0b9999896a4b79`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/images/08c0b6be66f8ab438a5515337bac1d0ce1723abc_350.webp) · [creator source](https://modrinth.com/mod/fancyflares/gallery). SHA-256 `23508ccc514702fe414a18fedcfbda9ac6d4ac93e8e8126b1340fe00e3071369`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/RCt7cLJj/010307a1d24e564a96722179186abd2da76eca3d.gif) · [creator source](https://modrinth.com/mod/fancyflares). SHA-256 `2ca94be6b121facb036980cbcf53420933e80655c7b113cbb0e61fec5861da71`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1427482"></a>
-### Armed And Ready - VPB/PBJ addon
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/armed-and-ready-vpb-pbj-addon) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/armed-and-ready-vpb-pbj-addon)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_2fddec82-dd01-439f-9833-d65f4b18415d.png) · [creator source](https://www.curseforge.com/minecraft/customization/armed-and-ready-vpb-pbj-addon). SHA-256 `e8d566f37cca56d3054c9bfa88055b2f39da3a1c8572f780e10caffcd82abd7b`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1609/297/256/256/639038508778068049.png) · [creator source](https://www.curseforge.com/minecraft/customization/armed-and-ready-vpb-pbj-addon). SHA-256 `00624f9ef9bed68350089082e986fb39b8ab4fdd34cd635c995fdb72fe3a2e98`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-wA498Rq7"></a>
-### Steve's Army
-
-[Modrinth project](https://modrinth.com/mod/steves-army) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/steves-army) [Source code](https://github.com/MegiTicky/steves-army.git)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/wA498Rq7/2c1a26e46bf8f260f15f8bc3b248cb1c0ff3301c_96.webp) · [creator source](https://modrinth.com/mod/steves-army). SHA-256 `96d3125f0b0bb9cefca1c3ae290d593d2bbfd66f05357e80883f60550c4fd5ee`.
-- [Video](https://www.youtube.com/watch?v=u89X8uPOlQ4) · Linked on project page; full playback not reviewed.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-rnxveBcM"></a>
-### Awesome Guns
-
-[Modrinth project](https://modrinth.com/mod/awsome-guns) · Checked 2026-10-23. Type: Server weapon plugin.
-
-[Project &amp; downloads](https://modrinth.com/mod/awsome-guns)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/rnxveBcM/images/cc497e484b5cdf6757475ad67bdd5041b7aee15e_350.webp) · [creator source](https://modrinth.com/mod/awsome-guns/gallery). SHA-256 `97d099f0a4b2e65322f008dedaa4d0e6e8c3313f54727cf56f4ec574994043b1`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/rnxveBcM/2342791a2995460516531a4592a33c2d105acd54.png) · [creator source](https://modrinth.com/mod/awsome-guns). SHA-256 `7475fc2fece7e1c90444e5c31f17f0526881cec270e93cecf01300e163b711a0`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-iY0eoda1"></a>
-### Dubstep Guns
-
-[Modrinth project](https://modrinth.com/mod/dubstep-guns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/dubstep-guns)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/iY0eoda1/images/2044ebf263a5a4801b52094c0f0b3a73a5b70d4d_350.webp) · [creator source](https://modrinth.com/mod/dubstep-guns/gallery). SHA-256 `95c7de2ef4fb392b21dad481e07edd266929b5cfb001425f526c1366cbd38270`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/iY0eoda1/images/2ca8b4bd43f96f74e766a0e55156925a691990ff.png) · [creator source](https://modrinth.com/mod/dubstep-guns/gallery). SHA-256 `2726ff59e9bbd9fa17c96b3ed26c55fb8dc3a2f0ebec3745700aaa4601ac9161`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/iY0eoda1/16aad3cc2a9deca76711b0300e6e3fed79929825_96.webp) · [creator source](https://modrinth.com/mod/dubstep-guns). SHA-256 `aa888e47814e11a0d60823fecd06410376d7cbc2027a73a4382a0b488e536d83`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1267224"></a>
-### SkitsDubstepGuns
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/skitsdubstepguns) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/skitsdubstepguns) [Source code](https://github.com/Skitbet/SkitDubstepMod) [Issue tracker](https://github.com/Skitbet/SkitDubstepMod/issues) [Project &amp; downloads](https://modrinth.com/mod/dubstepguns)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/XbIwRO0H/images/4619e9f91d8e94c4ffb7b2b767b98ee349904198_350.webp) · [creator source](https://modrinth.com/mod/dubstepguns/gallery). SHA-256 `ffdfcf66e18a8c135f19ac187732547a5ccb36b74a8f3dd3187ba2685f7c6eb2`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/XbIwRO0H/images/180903b080dd589f5284d9525c507e4f2f6bbafe_350.webp) · [creator source](https://modrinth.com/mod/dubstepguns/gallery). SHA-256 `bdec44be963c24bea4714f565d8322a45d2d6de2baa0693c0d63d82c816b7c4b`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/0cbbd59fdc2549cf5d80272ac962d7a3ec8f0089_0.webp) · [creator source](https://www.curseforge.com/minecraft/mc-mods/skitsdubstepguns). SHA-256 `90b3b3959e574102eddfc6a9ace877abe8b56c8d804b1c44436925cd369cbae5`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1276/518/256/256/638830369014618671.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/skitsdubstepguns). SHA-256 `21b5ad98a107fdd224da124917267daaa34926bb3f6eeec87d43e3b5a6f6bb1f`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/c79d55dbe8369a75b9249142382a16e6fcfd7060.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/skitsdubstepguns). SHA-256 `9ab3c800b4282833764ecd42a86607df1dab259efefbe2a8fc64b69135efb386`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/XbIwRO0H/910b272cc29b92729657199a2a29cc4af0bfd2e4_96.webp) · [creator source](https://modrinth.com/mod/dubstepguns). SHA-256 `bd31a59c2bce9885d69fded7a64fd892e097bc7c603bad21e39703a3de743ad0`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-DcaqUuLf"></a>
-### Point Blank's Minigun Motor Recipe
-
-[Modrinth project](https://modrinth.com/mod/point-blanks-minigun-motor-recipe) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/point-blanks-minigun-motor-recipe)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/DcaqUuLf/images/59d7f4b4162086c055ec9165842f304e1ea4ee9c.png) · [creator source](https://modrinth.com/mod/point-blanks-minigun-motor-recipe/gallery). SHA-256 `e58597c08cc1148986f9655ad173a500bcaa61ecd89e5b78d5d7df2741e9bcbd`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/DcaqUuLf/e89fa9fe4bb58a5e93f85b65893e72c2369780c5_96.webp) · [creator source](https://modrinth.com/mod/point-blanks-minigun-motor-recipe). SHA-256 `267c231e36058172ce01f6947f200bf3b45583b7f250f76af10b26410464e101`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1645320"></a>
-### Orbital Arrow Cannon
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/orbital-arrow-cannon) · Checked 2026-10-23. Type: Artillery / combined arms.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/orbital-arrow-cannon)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1973/79/256/256/639218598651171405.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/orbital-arrow-cannon). SHA-256 `f048982bcaee91c92b9d2785700eb53bcd96ecde71829f332b9bf6cc42a42800`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1646000"></a>
-### Dragon Survival TACZ Compat
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/dragon-survival-tacz-compat) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/dragon-survival-tacz-compat) [Source code](https://github.com/Haozi-Electric/ds-tacz-compat)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1974/19/256/256/639218957562074497.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/dragon-survival-tacz-compat). SHA-256 `b7fc155b0aeef5b4b9c5a1c114400554cba20199ab2afd2a07d1996b26a1518a`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1663731"></a>
-### Rick's Portal Gun : citadel
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-citadel) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-citadel)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_3e2dc8e2-8617-4d82-9fac-7b4c4725417f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-citadel). SHA-256 `9b0b8ad8253eac44d3f249d4eb77883a975406be57a4a62ae796d440bcb19b4e`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2000/96/256/256/639230024480462819.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-citadel). SHA-256 `7d0ac26588e911880e4347e7fed6cd190a2b236ac2fde424432f0c1001b88dfd`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1698106"></a>
-### Nighty's Scorched Guns Animation Compat: Legacy
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/nightys-scorched-guns-animation-compat) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/nightys-scorched-guns-animation-compat)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2054/645/256/256/639253307782369564.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/nightys-scorched-guns-animation-compat). SHA-256 `5d10fa5c1d7d1662410855dd59fce8d59a3a7c7bd19a5101f83780364b16657a`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-eZAEVnzx"></a>
-### The Joy Of Tinkering
-
-[Modrinth project](https://modrinth.com/mod/the-joy-of-tinkering) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://modrinth.com/mod/the-joy-of-tinkering) [Source code](https://github.com/snackerpirater/the-joy-of-tinkering) [Issue tracker](https://github.com/snackerpirater/the-joy-of-tinkering/issues)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/eZAEVnzx/images/004a723f8fa75ff329938ddc79dc0d1fc0decee6_350.webp) · [creator source](https://modrinth.com/mod/the-joy-of-tinkering/gallery). SHA-256 `519cd5870fdaf0e10bd7772b0ea65f0957f4430646f5d9919d9edfb4b334654f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/eZAEVnzx/images/99dd0002e2a84f9a710d518c0e56390c80d545b2_350.webp) · [creator source](https://modrinth.com/mod/the-joy-of-tinkering/gallery). SHA-256 `ee3a5728aa3ffc40ce4a59e325810ec0cc2662f64cdb94297783413672b9a251`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/eZAEVnzx/d82005322e9535499e91d448f29790bed4435927_96.webp) · [creator source](https://modrinth.com/mod/the-joy-of-tinkering). SHA-256 `b4bba36c2e7779b01f21db209ad619fd45912133438954c3ee9a86845219dda7`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-g2JeZ67N"></a>
-### Buckshot roulette crossbow
-
-[Modrinth project](https://modrinth.com/resourcepack/buckshot-roulette-crossbow) · Checked 2026-10-23. Type: Visual / resource pack.
-
-[Project &amp; downloads](https://modrinth.com/resourcepack/buckshot-roulette-crossbow)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/g2JeZ67N/images/7d33242fdea041a1a6d988aaaaeca6fafaa20b8d_350.webp) · [creator source](https://modrinth.com/resourcepack/buckshot-roulette-crossbow/gallery). SHA-256 `0c5a643efa87b037f02cc80e774c4a8089e5c268e7a42dcf6758ec5a6abf0fa3`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/g2JeZ67N/images/c40a8539de4a377578f4384cfe064b92d452948a_350.webp) · [creator source](https://modrinth.com/resourcepack/buckshot-roulette-crossbow/gallery). SHA-256 `6403a5675026f09954acc7d291909eb5e577f4486926d6560af2b967bc0e8405`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/g2JeZ67N/images/0b28fc2fa3b76d559addd6be316ab7196439d2ec_350.webp) · [creator source](https://modrinth.com/resourcepack/buckshot-roulette-crossbow/gallery). SHA-256 `6530269015f038094c1b994b7a83409f441efaf235a702753f2f645418820ca9`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/g2JeZ67N/1bfb4fdcd666ed2843e672ffd797069376eb5b8c_96.webp) · [creator source](https://modrinth.com/resourcepack/buckshot-roulette-crossbow). SHA-256 `20667595794cf53cfd1160a96c23a858d9d6b77bfda580f04e77fde0d9cdd863`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-fYgT4bsA"></a>
-### Only Server Gunpack
-
-[Modrinth project](https://modrinth.com/mod/osg) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://modrinth.com/mod/osg)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/fYgT4bsA/288353415c73dee6e5ea8affdefaeddf0e07f32d_96.webp) · [creator source](https://modrinth.com/mod/osg). SHA-256 `29e02692c0ee6f9294db72d2f89c951b2b8b34fe6d97851e191f5b8fccfed6bc`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
 

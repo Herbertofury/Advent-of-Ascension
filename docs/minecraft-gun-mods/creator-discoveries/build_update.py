@@ -60,6 +60,11 @@ def apply_data():
                 x['links']=list({v['url']:v for v in x.get('links',[])+spec['links']}.values())
                 x['themes']=list(dict.fromkeys(x.get('themes',[])+['Creator channels']))
                 enriched.add(key)
+    # Deep-discovery overlay: keep later accepted content through every original rebuild.
+    deep_ids=set()
+    _deep_path=PARENT/'tacz-deep-discovery/build_deep.py'
+    if _deep_path.exists() and (_deep_path.parent/'qualified-records.json').exists():
+        _deep=module('deep_discovery_overlay',_deep_path);deep_ids=_deep.extend(pidx,tidx)
     parent['items']=sorted(pidx.values(),key=lambda x:(-x['studyPriority'],-(x['downloads'] or 0),x['name'].lower()))
     parent['coverage']['creatorDiscoveryDelta']={'newGunpacks':4,'newBedrockReference':1,'existingCreatorGroups':len(channels)}
     parent['sources']=[s for s in parent['sources'] if s.get('role')!='Creator discoveries']+[{'provider':'Creator-controlled project and Patreon pages','role':'Creator discoveries','url':WIKI+'Minecraft-Gunpack-Creator-Discoveries','checkedAt':manifest['checkedDate']}]
@@ -74,10 +79,10 @@ def apply_data():
     assert set(before['parent'])<=set(pidx) and set(before['tacz'])<=set(tidx)
     parent_changed=[key for key,sha in before['parent'].items() if dh(pidx[key])!=sha]
     tacz_changed=[key for key,sha in before['tacz'].items() if dh({k:v for k,v in tidx[key].items() if k!='popularityRank'})!=sha]
-    assert set(parent_changed)<=enriched,parent_changed
-    assert set(tacz_changed)<=enriched,tacz_changed
-    assert len(parent['items'])==before['parentCount']+5
-    assert len(tacz['items'])==before['taczCount']+4
+    assert set(parent_changed)<=enriched|deep_ids,parent_changed
+    assert set(tacz_changed)<=enriched|deep_ids,tacz_changed
+    assert set(pidx)==set(before['parent'])|set(qualified)|deep_ids
+    assert set(tidx)==set(before['tacz'])|expected_new|deep_ids
     assert manifest['paidReference']['id'] not in tidx
     proof={'parentCount':len(pidx),'taczFamilies':len(tidx),'newTaCZ':sorted(expected_new),'newBedrock':manifest['paidReference']['id'],'existingCreatorGroupsEnriched':len(channels),'changedExistingParentIds':parent_changed,'changedExistingTaCZIds':tacz_changed,'allExistingIdsPreserved':True,'unrelatedItemBytesPreserved':True,'parentDataHash':parent['build']['dataHash'],'taczDataHash':tacz['build']['dataHash']}
     save(ROOT/'qa/data-delta.json',proof)
@@ -148,6 +153,9 @@ def refresh():
     build=module('atlas_build_current',PARENT/'build.py');proof=build.validate(parent);build.make_wiki(parent,proof)
     tbuild=module('tacz_build_current',TACZ/'build_ui.py');tbuild.wiki_build(tacz)
     discoveries_page(parent,tacz);update_ui()
+    _deep_path=PARENT/'tacz-deep-discovery/build_deep.py'
+    if _deep_path.exists() and (_deep_path.parent/'qualified-records.json').exists():
+        module('deep_discovery_publication',_deep_path).finish(parent,tacz)
     return parent,tacz
 
 NAV_LOAD="""    import importlib.util

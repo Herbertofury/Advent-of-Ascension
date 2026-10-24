@@ -50,10 +50,11 @@ def extend(parent_index,tacz_index):
    sha=review['preferred'][key];assert any(m['sha256']==sha for m in item['media']),(key,'reviewed image absent');item['preferredMediaSha256']=sha
    item['media'].sort(key=lambda m:m['sha256']!=sha)
   if isinstance(item.get('license'),dict):item['license']=item['license'].get('name') or item['license'].get('id') or 'See creator license'
-  if key not in parent_index:parent_index[key]=copy.deepcopy(item)
+  if key not in parent_index or key not in load(ROOT/'baseline.json')['parent']:parent_index[key]=copy.deepcopy(item)
   else:
    # Only the deliberately selected old records gain discovery facets; all other data remains intact.
    old=parent_index[key];old['themes']=list(dict.fromkeys(old.get('themes',[])+['Deep discoveries']+(['Hidden gems'] if spec.get('shortlist') else [])))
+   if item.get('preferredMediaSha256') and any(m['sha256']==item['preferredMediaSha256'] for m in old.get('media',[])):old['preferredMediaSha256']=item['preferredMediaSha256']
   if key not in tacz_index:tacz_index[key]=tacz_record({**rec,'item':item})
   else:
    # Idempotent source-image corrections are scoped to this update's own records.
@@ -104,6 +105,8 @@ def finish(parent,tacz):
   if 'data-deep-preset' not in js:
    hook="document.addEventListener('click',event=>{const b=event.target.closest('[data-deep-preset]');if(!b)return;state={...DEFAULTS,view:state.view,theme:b.dataset.deepPreset==='gems'?'Hidden gems':'Deep discoveries'};syncControls();render();});\n"
    needle='renderSavedViews();syncControls();render();';assert needle in js;js=js.replace(needle,hook+needle,1)
+  js=js.replace("function mediaFor(x){return (x.media||[]).find(m=>m.role!=='Project icon')||(x.media||[])[0];}","function mediaFor(x){return (x.media||[]).find(m=>m.sha256===x.preferredMediaSha256)||(x.media||[]).find(m=>m.role!=='Project icon')||(x.media||[])[0];}")
+  js=js.replace("function gallery(id,index=0){const x=MAP.get(id);if(!x?.media?.length){openDetail(id);return;}lightboxId=id;", "function gallery(id,index=null){const x=MAP.get(id);if(!x?.media?.length){openDetail(id);return;}if(index===null)index=Math.max(0,x.media.findIndex(m=>m.sha256===x.preferredMediaSha256));lightboxId=id;")
   jsfile.write_text(js,encoding='utf-8')
  # The standard TaCZ renderer remains authoritative; add the new editorial selections to its data-driven pass.
  tb=module('tacz_deep_renderer',TACZ/'build_ui.py')
@@ -143,6 +146,12 @@ def ledger():
  for x in tacz['items']:
   if x['id'] not in accepted:existing.update(x.get('aliases',[]));existing.update(('cf-' if p=='curseforge' else 'mr-')+str(v) for p,v in x.get('providerIds',{}).items())
  decisions=[]
+ extras=load(ROOT/'extra-decisions.json',{})
+ _all_records={**load(ROOT/'qualified-records.json',{}),**load(ROOT/'extra-records.json',{})}
+ found=list(found)
+ _seen={x['id'] for x in found}
+ for key,record in _all_records.items():
+  if key not in _seen:found.append({'id':key,'name':record['item']['name'],'url':record['item']['projectUrl'],'summary':record['item']['summary'],'provider':record['item']['provider']})
  for x in found:
   key=x['id'];value=' '.join([x.get('name',''),x.get('summary','')]).lower()
   if key in accepted:state,reason='accepted','Creator source establishes additional TaCZ firearm content; source, release and media qualification retained.'
@@ -152,6 +161,7 @@ def ledger():
   elif not re.search(r'tacz|tac.zero|timeless.{0,30}(zero|classic)|gun.?pack',value):state,reason='excluded','Search-term collision without a TaCZ gun-content identity in the project title or summary.'
   elif re.search(r'compat|fix|optim|performance|render|api|library|lib\b|ammo|ammunition|npc|zombie|mobs|loot|recipe|integration|blueprint|enchant|attachment|skin|sound|hud|crosshair|scope|recoil|tweak|durability|armor|movement|sway|port|fork|refabric|reloader|reload|animation|melee|knife|knives|sword|tactical equipment|server|modpack|server|template|tutorial|example|making diary',value):state,reason='excluded from gun-content count','Source identity indicates supporting behavior, integration, cosmetic content, distribution or development tooling rather than a separately qualified firearm roster.'
   else:state,reason='unresolved lead','Not promoted without sufficient distinct creator firearm, release and identity evidence.'
+  if key in extras and key not in accepted:state,reason=extras[key]['status'],extras[key]['reason']
   decisions.append({'id':key,'name':x.get('name'),'url':x.get('url'),'status':state,'reason':reason})
  effective=[]
  for x in coverage:
