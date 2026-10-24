@@ -4,6 +4,28 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-dNBMwHNo"></a>
+### Orbital Mob Cannon
+
+[Modrinth project](https://modrinth.com/mod/orbital-mob-cannon) · Checked 2026-10-23. Type: Server weapon plugin.
+
+[Project &amp; downloads](https://modrinth.com/mod/orbital-mob-cannon)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/dNBMwHNo/616e364b4c646e021384a9202223a0cdc2839e0c_96.webp) · [creator source](https://modrinth.com/mod/orbital-mob-cannon). SHA-256 `e4b67a8a5fcce28e21668d7c92cf7eff672563899773367f86697971fa87665b`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-mr-40ueMGhT"></a>
+### TrashRailgunmod
+
+[Modrinth project](https://modrinth.com/mod/trashrailgunmod) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/trashrailgunmod)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/40ueMGhT/images/a9b5233119a1b3471f54c63ba69157f8de9b94d4_350.webp) · [creator source](https://modrinth.com/mod/trashrailgunmod/gallery). SHA-256 `80102c97d19b47400cd1c4980decd8b5064bcec50fd11a01fda68a8d420523a1`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-cf-1475062"></a>
 ### Programmer Gun
 
@@ -2790,6 +2812,19 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 
 Public creator description only. The purchased binary, its version/loader pairing and private attachments were not inspected.
+
+<a id="ref-gh-1429852946"></a>
+### R3 Carbine
+
+[GitHub project](https://github.com/miku3928/ai-tacz-gunpack) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Creator source and documentation](https://github.com/miku3928/ai-tacz-gunpack) [Exact gunpack release](https://github.com/miku3928/ai-tacz-gunpack/releases/tag/v1.0.0)
+
+- Creator model-render preview (AI-assisted project): [exact image](https://raw.githubusercontent.com/miku3928/ai-tacz-gunpack/main/docs/images/hero.png) · [creator source](https://github.com/miku3928/ai-tacz-gunpack). SHA-256 `6ab61e5f5e4271e9a604f6c32f95b97a8f2a57fb2503ca7c79ecce87e8dce76e`.
+- Creator model-render preview (AI-assisted project): [exact image](https://raw.githubusercontent.com/miku3928/ai-tacz-gunpack/main/docs/images/side.png) · [creator source](https://github.com/miku3928/ai-tacz-gunpack). SHA-256 `b2d8cfaf8a5cb339fa2cbfc0aae1962655cfd98cf8a97b3f7bd4423c8ce0bc1b`.
+- Creator model-render preview (AI-assisted project): [exact image](https://raw.githubusercontent.com/miku3928/ai-tacz-gunpack/main/docs/images/catalog_groups.png) · [creator source](https://github.com/miku3928/ai-tacz-gunpack). SHA-256 `d5db9b1a54b23697c0b2e9408d6e48c2d90126d9069adca50d0b7ed9a1f4774e`.
+
+Exact creator release and firearm ZIP identity verified; README-declared version pair retained separately from runtime testing.
 
 <a id="ref-cf-1123163"></a>
 ### [TaCZ] It a Big Gun!!!

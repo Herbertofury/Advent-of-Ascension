@@ -4,6 +4,34 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1715732"></a>
+### Create: Interdimensional Travel
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_08a763c5-afdf-4c5b-8c73-8ae980ba65f0.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `be478e1d525e6ec05f6159c7affd6ee22f3731a2d0afdadfd84d54a9e4ae4d26`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_a1b8a49f-d3a0-4440-a8cc-8b9eec910369.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `958f32139fdab6394a9607723d56678371504ed636f411ebba4e65468968c2e3`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_7f6af04d-5e6c-4047-8a24-74bbb0a95b9c.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `53e638ef5fa0a1ce883dd3bfb352dd0244274afe14e62987132c2936b2bd9ba0`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_662c037c-7842-4de9-ac47-101c2e936b98.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `395abe4a1ded4a202c9a2f28e8a651f8bd31ce63f5b673e905045c8587875224`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_813fd520-012f-4361-ae10-e0ddeb02ec74.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `acbbe5441005b52860b8144d623e933f46c308a4e8cdcb117249f0c85a120cd1`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_04ca68f3-af39-46a3-b59c-8d8072274626.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `42c6eeb14608eb619d77c291b82337627ba373e82abdc1a0e88baf6effa6384a`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2076/170/256/256/639261656312417453.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `1d87c22ab9a598750b753cc98134d6a72e562cf3ff47e9ddc9cb3d41e5022e5f`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-439794"></a>
+### Guns and Rubber
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/guns-and-rubber) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/guns-and-rubber)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/335/877/256/256/637471337224526548.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/guns-and-rubber). SHA-256 `ea3b076aec8f555178617af253c50b8f132fd8753950f98e6b9d73f8910ab2a9`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-mr-ZICkKEqb"></a>
 ### Extended Hitscan for Vic's Point Blank
 
@@ -3621,28 +3649,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 [Project &amp; downloads](https://modrinth.com/mod/lavadamagefixerforjegn)
 
 - Project icon: [exact image](https://cdn.modrinth.com/data/HxYpZgrW/5c81a63884d076c9acc0fd2f3a061c50c4a3c1c0_96.webp) · [creator source](https://modrinth.com/mod/lavadamagefixerforjegn). SHA-256 `e312c988bc185f71ba84ed9373b3ccaf1d254e2ce720777a1de47fd95cd4ad0b`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-dNBMwHNo"></a>
-### Orbital Mob Cannon
-
-[Modrinth project](https://modrinth.com/mod/orbital-mob-cannon) · Checked 2026-10-23. Type: Server weapon plugin.
-
-[Project &amp; downloads](https://modrinth.com/mod/orbital-mob-cannon)
-
-- Project icon: [exact image](https://cdn.modrinth.com/data/dNBMwHNo/616e364b4c646e021384a9202223a0cdc2839e0c_96.webp) · [creator source](https://modrinth.com/mod/orbital-mob-cannon). SHA-256 `e4b67a8a5fcce28e21668d7c92cf7eff672563899773367f86697971fa87665b`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-40ueMGhT"></a>
-### TrashRailgunmod
-
-[Modrinth project](https://modrinth.com/mod/trashrailgunmod) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/trashrailgunmod)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/40ueMGhT/images/a9b5233119a1b3471f54c63ba69157f8de9b94d4_350.webp) · [creator source](https://modrinth.com/mod/trashrailgunmod/gallery). SHA-256 `80102c97d19b47400cd1c4980decd8b5064bcec50fd11a01fda68a8d420523a1`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
 

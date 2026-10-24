@@ -1157,11 +1157,11 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 [Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack)
 
+- Project gallery: [exact image](https://media.forgecdn.net/attachments/917/321/redgraves-redeemer.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `035e2385a4871c225a0d7141a578c14b5de4c2cd32ab4e4429a71839d5416ae8`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1041/56/256/256/638567279497313138.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack). SHA-256 `fedb215500012a2887cfd20ceed2db769354d34e0b71a7dfe168d02a4e4bdaeb`.
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/917/325/.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `e9d46ed960bfe5bed4f1a760f09da7a0e9eebb06c54d7ef04b9729551a492d17`.
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/917/310/vz.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `70e2467d35a30df2501ea66cdd2551ce54881319f1563316e2ba0cf2974eedb7`.
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/917/306/ebont.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `bc6f975431c4f975de2f27b0b54e9aff881d67aa649963563062ae4aa4115b42`.
-- Project gallery: [exact image](https://media.forgecdn.net/attachments/917/321/redgraves-redeemer.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `035e2385a4871c225a0d7141a578c14b5de4c2cd32ab4e4429a71839d5416ae8`.
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/917/308/coyote-a.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `8f638a94d5a551ac763636b2dd7bba90111510b3ff6efb730f42b04a292f7794`.
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/917/313/needlegun.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `f2337490e5a025938430b94236b21dd6e0a6922d8ec17364ce63d40a4643aed4`.
 - Project gallery: [exact image](https://media.forgecdn.net/attachments/917/311/grenadegun.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-devil-may-cry-legacy-pack/gallery). SHA-256 `b7439a26bf2400681ec27d5b3356aa5d3e34d194f9fc0f236640f796512966f0`.
@@ -1328,6 +1328,19 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Creator description image: [exact image](https://i0.hdslb.com/bfs/archive/57fc867c282f6d136deafc7e842635ed77663db7.jpg@672w_378h_1c.avif) · [creator source](https://www.curseforge.com/minecraft/customization/scp-secret-laboratory-gunpack). SHA-256 `99e54e6994d7745a71b3b382f2636415d435aac530fe4b6cfdde5a606cadeede`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-mr-rwImxLJB"></a>
+### [TaCZ1.1.5+Arcana]Originium Weapons
+
+[Modrinth project](https://modrinth.com/mod/originiumweapons) · Checked 2026-10-24. Type: Gun / content pack.
+
+[Project &amp; downloads](https://modrinth.com/mod/originiumweapons) [Creator Bilibili page](https://space.bilibili.com/76824223) [Creator sponsorship](https://ifdian.net/a/youde79)
+
+- Project icon: [exact image](https://cdn.modrinth.com/data/rwImxLJB/0e2e91512d6ad65aa848a8c13768ffa3e1916a9d_96.webp) · [creator source](https://modrinth.com/mod/originiumweapons). SHA-256 `a85aa4ecb484724a9d653ee8b61fd0b01b45602e07d229339c9266d44f0d3187`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/rwImxLJB/images/fec6a3df4d0853dbcc33afccaaa72e3bca55b7d6_350.webp) · [creator source](https://modrinth.com/mod/originiumweapons/gallery). SHA-256 `d98fb695e991bd4e37232eb1eaadd21c54598003578712e74f6573e3c8a48bb5`.
+- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/df2b0d9a4169bb0e2109dacea85b9b8bcf32b5a0_0.webp) · [creator source](https://modrinth.com/mod/originiumweapons). SHA-256 `cfd2b91699ee4f9e5c62546f22a738b8449c834838dc290ba494d272c935e14b`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
 
 <a id="ref-cf-1339807"></a>
 ### [TaCZ]Machina  “鬼械神狙”磁轨炮
@@ -1982,18 +1995,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 - Creator description image: [exact image](https://drive.google.com/uc?export=view&id=1YlXNeNNf4nsOuMka7PQITc0VdM5hewcN) · [creator source](https://www.curseforge.com/minecraft/mc-mods/squirt-gun). SHA-256 `13dd77b981e835fd5c21ddfab86aed00024a26a5fb7066d37691254f31076ced`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/653/468/256/256/638056402880512104.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/squirt-gun). SHA-256 `9ef1e9fc107ede32ac2da2bff390f06ce4a405bd91995f0fe19fab9f2cc779f5`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1456403"></a>
-### Gun Scaling
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/gun-scaling) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/gun-scaling) [Source code](https://github.com/ImEden6/gun-scaling) [Project &amp; downloads](https://modrinth.com/mod/gun-scaling) [Source code](https://github.com/imEden6/gun-scaling)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1666/420/256/256/639060778552760129.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gun-scaling). SHA-256 `7e3f8a57466b5e2cf313389e90404b48daf673b1e5b0114bceacc9bd5d26c9d2`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/dbVomK9Z/ea1e0c4c386dc0224cb74cc597308e3ffe91d699_96.webp) · [creator source](https://modrinth.com/mod/gun-scaling). SHA-256 `69a23fcaffcf445fc4412335fd2c7ac05ed305d506021d9931bc8c003287dfc4`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

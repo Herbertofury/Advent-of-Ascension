@@ -4,6 +4,18 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-246843"></a>
+### Shells MOD
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/shells-mod) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/shells-mod)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/64/702/2016-07-11_17.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/shells-mod). SHA-256 `2b64c0c0c49a7e6b93f9a09fce1d7fb0bef49a22ea6059a176b281f60e42082a`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/44/953/256/256/636038065701828877.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/shells-mod). SHA-256 `602c0336219380864fb8a22558cc5f013db7e4057b2cbb2096b2aa81dc1a2580`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-931470"></a>
 ### Gardon's Guns Pack
 
@@ -62,6 +74,7 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 
 [Project &amp; downloads](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz)
 
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_928ac5be-6df7-4bda-96fb-2fc5ce612f74.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `6160acc76820d2422f0a387f8802de0013ac6b372dad40067a615e7244ed4ce5`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1314/241/256/256/638854554942720067.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `7b192af0942602bb177d9b57ba2719aa89249d6da716d805bd62e192bab12ee9`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_454e39e7-6033-4ba2-a31d-b3d0078c2c0e.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `7b1e7d4fb7b818371b59963eb0127849119d474d177a47e7dc0b8e24dabbfa84`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_db205674-88bc-4042-8c2f-273db11f3985.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `0613fcc1e44174f327ce3b59dd3ec69381075f3d22576f528a73b8d6819dc6e1`.
@@ -78,7 +91,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_8fa85c62-570e-4750-bf2b-31db6a3ea302.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `c50eeda368fa6c0be20cebcba9dd0759f841bfe4410dc1544e1b3f78d6b875d6`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_6e4feee0-0b2a-4310-939e-0abff445f2b2.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `725fd69478766962a204e37f3a1a4e385423be94953f8de87f3624e56238a1a8`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_f0a37455-a19f-4550-b7a5-e42c996767c6.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `905dd1f7307b7244b67ea89dd2e4e75f74f4095013fcb67af3d74bb6cbd3950f`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_928ac5be-6df7-4bda-96fb-2fc5ce612f74.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `6160acc76820d2422f0a387f8802de0013ac6b372dad40067a615e7244ed4ce5`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_1625ee10-9b7f-4780-a53b-15406193f845.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `51679b0f144286decee360fa30d62499920d39ce04899d27785e03afd9f4eddf`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_7cd76988-5630-4337-96c8-8d0be7e4044d.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `47e0615c02041ba9b500e5a5aaa705dba978c734fac6114c2e4a7ab99b113240`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1255748/description_bf813016-0184-4da9-8d3a-c429dc901051.png) · [creator source](https://www.curseforge.com/minecraft/mc-addons/eurrussia-variantz-tacz). SHA-256 `ffc4332da271192f5d0cf109b48096a61503e2a9fd64878c9878f25e98d4127d`.
@@ -3141,22 +3153,4 @@ All published version metadata read; latest file for each supported version/load
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1999/549/256/256/639229783425601789.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/unofficial-tacz-renovated). SHA-256 `113ce9f4fec27e0fa1e9833a8dcd435fe94a4ca30590062391cb375601632884`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-YGRKmEno"></a>
-### Rick And Morty - portal gun
-
-[Modrinth project](https://modrinth.com/mod/rick-and-morty-portal-gun) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://modrinth.com/mod/rick-and-morty-portal-gun) [Source code](https://github.com/mrMaiks/Portal-Rick-and-Morty)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/7d4a6d927f6ab8051c566b468e32c9fa4ff54d2d_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `e57e9d7f339902bcc44e27671e94032e0cebe31f630ec7753607e308a82c873a`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/ca54a1853b2668c8c1de2e6a1525ea0c72b53423_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `5e29aec3d421b881066447decd2d3117d357e77d966e9cffff5b469b477608f9`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/2cb6ec960850a198b9d969f20a6c473988ed7e7a_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `b4476edd9b238c4c0e39cb8b38aa5b9d967e737c670c9a840959fb34b1f052f4`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/9e28cfab9dbb98f5d1adc1ff6484c12aeddde268_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `d47eda566aa97e328c45d5dc92eca7cff409fe2705378ba187687894efa44d7b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/f852cf9f99b11020f579314665e4da388293e8c1_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `226f864613ad122a06a5e41ba2494a1119763f7e9dd50606c96d5b9fc3275b50`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/527adc2a3a46aac6664a5e6d816ccdf51fc763aa_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `00b381a0dfc6d5b08cfdcc0fd0ccd2b9ea4254921e500d5f24ee2fe8e038c02b`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/bc37cd55f9d51a41c0822d4197bb5c3e91be776b_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `cac7c3349842b2ecca2ed198a1ffab6a057f9a5ce095c4863313ea0720ab1445`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/YGRKmEno/0fdbd3623a5c24388fd094914316bae33c86fdc6_96.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun). SHA-256 `24cec7e501bccf011a67299bacce27d2b5a09ade693670bbb50029d939ee44bc`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
 

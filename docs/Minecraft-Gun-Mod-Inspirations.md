@@ -1,6 +1,6 @@
 # Minecraft gun mod inspirations
 
-**2,408 distinct project records · 10 earlier picks recovered · checked 2026-10-23**
+**2,410 distinct project records · 10 earlier picks recovered · checked 2026-10-23**
 
 ## [Open the Minecraft Gun Atlas](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/)
 
@@ -72,6 +72,7 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 | [ArcaneMag - TaCZ × Iron&#x27;s Spells Addon](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1612220) | Integration / handling / QoL · TaCZ | Study how a magic system changes ammunition/resource feedback and the resulting firearm presentation. Study how spell identity changes silhouettes, resource feedback and projectile presentation while preserving AoA resources. Compare block-scale geometry, readable colors and first/third-person proportions. Study attachment visibility, authoring workflow and reversible customization. |
 | [&#91;TaCZ&#93;Warsaw Pack](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1664832) | Gun / content pack · TaCZ | Warsaw Pack draws from Battlefield 4, including a creator-described airburst launcher, burst-fire rifle and railgun. Optional support mods affect some features. Study visible moving parts, material consistency and readable charging/reload sequences. Review draw, firing, reload, inspect and third-person clips in actual footage before adopting a technique. Study attachment visibility, authoring workflow and reversible customization. |
 | [SCP: Secret Laboratory GunPack](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1319481) | Gun / content pack · Independent | SCP: Secret Laboratory GunPack brings a game-specific firearm roster and distinctive special-weapon presentation to TaCZ. Study visible moving parts, material consistency and readable charging/reload sequences. Compare crafting, ammunition and progression without replacing native AoA resource rules. |
+| [&#91;TaCZ1.1.5+Arcana&#93;Originium Weapons](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=mr-rwImxLJB) | Gun / content pack · TaCZ | A creator-authored Arknights and Metal Gear crossover gunpack with fictional Originium-powered firearms, separate from the same creator&#x27;s older Metal Gear Solid V pack. Study attachment visibility, authoring workflow and reversible customization. Compare crafting, ammunition and progression without replacing native AoA resource rules. |
 | [&#91;TaCZ&#93;Machina  “鬼械神狙”磁轨炮](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1339807) | Gun / content pack · TaCZ | Machina is a focused Team Fortress 2 / Deus Ex-inspired railgun reference with a specific model and reload identity, rather than an oversized general-purpose gun collection. Study visible moving parts, material consistency and readable charging/reload sequences. Review draw, firing, reload, inspect and third-person clips in actual footage before adopting a technique. Compare crafting, ammunition and progression without replacing native AoA resource rules. |
 | [&#91;TacZ&#93; Nakara Weapon Pack](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1489690) | Gun / content pack · TaCZ | Nakara Weapon Pack offers a coherent fictional science-fiction arsenal from its creator&#x27;s world, with a direct creator showcase. Compare energy effects and unconventional weapon silhouettes with AoA realm-specific blasters. Study attachment visibility, authoring workflow and reversible customization. |
 | [Fakelorant Gunpack](https://herbertofury.github.io/Advent-of-Ascension/minecraft-gun-mods/?item=cf-1198095) | Gun / content pack · Independent | Fakelorant adds Valorant-inspired firearms as a real TaCZ gunpack, distinct from similarly named modpacks that simply distribute other mods. Study encounter readability and server-authoritative weapon state rather than assuming cross-mod compatibility. |
@@ -89,7 +90,7 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 | [Broader content with ranged weapons](Minecraft-Gun-Mod-Inspirations-broader-content-with-ranged-weapons) | 93 |
 | [Datapack / command weapon](Minecraft-Gun-Mod-Inspirations-datapack-command-weapon) | 170 |
 | [Gun / content pack · 1/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-1) | 277 |
-| [Gun / content pack · 2/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-2) | 13 |
+| [Gun / content pack · 2/2](Minecraft-Gun-Mod-Inspirations-gun-content-pack-2) | 15 |
 | [Integration / handling / QoL · 1/2](Minecraft-Gun-Mod-Inspirations-integration-handling-qol-1) | 288 |
 | [Integration / handling / QoL · 2/2](Minecraft-Gun-Mod-Inspirations-integration-handling-qol-2) | 79 |
 | [Server weapon plugin](Minecraft-Gun-Mod-Inspirations-server-weapon-plugin) | 74 |
@@ -110,7 +111,7 @@ These are editorial study selections, not an FPS ranking or a claim that every p
 
 ## Research coverage and evidence
 
-2,645 accepted source records were reconciled across providers into 2,408 project identities. 2,385 have archived source images and 208 have direct videos linked by their creators. Missing media is not replaced with a fabricated image or a search-results link.
+2,645 accepted source records were reconciled across providers into 2,410 project identities. 2,387 have archived source images and 208 have direct videos linked by their creators. Missing media is not replaced with a fabricated image or a search-results link.
 
 The search includes Java mods, gunpacks, resource packs, datapacks, firearm-specific support and Bedrock add-ons. Public Modrinth query pagination and CurseForge query pagination are recorded in the coverage ledger. This is a broad finite research snapshot, not a provable census of every private, unlisted or newly uploaded project.
 

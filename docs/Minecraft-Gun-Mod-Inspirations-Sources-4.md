@@ -4,6 +4,29 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1016036"></a>
+### Rick's Portal Gun [Fabric/Quilt]
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric) [Source code](https://github.com/JamesLeDolphin/ricks-portal-gun-multiloader) [Wiki](https://github.com/JamesLeDolphin/mod-wikis/wiki/Rick's-Portal-Gun) [Issue tracker](https://github.com/JamesLeDolphin/ricks-portal-gun-multiloader/issues) [Project &amp; downloads](https://modrinth.com/mod/ricks-portal-gun-fabric)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/okWylF5O/images/c34417fd0f1be0380831ffab722936a094fa26c3_350.webp) · [creator source](https://modrinth.com/mod/ricks-portal-gun-fabric/gallery). SHA-256 `1fff4ba80ed11b21c313245d9879a111e7817534536fba7ad028e20fef3b194f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/okWylF5O/images/7af242b7960e07f7ce4c75b92a00762ae4a2696e_350.webp) · [creator source](https://modrinth.com/mod/ricks-portal-gun-fabric/gallery). SHA-256 `6e90686f82e02cab672756a8de752ca41c0779d261e090cb1a9e99492124c17c`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016036/description_9fe7b8d5-b1d6-443d-901a-4a627a39b84f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `37d2e93c0afc027f8668595ecfa6ac4c683265b36e8824f5cd38bcd6dbc04a31`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016036/description_799e53cd-3767-4953-8ea1-418216d4a4ed.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `a383539cc67eece9708e4899ceb094dda63b346f2ea788777959f986c481f87e`.
+- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe 1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun). SHA-256 `6d349164b2b5569a9f680a6c455d779ffcbe4fc2ea7d7c39d09dded7c083738f`.
+- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `9591a646f863e48b308ff08079bf4b5d34b1bbddcf04e3e30545980c6134051d`.
+- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `95bf550ca30c4435955e32af582f10c595c8f3134cb231c9edf23963a697ee58`.
+- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe5.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `82545d20309546ea54459e026078ea4f39410dcde709f92f0fd78e6894495e48`.
+- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `518fb149617e809327543a4a167008c0efcca08dc01422eea007714785b8de3c`.
+- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe4.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `2d4d069b39cb845d4e33b6367302f72294eae7ae803566f2e126fa5e2e68d765`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1049/453/256/256/638578601166363661.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `ce2f6ac257d70de9b85478db1ede944738a210bac99b017132c2177ba234122e`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/okWylF5O/81afc12a376ad067edf8390bcf99354e8712fe76_96.webp) · [creator source](https://modrinth.com/mod/ricks-portal-gun-fabric). SHA-256 `8d5db085a19699da0dafbbad06d8a9e172f557d6b2f2262a59318e358571040f`.
+- [Video](https://www.youtube.com/watch?v=0wKFDh2WvD0) · Linked on project page; full playback not reviewed.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1135578"></a>
 ### Realism Renewed | GunsCraft |
 
@@ -2819,38 +2842,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1541311/description_88d346d1-aca3-47e9-93e8-7fbda8c3660d.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `f57aef596f59b12a5fb1147d41c08011f6dc8a1c0d43227a135aaf12eb9fafed`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1541311/description_d2137413-a62d-41cc-9773-3d4caa70f0f2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `30101c8d99cd8ce6ed2ca632e0b8554923e908f68fefe09216c0434e335e55eb`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1804/561/256/256/639141998897214440.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mineops-ultimate-weaponry). SHA-256 `a162e6370e6266491bc680448093c362646d558900ac71657df8e0bd7e3569c6`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1292484"></a>
-### Johannes's Renaissance：Musket Rebirth
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth) [Project &amp; downloads](https://modrinth.com/mod/johanness-renaissancerebirth)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/6dd480849e52b294b8010fa670341ebaa253f93f_350.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `e26f0a4fad462fbaeececa9cc17e9d01f99d05675410dd206a59074643cdc5dc`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/86c99f0854bb3685af4fd83fd0a6887fe07776de_350.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `a3e446553711c183ff49dc3e1f48ea2d9bc557a513577d36afe0c0e2d3208483`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/60ba02c885eabb4440864e241f9bcaa7db2afb1d.png) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `6071aaa2dc9a1fe92ab248ce8e81747abbd6ae87ba8d494d933bc28cc93d9c21`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/f204d170ec86a17fa803f64c532dd434ef1f7aed_350.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `ba0d9af6078e9775e8ff6394cee9d89552c5b1b37e239c3dcfc6ec73e116801e`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/c77751617e854a46ab47f18e6e42e975ad926d35.png) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `da83e6856588d780df7de02ecb4d4e1d62be8f5c7789ed63cd9aa3da0448e493`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/7c278e675a9a9cd964095b1950d7c2fea026ecb3.png) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `3a2fbfbc9ef24ceb3057d776e3ed615cdfa0b5ae26edaed4279fb2a53d1bef65`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1292484/description_8cd2a74c-edfc-4c12-a7d4-f6fab1333e3a.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `6132fe09503fa7e32d6c51cdbaf654f33a20f81141da05a40a666622980ad240`.
-- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/e517c27e9b0e7caae7caf4307b4143231149e31f_0.webp) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `19c6b648c621e6c8145b997f423eea108e7b4e4f81cee851ba7a46ee500165d8`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1292484/description_50050bd3-286d-409d-b498-4875371b812a.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `806af53363f73326f0bb5fd388efe1b17ca67a511e52a8c996661bfcb0e7116d`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1371/547/256/256/638890388606042367.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `e4c016507ecbf8d774ba4b29f491b83f7eca6d2f212a81be71fa4f7ab2cea206`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/6d9bf108170c2e5cf632df61275f7a5b81607f39_96.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth). SHA-256 `68297f4315a7bb19211943db88c6a7e8951698367721ebc32d4fb29c30908f34`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1488374"></a>
-### TaCZ No Ammo
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-no-ammo) · Checked 2026-10-23. Type: Integration / handling / QoL.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-no-ammo)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1719/178/256/256/639093210668066381.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-no-ammo). SHA-256 `8e3cf927a12aaca4a645b4c3ba910844468f39fc4970d44d818367de971ea23f`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

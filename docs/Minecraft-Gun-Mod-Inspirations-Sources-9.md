@@ -4,6 +4,23 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-NCEK8MiY"></a>
+### King George Want No Smoke (VPB)
+
+[Modrinth project](https://modrinth.com/mod/king-george-want-no-smoke) · Checked 2026-10-23. Type: Datapack / command weapon.
+
+[Project &amp; downloads](https://modrinth.com/mod/king-george-want-no-smoke)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/d0b13f467272ca278c2d363c5fead8f6222b001a_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `034bbc978a916df602a4c551cdaa06cc32cbe39acc1c91ade5301cde5566311f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/a295b9b86c62224cf7a7e8203595fb5dfec88deb_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `5d866076ea816e340a7664e099ba4ef1e2468aaa2657a6da7ec323041eb5df91`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/e4046483fb45f94c84f0d197085d2c56b763e674_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `2c50665e745679189a0ef7ae807d260fdb6c74fd21438c0b0b59ebf22d295ba7`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/d6918ecbe275c3ab9c920ff2434a7fc951bee41d_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `bc36458ce8c7608b0849ab942d87e2587d848b091006a2587576589d9398ed6f`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/61cec1071947837f28ac08c23545ecb28b9d7214_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `ecdd3c0160a75005dacc349135451be119347372a3c410bda7d0f2e41e9e9bae`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/12c9bbd6064a1d592e50b15436245a134441ca09_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `7fc631f0f3f5e27cd63b8e2b1a357d08b023b6b7739257abb4f6ef3773905bd6`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/2be01a610204bc65d017c7cf1ffd24465c08fc59_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `7c2903d8bd0f91c28b5a833d64ceeadbecb3b72c00b958030996df0be62a6f14`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-cf-1638726"></a>
 ### SIMPLE ENEMY for TaCZ ＆ Iron's Spells
 
@@ -1415,10 +1432,8 @@ All published version metadata read; latest file for each supported version/load
 
 [Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck)
 
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1735/836/256/256/639104899982190444.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `495824a61cd09fa6280b2eab137d08f598b7d1d0a100424ce0b8cfacd5b81131`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_d01dda55-21c8-4fa4-91a8-65082bf93340.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `739984a2e6b86fd954b10021d54b34ff5df4b3809f7a3e22e9d17da0bed6524f`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_ccea155d-fc43-403c-9597-d164ea9b5f62.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `1fa1d505ad90de12aca4c875a0cf31482d38fd03ebe89cdbd2ac5be644358904`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_f6342f71-1e27-4cb2-a4b0-bbb444f9ba66.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `cff2c7593d06e8af88c34ed8f302efb33e29c0ee6433892d6ec7d5c7982fc7a2`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1735/836/256/256/639104899982190444.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `495824a61cd09fa6280b2eab137d08f598b7d1d0a100424ce0b8cfacd5b81131`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_0fce6e5e-1369-405b-b714-4b6cb18bc28f.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `8a06fd519d648a0bfdc15661d4a0bda0627095c5eb9e8b4f0a4f733de5e77335`.
 - Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_9a17d013-7955-4e16-aaa8-bffdfe6de5c4.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-cislumen-armory-airtronic-rpg-7-luvduck). SHA-256 `4e53b5527c8c3186e1d667b2c086f6b25ad8bfebb1e469f426a8ac7834985b62`.
 
@@ -3612,32 +3627,4 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Project icon: [exact image](https://cdn.modrinth.com/data/7Y9yaSLK/628dd6f93d99a91ddc7002d47ed5da52acab6f3d.png) · [creator source](https://modrinth.com/resourcepack/gun-game-style). SHA-256 `70e44462d9f4c4dd18b416271cf971424cc0bd70e35bf102124d2cbb617745e7`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1715732"></a>
-### Create: Interdimensional Travel
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_08a763c5-afdf-4c5b-8c73-8ae980ba65f0.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `be478e1d525e6ec05f6159c7affd6ee22f3731a2d0afdadfd84d54a9e4ae4d26`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_a1b8a49f-d3a0-4440-a8cc-8b9eec910369.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `958f32139fdab6394a9607723d56678371504ed636f411ebba4e65468968c2e3`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_7f6af04d-5e6c-4047-8a24-74bbb0a95b9c.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `53e638ef5fa0a1ce883dd3bfb352dd0244274afe14e62987132c2936b2bd9ba0`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_662c037c-7842-4de9-ac47-101c2e936b98.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `395abe4a1ded4a202c9a2f28e8a651f8bd31ce63f5b673e905045c8587875224`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_813fd520-012f-4361-ae10-e0ddeb02ec74.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `acbbe5441005b52860b8144d623e933f46c308a4e8cdcb117249f0c85a120cd1`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1715732/description_04ca68f3-af39-46a3-b59c-8d8072274626.gif) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `42c6eeb14608eb619d77c291b82337627ba373e82abdc1a0e88baf6effa6384a`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/2076/170/256/256/639261656312417453.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/create-interdimensional-travel). SHA-256 `1d87c22ab9a598750b753cc98134d6a72e562cf3ff47e9ddc9cb3d41e5022e5f`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-439794"></a>
-### Guns and Rubber
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/guns-and-rubber) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/guns-and-rubber)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/335/877/256/256/637471337224526548.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/guns-and-rubber). SHA-256 `ea3b076aec8f555178617af253c50b8f132fd8753950f98e6b9d73f8910ab2a9`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

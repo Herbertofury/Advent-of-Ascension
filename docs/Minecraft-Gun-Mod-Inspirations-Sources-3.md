@@ -4,6 +4,19 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1287059"></a>
+### [TaCZ]MS-Mobius gunpack
+
+[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack) · Checked 2026-10-23. Type: Gun / content pack.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_6f774191-ca54-4d32-9fc4-718c48639b73.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack). SHA-256 `aae9450d93ee516867fe92d2324e9750354f416a890780cff5daae710878a468`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_1c6437ed-cb7a-4b24-9989-ce0eb0b620ec.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack). SHA-256 `7c1e653d17d8ccac56041a8f97f3c81940e9a7ad9eb8ae43d50315b4e1fefb5a`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1315/951/256/256/638855611867221436.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack). SHA-256 `2b7a04fab47a520ba30212d00f20d0d9be3e05d5db25b948da9c3beb5c9dad16`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1004200"></a>
 ### Point Blank Official Extension || Doom Pack
 
@@ -2823,29 +2836,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Creator description image: [exact image](https://i.imgur.com/rgZo6Hv.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/venders-game-a-flans-mod-content-pack). SHA-256 `af64cf631f6017f194ba870c361163e43fab7a7f719ddccf3b13f788bea3ee45`.
 - Creator description image: [exact image](https://i.imgur.com/AyzH73h.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/venders-game-a-flans-mod-content-pack). SHA-256 `9828ae963949ada9c35f01869619d43bb7c741e81aa182a2aaf7aeb1a82d568e`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/915/195/256/256/638372951340998499.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/venders-game-a-flans-mod-content-pack). SHA-256 `1275d847b5b97382877df6384e0f307cdc10a92225da4f5c4e6e19e4c482ab89`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1016036"></a>
-### Rick's Portal Gun [Fabric/Quilt]
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric) [Source code](https://github.com/JamesLeDolphin/ricks-portal-gun-multiloader) [Wiki](https://github.com/JamesLeDolphin/mod-wikis/wiki/Rick's-Portal-Gun) [Issue tracker](https://github.com/JamesLeDolphin/ricks-portal-gun-multiloader/issues) [Project &amp; downloads](https://modrinth.com/mod/ricks-portal-gun-fabric)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/okWylF5O/images/c34417fd0f1be0380831ffab722936a094fa26c3_350.webp) · [creator source](https://modrinth.com/mod/ricks-portal-gun-fabric/gallery). SHA-256 `1fff4ba80ed11b21c313245d9879a111e7817534536fba7ad028e20fef3b194f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/okWylF5O/images/7af242b7960e07f7ce4c75b92a00762ae4a2696e_350.webp) · [creator source](https://modrinth.com/mod/ricks-portal-gun-fabric/gallery). SHA-256 `6e90686f82e02cab672756a8de752ca41c0779d261e090cb1a9e99492124c17c`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016036/description_9fe7b8d5-b1d6-443d-901a-4a627a39b84f.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `37d2e93c0afc027f8668595ecfa6ac4c683265b36e8824f5cd38bcd6dbc04a31`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1016036/description_799e53cd-3767-4953-8ea1-418216d4a4ed.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `a383539cc67eece9708e4899ceb094dda63b346f2ea788777959f986c481f87e`.
-- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe 1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun). SHA-256 `6d349164b2b5569a9f680a6c455d779ffcbe4fc2ea7d7c39d09dded7c083738f`.
-- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe2.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `9591a646f863e48b308ff08079bf4b5d34b1bbddcf04e3e30545980c6134051d`.
-- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe3.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `95bf550ca30c4435955e32af582f10c595c8f3134cb231c9edf23963a697ee58`.
-- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe5.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `82545d20309546ea54459e026078ea4f39410dcde709f92f0fd78e6894495e48`.
-- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe6.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `518fb149617e809327543a4a167008c0efcca08dc01422eea007714785b8de3c`.
-- Creator description image: [exact image](https://jacobempire.uk/dev/dalekmodaddons/images/james/recipe4.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `2d4d069b39cb845d4e33b6367302f72294eae7ae803566f2e126fa5e2e68d765`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1049/453/256/256/638578601166363661.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/ricks-portal-gun-fabric). SHA-256 `ce2f6ac257d70de9b85478db1ede944738a210bac99b017132c2177ba234122e`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/okWylF5O/81afc12a376ad067edf8390bcf99354e8712fe76_96.webp) · [creator source](https://modrinth.com/mod/ricks-portal-gun-fabric). SHA-256 `8d5db085a19699da0dafbbad06d8a9e172f557d6b2f2262a59318e358571040f`.
-- [Video](https://www.youtube.com/watch?v=0wKFDh2WvD0) · Linked on project page; full playback not reviewed.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

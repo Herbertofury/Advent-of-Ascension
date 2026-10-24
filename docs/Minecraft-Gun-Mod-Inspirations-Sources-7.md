@@ -4,6 +4,24 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-YGRKmEno"></a>
+### Rick And Morty - portal gun
+
+[Modrinth project](https://modrinth.com/mod/rick-and-morty-portal-gun) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://modrinth.com/mod/rick-and-morty-portal-gun) [Source code](https://github.com/mrMaiks/Portal-Rick-and-Morty)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/7d4a6d927f6ab8051c566b468e32c9fa4ff54d2d_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `e57e9d7f339902bcc44e27671e94032e0cebe31f630ec7753607e308a82c873a`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/ca54a1853b2668c8c1de2e6a1525ea0c72b53423_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `5e29aec3d421b881066447decd2d3117d357e77d966e9cffff5b469b477608f9`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/2cb6ec960850a198b9d969f20a6c473988ed7e7a_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `b4476edd9b238c4c0e39cb8b38aa5b9d967e737c670c9a840959fb34b1f052f4`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/9e28cfab9dbb98f5d1adc1ff6484c12aeddde268_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `d47eda566aa97e328c45d5dc92eca7cff409fe2705378ba187687894efa44d7b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/f852cf9f99b11020f579314665e4da388293e8c1_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `226f864613ad122a06a5e41ba2494a1119763f7e9dd50606c96d5b9fc3275b50`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/527adc2a3a46aac6664a5e6d816ccdf51fc763aa_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `00b381a0dfc6d5b08cfdcc0fd0ccd2b9ea4254921e500d5f24ee2fe8e038c02b`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/YGRKmEno/images/bc37cd55f9d51a41c0822d4197bb5c3e91be776b_350.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun/gallery). SHA-256 `cac7c3349842b2ecca2ed198a1ffab6a057f9a5ce095c4863313ea0720ab1445`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/YGRKmEno/0fdbd3623a5c24388fd094914316bae33c86fdc6_96.webp) · [creator source](https://modrinth.com/mod/rick-and-morty-portal-gun). SHA-256 `24cec7e501bccf011a67299bacce27d2b5a09ade693670bbb50029d939ee44bc`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
 <a id="ref-mr-uw2dO6jA"></a>
 ### Simple Guns
 
@@ -3385,44 +3403,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 [Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/mxgia-point-blank-custom-recipes)
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/969/460/256/256/638470326439472043.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/mxgia-point-blank-custom-recipes). SHA-256 `4ef7490912b7ba63a4a721bb0fd4ba9cc282123fd038a14658f9b55afbab1047`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-mr-grIBwQ90"></a>
-### [SBW] Biome Soldiers
-
-[Modrinth project](https://modrinth.com/mod/sbw-biome-soldiers) · Checked 2026-10-23. Type: Broader content with ranged weapons.
-
-[Project &amp; downloads](https://modrinth.com/mod/sbw-biome-soldiers)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/583a5dffd5276b7a985894fe32b532f988cd5d5d.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `0f46f9f9beaaf362be24f1b30c0dc66538b9c36c3a925a3f6495c1a388796143`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/73db33552565c3572d8a4a81cf66f4c31de3fef0.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `e2ddeab420bfe10bbd542e0e1f5d06fa0c9e66852884587b7bcc9de92bb1aabe`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/f2a45efa27b2ad059e17166d8dfa921af32254bd.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `481582a466577c1e637d3a2bce93c19289b8d4c820e1d6cd6d3a873e0a886e24`.
-- Project icon: [exact image](https://cdn.modrinth.com/data/grIBwQ90/fe54373f523be0f07d2460708bc0f3cea65c2248_96.webp) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers). SHA-256 `bff825d12fd52f5f0a881bf07d5aa856fd2547798107d360bb16788e14d2bbbf`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-cf-1181027"></a>
-### Flan Shop (.jar)
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod)
-
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1158/386/256/256/638726659908397409.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod). SHA-256 `9c810811bf5243e6ee940f1aa82478a21b5a924cf1c592815f0c01730f685df7`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1631951"></a>
-### TACZ: Blackout Armaments | IGS
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1631951/description_b4cae435-7ded-4883-a9f3-12b75aada9e1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `fdba19ff0e4dbe14d34306bab69f29441879013db12e4a5b25e26909a0a22fbd`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1631951/description_3f1b4bd5-c502-40c8-9485-a3bfa4c94808.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `c8f372a9c6103204565883d596c1fecfe51a6e8a2db778294b023b4555792bdf`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1952/973/256/256/639210201915313245.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `17e6c9400dc35738d29f2dfd910243e0b4126a3be926abf092294ba4aec16b39`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

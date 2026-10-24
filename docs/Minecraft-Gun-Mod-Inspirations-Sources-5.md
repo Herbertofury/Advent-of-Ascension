@@ -4,6 +4,38 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1292484"></a>
+### Johannes's Renaissance：Musket Rebirth
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth) [Project &amp; downloads](https://modrinth.com/mod/johanness-renaissancerebirth)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/6dd480849e52b294b8010fa670341ebaa253f93f_350.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `e26f0a4fad462fbaeececa9cc17e9d01f99d05675410dd206a59074643cdc5dc`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/86c99f0854bb3685af4fd83fd0a6887fe07776de_350.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `a3e446553711c183ff49dc3e1f48ea2d9bc557a513577d36afe0c0e2d3208483`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/60ba02c885eabb4440864e241f9bcaa7db2afb1d.png) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `6071aaa2dc9a1fe92ab248ce8e81747abbd6ae87ba8d494d933bc28cc93d9c21`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/f204d170ec86a17fa803f64c532dd434ef1f7aed_350.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `ba0d9af6078e9775e8ff6394cee9d89552c5b1b37e239c3dcfc6ec73e116801e`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/c77751617e854a46ab47f18e6e42e975ad926d35.png) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `da83e6856588d780df7de02ecb4d4e1d62be8f5c7789ed63cd9aa3da0448e493`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/images/7c278e675a9a9cd964095b1950d7c2fea026ecb3.png) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth/gallery). SHA-256 `3a2fbfbc9ef24ceb3057d776e3ed615cdfa0b5ae26edaed4279fb2a53d1bef65`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1292484/description_8cd2a74c-edfc-4c12-a7d4-f6fab1333e3a.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `6132fe09503fa7e32d6c51cdbaf654f33a20f81141da05a40a666622980ad240`.
+- Creator description image: [exact image](https://cdn.modrinth.com/data/cached_images/e517c27e9b0e7caae7caf4307b4143231149e31f_0.webp) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `19c6b648c621e6c8145b997f423eea108e7b4e4f81cee851ba7a46ee500165d8`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1292484/description_50050bd3-286d-409d-b498-4875371b812a.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `806af53363f73326f0bb5fd388efe1b17ca67a511e52a8c996661bfcb0e7116d`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1371/547/256/256/638890388606042367.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/johanness-renaissance-rebirth). SHA-256 `e4c016507ecbf8d774ba4b29f491b83f7eca6d2f212a81be71fa4f7ab2cea206`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/Z4dA5ixH/6d9bf108170c2e5cf632df61275f7a5b81607f39_96.webp) · [creator source](https://modrinth.com/mod/johanness-renaissancerebirth). SHA-256 `68297f4315a7bb19211943db88c6a7e8951698367721ebc32d4fb29c30908f34`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1488374"></a>
+### TaCZ No Ammo
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/tacz-no-ammo) · Checked 2026-10-23. Type: Integration / handling / QoL.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/tacz-no-ammo)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1719/178/256/256/639093210668066381.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/tacz-no-ammo). SHA-256 `8e3cf927a12aaca4a645b4c3ba910844468f39fc4970d44d818367de971ea23f`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-mr-BAydDUwh"></a>
 ### UU Accurate Orbital Strike Cannon
 
@@ -3042,18 +3074,6 @@ All published version metadata read; latest file for each supported version/load
 [Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/vics-point-blank-default-auto-mode)
 
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1363/610/256/256/638885581037008694.jpg) · [creator source](https://www.curseforge.com/minecraft/mc-mods/vics-point-blank-default-auto-mode). SHA-256 `96a8da1cbdfcd6726e3b5c343526b1b5c8d26a5f21029069a9679a248b000b57`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-246843"></a>
-### Shells MOD
-
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/shells-mod) · Checked 2026-10-23. Type: Standalone gun mod.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/shells-mod)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/64/702/2016-07-11_17.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/shells-mod). SHA-256 `2b64c0c0c49a7e6b93f9a09fce1d7fb0bef49a22ea6059a176b281f60e42082a`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/44/953/256/256/636038065701828877.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/shells-mod). SHA-256 `602c0336219380864fb8a22558cc5f013db7e4057b2cbb2096b2aa81dc1a2580`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 

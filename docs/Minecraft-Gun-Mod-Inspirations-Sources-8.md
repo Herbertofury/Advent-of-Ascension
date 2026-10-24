@@ -4,6 +4,44 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-mr-grIBwQ90"></a>
+### [SBW] Biome Soldiers
+
+[Modrinth project](https://modrinth.com/mod/sbw-biome-soldiers) · Checked 2026-10-23. Type: Broader content with ranged weapons.
+
+[Project &amp; downloads](https://modrinth.com/mod/sbw-biome-soldiers)
+
+- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/583a5dffd5276b7a985894fe32b532f988cd5d5d.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `0f46f9f9beaaf362be24f1b30c0dc66538b9c36c3a925a3f6495c1a388796143`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/73db33552565c3572d8a4a81cf66f4c31de3fef0.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `e2ddeab420bfe10bbd542e0e1f5d06fa0c9e66852884587b7bcc9de92bb1aabe`.
+- Project gallery: [exact image](https://cdn.modrinth.com/data/grIBwQ90/images/f2a45efa27b2ad059e17166d8dfa921af32254bd.png) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers/gallery). SHA-256 `481582a466577c1e637d3a2bce93c19289b8d4c820e1d6cd6d3a873e0a886e24`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/grIBwQ90/fe54373f523be0f07d2460708bc0f3cea65c2248_96.webp) · [creator source](https://modrinth.com/mod/sbw-biome-soldiers). SHA-256 `bff825d12fd52f5f0a881bf07d5aa856fd2547798107d360bb16788e14d2bbbf`.
+
+All published version metadata read; latest file for each supported version/loader combination retained
+
+<a id="ref-cf-1181027"></a>
+### Flan Shop (.jar)
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1158/386/256/256/638726659908397409.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/flanshop-mod). SHA-256 `9c810811bf5243e6ee940f1aa82478a21b5a924cf1c592815f0c01730f685df7`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
+<a id="ref-cf-1631951"></a>
+### TACZ: Blackout Armaments | IGS
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs)
+
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1631951/description_b4cae435-7ded-4883-a9f3-12b75aada9e1.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `fdba19ff0e4dbe14d34306bab69f29441879013db12e4a5b25e26909a0a22fbd`.
+- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/1631951/description_3f1b4bd5-c502-40c8-9485-a3bfa4c94808.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `c8f372a9c6103204565883d596c1fecfe51a6e8a2db778294b023b4555792bdf`.
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1952/973/256/256/639210201915313245.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/blackout-arms-igs). SHA-256 `17e6c9400dc35738d29f2dfd910243e0b4126a3be926abf092294ba4aec16b39`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-mr-zZlTyRcO"></a>
 ### Shoot the locks
 
@@ -3592,23 +3630,6 @@ All published version metadata read; latest file for each supported version/load
 - Project gallery: [exact image](https://cdn.modrinth.com/data/nABLRtWm/images/c0b16ed87f0286902d277c6d7e013a6ed4555bb0_350.webp) · [creator source](https://modrinth.com/mod/falling-block-particles/gallery). SHA-256 `3690d50f3aa73a4aeee4483457274beb436d16b3a81d14366015bb72ef42f76e`.
 - Project gallery: [exact image](https://cdn.modrinth.com/data/nABLRtWm/images/8c5a2eb9bcb7a99872cb9aa0d0f9007382491eb2_350.webp) · [creator source](https://modrinth.com/mod/falling-block-particles/gallery). SHA-256 `8eb406c9b89fa9c2c56cfc51cfe1f839e9fc72fcb577c162e4410e8253c58c76`.
 - Project icon: [exact image](https://cdn.modrinth.com/data/nABLRtWm/27706760105d66accad277ea7edac9dc9ed745d8.png) · [creator source](https://modrinth.com/mod/falling-block-particles). SHA-256 `7827fbba8c5042ad957b9b85bb6b38337ab215262bb3e8d0806ffe43499faea7`.
-
-All published version metadata read; latest file for each supported version/loader combination retained
-
-<a id="ref-mr-NCEK8MiY"></a>
-### King George Want No Smoke (VPB)
-
-[Modrinth project](https://modrinth.com/mod/king-george-want-no-smoke) · Checked 2026-10-23. Type: Datapack / command weapon.
-
-[Project &amp; downloads](https://modrinth.com/mod/king-george-want-no-smoke)
-
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/d0b13f467272ca278c2d363c5fead8f6222b001a_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `034bbc978a916df602a4c551cdaa06cc32cbe39acc1c91ade5301cde5566311f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/a295b9b86c62224cf7a7e8203595fb5dfec88deb_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `5d866076ea816e340a7664e099ba4ef1e2468aaa2657a6da7ec323041eb5df91`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/e4046483fb45f94c84f0d197085d2c56b763e674_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `2c50665e745679189a0ef7ae807d260fdb6c74fd21438c0b0b59ebf22d295ba7`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/d6918ecbe275c3ab9c920ff2434a7fc951bee41d_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `bc36458ce8c7608b0849ab942d87e2587d848b091006a2587576589d9398ed6f`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/61cec1071947837f28ac08c23545ecb28b9d7214_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `ecdd3c0160a75005dacc349135451be119347372a3c410bda7d0f2e41e9e9bae`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/12c9bbd6064a1d592e50b15436245a134441ca09_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `7fc631f0f3f5e27cd63b8e2b1a357d08b023b6b7739257abb4f6ef3773905bd6`.
-- Project gallery: [exact image](https://cdn.modrinth.com/data/NCEK8MiY/images/2be01a610204bc65d017c7cf1ffd24465c08fc59_350.webp) · [creator source](https://modrinth.com/mod/king-george-want-no-smoke/gallery). SHA-256 `7c2903d8bd0f91c28b5a833d64ceeadbecb3b72c00b958030996df0be62a6f14`.
 
 All published version metadata read; latest file for each supported version/loader combination retained
 

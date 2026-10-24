@@ -4,6 +4,18 @@
 
 [Volume 1](Minecraft-Gun-Mod-Inspirations-Sources) · [Volume 2](Minecraft-Gun-Mod-Inspirations-Sources-2) · [Volume 3](Minecraft-Gun-Mod-Inspirations-Sources-3) · [Volume 4](Minecraft-Gun-Mod-Inspirations-Sources-4) · [Volume 5](Minecraft-Gun-Mod-Inspirations-Sources-5) · [Volume 6](Minecraft-Gun-Mod-Inspirations-Sources-6) · [Volume 7](Minecraft-Gun-Mod-Inspirations-Sources-7) · [Volume 8](Minecraft-Gun-Mod-Inspirations-Sources-8) · [Volume 9](Minecraft-Gun-Mod-Inspirations-Sources-9) · [Volume 10](Minecraft-Gun-Mod-Inspirations-Sources-10) · [Volume 11](Minecraft-Gun-Mod-Inspirations-Sources-11)
 
+<a id="ref-cf-1456403"></a>
+### Gun Scaling
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/gun-scaling) · Checked 2026-10-23. Type: Standalone gun mod.
+
+[Project &amp; downloads](https://www.curseforge.com/minecraft/mc-mods/gun-scaling) [Source code](https://github.com/ImEden6/gun-scaling) [Project &amp; downloads](https://modrinth.com/mod/gun-scaling) [Source code](https://github.com/imEden6/gun-scaling)
+
+- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1666/420/256/256/639060778552760129.png) · [creator source](https://www.curseforge.com/minecraft/mc-mods/gun-scaling). SHA-256 `7e3f8a57466b5e2cf313389e90404b48daf673b1e5b0114bceacc9bd5d26c9d2`.
+- Project icon: [exact image](https://cdn.modrinth.com/data/dbVomK9Z/ea1e0c4c386dc0224cb74cc597308e3ffe91d699_96.webp) · [creator source](https://modrinth.com/mod/gun-scaling). SHA-256 `69a23fcaffcf445fc4412335fd2c7ac05ed305d506021d9931bc8c003287dfc4`.
+
+First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
+
 <a id="ref-cf-1222668"></a>
 ### ChaosZPack [Lost Cities] Better Cities / Zombie Apocalypse /  Abandoned Structures / TacZ
 
@@ -2741,19 +2753,6 @@ First 50 recent files plus provider latest-per-version files; not an exhaustive 
 - Creator description image: [exact image](https://i.postimg.cc/rsMMh2mR/ping-mu-jie-tu-2026-10-03-152440.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `581a4a57617d293dd885e9a3befc36d217ad64fe7e95aee40bf918cb2cacbc67`.
 - Creator description image: [exact image](https://i.postimg.cc/4yss8RdK/ping-mu-jie-tu-2026-10-03-152452.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `d80ff11678c3981d7b2c162500a2b2893bf601ad0f43310eea88ad9f03e577d2`.
 - Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1333/751/256/256/638867025162523819.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-helldivers-escalation-of-freedom). SHA-256 `ed17e080b9488c695a12a1960c75c56220daaaedc75f63cfb5320549fb054e67`.
-
-First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
-
-<a id="ref-cf-1287059"></a>
-### [TaCZ]MS-Mobius gunpack
-
-[CurseForge project](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack) · Checked 2026-10-23. Type: Gun / content pack.
-
-[Project &amp; downloads](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack)
-
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_6f774191-ca54-4d32-9fc4-718c48639b73.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack). SHA-256 `aae9450d93ee516867fe92d2324e9750354f416a890780cff5daae710878a468`.
-- Creator description image: [exact image](https://media.forgecdn.net/attachments/description/null/description_1c6437ed-cb7a-4b24-9989-ce0eb0b620ec.jpg) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack). SHA-256 `7c1e653d17d8ccac56041a8f97f3c81940e9a7ad9eb8ae43d50315b4e1fefb5a`.
-- Project icon: [exact image](https://media.forgecdn.net/avatars/thumbnails/1315/951/256/256/638855611867221436.png) · [creator source](https://www.curseforge.com/minecraft/customization/tacz-ms-mobius-gunpack). SHA-256 `2b7a04fab47a520ba30212d00f20d0d9be3e05d5db25b948da9c3beb5c9dad16`.
 
 First 50 recent files plus provider latest-per-version files; not an exhaustive historical file archive
 
