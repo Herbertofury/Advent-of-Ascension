@@ -29,6 +29,8 @@ def main():
  restore()
  import creator_extra
  creator_extra.main()
+ import finalize_deep
+ finalize_deep.main()
  import build_deep
  build_deep.main()
 if __name__=='__main__':main()
