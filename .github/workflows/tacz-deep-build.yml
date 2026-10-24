@@ -1,0 +1,105 @@
+name: Build TaCZ deep discoveries
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tacz-deep-build.yml'
+      - 'docs/minecraft-gun-mods/tacz-deep-discovery/build-stage.txt'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: tacz-deep-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Resume canonical source on its review branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/tacz-deep-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/weapon_inspiration_navigation.py\n/docs/Minecraft-Gun*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n' > .git/info/sparse-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin tacz-deep-discovery >/dev/null 2>&1; then
+            git fetch --depth 100 origin refs/heads/tacz-deep-discovery:refs/remotes/origin/tacz-deep-discovery refs/heads/main:refs/remotes/origin/main
+            git checkout -B tacz-deep-discovery origin/tacz-deep-discovery
+            git merge origin/main --no-edit
+          else
+            git checkout -b tacz-deep-discovery origin/main
+          fi
+      - name: Build additive catalogs and illustrated research from exact saved evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          python3 -m py_compile source/docs/minecraft-gun-mods/tacz-deep-discovery/*.py
+          python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/run.py
+          node --check source/docs/minecraft-gun-mods/app.js
+          node --check source/docs/minecraft-gun-mods/tacz/app.js
+      - name: Checkpoint coherent implementation before complete browser gates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/tacz-deep-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/tacz-deep-discovery ':!docs/minecraft-gun-mods/tacz-deep-discovery/cache' ':!docs/minecraft-gun-mods/tacz-deep-discovery/__pycache__' ':!docs/minecraft-gun-mods/tacz-deep-discovery/snapshots.json' ':!docs/minecraft-gun-mods/tacz-deep-discovery/tail-snapshots.json' ':!docs/minecraft-gun-mods/tacz-deep-discovery/candidate-review.json' ':!docs/minecraft-gun-mods/tacz-deep-discovery/followup-evidence.json'
+          git add docs/minecraft-gun-mods/catalog.json docs/minecraft-gun-mods/catalog.js docs/minecraft-gun-mods/app.js docs/minecraft-gun-mods/index.html docs/minecraft-gun-mods/wiki-manifest.json docs/minecraft-gun-mods/creator-discoveries/build_update.py docs/minecraft-gun-mods/creator-discoveries/qa/data-delta.json
+          git add docs/minecraft-gun-mods/tacz/catalog.json docs/minecraft-gun-mods/tacz/catalog.js docs/minecraft-gun-mods/tacz/app.js docs/minecraft-gun-mods/tacz/index.html docs/Minecraft-Gun*.md docs/TaCZ-Gunpack*.md
+          if ! git diff --cached --quiet; then git commit -m 'Add qualified TaCZ hidden gems while preserving all prior catalog identities'; fi
+          git push origin HEAD:tacz-deep-discovery
+          git rev-parse HEAD > docs/minecraft-gun-mods/tacz-deep-discovery/qa/source-commit.txt
+      - name: Verify every new record, creator-access label and navigation preservation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/tacz-deep-askpass.sh" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki-preview
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+          python3 source/docs/minecraft-gun-mods/tacz-deep-discovery/test_deep.py --wiki wiki-preview
+      - name: Verify the complete parent explorer
+        run: python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/atlas
+      - name: Verify the complete TaCZ rankings and private collection tools
+        run: python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/tacz-deep-discovery/qa/tacz
+      - name: Persist exact successful acceptance on the review branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/tacz-deep-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/tacz-deep-discovery/qa/targeted/report.json docs/minecraft-gun-mods/tacz-deep-discovery/qa/atlas/browser-report.json docs/minecraft-gun-mods/tacz-deep-discovery/qa/tacz/browser-report.json docs/minecraft-gun-mods/tacz-deep-discovery/qa/source-commit.txt
+          if ! git diff --cached --quiet; then git commit -m 'Verify deep-discovery records and both full browser workflows'; git push origin HEAD:tacz-deep-discovery; fi
+      - name: Preserve complete update source and visual acceptance
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-deep-built
+          path: |
+            source/docs/minecraft-gun-mods/tacz-deep-discovery/
+            source/docs/minecraft-gun-mods/catalog.json
+            source/docs/minecraft-gun-mods/tacz/catalog.json
+            source/docs/minecraft-gun-mods/creator-discoveries/build_update.py
+            source/docs/TaCZ-Gunpack*.md
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/cache/**
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/__pycache__/**
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/snapshots.json
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/tail-snapshots.json
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/candidate-review.json
+            !source/docs/minecraft-gun-mods/tacz-deep-discovery/followup-evidence.json
+          retention-days: 30
+          if-no-files-found: error
