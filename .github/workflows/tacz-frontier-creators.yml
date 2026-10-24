@@ -1,0 +1,33 @@
+name: TaCZ public creator evidence
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/tacz-frontier-creators.yml']
+permissions:
+  contents: read
+jobs:
+  creators:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read only exact public-source qualification scripts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p source/tacz-frontier
+          gh api "repos/${GITHUB_REPOSITORY}/contents/docs/minecraft-gun-mods/research.py?ref=${GITHUB_SHA}" --jq .content | base64 --decode > source/research.py
+          gh api "repos/${GITHUB_REPOSITORY}/contents/docs/minecraft-gun-mods/tacz-frontier/creator_probe.py?ref=${GITHUB_SHA}" --jq .content | base64 --decode > source/tacz-frontier/creator_probe.py
+      - name: Qualify public release identity, authors and creator collection links
+        run: |
+          python3 -m pip install --quiet requests beautifulsoup4 pillow
+          python3 source/tacz-frontier/creator_probe.py
+      - name: Preserve the full creator evidence without private content
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-frontier-creators
+          path: source/tacz-frontier/
+          retention-days: 30
+          if-no-files-found: error
