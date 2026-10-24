@@ -1,0 +1,105 @@
+name: Build TaCZ Creator Frontier
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tacz-frontier-build.yml'
+      - 'docs/minecraft-gun-mods/tacz-frontier/build-stage.txt'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: tacz-frontier-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Continue the exact parent catalogs on the scoped review branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/frontier-build-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n/docs/Minecraft-Gun-Mod-Inspirations*.md\n/docs/TaCZ-Gunpack*.md\n/docs/Weapon-Inspirations.md\n/docs/Weapon-Reference-Library.md\n/docs/weapon_inspiration_navigation.py\n/AGENTS.md\n' > .git/info/sparse-checkout
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin tacz-frontier-discovery >/dev/null 2>&1; then
+            git fetch --depth 100 origin refs/heads/tacz-frontier-discovery:refs/remotes/origin/tacz-frontier-discovery refs/heads/main:refs/remotes/origin/main
+            git checkout -B tacz-frontier-discovery origin/tacz-frontier-discovery
+            git merge origin/main --no-edit
+          else
+            git checkout -b tacz-frontier-discovery origin/main
+          fi
+      - name: Qualify frozen creator evidence and build only the additive change
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow playwright
+          cd source
+          python3 -m py_compile docs/minecraft-gun-mods/tacz-frontier/hydrate_frontier.py
+          python3 docs/minecraft-gun-mods/tacz-frontier/hydrate_frontier.py
+          if [ -f docs/minecraft-gun-mods/tacz-frontier/build_frontier.py ]; then
+            python3 docs/minecraft-gun-mods/tacz-frontier/build_frontier.py
+            node --check docs/minecraft-gun-mods/app.js
+            node --check docs/minecraft-gun-mods/tacz/app.js
+          fi
+      - name: Persist the coherent source and exact media before browser gates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/frontier-build-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/tacz-frontier ':!docs/minecraft-gun-mods/tacz-frontier/cache' ':!docs/minecraft-gun-mods/tacz-frontier/working-evidence' ':!docs/minecraft-gun-mods/tacz-frontier/__pycache__'
+          if [ -f docs/TaCZ-Gunpack-Creator-Frontier.md ]; then
+            git add docs/minecraft-gun-mods/catalog.json docs/minecraft-gun-mods/catalog.js docs/minecraft-gun-mods/app.js docs/minecraft-gun-mods/index.html docs/minecraft-gun-mods/tacz/catalog.json docs/minecraft-gun-mods/tacz/catalog.js docs/minecraft-gun-mods/tacz/app.js docs/minecraft-gun-mods/tacz/index.html docs/minecraft-gun-mods/creator-discoveries/build_update.py docs/minecraft-gun-mods/creator-discoveries/qa/data-delta.json docs/minecraft-gun-mods/wiki-manifest.json docs/minecraft-gun-mods/qa/data-verification.json docs/TaCZ-Gunpack*.md docs/Minecraft-Gun-Mod-Inspirations*.md
+          fi
+          if ! git diff --cached --quiet; then git commit -m 'Add source-qualified TaCZ creator frontier without changing prior collection identities'; fi
+          git push origin HEAD:tacz-frontier-discovery
+          git rev-parse HEAD > docs/minecraft-gun-mods/tacz-frontier/qa/source-commit.txt
+      - name: Test every new record and preserved browser collection behavior
+        run: |
+          if [ -f source/docs/minecraft-gun-mods/tacz-frontier/test_frontier.py ]; then
+            if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install --with-deps chromium; fi
+            python3 source/docs/minecraft-gun-mods/tacz-frontier/test_frontier.py
+            python3 source/docs/minecraft-gun-mods/qa/browser_test.py --output source/docs/minecraft-gun-mods/tacz-frontier/qa/parent
+            python3 source/docs/minecraft-gun-mods/tacz/test_tacz.py --output source/docs/minecraft-gun-mods/tacz-frontier/qa/tacz
+          fi
+      - name: Persist exact acceptance on the same review branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/frontier-build-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          if [ -f docs/minecraft-gun-mods/tacz-frontier/qa/targeted/report.json ]; then
+            git add docs/minecraft-gun-mods/tacz-frontier/qa
+            if ! git diff --cached --quiet; then git commit -m 'Verify creator-frontier records, metrics, previews and preserved explorer controls'; git push origin HEAD:tacz-frontier-discovery; fi
+          fi
+      - name: Preserve the complete new source and visual acceptance
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-frontier-built
+          path: |
+            source/docs/minecraft-gun-mods/tacz-frontier/
+            source/docs/minecraft-gun-mods/catalog.json
+            source/docs/minecraft-gun-mods/tacz/catalog.json
+            source/docs/minecraft-gun-mods/creator-discoveries/build_update.py
+            source/docs/TaCZ-Gunpack*.md
+            source/docs/Minecraft-Gun-Mod-Inspirations.md
+            !source/docs/minecraft-gun-mods/tacz-frontier/cache/**
+            !source/docs/minecraft-gun-mods/tacz-frontier/working-evidence/**
+            !source/docs/minecraft-gun-mods/tacz-frontier/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
