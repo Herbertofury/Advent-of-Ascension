@@ -1,0 +1,68 @@
+name: Seal TaCZ Creator Frontier
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/tacz-frontier-seal.yml']
+permissions:
+  contents: write
+jobs:
+  seal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Continue exact tested review source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/frontier-seal-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 100 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/tacz-frontier/\n/docs/minecraft-gun-mods/catalog.json\n/docs/minecraft-gun-mods/catalog.js\n/docs/minecraft-gun-mods/app.js\n/docs/minecraft-gun-mods/index.html\n/docs/minecraft-gun-mods/tacz/catalog.json\n/docs/minecraft-gun-mods/tacz/catalog.js\n/docs/minecraft-gun-mods/tacz/app.js\n/docs/minecraft-gun-mods/tacz/index.html\n' > .git/info/sparse-checkout
+          git fetch --depth 100 origin refs/heads/tacz-frontier-discovery:refs/remotes/origin/tacz-frontier-discovery refs/heads/main:refs/remotes/origin/main
+          git checkout -B tacz-frontier-discovery origin/tacz-frontier-discovery
+          test "$(git rev-parse HEAD)" = 4483c3e09051386760fb7b427f8d1b89cd320e7e
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge origin/main --no-edit
+      - name: Remove only duplicate test exports and prevent recurrence
+        run: |
+          cd source
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json,subprocess
+          root=Path('docs/minecraft-gun-mods');front=root/'tacz-frontier'
+          paths=[root/n for n in ('catalog.json','catalog.js','app.js','index.html','tacz/catalog.json','tacz/catalog.js','tacz/app.js','tacz/index.html')]
+          hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+          protected={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (front/'qa').rglob('*.json') if p.name in ('report.json','browser-report.json','data-delta.json','idempotence.json')}
+          for p in ('qa/targeted/report.json','qa/parent/browser-report.json','qa/tacz/browser-report.json'):
+              report=json.loads((front/p).read_text());assert report['passed'] and all(x['passed'] for x in report['checks'])
+          tracked=subprocess.check_output(['git','ls-files',str(front/'qa')],text=True).splitlines()
+          redundant=[p for p in tracked if Path(p).name in ('test-export.json','test-export.csv','export.json','export.csv','collection.json','import-test.json')]
+          for p in redundant:subprocess.run(['git','rm','--',p],check=True)
+          (front/'.gitignore').write_text('cache/\nworking-evidence/\n__pycache__/\nqa/**/test-export.*\nqa/**/export.*\nqa/**/collection.json\nqa/**/import-test.json\n')
+          publisher=front/'publish_frontier.py';text=publisher.read_text();old="'creator-review.json','export.json','export.csv','collection.json','followup-evidence.json'";new="'creator-review.json','export.json','export.csv','test-export.json','test-export.csv','collection.json','import-test.json','followup-evidence.json'"
+          assert old in text or new in text
+          publisher.write_text(text.replace(old,new))
+          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in hashes.items())
+          assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in protected.items())
+          report={'passed':True,'removedDuplicateTestOutputs':redundant,'testedRuntimeAndDataUnchanged':hashes,'acceptanceReceiptsUnchanged':protected,'reason':'Browser export functionality was tested; duplicate exported datasets are not additional research source or deliverables.'}
+          (front/'qa/release-hygiene.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Persist the exact publication candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          export GIT_ASKPASS="$RUNNER_TEMP/frontier-seal-askpass.sh" GIT_TERMINAL_PROMPT=0
+          cd source
+          git add docs/minecraft-gun-mods/tacz-frontier/.gitignore docs/minecraft-gun-mods/tacz-frontier/publish_frontier.py docs/minecraft-gun-mods/tacz-frontier/qa/release-hygiene.json
+          git commit -m 'Exclude duplicate browser test exports without changing verified catalog or runtime'
+          git push origin HEAD:tacz-frontier-discovery
+          git rev-parse HEAD
