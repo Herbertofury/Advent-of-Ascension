@@ -1,0 +1,56 @@
+name: TaCZ creator frontier
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tacz-frontier.yml'
+      - 'docs/minecraft-gun-mods/tacz-frontier/stage.txt'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: tacz-frontier-discovery
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Open the exact existing catalog and reusable source parsers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ASKPASS="$RUNNER_TEMP/frontier-askpass.sh"
+          printf '#!/bin/sh\ncase "$1" in *Username*) echo x-access-token ;; *) printf "%%s\\n" "$GH_TOKEN" ;; esac\n' > "$ASKPASS"
+          chmod 700 "$ASKPASS"
+          export GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/${GITHUB_REPOSITORY}.git" source
+          cd source
+          git sparse-checkout init --no-cone
+          printf '/docs/minecraft-gun-mods/\n!/docs/minecraft-gun-mods/assets/\n!/docs/minecraft-gun-mods/tacz/assets/\n!/docs/minecraft-gun-mods/tacz-deep-discovery/assets/\n' > .git/info/sparse-checkout
+          git checkout "$GITHUB_SHA"
+      - name: Search only the new frontier and record every coverage boundary
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet requests beautifulsoup4 pillow
+          cd source
+          python3 -m py_compile docs/minecraft-gun-mods/tacz-frontier/discover_frontier.py
+          if [ -f docs/minecraft-gun-mods/tacz-frontier/run.py ]; then
+            python3 docs/minecraft-gun-mods/tacz-frontier/run.py
+          else
+            python3 docs/minecraft-gun-mods/tacz-frontier/discover_frontier.py
+          fi
+      - name: Preserve complete evidence without publishing unqualified candidates
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: tacz-frontier-research
+          path: |
+            source/docs/minecraft-gun-mods/tacz-frontier/
+            !source/docs/minecraft-gun-mods/tacz-frontier/__pycache__/**
+          retention-days: 30
+          if-no-files-found: error
